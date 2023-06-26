@@ -1,0 +1,110 @@
+{
+  "_categories": [
+    "studyTarget"
+  ],
+  "_type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "label": "Parcellation entity",
+  "name": "ParcellationEntity",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/hasAnnotation": {
+      "_instruction": "Add the atlas annotation which this parcellation entity defines.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/AtlasAnnotation"
+      ],
+      "label": "Has annotation",
+      "name": "hasAnnotation",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/hasParent": {
+      "_instruction": "Add for this parcellation entity the defined anatomical parent structure.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/ParcellationEntity"
+      ],
+      "description": "Reference to a parent object or legal person.",
+      "label": "Has parent",
+      "name": "hasParent",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/isPartOf": {
+      "_instruction": "Add one or several parcellation terminologies to which this parcellation entity belongs.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/ParcellationTerminology"
+      ],
+      "description": "Reference to the ensemble of multiple things or beings.",
+      "label": "Is part of",
+      "minItems": 1,
+      "name": "isPartOf",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Enter the name for this parcellation entity.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "multiline": false,
+      "name": "name",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the ontological term matching this parcellation entity.",
+      "description": "Term or code used to identify something or someone registered within a particular ontology.",
+      "formatting": "text/plain",
+      "label": "Ontology identifier",
+      "multiline": false,
+      "name": "ontologyIdentifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/relatedUBERONTerm": {
+      "_instruction": "Add the related UBERON parcellation term.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation"
+      ],
+      "label": "Related uberonterm",
+      "name": "relatedUBERONTerm",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/relationAssessment": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/sands/QualitativeRelationAssessment",
+        "https://openminds.ebrains.eu/sands/QuantitativeRelationAssessment"
+      ],
+      "_instruction": "Add one or several relations of this parcellation entity to parcellation entities of other parcellation terminologies.",
+      "label": "Relation assessment",
+      "minItems": 1,
+      "name": "relationAssessment",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/versionIdentifier": {
+      "_instruction": "Enter the version identifier of this parcellation entity.",
+      "description": "Term or code used to identify the version of something.",
+      "formatting": "text/plain",
+      "label": "Version identifier",
+      "multiline": false,
+      "name": "versionIdentifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/versionInnovation": {
+      "_instruction": "Enter a short description of the novelties/peculiarities of this parcellation entity.",
+      "description": "Documentation on what changed in comparison to a previously published form of something.",
+      "formatting": "text/plain",
+      "label": "Version innovation",
+      "multiline": false,
+      "name": "versionInnovation",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/isPartOf",
+    "https://openminds.ebrains.eu/vocab/name",
+    "https://openminds.ebrains.eu/vocab/relatedUBERONTerm",
+    "https://openminds.ebrains.eu/vocab/versionIdentifier",
+    "https://openminds.ebrains.eu/vocab/versionInnovation"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/BrainAtlas",
+  "description": "Structured information on a brain atlas (concept level).",
+  "label": "Brain atlas",
+  "name": "BrainAtlas",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/description": {
+      "_instruction": "Enter a short description for this brain atlas.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/plain",
+      "label": "Description",
+      "multiline": false,
+      "name": "description",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/fullName": {
+      "_instruction": "Enter a descriptive full name for this brain atlas.",
+      "description": "Whole, non-abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Full name",
+      "multiline": false,
+      "name": "fullName",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/hasVersion": {
+      "_instruction": "Add one or several brain atlas versions that belong to this brain atlas.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
+      ],
+      "description": "Reference to variants of an original.",
+      "label": "Has version",
+      "minItems": 1,
+      "name": "hasVersion",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/homepage": {
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this brain atlas.",
+      "description": "Main website of something or someone.",
+      "format": "iri",
+      "formatting": "text/plain",
+      "label": "Homepage",
+      "multiline": false,
+      "name": "homepage",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/shortName": {
+      "_instruction": "Enter a descriptive short name for this brain atlas.",
+      "description": "Shortened or fully abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Short name",
+      "multiline": false,
+      "name": "shortName",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/description",
+    "https://openminds.ebrains.eu/vocab/fullName",
+    "https://openminds.ebrains.eu/vocab/hasVersion",
+    "https://openminds.ebrains.eu/vocab/shortName"
+  ]
+}

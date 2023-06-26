@@ -1,0 +1,505 @@
+{
+  "_categories": [
+    "researchProduct",
+    "setupComponent"
+  ],
+  "_type": "https://openminds.ebrains.eu/core/SoftwareVersion",
+  "label": "Software version",
+  "name": "SoftwareVersion",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/accessibility": {
+      "_instruction": "Add the accessibility of the data for this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility"
+      ],
+      "description": "Level to which something is accessible to someone or something.",
+      "label": "Accessibility",
+      "name": "accessibility",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/applicationCategory": {
+      "_instruction": "Add all categories to which this software version belongs.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory"
+      ],
+      "description": "Distinct class that groups software programs which perform a similar task or set of tasks.",
+      "label": "Application category",
+      "minItems": 1,
+      "name": "applicationCategory",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/copyright": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Copyright"
+      ],
+      "_instruction": "Enter the copyright information of this research product version.",
+      "description": "Exclusive and assignable legal right of an originator to reproduce, publish, sell, or distribute the matter and form of a creative work for a defined time period.",
+      "label": "Copyright",
+      "name": "copyright",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/custodian": {
+      "_instruction": "Add all parties that fulfill the role of a custodian for the research product version (e.g., a research group leader or principle investigator). Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the data, metadata, and/or code of the research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Consortium",
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "description": "The 'custodian' is a legal person who is responsible for the content and quality of the data, metadata, and/or code of a research product.",
+      "label": "Custodian",
+      "minItems": 1,
+      "name": "custodian",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/description": {
+      "_instruction": "Enter a description (or abstract) of this research product version. Note that this version specific description will overwrite the description for the overarching dataset.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/plain",
+      "label": "Description",
+      "multiline": false,
+      "name": "description",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/developer": {
+      "_instruction": "Add all parties that developed this software version. Note that these developers will overwrite the developer list provided for the overarching software.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Consortium",
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "description": "Legal person that creates or improves products or services (e.g., software, applications, etc.).",
+      "label": "Developer",
+      "minItems": 1,
+      "name": "developer",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/device": {
+      "_instruction": "Add all operating devices compatible with this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/OperatingDevice"
+      ],
+      "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
+      "label": "Device",
+      "minItems": 1,
+      "name": "device",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/SWHID",
+        "https://openminds.ebrains.eu/core/RRID"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/feature": {
+      "_instruction": "Add all distinguishing characteristics of this software version (e.g., performance, portability or functionality).",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
+      ],
+      "description": "Structure, form, or appearance that characterizes something or someone.",
+      "label": "Feature",
+      "minItems": 1,
+      "name": "feature",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/fullDocumentation": {
+      "_instruction": "Add the publication or file that acts as the full documentation of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/WebResource"
+      ],
+      "description": "Non-abridged instructions, comments, and information for using a particular product.",
+      "label": "Full documentation",
+      "name": "fullDocumentation",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/fullName": {
+      "_instruction": "Enter a descriptive full name (or title) for this research product version. Note that this version specific full name will overwrite the full name for the overarching dataset.",
+      "description": "Whole, non-abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Full name",
+      "multiline": false,
+      "name": "fullName",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/funding": {
+      "_instruction": "Add all funding information of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Funding"
+      ],
+      "description": "Money provided by a legal person for a particular purpose.",
+      "label": "Funding",
+      "minItems": 1,
+      "name": "funding",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/hasPart": {
+      "_instruction": "Add all software versions that supplement this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
+      ],
+      "label": "Has part",
+      "minItems": 1,
+      "name": "hasPart",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/homepage": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product version.",
+      "description": "Main website of something or someone.",
+      "formatting": "text/plain",
+      "label": "Homepage",
+      "multiline": false,
+      "name": "homepage",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/howToCite": {
+      "_instruction": "Enter the preferred citation text for this research product version. Leave blank if citation text can be extracted from the assigned digital identifier.",
+      "description": "Preferred format for citing a particular object or legal person.",
+      "formatting": "text/plain",
+      "label": "How to cite",
+      "multiline": false,
+      "name": "howToCite",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/inputFormat": {
+      "_instruction": "Add all content types that can be used as input by this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ],
+      "description": "Format of data that is put into a process or machine.",
+      "label": "Input format",
+      "minItems": 1,
+      "name": "inputFormat",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/isAlternativeVersionOf": {
+      "_instruction": "Add all software versions that can be used alternatively to this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
+      ],
+      "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
+      "label": "Is alternative version of",
+      "minItems": 1,
+      "name": "isAlternativeVersionOf",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/isNewVersionOf": {
+      "_instruction": "Add the software version preceding this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
+      ],
+      "description": "Reference to a previous (potentially outdated) particular form of something.",
+      "label": "Is new version of",
+      "name": "isNewVersionOf",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/keyword": {
+      "_instruction": "Add all relevant keywords to this research product version either by adding controlled terms or by suggesting new terms.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/ActionStatusType",
+        "https://openminds.ebrains.eu/controlledTerms/AgeCategory",
+        "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalIdentificationType",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalPlane",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationCriteriaType",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationType",
+        "https://openminds.ebrains.eu/controlledTerms/AtlasType",
+        "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalOrder",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
+        "https://openminds.ebrains.eu/controlledTerms/BreedingType",
+        "https://openminds.ebrains.eu/controlledTerms/CellCultureType",
+        "https://openminds.ebrains.eu/controlledTerms/CellType",
+        "https://openminds.ebrains.eu/controlledTerms/ChemicalMixtureType",
+        "https://openminds.ebrains.eu/controlledTerms/Colormap",
+        "https://openminds.ebrains.eu/controlledTerms/ContributionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowConstructionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowReinforcementType",
+        "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType",
+        "https://openminds.ebrains.eu/controlledTerms/DataType",
+        "https://openminds.ebrains.eu/controlledTerms/DeviceType",
+        "https://openminds.ebrains.eu/controlledTerms/DifferenceMeasure",
+        "https://openminds.ebrains.eu/controlledTerms/Disease",
+        "https://openminds.ebrains.eu/controlledTerms/DiseaseModel",
+        "https://openminds.ebrains.eu/controlledTerms/EducationalLevel",
+        "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment",
+        "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach",
+        "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping",
+        "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType",
+        "https://openminds.ebrains.eu/controlledTerms/FileUsageRole",
+        "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType",
+        "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Handedness",
+        "https://openminds.ebrains.eu/controlledTerms/Language",
+        "https://openminds.ebrains.eu/controlledTerms/Laterality",
+        "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
+        "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
+        "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel",
+        "https://openminds.ebrains.eu/controlledTerms/ModelScope",
+        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/OperatingDevice",
+        "https://openminds.ebrains.eu/controlledTerms/OperatingSystem",
+        "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Organ",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSystem",
+        "https://openminds.ebrains.eu/controlledTerms/PatchClampVariation",
+        "https://openminds.ebrains.eu/controlledTerms/PreparationType",
+        "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility",
+        "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage",
+        "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap",
+        "https://openminds.ebrains.eu/controlledTerms/SemanticDataType",
+        "https://openminds.ebrains.eu/controlledTerms/Service",
+        "https://openminds.ebrains.eu/controlledTerms/SetupType",
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory",
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature",
+        "https://openminds.ebrains.eu/controlledTerms/Species",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/SubjectAttribute",
+        "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Technique",
+        "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
+        "https://openminds.ebrains.eu/controlledTerms/Terminology",
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleAttribute",
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
+        "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty",
+        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement",
+        "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType"
+      ],
+      "description": "Significant word or concept that are representative of something or someone.",
+      "label": "Keyword",
+      "minItems": 1,
+      "name": "keyword",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/language": {
+      "_instruction": "Add all languages supported by this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Language"
+      ],
+      "description": "System of communication (words, their pronunciation, and the methods of combining them) used and understood by a particular community.",
+      "label": "Language",
+      "minItems": 1,
+      "name": "language",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/license": {
+      "_instruction": "Add all licenses of this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/License"
+      ],
+      "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
+      "label": "License",
+      "minItems": 1,
+      "name": "license",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/operatingSystem": {
+      "_instruction": "Add all operating systems supported by this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/OperatingSystem"
+      ],
+      "description": "Software that controls the operation of a computer and directs the processing of programs.",
+      "label": "Operating system",
+      "minItems": 1,
+      "name": "operatingSystem",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/otherContribution": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Contribution"
+      ],
+      "_instruction": "Add any other contributions to this research product version that are not covered under 'author'/'developer' or 'custodian'.",
+      "description": "Giving or supplying of something (such as money or time) as a part or share other than what is covered elsewhere.",
+      "label": "Other contribution",
+      "minItems": 1,
+      "name": "otherContribution",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/outputFormat": {
+      "_instruction": "Add all content types that can be generated as output by this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ],
+      "description": "Format of data that comes out of, is delivered or produced by a process or machine.",
+      "label": "Output format",
+      "minItems": 1,
+      "name": "outputFormat",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/programmingLanguage": {
+      "_instruction": "Add all programming languages used to develop this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage"
+      ],
+      "description": "Distinct set of instructions for computer programs in order to produce various kinds of output.",
+      "label": "Programming language",
+      "minItems": 1,
+      "name": "programmingLanguage",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/relatedPublication": {
+      "_instruction": "Add all further publications besides the full documentation that provide the original context for the production of this research product version (e.g., an original research article that used or produced the data of this research product version).",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/HANDLE",
+        "https://openminds.ebrains.eu/core/ISBN",
+        "https://openminds.ebrains.eu/core/ISSN",
+        "https://openminds.ebrains.eu/publications/Book",
+        "https://openminds.ebrains.eu/publications/Chapter",
+        "https://openminds.ebrains.eu/publications/ScholarlyArticle"
+      ],
+      "description": "Reference to something that was made available for the general public to see or buy.",
+      "label": "Related publication",
+      "minItems": 1,
+      "name": "relatedPublication",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/releaseDate": {
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the date (actual or intended) on which this research product version was first release, formatted as 'YYYY-MM-DD'.",
+      "description": "Fixed date on which a product is due to become or was made available for the general public to see or buy",
+      "formatting": "text/plain",
+      "label": "Release date",
+      "multiline": false,
+      "name": "releaseDate",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/repository": {
+      "_instruction": "Add the file repository of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/FileRepository"
+      ],
+      "description": "Place, room, or container where something is deposited or stored.",
+      "label": "Repository",
+      "name": "repository",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/requirement": {
+      "_instruction": "Enter all requirements of this software version.",
+      "description": "Something essential to the existence, occurrence or function of something else.",
+      "formatting": "text/plain",
+      "items": {
+        "type": "string"
+      },
+      "label": "Requirement",
+      "minItems": 1,
+      "multiline": false,
+      "name": "requirement",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/shortName": {
+      "_instruction": "Enter a short name (or alias) for this research product version that could be used as a shortened display title (e.g., for web services with too little space to display the full name).",
+      "description": "Shortened or fully abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Short name",
+      "multiline": false,
+      "name": "shortName",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/supportChannel": {
+      "_instruction": "Enter all channels through which a user can receive support for handling this research product version.",
+      "description": "Way of communication used to interact with users or customers.",
+      "formatting": "text/plain",
+      "items": {
+        "_formats": [
+          "email",
+          "iri"
+        ],
+        "type": "string"
+      },
+      "label": "Support channel",
+      "minItems": 1,
+      "multiline": false,
+      "name": "supportChannel",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/versionIdentifier": {
+      "_instruction": "Enter the version identifier of this research product version.",
+      "description": "Term or code used to identify the version of something.",
+      "formatting": "text/plain",
+      "label": "Version identifier",
+      "multiline": false,
+      "name": "versionIdentifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/versionInnovation": {
+      "_instruction": "Enter a short description (or summary) of the novelties/peculiarities of this research product version in comparison to its preceding versions. If this research product version is the first version, you can enter the following disclaimer 'This is the first version of this research product'.",
+      "description": "Documentation on what changed in comparison to a previously published form of something.",
+      "formatting": "text/plain",
+      "label": "Version innovation",
+      "multiline": false,
+      "name": "versionInnovation",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/accessibility",
+    "https://openminds.ebrains.eu/vocab/applicationCategory",
+    "https://openminds.ebrains.eu/vocab/device",
+    "https://openminds.ebrains.eu/vocab/feature",
+    "https://openminds.ebrains.eu/vocab/fullDocumentation",
+    "https://openminds.ebrains.eu/vocab/language",
+    "https://openminds.ebrains.eu/vocab/license",
+    "https://openminds.ebrains.eu/vocab/operatingSystem",
+    "https://openminds.ebrains.eu/vocab/programmingLanguage",
+    "https://openminds.ebrains.eu/vocab/releaseDate",
+    "https://openminds.ebrains.eu/vocab/shortName",
+    "https://openminds.ebrains.eu/vocab/versionIdentifier",
+    "https://openminds.ebrains.eu/vocab/versionInnovation"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/AnatomicalTargetPosition",
+  "label": "Anatomical target position",
+  "name": "AnatomicalTargetPosition",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/additionalRemarks": {
+      "_instruction": "Enter any additional remarks concering this anatomical target position.",
+      "description": "Mention of what deserves additional attention or notice.",
+      "formatting": "text/plain",
+      "label": "Additional remarks",
+      "multiline": false,
+      "name": "additionalRemarks",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/anatomicalTarget": {
+      "_instruction": "Add all anatomical entities that describe the target position(s).",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/CellType",
+        "https://openminds.ebrains.eu/controlledTerms/Organ",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
+        "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
+        "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
+        "https://openminds.ebrains.eu/sands/ParcellationEntity",
+        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+      ],
+      "label": "Anatomical target",
+      "minItems": 1,
+      "name": "anatomicalTarget",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/spatialLocation": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/sands/CoordinatePoint"
+      ],
+      "_instruction": "Add all coordinate points that describe the spatial location of the anatomical target structure(s).",
+      "label": "Spatial location",
+      "minItems": 1,
+      "name": "spatialLocation",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/targetIdentificationType": {
+      "_instruction": "Add the target identification type that best describes how the this anatomical target position was identified.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalIdentificationType"
+      ],
+      "label": "Target identification type",
+      "name": "targetIdentificationType",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/anatomicalTarget",
+    "https://openminds.ebrains.eu/vocab/targetIdentificationType"
+  ]
+}

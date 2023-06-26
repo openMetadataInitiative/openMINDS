@@ -1,0 +1,94 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/FileInstance",
+  "description": "Structured information on a file instances.",
+  "label": "File instance",
+  "name": "FileInstance",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/IRI": {
+      "_instruction": "Enter the internationalized resource identifier of this file instance.",
+      "description": "Stands for Internationalized Resource Identifier which is an internet protocol standard that builds on the URI protocol, extending the set of permitted characters to include Unicode/ISO 10646.",
+      "format": "iri",
+      "formatting": "text/plain",
+      "label": "Iri",
+      "multiline": false,
+      "name": "IRI",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/content": {
+      "_instruction": "Enter a short content description for this file instance.",
+      "description": "Something that is contained.",
+      "formatting": "text/plain",
+      "label": "Content",
+      "multiline": false,
+      "name": "content",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/format": {
+      "_instruction": "Add the content type of this file instance.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ],
+      "description": "Method of digitally organizing and structuring data or information.",
+      "label": "Format",
+      "name": "format",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/hash": {
+      "_instruction": "Add the hash that was generated for this file instance.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Hash"
+      ],
+      "description": "Term used for the process of converting any data into a single value. Often also directly refers to the resulting single value.",
+      "label": "Hash",
+      "name": "hash",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/isPartOf": {
+      "_instruction": "Add one or several file bundles in which this file instance can be grouped in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/FileBundle"
+      ],
+      "description": "Reference to the ensemble of multiple things or beings.",
+      "label": "Is part of",
+      "minItems": 1,
+      "name": "isPartOf",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Enter the name of this file instance.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "multiline": false,
+      "name": "name",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/specialUsageRole": {
+      "_instruction": "Add a special usage role for this file instance.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/fileUsageRole"
+      ],
+      "description": "Particular function of something when it is used.",
+      "label": "Special usage role",
+      "name": "specialUsageRole",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/storageSize": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the storage size this file instance allocates.",
+      "description": "Quantitative value defining how much disk space is used by an object on a computer system.",
+      "label": "Storage size",
+      "name": "storageSize",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/IRI",
+    "https://openminds.ebrains.eu/vocab/isPartOf",
+    "https://openminds.ebrains.eu/vocab/name"
+  ]
+}

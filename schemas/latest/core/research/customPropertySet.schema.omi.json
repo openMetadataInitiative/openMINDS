@@ -1,0 +1,45 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/CustomPropertySet",
+  "description": "Structured information about properties of an entity that are not represented in an openMINDS schema.",
+  "label": "Custom property set",
+  "name": "CustomPropertySet",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/context": {
+      "_instruction": "Enter the common context for this custom property set.",
+      "formatting": "text/plain",
+      "label": "Context",
+      "multiline": false,
+      "name": "context",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/dataLocation": {
+      "_instruction": "Add the location of the data that define the custom property set for the given context (e.g., stored as file or other entities such as property-value lists).",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Configuration",
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/PropertyValueList"
+      ],
+      "label": "Data location",
+      "name": "dataLocation",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/relevantFor": {
+      "_instruction": "Add the technique for which this custom property set is relevant.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/Technique"
+      ],
+      "description": "Reference to what or whom something or someone bears siginificance.",
+      "label": "Relevant for",
+      "name": "relevantFor",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/context",
+    "https://openminds.ebrains.eu/vocab/dataLocation",
+    "https://openminds.ebrains.eu/vocab/relevantFor"
+  ]
+}

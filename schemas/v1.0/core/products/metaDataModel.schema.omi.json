@@ -1,0 +1,75 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/MetaDataModel",
+  "label": "Meta data model",
+  "name": "MetaDataModel",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/description": {
+      "_instruction": "Enter a description (abstract) for this research product (max. 2000 characters, incl. spaces; no references).",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/plain",
+      "label": "Description",
+      "maxLength": 2000,
+      "multiline": false,
+      "name": "description",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this research product.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/fullName": {
+      "_instruction": "Enter a descriptive full name (title) for this research product.",
+      "description": "Whole, non-abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Full name",
+      "multiline": false,
+      "name": "fullName",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/hasVersion": {
+      "_instruction": "Add one or several versions of this (meta)data model.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/MetaDataModelVersion"
+      ],
+      "description": "Reference to variants of an original.",
+      "label": "Has version",
+      "minItems": 1,
+      "name": "hasVersion",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/homepage": {
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product.",
+      "description": "Main website of something or someone.",
+      "format": "iri",
+      "formatting": "text/plain",
+      "label": "Homepage",
+      "multiline": false,
+      "name": "homepage",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/shortName": {
+      "_instruction": "Enter a short name (alias) for this research product (max. 30 characters; no space).",
+      "description": "Shortened or fully abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Short name",
+      "maxLength": 30,
+      "multiline": false,
+      "name": "shortName",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/description",
+    "https://openminds.ebrains.eu/vocab/digitalIdentifier",
+    "https://openminds.ebrains.eu/vocab/fullName",
+    "https://openminds.ebrains.eu/vocab/shortName"
+  ]
+}

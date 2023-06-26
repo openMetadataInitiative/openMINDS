@@ -1,0 +1,97 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+  "label": "Parcellation terminology",
+  "name": "ParcellationTerminology",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/definedIn": {
+      "_instruction": "Add one or several files in which this parcellation terminology is stored in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ],
+      "description": "Reference to a file instance in which something is stored.",
+      "label": "Defined in",
+      "minItems": 1,
+      "name": "definedIn",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/fullName": {
+      "_instruction": "Enter a descriptive full name for this parcellation terminology.",
+      "description": "Whole, non-abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Full name",
+      "multiline": false,
+      "name": "fullName",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/isAlternativeVersionOf": {
+      "_instruction": "Add one or several alternative versions to this parcellation terminology.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
+      ],
+      "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
+      "label": "Is alternative version of",
+      "minItems": 1,
+      "name": "isAlternativeVersionOf",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/isNewVersionOf": {
+      "_instruction": "Add the earlier version of this parcellation terminology.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
+      ],
+      "description": "Reference to a previous (potentially outdated) particular form of something.",
+      "label": "Is new version of",
+      "name": "isNewVersionOf",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this parcellation terminology.",
+      "description": "Term or code used to identify something or someone registered within a particular ontology.",
+      "formatting": "text/plain",
+      "label": "Ontology identifier",
+      "multiline": false,
+      "name": "ontologyIdentifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/shortName": {
+      "_instruction": "Enter a descriptive short name for this parcellation terminology.",
+      "description": "Shortened or fully abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Short name",
+      "multiline": false,
+      "name": "shortName",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/versionIdentifier": {
+      "_instruction": "Enter the version identifier of this parcellation terminology.",
+      "description": "Term or code used to identify the version of something.",
+      "formatting": "text/plain",
+      "label": "Version identifier",
+      "multiline": false,
+      "name": "versionIdentifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/versionInnovation": {
+      "_instruction": "Enter a short description of the novelties/peculiarities of this parcellation terminology.",
+      "description": "Documentation on what changed in comparison to a previously published form of something.",
+      "formatting": "text/plain",
+      "label": "Version innovation",
+      "multiline": false,
+      "name": "versionInnovation",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/fullName",
+    "https://openminds.ebrains.eu/vocab/shortName",
+    "https://openminds.ebrains.eu/vocab/versionIdentifier",
+    "https://openminds.ebrains.eu/vocab/versionInnovation"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+  "description": "Structured information on a quantitative value.",
+  "label": "Quantitative value",
+  "name": "QuantitativeValue",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/typeOfUncertainty": {
+      "_instruction": "Add the type of uncertainty used to determine the uncertainity for this quantitative value.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty"
+      ],
+      "description": "Distinct technique used to quantify the uncertainty of a measurement.",
+      "label": "Type of uncertainty",
+      "name": "typeOfUncertainty",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/uncertainty": {
+      "_instruction": "Enter the uncertainty of this quantitative value.",
+      "description": "Quantitative value range defining the uncertainty of a measurement.",
+      "items": {
+        "type": "number"
+      },
+      "label": "Uncertainty",
+      "maxItems": 2,
+      "minItems": 2,
+      "name": "uncertainty",
+      "type": "array"
+    },
+    "https://openminds.ebrains.eu/vocab/unit": {
+      "_instruction": "Add the unit of measurement of this quantitative value and its uncertainty.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+      ],
+      "description": "Determinate quantity adopted as a standard of measurement.",
+      "label": "Unit",
+      "name": "unit",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/value": {
+      "_instruction": "Enter the value of this quantitative value.",
+      "description": "Entry for a property.",
+      "label": "Value",
+      "name": "value",
+      "type": "number"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/value"
+  ]
+}

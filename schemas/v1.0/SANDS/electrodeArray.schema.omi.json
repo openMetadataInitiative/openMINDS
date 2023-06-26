@@ -1,0 +1,34 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/ElectrodeArray",
+  "description": "Structured information on an electrode array.",
+  "label": "Electrode array",
+  "name": "ElectrodeArray",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/electrodes": {
+      "_instruction": "Add two or more electrodes which build this array.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/Electrode"
+      ],
+      "description": "Elements in a semiconductor device that emits or collects electrons or holes or controls their movements.",
+      "label": "Electrodes",
+      "minItems": 2,
+      "name": "electrodes",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/internalIdentifier": {
+      "_instruction": "Enter the identifier used for this electrode array within the file it is stored in.",
+      "description": "Term or code that identifies someone or something within a particular product.",
+      "formatting": "text/plain",
+      "label": "Internal identifier",
+      "multiline": false,
+      "name": "internalIdentifier",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/electrodes",
+    "https://openminds.ebrains.eu/vocab/internalIdentifier"
+  ]
+}

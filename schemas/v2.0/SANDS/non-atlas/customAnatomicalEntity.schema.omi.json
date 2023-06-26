@@ -1,0 +1,44 @@
+{
+  "_categories": [
+    "studyTarget"
+  ],
+  "_type": "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
+  "label": "Custom anatomical entity",
+  "name": "CustomAnatomicalEntity",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/hasAnnotation": {
+      "_instruction": "Add the custom annotation which this custom anatomical entity defines.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CustomAnnotation"
+      ],
+      "label": "Has annotation",
+      "name": "hasAnnotation",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Enter a descriptive name for this custom anatomical entity.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "multiline": false,
+      "name": "name",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/relationAssessment": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/sands/QualitativeRelationAssessment",
+        "https://openminds.ebrains.eu/sands/QuantitativeRelationAssessment"
+      ],
+      "_instruction": "Add one or several relations of this custom anatomical entity to parcellation entities used in defined parcellation terminologies.",
+      "label": "Relation assessment",
+      "minItems": 1,
+      "name": "relationAssessment",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/name"
+  ]
+}

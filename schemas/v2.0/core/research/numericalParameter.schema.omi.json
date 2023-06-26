@@ -1,0 +1,33 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/NumericalParameter",
+  "label": "Numerical parameter",
+  "name": "NumericalParameter",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Enter a descriptive name for this numerical parameter.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "multiline": false,
+      "name": "name",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/value": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ],
+      "_instruction": "Add at least one quantitative value for this parameter.",
+      "description": "Entry for a property.",
+      "label": "Value",
+      "minItems": 1,
+      "name": "value",
+      "nameForReverseLink": null,
+      "type": "array"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/name",
+    "https://openminds.ebrains.eu/vocab/value"
+  ]
+}

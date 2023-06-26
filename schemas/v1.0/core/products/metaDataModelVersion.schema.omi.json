@@ -1,0 +1,315 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/MetaDataModelVersion",
+  "label": "Meta data model version",
+  "name": "MetaDataModelVersion",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/accessibility": {
+      "_instruction": "Add the accessibility of the data for this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility"
+      ],
+      "description": "Level to which something is accessible to someone or something.",
+      "label": "Accessibility",
+      "name": "accessibility",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/author": {
+      "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "description": "Creator of a literary or creative work, as well as a dataset publication.",
+      "label": "Author",
+      "minItems": 1,
+      "name": "author",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/copyright": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Copyright"
+      ],
+      "_instruction": "Add the copyright information of this research product version.",
+      "description": "Exclusive and assignable legal right of an originator to reproduce, publish, sell, or distribute the matter and form of a creative work for a defined time period.",
+      "label": "Copyright",
+      "name": "copyright",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/custodian": {
+      "_instruction": "Add one or several custodians (person or organization) that are responsible for this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "description": "The 'custodian' is a legal person who is responsible for the content and quality of the data, metadata, and/or code of a research product.",
+      "label": "Custodian",
+      "minItems": 1,
+      "name": "custodian",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/description": {
+      "_instruction": "Enter a description (abstract) for this research product (max. 2000 characters, incl. spaces; no references).",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/plain",
+      "label": "Description",
+      "maxLength": 2000,
+      "multiline": false,
+      "name": "description",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/developer": {
+      "_instruction": "Add one or several developers (person or organization) that contributed to the code implementation of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "description": "Legal person that creates or improves products or services (e.g., software, applications, etc.).",
+      "label": "Developer",
+      "minItems": 1,
+      "name": "developer",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/fullDocumentation": {
+      "_instruction": "Add the globally unique and persistent digital identifier of a full documentation of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+      ],
+      "description": "Non-abridged instructions, comments, and information for using a particular product.",
+      "label": "Full documentation",
+      "name": "fullDocumentation",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/fullName": {
+      "_instruction": "Enter a descriptive full name (title) for this research product version.",
+      "description": "Whole, non-abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Full name",
+      "multiline": false,
+      "name": "fullName",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/funding": {
+      "_instruction": "Add all funding information of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Funding"
+      ],
+      "description": "Money provided by a legal person for a particular purpose.",
+      "label": "Funding",
+      "minItems": 1,
+      "name": "funding",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/hasAlternativeVersion": {
+      "_instruction": "Add all (meta)data model versions that can be used alternatively to this (meta)data model version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DatasetVersion"
+      ],
+      "label": "Has alternative version",
+      "minItems": 1,
+      "name": "hasAlternativeVersion",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/hasSupplementVersion": {
+      "_instruction": "Add all (meta)data model versions that supplement this (meta)data model version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DatasetVersion"
+      ],
+      "label": "Has supplement version",
+      "minItems": 1,
+      "name": "hasSupplementVersion",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/homepage": {
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product version.",
+      "description": "Main website of something or someone.",
+      "format": "iri",
+      "formatting": "text/plain",
+      "label": "Homepage",
+      "multiline": false,
+      "name": "homepage",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/isNewVersionOf": {
+      "_instruction": "Add the dataset version preceding this (meta)data model version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/MetaDataModelVersion"
+      ],
+      "description": "Reference to a previous (potentially outdated) particular form of something.",
+      "label": "Is new version of",
+      "name": "isNewVersionOf",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/keyword": {
+      "_instruction": "Enter custom keywords to this research product version.",
+      "description": "Significant word or concept that are representative of something or someone.",
+      "formatting": "text/plain",
+      "items": {
+        "type": "string"
+      },
+      "label": "Keyword",
+      "maxItems": 5,
+      "minItems": 1,
+      "multiline": false,
+      "name": "keyword",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/license": {
+      "_instruction": "Add the license of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/License"
+      ],
+      "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
+      "label": "License",
+      "name": "license",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/otherContribution": {
+      "_instruction": "Add the contributions for each involved person or organization going beyond being an author, custodian or developer of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Contribution"
+      ],
+      "description": "Giving or supplying of something (such as money or time) as a part or share other than what is covered elsewhere.",
+      "label": "Other contribution",
+      "minItems": 1,
+      "name": "otherContribution",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/relatedPublication": {
+      "_instruction": "Add further publications besides the documentation (e.g. an original research article) providing the original context for the production of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+      ],
+      "description": "Reference to something that was made available for the general public to see or buy.",
+      "label": "Related publication",
+      "minItems": 1,
+      "name": "relatedPublication",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/releaseDate": {
+      "_instruction": "Enter the date (actual or intended) of the first broadcast/publication of this research product version.",
+      "description": "Fixed date on which a product is due to become or was made available for the general public to see or buy",
+      "format": "date",
+      "formatting": "text/plain",
+      "label": "Release date",
+      "multiline": false,
+      "name": "releaseDate",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/repository": {
+      "_instruction": "Add the file repository of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/FileRepository"
+      ],
+      "description": "Place, room, or container where something is deposited or stored.",
+      "label": "Repository",
+      "name": "repository",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/serializationFormat": {
+      "_instruction": "Add all content types in which (meta)data compliant with this (meta)data model version can be stored in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ],
+      "description": "Form in which a particular data structure or object state is translated to for storage.",
+      "label": "Serialization format",
+      "minItems": 1,
+      "name": "serializationFormat",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/shortName": {
+      "_instruction": "Enter a short name (alias) for this research product version (max. 30 characters, no space).",
+      "description": "Shortened or fully abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Short name",
+      "maxLength": 30,
+      "multiline": false,
+      "name": "shortName",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/specificationFormat": {
+      "_instruction": "Add all content types in which the schemas of this (meta)data model version are stored in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ],
+      "description": "Form in which a particular data structure or object state is specified in.",
+      "label": "Specification format",
+      "minItems": 1,
+      "name": "specificationFormat",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/type": {
+      "_instruction": "Add the type of this (meta)data model version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType"
+      ],
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "label": "Type",
+      "name": "type",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/versionIdentifier": {
+      "_instruction": "Enter the version identifier of this research product version.",
+      "description": "Term or code used to identify the version of something.",
+      "formatting": "text/plain",
+      "label": "Version identifier",
+      "multiline": false,
+      "name": "versionIdentifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/versionInnovation": {
+      "_instruction": "Enter a short summary of the novelties/peculiarities of this research product version.",
+      "description": "Documentation on what changed in comparison to a previously published form of something.",
+      "formatting": "text/plain",
+      "label": "Version innovation",
+      "multiline": false,
+      "name": "versionInnovation",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/accessibility",
+    "https://openminds.ebrains.eu/vocab/description",
+    "https://openminds.ebrains.eu/vocab/developers",
+    "https://openminds.ebrains.eu/vocab/digitalIdentifier",
+    "https://openminds.ebrains.eu/vocab/fullDocumentation",
+    "https://openminds.ebrains.eu/vocab/fullName",
+    "https://openminds.ebrains.eu/vocab/funding",
+    "https://openminds.ebrains.eu/vocab/license",
+    "https://openminds.ebrains.eu/vocab/releaseDate",
+    "https://openminds.ebrains.eu/vocab/repository",
+    "https://openminds.ebrains.eu/vocab/shortName",
+    "https://openminds.ebrains.eu/vocab/type",
+    "https://openminds.ebrains.eu/vocab/versionIdentifier"
+  ]
+}

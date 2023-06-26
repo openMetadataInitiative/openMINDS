@@ -1,0 +1,17 @@
+{
+  "_type": "https://openminds.ebrains.eu/stimulation/EphysStimulus",
+  "label": "Ephys stimulus",
+  "name": "EphysStimulus",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/type": {
+      "_instruction": "Add the type that describe this electrical stimulus.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType"
+      ],
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "label": "Type",
+      "name": "type",
+      "nameForReverseLink": null
+    }
+  }
+}

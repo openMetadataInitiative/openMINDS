@@ -1,0 +1,72 @@
+{
+  "_categories": [
+    "coordinateSpace"
+  ],
+  "_type": "https://openminds.ebrains.eu/sands/CustomCoordinateSpace",
+  "label": "Custom coordinate space",
+  "name": "CustomCoordinateSpace",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/anatomicalAxesOrientation": {
+      "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (stated as XYZ) for this custom coordinate space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation"
+      ],
+      "description": "Relation between reference planes used in anatomy and mathematics.",
+      "label": "Anatomical axes orientation",
+      "name": "anatomicalAxesOrientation",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/axesOrigin": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the origin (central point where all axes intersect) of this custom coordinate space for two-dimensional spaces as [x, y] or for three-dimensional space as [x, y, z].",
+      "description": "Special point in a coordinate system used as a fixed point of reference for the geometry of the surrounding space.",
+      "label": "Axes origin",
+      "maxItems": 3,
+      "minItems": 2,
+      "name": "axesOrigin",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/defaultImage": {
+      "_instruction": "Add all image files used as visual representation of this custom coordinate space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ],
+      "description": "Two or three dimensional image that particluarly represents a specific coordinate space.",
+      "label": "Default image",
+      "minItems": 1,
+      "name": "defaultImage",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Enter a descriptive name for this custom coordinate space.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "multiline": false,
+      "name": "name",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/nativeUnit": {
+      "_instruction": "Add the native unit that is used for this custom coordinate space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+      ],
+      "description": "Determinate quantity used in the original measurement.",
+      "label": "Native unit",
+      "name": "nativeUnit",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/anatomicalAxesOrientation",
+    "https://openminds.ebrains.eu/vocab/axesOrigin",
+    "https://openminds.ebrains.eu/vocab/name",
+    "https://openminds.ebrains.eu/vocab/nativeUnit"
+  ]
+}

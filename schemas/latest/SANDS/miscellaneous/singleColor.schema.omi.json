@@ -1,0 +1,23 @@
+{
+  "_categories": [
+    "color"
+  ],
+  "_type": "https://openminds.ebrains.eu/sands/SingleColor",
+  "label": "Single color",
+  "name": "SingleColor",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/value": {
+      "_instruction": "Enter the Hex color code following the define pattern (e.g., #000000 or #C0C0C0).",
+      "description": "Entry for a property.",
+      "formatting": "text/plain",
+      "label": "Value",
+      "multiline": false,
+      "name": "value",
+      "pattern": "^#[0-9A-Fa-f]{6}$",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/value"
+  ]
+}

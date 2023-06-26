@@ -1,0 +1,149 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+  "description": "Structured information on a brain atlas (version level).",
+  "label": "Brain atlas version",
+  "name": "BrainAtlasVersion",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/annotationSet": {
+      "_instruction": "Add all annotations that belong to this brain atlas version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/Annotation"
+      ],
+      "description": "Collection of notes or markings, each added by way of comment or explanation.",
+      "label": "Annotation set",
+      "minItems": 1,
+      "name": "annotationSet",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/coordinateSpace": {
+      "_instruction": "Add the coordinate space in which this brain atlas version exists in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CoordinateSpace"
+      ],
+      "description": "Two or three dimensional geometric setting.",
+      "label": "Coordinate space",
+      "name": "coordinateSpace",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this brain atlas version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/fullName": {
+      "_instruction": "Enter a descriptive full name for this brain atlas version.",
+      "description": "Whole, non-abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Full name",
+      "multiline": false,
+      "name": "fullName",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/hasAlternativeVersion": {
+      "_instruction": "Add one or several alternative versions to this brain atlas version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
+      ],
+      "label": "Has alternative version",
+      "minItems": 1,
+      "name": "hasAlternativeVersion",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/homepage": {
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this brain atlas.",
+      "description": "Main website of something or someone.",
+      "format": "iri",
+      "formatting": "text/plain",
+      "label": "Homepage",
+      "multiline": false,
+      "name": "homepage",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/isNewVersionOf": {
+      "_instruction": "Add the earlier version of this brain atlas version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
+      ],
+      "description": "Reference to a previous (potentially outdated) particular form of something.",
+      "label": "Is new version of",
+      "name": "isNewVersionOf",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
+      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this brain atlas version.",
+      "description": "Term or code used to identify something or someone registered within a particular ontology.",
+      "format": "iri",
+      "formatting": "text/plain",
+      "label": "Ontology identifier",
+      "multiline": false,
+      "name": "ontologyIdentifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/releaseDate": {
+      "_instruction": "Enter the date of first publication of this brain atlas version.",
+      "description": "Fixed date on which a product is due to become or was made available for the general public to see or buy",
+      "format": "date",
+      "formatting": "text/plain",
+      "label": "Release date",
+      "multiline": false,
+      "name": "releaseDate",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/shortName": {
+      "_instruction": "Enter a descriptive short name for this brain atlas version.",
+      "description": "Shortened or fully abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Short name",
+      "multiline": false,
+      "name": "shortName",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/terminology": {
+      "_instruction": "Add the terminology used for this brain atlas version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/AtlasTerminology"
+      ],
+      "description": "Nomenclature for a particular field of study.",
+      "label": "Terminology",
+      "name": "terminology",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/versionIdentifier": {
+      "_instruction": "Enter the version identifier of this brain atlas version.",
+      "description": "Term or code used to identify the version of something.",
+      "formatting": "text/plain",
+      "label": "Version identifier",
+      "multiline": false,
+      "name": "versionIdentifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/versionInnovation": {
+      "_instruction": "Enter a short description of the novelties/peculiarities of this brain atlas version.",
+      "description": "Documentation on what changed in comparison to a previously published form of something.",
+      "formatting": "text/plain",
+      "label": "Version innovation",
+      "multiline": false,
+      "name": "versionInnovation",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/annotationSet",
+    "https://openminds.ebrains.eu/vocab/coordinateSpace",
+    "https://openminds.ebrains.eu/vocab/fullName",
+    "https://openminds.ebrains.eu/vocab/releaseDate",
+    "https://openminds.ebrains.eu/vocab/shortName",
+    "https://openminds.ebrains.eu/vocab/terminology",
+    "https://openminds.ebrains.eu/vocab/versionIdentifier",
+    "https://openminds.ebrains.eu/vocab/versionInnovation"
+  ]
+}

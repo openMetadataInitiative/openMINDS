@@ -1,0 +1,143 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+  "label": "Common coordinate space",
+  "name": "CommonCoordinateSpace",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/anatomicalAxesOrientation": {
+      "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (stated as XYZ) for this common coordinate space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation"
+      ],
+      "description": "Relation between reference planes used in anatomy and mathematics.",
+      "label": "Anatomical axes orientation",
+      "name": "anatomicalAxesOrientation",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/axesOrigin": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the origin of this common coordinate space (central point where axes intersect; 2D: [x, y] or 3D:[x, y, z]).",
+      "description": "Special point in a coordinate system used as a fixed point of reference for the geometry of the surrounding space.",
+      "label": "Axes origin",
+      "maxItems": 3,
+      "minItems": 2,
+      "name": "axesOrigin",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/defaultImage": {
+      "_instruction": "Add one or several image files used as visual representation of this common coordinate space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ],
+      "description": "Two or three dimensional image that particluarly represents a specific coordinate space.",
+      "label": "Default image",
+      "minItems": 1,
+      "name": "defaultImage",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this common coordinate space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/fullName": {
+      "_instruction": "Enter a descriptive full name for this common coordinate space.",
+      "description": "Whole, non-abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Full name",
+      "multiline": false,
+      "name": "fullName",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/homepage": {
+      "_instruction": "Add the uniform resource locator (URL) to the homepage of this common coordinate space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/URL"
+      ],
+      "description": "Main website of something or someone.",
+      "label": "Homepage",
+      "name": "homepage",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/howToCite": {
+      "_instruction": "Enter the preferred citation text for this common coordinate space. Leave blank if citation text can be extracted from the assigned digital identifier.",
+      "description": "Preferred format for citing a particular object or legal person.",
+      "formatting": "text/plain",
+      "label": "How to cite",
+      "multiline": false,
+      "name": "howToCite",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/nativeUnit": {
+      "_instruction": "Add the native unit that is used for this common coordinate space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+      ],
+      "description": "Determinate quantity used in the original measurement.",
+      "label": "Native unit",
+      "name": "nativeUnit",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this common coordinate space.",
+      "description": "Term or code used to identify something or someone registered within a particular ontology.",
+      "formatting": "text/plain",
+      "label": "Ontology identifier",
+      "multiline": false,
+      "name": "ontologyIdentifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/releaseDate": {
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the date of first publication of this common coordinate space.",
+      "description": "Fixed date on which a product is due to become or was made available for the general public to see or buy",
+      "formatting": "text/plain",
+      "label": "Release date",
+      "multiline": false,
+      "name": "releaseDate",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/shortName": {
+      "_instruction": "Enter a descriptive short name for this common coordinate space.",
+      "description": "Shortened or fully abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Short name",
+      "multiline": false,
+      "name": "shortName",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/versionIdentifier": {
+      "_instruction": "Enter the version identifier of this common coordinate space.",
+      "description": "Term or code used to identify the version of something.",
+      "formatting": "text/plain",
+      "label": "Version identifier",
+      "multiline": false,
+      "name": "versionIdentifier",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/anatomicalAxesOrientation",
+    "https://openminds.ebrains.eu/vocab/axesOrigin",
+    "https://openminds.ebrains.eu/vocab/fullName",
+    "https://openminds.ebrains.eu/vocab/nativeUnit",
+    "https://openminds.ebrains.eu/vocab/releaseDate",
+    "https://openminds.ebrains.eu/vocab/shortName",
+    "https://openminds.ebrains.eu/vocab/versionIdentifier"
+  ]
+}

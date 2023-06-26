@@ -1,0 +1,115 @@
+{
+  "_categories": [
+    "deviceUsage"
+  ],
+  "_type": "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage",
+  "label": "Slicing device usage",
+  "name": "SlicingDeviceUsage",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/device": {
+      "_instruction": "Add the slicing device used.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/specimenPrep/SlicingDevice"
+      ],
+      "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
+      "label": "Device",
+      "name": "device",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/lookupLabel": {
+      "_instruction": "Enter a lookup label for this device usage that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "multiline": false,
+      "name": "lookupLabel",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/metadataLocation": {
+      "_instruction": "Add all files or file bundles containing additional information about the usage of this device.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/FileBundle"
+      ],
+      "label": "Metadata location",
+      "minItems": 1,
+      "name": "metadataLocation",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/oscillationAmplitude": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the oscillation amplitude of the blade from the slicing device during its use.",
+      "label": "Oscillation amplitude",
+      "name": "oscillationAmplitude",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/sliceThickness": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the defined slice thickness during the use of this slicing device.",
+      "label": "Slice thickness",
+      "name": "sliceThickness",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/slicingAngle": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/NumericalProperty"
+      ],
+      "_instruction": "Enter all slicing angles (intentional or unintentional) in relation to the slicing plane used during this activity.",
+      "label": "Slicing angle",
+      "maxItems": 2,
+      "minItems": 1,
+      "name": "slicingAngle",
+      "nameForReverseLink": null,
+      "type": "array"
+    },
+    "https://openminds.ebrains.eu/vocab/slicingPlane": {
+      "_instruction": "Add the anatomical plane that best describes the slicing direction of the tissue sample(s) during the use of this slicing device.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalPlane"
+      ],
+      "label": "Slicing plane",
+      "name": "slicingPlane",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/slicingSpeed": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the defined slicing speed during the use of this slicing device.",
+      "label": "Slicing speed",
+      "name": "slicingSpeed",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/usedSpecimen": {
+      "_instruction": "Add the state of the tissue sample or subject that this device was used on.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectState",
+        "https://openminds.ebrains.eu/core/TissueSampleState"
+      ],
+      "label": "Used specimen",
+      "name": "usedSpecimen",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/vibrationFrequency": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the defined vibration frequency during the use of this slicing device.",
+      "label": "Vibration frequency",
+      "name": "vibrationFrequency",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/device",
+    "https://openminds.ebrains.eu/vocab/sliceThickness",
+    "https://openminds.ebrains.eu/vocab/slicingPlane"
+  ]
+}

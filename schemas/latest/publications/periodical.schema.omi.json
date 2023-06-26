@@ -1,0 +1,37 @@
+{
+  "_type": "https://openminds.ebrains.eu/publications/Periodical",
+  "label": "Periodical",
+  "name": "Periodical",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/abbreviation": {
+      "_instruction": "Enter the official (or most commonly used) abbreviation of the periodical (e.g., J. Physiol).",
+      "formatting": "text/plain",
+      "label": "Abbreviation",
+      "multiline": false,
+      "name": "abbreviation",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this periodical.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ISSN"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Enter the name (or title) of this periodical (e.g., Journal of Physiology).",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "multiline": false,
+      "name": "name",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/shortName"
+  ]
+}

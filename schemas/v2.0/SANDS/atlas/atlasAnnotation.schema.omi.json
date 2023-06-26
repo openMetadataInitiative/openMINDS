@@ -1,0 +1,134 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+  "label": "Atlas annotation",
+  "name": "AtlasAnnotation",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/bestViewPoint": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/sands/CoordinatePoint"
+      ],
+      "_instruction": "Add the coordinate point identifying the best view of this atlas annotation in space.",
+      "description": "Coordinate point from which you get the best view of something.",
+      "label": "Best view point",
+      "name": "bestViewPoint",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/criteria": {
+      "_instruction": "Add the protocol execution defining the criteria that were applied to produce this atlas annotation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ProtocolExecution"
+      ],
+      "description": "Aspects or standards on which a judgement or decision is based.",
+      "label": "Criteria",
+      "name": "criteria",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/criteriaQualityType": {
+      "_instruction": "Add the quality type of the stated criteria used to define this atlas annotation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType"
+      ],
+      "description": "Distinct class that defines how the judgement or decision was made for a particular criteria.",
+      "label": "Criteria quality type",
+      "name": "criteriaQualityType",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/displayColor": {
+      "_instruction": "Enter the preferred display color (HEX) for this atlas annotation.",
+      "description": "Preferred coloring.",
+      "formatting": "text/plain",
+      "label": "Display color",
+      "multiline": false,
+      "name": "displayColor",
+      "pattern": "^#[0-9A-Fa-f]{6}$",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/inspiredBy": {
+      "_instruction": "Add one or several (source) files that inspired the definition of this atlas annotation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ],
+      "description": "Reference to an inspiring element.",
+      "label": "Inspired by",
+      "minItems": 1,
+      "name": "inspiredBy",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/internalIdentifier": {
+      "_instruction": "Enter the identifier used for this annotation within the file it is stored in.",
+      "description": "Term or code that identifies someone or something within a particular product.",
+      "formatting": "text/plain",
+      "label": "Internal identifier",
+      "multiline": false,
+      "name": "internalIdentifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/laterality": {
+      "_instruction": "Add one or both sides of the body, bilateral organ or bilateral organ part that this atlas annotation is defined in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Laterality"
+      ],
+      "description": "Differentiation between a pair of lateral homologous parts of the body.",
+      "label": "Laterality",
+      "maxItems": 2,
+      "minItems": 1,
+      "name": "laterality",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/lookupLabel": {
+      "_instruction": "Enter a lookup label for this atlas annotation that may help you to more easily find it again.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "multiline": false,
+      "name": "lookupLabel",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Enter a descriptive name for this atlas annotation.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "multiline": false,
+      "name": "name",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/versionIdentifier": {
+      "_instruction": "Enter the version identifier of this atlas annotation.",
+      "description": "Term or code used to identify the version of something.",
+      "formatting": "text/plain",
+      "label": "Version identifier",
+      "multiline": false,
+      "name": "versionIdentifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/versionInnovation": {
+      "_instruction": "Enter a short description of the novelties/peculiarities of this atlas annotation.",
+      "description": "Documentation on what changed in comparison to a previously published form of something.",
+      "formatting": "text/plain",
+      "label": "Version innovation",
+      "multiline": false,
+      "name": "versionInnovation",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/visualizedIn": {
+      "_instruction": "Add the (source) image file in which this atlas annotation is visualized in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ],
+      "description": "Reference to an image in which something is visible.",
+      "label": "Visualized in",
+      "name": "visualizedIn",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/criteriaQualityType",
+    "https://openminds.ebrains.eu/vocab/internalIdentifier",
+    "https://openminds.ebrains.eu/vocab/versionIdentifier",
+    "https://openminds.ebrains.eu/vocab/versionInnovation"
+  ]
+}

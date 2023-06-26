@@ -1,0 +1,127 @@
+{
+  "_categories": [
+    "fileOrigin"
+  ],
+  "_type": "https://openminds.ebrains.eu/core/SubjectState",
+  "description": "Structured information on a temporary state of a subject.",
+  "label": "Subject state",
+  "name": "SubjectState",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/additionalRemarks": {
+      "_instruction": "Enter any additional remarks concering the specimen (set) in this state.",
+      "description": "Mention of what deserves additional attention or notice.",
+      "formatting": "text/plain",
+      "label": "Additional remarks",
+      "multiline": false,
+      "name": "additionalRemarks",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/age": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the age of the specimen (set) in this state.",
+      "description": "Time of life or existence at which some particular qualification, capacity or event arises.",
+      "label": "Age",
+      "name": "age",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/ageCategory": {
+      "_instruction": "Add the age category of the subject in this state.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AgeCategory"
+      ],
+      "description": "Distinct life cycle class that is defined by a similar age or age range (developmental stage) within a group of individual beings.",
+      "label": "Age category",
+      "name": "ageCategory",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/attribute": {
+      "_instruction": "Add all attributes that can be ascribed to this subject state.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/SubjectAttribute"
+      ],
+      "label": "Attribute",
+      "minItems": 1,
+      "name": "attribute",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/descendedFrom": {
+      "_instruction": "Add the previous subject state.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectState"
+      ],
+      "label": "Descended from",
+      "name": "descendedFrom",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/handedness": {
+      "_instruction": "Add the preferred handedness of the subject in this state.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Handedness"
+      ],
+      "description": "Degree to which an organism prefers one hand or foot over the other hand or foot during the performance of a task.",
+      "label": "Handedness",
+      "name": "handedness",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/internalIdentifier": {
+      "_instruction": "Enter the identifier (or label) of this specimen (set) state that is used within the corresponding data files to identify this specimen (set) state.",
+      "description": "Term or code that identifies someone or something within a particular product.",
+      "formatting": "text/plain",
+      "label": "Internal identifier",
+      "multiline": false,
+      "name": "internalIdentifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/lookupLabel": {
+      "_instruction": "Enter a lookup label for this specimen (set) state that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "multiline": false,
+      "name": "lookupLabel",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/pathology": {
+      "_instruction": "Add all (human) diseases and/or conditions that the specimen (set) in this state has and/or is a model for.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Disease",
+        "https://openminds.ebrains.eu/controlledTerms/DiseaseModel"
+      ],
+      "description": "Structural and functional deviation from the normal that constitutes a disease or characterizes a particular disease.",
+      "label": "Pathology",
+      "minItems": 1,
+      "name": "pathology",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/relativeTimeIndication": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ],
+      "_instruction": "If there is a temporal relation between the states of a specimen (set), enter the relative time that has passed between this and the preceding specimen (set) state referenced under 'descendedFrom'.",
+      "label": "Relative time indication",
+      "name": "relativeTimeIndication",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/weight": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the weight of the specimen (set) in this state.",
+      "description": "Amount that a thing or being weighs.",
+      "label": "Weight",
+      "name": "weight",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/ageCategory"
+  ]
+}

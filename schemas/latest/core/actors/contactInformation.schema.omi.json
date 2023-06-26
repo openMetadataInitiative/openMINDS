@@ -1,0 +1,23 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/ContactInformation",
+  "description": "Structured information about how to contact a given person or consortium.",
+  "label": "Contact information",
+  "name": "ContactInformation",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/email": {
+      "_formats": [
+        "email"
+      ],
+      "_instruction": "Enter the email address of the party (e.g., of the person).",
+      "description": "Address to which or from which an electronic mail can be sent.",
+      "formatting": "text/plain",
+      "label": "Email",
+      "multiline": false,
+      "name": "email",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/email"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
+  "label": "Tissue sample collection state",
+  "name": "TissueSampleCollectionState",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/additionalRemarks": {
+      "_instruction": "Enter additional remarks about the specimen (set) in this state.",
+      "description": "Mention of what deserves additional attention or notice.",
+      "formatting": "text/plain",
+      "label": "Additional remarks",
+      "multiline": false,
+      "name": "additionalRemarks",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/age": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ],
+      "_instruction": "Add the age of the specimen (set) in this state.",
+      "description": "Time of life or existence at which some particular qualification, capacity or event arises.",
+      "label": "Age",
+      "name": "age",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/pathology": {
+      "_instruction": "Add the pathology of the specimen (set) in this state.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Disease",
+        "https://openminds.ebrains.eu/controlledTerms/DiseaseModel"
+      ],
+      "description": "Structural and functional deviation from the normal that constitutes a disease or characterizes a particular disease.",
+      "label": "Pathology",
+      "minItems": 1,
+      "name": "pathology",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/weight": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ],
+      "_instruction": "Add the weight of the specimen (set) in this state.",
+      "description": "Amount that a thing or being weighs.",
+      "label": "Weight",
+      "name": "weight",
+      "nameForReverseLink": null
+    }
+  }
+}

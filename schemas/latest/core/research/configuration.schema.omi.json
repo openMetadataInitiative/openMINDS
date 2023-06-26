@@ -1,0 +1,38 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/Configuration",
+  "description": "Structured information about the properties or parameters of an entity or process.",
+  "label": "Configuration",
+  "name": "Configuration",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/configuration": {
+      "_instruction": "Enter the configuration in a simple text based format (e.g., JSON or YAML).",
+      "formatting": "text/plain",
+      "label": "Configuration",
+      "multiline": false,
+      "name": "configuration",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/format": {
+      "_instruction": "Add the content type of this configuration.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ],
+      "description": "Method of digitally organizing and structuring data or information.",
+      "label": "Format",
+      "name": "format",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/lookupLabel": {
+      "_instruction": "Enter a lookup label for this configuration that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "multiline": false,
+      "name": "lookupLabel",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/configuration",
+    "https://openminds.ebrains.eu/vocab/format"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/QuantitativeValueRange",
+  "description": "A representation of a range of quantitative values.",
+  "label": "Quantitative value range",
+  "name": "QuantitativeValueRange",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/maxValue": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Add the maximum quantitative value of this range.",
+      "description": "Greatest quantity attained or allowed.",
+      "label": "Max value",
+      "name": "maxValue",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/minValue": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Add the minimum quantitative value of this range.",
+      "description": "Smallest quantity attained or allowed.",
+      "label": "Min value",
+      "name": "minValue",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/maxValue",
+    "https://openminds.ebrains.eu/vocab/minValue"
+  ]
+}

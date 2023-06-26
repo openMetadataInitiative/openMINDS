@@ -1,0 +1,84 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/Project",
+  "description": "Structured information on a research project.",
+  "label": "Project",
+  "name": "Project",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/description": {
+      "_instruction": "Enter a description of this project.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/plain",
+      "label": "Description",
+      "multiline": false,
+      "name": "description",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/fullName": {
+      "_instruction": "Enter a descriptive full name (title) for this project.",
+      "description": "Whole, non-abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Full name",
+      "multiline": false,
+      "name": "fullName",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/hasResearchProducts": {
+      "_instruction": "Add all research products or research product versions that are part of this project.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Dataset",
+        "https://openminds.ebrains.eu/core/DatasetVersion",
+        "https://openminds.ebrains.eu/core/MetaDataModel",
+        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
+        "https://openminds.ebrains.eu/core/Model",
+        "https://openminds.ebrains.eu/core/ModelVersion",
+        "https://openminds.ebrains.eu/core/Software",
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
+      ],
+      "description": "Reference to subsidiary research products.",
+      "label": "Has research products",
+      "minItems": 2,
+      "name": "hasResearchProducts",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/homepage": {
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this model version.",
+      "description": "Main website of something or someone.",
+      "format": "iri",
+      "formatting": "text/plain",
+      "label": "Homepage",
+      "multiline": false,
+      "name": "homepage",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/projectLeader": {
+      "_instruction": "Add one or several project leader (person or organization).",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "label": "Project leader",
+      "minItems": 1,
+      "name": "projectLeader",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/shortName": {
+      "_instruction": "Enter a short name (alias) for this project.",
+      "description": "Shortened or fully abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Short name",
+      "multiline": false,
+      "name": "shortName",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/description",
+    "https://openminds.ebrains.eu/vocab/fullName",
+    "https://openminds.ebrains.eu/vocab/hasResearchProducts",
+    "https://openminds.ebrains.eu/vocab/shortName"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/FileRepositoryStructure",
+  "label": "File repository structure",
+  "name": "FileRepositoryStructure",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/filePathPattern": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/FilePathPattern"
+      ],
+      "_instruction": "Add all file path patterns that define this file repository structure.",
+      "label": "File path pattern",
+      "minItems": 1,
+      "name": "filePathPattern",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/lookupLabel": {
+      "_instruction": "Enter a lookup label for this file repository structure that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "multiline": false,
+      "name": "lookupLabel",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/filePathPattern"
+  ]
+}

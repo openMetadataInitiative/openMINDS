@@ -1,0 +1,60 @@
+{
+  "_type": "https://openminds.ebrains.eu/chemicals/ProductSource",
+  "description": "Structured information about the source of a chemical substance or mixture.",
+  "label": "Product source",
+  "name": "ProductSource",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this product.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/RRID"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/identifier": {
+      "_instruction": "Enter the identifier for this product, excluding its RRID (e.g., a catalog number).",
+      "description": "Term or code used to identify something or someone.",
+      "formatting": "text/plain",
+      "label": "Identifier",
+      "multiline": false,
+      "name": "identifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/productName": {
+      "_instruction": "Enter the name of this product as stated by the 'provider'.",
+      "formatting": "text/plain",
+      "label": "Product name",
+      "multiline": false,
+      "name": "productName",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/provider": {
+      "_instruction": "Add the party (private, commercial or industrial) that provided this product.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Consortium",
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "label": "Provider",
+      "name": "provider",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/purity": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the purity of the product as stated by the 'provider'.",
+      "label": "Purity",
+      "name": "purity",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/productName",
+    "https://openminds.ebrains.eu/vocab/provider"
+  ]
+}

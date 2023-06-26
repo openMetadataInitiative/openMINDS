@@ -1,0 +1,58 @@
+{
+  "_type": "https://openminds.ebrains.eu/computation/LaunchConfiguration",
+  "description": "Structured information about the launch of a computational process.",
+  "label": "Launch configuration",
+  "name": "LaunchConfiguration",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/argument": {
+      "_instruction": "Enter all command line arguments for this launch configuration.",
+      "formatting": "text/plain",
+      "items": {
+        "type": "string"
+      },
+      "label": "Argument",
+      "minItems": 1,
+      "multiline": false,
+      "name": "argument",
+      "type": "array"
+    },
+    "https://openminds.ebrains.eu/vocab/description": {
+      "_instruction": "Enter a short text describing this launch configuration.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/plain",
+      "label": "Description",
+      "multiline": false,
+      "name": "description",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/environmentVariable": {
+      "_instruction": "Add any environment variables defined by this launch configuration.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/PropertyValueList"
+      ],
+      "label": "Environment variable",
+      "name": "environmentVariable",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/executable": {
+      "_instruction": "Enter the path to the command-line executable.",
+      "formatting": "text/plain",
+      "label": "Executable",
+      "multiline": false,
+      "name": "executable",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Enter a descriptive name for this launch configuration.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "multiline": false,
+      "name": "name",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/executable"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/Person",
+  "description": "Structured information on a person.",
+  "label": "Person",
+  "name": "Person",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
+      "_instruction": "Add one or several globally unique and persistent digital identifier for this person.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "minItems": 1,
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/email": {
+      "_instruction": "Enter the email address of this person.",
+      "description": "Address to which or from which an electronic mail can be sent.",
+      "format": "email",
+      "formatting": "text/plain",
+      "label": "Email",
+      "multiline": false,
+      "name": "email",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/familyName": {
+      "_instruction": "Enter the family name of this person.",
+      "description": "Name borne in common by members of a family.",
+      "formatting": "text/plain",
+      "label": "Family name",
+      "multiline": false,
+      "name": "familyName",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/givenName": {
+      "_instruction": "Enter the given name of this person.",
+      "description": "Name given to a person, including all potential middle names, but excluding the family name.",
+      "formatting": "text/plain",
+      "label": "Given name",
+      "multiline": false,
+      "name": "givenName",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/email",
+    "https://openminds.ebrains.eu/vocab/givenName"
+  ]
+}

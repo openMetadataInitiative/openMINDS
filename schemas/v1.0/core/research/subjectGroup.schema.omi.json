@@ -1,0 +1,106 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/SubjectGroup",
+  "label": "Subject group",
+  "name": "SubjectGroup",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/biologicalSex": {
+      "_instruction": "Add the biological sex of all specimen in this set.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex"
+      ],
+      "description": "Differentiation of individuals of most species (animals and plants) based on the type of gametes they produce.",
+      "label": "Biological sex",
+      "minItems": 1,
+      "name": "biologicalSex",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/genotype": {
+      "_instruction": "Add the genotype of all specimen in this set.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Genotype"
+      ],
+      "description": "Genetic constitution of an individual or group.",
+      "label": "Genotype",
+      "minItems": 1,
+      "name": "genotype",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/internalIdentifier": {
+      "_instruction": "Enter the identifier of this specimen set that is used within the corresponding data.",
+      "description": "Term or code that identifies someone or something within a particular product.",
+      "formatting": "text/plain",
+      "label": "Internal identifier",
+      "multiline": false,
+      "name": "internalIdentifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/phenotype": {
+      "_instruction": "Add the phenotype of all specimen in this set.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Phenotype"
+      ],
+      "description": "Physical expression of one or more genes of an organism.",
+      "label": "Phenotype",
+      "minItems": 1,
+      "name": "phenotype",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/quantity": {
+      "_instruction": "Enter the number of specimen that belong to this set.",
+      "description": "Total amount or number of things or beings.",
+      "label": "Quantity",
+      "name": "quantity",
+      "type": "integer"
+    },
+    "https://openminds.ebrains.eu/vocab/species": {
+      "_instruction": "Add the species of all specimen in this set.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Species"
+      ],
+      "description": "Category of biological classification comprising related organisms or populations potentially capable of interbreeding, and being designated by a binomial that consists of the name of a genus followed by a Latin or latinized uncapitalized noun or adjective.",
+      "label": "Species",
+      "minItems": 1,
+      "name": "species",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/strain": {
+      "_instruction": "Add the strain of all specimen in this set.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Strain"
+      ],
+      "description": "Group of presumed common ancestry with physiological but usually not morphological distinctions.",
+      "label": "Strain",
+      "minItems": 1,
+      "name": "strain",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/studiedState": {
+      "_instruction": "Add all states in which this subject group was studied.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectGroupState"
+      ],
+      "description": "Reference to a point in time at which something or someone was studied in a particular mode or condition.",
+      "label": "Studied state",
+      "minItems": 1,
+      "name": "studiedState",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/biologicalSex",
+    "https://openminds.ebrains.eu/vocab/species",
+    "https://openminds.ebrains.eu/vocab/studiedState"
+  ]
+}

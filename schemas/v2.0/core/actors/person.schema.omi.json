@@ -1,0 +1,68 @@
+{
+  "_categories": [
+    "legalPerson"
+  ],
+  "_type": "https://openminds.ebrains.eu/core/Person",
+  "description": "Structured information on a person.",
+  "label": "Person",
+  "name": "Person",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/affiliation": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Affiliation"
+      ],
+      "_instruction": "Add the current and, if necessary, past affiliations of this person",
+      "description": "Declaration of a person being closely associated to an organization.",
+      "label": "Affiliation",
+      "minItems": 1,
+      "name": "affiliation",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/contactInformation": {
+      "_instruction": "Add the contact information of this person.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContactInformation"
+      ],
+      "description": "Any available way used to contact a person or business (e.g., address, phone number, email address, etc.).",
+      "label": "Contact information",
+      "name": "contactInformation",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
+      "_instruction": "Add one or several globally unique and persistent digital identifier for this person.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ORCID"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "minItems": 1,
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/familyName": {
+      "_instruction": "Enter the family name of this person.",
+      "description": "Name borne in common by members of a family.",
+      "formatting": "text/plain",
+      "label": "Family name",
+      "multiline": false,
+      "name": "familyName",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/givenName": {
+      "_instruction": "Enter the given name of this person.",
+      "description": "Name given to a person, including all potential middle names, but excluding the family name.",
+      "formatting": "text/plain",
+      "label": "Given name",
+      "multiline": false,
+      "name": "givenName",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/givenName"
+  ]
+}

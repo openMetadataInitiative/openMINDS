@@ -1,0 +1,36 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/Copyright",
+  "description": "Structured information on the copyright.",
+  "label": "Copyright",
+  "name": "Copyright",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/holder": {
+      "_instruction": "Add one or several persons or organisations that hold the copyright.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "description": "Legal person in possession of something.",
+      "label": "Holder",
+      "minItems": 1,
+      "name": "holder",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/year": {
+      "_instruction": "Enter the year during which the copyright was first asserted.",
+      "description": "Cycle in the Gregorian calendar specified by a number and comprised of 365 or 366 days divided into 12 months beginning with January and ending with December.",
+      "formatting": "text/plain",
+      "label": "Year",
+      "multiline": false,
+      "name": "year",
+      "pattern": "([0-9]{4})",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/holder",
+    "https://openminds.ebrains.eu/vocab/year"
+  ]
+}

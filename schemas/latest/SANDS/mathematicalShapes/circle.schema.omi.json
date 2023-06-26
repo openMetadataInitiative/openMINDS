@@ -1,0 +1,22 @@
+{
+  "_categories": [
+    "mathematicalShapes"
+  ],
+  "_type": "https://openminds.ebrains.eu/sands/Circle",
+  "label": "Circle",
+  "name": "Circle",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/radius": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the radius of this circle.",
+      "label": "Radius",
+      "name": "radius",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/radius"
+  ]
+}

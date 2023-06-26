@@ -1,0 +1,35 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/CoordinatePoint",
+  "description": "Structured information on a coordinate point.",
+  "label": "Coordinate point",
+  "name": "CoordinatePoint",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/coordinateSpace": {
+      "_instruction": "Add the coordinate space in which this coordinate point exists in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CoordinateSpace"
+      ],
+      "description": "Two or three dimensional geometric setting.",
+      "label": "Coordinate space",
+      "name": "coordinateSpace",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/coordinates": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Add two or three coordinates (2D: [x, y] or 3D: [x, y, z]) that define the exact location of this point in the stated space.",
+      "description": "Pair or triplet of numbers defining a location in a given coordinate space.",
+      "label": "Coordinates",
+      "maxItems": 3,
+      "minItems": 2,
+      "name": "coordinates",
+      "nameForReverseLink": null,
+      "type": "array"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/coordinateSpace",
+    "https://openminds.ebrains.eu/vocab/coordinates"
+  ]
+}

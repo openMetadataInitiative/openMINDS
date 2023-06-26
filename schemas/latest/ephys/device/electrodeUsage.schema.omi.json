@@ -1,0 +1,89 @@
+{
+  "_categories": [
+    "deviceUsage"
+  ],
+  "_type": "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
+  "label": "Electrode usage",
+  "name": "ElectrodeUsage",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/anatomicalLocation": {
+      "_instruction": "Add the anatomical entity that semantically best describes the anatomical location of the electrode contact.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/CellType",
+        "https://openminds.ebrains.eu/controlledTerms/Organ",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
+        "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
+        "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
+        "https://openminds.ebrains.eu/sands/ParcellationEntity",
+        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+      ],
+      "label": "Anatomical location",
+      "name": "anatomicalLocation",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/contactResistance": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the contact resistance of this electrode during its use.",
+      "label": "Contact resistance",
+      "name": "contactResistance",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/device": {
+      "_instruction": "Add the electrode used.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/ephys/Electrode"
+      ],
+      "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
+      "label": "Device",
+      "name": "device",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/lookupLabel": {
+      "_instruction": "Enter a lookup label for this device usage that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "multiline": false,
+      "name": "lookupLabel",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/metadataLocation": {
+      "_instruction": "Add all files or file bundles containing additional information about the usage of this device.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/FileBundle"
+      ],
+      "label": "Metadata location",
+      "minItems": 1,
+      "name": "metadataLocation",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/spatialLocation": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/sands/CoordinatePoint"
+      ],
+      "_instruction": "Add the coordinate point that best describes the spatial location of the electrode contact during its use.",
+      "label": "Spatial location",
+      "name": "spatialLocation",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/usedSpecimen": {
+      "_instruction": "Add the state of the tissue sample or subject that this device was used on.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectState",
+        "https://openminds.ebrains.eu/core/TissueSampleState"
+      ],
+      "label": "Used specimen",
+      "name": "usedSpecimen",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/device"
+  ]
+}

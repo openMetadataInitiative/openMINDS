@@ -1,0 +1,66 @@
+{
+  "_categories": [
+    "legalPerson"
+  ],
+  "_type": "https://openminds.ebrains.eu/core/Organization",
+  "description": "Structured information on an organization.",
+  "label": "Organization",
+  "name": "Organization",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
+      "_instruction": "Add one or several globally unique and persistent digital identifier for this organization.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/GRIDID",
+        "https://openminds.ebrains.eu/core/RORID"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "minItems": 1,
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/fullName": {
+      "_instruction": "Enter the full name of the organization.",
+      "description": "Whole, non-abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Full name",
+      "multiline": false,
+      "name": "fullName",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/hasParent": {
+      "_instruction": "Add a parent organization to this organization.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Organization"
+      ],
+      "description": "Reference to a parent object or legal person.",
+      "label": "Has parent",
+      "name": "hasParent",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/homepage": {
+      "_instruction": "Add the uniform resource locator (URL) to the homepage of this organization.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/URL"
+      ],
+      "description": "Main website of something or someone.",
+      "label": "Homepage",
+      "name": "homepage",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/shortName": {
+      "_instruction": "Enter the short name of this organization.",
+      "description": "Shortened or fully abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Short name",
+      "multiline": false,
+      "name": "shortName",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/fullName"
+  ]
+}

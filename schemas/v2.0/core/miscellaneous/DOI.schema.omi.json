@@ -1,0 +1,21 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/DOI",
+  "description": "Structured information about a digital object identifier, as standardized by the International Organization for Standardization.",
+  "label": "Doi",
+  "name": "DOI",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/identifier": {
+      "_instruction": "Enter the resolvable identifier (IRI) of the International Digital Object Identifier Foundation.",
+      "description": "Term or code used to identify something or someone.",
+      "formatting": "text/plain",
+      "label": "Identifier",
+      "multiline": false,
+      "name": "identifier",
+      "pattern": "^https://doi.org/10.[0-9]{4,9}/[-._;()/:A-Za-z0-9]+",
+      "type": "string"
+    }
+  },
+  "requires": [
+    "identifier"
+  ]
+}

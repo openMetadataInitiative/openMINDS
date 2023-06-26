@@ -1,0 +1,63 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/ParameterSetting",
+  "description": "Structured information on a used parameter setting.",
+  "label": "Parameter setting",
+  "name": "ParameterSetting",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/description": {
+      "_instruction": "Enter a description of this parameter setting.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/plain",
+      "label": "Description",
+      "multiline": false,
+      "name": "description",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Enter the name of this parameter setting.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "multiline": false,
+      "name": "name",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/relevantFor": {
+      "_instruction": "Add the technique or behavioral task where this parameter setting is used in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/BehavioralTask",
+        "https://openminds.ebrains.eu/controlledTerms/Technique"
+      ],
+      "description": "Reference to what or whom something or someone bears siginificance.",
+      "label": "Relevant for",
+      "name": "relevantFor",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/unit": {
+      "_instruction": "Add the unit of measurement used for the value of this parameter setting.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+      ],
+      "description": "Determinate quantity adopted as a standard of measurement.",
+      "label": "Unit",
+      "name": "unit",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/value": {
+      "_instruction": "Enter the value of this parameter setting.",
+      "description": "Entry for a property.",
+      "label": "Value",
+      "name": "value",
+      "type": [
+        "number",
+        "string"
+      ]
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/description",
+    "https://openminds.ebrains.eu/vocab/name",
+    "https://openminds.ebrains.eu/vocab/relevantFor",
+    "https://openminds.ebrains.eu/vocab/value"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/ElectrodeContact",
+  "description": "Structured information on an electrode contact.",
+  "label": "Electrode contact",
+  "name": "ElectrodeContact",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/coordinatePoint": {
+      "_instruction": "Add the central coordinate of this electrode contact.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CoordinatePoint"
+      ],
+      "description": "Pair or triplet of numbers defining the position in a particular two- or three dimensional plane or space.",
+      "label": "Coordinate point",
+      "name": "coordinatePoint",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/definedIn": {
+      "_instruction": "Add one or several files in which the electrode contact is defined in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/FileInstance"
+      ],
+      "description": "Reference to a file instance in which something is stored.",
+      "label": "Defined in",
+      "minItems": 1,
+      "name": "definedIn",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/internalIdentifier": {
+      "_instruction": "Enter the identifier used for this electrode contact within the file it is stored in.",
+      "description": "Term or code that identifies someone or something within a particular product.",
+      "formatting": "text/plain",
+      "label": "Internal identifier",
+      "multiline": false,
+      "name": "internalIdentifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/relatedRecording": {
+      "_instruction": "Add one or several files in which the recordings from this electrode contact were stored.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/FileInstance"
+      ],
+      "description": "Reference to the written, stored evidence of something.",
+      "label": "Related recording",
+      "minItems": 1,
+      "name": "relatedRecording",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/relatedStimulation": {
+      "_instruction": "Add one or several files in which the stimulations applied via this electrode contact were stored.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/FileInstance"
+      ],
+      "description": "Reference to the written, stored function used as a physiological stimulus.",
+      "label": "Related stimulation",
+      "minItems": 1,
+      "name": "relatedStimulation",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/visualizedIn": {
+      "_instruction": "Add one or several images in which the electrode contact is visualized in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/Image"
+      ],
+      "description": "Reference to an image in which something is visible.",
+      "label": "Visualized in",
+      "minItems": 1,
+      "name": "visualizedIn",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/coordinatePoint",
+    "https://openminds.ebrains.eu/vocab/internalIdentifier"
+  ]
+}

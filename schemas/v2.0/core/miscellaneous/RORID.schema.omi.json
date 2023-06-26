@@ -1,0 +1,21 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/RORID",
+  "description": "A persistent identifier for a research organization, provided by the Research Organization Registry.",
+  "label": "Rorid",
+  "name": "RORID",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/identifier": {
+      "_instruction": "Enter the resolvable identifier (IRI) of the Research Organization Registry.",
+      "description": "Term or code used to identify something or someone.",
+      "formatting": "text/plain",
+      "label": "Identifier",
+      "multiline": false,
+      "name": "identifier",
+      "pattern": "^https://ror.org/0([0-9]|[^ILO]|[a-z]){6}[0-9]{2}$",
+      "type": "string"
+    }
+  },
+  "requires": [
+    "identifier"
+  ]
+}

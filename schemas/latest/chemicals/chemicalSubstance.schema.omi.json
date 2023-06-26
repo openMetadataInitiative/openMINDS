@@ -1,0 +1,56 @@
+{
+  "_type": "https://openminds.ebrains.eu/chemicals/ChemicalSubstance",
+  "description": "Structured information about a chemical substance.",
+  "label": "Chemical substance",
+  "name": "ChemicalSubstance",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/additionalRemarks": {
+      "_instruction": "Enter any additional remarks concering this chemical substance.",
+      "description": "Mention of what deserves additional attention or notice.",
+      "formatting": "text/plain",
+      "label": "Additional remarks",
+      "multiline": false,
+      "name": "additionalRemarks",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/lookupLabel": {
+      "_instruction": "Enter a lookup label for this chemical substance that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "multiline": false,
+      "name": "lookupLabel",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/molecularEntity": {
+      "_instruction": "Add the molecular entity that makes up this chemical substance.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity"
+      ],
+      "label": "Molecular entity",
+      "name": "molecularEntity",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/productSource": {
+      "_instruction": "Add the source of this chemical substance.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/chemicals/ProductSource"
+      ],
+      "label": "Product source",
+      "name": "productSource",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/purity": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the purity of this chemical substance.",
+      "label": "Purity",
+      "name": "purity",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/molecularEntity"
+  ]
+}

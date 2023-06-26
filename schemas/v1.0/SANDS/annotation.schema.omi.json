@@ -1,0 +1,130 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/Annotation",
+  "description": "Structured information on an image annotation.",
+  "label": "Annotation",
+  "name": "Annotation",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/bestViewPoint": {
+      "_instruction": "Add the coordinate point identifying the best view of this annotation in space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CoordinatePoint"
+      ],
+      "description": "Coordinate point from which you get the best view of something.",
+      "label": "Best view point",
+      "name": "bestViewPoint",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/criteria": {
+      "_instruction": "Add the protocol execution defining the criteria that were applied to produce this annotation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ProtocolExecution"
+      ],
+      "description": "Aspects or standards on which a judgement or decision is based.",
+      "label": "Criteria",
+      "name": "criteria",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/criteriaQualityType": {
+      "_instruction": "Add the quality type of the stated criteria used to define this annotation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType"
+      ],
+      "description": "Distinct class that defines how the judgement or decision was made for a particular criteria.",
+      "label": "Criteria quality type",
+      "name": "criteriaQualityType",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/displayColor": {
+      "_instruction": "Enter the preferred display color (RGB) for this annotation.",
+      "description": "Preferred coloring.",
+      "items": {
+        "maximum": 255,
+        "minimum": 0,
+        "type": "integer"
+      },
+      "label": "Display color",
+      "maxItems": 3,
+      "minItems": 3,
+      "name": "displayColor",
+      "type": "array"
+    },
+    "https://openminds.ebrains.eu/vocab/inspiredBy": {
+      "_instruction": "Add one or several (source) images that inspired the definition of this annotation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/Image"
+      ],
+      "description": "Reference to an inspiring element.",
+      "label": "Inspired by",
+      "minItems": 1,
+      "name": "inspiredBy",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/internalIdentifier": {
+      "_instruction": "Enter the identifier used for this annotation within the file it is stored in.",
+      "description": "Term or code that identifies someone or something within a particular product.",
+      "formatting": "text/plain",
+      "label": "Internal identifier",
+      "multiline": false,
+      "name": "internalIdentifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/laterality": {
+      "_instruction": "Add one or both sides of the body or bilateral organ that this annotation is defined in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Laterality"
+      ],
+      "description": "Differentiation between a pair of lateral homologous parts of the body.",
+      "label": "Laterality",
+      "maxItems": 2,
+      "minItems": 1,
+      "name": "laterality",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/namingTerm": {
+      "_instruction": "Add one or several anatomical entities that name this annotation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/AnatomicalEntity"
+      ],
+      "description": "Word or expression that has a precise meaning within a science, art, profession, or subject.",
+      "label": "Naming term",
+      "minItems": 1,
+      "name": "namingTerm",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/relatedAtlasTerm": {
+      "_instruction": "Add one or several anatomical entities of registered brain atlas annotations to which this annotation is related to.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/AnatomicalEntity"
+      ],
+      "description": "Reference to a related naming term of an anatomical structure that is defined in a particular brain atlas.",
+      "label": "Related atlas term",
+      "minItems": 1,
+      "name": "relatedAtlasTerm",
+      "nameForReverseLink": null,
+      "type": "array",
+      "unqiueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/visualizedIn": {
+      "_instruction": "Add the image in which this annotation is visualized in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/Image"
+      ],
+      "description": "Reference to an image in which something is visible.",
+      "label": "Visualized in",
+      "name": "visualizedIn",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/criteriaQualityType",
+    "https://openminds.ebrains.eu/vocab/internalIdentifier",
+    "https://openminds.ebrains.eu/vocab/laterality",
+    "https://openminds.ebrains.eu/vocab/namingTerm"
+  ]
+}

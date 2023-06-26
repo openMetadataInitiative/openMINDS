@@ -1,0 +1,42 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/QuantitativeRelationAssessment",
+  "label": "Quantitative relation assessment",
+  "name": "QuantitativeRelationAssessment",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/criteria": {
+      "_instruction": "Add the protocol execution defining the criteria that were applied to determine this relation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ProtocolExecution"
+      ],
+      "description": "Aspects or standards on which a judgement or decision is based.",
+      "label": "Criteria",
+      "name": "criteria",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/inRelationTo": {
+      "_instruction": "Add the anatomical entity to which the relation is described.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/ParcellationEntity"
+      ],
+      "description": "Reference to a related element.",
+      "label": "In relation to",
+      "name": "inRelationTo",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/quantitativeOverlap": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ],
+      "_instruction": "Add the quantitative overlap between the two anatomical entities preferably expressed in percentage.",
+      "description": "Numerical characterization of how much two things occupy the same space.",
+      "label": "Quantitative overlap",
+      "name": "quantitativeOverlap",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/inRelationTo",
+    "https://openminds.ebrains.eu/vocab/quantitativeOverlap"
+  ]
+}
