@@ -1,0 +1,31 @@
+# MIT licensed
+name: openMINDS_build_pipline
+
+on:
+  push:
+      branches:
+        - main
+  workflow_dispatch: # This triggers the workflow when a webhook is received
+      inputs:
+        branch:
+          description: 'The branch of the submodule the workflow was triggered for'
+          required: true
+          type: string
+        repository:
+          description: 'The repository of the submodule the workflow was triggered for'
+          required: true
+          type: string
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.11
+
+    - name: Run build
+      run: |
+        python openMINDS_pipeline/build.py --repository ${{ inputs.repository }} --branch ${{ inputs.branch }}
