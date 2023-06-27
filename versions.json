@@ -1,40 +1,30 @@
 {
   "latest": {
     "SANDS": {
-      "branch": "v3",
       "repository": "https://github.com/HumanBrainProject/openMINDS_SANDS.git"
     },
     "chemicals": {
-      "branch": "v1",
       "repository": "https://github.com/HumanBrainProject/openMINDS_chemicals.git"
     },
     "computation": {
-      "branch": "v1",
       "repository": "https://github.com/HumanBrainProject/openMINDS_computation.git"
     },
     "controlledTerms": {
-      "branch": "v1",
       "repository": "https://github.com/HumanBrainProject/openMINDS_controlledTerms.git"
     },
     "core": {
-      "branch": "v4",
       "repository": "https://github.com/HumanBrainProject/openMINDS_core.git"
     },
     "ephys": {
-      "branch": "v1",
       "repository": "https://github.com/HumanBrainProject/openMINDS_ephys.git"
     },
     "publications": {
-      "branch": "v1",
-      "commit": "d5446304a052a238d431a06bd66d0e444372f159",
       "repository": "https://github.com/HumanBrainProject/openMINDS_publications.git"
     },
     "specimenPrep": {
-      "branch": "v1",
       "repository": "https://github.com/HumanBrainProject/openMINDS_specimenPrep.git"
     },
     "stimulation": {
-      "branch": "v1",
       "repository": "https://github.com/HumanBrainProject/openMINDS_stimulation.git"
     }
   },

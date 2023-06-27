@@ -5,4 +5,4 @@ To create a release, define the version and its submodules inside the version.js
 The version.json defines the submodule versions which are composing an openMINDS release.
 
 
-Versions defined without commit hash are supposed to point to head of the corresponding branch (e.g. for "latest").
+Versions defined without commit hash are supposed to point to head of the corresponding branch. If no branch is defined, this means that the latest commit on the **semantically highest version branch** is taken into account.
