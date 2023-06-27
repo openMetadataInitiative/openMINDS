@@ -7,8 +7,8 @@ from openMINDS_pipeline.resolver import DependencyResolver
 from openMINDS_pipeline.utils import clone_sources, find_schemas, evaluate_versions_to_be_built
 
 parser = argparse.ArgumentParser(prog=sys.argv[0], description='Expand openMINDS schema, extract vocabularies and instances')
-parser.add_argument('--branch', help="The branch that triggered the re-build")
-parser.add_argument('--repository', help="The repository that triggered the re-build")
+parser.add_argument('--branch', help="The branch that triggered the re-build", default=None)
+parser.add_argument('--repository', help="The repository that triggered the re-build", default=None)
 args = vars(parser.parse_args())
 trigger = Trigger(args["branch"], args["repository"]) if args["branch"] and args["repository"] else None
 
