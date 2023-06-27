@@ -28,4 +28,5 @@ jobs:
 
     - name: Run build
       run: |
+        ls -al
         python openMINDS_pipeline/build.py --repository ${{ inputs.repository }} --branch ${{ inputs.branch }}
