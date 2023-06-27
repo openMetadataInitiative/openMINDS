@@ -1,0 +1,75 @@
+{
+  "latest": {
+    "SANDS": {
+      "branch": "v3",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_SANDS.git"
+    },
+    "chemicals": {
+      "branch": "v1",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_chemicals.git"
+    },
+    "computation": {
+      "branch": "v1",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_computation.git"
+    },
+    "controlledTerms": {
+      "branch": "v1",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_controlledTerms.git"
+    },
+    "core": {
+      "branch": "v4",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_core.git"
+    },
+    "ephys": {
+      "branch": "v1",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_ephys.git"
+    },
+    "publications": {
+      "branch": "v1",
+      "commit": "d5446304a052a238d431a06bd66d0e444372f159",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_publications.git"
+    },
+    "specimenPrep": {
+      "branch": "v1",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_specimenPrep.git"
+    },
+    "stimulation": {
+      "branch": "v1",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_stimulation.git"
+    }
+  },
+  "v1.0": {
+    "SANDS": {
+      "branch": "v1",
+      "commit": "e174e567600aa13fa81bc9c8f6bc1d7f9e7624c5",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_SANDS.git"
+    },
+    "controlledTerms": {
+      "branch": "v1",
+      "commit": "2400e43e873fbfadd9f776fa69bc541a86144c8a",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_controlledTerms.git"
+    },
+    "core": {
+      "branch": "v3",
+      "commit": "d328b5709bda8a61a3f1cb151780dfb5ef870b1a",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_core.git"
+    }
+  },
+  "v2.0": {
+    "SANDS": {
+      "branch": "v2",
+      "commit": "be95b2bee743f1443167dc59ec3ffcc00a51b7db",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_SANDS.git"
+    },
+    "controlledTerms": {
+      "branch": "v1",
+      "commit": "1fb6b233720c6ff36829a17c8025424a7db7f8f0",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_controlledTerms.git"
+    },
+    "core": {
+      "branch": "v3",
+      "commit": "8c61d390419d35ff53ef85a13a8c4a9587af682f",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_core.git"
+    }
+  }
+}
