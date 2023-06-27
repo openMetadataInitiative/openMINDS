@@ -33,4 +33,4 @@ jobs:
     - name: Run build
       run: |
         pip install -r requirements.txt
-        python build.py --repository ${{ inputs.repository }} --branch ${{ inputs.branch }}
+        python build.py --repository "${{ inputs.repository }}" --branch "${{ inputs.branch }}"
