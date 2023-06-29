@@ -49,5 +49,6 @@ jobs:
         ls -alh
         git add .
         git status
+        git push -f
         
         
