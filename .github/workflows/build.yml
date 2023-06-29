@@ -30,18 +30,23 @@ jobs:
       with:
         python-version: 3.11
 
-
-
     - name: Run build
       run: |
         pip install -r requirements.txt
         python build.py --repository "${{ inputs.repository }}" --branch "${{ inputs.branch }}"
 
+    - name: Checkout central branch
+      uses: actions/checkout@v3
+      with:
+        ref: main
+        path: central
+        token: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Push to main
       run: |
         pwd
         ls -alh
-        cp -R openMINDS_pipeline/target/* central
+        cp -R target/* central
         cd central
         git status
         
