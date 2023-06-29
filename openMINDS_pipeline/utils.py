@@ -133,7 +133,8 @@ def qualify_property_names(schemas:List[SchemaStructure]):
                 new_properties[f"{OPENMINDS_VOCAB}{p}"] = v
             schema_payload["properties"] = new_properties
         if "required" in schema_payload:
-            schema_payload["required"] = [f"{OPENMINDS_VOCAB}{p}" for p in schema_payload["required"]].sort()
+            schema_payload["required"] = [f"{OPENMINDS_VOCAB}{p}" for p in schema_payload["required"]]
+            schema_payload["required"].sort()
 
         with open(schema.absolute_path, "w") as target_file:
             target_file.write(json.dumps(schema_payload, indent=4))
