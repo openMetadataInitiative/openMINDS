@@ -29,7 +29,7 @@ def resolve_extends(schemas: List[SchemaStructure], directory_structure: Directo
             schema.set_absolute_path(schema_target_path)
             os.makedirs(os.path.dirname(schema_target_path), exist_ok=True)
             with open(schema_target_path, "w") as target_file:
-                target_file.write(json.dumps(schema_payload, indent=2))
+                target_file.write(json.dumps(schema_payload, indent=2, sort_keys=True))
         except JSONDecodeError:
             print(f"Skipping schema {schema.file} because it is not a valid JSON document")
 
@@ -59,6 +59,7 @@ def _save_categories(directory_structure, categories):
     categories_file = os.path.join(directory_structure.target_directory, "vocab", "categories.json")
     with open(categories_file, "w+") as categories_f:
         categories_f.write(json.dumps(categories, sort_keys=True, indent=2))
+
 
 def _schemas_by_category(schemas: List[SchemaStructure]) -> Dict[str, List[str]]:
     """

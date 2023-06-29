@@ -24,7 +24,7 @@ def enrich_with_types_and_properties(version: str, types, properties, schemas: L
             for p in schema["properties"]:
                 _enrich_with_property_information(version, p, properties, schema)
         with open(schema_info.absolute_path, "w") as schema_file:
-            schema_file.write(json.dumps(schema, indent=4))
+            schema_file.write(json.dumps(schema, indent=2, sort_keys=True))
 
 
 def _enrich_with_property_information(version: str, p, properties, schema):

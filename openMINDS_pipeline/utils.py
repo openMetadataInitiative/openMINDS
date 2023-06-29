@@ -137,7 +137,7 @@ def qualify_property_names(schemas:List[SchemaStructure]):
             schema_payload["required"].sort()
 
         with open(schema.absolute_path, "w") as target_file:
-            target_file.write(json.dumps(schema_payload, indent=4))
+            target_file.write(json.dumps(schema_payload, indent=2, sort_keys=True))
 
 
 def copy_to_target_directory(directory_structure: DirectoryStructure, version:str):
