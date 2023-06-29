@@ -35,19 +35,19 @@ jobs:
         pip install -r requirements.txt
         python build.py --repository "${{ inputs.repository }}" --branch "${{ inputs.branch }}"
 
-    - name: Checkout central branch
+    - name: Checkout main branch
       uses: actions/checkout@v3
       with:
         ref: main
-        path: central
+        path: main
         token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Push to main
       run: |
-        pwd
+        cp -R target/* main
+        cd main        
         ls -alh
-        cp -R target/* central
-        cd central
+        git add .
         git status
         
         
