@@ -110,9 +110,9 @@ def _apply_extension(source, extension):
 
     if TEMPLATE_PROPERTY_CATEGORIES in extension:
         if TEMPLATE_PROPERTY_CATEGORIES not in source:
-            source[TEMPLATE_PROPERTY_CATEGORIES] = extension[TEMPLATE_PROPERTY_CATEGORIES]
+            source[TEMPLATE_PROPERTY_CATEGORIES] = sorted(extension[TEMPLATE_PROPERTY_CATEGORIES])
         elif type(source[TEMPLATE_PROPERTY_CATEGORIES]) is list and type(extension[TEMPLATE_PROPERTY_CATEGORIES]) is list:
-            source[TEMPLATE_PROPERTY_CATEGORIES] = list(set(source[TEMPLATE_PROPERTY_CATEGORIES] + extension[TEMPLATE_PROPERTY_CATEGORIES]))
+            source[TEMPLATE_PROPERTY_CATEGORIES] = sorted(list(set(source[TEMPLATE_PROPERTY_CATEGORIES] + extension[TEMPLATE_PROPERTY_CATEGORIES])))
 
     for k in extension["properties"]:
         property_from_extension = extension["properties"][k]
