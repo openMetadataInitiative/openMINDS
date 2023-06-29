@@ -132,8 +132,6 @@ class TypeExtractor(Types):
         # properties to be manually edited
         if "description" not in self._types[t]:
             self._types[t]["description"] = None
-        if "translatableTo" not in self._types[t]:
-            self._types[t]["translatableTo"] = None
         if "semanticEquivalent" not in self._types[t]:
             self._types[t]["semanticEquivalent"] = []
         self._types[t]["semanticEquivalent"].sort()
