@@ -10,20 +10,40 @@ from git import Repo, Git
 from packaging.utils import canonicalize_version
 from packaging.version import Version
 
-from openMINDS_pipeline.constants import SCHEMA_FILE_ENDING
+from openMINDS_pipeline.constants import SCHEMA_FILE_ENDING, OPENMINDS_VOCAB
 from openMINDS_pipeline.models import Trigger, OpenMINDSModule, DirectoryStructure, SchemaStructure
 from openMINDS_pipeline.resolver import TEMPLATE_PROPERTY_TYPE
 
 
+def clone_central(refetch:bool):
+    if refetch and os.path.exists("central"):
+        shutil.rmtree("central")
+    if not os.path.exists("central"):
+        Repo.clone_from("https://github.com/openMetadataInitiative/openMINDS.git", "central")
+
+
 def clone_sources(modules, version):
-    if os.path.exists("sources"):
-        shutil.rmtree("sources")
     print(f"Now building the version {version}")
     for module, spec in modules.items():
         print(f"Cloning module {module} in commit {spec.commit}")
         repo = Repo.clone_from(spec.repository, f"sources/{module}", no_checkout=True)
         repo.git.checkout(spec.commit)
     print("Done cloning")
+
+
+def is_edge(property_definition:dict):
+    embedded_types = property_definition["_embeddedTypes"] if "_embeddedTypes" in property_definition else None
+    linked_types = property_definition["_linkedTypes"] if "_linkedTypes" in property_definition else None
+    return embedded_types, linked_types, bool(embedded_types or linked_types)
+
+
+def get_basic_type(property_definition:dict) -> Optional[str]:
+    basic_type = None
+    if "type" in property_definition:
+        basic_type = property_definition["type"]
+        if basic_type == "array" and "items" in property_definition and "type" in property_definition["items"]:
+            basic_type = property_definition["items"]["type"]
+    return basic_type
 
 
 def evaluate_versions_to_be_built(trigger:Optional[Trigger]) -> Dict[str, Dict[str, OpenMINDSModule]]:
@@ -34,12 +54,15 @@ def evaluate_versions_to_be_built(trigger:Optional[Trigger]) -> Dict[str, Dict[s
         print(f"Triggered by a submodule change of module {trigger.repository} in version {trigger.branch}")
     else:
         print("No specific trigger - going to build everything...")
-    if os.path.exists("central"):
-        shutil.rmtree("central")
-    repo = Repo.clone_from("https://github.com/openMetadataInitiative/openMINDS.git", "central", depth=1)
-    repo.git.checkout("main")
-    with open("central/versions.json", "r") as version_specs:
+    if os.path.exists("pipeline"):
+        shutil.rmtree("pipeline")
+    repo = Repo.clone_from("https://github.com/openMetadataInitiative/openMINDS.git", "pipeline")
+    repo.git.checkout("pipeline")
+
+    with open("pipeline/versions.json", "r") as version_specs:
         versions = json.load(version_specs)
+    if os.path.exists("pipeline"):
+        shutil.rmtree("pipeline")
     relevant_versions = {}
     for version, modules in versions.items():
         triggering_module = None
@@ -80,7 +103,7 @@ def find_schemas(directory_structure: DirectoryStructure, modules: Dict[str, Ope
     for schema_group in directory_structure.find_resource_directories(file_ending=SCHEMA_FILE_ENDING):
         schema_group = schema_group.split("/")[0]
         version = modules[schema_group].branch
-        absolute_schema_group_src_dir = directory_structure.evaluate_absolute_schema_dir(schema_group)
+        absolute_schema_group_src_dir = directory_structure.source_schema_directory(schema_group)
         if os.path.isdir(absolute_schema_group_src_dir):
             print(f"handling schemas of {schema_group}")
             for schema_path in glob.glob(os.path.join(absolute_schema_group_src_dir, f'**/*{SCHEMA_FILE_ENDING}'), recursive=True):
@@ -98,3 +121,28 @@ def find_schemas(directory_structure: DirectoryStructure, modules: Dict[str, Ope
             print(f"Skipping schemas of {schema_group} since there is no schemas directory")
     return schema_information
 
+
+def qualify_property_names(schemas:List[SchemaStructure]):
+    for schema in schemas:
+        with open(schema.absolute_path, "r") as schema_file:
+            schema_payload = json.load(schema_file)
+        if "properties" in schema_payload:
+            new_properties = {}
+            for p, v in schema_payload["properties"].items():
+                new_properties[f"{OPENMINDS_VOCAB}{p}"] = v
+            schema_payload["properties"] = new_properties
+        if "required" in schema_payload:
+            schema_payload["required"] = [f"{OPENMINDS_VOCAB}{p}" for p in schema_payload["required"]]
+
+        with open(schema.absolute_path, "w") as target_file:
+            target_file.write(json.dumps(schema_payload, indent=4))
+
+
+def copy_to_target_directory(directory_structure: DirectoryStructure, version:str):
+    shutil.copytree(directory_structure.central_directory, directory_structure.target_directory)
+    schemas_target = os.path.join(directory_structure.target_directory, "schemas", version)
+    shutil.copytree(directory_structure.expanded_directory, schemas_target)
+    for root, dirs, files in os.walk(schemas_target):
+        for file_name in files:
+            new_file_name = file_name.replace(".schema.tpl.json", ".schema.omi.json")
+            os.rename(os.path.join(root, file_name), os.path.join(root, new_file_name))

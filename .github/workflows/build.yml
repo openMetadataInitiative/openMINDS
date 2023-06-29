@@ -23,14 +23,26 @@ jobs:
     steps:
     
     - name: Checkout Repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       
     - name: Set up Python 3.11
       uses: actions/setup-python@v2
       with:
         python-version: 3.11
 
+    - name: Checkout central branch
+      uses: actions/checkout@v3
+      with:
+        ref: main
+        path: central
+        token: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Run build
       run: |
         pip install -r requirements.txt
         python build.py --repository "${{ inputs.repository }}" --branch "${{ inputs.branch }}"
+        cp -R openMINDS_pipeline/target/* central
+        cd central
+        git status
+        
+        

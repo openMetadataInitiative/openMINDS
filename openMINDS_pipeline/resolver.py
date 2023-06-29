@@ -16,122 +16,138 @@ TEMPLATE_PROPERTY_LINKED_CATEGORIES = "_linkedCategories"
 TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES = "_embeddedCategories"
 
 
-class DependencyResolver(object):
+def resolve_extends(schemas: List[SchemaStructure], directory_structure: DirectoryStructure):
+    for schema in schemas:
+        try:
+            absolute_schema_group_target_dir = directory_structure.expanded_schema_directory(schema)
+            absolute_schema_group_src_dir = directory_structure.source_schema_directory(schema.schema_group)
+            print(f"extending {schema.file}")
+            with open(os.path.join(absolute_schema_group_src_dir, schema.file), "r") as schema_file:
+                schema_payload = json.load(schema_file)
+            schema_target_path = os.path.join(absolute_schema_group_target_dir, schema.file)
+            _do_resolve_extends(schema, schema_payload, schema.schema_group, directory_structure)
+            schema.set_absolute_path(schema_target_path)
+            os.makedirs(os.path.dirname(schema_target_path), exist_ok=True)
+            with open(schema_target_path, "w") as target_file:
+                target_file.write(json.dumps(schema_payload, indent=2))
+        except JSONDecodeError:
+            print(f"Skipping schema {schema.file} because it is not a valid JSON document")
 
-    @staticmethod
-    def resolve_extends(schemas: List[SchemaStructure], directory_structure: DirectoryStructure):
-        for schema in schemas:
-            try:
-                absolute_schema_group_target_dir = directory_structure.evaluate_absolute_schema_target_directory(schema)
-                absolute_schema_group_src_dir = directory_structure.evaluate_absolute_schema_dir(schema.schema_group)
-                print(f"extending {schema.file}")
-                with open(os.path.join(absolute_schema_group_src_dir, schema.file), "r") as schema_file:
-                    schema_payload = json.load(schema_file)
-                schema_target_path = os.path.join(absolute_schema_group_target_dir, schema.file)
-                DependencyResolver._do_resolve_extends(schema, schema_payload, schema.schema_group, directory_structure)
-                schema.set_absolute_path(schema_target_path)
-                os.makedirs(os.path.dirname(schema_target_path), exist_ok=True)
-                with open(schema_target_path, "w") as target_file:
-                    target_file.write(json.dumps(schema_payload, indent=2))
-            except JSONDecodeError:
-                print(f"Skipping schema {schema.file} because it is not a valid JSON document")
 
-    @staticmethod
-    def resolve_categories(schemas: List[SchemaStructure]):
-        schemas_by_category = DependencyResolver._schemas_by_category(schemas)
-        for schema in schemas:
-            print(f"resolving categories for {schema.type}")
-            DependencyResolver._do_resolve_categories(schema, schemas_by_category)
+def resolve_categories(version:str, directory_structure: DirectoryStructure, schemas: List[SchemaStructure]):
+    categories = _load_categories(directory_structure)
+    if version in categories:
+        del categories[version]
+    schemas_by_category = _schemas_by_category(schemas)
+    for schema in schemas:
+        print(f"resolving categories for {schema.type}")
+        _do_resolve_categories(schema, schemas_by_category)
+    categories[version] = schemas_by_category
+    _save_categories(directory_structure, categories)
 
-    @staticmethod
-    def _schemas_by_category(schemas: List[SchemaStructure]) -> Dict[str, List[str]]:
-        """
-        :returns a lookup dictionary which types belong to a given category
-        """
-        result = {}
-        for s in schemas:
-            if s.categories:
-                for c in s.categories:
-                    if c not in result:
-                        result[c] = []
-                    result[c].append(s.type)
-        return result
 
-    @staticmethod
-    def _do_resolve_extends(source_schema, schema, schema_group, directory_structure: DirectoryStructure):
-        if TEMPLATE_PROPERTY_EXTENDS in schema:
-            if schema[TEMPLATE_PROPERTY_EXTENDS].startswith("/"):
-                extends_split = schema[TEMPLATE_PROPERTY_EXTENDS].split("/")
-                extension_schema_group = extends_split[1]
-                # For cross-submodule references, we allow the schemas to declare "absolute" paths which need to be relativated against the processing directory in this step.
-                extension_path = directory_structure.evaluate_absolute_schema_dir_for_schema_path(schema[TEMPLATE_PROPERTY_EXTENDS][1:])
-            else:
-                extension_schema_group = schema_group
-                extension_path = os.path.join(directory_structure.evaluate_absolute_schema_dir(schema_group), schema[TEMPLATE_PROPERTY_EXTENDS])
-            if directory_structure.is_part_of_working_directory(extension_path):
-                # Only load the extension if it is part of the same schema group (and if it exists)
-                # (prevent access of resources outside of the directory structure)
-                with open(extension_path, "r") as extension_file:
-                    extension = json.load(extension_file)
-                # We need to extend the extension itself first to ensure that we can handle multi-level extensions...
-                extended_schema = DependencyResolver._do_resolve_extends(source_schema, extension, extension_schema_group, directory_structure)
-                DependencyResolver._apply_extension(schema, extended_schema)
-            del schema[TEMPLATE_PROPERTY_EXTENDS]
-        if TEMPLATE_PROPERTY_CATEGORIES in schema and schema[TEMPLATE_PROPERTY_CATEGORIES]:
-            source_schema.set_categories(schema[TEMPLATE_PROPERTY_CATEGORIES])
-        return schema
+def _load_categories(directory_structure):
+    categories_file = os.path.join(directory_structure.central_directory, "vocab", "categories.json")
+    if os.path.exists(categories_file):
+        with open(categories_file, "r") as categories_f:
+            return json.load(categories_f)
+    else:
+        return {}
 
-    @staticmethod
-    def _apply_extension(source, extension):
-        # Required has to be a list...
-        if "required" in extension:
-            if "required" not in source:
-                source["required"] = extension["required"]
-            elif type(source["required"]) is list and type(extension["required"]) is list:
-                source["required"] = list(set(source["required"] + extension["required"]))
-        if "properties" not in source:
-            source["properties"] = {}
 
-        if TEMPLATE_PROPERTY_CATEGORIES in extension:
-            if TEMPLATE_PROPERTY_CATEGORIES not in source:
-                source[TEMPLATE_PROPERTY_CATEGORIES] = extension[TEMPLATE_PROPERTY_CATEGORIES]
-            elif type(source[TEMPLATE_PROPERTY_CATEGORIES]) is list and type(extension[TEMPLATE_PROPERTY_CATEGORIES]) is list:
-                source[TEMPLATE_PROPERTY_CATEGORIES] = list(set(source[TEMPLATE_PROPERTY_CATEGORIES] + extension[TEMPLATE_PROPERTY_CATEGORIES]))
+def _save_categories(directory_structure, categories):
+    categories_file = os.path.join(directory_structure.central_directory, "vocab", "categories.json")
+    with open(categories_file, "w+") as categories_f:
+        categories_f.write(json.dumps(categories, sort_keys=True, indent=2))
 
-        for k in extension["properties"]:
-            property_from_extension = extension["properties"][k]
-            if k in source["properties"]:
-                property_from_source = source["properties"][k]
-                for property_spec_key in property_from_extension:
-                    # Only apply the specification element from the extension if it doesn't yet exist in the source
-                    if property_spec_key not in property_from_source:
-                        property_from_source[property_spec_key] = property_from_extension[property_spec_key]
-            else:
-                # If the property is not in the source yet at all, we add it as a whole from the extension
-                source["properties"][k] = extension["properties"][k]
+def _schemas_by_category(schemas: List[SchemaStructure]) -> Dict[str, List[str]]:
+    """
+    :returns a lookup dictionary which types belong to a given category
+    """
+    result = {}
+    for s in schemas:
+        if s.categories:
+            for c in s.categories:
+                if c not in result:
+                    result[c] = []
+                result[c].append(s.type)
+    return result
 
-    @staticmethod
-    def _do_resolve_categories(schema: SchemaStructure, schemas_by_category):
-        with open(schema.absolute_path, "r") as schema_file:
-            schema_payload = json.load(schema_file)
-        if "properties" in schema_payload:
-            for p in schema_payload["properties"]:
-                if TEMPLATE_PROPERTY_LINKED_CATEGORIES in schema_payload["properties"][p]:
-                    linked_categories = schema_payload["properties"][p][TEMPLATE_PROPERTY_LINKED_CATEGORIES]
-                    linked_types = []
-                    for linked_category in linked_categories:
-                        if linked_category in schemas_by_category:
-                            linked_types.extend(schemas_by_category[linked_category])
-                    schema_payload["properties"][p][TEMPLATE_PROPERTY_LINKED_TYPES] = linked_types
-                    del schema_payload["properties"][p][TEMPLATE_PROPERTY_LINKED_CATEGORIES]
-                if TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES in schema_payload["properties"][p]:
-                    embedded_categories = schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES]
-                    embedded_types = []
-                    for embedded_category in embedded_categories:
-                        if embedded_category in schemas_by_category:
-                            embedded_types.extend(schemas_by_category[embedded_category])
-                    schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_TYPES] = embedded_types
-                    del schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES]
-        with open(schema.absolute_path, "w") as target_file:
-            target_file.write(json.dumps(schema_payload, indent=4))
+
+def _do_resolve_extends(source_schema, schema, schema_group, directory_structure: DirectoryStructure):
+    if TEMPLATE_PROPERTY_EXTENDS in schema:
+        if schema[TEMPLATE_PROPERTY_EXTENDS].startswith("/"):
+            extends_split = schema[TEMPLATE_PROPERTY_EXTENDS].split("/")
+            extension_schema_group = extends_split[1]
+            # For cross-submodule references, we allow the schemas to declare "absolute" paths which need to be relativated against the processing directory in this step.
+            extension_path = os.path.join(directory_structure.source_directory, schema[TEMPLATE_PROPERTY_EXTENDS][1:])
+        else:
+            extension_schema_group = schema_group
+            extension_path = os.path.join(directory_structure.source_schema_directory(schema_group), schema[TEMPLATE_PROPERTY_EXTENDS])
+        if directory_structure.is_part_of_working_directory(extension_path):
+            # Only load the extension if it is part of the same schema group (and if it exists)
+            # (prevent access of resources outside of the directory structure)
+            with open(extension_path, "r") as extension_file:
+                extension = json.load(extension_file)
+            # We need to extend the extension itself first to ensure that we can handle multi-level extensions...
+            extended_schema = _do_resolve_extends(source_schema, extension, extension_schema_group, directory_structure)
+            _apply_extension(schema, extended_schema)
+        del schema[TEMPLATE_PROPERTY_EXTENDS]
+    if TEMPLATE_PROPERTY_CATEGORIES in schema and schema[TEMPLATE_PROPERTY_CATEGORIES]:
+        source_schema.set_categories(schema[TEMPLATE_PROPERTY_CATEGORIES])
+    return schema
+
+
+def _apply_extension(source, extension):
+    # Required has to be a list...
+    if "required" in extension:
+        if "required" not in source:
+            source["required"] = extension["required"]
+        elif type(source["required"]) is list and type(extension["required"]) is list:
+            source["required"] = list(set(source["required"] + extension["required"]))
+    if "properties" not in source:
+        source["properties"] = {}
+
+    if TEMPLATE_PROPERTY_CATEGORIES in extension:
+        if TEMPLATE_PROPERTY_CATEGORIES not in source:
+            source[TEMPLATE_PROPERTY_CATEGORIES] = extension[TEMPLATE_PROPERTY_CATEGORIES]
+        elif type(source[TEMPLATE_PROPERTY_CATEGORIES]) is list and type(extension[TEMPLATE_PROPERTY_CATEGORIES]) is list:
+            source[TEMPLATE_PROPERTY_CATEGORIES] = list(set(source[TEMPLATE_PROPERTY_CATEGORIES] + extension[TEMPLATE_PROPERTY_CATEGORIES]))
+
+    for k in extension["properties"]:
+        property_from_extension = extension["properties"][k]
+        if k in source["properties"]:
+            property_from_source = source["properties"][k]
+            for property_spec_key in property_from_extension:
+                # Only apply the specification element from the extension if it doesn't yet exist in the source
+                if property_spec_key not in property_from_source:
+                    property_from_source[property_spec_key] = property_from_extension[property_spec_key]
+        else:
+            # If the property is not in the source yet at all, we add it as a whole from the extension
+            source["properties"][k] = extension["properties"][k]
+
+
+def _do_resolve_categories(schema: SchemaStructure, schemas_by_category):
+    with open(schema.absolute_path, "r") as schema_file:
+        schema_payload = json.load(schema_file)
+    if "properties" in schema_payload:
+        for p in schema_payload["properties"]:
+            if TEMPLATE_PROPERTY_LINKED_CATEGORIES in schema_payload["properties"][p]:
+                linked_categories = schema_payload["properties"][p][TEMPLATE_PROPERTY_LINKED_CATEGORIES]
+                linked_types = []
+                for linked_category in linked_categories:
+                    if linked_category in schemas_by_category:
+                        linked_types.extend(schemas_by_category[linked_category])
+                schema_payload["properties"][p][TEMPLATE_PROPERTY_LINKED_TYPES] = linked_types
+                del schema_payload["properties"][p][TEMPLATE_PROPERTY_LINKED_CATEGORIES]
+            if TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES in schema_payload["properties"][p]:
+                embedded_categories = schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES]
+                embedded_types = []
+                for embedded_category in embedded_categories:
+                    if embedded_category in schemas_by_category:
+                        embedded_types.extend(schemas_by_category[embedded_category])
+                schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_TYPES] = embedded_types
+                del schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES]
+    with open(schema.absolute_path, "w") as target_file:
+        target_file.write(json.dumps(schema_payload, indent=4))
 

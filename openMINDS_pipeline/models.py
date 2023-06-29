@@ -43,33 +43,29 @@ class SchemaStructure:
 
 
 class DirectoryStructure:
-    EXPANDED_DIR = "expanded"
 
-    def __init__(self, working_directory):
-        self._working_directory = os.path.realpath(working_directory)
-        self._target_directory = self._evaluate_absolute_target_dir()
+    def __init__(self):
+        self._root_directory = os.path.realpath(".")
+        self.source_directory = os.path.join(self._root_directory, "sources")
+        self.central_directory = os.path.join(self._root_directory, "central")
+        self.expanded_directory = os.path.join(self._root_directory, "expanded")
+        self.target_directory = os.path.join(self._root_directory, "target")
         pass
 
-    def clear_target_directory(self):
-        if os.path.exists(self._target_directory):
-            print("clearing previously generated expanded sources")
-            shutil.rmtree(self._target_directory)
-
     @staticmethod
-    def _evaluate_absolute_target_dir():
-        return os.path.realpath(os.path.join(os.path.realpath("."), DirectoryStructure.EXPANDED_DIR))
+    def clear_directory(directory):
+        if os.path.exists(directory):
+            print(f"clearing directory {directory}")
+            shutil.rmtree(directory)
 
     def is_part_of_working_directory(self, directory) -> bool:
-        return directory.startswith(self._working_directory) and os.path.isfile(directory)
+        return directory.startswith(self.source_directory) and os.path.isfile(directory)
 
-    def evaluate_absolute_schema_dir_for_schema_path(self, schema_path: str) -> str:
-        return os.path.join(self._working_directory, schema_path)
+    def source_schema_directory(self, schema_group:str) -> str:
+        return os.path.join(self.source_directory, schema_group, "schemas")
 
-    def evaluate_absolute_schema_dir(self, schema_group:str) -> str:
-        return os.path.join(self._working_directory, schema_group, "schemas")
-
-    def evaluate_absolute_schema_target_directory(self, schema: SchemaStructure) -> str:
-        return os.path.realpath(os.path.join(self._target_directory, schema.schema_group, schema.version))
+    def expanded_schema_directory(self, schema: SchemaStructure) -> str:
+        return os.path.join(self.expanded_directory, schema.schema_group)
 
     def find_resource_directories(self, file_ending) -> List[str]:
         """
@@ -78,11 +74,9 @@ class DirectoryStructure:
         :return:
         """
         resource_directories = set()
-        for source in glob.glob(os.path.join(self._working_directory, f'**/*{file_ending}'), recursive=True):
-            resource_dir = os.path.dirname(source)[len(self._working_directory) + 1:]
-            if ("target" not in resource_dir
-                    and DirectoryStructure.EXPANDED_DIR not in resource_dir
-            ):
+        for source in glob.glob(os.path.join(self.source_directory, f'**/*{file_ending}'), recursive=True):
+            resource_dir = os.path.dirname(source)[len(self.source_directory) + 1:]
+            if ("target" not in resource_dir and "expanded" not in resource_dir):
                 path_split = resource_dir.split("/")
                 if len(path_split) == 1:
                     resource_directories.add(path_split[0])
