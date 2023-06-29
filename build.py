@@ -56,6 +56,7 @@ for version, modules in relevant_versions.items():
     # Step 10 - Copy results to the target directory
     copy_to_target_directory(directory_structure, version)
 
+
 if not trigger:
     # We've built everything - this is the only chance to do a proper cleanup at the end because we know all versions have been processed.
     Types(directory_structure).clean_types()

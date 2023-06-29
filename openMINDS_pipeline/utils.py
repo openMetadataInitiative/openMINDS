@@ -20,6 +20,7 @@ def clone_central(refetch:bool):
         shutil.rmtree("central")
     if not os.path.exists("central"):
         Repo.clone_from("https://github.com/openMetadataInitiative/openMINDS.git", "central")
+        shutil.rmtree("central/.git")
 
 
 def clone_sources(modules, version):
@@ -139,7 +140,7 @@ def qualify_property_names(schemas:List[SchemaStructure]):
 
 
 def copy_to_target_directory(directory_structure: DirectoryStructure, version:str):
-    shutil.copytree(directory_structure.central_directory, directory_structure.target_directory)
+    shutil.copytree(directory_structure.central_directory, directory_structure.target_directory, dirs_exist_ok = True)
     schemas_target = os.path.join(directory_structure.target_directory, "schemas", version)
     shutil.copytree(directory_structure.expanded_directory, schemas_target)
     for root, dirs, files in os.walk(schemas_target):
