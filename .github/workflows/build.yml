@@ -48,6 +48,7 @@ jobs:
         cd main        
         ls -alh
         git add .
+        git commit -m "build triggered by submodule ${{ inputs.repository }} version ${{ inputs.branch }}"
         git status
         git push -f
         
