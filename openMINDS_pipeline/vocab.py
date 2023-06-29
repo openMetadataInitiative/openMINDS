@@ -66,7 +66,7 @@ def _enrich_with_type_information(schema, type, types):
 class Types(object):
 
     def __init__(self, directory_structure: DirectoryStructure):
-        self._types_file = os.path.join(directory_structure.central_directory, "vocab", "types.json")
+        self._types_file = os.path.join(directory_structure.target_directory, "vocab", "types.json")
         self._types = self._load_types()
 
     def _load_types(self):
@@ -144,7 +144,7 @@ class TypeExtractor(Types):
 class Property(object):
 
     def __init__(self, directory_structure: DirectoryStructure):
-        self._properties_file = os.path.join(directory_structure.central_directory, "vocab", "properties.json")
+        self._properties_file = os.path.join(directory_structure.target_directory, "vocab", "properties.json")
         self._properties = self._load_properties()
 
     def _load_properties(self):

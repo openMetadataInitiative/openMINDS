@@ -47,9 +47,8 @@ class DirectoryStructure:
     def __init__(self):
         self._root_directory = os.path.realpath(".")
         self.source_directory = os.path.join(self._root_directory, "sources")
-        self.central_directory = os.path.join(self._root_directory, "central")
-        self.expanded_directory = os.path.join(self._root_directory, "expanded")
         self.target_directory = os.path.join(self._root_directory, "target")
+        self.expanded_directory = os.path.join(self._root_directory, "expanded")
         pass
 
     @staticmethod

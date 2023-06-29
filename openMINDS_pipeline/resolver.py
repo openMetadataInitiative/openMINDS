@@ -47,7 +47,7 @@ def resolve_categories(version:str, directory_structure: DirectoryStructure, sch
 
 
 def _load_categories(directory_structure):
-    categories_file = os.path.join(directory_structure.central_directory, "vocab", "categories.json")
+    categories_file = os.path.join(directory_structure.target_directory, "vocab", "categories.json")
     if os.path.exists(categories_file):
         with open(categories_file, "r") as categories_f:
             return json.load(categories_f)
@@ -56,7 +56,7 @@ def _load_categories(directory_structure):
 
 
 def _save_categories(directory_structure, categories):
-    categories_file = os.path.join(directory_structure.central_directory, "vocab", "categories.json")
+    categories_file = os.path.join(directory_structure.target_directory, "vocab", "categories.json")
     with open(categories_file, "w+") as categories_f:
         categories_f.write(json.dumps(categories, sort_keys=True, indent=2))
 

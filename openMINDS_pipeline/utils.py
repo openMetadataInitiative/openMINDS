@@ -16,11 +16,11 @@ from openMINDS_pipeline.resolver import TEMPLATE_PROPERTY_TYPE
 
 
 def clone_central(refetch:bool):
-    if refetch and os.path.exists("central"):
-        shutil.rmtree("central")
-    if not os.path.exists("central"):
-        Repo.clone_from("https://github.com/openMetadataInitiative/openMINDS.git", "central")
-        shutil.rmtree("central/.git")
+    if refetch and os.path.exists("target"):
+        shutil.rmtree("target")
+    if not os.path.exists("target"):
+        Repo.clone_from("https://github.com/openMetadataInitiative/openMINDS.git", "target")
+        shutil.rmtree("target/.git")
 
 
 def clone_sources(modules, version):
@@ -140,10 +140,10 @@ def qualify_property_names(schemas:List[SchemaStructure]):
 
 
 def copy_to_target_directory(directory_structure: DirectoryStructure, version:str):
-    shutil.copytree(directory_structure.central_directory, directory_structure.target_directory, dirs_exist_ok = True)
-    schemas_target = os.path.join(directory_structure.target_directory, "schemas", version)
-    shutil.copytree(directory_structure.expanded_directory, schemas_target)
-    for root, dirs, files in os.walk(schemas_target):
+    schemas_version_directory = os.path.join(directory_structure.target_directory, "schemas", version)
+    shutil.rmtree(schemas_version_directory)
+    shutil.copytree(directory_structure.expanded_directory, schemas_version_directory)
+    for root, dirs, files in os.walk(schemas_version_directory):
         for file_name in files:
             new_file_name = file_name.replace(".schema.tpl.json", ".schema.omi.json")
             os.rename(os.path.join(root, file_name), os.path.join(root, new_file_name))

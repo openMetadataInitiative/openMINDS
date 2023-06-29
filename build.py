@@ -19,7 +19,6 @@ print("***************************************")
 
 directory_structure = DirectoryStructure()
 clone_central(True)
-DirectoryStructure.clear_directory(directory_structure.target_directory)
 
 # Step 1 - find the versions to be (re-)built
 relevant_versions = evaluate_versions_to_be_built(trigger)
