@@ -48,8 +48,11 @@ jobs:
         cd main       
         git config --global user.email "openminds@ebrains.eu"
         git config --global user.name "openMINDS pipeline"
-        git add .
-        git commit -m "build triggered by submodule ${{ inputs.repository }} version ${{ inputs.branch }}"
-        git push -f
+        if [[ $(git add . --dry-run | wc -l) -gt 0 ]]; then
+            git add .
+            git commit -m "build triggered by submodule ${{ inputs.repository }} version ${{ inputs.branch }}"
+            git push -f
+        else
+            echo "Nothing to commit"
         
         

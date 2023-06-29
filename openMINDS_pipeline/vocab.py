@@ -127,8 +127,16 @@ class TypeExtractor(Types):
                 del self._types[t][k]
         simple_name = os.path.basename(t)
         if t not in self._types:
-            # properties to be manually edited
-            self._types[t] = {"description": None, "translatableTo": None}
+            self._types[t] = {}
+
+        # properties to be manually edited
+        if "description" not in self._types[t]:
+            self._types[t]["description"] = None
+        if "translatableTo" not in self._types[t]:
+            self._types[t]["translatableTo"] = None
+        if "semanticEquivalent" not in self._types[t]:
+            self._types[t]["semanticEquivalent"] = []
+        self._types[t]["semanticEquivalent"].sort()
 
         # properties to be solely managed by the automation
         self._types[t]["label"] = _camel_case_to_human_readable(simple_name)
@@ -197,9 +205,9 @@ class PropertyExtractor(Property):
         # Set default values for manually managed properties
         if "description" not in prop:
             prop["description"] = None
-
         if "semanticEquivalent" not in prop:
             prop["semanticEquivalent"] = []
+        prop["semanticEquivalent"].sort()
 
         # Automatically calculated values
         unqualified_property = os.path.basename(property)
@@ -242,6 +250,7 @@ class PropertyExtractor(Property):
                 prop["asString"]["inVersions"] = []
             if self._version not in prop["asString"]["inVersions"]:
                 prop["asString"]["inVersions"].append(self._version)
+                prop["asString"]["inVersions"].sort()
             if "formatting" not in prop["asString"]:
                 prop["asString"]["formatting"] = "text/plain"
             if "multiline" not in prop["asString"]:
