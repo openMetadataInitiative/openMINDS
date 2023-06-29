@@ -54,5 +54,5 @@ jobs:
             git push -f
         else
             echo "Nothing to commit"
-        
+        fi
         
