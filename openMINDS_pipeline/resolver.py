@@ -71,6 +71,7 @@ def _schemas_by_category(schemas: List[SchemaStructure]) -> Dict[str, List[str]]
                 if c not in result:
                     result[c] = []
                 result[c].append(s.type)
+                result[c].sort()
     return result
 
 
@@ -138,7 +139,7 @@ def _do_resolve_categories(schema: SchemaStructure, schemas_by_category):
                 for linked_category in linked_categories:
                     if linked_category in schemas_by_category:
                         linked_types.extend(schemas_by_category[linked_category])
-                schema_payload["properties"][p][TEMPLATE_PROPERTY_LINKED_TYPES] = linked_types
+                schema_payload["properties"][p][TEMPLATE_PROPERTY_LINKED_TYPES] = sorted(linked_types)
                 del schema_payload["properties"][p][TEMPLATE_PROPERTY_LINKED_CATEGORIES]
             if TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES in schema_payload["properties"][p]:
                 embedded_categories = schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES]
@@ -146,7 +147,7 @@ def _do_resolve_categories(schema: SchemaStructure, schemas_by_category):
                 for embedded_category in embedded_categories:
                     if embedded_category in schemas_by_category:
                         embedded_types.extend(schemas_by_category[embedded_category])
-                schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_TYPES] = embedded_types
+                schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_TYPES] = sorted(embedded_types)
                 del schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES]
     with open(schema.absolute_path, "w") as target_file:
         target_file.write(json.dumps(schema_payload, indent=4))

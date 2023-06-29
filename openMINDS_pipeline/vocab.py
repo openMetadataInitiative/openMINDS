@@ -211,6 +211,7 @@ class PropertyExtractor(Property):
         if self._version not in prop["usedIn"]:
             prop["usedIn"][self._version] = []
         prop["usedIn"][self._version].append(type)
+        prop["usedIn"][self._version].sort()
 
         embedded_types, linked_types, edge = is_edge(definition)
         if edge:
