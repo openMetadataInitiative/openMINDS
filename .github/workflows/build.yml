@@ -47,6 +47,8 @@ jobs:
         cp -R target/* main
         cd main        
         ls -alh
+        git config --global user.email "openminds@ebrains.eu"
+        git config --global user.name "openMINDS pipeline"
         git add .
         git commit -m "build triggered by submodule ${{ inputs.repository }} version ${{ inputs.branch }}"
         git status
