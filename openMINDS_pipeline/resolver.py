@@ -151,5 +151,5 @@ def _do_resolve_categories(schema: SchemaStructure, schemas_by_category):
                 schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_TYPES] = sorted(embedded_types)
                 del schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES]
     with open(schema.absolute_path, "w") as target_file:
-        target_file.write(json.dumps(schema_payload, indent=4))
+        target_file.write(json.dumps(schema_payload, indent=2))
 
