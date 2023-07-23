@@ -38,7 +38,7 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/hasParent": {
-      "_instruction": "Add all anatomical parent structures for this parcellation entity as defined within the corrsponding brain atlas.",
+      "_instruction": "Add all anatomical parent structures for this parcellation entity as defined within the corresponding brain atlas.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/ParcellationEntity"
       ],
