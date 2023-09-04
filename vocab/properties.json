@@ -4522,7 +4522,7 @@
   },
   "https://openminds.ebrains.eu/vocab/howToCite": {
     "asString": {
-      "formatting": "text/plain",
+      "formatting": "text/markdown",
       "inVersions": [
         "latest",
         "v1.0",
@@ -5653,7 +5653,7 @@
   },
   "https://openminds.ebrains.eu/vocab/learningOutcome": {
     "asString": {
-      "formatting": "text/plain",
+      "formatting": "text/markdown",
       "inVersions": [
         "latest"
       ],
@@ -7430,7 +7430,7 @@
   },
   "https://openminds.ebrains.eu/vocab/prerequisite": {
     "asString": {
-      "formatting": "text/plain",
+      "formatting": "text/markdown",
       "inVersions": [
         "latest"
       ],
