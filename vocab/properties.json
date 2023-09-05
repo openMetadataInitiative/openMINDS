@@ -10,8 +10,10 @@
       "multiline": false
     },
     "description": "Stands for Internationalized Resource Identifier which is an internet protocol standard that builds on the URI protocol, extending the set of permitted characters to include Unicode/ISO 10646.",
-    "label": "Iri",
+    "label": "IRI",
+    "labelPlural": "IRIs",
     "name": "IRI",
+    "namePlural": "IRIs",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -46,8 +48,10 @@
       "multiline": false
     },
     "description": null,
-    "label": "Url",
+    "label": "URL",
+    "labelPlural": "URLs",
     "name": "URL",
+    "namePlural": "URLs",
     "semanticEquivalent": [],
     "usedIn": {
       "v2.0": [
@@ -65,7 +69,9 @@
     },
     "description": null,
     "label": "Abbreviation",
+    "labelPlural": "Abbreviations",
     "name": "abbreviation",
+    "namePlural": "abbreviations",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -109,7 +115,9 @@
     },
     "description": null,
     "label": "About",
+    "labelPlural": "About",
     "name": "about",
+    "namePlural": "about",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -129,7 +137,9 @@
     },
     "description": null,
     "label": "Abstract",
+    "labelPlural": "Abstracts",
     "name": "abstract",
+    "namePlural": "abstracts",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -157,7 +167,9 @@
     },
     "description": "Extent of simplification of physical, spatial, or temporal details or attributes in the study of objects or systems.",
     "label": "Abstraction level",
+    "labelPlural": "Abstraction levels",
     "name": "abstractionLevel",
+    "namePlural": "abstractionLevels",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -188,7 +200,9 @@
     },
     "description": "Level to which something is accessible to someone or something.",
     "label": "Accessibility",
+    "labelPlural": "Accessibilities",
     "name": "accessibility",
+    "namePlural": "accessibilities",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -229,7 +243,9 @@
     },
     "description": "Offical declaration or avowal of appreciation of an act or achievement.",
     "label": "Acknowledgement",
+    "labelPlural": "Acknowledgements",
     "name": "acknowledgement",
+    "namePlural": "acknowledgements",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -257,7 +273,9 @@
     },
     "description": "Reference to an existing terminology (distinct class to group related terms).",
     "label": "Add existing terminology",
+    "labelPlural": "Add existing terminologies",
     "name": "addExistingTerminology",
+    "namePlural": "addExistingTerminologies",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -280,7 +298,9 @@
     },
     "description": "Mention of what deserves additional attention or notice.",
     "label": "Additional remarks",
+    "labelPlural": "Additional remarks",
     "name": "additionalRemarks",
+    "namePlural": "additionalRemarks",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -328,7 +348,9 @@
     },
     "description": "Declaration of a person being closely associated to an organization.",
     "label": "Affiliation",
+    "labelPlural": "Affiliations",
     "name": "affiliation",
+    "namePlural": "affiliations",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -360,7 +382,9 @@
     },
     "description": "Time of life or existence at which some particular qualification, capacity or event arises.",
     "label": "Age",
+    "labelPlural": "Ages",
     "name": "age",
+    "namePlural": "ages",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -400,7 +424,9 @@
     },
     "description": "Distinct life cycle class that is defined by a similar age or age range (developmental stage) within a group of individual beings.",
     "label": "Age category",
+    "labelPlural": "Age categories",
     "name": "ageCategory",
+    "namePlural": "ageCategories",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -429,7 +455,9 @@
     },
     "description": "Procedure for solving a mathematical problem in a finite number of steps. Can involve repetition of an operation.",
     "label": "Algorithm",
+    "labelPlural": "Algorithms",
     "name": "algorithm",
+    "namePlural": "algorithms",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -453,7 +481,9 @@
     },
     "description": null,
     "label": "Alternate identifier",
+    "labelPlural": "Alternate identifiers",
     "name": "alternateIdentifier",
+    "namePlural": "alternateIdentifiers",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -471,7 +501,9 @@
     },
     "description": null,
     "label": "Alternate name",
+    "labelPlural": "Alternate names",
     "name": "alternateName",
+    "namePlural": "alternateNames",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -492,7 +524,9 @@
     },
     "description": null,
     "label": "Amount",
+    "labelPlural": "Amounts",
     "name": "amount",
+    "namePlural": "amounts",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -517,7 +551,9 @@
     },
     "description": "Relation between reference planes used in anatomy and mathematics.",
     "label": "Anatomical axes orientation",
+    "labelPlural": "Anatomical axes orientations",
     "name": "anatomicalAxesOrientation",
+    "namePlural": "anatomicalAxesOrientations",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -544,7 +580,9 @@
     },
     "description": "Physical component of a body, organ, or tissue.",
     "label": "Anatomical entity",
+    "labelPlural": "Anatomical entities",
     "name": "anatomicalEntity",
+    "namePlural": "anatomicalEntities",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -570,7 +608,9 @@
     },
     "description": null,
     "label": "Anatomical location",
+    "labelPlural": "Anatomical locations",
     "name": "anatomicalLocation",
+    "namePlural": "anatomicalLocations",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -599,7 +639,9 @@
     },
     "description": null,
     "label": "Anatomical location of array",
+    "labelPlural": "Anatomical location of arrays",
     "name": "anatomicalLocationOfArray",
+    "namePlural": "anatomicalLocationOfArrays",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -625,7 +667,9 @@
     },
     "description": null,
     "label": "Anatomical location of electrodes",
+    "labelPlural": "Anatomical location of electrodes",
     "name": "anatomicalLocationOfElectrodes",
+    "namePlural": "anatomicalLocationOfElectrodes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -651,7 +695,9 @@
     },
     "description": null,
     "label": "Anatomical target",
+    "labelPlural": "Anatomical targets",
     "name": "anatomicalTarget",
+    "namePlural": "anatomicalTargets",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -670,7 +716,9 @@
     },
     "description": null,
     "label": "Anchor point",
+    "labelPlural": "Anchor points",
     "name": "anchorPoint",
+    "namePlural": "anchorPoints",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -691,7 +739,9 @@
     },
     "description": "Collection of notes or markings, each added by way of comment or explanation.",
     "label": "Annotation set",
+    "labelPlural": "Annotation sets",
     "name": "annotationSet",
+    "namePlural": "annotationSets",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -716,7 +766,9 @@
     },
     "description": "Distinct class that groups software programs which perform a similar task or set of tasks.",
     "label": "Application category",
+    "labelPlural": "Application categories",
     "name": "applicationCategory",
+    "namePlural": "applicationCategories",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -740,7 +792,9 @@
     },
     "description": null,
     "label": "Argument",
+    "labelPlural": "Arguments",
     "name": "argument",
+    "namePlural": "arguments",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -759,7 +813,9 @@
     },
     "description": null,
     "label": "Associated account",
+    "labelPlural": "Associated accounts",
     "name": "associatedAccount",
+    "namePlural": "associatedAccounts",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -777,7 +833,9 @@
     },
     "description": null,
     "label": "Associated file extension",
+    "labelPlural": "Associated file extensions",
     "name": "associatedFileExtension",
+    "namePlural": "associatedFileExtensions",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -797,7 +855,9 @@
     },
     "description": null,
     "label": "Attribute",
+    "labelPlural": "Attributes",
     "name": "attribute",
+    "namePlural": "attributes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -829,7 +889,9 @@
     },
     "description": "Creator of a literary or creative work, as well as a dataset publication.",
     "label": "Author",
+    "labelPlural": "Authors",
     "name": "author",
+    "namePlural": "authors",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -870,7 +932,9 @@
     },
     "description": "Machine-readable identifier for a benefit that is conferred or bestowed on the basis of merit or need.",
     "label": "Award number",
+    "labelPlural": "Award numbers",
     "name": "awardNumber",
+    "namePlural": "awardNumbers",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -896,7 +960,9 @@
     },
     "description": "Human-readable identifier for a benefit that is conferred or bestowed on the basis of merit or need.",
     "label": "Award title",
+    "labelPlural": "Award titles",
     "name": "awardTitle",
+    "namePlural": "awardTitles",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -927,7 +993,9 @@
     },
     "description": "Special point in a coordinate system used as a fixed point of reference for the geometry of the surrounding space.",
     "label": "Axes origin",
+    "labelPlural": "Axes origins",
     "name": "axesOrigin",
+    "namePlural": "axesOrigins",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -954,7 +1022,9 @@
     },
     "description": null,
     "label": "Background strain",
+    "labelPlural": "Background strains",
     "name": "backgroundStrain",
+    "namePlural": "backgroundStrains",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -974,7 +1044,9 @@
     },
     "description": null,
     "label": "Bath temperature",
+    "labelPlural": "Bath temperatures",
     "name": "bathTemperature",
+    "namePlural": "bathTemperatures",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -993,7 +1065,9 @@
     },
     "description": null,
     "label": "Behavioral protocol",
+    "labelPlural": "Behavioral protocols",
     "name": "behavioralProtocol",
+    "namePlural": "behavioralProtocols",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1016,7 +1090,9 @@
     },
     "description": "Specific set of defined activities (or their absence) that should be performed (or avoided) by a subject.",
     "label": "Behavioral task",
+    "labelPlural": "Behavioral tasks",
     "name": "behavioralTask",
+    "namePlural": "behavioralTasks",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -1041,7 +1117,9 @@
     },
     "description": "Coordinate point from which you get the best view of something.",
     "label": "Best view point",
+    "labelPlural": "Best view points",
     "name": "bestViewPoint",
+    "namePlural": "bestViewPoints",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -1070,7 +1148,9 @@
     },
     "description": "Differentiation of individuals of most species (animals and plants) based on the type of gametes they produce.",
     "label": "Biological sex",
+    "labelPlural": "Biological sex",
     "name": "biologicalSex",
+    "namePlural": "biologicalSex",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1104,7 +1184,9 @@
     },
     "description": null,
     "label": "Breeding type",
+    "labelPlural": "Breeding types",
     "name": "breedingType",
+    "namePlural": "breedingTypes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1123,7 +1205,9 @@
     },
     "description": null,
     "label": "Camera position",
+    "labelPlural": "Camera positions",
     "name": "cameraPosition",
+    "namePlural": "cameraPositions",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1141,7 +1225,9 @@
     },
     "description": null,
     "label": "Category",
+    "labelPlural": "Categories",
     "name": "category",
+    "namePlural": "categories",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -1160,7 +1246,9 @@
     },
     "description": null,
     "label": "Channel",
+    "labelPlural": "Channels",
     "name": "channel",
+    "namePlural": "channels",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1181,7 +1269,9 @@
     },
     "description": null,
     "label": "Chemical product",
+    "labelPlural": "Chemical products",
     "name": "chemicalProduct",
+    "namePlural": "chemicalProducts",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1200,7 +1290,9 @@
     },
     "description": null,
     "label": "Chloride reversal potential",
+    "labelPlural": "Chloride reversal potentials",
     "name": "chlorideReversalPotential",
+    "namePlural": "chlorideReversalPotentials",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1220,7 +1312,9 @@
     },
     "description": null,
     "label": "Cited publication",
+    "labelPlural": "Cited publications",
     "name": "citedPublication",
+    "namePlural": "citedPublications",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1241,7 +1335,9 @@
     },
     "description": null,
     "label": "Comment",
+    "labelPlural": "Comments",
     "name": "comment",
+    "namePlural": "comments",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1260,7 +1356,9 @@
     },
     "description": null,
     "label": "Commenter",
+    "labelPlural": "Commenters",
     "name": "commenter",
+    "namePlural": "commenters",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1279,7 +1377,9 @@
     },
     "description": null,
     "label": "Compensation current",
+    "labelPlural": "Compensation currents",
     "name": "compensationCurrent",
+    "namePlural": "compensationCurrents",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1300,7 +1400,9 @@
     },
     "description": null,
     "label": "Conductor material",
+    "labelPlural": "Conductor materials",
     "name": "conductorMaterial",
+    "namePlural": "conductorMaterials",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1330,7 +1432,9 @@
     },
     "description": null,
     "label": "Configuration",
+    "labelPlural": "Configurations",
     "name": "configuration",
+    "namePlural": "configurations",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1352,7 +1456,9 @@
     },
     "description": null,
     "label": "Construction type",
+    "labelPlural": "Construction types",
     "name": "constructionType",
+    "namePlural": "constructionTypes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1374,7 +1480,9 @@
     },
     "description": "Any available way used to contact a person or business (e.g., address, phone number, email address, etc.).",
     "label": "Contact information",
+    "labelPlural": "Contact information",
     "name": "contactInformation",
+    "namePlural": "contactInformation",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1398,7 +1506,9 @@
     },
     "description": null,
     "label": "Contact resistance",
+    "labelPlural": "Contact resistances",
     "name": "contactResistance",
+    "namePlural": "contactResistances",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1418,7 +1528,9 @@
     },
     "description": null,
     "label": "Contact resistances",
+    "labelPlural": "Contact resistances",
     "name": "contactResistances",
+    "namePlural": "contactResistances",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1437,7 +1549,9 @@
     },
     "description": "Something that is contained.",
     "label": "Content",
+    "labelPlural": "Content",
     "name": "content",
+    "namePlural": "content",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -1458,7 +1572,9 @@
     },
     "description": null,
     "label": "Content description",
+    "labelPlural": "Content descriptions",
     "name": "contentDescription",
+    "namePlural": "contentDescriptions",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1480,7 +1596,9 @@
     },
     "description": null,
     "label": "Content type",
+    "labelPlural": "Content types",
     "name": "contentType",
+    "namePlural": "contentTypes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1499,7 +1617,9 @@
     },
     "description": null,
     "label": "Content type pattern",
+    "labelPlural": "Content type patterns",
     "name": "contentTypePattern",
+    "namePlural": "contentTypePatterns",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1518,7 +1638,9 @@
     },
     "description": null,
     "label": "Context",
+    "labelPlural": "Contexts",
     "name": "context",
+    "namePlural": "contexts",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1544,7 +1666,9 @@
     },
     "description": "Distinct class of what was given or supplied as a part or share.",
     "label": "Contribution type",
+    "labelPlural": "Contribution types",
     "name": "contributionType",
+    "namePlural": "contributionTypes",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -1576,7 +1700,9 @@
     },
     "description": "Legal person that gave or supplied something as a part or share.",
     "label": "Contributor",
+    "labelPlural": "Contributors",
     "name": "contributor",
+    "namePlural": "contributors",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1604,7 +1730,9 @@
     },
     "description": "Pair or triplet of numbers defining the position in a particular two- or three dimensional plane or space.",
     "label": "Coordinate point",
+    "labelPlural": "Coordinate points",
     "name": "coordinatePoint",
+    "namePlural": "coordinatePoints",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -1634,7 +1762,9 @@
     },
     "description": "Two or three dimensional geometric setting.",
     "label": "Coordinate space",
+    "labelPlural": "Coordinate spaces",
     "name": "coordinateSpace",
+    "namePlural": "coordinateSpaces",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1671,7 +1801,9 @@
     },
     "description": "Pair or triplet of numbers defining a location in a given coordinate space.",
     "label": "Coordinates",
+    "labelPlural": "Coordinates",
     "name": "coordinates",
+    "namePlural": "coordinates",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1702,7 +1834,9 @@
     },
     "description": "Legal person who organizes the collaborative work of people or groups.",
     "label": "Coordinator",
+    "labelPlural": "Coordinators",
     "name": "coordinator",
+    "namePlural": "coordinators",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1724,7 +1858,9 @@
     },
     "description": null,
     "label": "Copy of",
+    "labelPlural": "Copy of",
     "name": "copyOf",
+    "namePlural": "copyOf",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1749,7 +1885,9 @@
     },
     "description": "Exclusive and assignable legal right of an originator to reproduce, publish, sell, or distribute the matter and form of a creative work for a defined time period.",
     "label": "Copyright",
+    "labelPlural": "Copyrights",
     "name": "copyright",
+    "namePlural": "copyrights",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1792,7 +1930,9 @@
     },
     "description": null,
     "label": "Corrected name",
+    "labelPlural": "Corrected names",
     "name": "correctedName",
+    "namePlural": "correctedNames",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1810,7 +1950,9 @@
     },
     "description": null,
     "label": "Creation date",
+    "labelPlural": "Creation dates",
     "name": "creationDate",
+    "namePlural": "creationDates",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1838,7 +1980,9 @@
     },
     "description": "Aspects or standards on which a judgement or decision is based.",
     "label": "Criteria",
+    "labelPlural": "Criterias",
     "name": "criteria",
+    "namePlural": "criterias",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1876,7 +2020,9 @@
     },
     "description": "Distinct class that defines how the judgement or decision was made for a particular criteria.",
     "label": "Criteria quality type",
+    "labelPlural": "Criteria quality types",
     "name": "criteriaQualityType",
+    "namePlural": "criteriaQualityTypes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1904,7 +2050,9 @@
     },
     "description": null,
     "label": "Criteria type",
+    "labelPlural": "Criteria types",
     "name": "criteriaType",
+    "namePlural": "criteriaTypes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1924,7 +2072,9 @@
     },
     "description": null,
     "label": "Culture medium",
+    "labelPlural": "Culture mediums",
     "name": "cultureMedium",
+    "namePlural": "cultureMediums",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1943,7 +2093,9 @@
     },
     "description": null,
     "label": "Culture type",
+    "labelPlural": "Culture types",
     "name": "cultureType",
+    "namePlural": "cultureTypes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -1972,7 +2124,9 @@
     },
     "description": "The 'custodian' is a legal person who is responsible for the content and quality of the data, metadata, and/or code of a research product.",
     "label": "Custodian",
+    "labelPlural": "Custodians",
     "name": "custodian",
+    "namePlural": "custodians",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2030,7 +2184,9 @@
     },
     "description": null,
     "label": "Custom property set",
+    "labelPlural": "Custom property sets",
     "name": "customPropertySet",
+    "namePlural": "customPropertySets",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2068,7 +2224,9 @@
     },
     "description": null,
     "label": "Data location",
+    "labelPlural": "Data locations",
     "name": "dataLocation",
+    "namePlural": "dataLocations",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2092,7 +2250,9 @@
     },
     "description": null,
     "label": "Data type",
+    "labelPlural": "Data types",
     "name": "dataType",
+    "namePlural": "dataTypes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2113,7 +2273,9 @@
     },
     "description": null,
     "label": "Deed",
+    "labelPlural": "Deeds",
     "name": "deed",
+    "namePlural": "deeds",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -2138,7 +2300,9 @@
     },
     "description": "Two or three dimensional image that particluarly represents a specific coordinate space.",
     "label": "Default image",
+    "labelPlural": "Default images",
     "name": "defaultImage",
+    "namePlural": "defaultImages",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2168,7 +2332,9 @@
     },
     "description": "Reference to a file instance in which something is stored.",
     "label": "Defined in",
+    "labelPlural": "Defined in",
     "name": "definedIn",
+    "namePlural": "definedIn",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -2194,7 +2360,9 @@
     },
     "description": "Short, but precise statement of the meaning of a word, word group, sign or a symbol.",
     "label": "Definition",
+    "labelPlural": "Definitions",
     "name": "definition",
+    "namePlural": "definitions",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2374,7 +2542,9 @@
     },
     "description": null,
     "label": "Descended from",
+    "labelPlural": "Descended from",
     "name": "descendedFrom",
+    "namePlural": "descendedFrom",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2398,7 +2568,9 @@
     },
     "description": null,
     "label": "Described in",
+    "labelPlural": "Described in",
     "name": "describedIn",
+    "namePlural": "describedIn",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2419,7 +2591,9 @@
     },
     "description": "Longer statement or account giving the characteristics of someone or something.",
     "label": "Description",
+    "labelPlural": "Descriptions",
     "name": "description",
+    "namePlural": "descriptions",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2678,7 +2852,9 @@
     },
     "description": "Legal person that creates or improves products or services (e.g., software, applications, etc.).",
     "label": "Developer",
+    "labelPlural": "Developers",
     "name": "developer",
+    "namePlural": "developers",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2736,7 +2912,9 @@
     },
     "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
     "label": "Device",
+    "labelPlural": "Devices",
     "name": "device",
+    "namePlural": "devices",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2769,7 +2947,9 @@
     },
     "description": null,
     "label": "Device type",
+    "labelPlural": "Device types",
     "name": "deviceType",
+    "namePlural": "deviceTypes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2792,7 +2972,9 @@
     },
     "description": "Summation or condensation of a body of information.",
     "label": "Digest",
+    "labelPlural": "Digests",
     "name": "digest",
+    "namePlural": "digests",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2835,7 +3017,9 @@
     },
     "description": "Digital handle to identify objects or legal persons.",
     "label": "Digital identifier",
+    "labelPlural": "Digital identifiers",
     "name": "digitalIdentifier",
+    "namePlural": "digitalIdentifiers",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2915,7 +3099,9 @@
     },
     "description": null,
     "label": "Dimension",
+    "labelPlural": "Dimensions",
     "name": "dimension",
+    "namePlural": "dimensions",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2935,7 +3121,9 @@
     },
     "description": null,
     "label": "Disease model",
+    "labelPlural": "Disease models",
     "name": "diseaseModel",
+    "namePlural": "diseaseModels",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2953,7 +3141,9 @@
     },
     "description": "Preferred coloring.",
     "label": "Display color",
+    "labelPlural": "Display colors",
     "name": "displayColor",
+    "namePlural": "displayColors",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -2975,7 +3165,9 @@
     },
     "description": null,
     "label": "Display label",
+    "labelPlural": "Display labels",
     "name": "displayLabel",
+    "namePlural": "displayLabels",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2995,7 +3187,9 @@
     },
     "description": null,
     "label": "Editor",
+    "labelPlural": "Editors",
     "name": "editor",
+    "namePlural": "editors",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3017,7 +3211,9 @@
     },
     "description": null,
     "label": "Educational level",
+    "labelPlural": "Educational levels",
     "name": "educationalLevel",
+    "namePlural": "educationalLevels",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3039,7 +3235,9 @@
     },
     "description": "Not shielded part of a conductor that is used to establish electrical contact with a nonmetallic part of a circuit.",
     "label": "Electrode contact",
+    "labelPlural": "Electrode contacts",
     "name": "electrodeContact",
+    "namePlural": "electrodeContacts",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -3060,7 +3258,9 @@
     },
     "description": null,
     "label": "Electrode identifier",
+    "labelPlural": "Electrode identifiers",
     "name": "electrodeIdentifier",
+    "namePlural": "electrodeIdentifiers",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3082,7 +3282,9 @@
     },
     "description": "Elements in a semiconductor device that emits or collects electrons or holes or controls their movements.",
     "label": "Electrodes",
+    "labelPlural": "Electrodes",
     "name": "electrodes",
+    "namePlural": "electrodes",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -3105,7 +3307,9 @@
     },
     "description": "Address to which or from which an electronic mail can be sent.",
     "label": "Email",
+    "labelPlural": "Emails",
     "name": "email",
+    "namePlural": "emails",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3130,7 +3334,9 @@
     },
     "description": "Date in the Gregorian calendar at which something terminates in time.",
     "label": "End date",
+    "labelPlural": "End dates",
     "name": "endDate",
+    "namePlural": "endDates",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3152,7 +3358,9 @@
     },
     "description": null,
     "label": "End membrane potential",
+    "labelPlural": "End membrane potentials",
     "name": "endMembranePotential",
+    "namePlural": "endMembranePotentials",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3170,7 +3378,9 @@
     },
     "description": null,
     "label": "End time",
+    "labelPlural": "End times",
     "name": "endTime",
+    "namePlural": "endTimes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3200,7 +3410,9 @@
     },
     "description": null,
     "label": "Entry point",
+    "labelPlural": "Entry points",
     "name": "entryPoint",
+    "namePlural": "entryPoints",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3220,7 +3432,9 @@
     },
     "description": null,
     "label": "Environment",
+    "labelPlural": "Environments",
     "name": "environment",
+    "namePlural": "environments",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3246,7 +3460,9 @@
     },
     "description": null,
     "label": "Environment variable",
+    "labelPlural": "Environment variables",
     "name": "environmentVariable",
+    "namePlural": "environmentVariables",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3271,7 +3487,9 @@
     },
     "description": "Judgment about the applied principles of conduct governing an individual or a group.",
     "label": "Ethics assessment",
+    "labelPlural": "Ethics assessments",
     "name": "ethicsAssessment",
+    "namePlural": "ethicsAssessments",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3295,7 +3513,9 @@
     },
     "description": null,
     "label": "Executable",
+    "labelPlural": "Executables",
     "name": "executable",
+    "namePlural": "executables",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3317,7 +3537,9 @@
     },
     "description": null,
     "label": "Experimental approach",
+    "labelPlural": "Experimental approaches",
     "name": "experimentalApproach",
+    "namePlural": "experimentalApproaches",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3339,7 +3561,9 @@
     },
     "description": null,
     "label": "External diameter",
+    "labelPlural": "External diameters",
     "name": "externalDiameter",
+    "namePlural": "externalDiameters",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3359,7 +3583,9 @@
     },
     "description": "Name borne in common by members of a family.",
     "label": "Family name",
+    "labelPlural": "Family names",
     "name": "familyName",
+    "namePlural": "familyNames",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3387,7 +3613,9 @@
     },
     "description": "Structure, form, or appearance that characterizes something or someone.",
     "label": "Feature",
+    "labelPlural": "Features",
     "name": "feature",
+    "namePlural": "features",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3409,7 +3637,9 @@
     },
     "description": "String of characters attached as suffix to the names of files of a particular format.",
     "label": "File extension",
+    "labelPlural": "File extensions",
     "name": "fileExtension",
+    "namePlural": "fileExtensions",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3431,7 +3661,9 @@
     },
     "description": null,
     "label": "File path pattern",
+    "labelPlural": "File path patterns",
     "name": "filePathPattern",
+    "namePlural": "filePathPatterns",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3453,7 +3685,9 @@
     },
     "description": null,
     "label": "File repository",
+    "labelPlural": "File repositories",
     "name": "fileRepository",
+    "namePlural": "fileRepositories",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3481,7 +3715,9 @@
     },
     "description": "Method of digitally organizing and structuring data or information.",
     "label": "Format",
+    "labelPlural": "Formats",
     "name": "format",
+    "namePlural": "formats",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3531,7 +3767,9 @@
     },
     "description": "Non-abridged instructions, comments, and information for using a particular product.",
     "label": "Full documentation",
+    "labelPlural": "Full documentations",
     "name": "fullDocumentation",
+    "namePlural": "fullDocumentations",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3572,7 +3810,9 @@
     },
     "description": "Whole, non-abbreviated name of something or somebody.",
     "label": "Full name",
+    "labelPlural": "Full names",
     "name": "fullName",
+    "namePlural": "fullNames",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3657,7 +3897,9 @@
     },
     "description": "Legal person that provides money for a particular purpose.",
     "label": "Funder",
+    "labelPlural": "Funders",
     "name": "funder",
+    "namePlural": "funders",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3688,7 +3930,9 @@
     },
     "description": "Money provided by a legal person for a particular purpose.",
     "label": "Funding",
+    "labelPlural": "Funding",
     "name": "funding",
+    "namePlural": "funding",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3732,7 +3976,9 @@
     },
     "description": null,
     "label": "Genetic strain type",
+    "labelPlural": "Genetic strain types",
     "name": "geneticStrainType",
+    "namePlural": "geneticStrainTypes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3751,7 +3997,9 @@
     },
     "description": "Genetic constitution of an individual or group.",
     "label": "Genotype",
+    "labelPlural": "Genotypes",
     "name": "genotype",
+    "namePlural": "genotypes",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -3774,7 +4022,9 @@
     },
     "description": "Name given to a person, including all potential middle names, but excluding the family name.",
     "label": "Given name",
+    "labelPlural": "Given names",
     "name": "givenName",
+    "namePlural": "givenNames",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3850,7 +4100,9 @@
     },
     "description": "Reference to the aspect used to group something.",
     "label": "Grouped by",
+    "labelPlural": "Grouped by",
     "name": "groupedBy",
+    "namePlural": "groupedBy",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3875,7 +4127,9 @@
     },
     "description": null,
     "label": "Grouping type",
+    "labelPlural": "Grouping types",
     "name": "groupingType",
+    "namePlural": "groupingTypes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3901,7 +4155,9 @@
     },
     "description": "Degree to which an organism prefers one hand or foot over the other hand or foot during the performance of a task.",
     "label": "Handedness",
+    "labelPlural": "Handedness",
     "name": "handedness",
+    "namePlural": "handedness",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3929,7 +4185,9 @@
     },
     "description": null,
     "label": "Hardware",
+    "labelPlural": "Hardware",
     "name": "hardware",
+    "namePlural": "hardware",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3951,7 +4209,9 @@
     },
     "description": null,
     "label": "Has alternative version",
+    "labelPlural": "Has alternative versions",
     "name": "hasAlternativeVersion",
+    "namePlural": "hasAlternativeVersions",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -3979,7 +4239,9 @@
     },
     "description": null,
     "label": "Has annotation",
+    "labelPlural": "Has annotations",
     "name": "hasAnnotation",
+    "namePlural": "hasAnnotations",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4003,7 +4265,9 @@
     },
     "description": "Reference to an element of a collection.",
     "label": "Has component",
+    "labelPlural": "Has components",
     "name": "hasComponent",
+    "namePlural": "hasComponents",
     "semanticEquivalent": [],
     "usedIn": {
       "v2.0": [
@@ -4023,7 +4287,9 @@
     },
     "description": null,
     "label": "Has entity",
+    "labelPlural": "Has entities",
     "name": "hasEntity",
+    "namePlural": "hasEntities",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4043,7 +4309,9 @@
     },
     "description": null,
     "label": "Has feature",
+    "labelPlural": "Has features",
     "name": "hasFeature",
+    "namePlural": "hasFeatures",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -4072,7 +4340,9 @@
     },
     "description": "Reference to a parent object or legal person.",
     "label": "Has parent",
+    "labelPlural": "Has parents",
     "name": "hasParent",
+    "namePlural": "hasParents",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4128,7 +4398,9 @@
     },
     "description": null,
     "label": "Has part",
+    "labelPlural": "Has parts",
     "name": "hasPart",
+    "namePlural": "hasParts",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4152,7 +4424,9 @@
     },
     "description": null,
     "label": "Has requirement",
+    "labelPlural": "Has requirements",
     "name": "hasRequirement",
+    "namePlural": "hasRequirements",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -4188,7 +4462,9 @@
     },
     "description": "Reference to subsidiary research products.",
     "label": "Has research products",
+    "labelPlural": "Has research products",
     "name": "hasResearchProducts",
+    "namePlural": "hasResearchProducts",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -4212,7 +4488,9 @@
     },
     "description": null,
     "label": "Has supplement version",
+    "labelPlural": "Has supplement versions",
     "name": "hasSupplementVersion",
+    "namePlural": "hasSupplementVersions",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -4238,7 +4516,9 @@
     },
     "description": null,
     "label": "Has terminology",
+    "labelPlural": "Has terminologies",
     "name": "hasTerminology",
+    "namePlural": "hasTerminologies",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4285,7 +4565,9 @@
     },
     "description": "Reference to variants of an original.",
     "label": "Has version",
+    "labelPlural": "Has versions",
     "name": "hasVersion",
+    "namePlural": "hasVersions",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4334,7 +4616,9 @@
     },
     "description": "Term used for the process of converting any data into a single value. Often also directly refers to the resulting single value.",
     "label": "Hash",
+    "labelPlural": "Hashes",
     "name": "hash",
+    "namePlural": "hashes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4376,7 +4660,9 @@
     },
     "description": "Legal person in possession of something.",
     "label": "Holder",
+    "labelPlural": "Holders",
     "name": "holder",
+    "namePlural": "holders",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4401,7 +4687,9 @@
     },
     "description": null,
     "label": "Holding potential",
+    "labelPlural": "Holding potentials",
     "name": "holdingPotential",
+    "namePlural": "holdingPotentials",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4428,7 +4716,9 @@
     },
     "description": "Main website of something or someone.",
     "label": "Homepage",
+    "labelPlural": "Homepages",
     "name": "homepage",
+    "namePlural": "homepages",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4505,7 +4795,9 @@
     },
     "description": "Reference to an organization that provides facilities and services for something.",
     "label": "Hosted by",
+    "labelPlural": "Hosted by",
     "name": "hostedBy",
+    "namePlural": "hostedBy",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4532,7 +4824,9 @@
     },
     "description": "Preferred format for citing a particular object or legal person.",
     "label": "How to cite",
+    "labelPlural": "How to cite",
     "name": "howToCite",
+    "namePlural": "howToCite",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4587,7 +4881,9 @@
     },
     "description": "Term or code used to identify something or someone.",
     "label": "Identifier",
+    "labelPlural": "Identifiers",
     "name": "identifier",
+    "namePlural": "identifiers",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4628,7 +4924,9 @@
     },
     "description": "Format of a term or code used to identify something or someone.",
     "label": "Identifier pattern",
+    "labelPlural": "Identifier patterns",
     "name": "identifierPattern",
+    "namePlural": "identifierPatterns",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -4647,7 +4945,9 @@
     },
     "description": "Standard for creating a particular identifier for something or someone.",
     "label": "Identifier schema",
+    "labelPlural": "Identifier schemas",
     "name": "identifierSchema",
+    "namePlural": "identifierSchemas",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -4674,7 +4974,9 @@
     },
     "description": "Reference to a related element.",
     "label": "In relation to",
+    "labelPlural": "In relation to",
     "name": "inRelationTo",
+    "namePlural": "inRelationTo",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4729,7 +5031,9 @@
     },
     "description": "Something or someone that is put into or participates in a process or machine.",
     "label": "Input",
+    "labelPlural": "Inputs",
     "name": "input",
+    "namePlural": "inputs",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4783,7 +5087,9 @@
     },
     "description": "Data that is put into a process or machine.",
     "label": "Input data",
+    "labelPlural": "Input data",
     "name": "inputData",
+    "namePlural": "inputData",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4816,7 +5122,9 @@
     },
     "description": "Format of data that is put into a process or machine.",
     "label": "Input format",
+    "labelPlural": "Input formats",
     "name": "inputFormat",
+    "namePlural": "inputFormats",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4842,7 +5150,9 @@
     },
     "description": null,
     "label": "Input resistance",
+    "labelPlural": "Input resistances",
     "name": "inputResistance",
+    "namePlural": "inputResistances",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4867,7 +5177,9 @@
     },
     "description": "Reference to an inspiring element.",
     "label": "Inspired by",
+    "labelPlural": "Inspired by",
     "name": "inspiredBy",
+    "namePlural": "inspiredBy",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4896,7 +5208,9 @@
     },
     "description": null,
     "label": "Insulator material",
+    "labelPlural": "Insulator materials",
     "name": "insulatorMaterial",
+    "namePlural": "insulatorMaterials",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -4915,7 +5229,9 @@
     },
     "description": "Persistent identifier for a term registered in the InterLex project.",
     "label": "Interlex identifier",
+    "labelPlural": "Interlex identifiers",
     "name": "interlexIdentifier",
+    "namePlural": "interlexIdentifiers",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5009,7 +5325,9 @@
     },
     "description": null,
     "label": "Internal diameter",
+    "labelPlural": "Internal diameters",
     "name": "internalDiameter",
+    "namePlural": "internalDiameters",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5029,7 +5347,9 @@
     },
     "description": "Term or code that identifies someone or something within a particular product.",
     "label": "Internal identifier",
+    "labelPlural": "Internal identifiers",
     "name": "internalIdentifier",
+    "namePlural": "internalIdentifiers",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5086,7 +5406,9 @@
     },
     "description": null,
     "label": "Intrinsic resistance",
+    "labelPlural": "Intrinsic resistances",
     "name": "intrinsicResistance",
+    "namePlural": "intrinsicResistances",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5122,7 +5444,9 @@
     },
     "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
     "label": "Is alternative version of",
+    "labelPlural": "Is alternative version of",
     "name": "isAlternativeVersionOf",
+    "namePlural": "isAlternativeVersionOf",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5181,7 +5505,9 @@
     },
     "description": "Reference to a previous (potentially outdated) particular form of something.",
     "label": "Is new version of",
+    "labelPlural": "Is new version of",
     "name": "isNewVersionOf",
+    "namePlural": "isNewVersionOf",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5245,7 +5571,9 @@
     },
     "description": "Reference to the ensemble of multiple things or beings.",
     "label": "Is part of",
+    "labelPlural": "Is part of",
     "name": "isPartOf",
+    "namePlural": "isPartOf",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5289,7 +5617,9 @@
     },
     "description": null,
     "label": "Issue number",
+    "labelPlural": "Issue numbers",
     "name": "issueNumber",
+    "namePlural": "issueNumbers",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5391,7 +5721,9 @@
     },
     "description": "Significant word or concept that are representative of something or someone.",
     "label": "Keyword",
+    "labelPlural": "Keywords",
     "name": "keyword",
+    "namePlural": "keywords",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5434,7 +5766,9 @@
     },
     "description": "Persistent link to an encyclopedia entry in the Knowledge Space project.",
     "label": "Knowledge space link",
+    "labelPlural": "Knowledge space links",
     "name": "knowledgeSpaceLink",
+    "namePlural": "knowledgeSpaceLinks",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5530,7 +5864,9 @@
     },
     "description": null,
     "label": "Labeling compound",
+    "labelPlural": "Labeling compounds",
     "name": "labelingCompound",
+    "namePlural": "labelingCompounds",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5548,7 +5884,9 @@
     },
     "description": null,
     "label": "Laboratory code",
+    "labelPlural": "Laboratory codes",
     "name": "laboratoryCode",
+    "namePlural": "laboratoryCodes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5573,7 +5911,9 @@
     },
     "description": "System of communication (words, their pronunciation, and the methods of combining them) used and understood by a particular community.",
     "label": "Language",
+    "labelPlural": "Languages",
     "name": "language",
+    "namePlural": "languages",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5604,7 +5944,9 @@
     },
     "description": "Differentiation between a pair of lateral homologous parts of the body.",
     "label": "Laterality",
+    "labelPlural": "Lateralities",
     "name": "laterality",
+    "namePlural": "lateralities",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5637,7 +5979,9 @@
     },
     "description": null,
     "label": "Launch configuration",
+    "labelPlural": "Launch configurations",
     "name": "launchConfiguration",
+    "namePlural": "launchConfigurations",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5661,7 +6005,9 @@
     },
     "description": null,
     "label": "Learning outcome",
+    "labelPlural": "Learning outcomes",
     "name": "learningOutcome",
+    "namePlural": "learningOutcomes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5681,7 +6027,9 @@
     },
     "description": "Type of legislation that claims to cover the law system (complete or parts) as it existed at the time the code was enacted.",
     "label": "Legal code",
+    "labelPlural": "Legal codes",
     "name": "legalCode",
+    "namePlural": "legalCodes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5706,7 +6054,9 @@
     },
     "description": null,
     "label": "Length",
+    "labelPlural": "Lengths",
     "name": "length",
+    "namePlural": "lengths",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5732,7 +6082,9 @@
     },
     "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
     "label": "License",
+    "labelPlural": "Licenses",
     "name": "license",
+    "namePlural": "licenses",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5775,7 +6127,9 @@
     },
     "description": null,
     "label": "Liquid junction potential",
+    "labelPlural": "Liquid junction potentials",
     "name": "liquidJunctionPotential",
+    "namePlural": "liquidJunctionPotentials",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5793,7 +6147,9 @@
     },
     "description": null,
     "label": "Location",
+    "labelPlural": "Locations",
     "name": "location",
+    "namePlural": "locations",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5812,7 +6168,9 @@
     },
     "description": null,
     "label": "Lookup label",
+    "labelPlural": "Lookup labels",
     "name": "lookupLabel",
+    "namePlural": "lookupLabels",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5881,7 +6239,9 @@
     },
     "description": null,
     "label": "Major version identifier",
+    "labelPlural": "Major version identifiers",
     "name": "majorVersionIdentifier",
+    "namePlural": "majorVersionIdentifiers",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5902,7 +6262,9 @@
     },
     "description": null,
     "label": "Manufacturer",
+    "labelPlural": "Manufacturers",
     "name": "manufacturer",
+    "namePlural": "manufacturers",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5927,7 +6289,9 @@
     },
     "description": null,
     "label": "Material",
+    "labelPlural": "Materials",
     "name": "material",
+    "namePlural": "materials",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5946,7 +6310,9 @@
     },
     "description": "Greatest quantity attained or allowed.",
     "label": "Max value",
+    "labelPlural": "Max values",
     "name": "maxValue",
+    "namePlural": "maxValues",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5971,7 +6337,9 @@
     },
     "description": null,
     "label": "Max value unit",
+    "labelPlural": "Max value units",
     "name": "maxValueUnit",
+    "namePlural": "maxValueUnits",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5990,7 +6358,9 @@
     },
     "description": null,
     "label": "Measured quantity",
+    "labelPlural": "Measured quantities",
     "name": "measuredQuantity",
+    "namePlural": "measuredQuantities",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6012,7 +6382,9 @@
     },
     "description": null,
     "label": "Measured with",
+    "labelPlural": "Measured with",
     "name": "measuredWith",
+    "namePlural": "measuredWith",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6032,7 +6404,9 @@
     },
     "description": null,
     "label": "Member of",
+    "labelPlural": "Member of",
     "name": "memberOf",
+    "namePlural": "memberOf",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6052,7 +6426,9 @@
     },
     "description": null,
     "label": "Metadata location",
+    "labelPlural": "Metadata locations",
     "name": "metadataLocation",
+    "namePlural": "metadataLocations",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6074,7 +6450,9 @@
     },
     "description": "Smallest quantity attained or allowed.",
     "label": "Min value",
+    "labelPlural": "Min values",
     "name": "minValue",
+    "namePlural": "minValues",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6099,7 +6477,9 @@
     },
     "description": null,
     "label": "Min value unit",
+    "labelPlural": "Min value units",
     "name": "minValueUnit",
+    "namePlural": "minValueUnits",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6118,7 +6498,9 @@
     },
     "description": "Classification according to a logical proposition in which something exists, is experienced or expressed.",
     "label": "Modality",
+    "labelPlural": "Modalities",
     "name": "modality",
+    "namePlural": "modalities",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -6136,7 +6518,9 @@
     },
     "description": null,
     "label": "Modification date",
+    "labelPlural": "Modification dates",
     "name": "modificationDate",
+    "namePlural": "modificationDates",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6159,7 +6543,9 @@
     },
     "description": null,
     "label": "Molecular entity",
+    "labelPlural": "Molecular entities",
     "name": "molecularEntity",
+    "namePlural": "molecularEntities",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6179,7 +6565,9 @@
     },
     "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
     "label": "Name",
+    "labelPlural": "Names",
     "name": "name",
+    "namePlural": "names",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6406,7 +6794,9 @@
     },
     "description": "Word or expression that has a precise meaning within a science, art, profession, or subject.",
     "label": "Naming term",
+    "labelPlural": "Naming terms",
     "name": "namingTerm",
+    "namePlural": "namingTerms",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -6431,7 +6821,9 @@
     },
     "description": "Determinate quantity used in the original measurement.",
     "label": "Native unit",
+    "labelPlural": "Native units",
     "name": "nativeUnit",
+    "namePlural": "nativeUnits",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6450,7 +6842,9 @@
   "https://openminds.ebrains.eu/vocab/negativeUncertainties": {
     "description": null,
     "label": "Negative uncertainties",
+    "labelPlural": "Negative uncertainties",
     "name": "negativeUncertainties",
+    "namePlural": "negativeUncertainties",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6461,7 +6855,9 @@
   "https://openminds.ebrains.eu/vocab/numberOfElectrodes": {
     "description": null,
     "label": "Number of electrodes",
+    "labelPlural": "Number of electrodes",
     "name": "numberOfElectrodes",
+    "namePlural": "numberOfElectrodes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6472,7 +6868,9 @@
   "https://openminds.ebrains.eu/vocab/numberOfSubjects": {
     "description": null,
     "label": "Number of subjects",
+    "labelPlural": "Number of subjects",
     "name": "numberOfSubjects",
+    "namePlural": "numberOfSubjects",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6483,7 +6881,9 @@
   "https://openminds.ebrains.eu/vocab/numberOfTissueSamples": {
     "description": null,
     "label": "Number of tissue samples",
+    "labelPlural": "Number of tissue samples",
     "name": "numberOfTissueSamples",
+    "namePlural": "numberOfTissueSamples",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6503,7 +6903,9 @@
     },
     "description": "Term or code used to identify something or someone registered within a particular ontology.",
     "label": "Ontology identifier",
+    "labelPlural": "Ontology identifiers",
     "name": "ontologyIdentifier",
+    "namePlural": "ontologyIdentifiers",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6619,7 +7021,9 @@
     },
     "description": null,
     "label": "Open data in",
+    "labelPlural": "Open data in",
     "name": "openDataIn",
+    "namePlural": "openDataIn",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6644,7 +7048,9 @@
     },
     "description": "Software that controls the operation of a computer and directs the processing of programs.",
     "label": "Operating system",
+    "labelPlural": "Operating systems",
     "name": "operatingSystem",
+    "namePlural": "operatingSystems",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6661,7 +7067,9 @@
   "https://openminds.ebrains.eu/vocab/order": {
     "description": null,
     "label": "Order",
+    "labelPlural": "Orders",
     "name": "order",
+    "namePlural": "orders",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6681,7 +7089,9 @@
     },
     "description": "Legally accountable, administrative and functional structure.",
     "label": "Organization",
+    "labelPlural": "Organizations",
     "name": "organization",
+    "namePlural": "organizations",
     "semanticEquivalent": [],
     "usedIn": {
       "v2.0": [
@@ -6710,7 +7120,9 @@
     },
     "description": "Source at which something begins or rises, or from which something derives.",
     "label": "Origin",
+    "labelPlural": "Origins",
     "name": "origin",
+    "namePlural": "origins",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6738,7 +7150,9 @@
     },
     "description": null,
     "label": "Oscillation amplitude",
+    "labelPlural": "Oscillation amplitudes",
     "name": "oscillationAmplitude",
+    "namePlural": "oscillationAmplitudes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6757,7 +7171,9 @@
     },
     "description": "Reference to a related anatomical structure.",
     "label": "Other anatomical relation",
+    "labelPlural": "Other anatomical relations",
     "name": "otherAnatomicalRelation",
+    "namePlural": "otherAnatomicalRelations",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -6782,7 +7198,9 @@
     },
     "description": "Giving or supplying of something (such as money or time) as a part or share other than what is covered elsewhere.",
     "label": "Other contribution",
+    "labelPlural": "Other contributions",
     "name": "otherContribution",
+    "namePlural": "otherContributions",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6846,7 +7264,9 @@
     },
     "description": "Something or someone that comes out of, is delivered or produced by a process or machine.",
     "label": "Output",
+    "labelPlural": "Outputs",
     "name": "output",
+    "namePlural": "outputs",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6896,7 +7316,9 @@
     },
     "description": "Data that comes out of, is delivered or produced by a process or machine.",
     "label": "Output data",
+    "labelPlural": "Output data",
     "name": "outputData",
+    "namePlural": "outputData",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6927,7 +7349,9 @@
     },
     "description": "Format of data that comes out of, is delivered or produced by a process or machine.",
     "label": "Output format",
+    "labelPlural": "Output formats",
     "name": "outputFormat",
+    "namePlural": "outputFormats",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6955,7 +7379,9 @@
     },
     "description": null,
     "label": "Owner",
+    "labelPlural": "Owners",
     "name": "owner",
+    "namePlural": "owners",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6976,7 +7402,9 @@
     },
     "description": null,
     "label": "Pagination",
+    "labelPlural": "Paginations",
     "name": "pagination",
+    "namePlural": "paginations",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -6997,7 +7425,9 @@
     },
     "description": "Digital or physical property determining a particular function, characteristic or behavior of something.",
     "label": "Parameter",
+    "labelPlural": "Parameters",
     "name": "parameter",
+    "namePlural": "parameters",
     "semanticEquivalent": [],
     "usedIn": {
       "v2.0": [
@@ -7016,7 +7446,9 @@
     },
     "description": "Manner, position, or direction in which digital or physical properties are set to determine a particular function, characteristics or behavior of something.",
     "label": "Parameter set",
+    "labelPlural": "Parameter sets",
     "name": "parameterSet",
+    "namePlural": "parameterSets",
     "semanticEquivalent": [],
     "usedIn": {
       "v2.0": [
@@ -7035,7 +7467,9 @@
     },
     "description": null,
     "label": "Parameter setting",
+    "labelPlural": "Parameter settings",
     "name": "parameterSetting",
+    "namePlural": "parameterSettings",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -7053,7 +7487,9 @@
     },
     "description": null,
     "label": "Path",
+    "labelPlural": "Paths",
     "name": "path",
+    "namePlural": "paths",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7081,7 +7517,9 @@
     },
     "description": "Structural and functional deviation from the normal that constitutes a disease or characterizes a particular disease.",
     "label": "Pathology",
+    "labelPlural": "Pathologies",
     "name": "pathology",
+    "namePlural": "pathologies",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7114,7 +7552,9 @@
     },
     "description": "Reliable sample / structure of characters valid for all names in a particular collection of files.",
     "label": "Pattern of filenames",
+    "labelPlural": "Pattern of filenames",
     "name": "patternOfFilenames",
+    "namePlural": "patternOfFilenames",
     "semanticEquivalent": [],
     "usedIn": {
       "v2.0": [
@@ -7134,7 +7574,9 @@
     },
     "description": null,
     "label": "Performed by",
+    "labelPlural": "Performed by",
     "name": "performedBy",
+    "namePlural": "performedBy",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7175,7 +7617,9 @@
     },
     "description": "Physical expression of one or more genes of an organism.",
     "label": "Phenotype",
+    "labelPlural": "Phenotypes",
     "name": "phenotype",
+    "namePlural": "phenotypes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7207,7 +7651,9 @@
     },
     "description": null,
     "label": "Pipette resistance",
+    "labelPlural": "Pipette resistances",
     "name": "pipetteResistance",
+    "namePlural": "pipetteResistances",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7226,7 +7672,9 @@
     },
     "description": null,
     "label": "Pipette solution",
+    "labelPlural": "Pipette solutions",
     "name": "pipetteSolution",
+    "namePlural": "pipetteSolutions",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7237,7 +7685,9 @@
   "https://openminds.ebrains.eu/vocab/positiveUncertainties": {
     "description": null,
     "label": "Positive uncertainties",
+    "labelPlural": "Positive uncertainties",
     "name": "positiveUncertainties",
+    "namePlural": "positiveUncertainties",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7257,7 +7707,9 @@
     },
     "description": null,
     "label": "Preferred display color",
+    "labelPlural": "Preferred display colors",
     "name": "preferredDisplayColor",
+    "namePlural": "preferredDisplayColors",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7275,7 +7727,9 @@
     },
     "description": "Persistent identifier of a preferred ontological term.",
     "label": "Preferred ontology identifier",
+    "labelPlural": "Preferred ontology identifiers",
     "name": "preferredOntologyIdentifier",
+    "namePlural": "preferredOntologyIdentifiers",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7369,7 +7823,9 @@
     },
     "description": null,
     "label": "Preferred visualization",
+    "labelPlural": "Preferred visualizations",
     "name": "preferredVisualization",
+    "namePlural": "preferredVisualizations",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7389,7 +7845,9 @@
     },
     "description": null,
     "label": "Preparation design",
+    "labelPlural": "Preparation designs",
     "name": "preparationDesign",
+    "namePlural": "preparationDesigns",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7417,7 +7875,9 @@
     },
     "description": "Distinct class of actions or processes that make something ready for use or service.",
     "label": "Preparation type",
+    "labelPlural": "Preparation types",
     "name": "preparationType",
+    "namePlural": "preparationTypes",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -7438,7 +7898,9 @@
     },
     "description": null,
     "label": "Prerequisite",
+    "labelPlural": "Prerequisites",
     "name": "prerequisite",
+    "namePlural": "prerequisites",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7457,7 +7919,9 @@
     },
     "description": null,
     "label": "Preview image",
+    "labelPlural": "Preview images",
     "name": "previewImage",
+    "namePlural": "previewImages",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7476,7 +7940,9 @@
     },
     "description": null,
     "label": "Previous recording",
+    "labelPlural": "Previous recordings",
     "name": "previousRecording",
+    "namePlural": "previousRecordings",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7494,7 +7960,9 @@
     },
     "description": null,
     "label": "Product name",
+    "labelPlural": "Product names",
     "name": "productName",
+    "namePlural": "productNames",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7513,7 +7981,9 @@
     },
     "description": null,
     "label": "Product source",
+    "labelPlural": "Product sources",
     "name": "productSource",
+    "namePlural": "productSources",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7539,7 +8009,9 @@
     },
     "description": "Distinct set of instructions for computer programs in order to produce various kinds of output.",
     "label": "Programming language",
+    "labelPlural": "Programming languages",
     "name": "programmingLanguage",
+    "namePlural": "programmingLanguages",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7565,7 +8037,9 @@
     },
     "description": null,
     "label": "Project leader",
+    "labelPlural": "Project leaders",
     "name": "projectLeader",
+    "namePlural": "projectLeaders",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -7585,7 +8059,9 @@
     },
     "description": null,
     "label": "Property value pair",
+    "labelPlural": "Property value pairs",
     "name": "propertyValuePair",
+    "namePlural": "propertyValuePairs",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7610,7 +8086,9 @@
     },
     "description": "Plan that describes the process of a scientific or medical experiment, treatment, or procedure.",
     "label": "Protocol",
+    "labelPlural": "Protocols",
     "name": "protocol",
+    "namePlural": "protocols",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7644,7 +8122,9 @@
     },
     "description": null,
     "label": "Provider",
+    "labelPlural": "Providers",
     "name": "provider",
+    "namePlural": "providers",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7662,7 +8142,9 @@
     },
     "description": null,
     "label": "Publication date",
+    "labelPlural": "Publication dates",
     "name": "publicationDate",
+    "namePlural": "publicationDates",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7686,7 +8168,9 @@
     },
     "description": null,
     "label": "Publisher",
+    "labelPlural": "Publishers",
     "name": "publisher",
+    "namePlural": "publishers",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7709,7 +8193,9 @@
     },
     "description": null,
     "label": "Purity",
+    "labelPlural": "Purities",
     "name": "purity",
+    "namePlural": "purities",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7735,7 +8221,9 @@
     },
     "description": "Semantic characterization of how much two things occupy the same space.",
     "label": "Qualitative overlap",
+    "labelPlural": "Qualitative overlaps",
     "name": "qualitativeOverlap",
+    "namePlural": "qualitativeOverlaps",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7769,7 +8257,9 @@
     },
     "description": "Numerical characterization of how much two things occupy the same space.",
     "label": "Quantitative overlap",
+    "labelPlural": "Quantitative overlaps",
     "name": "quantitativeOverlap",
+    "namePlural": "quantitativeOverlaps",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7786,7 +8276,9 @@
   "https://openminds.ebrains.eu/vocab/quantity": {
     "description": "Total amount or number of things or beings.",
     "label": "Quantity",
+    "labelPlural": "Quantities",
     "name": "quantity",
+    "namePlural": "quantities",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -7810,7 +8302,9 @@
     },
     "description": null,
     "label": "Radius",
+    "labelPlural": "Radii",
     "name": "radius",
+    "namePlural": "radii",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7829,7 +8323,9 @@
     },
     "description": null,
     "label": "Recipe",
+    "labelPlural": "Recipes",
     "name": "recipe",
+    "namePlural": "recipes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7858,7 +8354,9 @@
     },
     "description": null,
     "label": "Recorded with",
+    "labelPlural": "Recorded with",
     "name": "recordedWith",
+    "namePlural": "recordedWith",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7880,7 +8378,9 @@
     },
     "description": null,
     "label": "Reference data",
+    "labelPlural": "Reference data",
     "name": "referenceData",
+    "namePlural": "referenceData",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7899,7 +8399,9 @@
     },
     "description": null,
     "label": "Reference data acquisition",
+    "labelPlural": "Reference data acquisitions",
     "name": "referenceDataAcquisition",
+    "namePlural": "referenceDataAcquisitions",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7917,7 +8419,9 @@
     },
     "description": null,
     "label": "Regex",
+    "labelPlural": "Regexes",
     "name": "regex",
+    "namePlural": "regexes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7937,7 +8441,9 @@
     },
     "description": null,
     "label": "Reinforcement type",
+    "labelPlural": "Reinforcement types",
     "name": "reinforcementType",
+    "namePlural": "reinforcementTypes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7956,7 +8462,9 @@
     },
     "description": "Reference to a related naming term of an anatomical structure that is defined in a particular brain atlas.",
     "label": "Related atlas term",
+    "labelPlural": "Related atlas terms",
     "name": "relatedAtlasTerm",
+    "namePlural": "relatedAtlasTerms",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -7976,7 +8484,9 @@
     },
     "description": "Reference to an official two-part identifier for file formats and format contents.",
     "label": "Related media type",
+    "labelPlural": "Related media types",
     "name": "relatedMediaType",
+    "namePlural": "relatedMediaTypes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8014,7 +8524,9 @@
     },
     "description": "Reference to something that was made available for the general public to see or buy.",
     "label": "Related publication",
+    "labelPlural": "Related publications",
     "name": "relatedPublication",
+    "namePlural": "relatedPublications",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8058,7 +8570,9 @@
     },
     "description": "Reference to the written, stored evidence of something.",
     "label": "Related recording",
+    "labelPlural": "Related recordings",
     "name": "relatedRecording",
+    "namePlural": "relatedRecordings",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -8084,7 +8598,9 @@
     },
     "description": "Reference to the written, stored function used as a physiological stimulus.",
     "label": "Related stimulation",
+    "labelPlural": "Related stimulations",
     "name": "relatedStimulation",
+    "namePlural": "relatedStimulations",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -8109,8 +8625,10 @@
       "nameForReverseLink": null
     },
     "description": null,
-    "label": "Related uberonterm",
+    "label": "Related UBERON term",
+    "labelPlural": "Related UBERON terms",
     "name": "relatedUBERONTerm",
+    "namePlural": "relatedUBERONTerms",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8138,7 +8656,9 @@
     },
     "description": null,
     "label": "Relation assessment",
+    "labelPlural": "Relation assessments",
     "name": "relationAssessment",
+    "namePlural": "relationAssessments",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8163,7 +8683,9 @@
     },
     "description": null,
     "label": "Relative time indication",
+    "labelPlural": "Relative time indications",
     "name": "relativeTimeIndication",
+    "namePlural": "relativeTimeIndications",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8186,7 +8708,9 @@
     },
     "description": "Fixed date on which a product is due to become or was made available for the general public to see or buy",
     "label": "Release date",
+    "labelPlural": "Release dates",
     "name": "releaseDate",
+    "namePlural": "releaseDates",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8241,7 +8765,9 @@
     },
     "description": "Reference to what or whom something or someone bears siginificance.",
     "label": "Relevant for",
+    "labelPlural": "Relevant for",
     "name": "relevantFor",
+    "namePlural": "relevantFor",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8272,7 +8798,9 @@
     },
     "description": "Place, room, or container where something is deposited or stored.",
     "label": "Repository",
+    "labelPlural": "Repositories",
     "name": "repository",
+    "namePlural": "repositories",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8312,7 +8840,9 @@
     },
     "description": null,
     "label": "Repository type",
+    "labelPlural": "Repository types",
     "name": "repositoryType",
+    "namePlural": "repositoryTypes",
     "semanticEquivalent": [],
     "usedIn": {
       "v2.0": [
@@ -8332,7 +8862,9 @@
     },
     "description": null,
     "label": "Required time",
+    "labelPlural": "Required times",
     "name": "requiredTime",
+    "namePlural": "requiredTimes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8351,7 +8883,9 @@
     },
     "description": "Something essential to the existence, occurrence or function of something else.",
     "label": "Requirement",
+    "labelPlural": "Requirements",
     "name": "requirement",
+    "namePlural": "requirements",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8374,7 +8908,9 @@
     },
     "description": null,
     "label": "Resource usage",
+    "labelPlural": "Resource usages",
     "name": "resourceUsage",
+    "namePlural": "resourceUsages",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8399,7 +8935,9 @@
     },
     "description": null,
     "label": "Sampling frequency",
+    "labelPlural": "Sampling frequencies",
     "name": "samplingFrequency",
+    "namePlural": "samplingFrequencies",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8424,7 +8962,9 @@
     },
     "description": "Extent of something.",
     "label": "Scope",
+    "labelPlural": "Scopes",
     "name": "scope",
+    "namePlural": "scopes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8442,7 +8982,9 @@
   "https://openminds.ebrains.eu/vocab/score": {
     "description": null,
     "label": "Score",
+    "labelPlural": "Scores",
     "name": "score",
+    "namePlural": "scores",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8461,7 +9003,9 @@
     },
     "description": null,
     "label": "Score type",
+    "labelPlural": "Score types",
     "name": "scoreType",
+    "namePlural": "scoreTypes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8480,7 +9024,9 @@
     },
     "description": null,
     "label": "Seal resistance",
+    "labelPlural": "Seal resistances",
     "name": "sealResistance",
+    "namePlural": "sealResistances",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8502,7 +9048,9 @@
     },
     "description": "Reference to a related anatomical structure without providing a quantitative proof of the claimed relation.",
     "label": "Semantically anchored to",
+    "labelPlural": "Semantically anchored to",
     "name": "semanticallyAnchoredTo",
+    "namePlural": "semanticallyAnchoredTo",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -8524,7 +9072,9 @@
     },
     "description": null,
     "label": "Semi major axis",
+    "labelPlural": "Semi major axes",
     "name": "semiMajorAxis",
+    "namePlural": "semiMajorAxes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8543,7 +9093,9 @@
     },
     "description": null,
     "label": "Semi minor axis",
+    "labelPlural": "Semi minor axes",
     "name": "semiMinorAxis",
+    "namePlural": "semiMinorAxes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8561,7 +9113,9 @@
     },
     "description": null,
     "label": "Serial number",
+    "labelPlural": "Serial numbers",
     "name": "serialNumber",
+    "namePlural": "serialNumbers",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8589,7 +9143,9 @@
     },
     "description": "Form in which a particular data structure or object state is translated to for storage.",
     "label": "Serialization format",
+    "labelPlural": "Serialization formats",
     "name": "serializationFormat",
+    "namePlural": "serializationFormats",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8614,7 +9170,9 @@
     },
     "description": null,
     "label": "Series resistance",
+    "labelPlural": "Series resistances",
     "name": "seriesResistance",
+    "namePlural": "seriesResistances",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8634,7 +9192,9 @@
     },
     "description": null,
     "label": "Service",
+    "labelPlural": "Services",
     "name": "service",
+    "namePlural": "services",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8654,7 +9214,9 @@
     },
     "description": null,
     "label": "Setup",
+    "labelPlural": "Setups",
     "name": "setup",
+    "namePlural": "setups",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8674,7 +9236,9 @@
     },
     "description": "Shortened or fully abbreviated name of something or somebody.",
     "label": "Short name",
+    "labelPlural": "Short names",
     "name": "shortName",
+    "namePlural": "shortNames",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8751,7 +9315,9 @@
     },
     "description": null,
     "label": "Slice thickness",
+    "labelPlural": "Slice thicknesses",
     "name": "sliceThickness",
+    "namePlural": "sliceThicknesses",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8771,7 +9337,9 @@
     },
     "description": null,
     "label": "Slicing angle",
+    "labelPlural": "Slicing angles",
     "name": "slicingAngle",
+    "namePlural": "slicingAngles",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8790,7 +9358,9 @@
     },
     "description": null,
     "label": "Slicing plane",
+    "labelPlural": "Slicing planes",
     "name": "slicingPlane",
+    "namePlural": "slicingPlanes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8809,7 +9379,9 @@
     },
     "description": null,
     "label": "Slicing speed",
+    "labelPlural": "Slicing speeds",
     "name": "slicingSpeed",
+    "namePlural": "slicingSpeeds",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8828,7 +9400,9 @@
     },
     "description": null,
     "label": "Software",
+    "labelPlural": "Software",
     "name": "software",
+    "namePlural": "software",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8848,7 +9422,9 @@
     },
     "description": null,
     "label": "Source data",
+    "labelPlural": "Source data",
     "name": "sourceData",
+    "namePlural": "sourceData",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8867,7 +9443,9 @@
     },
     "description": null,
     "label": "Spatial location",
+    "labelPlural": "Spatial locations",
     "name": "spatialLocation",
+    "namePlural": "spatialLocations",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8888,7 +9466,9 @@
     },
     "description": null,
     "label": "Spatial location of electrodes",
+    "labelPlural": "Spatial location of electrodes",
     "name": "spatialLocationOfElectrodes",
+    "namePlural": "spatialLocationOfElectrodes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8913,7 +9493,9 @@
     },
     "description": "Particular function of something when it is used.",
     "label": "Special usage role",
+    "labelPlural": "Special usage roles",
     "name": "specialUsageRole",
+    "namePlural": "specialUsageRoles",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8946,7 +9528,9 @@
     },
     "description": "Category of biological classification comprising related organisms or populations potentially capable of interbreeding, and being designated by a binomial that consists of the name of a genus followed by a Latin or latinized uncapitalized noun or adjective.",
     "label": "Species",
+    "labelPlural": "Species",
     "name": "species",
+    "namePlural": "species",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8990,7 +9574,9 @@
     },
     "description": "Detailed and precise presentation of, or proposal for something.",
     "label": "Specification",
+    "labelPlural": "Specifications",
     "name": "specification",
+    "namePlural": "specifications",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9020,7 +9606,9 @@
     },
     "description": "Form in which a particular data structure or object state is specified in.",
     "label": "Specification format",
+    "labelPlural": "Specification formats",
     "name": "specificationFormat",
+    "namePlural": "specificationFormats",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9051,7 +9639,9 @@
     },
     "description": null,
     "label": "Stage",
+    "labelPlural": "Stages",
     "name": "stage",
+    "namePlural": "stages",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9070,7 +9660,9 @@
     },
     "description": "Date in the Gregorian calendar at which something begins in time",
     "label": "Start date",
+    "labelPlural": "Start dates",
     "name": "startDate",
+    "namePlural": "startDates",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9092,7 +9684,9 @@
     },
     "description": null,
     "label": "Start membrane potential",
+    "labelPlural": "Start membrane potentials",
     "name": "startMembranePotential",
+    "namePlural": "startMembranePotentials",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9110,7 +9704,9 @@
     },
     "description": null,
     "label": "Start time",
+    "labelPlural": "Start times",
     "name": "startTime",
+    "namePlural": "startTimes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9142,7 +9738,9 @@
     },
     "description": null,
     "label": "Started by",
+    "labelPlural": "Started by",
     "name": "startedBy",
+    "namePlural": "startedBy",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9168,7 +9766,9 @@
     },
     "description": null,
     "label": "Status",
+    "labelPlural": "Status",
     "name": "status",
+    "namePlural": "status",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9194,7 +9794,9 @@
     },
     "description": null,
     "label": "Stimulation",
+    "labelPlural": "Stimulations",
     "name": "stimulation",
+    "namePlural": "stimulations",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9205,7 +9807,9 @@
   "https://openminds.ebrains.eu/vocab/stimulus": {
     "description": null,
     "label": "Stimulus",
+    "labelPlural": "Stimuli",
     "name": "stimulus",
+    "namePlural": "stimuli",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9230,7 +9834,9 @@
     },
     "description": null,
     "label": "Stimulus type",
+    "labelPlural": "Stimulus types",
     "name": "stimulusType",
+    "namePlural": "stimulusTypes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9250,7 +9856,9 @@
     },
     "description": null,
     "label": "Stock number",
+    "labelPlural": "Stock numbers",
     "name": "stockNumber",
+    "namePlural": "stockNumbers",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9275,7 +9883,9 @@
     },
     "description": "Quantitative value defining how much disk space is used by an object on a computer system.",
     "label": "Storage size",
+    "labelPlural": "Storage sizes",
     "name": "storageSize",
+    "namePlural": "storageSizes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9310,7 +9920,9 @@
     },
     "description": "Group of presumed common ancestry with physiological but usually not morphological distinctions.",
     "label": "Strain",
+    "labelPlural": "Strains",
     "name": "strain",
+    "namePlural": "strains",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -9338,7 +9950,9 @@
     },
     "description": null,
     "label": "Structure pattern",
+    "labelPlural": "Structure patterns",
     "name": "structurePattern",
+    "namePlural": "structurePatterns",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9366,7 +9980,9 @@
     },
     "description": null,
     "label": "Studied specimen",
+    "labelPlural": "Studied specimens",
     "name": "studiedSpecimen",
+    "namePlural": "studiedSpecimens",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9403,7 +10019,9 @@
     },
     "description": "Reference to a point in time at which something or someone was studied in a particular mode or condition.",
     "label": "Studied state",
+    "labelPlural": "Studied states",
     "name": "studiedState",
+    "namePlural": "studiedStates",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9448,7 +10066,9 @@
     },
     "description": null,
     "label": "Study option",
+    "labelPlural": "Study options",
     "name": "studyOption",
+    "namePlural": "studyOptions",
     "semanticEquivalent": [],
     "usedIn": {
       "v2.0": [
@@ -9522,7 +10142,9 @@
     },
     "description": "Structure or function that was targeted within a study.",
     "label": "Study target",
+    "labelPlural": "Study targets",
     "name": "studyTarget",
+    "namePlural": "studyTargets",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9565,7 +10187,9 @@
     },
     "description": "Proposal of a new distinct class to group related terms.",
     "label": "Suggest new terminology",
+    "labelPlural": "Suggest new terminologies",
     "name": "suggestNewTerminology",
+    "namePlural": "suggestNewTerminologies",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9587,7 +10211,9 @@
     },
     "description": "Way of communication used to interact with users or customers.",
     "label": "Support channel",
+    "labelPlural": "Support channels",
     "name": "supportChannel",
+    "namePlural": "supportChannels",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9622,7 +10248,9 @@
     },
     "description": "Words or expressions used in the same language that have the same or nearly the same meaning in some or all senses.",
     "label": "Synonym",
+    "labelPlural": "Synonyms",
     "name": "synonym",
+    "namePlural": "synonyms",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9723,7 +10351,9 @@
     },
     "description": null,
     "label": "Tag",
+    "labelPlural": "Tags",
     "name": "tag",
+    "namePlural": "tags",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9748,7 +10378,9 @@
     },
     "description": null,
     "label": "Target identification type",
+    "labelPlural": "Target identification types",
     "name": "targetIdentificationType",
+    "namePlural": "targetIdentificationTypes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9767,7 +10399,9 @@
     },
     "description": null,
     "label": "Target position",
+    "labelPlural": "Target positions",
     "name": "targetPosition",
+    "namePlural": "targetPositions",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9796,7 +10430,9 @@
     },
     "description": "Method of accomplishing a desired aim.",
     "label": "Technique",
+    "labelPlural": "Techniques",
     "name": "technique",
+    "namePlural": "techniques",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9830,7 +10466,9 @@
     },
     "description": null,
     "label": "Temperature",
+    "labelPlural": "Temperatures",
     "name": "temperature",
+    "namePlural": "temperatures",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9850,7 +10488,9 @@
     },
     "description": "Nomenclature for a particular field of study.",
     "label": "Terminology",
+    "labelPlural": "Terminologies",
     "name": "terminology",
+    "namePlural": "terminologies",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -9869,7 +10509,9 @@
     },
     "description": null,
     "label": "Timestamp",
+    "labelPlural": "Timestamps",
     "name": "timestamp",
+    "namePlural": "timestamps",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9889,7 +10531,9 @@
     },
     "description": null,
     "label": "Tissue bath solution",
+    "labelPlural": "Tissue bath solutions",
     "name": "tissueBathSolution",
+    "namePlural": "tissueBathSolutions",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9908,7 +10552,9 @@
     },
     "description": null,
     "label": "Topic",
+    "labelPlural": "Topics",
     "name": "topic",
+    "namePlural": "topics",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -9954,7 +10600,9 @@
     },
     "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
     "label": "Type",
+    "labelPlural": "Types",
     "name": "type",
+    "namePlural": "types",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10001,7 +10649,9 @@
     },
     "description": "Distinct technique used to quantify the uncertainty of a measurement.",
     "label": "Type of uncertainty",
+    "labelPlural": "Type of uncertainties",
     "name": "typeOfUncertainty",
+    "namePlural": "typeOfUncertainties",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10016,7 +10666,9 @@
   "https://openminds.ebrains.eu/vocab/uncertainty": {
     "description": "Quantitative value range defining the uncertainty of a measurement.",
     "label": "Uncertainty",
+    "labelPlural": "Uncertainties",
     "name": "uncertainty",
+    "namePlural": "uncertainties",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10047,7 +10699,9 @@
     },
     "description": "Determinate quantity adopted as a standard of measurement.",
     "label": "Unit",
+    "labelPlural": "Units",
     "name": "unit",
+    "namePlural": "units",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10075,7 +10729,9 @@
     },
     "description": null,
     "label": "Used electrode",
+    "labelPlural": "Used electrodes",
     "name": "usedElectrode",
+    "namePlural": "usedElectrodes",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10094,7 +10750,9 @@
     },
     "description": null,
     "label": "Used species",
+    "labelPlural": "Used species",
     "name": "usedSpecies",
+    "namePlural": "usedSpecies",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10119,7 +10777,9 @@
     },
     "description": null,
     "label": "Used specimen",
+    "labelPlural": "Used specimens",
     "name": "usedSpecimen",
+    "namePlural": "usedSpecimens",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10142,7 +10802,9 @@
     },
     "description": null,
     "label": "User name",
+    "labelPlural": "User names",
     "name": "userName",
+    "namePlural": "userNames",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10174,7 +10836,9 @@
     },
     "description": "Entry for a property.",
     "label": "Value",
+    "labelPlural": "Values",
     "name": "value",
+    "namePlural": "values",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10198,7 +10862,9 @@
   "https://openminds.ebrains.eu/vocab/values": {
     "description": null,
     "label": "Values",
+    "labelPlural": "Values",
     "name": "values",
+    "namePlural": "values",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10217,7 +10883,9 @@
     },
     "description": null,
     "label": "Variation",
+    "labelPlural": "Variations",
     "name": "variation",
+    "namePlural": "variations",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10236,7 +10904,9 @@
     },
     "description": null,
     "label": "Vendor",
+    "labelPlural": "Vendors",
     "name": "vendor",
+    "namePlural": "vendors",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10256,7 +10926,9 @@
     },
     "description": "Term or code used to identify the version of something.",
     "label": "Version identifier",
+    "labelPlural": "Version identifiers",
     "name": "versionIdentifier",
+    "namePlural": "versionIdentifiers",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10310,7 +10982,9 @@
     },
     "description": "Documentation on what changed in comparison to a previously published form of something.",
     "label": "Version innovation",
+    "labelPlural": "Version innovations",
     "name": "versionInnovation",
+    "namePlural": "versionInnovations",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10356,7 +11030,9 @@
     },
     "description": null,
     "label": "Vibration frequency",
+    "labelPlural": "Vibration frequencies",
     "name": "vibrationFrequency",
+    "namePlural": "vibrationFrequencies",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10378,7 +11054,9 @@
     },
     "description": "Reference to an image in which something is visible.",
     "label": "Visualized in",
+    "labelPlural": "Visualized in",
     "name": "visualizedIn",
+    "namePlural": "visualizedIn",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -10402,7 +11080,9 @@
     },
     "description": null,
     "label": "Volume number",
+    "labelPlural": "Volume numbers",
     "name": "volumeNumber",
+    "namePlural": "volumeNumbers",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10421,7 +11101,9 @@
     },
     "description": "Extent of the discrete elements comprising a three-dimensional entity.",
     "label": "Voxel size",
+    "labelPlural": "Voxel sizes",
     "name": "voxelSize",
+    "namePlural": "voxelSizes",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -10446,7 +11128,9 @@
     },
     "description": null,
     "label": "Was informed by",
+    "labelPlural": "Was informed by",
     "name": "wasInformedBy",
+    "namePlural": "wasInformedBy",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10471,7 +11155,9 @@
     },
     "description": "Hypertext document (block of information) found on the World Wide Web.",
     "label": "Webpage",
+    "labelPlural": "Webpages",
     "name": "webpage",
+    "namePlural": "webpages",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10502,7 +11188,9 @@
     },
     "description": "Amount that a thing or being weighs.",
     "label": "Weight",
+    "labelPlural": "Weights",
     "name": "weight",
+    "namePlural": "weights",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10536,7 +11224,9 @@
     },
     "description": null,
     "label": "Width",
+    "labelPlural": "Widths",
     "name": "width",
+    "namePlural": "widths",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -10556,7 +11246,9 @@
     },
     "description": "Cycle in the Gregorian calendar specified by a number and comprised of 365 or 366 days divided into 12 months beginning with January and ending with December.",
     "label": "Year",
+    "labelPlural": "Years",
     "name": "year",
+    "namePlural": "years",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
