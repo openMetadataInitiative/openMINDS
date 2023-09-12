@@ -7,9 +7,9 @@
     "https://openminds.ebrains.eu/vocab/additionalRemarks": {
       "_instruction": "Enter any additional remarks concering this chemical substance.",
       "description": "Mention of what deserves additional attention or notice.",
-      "formatting": "text/plain",
+      "formatting": "text/markdown",
       "label": "Additional remarks",
-      "multiline": false,
+      "multiline": true,
       "name": "additionalRemarks",
       "type": "string"
     },

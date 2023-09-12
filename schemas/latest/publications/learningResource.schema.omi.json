@@ -50,7 +50,7 @@
       "_instruction": "Enter the abstract or a short description of the creative work.",
       "formatting": "text/plain",
       "label": "Abstract",
-      "multiline": false,
+      "multiline": true,
       "name": "abstract",
       "type": "string"
     },
@@ -176,6 +176,7 @@
         "https://openminds.ebrains.eu/controlledTerms/AtlasType",
         "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
         "https://openminds.ebrains.eu/controlledTerms/BiologicalOrder",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalProcess",
         "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
         "https://openminds.ebrains.eu/controlledTerms/BreedingType",
         "https://openminds.ebrains.eu/controlledTerms/CellCultureType",
@@ -205,6 +206,7 @@
         "https://openminds.ebrains.eu/controlledTerms/Laterality",
         "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
         "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
         "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel",
         "https://openminds.ebrains.eu/controlledTerms/ModelScope",
@@ -252,9 +254,9 @@
     },
     "https://openminds.ebrains.eu/vocab/learningOutcome": {
       "_instruction": "Enter a description for the expected learning outcomes of this learning resource.",
-      "formatting": "text/plain",
+      "formatting": "text/markdown",
       "label": "Learning outcome",
-      "multiline": false,
+      "multiline": true,
       "name": "learningOutcome",
       "type": "string"
     },
@@ -296,9 +298,9 @@
     },
     "https://openminds.ebrains.eu/vocab/prerequisite": {
       "_instruction": "Enter any knowledge, skills, or abilities that are required to be able to use this learning resource.",
-      "formatting": "text/plain",
+      "formatting": "text/markdown",
       "label": "Prerequisite",
-      "multiline": false,
+      "multiline": true,
       "name": "prerequisite",
       "type": "string"
     },

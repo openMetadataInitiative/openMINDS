@@ -11,7 +11,7 @@
       "_instruction": "Enter a short content description for this local file instance.",
       "formatting": "text/plain",
       "label": "Content description",
-      "multiline": false,
+      "multiline": true,
       "name": "contentDescription",
       "type": "string"
     },

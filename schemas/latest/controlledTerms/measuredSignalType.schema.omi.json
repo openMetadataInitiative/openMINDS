@@ -1,12 +1,10 @@
 {
   "_categories": [
-    "keyword",
-    "studyTarget"
+    "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/Species",
-  "description": "Structured information on the species.",
-  "label": "Species",
-  "name": "Species",
+  "_type": "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
+  "label": "Measured signal type",
+  "name": "MeasuredSignalType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

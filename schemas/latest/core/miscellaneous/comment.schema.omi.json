@@ -36,7 +36,7 @@
       "_instruction": "Enter the comment about the research product (version) stated under 'about'.",
       "formatting": "text/plain",
       "label": "Comment",
-      "multiline": false,
+      "multiline": true,
       "name": "comment",
       "type": "string"
     },

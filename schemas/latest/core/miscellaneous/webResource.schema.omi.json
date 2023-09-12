@@ -19,7 +19,7 @@
       "_instruction": "Enter a short content description for this web resource.",
       "formatting": "text/plain",
       "label": "Content description",
-      "multiline": false,
+      "multiline": true,
       "name": "contentDescription",
       "type": "string"
     },

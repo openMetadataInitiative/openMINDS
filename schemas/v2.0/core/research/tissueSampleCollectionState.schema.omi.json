@@ -6,9 +6,9 @@
     "https://openminds.ebrains.eu/vocab/additionalRemarks": {
       "_instruction": "Enter additional remarks about the specimen (set) in this state.",
       "description": "Mention of what deserves additional attention or notice.",
-      "formatting": "text/plain",
+      "formatting": "text/markdown",
       "label": "Additional remarks",
-      "multiline": false,
+      "multiline": true,
       "name": "additionalRemarks",
       "type": "string"
     },
