@@ -122,9 +122,10 @@ class TypeExtractor(Types):
         with open(schema.absolute_path, "r") as schema_file:
             schema_payload = json.load(schema_file)
         t = schema_payload[TEMPLATE_PROPERTY_TYPE]
-        for k in list(self._types[t].keys()):
-            if k not in ["label", "name", "description", "semanticEquivalent", "isPartOfVersion"]:
-                del self._types[t][k]
+        if t in self._types:
+            for k in list(self._types[t].keys()):
+                if k not in ["label", "name", "description", "semanticEquivalent", "isPartOfVersion"]:
+                    del self._types[t][k]
         simple_name = os.path.basename(t)
         if t not in self._types:
             self._types[t] = {}
