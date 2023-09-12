@@ -61,6 +61,8 @@ def _enrich_with_type_information(schema, type, types):
         schema["label"] = t["label"]
     if "semanticEquivalent" in t and t["semanticEquivalent"]:
         schema["semanticEquivalent"] = t["semanticEquivalent"]
+    if "color" in t and t["color"]:
+        schema["color"] = t["color"]
 
 
 class Types(object):
@@ -124,7 +126,7 @@ class TypeExtractor(Types):
         t = schema_payload[TEMPLATE_PROPERTY_TYPE]
         if t in self._types:
             for k in list(self._types[t].keys()):
-                if k not in ["label", "name", "description", "semanticEquivalent", "isPartOfVersion"]:
+                if k not in ["label", "name", "description", "semanticEquivalent", "isPartOfVersion", "color"]:
                     del self._types[t][k]
         simple_name = os.path.basename(t)
         if t not in self._types:
@@ -133,6 +135,8 @@ class TypeExtractor(Types):
         # properties to be manually edited
         if "description" not in self._types[t]:
             self._types[t]["description"] = None
+        if "color" not in self._types[t]:
+            self._types[t]["color"] = None
         if "semanticEquivalent" not in self._types[t]:
             self._types[t]["semanticEquivalent"] = []
         self._types[t]["semanticEquivalent"].sort()
