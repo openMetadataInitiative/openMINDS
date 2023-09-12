@@ -1,6 +1,6 @@
 {
   "https://openminds.ebrains.eu/chemicals/AmountOfChemical": {
-    "color": null,
+    "color": "#561A02",
     "description": "Structured information about the amount of a given chemical that was used.",
     "isPartOfVersion": [
       "latest"
@@ -10,7 +10,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/chemicals/ChemicalMixture": {
-    "color": null,
+    "color": "#887868",
     "description": "Structured information about a mixture of chemical substances.",
     "isPartOfVersion": [
       "latest"
@@ -20,7 +20,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/chemicals/ChemicalSubstance": {
-    "color": null,
+    "color": "#685D75",
     "description": "Structured information about a chemical substance.",
     "isPartOfVersion": [
       "latest"
@@ -30,7 +30,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/chemicals/ProductSource": {
-    "color": null,
+    "color": "#EB9A8B",
     "description": "Structured information about the source of a chemical substance or mixture.",
     "isPartOfVersion": [
       "latest"
@@ -40,7 +40,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/computation/DataAnalysis": {
-    "color": null,
+    "color": "#00B6C5",
     "description": "Structured information on inspecting, cleansing, transforming, and modelling data.",
     "isPartOfVersion": [
       "latest"
@@ -50,7 +50,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/computation/DataCopy": {
-    "color": null,
+    "color": "#29607C",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -60,7 +60,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/computation/Environment": {
-    "color": null,
+    "color": "#1B782A",
     "description": "Structured information on the computer system or set of systems in which a computation is deployed and executed.",
     "isPartOfVersion": [
       "latest"
@@ -70,7 +70,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/computation/GenericComputation": {
-    "color": null,
+    "color": "#FFB789",
     "description": "Structured information about a computation whose type is unknown or unspecified.",
     "isPartOfVersion": [
       "latest"
@@ -80,7 +80,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/computation/HardwareSystem": {
-    "color": null,
+    "color": "#1E2324",
     "description": "Structured information about computing hardware.",
     "isPartOfVersion": [
       "latest"
@@ -90,7 +90,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/computation/LaunchConfiguration": {
-    "color": null,
+    "color": "#E69034",
     "description": "Structured information about the launch of a computational process.",
     "isPartOfVersion": [
       "latest"
@@ -100,7 +100,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/computation/LocalFile": {
-    "color": null,
+    "color": "#B787A8",
     "description": "Structured information about a file that is not accessible via a URL.",
     "isPartOfVersion": [
       "latest"
@@ -110,7 +110,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/computation/ModelValidation": {
-    "color": null,
+    "color": "#436E83",
     "description": "Structured information about a process of validating a computational model.",
     "isPartOfVersion": [
       "latest"
@@ -120,7 +120,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/computation/Optimization": {
-    "color": null,
+    "color": "#9D8C76",
     "description": "Structured information about a process of optimizing a model or a piece of code.",
     "isPartOfVersion": [
       "latest"
@@ -130,7 +130,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/computation/Simulation": {
-    "color": null,
+    "color": "#5B9C8F",
     "description": "Structured information about a process of running simulations of a computational model.",
     "isPartOfVersion": [
       "latest"
@@ -140,7 +140,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/computation/SoftwareAgent": {
-    "color": null,
+    "color": "#8D6F81",
     "description": "Structured information about a piece of software or web service that can perform a task autonomously.",
     "isPartOfVersion": [
       "latest"
@@ -150,7 +150,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/computation/ValidationTest": {
-    "color": null,
+    "color": "#813D3A",
     "description": "Structured information about the definition of a process for validating a computational model.",
     "isPartOfVersion": [
       "latest"
@@ -160,7 +160,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/computation/ValidationTestVersion": {
-    "color": null,
+    "color": "#3E7158",
     "description": "Structured information about a specific implementation of a validation test.",
     "isPartOfVersion": [
       "latest"
@@ -170,7 +170,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/computation/Visualization": {
-    "color": null,
+    "color": "#DA0004",
     "description": "Structured information about a process of visualizing a computational model, a computational process, or a dataset.",
     "isPartOfVersion": [
       "latest"
@@ -180,7 +180,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/computation/WorkflowExecution": {
-    "color": null,
+    "color": "#F4ABAA",
     "description": "Structured information about an execution of a computational workflow.",
     "isPartOfVersion": [
       "latest"
@@ -190,7 +190,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/computation/WorkflowRecipe": {
-    "color": null,
+    "color": "#AA62C3",
     "description": "Structured information about the description of a prospective workflow.",
     "isPartOfVersion": [
       "latest"
@@ -200,7 +200,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion": {
-    "color": null,
+    "color": "#4B2C00",
     "description": "Structured information about a specific implemented version of a workflow recipe.",
     "isPartOfVersion": [
       "latest"
@@ -210,7 +210,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/ActionStatusType": {
-    "color": null,
+    "color": "#E6ECDC",
     "description": "Structured information about the status of an action.",
     "isPartOfVersion": [
       "latest"
@@ -220,7 +220,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/AgeCategory": {
-    "color": null,
+    "color": "#AFCE78",
     "description": "Structured information on the life cycle (semantic term) of a specific age group.",
     "isPartOfVersion": [
       "latest",
@@ -232,7 +232,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique": {
-    "color": null,
+    "color": "#FF0020",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -242,7 +242,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation": {
-    "color": null,
+    "color": "#B6E4DE",
     "description": "Structured information on the anatomical directions of the X, Y, and Z axis.",
     "isPartOfVersion": [
       "latest",
@@ -254,7 +254,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/AnatomicalIdentificationType": {
-    "color": null,
+    "color": "#203B3C",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -264,7 +264,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/AnatomicalPlane": {
-    "color": null,
+    "color": "#9DEBDD",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -274,7 +274,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/AnnotationCriteriaType": {
-    "color": null,
+    "color": "#1D1702",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -284,7 +284,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/AnnotationType": {
-    "color": null,
+    "color": "#EAE408",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -294,7 +294,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/AtlasType": {
-    "color": null,
+    "color": "#F3BDA4",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -304,7 +304,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType": {
-    "color": null,
+    "color": "#766E52",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -325,7 +325,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/BiologicalOrder": {
-    "color": null,
+    "color": "#69255C",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -345,7 +345,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/BiologicalSex": {
-    "color": null,
+    "color": "#CDE6DC",
     "description": "Structured information on the biological sex of a subject.",
     "isPartOfVersion": [
       "latest",
@@ -357,7 +357,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/BreedingType": {
-    "color": null,
+    "color": "#AD6552",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -367,7 +367,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/CellCultureType": {
-    "color": null,
+    "color": "#61615A",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -377,7 +377,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/CellType": {
-    "color": null,
+    "color": "#BC8A96",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -389,7 +389,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/ChemicalMixtureType": {
-    "color": null,
+    "color": "#363DFF",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -399,7 +399,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/Colormap": {
-    "color": null,
+    "color": "#067EAF",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -409,7 +409,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/ContributionType": {
-    "color": null,
+    "color": "#2C3533",
     "description": "Structured information on the type of contribution a person or organization performed.",
     "isPartOfVersion": [
       "latest",
@@ -421,7 +421,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/CranialWindowConstructionType": {
-    "color": null,
+    "color": "#70EC98",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -431,7 +431,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/CranialWindowReinforcementType": {
-    "color": null,
+    "color": "#6C6D74",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -441,7 +441,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType": {
-    "color": null,
+    "color": "#AABC7A",
     "description": "Structured information on the quality type of the defined criteria for a measurement.",
     "isPartOfVersion": [
       "latest",
@@ -453,7 +453,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/DataType": {
-    "color": null,
+    "color": "#D1ACFE",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -473,7 +473,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/DeviceType": {
-    "color": null,
+    "color": "#01400B",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -483,7 +483,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/DifferenceMeasure": {
-    "color": null,
+    "color": "#DB9D72",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -493,7 +493,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/Disease": {
-    "color": null,
+    "color": "#00B7E0",
     "description": "Structured information on a disease.",
     "isPartOfVersion": [
       "latest",
@@ -505,7 +505,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/DiseaseModel": {
-    "color": null,
+    "color": "#DA9894",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -517,7 +517,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/EducationalLevel": {
-    "color": null,
+    "color": "#636A01",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -527,7 +527,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType": {
-    "color": null,
+    "color": "#A9795C",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -537,7 +537,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment": {
-    "color": null,
+    "color": "#4A1930",
     "description": "Structured information on the ethics assessment of a dataset.",
     "isPartOfVersion": [
       "latest",
@@ -549,7 +549,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach": {
-    "color": null,
+    "color": "#7F8427",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -560,7 +560,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping": {
-    "color": null,
+    "color": "#286154",
     "description": "Structured information on the grouping mechanism of a file bundle.",
     "isPartOfVersion": [
       "latest",
@@ -572,7 +572,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType": {
-    "color": null,
+    "color": "#D369B4",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -583,7 +583,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/FileUsageRole": {
-    "color": null,
+    "color": "#549E79",
     "description": "Structured information on the usage role of a file instance or bundle.",
     "isPartOfVersion": [
       "latest",
@@ -595,7 +595,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType": {
-    "color": null,
+    "color": "#FFA0F2",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -615,7 +615,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType": {
-    "color": null,
+    "color": "#979440",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -625,7 +625,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/Handedness": {
-    "color": null,
+    "color": "#B90076",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -636,7 +636,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/Language": {
-    "color": null,
+    "color": "#6B6466",
     "description": "Structured information on the available language setting.",
     "isPartOfVersion": [
       "latest",
@@ -648,7 +648,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/Laterality": {
-    "color": null,
+    "color": "#A24E3D",
     "description": "Structured information on the lateral direction.",
     "isPartOfVersion": [
       "latest",
@@ -660,7 +660,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/LearningResourceType": {
-    "color": null,
+    "color": "#372B2E",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -670,7 +670,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity": {
-    "color": null,
+    "color": "#2C5742",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -690,7 +690,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType": {
-    "color": null,
+    "color": "#A55B54",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -712,7 +712,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel": {
-    "color": null,
+    "color": "#0086ED",
     "description": "Structured information on abstraction level of the computational model.",
     "isPartOfVersion": [
       "latest",
@@ -724,7 +724,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/ModelScope": {
-    "color": null,
+    "color": "#B3C2BE",
     "description": "Structured information on the scope of the computational model.",
     "isPartOfVersion": [
       "latest",
@@ -736,7 +736,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/MolecularEntity": {
-    "color": null,
+    "color": "#617D9F",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -746,7 +746,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType": {
-    "color": null,
+    "color": "#DA71FF",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -756,7 +756,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/OperatingDevice": {
-    "color": null,
+    "color": "#688151",
     "description": "Structured information on the operating device.",
     "isPartOfVersion": [
       "latest",
@@ -768,7 +768,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/OperatingSystem": {
-    "color": null,
+    "color": "#C9B1A9",
     "description": "Structured information on the operating system.",
     "isPartOfVersion": [
       "latest",
@@ -780,7 +780,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType": {
-    "color": null,
+    "color": "#6D3800",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -790,7 +790,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/Organ": {
-    "color": null,
+    "color": "#71BB8C",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -802,7 +802,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance": {
-    "color": null,
+    "color": "#3A2465",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -812,7 +812,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/OrganismSystem": {
-    "color": null,
+    "color": "#222800",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -822,7 +822,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/PatchClampVariation": {
-    "color": null,
+    "color": "#63FFAC",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -843,7 +843,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/PreparationType": {
-    "color": null,
+    "color": "#966716",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -855,7 +855,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility": {
-    "color": null,
+    "color": "#EDE6E2",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -866,7 +866,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage": {
-    "color": null,
+    "color": "#3A3F00",
     "description": "Structured information on the programming language.",
     "isPartOfVersion": [
       "latest",
@@ -878,7 +878,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap": {
-    "color": null,
+    "color": "#D16CDA",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -890,7 +890,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/SemanticDataType": {
-    "color": null,
+    "color": "#0000A6",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -901,7 +901,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/Service": {
-    "color": null,
+    "color": "#528500",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -911,7 +911,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/SetupType": {
-    "color": null,
+    "color": "#BEC459",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -921,7 +921,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory": {
-    "color": null,
+    "color": "#FF9E6B",
     "description": "Structured information on the category of the software application.",
     "isPartOfVersion": [
       "latest",
@@ -933,7 +933,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature": {
-    "color": null,
+    "color": "#7A5C54",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -955,7 +955,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/Species": {
-    "color": null,
+    "color": "#320033",
     "description": "Structured information on the species.",
     "isPartOfVersion": [
       "latest",
@@ -967,7 +967,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/StimulationApproach": {
-    "color": null,
+    "color": "#C7C890",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -977,7 +977,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique": {
-    "color": null,
+    "color": "#985975",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1008,7 +1008,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity": {
-    "color": null,
+    "color": "#4E4452",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1018,7 +1018,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/SubjectAttribute": {
-    "color": null,
+    "color": "#962B75",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1028,7 +1028,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType": {
-    "color": null,
+    "color": "#EA1CA9",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1038,7 +1038,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/Technique": {
-    "color": null,
+    "color": "#6367A9",
     "description": "Structured information on the technique.",
     "isPartOfVersion": [
       "latest",
@@ -1050,7 +1050,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/TermSuggestion": {
-    "color": null,
+    "color": "#CD7DAE",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -1062,7 +1062,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/Terminology": {
-    "color": null,
+    "color": "#372D00",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -1073,7 +1073,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/TissueSampleAttribute": {
-    "color": null,
+    "color": "#AFFFD1",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1083,7 +1083,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/TissueSampleType": {
-    "color": null,
+    "color": "#0AA3F7",
     "description": "Structured information on the general type of the tissue sample.",
     "isPartOfVersion": [
       "latest",
@@ -1095,7 +1095,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty": {
-    "color": null,
+    "color": "#7E9285",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -1106,7 +1106,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation": {
-    "color": null,
+    "color": "#DA8386",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -1117,7 +1117,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement": {
-    "color": null,
+    "color": "#51A058",
     "description": "Structured information on the unit of measurement.",
     "isPartOfVersion": [
       "latest",
@@ -1129,7 +1129,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType": {
-    "color": null,
+    "color": "#410601",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1149,7 +1149,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/AccountInformation": {
-    "color": null,
+    "color": "#B5D6C3",
     "description": "Structured information about a user account for a web service.",
     "isPartOfVersion": [
       "latest"
@@ -1159,7 +1159,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Affiliation": {
-    "color": null,
+    "color": "#A74571",
     "description": "Structured information about a relationship between two entities, such as a person and their employer.",
     "isPartOfVersion": [
       "latest",
@@ -1170,7 +1170,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/BehavioralProtocol": {
-    "color": null,
+    "color": "#73BE54",
     "description": "Structured information about a protocol used in an experiment studying human or animal behavior.",
     "isPartOfVersion": [
       "latest"
@@ -1180,7 +1180,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Comment": {
-    "color": null,
+    "color": "#6EFF92",
     "description": "Structured information about a short text expressing an opinion on, or giving information about some entity.",
     "isPartOfVersion": [
       "latest"
@@ -1190,7 +1190,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Configuration": {
-    "color": null,
+    "color": "#CD00C5",
     "description": "Structured information about the properties or parameters of an entity or process.",
     "isPartOfVersion": [
       "latest"
@@ -1200,7 +1200,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Consortium": {
-    "color": null,
+    "color": "#C36D96",
     "description": "Structured information about an association of two or more persons or organizations, with the objective of participating in a common activity.",
     "isPartOfVersion": [
       "latest"
@@ -1210,7 +1210,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/ContactInformation": {
-    "color": null,
+    "color": "#64547B",
     "description": "Structured information about how to contact a given person or consortium.",
     "isPartOfVersion": [
       "latest",
@@ -1221,7 +1221,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/ContentType": {
-    "color": null,
+    "color": "#494B5A",
     "description": "Structured information on the content type of a file instance, bundle or repository.",
     "isPartOfVersion": [
       "latest",
@@ -1233,7 +1233,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/ContentTypePattern": {
-    "color": null,
+    "color": "#72361F",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1243,7 +1243,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Contribution": {
-    "color": null,
+    "color": "#790229",
     "description": "Structured information on the contribution made to a research product.",
     "isPartOfVersion": [
       "latest",
@@ -1255,7 +1255,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Copyright": {
-    "color": null,
+    "color": "#8CD0FF",
     "description": "Structured information on the copyright.",
     "isPartOfVersion": [
       "latest",
@@ -1267,7 +1267,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/CustomPropertySet": {
-    "color": null,
+    "color": "#009B75",
     "description": "Structured information about properties of an entity that are not represented in an openMINDS schema.",
     "isPartOfVersion": [
       "latest"
@@ -1277,7 +1277,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/DOI": {
-    "color": null,
+    "color": "#766B7E",
     "description": "Structured information about a digital object identifier, as standardized by the International Organization for Standardization.",
     "isPartOfVersion": [
       "latest",
@@ -1288,7 +1288,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Dataset": {
-    "color": null,
+    "color": "#F77183",
     "description": "Structured information on data originating from human/animal studies or simulations (concept level).",
     "isPartOfVersion": [
       "latest",
@@ -1300,7 +1300,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/DatasetVersion": {
-    "color": null,
+    "color": "#71555A",
     "description": "Structured information on data originating from human/animal studies or simulations (version level).",
     "isPartOfVersion": [
       "latest",
@@ -1332,7 +1332,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/File": {
-    "color": null,
+    "color": "#AA9297",
     "description": "Structured information on a file instance that is accessible via a URL.",
     "isPartOfVersion": [
       "latest",
@@ -1343,7 +1343,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/FileArchive": {
-    "color": null,
+    "color": "#83AB58",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1353,7 +1353,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/FileBundle": {
-    "color": null,
+    "color": "#91028C",
     "description": "Structured information on a bundle of file instances.",
     "isPartOfVersion": [
       "latest",
@@ -1375,7 +1375,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/FilePathPattern": {
-    "color": null,
+    "color": "#564620",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1385,7 +1385,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/FileRepository": {
-    "color": null,
+    "color": "#682021",
     "description": "Structured information on a file repository.",
     "isPartOfVersion": [
       "latest",
@@ -1397,7 +1397,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/FileRepositoryStructure": {
-    "color": null,
+    "color": "#3156DC",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1407,7 +1407,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Funding": {
-    "color": null,
+    "color": "#73013E",
     "description": "Structured information on used funding.",
     "isPartOfVersion": [
       "latest",
@@ -1419,7 +1419,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/GRIDID": {
-    "color": null,
+    "color": "#8D918E",
     "description": "A GRID (Global Research Identifier Database) identifier.",
     "isPartOfVersion": [
       "latest",
@@ -1430,7 +1430,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/HANDLE": {
-    "color": null,
+    "color": "#FF8347",
     "description": "A persistent identifier for an information resource provided by the Handle System of the Corporation for National Research Initiatives.",
     "isPartOfVersion": [
       "latest"
@@ -1440,7 +1440,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Hash": {
-    "color": null,
+    "color": "#378FDB",
     "description": "Structured information on a hash.",
     "isPartOfVersion": [
       "latest",
@@ -1452,7 +1452,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/ISBN": {
-    "color": null,
+    "color": "#1E0200",
     "description": "An International Standard Book Number of the International ISBN Agency.",
     "isPartOfVersion": [
       "latest",
@@ -1463,7 +1463,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/ISSN": {
-    "color": null,
+    "color": "#4145A7",
     "description": "An International Standard Serial Number of the ISSN International Centre.",
     "isPartOfVersion": [
       "latest"
@@ -1473,7 +1473,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/IdentifiersDotOrgID": {
-    "color": null,
+    "color": "#00489C",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1483,7 +1483,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/License": {
-    "color": null,
+    "color": "#456D75",
     "description": "Structured information on a used license.",
     "isPartOfVersion": [
       "latest",
@@ -1495,7 +1495,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Measurement": {
-    "color": null,
+    "color": "#FFDBE5",
     "description": "Structured information about a measurement performed during a scientific experiment.",
     "isPartOfVersion": [
       "latest"
@@ -1505,7 +1505,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/MetaDataModel": {
-    "color": null,
+    "color": "#602B70",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -1517,7 +1517,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/MetaDataModelVersion": {
-    "color": null,
+    "color": "#9B9700",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -1529,7 +1529,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Model": {
-    "color": null,
+    "color": "#7FBBEC",
     "description": "Structured information on a computational model (concept level).",
     "isPartOfVersion": [
       "latest",
@@ -1541,7 +1541,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/ModelVersion": {
-    "color": null,
+    "color": "#6D80BA",
     "description": "Structured information on a computational model (version level).",
     "isPartOfVersion": [
       "latest",
@@ -1563,7 +1563,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/NumericalProperty": {
-    "color": null,
+    "color": "#B94C59",
     "description": "Structured information about a property of some entity or process whose value is a number.",
     "isPartOfVersion": [
       "latest"
@@ -1573,7 +1573,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/ORCID": {
-    "color": null,
+    "color": "#852C19",
     "description": "A persistent identifier for a researcher provided by Open Researcher and Contributor ID, Inc.",
     "isPartOfVersion": [
       "latest",
@@ -1584,7 +1584,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Organization": {
-    "color": null,
+    "color": "#ADAAA9",
     "description": "Structured information on an organization.",
     "isPartOfVersion": [
       "latest",
@@ -1616,7 +1616,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Person": {
-    "color": null,
+    "color": "#E5FDA4",
     "description": "Structured information on a person.",
     "isPartOfVersion": [
       "latest",
@@ -1630,7 +1630,7 @@
     ]
   },
   "https://openminds.ebrains.eu/core/Project": {
-    "color": null,
+    "color": "#8683A9",
     "description": "Structured information on a research project.",
     "isPartOfVersion": [
       "latest",
@@ -1642,7 +1642,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/PropertyValueList": {
-    "color": null,
+    "color": "#D7BFC2",
     "description": "An identifiable list of property-value pairs.",
     "isPartOfVersion": [
       "latest"
@@ -1652,7 +1652,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Protocol": {
-    "color": null,
+    "color": "#E98176",
     "description": "Structured information on a research project.",
     "isPartOfVersion": [
       "latest",
@@ -1664,7 +1664,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/ProtocolExecution": {
-    "color": null,
+    "color": "#0098FF",
     "description": "Structured information on a protocol execution.",
     "isPartOfVersion": [
       "latest",
@@ -1676,7 +1676,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/QuantitativeValue": {
-    "color": null,
+    "color": "#0E0D00",
     "description": "Structured information on a quantitative value.",
     "isPartOfVersion": [
       "latest",
@@ -1688,7 +1688,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/QuantitativeValueArray": {
-    "color": null,
+    "color": "#8FCCBE",
     "description": "A representation of an array of quantitative values, optionally with uncertainties.",
     "isPartOfVersion": [
       "latest"
@@ -1698,7 +1698,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/QuantitativeValueRange": {
-    "color": null,
+    "color": "#A4E804",
     "description": "A representation of a range of quantitative values.",
     "isPartOfVersion": [
       "latest",
@@ -1710,7 +1710,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/RORID": {
-    "color": null,
+    "color": "#C0B9B2",
     "description": "A persistent identifier for a research organization, provided by the Research Organization Registry.",
     "isPartOfVersion": [
       "latest",
@@ -1721,7 +1721,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/RRID": {
-    "color": null,
+    "color": "#6B543F",
     "description": "A persistent identifier for a research resource provided by the Resource Identification Initiative.",
     "isPartOfVersion": [
       "latest"
@@ -1731,7 +1731,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/ResearchProductGroup": {
-    "color": null,
+    "color": "#920003",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1741,7 +1741,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/SWHID": {
-    "color": null,
+    "color": "#20370E",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -1752,7 +1752,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/ServiceLink": {
-    "color": null,
+    "color": "#C4DF72",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1762,7 +1762,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Setup": {
-    "color": null,
+    "color": "#9B585E",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1772,7 +1772,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Software": {
-    "color": null,
+    "color": "#511F4D",
     "description": "Structured information on a software tool (concept level).",
     "isPartOfVersion": [
       "latest",
@@ -1784,7 +1784,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/SoftwareVersion": {
-    "color": null,
+    "color": "#FFA861",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -1796,7 +1796,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/StockNumber": {
-    "color": null,
+    "color": "#E8C282",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1806,7 +1806,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Strain": {
-    "color": null,
+    "color": "#0089A3",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1816,7 +1816,6 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/StringParameter": {
-    "color": null,
     "description": null,
     "isPartOfVersion": [
       "v2.0"
@@ -1826,7 +1825,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/StringProperty": {
-    "color": null,
+    "color": "#ADAAFF",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1836,7 +1835,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Subject": {
-    "color": null,
+    "color": "#C86240",
     "description": "Structured information on a subject.",
     "isPartOfVersion": [
       "latest",
@@ -1848,7 +1847,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/SubjectGroup": {
-    "color": null,
+    "color": "#374527",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -1860,7 +1859,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/SubjectGroupState": {
-    "color": null,
+    "color": "#5EA7FF",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -1872,7 +1871,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/SubjectState": {
-    "color": null,
+    "color": "#555558",
     "description": "Structured information on a temporary state of a subject.",
     "isPartOfVersion": [
       "latest",
@@ -1884,7 +1883,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/TissueSample": {
-    "color": null,
+    "color": "#94A9C9",
     "description": "Structured information on a tissue sample.",
     "isPartOfVersion": [
       "latest",
@@ -1896,7 +1895,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/TissueSampleCollection": {
-    "color": null,
+    "color": "#00905E",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -1908,7 +1907,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/TissueSampleCollectionState": {
-    "color": null,
+    "color": "#A697B6",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -1920,7 +1919,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/TissueSampleState": {
-    "color": null,
+    "color": "#C7706A",
     "description": "Structured information on a temporary state of a tissue sample.",
     "isPartOfVersion": [
       "latest",
@@ -1942,7 +1941,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/WebResource": {
-    "color": null,
+    "color": "#DAA9B5",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1952,7 +1951,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/WebService": {
-    "color": null,
+    "color": "#6A9573",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1962,7 +1961,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/WebServiceVersion": {
-    "color": null,
+    "color": "#8D5700",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1972,7 +1971,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/ephys/CellPatching": {
-    "color": null,
+    "color": "#1A2B2F",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1982,7 +1981,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/ephys/Channel": {
-    "color": null,
+    "color": "#5D3033",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -1992,7 +1991,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/ephys/Electrode": {
-    "color": null,
+    "color": "#D0AC94",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2002,7 +2001,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/ephys/ElectrodeArray": {
-    "color": null,
+    "color": "#337D00",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2012,7 +2011,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage": {
-    "color": null,
+    "color": "#AF5D88",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2022,7 +2021,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/ephys/ElectrodePlacement": {
-    "color": null,
+    "color": "#CFFF00",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2032,7 +2031,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/ephys/ElectrodeUsage": {
-    "color": null,
+    "color": "#DD587B",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2042,7 +2041,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/ephys/Pipette": {
-    "color": null,
+    "color": "#2A7FFF",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2052,7 +2051,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/ephys/PipetteUsage": {
-    "color": null,
+    "color": "#E20027",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2062,7 +2061,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/ephys/Recording": {
-    "color": null,
+    "color": "#FF4A46",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2072,7 +2071,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/ephys/RecordingActivity": {
-    "color": null,
+    "color": "#77733C",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2082,7 +2081,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/publications/Book": {
-    "color": null,
+    "color": "#3B000A",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2092,7 +2091,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/publications/Chapter": {
-    "color": null,
+    "color": "#FFB3E1",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2102,7 +2101,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/publications/LearningResource": {
-    "color": null,
+    "color": "#001C1E",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2112,7 +2111,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/publications/LivePaper": {
-    "color": null,
+    "color": "#CAEFFF",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2122,7 +2121,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/publications/LivePaperResourceItem": {
-    "color": null,
+    "color": "#004547",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2132,7 +2131,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/publications/LivePaperSection": {
-    "color": null,
+    "color": "#06E3C4",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2142,7 +2141,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/publications/LivePaperVersion": {
-    "color": null,
+    "color": "#7A4900",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2152,7 +2151,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/publications/Periodical": {
-    "color": null,
+    "color": "#83A193",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2162,7 +2161,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/publications/PublicationIssue": {
-    "color": null,
+    "color": "#7900D7",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2172,7 +2171,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/publications/PublicationVolume": {
-    "color": null,
+    "color": "#C2A580",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2182,7 +2181,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/publications/ScholarlyArticle": {
-    "color": null,
+    "color": "#E269AA",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2212,7 +2211,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/AnatomicalTargetPosition": {
-    "color": null,
+    "color": "#C2FF99",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2232,7 +2231,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/AtlasAnnotation": {
-    "color": null,
+    "color": "#8BC891",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -2253,7 +2252,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/BrainAtlas": {
-    "color": null,
+    "color": "#8B4A4E",
     "description": "Structured information on a brain atlas (concept level).",
     "isPartOfVersion": [
       "latest",
@@ -2265,7 +2264,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/BrainAtlasVersion": {
-    "color": null,
+    "color": "#75797C",
     "description": "Structured information on a brain atlas (version level).",
     "isPartOfVersion": [
       "latest",
@@ -2277,7 +2276,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/Circle": {
-    "color": null,
+    "color": "#00B57F",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2287,7 +2286,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/CommonCoordinateSpace": {
-    "color": null,
+    "color": "#5B113C",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -2298,7 +2297,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion": {
-    "color": null,
+    "color": "#D60034",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2308,7 +2307,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/CoordinatePoint": {
-    "color": null,
+    "color": "#A97399",
     "description": "Structured information on a coordinate point.",
     "isPartOfVersion": [
       "latest",
@@ -2330,7 +2329,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity": {
-    "color": null,
+    "color": "#D7FFE6",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -2341,7 +2340,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/CustomAnnotation": {
-    "color": null,
+    "color": "#392935",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -2352,7 +2351,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/CustomCoordinateSpace": {
-    "color": null,
+    "color": "#402334",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -2396,7 +2395,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/Ellipse": {
-    "color": null,
+    "color": "#CBA1BC",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2416,7 +2415,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/ParcellationEntity": {
-    "color": null,
+    "color": "#71B2F5",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -2427,7 +2426,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/ParcellationEntityVersion": {
-    "color": null,
+    "color": "#74569E",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2437,7 +2436,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/ParcellationTerminology": {
-    "color": null,
+    "color": "#009A2E",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -2448,7 +2447,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion": {
-    "color": null,
+    "color": "#02227B",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2458,7 +2457,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/QualitativeRelationAssessment": {
-    "color": null,
+    "color": "#435740",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -2469,7 +2468,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/QuantitativeRelationAssessment": {
-    "color": null,
+    "color": "#FF5AE4",
     "description": null,
     "isPartOfVersion": [
       "latest",
@@ -2480,7 +2479,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/Rectangle": {
-    "color": null,
+    "color": "#6B8295",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2490,7 +2489,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/SingleColor": {
-    "color": null,
+    "color": "#E66D53",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2500,7 +2499,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/sands/ViewerSpecification": {
-    "color": null,
+    "color": "#435E6A",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2510,7 +2509,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation": {
-    "color": null,
+    "color": "#452C2C",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2520,7 +2519,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/specimenPrep/SlicingDevice": {
-    "color": null,
+    "color": "#518A87",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2530,7 +2529,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage": {
-    "color": null,
+    "color": "#7D9F00",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2540,7 +2539,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation": {
-    "color": null,
+    "color": "#A9DDB0",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2550,7 +2549,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing": {
-    "color": null,
+    "color": "#AC84DD",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2560,7 +2559,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/stimulation/EphysStimulus": {
-    "color": null,
+    "color": "#A2C3DF",
     "description": null,
     "isPartOfVersion": [
       "latest"
@@ -2570,7 +2569,7 @@
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/stimulation/StimulationActivity": {
-    "color": null,
+    "color": "#FEFFE6",
     "description": null,
     "isPartOfVersion": [
       "latest"
