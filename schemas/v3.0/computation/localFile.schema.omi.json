@@ -1,0 +1,102 @@
+{
+  "_categories": [
+    "fileOrigin"
+  ],
+  "_type": "https://openminds.ebrains.eu/computation/LocalFile",
+  "color": "#B787A8",
+  "description": "Structured information about a file that is not accessible via a URL.",
+  "label": "Local file",
+  "name": "LocalFile",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/contentDescription": {
+      "_instruction": "Enter a short content description for this local file instance.",
+      "formatting": "text/plain",
+      "label": "Content description",
+      "multiline": true,
+      "name": "contentDescription",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/copyOf": {
+      "_instruction": "Add the file of which this is a copy.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ],
+      "label": "Copy of",
+      "name": "copyOf",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/dataType": {
+      "_instruction": "Add all data types that are specifically represented in this local file instance.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/DataType"
+      ],
+      "label": "Data type",
+      "minItems": 1,
+      "name": "dataType",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/format": {
+      "_instruction": "Add the content type of this local file instance.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ],
+      "description": "Method of digitally organizing and structuring data or information.",
+      "label": "Format",
+      "name": "format",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/hash": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Hash"
+      ],
+      "_instruction": "Add the hash that was generated for this local file instance.",
+      "description": "Term used for the process of converting any data into a single value. Often also directly refers to the resulting single value.",
+      "label": "Hash",
+      "name": "hash",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Enter the name of this local file instance.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "multiline": false,
+      "name": "name",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/path": {
+      "_instruction": "Enter the file system path (absolute path or relative to the working directory) to this local file instance.",
+      "formatting": "text/plain",
+      "label": "Path",
+      "multiline": false,
+      "name": "path",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/specialUsageRole": {
+      "_instruction": "Add the special usage role of this local file instance.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/FileUsageRole"
+      ],
+      "description": "Particular function of something when it is used.",
+      "label": "Special usage role",
+      "name": "specialUsageRole",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/storageSize": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the storage size of this local file instance.",
+      "description": "Quantitative value defining how much disk space is used by an object on a computer system.",
+      "label": "Storage size",
+      "name": "storageSize",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/name",
+    "https://openminds.ebrains.eu/vocab/path"
+  ]
+}

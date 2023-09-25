@@ -1,0 +1,52 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+  "color": "#009A2E",
+  "label": "Parcellation terminology",
+  "name": "ParcellationTerminology",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/dataLocation": {
+      "_instruction": "Add the location of all files in which this parcellation terminology is stored.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ],
+      "label": "Data location",
+      "minItems": 1,
+      "name": "dataLocation",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/hasEntity": {
+      "_instruction": "Add all parcellation entities which belong to this parcellation terminology.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/ParcellationEntity"
+      ],
+      "label": "Has entity",
+      "minItems": 1,
+      "name": "hasEntity",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the related ontological terms matching this parcellation terminology.",
+      "description": "Term or code used to identify something or someone registered within a particular ontology.",
+      "formatting": "text/plain",
+      "items": {
+        "_formats": [
+          "iri"
+        ],
+        "type": "string"
+      },
+      "label": "Ontology identifier",
+      "minItems": 1,
+      "multiline": false,
+      "name": "ontologyIdentifier",
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/hasEntity"
+  ]
+}

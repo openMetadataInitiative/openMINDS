@@ -1,0 +1,31 @@
+{
+  "_type": "https://openminds.ebrains.eu/ephys/Channel",
+  "color": "#5D3033",
+  "label": "Channel",
+  "name": "Channel",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/internalIdentifier": {
+      "_instruction": "Enter the identifier (or label) of this channel that is used within the corresponding data files to identify this channel.",
+      "description": "Term or code that identifies someone or something within a particular product.",
+      "formatting": "text/plain",
+      "label": "Internal identifier",
+      "multiline": false,
+      "name": "internalIdentifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/unit": {
+      "_instruction": "Add the unit of measurement for this channel.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+      ],
+      "description": "Determinate quantity adopted as a standard of measurement.",
+      "label": "Unit",
+      "name": "unit",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/internalIdentifier",
+    "https://openminds.ebrains.eu/vocab/unit"
+  ]
+}

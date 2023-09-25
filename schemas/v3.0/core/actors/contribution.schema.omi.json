@@ -1,0 +1,38 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/Contribution",
+  "color": "#790229",
+  "description": "Structured information on the contribution made to a research product.",
+  "label": "Contribution",
+  "name": "Contribution",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/contributor": {
+      "_instruction": "Add all types of contribution made by the stated 'contributor'.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Consortium",
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "description": "Legal person that gave or supplied something as a part or share.",
+      "label": "Contributor",
+      "name": "contributor",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/type": {
+      "_instruction": "Add the party that performed the contribution.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/ContributionType"
+      ],
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "label": "Type",
+      "minItems": 1,
+      "name": "type",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/contributor",
+    "https://openminds.ebrains.eu/vocab/type"
+  ]
+}

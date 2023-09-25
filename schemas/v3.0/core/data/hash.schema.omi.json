@@ -1,0 +1,31 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/Hash",
+  "color": "#378FDB",
+  "description": "Structured information on a hash.",
+  "label": "Hash",
+  "name": "Hash",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/algorithm": {
+      "_instruction": "Enter the algorithm used to generate this hash.",
+      "description": "Procedure for solving a mathematical problem in a finite number of steps. Can involve repetition of an operation.",
+      "formatting": "text/plain",
+      "label": "Algorithm",
+      "multiline": false,
+      "name": "algorithm",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/digest": {
+      "_instruction": "Enter the digest of this hash.",
+      "description": "Summation or condensation of a body of information.",
+      "formatting": "text/plain",
+      "label": "Digest",
+      "multiline": false,
+      "name": "digest",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/algorithm",
+    "https://openminds.ebrains.eu/vocab/digest"
+  ]
+}

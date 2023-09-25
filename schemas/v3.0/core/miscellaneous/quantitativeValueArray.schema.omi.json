@@ -1,0 +1,62 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/QuantitativeValueArray",
+  "color": "#8FCCBE",
+  "description": "A representation of an array of quantitative values, optionally with uncertainties.",
+  "label": "Quantitative value array",
+  "name": "QuantitativeValueArray",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/negativeUncertainties": {
+      "_instruction": "Enter the negative uncertainties for all values. Note that the length of the arrays have to match.",
+      "items": {
+        "type": "number"
+      },
+      "label": "Negative uncertainties",
+      "minItems": 2,
+      "name": "negativeUncertainties",
+      "type": "array"
+    },
+    "https://openminds.ebrains.eu/vocab/positiveUncertainties": {
+      "_instruction": "Enter the positive uncertainties for all values. Note that the length of the arrays have to match.",
+      "items": {
+        "type": "number"
+      },
+      "label": "Positive uncertainties",
+      "minItems": 2,
+      "name": "positiveUncertainties",
+      "type": "array"
+    },
+    "https://openminds.ebrains.eu/vocab/typeOfUncertainty": {
+      "_instruction": "Add the type of estimation for the uncertainties.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty"
+      ],
+      "description": "Distinct technique used to quantify the uncertainty of a measurement.",
+      "label": "Type of uncertainty",
+      "name": "typeOfUncertainty",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/unit": {
+      "_instruction": "Add the unit of measurement of the values and their uncertainties.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+      ],
+      "description": "Determinate quantity adopted as a standard of measurement.",
+      "label": "Unit",
+      "name": "unit",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/values": {
+      "_instruction": "Enter all measured values.",
+      "items": {
+        "type": "number"
+      },
+      "label": "Values",
+      "minItems": 2,
+      "name": "values",
+      "type": "array"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/values"
+  ]
+}

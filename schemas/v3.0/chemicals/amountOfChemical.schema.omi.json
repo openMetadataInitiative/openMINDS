@@ -1,0 +1,32 @@
+{
+  "_type": "https://openminds.ebrains.eu/chemicals/AmountOfChemical",
+  "color": "#561A02",
+  "description": "Structured information about the amount of a given chemical that was used.",
+  "label": "Amount of chemical",
+  "name": "AmountOfChemical",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/amount": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "When used in a mixture, enter the amount of the substance within the mixture (e.g., as concentration or as ratio). When used in its pure state, enter the used amount of the substance.",
+      "label": "Amount",
+      "name": "amount",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/chemicalProduct": {
+      "_instruction": "Add the chemical product that was used.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
+        "https://openminds.ebrains.eu/chemicals/ChemicalSubstance",
+        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity"
+      ],
+      "label": "Chemical product",
+      "name": "chemicalProduct",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/chemicalProduct"
+  ]
+}

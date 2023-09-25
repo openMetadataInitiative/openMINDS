@@ -1,0 +1,51 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+  "color": "#435E6A",
+  "label": "Viewer specification",
+  "name": "ViewerSpecification",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/additionalRemarks": {
+      "_instruction": "Enter any additional remarks concerning this viewer specification.",
+      "description": "Mention of what deserves additional attention or notice.",
+      "formatting": "text/markdown",
+      "label": "Additional remarks",
+      "multiline": true,
+      "name": "additionalRemarks",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/anchorPoint": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the coordinates of the anchor point that a viewer should use. Either state the anchor point of the annotation again or state another coordinate point.",
+      "label": "Anchor point",
+      "maxItems": 3,
+      "minItems": 2,
+      "name": "anchorPoint",
+      "nameForReverseLink": null,
+      "type": "array"
+    },
+    "https://openminds.ebrains.eu/vocab/cameraPosition": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/sands/CoordinatePoint"
+      ],
+      "_instruction": "Enter the camera position that a viewer should use.",
+      "label": "Camera position",
+      "name": "cameraPosition",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/preferredDisplayColor": {
+      "_instruction": "Add the preferred color that a viewer should display.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Colormap",
+        "https://openminds.ebrains.eu/sands/SingleColor"
+      ],
+      "label": "Preferred display color",
+      "name": "preferredDisplayColor",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/anchorPoint"
+  ]
+}

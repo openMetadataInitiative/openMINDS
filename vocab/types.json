@@ -3,7 +3,8 @@
     "color": "#561A02",
     "description": "Structured information about the amount of a given chemical that was used.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Amount of chemical",
     "name": "AmountOfChemical",
@@ -13,7 +14,8 @@
     "color": "#887868",
     "description": "Structured information about a mixture of chemical substances.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Chemical mixture",
     "name": "ChemicalMixture",
@@ -23,7 +25,8 @@
     "color": "#685D75",
     "description": "Structured information about a chemical substance.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Chemical substance",
     "name": "ChemicalSubstance",
@@ -33,7 +36,8 @@
     "color": "#EB9A8B",
     "description": "Structured information about the source of a chemical substance or mixture.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Product source",
     "name": "ProductSource",
@@ -43,7 +47,8 @@
     "color": "#00B6C5",
     "description": "Structured information on inspecting, cleansing, transforming, and modelling data.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Data analysis",
     "name": "DataAnalysis",
@@ -53,7 +58,8 @@
     "color": "#29607C",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Data copy",
     "name": "DataCopy",
@@ -63,7 +69,8 @@
     "color": "#1B782A",
     "description": "Structured information on the computer system or set of systems in which a computation is deployed and executed.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Environment",
     "name": "Environment",
@@ -73,7 +80,8 @@
     "color": "#FFB789",
     "description": "Structured information about a computation whose type is unknown or unspecified.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Generic computation",
     "name": "GenericComputation",
@@ -83,7 +91,8 @@
     "color": "#1E2324",
     "description": "Structured information about computing hardware.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Hardware system",
     "name": "HardwareSystem",
@@ -93,7 +102,8 @@
     "color": "#E69034",
     "description": "Structured information about the launch of a computational process.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Launch configuration",
     "name": "LaunchConfiguration",
@@ -103,7 +113,8 @@
     "color": "#B787A8",
     "description": "Structured information about a file that is not accessible via a URL.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Local file",
     "name": "LocalFile",
@@ -113,7 +124,8 @@
     "color": "#436E83",
     "description": "Structured information about a process of validating a computational model.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Model validation",
     "name": "ModelValidation",
@@ -123,7 +135,8 @@
     "color": "#9D8C76",
     "description": "Structured information about a process of optimizing a model or a piece of code.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Optimization",
     "name": "Optimization",
@@ -133,7 +146,8 @@
     "color": "#5B9C8F",
     "description": "Structured information about a process of running simulations of a computational model.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Simulation",
     "name": "Simulation",
@@ -143,7 +157,8 @@
     "color": "#8D6F81",
     "description": "Structured information about a piece of software or web service that can perform a task autonomously.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Software agent",
     "name": "SoftwareAgent",
@@ -153,7 +168,8 @@
     "color": "#813D3A",
     "description": "Structured information about the definition of a process for validating a computational model.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Validation test",
     "name": "ValidationTest",
@@ -163,7 +179,8 @@
     "color": "#3E7158",
     "description": "Structured information about a specific implementation of a validation test.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Validation test version",
     "name": "ValidationTestVersion",
@@ -173,7 +190,8 @@
     "color": "#DA0004",
     "description": "Structured information about a process of visualizing a computational model, a computational process, or a dataset.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Visualization",
     "name": "Visualization",
@@ -183,7 +201,8 @@
     "color": "#F4ABAA",
     "description": "Structured information about an execution of a computational workflow.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Workflow execution",
     "name": "WorkflowExecution",
@@ -193,7 +212,8 @@
     "color": "#AA62C3",
     "description": "Structured information about the description of a prospective workflow.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Workflow recipe",
     "name": "WorkflowRecipe",
@@ -203,7 +223,8 @@
     "color": "#4B2C00",
     "description": "Structured information about a specific implemented version of a workflow recipe.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Workflow recipe version",
     "name": "WorkflowRecipeVersion",
@@ -213,7 +234,8 @@
     "color": "#E6ECDC",
     "description": "Structured information about the status of an action.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Action status type",
     "name": "ActionStatusType",
@@ -225,7 +247,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Age category",
     "name": "AgeCategory",
@@ -235,7 +258,8 @@
     "color": "#FF0020",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Analysis technique",
     "name": "AnalysisTechnique",
@@ -247,7 +271,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Anatomical axes orientation",
     "name": "AnatomicalAxesOrientation",
@@ -257,7 +282,8 @@
     "color": "#203B3C",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Anatomical identification type",
     "name": "AnatomicalIdentificationType",
@@ -267,7 +293,8 @@
     "color": "#9DEBDD",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Anatomical plane",
     "name": "AnatomicalPlane",
@@ -277,7 +304,8 @@
     "color": "#1D1702",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Annotation criteria type",
     "name": "AnnotationCriteriaType",
@@ -287,7 +315,8 @@
     "color": "#EAE408",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Annotation type",
     "name": "AnnotationType",
@@ -297,7 +326,8 @@
     "color": "#F3BDA4",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Atlas type",
     "name": "AtlasType",
@@ -307,7 +337,8 @@
     "color": "#766E52",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Auditory stimulus type",
     "name": "AuditoryStimulusType",
@@ -328,7 +359,8 @@
     "color": "#69255C",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Biological order",
     "name": "BiologicalOrder",
@@ -338,7 +370,8 @@
     "color": null,
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Biological process",
     "name": "BiologicalProcess",
@@ -350,7 +383,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Biological sex",
     "name": "BiologicalSex",
@@ -360,7 +394,8 @@
     "color": "#AD6552",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Breeding type",
     "name": "BreedingType",
@@ -370,7 +405,8 @@
     "color": "#61615A",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Cell culture type",
     "name": "CellCultureType",
@@ -382,7 +418,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Cell type",
     "name": "CellType",
@@ -392,7 +429,8 @@
     "color": "#363DFF",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Chemical mixture type",
     "name": "ChemicalMixtureType",
@@ -402,7 +440,8 @@
     "color": "#067EAF",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Colormap",
     "name": "Colormap",
@@ -414,7 +453,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Contribution type",
     "name": "ContributionType",
@@ -424,7 +464,8 @@
     "color": "#70EC98",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Cranial window construction type",
     "name": "CranialWindowConstructionType",
@@ -434,7 +475,8 @@
     "color": "#6C6D74",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Cranial window reinforcement type",
     "name": "CranialWindowReinforcementType",
@@ -446,7 +488,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Criteria quality type",
     "name": "CriteriaQualityType",
@@ -456,7 +499,8 @@
     "color": "#D1ACFE",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Data type",
     "name": "DataType",
@@ -476,7 +520,8 @@
     "color": "#01400B",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Device type",
     "name": "DeviceType",
@@ -486,7 +531,8 @@
     "color": "#DB9D72",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Difference measure",
     "name": "DifferenceMeasure",
@@ -498,7 +544,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Disease",
     "name": "Disease",
@@ -510,7 +557,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Disease model",
     "name": "DiseaseModel",
@@ -520,7 +568,8 @@
     "color": "#636A01",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Educational level",
     "name": "EducationalLevel",
@@ -530,7 +579,8 @@
     "color": "#A9795C",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Electrical stimulus type",
     "name": "ElectricalStimulusType",
@@ -542,7 +592,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Ethics assessment",
     "name": "EthicsAssessment",
@@ -553,7 +604,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Experimental approach",
     "name": "ExperimentalApproach",
@@ -565,7 +617,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "File bundle grouping",
     "name": "FileBundleGrouping",
@@ -576,7 +629,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "File repository type",
     "name": "FileRepositoryType",
@@ -588,7 +642,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "File usage role",
     "name": "FileUsageRole",
@@ -598,7 +653,8 @@
     "color": "#FFA0F2",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Genetic strain type",
     "name": "GeneticStrainType",
@@ -618,7 +674,8 @@
     "color": "#979440",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Gustatory stimulus type",
     "name": "GustatoryStimulusType",
@@ -629,7 +686,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Handedness",
     "name": "Handedness",
@@ -641,7 +699,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Language",
     "name": "Language",
@@ -653,7 +712,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Laterality",
     "name": "Laterality",
@@ -663,7 +723,8 @@
     "color": "#372B2E",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Learning resource type",
     "name": "LearningResourceType",
@@ -673,7 +734,8 @@
     "color": "#2C5742",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Measured quantity",
     "name": "MeasuredQuantity",
@@ -683,7 +745,8 @@
     "color": null,
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Measured signal type",
     "name": "MeasuredSignalType",
@@ -695,7 +758,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Meta data model type",
     "name": "MetaDataModelType",
@@ -717,7 +781,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Model abstraction level",
     "name": "ModelAbstractionLevel",
@@ -729,7 +794,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Model scope",
     "name": "ModelScope",
@@ -739,7 +805,8 @@
     "color": "#617D9F",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Molecular entity",
     "name": "MolecularEntity",
@@ -749,7 +816,8 @@
     "color": "#DA71FF",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Olfactory stimulus type",
     "name": "OlfactoryStimulusType",
@@ -761,7 +829,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Operating device",
     "name": "OperatingDevice",
@@ -773,7 +842,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Operating system",
     "name": "OperatingSystem",
@@ -783,7 +853,8 @@
     "color": "#6D3800",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Optical stimulus type",
     "name": "OpticalStimulusType",
@@ -795,7 +866,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Organ",
     "name": "Organ",
@@ -805,7 +877,8 @@
     "color": "#3A2465",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Organism substance",
     "name": "OrganismSubstance",
@@ -815,7 +888,8 @@
     "color": "#222800",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Organism system",
     "name": "OrganismSystem",
@@ -825,7 +899,8 @@
     "color": "#63FFAC",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Patch clamp variation",
     "name": "PatchClampVariation",
@@ -848,7 +923,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Preparation type",
     "name": "PreparationType",
@@ -859,7 +935,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Product accessibility",
     "name": "ProductAccessibility",
@@ -871,7 +948,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Programming language",
     "name": "ProgrammingLanguage",
@@ -883,7 +961,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Qualitative overlap",
     "name": "QualitativeOverlap",
@@ -894,7 +973,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Semantic data type",
     "name": "SemanticDataType",
@@ -904,7 +984,8 @@
     "color": "#528500",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Service",
     "name": "Service",
@@ -914,7 +995,8 @@
     "color": "#BEC459",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Setup type",
     "name": "SetupType",
@@ -926,7 +1008,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Software application category",
     "name": "SoftwareApplicationCategory",
@@ -938,7 +1021,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Software feature",
     "name": "SoftwareFeature",
@@ -960,7 +1044,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Species",
     "name": "Species",
@@ -970,7 +1055,8 @@
     "color": "#C7C890",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Stimulation approach",
     "name": "StimulationApproach",
@@ -980,7 +1066,8 @@
     "color": "#985975",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Stimulation technique",
     "name": "StimulationTechnique",
@@ -1011,7 +1098,8 @@
     "color": "#4E4452",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Subcellular entity",
     "name": "SubcellularEntity",
@@ -1021,7 +1109,8 @@
     "color": "#962B75",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Subject attribute",
     "name": "SubjectAttribute",
@@ -1031,7 +1120,8 @@
     "color": "#EA1CA9",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Tactile stimulus type",
     "name": "TactileStimulusType",
@@ -1043,7 +1133,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Technique",
     "name": "Technique",
@@ -1055,7 +1146,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Term suggestion",
     "name": "TermSuggestion",
@@ -1066,7 +1158,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Terminology",
     "name": "Terminology",
@@ -1076,7 +1169,8 @@
     "color": "#AFFFD1",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Tissue sample attribute",
     "name": "TissueSampleAttribute",
@@ -1088,7 +1182,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Tissue sample type",
     "name": "TissueSampleType",
@@ -1099,7 +1194,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Type of uncertainty",
     "name": "TypeOfUncertainty",
@@ -1110,7 +1206,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Uberonparcellation",
     "name": "UBERONParcellation",
@@ -1122,7 +1219,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Unit of measurement",
     "name": "UnitOfMeasurement",
@@ -1132,7 +1230,8 @@
     "color": "#410601",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Visual stimulus type",
     "name": "VisualStimulusType",
@@ -1152,7 +1251,8 @@
     "color": "#B5D6C3",
     "description": "Structured information about a user account for a web service.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Account information",
     "name": "AccountInformation",
@@ -1163,7 +1263,8 @@
     "description": "Structured information about a relationship between two entities, such as a person and their employer.",
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Affiliation",
     "name": "Affiliation",
@@ -1173,7 +1274,8 @@
     "color": "#73BE54",
     "description": "Structured information about a protocol used in an experiment studying human or animal behavior.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Behavioral protocol",
     "name": "BehavioralProtocol",
@@ -1183,7 +1285,8 @@
     "color": "#6EFF92",
     "description": "Structured information about a short text expressing an opinion on, or giving information about some entity.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Comment",
     "name": "Comment",
@@ -1193,7 +1296,8 @@
     "color": "#CD00C5",
     "description": "Structured information about the properties or parameters of an entity or process.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Configuration",
     "name": "Configuration",
@@ -1203,7 +1307,8 @@
     "color": "#C36D96",
     "description": "Structured information about an association of two or more persons or organizations, with the objective of participating in a common activity.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Consortium",
     "name": "Consortium",
@@ -1214,7 +1319,8 @@
     "description": "Structured information about how to contact a given person or consortium.",
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Contact information",
     "name": "ContactInformation",
@@ -1226,7 +1332,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Content type",
     "name": "ContentType",
@@ -1236,7 +1343,8 @@
     "color": "#72361F",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Content type pattern",
     "name": "ContentTypePattern",
@@ -1248,7 +1356,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Contribution",
     "name": "Contribution",
@@ -1260,7 +1369,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Copyright",
     "name": "Copyright",
@@ -1270,7 +1380,8 @@
     "color": "#009B75",
     "description": "Structured information about properties of an entity that are not represented in an openMINDS schema.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Custom property set",
     "name": "CustomPropertySet",
@@ -1281,7 +1392,8 @@
     "description": "Structured information about a digital object identifier, as standardized by the International Organization for Standardization.",
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Doi",
     "name": "DOI",
@@ -1293,7 +1405,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Dataset",
     "name": "Dataset",
@@ -1305,7 +1418,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Dataset version",
     "name": "DatasetVersion",
@@ -1336,7 +1450,8 @@
     "description": "Structured information on a file instance that is accessible via a URL.",
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "File",
     "name": "File",
@@ -1346,7 +1461,8 @@
     "color": "#83AB58",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "File archive",
     "name": "FileArchive",
@@ -1358,7 +1474,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "File bundle",
     "name": "FileBundle",
@@ -1378,7 +1495,8 @@
     "color": "#564620",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "File path pattern",
     "name": "FilePathPattern",
@@ -1390,7 +1508,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "File repository",
     "name": "FileRepository",
@@ -1400,7 +1519,8 @@
     "color": "#3156DC",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "File repository structure",
     "name": "FileRepositoryStructure",
@@ -1412,7 +1532,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Funding",
     "name": "Funding",
@@ -1423,7 +1544,8 @@
     "description": "A GRID (Global Research Identifier Database) identifier.",
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Gridid",
     "name": "GRIDID",
@@ -1433,7 +1555,8 @@
     "color": "#FF8347",
     "description": "A persistent identifier for an information resource provided by the Handle System of the Corporation for National Research Initiatives.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Handle",
     "name": "HANDLE",
@@ -1445,7 +1568,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Hash",
     "name": "Hash",
@@ -1456,7 +1580,8 @@
     "description": "An International Standard Book Number of the International ISBN Agency.",
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Isbn",
     "name": "ISBN",
@@ -1466,7 +1591,8 @@
     "color": "#4145A7",
     "description": "An International Standard Serial Number of the ISSN International Centre.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Issn",
     "name": "ISSN",
@@ -1476,7 +1602,8 @@
     "color": "#00489C",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Identifiers dot org id",
     "name": "IdentifiersDotOrgID",
@@ -1488,7 +1615,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "License",
     "name": "License",
@@ -1498,7 +1626,8 @@
     "color": "#FFDBE5",
     "description": "Structured information about a measurement performed during a scientific experiment.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Measurement",
     "name": "Measurement",
@@ -1510,7 +1639,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Meta data model",
     "name": "MetaDataModel",
@@ -1522,7 +1652,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Meta data model version",
     "name": "MetaDataModelVersion",
@@ -1534,7 +1665,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Model",
     "name": "Model",
@@ -1546,7 +1678,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Model version",
     "name": "ModelVersion",
@@ -1566,7 +1699,8 @@
     "color": "#B94C59",
     "description": "Structured information about a property of some entity or process whose value is a number.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Numerical property",
     "name": "NumericalProperty",
@@ -1577,7 +1711,8 @@
     "description": "A persistent identifier for a researcher provided by Open Researcher and Contributor ID, Inc.",
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Orcid",
     "name": "ORCID",
@@ -1589,7 +1724,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Organization",
     "name": "Organization",
@@ -1621,7 +1757,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Person",
     "name": "Person",
@@ -1635,7 +1772,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Project",
     "name": "Project",
@@ -1645,7 +1783,8 @@
     "color": "#D7BFC2",
     "description": "An identifiable list of property-value pairs.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Property value list",
     "name": "PropertyValueList",
@@ -1657,7 +1796,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Protocol",
     "name": "Protocol",
@@ -1669,7 +1809,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Protocol execution",
     "name": "ProtocolExecution",
@@ -1681,7 +1822,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Quantitative value",
     "name": "QuantitativeValue",
@@ -1691,7 +1833,8 @@
     "color": "#8FCCBE",
     "description": "A representation of an array of quantitative values, optionally with uncertainties.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Quantitative value array",
     "name": "QuantitativeValueArray",
@@ -1703,7 +1846,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Quantitative value range",
     "name": "QuantitativeValueRange",
@@ -1714,7 +1858,8 @@
     "description": "A persistent identifier for a research organization, provided by the Research Organization Registry.",
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Rorid",
     "name": "RORID",
@@ -1724,7 +1869,8 @@
     "color": "#6B543F",
     "description": "A persistent identifier for a research resource provided by the Resource Identification Initiative.",
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Rrid",
     "name": "RRID",
@@ -1734,7 +1880,8 @@
     "color": "#920003",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Research product group",
     "name": "ResearchProductGroup",
@@ -1745,7 +1892,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Swhid",
     "name": "SWHID",
@@ -1755,7 +1903,8 @@
     "color": "#C4DF72",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Service link",
     "name": "ServiceLink",
@@ -1765,7 +1914,8 @@
     "color": "#9B585E",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Setup",
     "name": "Setup",
@@ -1777,7 +1927,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Software",
     "name": "Software",
@@ -1789,7 +1940,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Software version",
     "name": "SoftwareVersion",
@@ -1799,7 +1951,8 @@
     "color": "#E8C282",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Stock number",
     "name": "StockNumber",
@@ -1809,7 +1962,8 @@
     "color": "#0089A3",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Strain",
     "name": "Strain",
@@ -1829,7 +1983,8 @@
     "color": "#ADAAFF",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "String property",
     "name": "StringProperty",
@@ -1841,7 +1996,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Subject",
     "name": "Subject",
@@ -1853,7 +2009,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Subject group",
     "name": "SubjectGroup",
@@ -1865,7 +2022,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Subject group state",
     "name": "SubjectGroupState",
@@ -1877,7 +2035,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Subject state",
     "name": "SubjectState",
@@ -1889,7 +2048,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Tissue sample",
     "name": "TissueSample",
@@ -1901,7 +2061,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Tissue sample collection",
     "name": "TissueSampleCollection",
@@ -1913,7 +2074,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Tissue sample collection state",
     "name": "TissueSampleCollectionState",
@@ -1925,7 +2087,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Tissue sample state",
     "name": "TissueSampleState",
@@ -1945,7 +2108,8 @@
     "color": "#DAA9B5",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Web resource",
     "name": "WebResource",
@@ -1955,7 +2119,8 @@
     "color": "#6A9573",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Web service",
     "name": "WebService",
@@ -1965,7 +2130,8 @@
     "color": "#8D5700",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Web service version",
     "name": "WebServiceVersion",
@@ -1975,7 +2141,8 @@
     "color": "#1A2B2F",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Cell patching",
     "name": "CellPatching",
@@ -1985,7 +2152,8 @@
     "color": "#5D3033",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Channel",
     "name": "Channel",
@@ -1995,7 +2163,8 @@
     "color": "#D0AC94",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Electrode",
     "name": "Electrode",
@@ -2005,7 +2174,8 @@
     "color": "#337D00",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Electrode array",
     "name": "ElectrodeArray",
@@ -2015,7 +2185,8 @@
     "color": "#AF5D88",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Electrode array usage",
     "name": "ElectrodeArrayUsage",
@@ -2025,7 +2196,8 @@
     "color": "#CFFF00",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Electrode placement",
     "name": "ElectrodePlacement",
@@ -2035,7 +2207,8 @@
     "color": "#DD587B",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Electrode usage",
     "name": "ElectrodeUsage",
@@ -2045,7 +2218,8 @@
     "color": "#2A7FFF",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Pipette",
     "name": "Pipette",
@@ -2055,7 +2229,8 @@
     "color": "#E20027",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Pipette usage",
     "name": "PipetteUsage",
@@ -2065,7 +2240,8 @@
     "color": "#FF4A46",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Recording",
     "name": "Recording",
@@ -2075,7 +2251,8 @@
     "color": "#77733C",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Recording activity",
     "name": "RecordingActivity",
@@ -2085,7 +2262,8 @@
     "color": "#3B000A",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Book",
     "name": "Book",
@@ -2095,7 +2273,8 @@
     "color": "#FFB3E1",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Chapter",
     "name": "Chapter",
@@ -2105,7 +2284,8 @@
     "color": "#001C1E",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Learning resource",
     "name": "LearningResource",
@@ -2115,7 +2295,8 @@
     "color": "#CAEFFF",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Live paper",
     "name": "LivePaper",
@@ -2125,7 +2306,8 @@
     "color": "#004547",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Live paper resource item",
     "name": "LivePaperResourceItem",
@@ -2135,7 +2317,8 @@
     "color": "#06E3C4",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Live paper section",
     "name": "LivePaperSection",
@@ -2145,7 +2328,8 @@
     "color": "#7A4900",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Live paper version",
     "name": "LivePaperVersion",
@@ -2155,7 +2339,8 @@
     "color": "#83A193",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Periodical",
     "name": "Periodical",
@@ -2165,7 +2350,8 @@
     "color": "#7900D7",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Publication issue",
     "name": "PublicationIssue",
@@ -2175,7 +2361,8 @@
     "color": "#C2A580",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Publication volume",
     "name": "PublicationVolume",
@@ -2185,7 +2372,8 @@
     "color": "#E269AA",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Scholarly article",
     "name": "ScholarlyArticle",
@@ -2215,7 +2403,8 @@
     "color": "#C2FF99",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Anatomical target position",
     "name": "AnatomicalTargetPosition",
@@ -2236,7 +2425,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Atlas annotation",
     "name": "AtlasAnnotation",
@@ -2258,7 +2448,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Brain atlas",
     "name": "BrainAtlas",
@@ -2270,7 +2461,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Brain atlas version",
     "name": "BrainAtlasVersion",
@@ -2280,7 +2472,8 @@
     "color": "#00B57F",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Circle",
     "name": "Circle",
@@ -2291,7 +2484,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Common coordinate space",
     "name": "CommonCoordinateSpace",
@@ -2301,7 +2495,8 @@
     "color": "#D60034",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Common coordinate space version",
     "name": "CommonCoordinateSpaceVersion",
@@ -2313,7 +2508,8 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Coordinate point",
     "name": "CoordinatePoint",
@@ -2334,7 +2530,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Custom anatomical entity",
     "name": "CustomAnatomicalEntity",
@@ -2345,7 +2542,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Custom annotation",
     "name": "CustomAnnotation",
@@ -2356,7 +2554,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Custom coordinate space",
     "name": "CustomCoordinateSpace",
@@ -2399,7 +2598,8 @@
     "color": "#CBA1BC",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Ellipse",
     "name": "Ellipse",
@@ -2420,7 +2620,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Parcellation entity",
     "name": "ParcellationEntity",
@@ -2430,7 +2631,8 @@
     "color": "#74569E",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Parcellation entity version",
     "name": "ParcellationEntityVersion",
@@ -2441,7 +2643,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Parcellation terminology",
     "name": "ParcellationTerminology",
@@ -2451,7 +2654,8 @@
     "color": "#02227B",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Parcellation terminology version",
     "name": "ParcellationTerminologyVersion",
@@ -2462,7 +2666,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Qualitative relation assessment",
     "name": "QualitativeRelationAssessment",
@@ -2473,7 +2678,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
-      "v2.0"
+      "v2.0",
+      "v3.0"
     ],
     "label": "Quantitative relation assessment",
     "name": "QuantitativeRelationAssessment",
@@ -2483,7 +2689,8 @@
     "color": "#6B8295",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Rectangle",
     "name": "Rectangle",
@@ -2493,7 +2700,8 @@
     "color": "#E66D53",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Single color",
     "name": "SingleColor",
@@ -2503,7 +2711,8 @@
     "color": "#435E6A",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Viewer specification",
     "name": "ViewerSpecification",
@@ -2513,7 +2722,8 @@
     "color": "#452C2C",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Cranial window preparation",
     "name": "CranialWindowPreparation",
@@ -2523,7 +2733,8 @@
     "color": "#518A87",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Slicing device",
     "name": "SlicingDevice",
@@ -2533,7 +2744,8 @@
     "color": "#7D9F00",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Slicing device usage",
     "name": "SlicingDeviceUsage",
@@ -2543,7 +2755,8 @@
     "color": "#A9DDB0",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Tissue culture preparation",
     "name": "TissueCulturePreparation",
@@ -2553,7 +2766,8 @@
     "color": "#AC84DD",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Tissue sample slicing",
     "name": "TissueSampleSlicing",
@@ -2563,7 +2777,8 @@
     "color": "#A2C3DF",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Ephys stimulus",
     "name": "EphysStimulus",
@@ -2573,7 +2788,8 @@
     "color": "#FEFFE6",
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Stimulation activity",
     "name": "StimulationActivity",

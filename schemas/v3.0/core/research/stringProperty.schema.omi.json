@@ -1,0 +1,30 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/StringProperty",
+  "color": "#ADAAFF",
+  "label": "String property",
+  "name": "StringProperty",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Enter a descriptive name for this property.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "multiline": false,
+      "name": "name",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/value": {
+      "_instruction": "Enter the text value that is described by this string property.",
+      "description": "Entry for a property.",
+      "formatting": "text/plain",
+      "label": "Value",
+      "multiline": false,
+      "name": "value",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/name",
+    "https://openminds.ebrains.eu/vocab/value"
+  ]
+}

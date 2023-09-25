@@ -1,0 +1,194 @@
+{
+  "_categories": [
+    "deviceUsage"
+  ],
+  "_type": "https://openminds.ebrains.eu/ephys/PipetteUsage",
+  "color": "#E20027",
+  "label": "Pipette usage",
+  "name": "PipetteUsage",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/anatomicalLocation": {
+      "_instruction": "Add the anatomical entity that semantically best describes the anatomical location of the pipette tip.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/CellType",
+        "https://openminds.ebrains.eu/controlledTerms/Organ",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
+        "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
+        "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
+        "https://openminds.ebrains.eu/sands/ParcellationEntity",
+        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+      ],
+      "label": "Anatomical location",
+      "name": "anatomicalLocation",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/chlorideReversalPotential": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Measurement"
+      ],
+      "_instruction": "Enter all chloride reversal potentials for the intracellular solution(s) of the pipette measured during its use.",
+      "label": "Chloride reversal potential",
+      "minItems": 1,
+      "name": "chlorideReversalPotential",
+      "nameForReverseLink": null,
+      "type": "array"
+    },
+    "https://openminds.ebrains.eu/vocab/compensationCurrent": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Measurement"
+      ],
+      "_instruction": "Enter the compensation current for the series resistance of the pipette measured during its use.",
+      "label": "Compensation current",
+      "name": "compensationCurrent",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/device": {
+      "_instruction": "Add the pipette used.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/ephys/Pipette"
+      ],
+      "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
+      "label": "Device",
+      "name": "device",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/endMembranePotential": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Measurement"
+      ],
+      "_instruction": "Enter the membrane potential of e.g., a patched cell at the end of a recording measured during the use of this pipette.",
+      "label": "End membrane potential",
+      "name": "endMembranePotential",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/holdingPotential": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Measurement"
+      ],
+      "_instruction": "Enter the holding membrane potential of e.g., a patched cell measured during the use of this pipette.",
+      "label": "Holding potential",
+      "name": "holdingPotential",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/inputResistance": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Measurement"
+      ],
+      "_instruction": "Enter the input resistance of e.g., a patched cell measured during the use of this pipette.",
+      "label": "Input resistance",
+      "name": "inputResistance",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/labelingCompound": {
+      "_instruction": "Add the used compound for labelling e.g., a patched cell during the use of this pipette. ",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
+        "https://openminds.ebrains.eu/chemicals/ChemicalSubstance",
+        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity"
+      ],
+      "label": "Labeling compound",
+      "name": "labelingCompound",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/liquidJunctionPotential": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Measurement"
+      ],
+      "_instruction": "Enter the liquid junction potential of e.g., a patched cell measured during the use of this pipette.",
+      "label": "Liquid junction potential",
+      "name": "liquidJunctionPotential",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/lookupLabel": {
+      "_instruction": "Enter a lookup label for this device usage that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "multiline": false,
+      "name": "lookupLabel",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/metadataLocation": {
+      "_instruction": "Add all files or file bundles containing additional information about the usage of this device.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/FileBundle"
+      ],
+      "label": "Metadata location",
+      "minItems": 1,
+      "name": "metadataLocation",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/pipetteResistance": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the resistance of the pipette during its use.",
+      "label": "Pipette resistance",
+      "name": "pipetteResistance",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/pipetteSolution": {
+      "_instruction": "Enter the solution with which the pipette was filled during its use.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/chemicals/ChemicalMixture"
+      ],
+      "label": "Pipette solution",
+      "name": "pipetteSolution",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/sealResistance": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Measurement"
+      ],
+      "_instruction": "Enter the seal resistance of e.g., a patched cell measured during the use of this pipette.",
+      "label": "Seal resistance",
+      "name": "sealResistance",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/seriesResistance": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Measurement"
+      ],
+      "_instruction": "Enter the series resistance of the pipette measured during its use.",
+      "label": "Series resistance",
+      "name": "seriesResistance",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/spatialLocation": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/sands/CoordinatePoint"
+      ],
+      "_instruction": "Add the coordinate point that best describes the spatial location of the pipette tip during its use.",
+      "label": "Spatial location",
+      "name": "spatialLocation",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/startMembranePotential": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Measurement"
+      ],
+      "_instruction": "Enter the membrane potential of e.g., a patched cell at the beginning of a recording measured during the use of this pipette.",
+      "label": "Start membrane potential",
+      "name": "startMembranePotential",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/usedSpecimen": {
+      "_instruction": "Add the state of the tissue sample or subject that this device was used on.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectState",
+        "https://openminds.ebrains.eu/core/TissueSampleState"
+      ],
+      "label": "Used specimen",
+      "name": "usedSpecimen",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/device",
+    "https://openminds.ebrains.eu/vocab/pipetteSolution"
+  ]
+}

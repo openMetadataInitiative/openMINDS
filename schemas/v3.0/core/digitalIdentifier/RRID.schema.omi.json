@@ -1,0 +1,22 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/RRID",
+  "color": "#6B543F",
+  "description": "A persistent identifier for a research resource provided by the Resource Identification Initiative.",
+  "label": "Rrid",
+  "name": "RRID",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/identifier": {
+      "_instruction": "Enter the resource identifier provided by the Resource Identification Initiative ('Research Resource IDentifier'; RRID) as an internationalized resource identifier (IRI) following the defined pattern (i.e., 'https://scicrunch.org/resolver/' + RRID).",
+      "description": "Term or code used to identify something or someone.",
+      "formatting": "text/plain",
+      "label": "Identifier",
+      "multiline": false,
+      "name": "identifier",
+      "pattern": "https://scicrunch.org/resolver/RRID:([A-Za-z]+)[_:]([A-Za-z0-9_:-]+)",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/identifier"
+  ]
+}

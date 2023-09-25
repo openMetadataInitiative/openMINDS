@@ -1,0 +1,80 @@
+{
+  "_categories": [
+    "fileOrigin"
+  ],
+  "_type": "https://openminds.ebrains.eu/core/Subject",
+  "color": "#C86240",
+  "description": "Structured information on a subject.",
+  "label": "Subject",
+  "name": "Subject",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/biologicalSex": {
+      "_instruction": "Add the biological sex of this specimen.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex"
+      ],
+      "description": "Differentiation of individuals of most species (animals and plants) based on the type of gametes they produce.",
+      "label": "Biological sex",
+      "name": "biologicalSex",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/internalIdentifier": {
+      "_instruction": "Enter the identifier (or label) of this specimen that is used within the corresponding data files to identify this specimen.",
+      "description": "Term or code that identifies someone or something within a particular product.",
+      "formatting": "text/plain",
+      "label": "Internal identifier",
+      "multiline": false,
+      "name": "internalIdentifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/isPartOf": {
+      "_instruction": "Add all subject groups of which this subject is a member.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectGroup"
+      ],
+      "description": "Reference to the ensemble of multiple things or beings.",
+      "label": "Is part of",
+      "minItems": 1,
+      "name": "isPartOf",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/lookupLabel": {
+      "_instruction": "Enter a lookup label for this specimen that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "multiline": false,
+      "name": "lookupLabel",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/species": {
+      "_instruction": "Add the species or strain (a sub-type of a genetic variant of species) of this specimen.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Species",
+        "https://openminds.ebrains.eu/core/Strain"
+      ],
+      "description": "Category of biological classification comprising related organisms or populations potentially capable of interbreeding, and being designated by a binomial that consists of the name of a genus followed by a Latin or latinized uncapitalized noun or adjective.",
+      "label": "Species",
+      "name": "species",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/studiedState": {
+      "_instruction": "Add all states in which this subject was studied.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectState"
+      ],
+      "description": "Reference to a point in time at which something or someone was studied in a particular mode or condition.",
+      "label": "Studied state",
+      "minItems": 1,
+      "name": "studiedState",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/species",
+    "https://openminds.ebrains.eu/vocab/studiedState"
+  ]
+}

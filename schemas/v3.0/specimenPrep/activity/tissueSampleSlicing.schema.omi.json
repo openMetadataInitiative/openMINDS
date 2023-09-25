@@ -1,0 +1,66 @@
+{
+  "_type": "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
+  "color": "#AC84DD",
+  "label": "Tissue sample slicing",
+  "name": "TissueSampleSlicing",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/device": {
+      "_instruction": "Add the device used to slice the tissue sample.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+      ],
+      "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
+      "label": "Device",
+      "name": "device",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/input": {
+      "_instruction": "Add the state of the specimen that was sliced during this activity.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectState",
+        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
+        "https://openminds.ebrains.eu/core/TissueSampleState"
+      ],
+      "description": "Something or someone that is put into or participates in a process or machine.",
+      "label": "Input",
+      "name": "input",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/output": {
+      "_instruction": "Add the state of the tissue sample slice or collection of slices that resulted from this activity.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
+        "https://openminds.ebrains.eu/core/TissueSampleState"
+      ],
+      "description": "Something or someone that comes out of, is delivered or produced by a process or machine.",
+      "label": "Output",
+      "minItems": 1,
+      "name": "output",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/temperature": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the temperature at which the tissue sample was sliced during the activity.",
+      "label": "Temperature",
+      "name": "temperature",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/tissueBathSolution": {
+      "_instruction": "Add the chemical mixture used as bath solution during this activity.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/chemicals/ChemicalMixture"
+      ],
+      "label": "Tissue bath solution",
+      "name": "tissueBathSolution",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/device"
+  ]
+}

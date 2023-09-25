@@ -1,0 +1,30 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/AccountInformation",
+  "color": "#B5D6C3",
+  "description": "Structured information about a user account for a web service.",
+  "label": "Account information",
+  "name": "AccountInformation",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/service": {
+      "_instruction": "Add the web service of this account.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/WebService"
+      ],
+      "label": "Service",
+      "name": "service",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/userName": {
+      "_instruction": "Enter the user name for this account.",
+      "formatting": "text/plain",
+      "label": "User name",
+      "multiline": false,
+      "name": "userName",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/service",
+    "https://openminds.ebrains.eu/vocab/userName"
+  ]
+}

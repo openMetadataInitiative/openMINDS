@@ -1,0 +1,33 @@
+{
+  "_categories": [
+    "mathematicalShapes"
+  ],
+  "_type": "https://openminds.ebrains.eu/sands/Ellipse",
+  "color": "#CBA1BC",
+  "label": "Ellipse",
+  "name": "Ellipse",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/semiMajorAxis": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the length of the semi-minor axis of this ellipse.",
+      "label": "Semi major axis",
+      "name": "semiMajorAxis",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/semiMinorAxis": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the length of the semi-major axis of this ellipse.",
+      "label": "Semi minor axis",
+      "name": "semiMinorAxis",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/semiMajorAxis",
+    "https://openminds.ebrains.eu/vocab/semiMinorAxis"
+  ]
+}

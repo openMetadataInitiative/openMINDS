@@ -1,0 +1,156 @@
+{
+  "_categories": [
+    "coordinateSpace",
+    "researchProduct"
+  ],
+  "_type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+  "color": "#5B113C",
+  "label": "Common coordinate space",
+  "name": "CommonCoordinateSpace",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/abbreviation": {
+      "_instruction": "Enter the official abbreviation of this common coordinate space.",
+      "formatting": "text/plain",
+      "label": "Abbreviation",
+      "multiline": false,
+      "name": "abbreviation",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/author": {
+      "_instruction": "Add all parties that contributed to this common coordinate space as authors.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Consortium",
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "description": "Creator of a literary or creative work, as well as a dataset publication.",
+      "label": "Author",
+      "minItems": 1,
+      "name": "author",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/custodian": {
+      "_instruction": "Add all parties that fulfill the role of a custodian for this research product (e.g., a research group leader or principle investigator). Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the data, metadata, and/or code of the research product. Unless specified differently, this custodian will be responsible for all attached research product versions.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Consortium",
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "description": "The 'custodian' is a legal person who is responsible for the content and quality of the data, metadata, and/or code of a research product.",
+      "label": "Custodian",
+      "minItems": 1,
+      "name": "custodian",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/description": {
+      "_instruction": "Enter a description (or abstract) of this research product. Note that this should be a suitable description for all attached research product versions.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/markdown",
+      "label": "Description",
+      "multiline": true,
+      "name": "description",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/ISBN",
+        "https://openminds.ebrains.eu/core/RRID"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/fullName": {
+      "_instruction": "Enter a descriptive full name (or title) for this research product. Note that this should be a suitable full name for all attached research product versions.",
+      "description": "Whole, non-abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Full name",
+      "multiline": false,
+      "name": "fullName",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/hasVersion": {
+      "_instruction": "Add all versions of this common coordinate space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+      ],
+      "description": "Reference to variants of an original.",
+      "label": "Has version",
+      "minItems": 1,
+      "name": "hasVersion",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/homepage": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product.",
+      "description": "Main website of something or someone.",
+      "formatting": "text/plain",
+      "label": "Homepage",
+      "multiline": false,
+      "name": "homepage",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/howToCite": {
+      "_instruction": "Enter the preferred citation text for this research product. Leave blank if citation text can be extracted from the assigned digital identifier.",
+      "description": "Preferred format for citing a particular object or legal person.",
+      "formatting": "text/markdown",
+      "label": "How to cite",
+      "multiline": true,
+      "name": "howToCite",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the related ontological terms matching this common coordinate space.",
+      "description": "Term or code used to identify something or someone registered within a particular ontology.",
+      "formatting": "text/plain",
+      "items": {
+        "_formats": [
+          "iri"
+        ],
+        "type": "string"
+      },
+      "label": "Ontology identifier",
+      "minItems": 1,
+      "multiline": false,
+      "name": "ontologyIdentifier",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/shortName": {
+      "_instruction": "Enter a short name (or alias) for this research product that could be used as a shortened display title (e.g., for web services with too little space to display the full name).",
+      "description": "Shortened or fully abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Short name",
+      "multiline": false,
+      "name": "shortName",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/usedSpecies": {
+      "_instruction": "Add the species that was used for the creation of this common coordinate space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Species"
+      ],
+      "label": "Used species",
+      "name": "usedSpecies",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/description",
+    "https://openminds.ebrains.eu/vocab/fullName",
+    "https://openminds.ebrains.eu/vocab/hasVersion",
+    "https://openminds.ebrains.eu/vocab/shortName",
+    "https://openminds.ebrains.eu/vocab/usedSpecies"
+  ]
+}

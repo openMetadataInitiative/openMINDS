@@ -1,0 +1,77 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/Protocol",
+  "color": "#E98176",
+  "description": "Structured information on a research project.",
+  "label": "Protocol",
+  "name": "Protocol",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/describedIn": {
+      "_instruction": "Add a publication or file in which this behavioral protocol is (originally) described in detail.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/WebResource"
+      ],
+      "label": "Described in",
+      "name": "describedIn",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/description": {
+      "_instruction": "Enter a description of this protocol.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/markdown",
+      "label": "Description",
+      "multiline": true,
+      "name": "description",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Enter a descriptive name for this protocol.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "multiline": false,
+      "name": "name",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/stimulusType": {
+      "_instruction": "Add all stimulus types used with this protocol.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType"
+      ],
+      "label": "Stimulus type",
+      "minItems": 1,
+      "name": "stimulusType",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/technique": {
+      "_instruction": "Add all techniques (including stimulation approaches and/or techniques) that were used in this protocol.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/Technique"
+      ],
+      "description": "Method of accomplishing a desired aim.",
+      "label": "Technique",
+      "minItems": 1,
+      "name": "technique",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/description",
+    "https://openminds.ebrains.eu/vocab/name",
+    "https://openminds.ebrains.eu/vocab/technique"
+  ]
+}
