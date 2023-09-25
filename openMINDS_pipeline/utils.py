@@ -142,7 +142,8 @@ def qualify_property_names(schemas:List[SchemaStructure]):
 
 def copy_to_target_directory(directory_structure: DirectoryStructure, version:str):
     schemas_version_directory = os.path.join(directory_structure.target_directory, "schemas", version)
-    shutil.rmtree(schemas_version_directory)
+    if os.path.exists(schemas_version_directory):
+        shutil.rmtree(schemas_version_directory)
     shutil.copytree(directory_structure.expanded_directory, schemas_version_directory)
     for root, dirs, files in os.walk(schemas_version_directory):
         for file_name in files:
