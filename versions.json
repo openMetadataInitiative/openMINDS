@@ -61,5 +61,52 @@
       "commit": "8c61d390419d35ff53ef85a13a8c4a9587af682f",
       "repository": "https://github.com/HumanBrainProject/openMINDS_core.git"
     }
+  },
+  "v3.0": {
+    "SANDS": {
+      "branch": "v3",
+      "commit": "ac2e238661c96bdfa98127b90dad35af6c132d50",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_SANDS.git"
+    },
+    "chemicals": {
+      "branch": "v1",
+      "commit": "57b5ce3c6d569f0bb8ce761adb48746fd1d970b2",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_chemicals.git"
+    },
+    "computation": {
+      "branch": "v1",
+      "commit": "57e160465c285be1780f74cffa80d16209e2a706",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_computation.git"
+    },
+    "controlledTerms": {
+      "branch": "v1",
+      "commit": "d8bc03dce7c5764f80e2ced630dde4e572ffbb7b",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_controlledTerms.git"
+    },
+    "core": {
+      "branch": "v4",
+      "commit": "8b2bc673cbd57a8620a306a7a84253bd6ecd30eb",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_core.git"
+    },
+    "ephys": {
+      "branch": "v1",
+      "commit": "2accac60e9dc50116c5eee8893cffcd5b1bf24c8",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_ephys.git"
+    },
+    "publications": {
+      "branch": "v1",
+      "commit": "d5446304a052a238d431a06bd66d0e444372f159",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_publications.git"
+    },
+    "specimenPrep": {
+      "branch": "v1",
+      "commit": "0669813dae142946a19f00645b0d8c2d66d01975",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_specimenPrep.git"
+    },
+    "stimulation": {
+      "branch": "v1",
+      "commit": "4dfdbadde9223ea9b6b48f377a424d23b1c8cf04",
+      "repository": "https://github.com/HumanBrainProject/openMINDS_stimulation.git"
+    }
   }
 }
