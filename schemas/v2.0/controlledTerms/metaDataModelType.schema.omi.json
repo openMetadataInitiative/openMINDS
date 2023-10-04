@@ -1,23 +1,24 @@
 {
   "_type": "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
+  "color": "#A55B54",
   "label": "Meta data model type",
   "name": "MetaDataModelType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",
       "description": "Short, but precise statement of the meaning of a word, word group, sign or a symbol.",
-      "formatting": "text/plain",
+      "formatting": "text/markdown",
       "label": "Definition",
-      "multiline": false,
+      "multiline": true,
       "name": "definition",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/description": {
       "_instruction": "Enter a short text describing this term.",
       "description": "Longer statement or account giving the characteristics of someone or something.",
-      "formatting": "text/plain",
+      "formatting": "text/markdown",
       "label": "Description",
-      "multiline": false,
+      "multiline": true,
       "name": "description",
       "type": "string"
     },

@@ -4,6 +4,7 @@
     "studyTarget"
   ],
   "_type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "color": "#71B2F5",
   "label": "Parcellation entity",
   "name": "ParcellationEntity",
   "properties": {
@@ -31,9 +32,9 @@
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter the definition for this parcellation entity.",
       "description": "Short, but precise statement of the meaning of a word, word group, sign or a symbol.",
-      "formatting": "text/plain",
+      "formatting": "text/markdown",
       "label": "Definition",
-      "multiline": false,
+      "multiline": true,
       "name": "definition",
       "type": "string"
     },

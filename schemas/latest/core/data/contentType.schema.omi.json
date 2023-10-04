@@ -1,5 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/core/ContentType",
+  "color": "#494B5A",
   "description": "Structured information on the content type of a file instance, bundle or repository.",
   "label": "Content type",
   "name": "ContentType",
@@ -19,9 +20,9 @@
     "https://openminds.ebrains.eu/vocab/description": {
       "_instruction": "Enter a description of the content type specification. Leave blank if an official and public specification is linked under 'specification' for this content type.",
       "description": "Longer statement or account giving the characteristics of someone or something.",
-      "formatting": "text/plain",
+      "formatting": "text/markdown",
       "label": "Description",
-      "multiline": false,
+      "multiline": true,
       "name": "description",
       "type": "string"
     },

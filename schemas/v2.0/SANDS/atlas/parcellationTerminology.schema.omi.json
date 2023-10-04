@@ -1,5 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+  "color": "#009A2E",
   "label": "Parcellation terminology",
   "name": "ParcellationTerminology",
   "properties": {
@@ -81,9 +82,9 @@
     "https://openminds.ebrains.eu/vocab/versionInnovation": {
       "_instruction": "Enter a short description of the novelties/peculiarities of this parcellation terminology.",
       "description": "Documentation on what changed in comparison to a previously published form of something.",
-      "formatting": "text/plain",
+      "formatting": "text/markdown",
       "label": "Version innovation",
-      "multiline": false,
+      "multiline": true,
       "name": "versionInnovation",
       "type": "string"
     }

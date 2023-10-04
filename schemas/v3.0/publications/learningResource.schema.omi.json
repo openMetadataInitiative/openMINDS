@@ -1,0 +1,373 @@
+{
+  "_type": "https://openminds.ebrains.eu/publications/LearningResource",
+  "color": "#001C1E",
+  "label": "Learning resource",
+  "name": "LearningResource",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/IRI": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to this creative work.",
+      "description": "Stands for Internationalized Resource Identifier which is an internet protocol standard that builds on the URI protocol, extending the set of permitted characters to include Unicode/ISO 10646.",
+      "formatting": "text/plain",
+      "label": "Iri",
+      "multiline": false,
+      "name": "IRI",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/about": {
+      "_instruction": "Add all research product (versions) this learning resource are about. Note that the learning resource should supplement the usage of the research product (versions) with e.g., instructions on their usage or additional information.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/computation/ValidationTest",
+        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
+        "https://openminds.ebrains.eu/computation/WorkflowRecipe",
+        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "https://openminds.ebrains.eu/core/Dataset",
+        "https://openminds.ebrains.eu/core/DatasetVersion",
+        "https://openminds.ebrains.eu/core/MetaDataModel",
+        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
+        "https://openminds.ebrains.eu/core/Model",
+        "https://openminds.ebrains.eu/core/ModelVersion",
+        "https://openminds.ebrains.eu/core/Software",
+        "https://openminds.ebrains.eu/core/SoftwareVersion",
+        "https://openminds.ebrains.eu/core/WebService",
+        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "https://openminds.ebrains.eu/publications/LivePaper",
+        "https://openminds.ebrains.eu/publications/LivePaperVersion",
+        "https://openminds.ebrains.eu/sands/BrainAtlas",
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+      ],
+      "label": "About",
+      "minItems": 1,
+      "name": "about",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/abstract": {
+      "_instruction": "Enter the abstract or a short description of the creative work.",
+      "formatting": "text/plain",
+      "label": "Abstract",
+      "multiline": true,
+      "name": "abstract",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/author": {
+      "_instruction": "Add all parties that contributed to this creative work as authors.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Consortium",
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "description": "Creator of a literary or creative work, as well as a dataset publication.",
+      "label": "Author",
+      "minItems": 1,
+      "name": "author",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/citedPublication": {
+      "_instruction": "Add all references this creative work cites.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/ISBN"
+      ],
+      "label": "Cited publication",
+      "minItems": 1,
+      "name": "citedPublication",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/copyright": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Copyright"
+      ],
+      "_instruction": "Enter the copyright information of this creative work.",
+      "description": "Exclusive and assignable legal right of an originator to reproduce, publish, sell, or distribute the matter and form of a creative work for a defined time period.",
+      "label": "Copyright",
+      "name": "copyright",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/creationDate": {
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the date on which this creative work was created, formatted as '2023-02-07'.",
+      "formatting": "text/plain",
+      "label": "Creation date",
+      "multiline": false,
+      "name": "creationDate",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/custodian": {
+      "_instruction": "Add all parties that fulfill the role of a custodian for this creative work (e.g., a corresponding author). Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the creative work.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Consortium",
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "description": "The 'custodian' is a legal person who is responsible for the content and quality of the data, metadata, and/or code of a research product.",
+      "label": "Custodian",
+      "minItems": 1,
+      "name": "custodian",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this creative work.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/editor": {
+      "_instruction": "Add all persons that edited this creative work.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "label": "Editor",
+      "minItems": 1,
+      "name": "editor",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/educationalLevel": {
+      "_instruction": "Add the educational level that best summarizes the prerequisite of this learning resource.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/EducationalLevel"
+      ],
+      "label": "Educational level",
+      "name": "educationalLevel",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/funding": {
+      "_instruction": "Add all funding information of this creative work.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Funding"
+      ],
+      "description": "Money provided by a legal person for a particular purpose.",
+      "label": "Funding",
+      "minItems": 1,
+      "name": "funding",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/keyword": {
+      "_instruction": "Add all relevant keywords to this creative work either by adding controlled terms or by suggesting new terms.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/ActionStatusType",
+        "https://openminds.ebrains.eu/controlledTerms/AgeCategory",
+        "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalIdentificationType",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalPlane",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationCriteriaType",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationType",
+        "https://openminds.ebrains.eu/controlledTerms/AtlasType",
+        "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalOrder",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalProcess",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
+        "https://openminds.ebrains.eu/controlledTerms/BreedingType",
+        "https://openminds.ebrains.eu/controlledTerms/CellCultureType",
+        "https://openminds.ebrains.eu/controlledTerms/CellType",
+        "https://openminds.ebrains.eu/controlledTerms/ChemicalMixtureType",
+        "https://openminds.ebrains.eu/controlledTerms/Colormap",
+        "https://openminds.ebrains.eu/controlledTerms/ContributionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowConstructionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowReinforcementType",
+        "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType",
+        "https://openminds.ebrains.eu/controlledTerms/DataType",
+        "https://openminds.ebrains.eu/controlledTerms/DeviceType",
+        "https://openminds.ebrains.eu/controlledTerms/DifferenceMeasure",
+        "https://openminds.ebrains.eu/controlledTerms/Disease",
+        "https://openminds.ebrains.eu/controlledTerms/DiseaseModel",
+        "https://openminds.ebrains.eu/controlledTerms/EducationalLevel",
+        "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment",
+        "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach",
+        "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping",
+        "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType",
+        "https://openminds.ebrains.eu/controlledTerms/FileUsageRole",
+        "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType",
+        "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Handedness",
+        "https://openminds.ebrains.eu/controlledTerms/Language",
+        "https://openminds.ebrains.eu/controlledTerms/Laterality",
+        "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
+        "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
+        "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel",
+        "https://openminds.ebrains.eu/controlledTerms/ModelScope",
+        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/OperatingDevice",
+        "https://openminds.ebrains.eu/controlledTerms/OperatingSystem",
+        "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Organ",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSystem",
+        "https://openminds.ebrains.eu/controlledTerms/PatchClampVariation",
+        "https://openminds.ebrains.eu/controlledTerms/PreparationType",
+        "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility",
+        "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage",
+        "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap",
+        "https://openminds.ebrains.eu/controlledTerms/SemanticDataType",
+        "https://openminds.ebrains.eu/controlledTerms/Service",
+        "https://openminds.ebrains.eu/controlledTerms/SetupType",
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory",
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature",
+        "https://openminds.ebrains.eu/controlledTerms/Species",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/SubjectAttribute",
+        "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Technique",
+        "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
+        "https://openminds.ebrains.eu/controlledTerms/Terminology",
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleAttribute",
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
+        "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty",
+        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement",
+        "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType"
+      ],
+      "description": "Significant word or concept that are representative of something or someone.",
+      "label": "Keyword",
+      "minItems": 1,
+      "name": "keyword",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/learningOutcome": {
+      "_instruction": "Enter a description for the expected learning outcomes of this learning resource.",
+      "formatting": "text/markdown",
+      "label": "Learning outcome",
+      "multiline": true,
+      "name": "learningOutcome",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/license": {
+      "_instruction": "Add the license of this creative work.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/License"
+      ],
+      "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
+      "label": "License",
+      "name": "license",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/modificationDate": {
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the date on which this creative work was last modfied, formatted as '2023-02-07'.",
+      "formatting": "text/plain",
+      "label": "Modification date",
+      "multiline": false,
+      "name": "modificationDate",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Enter the name (or title) of this creative work.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "multiline": false,
+      "name": "name",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/order": {
+      "_instruction": "Enter the order in which this resource should appear, relative to other resources with the same topic.",
+      "label": "Order",
+      "name": "order",
+      "type": "integer"
+    },
+    "https://openminds.ebrains.eu/vocab/prerequisite": {
+      "_instruction": "Enter any knowledge, skills, or abilities that are required to be able to use this learning resource.",
+      "formatting": "text/markdown",
+      "label": "Prerequisite",
+      "multiline": true,
+      "name": "prerequisite",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/publicationDate": {
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the date on which this creative work was published, formatted as '2023-02-07'.",
+      "formatting": "text/plain",
+      "label": "Publication date",
+      "multiline": false,
+      "name": "publicationDate",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/publisher": {
+      "_instruction": "Add the party (private or commercial) that published this creative work.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Consortium",
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "label": "Publisher",
+      "name": "publisher",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/requiredTime": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the time that is required to complete this learning resource.",
+      "label": "Required time",
+      "name": "requiredTime",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/topic": {
+      "_instruction": "Enter the name or a short description of the aspect of the research product that is covered by this tutorial",
+      "formatting": "text/plain",
+      "label": "Topic",
+      "multiline": false,
+      "name": "topic",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/type": {
+      "_instruction": "Add the type of this learning resource.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/LearningResourceType"
+      ],
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "label": "Type",
+      "name": "type",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/versionIdentifier": {
+      "_instruction": "Enter the version identifier of this creative work.",
+      "description": "Term or code used to identify the version of something.",
+      "formatting": "text/plain",
+      "label": "Version identifier",
+      "multiline": false,
+      "name": "versionIdentifier",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/about",
+    "https://openminds.ebrains.eu/vocab/name",
+    "https://openminds.ebrains.eu/vocab/publicationDate"
+  ]
+}

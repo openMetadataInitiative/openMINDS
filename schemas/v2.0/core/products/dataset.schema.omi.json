@@ -1,5 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Dataset",
+  "color": "#F77183",
   "description": "Structured information on data originating from human/animal studies or simulations (concept level).",
   "label": "Dataset",
   "name": "Dataset",
@@ -35,10 +36,10 @@
     "https://openminds.ebrains.eu/vocab/description": {
       "_instruction": "Enter a description (abstract) for this research product (max. 2000 characters, incl. spaces; no references). Note that this description should be fitting for all attached research product versions.",
       "description": "Longer statement or account giving the characteristics of someone or something.",
-      "formatting": "text/plain",
+      "formatting": "text/markdown",
       "label": "Description",
       "maxLength": 2000,
-      "multiline": false,
+      "multiline": true,
       "name": "description",
       "type": "string"
     },
@@ -87,9 +88,9 @@
     "https://openminds.ebrains.eu/vocab/howToCite": {
       "_instruction": "Enter the preferred citation text for this research product. Leave blank if citation text can be extracted from the assigned digital identifier.",
       "description": "Preferred format for citing a particular object or legal person.",
-      "formatting": "text/plain",
+      "formatting": "text/markdown",
       "label": "How to cite",
-      "multiline": false,
+      "multiline": true,
       "name": "howToCite",
       "type": "string"
     },

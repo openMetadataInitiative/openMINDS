@@ -1,5 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
+  "color": "#887868",
   "description": "Structured information about a mixture of chemical substances.",
   "label": "Chemical mixture",
   "name": "ChemicalMixture",
@@ -7,9 +8,9 @@
     "https://openminds.ebrains.eu/vocab/additionalRemarks": {
       "_instruction": "Enter any additional remarks concerning this chemical mixture.",
       "description": "Mention of what deserves additional attention or notice.",
-      "formatting": "text/plain",
+      "formatting": "text/markdown",
       "label": "Additional remarks",
-      "multiline": false,
+      "multiline": true,
       "name": "additionalRemarks",
       "type": "string"
     },

@@ -1,14 +1,15 @@
 {
   "_type": "https://openminds.ebrains.eu/core/TissueSampleCollection",
+  "color": "#00905E",
   "label": "Tissue sample collection",
   "name": "TissueSampleCollection",
   "properties": {
     "https://openminds.ebrains.eu/vocab/additionalRemarks": {
       "_instruction": "Enter additional remarks about the specimen set.",
       "description": "Mention of what deserves additional attention or notice.",
-      "formatting": "text/plain",
+      "formatting": "text/markdown",
       "label": "Additional remarks",
-      "multiline": false,
+      "multiline": true,
       "name": "additionalRemarks",
       "type": "string"
     },

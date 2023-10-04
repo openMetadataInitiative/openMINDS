@@ -1,14 +1,15 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/AnatomicalTargetPosition",
+  "color": "#C2FF99",
   "label": "Anatomical target position",
   "name": "AnatomicalTargetPosition",
   "properties": {
     "https://openminds.ebrains.eu/vocab/additionalRemarks": {
       "_instruction": "Enter any additional remarks concerning this anatomical target position.",
       "description": "Mention of what deserves additional attention or notice.",
-      "formatting": "text/plain",
+      "formatting": "text/markdown",
       "label": "Additional remarks",
-      "multiline": false,
+      "multiline": true,
       "name": "additionalRemarks",
       "type": "string"
     },

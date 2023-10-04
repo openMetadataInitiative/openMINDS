@@ -1,0 +1,91 @@
+{
+  "_categories": [
+    "keyword"
+  ],
+  "_type": "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty",
+  "color": "#7E9285",
+  "label": "Type of uncertainty",
+  "name": "TypeOfUncertainty",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/definition": {
+      "_instruction": "Enter one sentence for defining this term.",
+      "description": "Short, but precise statement of the meaning of a word, word group, sign or a symbol.",
+      "formatting": "text/markdown",
+      "label": "Definition",
+      "multiline": true,
+      "name": "definition",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/description": {
+      "_instruction": "Enter a short text describing this term.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/markdown",
+      "label": "Description",
+      "multiline": true,
+      "name": "description",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/interlexIdentifier": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the integrated ontology entry in the InterLex project.",
+      "description": "Persistent identifier for a term registered in the InterLex project.",
+      "formatting": "text/plain",
+      "label": "Interlex identifier",
+      "multiline": false,
+      "name": "interlexIdentifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/knowledgeSpaceLink": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the wiki page of the corresponding term in the KnowledgeSpace.",
+      "description": "Persistent link to an encyclopedia entry in the Knowledge Space project.",
+      "formatting": "text/plain",
+      "label": "Knowledge space link",
+      "multiline": false,
+      "name": "knowledgeSpaceLink",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Controlled term originating from a defined terminology.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "multiline": false,
+      "name": "name",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/preferredOntologyIdentifier": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the preferred ontological term.",
+      "description": "Persistent identifier of a preferred ontological term.",
+      "formatting": "text/plain",
+      "label": "Preferred ontology identifier",
+      "multiline": false,
+      "name": "preferredOntologyIdentifier",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/synonym": {
+      "_instruction": "Enter one or several synonyms (inlcuding abbreviations) for this controlled term.",
+      "description": "Words or expressions used in the same language that have the same or nearly the same meaning in some or all senses.",
+      "formatting": "text/plain",
+      "items": {
+        "type": "string"
+      },
+      "label": "Synonym",
+      "minItems": 1,
+      "multiline": false,
+      "name": "synonym",
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/name"
+  ]
+}
