@@ -5,7 +5,7 @@
   "name": "Strain",
   "properties": {
     "https://openminds.ebrains.eu/vocab/alternateIdentifier": {
-      "_instruction": "Enter all identifiers for this strain, excluding its ontological identifiers or RRID (e.g., identifiers from the Mouse Genome Informatics (MGI) database or Rat Genome Database (RGD)).",
+      "_instruction": "Enter all identifiers for this strain, excluding its ontological identifers or RRID (e.g., identifiers from the Mouse Genome Informatics (MGI) database or Rat Genome Database (RGD)).",
       "formatting": "text/plain",
       "items": {
         "type": "string"
