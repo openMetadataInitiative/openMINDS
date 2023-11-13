@@ -78,7 +78,7 @@ def evaluate_versions_to_be_built(trigger:Optional[Trigger]) -> Dict[str, Dict[s
                 triggering_module = m
             new_modules[module] = m
         # The version is only relevant if the process was not launched by a submodule change (so everything is built) or if the triggering module is specified with the given branch
-        if not trigger or (is_dynamic and triggering_module.branch and triggering_module.branch == trigger.branch):
+        if not trigger or (is_dynamic and triggering_module and triggering_module.branch and triggering_module.branch == trigger.branch):
             relevant_versions[version] = new_modules
     return relevant_versions
 
