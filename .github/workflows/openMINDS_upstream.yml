@@ -1,0 +1,15 @@
+name: openMINDS_upstream
+
+on: 
+  - push
+  - workflow_dispatch
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Trigger target repositories (except for documentation)
+      run: |
+        curl -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_json-schema/actions/workflows/build.yml/dispatches --data '{"ref": "pipeline"}'
+        curl -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_MATLAB/actions/workflows/build.yml/dispatches --data '{"ref": "pipeline"}'
+        curl -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_Python/actions/workflows/build.yml/dispatches --data '{"ref": "pipeline"}'
