@@ -12,3 +12,10 @@ To create a release, define the version and its submodules inside the **version.
 The version.json defines the submodule versions which are composing an openMINDS release.
 
 Versions defined without commit hash are supposed to point to head of the corresponding branch. If no branch is defined, this means that the latest commit on the **semantically highest version branch** is taken into account.
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-url]: https://github.com/openMetadataInitiative/openMINDS/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/openMetadataInitiative/openMINDS
+[license-url]: https://raw.githubusercontent.com/openMetadataInitiative/openMINDS/pipeline/LICENSE
+[license-shield]: https://img.shields.io/github/license/openMetadataInitiative/openMINDS
