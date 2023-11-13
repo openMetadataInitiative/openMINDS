@@ -2,14 +2,14 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="/img/openMINDS_logo_dark.png">
     <source media="(prefers-color-scheme: light)" srcset="/img/openMINDS_logo_light.png">
-    <img alt="openMINDS logo" src="/img/openMINDS_logo_light.png" title="Logo created by Schlegel, Zehl, and Hagen Blixhavn." align="right" height="70">
+    <img alt="openMINDS" src="/img/openMINDS_logo_light.png" title="Logo created by Schlegel, Zehl, and Hagen Blixhavn." align="right" height="70">
   </picture>
 </a>
 
 # openMINDS
 
-![GitHub][license-url]
-![GitHub contributors][contributors-url]
+[![GitHub][license-shield]][license-url]
+[![GitHub contributors][contributors-shield]][contributors-url]
 
 Complete collection of schemas for the metadata models of the openMINDS metadata framework. All schemas are formatted in the openMINDS syntax (*.schema.omi.json).
 
@@ -23,7 +23,9 @@ If you want to contribute please follow our :arrow_right: [**contribution guidel
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contribution-url]: https://openminds-documentation.readthedocs.io/en/latest/shared/contribution_guidelines.html
-[contributors-url]: https://img.shields.io/github/contributors/openMetadataInitiative/openMINDS_documentation
+[contributors-url]: https://github.com/openMetadataInitiative/openMINDS/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/openMetadataInitiative/openMINDS_documentation
 [docu-url]: https://openminds-documentation.readthedocs.io
 [libraries-url]: https://openminds-documentation.readthedocs.io/en/latest/instance_libraries.html
-[license-url]: https://img.shields.io/github/license/openMetadataInitiative/openMINDS_documentation
+[license-url]: https://raw.githubusercontent.com/openMetadataInitiative/openMINDS/main/LICENSE
+[license-shield]: https://img.shields.io/github/license/openMetadataInitiative/openMINDS_documentation
