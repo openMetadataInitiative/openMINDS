@@ -24,7 +24,7 @@ If you want to contribute please follow our :arrow_right: [**contribution guidel
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contribution-url]: https://openminds-documentation.readthedocs.io/en/latest/shared/contribution_guidelines.html
 [contributors-url]: https://github.com/openMetadataInitiative/openMINDS/graphs/contributors
-[contributors-shield]: https://img.shields.io/github/contributors/openMetadataInitiative/openMINDS_documentation
+[contributors-shield]: https://img.shields.io/github/contributors/openMetadataInitiative/openMINDS
 [docu-url]: https://openminds-documentation.readthedocs.io
 [libraries-url]: https://openminds-documentation.readthedocs.io/en/latest/instance_libraries.html
 [license-url]: https://raw.githubusercontent.com/openMetadataInitiative/openMINDS/main/LICENSE
