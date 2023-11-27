@@ -32,10 +32,14 @@ def _enrich_with_property_information(version: str, p, properties, schema):
         prop = properties[p]
         if "description" in prop and prop["description"]:
             schema["properties"][p]["description"] = prop["description"]
-        if "name" in prop and prop["name"]:
-            schema["properties"][p]["name"] = prop["name"]
         if "label" in prop and prop["label"]:
             schema["properties"][p]["label"] = prop["label"]
+        if "labelPlural" in prop and prop["labelPlural"]:
+            schema["properties"][p]["labelPlural"] = prop["labelPlural"]
+        if "name" in prop and prop["name"]:
+            schema["properties"][p]["name"] = prop["name"]
+        if "namePlural" in prop and prop["namePlural"]:
+            schema["properties"][p]["namePlural"] = prop["namePlural"]
         if "semanticEquivalent" in prop and prop["semanticEquivalent"]:
             schema["properties"][p]["semanticEquivalent"] = prop["semanticEquivalent"]
 
