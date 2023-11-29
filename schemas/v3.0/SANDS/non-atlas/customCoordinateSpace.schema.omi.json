@@ -14,8 +14,10 @@
       ],
       "description": "Relation between reference planes used in anatomy and mathematics.",
       "label": "Anatomical axes orientation",
+      "labelPlural": "Anatomical axes orientations",
       "name": "anatomicalAxesOrientation",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "anatomicalAxesOrientations"
     },
     "https://openminds.ebrains.eu/vocab/axesOrigin": {
       "_embeddedTypes": [
@@ -24,10 +26,12 @@
       "_instruction": "Enter the origin (central point where all axes intersect) of this custom coordinate space for two-dimensional spaces as [x, y] or for three-dimensional space as [x, y, z].",
       "description": "Special point in a coordinate system used as a fixed point of reference for the geometry of the surrounding space.",
       "label": "Axes origin",
+      "labelPlural": "Axes origins",
       "maxItems": 3,
       "minItems": 2,
       "name": "axesOrigin",
       "nameForReverseLink": null,
+      "namePlural": "axesOrigins",
       "type": "array",
       "uniqueItems": true
     },
@@ -38,9 +42,11 @@
       ],
       "description": "Two or three dimensional image that particluarly represents a specific coordinate space.",
       "label": "Default image",
+      "labelPlural": "Default images",
       "minItems": 1,
       "name": "defaultImage",
       "nameForReverseLink": null,
+      "namePlural": "defaultImages",
       "type": "array",
       "uniqueItems": true
     },
@@ -49,8 +55,10 @@
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/nativeUnit": {
@@ -60,8 +68,10 @@
       ],
       "description": "Determinate quantity used in the original measurement.",
       "label": "Native unit",
+      "labelPlural": "Native units",
       "name": "nativeUnit",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "nativeUnits"
     }
   },
   "required": [

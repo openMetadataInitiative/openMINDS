@@ -13,8 +13,10 @@
       "description": "Address to which or from which an electronic mail can be sent.",
       "formatting": "text/plain",
       "label": "Email",
+      "labelPlural": "Emails",
       "multiline": false,
       "name": "email",
+      "namePlural": "emails",
       "type": "string"
     }
   },

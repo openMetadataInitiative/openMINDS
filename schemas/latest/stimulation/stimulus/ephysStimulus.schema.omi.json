@@ -11,8 +11,10 @@
       ],
       "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
       "label": "Type",
+      "labelPlural": "Types",
       "name": "type",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "types"
     }
   }
 }

@@ -12,8 +12,10 @@
       "description": "Stands for Internationalized Resource Identifier which is an internet protocol standard that builds on the URI protocol, extending the set of permitted characters to include Unicode/ISO 10646.",
       "formatting": "text/plain",
       "label": "Iri",
+      "labelPlural": "IRIs",
       "multiline": false,
       "name": "IRI",
+      "namePlural": "IRIs",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/about": {
@@ -41,9 +43,11 @@
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
       ],
       "label": "About",
+      "labelPlural": "About",
       "minItems": 1,
       "name": "about",
       "nameForReverseLink": null,
+      "namePlural": "about",
       "type": "array",
       "uniqueItems": true
     },
@@ -51,8 +55,10 @@
       "_instruction": "Enter the abstract or a short description of the creative work.",
       "formatting": "text/plain",
       "label": "Abstract",
+      "labelPlural": "Abstracts",
       "multiline": true,
       "name": "abstract",
+      "namePlural": "abstracts",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/author": {
@@ -64,9 +70,11 @@
       ],
       "description": "Creator of a literary or creative work, as well as a dataset publication.",
       "label": "Author",
+      "labelPlural": "Authors",
       "minItems": 1,
       "name": "author",
       "nameForReverseLink": null,
+      "namePlural": "authors",
       "type": "array",
       "uniqueItems": true
     },
@@ -77,9 +85,11 @@
         "https://openminds.ebrains.eu/core/ISBN"
       ],
       "label": "Cited publication",
+      "labelPlural": "Cited publications",
       "minItems": 1,
       "name": "citedPublication",
       "nameForReverseLink": null,
+      "namePlural": "citedPublications",
       "type": "array",
       "uniqueItems": true
     },
@@ -90,8 +100,10 @@
       "_instruction": "Enter the copyright information of this creative work.",
       "description": "Exclusive and assignable legal right of an originator to reproduce, publish, sell, or distribute the matter and form of a creative work for a defined time period.",
       "label": "Copyright",
+      "labelPlural": "Copyrights",
       "name": "copyright",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "copyrights"
     },
     "https://openminds.ebrains.eu/vocab/creationDate": {
       "_formats": [
@@ -100,8 +112,10 @@
       "_instruction": "Enter the date on which this creative work was created, formatted as '2023-02-07'.",
       "formatting": "text/plain",
       "label": "Creation date",
+      "labelPlural": "Creation dates",
       "multiline": false,
       "name": "creationDate",
+      "namePlural": "creationDates",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/custodian": {
@@ -113,9 +127,11 @@
       ],
       "description": "The 'custodian' is a legal person who is responsible for the content and quality of the data, metadata, and/or code of a research product.",
       "label": "Custodian",
+      "labelPlural": "Custodians",
       "minItems": 1,
       "name": "custodian",
       "nameForReverseLink": null,
+      "namePlural": "custodians",
       "type": "array",
       "uniqueItems": true
     },
@@ -126,8 +142,10 @@
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
       "name": "digitalIdentifier",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers"
     },
     "https://openminds.ebrains.eu/vocab/editor": {
       "_instruction": "Add all persons that edited this creative work.",
@@ -135,9 +153,11 @@
         "https://openminds.ebrains.eu/core/Person"
       ],
       "label": "Editor",
+      "labelPlural": "Editors",
       "minItems": 1,
       "name": "editor",
       "nameForReverseLink": null,
+      "namePlural": "editors",
       "type": "array",
       "uniqueItems": true
     },
@@ -147,8 +167,10 @@
         "https://openminds.ebrains.eu/controlledTerms/EducationalLevel"
       ],
       "label": "Educational level",
+      "labelPlural": "Educational levels",
       "name": "educationalLevel",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "educationalLevels"
     },
     "https://openminds.ebrains.eu/vocab/funding": {
       "_instruction": "Add all funding information of this creative work.",
@@ -157,9 +179,11 @@
       ],
       "description": "Money provided by a legal person for a particular purpose.",
       "label": "Funding",
+      "labelPlural": "Funding",
       "minItems": 1,
       "name": "funding",
       "nameForReverseLink": null,
+      "namePlural": "funding",
       "type": "array",
       "uniqueItems": true
     },
@@ -247,9 +271,11 @@
       ],
       "description": "Significant word or concept that are representative of something or someone.",
       "label": "Keyword",
+      "labelPlural": "Keywords",
       "minItems": 1,
       "name": "keyword",
       "nameForReverseLink": null,
+      "namePlural": "keywords",
       "type": "array",
       "uniqueItems": true
     },
@@ -257,8 +283,10 @@
       "_instruction": "Enter a description for the expected learning outcomes of this learning resource.",
       "formatting": "text/markdown",
       "label": "Learning outcome",
+      "labelPlural": "Learning outcomes",
       "multiline": true,
       "name": "learningOutcome",
+      "namePlural": "learningOutcomes",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/license": {
@@ -268,18 +296,22 @@
       ],
       "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
       "label": "License",
+      "labelPlural": "Licenses",
       "name": "license",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "licenses"
     },
     "https://openminds.ebrains.eu/vocab/modificationDate": {
       "_formats": [
         "date"
       ],
-      "_instruction": "Enter the date on which this creative work was last modified, formatted as '2023-02-07'.",
+      "_instruction": "Enter the date on which this creative work was last modfied, formatted as '2023-02-07'.",
       "formatting": "text/plain",
       "label": "Modification date",
+      "labelPlural": "Modification dates",
       "multiline": false,
       "name": "modificationDate",
+      "namePlural": "modificationDates",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/name": {
@@ -287,22 +319,28 @@
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/order": {
       "_instruction": "Enter the order in which this resource should appear, relative to other resources with the same topic.",
       "label": "Order",
+      "labelPlural": "Orders",
       "name": "order",
+      "namePlural": "orders",
       "type": "integer"
     },
     "https://openminds.ebrains.eu/vocab/prerequisite": {
       "_instruction": "Enter any knowledge, skills, or abilities that are required to be able to use this learning resource.",
       "formatting": "text/markdown",
       "label": "Prerequisite",
+      "labelPlural": "Prerequisites",
       "multiline": true,
       "name": "prerequisite",
+      "namePlural": "prerequisites",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/publicationDate": {
@@ -312,8 +350,10 @@
       "_instruction": "Enter the date on which this creative work was published, formatted as '2023-02-07'.",
       "formatting": "text/plain",
       "label": "Publication date",
+      "labelPlural": "Publication dates",
       "multiline": false,
       "name": "publicationDate",
+      "namePlural": "publicationDates",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/publisher": {
@@ -324,8 +364,10 @@
         "https://openminds.ebrains.eu/core/Person"
       ],
       "label": "Publisher",
+      "labelPlural": "Publishers",
       "name": "publisher",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "publishers"
     },
     "https://openminds.ebrains.eu/vocab/requiredTime": {
       "_embeddedTypes": [
@@ -334,15 +376,19 @@
       ],
       "_instruction": "Enter the time that is required to complete this learning resource.",
       "label": "Required time",
+      "labelPlural": "Required times",
       "name": "requiredTime",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "requiredTimes"
     },
     "https://openminds.ebrains.eu/vocab/topic": {
       "_instruction": "Enter the name or a short description of the aspect of the research product that is covered by this tutorial",
       "formatting": "text/plain",
       "label": "Topic",
+      "labelPlural": "Topics",
       "multiline": false,
       "name": "topic",
+      "namePlural": "topics",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/type": {
@@ -352,16 +398,20 @@
       ],
       "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
       "label": "Type",
+      "labelPlural": "Types",
       "name": "type",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "types"
     },
     "https://openminds.ebrains.eu/vocab/versionIdentifier": {
       "_instruction": "Enter the version identifier of this creative work.",
       "description": "Term or code used to identify the version of something.",
       "formatting": "text/plain",
       "label": "Version identifier",
+      "labelPlural": "Version identifiers",
       "multiline": false,
       "name": "versionIdentifier",
+      "namePlural": "versionIdentifiers",
       "type": "string"
     }
   },

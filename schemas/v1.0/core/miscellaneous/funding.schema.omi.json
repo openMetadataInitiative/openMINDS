@@ -10,8 +10,10 @@
       "description": "Official declaration or avowal of appreciation of an act or achievement.",
       "formatting": "text/plain",
       "label": "Acknowledgement",
+      "labelPlural": "Acknowledgements",
       "multiline": false,
       "name": "acknowledgement",
+      "namePlural": "acknowledgements",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/awardNumber": {
@@ -19,8 +21,10 @@
       "description": "Machine-readable identifier for a benefit that is conferred or bestowed on the basis of merit or need.",
       "formatting": "text/plain",
       "label": "Award number",
+      "labelPlural": "Award numbers",
       "multiline": false,
       "name": "awardNumber",
+      "namePlural": "awardNumbers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/awardTitle": {
@@ -28,8 +32,10 @@
       "description": "Human-readable identifier for a benefit that is conferred or bestowed on the basis of merit or need.",
       "formatting": "text/plain",
       "label": "Award title",
+      "labelPlural": "Award titles",
       "multiline": false,
       "name": "awardTitle",
+      "namePlural": "awardTitles",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/funder": {
@@ -39,8 +45,10 @@
       ],
       "description": "Legal person that provides money for a particular purpose.",
       "label": "Funder",
+      "labelPlural": "Funders",
       "name": "funder",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "funders"
     }
   },
   "required": [

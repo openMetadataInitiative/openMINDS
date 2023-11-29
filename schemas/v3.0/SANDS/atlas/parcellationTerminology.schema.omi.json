@@ -10,9 +10,11 @@
         "https://openminds.ebrains.eu/core/File"
       ],
       "label": "Data location",
+      "labelPlural": "Data locations",
       "minItems": 1,
       "name": "dataLocation",
       "nameForReverseLink": null,
+      "namePlural": "dataLocations",
       "type": "array",
       "uniqueItems": true
     },
@@ -22,9 +24,11 @@
         "https://openminds.ebrains.eu/sands/ParcellationEntity"
       ],
       "label": "Has entity",
+      "labelPlural": "Has entities",
       "minItems": 1,
       "name": "hasEntity",
       "nameForReverseLink": null,
+      "namePlural": "hasEntities",
       "type": "array",
       "uniqueItems": true
     },
@@ -39,9 +43,11 @@
         "type": "string"
       },
       "label": "Ontology identifier",
+      "labelPlural": "Ontology identifiers",
       "minItems": 1,
       "multiline": false,
       "name": "ontologyIdentifier",
+      "namePlural": "ontologyIdentifiers",
       "type": "array",
       "uniqueItems": true
     }

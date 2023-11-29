@@ -11,9 +11,11 @@
         "https://openminds.ebrains.eu/core/BehavioralProtocol"
       ],
       "label": "Behavioral protocol",
+      "labelPlural": "Behavioral protocols",
       "minItems": 1,
       "name": "behavioralProtocol",
       "nameForReverseLink": null,
+      "namePlural": "behavioralProtocols",
       "type": "array",
       "uniqueItems": true
     },
@@ -23,9 +25,11 @@
       ],
       "_instruction": "Add any user-defined parameters grouped in context-specific sets that are not covered in the standardized properties of this activity.",
       "label": "Custom property set",
+      "labelPlural": "Custom property sets",
       "minItems": 1,
       "name": "customPropertySet",
       "nameForReverseLink": null,
+      "namePlural": "customPropertySets",
       "type": "array",
       "uniqueItems": true
     },
@@ -34,8 +38,10 @@
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
+      "labelPlural": "Descriptions",
       "multiline": true,
       "name": "description",
+      "namePlural": "descriptions",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/endTime": {
@@ -46,8 +52,10 @@
       "_instruction": "Enter the date and/or time on when this activity ended, formatted as either '2023-02-07T16:00:00+00:00' (date-time) or '16:00:00+00:00' (time).",
       "formatting": "text/plain",
       "label": "End time",
+      "labelPlural": "End times",
       "multiline": false,
       "name": "endTime",
+      "namePlural": "endTimes",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/input": {
@@ -64,9 +72,11 @@
       ],
       "description": "Something or someone that is put into or participates in a process or machine.",
       "label": "Input",
+      "labelPlural": "Inputs",
       "minItems": 1,
       "name": "input",
       "nameForReverseLink": null,
+      "namePlural": "inputs",
       "type": "array",
       "uniqueItems": true
     },
@@ -77,15 +87,19 @@
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
+      "labelPlural": "Is part of",
       "name": "isPartOf",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "isPartOf"
     },
     "https://openminds.ebrains.eu/vocab/lookupLabel": {
       "_instruction": "Enter a lookup label for this activity that may help you to find this instance more easily.",
       "formatting": "text/plain",
       "label": "Lookup label",
+      "labelPlural": "Lookup labels",
       "multiline": false,
       "name": "lookupLabel",
+      "namePlural": "lookupLabels",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/output": {
@@ -100,9 +114,11 @@
       ],
       "description": "Something or someone that comes out of, is delivered or produced by a process or machine.",
       "label": "Output",
+      "labelPlural": "Outputs",
       "minItems": 1,
       "name": "output",
       "nameForReverseLink": null,
+      "namePlural": "outputs",
       "type": "array",
       "uniqueItems": true
     },
@@ -113,9 +129,11 @@
         "https://openminds.ebrains.eu/core/Person"
       ],
       "label": "Performed by",
+      "labelPlural": "Performed by",
       "minItems": 1,
       "name": "performedBy",
       "nameForReverseLink": null,
+      "namePlural": "performedBy",
       "type": "array",
       "uniqueItems": true
     },
@@ -125,8 +143,10 @@
         "https://openminds.ebrains.eu/controlledTerms/PreparationType"
       ],
       "label": "Preparation design",
+      "labelPlural": "Preparation designs",
       "name": "preparationDesign",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "preparationDesigns"
     },
     "https://openminds.ebrains.eu/vocab/protocol": {
       "_instruction": "Add all protocols used during this activity.",
@@ -135,9 +155,11 @@
       ],
       "description": "Plan that describes the process of a scientific or medical experiment, treatment, or procedure.",
       "label": "Protocol",
+      "labelPlural": "Protocols",
       "minItems": 1,
       "name": "protocol",
       "nameForReverseLink": null,
+      "namePlural": "protocols",
       "type": "array",
       "uniqueItems": true
     },
@@ -149,8 +171,10 @@
       "_instruction": "Enter the date and/or time on when this activity started, formatted as either '2023-02-07T16:00:00+00:00' (date-time) or '16:00:00+00:00' (time).",
       "formatting": "text/plain",
       "label": "Start time",
+      "labelPlural": "Start times",
       "multiline": false,
       "name": "startTime",
+      "namePlural": "startTimes",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/studyTarget": {
@@ -186,9 +210,11 @@
       ],
       "description": "Structure or function that was targeted within a study.",
       "label": "Study target",
+      "labelPlural": "Study targets",
       "minItems": 1,
       "name": "studyTarget",
       "nameForReverseLink": null,
+      "namePlural": "studyTargets",
       "type": "array",
       "uniqueItems": true
     }

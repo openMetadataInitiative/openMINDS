@@ -11,16 +11,20 @@
       ],
       "description": "Reference to a parent object or legal person.",
       "label": "Has parent",
+      "labelPlural": "Has parents",
       "name": "hasParent",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "hasParents"
     },
     "https://openminds.ebrains.eu/vocab/name": {
       "_instruction": "Enter a descriptive name for this anatomical entity based on anatomical location or characteristics.",
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
@@ -29,8 +33,10 @@
       "format": "iri",
       "formatting": "text/plain",
       "label": "Ontology identifier",
+      "labelPlural": "Ontology identifiers",
       "multiline": false,
       "name": "ontologyIdentifier",
+      "namePlural": "ontologyIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/otherAnatomicalRelation": {
@@ -40,9 +46,11 @@
       ],
       "description": "Reference to a related anatomical structure.",
       "label": "Other anatomical relation",
+      "labelPlural": "Other anatomical relations",
       "minItems": 1,
       "name": "otherAnatomicalRelation",
       "nameForReverseLink": null,
+      "namePlural": "otherAnatomicalRelations",
       "type": "array",
       "uniqueItems": true
     }

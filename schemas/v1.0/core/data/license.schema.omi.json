@@ -10,8 +10,10 @@
       "format": "iri",
       "formatting": "text/plain",
       "label": "Deed",
+      "labelPlural": "Deeds",
       "multiline": false,
       "name": "deed",
+      "namePlural": "deeds",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/fullName": {
@@ -19,8 +21,10 @@
       "description": "Whole, non-abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Full name",
+      "labelPlural": "Full names",
       "multiline": false,
       "name": "fullName",
+      "namePlural": "fullNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/legalCode": {
@@ -29,8 +33,10 @@
       "format": "iri",
       "formatting": "text/plain",
       "label": "Legal code",
+      "labelPlural": "Legal codes",
       "multiline": false,
       "name": "legalCode",
+      "namePlural": "legalCodes",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/shortName": {
@@ -38,8 +44,10 @@
       "description": "Shortened or fully abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Short name",
+      "labelPlural": "Short names",
       "multiline": false,
       "name": "shortName",
+      "namePlural": "shortNames",
       "type": "string"
     }
   },

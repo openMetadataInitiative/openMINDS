@@ -11,8 +11,10 @@
         "type": "number"
       },
       "label": "Negative uncertainties",
+      "labelPlural": "Negative uncertainties",
       "minItems": 2,
       "name": "negativeUncertainties",
+      "namePlural": "negativeUncertainties",
       "type": "array"
     },
     "https://openminds.ebrains.eu/vocab/positiveUncertainties": {
@@ -21,8 +23,10 @@
         "type": "number"
       },
       "label": "Positive uncertainties",
+      "labelPlural": "Positive uncertainties",
       "minItems": 2,
       "name": "positiveUncertainties",
+      "namePlural": "positiveUncertainties",
       "type": "array"
     },
     "https://openminds.ebrains.eu/vocab/typeOfUncertainty": {
@@ -32,8 +36,10 @@
       ],
       "description": "Distinct technique used to quantify the uncertainty of a measurement.",
       "label": "Type of uncertainty",
+      "labelPlural": "Types of uncertainty",
       "name": "typeOfUncertainty",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "typesOfUncertainty"
     },
     "https://openminds.ebrains.eu/vocab/unit": {
       "_instruction": "Add the unit of measurement of the values and their uncertainties.",
@@ -42,8 +48,10 @@
       ],
       "description": "Determinate quantity adopted as a standard of measurement.",
       "label": "Unit",
+      "labelPlural": "Units",
       "name": "unit",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "units"
     },
     "https://openminds.ebrains.eu/vocab/values": {
       "_instruction": "Enter all measured values.",
@@ -51,8 +59,10 @@
         "type": "number"
       },
       "label": "Values",
+      "labelPlural": "Values",
       "minItems": 2,
       "name": "values",
+      "namePlural": "values",
       "type": "array"
     }
   },

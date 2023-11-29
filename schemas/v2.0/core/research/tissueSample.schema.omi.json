@@ -12,16 +12,20 @@
       ],
       "description": "Differentiation of individuals of most species (animals and plants) based on the type of gametes they produce.",
       "label": "Biological sex",
+      "labelPlural": "Biological sexes",
       "name": "biologicalSex",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "biologicalSexes"
     },
     "https://openminds.ebrains.eu/vocab/internalIdentifier": {
       "_instruction": "Enter the identifier of this specimen that is used within the corresponding data.",
       "description": "Term or code that identifies someone or something within a particular product.",
       "formatting": "text/plain",
       "label": "Internal identifier",
+      "labelPlural": "Internal identifiers",
       "multiline": false,
       "name": "internalIdentifier",
+      "namePlural": "internalIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/isPartOf": {
@@ -31,9 +35,11 @@
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
+      "labelPlural": "Is part of",
       "minItems": 1,
       "name": "isPartOf",
       "nameForReverseLink": null,
+      "namePlural": "isPartOf",
       "type": "array",
       "uniqueItems": true
     },
@@ -44,10 +50,12 @@
       ],
       "description": "Differentiation between a pair of lateral homologous parts of the body.",
       "label": "Laterality",
+      "labelPlural": "Lateralities",
       "maxItems": 2,
       "minItems": 1,
       "name": "laterality",
       "nameForReverseLink": null,
+      "namePlural": "lateralities",
       "type": "array",
       "uniqueItems": true
     },
@@ -55,8 +63,10 @@
       "_instruction": "Enter a lookup label for this specimen that may help you to more easily find it again.",
       "formatting": "text/plain",
       "label": "Lookup label",
+      "labelPlural": "Lookup labels",
       "multiline": false,
       "name": "lookupLabel",
+      "namePlural": "lookupLabels",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/origin": {
@@ -67,8 +77,10 @@
       ],
       "description": "Source at which something begins or rises, or from which something derives.",
       "label": "Origin",
+      "labelPlural": "Origins",
       "name": "origin",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "origins"
     },
     "https://openminds.ebrains.eu/vocab/phenotype": {
       "_instruction": "Add the phenotype of this specimen.",
@@ -77,8 +89,10 @@
       ],
       "description": "Physical expression of one or more genes of an organism.",
       "label": "Phenotype",
+      "labelPlural": "Phenotypes",
       "name": "phenotype",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "phenotypes"
     },
     "https://openminds.ebrains.eu/vocab/species": {
       "_instruction": "Add the species of this specimen.",
@@ -87,8 +101,10 @@
       ],
       "description": "Category of biological classification comprising related organisms or populations potentially capable of interbreeding, and being designated by a binomial that consists of the name of a genus followed by a Latin or latinized uncapitalized noun or adjective.",
       "label": "Species",
+      "labelPlural": "Species",
       "name": "species",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "species"
     },
     "https://openminds.ebrains.eu/vocab/strain": {
       "_instruction": "Add the strain of this specimen.",
@@ -97,8 +113,10 @@
       ],
       "description": "Group of presumed common ancestry with physiological but usually not morphological distinctions.",
       "label": "Strain",
+      "labelPlural": "Strains",
       "name": "strain",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "strains"
     },
     "https://openminds.ebrains.eu/vocab/studiedState": {
       "_instruction": "Add all states in which this tissue sample was studied.",
@@ -107,9 +125,11 @@
       ],
       "description": "Reference to a point in time at which something or someone was studied in a particular mode or condition.",
       "label": "Studied state",
+      "labelPlural": "Studied states",
       "minItems": 1,
       "name": "studiedState",
       "nameForReverseLink": null,
+      "namePlural": "studiedStates",
       "type": "array",
       "uniqueItems": true
     },
@@ -120,8 +140,10 @@
       ],
       "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
       "label": "Type",
+      "labelPlural": "Types",
       "name": "type",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "types"
     }
   },
   "required": [

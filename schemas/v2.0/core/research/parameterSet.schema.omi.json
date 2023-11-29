@@ -8,8 +8,10 @@
       "_instruction": "Enter the common context for the parameters grouped in this set.",
       "formatting": "text/plain",
       "label": "Context",
+      "labelPlural": "Contexts",
       "multiline": false,
       "name": "context",
+      "namePlural": "contexts",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/parameter": {
@@ -20,9 +22,11 @@
       "_instruction": "Add all numerical and string parameters that belong to this parameter set.",
       "description": "Digital or physical property determining a particular function, characteristic or behavior of something.",
       "label": "Parameter",
+      "labelPlural": "Parameters",
       "minItems": 1,
       "name": "parameter",
       "nameForReverseLink": null,
+      "namePlural": "parameters",
       "type": "array",
       "uniqueItems": true
     },
@@ -34,8 +38,10 @@
       ],
       "description": "Reference to what or whom something or someone bears significance.",
       "label": "Relevant for",
+      "labelPlural": "Relevant for",
       "name": "relevantFor",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "relevantFor"
     }
   },
   "required": [

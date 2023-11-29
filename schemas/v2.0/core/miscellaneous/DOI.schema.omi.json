@@ -10,8 +10,10 @@
       "description": "Term or code used to identify something or someone.",
       "formatting": "text/plain",
       "label": "Identifier",
+      "labelPlural": "Identifiers",
       "multiline": false,
       "name": "identifier",
+      "namePlural": "identifiers",
       "pattern": "^https://doi.org/10.[0-9]{4,9}/[-._;()/:A-Za-z0-9]+",
       "type": "string"
     }

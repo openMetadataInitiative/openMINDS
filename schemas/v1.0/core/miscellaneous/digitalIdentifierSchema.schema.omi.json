@@ -10,8 +10,10 @@
       "format": "iri",
       "formatting": "text/plain",
       "label": "Iri",
+      "labelPlural": "IRIs",
       "multiline": false,
       "name": "IRI",
+      "namePlural": "IRIs",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/identifierPattern": {
@@ -19,8 +21,10 @@
       "description": "Format of a term or code used to identify something or someone.",
       "formatting": "text/plain",
       "label": "Identifier pattern",
+      "labelPlural": "Identifier patterns",
       "multiline": false,
       "name": "identifierPattern",
+      "namePlural": "identifierPatterns",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/type": {
@@ -28,8 +32,10 @@
       "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
       "formatting": "text/plain",
       "label": "Type",
+      "labelPlural": "Types",
       "multiline": false,
       "name": "type",
+      "namePlural": "types",
       "type": "string"
     }
   },

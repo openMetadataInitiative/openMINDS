@@ -14,15 +14,19 @@
       ],
       "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
       "label": "Device",
+      "labelPlural": "Devices",
       "name": "device",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "devices"
     },
     "https://openminds.ebrains.eu/vocab/lookupLabel": {
       "_instruction": "Enter a lookup label for this device usage that may help you to find this instance more easily.",
       "formatting": "text/plain",
       "label": "Lookup label",
+      "labelPlural": "Lookup labels",
       "multiline": false,
       "name": "lookupLabel",
+      "namePlural": "lookupLabels",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/metadataLocation": {
@@ -32,9 +36,11 @@
         "https://openminds.ebrains.eu/core/FileBundle"
       ],
       "label": "Metadata location",
+      "labelPlural": "Metadata locations",
       "minItems": 1,
       "name": "metadataLocation",
       "nameForReverseLink": null,
+      "namePlural": "metadataLocations",
       "type": "array",
       "uniqueItems": true
     },
@@ -44,8 +50,10 @@
       ],
       "_instruction": "Enter the oscillation amplitude of the blade from the slicing device during its use.",
       "label": "Oscillation amplitude",
+      "labelPlural": "Oscillation amplitudes",
       "name": "oscillationAmplitude",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "oscillationAmplitudes"
     },
     "https://openminds.ebrains.eu/vocab/sliceThickness": {
       "_embeddedTypes": [
@@ -54,8 +62,10 @@
       ],
       "_instruction": "Enter the defined slice thickness during the use of this slicing device.",
       "label": "Slice thickness",
+      "labelPlural": "Slice thicknesses",
       "name": "sliceThickness",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "sliceThicknesses"
     },
     "https://openminds.ebrains.eu/vocab/slicingAngle": {
       "_embeddedTypes": [
@@ -64,10 +74,12 @@
       ],
       "_instruction": "Enter all slicing angles (intentional or unintentional) in relation to the slicing plane used during this activity.",
       "label": "Slicing angle",
+      "labelPlural": "Slicing angles",
       "maxItems": 2,
       "minItems": 1,
       "name": "slicingAngle",
       "nameForReverseLink": null,
+      "namePlural": "slicingAngles",
       "type": "array"
     },
     "https://openminds.ebrains.eu/vocab/slicingPlane": {
@@ -76,8 +88,10 @@
         "https://openminds.ebrains.eu/controlledTerms/AnatomicalPlane"
       ],
       "label": "Slicing plane",
+      "labelPlural": "Slicing planes",
       "name": "slicingPlane",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "slicingPlanes"
     },
     "https://openminds.ebrains.eu/vocab/slicingSpeed": {
       "_embeddedTypes": [
@@ -85,8 +99,10 @@
       ],
       "_instruction": "Enter the defined slicing speed during the use of this slicing device.",
       "label": "Slicing speed",
+      "labelPlural": "Slicing speeds",
       "name": "slicingSpeed",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "slicingSpeeds"
     },
     "https://openminds.ebrains.eu/vocab/usedSpecimen": {
       "_instruction": "Add the state of the tissue sample or subject that this device was used on.",
@@ -95,8 +111,10 @@
         "https://openminds.ebrains.eu/core/TissueSampleState"
       ],
       "label": "Used specimen",
+      "labelPlural": "Used specimens",
       "name": "usedSpecimen",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "usedSpecimens"
     },
     "https://openminds.ebrains.eu/vocab/vibrationFrequency": {
       "_embeddedTypes": [
@@ -104,8 +122,10 @@
       ],
       "_instruction": "Enter the defined vibration frequency during the use of this slicing device.",
       "label": "Vibration frequency",
+      "labelPlural": "Vibration frequencies",
       "name": "vibrationFrequency",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "vibrationFrequencies"
     }
   },
   "required": [

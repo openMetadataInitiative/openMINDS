@@ -11,8 +11,10 @@
       "_instruction": "Add the coordinate point identifying the best view of this custom annotation in space.",
       "description": "Coordinate point from which you get the best view of something.",
       "label": "Best view point",
+      "labelPlural": "Best viewpoints",
       "name": "bestViewPoint",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "bestViewPoints"
     },
     "https://openminds.ebrains.eu/vocab/coordinateSpace": {
       "_instruction": "Add the coordinate space in which this custom annotation exists.",
@@ -22,8 +24,10 @@
       ],
       "description": "Two or three dimensional geometric setting.",
       "label": "Coordinate space",
+      "labelPlural": "Coordinate spaces",
       "name": "coordinateSpace",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "coordinateSpaces"
     },
     "https://openminds.ebrains.eu/vocab/criteria": {
       "_instruction": "Add the protocol execution defining the criteria that were applied to produce this custom annotation.",
@@ -32,8 +36,10 @@
       ],
       "description": "Aspects or standards on which a judgement or decision is based.",
       "label": "Criteria",
+      "labelPlural": "Criteria",
       "name": "criteria",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "criteria"
     },
     "https://openminds.ebrains.eu/vocab/criteriaQualityType": {
       "_instruction": "Add the quality type of the stated criteria used to define this custom annotation.",
@@ -42,16 +48,20 @@
       ],
       "description": "Distinct class that defines how the judgement or decision was made for a particular criteria.",
       "label": "Criteria quality type",
+      "labelPlural": "Criteria quality types",
       "name": "criteriaQualityType",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "criteriaQualityTypes"
     },
     "https://openminds.ebrains.eu/vocab/displayColor": {
       "_instruction": "Enter the preferred display color (HEX) for this custom annotation.",
       "description": "Preferred coloring.",
       "formatting": "text/plain",
       "label": "Display color",
+      "labelPlural": "Display colors",
       "multiline": false,
       "name": "displayColor",
+      "namePlural": "displayColors",
       "pattern": "^#[0-9A-Fa-f]{6}$",
       "type": "string"
     },
@@ -62,9 +72,11 @@
       ],
       "description": "Reference to an inspiring element.",
       "label": "Inspired by",
+      "labelPlural": "Inspired by",
       "minItems": 1,
       "name": "inspiredBy",
       "nameForReverseLink": null,
+      "namePlural": "inspiredBy",
       "type": "array",
       "uniqueItems": true
     },
@@ -73,8 +85,10 @@
       "description": "Term or code that identifies someone or something within a particular product.",
       "formatting": "text/plain",
       "label": "Internal identifier",
+      "labelPlural": "Internal identifiers",
       "multiline": false,
       "name": "internalIdentifier",
+      "namePlural": "internalIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/laterality": {
@@ -84,10 +98,12 @@
       ],
       "description": "Differentiation between a pair of lateral homologous parts of the body.",
       "label": "Laterality",
+      "labelPlural": "Lateralities",
       "maxItems": 2,
       "minItems": 1,
       "name": "laterality",
       "nameForReverseLink": null,
+      "namePlural": "lateralities",
       "type": "array",
       "uniqueItems": true
     },
@@ -95,8 +111,10 @@
       "_instruction": "Enter a lookup label for this custom annotation that may help you to more easily find it again.",
       "formatting": "text/plain",
       "label": "Lookup label",
+      "labelPlural": "Lookup labels",
       "multiline": false,
       "name": "lookupLabel",
+      "namePlural": "lookupLabels",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/name": {
@@ -104,8 +122,10 @@
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/visualizedIn": {
@@ -115,8 +135,10 @@
       ],
       "description": "Reference to an image in which something is visible.",
       "label": "Visualized in",
+      "labelPlural": "Visualized in",
       "name": "visualizedIn",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "visualizedIn"
     }
   },
   "required": [

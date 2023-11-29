@@ -10,8 +10,10 @@
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
+      "labelPlural": "Descriptions",
       "multiline": true,
       "name": "description",
+      "namePlural": "descriptions",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/input": {
@@ -26,9 +28,11 @@
       ],
       "description": "Something or someone that is put into or participates in a process or machine.",
       "label": "Input",
+      "labelPlural": "Inputs",
       "minItems": 1,
       "name": "input",
       "nameForReverseLink": null,
+      "namePlural": "inputs",
       "type": "array",
       "uniqueItems": true
     },
@@ -36,8 +40,10 @@
       "_instruction": "Enter a lookup label for this protocol execution that may help you to more easily find it again.",
       "formatting": "text/plain",
       "label": "Lookup label",
+      "labelPlural": "Lookup labels",
       "multiline": false,
       "name": "lookupLabel",
+      "namePlural": "lookupLabels",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/output": {
@@ -52,9 +58,11 @@
       ],
       "description": "Something or someone that comes out of, is delivered or produced by a process or machine.",
       "label": "Output",
+      "labelPlural": "Outputs",
       "minItems": 1,
       "name": "output",
       "nameForReverseLink": null,
+      "namePlural": "outputs",
       "type": "array",
       "uniqueItems": true
     },
@@ -65,9 +73,11 @@
       "_instruction": "Add all important parameters grouped in context-specific sets that were used in this protocol execution.",
       "description": "Manner, position, or direction in which digital or physical properties are set to determine a particular function, characteristics or behavior of something.",
       "label": "Parameter set",
+      "labelPlural": "Parameter sets",
       "minItems": 1,
       "name": "parameterSet",
       "nameForReverseLink": null,
+      "namePlural": "parameterSets",
       "type": "array",
       "uniqueItems": true
     },
@@ -78,8 +88,10 @@
       ],
       "description": "Distinct class of actions or processes that make something ready for use or service.",
       "label": "Preparation type",
+      "labelPlural": "Preparation types",
       "name": "preparationType",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "preparationTypes"
     },
     "https://openminds.ebrains.eu/vocab/protocol": {
       "_instruction": "Add the protocol of this protocol execution.",
@@ -88,8 +100,10 @@
       ],
       "description": "Plan that describes the process of a scientific or medical experiment, treatment, or procedure.",
       "label": "Protocol",
+      "labelPlural": "Protocols",
       "name": "protocol",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "protocols"
     },
     "https://openminds.ebrains.eu/vocab/semanticallyAnchoredTo": {
       "_instruction": "Add all anatomical entities to which the outputs of this protocol execution can be semantically anchored to.",
@@ -98,9 +112,11 @@
       ],
       "description": "Reference to a related anatomical structure without providing a quantitative proof of the claimed relation.",
       "label": "Semantically anchored to",
+      "labelPlural": "Semantically anchored to",
       "minItems": 1,
       "name": "semanticallyAnchoredTo",
       "nameForReverseLink": null,
+      "namePlural": "semanticallyAnchoredTo",
       "type": "array",
       "uniqueItems": true
     },
@@ -122,9 +138,11 @@
       ],
       "description": "Structure or function that was targeted within a study.",
       "label": "Study target",
+      "labelPlural": "Study targets",
       "minItems": 1,
       "name": "studyTarget",
       "nameForReverseLink": null,
+      "namePlural": "studyTargets",
       "type": "array",
       "uniqueItems": true
     }

@@ -13,9 +13,11 @@
       ],
       "description": "Legal person in possession of something.",
       "label": "Holder",
+      "labelPlural": "Holders",
       "minItems": 1,
       "name": "holder",
       "nameForReverseLink": null,
+      "namePlural": "holders",
       "type": "array",
       "uniqueItems": true
     },
@@ -24,8 +26,10 @@
       "description": "Cycle in the Gregorian calendar specified by a number and comprised of 365 or 366 days divided into 12 months beginning with January and ending with December.",
       "formatting": "text/plain",
       "label": "Year",
+      "labelPlural": "Years",
       "multiline": false,
       "name": "year",
+      "namePlural": "years",
       "pattern": "([0-9]{4})",
       "type": "string"
     }

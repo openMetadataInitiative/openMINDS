@@ -12,8 +12,10 @@
       "_instruction": "Add the maximum quantitative value of this range.",
       "description": "Greatest quantity attained or allowed.",
       "label": "Max value",
+      "labelPlural": "Max values",
       "name": "maxValue",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "maxValues"
     },
     "https://openminds.ebrains.eu/vocab/minValue": {
       "_embeddedTypes": [
@@ -22,8 +24,10 @@
       "_instruction": "Add the minimum quantitative value of this range.",
       "description": "Smallest quantity attained or allowed.",
       "label": "Min value",
+      "labelPlural": "Min values",
       "name": "minValue",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "minValues"
     }
   },
   "required": [

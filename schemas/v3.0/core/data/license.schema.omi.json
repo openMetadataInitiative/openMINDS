@@ -10,8 +10,10 @@
       "description": "Whole, non-abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Full name",
+      "labelPlural": "Full names",
       "multiline": false,
       "name": "fullName",
+      "namePlural": "fullNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/legalCode": {
@@ -22,8 +24,10 @@
       "description": "Type of legislation that claims to cover the law system (complete or parts) as it existed at the time the code was enacted.",
       "formatting": "text/plain",
       "label": "Legal code",
+      "labelPlural": "Legal codes",
       "multiline": false,
       "name": "legalCode",
+      "namePlural": "legalCodes",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/shortName": {
@@ -31,8 +35,10 @@
       "description": "Shortened or fully abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Short name",
+      "labelPlural": "Short names",
       "multiline": false,
       "name": "shortName",
+      "namePlural": "shortNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/webpage": {
@@ -46,9 +52,11 @@
         "type": "string"
       },
       "label": "Webpage",
+      "labelPlural": "Webpages",
       "minItems": 1,
       "multiline": false,
       "name": "webpage",
+      "namePlural": "webpages",
       "type": "array",
       "uniqueItems": true
     }

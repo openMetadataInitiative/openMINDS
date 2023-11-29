@@ -20,8 +20,10 @@
         "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
       ],
       "label": "Anatomical location",
+      "labelPlural": "Anatomical locations",
       "name": "anatomicalLocation",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "anatomicalLocations"
     },
     "https://openminds.ebrains.eu/vocab/chlorideReversalPotential": {
       "_embeddedTypes": [
@@ -29,9 +31,11 @@
       ],
       "_instruction": "Enter all chloride reversal potentials for the intracellular solution(s) of the pipette measured during its use.",
       "label": "Chloride reversal potential",
+      "labelPlural": "Chloride reversal potentials",
       "minItems": 1,
       "name": "chlorideReversalPotential",
       "nameForReverseLink": null,
+      "namePlural": "chlorideReversalPotentials",
       "type": "array"
     },
     "https://openminds.ebrains.eu/vocab/compensationCurrent": {
@@ -40,8 +44,10 @@
       ],
       "_instruction": "Enter the compensation current for the series resistance of the pipette measured during its use.",
       "label": "Compensation current",
+      "labelPlural": "Compensation currents",
       "name": "compensationCurrent",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "compensationCurrents"
     },
     "https://openminds.ebrains.eu/vocab/device": {
       "_instruction": "Add the pipette used.",
@@ -50,8 +56,10 @@
       ],
       "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
       "label": "Device",
+      "labelPlural": "Devices",
       "name": "device",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "devices"
     },
     "https://openminds.ebrains.eu/vocab/endMembranePotential": {
       "_embeddedTypes": [
@@ -59,8 +67,10 @@
       ],
       "_instruction": "Enter the membrane potential of e.g., a patched cell at the end of a recording measured during the use of this pipette.",
       "label": "End membrane potential",
+      "labelPlural": "End membrane potentials",
       "name": "endMembranePotential",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "endMembranePotentials"
     },
     "https://openminds.ebrains.eu/vocab/holdingPotential": {
       "_embeddedTypes": [
@@ -68,8 +78,10 @@
       ],
       "_instruction": "Enter the holding membrane potential of e.g., a patched cell measured during the use of this pipette.",
       "label": "Holding potential",
+      "labelPlural": "Holding potentials",
       "name": "holdingPotential",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "holdingPotentials"
     },
     "https://openminds.ebrains.eu/vocab/inputResistance": {
       "_embeddedTypes": [
@@ -77,8 +89,10 @@
       ],
       "_instruction": "Enter the input resistance of e.g., a patched cell measured during the use of this pipette.",
       "label": "Input resistance",
+      "labelPlural": "Input resistances",
       "name": "inputResistance",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "inputResistances"
     },
     "https://openminds.ebrains.eu/vocab/labelingCompound": {
       "_instruction": "Add the used compound for labelling e.g., a patched cell during the use of this pipette. ",
@@ -88,8 +102,10 @@
         "https://openminds.ebrains.eu/controlledTerms/MolecularEntity"
       ],
       "label": "Labeling compound",
+      "labelPlural": "Labeling compounds",
       "name": "labelingCompound",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "labelingCompounds"
     },
     "https://openminds.ebrains.eu/vocab/liquidJunctionPotential": {
       "_embeddedTypes": [
@@ -97,15 +113,19 @@
       ],
       "_instruction": "Enter the liquid junction potential of e.g., a patched cell measured during the use of this pipette.",
       "label": "Liquid junction potential",
+      "labelPlural": "Liquid junction potentials",
       "name": "liquidJunctionPotential",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "liquidJunctionPotentials"
     },
     "https://openminds.ebrains.eu/vocab/lookupLabel": {
       "_instruction": "Enter a lookup label for this device usage that may help you to find this instance more easily.",
       "formatting": "text/plain",
       "label": "Lookup label",
+      "labelPlural": "Lookup labels",
       "multiline": false,
       "name": "lookupLabel",
+      "namePlural": "lookupLabels",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/metadataLocation": {
@@ -115,9 +135,11 @@
         "https://openminds.ebrains.eu/core/FileBundle"
       ],
       "label": "Metadata location",
+      "labelPlural": "Metadata locations",
       "minItems": 1,
       "name": "metadataLocation",
       "nameForReverseLink": null,
+      "namePlural": "metadataLocations",
       "type": "array",
       "uniqueItems": true
     },
@@ -128,8 +150,10 @@
       ],
       "_instruction": "Enter the resistance of the pipette during its use.",
       "label": "Pipette resistance",
+      "labelPlural": "Pipette resistances",
       "name": "pipetteResistance",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "pipetteResistances"
     },
     "https://openminds.ebrains.eu/vocab/pipetteSolution": {
       "_instruction": "Enter the solution with which the pipette was filled during its use.",
@@ -137,8 +161,10 @@
         "https://openminds.ebrains.eu/chemicals/ChemicalMixture"
       ],
       "label": "Pipette solution",
+      "labelPlural": "Pipette solutions",
       "name": "pipetteSolution",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "pipetteSolutions"
     },
     "https://openminds.ebrains.eu/vocab/sealResistance": {
       "_embeddedTypes": [
@@ -146,8 +172,10 @@
       ],
       "_instruction": "Enter the seal resistance of e.g., a patched cell measured during the use of this pipette.",
       "label": "Seal resistance",
+      "labelPlural": "Seal resistances",
       "name": "sealResistance",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "sealResistances"
     },
     "https://openminds.ebrains.eu/vocab/seriesResistance": {
       "_embeddedTypes": [
@@ -155,8 +183,10 @@
       ],
       "_instruction": "Enter the series resistance of the pipette measured during its use.",
       "label": "Series resistance",
+      "labelPlural": "Series resistances",
       "name": "seriesResistance",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "seriesResistances"
     },
     "https://openminds.ebrains.eu/vocab/spatialLocation": {
       "_embeddedTypes": [
@@ -164,8 +194,10 @@
       ],
       "_instruction": "Add the coordinate point that best describes the spatial location of the pipette tip during its use.",
       "label": "Spatial location",
+      "labelPlural": "Spatial locations",
       "name": "spatialLocation",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "spatialLocations"
     },
     "https://openminds.ebrains.eu/vocab/startMembranePotential": {
       "_embeddedTypes": [
@@ -173,8 +205,10 @@
       ],
       "_instruction": "Enter the membrane potential of e.g., a patched cell at the beginning of a recording measured during the use of this pipette.",
       "label": "Start membrane potential",
+      "labelPlural": "Start membrane potentials",
       "name": "startMembranePotential",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "startMembranePotentials"
     },
     "https://openminds.ebrains.eu/vocab/usedSpecimen": {
       "_instruction": "Add the state of the tissue sample or subject that this device was used on.",
@@ -183,8 +217,10 @@
         "https://openminds.ebrains.eu/core/TissueSampleState"
       ],
       "label": "Used specimen",
+      "labelPlural": "Used specimens",
       "name": "usedSpecimen",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "usedSpecimens"
     }
   },
   "required": [

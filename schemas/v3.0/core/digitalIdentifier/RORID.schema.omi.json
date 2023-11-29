@@ -10,8 +10,10 @@
       "description": "Term or code used to identify something or someone.",
       "formatting": "text/plain",
       "label": "Identifier",
+      "labelPlural": "Identifiers",
       "multiline": false,
       "name": "identifier",
+      "namePlural": "identifiers",
       "pattern": "^https://ror.org/0([0-9]|[^ILO]|[a-z]){6}[0-9]{2}$",
       "type": "string"
     }

@@ -9,8 +9,10 @@
       "_instruction": "Enter a lookup label for this property-value list that may help you to find this instance more easily.",
       "formatting": "text/plain",
       "label": "Lookup label",
+      "labelPlural": "Lookup labels",
       "multiline": false,
       "name": "lookupLabel",
+      "namePlural": "lookupLabels",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/propertyValuePair": {
@@ -20,9 +22,11 @@
       ],
       "_instruction": "Enter all numerical and string property-value pairs that belong to this property-value list.",
       "label": "Property value pair",
+      "labelPlural": "Property value pairs",
       "minItems": 1,
       "name": "propertyValuePair",
       "nameForReverseLink": null,
+      "namePlural": "propertyValuePairs",
       "type": "array",
       "uniqueItems": true
     }

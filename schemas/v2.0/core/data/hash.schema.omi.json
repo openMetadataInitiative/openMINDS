@@ -10,8 +10,10 @@
       "description": "Procedure for solving a mathematical problem in a finite number of steps. Can involve repetition of an operation.",
       "formatting": "text/plain",
       "label": "Algorithm",
+      "labelPlural": "Algorithms",
       "multiline": false,
       "name": "algorithm",
+      "namePlural": "algorithms",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/digest": {
@@ -19,8 +21,10 @@
       "description": "Summation or condensation of a body of information.",
       "formatting": "text/plain",
       "label": "Digest",
+      "labelPlural": "Digests",
       "multiline": false,
       "name": "digest",
+      "namePlural": "digests",
       "type": "string"
     }
   },

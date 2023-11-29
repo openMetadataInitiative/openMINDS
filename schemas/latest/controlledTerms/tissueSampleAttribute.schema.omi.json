@@ -12,8 +12,10 @@
       "description": "Short, but precise statement of the meaning of a word, word group, sign or a symbol.",
       "formatting": "text/markdown",
       "label": "Definition",
+      "labelPlural": "Definitions",
       "multiline": true,
       "name": "definition",
+      "namePlural": "definitions",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/description": {
@@ -21,8 +23,10 @@
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
+      "labelPlural": "Descriptions",
       "multiline": true,
       "name": "description",
+      "namePlural": "descriptions",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/interlexIdentifier": {
@@ -33,8 +37,10 @@
       "description": "Persistent identifier for a term registered in the InterLex project.",
       "formatting": "text/plain",
       "label": "Interlex identifier",
+      "labelPlural": "Interlex identifiers",
       "multiline": false,
       "name": "interlexIdentifier",
+      "namePlural": "interlexIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/knowledgeSpaceLink": {
@@ -45,8 +51,10 @@
       "description": "Persistent link to an encyclopedia entry in the Knowledge Space project.",
       "formatting": "text/plain",
       "label": "Knowledge space link",
+      "labelPlural": "Knowledge space links",
       "multiline": false,
       "name": "knowledgeSpaceLink",
+      "namePlural": "knowledgeSpaceLinks",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/name": {
@@ -54,8 +62,10 @@
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/preferredOntologyIdentifier": {
@@ -66,8 +76,10 @@
       "description": "Persistent identifier of a preferred ontological term.",
       "formatting": "text/plain",
       "label": "Preferred ontology identifier",
+      "labelPlural": "Preferred ontology identifiers",
       "multiline": false,
       "name": "preferredOntologyIdentifier",
+      "namePlural": "preferredOntologyIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/synonym": {
@@ -78,9 +90,11 @@
         "type": "string"
       },
       "label": "Synonym",
+      "labelPlural": "Synonyms",
       "minItems": 1,
       "multiline": false,
       "name": "synonym",
+      "namePlural": "synonyms",
       "type": "array",
       "uniqueItems": true
     }

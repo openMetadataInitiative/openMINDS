@@ -15,9 +15,11 @@
       "_instruction": "Add the current and, if necessary, past affiliations of this person",
       "description": "Declaration of a person being closely associated to an organization.",
       "label": "Affiliation",
+      "labelPlural": "Affiliations",
       "minItems": 1,
       "name": "affiliation",
       "nameForReverseLink": null,
+      "namePlural": "affiliations",
       "type": "array",
       "uniqueItems": true
     },
@@ -28,8 +30,10 @@
       ],
       "description": "Any available way used to contact a person or business (e.g., address, phone number, email address, etc.).",
       "label": "Contact information",
+      "labelPlural": "Contact information",
       "name": "contactInformation",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "contactInformation"
     },
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add one or several globally unique and persistent digital identifier for this person.",
@@ -38,9 +42,11 @@
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
       "minItems": 1,
       "name": "digitalIdentifier",
       "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers",
       "type": "array",
       "uniqueItems": true
     },
@@ -49,8 +55,10 @@
       "description": "Name borne in common by members of a family.",
       "formatting": "text/plain",
       "label": "Family name",
+      "labelPlural": "Family names",
       "multiline": false,
       "name": "familyName",
+      "namePlural": "familyNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/givenName": {
@@ -58,8 +66,10 @@
       "description": "Name given to a person, including all potential middle names, but excluding the family name.",
       "formatting": "text/plain",
       "label": "Given name",
+      "labelPlural": "Given names",
       "multiline": false,
       "name": "givenName",
+      "namePlural": "givenNames",
       "type": "string"
     }
   },

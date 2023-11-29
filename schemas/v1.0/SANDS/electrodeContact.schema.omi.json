@@ -11,8 +11,10 @@
       ],
       "description": "Pair or triplet of numbers defining the position in a particular two- or three dimensional plane or space.",
       "label": "Coordinate point",
+      "labelPlural": "Coordinate points",
       "name": "coordinatePoint",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "coordinatePoints"
     },
     "https://openminds.ebrains.eu/vocab/definedIn": {
       "_instruction": "Add one or several files in which the electrode contact is defined in.",
@@ -21,9 +23,11 @@
       ],
       "description": "Reference to a file instance in which something is stored.",
       "label": "Defined in",
+      "labelPlural": "Defined in",
       "minItems": 1,
       "name": "definedIn",
       "nameForReverseLink": null,
+      "namePlural": "definedIn",
       "type": "array",
       "uniqueItems": true
     },
@@ -32,8 +36,10 @@
       "description": "Term or code that identifies someone or something within a particular product.",
       "formatting": "text/plain",
       "label": "Internal identifier",
+      "labelPlural": "Internal identifiers",
       "multiline": false,
       "name": "internalIdentifier",
+      "namePlural": "internalIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/relatedRecording": {
@@ -43,9 +49,11 @@
       ],
       "description": "Reference to the written, stored evidence of something.",
       "label": "Related recording",
+      "labelPlural": "Related recordings",
       "minItems": 1,
       "name": "relatedRecording",
       "nameForReverseLink": null,
+      "namePlural": "relatedRecordings",
       "type": "array",
       "uniqueItems": true
     },
@@ -56,9 +64,11 @@
       ],
       "description": "Reference to the written, stored function used as a physiological stimulus.",
       "label": "Related stimulation",
+      "labelPlural": "Related stimulations",
       "minItems": 1,
       "name": "relatedStimulation",
       "nameForReverseLink": null,
+      "namePlural": "relatedStimulations",
       "type": "array",
       "uniqueItems": true
     },
@@ -69,9 +79,11 @@
       ],
       "description": "Reference to an image in which something is visible.",
       "label": "Visualized in",
+      "labelPlural": "Visualized in",
       "minItems": 1,
       "name": "visualizedIn",
       "nameForReverseLink": null,
+      "namePlural": "visualizedIn",
       "type": "array",
       "uniqueItems": true
     }

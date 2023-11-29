@@ -11,15 +11,19 @@
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
+      "labelPlural": "Is part of",
       "name": "isPartOf",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "isPartOf"
     },
     "https://openminds.ebrains.eu/vocab/issueNumber": {
       "_instruction": "Enter the issue number of this publication issue.",
       "formatting": "text/plain",
       "label": "Issue number",
+      "labelPlural": "Issue numbers",
       "multiline": false,
       "name": "issueNumber",
+      "namePlural": "issueNumbers",
       "type": "string"
     }
   },

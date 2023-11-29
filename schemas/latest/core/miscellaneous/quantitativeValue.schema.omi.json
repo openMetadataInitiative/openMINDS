@@ -12,8 +12,10 @@
       ],
       "description": "Distinct technique used to quantify the uncertainty of a measurement.",
       "label": "Type of uncertainty",
+      "labelPlural": "Types of uncertainty",
       "name": "typeOfUncertainty",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "typesOfUncertainty"
     },
     "https://openminds.ebrains.eu/vocab/uncertainty": {
       "_instruction": "Enter the uncertainty of this quantitative value.",
@@ -22,9 +24,11 @@
         "type": "number"
       },
       "label": "Uncertainty",
+      "labelPlural": "Uncertainties",
       "maxItems": 2,
       "minItems": 2,
       "name": "uncertainty",
+      "namePlural": "uncertainties",
       "type": "array"
     },
     "https://openminds.ebrains.eu/vocab/unit": {
@@ -34,14 +38,18 @@
       ],
       "description": "Determinate quantity adopted as a standard of measurement.",
       "label": "Unit",
+      "labelPlural": "Units",
       "name": "unit",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "units"
     },
     "https://openminds.ebrains.eu/vocab/value": {
       "_instruction": "Enter the value of this quantitative value.",
       "description": "Entry for a property.",
       "label": "Value",
+      "labelPlural": "Values",
       "name": "value",
+      "namePlural": "values",
       "type": "number"
     }
   },

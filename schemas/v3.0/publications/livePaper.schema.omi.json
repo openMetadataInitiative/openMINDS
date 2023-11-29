@@ -16,9 +16,11 @@
       ],
       "description": "Creator of a literary or creative work, as well as a dataset publication.",
       "label": "Author",
+      "labelPlural": "Authors",
       "minItems": 1,
       "name": "author",
       "nameForReverseLink": null,
+      "namePlural": "authors",
       "type": "array",
       "uniqueItems": true
     },
@@ -31,9 +33,11 @@
       ],
       "description": "The 'custodian' is a legal person who is responsible for the content and quality of the data, metadata, and/or code of a research product.",
       "label": "Custodian",
+      "labelPlural": "Custodians",
       "minItems": 1,
       "name": "custodian",
       "nameForReverseLink": null,
+      "namePlural": "custodians",
       "type": "array",
       "uniqueItems": true
     },
@@ -42,8 +46,10 @@
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
+      "labelPlural": "Descriptions",
       "multiline": true,
       "name": "description",
+      "namePlural": "descriptions",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
@@ -53,16 +59,20 @@
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
       "name": "digitalIdentifier",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers"
     },
     "https://openminds.ebrains.eu/vocab/fullName": {
       "_instruction": "Enter a descriptive full name (or title) for this research product. Note that this should be a suitable full name for all attached research product versions.",
       "description": "Whole, non-abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Full name",
+      "labelPlural": "Full names",
       "multiline": false,
       "name": "fullName",
+      "namePlural": "fullNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/hasVersion": {
@@ -72,9 +82,11 @@
       ],
       "description": "Reference to variants of an original.",
       "label": "Has version",
+      "labelPlural": "Has versions",
       "minItems": 1,
       "name": "hasVersion",
       "nameForReverseLink": null,
+      "namePlural": "hasVersions",
       "type": "array",
       "uniqueItems": true
     },
@@ -86,8 +98,10 @@
       "description": "Main website of something or someone.",
       "formatting": "text/plain",
       "label": "Homepage",
+      "labelPlural": "Homepages",
       "multiline": false,
       "name": "homepage",
+      "namePlural": "homepages",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/howToCite": {
@@ -95,8 +109,10 @@
       "description": "Preferred format for citing a particular object or legal person.",
       "formatting": "text/markdown",
       "label": "How to cite",
+      "labelPlural": "How to cite",
       "multiline": true,
       "name": "howToCite",
+      "namePlural": "howToCite",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/shortName": {
@@ -104,8 +120,10 @@
       "description": "Shortened or fully abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Short name",
+      "labelPlural": "Short names",
       "multiline": false,
       "name": "shortName",
+      "namePlural": "shortNames",
       "type": "string"
     }
   },

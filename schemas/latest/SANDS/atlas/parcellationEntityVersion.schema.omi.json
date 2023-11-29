@@ -12,8 +12,10 @@
       "_instruction": "Enter the official abbreviation of this parcellation entity version.",
       "formatting": "text/plain",
       "label": "Abbreviation",
+      "labelPlural": "Abbreviations",
       "multiline": false,
       "name": "abbreviation",
+      "namePlural": "abbreviations",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/additionalRemarks": {
@@ -21,8 +23,10 @@
       "description": "Mention of what deserves additional attention or notice.",
       "formatting": "text/markdown",
       "label": "Additional remarks",
+      "labelPlural": "Additional remarks",
       "multiline": true,
       "name": "additionalRemarks",
+      "namePlural": "additionalRemarks",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/alternateName": {
@@ -32,9 +36,11 @@
         "type": "string"
       },
       "label": "Alternate name",
+      "labelPlural": "Alternate names",
       "minItems": 1,
       "multiline": false,
       "name": "alternateName",
+      "namePlural": "alternateNames",
       "type": "array",
       "uniqueItems": true
     },
@@ -42,8 +48,10 @@
       "_instruction": "Enter the refined or corrected name of this parcellation entity version.",
       "formatting": "text/plain",
       "label": "Corrected name",
+      "labelPlural": "Corrected names",
       "multiline": false,
       "name": "correctedName",
+      "namePlural": "correctedNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/hasAnnotation": {
@@ -52,9 +60,11 @@
       ],
       "_instruction": "Add all atlas annotations which define this parcellation entity version.",
       "label": "Has annotation",
+      "labelPlural": "Has annotations",
       "minItems": 1,
       "name": "hasAnnotation",
       "nameForReverseLink": null,
+      "namePlural": "hasAnnotations",
       "type": "array",
       "uniqueItems": true
     },
@@ -66,9 +76,11 @@
       ],
       "description": "Reference to a parent object or legal person.",
       "label": "Has parent",
+      "labelPlural": "Has parents",
       "minItems": 1,
       "name": "hasParent",
       "nameForReverseLink": null,
+      "namePlural": "hasParents",
       "type": "array",
       "uniqueItems": true
     },
@@ -76,8 +88,10 @@
       "_instruction": "Enter a lookup label for this parcellation entity version that may help you to find this instance more easily.",
       "formatting": "text/plain",
       "label": "Lookup label",
+      "labelPlural": "Lookup labels",
       "multiline": false,
       "name": "lookupLabel",
+      "namePlural": "lookupLabels",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/name": {
@@ -85,8 +99,10 @@
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
@@ -100,9 +116,11 @@
         "type": "string"
       },
       "label": "Ontology identifier",
+      "labelPlural": "Ontology identifiers",
       "minItems": 1,
       "multiline": false,
       "name": "ontologyIdentifier",
+      "namePlural": "ontologyIdentifiers",
       "type": "array",
       "uniqueItems": true
     },
@@ -113,9 +131,11 @@
       ],
       "_instruction": "Add all relations (qualitative or quantitative) of this parcellation entity version to other anatomical entities.",
       "label": "Relation assessment",
+      "labelPlural": "Relation assessments",
       "minItems": 1,
       "name": "relationAssessment",
       "nameForReverseLink": null,
+      "namePlural": "relationAssessments",
       "type": "array",
       "uniqueItems": true
     },
@@ -124,8 +144,10 @@
       "description": "Term or code used to identify the version of something.",
       "formatting": "text/plain",
       "label": "Version identifier",
+      "labelPlural": "Version identifiers",
       "multiline": false,
       "name": "versionIdentifier",
+      "namePlural": "versionIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/versionInnovation": {
@@ -133,8 +155,10 @@
       "description": "Documentation on what changed in comparison to a previously published form of something.",
       "formatting": "text/markdown",
       "label": "Version innovation",
+      "labelPlural": "Version innovations",
       "multiline": true,
       "name": "versionInnovation",
+      "namePlural": "versionInnovations",
       "type": "string"
     }
   },

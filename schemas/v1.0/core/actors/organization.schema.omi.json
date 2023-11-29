@@ -12,9 +12,11 @@
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
       "minItems": 1,
       "name": "digitalIdentifier",
       "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers",
       "type": "array",
       "uniqueItems": true
     },
@@ -23,8 +25,10 @@
       "description": "Whole, non-abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Full name",
+      "labelPlural": "Full names",
       "multiline": false,
       "name": "fullName",
+      "namePlural": "fullNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/hasParent": {
@@ -34,8 +38,10 @@
       ],
       "description": "Reference to a parent object or legal person.",
       "label": "Has parent",
+      "labelPlural": "Has parents",
       "name": "hasParent",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "hasParents"
     },
     "https://openminds.ebrains.eu/vocab/homepage": {
       "_instruction": "Enter a internationalized resource identifier (IRI) to the homepage of this organization.",
@@ -43,8 +49,10 @@
       "format": "iri",
       "formatting": "text/plain",
       "label": "Homepage",
+      "labelPlural": "Homepages",
       "multiline": false,
       "name": "homepage",
+      "namePlural": "homepages",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/shortName": {
@@ -52,8 +60,10 @@
       "description": "Shortened or fully abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Short name",
+      "labelPlural": "Short names",
       "multiline": false,
       "name": "shortName",
+      "namePlural": "shortNames",
       "type": "string"
     }
   },

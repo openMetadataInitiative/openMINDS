@@ -8,8 +8,10 @@
       "_instruction": "Enter the common context for this research product group.",
       "formatting": "text/plain",
       "label": "Context",
+      "labelPlural": "Contexts",
       "multiline": false,
       "name": "context",
+      "namePlural": "contexts",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/hasPart": {
@@ -37,9 +39,11 @@
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
       ],
       "label": "Has part",
+      "labelPlural": "Has parts",
       "minItems": 1,
       "name": "hasPart",
       "nameForReverseLink": null,
+      "namePlural": "hasParts",
       "type": "array",
       "uniqueItems": true
     }

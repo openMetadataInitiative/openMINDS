@@ -9,8 +9,10 @@
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
+      "labelPlural": "Descriptions",
       "multiline": true,
       "name": "description",
+      "namePlural": "descriptions",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/name": {
@@ -18,8 +20,10 @@
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/relevantFor": {
@@ -30,8 +34,10 @@
       ],
       "description": "Reference to what or whom something or someone bears significance.",
       "label": "Relevant for",
+      "labelPlural": "Relevant for",
       "name": "relevantFor",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "relevantFor"
     },
     "https://openminds.ebrains.eu/vocab/unit": {
       "_instruction": "Add the unit of measurement used for the value of this parameter setting.",
@@ -40,14 +46,18 @@
       ],
       "description": "Determinate quantity adopted as a standard of measurement.",
       "label": "Unit",
+      "labelPlural": "Units",
       "name": "unit",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "units"
     },
     "https://openminds.ebrains.eu/vocab/value": {
       "_instruction": "Enter the value of this parameter setting.",
       "description": "Entry for a property.",
       "label": "Value",
+      "labelPlural": "Values",
       "name": "value",
+      "namePlural": "values",
       "type": [
         "number",
         "string"

@@ -9,8 +9,10 @@
       "description": "Mention of what deserves additional attention or notice.",
       "formatting": "text/markdown",
       "label": "Additional remarks",
+      "labelPlural": "Additional remarks",
       "multiline": true,
       "name": "additionalRemarks",
+      "namePlural": "additionalRemarks",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/anchorPoint": {
@@ -19,10 +21,12 @@
       ],
       "_instruction": "Enter the coordinates of the anchor point that a viewer should use. Either state the anchor point of the annotation again or state another coordinate point.",
       "label": "Anchor point",
+      "labelPlural": "Anchor points",
       "maxItems": 3,
       "minItems": 2,
       "name": "anchorPoint",
       "nameForReverseLink": null,
+      "namePlural": "anchorPoints",
       "type": "array"
     },
     "https://openminds.ebrains.eu/vocab/cameraPosition": {
@@ -31,8 +35,10 @@
       ],
       "_instruction": "Enter the camera position that a viewer should use.",
       "label": "Camera position",
+      "labelPlural": "Camera positions",
       "name": "cameraPosition",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "cameraPositions"
     },
     "https://openminds.ebrains.eu/vocab/preferredDisplayColor": {
       "_instruction": "Add the preferred color that a viewer should display.",
@@ -41,8 +47,10 @@
         "https://openminds.ebrains.eu/sands/SingleColor"
       ],
       "label": "Preferred display color",
+      "labelPlural": "Preferred display colors",
       "name": "preferredDisplayColor",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "preferredDisplayColors"
     }
   },
   "required": [

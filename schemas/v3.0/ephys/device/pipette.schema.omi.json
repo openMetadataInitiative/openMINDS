@@ -12,8 +12,10 @@
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
+      "labelPlural": "Descriptions",
       "multiline": true,
       "name": "description",
+      "namePlural": "descriptions",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/deviceType": {
@@ -22,8 +24,10 @@
         "https://openminds.ebrains.eu/controlledTerms/DeviceType"
       ],
       "label": "Device type",
+      "labelPlural": "Device types",
       "name": "deviceType",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "deviceTypes"
     },
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this device.",
@@ -33,8 +37,10 @@
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
       "name": "digitalIdentifier",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers"
     },
     "https://openminds.ebrains.eu/vocab/externalDiameter": {
       "_embeddedTypes": [
@@ -42,8 +48,10 @@
       ],
       "_instruction": "Enter the external diameter of the pipette.",
       "label": "External diameter",
+      "labelPlural": "External diameters",
       "name": "externalDiameter",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "externalDiameters"
     },
     "https://openminds.ebrains.eu/vocab/internalDiameter": {
       "_embeddedTypes": [
@@ -51,24 +59,30 @@
       ],
       "_instruction": "Enter the internal diameter of the pipette.",
       "label": "Internal diameter",
+      "labelPlural": "Internal diameters",
       "name": "internalDiameter",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "internalDiameters"
     },
     "https://openminds.ebrains.eu/vocab/internalIdentifier": {
       "_instruction": "Enter the identifier (or label) of this pipette that is used within the corresponding data files to identify this pipette.",
       "description": "Term or code that identifies someone or something within a particular product.",
       "formatting": "text/plain",
       "label": "Internal identifier",
+      "labelPlural": "Internal identifiers",
       "multiline": false,
       "name": "internalIdentifier",
+      "namePlural": "internalIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/lookupLabel": {
       "_instruction": "Enter a lookup label for this device that may help you to find this instance more easily.",
       "formatting": "text/plain",
       "label": "Lookup label",
+      "labelPlural": "Lookup labels",
       "multiline": false,
       "name": "lookupLabel",
+      "namePlural": "lookupLabels",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/manufacturer": {
@@ -79,9 +93,11 @@
         "https://openminds.ebrains.eu/core/Person"
       ],
       "label": "Manufacturer",
+      "labelPlural": "Manufacturers",
       "minItems": 1,
       "name": "manufacturer",
       "nameForReverseLink": null,
+      "namePlural": "manufacturers",
       "type": "array",
       "uniqueItems": true
     },
@@ -93,16 +109,20 @@
         "https://openminds.ebrains.eu/controlledTerms/MolecularEntity"
       ],
       "label": "Material",
+      "labelPlural": "Materials",
       "name": "material",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "materials"
     },
     "https://openminds.ebrains.eu/vocab/name": {
       "_instruction": "Enter a descriptive name for this device, preferably including the model name as defined by the manufacturer.",
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/owner": {
@@ -113,9 +133,11 @@
         "https://openminds.ebrains.eu/core/Person"
       ],
       "label": "Owner",
+      "labelPlural": "Owners",
       "minItems": 1,
       "name": "owner",
       "nameForReverseLink": null,
+      "namePlural": "owners",
       "type": "array",
       "uniqueItems": true
     },
@@ -123,8 +145,10 @@
       "_instruction": "Enter the serial number of this device.",
       "formatting": "text/plain",
       "label": "Serial number",
+      "labelPlural": "Serial numbers",
       "multiline": false,
       "name": "serialNumber",
+      "namePlural": "serialNumbers",
       "type": "string"
     }
   },

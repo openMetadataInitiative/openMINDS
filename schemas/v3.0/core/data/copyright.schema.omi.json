@@ -14,9 +14,11 @@
       ],
       "description": "Legal person in possession of something.",
       "label": "Holder",
+      "labelPlural": "Holders",
       "minItems": 1,
       "name": "holder",
       "nameForReverseLink": null,
+      "namePlural": "holders",
       "type": "array",
       "uniqueItems": true
     },
@@ -29,9 +31,11 @@
         "type": "string"
       },
       "label": "Year",
+      "labelPlural": "Years",
       "minItems": 1,
       "multiline": false,
       "name": "year",
+      "namePlural": "years",
       "type": "array",
       "uniqueItems": true
     }

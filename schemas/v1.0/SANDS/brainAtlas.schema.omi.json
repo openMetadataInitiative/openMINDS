@@ -10,8 +10,10 @@
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
+      "labelPlural": "Descriptions",
       "multiline": true,
       "name": "description",
+      "namePlural": "descriptions",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/fullName": {
@@ -19,8 +21,10 @@
       "description": "Whole, non-abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Full name",
+      "labelPlural": "Full names",
       "multiline": false,
       "name": "fullName",
+      "namePlural": "fullNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/hasVersion": {
@@ -30,9 +34,11 @@
       ],
       "description": "Reference to variants of an original.",
       "label": "Has version",
+      "labelPlural": "Has versions",
       "minItems": 1,
       "name": "hasVersion",
       "nameForReverseLink": null,
+      "namePlural": "hasVersions",
       "type": "array",
       "uniqueItems": true
     },
@@ -42,8 +48,10 @@
       "format": "iri",
       "formatting": "text/plain",
       "label": "Homepage",
+      "labelPlural": "Homepages",
       "multiline": false,
       "name": "homepage",
+      "namePlural": "homepages",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/shortName": {
@@ -51,8 +59,10 @@
       "description": "Shortened or fully abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Short name",
+      "labelPlural": "Short names",
       "multiline": false,
       "name": "shortName",
+      "namePlural": "shortNames",
       "type": "string"
     }
   },

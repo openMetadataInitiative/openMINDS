@@ -12,9 +12,11 @@
       ],
       "description": "Distinct class of what was given or supplied as a part or share.",
       "label": "Contribution type",
+      "labelPlural": "Contribution types",
       "minItems": 1,
       "name": "contributionType",
       "nameForReverseLink": null,
+      "namePlural": "contributionTypes",
       "type": "array",
       "uniqueItems": true
     },
@@ -26,8 +28,10 @@
       ],
       "description": "Legal person that gave or supplied something as a part or share.",
       "label": "Contributor",
+      "labelPlural": "Contributors",
       "name": "contributor",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "contributors"
     }
   },
   "required": [

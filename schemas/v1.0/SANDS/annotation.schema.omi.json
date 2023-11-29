@@ -11,8 +11,10 @@
       ],
       "description": "Coordinate point from which you get the best view of something.",
       "label": "Best view point",
+      "labelPlural": "Best viewpoints",
       "name": "bestViewPoint",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "bestViewPoints"
     },
     "https://openminds.ebrains.eu/vocab/criteria": {
       "_instruction": "Add the protocol execution defining the criteria that were applied to produce this annotation.",
@@ -21,8 +23,10 @@
       ],
       "description": "Aspects or standards on which a judgement or decision is based.",
       "label": "Criteria",
+      "labelPlural": "Criteria",
       "name": "criteria",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "criteria"
     },
     "https://openminds.ebrains.eu/vocab/criteriaQualityType": {
       "_instruction": "Add the quality type of the stated criteria used to define this annotation.",
@@ -31,8 +35,10 @@
       ],
       "description": "Distinct class that defines how the judgement or decision was made for a particular criteria.",
       "label": "Criteria quality type",
+      "labelPlural": "Criteria quality types",
       "name": "criteriaQualityType",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "criteriaQualityTypes"
     },
     "https://openminds.ebrains.eu/vocab/displayColor": {
       "_instruction": "Enter the preferred display color (RGB) for this annotation.",
@@ -43,9 +49,11 @@
         "type": "integer"
       },
       "label": "Display color",
+      "labelPlural": "Display colors",
       "maxItems": 3,
       "minItems": 3,
       "name": "displayColor",
+      "namePlural": "displayColors",
       "type": "array"
     },
     "https://openminds.ebrains.eu/vocab/inspiredBy": {
@@ -55,9 +63,11 @@
       ],
       "description": "Reference to an inspiring element.",
       "label": "Inspired by",
+      "labelPlural": "Inspired by",
       "minItems": 1,
       "name": "inspiredBy",
       "nameForReverseLink": null,
+      "namePlural": "inspiredBy",
       "type": "array",
       "uniqueItems": true
     },
@@ -66,8 +76,10 @@
       "description": "Term or code that identifies someone or something within a particular product.",
       "formatting": "text/plain",
       "label": "Internal identifier",
+      "labelPlural": "Internal identifiers",
       "multiline": false,
       "name": "internalIdentifier",
+      "namePlural": "internalIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/laterality": {
@@ -77,10 +89,12 @@
       ],
       "description": "Differentiation between a pair of lateral homologous parts of the body.",
       "label": "Laterality",
+      "labelPlural": "Lateralities",
       "maxItems": 2,
       "minItems": 1,
       "name": "laterality",
       "nameForReverseLink": null,
+      "namePlural": "lateralities",
       "type": "array",
       "uniqueItems": true
     },
@@ -91,9 +105,11 @@
       ],
       "description": "Word or expression that has a precise meaning within a science, art, profession, or subject.",
       "label": "Naming term",
+      "labelPlural": "Naming terms",
       "minItems": 1,
       "name": "namingTerm",
       "nameForReverseLink": null,
+      "namePlural": "namingTerms",
       "type": "array",
       "uniqueItems": true
     },
@@ -104,9 +120,11 @@
       ],
       "description": "Reference to a related naming term of an anatomical structure that is defined in a particular brain atlas.",
       "label": "Related atlas term",
+      "labelPlural": "Related atlas terms",
       "minItems": 1,
       "name": "relatedAtlasTerm",
       "nameForReverseLink": null,
+      "namePlural": "relatedAtlasTerms",
       "type": "array",
       "unqiueItems": true
     },
@@ -117,8 +135,10 @@
       ],
       "description": "Reference to an image in which something is visible.",
       "label": "Visualized in",
+      "labelPlural": "Visualized in",
       "name": "visualizedIn",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "visualizedIn"
     }
   },
   "required": [

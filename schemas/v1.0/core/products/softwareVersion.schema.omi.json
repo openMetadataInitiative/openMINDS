@@ -11,8 +11,10 @@
       ],
       "description": "Level to which something is accessible to someone or something.",
       "label": "Accessibility",
+      "labelPlural": "Accessibilities",
       "name": "accessibility",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "accessibilities"
     },
     "https://openminds.ebrains.eu/vocab/applicationCategory": {
       "_instruction": "Add all categories to which this software version belongs.",
@@ -21,9 +23,11 @@
       ],
       "description": "Distinct class that groups software programs which perform a similar task or set of tasks.",
       "label": "Application category",
+      "labelPlural": "Application categories",
       "minItems": 1,
       "name": "applicationCategory",
       "nameForReverseLink": null,
+      "namePlural": "applicationCategories",
       "type": "array",
       "uniqueItems": true
     },
@@ -35,9 +39,11 @@
       ],
       "description": "Creator of a literary or creative work, as well as a dataset publication.",
       "label": "Author",
+      "labelPlural": "Authors",
       "minItems": 1,
       "name": "author",
       "nameForReverseLink": null,
+      "namePlural": "authors",
       "type": "array",
       "uniqueItems": true
     },
@@ -48,8 +54,10 @@
       "_instruction": "Add the copyright information of this research product version.",
       "description": "Exclusive and assignable legal right of an originator to reproduce, publish, sell, or distribute the matter and form of a creative work for a defined time period.",
       "label": "Copyright",
+      "labelPlural": "Copyrights",
       "name": "copyright",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "copyrights"
     },
     "https://openminds.ebrains.eu/vocab/custodian": {
       "_instruction": "Add one or several custodians (person or organization) that are responsible for this research product version.",
@@ -59,9 +67,11 @@
       ],
       "description": "The 'custodian' is a legal person who is responsible for the content and quality of the data, metadata, and/or code of a research product.",
       "label": "Custodian",
+      "labelPlural": "Custodians",
       "minItems": 1,
       "name": "custodian",
       "nameForReverseLink": null,
+      "namePlural": "custodians",
       "type": "array",
       "uniqueItems": true
     },
@@ -70,9 +80,11 @@
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
+      "labelPlural": "Descriptions",
       "maxLength": 2000,
       "multiline": true,
       "name": "description",
+      "namePlural": "descriptions",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/developer": {
@@ -83,9 +95,11 @@
       ],
       "description": "Legal person that creates or improves products or services (e.g., software, applications, etc.).",
       "label": "Developer",
+      "labelPlural": "Developers",
       "minItems": 1,
       "name": "developer",
       "nameForReverseLink": null,
+      "namePlural": "developers",
       "type": "array",
       "uniqueItems": true
     },
@@ -96,9 +110,11 @@
       ],
       "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
       "label": "Device",
+      "labelPlural": "Devices",
       "minItems": 1,
       "name": "device",
       "nameForReverseLink": null,
+      "namePlural": "devices",
       "type": "array",
       "uniqueItems": true
     },
@@ -109,8 +125,10 @@
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
       "name": "digitalIdentifier",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers"
     },
     "https://openminds.ebrains.eu/vocab/fullDocumentation": {
       "_instruction": "Add the globally unique and persistent digital identifier of a full documentation of this research product version.",
@@ -119,16 +137,20 @@
       ],
       "description": "Non-abridged instructions, comments, and information for using a particular product.",
       "label": "Full documentation",
+      "labelPlural": "Full documentations",
       "name": "fullDocumentation",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "fullDocumentations"
     },
     "https://openminds.ebrains.eu/vocab/fullName": {
       "_instruction": "Enter a descriptive full name (title) for this research product version.",
       "description": "Whole, non-abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Full name",
+      "labelPlural": "Full names",
       "multiline": false,
       "name": "fullName",
+      "namePlural": "fullNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/funding": {
@@ -138,9 +160,11 @@
       ],
       "description": "Money provided by a legal person for a particular purpose.",
       "label": "Funding",
+      "labelPlural": "Funding",
       "minItems": 1,
       "name": "funding",
       "nameForReverseLink": null,
+      "namePlural": "funding",
       "type": "array",
       "uniqueItems": true
     },
@@ -150,9 +174,11 @@
         "https://openminds.ebrains.eu/core/SoftwareVersion"
       ],
       "label": "Has alternative version",
+      "labelPlural": "Has alternative versions",
       "minItems": 1,
       "name": "hasAlternativeVersion",
       "nameForReverseLink": null,
+      "namePlural": "hasAlternativeVersions",
       "type": "array",
       "uniqueItems": true
     },
@@ -162,9 +188,11 @@
         "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
       ],
       "label": "Has feature",
+      "labelPlural": "Has features",
       "minItems": 1,
       "name": "hasFeature",
       "nameForReverseLink": null,
+      "namePlural": "hasFeatures",
       "type": "array",
       "uniqueItems": true
     },
@@ -172,8 +200,10 @@
       "_instruction": "Enter all requirements of this software version.",
       "formatting": "text/plain",
       "label": "Has requirement",
+      "labelPlural": "Has requirements",
       "multiline": false,
       "name": "hasRequirement",
+      "namePlural": "hasRequirements",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/hasSupplementVersion": {
@@ -182,9 +212,11 @@
         "https://openminds.ebrains.eu/core/SoftwareVersion"
       ],
       "label": "Has supplement version",
+      "labelPlural": "Has supplement versions",
       "minItems": 1,
       "name": "hasSupplementVersion",
       "nameForReverseLink": null,
+      "namePlural": "hasSupplementVersions",
       "type": "array",
       "uniqueItems": true
     },
@@ -194,8 +226,10 @@
       "format": "iri",
       "formatting": "text/plain",
       "label": "Homepage",
+      "labelPlural": "Homepages",
       "multiline": false,
       "name": "homepage",
+      "namePlural": "homepages",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/inputFormat": {
@@ -205,9 +239,11 @@
       ],
       "description": "Format of data that is put into a process or machine.",
       "label": "Input format",
+      "labelPlural": "Input formats",
       "minItems": 1,
       "name": "inputFormat",
       "nameForReverseLink": null,
+      "namePlural": "inputFormats",
       "type": "array",
       "uniqueItems": true
     },
@@ -218,8 +254,10 @@
       ],
       "description": "Reference to a previous (potentially outdated) particular form of something.",
       "label": "Is new version of",
+      "labelPlural": "Is new version of",
       "name": "isNewVersionOf",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "isNewVersionOf"
     },
     "https://openminds.ebrains.eu/vocab/keyword": {
       "_instruction": "Enter custom keywords to this research product version.",
@@ -229,10 +267,12 @@
         "type": "string"
       },
       "label": "Keyword",
+      "labelPlural": "Keywords",
       "maxItems": 5,
       "minItems": 1,
       "multiline": false,
       "name": "keyword",
+      "namePlural": "keywords",
       "type": "array",
       "uniqueItems": true
     },
@@ -243,9 +283,11 @@
       ],
       "description": "System of communication (words, their pronunciation, and the methods of combining them) used and understood by a particular community.",
       "label": "Language",
+      "labelPlural": "Languages",
       "minItems": 1,
       "name": "language",
       "nameForReverseLink": null,
+      "namePlural": "languages",
       "type": "array",
       "uniqueItems": true
     },
@@ -256,8 +298,10 @@
       ],
       "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
       "label": "License",
+      "labelPlural": "Licenses",
       "name": "license",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "licenses"
     },
     "https://openminds.ebrains.eu/vocab/operatingSystem": {
       "_instruction": "Add all operating systems supported by this software version.",
@@ -266,9 +310,11 @@
       ],
       "description": "Software that controls the operation of a computer and directs the processing of programs.",
       "label": "Operating system",
+      "labelPlural": "Operating systems",
       "minItems": 1,
       "name": "operatingSystem",
       "nameForReverseLink": null,
+      "namePlural": "operatingSystems",
       "type": "array",
       "uniqueItems": true
     },
@@ -279,9 +325,11 @@
       ],
       "description": "Giving or supplying of something (such as money or time) as a part or share other than what is covered elsewhere.",
       "label": "Other contribution",
+      "labelPlural": "Other contributions",
       "minItems": 1,
       "name": "otherContribution",
       "nameForReverseLink": null,
+      "namePlural": "otherContributions",
       "type": "array",
       "uniqueItems": true
     },
@@ -292,9 +340,11 @@
       ],
       "description": "Format of data that comes out of, is delivered or produced by a process or machine.",
       "label": "Output format",
+      "labelPlural": "Output formats",
       "minItems": 1,
       "name": "outputFormat",
       "nameForReverseLink": null,
+      "namePlural": "outputFormats",
       "type": "array",
       "uniqueItems": true
     },
@@ -305,9 +355,11 @@
       ],
       "description": "Distinct set of instructions for computer programs in order to produce various kinds of output.",
       "label": "Programming language",
+      "labelPlural": "Programming languages",
       "minItems": 1,
       "name": "programmingLanguage",
       "nameForReverseLink": null,
+      "namePlural": "programmingLanguages",
       "type": "array",
       "uniqueItems": true
     },
@@ -318,9 +370,11 @@
       ],
       "description": "Reference to something that was made available for the general public to see or buy.",
       "label": "Related publication",
+      "labelPlural": "Related publications",
       "minItems": 1,
       "name": "relatedPublication",
       "nameForReverseLink": null,
+      "namePlural": "relatedPublications",
       "type": "array",
       "uniqueItems": true
     },
@@ -330,8 +384,10 @@
       "format": "date",
       "formatting": "text/plain",
       "label": "Release date",
+      "labelPlural": "Release dates",
       "multiline": false,
       "name": "releaseDate",
+      "namePlural": "releaseDates",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/repository": {
@@ -341,17 +397,21 @@
       ],
       "description": "Place, room, or container where something is deposited or stored.",
       "label": "Repository",
+      "labelPlural": "Repositories",
       "name": "repository",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "repositories"
     },
     "https://openminds.ebrains.eu/vocab/shortName": {
       "_instruction": "Enter a short name (alias) for this research product version (max. 30 characters, no space).",
       "description": "Shortened or fully abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Short name",
+      "labelPlural": "Short names",
       "maxLength": 30,
       "multiline": false,
       "name": "shortName",
+      "namePlural": "shortNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/versionIdentifier": {
@@ -359,8 +419,10 @@
       "description": "Term or code used to identify the version of something.",
       "formatting": "text/plain",
       "label": "Version identifier",
+      "labelPlural": "Version identifiers",
       "multiline": false,
       "name": "versionIdentifier",
+      "namePlural": "versionIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/versionInnovation": {
@@ -368,8 +430,10 @@
       "description": "Documentation on what changed in comparison to a previously published form of something.",
       "formatting": "text/markdown",
       "label": "Version innovation",
+      "labelPlural": "Version innovations",
       "multiline": true,
       "name": "versionInnovation",
+      "namePlural": "versionInnovations",
       "type": "string"
     }
   },

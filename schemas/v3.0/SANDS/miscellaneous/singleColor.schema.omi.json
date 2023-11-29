@@ -12,8 +12,10 @@
       "description": "Entry for a property.",
       "formatting": "text/plain",
       "label": "Value",
+      "labelPlural": "Values",
       "multiline": false,
       "name": "value",
+      "namePlural": "values",
       "pattern": "^#[0-9A-Fa-f]{6}$",
       "type": "string"
     }

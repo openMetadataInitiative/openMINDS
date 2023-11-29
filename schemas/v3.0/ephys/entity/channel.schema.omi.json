@@ -9,8 +9,10 @@
       "description": "Term or code that identifies someone or something within a particular product.",
       "formatting": "text/plain",
       "label": "Internal identifier",
+      "labelPlural": "Internal identifiers",
       "multiline": false,
       "name": "internalIdentifier",
+      "namePlural": "internalIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/unit": {
@@ -20,8 +22,10 @@
       ],
       "description": "Determinate quantity adopted as a standard of measurement.",
       "label": "Unit",
+      "labelPlural": "Units",
       "name": "unit",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "units"
     }
   },
   "required": [

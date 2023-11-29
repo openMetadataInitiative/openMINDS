@@ -10,8 +10,10 @@
       "description": "Mention of what deserves additional attention or notice.",
       "formatting": "text/markdown",
       "label": "Additional remarks",
+      "labelPlural": "Additional remarks",
       "multiline": true,
       "name": "additionalRemarks",
+      "namePlural": "additionalRemarks",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/age": {
@@ -22,8 +24,10 @@
       "_instruction": "Add the age of the specimen (set) in this state.",
       "description": "Time of life or existence at which some particular qualification, capacity or event arises.",
       "label": "Age",
+      "labelPlural": "Ages",
       "name": "age",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "ages"
     },
     "https://openminds.ebrains.eu/vocab/pathology": {
       "_instruction": "Add the pathology of the specimen (set) in this state.",
@@ -33,9 +37,11 @@
       ],
       "description": "Structural and functional deviation from the normal that constitutes a disease or characterizes a particular disease.",
       "label": "Pathology",
+      "labelPlural": "Pathologies",
       "minItems": 1,
       "name": "pathology",
       "nameForReverseLink": null,
+      "namePlural": "pathologies",
       "type": "array",
       "uniqueItems": true
     },
@@ -47,8 +53,10 @@
       "_instruction": "Add the weight of the specimen (set) in this state.",
       "description": "Amount that a thing or being weighs.",
       "label": "Weight",
+      "labelPlural": "Weights",
       "name": "weight",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "weights"
     }
   }
 }

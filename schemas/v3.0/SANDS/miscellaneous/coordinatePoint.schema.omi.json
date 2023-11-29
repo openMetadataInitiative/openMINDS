@@ -13,8 +13,10 @@
       ],
       "description": "Two or three dimensional geometric setting.",
       "label": "Coordinate space",
+      "labelPlural": "Coordinate spaces",
       "name": "coordinateSpace",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "coordinateSpaces"
     },
     "https://openminds.ebrains.eu/vocab/coordinates": {
       "_embeddedTypes": [
@@ -23,10 +25,12 @@
       "_instruction": "Enter the coordinates of this point within the stated coordinate space for two-dimensonal spaces as [x, y] or for three-dimensional space as [x, y, z].",
       "description": "Pair or triplet of numbers defining a location in a given coordinate space.",
       "label": "Coordinates",
+      "labelPlural": "Coordinates",
       "maxItems": 3,
       "minItems": 2,
       "name": "coordinates",
       "nameForReverseLink": null,
+      "namePlural": "coordinates",
       "type": "array"
     }
   },

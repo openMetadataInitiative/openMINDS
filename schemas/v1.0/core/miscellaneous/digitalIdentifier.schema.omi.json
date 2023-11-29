@@ -9,8 +9,10 @@
       "description": "Preferred format for citing a particular object or legal person.",
       "formatting": "text/markdown",
       "label": "How to cite",
+      "labelPlural": "How to cite",
       "multiline": true,
       "name": "howToCite",
+      "namePlural": "howToCite",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/identifier": {
@@ -18,8 +20,10 @@
       "description": "Term or code used to identify something or someone.",
       "formatting": "text/plain",
       "label": "Identifier",
+      "labelPlural": "Identifiers",
       "multiline": false,
       "name": "identifier",
+      "namePlural": "identifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/identifierSchema": {
@@ -29,8 +33,10 @@
       ],
       "description": "Standard for creating a particular identifier for something or someone.",
       "label": "Identifier schema",
+      "labelPlural": "Identifier schemas",
       "name": "identifierSchema",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "identifierSchemas"
     }
   },
   "required": [

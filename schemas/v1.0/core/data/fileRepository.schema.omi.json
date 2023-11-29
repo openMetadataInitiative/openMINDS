@@ -11,8 +11,10 @@
       "format": "iri",
       "formatting": "text/plain",
       "label": "Iri",
+      "labelPlural": "IRIs",
       "multiline": false,
       "name": "IRI",
+      "namePlural": "IRIs",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/format": {
@@ -22,8 +24,10 @@
       ],
       "description": "Method of digitally organizing and structuring data or information.",
       "label": "Format",
+      "labelPlural": "Formats",
       "name": "format",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "formats"
     },
     "https://openminds.ebrains.eu/vocab/hash": {
       "_instruction": "Add the hash that was generated for this file repository.",
@@ -32,8 +36,10 @@
       ],
       "description": "Term used for the process of converting any data into a single value. Often also directly refers to the resulting single value.",
       "label": "Hash",
+      "labelPlural": "Hashes",
       "name": "hash",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "hashes"
     },
     "https://openminds.ebrains.eu/vocab/hostedBy": {
       "_instruction": "Add the host of this file repository.",
@@ -42,16 +48,20 @@
       ],
       "description": "Reference to an organization that provides facilities and services for something.",
       "label": "Hosted by",
+      "labelPlural": "Hosted by",
       "name": "hostedBy",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "hostedBy"
     },
     "https://openminds.ebrains.eu/vocab/name": {
       "_instruction": "Enter the name of this file repository.",
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/storageSize": {
@@ -61,8 +71,10 @@
       "_instruction": "Enter the storage size this file repository allocates.",
       "description": "Quantitative value defining how much disk space is used by an object on a computer system.",
       "label": "Storage size",
+      "labelPlural": "Storage sizes",
       "name": "storageSize",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "storageSizes"
     }
   },
   "required": [

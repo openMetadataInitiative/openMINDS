@@ -12,24 +12,30 @@
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
       "name": "digitalIdentifier",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers"
     },
     "https://openminds.ebrains.eu/vocab/identifier": {
       "_instruction": "Enter the identifier for this product, excluding its RRID (e.g., a catalog number).",
       "description": "Term or code used to identify something or someone.",
       "formatting": "text/plain",
       "label": "Identifier",
+      "labelPlural": "Identifiers",
       "multiline": false,
       "name": "identifier",
+      "namePlural": "identifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/productName": {
       "_instruction": "Enter the name of this product as stated by the 'provider'.",
       "formatting": "text/plain",
       "label": "Product name",
+      "labelPlural": "Product names",
       "multiline": false,
       "name": "productName",
+      "namePlural": "productNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/provider": {
@@ -40,8 +46,10 @@
         "https://openminds.ebrains.eu/core/Person"
       ],
       "label": "Provider",
+      "labelPlural": "Providers",
       "name": "provider",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "providers"
     },
     "https://openminds.ebrains.eu/vocab/purity": {
       "_embeddedTypes": [
@@ -50,8 +58,10 @@
       ],
       "_instruction": "Enter the purity of the product as stated by the 'provider'.",
       "label": "Purity",
+      "labelPlural": "Purities",
       "name": "purity",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "purities"
     }
   },
   "required": [

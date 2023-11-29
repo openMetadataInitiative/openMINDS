@@ -11,9 +11,11 @@
       ],
       "description": "Reference to a file instance in which something is stored.",
       "label": "Defined in",
+      "labelPlural": "Defined in",
       "minItems": 1,
       "name": "definedIn",
       "nameForReverseLink": null,
+      "namePlural": "definedIn",
       "type": "array",
       "uniqueItems": true
     },
@@ -22,8 +24,10 @@
       "description": "Whole, non-abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Full name",
+      "labelPlural": "Full names",
       "multiline": false,
       "name": "fullName",
+      "namePlural": "fullNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/isAlternativeVersionOf": {
@@ -33,9 +37,11 @@
       ],
       "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
       "label": "Is alternative version of",
+      "labelPlural": "Is alternative version of",
       "minItems": 1,
       "name": "isAlternativeVersionOf",
       "nameForReverseLink": null,
+      "namePlural": "isAlternativeVersionOf",
       "type": "array",
       "uniqueItems": true
     },
@@ -46,8 +52,10 @@
       ],
       "description": "Reference to a previous (potentially outdated) particular form of something.",
       "label": "Is new version of",
+      "labelPlural": "Is new version of",
       "name": "isNewVersionOf",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "isNewVersionOf"
     },
     "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
       "_formats": [
@@ -57,8 +65,10 @@
       "description": "Term or code used to identify something or someone registered within a particular ontology.",
       "formatting": "text/plain",
       "label": "Ontology identifier",
+      "labelPlural": "Ontology identifiers",
       "multiline": false,
       "name": "ontologyIdentifier",
+      "namePlural": "ontologyIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/shortName": {
@@ -66,8 +76,10 @@
       "description": "Shortened or fully abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Short name",
+      "labelPlural": "Short names",
       "multiline": false,
       "name": "shortName",
+      "namePlural": "shortNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/versionIdentifier": {
@@ -75,8 +87,10 @@
       "description": "Term or code used to identify the version of something.",
       "formatting": "text/plain",
       "label": "Version identifier",
+      "labelPlural": "Version identifiers",
       "multiline": false,
       "name": "versionIdentifier",
+      "namePlural": "versionIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/versionInnovation": {
@@ -84,8 +98,10 @@
       "description": "Documentation on what changed in comparison to a previously published form of something.",
       "formatting": "text/markdown",
       "label": "Version innovation",
+      "labelPlural": "Version innovations",
       "multiline": true,
       "name": "versionInnovation",
+      "namePlural": "versionInnovations",
       "type": "string"
     }
   },

@@ -10,8 +10,10 @@
         "https://openminds.ebrains.eu/chemicals/ChemicalMixture"
       ],
       "label": "Culture medium",
+      "labelPlural": "Culture media",
       "name": "cultureMedium",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "cultureMedia"
     },
     "https://openminds.ebrains.eu/vocab/cultureType": {
       "_instruction": "Add the cell culture type of the resulting tissue cell culture.",
@@ -19,8 +21,10 @@
         "https://openminds.ebrains.eu/controlledTerms/CellCultureType"
       ],
       "label": "Culture type",
+      "labelPlural": "Culture types",
       "name": "cultureType",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "cultureTypes"
     },
     "https://openminds.ebrains.eu/vocab/input": {
       "_instruction": "Add the state of the specimen before it was prepared as culture in this activity.",
@@ -32,8 +36,10 @@
       ],
       "description": "Something or someone that is put into or participates in a process or machine.",
       "label": "Input",
+      "labelPlural": "Inputs",
       "name": "input",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "inputs"
     },
     "https://openminds.ebrains.eu/vocab/output": {
       "_instruction": "Add the state of the prepared tissue sample culture that resulted from this activity.",
@@ -42,8 +48,10 @@
       ],
       "description": "Something or someone that comes out of, is delivered or produced by a process or machine.",
       "label": "Output",
+      "labelPlural": "Outputs",
       "name": "output",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "outputs"
     }
   },
   "required": [

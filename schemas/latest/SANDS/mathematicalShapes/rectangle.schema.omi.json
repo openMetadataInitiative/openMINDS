@@ -13,8 +13,10 @@
       ],
       "_instruction": "Enter the length of this rectangle.",
       "label": "Length",
+      "labelPlural": "Lengths",
       "name": "length",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "lengths"
     },
     "https://openminds.ebrains.eu/vocab/width": {
       "_embeddedTypes": [
@@ -22,8 +24,10 @@
       ],
       "_instruction": "Enter the width of this rectangle.",
       "label": "Width",
+      "labelPlural": "Widths",
       "name": "width",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "widths"
     }
   },
   "required": [

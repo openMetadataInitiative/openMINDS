@@ -10,8 +10,10 @@
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/value": {
@@ -22,9 +24,11 @@
       "_instruction": "Enter all quantitative values that are described by this numerical property.",
       "description": "Entry for a property.",
       "label": "Value",
+      "labelPlural": "Values",
       "minItems": 1,
       "name": "value",
       "nameForReverseLink": null,
+      "namePlural": "values",
       "type": "array"
     }
   },

@@ -10,8 +10,10 @@
       "description": "Term or code used to identify something or someone.",
       "formatting": "text/plain",
       "label": "Identifier",
+      "labelPlural": "Identifiers",
       "multiline": false,
       "name": "identifier",
+      "namePlural": "identifiers",
       "pattern": "^https://grid.ac/institutes/grid.[0-9]{1,}.([a-f0-9]{1,2})$",
       "type": "string"
     }

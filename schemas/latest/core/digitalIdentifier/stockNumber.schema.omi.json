@@ -9,8 +9,10 @@
       "description": "Term or code used to identify something or someone.",
       "formatting": "text/plain",
       "label": "Identifier",
+      "labelPlural": "Identifiers",
       "multiline": false,
       "name": "identifier",
+      "namePlural": "identifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/vendor": {
@@ -19,8 +21,10 @@
         "https://openminds.ebrains.eu/core/Organization"
       ],
       "label": "Vendor",
+      "labelPlural": "Vendors",
       "name": "vendor",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "vendors"
     }
   },
   "required": [

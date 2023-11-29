@@ -13,8 +13,10 @@
       ],
       "_instruction": "Enter the length of the semi-minor axis of this ellipse.",
       "label": "Semi major axis",
+      "labelPlural": "Semi major axes",
       "name": "semiMajorAxis",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "semiMajorAxes"
     },
     "https://openminds.ebrains.eu/vocab/semiMinorAxis": {
       "_embeddedTypes": [
@@ -22,8 +24,10 @@
       ],
       "_instruction": "Enter the length of the semi-major axis of this ellipse.",
       "label": "Semi minor axis",
+      "labelPlural": "Semi minor axes",
       "name": "semiMinorAxis",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "semiMinorAxes"
     }
   },
   "required": [

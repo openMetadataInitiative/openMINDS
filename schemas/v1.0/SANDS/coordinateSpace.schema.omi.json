@@ -11,8 +11,10 @@
       ],
       "description": "Relation between reference planes used in anatomy and mathematics.",
       "label": "Anatomical axes orientation",
+      "labelPlural": "Anatomical axes orientations",
       "name": "anatomicalAxesOrientation",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "anatomicalAxesOrientations"
     },
     "https://openminds.ebrains.eu/vocab/axesOrigin": {
       "_instruction": "Enter the origin of the coordinate system (central point where axes intersect; 2D: [x, y] or 3D:[x, y, z]).",
@@ -21,10 +23,12 @@
       ],
       "description": "Special point in a coordinate system used as a fixed point of reference for the geometry of the surrounding space.",
       "label": "Axes origin",
+      "labelPlural": "Axes origins",
       "maxItems": 3,
       "minItems": 2,
       "name": "axesOrigin",
       "nameForReverseLink": null,
+      "namePlural": "axesOrigins",
       "type": "array",
       "uniqueItems": true
     },
@@ -35,9 +39,11 @@
       ],
       "description": "Two or three dimensional image that particluarly represents a specific coordinate space.",
       "label": "Default image",
+      "labelPlural": "Default images",
       "minItems": 1,
       "name": "defaultImage",
       "nameForReverseLink": null,
+      "namePlural": "defaultImages",
       "type": "array",
       "uniqueItems": true
     },
@@ -48,16 +54,20 @@
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
       "name": "digitalIdentifier",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers"
     },
     "https://openminds.ebrains.eu/vocab/fullName": {
       "_instruction": "Enter a descriptive full name for this coordinate space.",
       "description": "Whole, non-abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Full name",
+      "labelPlural": "Full names",
       "multiline": false,
       "name": "fullName",
+      "namePlural": "fullNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/homepage": {
@@ -66,8 +76,10 @@
       "format": "iri",
       "formatting": "text/plain",
       "label": "Homepage",
+      "labelPlural": "Homepages",
       "multiline": false,
       "name": "homepage",
+      "namePlural": "homepages",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/nativeUnit": {
@@ -77,8 +89,10 @@
       ],
       "description": "Determinate quantity used in the original measurement.",
       "label": "Native unit",
+      "labelPlural": "Native units",
       "name": "nativeUnit",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "nativeUnits"
     },
     "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
       "_instruction": "Enter the identifier (IRI) of the related ontological term matching this coordinate space.",
@@ -86,8 +100,10 @@
       "format": "iri",
       "formatting": "text/plain",
       "label": "Ontology identifier",
+      "labelPlural": "Ontology identifiers",
       "multiline": false,
       "name": "ontologyIdentifier",
+      "namePlural": "ontologyIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/releaseDate": {
@@ -96,8 +112,10 @@
       "format": "date",
       "formatting": "text/plain",
       "label": "Release date",
+      "labelPlural": "Release dates",
       "multiline": false,
       "name": "releaseDate",
+      "namePlural": "releaseDates",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/shortName": {
@@ -105,8 +123,10 @@
       "description": "Shortened or fully abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Short name",
+      "labelPlural": "Short names",
       "multiline": false,
       "name": "shortName",
+      "namePlural": "shortNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/versionIdentifier": {
@@ -114,8 +134,10 @@
       "description": "Term or code used to identify the version of something.",
       "formatting": "text/plain",
       "label": "Version identifier",
+      "labelPlural": "Version identifiers",
       "multiline": false,
       "name": "versionIdentifier",
+      "namePlural": "versionIdentifiers",
       "type": "string"
     }
   },

@@ -11,8 +11,10 @@
       ],
       "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
       "label": "Device",
+      "labelPlural": "Devices",
       "name": "device",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "devices"
     },
     "https://openminds.ebrains.eu/vocab/input": {
       "_instruction": "Add the state of the specimen that was sliced during this activity.",
@@ -23,8 +25,10 @@
       ],
       "description": "Something or someone that is put into or participates in a process or machine.",
       "label": "Input",
+      "labelPlural": "Inputs",
       "name": "input",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "inputs"
     },
     "https://openminds.ebrains.eu/vocab/output": {
       "_instruction": "Add the state of the tissue sample slice or collection of slices that resulted from this activity.",
@@ -34,9 +38,11 @@
       ],
       "description": "Something or someone that comes out of, is delivered or produced by a process or machine.",
       "label": "Output",
+      "labelPlural": "Outputs",
       "minItems": 1,
       "name": "output",
       "nameForReverseLink": null,
+      "namePlural": "outputs",
       "type": "array",
       "uniqueItems": true
     },
@@ -47,8 +53,10 @@
       ],
       "_instruction": "Enter the temperature at which the tissue sample was sliced during the activity.",
       "label": "Temperature",
+      "labelPlural": "Temperatures",
       "name": "temperature",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "temperatures"
     },
     "https://openminds.ebrains.eu/vocab/tissueBathSolution": {
       "_instruction": "Add the chemical mixture used as bath solution during this activity.",
@@ -56,8 +64,10 @@
         "https://openminds.ebrains.eu/chemicals/ChemicalMixture"
       ],
       "label": "Tissue bath solution",
+      "labelPlural": "Tissue bath solutions",
       "name": "tissueBathSolution",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "tissueBathSolutions"
     }
   },
   "required": [

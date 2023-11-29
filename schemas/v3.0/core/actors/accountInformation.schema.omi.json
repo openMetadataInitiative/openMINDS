@@ -11,15 +11,19 @@
         "https://openminds.ebrains.eu/core/WebService"
       ],
       "label": "Service",
+      "labelPlural": "Services",
       "name": "service",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "services"
     },
     "https://openminds.ebrains.eu/vocab/userName": {
       "_instruction": "Enter the user name for this account.",
       "formatting": "text/plain",
       "label": "User name",
+      "labelPlural": "User names",
       "multiline": false,
       "name": "userName",
+      "namePlural": "userNames",
       "type": "string"
     }
   },

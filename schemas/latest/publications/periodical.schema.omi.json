@@ -8,8 +8,10 @@
       "_instruction": "Enter the official (or most commonly used) abbreviation of the periodical (e.g., J. Physiol).",
       "formatting": "text/plain",
       "label": "Abbreviation",
+      "labelPlural": "Abbreviations",
       "multiline": false,
       "name": "abbreviation",
+      "namePlural": "abbreviations",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
@@ -19,16 +21,20 @@
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
       "name": "digitalIdentifier",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers"
     },
     "https://openminds.ebrains.eu/vocab/name": {
       "_instruction": "Enter the name (or title) of this periodical (e.g., Journal of Physiology).",
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     }
   },

@@ -12,8 +12,10 @@
       "_instruction": "Enter a short content description for this file bundle.",
       "formatting": "text/plain",
       "label": "Content description",
+      "labelPlural": "Content descriptions",
       "multiline": true,
       "name": "contentDescription",
+      "namePlural": "contentDescriptions",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/format": {
@@ -23,8 +25,10 @@
       ],
       "description": "Method of digitally organizing and structuring data or information.",
       "label": "Format",
+      "labelPlural": "Formats",
       "name": "format",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "formats"
     },
     "https://openminds.ebrains.eu/vocab/groupedBy": {
       "_instruction": "Add all entities that defined which files were grouped into this file bundle. Note that the schema types of the instances stated here, need to match the ones stated under 'groupingType'.",
@@ -79,9 +83,11 @@
       ],
       "description": "Reference to the aspect used to group something.",
       "label": "Grouped by",
+      "labelPlural": "Grouped by",
       "minItems": 1,
       "name": "groupedBy",
       "nameForReverseLink": null,
+      "namePlural": "groupedBy",
       "type": "array",
       "uniqueItems": true
     },
@@ -91,9 +97,11 @@
         "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
       ],
       "label": "Grouping type",
+      "labelPlural": "Grouping types",
       "minItems": 1,
       "name": "groupingType",
       "nameForReverseLink": null,
+      "namePlural": "groupingTypes",
       "type": "array",
       "uniqueItems": true
     },
@@ -104,8 +112,10 @@
       "_instruction": "Add the hash that was generated for this file bundle.",
       "description": "Term used for the process of converting any data into a single value. Often also directly refers to the resulting single value.",
       "label": "Hash",
+      "labelPlural": "Hashes",
       "name": "hash",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "hashes"
     },
     "https://openminds.ebrains.eu/vocab/isPartOf": {
       "_instruction": "Add the file bundle or file repository this file bundle is part of.",
@@ -115,16 +125,20 @@
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
+      "labelPlural": "Is part of",
       "name": "isPartOf",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "isPartOf"
     },
     "https://openminds.ebrains.eu/vocab/name": {
       "_instruction": "Enter the name of this file bundle.",
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/storageSize": {
@@ -134,8 +148,10 @@
       "_instruction": "Enter the storage size of this file bundle.",
       "description": "Quantitative value defining how much disk space is used by an object on a computer system.",
       "label": "Storage size",
+      "labelPlural": "Storage sizes",
       "name": "storageSize",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "storageSizes"
     }
   },
   "required": [

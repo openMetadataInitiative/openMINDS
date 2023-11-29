@@ -11,9 +11,11 @@
       ],
       "description": "Elements in a semiconductor device that emits or collects electrons or holes or controls their movements.",
       "label": "Electrodes",
+      "labelPlural": "Electrodes",
       "minItems": 2,
       "name": "electrodes",
       "nameForReverseLink": null,
+      "namePlural": "electrodes",
       "type": "array",
       "uniqueItems": true
     },
@@ -22,16 +24,20 @@
       "description": "Term or code that identifies someone or something within a particular product.",
       "formatting": "text/plain",
       "label": "Internal identifier",
+      "labelPlural": "Internal identifiers",
       "multiline": false,
       "name": "internalIdentifier",
+      "namePlural": "internalIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/lookupLabel": {
       "_instruction": "Enter a lookup label for this electrode array that may help you to more easily find it again.",
       "formatting": "text/plain",
       "label": "Lookup label",
+      "labelPlural": "Lookup labels",
       "multiline": false,
       "name": "lookupLabel",
+      "namePlural": "lookupLabels",
       "type": "string"
     }
   },

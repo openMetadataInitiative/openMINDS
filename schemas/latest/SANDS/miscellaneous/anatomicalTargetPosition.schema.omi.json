@@ -9,8 +9,10 @@
       "description": "Mention of what deserves additional attention or notice.",
       "formatting": "text/markdown",
       "label": "Additional remarks",
+      "labelPlural": "Additional remarks",
       "multiline": true,
       "name": "additionalRemarks",
+      "namePlural": "additionalRemarks",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/anatomicalTarget": {
@@ -26,9 +28,11 @@
         "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
       ],
       "label": "Anatomical target",
+      "labelPlural": "Anatomical targets",
       "minItems": 1,
       "name": "anatomicalTarget",
       "nameForReverseLink": null,
+      "namePlural": "anatomicalTargets",
       "type": "array",
       "uniqueItems": true
     },
@@ -38,9 +42,11 @@
       ],
       "_instruction": "Add all coordinate points that describe the spatial location of the anatomical target structure(s).",
       "label": "Spatial location",
+      "labelPlural": "Spatial locations",
       "minItems": 1,
       "name": "spatialLocation",
       "nameForReverseLink": null,
+      "namePlural": "spatialLocations",
       "type": "array",
       "uniqueItems": true
     },
@@ -50,8 +56,10 @@
         "https://openminds.ebrains.eu/controlledTerms/AnatomicalIdentificationType"
       ],
       "label": "Target identification type",
+      "labelPlural": "Target identification types",
       "name": "targetIdentificationType",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "targetIdentificationTypes"
     }
   },
   "required": [

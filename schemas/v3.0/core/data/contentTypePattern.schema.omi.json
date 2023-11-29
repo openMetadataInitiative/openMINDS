@@ -10,15 +10,19 @@
         "https://openminds.ebrains.eu/core/ContentType"
       ],
       "label": "Content type",
+      "labelPlural": "Content types",
       "name": "contentType",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "contentTypes"
     },
     "https://openminds.ebrains.eu/vocab/lookupLabel": {
       "_instruction": "Enter a lookup label for this content type pattern that may help you to find this instance more easily.",
       "formatting": "text/plain",
       "label": "Lookup label",
+      "labelPlural": "Lookup labels",
       "multiline": false,
       "name": "lookupLabel",
+      "namePlural": "lookupLabels",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/regex": {
@@ -28,8 +32,10 @@
       "_instruction": "Enter the regular expression for common elements within the file names (including their file path and/or extension) of the files formatted using the stated 'contentType'.",
       "formatting": "text/plain",
       "label": "Regex",
+      "labelPlural": "Regexes",
       "multiline": false,
       "name": "regex",
+      "namePlural": "regexes",
       "type": "string"
     }
   },

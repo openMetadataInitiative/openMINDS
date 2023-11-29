@@ -9,8 +9,10 @@
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
+      "labelPlural": "Descriptions",
       "multiline": true,
       "name": "description",
+      "namePlural": "descriptions",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/isPartOf": {
@@ -20,22 +22,28 @@
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
+      "labelPlural": "Is part of",
       "name": "isPartOf",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "isPartOf"
     },
     "https://openminds.ebrains.eu/vocab/name": {
       "_instruction": "Enter the name (or title) of this live paper section.",
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/order": {
       "_instruction": "Enter an integer that is used to sort this live paper section in ascending order with other live paper sections of the overarching live paper version.",
       "label": "Order",
+      "labelPlural": "Orders",
       "name": "order",
+      "namePlural": "orders",
       "type": "integer"
     },
     "https://openminds.ebrains.eu/vocab/type": {
@@ -43,8 +51,10 @@
       "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
       "formatting": "text/plain",
       "label": "Type",
+      "labelPlural": "Types",
       "multiline": false,
       "name": "type",
+      "namePlural": "types",
       "type": "string"
     }
   },

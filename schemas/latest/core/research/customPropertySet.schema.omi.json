@@ -9,8 +9,10 @@
       "_instruction": "Enter the common context for this custom property set.",
       "formatting": "text/plain",
       "label": "Context",
+      "labelPlural": "Contexts",
       "multiline": false,
       "name": "context",
+      "namePlural": "contexts",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/dataLocation": {
@@ -21,8 +23,10 @@
         "https://openminds.ebrains.eu/core/PropertyValueList"
       ],
       "label": "Data location",
+      "labelPlural": "Data locations",
       "name": "dataLocation",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "dataLocations"
     },
     "https://openminds.ebrains.eu/vocab/relevantFor": {
       "_instruction": "Add the technique for which this custom property set is relevant.",
@@ -34,8 +38,10 @@
       ],
       "description": "Reference to what or whom something or someone bears significance.",
       "label": "Relevant for",
+      "labelPlural": "Relevant for",
       "name": "relevantFor",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "relevantFor"
     }
   },
   "required": [

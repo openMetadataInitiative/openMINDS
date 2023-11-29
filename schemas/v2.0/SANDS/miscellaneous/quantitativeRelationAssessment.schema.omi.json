@@ -11,8 +11,10 @@
       ],
       "description": "Aspects or standards on which a judgement or decision is based.",
       "label": "Criteria",
+      "labelPlural": "Criteria",
       "name": "criteria",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "criteria"
     },
     "https://openminds.ebrains.eu/vocab/inRelationTo": {
       "_instruction": "Add the anatomical entity to which the relation is described.",
@@ -21,8 +23,10 @@
       ],
       "description": "Reference to a related element.",
       "label": "In relation to",
+      "labelPlural": "In relation to",
       "name": "inRelationTo",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "inRelationTo"
     },
     "https://openminds.ebrains.eu/vocab/quantitativeOverlap": {
       "_embeddedTypes": [
@@ -32,8 +36,10 @@
       "_instruction": "Add the quantitative overlap between the two anatomical entities preferably expressed in percentage.",
       "description": "Numerical characterization of how much two things occupy the same space.",
       "label": "Quantitative overlap",
+      "labelPlural": "Quantitative overlaps",
       "name": "quantitativeOverlap",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "quantitativeOverlaps"
     }
   },
   "required": [

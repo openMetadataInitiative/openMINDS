@@ -12,8 +12,10 @@
         "https://openminds.ebrains.eu/core/File"
       ],
       "label": "Configuration",
+      "labelPlural": "Configurations",
       "name": "configuration",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "configurations"
     },
     "https://openminds.ebrains.eu/vocab/recipe": {
       "_instruction": "Add the workflow recipe version used for this workflow execution.",
@@ -21,8 +23,10 @@
         "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion"
       ],
       "label": "Recipe",
+      "labelPlural": "Recipes",
       "name": "recipe",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "recipes"
     },
     "https://openminds.ebrains.eu/vocab/stage": {
       "_instruction": "Add all stages that were performed in this workflow execution.",
@@ -36,9 +40,11 @@
         "https://openminds.ebrains.eu/computation/Visualization"
       ],
       "label": "Stage",
+      "labelPlural": "Stages",
       "minItems": 1,
       "name": "stage",
       "nameForReverseLink": null,
+      "namePlural": "stages",
       "type": "array",
       "uniqueItems": true
     },
@@ -49,8 +55,10 @@
         "https://openminds.ebrains.eu/core/Person"
       ],
       "label": "Started by",
+      "labelPlural": "Started by",
       "name": "startedBy",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "startedBy"
     }
   },
   "required": [

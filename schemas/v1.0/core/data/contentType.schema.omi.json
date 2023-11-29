@@ -12,9 +12,11 @@
         "type": "string"
       },
       "label": "Associated file extension",
+      "labelPlural": "Associated file extensions",
       "minItems": 1,
       "multiline": false,
       "name": "associatedFileExtension",
+      "namePlural": "associatedFileExtensions",
       "type": "array",
       "uniqueItems": true
     },
@@ -22,8 +24,10 @@
       "_instruction": "Enter the category to which this content type belongs to.",
       "formatting": "text/plain",
       "label": "Category",
+      "labelPlural": "Categories",
       "multiline": false,
       "name": "category",
+      "namePlural": "categories",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/name": {
@@ -31,8 +35,10 @@
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/relatedMediaType": {
@@ -41,8 +47,10 @@
       "format": "iri",
       "formatting": "text/plain",
       "label": "Related media type",
+      "labelPlural": "Related media types",
       "multiline": false,
       "name": "relatedMediaType",
+      "namePlural": "relatedMediaTypes",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/synonym": {
@@ -53,9 +61,11 @@
         "type": "string"
       },
       "label": "Synonym",
+      "labelPlural": "Synonyms",
       "minItems": 1,
       "multiline": false,
       "name": "synonym",
+      "namePlural": "synonyms",
       "type": "array",
       "uniqueItems": true
     }

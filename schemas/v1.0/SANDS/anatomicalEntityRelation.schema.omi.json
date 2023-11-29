@@ -11,8 +11,10 @@
       ],
       "description": "Aspects or standards on which a judgement or decision is based.",
       "label": "Criteria",
+      "labelPlural": "Criteria",
       "name": "criteria",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "criteria"
     },
     "https://openminds.ebrains.eu/vocab/criteriaQualityType": {
       "_instruction": "Add the quality type of the stated criteria used to determine this relation.",
@@ -21,8 +23,10 @@
       ],
       "description": "Distinct class that defines how the judgement or decision was made for a particular criteria.",
       "label": "Criteria quality type",
+      "labelPlural": "Criteria quality types",
       "name": "criteriaQualityType",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "criteriaQualityTypes"
     },
     "https://openminds.ebrains.eu/vocab/inRelationTo": {
       "_instruction": "Add the anatomical entity to which the relation is described.",
@@ -31,8 +35,10 @@
       ],
       "description": "Reference to a related element.",
       "label": "In relation to",
+      "labelPlural": "In relation to",
       "name": "inRelationTo",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "inRelationTo"
     },
     "https://openminds.ebrains.eu/vocab/qualitativeOverlap": {
       "_instruction": "Add the qualitative overlap that best describes the relation between the two anatomical entities.",
@@ -41,8 +47,10 @@
       ],
       "description": "Semantic characterization of how much two things occupy the same space.",
       "label": "Qualitative overlap",
+      "labelPlural": "Qualitative overlaps",
       "name": "qualitativeOverlap",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "qualitativeOverlaps"
     },
     "https://openminds.ebrains.eu/vocab/quantitativeOverlap": {
       "_embeddedTypes": [
@@ -52,8 +60,10 @@
       "_instruction": "Add the quantitative overlap between the two anatomical entities preferably expressed in percentage.",
       "description": "Numerical characterization of how much two things occupy the same space.",
       "label": "Quantitative overlap",
+      "labelPlural": "Quantitative overlaps",
       "name": "quantitativeOverlap",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "quantitativeOverlaps"
     }
   },
   "required": [

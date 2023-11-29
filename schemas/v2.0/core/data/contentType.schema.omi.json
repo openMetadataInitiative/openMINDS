@@ -10,8 +10,10 @@
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
+      "labelPlural": "Descriptions",
       "multiline": true,
       "name": "description",
+      "namePlural": "descriptions",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/fileExtension": {
@@ -22,9 +24,11 @@
         "type": "string"
       },
       "label": "File extension",
+      "labelPlural": "File extensions",
       "minItems": 1,
       "multiline": false,
       "name": "fileExtension",
+      "namePlural": "fileExtensions",
       "type": "array",
       "uniqueItems": true
     },
@@ -33,8 +37,10 @@
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/relatedMediaType": {
@@ -45,8 +51,10 @@
       "description": "Reference to an official two-part identifier for file formats and format contents.",
       "formatting": "text/plain",
       "label": "Related media type",
+      "labelPlural": "Related media types",
       "multiline": false,
       "name": "relatedMediaType",
+      "namePlural": "relatedMediaTypes",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/specification": {
@@ -57,8 +65,10 @@
       "description": "Detailed and precise presentation of, or proposal for something.",
       "formatting": "text/plain",
       "label": "Specification",
+      "labelPlural": "Specifications",
       "multiline": false,
       "name": "specification",
+      "namePlural": "specifications",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/synonym": {
@@ -69,9 +79,11 @@
         "type": "string"
       },
       "label": "Synonym",
+      "labelPlural": "Synonyms",
       "minItems": 1,
       "multiline": false,
       "name": "synonym",
+      "namePlural": "synonyms",
       "type": "array",
       "uniqueItems": true
     }

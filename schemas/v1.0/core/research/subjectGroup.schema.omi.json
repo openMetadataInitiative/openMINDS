@@ -11,9 +11,11 @@
       ],
       "description": "Differentiation of individuals of most species (animals and plants) based on the type of gametes they produce.",
       "label": "Biological sex",
+      "labelPlural": "Biological sexes",
       "minItems": 1,
       "name": "biologicalSex",
       "nameForReverseLink": null,
+      "namePlural": "biologicalSexes",
       "type": "array",
       "uniqueItems": true
     },
@@ -24,9 +26,11 @@
       ],
       "description": "Genetic constitution of an individual or group.",
       "label": "Genotype",
+      "labelPlural": "Genotypes",
       "minItems": 1,
       "name": "genotype",
       "nameForReverseLink": null,
+      "namePlural": "genotypes",
       "type": "array",
       "uniqueItems": true
     },
@@ -35,8 +39,10 @@
       "description": "Term or code that identifies someone or something within a particular product.",
       "formatting": "text/plain",
       "label": "Internal identifier",
+      "labelPlural": "Internal identifiers",
       "multiline": false,
       "name": "internalIdentifier",
+      "namePlural": "internalIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/phenotype": {
@@ -46,9 +52,11 @@
       ],
       "description": "Physical expression of one or more genes of an organism.",
       "label": "Phenotype",
+      "labelPlural": "Phenotypes",
       "minItems": 1,
       "name": "phenotype",
       "nameForReverseLink": null,
+      "namePlural": "phenotypes",
       "type": "array",
       "uniqueItems": true
     },
@@ -56,7 +64,9 @@
       "_instruction": "Enter the number of specimen that belong to this set.",
       "description": "Total amount or number of things or beings.",
       "label": "Quantity",
+      "labelPlural": "Quantities",
       "name": "quantity",
+      "namePlural": "quantities",
       "type": "integer"
     },
     "https://openminds.ebrains.eu/vocab/species": {
@@ -66,9 +76,11 @@
       ],
       "description": "Category of biological classification comprising related organisms or populations potentially capable of interbreeding, and being designated by a binomial that consists of the name of a genus followed by a Latin or latinized uncapitalized noun or adjective.",
       "label": "Species",
+      "labelPlural": "Species",
       "minItems": 1,
       "name": "species",
       "nameForReverseLink": null,
+      "namePlural": "species",
       "type": "array",
       "uniqueItems": true
     },
@@ -79,9 +91,11 @@
       ],
       "description": "Group of presumed common ancestry with physiological but usually not morphological distinctions.",
       "label": "Strain",
+      "labelPlural": "Strains",
       "minItems": 1,
       "name": "strain",
       "nameForReverseLink": null,
+      "namePlural": "strains",
       "type": "array",
       "uniqueItems": true
     },
@@ -92,9 +106,11 @@
       ],
       "description": "Reference to a point in time at which something or someone was studied in a particular mode or condition.",
       "label": "Studied state",
+      "labelPlural": "Studied states",
       "minItems": 1,
       "name": "studiedState",
       "nameForReverseLink": null,
+      "namePlural": "studiedStates",
       "type": "array",
       "uniqueItems": true
     }

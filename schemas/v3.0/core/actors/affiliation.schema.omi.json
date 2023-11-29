@@ -13,8 +13,10 @@
       "description": "Date in the Gregorian calendar at which something terminates in time.",
       "formatting": "text/plain",
       "label": "End date",
+      "labelPlural": "End dates",
       "multiline": false,
       "name": "endDate",
+      "namePlural": "endDates",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/memberOf": {
@@ -24,8 +26,10 @@
         "https://openminds.ebrains.eu/core/Organization"
       ],
       "label": "Member of",
+      "labelPlural": "Member of",
       "name": "memberOf",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "memberOf"
     },
     "https://openminds.ebrains.eu/vocab/startDate": {
       "_formats": [
@@ -35,8 +39,10 @@
       "description": "Date in the Gregorian calendar at which something begins in time",
       "formatting": "text/plain",
       "label": "Start date",
+      "labelPlural": "Start dates",
       "multiline": false,
       "name": "startDate",
+      "namePlural": "startDates",
       "type": "string"
     }
   },

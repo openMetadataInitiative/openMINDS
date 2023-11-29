@@ -12,8 +12,10 @@
       ],
       "description": "Method of digitally organizing and structuring data or information.",
       "label": "Format",
+      "labelPlural": "Formats",
       "name": "format",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "formats"
     },
     "https://openminds.ebrains.eu/vocab/groupedBy": {
       "_instruction": "Add the concept which was used to group file instances into this file bundle.",
@@ -22,8 +24,10 @@
       ],
       "description": "Reference to the aspect used to group something.",
       "label": "Grouped by",
+      "labelPlural": "Grouped by",
       "name": "groupedBy",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "groupedBy"
     },
     "https://openminds.ebrains.eu/vocab/hash": {
       "_embeddedTypes": [
@@ -32,8 +36,10 @@
       "_instruction": "Add the hash that was generated for this file bundle.",
       "description": "Term used for the process of converting any data into a single value. Often also directly refers to the resulting single value.",
       "label": "Hash",
+      "labelPlural": "Hashes",
       "name": "hash",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "hashes"
     },
     "https://openminds.ebrains.eu/vocab/isPartOf": {
       "_instruction": "Add the file bundle or file repository this file bundle is a part of.",
@@ -43,16 +49,20 @@
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
+      "labelPlural": "Is part of",
       "name": "isPartOf",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "isPartOf"
     },
     "https://openminds.ebrains.eu/vocab/name": {
       "_instruction": "Enter the name of this file bundle.",
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/patternOfFilenames": {
@@ -60,8 +70,10 @@
       "description": "Reliable sample / structure of characters valid for all names in a particular collection of files.",
       "formatting": "text/plain",
       "label": "Pattern of filenames",
+      "labelPlural": "Patterns of filenames",
       "multiline": false,
       "name": "patternOfFilenames",
+      "namePlural": "patternsOfFilenames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/storageSize": {
@@ -71,8 +83,10 @@
       "_instruction": "Enter the storage size this file bundle allocates.",
       "description": "Quantitative value defining how much disk space is used by an object on a computer system.",
       "label": "Storage size",
+      "labelPlural": "Storage sizes",
       "name": "storageSize",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "storageSizes"
     }
   },
   "required": [

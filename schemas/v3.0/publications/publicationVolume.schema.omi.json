@@ -11,15 +11,19 @@
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
+      "labelPlural": "Is part of",
       "name": "isPartOf",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "isPartOf"
     },
     "https://openminds.ebrains.eu/vocab/volumeNumber": {
       "_instruction": "Enter the volume number of this publication volume.",
       "formatting": "text/plain",
       "label": "Volume number",
+      "labelPlural": "Volume numbers",
       "multiline": false,
       "name": "volumeNumber",
+      "namePlural": "volumeNumbers",
       "type": "string"
     }
   },

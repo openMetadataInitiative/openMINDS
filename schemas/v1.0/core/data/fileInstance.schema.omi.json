@@ -10,8 +10,10 @@
       "format": "iri",
       "formatting": "text/plain",
       "label": "Iri",
+      "labelPlural": "IRIs",
       "multiline": false,
       "name": "IRI",
+      "namePlural": "IRIs",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/content": {
@@ -19,8 +21,10 @@
       "description": "Something that is contained.",
       "formatting": "text/plain",
       "label": "Content",
+      "labelPlural": "Content",
       "multiline": false,
       "name": "content",
+      "namePlural": "content",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/format": {
@@ -30,8 +34,10 @@
       ],
       "description": "Method of digitally organizing and structuring data or information.",
       "label": "Format",
+      "labelPlural": "Formats",
       "name": "format",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "formats"
     },
     "https://openminds.ebrains.eu/vocab/hash": {
       "_instruction": "Add the hash that was generated for this file instance.",
@@ -40,8 +46,10 @@
       ],
       "description": "Term used for the process of converting any data into a single value. Often also directly refers to the resulting single value.",
       "label": "Hash",
+      "labelPlural": "Hashes",
       "name": "hash",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "hashes"
     },
     "https://openminds.ebrains.eu/vocab/isPartOf": {
       "_instruction": "Add one or several file bundles in which this file instance can be grouped in.",
@@ -50,9 +58,11 @@
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
+      "labelPlural": "Is part of",
       "minItems": 1,
       "name": "isPartOf",
       "nameForReverseLink": null,
+      "namePlural": "isPartOf",
       "type": "array",
       "uniqueItems": true
     },
@@ -61,8 +71,10 @@
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/specialUsageRole": {
@@ -72,8 +84,10 @@
       ],
       "description": "Particular function of something when it is used.",
       "label": "Special usage role",
+      "labelPlural": "Special usage roles",
       "name": "specialUsageRole",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "specialUsageRoles"
     },
     "https://openminds.ebrains.eu/vocab/storageSize": {
       "_embeddedTypes": [
@@ -82,8 +96,10 @@
       "_instruction": "Enter the storage size this file instance allocates.",
       "description": "Quantitative value defining how much disk space is used by an object on a computer system.",
       "label": "Storage size",
+      "labelPlural": "Storage sizes",
       "name": "storageSize",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "storageSizes"
     }
   },
   "required": [

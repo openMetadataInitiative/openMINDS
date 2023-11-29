@@ -13,8 +13,10 @@
       ],
       "_instruction": "Enter the radius of this circle.",
       "label": "Radius",
+      "labelPlural": "Radii",
       "name": "radius",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "radii"
     }
   },
   "required": [

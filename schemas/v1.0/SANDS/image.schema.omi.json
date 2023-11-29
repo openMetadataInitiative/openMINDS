@@ -11,8 +11,10 @@
       ],
       "description": "Two or three dimensional geometric setting.",
       "label": "Coordinate space",
+      "labelPlural": "Coordinate spaces",
       "name": "coordinateSpace",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "coordinateSpaces"
     },
     "https://openminds.ebrains.eu/vocab/definedIn": {
       "_instruction": "Add the file in which this image is stored in.",
@@ -21,8 +23,10 @@
       ],
       "description": "Reference to a file instance in which something is stored.",
       "label": "Defined in",
+      "labelPlural": "Defined in",
       "name": "definedIn",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "definedIn"
     },
     "https://openminds.ebrains.eu/vocab/voxelSize": {
       "_embeddedTypes": [
@@ -31,10 +35,12 @@
       "_instruction": "Add two or three values with units defined that describe the size of one pixel (2D: [x, y]) or voxel (3D: [x, y, z]) in the physical space.",
       "description": "Extent of the discrete elements comprising a three-dimensional entity.",
       "label": "Voxel size",
+      "labelPlural": "Voxel sizes",
       "maxItems": 3,
       "minItems": 2,
       "name": "voxelSize",
       "nameForReverseLink": null,
+      "namePlural": "voxelSizes",
       "type": "array",
       "uniqueItems": true
     }

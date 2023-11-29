@@ -6,20 +6,24 @@
   "name": "ChemicalSubstance",
   "properties": {
     "https://openminds.ebrains.eu/vocab/additionalRemarks": {
-      "_instruction": "Enter any additional remarks concerning this chemical substance.",
+      "_instruction": "Enter any additional remarks concering this chemical substance.",
       "description": "Mention of what deserves additional attention or notice.",
       "formatting": "text/markdown",
       "label": "Additional remarks",
+      "labelPlural": "Additional remarks",
       "multiline": true,
       "name": "additionalRemarks",
+      "namePlural": "additionalRemarks",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/lookupLabel": {
       "_instruction": "Enter a lookup label for this chemical substance that may help you to find this instance more easily.",
       "formatting": "text/plain",
       "label": "Lookup label",
+      "labelPlural": "Lookup labels",
       "multiline": false,
       "name": "lookupLabel",
+      "namePlural": "lookupLabels",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/molecularEntity": {
@@ -28,8 +32,10 @@
         "https://openminds.ebrains.eu/controlledTerms/MolecularEntity"
       ],
       "label": "Molecular entity",
+      "labelPlural": "Molecular entities",
       "name": "molecularEntity",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "molecularEntities"
     },
     "https://openminds.ebrains.eu/vocab/productSource": {
       "_instruction": "Add the source of this chemical substance.",
@@ -37,8 +43,10 @@
         "https://openminds.ebrains.eu/chemicals/ProductSource"
       ],
       "label": "Product source",
+      "labelPlural": "Product sources",
       "name": "productSource",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "productSources"
     },
     "https://openminds.ebrains.eu/vocab/purity": {
       "_embeddedTypes": [
@@ -47,8 +55,10 @@
       ],
       "_instruction": "Enter the purity of this chemical substance.",
       "label": "Purity",
+      "labelPlural": "Purities",
       "name": "purity",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "purities"
     }
   },
   "required": [

@@ -9,8 +9,10 @@
       "description": "Short, but precise statement of the meaning of a word, word group, sign or a symbol.",
       "formatting": "text/markdown",
       "label": "Definition",
+      "labelPlural": "Definitions",
       "multiline": true,
       "name": "definition",
+      "namePlural": "definitions",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/description": {
@@ -18,8 +20,10 @@
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
+      "labelPlural": "Descriptions",
       "multiline": true,
       "name": "description",
+      "namePlural": "descriptions",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/name": {
@@ -27,8 +31,10 @@
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
@@ -39,8 +45,10 @@
       "description": "Term or code used to identify something or someone registered within a particular ontology.",
       "formatting": "text/plain",
       "label": "Ontology identifier",
+      "labelPlural": "Ontology identifiers",
       "multiline": false,
       "name": "ontologyIdentifier",
+      "namePlural": "ontologyIdentifiers",
       "type": "string"
     }
   },

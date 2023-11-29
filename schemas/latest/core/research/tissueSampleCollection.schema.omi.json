@@ -12,8 +12,10 @@
       "description": "Mention of what deserves additional attention or notice.",
       "formatting": "text/markdown",
       "label": "Additional remarks",
+      "labelPlural": "Additional remarks",
       "multiline": true,
       "name": "additionalRemarks",
+      "namePlural": "additionalRemarks",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/anatomicalLocation": {
@@ -29,9 +31,11 @@
         "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
       ],
       "label": "Anatomical location",
+      "labelPlural": "Anatomical locations",
       "minItems": 1,
       "name": "anatomicalLocation",
       "nameForReverseLink": null,
+      "namePlural": "anatomicalLocations",
       "type": "array",
       "uniqueItems": true
     },
@@ -42,9 +46,11 @@
       ],
       "description": "Differentiation of individuals of most species (animals and plants) based on the type of gametes they produce.",
       "label": "Biological sex",
+      "labelPlural": "Biological sexes",
       "minItems": 1,
       "name": "biologicalSex",
       "nameForReverseLink": null,
+      "namePlural": "biologicalSexes",
       "type": "array",
       "uniqueItems": true
     },
@@ -53,8 +59,10 @@
       "description": "Term or code that identifies someone or something within a particular product.",
       "formatting": "text/plain",
       "label": "Internal identifier",
+      "labelPlural": "Internal identifiers",
       "multiline": false,
       "name": "internalIdentifier",
+      "namePlural": "internalIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/laterality": {
@@ -64,10 +72,12 @@
       ],
       "description": "Differentiation between a pair of lateral homologous parts of the body.",
       "label": "Laterality",
+      "labelPlural": "Lateralities",
       "maxItems": 2,
       "minItems": 1,
       "name": "laterality",
       "nameForReverseLink": null,
+      "namePlural": "lateralities",
       "type": "array",
       "uniqueItems": true
     },
@@ -75,15 +85,19 @@
       "_instruction": "Enter a lookup label for this specimen set that may help you to find this instance more easily.",
       "formatting": "text/plain",
       "label": "Lookup label",
+      "labelPlural": "Lookup labels",
       "multiline": false,
       "name": "lookupLabel",
+      "namePlural": "lookupLabels",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/numberOfTissueSamples": {
       "_instruction": "Enter the number of tissue samples that belong to this tissue sample collection.",
       "label": "Number of tissue samples",
+      "labelPlural": "Numbers of tissue samples",
       "minimum": 2,
       "name": "numberOfTissueSamples",
+      "namePlural": "numbersOfTissueSamples",
       "type": "integer"
     },
     "https://openminds.ebrains.eu/vocab/origin": {
@@ -95,9 +109,11 @@
       ],
       "description": "Source at which something begins or rises, or from which something derives.",
       "label": "Origin",
+      "labelPlural": "Origins",
       "minItems": 1,
       "name": "origin",
       "nameForReverseLink": null,
+      "namePlural": "origins",
       "type": "array",
       "uniqueItems": true
     },
@@ -109,9 +125,11 @@
       ],
       "description": "Category of biological classification comprising related organisms or populations potentially capable of interbreeding, and being designated by a binomial that consists of the name of a genus followed by a Latin or latinized uncapitalized noun or adjective.",
       "label": "Species",
+      "labelPlural": "Species",
       "minItems": 1,
       "name": "species",
       "nameForReverseLink": null,
+      "namePlural": "species",
       "type": "array",
       "uniqueItems": true
     },
@@ -122,9 +140,11 @@
       ],
       "description": "Reference to a point in time at which something or someone was studied in a particular mode or condition.",
       "label": "Studied state",
+      "labelPlural": "Studied states",
       "minItems": 1,
       "name": "studiedState",
       "nameForReverseLink": null,
+      "namePlural": "studiedStates",
       "type": "array",
       "uniqueItems": true
     },
@@ -135,9 +155,11 @@
       ],
       "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
       "label": "Type",
+      "labelPlural": "Types",
       "minItems": 1,
       "name": "type",
       "nameForReverseLink": null,
+      "namePlural": "types",
       "type": "array",
       "uniqueItems": true
     }

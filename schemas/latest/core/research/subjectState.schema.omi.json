@@ -13,8 +13,10 @@
       "description": "Mention of what deserves additional attention or notice.",
       "formatting": "text/markdown",
       "label": "Additional remarks",
+      "labelPlural": "Additional remarks",
       "multiline": true,
       "name": "additionalRemarks",
+      "namePlural": "additionalRemarks",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/age": {
@@ -25,8 +27,10 @@
       "_instruction": "Enter the age of the specimen (set) in this state.",
       "description": "Time of life or existence at which some particular qualification, capacity or event arises.",
       "label": "Age",
+      "labelPlural": "Ages",
       "name": "age",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "ages"
     },
     "https://openminds.ebrains.eu/vocab/ageCategory": {
       "_instruction": "Add the age category of the subject in this state.",
@@ -35,8 +39,10 @@
       ],
       "description": "Distinct life cycle class that is defined by a similar age or age range (developmental stage) within a group of individual beings.",
       "label": "Age category",
+      "labelPlural": "Age categories",
       "name": "ageCategory",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "ageCategories"
     },
     "https://openminds.ebrains.eu/vocab/attribute": {
       "_instruction": "Add all attributes that can be ascribed to this subject state.",
@@ -44,9 +50,11 @@
         "https://openminds.ebrains.eu/controlledTerms/SubjectAttribute"
       ],
       "label": "Attribute",
+      "labelPlural": "Attributes",
       "minItems": 1,
       "name": "attribute",
       "nameForReverseLink": null,
+      "namePlural": "attributes",
       "type": "array",
       "uniqueItems": true
     },
@@ -56,8 +64,10 @@
         "https://openminds.ebrains.eu/core/SubjectState"
       ],
       "label": "Descended from",
+      "labelPlural": "Descended from",
       "name": "descendedFrom",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "descendedFrom"
     },
     "https://openminds.ebrains.eu/vocab/handedness": {
       "_instruction": "Add the preferred handedness of the subject in this state.",
@@ -66,24 +76,30 @@
       ],
       "description": "Degree to which an organism prefers one hand or foot over the other hand or foot during the performance of a task.",
       "label": "Handedness",
+      "labelPlural": "Handedness",
       "name": "handedness",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "handedness"
     },
     "https://openminds.ebrains.eu/vocab/internalIdentifier": {
       "_instruction": "Enter the identifier (or label) of this specimen (set) state that is used within the corresponding data files to identify this specimen (set) state.",
       "description": "Term or code that identifies someone or something within a particular product.",
       "formatting": "text/plain",
       "label": "Internal identifier",
+      "labelPlural": "Internal identifiers",
       "multiline": false,
       "name": "internalIdentifier",
+      "namePlural": "internalIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/lookupLabel": {
       "_instruction": "Enter a lookup label for this specimen (set) state that may help you to find this instance more easily.",
       "formatting": "text/plain",
       "label": "Lookup label",
+      "labelPlural": "Lookup labels",
       "multiline": false,
       "name": "lookupLabel",
+      "namePlural": "lookupLabels",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/pathology": {
@@ -94,9 +110,11 @@
       ],
       "description": "Structural and functional deviation from the normal that constitutes a disease or characterizes a particular disease.",
       "label": "Pathology",
+      "labelPlural": "Pathologies",
       "minItems": 1,
       "name": "pathology",
       "nameForReverseLink": null,
+      "namePlural": "pathologies",
       "type": "array",
       "uniqueItems": true
     },
@@ -107,8 +125,10 @@
       ],
       "_instruction": "If there is a temporal relation between the states of a specimen (set), enter the relative time that has passed between this and the preceding specimen (set) state referenced under 'descendedFrom'.",
       "label": "Relative time indication",
+      "labelPlural": "Relative time indications",
       "name": "relativeTimeIndication",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "relativeTimeIndications"
     },
     "https://openminds.ebrains.eu/vocab/weight": {
       "_embeddedTypes": [
@@ -118,8 +138,10 @@
       "_instruction": "Enter the weight of the specimen (set) in this state.",
       "description": "Amount that a thing or being weighs.",
       "label": "Weight",
+      "labelPlural": "Weights",
       "name": "weight",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "weights"
     }
   },
   "required": [

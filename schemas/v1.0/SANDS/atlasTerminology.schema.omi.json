@@ -10,9 +10,11 @@
       ],
       "description": "Physical component of a body, organ, or tissue.",
       "label": "Anatomical entity",
+      "labelPlural": "Anatomical entities",
       "minItems": 1,
       "name": "anatomicalEntity",
       "nameForReverseLink": null,
+      "namePlural": "anatomicalEntities",
       "type": "array",
       "uniqueItems": true
     },
@@ -23,9 +25,11 @@
       ],
       "description": "Reference to a file instance in which something is stored.",
       "label": "Defined in",
+      "labelPlural": "Defined in",
       "minItems": 1,
       "name": "definedIn",
       "nameForReverseLink": null,
+      "namePlural": "definedIn",
       "type": "array",
       "uniqueItems": true
     },
@@ -34,8 +38,10 @@
       "description": "Whole, non-abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Full name",
+      "labelPlural": "Full names",
       "multiline": false,
       "name": "fullName",
+      "namePlural": "fullNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
@@ -44,8 +50,10 @@
       "format": "iri",
       "formatting": "text/plain",
       "label": "Ontology identifier",
+      "labelPlural": "Ontology identifiers",
       "multiline": false,
       "name": "ontologyIdentifier",
+      "namePlural": "ontologyIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/shortName": {
@@ -53,8 +61,10 @@
       "description": "Shortened or fully abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Short name",
+      "labelPlural": "Short names",
       "multiline": false,
       "name": "shortName",
+      "namePlural": "shortNames",
       "type": "string"
     }
   },

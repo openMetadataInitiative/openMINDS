@@ -15,9 +15,11 @@
       "_instruction": "Enter all current and, if necessary, past affiliations of this organization.",
       "description": "Declaration of a person being closely associated to an organization.",
       "label": "Affiliation",
+      "labelPlural": "Affiliations",
       "minItems": 1,
       "name": "affiliation",
       "nameForReverseLink": null,
+      "namePlural": "affiliations",
       "type": "array",
       "uniqueItems": true
     },
@@ -30,9 +32,11 @@
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
       "minItems": 1,
       "name": "digitalIdentifier",
       "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers",
       "type": "array",
       "uniqueItems": true
     },
@@ -41,8 +45,10 @@
       "description": "Whole, non-abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Full name",
+      "labelPlural": "Full names",
       "multiline": false,
       "name": "fullName",
+      "namePlural": "fullNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/hasParent": {
@@ -52,9 +58,11 @@
       ],
       "description": "Reference to a parent object or legal person.",
       "label": "Has parent",
+      "labelPlural": "Has parents",
       "minItems": 1,
       "name": "hasParent",
       "nameForReverseLink": null,
+      "namePlural": "hasParents",
       "type": "array",
       "uniqueItems": true
     },
@@ -66,8 +74,10 @@
       "description": "Main website of something or someone.",
       "formatting": "text/plain",
       "label": "Homepage",
+      "labelPlural": "Homepages",
       "multiline": false,
       "name": "homepage",
+      "namePlural": "homepages",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/shortName": {
@@ -75,8 +85,10 @@
       "description": "Shortened or fully abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Short name",
+      "labelPlural": "Short names",
       "multiline": false,
       "name": "shortName",
+      "namePlural": "shortNames",
       "type": "string"
     }
   },

@@ -14,8 +14,10 @@
       ],
       "description": "Legal person that gave or supplied something as a part or share.",
       "label": "Contributor",
+      "labelPlural": "Contributors",
       "name": "contributor",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "contributors"
     },
     "https://openminds.ebrains.eu/vocab/type": {
       "_instruction": "Add the party that performed the contribution.",
@@ -24,9 +26,11 @@
       ],
       "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
       "label": "Type",
+      "labelPlural": "Types",
       "minItems": 1,
       "name": "type",
       "nameForReverseLink": null,
+      "namePlural": "types",
       "type": "array",
       "uniqueItems": true
     }

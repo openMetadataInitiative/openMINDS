@@ -13,8 +13,10 @@
         "https://openminds.ebrains.eu/sands/AtlasAnnotation"
       ],
       "label": "Has annotation",
+      "labelPlural": "Has annotations",
       "name": "hasAnnotation",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "hasAnnotations"
     },
     "https://openminds.ebrains.eu/vocab/hasParent": {
       "_instruction": "Add for this parcellation entity the defined anatomical parent structure.",
@@ -23,8 +25,10 @@
       ],
       "description": "Reference to a parent object or legal person.",
       "label": "Has parent",
+      "labelPlural": "Has parents",
       "name": "hasParent",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "hasParents"
     },
     "https://openminds.ebrains.eu/vocab/isPartOf": {
       "_instruction": "Add one or several parcellation terminologies to which this parcellation entity belongs.",
@@ -33,9 +37,11 @@
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
+      "labelPlural": "Is part of",
       "minItems": 1,
       "name": "isPartOf",
       "nameForReverseLink": null,
+      "namePlural": "isPartOf",
       "type": "array",
       "uniqueItems": true
     },
@@ -44,8 +50,10 @@
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
@@ -56,8 +64,10 @@
       "description": "Term or code used to identify something or someone registered within a particular ontology.",
       "formatting": "text/plain",
       "label": "Ontology identifier",
+      "labelPlural": "Ontology identifiers",
       "multiline": false,
       "name": "ontologyIdentifier",
+      "namePlural": "ontologyIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/relatedUBERONTerm": {
@@ -66,8 +76,10 @@
         "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation"
       ],
       "label": "Related uberonterm",
+      "labelPlural": "Related UBERON terms",
       "name": "relatedUBERONTerm",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "relatedUBERONTerms"
     },
     "https://openminds.ebrains.eu/vocab/relationAssessment": {
       "_embeddedTypes": [
@@ -76,9 +88,11 @@
       ],
       "_instruction": "Add one or several relations of this parcellation entity to parcellation entities of other parcellation terminologies.",
       "label": "Relation assessment",
+      "labelPlural": "Relation assessments",
       "minItems": 1,
       "name": "relationAssessment",
       "nameForReverseLink": null,
+      "namePlural": "relationAssessments",
       "type": "array",
       "uniqueItems": true
     },
@@ -87,8 +101,10 @@
       "description": "Term or code used to identify the version of something.",
       "formatting": "text/plain",
       "label": "Version identifier",
+      "labelPlural": "Version identifiers",
       "multiline": false,
       "name": "versionIdentifier",
+      "namePlural": "versionIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/versionInnovation": {
@@ -96,8 +112,10 @@
       "description": "Documentation on what changed in comparison to a previously published form of something.",
       "formatting": "text/markdown",
       "label": "Version innovation",
+      "labelPlural": "Version innovations",
       "multiline": true,
       "name": "versionInnovation",
+      "namePlural": "versionInnovations",
       "type": "string"
     }
   },

@@ -16,9 +16,11 @@
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
       "minItems": 1,
       "name": "digitalIdentifier",
       "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers",
       "type": "array",
       "uniqueItems": true
     },
@@ -27,8 +29,10 @@
       "description": "Whole, non-abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Full name",
+      "labelPlural": "Full names",
       "multiline": false,
       "name": "fullName",
+      "namePlural": "fullNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/hasParent": {
@@ -38,8 +42,10 @@
       ],
       "description": "Reference to a parent object or legal person.",
       "label": "Has parent",
+      "labelPlural": "Has parents",
       "name": "hasParent",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "hasParents"
     },
     "https://openminds.ebrains.eu/vocab/homepage": {
       "_instruction": "Add the uniform resource locator (URL) to the homepage of this organization.",
@@ -48,16 +54,20 @@
       ],
       "description": "Main website of something or someone.",
       "label": "Homepage",
+      "labelPlural": "Homepages",
       "name": "homepage",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "homepages"
     },
     "https://openminds.ebrains.eu/vocab/shortName": {
       "_instruction": "Enter the short name of this organization.",
       "description": "Shortened or fully abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Short name",
+      "labelPlural": "Short names",
       "multiline": false,
       "name": "shortName",
+      "namePlural": "shortNames",
       "type": "string"
     }
   },

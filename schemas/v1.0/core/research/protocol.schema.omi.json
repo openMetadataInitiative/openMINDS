@@ -12,9 +12,11 @@
       ],
       "description": "Specific set of defined activities (or their absence) that should be performed (or avoided) by a subject.",
       "label": "Behavioral task",
+      "labelPlural": "Behavioral tasks",
       "minItems": 1,
       "name": "behavioralTask",
       "nameForReverseLink": null,
+      "namePlural": "behavioralTasks",
       "type": "array",
       "uniqueItems": true
     },
@@ -23,8 +25,10 @@
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
+      "labelPlural": "Descriptions",
       "multiline": true,
       "name": "description",
+      "namePlural": "descriptions",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/name": {
@@ -32,8 +36,10 @@
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
       "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/studyTarget": {
@@ -49,9 +55,11 @@
       ],
       "description": "Structure or function that was targeted within a study.",
       "label": "Study target",
+      "labelPlural": "Study targets",
       "minItems": 1,
       "name": "studyTarget",
       "nameForReverseLink": null,
+      "namePlural": "studyTargets",
       "type": "array",
       "uniqueItems": true
     },
@@ -62,9 +70,11 @@
       ],
       "description": "Method of accomplishing a desired aim.",
       "label": "Technique",
+      "labelPlural": "Techniques",
       "minItems": 1,
       "name": "technique",
       "nameForReverseLink": null,
+      "namePlural": "techniques",
       "type": "array",
       "uniqueItems": true
     }

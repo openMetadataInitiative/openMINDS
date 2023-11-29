@@ -11,8 +11,10 @@
       ],
       "description": "Level to which something is accessible to someone or something.",
       "label": "Accessibility",
+      "labelPlural": "Accessibilities",
       "name": "accessibility",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "accessibilities"
     },
     "https://openminds.ebrains.eu/vocab/author": {
       "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this research product version.",
@@ -22,9 +24,11 @@
       ],
       "description": "Creator of a literary or creative work, as well as a dataset publication.",
       "label": "Author",
+      "labelPlural": "Authors",
       "minItems": 1,
       "name": "author",
       "nameForReverseLink": null,
+      "namePlural": "authors",
       "type": "array",
       "uniqueItems": true
     },
@@ -35,8 +39,10 @@
       "_instruction": "Add the copyright information of this research product version.",
       "description": "Exclusive and assignable legal right of an originator to reproduce, publish, sell, or distribute the matter and form of a creative work for a defined time period.",
       "label": "Copyright",
+      "labelPlural": "Copyrights",
       "name": "copyright",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "copyrights"
     },
     "https://openminds.ebrains.eu/vocab/custodian": {
       "_instruction": "Add one or several custodians (person or organization) that are responsible for this research product version.",
@@ -46,9 +52,11 @@
       ],
       "description": "The 'custodian' is a legal person who is responsible for the content and quality of the data, metadata, and/or code of a research product.",
       "label": "Custodian",
+      "labelPlural": "Custodians",
       "minItems": 1,
       "name": "custodian",
       "nameForReverseLink": null,
+      "namePlural": "custodians",
       "type": "array",
       "uniqueItems": true
     },
@@ -57,9 +65,11 @@
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
+      "labelPlural": "Descriptions",
       "maxLength": 2000,
       "multiline": true,
       "name": "description",
+      "namePlural": "descriptions",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/developer": {
@@ -70,9 +80,11 @@
       ],
       "description": "Legal person that creates or improves products or services (e.g., software, applications, etc.).",
       "label": "Developer",
+      "labelPlural": "Developers",
       "minItems": 1,
       "name": "developer",
       "nameForReverseLink": null,
+      "namePlural": "developers",
       "type": "array",
       "uniqueItems": true
     },
@@ -83,8 +95,10 @@
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
       "name": "digitalIdentifier",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers"
     },
     "https://openminds.ebrains.eu/vocab/fullDocumentation": {
       "_instruction": "Add the globally unique and persistent digital identifier of a full documentation of this research product version.",
@@ -93,16 +107,20 @@
       ],
       "description": "Non-abridged instructions, comments, and information for using a particular product.",
       "label": "Full documentation",
+      "labelPlural": "Full documentations",
       "name": "fullDocumentation",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "fullDocumentations"
     },
     "https://openminds.ebrains.eu/vocab/fullName": {
       "_instruction": "Enter a descriptive full name (title) for this research product version.",
       "description": "Whole, non-abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Full name",
+      "labelPlural": "Full names",
       "multiline": false,
       "name": "fullName",
+      "namePlural": "fullNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/funding": {
@@ -112,9 +130,11 @@
       ],
       "description": "Money provided by a legal person for a particular purpose.",
       "label": "Funding",
+      "labelPlural": "Funding",
       "minItems": 1,
       "name": "funding",
       "nameForReverseLink": null,
+      "namePlural": "funding",
       "type": "array",
       "uniqueItems": true
     },
@@ -124,9 +144,11 @@
         "https://openminds.ebrains.eu/core/DatasetVersion"
       ],
       "label": "Has alternative version",
+      "labelPlural": "Has alternative versions",
       "minItems": 1,
       "name": "hasAlternativeVersion",
       "nameForReverseLink": null,
+      "namePlural": "hasAlternativeVersions",
       "type": "array",
       "uniqueItems": true
     },
@@ -136,9 +158,11 @@
         "https://openminds.ebrains.eu/core/DatasetVersion"
       ],
       "label": "Has supplement version",
+      "labelPlural": "Has supplement versions",
       "minItems": 1,
       "name": "hasSupplementVersion",
       "nameForReverseLink": null,
+      "namePlural": "hasSupplementVersions",
       "type": "array",
       "uniqueItems": true
     },
@@ -148,8 +172,10 @@
       "format": "iri",
       "formatting": "text/plain",
       "label": "Homepage",
+      "labelPlural": "Homepages",
       "multiline": false,
       "name": "homepage",
+      "namePlural": "homepages",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/isNewVersionOf": {
@@ -159,8 +185,10 @@
       ],
       "description": "Reference to a previous (potentially outdated) particular form of something.",
       "label": "Is new version of",
+      "labelPlural": "Is new version of",
       "name": "isNewVersionOf",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "isNewVersionOf"
     },
     "https://openminds.ebrains.eu/vocab/keyword": {
       "_instruction": "Enter custom keywords to this research product version.",
@@ -170,10 +198,12 @@
         "type": "string"
       },
       "label": "Keyword",
+      "labelPlural": "Keywords",
       "maxItems": 5,
       "minItems": 1,
       "multiline": false,
       "name": "keyword",
+      "namePlural": "keywords",
       "type": "array",
       "uniqueItems": true
     },
@@ -184,8 +214,10 @@
       ],
       "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
       "label": "License",
+      "labelPlural": "Licenses",
       "name": "license",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "licenses"
     },
     "https://openminds.ebrains.eu/vocab/otherContribution": {
       "_instruction": "Add the contributions for each involved person or organization going beyond being an author, custodian or developer of this research product version.",
@@ -194,9 +226,11 @@
       ],
       "description": "Giving or supplying of something (such as money or time) as a part or share other than what is covered elsewhere.",
       "label": "Other contribution",
+      "labelPlural": "Other contributions",
       "minItems": 1,
       "name": "otherContribution",
       "nameForReverseLink": null,
+      "namePlural": "otherContributions",
       "type": "array",
       "uniqueItems": true
     },
@@ -207,9 +241,11 @@
       ],
       "description": "Reference to something that was made available for the general public to see or buy.",
       "label": "Related publication",
+      "labelPlural": "Related publications",
       "minItems": 1,
       "name": "relatedPublication",
       "nameForReverseLink": null,
+      "namePlural": "relatedPublications",
       "type": "array",
       "uniqueItems": true
     },
@@ -219,8 +255,10 @@
       "format": "date",
       "formatting": "text/plain",
       "label": "Release date",
+      "labelPlural": "Release dates",
       "multiline": false,
       "name": "releaseDate",
+      "namePlural": "releaseDates",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/repository": {
@@ -230,8 +268,10 @@
       ],
       "description": "Place, room, or container where something is deposited or stored.",
       "label": "Repository",
+      "labelPlural": "Repositories",
       "name": "repository",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "repositories"
     },
     "https://openminds.ebrains.eu/vocab/serializationFormat": {
       "_instruction": "Add all content types in which (meta)data compliant with this (meta)data model version can be stored in.",
@@ -240,9 +280,11 @@
       ],
       "description": "Form in which a particular data structure or object state is translated to for storage.",
       "label": "Serialization format",
+      "labelPlural": "Serialization formats",
       "minItems": 1,
       "name": "serializationFormat",
       "nameForReverseLink": null,
+      "namePlural": "serializationFormats",
       "type": "array",
       "uniqueItems": true
     },
@@ -251,9 +293,11 @@
       "description": "Shortened or fully abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Short name",
+      "labelPlural": "Short names",
       "maxLength": 30,
       "multiline": false,
       "name": "shortName",
+      "namePlural": "shortNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/specificationFormat": {
@@ -263,9 +307,11 @@
       ],
       "description": "Form in which a particular data structure or object state is specified in.",
       "label": "Specification format",
+      "labelPlural": "Specification formats",
       "minItems": 1,
       "name": "specificationFormat",
       "nameForReverseLink": null,
+      "namePlural": "specificationFormats",
       "type": "array",
       "uniqueItems": true
     },
@@ -276,16 +322,20 @@
       ],
       "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
       "label": "Type",
+      "labelPlural": "Types",
       "name": "type",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "types"
     },
     "https://openminds.ebrains.eu/vocab/versionIdentifier": {
       "_instruction": "Enter the version identifier of this research product version.",
       "description": "Term or code used to identify the version of something.",
       "formatting": "text/plain",
       "label": "Version identifier",
+      "labelPlural": "Version identifiers",
       "multiline": false,
       "name": "versionIdentifier",
+      "namePlural": "versionIdentifiers",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/versionInnovation": {
@@ -293,8 +343,10 @@
       "description": "Documentation on what changed in comparison to a previously published form of something.",
       "formatting": "text/markdown",
       "label": "Version innovation",
+      "labelPlural": "Version innovations",
       "multiline": true,
       "name": "versionInnovation",
+      "namePlural": "versionInnovations",
       "type": "string"
     }
   },

@@ -10,8 +10,10 @@
       "_instruction": "Enter a uniform resource locator (URL).",
       "formatting": "text/plain",
       "label": "Url",
+      "labelPlural": "URLs",
       "multiline": false,
       "name": "URL",
+      "namePlural": "URLs",
       "type": "string"
     }
   },
