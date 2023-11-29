@@ -130,7 +130,7 @@ class TypeExtractor(Types):
         t = schema_payload[TEMPLATE_PROPERTY_TYPE]
         if t in self._types:
             for k in list(self._types[t].keys()):
-                if k not in ["label", "name", "description", "semanticEquivalent", "isPartOfVersion", "color"]:
+                if k not in ["label", "labelPlural", "name", "namePlural", "description", "semanticEquivalent", "isPartOfVersion", "color"]:
                     del self._types[t][k]
         simple_name = os.path.basename(t)
         if t not in self._types:
@@ -206,7 +206,7 @@ class PropertyExtractor(Property):
 
         # Clear all unexpected fields
         for k in list(prop.keys()):
-            if k not in ["label", "name", "description", "semanticEquivalent", "asEdge", "asString", "usedIn"]:
+            if k not in ["label", "labelPlural", "name", "namePlural", "description", "semanticEquivalent", "asEdge", "asString", "usedIn"]:
                 del prop[k]
 
         # Set default values for manually managed properties
