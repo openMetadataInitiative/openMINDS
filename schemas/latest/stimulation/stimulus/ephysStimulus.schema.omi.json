@@ -16,8 +16,10 @@
         "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
       ],
       "label": "Delivered by",
+      "labelPlural": "Delivered by",
       "name": "deliveredBy",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "deliveredBy"
     },
     "https://openminds.ebrains.eu/vocab/description": {
       "_instruction": "Enter a short text describing this stimulus.",
