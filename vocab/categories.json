@@ -185,6 +185,9 @@
       "https://openminds.ebrains.eu/ephys/Pipette",
       "https://openminds.ebrains.eu/specimenPrep/SlicingDevice"
     ],
+    "stimulus": [
+      "https://openminds.ebrains.eu/stimulation/EphysStimulus"
+    ],
     "stimulusType": [
       "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
       "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
