@@ -3031,6 +3031,7 @@
         "https://openminds.ebrains.eu/controlledTerms/Language",
         "https://openminds.ebrains.eu/controlledTerms/Laterality",
         "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
         "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
@@ -3405,6 +3406,7 @@
         "https://openminds.ebrains.eu/controlledTerms/Language",
         "https://openminds.ebrains.eu/controlledTerms/Laterality",
         "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
         "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
@@ -5323,6 +5325,7 @@
           "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType",
           "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
           "https://openminds.ebrains.eu/controlledTerms/Handedness",
+          "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
           "https://openminds.ebrains.eu/controlledTerms/MolecularEntity",
           "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
           "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
@@ -6894,6 +6897,7 @@
         "https://openminds.ebrains.eu/controlledTerms/Language",
         "https://openminds.ebrains.eu/controlledTerms/Laterality",
         "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
         "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
@@ -7492,6 +7496,7 @@
           "https://openminds.ebrains.eu/controlledTerms/Language",
           "https://openminds.ebrains.eu/controlledTerms/Laterality",
           "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+          "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
           "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
           "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
           "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
@@ -7732,6 +7737,7 @@
         "https://openminds.ebrains.eu/controlledTerms/Language",
         "https://openminds.ebrains.eu/controlledTerms/Laterality",
         "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
         "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
@@ -8832,6 +8838,7 @@
         "https://openminds.ebrains.eu/controlledTerms/Language",
         "https://openminds.ebrains.eu/controlledTerms/Laterality",
         "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
         "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
@@ -10300,6 +10307,7 @@
         "https://openminds.ebrains.eu/controlledTerms/Language",
         "https://openminds.ebrains.eu/controlledTerms/Laterality",
         "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
         "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
@@ -11597,6 +11605,7 @@
       "canPointTo": {
         "latest": [
           "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
+          "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
           "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
           "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
           "https://openminds.ebrains.eu/controlledTerms/Technique"
@@ -13588,6 +13597,7 @@
         "https://openminds.ebrains.eu/controlledTerms/Language",
         "https://openminds.ebrains.eu/controlledTerms/Laterality",
         "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
         "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
@@ -13816,6 +13826,7 @@
       "canPointTo": {
         "latest": [
           "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
+          "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
           "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
           "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
           "https://openminds.ebrains.eu/controlledTerms/Technique"
