@@ -47,7 +47,7 @@ def get_basic_type(property_definition:dict) -> Optional[str]:
     return basic_type
 
 
-def evaluate_versions_to_be_built(trigger:Optional[Trigger]) -> Dict[str, Dict[str, OpenMINDSModule]]:
+def evaluate_versions_to_be_built(version_config: str, trigger:Optional[Trigger]) -> Dict[str, Dict[str, OpenMINDSModule]]:
     """
     :return: the dictionary describing all versions supposed to be built either because of a change or because of a build of everything.
     """
@@ -60,7 +60,7 @@ def evaluate_versions_to_be_built(trigger:Optional[Trigger]) -> Dict[str, Dict[s
     repo = Repo.clone_from("https://github.com/openMetadataInitiative/openMINDS.git", "pipeline")
     repo.git.checkout("pipeline")
 
-    with open("pipeline/versions.json", "r") as version_specs:
+    with open(os.path.join("pipeline", version_config), "r") as version_specs:
         versions = json.load(version_specs)
     if os.path.exists("pipeline"):
         shutil.rmtree("pipeline")
