@@ -5,20 +5,18 @@
   "label": "Protocol",
   "name": "Protocol",
   "properties": {
-    "https://openminds.ebrains.eu/vocab/behavioralTask": {
-      "_instruction": "Add all behavioral tasks that were executed as part of this protocol.",
+    "https://openminds.ebrains.eu/vocab/describedIn": {
+      "_instruction": "Add a publication or file in which this protocol is (originally) described in detail.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/BehavioralTask"
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/WebResource"
       ],
-      "description": "Specific set of defined activities (or their absence) that should be performed (or avoided) by a subject.",
-      "label": "Behavioral task",
-      "labelPlural": "Behavioral tasks",
-      "minItems": 1,
-      "name": "behavioralTask",
+      "label": "Described in",
+      "labelPlural": "Described in",
+      "name": "describedIn",
       "nameForReverseLink": null,
-      "namePlural": "behavioralTasks",
-      "type": "array",
-      "uniqueItems": true
+      "namePlural": "describedIn"
     },
     "https://openminds.ebrains.eu/vocab/description": {
       "_instruction": "Enter a description of this protocol.",
@@ -42,34 +40,33 @@
       "namePlural": "names",
       "type": "string"
     },
-    "https://openminds.ebrains.eu/vocab/studyOption": {
-      "_instruction": "Add all study options this protocol offers.",
+    "https://openminds.ebrains.eu/vocab/stimulusType": {
+      "_instruction": "Add all stimulus types used with this protocol.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
-        "https://openminds.ebrains.eu/controlledTerms/CellType",
-        "https://openminds.ebrains.eu/controlledTerms/Disease",
-        "https://openminds.ebrains.eu/controlledTerms/DiseaseModel",
-        "https://openminds.ebrains.eu/controlledTerms/Handedness",
-        "https://openminds.ebrains.eu/controlledTerms/Organ",
-        "https://openminds.ebrains.eu/controlledTerms/Phenotype",
-        "https://openminds.ebrains.eu/controlledTerms/Species",
-        "https://openminds.ebrains.eu/controlledTerms/Strain",
-        "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
-        "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
-        "https://openminds.ebrains.eu/sands/ParcellationEntity"
+        "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType"
       ],
-      "label": "Study option",
-      "labelPlural": "Study options",
+      "label": "Stimulus type",
+      "labelPlural": "Stimulus types",
       "minItems": 1,
-      "name": "studyOption",
+      "name": "stimulusType",
       "nameForReverseLink": null,
-      "namePlural": "studyOptions",
+      "namePlural": "stimulusTypes",
       "type": "array",
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/technique": {
-      "_instruction": "Add all techniques that were used in this protocol.",
+      "_instruction": "Add all techniques (including stimulation approaches and/or techniques) that were used in this protocol.",
       "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
         "https://openminds.ebrains.eu/controlledTerms/Technique"
       ],
       "description": "Method of accomplishing a desired aim.",

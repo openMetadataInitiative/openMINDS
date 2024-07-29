@@ -1,0 +1,517 @@
+{
+  "_categories": [
+    "coordinateSpace",
+    "researchProduct"
+  ],
+  "_type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+  "color": "#D60034",
+  "label": "Common coordinate space version",
+  "name": "CommonCoordinateSpaceVersion",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/abbreviation": {
+      "_instruction": "Enter the official abbreviation of this common coordinate space version.",
+      "formatting": "text/plain",
+      "label": "Abbreviation",
+      "labelPlural": "Abbreviations",
+      "multiline": false,
+      "name": "abbreviation",
+      "namePlural": "abbreviations",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/accessibility": {
+      "_instruction": "Add the accessibility of the data for this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility"
+      ],
+      "description": "Level to which something is accessible to someone or something.",
+      "label": "Accessibility",
+      "labelPlural": "Accessibilities",
+      "name": "accessibility",
+      "nameForReverseLink": null,
+      "namePlural": "accessibilities"
+    },
+    "https://openminds.ebrains.eu/vocab/anatomicalAxesOrientation": {
+      "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (stated as XYZ) for this common coordinate space version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation"
+      ],
+      "description": "Relation between reference planes used in anatomy and mathematics.",
+      "label": "Anatomical axes orientation",
+      "labelPlural": "Anatomical axes orientations",
+      "name": "anatomicalAxesOrientation",
+      "nameForReverseLink": null,
+      "namePlural": "anatomicalAxesOrientations"
+    },
+    "https://openminds.ebrains.eu/vocab/author": {
+      "_instruction": "Add all parties that contributed to this common coordinate space version as authors. Note that these authors will overwrite the author list provided for the overarching common coordinate space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Consortium",
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "description": "Creator of a literary or creative work, as well as a dataset publication.",
+      "label": "Author",
+      "labelPlural": "Authors",
+      "minItems": 1,
+      "name": "author",
+      "nameForReverseLink": null,
+      "namePlural": "authors",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/axesOrigin": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the origin (central point where all axes intersect) of this common coordinate space version for two-dimensional spaces as [x, y] or for three-dimensional space as [x, y, z].",
+      "description": "Special point in a coordinate system used as a fixed point of reference for the geometry of the surrounding space.",
+      "label": "Axes origin",
+      "labelPlural": "Axes origins",
+      "maxItems": 3,
+      "minItems": 2,
+      "name": "axesOrigin",
+      "nameForReverseLink": null,
+      "namePlural": "axesOrigins",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/copyright": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Copyright"
+      ],
+      "_instruction": "Enter the copyright information of this research product version.",
+      "description": "Exclusive and assignable legal right of an originator to reproduce, publish, sell, or distribute the matter and form of a creative work for a defined time period.",
+      "label": "Copyright",
+      "labelPlural": "Copyrights",
+      "name": "copyright",
+      "nameForReverseLink": null,
+      "namePlural": "copyrights"
+    },
+    "https://openminds.ebrains.eu/vocab/custodian": {
+      "_instruction": "Add all parties that fulfill the role of a custodian for the research product version (e.g., a research group leader or principle investigator). Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the data, metadata, and/or code of the research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Consortium",
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "description": "The 'custodian' is a legal person who is responsible for the content and quality of the data, metadata, and/or code of a research product.",
+      "label": "Custodian",
+      "labelPlural": "Custodians",
+      "minItems": 1,
+      "name": "custodian",
+      "nameForReverseLink": null,
+      "namePlural": "custodians",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/defaultImage": {
+      "_instruction": "Add all image files used as visual representation of this common coordinate space version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ],
+      "description": "Two or three dimensional image that particluarly represents a specific coordinate space.",
+      "label": "Default image",
+      "labelPlural": "Default images",
+      "minItems": 1,
+      "name": "defaultImage",
+      "nameForReverseLink": null,
+      "namePlural": "defaultImages",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/description": {
+      "_instruction": "Enter a description (or abstract) of this research product version. Note that this version specific description will overwrite the description for the overarching dataset.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/markdown",
+      "label": "Description",
+      "labelPlural": "Descriptions",
+      "multiline": true,
+      "name": "description",
+      "namePlural": "descriptions",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/ISBN",
+        "https://openminds.ebrains.eu/core/RRID"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers"
+    },
+    "https://openminds.ebrains.eu/vocab/fullDocumentation": {
+      "_instruction": "Add the publication or file that acts as the full documentation of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/ISBN",
+        "https://openminds.ebrains.eu/core/WebResource"
+      ],
+      "description": "Non-abridged instructions, comments, and information for using a particular product.",
+      "label": "Full documentation",
+      "labelPlural": "Full documentations",
+      "name": "fullDocumentation",
+      "nameForReverseLink": null,
+      "namePlural": "fullDocumentations"
+    },
+    "https://openminds.ebrains.eu/vocab/fullName": {
+      "_instruction": "Enter a descriptive full name (or title) for this research product version. Note that this version specific full name will overwrite the full name for the overarching dataset.",
+      "description": "Whole, non-abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Full name",
+      "labelPlural": "Full names",
+      "multiline": false,
+      "name": "fullName",
+      "namePlural": "fullNames",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/funding": {
+      "_instruction": "Add all funding information of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Funding"
+      ],
+      "description": "Money provided by a legal person for a particular purpose.",
+      "label": "Funding",
+      "labelPlural": "Funding",
+      "minItems": 1,
+      "name": "funding",
+      "nameForReverseLink": null,
+      "namePlural": "funding",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/homepage": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product version.",
+      "description": "Main website of something or someone.",
+      "formatting": "text/plain",
+      "label": "Homepage",
+      "labelPlural": "Homepages",
+      "multiline": false,
+      "name": "homepage",
+      "namePlural": "homepages",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/howToCite": {
+      "_instruction": "Enter the preferred citation text for this research product version. Leave blank if citation text can be extracted from the assigned digital identifier.",
+      "description": "Preferred format for citing a particular object or legal person.",
+      "formatting": "text/markdown",
+      "label": "How to cite",
+      "labelPlural": "How to cite",
+      "multiline": true,
+      "name": "howToCite",
+      "namePlural": "howToCite",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/isAlternativeVersionOf": {
+      "_instruction": "Add all common coordinate space versions that can be used alternatively to this common coordinate space version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+      ],
+      "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
+      "label": "Is alternative version of",
+      "labelPlural": "Is alternative version of",
+      "minItems": 1,
+      "name": "isAlternativeVersionOf",
+      "nameForReverseLink": null,
+      "namePlural": "isAlternativeVersionOf",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/isNewVersionOf": {
+      "_instruction": "Add the common coordinate space version preceding this common coordinate space version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+      ],
+      "description": "Reference to a previous (potentially outdated) particular form of something.",
+      "label": "Is new version of",
+      "labelPlural": "Is new version of",
+      "name": "isNewVersionOf",
+      "nameForReverseLink": null,
+      "namePlural": "isNewVersionOf"
+    },
+    "https://openminds.ebrains.eu/vocab/keyword": {
+      "_instruction": "Add all relevant keywords to this research product version either by adding controlled terms or by suggesting new terms.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/ActionStatusType",
+        "https://openminds.ebrains.eu/controlledTerms/AgeCategory",
+        "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalIdentificationType",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalPlane",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationCriteriaType",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationType",
+        "https://openminds.ebrains.eu/controlledTerms/AtlasType",
+        "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalOrder",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalProcess",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
+        "https://openminds.ebrains.eu/controlledTerms/BreedingType",
+        "https://openminds.ebrains.eu/controlledTerms/CellCultureType",
+        "https://openminds.ebrains.eu/controlledTerms/CellType",
+        "https://openminds.ebrains.eu/controlledTerms/ChemicalMixtureType",
+        "https://openminds.ebrains.eu/controlledTerms/Colormap",
+        "https://openminds.ebrains.eu/controlledTerms/ContributionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowConstructionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowReinforcementType",
+        "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType",
+        "https://openminds.ebrains.eu/controlledTerms/DataType",
+        "https://openminds.ebrains.eu/controlledTerms/DeviceType",
+        "https://openminds.ebrains.eu/controlledTerms/DifferenceMeasure",
+        "https://openminds.ebrains.eu/controlledTerms/Disease",
+        "https://openminds.ebrains.eu/controlledTerms/DiseaseModel",
+        "https://openminds.ebrains.eu/controlledTerms/EducationalLevel",
+        "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment",
+        "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach",
+        "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping",
+        "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType",
+        "https://openminds.ebrains.eu/controlledTerms/FileUsageRole",
+        "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType",
+        "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Handedness",
+        "https://openminds.ebrains.eu/controlledTerms/Language",
+        "https://openminds.ebrains.eu/controlledTerms/Laterality",
+        "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
+        "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
+        "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel",
+        "https://openminds.ebrains.eu/controlledTerms/ModelScope",
+        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/OperatingDevice",
+        "https://openminds.ebrains.eu/controlledTerms/OperatingSystem",
+        "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Organ",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSystem",
+        "https://openminds.ebrains.eu/controlledTerms/PatchClampVariation",
+        "https://openminds.ebrains.eu/controlledTerms/PreparationType",
+        "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility",
+        "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage",
+        "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap",
+        "https://openminds.ebrains.eu/controlledTerms/SemanticDataType",
+        "https://openminds.ebrains.eu/controlledTerms/Service",
+        "https://openminds.ebrains.eu/controlledTerms/SetupType",
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory",
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature",
+        "https://openminds.ebrains.eu/controlledTerms/Species",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/SubjectAttribute",
+        "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Technique",
+        "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
+        "https://openminds.ebrains.eu/controlledTerms/Terminology",
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleAttribute",
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
+        "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty",
+        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement",
+        "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType"
+      ],
+      "description": "Significant word or concept that are representative of something or someone.",
+      "label": "Keyword",
+      "labelPlural": "Keywords",
+      "minItems": 1,
+      "name": "keyword",
+      "nameForReverseLink": null,
+      "namePlural": "keywords",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/license": {
+      "_instruction": "Add the license of this common coordinate space version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/License"
+      ],
+      "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
+      "label": "License",
+      "labelPlural": "Licenses",
+      "name": "license",
+      "nameForReverseLink": null,
+      "namePlural": "licenses"
+    },
+    "https://openminds.ebrains.eu/vocab/nativeUnit": {
+      "_instruction": "Add the native unit that is used for this common coordinate space version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+      ],
+      "description": "Determinate quantity used in the original measurement.",
+      "label": "Native unit",
+      "labelPlural": "Native units",
+      "name": "nativeUnit",
+      "nameForReverseLink": null,
+      "namePlural": "nativeUnits"
+    },
+    "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the related ontological terms matching this common coordinate space version.",
+      "description": "Term or code used to identify something or someone registered within a particular ontology.",
+      "formatting": "text/plain",
+      "items": {
+        "_formats": [
+          "iri"
+        ],
+        "type": "string"
+      },
+      "label": "Ontology identifier",
+      "labelPlural": "Ontology identifiers",
+      "minItems": 1,
+      "multiline": false,
+      "name": "ontologyIdentifier",
+      "namePlural": "ontologyIdentifiers",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/otherContribution": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Contribution"
+      ],
+      "_instruction": "Add any other contributions to this research product version that are not covered under 'author'/'developer' or 'custodian'.",
+      "description": "Giving or supplying of something (such as money or time) as a part or share other than what is covered elsewhere.",
+      "label": "Other contribution",
+      "labelPlural": "Other contributions",
+      "minItems": 1,
+      "name": "otherContribution",
+      "nameForReverseLink": null,
+      "namePlural": "otherContributions",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/relatedPublication": {
+      "_instruction": "Add all further publications besides the full documentation that provide the original context for the production of this research product version (e.g., an original research article that used or produced the data of this research product version).",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/HANDLE",
+        "https://openminds.ebrains.eu/core/ISBN",
+        "https://openminds.ebrains.eu/core/ISSN"
+      ],
+      "description": "Reference to something that was made available for the general public to see or buy.",
+      "label": "Related publication",
+      "labelPlural": "Related publications",
+      "minItems": 1,
+      "name": "relatedPublication",
+      "nameForReverseLink": null,
+      "namePlural": "relatedPublications",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/releaseDate": {
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the date (actual or intended) on which this research product version was first release, formatted as 'YYYY-MM-DD'.",
+      "description": "Fixed date on which a product is due to become or was made available for the general public to see or buy",
+      "formatting": "text/plain",
+      "label": "Release date",
+      "labelPlural": "Release dates",
+      "multiline": false,
+      "name": "releaseDate",
+      "namePlural": "releaseDates",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/repository": {
+      "_instruction": "Add the file repository of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/FileRepository"
+      ],
+      "description": "Place, room, or container where something is deposited or stored.",
+      "label": "Repository",
+      "labelPlural": "Repositories",
+      "name": "repository",
+      "nameForReverseLink": null,
+      "namePlural": "repositories"
+    },
+    "https://openminds.ebrains.eu/vocab/shortName": {
+      "_instruction": "Enter a short name (or alias) for this research product version that could be used as a shortened display title (e.g., for web services with too little space to display the full name).",
+      "description": "Shortened or fully abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Short name",
+      "labelPlural": "Short names",
+      "multiline": false,
+      "name": "shortName",
+      "namePlural": "shortNames",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/supportChannel": {
+      "_instruction": "Enter all channels through which a user can receive support for handling this research product version.",
+      "description": "Way of communication used to interact with users or customers.",
+      "formatting": "text/plain",
+      "items": {
+        "_formats": [
+          "email",
+          "iri"
+        ],
+        "type": "string"
+      },
+      "label": "Support channel",
+      "labelPlural": "Support channels",
+      "minItems": 1,
+      "multiline": false,
+      "name": "supportChannel",
+      "namePlural": "supportChannels",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/usedSpecimen": {
+      "_instruction": "Add the specimen that was used for the creation of this common coordinate space version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Subject",
+        "https://openminds.ebrains.eu/core/SubjectGroup",
+        "https://openminds.ebrains.eu/core/TissueSample",
+        "https://openminds.ebrains.eu/core/TissueSampleCollection"
+      ],
+      "label": "Used specimen",
+      "labelPlural": "Used specimens",
+      "minItems": 1,
+      "name": "usedSpecimen",
+      "nameForReverseLink": null,
+      "namePlural": "usedSpecimens",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/versionIdentifier": {
+      "_instruction": "Enter the version identifier of this research product version.",
+      "description": "Term or code used to identify the version of something.",
+      "formatting": "text/plain",
+      "label": "Version identifier",
+      "labelPlural": "Version identifiers",
+      "multiline": false,
+      "name": "versionIdentifier",
+      "namePlural": "versionIdentifiers",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/versionInnovation": {
+      "_instruction": "Enter a short description (or summary) of the novelties/peculiarities of this research product version in comparison to its preceding versions. If this research product version is the first version, you can enter the following disclaimer 'This is the first version of this research product'.",
+      "description": "Documentation on what changed in comparison to a previously published form of something.",
+      "formatting": "text/markdown",
+      "label": "Version innovation",
+      "labelPlural": "Version innovations",
+      "multiline": true,
+      "name": "versionInnovation",
+      "namePlural": "versionInnovations",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/accessibility",
+    "https://openminds.ebrains.eu/vocab/anatomicalAxesOrientation",
+    "https://openminds.ebrains.eu/vocab/axesOrigin",
+    "https://openminds.ebrains.eu/vocab/fullDocumentation",
+    "https://openminds.ebrains.eu/vocab/nativeUnit",
+    "https://openminds.ebrains.eu/vocab/releaseDate",
+    "https://openminds.ebrains.eu/vocab/shortName",
+    "https://openminds.ebrains.eu/vocab/versionIdentifier",
+    "https://openminds.ebrains.eu/vocab/versionInnovation"
+  ]
+}

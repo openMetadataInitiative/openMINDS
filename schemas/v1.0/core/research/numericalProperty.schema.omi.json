@@ -1,0 +1,39 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/NumericalProperty",
+  "color": "#B94C59",
+  "description": "Structured information about a property of some entity or process whose value is a number.",
+  "label": "Numerical property",
+  "name": "NumericalProperty",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Enter a descriptive name for this numerical property.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/value": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter all quantitative values that are described by this numerical property.",
+      "description": "Entry for a property.",
+      "label": "Value",
+      "labelPlural": "Values",
+      "minItems": 1,
+      "name": "value",
+      "nameForReverseLink": null,
+      "namePlural": "values",
+      "type": "array"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/name",
+    "https://openminds.ebrains.eu/vocab/value"
+  ]
+}

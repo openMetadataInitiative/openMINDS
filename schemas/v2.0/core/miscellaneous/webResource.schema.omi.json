@@ -1,0 +1,47 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/WebResource",
+  "color": "#DAA9B5",
+  "label": "Web resource",
+  "name": "WebResource",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/IRI": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to this web resource.",
+      "description": "Stands for Internationalized Resource Identifier which is an internet protocol standard that builds on the URI protocol, extending the set of permitted characters to include Unicode/ISO 10646.",
+      "formatting": "text/plain",
+      "label": "Iri",
+      "labelPlural": "IRIs",
+      "multiline": false,
+      "name": "IRI",
+      "namePlural": "IRIs",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/contentDescription": {
+      "_instruction": "Enter a short content description for this web resource.",
+      "formatting": "text/plain",
+      "label": "Content description",
+      "labelPlural": "Content descriptions",
+      "multiline": true,
+      "name": "contentDescription",
+      "namePlural": "contentDescriptions",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/format": {
+      "_instruction": "Add the expected content type of the document at this web resource.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ],
+      "description": "Method of digitally organizing and structuring data or information.",
+      "label": "Format",
+      "labelPlural": "Formats",
+      "name": "format",
+      "nameForReverseLink": null,
+      "namePlural": "formats"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/IRI"
+  ]
+}

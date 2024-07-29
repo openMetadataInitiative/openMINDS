@@ -5,33 +5,59 @@
   "label": "Content type",
   "name": "ContentType",
   "properties": {
-    "https://openminds.ebrains.eu/vocab/associatedFileExtension": {
-      "_instruction": "Enter one or several file extensions associated with this content type.",
+    "https://openminds.ebrains.eu/vocab/dataType": {
+      "_instruction": "Add all data types that may be represented via this content type.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/DataType"
+      ],
+      "label": "Data type",
+      "labelPlural": "Data types",
+      "minItems": 1,
+      "name": "dataType",
+      "nameForReverseLink": null,
+      "namePlural": "dataTypes",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/description": {
+      "_instruction": "Enter a description of the content type specification. Leave blank if an official and public specification is linked under 'specification' for this content type.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/markdown",
+      "label": "Description",
+      "labelPlural": "Descriptions",
+      "multiline": true,
+      "name": "description",
+      "namePlural": "descriptions",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/displayLabel": {
+      "_instruction": "Enter a display label for this content type.",
+      "formatting": "text/plain",
+      "label": "Display label",
+      "labelPlural": "Display labels",
+      "multiline": false,
+      "name": "displayLabel",
+      "namePlural": "displayLabels",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/fileExtension": {
+      "_instruction": "Enter all file extensions associated with this content type.",
+      "description": "String of characters attached as suffix to the names of files of a particular format.",
       "formatting": "text/plain",
       "items": {
         "type": "string"
       },
-      "label": "Associated file extension",
-      "labelPlural": "Associated file extensions",
+      "label": "File extension",
+      "labelPlural": "File extensions",
       "minItems": 1,
       "multiline": false,
-      "name": "associatedFileExtension",
-      "namePlural": "associatedFileExtensions",
+      "name": "fileExtension",
+      "namePlural": "fileExtensions",
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.ebrains.eu/vocab/category": {
-      "_instruction": "Enter the category to which this content type belongs to.",
-      "formatting": "text/plain",
-      "label": "Category",
-      "labelPlural": "Categories",
-      "multiline": false,
-      "name": "category",
-      "namePlural": "categories",
-      "type": "string"
-    },
     "https://openminds.ebrains.eu/vocab/name": {
-      "_instruction": "Enter the name (iana-inspired convention) of this content type.",
+      "_instruction": "Enter the name of this content type following a IANA.org inspired convention.",
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
@@ -42,9 +68,11 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/relatedMediaType": {
-      "_instruction": "Enter the iternationalized resource identifier (IRI) to a registered media type (e.g. on IANA.org) matching this content type.",
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the official registered media type (e.g., provided on IANA.org) matching this content type.",
       "description": "Reference to an official two-part identifier for file formats and format contents.",
-      "format": "iri",
       "formatting": "text/plain",
       "label": "Related media type",
       "labelPlural": "Related media types",
@@ -53,8 +81,22 @@
       "namePlural": "relatedMediaTypes",
       "type": "string"
     },
+    "https://openminds.ebrains.eu/vocab/specification": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the official specification of this content type. If no official and public specification is available, leave blank and enter the specification under 'description'.",
+      "description": "Detailed and precise presentation of, or proposal for something.",
+      "formatting": "text/plain",
+      "label": "Specification",
+      "labelPlural": "Specifications",
+      "multiline": false,
+      "name": "specification",
+      "namePlural": "specifications",
+      "type": "string"
+    },
     "https://openminds.ebrains.eu/vocab/synonym": {
-      "_instruction": "Enter one or several synonyms of this content type.",
+      "_instruction": "Enter any synonyms of this content type.",
       "description": "Words or expressions used in the same language that have the same or nearly the same meaning in some or all senses.",
       "formatting": "text/plain",
       "items": {
@@ -71,8 +113,6 @@
     }
   },
   "required": [
-    "https://openminds.ebrains.eu/vocab/associatedFileExtension",
-    "https://openminds.ebrains.eu/vocab/category",
     "https://openminds.ebrains.eu/vocab/name"
   ]
 }

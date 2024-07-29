@@ -1,11 +1,14 @@
 {
+  "_categories": [
+    "fileOrigin"
+  ],
   "_type": "https://openminds.ebrains.eu/core/SubjectGroup",
   "color": "#374527",
   "label": "Subject group",
   "name": "SubjectGroup",
   "properties": {
     "https://openminds.ebrains.eu/vocab/additionalRemarks": {
-      "_instruction": "Enter additional remarks about the specimen set.",
+      "_instruction": "Enter any additional remarks concerning this specimen set.",
       "description": "Mention of what deserves additional attention or notice.",
       "formatting": "text/markdown",
       "label": "Additional remarks",
@@ -31,7 +34,7 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/internalIdentifier": {
-      "_instruction": "Enter the identifier of this specimen set that is used within the corresponding data.",
+      "_instruction": "Enter the identifier (or label) of this specimen set that is used within the corresponding data files to identify this specimen set.",
       "description": "Term or code that identifies someone or something within a particular product.",
       "formatting": "text/plain",
       "label": "Internal identifier",
@@ -42,7 +45,7 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/lookupLabel": {
-      "_instruction": "Enter a lookup label for this specimen set that may help you to more easily find it again.",
+      "_instruction": "Enter a lookup label for this specimen set that may help you to find this instance more easily.",
       "formatting": "text/plain",
       "label": "Lookup label",
       "labelPlural": "Lookup labels",
@@ -51,34 +54,20 @@
       "namePlural": "lookupLabels",
       "type": "string"
     },
-    "https://openminds.ebrains.eu/vocab/phenotype": {
-      "_instruction": "Add the phenotype of all specimen in this set.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Phenotype"
-      ],
-      "description": "Physical expression of one or more genes of an organism.",
-      "label": "Phenotype",
-      "labelPlural": "Phenotypes",
-      "minItems": 1,
-      "name": "phenotype",
-      "nameForReverseLink": null,
-      "namePlural": "phenotypes",
-      "type": "array",
-      "uniqueItems": true
-    },
-    "https://openminds.ebrains.eu/vocab/quantity": {
-      "_instruction": "Enter the number of specimen that belong to this set.",
-      "description": "Total amount or number of things or beings.",
-      "label": "Quantity",
-      "labelPlural": "Quantities",
-      "name": "quantity",
-      "namePlural": "quantities",
+    "https://openminds.ebrains.eu/vocab/numberOfSubjects": {
+      "_instruction": "Enter the number of subjects that belong to this subject group.",
+      "label": "Number of subjects",
+      "labelPlural": "Number of subjects",
+      "minimum": 2,
+      "name": "numberOfSubjects",
+      "namePlural": "numberOfSubjects",
       "type": "integer"
     },
     "https://openminds.ebrains.eu/vocab/species": {
-      "_instruction": "Add the species of all specimen in this set.",
+      "_instruction": "Add the species and/or strain (a sub-type of a genetic variant of species) of all specimen in this set.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Species"
+        "https://openminds.ebrains.eu/controlledTerms/Species",
+        "https://openminds.ebrains.eu/core/Strain"
       ],
       "description": "Category of biological classification comprising related organisms or populations potentially capable of interbreeding, and being designated by a binomial that consists of the name of a genus followed by a Latin or latinized uncapitalized noun or adjective.",
       "label": "Species",
@@ -87,21 +76,6 @@
       "name": "species",
       "nameForReverseLink": null,
       "namePlural": "species",
-      "type": "array",
-      "uniqueItems": true
-    },
-    "https://openminds.ebrains.eu/vocab/strain": {
-      "_instruction": "Add the strain of all specimen in this set.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Strain"
-      ],
-      "description": "Group of presumed common ancestry with physiological but usually not morphological distinctions.",
-      "label": "Strain",
-      "labelPlural": "Strains",
-      "minItems": 1,
-      "name": "strain",
-      "nameForReverseLink": null,
-      "namePlural": "strains",
       "type": "array",
       "uniqueItems": true
     },
@@ -122,7 +96,6 @@
     }
   },
   "required": [
-    "https://openminds.ebrains.eu/vocab/biologicalSex",
     "https://openminds.ebrains.eu/vocab/species",
     "https://openminds.ebrains.eu/vocab/studiedState"
   ]

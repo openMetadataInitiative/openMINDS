@@ -1,0 +1,37 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/PropertyValueList",
+  "color": "#D7BFC2",
+  "description": "An identifiable list of property-value pairs.",
+  "label": "Property value list",
+  "name": "PropertyValueList",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/lookupLabel": {
+      "_instruction": "Enter a lookup label for this property-value list that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "labelPlural": "Lookup labels",
+      "multiline": false,
+      "name": "lookupLabel",
+      "namePlural": "lookupLabels",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/propertyValuePair": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/NumericalProperty",
+        "https://openminds.ebrains.eu/core/StringProperty"
+      ],
+      "_instruction": "Enter all numerical and string property-value pairs that belong to this property-value list.",
+      "label": "Property value pair",
+      "labelPlural": "Property value pairs",
+      "minItems": 1,
+      "name": "propertyValuePair",
+      "nameForReverseLink": null,
+      "namePlural": "propertyValuePairs",
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/propertyValuePair"
+  ]
+}

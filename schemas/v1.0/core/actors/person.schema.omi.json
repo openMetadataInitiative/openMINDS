@@ -1,14 +1,74 @@
 {
+  "_categories": [
+    "agent",
+    "legalPerson"
+  ],
   "_type": "https://openminds.ebrains.eu/core/Person",
   "color": "#E5FDA4",
   "description": "Structured information on a person.",
   "label": "Person",
   "name": "Person",
   "properties": {
-    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
-      "_instruction": "Add one or several globally unique and persistent digital identifier for this person.",
+    "https://openminds.ebrains.eu/vocab/affiliation": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Affiliation"
+      ],
+      "_instruction": "Enter all current and, if desired, past affiliations of this person.",
+      "description": "Declaration of a person being closely associated to an organization.",
+      "label": "Affiliation",
+      "labelPlural": "Affiliations",
+      "minItems": 1,
+      "name": "affiliation",
+      "nameForReverseLink": null,
+      "namePlural": "affiliations",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/alternateName": {
+      "_instruction": "Enter any other known full name of this person.",
+      "formatting": "text/plain",
+      "items": {
+        "type": "string"
+      },
+      "label": "Alternate name",
+      "labelPlural": "Alternate names",
+      "minItems": 1,
+      "multiline": false,
+      "name": "alternateName",
+      "namePlural": "alternateNames",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/associatedAccount": {
+      "_instruction": "Add the information about web service accounts held by this person.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+        "https://openminds.ebrains.eu/core/AccountInformation"
+      ],
+      "label": "Associated account",
+      "labelPlural": "Associated accounts",
+      "minItems": 1,
+      "name": "associatedAccount",
+      "nameForReverseLink": null,
+      "namePlural": "associatedAccounts",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/contactInformation": {
+      "_instruction": "Add the contact information of this person.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContactInformation"
+      ],
+      "description": "Any available way used to contact a person or business (e.g., address, phone number, email address, etc.).",
+      "label": "Contact information",
+      "labelPlural": "Contact information",
+      "name": "contactInformation",
+      "nameForReverseLink": null,
+      "namePlural": "contactInformation"
+    },
+    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
+      "_instruction": "Add all globally unique and persistent digital identifier of this person.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ORCID"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -19,18 +79,6 @@
       "namePlural": "digitalIdentifiers",
       "type": "array",
       "uniqueItems": true
-    },
-    "https://openminds.ebrains.eu/vocab/email": {
-      "_instruction": "Enter the email address of this person.",
-      "description": "Address to which or from which an electronic mail can be sent.",
-      "format": "email",
-      "formatting": "text/plain",
-      "label": "Email",
-      "labelPlural": "Emails",
-      "multiline": false,
-      "name": "email",
-      "namePlural": "emails",
-      "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/familyName": {
       "_instruction": "Enter the family name of this person.",
@@ -56,7 +104,6 @@
     }
   },
   "required": [
-    "https://openminds.ebrains.eu/vocab/email",
     "https://openminds.ebrains.eu/vocab/givenName"
   ],
   "semanticEquivalent": [

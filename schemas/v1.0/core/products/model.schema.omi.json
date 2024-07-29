@@ -1,26 +1,75 @@
 {
+  "_categories": [
+    "researchProduct"
+  ],
   "_type": "https://openminds.ebrains.eu/core/Model",
   "color": "#7FBBEC",
   "description": "Structured information on a computational model (concept level).",
   "label": "Model",
   "name": "Model",
   "properties": {
+    "https://openminds.ebrains.eu/vocab/abstractionLevel": {
+      "_instruction": "Add the abstraction level of this computational model.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel"
+      ],
+      "description": "Extent of simplification of physical, spatial, or temporal details or attributes in the study of objects or systems.",
+      "label": "Abstraction level",
+      "labelPlural": "Abstraction levels",
+      "name": "abstractionLevel",
+      "nameForReverseLink": null,
+      "namePlural": "abstractionLevels"
+    },
+    "https://openminds.ebrains.eu/vocab/custodian": {
+      "_instruction": "Add all parties that fulfill the role of a custodian for this research product (e.g., a research group leader or principle investigator). Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the data, metadata, and/or code of the research product. Unless specified differently, this custodian will be responsible for all attached research product versions.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Consortium",
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "description": "The 'custodian' is a legal person who is responsible for the content and quality of the data, metadata, and/or code of a research product.",
+      "label": "Custodian",
+      "labelPlural": "Custodians",
+      "minItems": 1,
+      "name": "custodian",
+      "nameForReverseLink": null,
+      "namePlural": "custodians",
+      "type": "array",
+      "uniqueItems": true
+    },
     "https://openminds.ebrains.eu/vocab/description": {
-      "_instruction": "Enter a description (abstract) for this research product (max. 2000 characters, incl. spaces; no references).",
+      "_instruction": "Enter a description (or abstract) of this research product. Note that this should be a suitable description for all attached research product versions.",
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
       "labelPlural": "Descriptions",
-      "maxLength": 2000,
       "multiline": true,
       "name": "description",
       "namePlural": "descriptions",
       "type": "string"
     },
-    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
-      "_instruction": "Add the globally unique and persistent digital identifier of this research product.",
+    "https://openminds.ebrains.eu/vocab/developer": {
+      "_instruction": "Add all parties that developed this computational model.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+        "https://openminds.ebrains.eu/core/Consortium",
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "description": "Legal person that creates or improves products or services (e.g., software, applications, etc.).",
+      "label": "Developer",
+      "labelPlural": "Developers",
+      "minItems": 1,
+      "name": "developer",
+      "nameForReverseLink": null,
+      "namePlural": "developers",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/SWHID"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -30,7 +79,7 @@
       "namePlural": "digitalIdentifiers"
     },
     "https://openminds.ebrains.eu/vocab/fullName": {
-      "_instruction": "Enter a descriptive full name (title) for this research product.",
+      "_instruction": "Enter a descriptive full name (or title) for this research product. Note that this should be a suitable full name for all attached research product versions.",
       "description": "Whole, non-abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Full name",
@@ -41,7 +90,7 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/hasVersion": {
-      "_instruction": "Add one or several versions of this computational model.",
+      "_instruction": "Add all versions of this computational model.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ModelVersion"
       ],
@@ -56,9 +105,11 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/homepage": {
+      "_formats": [
+        "iri"
+      ],
       "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product.",
       "description": "Main website of something or someone.",
-      "format": "iri",
       "formatting": "text/plain",
       "label": "Homepage",
       "labelPlural": "Homepages",
@@ -67,23 +118,91 @@
       "namePlural": "homepages",
       "type": "string"
     },
+    "https://openminds.ebrains.eu/vocab/howToCite": {
+      "_instruction": "Enter the preferred citation text for this research product. Leave blank if citation text can be extracted from the assigned digital identifier.",
+      "description": "Preferred format for citing a particular object or legal person.",
+      "formatting": "text/markdown",
+      "label": "How to cite",
+      "labelPlural": "How to cite",
+      "multiline": true,
+      "name": "howToCite",
+      "namePlural": "howToCite",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/scope": {
+      "_instruction": "Add the scope of this computational model.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/ModelScope"
+      ],
+      "description": "Extent of something.",
+      "label": "Scope",
+      "labelPlural": "Scopes",
+      "name": "scope",
+      "nameForReverseLink": null,
+      "namePlural": "scopes"
+    },
     "https://openminds.ebrains.eu/vocab/shortName": {
-      "_instruction": "Enter a short name (alias) for this research product (max. 30 characters; no space).",
+      "_instruction": "Enter a short name (or alias) for this research product that could be used as a shortened display title (e.g., for web services with too little space to display the full name).",
       "description": "Shortened or fully abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Short name",
       "labelPlural": "Short names",
-      "maxLength": 30,
       "multiline": false,
       "name": "shortName",
       "namePlural": "shortNames",
       "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/studyTarget": {
+      "_instruction": "Add all study targets of this computational model.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalOrder",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
+        "https://openminds.ebrains.eu/controlledTerms/BreedingType",
+        "https://openminds.ebrains.eu/controlledTerms/CellCultureType",
+        "https://openminds.ebrains.eu/controlledTerms/CellType",
+        "https://openminds.ebrains.eu/controlledTerms/Disease",
+        "https://openminds.ebrains.eu/controlledTerms/DiseaseModel",
+        "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType",
+        "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Handedness",
+        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Organ",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSystem",
+        "https://openminds.ebrains.eu/controlledTerms/Species",
+        "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
+        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
+        "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType",
+        "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
+        "https://openminds.ebrains.eu/sands/ParcellationEntity",
+        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+      ],
+      "description": "Structure or function that was targeted within a study.",
+      "label": "Study target",
+      "labelPlural": "Study targets",
+      "minItems": 1,
+      "name": "studyTarget",
+      "nameForReverseLink": null,
+      "namePlural": "studyTargets",
+      "type": "array",
+      "uniqueItems": true
     }
   },
   "required": [
+    "https://openminds.ebrains.eu/vocab/abstractionLevel",
     "https://openminds.ebrains.eu/vocab/description",
-    "https://openminds.ebrains.eu/vocab/digitalIdentifier",
+    "https://openminds.ebrains.eu/vocab/developer",
     "https://openminds.ebrains.eu/vocab/fullName",
-    "https://openminds.ebrains.eu/vocab/shortName"
+    "https://openminds.ebrains.eu/vocab/hasVersion",
+    "https://openminds.ebrains.eu/vocab/scope",
+    "https://openminds.ebrains.eu/vocab/shortName",
+    "https://openminds.ebrains.eu/vocab/studyTarget"
   ]
 }

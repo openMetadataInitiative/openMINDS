@@ -1,0 +1,25 @@
+{
+  "_categories": [
+    "mathematicalShapes"
+  ],
+  "_type": "https://openminds.ebrains.eu/sands/Circle",
+  "color": "#00B57F",
+  "label": "Circle",
+  "name": "Circle",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/radius": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the radius of this circle.",
+      "label": "Radius",
+      "labelPlural": "Radii",
+      "name": "radius",
+      "nameForReverseLink": null,
+      "namePlural": "radii"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/radius"
+  ]
+}

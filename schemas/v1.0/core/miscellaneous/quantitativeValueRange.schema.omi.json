@@ -6,28 +6,44 @@
   "name": "QuantitativeValueRange",
   "properties": {
     "https://openminds.ebrains.eu/vocab/maxValue": {
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
-      ],
-      "_instruction": "Add the maximum quantitative value of this range.",
+      "_instruction": "Enter the maximum value.",
       "description": "Greatest quantity attained or allowed.",
       "label": "Max value",
       "labelPlural": "Max values",
       "name": "maxValue",
+      "namePlural": "maxValues",
+      "type": "number"
+    },
+    "https://openminds.ebrains.eu/vocab/maxValueUnit": {
+      "_instruction": "Add the unit of measurement for the maximum value.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+      ],
+      "label": "Max value unit",
+      "labelPlural": "Max value units",
+      "name": "maxValueUnit",
       "nameForReverseLink": null,
-      "namePlural": "maxValues"
+      "namePlural": "maxValueUnits"
     },
     "https://openminds.ebrains.eu/vocab/minValue": {
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
-      ],
-      "_instruction": "Add the minimum quantitative value of this range.",
+      "_instruction": "Enter the minimum value.",
       "description": "Smallest quantity attained or allowed.",
       "label": "Min value",
       "labelPlural": "Min values",
       "name": "minValue",
+      "namePlural": "minValues",
+      "type": "number"
+    },
+    "https://openminds.ebrains.eu/vocab/minValueUnit": {
+      "_instruction": "Add the unit of measurement for the minimum value.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+      ],
+      "label": "Min value unit",
+      "labelPlural": "Min value units",
+      "name": "minValueUnit",
       "nameForReverseLink": null,
-      "namePlural": "minValues"
+      "namePlural": "minValueUnits"
     }
   },
   "required": [

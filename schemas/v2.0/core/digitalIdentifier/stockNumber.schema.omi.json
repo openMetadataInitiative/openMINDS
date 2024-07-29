@@ -1,0 +1,34 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/StockNumber",
+  "color": "#E8C282",
+  "label": "Stock number",
+  "name": "StockNumber",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/identifier": {
+      "_instruction": "Enter the stock number of an item provided by a store or company.",
+      "description": "Term or code used to identify something or someone.",
+      "formatting": "text/plain",
+      "label": "Identifier",
+      "labelPlural": "Identifiers",
+      "multiline": false,
+      "name": "identifier",
+      "namePlural": "identifiers",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/vendor": {
+      "_instruction": "Add the vendor that has the item with this identifier in stock.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Organization"
+      ],
+      "label": "Vendor",
+      "labelPlural": "Vendors",
+      "name": "vendor",
+      "nameForReverseLink": null,
+      "namePlural": "vendors"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/identifier",
+    "https://openminds.ebrains.eu/vocab/vendor"
+  ]
+}

@@ -9,7 +9,7 @@
       "_formats": [
         "iri"
       ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) of this file repository.",
+      "_instruction": "Enter the internationalized resource identifier (IRI) to this file repository.",
       "description": "Stands for Internationalized Resource Identifier which is an internet protocol standard that builds on the URI protocol, extending the set of permitted characters to include Unicode/ISO 10646.",
       "formatting": "text/plain",
       "label": "Iri",
@@ -19,8 +19,22 @@
       "namePlural": "IRIs",
       "type": "string"
     },
+    "https://openminds.ebrains.eu/vocab/contentTypePattern": {
+      "_instruction": "Add all content type patterns that identify matching content types for files within this file repository.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentTypePattern"
+      ],
+      "label": "Content type pattern",
+      "labelPlural": "Content type patterns",
+      "minItems": 1,
+      "name": "contentTypePattern",
+      "nameForReverseLink": null,
+      "namePlural": "contentTypePatterns",
+      "type": "array",
+      "uniqueItems": true
+    },
     "https://openminds.ebrains.eu/vocab/format": {
-      "_instruction": "If file instances and bundles within the repository are organized and formatted according to a formal data structure use the appropriate contentType. Leave blank otherwise.",
+      "_instruction": "If the files and file bundles within this repository are organised and formatted according to a formal data structure, add the content type of this formal data structure. Leave blank if no formal data structure has been applied.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ],
@@ -44,7 +58,7 @@
       "namePlural": "hashes"
     },
     "https://openminds.ebrains.eu/vocab/hostedBy": {
-      "_instruction": "Add the host of this file repository.",
+      "_instruction": "Add the host organization of this file repository.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Organization"
       ],
@@ -66,28 +80,40 @@
       "namePlural": "names",
       "type": "string"
     },
-    "https://openminds.ebrains.eu/vocab/repositoryType": {
-      "_instruction": "Add the type of this file repository.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType"
-      ],
-      "label": "Repository type",
-      "labelPlural": "Repository types",
-      "name": "repositoryType",
-      "nameForReverseLink": null,
-      "namePlural": "repositoryTypes"
-    },
     "https://openminds.ebrains.eu/vocab/storageSize": {
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ],
-      "_instruction": "Enter the storage size this file repository allocates.",
+      "_instruction": "Enter the storage size of this file repository.",
       "description": "Quantitative value defining how much disk space is used by an object on a computer system.",
       "label": "Storage size",
       "labelPlural": "Storage sizes",
       "name": "storageSize",
       "nameForReverseLink": null,
       "namePlural": "storageSizes"
+    },
+    "https://openminds.ebrains.eu/vocab/structurePattern": {
+      "_instruction": "Add the file repository structure that identifies the file path patterns used in this file repository.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/FileRepositoryStructure"
+      ],
+      "label": "Structure pattern",
+      "labelPlural": "Structure patterns",
+      "name": "structurePattern",
+      "nameForReverseLink": null,
+      "namePlural": "structurePatterns"
+    },
+    "https://openminds.ebrains.eu/vocab/type": {
+      "_instruction": "Add the type of this file repository.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType"
+      ],
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "label": "Type",
+      "labelPlural": "Types",
+      "name": "type",
+      "nameForReverseLink": null,
+      "namePlural": "types"
     }
   },
   "required": [
