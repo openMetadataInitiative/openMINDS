@@ -10,6 +10,7 @@ from openMINDS_pipeline.vocab import TypeExtractor, Types, PropertyExtractor, Pr
 parser = argparse.ArgumentParser(prog=sys.argv[0], description='Expand openMINDS schema, extract vocabularies and instances')
 parser.add_argument('--branch', help="The branch that triggered the re-build", default=None)
 parser.add_argument('--repository', help="The repository that triggered the re-build", default=None)
+parser.add_argument('--config', help="Version configuration file", default="versions.json")
 args = vars(parser.parse_args())
 trigger = Trigger(args["branch"] if args["branch"] != "" else None, args["repository"] if args["repository"] != "" else None) if args["branch"] and args["repository"] else None
 
@@ -21,7 +22,7 @@ directory_structure = DirectoryStructure()
 clone_central(True)
 
 # Step 1 - find the versions to be (re-)built
-relevant_versions = evaluate_versions_to_be_built(trigger)
+relevant_versions = evaluate_versions_to_be_built(args.config, trigger)
 
 for version, modules in relevant_versions.items():
 
@@ -60,5 +61,3 @@ if not trigger:
     # We've built everything - this is the only chance to do a proper cleanup at the end because we know all versions have been processed.
     Types(directory_structure).clean_types()
     Property(directory_structure).clean_properties()
-
-

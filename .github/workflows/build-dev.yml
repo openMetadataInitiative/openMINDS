@@ -1,5 +1,5 @@
 # MIT licensed
-name: openMINDS_build_pipline
+name: openMINDS_dev_build_pipeline
 
 on:
   push:
@@ -21,10 +21,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    
+
     - name: Checkout Repository
       uses: actions/checkout@v3
-      
+
     - name: Set up Python 3.11
       uses: actions/setup-python@v2
       with:
@@ -33,19 +33,19 @@ jobs:
     - name: Run build
       run: |
         pip install -r requirements.txt
-        python build.py --repository "${{ inputs.repository }}" --branch "${{ inputs.branch }}" --config versions.json
+        python build.py --repository "${{ inputs.repository }}" --branch "${{ inputs.branch }}" --config versions-dev.json
 
-    - name: Checkout main branch
+    - name: Checkout development branch
       uses: actions/checkout@v3
       with:
-        ref: main
-        path: main
+        ref: development
+        path: development
         token: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Push to main
+    - name: Push to development
       run: |
-        cp -R target/* main
-        cd main       
+        cp -R target/* development
+        cd development
         git config --global user.email "openminds@ebrains.eu"
         git config --global user.name "openMINDS pipeline"
         if [[ $(git add . --dry-run | wc -l) -gt 0 ]]; then
@@ -55,4 +55,3 @@ jobs:
         else
             echo "Nothing to commit"
         fi
-        
