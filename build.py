@@ -22,7 +22,7 @@ directory_structure = DirectoryStructure()
 clone_central(True)
 
 # Step 1 - find the versions to be (re-)built
-relevant_versions = evaluate_versions_to_be_built(args.config, trigger)
+relevant_versions = evaluate_versions_to_be_built(args["config"], trigger)
 
 for version, modules in relevant_versions.items():
 
