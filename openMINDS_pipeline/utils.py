@@ -71,7 +71,7 @@ def evaluate_versions_to_be_built(version_config: str, trigger:Optional[Trigger]
         new_modules = {}
         for module, module_spec in modules.items():
             m = OpenMINDSModule(**module_spec)
-            if not m.branch:
+            if not m.commit:
                 is_dynamic = True
                 _evaluate_branch_and_commit_for_dynamic_instances(m)
             if trigger and m.repository and m.repository.endswith(f"{trigger.repository}.git"):
@@ -86,17 +86,20 @@ def evaluate_versions_to_be_built(version_config: str, trigger:Optional[Trigger]
 def _evaluate_branch_and_commit_for_dynamic_instances(module_spec:OpenMINDSModule):
     git_instance = Git()
     branches = git_instance.ls_remote('--heads', module_spec.repository).splitlines()
-    semantic_to_branchname = {}
-    branch_to_commit = {y[1]: y[0] for y in [x.split("\trefs/heads/") for x in branches] if re.match("v[0-9]+.*", y[1])}
-    for branch_name in list(branch_to_commit.keys()):
-        semantic = canonicalize_version(branch_name)
-        semantic = f"{semantic}.0" if "." not in semantic else semantic
-        semantic_to_branchname[semantic] = branch_name
-    version_numbers = list(semantic_to_branchname.keys())
-    version_numbers.sort(key=Version, reverse=True)
-    latest_branch_name = semantic_to_branchname[version_numbers[0]]
-    module_spec.branch = latest_branch_name
-    module_spec.commit = branch_to_commit[latest_branch_name]
+    if module_spec.branch:
+        branch_to_commit = {y[1]: y[0] for y in [x.split("\trefs/heads/") for x in branches] if y[1] == module_spec.branch}
+    else:
+        semantic_to_branchname = {}
+        branch_to_commit = {y[1]: y[0] for y in [x.split("\trefs/heads/") for x in branches] if re.match("v[0-9]+.*", y[1])}
+        for branch_name in list(branch_to_commit.keys()):
+            semantic = canonicalize_version(branch_name)
+            semantic = f"{semantic}.0" if "." not in semantic else semantic
+            semantic_to_branchname[semantic] = branch_name
+        version_numbers = list(semantic_to_branchname.keys())
+        version_numbers.sort(key=Version, reverse=True)
+        latest_branch_name = semantic_to_branchname[version_numbers[0]]
+        module_spec.branch = latest_branch_name
+    module_spec.commit = branch_to_commit[module_spec.branch]
 
 
 def find_schemas(directory_structure: DirectoryStructure, modules: Dict[str, OpenMINDSModule]) -> List[SchemaStructure]:
