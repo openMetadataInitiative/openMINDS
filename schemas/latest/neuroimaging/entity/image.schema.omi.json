@@ -1,0 +1,105 @@
+{
+  "_type": "https://openminds.ebrains.eu/neuroimaging/Image",
+  "label": "Image",
+  "name": "Image",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/additionalRemarks": {
+      "_instruction": "Enter any additional remarks concerning this image.",
+      "description": "Mention of what deserves additional attention or notice.",
+      "formatting": "text/markdown",
+      "label": "Additional remarks",
+      "labelPlural": "Additional remarks",
+      "multiline": true,
+      "name": "additionalRemarks",
+      "namePlural": "additionalRemarks",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/capturedWith": {
+      "_instruction": "Add the device used to captured this image.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
+        "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
+        "https://openminds.ebrains.eu/ephys/PipetteUsage",
+        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
+        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+      ],
+      "label": "Captured with",
+      "name": "capturedWith",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/colorDepth": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the number of bits used to represent the color of each pixel.",
+      "label": "Color depth",
+      "name": "colorDepth",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/coordinateSpace": {
+      "_instruction": "Add the coordinate space in which this image exists.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CustomCoordinateSpace"
+      ],
+      "description": "Two or three dimensional geometric setting.",
+      "label": "Coordinate space",
+      "labelPlural": "Coordinate spaces",
+      "name": "coordinateSpace",
+      "nameForReverseLink": null,
+      "namePlural": "coordinateSpaces"
+    },
+    "https://openminds.ebrains.eu/vocab/dataLocation": {
+      "_instruction": "Add the location of the file or file bundle in which the image is stored.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ],
+      "label": "Data location",
+      "labelPlural": "Data locations",
+      "name": "dataLocation",
+      "nameForReverseLink": null,
+      "namePlural": "dataLocations"
+    },
+    "https://openminds.ebrains.eu/vocab/dimension": {
+      "_instruction": "Enter the dimension of this image in pixels.",
+      "items": {
+        "type": "integer"
+      },
+      "label": "Dimension",
+      "labelPlural": "Dimensions",
+      "maxItems": 2,
+      "minItems": 2,
+      "name": "dimension",
+      "namePlural": "dimensions",
+      "type": "array"
+    },
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Enter a descriptive name for this image.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/pixelSize": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the physical pixel size for this image (in x,y order).",
+      "label": "Pixel size",
+      "maxItems": 2,
+      "minItems": 2,
+      "name": "pixelSize",
+      "nameForReverseLink": null,
+      "type": "array"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/coordinateSpace",
+    "https://openminds.ebrains.eu/vocab/dataLocation",
+    "https://openminds.ebrains.eu/vocab/dimension",
+    "https://openminds.ebrains.eu/vocab/pixelSize"
+  ]
+}

@@ -5,22 +5,8 @@
   "label": "Content type",
   "name": "ContentType",
   "properties": {
-    "https://openminds.ebrains.eu/vocab/dataType": {
-      "_instruction": "Add all data types that may be represented via this content type.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/DataType"
-      ],
-      "label": "Data type",
-      "labelPlural": "Data types",
-      "minItems": 1,
-      "name": "dataType",
-      "nameForReverseLink": null,
-      "namePlural": "dataTypes",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.ebrains.eu/vocab/description": {
-      "_instruction": "Enter a description of the content type specification. Leave blank if an official and public specification is linked under 'specification' for this content type.",
+      "_instruction": "Enter a description of the content type specification. May be left blank if a public specification can be linked in 'specification'.",
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
@@ -30,18 +16,8 @@
       "namePlural": "descriptions",
       "type": "string"
     },
-    "https://openminds.ebrains.eu/vocab/displayLabel": {
-      "_instruction": "Enter a display label for this content type.",
-      "formatting": "text/plain",
-      "label": "Display label",
-      "labelPlural": "Display labels",
-      "multiline": false,
-      "name": "displayLabel",
-      "namePlural": "displayLabels",
-      "type": "string"
-    },
     "https://openminds.ebrains.eu/vocab/fileExtension": {
-      "_instruction": "Enter all file extensions associated with this content type.",
+      "_instruction": "Enter one or several file extensions associated with this content type.",
       "description": "String of characters attached as suffix to the names of files of a particular format.",
       "formatting": "text/plain",
       "items": {
@@ -57,7 +33,7 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/name": {
-      "_instruction": "Enter the name of this content type following a IANA.org inspired convention.",
+      "_instruction": "Enter the name (iana-inspired convention) of this content type.",
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
@@ -71,7 +47,7 @@
       "_formats": [
         "iri"
       ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) to the official registered media type (e.g., provided on IANA.org) matching this content type.",
+      "_instruction": "Enter the iternationalized resource identifier (IRI) of the official registered media type (e.g. on IANA.org) matching this content type.",
       "description": "Reference to an official two-part identifier for file formats and format contents.",
       "formatting": "text/plain",
       "label": "Related media type",
@@ -85,7 +61,7 @@
       "_formats": [
         "iri"
       ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) to the official specification of this content type. If no official and public specification is available, leave blank and enter the specification under 'description'.",
+      "_instruction": "Enter the iternationalized resource identifier (IRI) of the official specification of this content type. Leave blank and use 'description' to provide some specification if an official specification is not available.",
       "description": "Detailed and precise presentation of, or proposal for something.",
       "formatting": "text/plain",
       "label": "Specification",
@@ -96,7 +72,7 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/synonym": {
-      "_instruction": "Enter any synonyms of this content type.",
+      "_instruction": "Enter one or several synonyms of this content type.",
       "description": "Words or expressions used in the same language that have the same or nearly the same meaning in some or all senses.",
       "formatting": "text/plain",
       "items": {

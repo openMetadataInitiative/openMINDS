@@ -1,8 +1,4 @@
 {
-  "_categories": [
-    "researchProduct",
-    "setupComponent"
-  ],
   "_type": "https://openminds.ebrains.eu/core/SoftwareVersion",
   "color": "#FFA861",
   "label": "Software version",
@@ -39,7 +35,7 @@
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/Copyright"
       ],
-      "_instruction": "Enter the copyright information of this research product version.",
+      "_instruction": "Add the copyright information of this research product version.",
       "description": "Exclusive and assignable legal right of an originator to reproduce, publish, sell, or distribute the matter and form of a creative work for a defined time period.",
       "label": "Copyright",
       "labelPlural": "Copyrights",
@@ -48,9 +44,8 @@
       "namePlural": "copyrights"
     },
     "https://openminds.ebrains.eu/vocab/custodian": {
-      "_instruction": "Add all parties that fulfill the role of a custodian for the research product version (e.g., a research group leader or principle investigator). Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the data, metadata, and/or code of the research product version.",
+      "_instruction": "Add one or several custodians (person or organization) that are responsible for this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Consortium",
         "https://openminds.ebrains.eu/core/Organization",
         "https://openminds.ebrains.eu/core/Person"
       ],
@@ -65,20 +60,20 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/description": {
-      "_instruction": "Enter a description (or abstract) of this research product version. Note that this version specific description will overwrite the description for the overarching dataset.",
+      "_instruction": "If necessary, enter a version specific description (abstract) for this research product version (max. 2000 characters, incl. spaces; no references). If left blank, the research product version will inherit the 'description' of it's corresponding research product.",
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
       "labelPlural": "Descriptions",
+      "maxLength": 2000,
       "multiline": true,
       "name": "description",
       "namePlural": "descriptions",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/developer": {
-      "_instruction": "Add all parties that developed this software version. Note that these developers will overwrite the developer list provided for the overarching software.",
+      "_instruction": "If necessary, add one or several developers (person or organization) that contributed to the code implementation of this software version. Note that these developers will overwrite the once provided in the software product this version belongs to.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Consortium",
         "https://openminds.ebrains.eu/core/Organization",
         "https://openminds.ebrains.eu/core/Person"
       ],
@@ -93,7 +88,7 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/device": {
-      "_instruction": "Add all operating devices compatible with this software version.",
+      "_instruction": "Add all hardware devices compatible with this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/OperatingDevice"
       ],
@@ -111,8 +106,7 @@
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/SWHID",
-        "https://openminds.ebrains.eu/core/RRID"
+        "https://openminds.ebrains.eu/core/SWHID"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -122,7 +116,7 @@
       "namePlural": "digitalIdentifiers"
     },
     "https://openminds.ebrains.eu/vocab/feature": {
-      "_instruction": "Add all distinguishing characteristics of this software version (e.g., performance, portability or functionality).",
+      "_instruction": "Add all distinguishing characteristics of this software version (e.g. performance, portability, or functionality).",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
       ],
@@ -137,12 +131,11 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/fullDocumentation": {
-      "_instruction": "Add the publication or file that acts as the full documentation of this research product version.",
+      "_instruction": "Add the DOI, file or URL that points to a full documentation of this research product version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
         "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/ISBN",
-        "https://openminds.ebrains.eu/core/WebResource"
+        "https://openminds.ebrains.eu/core/URL"
       ],
       "description": "Non-abridged instructions, comments, and information for using a particular product.",
       "label": "Full documentation",
@@ -152,7 +145,7 @@
       "namePlural": "fullDocumentations"
     },
     "https://openminds.ebrains.eu/vocab/fullName": {
-      "_instruction": "Enter a descriptive full name (or title) for this research product version. Note that this version specific full name will overwrite the full name for the overarching dataset.",
+      "_instruction": "If necessary, enter a version specific descriptive full name (title) for this research product version. If left blank, the research product version will inherit the 'fullName' of it's corresponding research product.",
       "description": "Whole, non-abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Full name",
@@ -177,33 +170,32 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.ebrains.eu/vocab/hasPart": {
+    "https://openminds.ebrains.eu/vocab/hasComponent": {
       "_instruction": "Add all software versions that supplement this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
       ],
-      "label": "Has part",
-      "labelPlural": "Has parts",
+      "description": "Reference to an element of a collection.",
+      "label": "Has component",
+      "labelPlural": "Has components",
       "minItems": 1,
-      "name": "hasPart",
+      "name": "hasComponent",
       "nameForReverseLink": null,
-      "namePlural": "hasParts",
+      "namePlural": "hasComponents",
       "type": "array",
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/homepage": {
-      "_formats": [
-        "iri"
+      "_instruction": "Add the uniform resource locator (URL) to the homepage of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/URL"
       ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product version.",
       "description": "Main website of something or someone.",
-      "formatting": "text/plain",
       "label": "Homepage",
       "labelPlural": "Homepages",
-      "multiline": false,
       "name": "homepage",
-      "namePlural": "homepages",
-      "type": "string"
+      "nameForReverseLink": null,
+      "namePlural": "homepages"
     },
     "https://openminds.ebrains.eu/vocab/howToCite": {
       "_instruction": "Enter the preferred citation text for this research product version. Leave blank if citation text can be extracted from the assigned digital identifier.",
@@ -217,7 +209,7 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/inputFormat": {
-      "_instruction": "Add all content types that can be used as input by this software version.",
+      "_instruction": "Add the content types of all possible input formats for this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ],
@@ -259,94 +251,18 @@
       "namePlural": "isNewVersionOf"
     },
     "https://openminds.ebrains.eu/vocab/keyword": {
-      "_instruction": "Add all relevant keywords to this research product version either by adding controlled terms or by suggesting new terms.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/ActionStatusType",
-        "https://openminds.ebrains.eu/controlledTerms/AgeCategory",
-        "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
-        "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation",
-        "https://openminds.ebrains.eu/controlledTerms/AnatomicalIdentificationType",
-        "https://openminds.ebrains.eu/controlledTerms/AnatomicalPlane",
-        "https://openminds.ebrains.eu/controlledTerms/AnnotationCriteriaType",
-        "https://openminds.ebrains.eu/controlledTerms/AnnotationType",
-        "https://openminds.ebrains.eu/controlledTerms/AtlasType",
-        "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
-        "https://openminds.ebrains.eu/controlledTerms/BiologicalOrder",
-        "https://openminds.ebrains.eu/controlledTerms/BiologicalProcess",
-        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
-        "https://openminds.ebrains.eu/controlledTerms/BreedingType",
-        "https://openminds.ebrains.eu/controlledTerms/CellCultureType",
-        "https://openminds.ebrains.eu/controlledTerms/CellType",
-        "https://openminds.ebrains.eu/controlledTerms/ChemicalMixtureType",
-        "https://openminds.ebrains.eu/controlledTerms/Colormap",
-        "https://openminds.ebrains.eu/controlledTerms/ContributionType",
-        "https://openminds.ebrains.eu/controlledTerms/CranialWindowConstructionType",
-        "https://openminds.ebrains.eu/controlledTerms/CranialWindowReinforcementType",
-        "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType",
-        "https://openminds.ebrains.eu/controlledTerms/DataType",
-        "https://openminds.ebrains.eu/controlledTerms/DeviceType",
-        "https://openminds.ebrains.eu/controlledTerms/DifferenceMeasure",
-        "https://openminds.ebrains.eu/controlledTerms/Disease",
-        "https://openminds.ebrains.eu/controlledTerms/DiseaseModel",
-        "https://openminds.ebrains.eu/controlledTerms/EducationalLevel",
-        "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
-        "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment",
-        "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach",
-        "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping",
-        "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType",
-        "https://openminds.ebrains.eu/controlledTerms/FileUsageRole",
-        "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType",
-        "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
-        "https://openminds.ebrains.eu/controlledTerms/Handedness",
-        "https://openminds.ebrains.eu/controlledTerms/Language",
-        "https://openminds.ebrains.eu/controlledTerms/Laterality",
-        "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
-        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
-        "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
-        "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
-        "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
-        "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel",
-        "https://openminds.ebrains.eu/controlledTerms/ModelScope",
-        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity",
-        "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
-        "https://openminds.ebrains.eu/controlledTerms/OperatingDevice",
-        "https://openminds.ebrains.eu/controlledTerms/OperatingSystem",
-        "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
-        "https://openminds.ebrains.eu/controlledTerms/Organ",
-        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
-        "https://openminds.ebrains.eu/controlledTerms/OrganismSystem",
-        "https://openminds.ebrains.eu/controlledTerms/PatchClampVariation",
-        "https://openminds.ebrains.eu/controlledTerms/PreparationType",
-        "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility",
-        "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage",
-        "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap",
-        "https://openminds.ebrains.eu/controlledTerms/SemanticDataType",
-        "https://openminds.ebrains.eu/controlledTerms/Service",
-        "https://openminds.ebrains.eu/controlledTerms/SetupType",
-        "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory",
-        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature",
-        "https://openminds.ebrains.eu/controlledTerms/Species",
-        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
-        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
-        "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
-        "https://openminds.ebrains.eu/controlledTerms/SubjectAttribute",
-        "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
-        "https://openminds.ebrains.eu/controlledTerms/Technique",
-        "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
-        "https://openminds.ebrains.eu/controlledTerms/Terminology",
-        "https://openminds.ebrains.eu/controlledTerms/TissueSampleAttribute",
-        "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
-        "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty",
-        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
-        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement",
-        "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType"
-      ],
+      "_instruction": "Enter custom keywords to this research product version.",
       "description": "Significant word or concept that are representative of something or someone.",
+      "formatting": "text/plain",
+      "items": {
+        "type": "string"
+      },
       "label": "Keyword",
       "labelPlural": "Keywords",
+      "maxItems": 5,
       "minItems": 1,
+      "multiline": false,
       "name": "keyword",
-      "nameForReverseLink": null,
       "namePlural": "keywords",
       "type": "array",
       "uniqueItems": true
@@ -367,7 +283,7 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/license": {
-      "_instruction": "Add all licenses of this software version.",
+      "_instruction": "Add at least one license for this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/License"
       ],
@@ -400,7 +316,7 @@
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/Contribution"
       ],
-      "_instruction": "Add any other contributions to this research product version that are not covered under 'author'/'developer' or 'custodian'.",
+      "_instruction": "Add the contributions for each involved person or organization going beyond being an author, custodian or developer of this research product version.",
       "description": "Giving or supplying of something (such as money or time) as a part or share other than what is covered elsewhere.",
       "label": "Other contribution",
       "labelPlural": "Other contributions",
@@ -412,7 +328,7 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/outputFormat": {
-      "_instruction": "Add all content types that can be generated as output by this software version.",
+      "_instruction": "Add the content types of all possible input formats for this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ],
@@ -427,7 +343,7 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/programmingLanguage": {
-      "_instruction": "Add all programming languages used to develop this software version.",
+      "_instruction": "Add all programming languages used for this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage"
       ],
@@ -442,12 +358,10 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/relatedPublication": {
-      "_instruction": "Add all further publications besides the full documentation that provide the original context for the production of this research product version (e.g., an original research article that used or produced the data of this research product version).",
+      "_instruction": "Add further publications besides the documentation (e.g. an original research article) providing the original context for the production of this research product version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/HANDLE",
-        "https://openminds.ebrains.eu/core/ISBN",
-        "https://openminds.ebrains.eu/core/ISSN"
+        "https://openminds.ebrains.eu/core/ISBN"
       ],
       "description": "Reference to something that was made available for the general public to see or buy.",
       "label": "Related publication",
@@ -463,7 +377,7 @@
       "_formats": [
         "date"
       ],
-      "_instruction": "Enter the date (actual or intended) on which this research product version was first release, formatted as 'YYYY-MM-DD'.",
+      "_instruction": "Enter the date (actual or intended) of the first broadcast/publication of this research product version.",
       "description": "Fixed date on which a product is due to become or was made available for the general public to see or buy",
       "formatting": "text/plain",
       "label": "Release date",
@@ -502,18 +416,19 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/shortName": {
-      "_instruction": "Enter a short name (or alias) for this research product version that could be used as a shortened display title (e.g., for web services with too little space to display the full name).",
+      "_instruction": "Enter a short name (alias) for this research product version (max. 30 characters, no space).",
       "description": "Shortened or fully abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Short name",
       "labelPlural": "Short names",
+      "maxLength": 30,
       "multiline": false,
       "name": "shortName",
       "namePlural": "shortNames",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/supportChannel": {
-      "_instruction": "Enter all channels through which a user can receive support for handling this research product version.",
+      "_instruction": "Enter all channels through which a user can receive support for handling this research product.",
       "description": "Way of communication used to interact with users or customers.",
       "formatting": "text/plain",
       "items": {
@@ -544,7 +459,7 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/versionInnovation": {
-      "_instruction": "Enter a short description (or summary) of the novelties/peculiarities of this research product version in comparison to its preceding versions. If this research product version is the first version, you can enter the following disclaimer 'This is the first version of this research product'.",
+      "_instruction": "Enter a summary/description of the novelties/peculiarities of this research product version in comparison to other versions of it's research product. If this research product version is the first released version, you can enter the following disclaimer 'This is the first version of this research product.'",
       "description": "Documentation on what changed in comparison to a previously published form of something.",
       "formatting": "text/markdown",
       "label": "Version innovation",

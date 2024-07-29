@@ -1,0 +1,105 @@
+{
+  "_type": "https://openminds.ebrains.eu/neuroimaging/Volume",
+  "label": "Volume",
+  "name": "Volume",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/additionalRemarks": {
+      "_instruction": "Enter any additional remarks concerning this volume.",
+      "description": "Mention of what deserves additional attention or notice.",
+      "formatting": "text/markdown",
+      "label": "Additional remarks",
+      "labelPlural": "Additional remarks",
+      "multiline": true,
+      "name": "additionalRemarks",
+      "namePlural": "additionalRemarks",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/capturedWith": {
+      "_instruction": "Add the device used to captured this volume.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
+        "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
+        "https://openminds.ebrains.eu/ephys/PipetteUsage",
+        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
+        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+      ],
+      "label": "Captured with",
+      "name": "capturedWith",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/coordinateSpace": {
+      "_instruction": "Add the coordinate space in which this volume exists.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "https://openminds.ebrains.eu/sands/CustomCoordinateSpace"
+      ],
+      "description": "Two or three dimensional geometric setting.",
+      "label": "Coordinate space",
+      "labelPlural": "Coordinate spaces",
+      "name": "coordinateSpace",
+      "nameForReverseLink": null,
+      "namePlural": "coordinateSpaces"
+    },
+    "https://openminds.ebrains.eu/vocab/dataLocation": {
+      "_instruction": "Add the location of the file or file bundle in which the volume is stored.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ],
+      "label": "Data location",
+      "labelPlural": "Data locations",
+      "name": "dataLocation",
+      "nameForReverseLink": null,
+      "namePlural": "dataLocations"
+    },
+    "https://openminds.ebrains.eu/vocab/dimension": {
+      "_instruction": "Enter the dimension of this volume.",
+      "items": {
+        "type": "integer"
+      },
+      "label": "Dimension",
+      "labelPlural": "Dimensions",
+      "maxItems": 3,
+      "minItems": 3,
+      "name": "dimension",
+      "namePlural": "dimensions",
+      "type": "array"
+    },
+    "https://openminds.ebrains.eu/vocab/lookupLabel": {
+      "_instruction": "Enter a lookup label for this volume that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "labelPlural": "Lookup labels",
+      "multiline": false,
+      "name": "lookupLabel",
+      "namePlural": "lookupLabels",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/numberOfSlices": {
+      "_instruction": "Enter number of slices in this volume.",
+      "label": "Number of slices",
+      "name": "numberOfSlices",
+      "type": "integer"
+    },
+    "https://openminds.ebrains.eu/vocab/voxelSize": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the physical voxel size for this image (in x,y,z order).",
+      "description": "Extent of the discrete elements comprising a three-dimensional entity.",
+      "label": "Voxel size",
+      "labelPlural": "Voxel sizes",
+      "maxItems": 3,
+      "minItems": 3,
+      "name": "voxelSize",
+      "nameForReverseLink": null,
+      "namePlural": "voxelSizes",
+      "type": "array"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/coordinateSpace",
+    "https://openminds.ebrains.eu/vocab/dataLocation",
+    "https://openminds.ebrains.eu/vocab/dimension",
+    "https://openminds.ebrains.eu/vocab/voxelSize"
+  ]
+}

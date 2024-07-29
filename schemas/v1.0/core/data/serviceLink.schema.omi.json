@@ -5,14 +5,10 @@
   "name": "ServiceLink",
   "properties": {
     "https://openminds.ebrains.eu/vocab/dataLocation": {
-      "_instruction": "Add the location of the data that are linked to this specific service (e.g., stored as file (bundles) or registered as other entities such as atlas annotations).",
+      "_instruction": "Add the file or file bundle with the data that are linked to the specified service.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileArchive",
-        "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/publications/LivePaperResourceItem",
-        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+        "https://openminds.ebrains.eu/core/FileBundle"
       ],
       "label": "Data location",
       "labelPlural": "Data locations",
@@ -20,39 +16,27 @@
       "nameForReverseLink": null,
       "namePlural": "dataLocations"
     },
-    "https://openminds.ebrains.eu/vocab/displayLabel": {
-      "_instruction": "Enter a display label for this service link.",
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Enter a name that should be used as preferred display label for this service link.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
-      "label": "Display label",
-      "labelPlural": "Display labels",
+      "label": "Name",
+      "labelPlural": "Names",
       "multiline": false,
-      "name": "displayLabel",
-      "namePlural": "displayLabels",
+      "name": "name",
+      "namePlural": "names",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/openDataIn": {
-      "_formats": [
-        "iri"
+      "_instruction": "Add the uniform resource locator (URL) to open the linked data in the specified service.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/URL"
       ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) to the linked data in the specified service.",
-      "formatting": "text/plain",
       "label": "Open data in",
       "labelPlural": "Open data in",
-      "multiline": false,
       "name": "openDataIn",
-      "namePlural": "openDataIn",
-      "type": "string"
-    },
-    "https://openminds.ebrains.eu/vocab/previewImage": {
-      "_instruction": "Add an image file to this service link that acts as a preview of its content or could function as an icon.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File"
-      ],
-      "label": "Preview image",
-      "labelPlural": "Preview images",
-      "name": "previewImage",
       "nameForReverseLink": null,
-      "namePlural": "previewImages"
+      "namePlural": "openDataIn"
     },
     "https://openminds.ebrains.eu/vocab/service": {
       "_instruction": "Add the service in which the specified data can be opened.",

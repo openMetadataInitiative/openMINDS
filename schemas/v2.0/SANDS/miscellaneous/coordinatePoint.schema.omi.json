@@ -8,7 +8,7 @@
     "https://openminds.ebrains.eu/vocab/coordinateSpace": {
       "_instruction": "Add the coordinate space in which this coordinate point exists in.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
         "https://openminds.ebrains.eu/sands/CustomCoordinateSpace"
       ],
       "description": "Two or three dimensional geometric setting.",
@@ -22,7 +22,7 @@
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ],
-      "_instruction": "Enter the coordinates of this point within the stated coordinate space for two-dimensonal spaces as [x, y] or for three-dimensional space as [x, y, z].",
+      "_instruction": "Add two or three coordinates (2D: [x, y] or 3D: [x, y, z]) that define the exact location of this point in the stated coordinate space.",
       "description": "Pair or triplet of numbers defining a location in a given coordinate space.",
       "label": "Coordinates",
       "labelPlural": "Coordinates",

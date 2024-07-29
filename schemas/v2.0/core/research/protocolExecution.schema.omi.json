@@ -5,31 +5,18 @@
   "label": "Protocol execution",
   "name": "ProtocolExecution",
   "properties": {
-    "https://openminds.ebrains.eu/vocab/behavioralProtocol": {
-      "_instruction": "Add all behavioral protocols that were performed during this protocol execution.",
+    "https://openminds.ebrains.eu/vocab/behavioralTask": {
+      "_instruction": "Add all behavioral tasks that were performed during this protocol execution.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/BehavioralProtocol"
+        "https://openminds.ebrains.eu/core/BehavioralTask"
       ],
-      "label": "Behavioral protocol",
-      "labelPlural": "Behavioral protocols",
+      "description": "Specific set of defined activities (or their absence) that should be performed (or avoided) by a subject.",
+      "label": "Behavioral task",
+      "labelPlural": "Behavioral tasks",
       "minItems": 1,
-      "name": "behavioralProtocol",
+      "name": "behavioralTask",
       "nameForReverseLink": null,
-      "namePlural": "behavioralProtocols",
-      "type": "array",
-      "uniqueItems": true
-    },
-    "https://openminds.ebrains.eu/vocab/customPropertySet": {
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/CustomPropertySet"
-      ],
-      "_instruction": "Add any user-defined parameters grouped in context-specific sets that are not covered in the standardized properties of this activity.",
-      "label": "Custom property set",
-      "labelPlural": "Custom property sets",
-      "minItems": 1,
-      "name": "customPropertySet",
-      "nameForReverseLink": null,
-      "namePlural": "customPropertySets",
+      "namePlural": "behavioralTasks",
       "type": "array",
       "uniqueItems": true
     },
@@ -44,18 +31,16 @@
       "namePlural": "descriptions",
       "type": "string"
     },
-    "https://openminds.ebrains.eu/vocab/endTime": {
+    "https://openminds.ebrains.eu/vocab/endedAtTime": {
       "_formats": [
         "date-time",
         "time"
       ],
-      "_instruction": "Enter the date and/or time on when this activity ended, formatted as either '2023-02-07T16:00:00+00:00' (date-time) or '16:00:00+00:00' (time).",
+      "_instruction": "Enter the time (e.g., '20:20:39+00:00') or datetime (e.g., '2018-11-13T20:20:39+00:00') of when the activity ended.",
       "formatting": "text/plain",
-      "label": "End time",
-      "labelPlural": "End times",
+      "label": "Ended at time",
       "multiline": false,
-      "name": "endTime",
-      "namePlural": "endTimes",
+      "name": "endedAtTime",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/input": {
@@ -66,9 +51,7 @@
         "https://openminds.ebrains.eu/core/SubjectGroupState",
         "https://openminds.ebrains.eu/core/SubjectState",
         "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-        "https://openminds.ebrains.eu/core/TissueSampleState",
-        "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/core/TissueSampleState"
       ],
       "description": "Something or someone that is put into or participates in a process or machine.",
       "label": "Input",
@@ -81,7 +64,7 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/isPartOf": {
-      "_instruction": "Add the dataset version in which this activity was conducted.",
+      "_instruction": "Add the dataset version in which this protocol execution was conducted.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
       ],
@@ -93,7 +76,7 @@
       "namePlural": "isPartOf"
     },
     "https://openminds.ebrains.eu/vocab/lookupLabel": {
-      "_instruction": "Enter a lookup label for this activity that may help you to find this instance more easily.",
+      "_instruction": "Enter a lookup label for this activity that may help you to more easily find it again.",
       "formatting": "text/plain",
       "label": "Lookup label",
       "labelPlural": "Lookup labels",
@@ -122,33 +105,35 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.ebrains.eu/vocab/performedBy": {
-      "_instruction": "Add all agents that performed this activity.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Person"
+    "https://openminds.ebrains.eu/vocab/parameterSet": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/ParameterSet"
       ],
-      "label": "Performed by",
-      "labelPlural": "Performed by",
+      "_instruction": "Add all important parameters grouped in context-specific sets that were used in this activity.",
+      "description": "Manner, position, or direction in which digital or physical properties are set to determine a particular function, characteristics or behavior of something.",
+      "label": "Parameter set",
+      "labelPlural": "Parameter sets",
       "minItems": 1,
-      "name": "performedBy",
+      "name": "parameterSet",
       "nameForReverseLink": null,
-      "namePlural": "performedBy",
+      "namePlural": "parameterSets",
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.ebrains.eu/vocab/preparationDesign": {
-      "_instruction": "Add the initial preparation type for this activity.",
+    "https://openminds.ebrains.eu/vocab/preparationType": {
+      "_instruction": "Add the initial preparation type for this protocol execution.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/PreparationType"
       ],
-      "label": "Preparation design",
-      "labelPlural": "Preparation designs",
-      "name": "preparationDesign",
+      "description": "Distinct class of actions or processes that make something ready for use or service.",
+      "label": "Preparation type",
+      "labelPlural": "Preparation types",
+      "name": "preparationType",
       "nameForReverseLink": null,
-      "namePlural": "preparationDesigns"
+      "namePlural": "preparationTypes"
     },
     "https://openminds.ebrains.eu/vocab/protocol": {
-      "_instruction": "Add all protocols used during this activity.",
+      "_instruction": "Add all protocols that were used in this protocol execution.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Protocol"
       ],
@@ -162,18 +147,16 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.ebrains.eu/vocab/startTime": {
+    "https://openminds.ebrains.eu/vocab/startedAtTime": {
       "_formats": [
         "date-time",
         "time"
       ],
-      "_instruction": "Enter the date and/or time on when this activity started, formatted as either '2023-02-07T16:00:00+00:00' (date-time) or '16:00:00+00:00' (time).",
+      "_instruction": "Enter the time (e.g., '20:20:39+00:00') or datetime (e.g., '2018-11-13T20:20:39+00:00') of when the activity started.",
       "formatting": "text/plain",
-      "label": "Start time",
-      "labelPlural": "Start times",
+      "label": "Started at time",
       "multiline": false,
-      "name": "startTime",
-      "namePlural": "startTimes",
+      "name": "startedAtTime",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/studyTarget": {
@@ -205,8 +188,7 @@
         "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
         "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType",
         "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
-        "https://openminds.ebrains.eu/sands/ParcellationEntity",
-        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+        "https://openminds.ebrains.eu/sands/ParcellationEntity"
       ],
       "description": "Structure or function that was targeted within a study.",
       "label": "Study target",

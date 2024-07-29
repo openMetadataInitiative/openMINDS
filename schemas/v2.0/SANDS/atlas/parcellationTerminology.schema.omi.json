@@ -4,55 +4,111 @@
   "label": "Parcellation terminology",
   "name": "ParcellationTerminology",
   "properties": {
-    "https://openminds.ebrains.eu/vocab/dataLocation": {
-      "_instruction": "Add the location of all files in which this parcellation terminology is stored.",
+    "https://openminds.ebrains.eu/vocab/definedIn": {
+      "_instruction": "Add one or several files in which this parcellation terminology is stored in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File"
       ],
-      "label": "Data location",
-      "labelPlural": "Data locations",
+      "description": "Reference to a file instance in which something is stored.",
+      "label": "Defined in",
+      "labelPlural": "Defined in",
       "minItems": 1,
-      "name": "dataLocation",
+      "name": "definedIn",
       "nameForReverseLink": null,
-      "namePlural": "dataLocations",
+      "namePlural": "definedIn",
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.ebrains.eu/vocab/hasEntity": {
-      "_instruction": "Add all parcellation entities which belong to this parcellation terminology.",
+    "https://openminds.ebrains.eu/vocab/fullName": {
+      "_instruction": "Enter a descriptive full name for this parcellation terminology.",
+      "description": "Whole, non-abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Full name",
+      "labelPlural": "Full names",
+      "multiline": false,
+      "name": "fullName",
+      "namePlural": "fullNames",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/isAlternativeVersionOf": {
+      "_instruction": "Add one or several alternative versions to this parcellation terminology.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationEntity"
+        "https://openminds.ebrains.eu/sands/ParcellationTerminology"
       ],
-      "label": "Has entity",
-      "labelPlural": "Has entities",
+      "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
+      "label": "Is alternative version of",
+      "labelPlural": "Is alternative version of",
       "minItems": 1,
-      "name": "hasEntity",
+      "name": "isAlternativeVersionOf",
       "nameForReverseLink": null,
-      "namePlural": "hasEntities",
+      "namePlural": "isAlternativeVersionOf",
       "type": "array",
       "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/isNewVersionOf": {
+      "_instruction": "Add the earlier version of this parcellation terminology.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/ParcellationTerminology"
+      ],
+      "description": "Reference to a previous (potentially outdated) particular form of something.",
+      "label": "Is new version of",
+      "labelPlural": "Is new version of",
+      "name": "isNewVersionOf",
+      "nameForReverseLink": null,
+      "namePlural": "isNewVersionOf"
     },
     "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
-      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the related ontological terms matching this parcellation terminology.",
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this parcellation terminology.",
       "description": "Term or code used to identify something or someone registered within a particular ontology.",
       "formatting": "text/plain",
-      "items": {
-        "_formats": [
-          "iri"
-        ],
-        "type": "string"
-      },
       "label": "Ontology identifier",
       "labelPlural": "Ontology identifiers",
-      "minItems": 1,
       "multiline": false,
       "name": "ontologyIdentifier",
       "namePlural": "ontologyIdentifiers",
-      "type": "array",
-      "uniqueItems": true
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/shortName": {
+      "_instruction": "Enter a descriptive short name for this parcellation terminology.",
+      "description": "Shortened or fully abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Short name",
+      "labelPlural": "Short names",
+      "multiline": false,
+      "name": "shortName",
+      "namePlural": "shortNames",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/versionIdentifier": {
+      "_instruction": "Enter the version identifier of this parcellation terminology.",
+      "description": "Term or code used to identify the version of something.",
+      "formatting": "text/plain",
+      "label": "Version identifier",
+      "labelPlural": "Version identifiers",
+      "multiline": false,
+      "name": "versionIdentifier",
+      "namePlural": "versionIdentifiers",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/versionInnovation": {
+      "_instruction": "Enter a short description of the novelties/peculiarities of this parcellation terminology.",
+      "description": "Documentation on what changed in comparison to a previously published form of something.",
+      "formatting": "text/markdown",
+      "label": "Version innovation",
+      "labelPlural": "Version innovations",
+      "multiline": true,
+      "name": "versionInnovation",
+      "namePlural": "versionInnovations",
+      "type": "string"
     }
   },
   "required": [
-    "https://openminds.ebrains.eu/vocab/hasEntity"
+    "https://openminds.ebrains.eu/vocab/fullName",
+    "https://openminds.ebrains.eu/vocab/shortName",
+    "https://openminds.ebrains.eu/vocab/versionIdentifier",
+    "https://openminds.ebrains.eu/vocab/versionInnovation"
   ]
 }

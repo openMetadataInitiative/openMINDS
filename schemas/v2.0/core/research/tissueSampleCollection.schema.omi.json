@@ -1,14 +1,11 @@
 {
-  "_categories": [
-    "fileOrigin"
-  ],
   "_type": "https://openminds.ebrains.eu/core/TissueSampleCollection",
   "color": "#00905E",
   "label": "Tissue sample collection",
   "name": "TissueSampleCollection",
   "properties": {
     "https://openminds.ebrains.eu/vocab/additionalRemarks": {
-      "_instruction": "Enter any additional remarks concerning this specimen set.",
+      "_instruction": "Enter additional remarks about the specimen set.",
       "description": "Mention of what deserves additional attention or notice.",
       "formatting": "text/markdown",
       "label": "Additional remarks",
@@ -17,27 +14,6 @@
       "name": "additionalRemarks",
       "namePlural": "additionalRemarks",
       "type": "string"
-    },
-    "https://openminds.ebrains.eu/vocab/anatomicalLocation": {
-      "_instruction": "Add all anatomical entities that describe the anatomical location of this tissue sample collection.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/CellType",
-        "https://openminds.ebrains.eu/controlledTerms/Organ",
-        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
-        "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
-        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
-        "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
-        "https://openminds.ebrains.eu/sands/ParcellationEntity",
-        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
-      ],
-      "label": "Anatomical location",
-      "labelPlural": "Anatomical locations",
-      "minItems": 1,
-      "name": "anatomicalLocation",
-      "nameForReverseLink": null,
-      "namePlural": "anatomicalLocations",
-      "type": "array",
-      "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/biologicalSex": {
       "_instruction": "Add the biological sex of all specimen in this set.",
@@ -55,7 +31,7 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/internalIdentifier": {
-      "_instruction": "Enter the identifier (or label) of this specimen set that is used within the corresponding data files to identify this specimen set.",
+      "_instruction": "Enter the identifier of this specimen set that is used within the corresponding data.",
       "description": "Term or code that identifies someone or something within a particular product.",
       "formatting": "text/plain",
       "label": "Internal identifier",
@@ -66,7 +42,7 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/laterality": {
-      "_instruction": "Add one or both sides of the body, bilateral organ or bilateral organ part that this tissue sample collection originates from.",
+      "_instruction": "Add one or both hemisphere sides from which the tissue samples in this collection originate from.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Laterality"
       ],
@@ -82,7 +58,7 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/lookupLabel": {
-      "_instruction": "Enter a lookup label for this specimen set that may help you to find this instance more easily.",
+      "_instruction": "Enter a lookup label for this specimen set that may help you to more easily find it again.",
       "formatting": "text/plain",
       "label": "Lookup label",
       "labelPlural": "Lookup labels",
@@ -91,21 +67,11 @@
       "namePlural": "lookupLabels",
       "type": "string"
     },
-    "https://openminds.ebrains.eu/vocab/numberOfTissueSamples": {
-      "_instruction": "Enter the number of tissue samples that belong to this tissue sample collection.",
-      "label": "Number of tissue samples",
-      "labelPlural": "Numbers of tissue samples",
-      "minimum": 2,
-      "name": "numberOfTissueSamples",
-      "namePlural": "numbersOfTissueSamples",
-      "type": "integer"
-    },
     "https://openminds.ebrains.eu/vocab/origin": {
-      "_instruction": "Add the biogical origin of all tissue samples in this collection.",
+      "_instruction": "Add the biogical origin (organ or cell type) of all tissue samples in this collection.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/CellType",
-        "https://openminds.ebrains.eu/controlledTerms/Organ",
-        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance"
+        "https://openminds.ebrains.eu/controlledTerms/Organ"
       ],
       "description": "Source at which something begins or rises, or from which something derives.",
       "label": "Origin",
@@ -117,11 +83,34 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.ebrains.eu/vocab/species": {
-      "_instruction": "Add the species and/or strain (a sub-type of a genetic variant of species) of all specimen in this set.",
+    "https://openminds.ebrains.eu/vocab/phenotype": {
+      "_instruction": "Add the phenotype of all specimen in this set.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Species",
-        "https://openminds.ebrains.eu/core/Strain"
+        "https://openminds.ebrains.eu/controlledTerms/Phenotype"
+      ],
+      "description": "Physical expression of one or more genes of an organism.",
+      "label": "Phenotype",
+      "labelPlural": "Phenotypes",
+      "minItems": 1,
+      "name": "phenotype",
+      "nameForReverseLink": null,
+      "namePlural": "phenotypes",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/quantity": {
+      "_instruction": "Enter the number of specimen that belong to this set.",
+      "description": "Total amount or number of things or beings.",
+      "label": "Quantity",
+      "labelPlural": "Quantities",
+      "name": "quantity",
+      "namePlural": "quantities",
+      "type": "integer"
+    },
+    "https://openminds.ebrains.eu/vocab/species": {
+      "_instruction": "Add the species of all specimen in this set.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Species"
       ],
       "description": "Category of biological classification comprising related organisms or populations potentially capable of interbreeding, and being designated by a binomial that consists of the name of a genus followed by a Latin or latinized uncapitalized noun or adjective.",
       "label": "Species",
@@ -130,6 +119,21 @@
       "name": "species",
       "nameForReverseLink": null,
       "namePlural": "species",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/strain": {
+      "_instruction": "Add the strain of all specimen in this set.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Strain"
+      ],
+      "description": "Group of presumed common ancestry with physiological but usually not morphological distinctions.",
+      "label": "Strain",
+      "labelPlural": "Strains",
+      "minItems": 1,
+      "name": "strain",
+      "nameForReverseLink": null,
+      "namePlural": "strains",
       "type": "array",
       "uniqueItems": true
     },
@@ -165,6 +169,7 @@
     }
   },
   "required": [
+    "https://openminds.ebrains.eu/vocab/biologicalSex",
     "https://openminds.ebrains.eu/vocab/origin",
     "https://openminds.ebrains.eu/vocab/species",
     "https://openminds.ebrains.eu/vocab/studiedState",

@@ -8,27 +8,11 @@
   "label": "Organization",
   "name": "Organization",
   "properties": {
-    "https://openminds.ebrains.eu/vocab/affiliation": {
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Affiliation"
-      ],
-      "_instruction": "Enter all current and, if necessary, past affiliations of this organization.",
-      "description": "Declaration of a person being closely associated to an organization.",
-      "label": "Affiliation",
-      "labelPlural": "Affiliations",
-      "minItems": 1,
-      "name": "affiliation",
-      "nameForReverseLink": null,
-      "namePlural": "affiliations",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
-      "_instruction": "Add all globally unique and persistent digital identifier of this organization.",
+      "_instruction": "Add one or several globally unique and persistent digital identifier for this organization.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/GRIDID",
-        "https://openminds.ebrains.eu/core/RORID",
-        "https://openminds.ebrains.eu/core/RRID"
+        "https://openminds.ebrains.eu/core/RORID"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -41,7 +25,7 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/fullName": {
-      "_instruction": "Enter the full name of this organization.",
+      "_instruction": "Enter the full name of the organization.",
       "description": "Whole, non-abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Full name",
@@ -52,36 +36,31 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/hasParent": {
-      "_instruction": "Add all parent organizations of this organization.",
+      "_instruction": "Add a parent organization to this organization.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Organization"
       ],
       "description": "Reference to a parent object or legal person.",
       "label": "Has parent",
       "labelPlural": "Has parents",
-      "minItems": 1,
       "name": "hasParent",
       "nameForReverseLink": null,
-      "namePlural": "hasParents",
-      "type": "array",
-      "uniqueItems": true
+      "namePlural": "hasParents"
     },
     "https://openminds.ebrains.eu/vocab/homepage": {
-      "_formats": [
-        "iri"
+      "_instruction": "Add the uniform resource locator (URL) to the homepage of this organization.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/URL"
       ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this organization.",
       "description": "Main website of something or someone.",
-      "formatting": "text/plain",
       "label": "Homepage",
       "labelPlural": "Homepages",
-      "multiline": false,
       "name": "homepage",
-      "namePlural": "homepages",
-      "type": "string"
+      "nameForReverseLink": null,
+      "namePlural": "homepages"
     },
     "https://openminds.ebrains.eu/vocab/shortName": {
-      "_instruction": "Enter a short name (or alias) for this organization that could be used as a shortened display title (e.g., for web services with too little space to display the full name).",
+      "_instruction": "Enter the short name of this organization.",
       "description": "Shortened or fully abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Short name",

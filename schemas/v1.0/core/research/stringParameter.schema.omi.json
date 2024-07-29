@@ -1,0 +1,33 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/StringParameter",
+  "label": "String parameter",
+  "name": "StringParameter",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Enter a descriptive name for this parameter.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/value": {
+      "_instruction": "Enter a text value for this parameter.",
+      "description": "Entry for a property.",
+      "formatting": "text/plain",
+      "label": "Value",
+      "labelPlural": "Values",
+      "multiline": false,
+      "name": "value",
+      "namePlural": "values",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/name",
+    "https://openminds.ebrains.eu/vocab/value"
+  ]
+}

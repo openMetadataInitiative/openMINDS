@@ -5,19 +5,6 @@
   "label": "Protocol",
   "name": "Protocol",
   "properties": {
-    "https://openminds.ebrains.eu/vocab/describedIn": {
-      "_instruction": "Add a publication or file in which this protocol is (originally) described in detail.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/WebResource"
-      ],
-      "label": "Described in",
-      "labelPlural": "Described in",
-      "name": "describedIn",
-      "nameForReverseLink": null,
-      "namePlural": "describedIn"
-    },
     "https://openminds.ebrains.eu/vocab/description": {
       "_instruction": "Enter a description of this protocol.",
       "description": "Longer statement or account giving the characteristics of someone or something.",
@@ -40,33 +27,48 @@
       "namePlural": "names",
       "type": "string"
     },
-    "https://openminds.ebrains.eu/vocab/stimulusType": {
-      "_instruction": "Add all stimulus types used with this protocol.",
+    "https://openminds.ebrains.eu/vocab/studyOption": {
+      "_instruction": "Add all study options this protocol offers.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalOrder",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
+        "https://openminds.ebrains.eu/controlledTerms/BreedingType",
+        "https://openminds.ebrains.eu/controlledTerms/CellCultureType",
+        "https://openminds.ebrains.eu/controlledTerms/CellType",
+        "https://openminds.ebrains.eu/controlledTerms/Disease",
+        "https://openminds.ebrains.eu/controlledTerms/DiseaseModel",
         "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType",
         "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Handedness",
+        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity",
         "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
         "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Organ",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSystem",
+        "https://openminds.ebrains.eu/controlledTerms/Species",
+        "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
         "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
-        "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType"
+        "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
+        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
+        "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType",
+        "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ],
-      "label": "Stimulus type",
-      "labelPlural": "Stimulus types",
+      "label": "Study option",
+      "labelPlural": "Study options",
       "minItems": 1,
-      "name": "stimulusType",
+      "name": "studyOption",
       "nameForReverseLink": null,
-      "namePlural": "stimulusTypes",
+      "namePlural": "studyOptions",
       "type": "array",
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/technique": {
-      "_instruction": "Add all techniques (including stimulation approaches and/or techniques) that were used in this protocol.",
+      "_instruction": "Add all techniques that were used in this protocol.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
-        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
-        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
-        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
         "https://openminds.ebrains.eu/controlledTerms/Technique"
       ],
       "description": "Method of accomplishing a desired aim.",

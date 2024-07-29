@@ -19,7 +19,7 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/lookupLabel": {
-      "_instruction": "Enter a lookup label for this file repository structure that may help you to find this instance more easily.",
+      "_instruction": "Enter a lookup label for this file repository structure.",
       "formatting": "text/plain",
       "label": "Lookup label",
       "labelPlural": "Lookup labels",

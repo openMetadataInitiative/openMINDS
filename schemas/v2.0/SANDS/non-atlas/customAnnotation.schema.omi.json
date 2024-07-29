@@ -4,24 +4,22 @@
   "label": "Custom annotation",
   "name": "CustomAnnotation",
   "properties": {
-    "https://openminds.ebrains.eu/vocab/anchorPoint": {
+    "https://openminds.ebrains.eu/vocab/bestViewPoint": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "https://openminds.ebrains.eu/sands/CoordinatePoint"
       ],
-      "_instruction": "Enter the coordinates of the anchor point for this annotation (e.g., its centroid in two dimensional space as [x, y] or in three dimensional space as [x, y, z]).",
-      "label": "Anchor point",
-      "labelPlural": "Anchor points",
-      "maxItems": 3,
-      "minItems": 2,
-      "name": "anchorPoint",
+      "_instruction": "Add the coordinate point identifying the best view of this custom annotation in space.",
+      "description": "Coordinate point from which you get the best view of something.",
+      "label": "Best view point",
+      "labelPlural": "Best viewpoints",
+      "name": "bestViewPoint",
       "nameForReverseLink": null,
-      "namePlural": "anchorPoints",
-      "type": "array"
+      "namePlural": "bestViewPoints"
     },
     "https://openminds.ebrains.eu/vocab/coordinateSpace": {
-      "_instruction": "Add the coordinate space for this custom annotation.",
+      "_instruction": "Add the coordinate space in which this custom annotation exists.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
         "https://openminds.ebrains.eu/sands/CustomCoordinateSpace"
       ],
       "description": "Two or three dimensional geometric setting.",
@@ -32,7 +30,7 @@
       "namePlural": "coordinateSpaces"
     },
     "https://openminds.ebrains.eu/vocab/criteria": {
-      "_instruction": "Add the protocol execution defining the criteria that were applied to produce this annotation.",
+      "_instruction": "Add the protocol execution defining the criteria that were applied to produce this custom annotation.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ProtocolExecution"
       ],
@@ -44,7 +42,7 @@
       "namePlural": "criteria"
     },
     "https://openminds.ebrains.eu/vocab/criteriaQualityType": {
-      "_instruction": "Add the quality type of the stated criteria used to define this annotation.",
+      "_instruction": "Add the quality type of the stated criteria used to define this custom annotation.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType"
       ],
@@ -55,19 +53,20 @@
       "nameForReverseLink": null,
       "namePlural": "criteriaQualityTypes"
     },
-    "https://openminds.ebrains.eu/vocab/criteriaType": {
-      "_instruction": "Add the criteria type for this annotation.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/AnnotationCriteriaType"
-      ],
-      "label": "Criteria type",
-      "labelPlural": "Criteria types",
-      "name": "criteriaType",
-      "nameForReverseLink": null,
-      "namePlural": "criteriaTypes"
+    "https://openminds.ebrains.eu/vocab/displayColor": {
+      "_instruction": "Enter the preferred display color (HEX) for this custom annotation.",
+      "description": "Preferred coloring.",
+      "formatting": "text/plain",
+      "label": "Display color",
+      "labelPlural": "Display colors",
+      "multiline": false,
+      "name": "displayColor",
+      "namePlural": "displayColors",
+      "pattern": "^#[0-9A-Fa-f]{6}$",
+      "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/inspiredBy": {
-      "_instruction": "Add all (source) files that inspired the definition of this annotation.",
+      "_instruction": "Add one or several (source) files that inspired the definition of this custom annotation.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File"
       ],
@@ -82,7 +81,7 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/internalIdentifier": {
-      "_instruction": "Enter the identifier (or label) of this annotation that is used within the corresponding data files to identify this annotation.",
+      "_instruction": "Enter the identifier used for this custom annotation within the file it is stored in.",
       "description": "Term or code that identifies someone or something within a particular product.",
       "formatting": "text/plain",
       "label": "Internal identifier",
@@ -93,7 +92,7 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/laterality": {
-      "_instruction": "Add one or both sides of the body, bilateral organ or bilateral organ part that this annotation is defined in.",
+      "_instruction": "Add one or both sides of the body, bilateral organ or bilateral organ part that this custom annotation is defined in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Laterality"
       ],
@@ -108,47 +107,44 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.ebrains.eu/vocab/preferredVisualization": {
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/sands/ViewerSpecification"
-      ],
-      "_instruction": "Add the preferred viewer specification to visualize this annotation.",
-      "label": "Preferred visualization",
-      "labelPlural": "Preferred visualizations",
-      "name": "preferredVisualization",
-      "nameForReverseLink": null,
-      "namePlural": "preferredVisualizations"
+    "https://openminds.ebrains.eu/vocab/lookupLabel": {
+      "_instruction": "Enter a lookup label for this custom annotation that may help you to more easily find it again.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "labelPlural": "Lookup labels",
+      "multiline": false,
+      "name": "lookupLabel",
+      "namePlural": "lookupLabels",
+      "type": "string"
     },
-    "https://openminds.ebrains.eu/vocab/specification": {
-      "_instruction": "Add the non-parametric or parametric specification of this annotation.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/PropertyValueList"
-      ],
-      "description": "Detailed and precise presentation of, or proposal for something.",
-      "label": "Specification",
-      "labelPlural": "Specifications",
-      "name": "specification",
-      "nameForReverseLink": null,
-      "namePlural": "specifications"
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Enter a descriptive name for this custom annotation.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
     },
-    "https://openminds.ebrains.eu/vocab/type": {
-      "_instruction": "Add the geometry type of this annotation.",
+    "https://openminds.ebrains.eu/vocab/visualizedIn": {
+      "_instruction": "Add the (source) image file in which this custom annotation is visualized in.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/AnnotationType"
+        "https://openminds.ebrains.eu/core/File"
       ],
-      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
-      "label": "Type",
-      "labelPlural": "Types",
-      "name": "type",
+      "description": "Reference to an image in which something is visible.",
+      "label": "Visualized in",
+      "labelPlural": "Visualized in",
+      "name": "visualizedIn",
       "nameForReverseLink": null,
-      "namePlural": "types"
+      "namePlural": "visualizedIn"
     }
   },
   "required": [
     "https://openminds.ebrains.eu/vocab/coordinateSpace",
     "https://openminds.ebrains.eu/vocab/criteriaQualityType",
-    "https://openminds.ebrains.eu/vocab/criteriaType",
-    "https://openminds.ebrains.eu/vocab/type"
+    "https://openminds.ebrains.eu/vocab/internalIdentifier",
+    "https://openminds.ebrains.eu/vocab/visualizedIn"
   ]
 }

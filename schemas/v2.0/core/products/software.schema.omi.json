@@ -1,7 +1,4 @@
 {
-  "_categories": [
-    "researchProduct"
-  ],
   "_type": "https://openminds.ebrains.eu/core/Software",
   "color": "#511F4D",
   "description": "Structured information on a software tool (concept level).",
@@ -9,9 +6,8 @@
   "name": "Software",
   "properties": {
     "https://openminds.ebrains.eu/vocab/custodian": {
-      "_instruction": "Add all parties that fulfill the role of a custodian for this research product (e.g., a research group leader or principle investigator). Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the data, metadata, and/or code of the research product. Unless specified differently, this custodian will be responsible for all attached research product versions.",
+      "_instruction": "Add one or several custodians (person or organization) that are responsible for this research product. Note that this custodian will be responsible for all attached research product versions.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Consortium",
         "https://openminds.ebrains.eu/core/Organization",
         "https://openminds.ebrains.eu/core/Person"
       ],
@@ -26,20 +22,20 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/description": {
-      "_instruction": "Enter a description (or abstract) of this research product. Note that this should be a suitable description for all attached research product versions.",
+      "_instruction": "Enter a description (abstract) for this research product (max. 2000 characters, incl. spaces; no references). Note that this description should be fitting for all attached research product versions.",
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
       "labelPlural": "Descriptions",
+      "maxLength": 2000,
       "multiline": true,
       "name": "description",
       "namePlural": "descriptions",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/developer": {
-      "_instruction": "Add all parties that developed this software.",
+      "_instruction": "Add one or several developers (person or organization) that contributed to the code implementation of this software.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Consortium",
         "https://openminds.ebrains.eu/core/Organization",
         "https://openminds.ebrains.eu/core/Person"
       ],
@@ -57,7 +53,6 @@
       "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/RRID",
         "https://openminds.ebrains.eu/core/SWHID"
       ],
       "description": "Digital handle to identify objects or legal persons.",
@@ -68,7 +63,7 @@
       "namePlural": "digitalIdentifiers"
     },
     "https://openminds.ebrains.eu/vocab/fullName": {
-      "_instruction": "Enter a descriptive full name (or title) for this research product. Note that this should be a suitable full name for all attached research product versions.",
+      "_instruction": "Enter a descriptive full name (title) for this research product.  Note that this full name should be fitting for all attached research product versions.",
       "description": "Whole, non-abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Full name",
@@ -79,7 +74,7 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/hasVersion": {
-      "_instruction": "Add all versions of this software tool.",
+      "_instruction": "Add one or several versions of this software tool.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
       ],
@@ -94,18 +89,16 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/homepage": {
-      "_formats": [
-        "iri"
+      "_instruction": "Add the uniform resource locator (URL) to the homepage of this research product.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/URL"
       ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product.",
       "description": "Main website of something or someone.",
-      "formatting": "text/plain",
       "label": "Homepage",
       "labelPlural": "Homepages",
-      "multiline": false,
       "name": "homepage",
-      "namePlural": "homepages",
-      "type": "string"
+      "nameForReverseLink": null,
+      "namePlural": "homepages"
     },
     "https://openminds.ebrains.eu/vocab/howToCite": {
       "_instruction": "Enter the preferred citation text for this research product. Leave blank if citation text can be extracted from the assigned digital identifier.",
@@ -119,11 +112,12 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/shortName": {
-      "_instruction": "Enter a short name (or alias) for this research product that could be used as a shortened display title (e.g., for web services with too little space to display the full name).",
+      "_instruction": "Enter a short name (alias) for this research product (max. 30 characters; no space).",
       "description": "Shortened or fully abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Short name",
       "labelPlural": "Short names",
+      "maxLength": 30,
       "multiline": false,
       "name": "shortName",
       "namePlural": "shortNames",

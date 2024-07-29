@@ -1,0 +1,53 @@
+{
+  "_type": "https://openminds.ebrains.eu/neuroimaging/StructuralMRIAcquisition",
+  "label": "Structural mriacquisition",
+  "name": "StructuralMRIAcquisition",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/contrastAgent": {
+      "_instruction": "Add the contrast agent used for this scan.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/chemicals/AmountOfChemical"
+      ],
+      "label": "Contrast agent",
+      "name": "contrastAgent",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/device": {
+      "_instruction": "Add the MRI machine setting used for this scan.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+      ],
+      "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
+      "label": "Device",
+      "labelPlural": "Devices",
+      "name": "device",
+      "nameForReverseLink": null,
+      "namePlural": "devices"
+    },
+    "https://openminds.ebrains.eu/vocab/input": {
+      "_instruction": "Add the state of the subject or tissue sample before this session.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectState",
+        "https://openminds.ebrains.eu/core/TissueSampleState"
+      ],
+      "description": "Something or someone that is put into or participates in a process or machine.",
+      "label": "Input",
+      "labelPlural": "Inputs",
+      "name": "input",
+      "nameForReverseLink": null,
+      "namePlural": "inputs"
+    },
+    "https://openminds.ebrains.eu/vocab/specimenOrientation": {
+      "_instruction": "Add the anatomical orientation of the specimen in the scanner.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation"
+      ],
+      "label": "Specimen orientation",
+      "name": "specimenOrientation",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/device"
+  ]
+}

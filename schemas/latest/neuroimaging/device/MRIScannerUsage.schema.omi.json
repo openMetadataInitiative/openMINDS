@@ -1,0 +1,228 @@
+{
+  "_categories": [
+    "deviceUsage"
+  ],
+  "_type": "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
+  "label": "Mriscanner usage",
+  "name": "MRIScannerUsage",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/bValues": {
+      "_instruction": "Add the b values coresponding to this aquisition.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ],
+      "label": "B values",
+      "name": "bValues",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/bVectors": {
+      "_instruction": "Add the b vectors coresponding to this aquisition.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ],
+      "label": "B vectors",
+      "name": "bVectors",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/dwellTime": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the dewell time of this aquistion.",
+      "label": "Dwell time",
+      "name": "dwellTime",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/echoTime": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the echo times of this aquisition (TE).",
+      "label": "Echo time",
+      "minItems": 1,
+      "name": "echoTime",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/fieldOfView": {
+      "_instruction": "Add the field of view of this image.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/Circle",
+        "https://openminds.ebrains.eu/sands/Ellipse",
+        "https://openminds.ebrains.eu/sands/Rectangle"
+      ],
+      "label": "Field of view",
+      "name": "fieldOfView",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/flipAngle": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the flip angle of this scan (preferred units: degrees).",
+      "label": "Flip angle",
+      "name": "flipAngle",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/interSliceGap": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the inter slice distance of this scan.",
+      "label": "Inter slice gap",
+      "name": "interSliceGap",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/lookupLabel": {
+      "_instruction": "Enter a lookup label for this device usage that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "labelPlural": "Lookup labels",
+      "multiline": false,
+      "name": "lookupLabel",
+      "namePlural": "lookupLabels",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/mRAcquisitionType": {
+      "_instruction": "Add the type of sequence readout (2D or 3D).",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/MRAcquisitionType"
+      ],
+      "label": "M racquisition type",
+      "name": "mRAcquisitionType",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/mTState": {
+      "_instruction": "Boolean stating whether the magnetization transfer pulse is applied.",
+      "label": "M tstate",
+      "name": "mTState",
+      "type": "boolean"
+    },
+    "https://openminds.ebrains.eu/vocab/metadataLocation": {
+      "_instruction": "Add all files or file bundles containing additional information about the usage of this device.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/FileBundle"
+      ],
+      "label": "Metadata location",
+      "labelPlural": "Metadata locations",
+      "minItems": 1,
+      "name": "metadataLocation",
+      "nameForReverseLink": null,
+      "namePlural": "metadataLocations",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/nonlinearGradientCorrection": {
+      "_instruction": "Has this scan, been corrected for gradient nonlinearities by the scanner sequence?",
+      "label": "Nonlinear gradient correction",
+      "name": "nonlinearGradientCorrection",
+      "type": "boolean"
+    },
+    "https://openminds.ebrains.eu/vocab/numberOfVolumesDiscardedByScanner": {
+      "_instruction": "Enter number of volumes discarded by scanner before the first volume.",
+      "label": "Number of volumes discarded by scanner",
+      "name": "numberOfVolumesDiscardedByScanner",
+      "type": "number"
+    },
+    "https://openminds.ebrains.eu/vocab/parallelAcquisitionTechnique": {
+      "_ instruction": "Enter the parallel acquisition technique sequance name for this scan. 'GRAPPA' for most Siemens machines and 'SENSE' for most Philips machines.",
+      "formatting": "text/plain",
+      "label": "Parallel acquisition technique",
+      "multiline": false,
+      "name": "parallelAcquisitionTechnique",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/phaseEncodingDirection": {
+      "_instruction": "Add the direction along which phase is modulated which may result in visible distortions.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/CartesianDirectionVector"
+      ],
+      "label": "Phase encoding direction",
+      "name": "phaseEncodingDirection",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/pulseSequenceType": {
+      "_instruction": "Add the type pulse sequence used for this scan.",
+      "_linkedType": [
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence"
+      ],
+      "label": "Pulse sequence type",
+      "name": "pulseSequenceType"
+    },
+    "https://openminds.ebrains.eu/vocab/radiofrequencyCoilType": {
+      "_instruction": "Add the type of radiofrequency coil.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/MRIRadiofrequencyCoilType"
+      ],
+      "label": "Radiofrequency coil type",
+      "name": "radiofrequencyCoilType",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/sliceOrder": {
+      "_instruction": "Enter the time in which each slice have been aquired within each volume.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValueArray"
+      ],
+      "label": "Slice order",
+      "name": "sliceOrder",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/sliceThickness": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the slice thickness of this MR image.",
+      "label": "Slice thickness",
+      "labelPlural": "Slice thicknesses",
+      "name": "sliceThickness",
+      "nameForReverseLink": null,
+      "namePlural": "sliceThicknesses"
+    },
+    "https://openminds.ebrains.eu/vocab/sliceTiming": {
+      "_instruction": "Enter the time in which each slice have been aquired within each volume.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValueArray"
+      ],
+      "label": "Slice timing",
+      "name": "sliceTiming",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/spoilingState": {
+      "_instruction": "Boolean stating whether the pulse sequence uses any type of spoiling strategy to suppress residual transverse magnetization.",
+      "label": "Spoiling state",
+      "name": "spoilingState",
+      "type": "boolean"
+    },
+    "https://openminds.ebrains.eu/vocab/usedSpecimen": {
+      "_instruction": "Add the state of the tissue sample or subject that this device was used on.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectState",
+        "https://openminds.ebrains.eu/core/TissueSampleState"
+      ],
+      "label": "Used specimen",
+      "labelPlural": "Used specimens",
+      "name": "usedSpecimen",
+      "nameForReverseLink": null,
+      "namePlural": "usedSpecimens"
+    },
+    "https://openminds.ebrains.eu/vocab/voxelSize": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValueArray"
+      ],
+      "_instruction": "Enter voxel size this image: in this order x,y,z.",
+      "description": "Extent of the discrete elements comprising a three-dimensional entity.",
+      "label": "Voxel size",
+      "labelPlural": "Voxel sizes",
+      "name": "voxelSize",
+      "nameForReverseLink": null,
+      "namePlural": "voxelSizes"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/device"
+  ]
+}

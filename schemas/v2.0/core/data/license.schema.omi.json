@@ -20,7 +20,7 @@
       "_formats": [
         "iri"
       ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) to the legal code of this license.",
+      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the legal code of this license.",
       "description": "Type of legislation that claims to cover the law system (complete or parts) as it existed at the time the code was enacted.",
       "formatting": "text/plain",
       "label": "Legal code",
@@ -31,7 +31,7 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/shortName": {
-      "_instruction": "Enter a short name (or alias) for this license that could be used as a shortened display title (e.g., for web services with too little space to display the full name).",
+      "_instruction": "Enter the short name of this license.",
       "description": "Shortened or fully abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Short name",
@@ -42,7 +42,7 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/webpage": {
-      "_instruction": "Enter the internationalized resource identifiers (IRIs) to webpages related to this license (e.g., a homepage).",
+      "_instruction": "Enter one or several webpages related to this license (e.g. homepage).",
       "description": "Hypertext document (block of information) found on the World Wide Web.",
       "formatting": "text/plain",
       "items": {

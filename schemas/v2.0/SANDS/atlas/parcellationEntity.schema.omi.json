@@ -1,6 +1,5 @@
 {
   "_categories": [
-    "anatomicalLocation",
     "studyTarget"
   ],
   "_type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
@@ -8,84 +7,46 @@
   "label": "Parcellation entity",
   "name": "ParcellationEntity",
   "properties": {
-    "https://openminds.ebrains.eu/vocab/abbreviation": {
-      "_instruction": "Enter the official abbreviation of this parcellation entity.",
-      "formatting": "text/plain",
-      "label": "Abbreviation",
-      "labelPlural": "Abbreviations",
-      "multiline": false,
-      "name": "abbreviation",
-      "namePlural": "abbreviations",
-      "type": "string"
-    },
-    "https://openminds.ebrains.eu/vocab/alternateName": {
-      "_instruction": "Enter any alternate names, including any alternative abbreviations, for this parcellation entity.",
-      "formatting": "text/plain",
-      "items": {
-        "type": "string"
-      },
-      "label": "Alternate name",
-      "labelPlural": "Alternate names",
-      "minItems": 1,
-      "multiline": false,
-      "name": "alternateName",
-      "namePlural": "alternateNames",
-      "type": "array",
-      "uniqueItems": true
-    },
-    "https://openminds.ebrains.eu/vocab/definition": {
-      "_instruction": "Enter the definition for this parcellation entity.",
-      "description": "Short, but precise statement of the meaning of a word, word group, sign or a symbol.",
-      "formatting": "text/markdown",
-      "label": "Definition",
-      "labelPlural": "Definitions",
-      "multiline": true,
-      "name": "definition",
-      "namePlural": "definitions",
-      "type": "string"
+    "https://openminds.ebrains.eu/vocab/hasAnnotation": {
+      "_instruction": "Add the atlas annotation which this parcellation entity defines.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/AtlasAnnotation"
+      ],
+      "label": "Has annotation",
+      "labelPlural": "Has annotations",
+      "name": "hasAnnotation",
+      "nameForReverseLink": null,
+      "namePlural": "hasAnnotations"
     },
     "https://openminds.ebrains.eu/vocab/hasParent": {
-      "_instruction": "Add all anatomical parent structures for this parcellation entity as defined within the corresponding brain atlas.",
+      "_instruction": "Add for this parcellation entity the defined anatomical parent structure.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/ParcellationEntity"
       ],
       "description": "Reference to a parent object or legal person.",
       "label": "Has parent",
       "labelPlural": "Has parents",
-      "minItems": 1,
       "name": "hasParent",
       "nameForReverseLink": null,
-      "namePlural": "hasParents",
-      "type": "array",
-      "uniqueItems": true
+      "namePlural": "hasParents"
     },
-    "https://openminds.ebrains.eu/vocab/hasVersion": {
-      "_instruction": "Add all versions of this parcellation entity.",
+    "https://openminds.ebrains.eu/vocab/isPartOf": {
+      "_instruction": "Add one or several parcellation terminologies to which this parcellation entity belongs.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+        "https://openminds.ebrains.eu/sands/ParcellationTerminology"
       ],
-      "description": "Reference to variants of an original.",
-      "label": "Has version",
-      "labelPlural": "Has versions",
+      "description": "Reference to the ensemble of multiple things or beings.",
+      "label": "Is part of",
+      "labelPlural": "Is part of",
       "minItems": 1,
-      "name": "hasVersion",
+      "name": "isPartOf",
       "nameForReverseLink": null,
-      "namePlural": "hasVersions",
+      "namePlural": "isPartOf",
       "type": "array",
       "uniqueItems": true
-    },
-    "https://openminds.ebrains.eu/vocab/lookupLabel": {
-      "_instruction": "Enter a lookup label for this parcellation entity that may help you to find this instance more easily.",
-      "formatting": "text/plain",
-      "label": "Lookup label",
-      "labelPlural": "Lookup labels",
-      "multiline": false,
-      "name": "lookupLabel",
-      "namePlural": "lookupLabels",
-      "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/name": {
-      "_instruction": "Enter the name of this parcellation entity.",
+      "_instruction": "Enter the name for this parcellation entity.",
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
@@ -96,28 +57,22 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
-      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the related ontological terms matching this parcellation entity.",
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the ontological term matching this parcellation entity.",
       "description": "Term or code used to identify something or someone registered within a particular ontology.",
       "formatting": "text/plain",
-      "items": {
-        "_formats": [
-          "iri"
-        ],
-        "type": "string"
-      },
       "label": "Ontology identifier",
       "labelPlural": "Ontology identifiers",
-      "minItems": 1,
       "multiline": false,
       "name": "ontologyIdentifier",
       "namePlural": "ontologyIdentifiers",
-      "type": "array",
-      "uniqueItems": true
+      "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/relatedUBERONTerm": {
-      "_instruction": "Add the related anatomical entity as defined by the UBERON ontology.",
+      "_instruction": "Add the related UBERON parcellation term.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Organ",
         "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation"
       ],
       "label": "Related uberonterm",
@@ -125,9 +80,48 @@
       "name": "relatedUBERONTerm",
       "nameForReverseLink": null,
       "namePlural": "relatedUBERONTerms"
+    },
+    "https://openminds.ebrains.eu/vocab/relationAssessment": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/sands/QualitativeRelationAssessment",
+        "https://openminds.ebrains.eu/sands/QuantitativeRelationAssessment"
+      ],
+      "_instruction": "Add one or several relations of this parcellation entity to parcellation entities of other parcellation terminologies.",
+      "label": "Relation assessment",
+      "labelPlural": "Relation assessments",
+      "minItems": 1,
+      "name": "relationAssessment",
+      "nameForReverseLink": null,
+      "namePlural": "relationAssessments",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/versionIdentifier": {
+      "_instruction": "Enter the version identifier of this parcellation entity.",
+      "description": "Term or code used to identify the version of something.",
+      "formatting": "text/plain",
+      "label": "Version identifier",
+      "labelPlural": "Version identifiers",
+      "multiline": false,
+      "name": "versionIdentifier",
+      "namePlural": "versionIdentifiers",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/versionInnovation": {
+      "_instruction": "Enter a short description of the novelties/peculiarities of this parcellation entity.",
+      "description": "Documentation on what changed in comparison to a previously published form of something.",
+      "formatting": "text/markdown",
+      "label": "Version innovation",
+      "labelPlural": "Version innovations",
+      "multiline": true,
+      "name": "versionInnovation",
+      "namePlural": "versionInnovations",
+      "type": "string"
     }
   },
   "required": [
-    "https://openminds.ebrains.eu/vocab/name"
+    "https://openminds.ebrains.eu/vocab/isPartOf",
+    "https://openminds.ebrains.eu/vocab/name",
+    "https://openminds.ebrains.eu/vocab/versionIdentifier"
   ]
 }

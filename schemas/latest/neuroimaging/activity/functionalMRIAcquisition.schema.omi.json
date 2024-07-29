@@ -1,0 +1,147 @@
+{
+  "_type": "https://openminds.ebrains.eu/neuroimaging/FunctionalMRIAcquisition",
+  "label": "Functional mriacquisition",
+  "name": "FunctionalMRIAcquisition",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/acquisitionDuration": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter duration of volume acquisition.",
+      "label": "Acquisition duration",
+      "name": "acquisitionDuration",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/behavioralProtocol": {
+      "_instruction": "Add all behavioral protocols that were performed during this session.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/BehavioralProtocol"
+      ],
+      "label": "Behavioral protocol",
+      "labelPlural": "Behavioral protocols",
+      "minItems": 1,
+      "name": "behavioralProtocol",
+      "nameForReverseLink": null,
+      "namePlural": "behavioralProtocols",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/contrastAgent": {
+      "_instruction": "Add the contrast agent used for this scan.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/chemicals/AmountOfChemical"
+      ],
+      "label": "Contrast agent",
+      "name": "contrastAgent",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/delayAfterTrigger": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the duration from trigger delivery to scan onset (only the first volum).",
+      "label": "Delay after trigger",
+      "name": "delayAfterTrigger",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/delayTime": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the arbitrary delay time set by user before each volume acquisition.",
+      "label": "Delay time",
+      "name": "delayTime",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/device": {
+      "_instruction": "Add the MRI machine setting used for this scan.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+      ],
+      "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
+      "label": "Device",
+      "labelPlural": "Devices",
+      "name": "device",
+      "nameForReverseLink": null,
+      "namePlural": "devices"
+    },
+    "https://openminds.ebrains.eu/vocab/fieldMap": {
+      "_instruction": "Add the images or field maps used for correction of inhemogenties in B0 field of this aquisition.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ],
+      "label": "Field map",
+      "minItems": 1,
+      "name": "fieldMap",
+      "nameForReverseLink": null,
+      "type": "array"
+    },
+    "https://openminds.ebrains.eu/vocab/input": {
+      "_instruction": "Add the state of the subject or tissue sample before this session.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectState",
+        "https://openminds.ebrains.eu/core/TissueSampleState"
+      ],
+      "description": "Something or someone that is put into or participates in a process or machine.",
+      "label": "Input",
+      "labelPlural": "Inputs",
+      "name": "input",
+      "nameForReverseLink": null,
+      "namePlural": "inputs"
+    },
+    "https://openminds.ebrains.eu/vocab/numberOfVolumesDiscardedByUser": {
+      "_instruction": "Enter number of volumes discarded by user before the first volume.",
+      "label": "Number of volumes discarded by user",
+      "name": "numberOfVolumesDiscardedByUser",
+      "type": "number"
+    },
+    "https://openminds.ebrains.eu/vocab/repetitionTime": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the echo time of this aquisition (TR).",
+      "label": "Repetition time",
+      "name": "repetitionTime",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/sbref": {
+      "_instruction": "Add the single-band reference image for this volume.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ],
+      "label": "Sbref",
+      "name": "sbref",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/specimenOrientation": {
+      "_instruction": "Add the anatomical orientation of the specimen in the scanner.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation"
+      ],
+      "label": "Specimen orientation",
+      "name": "specimenOrientation",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/structuralMRI": {
+      "_instruction": "Add the structural MRI relavent for this aquisition.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ],
+      "label": "Structural mri",
+      "name": "structuralMRI",
+      "nameForReverseLink": null
+    },
+    "https://openminds.ebrains.eu/vocab/volumeTiming": {
+      "_instruction": "Enter aquisition times of each vloume.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValueArray"
+      ],
+      "label": "Volume timing",
+      "name": "volumeTiming",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/device"
+  ]
+}

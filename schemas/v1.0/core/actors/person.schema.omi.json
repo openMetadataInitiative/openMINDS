@@ -1,6 +1,5 @@
 {
   "_categories": [
-    "agent",
     "legalPerson"
   ],
   "_type": "https://openminds.ebrains.eu/core/Person",
@@ -13,7 +12,7 @@
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/Affiliation"
       ],
-      "_instruction": "Enter all current and, if desired, past affiliations of this person.",
+      "_instruction": "Add the current and, if necessary, past affiliations of this person",
       "description": "Declaration of a person being closely associated to an organization.",
       "label": "Affiliation",
       "labelPlural": "Affiliations",
@@ -21,35 +20,6 @@
       "name": "affiliation",
       "nameForReverseLink": null,
       "namePlural": "affiliations",
-      "type": "array",
-      "uniqueItems": true
-    },
-    "https://openminds.ebrains.eu/vocab/alternateName": {
-      "_instruction": "Enter any other known full name of this person.",
-      "formatting": "text/plain",
-      "items": {
-        "type": "string"
-      },
-      "label": "Alternate name",
-      "labelPlural": "Alternate names",
-      "minItems": 1,
-      "multiline": false,
-      "name": "alternateName",
-      "namePlural": "alternateNames",
-      "type": "array",
-      "uniqueItems": true
-    },
-    "https://openminds.ebrains.eu/vocab/associatedAccount": {
-      "_instruction": "Add the information about web service accounts held by this person.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/AccountInformation"
-      ],
-      "label": "Associated account",
-      "labelPlural": "Associated accounts",
-      "minItems": 1,
-      "name": "associatedAccount",
-      "nameForReverseLink": null,
-      "namePlural": "associatedAccounts",
       "type": "array",
       "uniqueItems": true
     },
@@ -66,7 +36,7 @@
       "namePlural": "contactInformation"
     },
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
-      "_instruction": "Add all globally unique and persistent digital identifier of this person.",
+      "_instruction": "Add one or several globally unique and persistent digital identifier for this person.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ORCID"
       ],

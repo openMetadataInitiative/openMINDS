@@ -19,9 +19,7 @@
     "https://openminds.ebrains.eu/vocab/inRelationTo": {
       "_instruction": "Add the anatomical entity to which the relation is described.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
-        "https://openminds.ebrains.eu/sands/ParcellationEntity",
-        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+        "https://openminds.ebrains.eu/sands/ParcellationEntity"
       ],
       "description": "Reference to a related element.",
       "label": "In relation to",
