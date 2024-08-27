@@ -740,6 +740,16 @@
     "name": "MRIPulseSequence",
     "semanticEquivalent": []
   },
+  "https://openminds.ebrains.eu/controlledTerms/MRIWeighting": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Mriweighting",
+    "name": "MRIWeighting",
+    "semanticEquivalent": []
+  },
   "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity": {
     "color": "#2C5742",
     "description": null,
