@@ -146,7 +146,7 @@
     },
     "https://openminds.ebrains.eu/vocab/pulseSequenceType": {
       "_instruction": "Add the type pulse sequence used for this scan.",
-      "_linkedType": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence"
       ],
       "label": "Pulse sequence type",
