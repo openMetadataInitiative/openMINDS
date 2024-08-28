@@ -115,8 +115,10 @@
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ],
       "label": "Related parcellation term",
+      "labelPlural": "Related parcellation terms",
       "minItems": 1,
       "name": "relatedParcellationTerm",
+      "namePlural": "relatedParcellationTerms",
       "nameForReverseLink": null,
       "type": "array",
       "unqiueItems": true

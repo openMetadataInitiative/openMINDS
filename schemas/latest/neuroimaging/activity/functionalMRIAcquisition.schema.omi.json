@@ -71,8 +71,10 @@
         "https://openminds.ebrains.eu/core/File"
       ],
       "label": "Field map",
+      "labelPlural": "Field maps",
       "minItems": 1,
       "name": "fieldMap",
+      "namePlural": "fieldMaps",
       "nameForReverseLink": null,
       "type": "array"
     },

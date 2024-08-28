@@ -5300,7 +5300,9 @@
     },
     "description": null,
     "label": "Field map",
+    "labelPlural": "Field maps",
     "name": "fieldMap",
+    "namePlural": "fieldMaps",
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -12561,7 +12563,9 @@
     },
     "description": null,
     "label": "Related parcellation term",
+    "labelPlural": "Related parcellation terms",
     "name": "relatedParcellationTerm",
+    "namePlural": "relatedParcellationTerms",
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
