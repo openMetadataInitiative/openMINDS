@@ -17,7 +17,7 @@
       "type": "string"
     }
   },
-  "requires": [
-    "identifier"
+  "required": [
+    "https://openminds.ebrains.eu/vocab/identifier"
   ]
 }

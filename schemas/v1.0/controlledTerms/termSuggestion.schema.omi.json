@@ -1,9 +1,25 @@
 {
+  "_categories": [
+    "keyword",
+    "studyTarget"
+  ],
   "_type": "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
   "color": "#CD7DAE",
   "label": "Term suggestion",
   "name": "TermSuggestion",
   "properties": {
+    "https://openminds.ebrains.eu/vocab/addExistingTerminology": {
+      "_instruction": "Add an existing terminology in which the suggested term should be integrated in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Terminology"
+      ],
+      "description": "Reference to an existing terminology (distinct class to group related terms).",
+      "label": "Add existing terminology",
+      "labelPlural": "Add existing terminologies",
+      "name": "addExistingTerminology",
+      "nameForReverseLink": null,
+      "namePlural": "addExistingTerminologies"
+    },
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",
       "description": "Short, but precise statement of the meaning of a word, word group, sign or a symbol.",
@@ -26,6 +42,34 @@
       "namePlural": "descriptions",
       "type": "string"
     },
+    "https://openminds.ebrains.eu/vocab/interlexIdentifier": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the integrated ontology entry in the InterLex project.",
+      "description": "Persistent identifier for a term registered in the InterLex project.",
+      "formatting": "text/plain",
+      "label": "Interlex identifier",
+      "labelPlural": "Interlex identifiers",
+      "multiline": false,
+      "name": "interlexIdentifier",
+      "namePlural": "interlexIdentifiers",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/knowledgeSpaceLink": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the wiki page of the corresponding term in the KnowledgeSpace.",
+      "description": "Persistent link to an encyclopedia entry in the Knowledge Space project.",
+      "formatting": "text/plain",
+      "label": "Knowledge space link",
+      "labelPlural": "Knowledge space links",
+      "multiline": false,
+      "name": "knowledgeSpaceLink",
+      "namePlural": "knowledgeSpaceLinks",
+      "type": "string"
+    },
     "https://openminds.ebrains.eu/vocab/name": {
       "_instruction": "Controlled term originating from a defined terminology.",
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
@@ -37,33 +81,49 @@
       "namePlural": "names",
       "type": "string"
     },
-    "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
-      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the related ontological term.",
-      "description": "Term or code used to identify something or someone registered within a particular ontology.",
-      "format": "iri",
+    "https://openminds.ebrains.eu/vocab/preferredOntologyIdentifier": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the preferred ontological term.",
+      "description": "Persistent identifier of a preferred ontological term.",
       "formatting": "text/plain",
-      "label": "Ontology identifier",
-      "labelPlural": "Ontology identifiers",
+      "label": "Preferred ontology identifier",
+      "labelPlural": "Preferred ontology identifiers",
       "multiline": false,
-      "name": "ontologyIdentifier",
-      "namePlural": "ontologyIdentifiers",
+      "name": "preferredOntologyIdentifier",
+      "namePlural": "preferredOntologyIdentifiers",
       "type": "string"
     },
-    "https://openminds.ebrains.eu/vocab/terminology": {
-      "_instruction": "Add the terminology in which the suggested term should be integrated in.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Terminology"
-      ],
-      "description": "Nomenclature for a particular field of study.",
-      "label": "Terminology",
-      "labelPlural": "Terminologies",
-      "name": "terminology",
-      "nameForReverseLink": null,
-      "namePlural": "terminologies"
+    "https://openminds.ebrains.eu/vocab/suggestNewTerminology": {
+      "_instruction": "Propose a name for a new terminology in which the suggested term should be integrated in.",
+      "description": "Proposal of a new distinct class to group related terms.",
+      "formatting": "text/plain",
+      "label": "Suggest new terminology",
+      "labelPlural": "Suggest new terminologies",
+      "multiline": false,
+      "name": "suggestNewTerminology",
+      "namePlural": "suggestNewTerminologies",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/synonym": {
+      "_instruction": "Enter one or several synonyms (including abbreviations) for this controlled term.",
+      "description": "Words or expressions used in the same language that have the same or nearly the same meaning in some or all senses.",
+      "formatting": "text/plain",
+      "items": {
+        "type": "string"
+      },
+      "label": "Synonym",
+      "labelPlural": "Synonyms",
+      "minItems": 1,
+      "multiline": false,
+      "name": "synonym",
+      "namePlural": "synonyms",
+      "type": "array",
+      "uniqueItems": true
     }
   },
   "required": [
-    "https://openminds.ebrains.eu/vocab/name",
-    "https://openminds.ebrains.eu/vocab/relatedTerminology"
+    "https://openminds.ebrains.eu/vocab/name"
   ]
 }
