@@ -734,7 +734,8 @@
     "color": null,
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Mripulse sequence",
     "name": "MRIPulseSequence",
@@ -744,7 +745,8 @@
     "color": null,
     "description": null,
     "isPartOfVersion": [
-      "latest"
+      "latest",
+      "v3.0"
     ],
     "label": "Mriweighting",
     "name": "MRIWeighting",
@@ -2276,6 +2278,96 @@
     ],
     "label": "Recording activity",
     "name": "RecordingActivity",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/neuroimaging/FunctionalMRIAcquisition": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Functional mriacquisition",
+    "name": "FunctionalMRIAcquisition",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/neuroimaging/Image": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Image",
+    "name": "Image",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/neuroimaging/ImageSequence": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Image sequence",
+    "name": "ImageSequence",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/neuroimaging/ImageStack": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Image stack",
+    "name": "ImageStack",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/neuroimaging/MRIScanner": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Mriscanner",
+    "name": "MRIScanner",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Mriscanner usage",
+    "name": "MRIScannerUsage",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/neuroimaging/StructuralMRIAcquisition": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Structural mriacquisition",
+    "name": "StructuralMRIAcquisition",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/neuroimaging/Volume": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Volume",
+    "name": "Volume",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/neuroimaging/VolumeSequence": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Volume sequence",
+    "name": "VolumeSequence",
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/publications/Book": {

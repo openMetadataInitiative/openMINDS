@@ -71,10 +71,8 @@
         "https://openminds.ebrains.eu/core/File"
       ],
       "label": "Field map",
-      "labelPlural": "Field maps",
       "minItems": 1,
       "name": "fieldMap",
-      "namePlural": "fieldMaps",
       "nameForReverseLink": null,
       "type": "array"
     },
@@ -96,15 +94,6 @@
       "label": "Number of volumes discarded by user",
       "name": "numberOfVolumesDiscardedByUser",
       "type": "number"
-    },
-    "https://openminds.ebrains.eu/vocab/repetitionTime": {
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
-      ],
-      "_instruction": "Enter the echo time of this aquisition (TR).",
-      "label": "Repetition time",
-      "name": "repetitionTime",
-      "nameForReverseLink": null
     },
     "https://openminds.ebrains.eu/vocab/sbref": {
       "_instruction": "Add the single-band reference image for this volume.",

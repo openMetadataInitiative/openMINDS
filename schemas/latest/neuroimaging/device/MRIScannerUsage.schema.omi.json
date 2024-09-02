@@ -75,6 +75,15 @@
       "name": "interSliceGap",
       "nameForReverseLink": null
     },
+    "https://openminds.ebrains.eu/vocab/inversionTime": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the inversion time of this aquistion.",
+      "label": "Inversion time",
+      "name": "inversionTime",
+      "nameForReverseLink": null
+    },
     "https://openminds.ebrains.eu/vocab/lookupLabel": {
       "_instruction": "Enter a lookup label for this device usage that may help you to find this instance more easily.",
       "formatting": "text/plain",
@@ -150,7 +159,8 @@
         "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence"
       ],
       "label": "Pulse sequence type",
-      "name": "pulseSequenceType"
+      "name": "pulseSequenceType",
+      "nameForReverseLink": null
     },
     "https://openminds.ebrains.eu/vocab/radiofrequencyCoilType": {
       "_instruction": "Add the type of radiofrequency coil.",
@@ -161,6 +171,15 @@
       "name": "radiofrequencyCoilType",
       "nameForReverseLink": null
     },
+    "https://openminds.ebrains.eu/vocab/repetitionTime": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "_instruction": "Enter the echo time of this aquisition (TR).",
+      "label": "Repetition time",
+      "name": "repetitionTime",
+      "nameForReverseLink": null
+    },
     "https://openminds.ebrains.eu/vocab/sliceOrder": {
       "_instruction": "Enter the time in which each slice have been aquired within each volume.",
       "_linkedTypes": [
@@ -169,18 +188,6 @@
       "label": "Slice order",
       "name": "sliceOrder",
       "nameForReverseLink": null
-    },
-    "https://openminds.ebrains.eu/vocab/sliceThickness": {
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue",
-        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
-      ],
-      "_instruction": "Enter the slice thickness of this MR image.",
-      "label": "Slice thickness",
-      "labelPlural": "Slice thicknesses",
-      "name": "sliceThickness",
-      "nameForReverseLink": null,
-      "namePlural": "sliceThicknesses"
     },
     "https://openminds.ebrains.eu/vocab/sliceTiming": {
       "_instruction": "Enter the time in which each slice have been aquired within each volume.",
