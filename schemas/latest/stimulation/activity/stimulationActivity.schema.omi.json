@@ -84,8 +84,10 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/output": {
-      "_instruction": "Add all states of the specimen(s) that were stimulated as a result of this activity.",
+      "_instruction": "Add all states of the specimen(s) that were stimulated as a result of this activity, and all files or file bundles generated.",
       "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/FileBundle",
         "https://openminds.ebrains.eu/core/SubjectGroupState",
         "https://openminds.ebrains.eu/core/SubjectState",
         "https://openminds.ebrains.eu/core/TissueSampleCollectionState",

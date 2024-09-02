@@ -1,7 +1,4 @@
 {
-  "_categories": [
-    "fileOrigin"
-  ],
   "_type": "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
   "color": "#A697B6",
   "label": "Tissue sample collection state",
@@ -30,16 +27,6 @@
       "name": "age",
       "nameForReverseLink": null,
       "namePlural": "ages"
-    },
-    "https://openminds.ebrains.eu/vocab/lookupLabel": {
-      "_instruction": "Enter a lookup label for this specimen (set) state that may help you to more easily find it again.",
-      "formatting": "text/plain",
-      "label": "Lookup label",
-      "labelPlural": "Lookup labels",
-      "multiline": false,
-      "name": "lookupLabel",
-      "namePlural": "lookupLabels",
-      "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/pathology": {
       "_instruction": "Add the pathology of the specimen (set) in this state.",

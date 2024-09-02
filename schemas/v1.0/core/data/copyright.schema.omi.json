@@ -30,7 +30,7 @@
       "multiline": false,
       "name": "year",
       "namePlural": "years",
-      "pattern": "([0-9]{4})",
+      "pattern": "([0-9]{4}])",
       "type": "string"
     }
   },
