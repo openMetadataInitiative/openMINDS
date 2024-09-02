@@ -17,10 +17,10 @@
       "namePlural": "anatomicalAxesOrientations"
     },
     "https://openminds.ebrains.eu/vocab/axesOrigin": {
-      "_embeddedTypes": [
+      "_instruction": "Enter the origin of the coordinate system (central point where axes intersect; 2D: [x, y] or 3D:[x, y, z]).",
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ],
-      "_instruction": "Enter the origin of the coordinate system (central point where axes intersect; 2D: [x, y] or 3D:[x, y, z]).",
       "description": "Special point in a coordinate system used as a fixed point of reference for the geometry of the surrounding space.",
       "label": "Axes origin",
       "labelPlural": "Axes origins",
@@ -50,7 +50,7 @@
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this coordinate space.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI"
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -71,28 +71,15 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/homepage": {
-      "_formats": [
-        "iri"
-      ],
       "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this brain atlas.",
       "description": "Main website of something or someone.",
+      "format": "iri",
       "formatting": "text/plain",
       "label": "Homepage",
       "labelPlural": "Homepages",
       "multiline": false,
       "name": "homepage",
       "namePlural": "homepages",
-      "type": "string"
-    },
-    "https://openminds.ebrains.eu/vocab/howToCite": {
-      "_instruction": "Enter the preferred citation text for this coordinate space. Leave blank if citation text can be extracted from the assigned digital identifier.",
-      "description": "Preferred format for citing a particular object or legal person.",
-      "formatting": "text/markdown",
-      "label": "How to cite",
-      "labelPlural": "How to cite",
-      "multiline": true,
-      "name": "howToCite",
-      "namePlural": "howToCite",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/nativeUnit": {
@@ -108,11 +95,9 @@
       "namePlural": "nativeUnits"
     },
     "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
-      "_formats": [
-        "iri"
-      ],
       "_instruction": "Enter the identifier (IRI) of the related ontological term matching this coordinate space.",
       "description": "Term or code used to identify something or someone registered within a particular ontology.",
+      "format": "iri",
       "formatting": "text/plain",
       "label": "Ontology identifier",
       "labelPlural": "Ontology identifiers",
@@ -122,11 +107,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/releaseDate": {
-      "_formats": [
-        "date"
-      ],
       "_instruction": "Enter the date of first publication of this coordinate space.",
       "description": "Fixed date on which a product is due to become or was made available for the general public to see or buy",
+      "format": "date",
       "formatting": "text/plain",
       "label": "Release date",
       "labelPlural": "Release dates",

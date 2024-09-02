@@ -1,7 +1,4 @@
 {
-  "_categories": [
-    "legalPerson"
-  ],
   "_type": "https://openminds.ebrains.eu/core/Organization",
   "color": "#ADAAA9",
   "description": "Structured information on an organization.",
@@ -11,8 +8,7 @@
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add one or several globally unique and persistent digital identifier for this organization.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/GRIDID",
-        "https://openminds.ebrains.eu/core/RORID"
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -48,16 +44,16 @@
       "namePlural": "hasParents"
     },
     "https://openminds.ebrains.eu/vocab/homepage": {
-      "_instruction": "Add the uniform resource locator (URL) to the homepage of this organization.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/URL"
-      ],
+      "_instruction": "Enter a internationalized resource identifier (IRI) to the homepage of this organization.",
       "description": "Main website of something or someone.",
+      "format": "iri",
+      "formatting": "text/plain",
       "label": "Homepage",
       "labelPlural": "Homepages",
+      "multiline": false,
       "name": "homepage",
-      "nameForReverseLink": null,
-      "namePlural": "homepages"
+      "namePlural": "homepages",
+      "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/shortName": {
       "_instruction": "Enter the short name of this organization.",
