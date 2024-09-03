@@ -97,5 +97,43 @@
         "branch": "v1",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_stimulation.git"
       }
+    },
+    "v4.0": {
+      "SANDS": {
+        "branch": "v4",
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_SANDS.git"
+      },
+      "chemicals": {
+        "branch": "v2",
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_chemicals.git"
+      },
+      "computation": {
+        "branch": "v2",
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_computation.git"
+      },
+      "controlledTerms": {
+        "branch": "v2",
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_controlledTerms.git"
+      },
+      "core": {
+        "branch": "v5",
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_core.git"
+      },
+      "ephys": {
+        "branch": "v2",
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_ephys.git"
+      },
+      "publications": {
+        "branch": "v2",
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_publications.git"
+      },
+      "specimenPrep": {
+        "branch": "v2",
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_specimenPrep.git"
+      },
+      "stimulation": {
+        "branch": "v2",
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_stimulation.git"
+      }
     }
   }
