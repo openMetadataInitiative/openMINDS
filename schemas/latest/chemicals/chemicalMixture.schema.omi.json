@@ -1,9 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
-  "color": "#887868",
-  "description": "Structured information about a mixture of chemical substances.",
-  "label": "Chemical mixture",
-  "name": "ChemicalMixture",
+  "_type": "chemicals:ChemicalMixture",
+  "label": "Chemicals:chemical mixture",
+  "name": "chemicals:ChemicalMixture",
   "properties": {
     "https://openminds.ebrains.eu/vocab/additionalRemarks": {
       "_instruction": "Enter any additional remarks concerning this chemical mixture.",
@@ -18,7 +16,7 @@
     },
     "https://openminds.ebrains.eu/vocab/hasPart": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/chemicals/AmountOfChemical"
+        "chemicals:AmountOfChemical"
       ],
       "_instruction": "Enter all components, including other mixtures, that are part of this chemical mixture.",
       "label": "Has part",
@@ -44,7 +42,7 @@
     "https://openminds.ebrains.eu/vocab/productSource": {
       "_instruction": "Add the source of this chemical mixture.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/chemicals/ProductSource"
+        "chemicals:ProductSource"
       ],
       "label": "Product source",
       "labelPlural": "Product sources",
@@ -55,7 +53,7 @@
     "https://openminds.ebrains.eu/vocab/type": {
       "_instruction": "Add the type of this mixture.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/ChemicalMixtureType"
+        "controlledTerms:ChemicalMixtureType"
       ],
       "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
       "label": "Type",

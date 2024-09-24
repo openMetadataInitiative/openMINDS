@@ -8,7 +8,7 @@
   "name": "TissueSampleCollectionState",
   "properties": {
     "https://openminds.ebrains.eu/vocab/additionalRemarks": {
-      "_instruction": "Enter any additional remarks concerning the specimen (set) in this state.",
+      "_instruction": "Enter any additional remarks concering the specimen (set) in this state.",
       "description": "Mention of what deserves additional attention or notice.",
       "formatting": "text/markdown",
       "label": "Additional remarks",

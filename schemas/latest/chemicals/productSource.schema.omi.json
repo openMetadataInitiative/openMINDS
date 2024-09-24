@@ -1,14 +1,12 @@
 {
-  "_type": "https://openminds.ebrains.eu/chemicals/ProductSource",
-  "color": "#EB9A8B",
-  "description": "Structured information about the source of a chemical substance or mixture.",
-  "label": "Product source",
-  "name": "ProductSource",
+  "_type": "chemicals:ProductSource",
+  "label": "Chemicals:product source",
+  "name": "chemicals:ProductSource",
   "properties": {
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this product.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/RRID"
+        "core:RRID"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -53,8 +51,8 @@
     },
     "https://openminds.ebrains.eu/vocab/purity": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue",
-        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+        "core:QuantitativeValue",
+        "core:QuantitativeValueRange"
       ],
       "_instruction": "Enter the purity of the product as stated by the 'provider'.",
       "label": "Purity",

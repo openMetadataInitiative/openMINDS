@@ -1,7 +1,4 @@
 {
-  "_categories": [
-    "fileOrigin"
-  ],
   "_type": "https://openminds.ebrains.eu/core/File",
   "color": "#AA9297",
   "description": "Structured information on a file instance that is accessible via a URL.",
@@ -32,32 +29,6 @@
       "name": "content",
       "namePlural": "content",
       "type": "string"
-    },
-    "https://openminds.ebrains.eu/vocab/descendedFrom": {
-      "_instruction": "Add all entities that played a role in the production of this single file.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
-        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
-        "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
-        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
-        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
-        "https://openminds.ebrains.eu/controlledTerms/Technique",
-        "https://openminds.ebrains.eu/core/BehavioralTask",
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/SubjectGroupState",
-        "https://openminds.ebrains.eu/core/SubjectState",
-        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-        "https://openminds.ebrains.eu/core/TissueSampleState"
-      ],
-      "label": "Descended from",
-      "labelPlural": "Descended from",
-      "minItems": 1,
-      "name": "descendedFrom",
-      "nameForReverseLink": null,
-      "namePlural": "descendedFrom",
-      "type": "array",
-      "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/fileRepository": {
       "_instruction": "Add the over all repository to which this single file belongs.",
