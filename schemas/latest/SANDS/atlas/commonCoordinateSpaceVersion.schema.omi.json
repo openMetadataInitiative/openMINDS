@@ -3,10 +3,9 @@
     "coordinateSpace",
     "researchProduct"
   ],
-  "_type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
-  "color": "#D60034",
-  "label": "Common coordinate space version",
-  "name": "CommonCoordinateSpaceVersion",
+  "_type": "sands:CommonCoordinateSpaceVersion",
+  "label": "Sands:common coordinate space version",
+  "name": "sands:CommonCoordinateSpaceVersion",
   "properties": {
     "https://openminds.ebrains.eu/vocab/abbreviation": {
       "_instruction": "Enter the official abbreviation of this common coordinate space version.",
@@ -33,7 +32,7 @@
     "https://openminds.ebrains.eu/vocab/anatomicalAxesOrientation": {
       "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (stated as XYZ) for this common coordinate space version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation"
+        "controlledTerms:AnatomicalAxesOrientation"
       ],
       "description": "Relation between reference planes used in anatomy and mathematics.",
       "label": "Anatomical axes orientation",
@@ -61,7 +60,7 @@
     },
     "https://openminds.ebrains.eu/vocab/axesOrigin": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter the origin (central point where all axes intersect) of this common coordinate space version for two-dimensional spaces as [x, y] or for three-dimensional space as [x, y, z].",
       "description": "Special point in a coordinate system used as a fixed point of reference for the geometry of the surrounding space.",
@@ -107,7 +106,7 @@
     "https://openminds.ebrains.eu/vocab/defaultImage": {
       "_instruction": "Add all image files used as visual representation of this common coordinate space version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File"
+        "core:File"
       ],
       "description": "Two or three dimensional image that particluarly represents a specific coordinate space.",
       "label": "Default image",
@@ -133,9 +132,9 @@
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/ISBN",
-        "https://openminds.ebrains.eu/core/RRID"
+        "core:DOI",
+        "core:ISBN",
+        "core:RRID"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -213,7 +212,7 @@
     "https://openminds.ebrains.eu/vocab/isAlternativeVersionOf": {
       "_instruction": "Add all common coordinate space versions that can be used alternatively to this common coordinate space version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "sands:CommonCoordinateSpaceVersion"
       ],
       "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
       "label": "Is alternative version of",
@@ -228,7 +227,7 @@
     "https://openminds.ebrains.eu/vocab/isNewVersionOf": {
       "_instruction": "Add the common coordinate space version preceding this common coordinate space version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "sands:CommonCoordinateSpaceVersion"
       ],
       "description": "Reference to a previous (potentially outdated) particular form of something.",
       "label": "Is new version of",
@@ -334,7 +333,7 @@
     "https://openminds.ebrains.eu/vocab/license": {
       "_instruction": "Add the license of this common coordinate space version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/License"
+        "core:License"
       ],
       "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
       "label": "License",
@@ -346,7 +345,7 @@
     "https://openminds.ebrains.eu/vocab/nativeUnit": {
       "_instruction": "Add the native unit that is used for this common coordinate space version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+        "controlledTerms:UnitOfMeasurement"
       ],
       "description": "Determinate quantity used in the original measurement.",
       "label": "Native unit",
@@ -470,10 +469,10 @@
     "https://openminds.ebrains.eu/vocab/usedSpecimen": {
       "_instruction": "Add the specimen that was used for the creation of this common coordinate space version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Subject",
-        "https://openminds.ebrains.eu/core/SubjectGroup",
-        "https://openminds.ebrains.eu/core/TissueSample",
-        "https://openminds.ebrains.eu/core/TissueSampleCollection"
+        "core:Subject",
+        "core:SubjectGroup",
+        "core:TissueSample",
+        "core:TissueSampleCollection"
       ],
       "label": "Used specimen",
       "labelPlural": "Used specimens",

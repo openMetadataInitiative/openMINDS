@@ -2,10 +2,9 @@
   "_categories": [
     "color"
   ],
-  "_type": "https://openminds.ebrains.eu/sands/SingleColor",
-  "color": "#E66D53",
-  "label": "Single color",
-  "name": "SingleColor",
+  "_type": "sands:SingleColor",
+  "label": "Sands:single color",
+  "name": "sands:SingleColor",
   "properties": {
     "https://openminds.ebrains.eu/vocab/value": {
       "_instruction": "Enter the Hex color code following the define pattern (e.g., #000000 or #C0C0C0).",

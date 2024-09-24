@@ -2,14 +2,13 @@
   "_categories": [
     "mathematicalShapes"
   ],
-  "_type": "https://openminds.ebrains.eu/sands/Circle",
-  "color": "#00B57F",
-  "label": "Circle",
-  "name": "Circle",
+  "_type": "sands:Circle",
+  "label": "Sands:circle",
+  "name": "sands:Circle",
   "properties": {
     "https://openminds.ebrains.eu/vocab/radius": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter the radius of this circle.",
       "label": "Radius",

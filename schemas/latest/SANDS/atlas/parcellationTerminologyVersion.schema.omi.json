@@ -1,13 +1,12 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
-  "color": "#02227B",
-  "label": "Parcellation terminology version",
-  "name": "ParcellationTerminologyVersion",
+  "_type": "sands:ParcellationTerminologyVersion",
+  "label": "Sands:parcellation terminology version",
+  "name": "sands:ParcellationTerminologyVersion",
   "properties": {
     "https://openminds.ebrains.eu/vocab/dataLocation": {
       "_instruction": "Add the location of all files in which this parcellation terminology version is stored.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File"
+        "core:File"
       ],
       "label": "Data location",
       "labelPlural": "Data locations",
@@ -21,7 +20,7 @@
     "https://openminds.ebrains.eu/vocab/hasEntity": {
       "_instruction": "Add all parcellation entity versions which belong to this parcellation terminology version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+        "sands:ParcellationEntityVersion"
       ],
       "label": "Has entity",
       "labelPlural": "Has entities",

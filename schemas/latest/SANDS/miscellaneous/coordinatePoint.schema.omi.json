@@ -1,15 +1,13 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/CoordinatePoint",
-  "color": "#A97399",
-  "description": "Structured information on a coordinate point.",
-  "label": "Coordinate point",
-  "name": "CoordinatePoint",
+  "_type": "sands:CoordinatePoint",
+  "label": "Sands:coordinate point",
+  "name": "sands:CoordinatePoint",
   "properties": {
     "https://openminds.ebrains.eu/vocab/coordinateSpace": {
       "_instruction": "Add the coordinate space in which this coordinate point exists in.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
-        "https://openminds.ebrains.eu/sands/CustomCoordinateSpace"
+        "sands:CommonCoordinateSpaceVersion",
+        "sands:CustomCoordinateSpace"
       ],
       "description": "Two or three dimensional geometric setting.",
       "label": "Coordinate space",
@@ -20,7 +18,7 @@
     },
     "https://openminds.ebrains.eu/vocab/coordinates": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter the coordinates of this point within the stated coordinate space for two-dimensonal spaces as [x, y] or for three-dimensional space as [x, y, z].",
       "description": "Pair or triplet of numbers defining a location in a given coordinate space.",

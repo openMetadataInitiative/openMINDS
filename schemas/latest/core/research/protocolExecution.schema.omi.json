@@ -205,9 +205,9 @@
         "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
         "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
         "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType",
-        "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
-        "https://openminds.ebrains.eu/sands/ParcellationEntity",
-        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+        "sands:CustomAnatomicalEntity",
+        "sands:ParcellationEntity",
+        "sands:ParcellationEntityVersion"
       ],
       "description": "Structure or function that was targeted within a study.",
       "label": "Study target",

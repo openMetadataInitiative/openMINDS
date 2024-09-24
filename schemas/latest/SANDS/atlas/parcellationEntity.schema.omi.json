@@ -3,10 +3,9 @@
     "anatomicalLocation",
     "studyTarget"
   ],
-  "_type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
-  "color": "#71B2F5",
-  "label": "Parcellation entity",
-  "name": "ParcellationEntity",
+  "_type": "sands:ParcellationEntity",
+  "label": "Sands:parcellation entity",
+  "name": "sands:ParcellationEntity",
   "properties": {
     "https://openminds.ebrains.eu/vocab/abbreviation": {
       "_instruction": "Enter the official abbreviation of this parcellation entity.",
@@ -47,7 +46,7 @@
     "https://openminds.ebrains.eu/vocab/hasParent": {
       "_instruction": "Add all anatomical parent structures for this parcellation entity as defined within the corresponding brain atlas.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationEntity"
+        "sands:ParcellationEntity"
       ],
       "description": "Reference to a parent object or legal person.",
       "label": "Has parent",
@@ -62,7 +61,7 @@
     "https://openminds.ebrains.eu/vocab/hasVersion": {
       "_instruction": "Add all versions of this parcellation entity.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+        "sands:ParcellationEntityVersion"
       ],
       "description": "Reference to variants of an original.",
       "label": "Has version",
@@ -117,8 +116,8 @@
     "https://openminds.ebrains.eu/vocab/relatedUBERONTerm": {
       "_instruction": "Add the related anatomical entity as defined by the UBERON ontology.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Organ",
-        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation"
+        "controlledTerms:Organ",
+        "controlledTerms:UBERONParcellation"
       ],
       "label": "Related uberonterm",
       "labelPlural": "Related UBERON terms",

@@ -2,14 +2,13 @@
   "_categories": [
     "mathematicalShapes"
   ],
-  "_type": "https://openminds.ebrains.eu/sands/Rectangle",
-  "color": "#6B8295",
-  "label": "Rectangle",
-  "name": "Rectangle",
+  "_type": "sands:Rectangle",
+  "label": "Sands:rectangle",
+  "name": "sands:Rectangle",
   "properties": {
     "https://openminds.ebrains.eu/vocab/length": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter the length of this rectangle.",
       "label": "Length",
@@ -20,7 +19,7 @@
     },
     "https://openminds.ebrains.eu/vocab/width": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter the width of this rectangle.",
       "label": "Width",

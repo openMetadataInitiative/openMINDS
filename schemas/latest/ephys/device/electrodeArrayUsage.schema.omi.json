@@ -14,9 +14,9 @@
         "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
         "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
         "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
-        "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
-        "https://openminds.ebrains.eu/sands/ParcellationEntity",
-        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+        "sands:CustomAnatomicalEntity",
+        "sands:ParcellationEntity",
+        "sands:ParcellationEntityVersion"
       ],
       "label": "Anatomical location of array",
       "labelPlural": "Anatomical locations of arrays",
@@ -35,9 +35,9 @@
         "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
         "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
         "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
-        "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
-        "https://openminds.ebrains.eu/sands/ParcellationEntity",
-        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+        "sands:CustomAnatomicalEntity",
+        "sands:ParcellationEntity",
+        "sands:ParcellationEntityVersion"
       ],
       "label": "Anatomical location of electrodes",
       "labelPlural": "Anatomical locations of electrodes",
