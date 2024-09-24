@@ -2767,7 +2767,6 @@
     "color": "#452C2C",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Cranial window preparation",
@@ -2778,7 +2777,6 @@
     "color": "#518A87",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Slicing device",
@@ -2789,7 +2787,6 @@
     "color": "#7D9F00",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Slicing device usage",
@@ -2800,7 +2797,6 @@
     "color": "#A9DDB0",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Tissue culture preparation",
@@ -2811,7 +2807,6 @@
     "color": "#AC84DD",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Tissue sample slicing",
@@ -2946,6 +2941,56 @@
     ],
     "label": "Publications:scholarly article",
     "name": "publications:ScholarlyArticle",
+    "semanticEquivalent": []
+  },
+  "specimenPrep:CranialWindowPreparation": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Specimen prep:cranial window preparation",
+    "name": "specimenPrep:CranialWindowPreparation",
+    "semanticEquivalent": []
+  },
+  "specimenPrep:SlicingDevice": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Specimen prep:slicing device",
+    "name": "specimenPrep:SlicingDevice",
+    "semanticEquivalent": []
+  },
+  "specimenPrep:SlicingDeviceUsage": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Specimen prep:slicing device usage",
+    "name": "specimenPrep:SlicingDeviceUsage",
+    "semanticEquivalent": []
+  },
+  "specimenPrep:TissueCulturePreparation": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Specimen prep:tissue culture preparation",
+    "name": "specimenPrep:TissueCulturePreparation",
+    "semanticEquivalent": []
+  },
+  "specimenPrep:TissueSampleSlicing": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Specimen prep:tissue sample slicing",
+    "name": "specimenPrep:TissueSampleSlicing",
     "semanticEquivalent": []
   },
   "stimulation:EphysStimulus": {

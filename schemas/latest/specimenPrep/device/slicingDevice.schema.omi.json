@@ -2,10 +2,9 @@
   "_categories": [
     "setupComponent"
   ],
-  "_type": "https://openminds.ebrains.eu/specimenPrep/SlicingDevice",
-  "color": "#518A87",
-  "label": "Slicing device",
-  "name": "SlicingDevice",
+  "_type": "specimenPrep:SlicingDevice",
+  "label": "Specimen prep:slicing device",
+  "name": "specimenPrep:SlicingDevice",
   "properties": {
     "https://openminds.ebrains.eu/vocab/description": {
       "_instruction": "Enter a short text describing this device.",

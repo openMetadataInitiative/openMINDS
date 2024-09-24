@@ -1838,7 +1838,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/CranialWindowConstructionType"
+          "controlledTerms:CranialWindowConstructionType"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/CranialWindowConstructionType"
@@ -1854,7 +1854,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation"
+        "specimenPrep:CranialWindowPreparation"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation"
@@ -2596,7 +2596,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/chemicals/ChemicalMixture"
+          "chemicals:ChemicalMixture"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/chemicals/ChemicalMixture"
@@ -2612,7 +2612,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation"
+        "specimenPrep:TissueCulturePreparation"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation"
@@ -2623,7 +2623,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/CellCultureType"
+          "controlledTerms:CellCultureType"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/CellCultureType"
@@ -2639,7 +2639,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation"
+        "specimenPrep:TissueCulturePreparation"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation"
@@ -2778,9 +2778,9 @@
         "https://openminds.ebrains.eu/ephys/CellPatching",
         "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
-        "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
+        "specimenPrep:CranialWindowPreparation",
+        "specimenPrep:TissueCulturePreparation",
+        "specimenPrep:TissueSampleSlicing",
         "stimulation:StimulationActivity"
       ],
       "v3.0": [
@@ -3249,7 +3249,7 @@
           "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
           "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
           "https://openminds.ebrains.eu/ephys/PipetteUsage",
-          "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+          "specimenPrep:SlicingDeviceUsage"
         ]
       },
       "nameForReverseLink": null
@@ -3478,13 +3478,13 @@
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
-        "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDevice",
-        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
         "publications:LivePaper",
         "publications:LivePaperSection",
         "publications:LivePaperVersion",
+        "specimenPrep:CranialWindowPreparation",
+        "specimenPrep:SlicingDevice",
+        "specimenPrep:TissueCulturePreparation",
+        "specimenPrep:TissueSampleSlicing",
         "stimulation:EphysStimulus",
         "stimulation:StimulationActivity"
       ],
@@ -3811,8 +3811,8 @@
           "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
           "https://openminds.ebrains.eu/ephys/Pipette",
           "https://openminds.ebrains.eu/ephys/PipetteUsage",
-          "https://openminds.ebrains.eu/specimenPrep/SlicingDevice",
-          "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+          "specimenPrep:SlicingDevice",
+          "specimenPrep:SlicingDeviceUsage"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/OperatingDevice"
@@ -3849,8 +3849,8 @@
         "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
         "https://openminds.ebrains.eu/ephys/PipetteUsage",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage",
-        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing"
+        "specimenPrep:SlicingDeviceUsage",
+        "specimenPrep:TissueSampleSlicing"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
@@ -3894,7 +3894,7 @@
         "https://openminds.ebrains.eu/ephys/Electrode",
         "https://openminds.ebrains.eu/ephys/ElectrodeArray",
         "https://openminds.ebrains.eu/ephys/Pipette",
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDevice"
+        "specimenPrep:SlicingDevice"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/ephys/Electrode",
@@ -4008,14 +4008,14 @@
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDevice",
         "publications:Book",
         "publications:Chapter",
         "publications:LearningResource",
         "publications:LivePaper",
         "publications:LivePaperVersion",
         "publications:Periodical",
-        "publications:ScholarlyArticle"
+        "publications:ScholarlyArticle",
+        "specimenPrep:SlicingDevice"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Dataset",
@@ -4105,7 +4105,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation"
+        "specimenPrep:CranialWindowPreparation"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation"
@@ -4444,9 +4444,9 @@
         "https://openminds.ebrains.eu/ephys/CellPatching",
         "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
-        "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
+        "specimenPrep:CranialWindowPreparation",
+        "specimenPrep:TissueCulturePreparation",
+        "specimenPrep:TissueSampleSlicing",
         "stimulation:StimulationActivity"
       ],
       "v3.0": [
@@ -5217,7 +5217,7 @@
           "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
           "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
           "https://openminds.ebrains.eu/ephys/PipetteUsage",
-          "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+          "specimenPrep:SlicingDeviceUsage"
         ]
       },
       "nameForReverseLink": null
@@ -5768,9 +5768,9 @@
           "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
           "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
           "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
-          "https://openminds.ebrains.eu/specimenPrep/SlicingDevice",
           "publications:LivePaper",
-          "publications:LivePaperVersion"
+          "publications:LivePaperVersion",
+          "specimenPrep:SlicingDevice"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/chemicals/AmountOfChemical",
@@ -6623,9 +6623,9 @@
         "https://openminds.ebrains.eu/ephys/CellPatching",
         "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
-        "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
+        "specimenPrep:CranialWindowPreparation",
+        "specimenPrep:TissueCulturePreparation",
+        "specimenPrep:TissueSampleSlicing",
         "stimulation:StimulationActivity"
       ],
       "v1.0": [
@@ -7401,15 +7401,15 @@
         "https://openminds.ebrains.eu/ephys/CellPatching",
         "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
-        "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
         "publications:Chapter",
         "publications:LivePaperResourceItem",
         "publications:LivePaperSection",
         "publications:PublicationIssue",
         "publications:PublicationVolume",
         "publications:ScholarlyArticle",
+        "specimenPrep:CranialWindowPreparation",
+        "specimenPrep:TissueCulturePreparation",
+        "specimenPrep:TissueSampleSlicing",
         "stimulation:StimulationActivity"
       ],
       "v1.0": [
@@ -8315,11 +8315,11 @@
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
         "https://openminds.ebrains.eu/sands/ParcellationEntity",
         "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-        "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDevice",
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage",
-        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
+        "specimenPrep:CranialWindowPreparation",
+        "specimenPrep:SlicingDevice",
+        "specimenPrep:SlicingDeviceUsage",
+        "specimenPrep:TissueCulturePreparation",
+        "specimenPrep:TissueSampleSlicing",
         "stimulation:EphysStimulus",
         "stimulation:StimulationActivity"
       ],
@@ -8431,7 +8431,7 @@
         "https://openminds.ebrains.eu/ephys/Electrode",
         "https://openminds.ebrains.eu/ephys/ElectrodeArray",
         "https://openminds.ebrains.eu/ephys/Pipette",
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDevice"
+        "specimenPrep:SlicingDevice"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/Setup",
@@ -8564,7 +8564,7 @@
           "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
           "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
           "https://openminds.ebrains.eu/ephys/PipetteUsage",
-          "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+          "specimenPrep:SlicingDeviceUsage"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
@@ -8644,7 +8644,7 @@
         "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
         "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
         "https://openminds.ebrains.eu/ephys/PipetteUsage",
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+        "specimenPrep:SlicingDeviceUsage"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
@@ -8914,14 +8914,14 @@
         "https://openminds.ebrains.eu/sands/CustomCoordinateSpace",
         "https://openminds.ebrains.eu/sands/ParcellationEntity",
         "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDevice",
         "publications:Book",
         "publications:Chapter",
         "publications:LearningResource",
         "publications:LivePaperResourceItem",
         "publications:LivePaperSection",
         "publications:Periodical",
-        "publications:ScholarlyArticle"
+        "publications:ScholarlyArticle",
+        "specimenPrep:SlicingDevice"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/controlledTerms/AgeCategory",
@@ -9552,7 +9552,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:QuantitativeValue"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue"
@@ -9568,7 +9568,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+        "specimenPrep:SlicingDeviceUsage"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
@@ -9728,9 +9728,9 @@
         "https://openminds.ebrains.eu/ephys/CellPatching",
         "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
-        "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
+        "specimenPrep:CranialWindowPreparation",
+        "specimenPrep:TissueCulturePreparation",
+        "specimenPrep:TissueSampleSlicing",
         "stimulation:StimulationActivity"
       ],
       "v1.0": [
@@ -9873,7 +9873,7 @@
         "https://openminds.ebrains.eu/ephys/Electrode",
         "https://openminds.ebrains.eu/ephys/ElectrodeArray",
         "https://openminds.ebrains.eu/ephys/Pipette",
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDevice"
+        "specimenPrep:SlicingDevice"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/ephys/Electrode",
@@ -10105,9 +10105,9 @@
         "https://openminds.ebrains.eu/ephys/CellPatching",
         "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
-        "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
+        "specimenPrep:CranialWindowPreparation",
+        "specimenPrep:TissueCulturePreparation",
+        "specimenPrep:TissueSampleSlicing",
         "stimulation:StimulationActivity"
       ],
       "v3.0": [
@@ -10509,9 +10509,9 @@
         "https://openminds.ebrains.eu/ephys/CellPatching",
         "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
-        "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
+        "specimenPrep:CranialWindowPreparation",
+        "specimenPrep:TissueCulturePreparation",
+        "specimenPrep:TissueSampleSlicing",
         "stimulation:StimulationActivity"
       ],
       "v3.0": [
@@ -10804,9 +10804,9 @@
         "https://openminds.ebrains.eu/ephys/CellPatching",
         "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
-        "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
+        "specimenPrep:CranialWindowPreparation",
+        "specimenPrep:TissueCulturePreparation",
+        "specimenPrep:TissueSampleSlicing",
         "stimulation:StimulationActivity"
       ],
       "v1.0": [
@@ -11131,7 +11131,7 @@
           "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
           "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
           "https://openminds.ebrains.eu/ephys/PipetteUsage",
-          "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+          "specimenPrep:SlicingDeviceUsage"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
@@ -11247,7 +11247,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/CranialWindowReinforcementType"
+          "controlledTerms:CranialWindowReinforcementType"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/CranialWindowReinforcementType"
@@ -11263,7 +11263,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation"
+        "specimenPrep:CranialWindowPreparation"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation"
@@ -12096,7 +12096,7 @@
         "https://openminds.ebrains.eu/ephys/Electrode",
         "https://openminds.ebrains.eu/ephys/ElectrodeArray",
         "https://openminds.ebrains.eu/ephys/Pipette",
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDevice"
+        "specimenPrep:SlicingDevice"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/ephys/Electrode",
@@ -12340,8 +12340,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+          "core:QuantitativeValue",
+          "core:QuantitativeValueRange"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue",
@@ -12358,7 +12358,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+        "specimenPrep:SlicingDeviceUsage"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
@@ -12369,8 +12369,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/NumericalProperty",
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:NumericalProperty",
+          "core:QuantitativeValue"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/NumericalProperty",
@@ -12387,7 +12387,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+        "specimenPrep:SlicingDeviceUsage"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
@@ -12398,7 +12398,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/AnatomicalPlane"
+          "controlledTerms:AnatomicalPlane"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/AnatomicalPlane"
@@ -12414,7 +12414,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+        "specimenPrep:SlicingDeviceUsage"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
@@ -12425,7 +12425,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:QuantitativeValue"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue"
@@ -12441,7 +12441,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+        "specimenPrep:SlicingDeviceUsage"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
@@ -12869,9 +12869,9 @@
         "https://openminds.ebrains.eu/ephys/CellPatching",
         "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
-        "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
+        "specimenPrep:CranialWindowPreparation",
+        "specimenPrep:TissueCulturePreparation",
+        "specimenPrep:TissueSampleSlicing",
         "stimulation:StimulationActivity"
       ],
       "v3.0": [
@@ -13456,9 +13456,9 @@
         "https://openminds.ebrains.eu/ephys/CellPatching",
         "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
-        "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
-        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
+        "specimenPrep:CranialWindowPreparation",
+        "specimenPrep:TissueCulturePreparation",
+        "specimenPrep:TissueSampleSlicing",
         "stimulation:StimulationActivity"
       ],
       "v1.0": [
@@ -13918,8 +13918,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+          "core:QuantitativeValue",
+          "core:QuantitativeValueRange"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue",
@@ -13936,7 +13936,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing"
+        "specimenPrep:TissueSampleSlicing"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing"
@@ -13996,6 +13996,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "chemicals:ChemicalMixture",
           "https://openminds.ebrains.eu/chemicals/ChemicalMixture"
         ],
         "v3.0": [
@@ -14013,7 +14014,7 @@
     "usedIn": {
       "latest": [
         "https://openminds.ebrains.eu/ephys/CellPatching",
-        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing"
+        "specimenPrep:TissueSampleSlicing"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/ephys/CellPatching",
@@ -14336,7 +14337,7 @@
         "https://openminds.ebrains.eu/ephys/PipetteUsage",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+        "specimenPrep:SlicingDeviceUsage"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
@@ -14643,7 +14644,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:QuantitativeValue"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue"
@@ -14659,7 +14660,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+        "specimenPrep:SlicingDeviceUsage"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
