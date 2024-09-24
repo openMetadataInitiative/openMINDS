@@ -1,8 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/publications/Periodical",
-  "color": "#83A193",
-  "label": "Periodical",
-  "name": "Periodical",
+  "_type": "publications:Periodical",
+  "label": "Publications:periodical",
+  "name": "publications:Periodical",
   "properties": {
     "https://openminds.ebrains.eu/vocab/abbreviation": {
       "_instruction": "Enter the official (or most commonly used) abbreviation of the periodical (e.g., J. Physiol).",
@@ -17,7 +16,7 @@
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this periodical.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ISSN"
+        "core:ISSN"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",

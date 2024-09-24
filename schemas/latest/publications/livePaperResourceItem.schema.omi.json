@@ -1,8 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/publications/LivePaperResourceItem",
-  "color": "#004547",
-  "label": "Live paper resource item",
-  "name": "LivePaperResourceItem",
+  "_type": "publications:LivePaperResourceItem",
+  "label": "Publications:live paper resource item",
+  "name": "publications:LivePaperResourceItem",
   "properties": {
     "https://openminds.ebrains.eu/vocab/IRI": {
       "_formats": [
@@ -19,11 +18,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/hostedBy": {
-      "_instruction": "Add the web service or organization that hosts this live paper resource item.",
+      "_instruction": "Add the host organization of this live paper resource item.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/WebService",
-        "https://openminds.ebrains.eu/controlledTerms/Service"
+        "core:Organization"
       ],
       "description": "Reference to an organization that provides facilities and services for something.",
       "label": "Hosted by",
@@ -35,7 +32,7 @@
     "https://openminds.ebrains.eu/vocab/isPartOf": {
       "_instruction": "Add the live paper section this live paper resource item is part of.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/publications/LivePaperSection"
+        "publications:LivePaperSection"
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",

@@ -2,10 +2,9 @@
   "_categories": [
     "researchProduct"
   ],
-  "_type": "https://openminds.ebrains.eu/publications/LivePaper",
-  "color": "#CAEFFF",
-  "label": "Live paper",
-  "name": "LivePaper",
+  "_type": "publications:LivePaper",
+  "label": "Publications:live paper",
+  "name": "publications:LivePaper",
   "properties": {
     "https://openminds.ebrains.eu/vocab/author": {
       "_instruction": "Add all parties that contributed to this live paper as authors.",
@@ -55,7 +54,7 @@
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI"
+        "core:DOI"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -78,7 +77,7 @@
     "https://openminds.ebrains.eu/vocab/hasVersion": {
       "_instruction": "Add all versions of this live paper.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/publications/LivePaperVersion"
+        "publications:LivePaperVersion"
       ],
       "description": "Reference to variants of an original.",
       "label": "Has version",

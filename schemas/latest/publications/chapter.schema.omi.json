@@ -2,10 +2,9 @@
   "_categories": [
     "publicationReference"
   ],
-  "_type": "https://openminds.ebrains.eu/publications/Chapter",
-  "color": "#FFB3E1",
-  "label": "Chapter",
-  "name": "Chapter",
+  "_type": "publications:Chapter",
+  "label": "Publications:chapter",
+  "name": "publications:Chapter",
   "properties": {
     "https://openminds.ebrains.eu/vocab/IRI": {
       "_formats": [
@@ -51,8 +50,8 @@
     "https://openminds.ebrains.eu/vocab/citedPublication": {
       "_instruction": "Add all references this creative work cites.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/ISBN"
+        "core:DOI",
+        "core:ISBN"
       ],
       "label": "Cited publication",
       "labelPlural": "Cited publications",
@@ -65,7 +64,7 @@
     },
     "https://openminds.ebrains.eu/vocab/copyright": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Copyright"
+        "core:Copyright"
       ],
       "_instruction": "Enter the copyright information of this creative work.",
       "description": "Exclusive and assignable legal right of an originator to reproduce, publish, sell, or distribute the matter and form of a creative work for a defined time period.",
@@ -108,7 +107,7 @@
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this creative work.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI"
+        "core:DOI"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -120,7 +119,7 @@
     "https://openminds.ebrains.eu/vocab/editor": {
       "_instruction": "Add all persons that edited this creative work.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Person"
       ],
       "label": "Editor",
       "labelPlural": "Editors",
@@ -134,7 +133,7 @@
     "https://openminds.ebrains.eu/vocab/funding": {
       "_instruction": "Add all funding information of this creative work.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Funding"
+        "core:Funding"
       ],
       "description": "Money provided by a legal person for a particular purpose.",
       "label": "Funding",
@@ -149,7 +148,7 @@
     "https://openminds.ebrains.eu/vocab/isPartOf": {
       "_instruction": "Add the book this chapter is part of.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/publications/Book"
+        "publications:Book"
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
@@ -255,7 +254,7 @@
     "https://openminds.ebrains.eu/vocab/license": {
       "_instruction": "Add the license of this creative work.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/License"
+        "core:License"
       ],
       "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
       "label": "License",

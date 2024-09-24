@@ -1,8 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/publications/LearningResource",
-  "color": "#001C1E",
-  "label": "Learning resource",
-  "name": "LearningResource",
+  "_type": "publications:LearningResource",
+  "label": "Publications:learning resource",
+  "name": "publications:LearningResource",
   "properties": {
     "https://openminds.ebrains.eu/vocab/IRI": {
       "_formats": [
@@ -35,12 +34,12 @@
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebService",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/LivePaper",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
         "https://openminds.ebrains.eu/sands/BrainAtlas",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:LivePaper",
+        "publications:LivePaperVersion"
       ],
       "label": "About",
       "labelPlural": "About",
@@ -81,8 +80,8 @@
     "https://openminds.ebrains.eu/vocab/citedPublication": {
       "_instruction": "Add all references this creative work cites.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/ISBN"
+        "core:DOI",
+        "core:ISBN"
       ],
       "label": "Cited publication",
       "labelPlural": "Cited publications",
@@ -95,7 +94,7 @@
     },
     "https://openminds.ebrains.eu/vocab/copyright": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Copyright"
+        "core:Copyright"
       ],
       "_instruction": "Enter the copyright information of this creative work.",
       "description": "Exclusive and assignable legal right of an originator to reproduce, publish, sell, or distribute the matter and form of a creative work for a defined time period.",
@@ -138,7 +137,7 @@
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this creative work.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI"
+        "core:DOI"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -150,7 +149,7 @@
     "https://openminds.ebrains.eu/vocab/editor": {
       "_instruction": "Add all persons that edited this creative work.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Person"
       ],
       "label": "Editor",
       "labelPlural": "Editors",
@@ -164,7 +163,7 @@
     "https://openminds.ebrains.eu/vocab/educationalLevel": {
       "_instruction": "Add the educational level that best summarizes the prerequisite of this learning resource.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/EducationalLevel"
+        "controlledTerms:EducationalLevel"
       ],
       "label": "Educational level",
       "labelPlural": "Educational levels",
@@ -175,7 +174,7 @@
     "https://openminds.ebrains.eu/vocab/funding": {
       "_instruction": "Add all funding information of this creative work.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Funding"
+        "core:Funding"
       ],
       "description": "Money provided by a legal person for a particular purpose.",
       "label": "Funding",
@@ -294,7 +293,7 @@
     "https://openminds.ebrains.eu/vocab/license": {
       "_instruction": "Add the license of this creative work.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/License"
+        "core:License"
       ],
       "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
       "label": "License",
@@ -373,8 +372,8 @@
     },
     "https://openminds.ebrains.eu/vocab/requiredTime": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue",
-        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+        "core:QuantitativeValue",
+        "core:QuantitativeValueRange"
       ],
       "_instruction": "Enter the time that is required to complete this learning resource.",
       "label": "Required time",
@@ -396,7 +395,7 @@
     "https://openminds.ebrains.eu/vocab/type": {
       "_instruction": "Add the type of this learning resource.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/LearningResourceType"
+        "controlledTerms:LearningResourceType"
       ],
       "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
       "label": "Type",

@@ -2408,7 +2408,6 @@
     "color": "#3B000A",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Book",
@@ -2419,7 +2418,6 @@
     "color": "#FFB3E1",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Chapter",
@@ -2430,7 +2428,6 @@
     "color": "#001C1E",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Learning resource",
@@ -2441,7 +2438,6 @@
     "color": "#CAEFFF",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Live paper",
@@ -2452,7 +2448,6 @@
     "color": "#004547",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Live paper resource item",
@@ -2463,7 +2458,6 @@
     "color": "#06E3C4",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Live paper section",
@@ -2474,7 +2468,6 @@
     "color": "#7A4900",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Live paper version",
@@ -2485,7 +2478,6 @@
     "color": "#83A193",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Periodical",
@@ -2496,7 +2488,6 @@
     "color": "#7900D7",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Publication issue",
@@ -2507,7 +2498,6 @@
     "color": "#C2A580",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Publication volume",
@@ -2518,7 +2508,6 @@
     "color": "#E269AA",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Scholarly article",
@@ -2923,7 +2912,6 @@
     "color": "#A2C3DF",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Ephys stimulus",
@@ -2934,11 +2922,140 @@
     "color": "#FEFFE6",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Stimulation activity",
     "name": "StimulationActivity",
+    "semanticEquivalent": []
+  },
+  "publications:Book": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Publications:book",
+    "name": "publications:Book",
+    "semanticEquivalent": []
+  },
+  "publications:Chapter": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Publications:chapter",
+    "name": "publications:Chapter",
+    "semanticEquivalent": []
+  },
+  "publications:LearningResource": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Publications:learning resource",
+    "name": "publications:LearningResource",
+    "semanticEquivalent": []
+  },
+  "publications:LivePaper": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Publications:live paper",
+    "name": "publications:LivePaper",
+    "semanticEquivalent": []
+  },
+  "publications:LivePaperResourceItem": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Publications:live paper resource item",
+    "name": "publications:LivePaperResourceItem",
+    "semanticEquivalent": []
+  },
+  "publications:LivePaperSection": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Publications:live paper section",
+    "name": "publications:LivePaperSection",
+    "semanticEquivalent": []
+  },
+  "publications:LivePaperVersion": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Publications:live paper version",
+    "name": "publications:LivePaperVersion",
+    "semanticEquivalent": []
+  },
+  "publications:Periodical": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Publications:periodical",
+    "name": "publications:Periodical",
+    "semanticEquivalent": []
+  },
+  "publications:PublicationIssue": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Publications:publication issue",
+    "name": "publications:PublicationIssue",
+    "semanticEquivalent": []
+  },
+  "publications:PublicationVolume": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Publications:publication volume",
+    "name": "publications:PublicationVolume",
+    "semanticEquivalent": []
+  },
+  "publications:ScholarlyArticle": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Publications:scholarly article",
+    "name": "publications:ScholarlyArticle",
+    "semanticEquivalent": []
+  },
+  "stimulation:EphysStimulus": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Stimulation:ephys stimulus",
+    "name": "stimulation:EphysStimulus",
+    "semanticEquivalent": []
+  },
+  "stimulation:StimulationActivity": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Stimulation:stimulation activity",
+    "name": "stimulation:StimulationActivity",
     "semanticEquivalent": []
   }
 }

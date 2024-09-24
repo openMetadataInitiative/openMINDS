@@ -1,8 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/publications/LivePaperSection",
-  "color": "#06E3C4",
-  "label": "Live paper section",
-  "name": "LivePaperSection",
+  "_type": "publications:LivePaperSection",
+  "label": "Publications:live paper section",
+  "name": "publications:LivePaperSection",
   "properties": {
     "https://openminds.ebrains.eu/vocab/description": {
       "_instruction": "Enter a description of this live paper section.",
@@ -18,7 +17,7 @@
     "https://openminds.ebrains.eu/vocab/isPartOf": {
       "_instruction": "Add the live paper version this live paper section is part of.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/publications/LivePaperVersion"
+        "publications:LivePaperVersion"
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
