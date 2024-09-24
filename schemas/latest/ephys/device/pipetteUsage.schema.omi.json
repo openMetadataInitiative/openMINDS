@@ -2,10 +2,9 @@
   "_categories": [
     "deviceUsage"
   ],
-  "_type": "https://openminds.ebrains.eu/ephys/PipetteUsage",
-  "color": "#E20027",
-  "label": "Pipette usage",
-  "name": "PipetteUsage",
+  "_type": "ephys:PipetteUsage",
+  "label": "Ephys:pipette usage",
+  "name": "ephys:PipetteUsage",
   "properties": {
     "https://openminds.ebrains.eu/vocab/anatomicalLocation": {
       "_instruction": "Add the anatomical entity that semantically best describes the anatomical location of the pipette tip.",
@@ -27,7 +26,7 @@
     },
     "https://openminds.ebrains.eu/vocab/chlorideReversalPotential": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Measurement"
+        "core:Measurement"
       ],
       "_instruction": "Enter all chloride reversal potentials for the intracellular solution(s) of the pipette measured during its use.",
       "label": "Chloride reversal potential",
@@ -40,7 +39,7 @@
     },
     "https://openminds.ebrains.eu/vocab/compensationCurrent": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Measurement"
+        "core:Measurement"
       ],
       "_instruction": "Enter the compensation current for the series resistance of the pipette measured during its use.",
       "label": "Compensation current",
@@ -52,7 +51,7 @@
     "https://openminds.ebrains.eu/vocab/device": {
       "_instruction": "Add the pipette used.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/ephys/Pipette"
+        "ephys:Pipette"
       ],
       "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
       "label": "Device",
@@ -63,7 +62,7 @@
     },
     "https://openminds.ebrains.eu/vocab/endMembranePotential": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Measurement"
+        "core:Measurement"
       ],
       "_instruction": "Enter the membrane potential of e.g., a patched cell at the end of a recording measured during the use of this pipette.",
       "label": "End membrane potential",
@@ -74,7 +73,7 @@
     },
     "https://openminds.ebrains.eu/vocab/holdingPotential": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Measurement"
+        "core:Measurement"
       ],
       "_instruction": "Enter the holding membrane potential of e.g., a patched cell measured during the use of this pipette.",
       "label": "Holding potential",
@@ -85,7 +84,7 @@
     },
     "https://openminds.ebrains.eu/vocab/inputResistance": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Measurement"
+        "core:Measurement"
       ],
       "_instruction": "Enter the input resistance of e.g., a patched cell measured during the use of this pipette.",
       "label": "Input resistance",
@@ -97,9 +96,9 @@
     "https://openminds.ebrains.eu/vocab/labelingCompound": {
       "_instruction": "Add the used compound for labelling e.g., a patched cell during the use of this pipette. ",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
-        "https://openminds.ebrains.eu/chemicals/ChemicalSubstance",
-        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity"
+        "chemicals:ChemicalMixture",
+        "chemicals:ChemicalSubstance",
+        "controlledTerms:MolecularEntity"
       ],
       "label": "Labeling compound",
       "labelPlural": "Labeling compounds",
@@ -109,7 +108,7 @@
     },
     "https://openminds.ebrains.eu/vocab/liquidJunctionPotential": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Measurement"
+        "core:Measurement"
       ],
       "_instruction": "Enter the liquid junction potential of e.g., a patched cell measured during the use of this pipette.",
       "label": "Liquid junction potential",
@@ -145,8 +144,8 @@
     },
     "https://openminds.ebrains.eu/vocab/pipetteResistance": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue",
-        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+        "core:QuantitativeValue",
+        "core:QuantitativeValueRange"
       ],
       "_instruction": "Enter the resistance of the pipette during its use.",
       "label": "Pipette resistance",
@@ -158,7 +157,7 @@
     "https://openminds.ebrains.eu/vocab/pipetteSolution": {
       "_instruction": "Enter the solution with which the pipette was filled during its use.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/chemicals/ChemicalMixture"
+        "chemicals:ChemicalMixture"
       ],
       "label": "Pipette solution",
       "labelPlural": "Pipette solutions",
@@ -168,7 +167,7 @@
     },
     "https://openminds.ebrains.eu/vocab/sealResistance": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Measurement"
+        "core:Measurement"
       ],
       "_instruction": "Enter the seal resistance of e.g., a patched cell measured during the use of this pipette.",
       "label": "Seal resistance",
@@ -179,7 +178,7 @@
     },
     "https://openminds.ebrains.eu/vocab/seriesResistance": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Measurement"
+        "core:Measurement"
       ],
       "_instruction": "Enter the series resistance of the pipette measured during its use.",
       "label": "Series resistance",
@@ -201,7 +200,7 @@
     },
     "https://openminds.ebrains.eu/vocab/startMembranePotential": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Measurement"
+        "core:Measurement"
       ],
       "_instruction": "Enter the membrane potential of e.g., a patched cell at the beginning of a recording measured during the use of this pipette.",
       "label": "Start membrane potential",

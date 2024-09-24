@@ -1,13 +1,12 @@
 {
-  "_type": "https://openminds.ebrains.eu/ephys/CellPatching",
-  "color": "#1A2B2F",
-  "label": "Cell patching",
-  "name": "CellPatching",
+  "_type": "ephys:CellPatching",
+  "label": "Ephys:cell patching",
+  "name": "ephys:CellPatching",
   "properties": {
     "https://openminds.ebrains.eu/vocab/bathTemperature": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue",
-        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+        "core:QuantitativeValue",
+        "core:QuantitativeValueRange"
       ],
       "_instruction": "Enter the temperature of the bath solution.",
       "label": "Bath temperature",
@@ -44,9 +43,9 @@
     "https://openminds.ebrains.eu/vocab/device": {
       "_instruction": "Add all patch pipettes placed during this activity.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
-        "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
-        "https://openminds.ebrains.eu/ephys/PipetteUsage",
+        "ephys:ElectrodeArrayUsage",
+        "ephys:ElectrodeUsage",
+        "ephys:PipetteUsage",
         "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
         "specimenPrep:SlicingDeviceUsage"
       ],
@@ -239,7 +238,7 @@
     "https://openminds.ebrains.eu/vocab/tissueBathSolution": {
       "_instruction": "Add the chemical mixture used as bath solution during this activity.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/chemicals/ChemicalMixture"
+        "chemicals:ChemicalMixture"
       ],
       "label": "Tissue bath solution",
       "labelPlural": "Tissue bath solutions",
@@ -250,7 +249,7 @@
     "https://openminds.ebrains.eu/vocab/variation": {
       "_instruction": "Add the patch-clamp variation used during this activity.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/PatchClampVariation"
+        "controlledTerms:PatchClampVariation"
       ],
       "label": "Variation",
       "labelPlural": "Variations",

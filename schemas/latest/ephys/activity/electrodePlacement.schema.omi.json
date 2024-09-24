@@ -1,8 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
-  "color": "#CFFF00",
-  "label": "Electrode placement",
-  "name": "ElectrodePlacement",
+  "_type": "ephys:ElectrodePlacement",
+  "label": "Ephys:electrode placement",
+  "name": "ephys:ElectrodePlacement",
   "properties": {
     "https://openminds.ebrains.eu/vocab/customPropertySet": {
       "_embeddedTypes": [
@@ -32,9 +31,9 @@
     "https://openminds.ebrains.eu/vocab/device": {
       "_instruction": "Add all electrodes placed during this activity.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
-        "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
-        "https://openminds.ebrains.eu/ephys/PipetteUsage",
+        "ephys:ElectrodeArrayUsage",
+        "ephys:ElectrodeUsage",
+        "ephys:PipetteUsage",
         "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
         "specimenPrep:SlicingDeviceUsage"
       ],

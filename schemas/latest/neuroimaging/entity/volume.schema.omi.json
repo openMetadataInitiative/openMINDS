@@ -17,9 +17,9 @@
     "https://openminds.ebrains.eu/vocab/capturedWith": {
       "_instruction": "Add the device used to captured this volume.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
-        "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
-        "https://openminds.ebrains.eu/ephys/PipetteUsage",
+        "ephys:ElectrodeArrayUsage",
+        "ephys:ElectrodeUsage",
+        "ephys:PipetteUsage",
         "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
         "specimenPrep:SlicingDeviceUsage"
       ],

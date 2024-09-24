@@ -30,9 +30,9 @@
     "https://openminds.ebrains.eu/vocab/measuredWith": {
       "_instruction": "Add the device that was used during this measurement.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
-        "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
-        "https://openminds.ebrains.eu/ephys/PipetteUsage",
+        "ephys:ElectrodeArrayUsage",
+        "ephys:ElectrodeUsage",
+        "ephys:PipetteUsage",
         "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
         "specimenPrep:SlicingDeviceUsage"
       ],
