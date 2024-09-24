@@ -329,9 +329,9 @@
         "https://openminds.ebrains.eu/core/HANDLE",
         "https://openminds.ebrains.eu/core/ISBN",
         "https://openminds.ebrains.eu/core/ISSN",
-        "https://openminds.ebrains.eu/publications/Book",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle"
+        "publications:Book",
+        "publications:Chapter",
+        "publications:ScholarlyArticle"
       ],
       "description": "Reference to something that was made available for the general public to see or buy.",
       "label": "Related publication",

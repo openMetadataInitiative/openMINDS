@@ -22,11 +22,11 @@
         "https://openminds.ebrains.eu/core/FileArchive",
         "https://openminds.ebrains.eu/core/FileRepository",
         "https://openminds.ebrains.eu/core/WebResource",
-        "https://openminds.ebrains.eu/publications/Book",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/LivePaperResourceItem",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle"
+        "publications:Book",
+        "publications:Chapter",
+        "publications:LearningResource",
+        "publications:LivePaperResourceItem",
+        "publications:ScholarlyArticle"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DigitalIdentifierSchema",
@@ -88,13 +88,13 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/publications/Periodical",
         "https://openminds.ebrains.eu/sands/BrainAtlas",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
         "https://openminds.ebrains.eu/sands/ParcellationEntity",
-        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+        "publications:Periodical"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/publications/Periodical",
@@ -111,6 +111,9 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "core:DatasetVersion",
+          "core:ModelVersion",
+          "core:SoftwareVersion",
           "https://openminds.ebrains.eu/computation/ValidationTest",
           "https://openminds.ebrains.eu/computation/ValidationTestVersion",
           "https://openminds.ebrains.eu/computation/WorkflowRecipe",
@@ -125,12 +128,12 @@
           "https://openminds.ebrains.eu/core/SoftwareVersion",
           "https://openminds.ebrains.eu/core/WebService",
           "https://openminds.ebrains.eu/core/WebServiceVersion",
-          "https://openminds.ebrains.eu/publications/LivePaper",
-          "https://openminds.ebrains.eu/publications/LivePaperVersion",
           "https://openminds.ebrains.eu/sands/BrainAtlas",
           "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
           "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
-          "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+          "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+          "publications:LivePaper",
+          "publications:LivePaperVersion"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/computation/ValidationTest",
@@ -166,8 +169,8 @@
     "usedIn": {
       "latest": [
         "https://openminds.ebrains.eu/core/Comment",
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion"
+        "publications:LearningResource",
+        "publications:LivePaperVersion"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/Comment",
@@ -193,10 +196,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/publications/Book",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle"
+        "publications:Book",
+        "publications:Chapter",
+        "publications:LearningResource",
+        "publications:ScholarlyArticle"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/publications/Book",
@@ -278,9 +281,9 @@
         "https://openminds.ebrains.eu/core/ModelVersion",
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:LivePaperVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -1145,16 +1148,16 @@
       "latest": [
         "https://openminds.ebrains.eu/core/Dataset",
         "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/publications/Book",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/LivePaper",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle",
         "https://openminds.ebrains.eu/sands/BrainAtlas",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:Book",
+        "publications:Chapter",
+        "publications:LearningResource",
+        "publications:LivePaper",
+        "publications:LivePaperVersion",
+        "publications:ScholarlyArticle"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -1642,8 +1645,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/DOI",
-          "https://openminds.ebrains.eu/core/ISBN"
+          "core:DOI",
+          "core:ISBN"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/DOI",
@@ -1660,10 +1663,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/publications/Book",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle"
+        "publications:Book",
+        "publications:Chapter",
+        "publications:LearningResource",
+        "publications:ScholarlyArticle"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/publications/Book",
@@ -2346,6 +2349,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "core:Copyright",
           "https://openminds.ebrains.eu/core/Copyright"
         ],
         "v1.0": [
@@ -2375,13 +2379,13 @@
         "https://openminds.ebrains.eu/core/ModelVersion",
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/Book",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:Book",
+        "publications:Chapter",
+        "publications:LearningResource",
+        "publications:LivePaperVersion",
+        "publications:ScholarlyArticle"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -2454,10 +2458,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/publications/Book",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle"
+        "publications:Book",
+        "publications:Chapter",
+        "publications:LearningResource",
+        "publications:ScholarlyArticle"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/publications/Book",
@@ -2688,16 +2692,16 @@
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebService",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/Book",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/LivePaper",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle",
         "https://openminds.ebrains.eu/sands/BrainAtlas",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:Book",
+        "publications:Chapter",
+        "publications:LearningResource",
+        "publications:LivePaper",
+        "publications:LivePaperVersion",
+        "publications:ScholarlyArticle"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -2777,7 +2781,7 @@
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
-        "https://openminds.ebrains.eu/stimulation/StimulationActivity"
+        "stimulation:StimulationActivity"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/DataAnalysis",
@@ -3258,7 +3262,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/stimulation/EphysStimulus"
+        "stimulation:EphysStimulus"
       ]
     }
   },
@@ -3470,9 +3474,6 @@
         "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
         "https://openminds.ebrains.eu/ephys/Pipette",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
-        "https://openminds.ebrains.eu/publications/LivePaper",
-        "https://openminds.ebrains.eu/publications/LivePaperSection",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
         "https://openminds.ebrains.eu/sands/BrainAtlas",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
@@ -3481,8 +3482,11 @@
         "https://openminds.ebrains.eu/specimenPrep/SlicingDevice",
         "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
-        "https://openminds.ebrains.eu/stimulation/EphysStimulus",
-        "https://openminds.ebrains.eu/stimulation/StimulationActivity"
+        "publications:LivePaper",
+        "publications:LivePaperSection",
+        "publications:LivePaperVersion",
+        "stimulation:EphysStimulus",
+        "stimulation:StimulationActivity"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/controlledTerms/AgeCategory",
@@ -3936,11 +3940,13 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "core:DOI",
+          "core:ISBN",
+          "core:ISSN",
           "core:RRID",
           "https://openminds.ebrains.eu/core/DOI",
           "https://openminds.ebrains.eu/core/GRIDID",
           "https://openminds.ebrains.eu/core/ISBN",
-          "https://openminds.ebrains.eu/core/ISSN",
           "https://openminds.ebrains.eu/core/IdentifiersDotOrgID",
           "https://openminds.ebrains.eu/core/ORCID",
           "https://openminds.ebrains.eu/core/RORID",
@@ -3998,18 +4004,18 @@
         "https://openminds.ebrains.eu/ephys/Electrode",
         "https://openminds.ebrains.eu/ephys/ElectrodeArray",
         "https://openminds.ebrains.eu/ephys/Pipette",
-        "https://openminds.ebrains.eu/publications/Book",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/LivePaper",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
-        "https://openminds.ebrains.eu/publications/Periodical",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle",
         "https://openminds.ebrains.eu/sands/BrainAtlas",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDevice"
+        "https://openminds.ebrains.eu/specimenPrep/SlicingDevice",
+        "publications:Book",
+        "publications:Chapter",
+        "publications:LearningResource",
+        "publications:LivePaper",
+        "publications:LivePaperVersion",
+        "publications:Periodical",
+        "publications:ScholarlyArticle"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Dataset",
@@ -4189,7 +4195,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Person"
+          "core:Person"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/Person"
@@ -4205,10 +4211,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/publications/Book",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle"
+        "publications:Book",
+        "publications:Chapter",
+        "publications:LearningResource",
+        "publications:ScholarlyArticle"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/publications/Book",
@@ -4222,7 +4228,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/EducationalLevel"
+          "controlledTerms:EducationalLevel"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/EducationalLevel"
@@ -4238,7 +4244,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/publications/LearningResource"
+        "publications:LearningResource"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/publications/LearningResource"
@@ -4441,7 +4447,7 @@
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
-        "https://openminds.ebrains.eu/stimulation/StimulationActivity"
+        "stimulation:StimulationActivity"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/DataAnalysis",
@@ -4558,7 +4564,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -4569,7 +4575,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/stimulation/EphysStimulus"
+        "stimulation:EphysStimulus"
       ]
     }
   },
@@ -4952,9 +4958,9 @@
         "https://openminds.ebrains.eu/core/ModelVersion",
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:LivePaperVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -5019,12 +5025,12 @@
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebService",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/LivePaper",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
         "https://openminds.ebrains.eu/sands/BrainAtlas",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:LivePaper",
+        "publications:LivePaperVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Dataset",
@@ -5136,6 +5142,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "core:Funding",
           "https://openminds.ebrains.eu/core/Funding"
         ],
         "v1.0": [
@@ -5165,13 +5172,13 @@
         "https://openminds.ebrains.eu/core/ModelVersion",
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/Book",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:Book",
+        "publications:Chapter",
+        "publications:LearningResource",
+        "publications:LivePaperVersion",
+        "publications:ScholarlyArticle"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -5223,7 +5230,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/stimulation/EphysStimulus"
+        "stimulation:EphysStimulus"
       ]
     }
   },
@@ -5757,13 +5764,13 @@
           "https://openminds.ebrains.eu/ephys/Electrode",
           "https://openminds.ebrains.eu/ephys/ElectrodeArray",
           "https://openminds.ebrains.eu/ephys/Pipette",
-          "https://openminds.ebrains.eu/publications/LivePaper",
-          "https://openminds.ebrains.eu/publications/LivePaperVersion",
           "https://openminds.ebrains.eu/sands/BrainAtlas",
           "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
           "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
           "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
-          "https://openminds.ebrains.eu/specimenPrep/SlicingDevice"
+          "https://openminds.ebrains.eu/specimenPrep/SlicingDevice",
+          "publications:LivePaper",
+          "publications:LivePaperVersion"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/chemicals/AmountOfChemical",
@@ -5960,10 +5967,10 @@
           "https://openminds.ebrains.eu/core/ModelVersion",
           "https://openminds.ebrains.eu/core/SoftwareVersion",
           "https://openminds.ebrains.eu/core/WebServiceVersion",
-          "https://openminds.ebrains.eu/publications/LivePaperVersion",
           "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
           "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
-          "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+          "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+          "publications:LivePaperVersion"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -6010,10 +6017,10 @@
         "https://openminds.ebrains.eu/core/Model",
         "https://openminds.ebrains.eu/core/Software",
         "https://openminds.ebrains.eu/core/WebService",
-        "https://openminds.ebrains.eu/publications/LivePaper",
         "https://openminds.ebrains.eu/sands/BrainAtlas",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
-        "https://openminds.ebrains.eu/sands/ParcellationEntity"
+        "https://openminds.ebrains.eu/sands/ParcellationEntity",
+        "publications:LivePaper"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Dataset",
@@ -6208,12 +6215,12 @@
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebService",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/LivePaper",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
         "https://openminds.ebrains.eu/sands/BrainAtlas",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:LivePaper",
+        "publications:LivePaperVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Dataset",
@@ -6276,9 +6283,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/Service",
-          "https://openminds.ebrains.eu/core/Organization",
-          "https://openminds.ebrains.eu/core/WebService"
+          "core:Organization",
+          "https://openminds.ebrains.eu/core/Organization"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Organization"
@@ -6301,7 +6307,7 @@
     "usedIn": {
       "latest": [
         "https://openminds.ebrains.eu/core/FileRepository",
-        "https://openminds.ebrains.eu/publications/LivePaperResourceItem"
+        "publications:LivePaperResourceItem"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/FileRepository"
@@ -6348,12 +6354,12 @@
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebService",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/LivePaper",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
         "https://openminds.ebrains.eu/sands/BrainAtlas",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:LivePaper",
+        "publications:LivePaperVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DigitalIdentifier"
@@ -6546,6 +6552,10 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "core:SubjectGroupState",
+          "core:SubjectState",
+          "core:TissueSampleCollectionState",
+          "core:TissueSampleState",
           "https://openminds.ebrains.eu/computation/LocalFile",
           "https://openminds.ebrains.eu/computation/ValidationTestVersion",
           "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -6616,7 +6626,7 @@
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
-        "https://openminds.ebrains.eu/stimulation/StimulationActivity"
+        "stimulation:StimulationActivity"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/ProtocolExecution"
@@ -7087,7 +7097,7 @@
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
         "https://openminds.ebrains.eu/sands/AtlasAnnotation",
         "https://openminds.ebrains.eu/sands/CustomAnnotation",
-        "https://openminds.ebrains.eu/stimulation/EphysStimulus"
+        "stimulation:EphysStimulus"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Subject",
@@ -7173,9 +7183,9 @@
           "https://openminds.ebrains.eu/core/ModelVersion",
           "https://openminds.ebrains.eu/core/SoftwareVersion",
           "https://openminds.ebrains.eu/core/WebServiceVersion",
-          "https://openminds.ebrains.eu/publications/LivePaperVersion",
           "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-          "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+          "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+          "publications:LivePaperVersion"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -7214,9 +7224,9 @@
         "https://openminds.ebrains.eu/core/ModelVersion",
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:LivePaperVersion"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -7251,9 +7261,9 @@
           "https://openminds.ebrains.eu/core/ModelVersion",
           "https://openminds.ebrains.eu/core/SoftwareVersion",
           "https://openminds.ebrains.eu/core/WebServiceVersion",
-          "https://openminds.ebrains.eu/publications/LivePaperVersion",
           "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-          "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+          "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+          "publications:LivePaperVersion"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -7299,9 +7309,9 @@
         "https://openminds.ebrains.eu/core/ModelVersion",
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:LivePaperVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -7341,12 +7351,12 @@
           "https://openminds.ebrains.eu/core/FileRepository",
           "https://openminds.ebrains.eu/core/SubjectGroup",
           "https://openminds.ebrains.eu/core/TissueSampleCollection",
-          "https://openminds.ebrains.eu/publications/Book",
-          "https://openminds.ebrains.eu/publications/LivePaperSection",
-          "https://openminds.ebrains.eu/publications/LivePaperVersion",
-          "https://openminds.ebrains.eu/publications/Periodical",
-          "https://openminds.ebrains.eu/publications/PublicationIssue",
-          "https://openminds.ebrains.eu/publications/PublicationVolume"
+          "publications:Book",
+          "publications:LivePaperSection",
+          "publications:LivePaperVersion",
+          "publications:Periodical",
+          "publications:PublicationIssue",
+          "publications:PublicationVolume"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/FileBundle",
@@ -7391,16 +7401,16 @@
         "https://openminds.ebrains.eu/ephys/CellPatching",
         "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/LivePaperResourceItem",
-        "https://openminds.ebrains.eu/publications/LivePaperSection",
-        "https://openminds.ebrains.eu/publications/PublicationIssue",
-        "https://openminds.ebrains.eu/publications/PublicationVolume",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle",
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
-        "https://openminds.ebrains.eu/stimulation/StimulationActivity"
+        "publications:Chapter",
+        "publications:LivePaperResourceItem",
+        "publications:LivePaperSection",
+        "publications:PublicationIssue",
+        "publications:PublicationVolume",
+        "publications:ScholarlyArticle",
+        "stimulation:StimulationActivity"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/FileBundle",
@@ -7450,7 +7460,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/publications/PublicationIssue"
+        "publications:PublicationIssue"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/publications/PublicationIssue"
@@ -7648,13 +7658,13 @@
         "https://openminds.ebrains.eu/core/ModelVersion",
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/Book",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:Book",
+        "publications:Chapter",
+        "publications:LearningResource",
+        "publications:LivePaperVersion",
+        "publications:ScholarlyArticle"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -8066,7 +8076,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/publications/LearningResource"
+        "publications:LearningResource"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/publications/LearningResource"
@@ -8136,6 +8146,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "core:License",
           "https://openminds.ebrains.eu/core/License",
           "https://openminds.ebrains.eu/core/WebResource"
         ],
@@ -8166,13 +8177,13 @@
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/ModelVersion",
         "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/publications/Book",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:Book",
+        "publications:Chapter",
+        "publications:LearningResource",
+        "publications:LivePaperVersion",
+        "publications:ScholarlyArticle"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -8309,8 +8320,8 @@
         "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage",
         "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
-        "https://openminds.ebrains.eu/stimulation/EphysStimulus",
-        "https://openminds.ebrains.eu/stimulation/StimulationActivity"
+        "stimulation:EphysStimulus",
+        "stimulation:StimulationActivity"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/ProtocolExecution",
@@ -8738,11 +8749,11 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/publications/Book",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle"
+        "publications:Book",
+        "publications:Chapter",
+        "publications:LearningResource",
+        "publications:LivePaperVersion",
+        "publications:ScholarlyArticle"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/publications/Book",
@@ -8899,18 +8910,18 @@
         "https://openminds.ebrains.eu/ephys/ElectrodeArray",
         "https://openminds.ebrains.eu/ephys/Pipette",
         "https://openminds.ebrains.eu/ephys/Recording",
-        "https://openminds.ebrains.eu/publications/Book",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/LivePaperResourceItem",
-        "https://openminds.ebrains.eu/publications/LivePaperSection",
-        "https://openminds.ebrains.eu/publications/Periodical",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle",
         "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
         "https://openminds.ebrains.eu/sands/CustomCoordinateSpace",
         "https://openminds.ebrains.eu/sands/ParcellationEntity",
         "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDevice"
+        "https://openminds.ebrains.eu/specimenPrep/SlicingDevice",
+        "publications:Book",
+        "publications:Chapter",
+        "publications:LearningResource",
+        "publications:LivePaperResourceItem",
+        "publications:LivePaperSection",
+        "publications:Periodical",
+        "publications:ScholarlyArticle"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/controlledTerms/AgeCategory",
@@ -9458,8 +9469,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/LivePaperSection"
+        "publications:LearningResource",
+        "publications:LivePaperSection"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/publications/LearningResource",
@@ -9618,9 +9629,9 @@
         "https://openminds.ebrains.eu/core/ModelVersion",
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:LivePaperVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -9652,6 +9663,12 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "core:File",
+          "core:FileBundle",
+          "core:SubjectGroupState",
+          "core:SubjectState",
+          "core:TissueSampleCollectionState",
+          "core:TissueSampleState",
           "https://openminds.ebrains.eu/computation/LocalFile",
           "https://openminds.ebrains.eu/core/File",
           "https://openminds.ebrains.eu/core/FileArchive",
@@ -9714,7 +9731,7 @@
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
-        "https://openminds.ebrains.eu/stimulation/StimulationActivity"
+        "stimulation:StimulationActivity"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/ProtocolExecution"
@@ -9883,8 +9900,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle"
+        "publications:Chapter",
+        "publications:ScholarlyArticle"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/publications/Chapter",
@@ -10091,7 +10108,7 @@
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
-        "https://openminds.ebrains.eu/stimulation/StimulationActivity"
+        "stimulation:StimulationActivity"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/DataAnalysis",
@@ -10495,7 +10512,7 @@
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
-        "https://openminds.ebrains.eu/stimulation/StimulationActivity"
+        "stimulation:StimulationActivity"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -10552,7 +10569,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/publications/LearningResource"
+        "publications:LearningResource"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/publications/LearningResource"
@@ -10790,7 +10807,7 @@
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
-        "https://openminds.ebrains.eu/stimulation/StimulationActivity"
+        "stimulation:StimulationActivity"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/ProtocolExecution"
@@ -10858,10 +10875,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/publications/Book",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle"
+        "publications:Book",
+        "publications:Chapter",
+        "publications:LearningResource",
+        "publications:ScholarlyArticle"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/publications/Book",
@@ -10895,10 +10912,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/publications/Book",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle"
+        "publications:Book",
+        "publications:Chapter",
+        "publications:LearningResource",
+        "publications:ScholarlyArticle"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/publications/Book",
@@ -11314,9 +11331,9 @@
           "https://openminds.ebrains.eu/core/HANDLE",
           "https://openminds.ebrains.eu/core/ISBN",
           "https://openminds.ebrains.eu/core/ISSN",
-          "https://openminds.ebrains.eu/publications/Book",
-          "https://openminds.ebrains.eu/publications/Chapter",
-          "https://openminds.ebrains.eu/publications/ScholarlyArticle"
+          "publications:Book",
+          "publications:Chapter",
+          "publications:ScholarlyArticle"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/DigitalIdentifier"
@@ -11352,9 +11369,9 @@
         "https://openminds.ebrains.eu/core/ModelVersion",
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:LivePaperVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -11575,9 +11592,9 @@
         "https://openminds.ebrains.eu/core/ModelVersion",
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:LivePaperVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -11691,9 +11708,9 @@
         "https://openminds.ebrains.eu/core/ModelVersion",
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:LivePaperVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -11746,8 +11763,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+          "core:QuantitativeValue",
+          "core:QuantitativeValueRange"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue",
@@ -11764,7 +11781,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/publications/LearningResource"
+        "publications:LearningResource"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/publications/LearningResource"
@@ -12190,7 +12207,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Setup"
+          "core:Setup"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/Setup"
@@ -12206,7 +12223,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/stimulation/StimulationActivity"
+        "stimulation:StimulationActivity"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/stimulation/StimulationActivity"
@@ -12250,12 +12267,12 @@
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebService",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/LivePaper",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
         "https://openminds.ebrains.eu/sands/BrainAtlas",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:LivePaper",
+        "publications:LivePaperVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Dataset",
@@ -12645,9 +12662,11 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Configuration",
+          "core:Configuration",
+          "core:File",
+          "core:FileBundle",
+          "core:PropertyValueList",
           "https://openminds.ebrains.eu/core/File",
-          "https://openminds.ebrains.eu/core/FileBundle",
           "https://openminds.ebrains.eu/core/PropertyValueList"
         ],
         "v3.0": [
@@ -12677,7 +12696,7 @@
         "https://openminds.ebrains.eu/core/ContentType",
         "https://openminds.ebrains.eu/sands/AtlasAnnotation",
         "https://openminds.ebrains.eu/sands/CustomAnnotation",
-        "https://openminds.ebrains.eu/stimulation/EphysStimulus"
+        "stimulation:EphysStimulus"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/ContentType"
@@ -12853,7 +12872,7 @@
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
-        "https://openminds.ebrains.eu/stimulation/StimulationActivity"
+        "stimulation:StimulationActivity"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/DataAnalysis",
@@ -12987,7 +13006,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/stimulation/EphysStimulus"
+          "stimulation:EphysStimulus"
         ]
       },
       "nameForReverseLink": null
@@ -13000,7 +13019,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/stimulation/StimulationActivity"
+        "stimulation:StimulationActivity"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/stimulation/StimulationActivity"
@@ -13440,7 +13459,7 @@
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
         "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
-        "https://openminds.ebrains.eu/stimulation/StimulationActivity"
+        "stimulation:StimulationActivity"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/ModelVersion",
@@ -13524,9 +13543,9 @@
         "https://openminds.ebrains.eu/core/ModelVersion",
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+        "publications:LivePaperVersion"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -14019,7 +14038,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/publications/LearningResource"
+        "publications:LearningResource"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/publications/LearningResource"
@@ -14031,12 +14050,12 @@
       "canPointTo": {
         "latest": [
           "controlledTerms:ChemicalMixtureType",
+          "controlledTerms:ElectricalStimulusType",
+          "controlledTerms:LearningResourceType",
           "https://openminds.ebrains.eu/controlledTerms/AnnotationType",
           "https://openminds.ebrains.eu/controlledTerms/AtlasType",
           "https://openminds.ebrains.eu/controlledTerms/ContributionType",
-          "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
           "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType",
-          "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
           "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
           "https://openminds.ebrains.eu/controlledTerms/SetupType",
           "https://openminds.ebrains.eu/controlledTerms/TissueSampleType"
@@ -14090,12 +14109,12 @@
         "https://openminds.ebrains.eu/core/Setup",
         "https://openminds.ebrains.eu/core/TissueSample",
         "https://openminds.ebrains.eu/core/TissueSampleCollection",
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/LivePaperSection",
         "https://openminds.ebrains.eu/sands/AtlasAnnotation",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
         "https://openminds.ebrains.eu/sands/CustomAnnotation",
-        "https://openminds.ebrains.eu/stimulation/EphysStimulus"
+        "publications:LearningResource",
+        "publications:LivePaperSection",
+        "stimulation:EphysStimulus"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -14509,14 +14528,14 @@
         "https://openminds.ebrains.eu/core/ModelVersion",
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/Book",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/LearningResource",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
-        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+        "publications:Book",
+        "publications:Chapter",
+        "publications:LearningResource",
+        "publications:LivePaperVersion",
+        "publications:ScholarlyArticle"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -14583,10 +14602,10 @@
         "https://openminds.ebrains.eu/core/ModelVersion",
         "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/publications/LivePaperVersion",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
-        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+        "publications:LivePaperVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -14694,7 +14713,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/publications/PublicationVolume"
+        "publications:PublicationVolume"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/publications/PublicationVolume"

@@ -1,13 +1,12 @@
 {
-  "_type": "https://openminds.ebrains.eu/publications/PublicationIssue",
-  "color": "#7900D7",
-  "label": "Publication issue",
-  "name": "PublicationIssue",
+  "_type": "publications:PublicationIssue",
+  "label": "Publications:publication issue",
+  "name": "publications:PublicationIssue",
   "properties": {
     "https://openminds.ebrains.eu/vocab/isPartOf": {
       "_instruction": "Add the publication volume this publication issue is part of.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/publications/PublicationVolume"
+        "publications:PublicationVolume"
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",

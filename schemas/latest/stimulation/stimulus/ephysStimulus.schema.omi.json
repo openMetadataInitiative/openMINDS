@@ -2,10 +2,9 @@
   "_categories": [
     "stimulus"
   ],
-  "_type": "https://openminds.ebrains.eu/stimulation/EphysStimulus",
-  "color": "#A2C3DF",
-  "label": "Ephys stimulus",
-  "name": "EphysStimulus",
+  "_type": "stimulation:EphysStimulus",
+  "label": "Stimulation:ephys stimulus",
+  "name": "stimulation:EphysStimulus",
   "properties": {
     "https://openminds.ebrains.eu/vocab/deliveredBy": {
       "_instruction": "Add the device used to deliver this stimulus.",
@@ -34,7 +33,7 @@
     },
     "https://openminds.ebrains.eu/vocab/epoch": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter the total epoch length of this stimulus.",
       "label": "Epoch",
@@ -79,10 +78,10 @@
     "https://openminds.ebrains.eu/vocab/specification": {
       "_instruction": "Add the specification information for this stimulus.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Configuration",
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/PropertyValueList"
+        "core:Configuration",
+        "core:File",
+        "core:FileBundle",
+        "core:PropertyValueList"
       ],
       "description": "Detailed and precise presentation of, or proposal for something.",
       "label": "Specification",
@@ -97,7 +96,7 @@
     "https://openminds.ebrains.eu/vocab/type": {
       "_instruction": "Add the type that describe this electrical stimulus.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType"
+        "controlledTerms:ElectricalStimulusType"
       ],
       "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
       "label": "Type",

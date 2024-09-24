@@ -2,17 +2,16 @@
   "_categories": [
     "researchProduct"
   ],
-  "_type": "https://openminds.ebrains.eu/publications/LivePaperVersion",
-  "color": "#7A4900",
-  "label": "Live paper version",
-  "name": "LivePaperVersion",
+  "_type": "publications:LivePaperVersion",
+  "label": "Publications:live paper version",
+  "name": "publications:LivePaperVersion",
   "properties": {
     "https://openminds.ebrains.eu/vocab/about": {
       "_instruction": "Add all datasets, models and/or software that are part of or are described by this live paper version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
+        "core:DatasetVersion",
+        "core:ModelVersion",
+        "core:SoftwareVersion"
       ],
       "label": "About",
       "labelPlural": "About",
@@ -95,7 +94,7 @@
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI"
+        "core:DOI"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -173,7 +172,7 @@
     "https://openminds.ebrains.eu/vocab/isAlternativeVersionOf": {
       "_instruction": "Add all live paper versions that can be used alternatively to this live paper version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/publications/LivePaperVersion"
+        "publications:LivePaperVersion"
       ],
       "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
       "label": "Is alternative version of",
@@ -188,7 +187,7 @@
     "https://openminds.ebrains.eu/vocab/isNewVersionOf": {
       "_instruction": "Add the live paper version preceding this live paper version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/publications/LivePaperVersion"
+        "publications:LivePaperVersion"
       ],
       "description": "Reference to a previous (potentially outdated) particular form of something.",
       "label": "Is new version of",
@@ -294,7 +293,7 @@
     "https://openminds.ebrains.eu/vocab/license": {
       "_instruction": "Add the license of this live paper version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/License"
+        "core:License"
       ],
       "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
       "label": "License",
@@ -338,9 +337,9 @@
         "https://openminds.ebrains.eu/core/HANDLE",
         "https://openminds.ebrains.eu/core/ISBN",
         "https://openminds.ebrains.eu/core/ISSN",
-        "https://openminds.ebrains.eu/publications/Book",
-        "https://openminds.ebrains.eu/publications/Chapter",
-        "https://openminds.ebrains.eu/publications/ScholarlyArticle"
+        "publications:Book",
+        "publications:Chapter",
+        "publications:ScholarlyArticle"
       ],
       "description": "Reference to something that was made available for the general public to see or buy.",
       "label": "Related publication",
