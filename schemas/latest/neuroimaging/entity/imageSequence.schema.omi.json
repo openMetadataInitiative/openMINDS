@@ -21,7 +21,7 @@
         "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
         "https://openminds.ebrains.eu/ephys/PipetteUsage",
         "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+        "specimenPrep:SlicingDeviceUsage"
       ],
       "label": "Captured with",
       "name": "capturedWith",

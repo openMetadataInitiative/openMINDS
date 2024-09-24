@@ -48,7 +48,7 @@
         "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
         "https://openminds.ebrains.eu/ephys/PipetteUsage",
         "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
-        "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+        "specimenPrep:SlicingDeviceUsage"
       ],
       "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
       "label": "Device",
@@ -77,8 +77,8 @@
     "https://openminds.ebrains.eu/vocab/input": {
       "_instruction": "Add the state of the specimen that the device is being placed in or on during this activity.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/TissueSampleState",
-        "https://openminds.ebrains.eu/core/SubjectState"
+        "core:TissueSampleState",
+        "core:SubjectState"
       ],
       "description": "Something or someone that is put into or participates in a process or machine.",
       "label": "Input",
@@ -115,8 +115,8 @@
     "https://openminds.ebrains.eu/vocab/output": {
       "_instruction": "Add all states of the specimen(s) that the device was placed in or on as a result of this activity.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/TissueSampleState",
-        "https://openminds.ebrains.eu/core/SubjectState"
+        "core:TissueSampleState",
+        "core:SubjectState"
       ],
       "description": "Something or someone that comes out of, is delivered or produced by a process or machine.",
       "label": "Output",
