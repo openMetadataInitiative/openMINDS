@@ -21,11 +21,11 @@
     "https://openminds.ebrains.eu/vocab/hasPart": {
       "_instruction": "Add all components, including other setups, that are part of this setup. Note that a setup should not be only composed of software.",
       "_linkedTypes": [
+        "ephys:Electrode",
+        "ephys:ElectrodeArray",
+        "ephys:Pipette",
         "https://openminds.ebrains.eu/core/Setup",
         "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/ephys/Electrode",
-        "https://openminds.ebrains.eu/ephys/ElectrodeArray",
-        "https://openminds.ebrains.eu/ephys/Pipette",
         "specimenPrep:SlicingDevice"
       ],
       "label": "Has part",

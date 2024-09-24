@@ -1,8 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/ephys/Recording",
-  "color": "#FF4A46",
-  "label": "Recording",
-  "name": "Recording",
+  "_type": "ephys:Recording",
+  "label": "Ephys:recording",
+  "name": "ephys:Recording",
   "properties": {
     "https://openminds.ebrains.eu/vocab/additionalRemarks": {
       "_instruction": "Enter any additional remarks concerning this recording.",
@@ -17,7 +16,7 @@
     },
     "https://openminds.ebrains.eu/vocab/channel": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/ephys/Channel"
+        "ephys:Channel"
       ],
       "_instruction": "Enter all channels used for this recording.",
       "label": "Channel",
@@ -32,8 +31,8 @@
     "https://openminds.ebrains.eu/vocab/dataLocation": {
       "_instruction": "Add the location of the file or file bundle in which the recorded data is stored.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileBundle"
+        "core:File",
+        "core:FileBundle"
       ],
       "label": "Data location",
       "labelPlural": "Data locations",
@@ -66,7 +65,7 @@
     "https://openminds.ebrains.eu/vocab/previousRecording": {
       "_instruction": "If this recording is part of a sequence of recordings (e.g., multiple repetitions or sweeps), add the recording preceding this recording.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/ephys/Recording"
+        "ephys:Recording"
       ],
       "label": "Previous recording",
       "labelPlural": "Previous recordings",
@@ -77,9 +76,9 @@
     "https://openminds.ebrains.eu/vocab/recordedWith": {
       "_instruction": "Add the device used to generate this recording.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
-        "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
-        "https://openminds.ebrains.eu/ephys/PipetteUsage",
+        "ephys:ElectrodeArrayUsage",
+        "ephys:ElectrodeUsage",
+        "ephys:PipetteUsage",
         "specimenPrep:SlicingDeviceUsage"
       ],
       "label": "Recorded with",
@@ -90,7 +89,7 @@
     },
     "https://openminds.ebrains.eu/vocab/samplingFrequency": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter the sampling frequency of this recording.",
       "label": "Sampling frequency",

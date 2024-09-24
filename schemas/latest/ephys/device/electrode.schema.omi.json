@@ -2,17 +2,16 @@
   "_categories": [
     "setupComponent"
   ],
-  "_type": "https://openminds.ebrains.eu/ephys/Electrode",
-  "color": "#D0AC94",
-  "label": "Electrode",
-  "name": "Electrode",
+  "_type": "ephys:Electrode",
+  "label": "Ephys:electrode",
+  "name": "ephys:Electrode",
   "properties": {
     "https://openminds.ebrains.eu/vocab/conductorMaterial": {
       "_instruction": "Add the conductor material of this electrode.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
-        "https://openminds.ebrains.eu/chemicals/ChemicalSubstance",
-        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity"
+        "chemicals:ChemicalMixture",
+        "chemicals:ChemicalSubstance",
+        "controlledTerms:MolecularEntity"
       ],
       "label": "Conductor material",
       "labelPlural": "Conductor materials",
@@ -58,9 +57,9 @@
     "https://openminds.ebrains.eu/vocab/insulatorMaterial": {
       "_instruction": "Add the insulator material of this electrode.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
-        "https://openminds.ebrains.eu/chemicals/ChemicalSubstance",
-        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity"
+        "chemicals:ChemicalMixture",
+        "chemicals:ChemicalSubstance",
+        "controlledTerms:MolecularEntity"
       ],
       "label": "Insulator material",
       "labelPlural": "Insulator materials",
@@ -81,8 +80,8 @@
     },
     "https://openminds.ebrains.eu/vocab/intrinsicResistance": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue",
-        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+        "core:QuantitativeValue",
+        "core:QuantitativeValueRange"
       ],
       "_instruction": "Enter the intrinsic resistance of this electrode.",
       "label": "Intrinsic resistance",

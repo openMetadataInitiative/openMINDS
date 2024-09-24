@@ -2,10 +2,9 @@
   "_categories": [
     "setupComponent"
   ],
-  "_type": "https://openminds.ebrains.eu/ephys/Pipette",
-  "color": "#2A7FFF",
-  "label": "Pipette",
-  "name": "Pipette",
+  "_type": "ephys:Pipette",
+  "label": "Ephys:pipette",
+  "name": "ephys:Pipette",
   "properties": {
     "https://openminds.ebrains.eu/vocab/description": {
       "_instruction": "Enter a short text describing this device.",
@@ -44,7 +43,7 @@
     },
     "https://openminds.ebrains.eu/vocab/externalDiameter": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter the external diameter of the pipette.",
       "label": "External diameter",
@@ -55,7 +54,7 @@
     },
     "https://openminds.ebrains.eu/vocab/internalDiameter": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter the internal diameter of the pipette.",
       "label": "Internal diameter",
@@ -104,9 +103,9 @@
     "https://openminds.ebrains.eu/vocab/material": {
       "_instruction": "Add the material that the pipette is made of.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
-        "https://openminds.ebrains.eu/chemicals/ChemicalSubstance",
-        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity"
+        "chemicals:ChemicalMixture",
+        "chemicals:ChemicalSubstance",
+        "controlledTerms:MolecularEntity"
       ],
       "label": "Material",
       "labelPlural": "Materials",
