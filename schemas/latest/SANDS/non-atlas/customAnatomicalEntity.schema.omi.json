@@ -3,14 +3,13 @@
     "anatomicalLocation",
     "studyTarget"
   ],
-  "_type": "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
-  "color": "#D7FFE6",
-  "label": "Custom anatomical entity",
-  "name": "CustomAnatomicalEntity",
+  "_type": "sands:CustomAnatomicalEntity",
+  "label": "Sands:custom anatomical entity",
+  "name": "sands:CustomAnatomicalEntity",
   "properties": {
     "https://openminds.ebrains.eu/vocab/hasAnnotation": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/sands/CustomAnnotation"
+        "sands:CustomAnnotation"
       ],
       "_instruction": "Add all custom annotations which define this custom anatomical entity.",
       "label": "Has annotation",
@@ -36,8 +35,8 @@
     "https://openminds.ebrains.eu/vocab/relatedUBERONTerm": {
       "_instruction": "Add the related anatomical entity as defined by the UBERON ontology.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Organ",
-        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation"
+        "controlledTerms:Organ",
+        "controlledTerms:UBERONParcellation"
       ],
       "label": "Related uberonterm",
       "labelPlural": "Related UBERON terms",
@@ -47,8 +46,8 @@
     },
     "https://openminds.ebrains.eu/vocab/relationAssessment": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/sands/QualitativeRelationAssessment",
-        "https://openminds.ebrains.eu/sands/QuantitativeRelationAssessment"
+        "sands:QualitativeRelationAssessment",
+        "sands:QuantitativeRelationAssessment"
       ],
       "_instruction": "Add all relations (qualitative or quantitative) of this custom anatomical entity to other anatomical entities.",
       "label": "Relation assessment",

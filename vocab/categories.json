@@ -10,13 +10,13 @@
       "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
       "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
       "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
-      "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
-      "https://openminds.ebrains.eu/sands/ParcellationEntity",
-      "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+      "sands:CustomAnatomicalEntity",
+      "sands:ParcellationEntity",
+      "sands:ParcellationEntityVersion"
     ],
     "color": [
       "https://openminds.ebrains.eu/controlledTerms/Colormap",
-      "https://openminds.ebrains.eu/sands/SingleColor"
+      "sands:SingleColor"
     ],
     "computationalActivity": [
       "https://openminds.ebrains.eu/computation/DataAnalysis",
@@ -28,9 +28,9 @@
       "https://openminds.ebrains.eu/computation/Visualization"
     ],
     "coordinateSpace": [
-      "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
-      "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
-      "https://openminds.ebrains.eu/sands/CustomCoordinateSpace"
+      "sands:CommonCoordinateSpace",
+      "sands:CommonCoordinateSpaceVersion",
+      "sands:CustomCoordinateSpace"
     ],
     "deviceUsage": [
       "ephys:ElectrodeArrayUsage",
@@ -147,9 +147,9 @@
       "https://openminds.ebrains.eu/core/Person"
     ],
     "mathematicalShapes": [
-      "https://openminds.ebrains.eu/sands/Circle",
-      "https://openminds.ebrains.eu/sands/Ellipse",
-      "https://openminds.ebrains.eu/sands/Rectangle"
+      "sands:Circle",
+      "sands:Ellipse",
+      "sands:Rectangle"
     ],
     "publicationReference": [
       "https://openminds.ebrains.eu/core/DOI",
@@ -175,12 +175,12 @@
       "https://openminds.ebrains.eu/core/SoftwareVersion",
       "https://openminds.ebrains.eu/core/WebService",
       "https://openminds.ebrains.eu/core/WebServiceVersion",
-      "https://openminds.ebrains.eu/sands/BrainAtlas",
-      "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-      "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
-      "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
       "publications:LivePaper",
-      "publications:LivePaperVersion"
+      "publications:LivePaperVersion",
+      "sands:BrainAtlas",
+      "sands:BrainAtlasVersion",
+      "sands:CommonCoordinateSpace",
+      "sands:CommonCoordinateSpaceVersion"
     ],
     "setupComponent": [
       "ephys:Electrode",
@@ -229,9 +229,9 @@
       "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
       "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
       "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType",
-      "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
-      "https://openminds.ebrains.eu/sands/ParcellationEntity",
-      "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+      "sands:CustomAnatomicalEntity",
+      "sands:ParcellationEntity",
+      "sands:ParcellationEntityVersion"
     ],
     "technique": [
       "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",

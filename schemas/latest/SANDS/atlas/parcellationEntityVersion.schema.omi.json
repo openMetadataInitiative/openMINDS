@@ -3,10 +3,9 @@
     "anatomicalLocation",
     "studyTarget"
   ],
-  "_type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "color": "#74569E",
-  "label": "Parcellation entity version",
-  "name": "ParcellationEntityVersion",
+  "_type": "sands:ParcellationEntityVersion",
+  "label": "Sands:parcellation entity version",
+  "name": "sands:ParcellationEntityVersion",
   "properties": {
     "https://openminds.ebrains.eu/vocab/abbreviation": {
       "_instruction": "Enter the official abbreviation of this parcellation entity version.",
@@ -56,7 +55,7 @@
     },
     "https://openminds.ebrains.eu/vocab/hasAnnotation": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/sands/AtlasAnnotation"
+        "sands:AtlasAnnotation"
       ],
       "_instruction": "Add all atlas annotations which define this parcellation entity version.",
       "label": "Has annotation",
@@ -71,8 +70,8 @@
     "https://openminds.ebrains.eu/vocab/hasParent": {
       "_instruction": "Add all anatomical parent structures (or version of the structures) for this parcellation entity as defined within corresponding brain atlas version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationEntity",
-        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+        "sands:ParcellationEntity",
+        "sands:ParcellationEntityVersion"
       ],
       "description": "Reference to a parent object or legal person.",
       "label": "Has parent",
@@ -126,8 +125,8 @@
     },
     "https://openminds.ebrains.eu/vocab/relationAssessment": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/sands/QualitativeRelationAssessment",
-        "https://openminds.ebrains.eu/sands/QuantitativeRelationAssessment"
+        "sands:QualitativeRelationAssessment",
+        "sands:QuantitativeRelationAssessment"
       ],
       "_instruction": "Add all relations (qualitative or quantitative) of this parcellation entity version to other anatomical entities.",
       "label": "Relation assessment",

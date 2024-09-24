@@ -2637,7 +2637,6 @@
     "color": "#C2FF99",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Anatomical target position",
@@ -2658,7 +2657,6 @@
     "color": "#8BC891",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -2680,7 +2678,6 @@
     "color": "#8B4A4E",
     "description": "Structured information on a brain atlas (concept level).",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2693,7 +2690,6 @@
     "color": "#75797C",
     "description": "Structured information on a brain atlas (version level).",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2706,7 +2702,6 @@
     "color": "#00B57F",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Circle",
@@ -2717,7 +2712,6 @@
     "color": "#5B113C",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -2729,7 +2723,6 @@
     "color": "#D60034",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Common coordinate space version",
@@ -2740,7 +2733,6 @@
     "color": "#A97399",
     "description": "Structured information on a coordinate point.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2763,7 +2755,6 @@
     "color": "#D7FFE6",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -2775,7 +2766,6 @@
     "color": "#392935",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -2787,7 +2777,6 @@
     "color": "#402334",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -2832,7 +2821,6 @@
     "color": "#CBA1BC",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Ellipse",
@@ -2853,7 +2841,6 @@
     "color": "#71B2F5",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -2865,7 +2852,6 @@
     "color": "#74569E",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Parcellation entity version",
@@ -2876,7 +2862,6 @@
     "color": "#009A2E",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -2888,7 +2873,6 @@
     "color": "#02227B",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Parcellation terminology version",
@@ -2899,7 +2883,6 @@
     "color": "#435740",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -2911,7 +2894,6 @@
     "color": "#FF5AE4",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -2923,7 +2905,6 @@
     "color": "#6B8295",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Rectangle",
@@ -2934,7 +2915,6 @@
     "color": "#E66D53",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Single color",
@@ -2945,7 +2925,6 @@
     "color": "#435E6A",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Viewer specification",
@@ -3130,6 +3109,216 @@
     ],
     "label": "Publications:scholarly article",
     "name": "publications:ScholarlyArticle",
+    "semanticEquivalent": []
+  },
+  "sands:AnatomicalTargetPosition": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:anatomical target position",
+    "name": "sands:AnatomicalTargetPosition",
+    "semanticEquivalent": []
+  },
+  "sands:AtlasAnnotation": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:atlas annotation",
+    "name": "sands:AtlasAnnotation",
+    "semanticEquivalent": []
+  },
+  "sands:BrainAtlas": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:brain atlas",
+    "name": "sands:BrainAtlas",
+    "semanticEquivalent": []
+  },
+  "sands:BrainAtlasVersion": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:brain atlas version",
+    "name": "sands:BrainAtlasVersion",
+    "semanticEquivalent": []
+  },
+  "sands:Circle": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:circle",
+    "name": "sands:Circle",
+    "semanticEquivalent": []
+  },
+  "sands:CommonCoordinateSpace": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:common coordinate space",
+    "name": "sands:CommonCoordinateSpace",
+    "semanticEquivalent": []
+  },
+  "sands:CommonCoordinateSpaceVersion": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:common coordinate space version",
+    "name": "sands:CommonCoordinateSpaceVersion",
+    "semanticEquivalent": []
+  },
+  "sands:CoordinatePoint": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:coordinate point",
+    "name": "sands:CoordinatePoint",
+    "semanticEquivalent": []
+  },
+  "sands:CustomAnatomicalEntity": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:custom anatomical entity",
+    "name": "sands:CustomAnatomicalEntity",
+    "semanticEquivalent": []
+  },
+  "sands:CustomAnnotation": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:custom annotation",
+    "name": "sands:CustomAnnotation",
+    "semanticEquivalent": []
+  },
+  "sands:CustomCoordinateSpace": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:custom coordinate space",
+    "name": "sands:CustomCoordinateSpace",
+    "semanticEquivalent": []
+  },
+  "sands:Ellipse": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:ellipse",
+    "name": "sands:Ellipse",
+    "semanticEquivalent": []
+  },
+  "sands:ParcellationEntity": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:parcellation entity",
+    "name": "sands:ParcellationEntity",
+    "semanticEquivalent": []
+  },
+  "sands:ParcellationEntityVersion": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:parcellation entity version",
+    "name": "sands:ParcellationEntityVersion",
+    "semanticEquivalent": []
+  },
+  "sands:ParcellationTerminology": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:parcellation terminology",
+    "name": "sands:ParcellationTerminology",
+    "semanticEquivalent": []
+  },
+  "sands:ParcellationTerminologyVersion": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:parcellation terminology version",
+    "name": "sands:ParcellationTerminologyVersion",
+    "semanticEquivalent": []
+  },
+  "sands:QualitativeRelationAssessment": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:qualitative relation assessment",
+    "name": "sands:QualitativeRelationAssessment",
+    "semanticEquivalent": []
+  },
+  "sands:QuantitativeRelationAssessment": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:quantitative relation assessment",
+    "name": "sands:QuantitativeRelationAssessment",
+    "semanticEquivalent": []
+  },
+  "sands:Rectangle": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:rectangle",
+    "name": "sands:Rectangle",
+    "semanticEquivalent": []
+  },
+  "sands:SingleColor": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:single color",
+    "name": "sands:SingleColor",
+    "semanticEquivalent": []
+  },
+  "sands:ViewerSpecification": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sands:viewer specification",
+    "name": "sands:ViewerSpecification",
     "semanticEquivalent": []
   },
   "specimenPrep:CranialWindowPreparation": {

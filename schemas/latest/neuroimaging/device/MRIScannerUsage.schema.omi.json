@@ -48,9 +48,9 @@
     "https://openminds.ebrains.eu/vocab/fieldOfView": {
       "_instruction": "Add the field of view of this image.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/Circle",
-        "https://openminds.ebrains.eu/sands/Ellipse",
-        "https://openminds.ebrains.eu/sands/Rectangle"
+        "sands:Circle",
+        "sands:Ellipse",
+        "sands:Rectangle"
       ],
       "label": "Field of view",
       "name": "fieldOfView",

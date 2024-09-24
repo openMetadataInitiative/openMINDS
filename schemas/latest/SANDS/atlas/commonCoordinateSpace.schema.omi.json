@@ -3,10 +3,9 @@
     "coordinateSpace",
     "researchProduct"
   ],
-  "_type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
-  "color": "#5B113C",
-  "label": "Common coordinate space",
-  "name": "CommonCoordinateSpace",
+  "_type": "sands:CommonCoordinateSpace",
+  "label": "Sands:common coordinate space",
+  "name": "sands:CommonCoordinateSpace",
   "properties": {
     "https://openminds.ebrains.eu/vocab/abbreviation": {
       "_instruction": "Enter the official abbreviation of this common coordinate space.",
@@ -66,9 +65,9 @@
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/ISBN",
-        "https://openminds.ebrains.eu/core/RRID"
+        "core:DOI",
+        "core:ISBN",
+        "core:RRID"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -91,7 +90,7 @@
     "https://openminds.ebrains.eu/vocab/hasVersion": {
       "_instruction": "Add all versions of this common coordinate space.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "sands:CommonCoordinateSpaceVersion"
       ],
       "description": "Reference to variants of an original.",
       "label": "Has version",
@@ -161,7 +160,7 @@
     "https://openminds.ebrains.eu/vocab/usedSpecies": {
       "_instruction": "Add the species that was used for the creation of this common coordinate space.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Species"
+        "controlledTerms:Species"
       ],
       "label": "Used species",
       "labelPlural": "Used species",

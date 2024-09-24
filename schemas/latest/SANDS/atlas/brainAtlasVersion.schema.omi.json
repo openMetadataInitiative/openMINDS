@@ -2,11 +2,9 @@
   "_categories": [
     "researchProduct"
   ],
-  "_type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-  "color": "#75797C",
-  "description": "Structured information on a brain atlas (version level).",
-  "label": "Brain atlas version",
-  "name": "BrainAtlasVersion",
+  "_type": "sands:BrainAtlasVersion",
+  "label": "Sands:brain atlas version",
+  "name": "sands:BrainAtlasVersion",
   "properties": {
     "https://openminds.ebrains.eu/vocab/abbreviation": {
       "_instruction": "Enter the official abbreviation of this brain atlas version.",
@@ -50,7 +48,7 @@
     "https://openminds.ebrains.eu/vocab/coordinateSpace": {
       "_instruction": "Add the specific common coordinate space in which this brain atlas version exists.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "sands:CommonCoordinateSpaceVersion"
       ],
       "description": "Two or three dimensional geometric setting.",
       "label": "Coordinate space",
@@ -102,9 +100,9 @@
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/ISBN",
-        "https://openminds.ebrains.eu/core/RRID"
+        "core:DOI",
+        "core:ISBN",
+        "core:RRID"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -156,7 +154,7 @@
     },
     "https://openminds.ebrains.eu/vocab/hasTerminology": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion"
+        "sands:ParcellationTerminologyVersion"
       ],
       "_instruction": "Enter the specific parcellation terminology of this brain atlas version.",
       "label": "Has terminology",
@@ -193,7 +191,7 @@
     "https://openminds.ebrains.eu/vocab/isAlternativeVersionOf": {
       "_instruction": "Add all brain atlas versions that can be used alternatively to this brain atlas version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
+        "sands:BrainAtlasVersion"
       ],
       "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
       "label": "Is alternative version of",
@@ -208,7 +206,7 @@
     "https://openminds.ebrains.eu/vocab/isNewVersionOf": {
       "_instruction": "Add the brain atlas version preceding this brain atlas version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
+        "sands:BrainAtlasVersion"
       ],
       "description": "Reference to a previous (potentially outdated) particular form of something.",
       "label": "Is new version of",
@@ -314,7 +312,7 @@
     "https://openminds.ebrains.eu/vocab/license": {
       "_instruction": "Add the license of this brain atlas version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/License"
+        "core:License"
       ],
       "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
       "label": "License",
@@ -443,7 +441,7 @@
     "https://openminds.ebrains.eu/vocab/type": {
       "_instruction": "Add the type of this brain atlas version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/AtlasType"
+        "controlledTerms:AtlasType"
       ],
       "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
       "label": "Type",
@@ -455,10 +453,10 @@
     "https://openminds.ebrains.eu/vocab/usedSpecimen": {
       "_instruction": "Add the specimen that was used for the creation of this brain atlas version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Subject",
-        "https://openminds.ebrains.eu/core/SubjectGroup",
-        "https://openminds.ebrains.eu/core/TissueSample",
-        "https://openminds.ebrains.eu/core/TissueSampleCollection"
+        "core:Subject",
+        "core:SubjectGroup",
+        "core:TissueSample",
+        "core:TissueSampleCollection"
       ],
       "label": "Used specimen",
       "labelPlural": "Used specimens",

@@ -1,12 +1,11 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-  "color": "#8BC891",
-  "label": "Atlas annotation",
-  "name": "AtlasAnnotation",
+  "_type": "sands:AtlasAnnotation",
+  "label": "Sands:atlas annotation",
+  "name": "sands:AtlasAnnotation",
   "properties": {
     "https://openminds.ebrains.eu/vocab/anchorPoint": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter the coordinates of the anchor point for this annotation (e.g., its centroid in two dimensional space as [x, y] or in three dimensional space as [x, y, z]).",
       "label": "Anchor point",
@@ -21,7 +20,7 @@
     "https://openminds.ebrains.eu/vocab/criteria": {
       "_instruction": "Add the protocol execution defining the criteria that were applied to produce this annotation.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ProtocolExecution"
+        "core:ProtocolExecution"
       ],
       "description": "Aspects or standards on which a judgement or decision is based.",
       "label": "Criteria",
@@ -33,7 +32,7 @@
     "https://openminds.ebrains.eu/vocab/criteriaQualityType": {
       "_instruction": "Add the quality type of the stated criteria used to define this annotation.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType"
+        "controlledTerms:CriteriaQualityType"
       ],
       "description": "Distinct class that defines how the judgement or decision was made for a particular criteria.",
       "label": "Criteria quality type",
@@ -45,7 +44,7 @@
     "https://openminds.ebrains.eu/vocab/criteriaType": {
       "_instruction": "Add the criteria type for this annotation.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/AnnotationCriteriaType"
+        "controlledTerms:AnnotationCriteriaType"
       ],
       "label": "Criteria type",
       "labelPlural": "Criteria types",
@@ -56,7 +55,7 @@
     "https://openminds.ebrains.eu/vocab/inspiredBy": {
       "_instruction": "Add all (source) files that inspired the definition of this annotation.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File"
+        "core:File"
       ],
       "description": "Reference to an inspiring element.",
       "label": "Inspired by",
@@ -82,7 +81,7 @@
     "https://openminds.ebrains.eu/vocab/laterality": {
       "_instruction": "Add one or both sides of the body, bilateral organ or bilateral organ part that this annotation is defined in.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Laterality"
+        "controlledTerms:Laterality"
       ],
       "description": "Differentiation between a pair of lateral homologous parts of the body.",
       "label": "Laterality",
@@ -97,7 +96,7 @@
     },
     "https://openminds.ebrains.eu/vocab/preferredVisualization": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/sands/ViewerSpecification"
+        "sands:ViewerSpecification"
       ],
       "_instruction": "Add the preferred viewer specification to visualize this annotation.",
       "label": "Preferred visualization",
@@ -109,7 +108,7 @@
     "https://openminds.ebrains.eu/vocab/specification": {
       "_instruction": "Add the non-parametric specification of this annotation.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File"
+        "core:File"
       ],
       "description": "Detailed and precise presentation of, or proposal for something.",
       "label": "Specification",
@@ -121,7 +120,7 @@
     "https://openminds.ebrains.eu/vocab/type": {
       "_instruction": "Add the geometry type of this annotation.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/AnnotationType"
+        "controlledTerms:AnnotationType"
       ],
       "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
       "label": "Type",

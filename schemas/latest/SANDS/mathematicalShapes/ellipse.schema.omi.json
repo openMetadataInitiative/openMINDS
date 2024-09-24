@@ -2,14 +2,13 @@
   "_categories": [
     "mathematicalShapes"
   ],
-  "_type": "https://openminds.ebrains.eu/sands/Ellipse",
-  "color": "#CBA1BC",
-  "label": "Ellipse",
-  "name": "Ellipse",
+  "_type": "sands:Ellipse",
+  "label": "Sands:ellipse",
+  "name": "sands:Ellipse",
   "properties": {
     "https://openminds.ebrains.eu/vocab/semiMajorAxis": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter the length of the semi-minor axis of this ellipse.",
       "label": "Semi major axis",
@@ -20,7 +19,7 @@
     },
     "https://openminds.ebrains.eu/vocab/semiMinorAxis": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter the length of the semi-major axis of this ellipse.",
       "label": "Semi minor axis",
