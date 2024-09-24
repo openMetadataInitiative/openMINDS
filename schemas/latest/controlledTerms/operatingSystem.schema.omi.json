@@ -2,11 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/OperatingSystem",
-  "color": "#C9B1A9",
-  "description": "Structured information on the operating system.",
-  "label": "Operating system",
-  "name": "OperatingSystem",
+  "_type": "controlledTerms:OperatingSystem",
+  "label": "Controlled terms:operating system",
+  "name": "controlledTerms:OperatingSystem",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

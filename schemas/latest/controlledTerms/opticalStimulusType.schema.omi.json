@@ -4,10 +4,9 @@
     "stimulusType",
     "studyTarget"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
-  "color": "#6D3800",
-  "label": "Optical stimulus type",
-  "name": "OpticalStimulusType",
+  "_type": "controlledTerms:OpticalStimulusType",
+  "label": "Controlled terms:optical stimulus type",
+  "name": "controlledTerms:OpticalStimulusType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
-  "color": "#372B2E",
-  "label": "Learning resource type",
-  "name": "LearningResourceType",
+  "_type": "controlledTerms:LearningResourceType",
+  "label": "Controlled terms:learning resource type",
+  "name": "controlledTerms:LearningResourceType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

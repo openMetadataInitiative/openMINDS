@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/AtlasType",
-  "color": "#F3BDA4",
-  "label": "Atlas type",
-  "name": "AtlasType",
+  "_type": "controlledTerms:AtlasType",
+  "label": "Controlled terms:atlas type",
+  "name": "controlledTerms:AtlasType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

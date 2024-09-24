@@ -3,10 +3,9 @@
     "keyword",
     "studyTarget"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType",
-  "color": "#FFA0F2",
-  "label": "Genetic strain type",
-  "name": "GeneticStrainType",
+  "_type": "controlledTerms:GeneticStrainType",
+  "label": "Controlled terms:genetic strain type",
+  "name": "controlledTerms:GeneticStrainType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

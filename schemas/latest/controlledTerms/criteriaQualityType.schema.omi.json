@@ -2,11 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType",
-  "color": "#AABC7A",
-  "description": "Structured information on the quality type of the defined criteria for a measurement.",
-  "label": "Criteria quality type",
-  "name": "CriteriaQualityType",
+  "_type": "controlledTerms:CriteriaQualityType",
+  "label": "Controlled terms:criteria quality type",
+  "name": "controlledTerms:CriteriaQualityType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

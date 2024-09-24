@@ -2,9 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/BiologicalProcess",
-  "label": "Biological process",
-  "name": "BiologicalProcess",
+  "_type": "controlledTerms:BiologicalProcess",
+  "label": "Controlled terms:biological process",
+  "name": "controlledTerms:BiologicalProcess",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

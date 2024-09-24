@@ -3,10 +3,9 @@
     "keyword",
     "studyTarget"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/OrganismSystem",
-  "color": "#222800",
-  "label": "Organism system",
-  "name": "OrganismSystem",
+  "_type": "controlledTerms:OrganismSystem",
+  "label": "Controlled terms:organism system",
+  "name": "controlledTerms:OrganismSystem",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

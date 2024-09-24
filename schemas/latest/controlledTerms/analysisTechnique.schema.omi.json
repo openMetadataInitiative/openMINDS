@@ -4,10 +4,9 @@
     "keyword",
     "technique"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
-  "color": "#FF0020",
-  "label": "Analysis technique",
-  "name": "AnalysisTechnique",
+  "_type": "controlledTerms:AnalysisTechnique",
+  "label": "Controlled terms:analysis technique",
+  "name": "controlledTerms:AnalysisTechnique",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

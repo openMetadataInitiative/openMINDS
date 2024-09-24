@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/ChemicalMixtureType",
-  "color": "#363DFF",
-  "label": "Chemical mixture type",
-  "name": "ChemicalMixtureType",
+  "_type": "controlledTerms:ChemicalMixtureType",
+  "label": "Controlled terms:chemical mixture type",
+  "name": "controlledTerms:ChemicalMixtureType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap",
-  "color": "#D16CDA",
-  "label": "Qualitative overlap",
-  "name": "QualitativeOverlap",
+  "_type": "controlledTerms:QualitativeOverlap",
+  "label": "Controlled terms:qualitative overlap",
+  "name": "controlledTerms:QualitativeOverlap",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

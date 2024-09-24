@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/PatchClampVariation",
-  "color": "#63FFAC",
-  "label": "Patch clamp variation",
-  "name": "PatchClampVariation",
+  "_type": "controlledTerms:PatchClampVariation",
+  "label": "Controlled terms:patch clamp variation",
+  "name": "controlledTerms:PatchClampVariation",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

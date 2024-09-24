@@ -4,11 +4,9 @@
     "keyword",
     "technique"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/Technique",
-  "color": "#6367A9",
-  "description": "Structured information on the technique.",
-  "label": "Technique",
-  "name": "Technique",
+  "_type": "controlledTerms:Technique",
+  "label": "Controlled terms:technique",
+  "name": "controlledTerms:Technique",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

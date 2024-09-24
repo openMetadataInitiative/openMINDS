@@ -3,11 +3,9 @@
     "keyword",
     "studyTarget"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
-  "color": "#0AA3F7",
-  "description": "Structured information on the general type of the tissue sample.",
-  "label": "Tissue sample type",
-  "name": "TissueSampleType",
+  "_type": "controlledTerms:TissueSampleType",
+  "label": "Controlled terms:tissue sample type",
+  "name": "controlledTerms:TissueSampleType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

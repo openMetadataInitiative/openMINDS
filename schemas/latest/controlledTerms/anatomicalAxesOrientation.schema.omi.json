@@ -2,11 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation",
-  "color": "#B6E4DE",
-  "description": "Structured information on the anatomical directions of the X, Y, and Z axis.",
-  "label": "Anatomical axes orientation",
-  "name": "AnatomicalAxesOrientation",
+  "_type": "controlledTerms:AnatomicalAxesOrientation",
+  "label": "Controlled terms:anatomical axes orientation",
+  "name": "controlledTerms:AnatomicalAxesOrientation",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

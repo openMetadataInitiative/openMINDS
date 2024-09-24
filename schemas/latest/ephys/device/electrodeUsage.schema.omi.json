@@ -9,11 +9,11 @@
     "https://openminds.ebrains.eu/vocab/anatomicalLocation": {
       "_instruction": "Add the anatomical entity that semantically best describes the anatomical location of the electrode contact.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/CellType",
-        "https://openminds.ebrains.eu/controlledTerms/Organ",
-        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
-        "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
-        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
+        "controlledTerms:CellType",
+        "controlledTerms:Organ",
+        "controlledTerms:OrganismSubstance",
+        "controlledTerms:SubcellularEntity",
+        "controlledTerms:UBERONParcellation",
         "sands:CustomAnatomicalEntity",
         "sands:ParcellationEntity",
         "sands:ParcellationEntityVersion"

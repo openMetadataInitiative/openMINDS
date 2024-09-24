@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType",
-  "color": "#D369B4",
-  "label": "File repository type",
-  "name": "FileRepositoryType",
+  "_type": "controlledTerms:FileRepositoryType",
+  "label": "Controlled terms:file repository type",
+  "name": "controlledTerms:FileRepositoryType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

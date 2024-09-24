@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/EducationalLevel",
-  "color": "#636A01",
-  "label": "Educational level",
-  "name": "EducationalLevel",
+  "_type": "controlledTerms:EducationalLevel",
+  "label": "Controlled terms:educational level",
+  "name": "controlledTerms:EducationalLevel",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

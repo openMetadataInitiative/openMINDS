@@ -4,9 +4,9 @@
     "keyword",
     "technique"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
-  "label": "Mripulse sequence",
-  "name": "MRIPulseSequence",
+  "_type": "controlledTerms:MRIPulseSequence",
+  "label": "Controlled terms:mripulse sequence",
+  "name": "controlledTerms:MRIPulseSequence",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

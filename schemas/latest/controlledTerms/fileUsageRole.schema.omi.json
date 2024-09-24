@@ -2,11 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/FileUsageRole",
-  "color": "#549E79",
-  "description": "Structured information on the usage role of a file instance or bundle.",
-  "label": "File usage role",
-  "name": "FileUsageRole",
+  "_type": "controlledTerms:FileUsageRole",
+  "label": "Controlled terms:file usage role",
+  "name": "controlledTerms:FileUsageRole",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

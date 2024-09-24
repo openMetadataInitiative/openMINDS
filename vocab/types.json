@@ -39,6 +39,806 @@
     "name": "chemicals:ProductSource",
     "semanticEquivalent": []
   },
+  "controlledTerms:ActionStatusType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:action status type",
+    "name": "controlledTerms:ActionStatusType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:AgeCategory": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:age category",
+    "name": "controlledTerms:AgeCategory",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:AnalysisTechnique": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:analysis technique",
+    "name": "controlledTerms:AnalysisTechnique",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:AnatomicalAxesOrientation": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:anatomical axes orientation",
+    "name": "controlledTerms:AnatomicalAxesOrientation",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:AnatomicalIdentificationType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:anatomical identification type",
+    "name": "controlledTerms:AnatomicalIdentificationType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:AnatomicalPlane": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:anatomical plane",
+    "name": "controlledTerms:AnatomicalPlane",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:AnnotationCriteriaType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:annotation criteria type",
+    "name": "controlledTerms:AnnotationCriteriaType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:AnnotationType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:annotation type",
+    "name": "controlledTerms:AnnotationType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:AtlasType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:atlas type",
+    "name": "controlledTerms:AtlasType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:AuditoryStimulusType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:auditory stimulus type",
+    "name": "controlledTerms:AuditoryStimulusType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:BiologicalOrder": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:biological order",
+    "name": "controlledTerms:BiologicalOrder",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:BiologicalProcess": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:biological process",
+    "name": "controlledTerms:BiologicalProcess",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:BiologicalSex": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:biological sex",
+    "name": "controlledTerms:BiologicalSex",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:BreedingType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:breeding type",
+    "name": "controlledTerms:BreedingType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:CellCultureType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:cell culture type",
+    "name": "controlledTerms:CellCultureType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:CellType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:cell type",
+    "name": "controlledTerms:CellType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:ChemicalMixtureType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:chemical mixture type",
+    "name": "controlledTerms:ChemicalMixtureType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:Colormap": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:colormap",
+    "name": "controlledTerms:Colormap",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:ContributionType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:contribution type",
+    "name": "controlledTerms:ContributionType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:CranialWindowConstructionType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:cranial window construction type",
+    "name": "controlledTerms:CranialWindowConstructionType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:CranialWindowReinforcementType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:cranial window reinforcement type",
+    "name": "controlledTerms:CranialWindowReinforcementType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:CriteriaQualityType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:criteria quality type",
+    "name": "controlledTerms:CriteriaQualityType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:DataType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:data type",
+    "name": "controlledTerms:DataType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:DeviceType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:device type",
+    "name": "controlledTerms:DeviceType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:DifferenceMeasure": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:difference measure",
+    "name": "controlledTerms:DifferenceMeasure",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:Disease": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:disease",
+    "name": "controlledTerms:Disease",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:DiseaseModel": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:disease model",
+    "name": "controlledTerms:DiseaseModel",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:EducationalLevel": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:educational level",
+    "name": "controlledTerms:EducationalLevel",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:ElectricalStimulusType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:electrical stimulus type",
+    "name": "controlledTerms:ElectricalStimulusType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:EthicsAssessment": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:ethics assessment",
+    "name": "controlledTerms:EthicsAssessment",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:ExperimentalApproach": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:experimental approach",
+    "name": "controlledTerms:ExperimentalApproach",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:FileBundleGrouping": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:file bundle grouping",
+    "name": "controlledTerms:FileBundleGrouping",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:FileRepositoryType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:file repository type",
+    "name": "controlledTerms:FileRepositoryType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:FileUsageRole": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:file usage role",
+    "name": "controlledTerms:FileUsageRole",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:GeneticStrainType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:genetic strain type",
+    "name": "controlledTerms:GeneticStrainType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:GustatoryStimulusType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:gustatory stimulus type",
+    "name": "controlledTerms:GustatoryStimulusType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:Handedness": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:handedness",
+    "name": "controlledTerms:Handedness",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:Language": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:language",
+    "name": "controlledTerms:Language",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:Laterality": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:laterality",
+    "name": "controlledTerms:Laterality",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:LearningResourceType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:learning resource type",
+    "name": "controlledTerms:LearningResourceType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:MRIPulseSequence": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:mripulse sequence",
+    "name": "controlledTerms:MRIPulseSequence",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:MRIWeighting": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:mriweighting",
+    "name": "controlledTerms:MRIWeighting",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:MeasuredQuantity": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:measured quantity",
+    "name": "controlledTerms:MeasuredQuantity",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:MeasuredSignalType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:measured signal type",
+    "name": "controlledTerms:MeasuredSignalType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:MetaDataModelType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:meta data model type",
+    "name": "controlledTerms:MetaDataModelType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:ModelAbstractionLevel": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:model abstraction level",
+    "name": "controlledTerms:ModelAbstractionLevel",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:ModelScope": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:model scope",
+    "name": "controlledTerms:ModelScope",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:MolecularEntity": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:molecular entity",
+    "name": "controlledTerms:MolecularEntity",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:OlfactoryStimulusType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:olfactory stimulus type",
+    "name": "controlledTerms:OlfactoryStimulusType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:OperatingDevice": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:operating device",
+    "name": "controlledTerms:OperatingDevice",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:OperatingSystem": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:operating system",
+    "name": "controlledTerms:OperatingSystem",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:OpticalStimulusType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:optical stimulus type",
+    "name": "controlledTerms:OpticalStimulusType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:Organ": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:organ",
+    "name": "controlledTerms:Organ",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:OrganismSubstance": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:organism substance",
+    "name": "controlledTerms:OrganismSubstance",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:OrganismSystem": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:organism system",
+    "name": "controlledTerms:OrganismSystem",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:PatchClampVariation": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:patch clamp variation",
+    "name": "controlledTerms:PatchClampVariation",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:PreparationType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:preparation type",
+    "name": "controlledTerms:PreparationType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:ProductAccessibility": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:product accessibility",
+    "name": "controlledTerms:ProductAccessibility",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:ProgrammingLanguage": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:programming language",
+    "name": "controlledTerms:ProgrammingLanguage",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:QualitativeOverlap": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:qualitative overlap",
+    "name": "controlledTerms:QualitativeOverlap",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:SemanticDataType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:semantic data type",
+    "name": "controlledTerms:SemanticDataType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:Service": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:service",
+    "name": "controlledTerms:Service",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:SetupType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:setup type",
+    "name": "controlledTerms:SetupType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:SoftwareApplicationCategory": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:software application category",
+    "name": "controlledTerms:SoftwareApplicationCategory",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:SoftwareFeature": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:software feature",
+    "name": "controlledTerms:SoftwareFeature",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:Species": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:species",
+    "name": "controlledTerms:Species",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:StimulationApproach": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:stimulation approach",
+    "name": "controlledTerms:StimulationApproach",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:StimulationTechnique": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:stimulation technique",
+    "name": "controlledTerms:StimulationTechnique",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:SubcellularEntity": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:subcellular entity",
+    "name": "controlledTerms:SubcellularEntity",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:SubjectAttribute": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:subject attribute",
+    "name": "controlledTerms:SubjectAttribute",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:TactileStimulusType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:tactile stimulus type",
+    "name": "controlledTerms:TactileStimulusType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:Technique": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:technique",
+    "name": "controlledTerms:Technique",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:TermSuggestion": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:term suggestion",
+    "name": "controlledTerms:TermSuggestion",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:Terminology": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:terminology",
+    "name": "controlledTerms:Terminology",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:TissueSampleAttribute": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:tissue sample attribute",
+    "name": "controlledTerms:TissueSampleAttribute",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:TissueSampleType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:tissue sample type",
+    "name": "controlledTerms:TissueSampleType",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:TypeOfUncertainty": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:type of uncertainty",
+    "name": "controlledTerms:TypeOfUncertainty",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:UBERONParcellation": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:uberonparcellation",
+    "name": "controlledTerms:UBERONParcellation",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:UnitOfMeasurement": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:unit of measurement",
+    "name": "controlledTerms:UnitOfMeasurement",
+    "semanticEquivalent": []
+  },
+  "controlledTerms:VisualStimulusType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Controlled terms:visual stimulus type",
+    "name": "controlledTerms:VisualStimulusType",
+    "semanticEquivalent": []
+  },
   "ephys:CellPatching": {
     "color": null,
     "description": null,
@@ -380,7 +1180,6 @@
     "color": "#E6ECDC",
     "description": "Structured information about the status of an action.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Action status type",
@@ -391,7 +1190,6 @@
     "color": "#AFCE78",
     "description": "Structured information on the life cycle (semantic term) of a specific age group.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -404,7 +1202,6 @@
     "color": "#FF0020",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Analysis technique",
@@ -415,7 +1212,6 @@
     "color": "#B6E4DE",
     "description": "Structured information on the anatomical directions of the X, Y, and Z axis.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -428,7 +1224,6 @@
     "color": "#203B3C",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Anatomical identification type",
@@ -439,7 +1234,6 @@
     "color": "#9DEBDD",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Anatomical plane",
@@ -450,7 +1244,6 @@
     "color": "#1D1702",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Annotation criteria type",
@@ -461,7 +1254,6 @@
     "color": "#EAE408",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Annotation type",
@@ -472,7 +1264,6 @@
     "color": "#F3BDA4",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Atlas type",
@@ -483,7 +1274,6 @@
     "color": "#766E52",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Auditory stimulus type",
@@ -505,7 +1295,6 @@
     "color": "#69255C",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Biological order",
@@ -516,7 +1305,6 @@
     "color": null,
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Biological process",
@@ -527,7 +1315,6 @@
     "color": "#CDE6DC",
     "description": "Structured information on the biological sex of a subject.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -540,7 +1327,6 @@
     "color": "#AD6552",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Breeding type",
@@ -551,7 +1337,6 @@
     "color": "#61615A",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Cell culture type",
@@ -562,7 +1347,6 @@
     "color": "#BC8A96",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -575,7 +1359,6 @@
     "color": "#363DFF",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Chemical mixture type",
@@ -586,7 +1369,6 @@
     "color": "#067EAF",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Colormap",
@@ -597,7 +1379,6 @@
     "color": "#2C3533",
     "description": "Structured information on the type of contribution a person or organization performed.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -610,7 +1391,6 @@
     "color": "#70EC98",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Cranial window construction type",
@@ -621,7 +1401,6 @@
     "color": "#6C6D74",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Cranial window reinforcement type",
@@ -632,7 +1411,6 @@
     "color": "#AABC7A",
     "description": "Structured information on the quality type of the defined criteria for a measurement.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -645,7 +1423,6 @@
     "color": "#D1ACFE",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Data type",
@@ -666,7 +1443,6 @@
     "color": "#01400B",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Device type",
@@ -677,7 +1453,6 @@
     "color": "#DB9D72",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Difference measure",
@@ -688,7 +1463,6 @@
     "color": "#00B7E0",
     "description": "Structured information on a disease.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -701,7 +1475,6 @@
     "color": "#DA9894",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -714,7 +1487,6 @@
     "color": "#636A01",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Educational level",
@@ -725,7 +1497,6 @@
     "color": "#A9795C",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Electrical stimulus type",
@@ -736,7 +1507,6 @@
     "color": "#4A1930",
     "description": "Structured information on the ethics assessment of a dataset.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -749,7 +1519,6 @@
     "color": "#7F8427",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -761,7 +1530,6 @@
     "color": "#286154",
     "description": "Structured information on the grouping mechanism of a file bundle.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -774,7 +1542,6 @@
     "color": "#D369B4",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -786,7 +1553,6 @@
     "color": "#549E79",
     "description": "Structured information on the usage role of a file instance or bundle.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -799,7 +1565,6 @@
     "color": "#FFA0F2",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Genetic strain type",
@@ -820,7 +1585,6 @@
     "color": "#979440",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Gustatory stimulus type",
@@ -831,7 +1595,6 @@
     "color": "#B90076",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -843,7 +1606,6 @@
     "color": "#6B6466",
     "description": "Structured information on the available language setting.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -856,7 +1618,6 @@
     "color": "#A24E3D",
     "description": "Structured information on the lateral direction.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -869,7 +1630,6 @@
     "color": "#372B2E",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Learning resource type",
@@ -879,9 +1639,7 @@
   "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence": {
     "color": null,
     "description": null,
-    "isPartOfVersion": [
-      "latest"
-    ],
+    "isPartOfVersion": [],
     "label": "Mripulse sequence",
     "name": "MRIPulseSequence",
     "semanticEquivalent": []
@@ -889,9 +1647,7 @@
   "https://openminds.ebrains.eu/controlledTerms/MRIWeighting": {
     "color": null,
     "description": null,
-    "isPartOfVersion": [
-      "latest"
-    ],
+    "isPartOfVersion": [],
     "label": "Mriweighting",
     "name": "MRIWeighting",
     "semanticEquivalent": []
@@ -900,7 +1656,6 @@
     "color": "#2C5742",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Measured quantity",
@@ -911,7 +1666,6 @@
     "color": null,
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Measured signal type",
@@ -922,7 +1676,6 @@
     "color": "#A55B54",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -945,7 +1698,6 @@
     "color": "#0086ED",
     "description": "Structured information on abstraction level of the computational model.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -958,7 +1710,6 @@
     "color": "#B3C2BE",
     "description": "Structured information on the scope of the computational model.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -971,7 +1722,6 @@
     "color": "#617D9F",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Molecular entity",
@@ -982,7 +1732,6 @@
     "color": "#DA71FF",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Olfactory stimulus type",
@@ -993,7 +1742,6 @@
     "color": "#688151",
     "description": "Structured information on the operating device.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -1006,7 +1754,6 @@
     "color": "#C9B1A9",
     "description": "Structured information on the operating system.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -1019,7 +1766,6 @@
     "color": "#6D3800",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Optical stimulus type",
@@ -1030,7 +1776,6 @@
     "color": "#71BB8C",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -1043,7 +1788,6 @@
     "color": "#3A2465",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Organism substance",
@@ -1054,7 +1798,6 @@
     "color": "#222800",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Organism system",
@@ -1065,7 +1808,6 @@
     "color": "#63FFAC",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Patch clamp variation",
@@ -1087,7 +1829,6 @@
     "color": "#966716",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -1100,7 +1841,6 @@
     "color": "#EDE6E2",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -1112,7 +1852,6 @@
     "color": "#3A3F00",
     "description": "Structured information on the programming language.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -1125,7 +1864,6 @@
     "color": "#D16CDA",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -1138,7 +1876,6 @@
     "color": "#0000A6",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -1150,7 +1887,6 @@
     "color": "#528500",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Service",
@@ -1161,7 +1897,6 @@
     "color": "#BEC459",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Setup type",
@@ -1172,7 +1907,6 @@
     "color": "#FF9E6B",
     "description": "Structured information on the category of the software application.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -1185,7 +1919,6 @@
     "color": "#7A5C54",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -1208,7 +1941,6 @@
     "color": "#320033",
     "description": "Structured information on the species.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -1221,7 +1953,6 @@
     "color": "#C7C890",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Stimulation approach",
@@ -1232,7 +1963,6 @@
     "color": "#985975",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Stimulation technique",
@@ -1264,7 +1994,6 @@
     "color": "#4E4452",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Subcellular entity",
@@ -1275,7 +2004,6 @@
     "color": "#962B75",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Subject attribute",
@@ -1286,7 +2014,6 @@
     "color": "#EA1CA9",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Tactile stimulus type",
@@ -1297,7 +2024,6 @@
     "color": "#6367A9",
     "description": "Structured information on the technique.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -1310,7 +2036,6 @@
     "color": "#CD7DAE",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -1323,7 +2048,6 @@
     "color": "#372D00",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -1335,7 +2059,6 @@
     "color": "#AFFFD1",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Tissue sample attribute",
@@ -1346,7 +2069,6 @@
     "color": "#0AA3F7",
     "description": "Structured information on the general type of the tissue sample.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -1359,7 +2081,6 @@
     "color": "#7E9285",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -1371,7 +2092,6 @@
     "color": "#DA8386",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -1383,7 +2103,6 @@
     "color": "#51A058",
     "description": "Structured information on the unit of measurement.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -1396,7 +2115,6 @@
     "color": "#410601",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Visual stimulus type",

@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/SetupType",
-  "color": "#BEC459",
-  "label": "Setup type",
-  "name": "SetupType",
+  "_type": "controlledTerms:SetupType",
+  "label": "Controlled terms:setup type",
+  "name": "controlledTerms:SetupType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

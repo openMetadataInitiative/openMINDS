@@ -2,11 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/OperatingDevice",
-  "color": "#688151",
-  "description": "Structured information on the operating device.",
-  "label": "Operating device",
-  "name": "OperatingDevice",
+  "_type": "controlledTerms:OperatingDevice",
+  "label": "Controlled terms:operating device",
+  "name": "controlledTerms:OperatingDevice",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

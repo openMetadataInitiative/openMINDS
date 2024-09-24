@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/AnatomicalIdentificationType",
-  "color": "#203B3C",
-  "label": "Anatomical identification type",
-  "name": "AnatomicalIdentificationType",
+  "_type": "controlledTerms:AnatomicalIdentificationType",
+  "label": "Controlled terms:anatomical identification type",
+  "name": "controlledTerms:AnatomicalIdentificationType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

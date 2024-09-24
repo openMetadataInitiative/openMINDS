@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
-  "color": "#2C5742",
-  "label": "Measured quantity",
-  "name": "MeasuredQuantity",
+  "_type": "controlledTerms:MeasuredQuantity",
+  "label": "Controlled terms:measured quantity",
+  "name": "controlledTerms:MeasuredQuantity",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

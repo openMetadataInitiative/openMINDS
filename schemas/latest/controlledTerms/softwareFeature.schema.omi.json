@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature",
-  "color": "#7A5C54",
-  "label": "Software feature",
-  "name": "SoftwareFeature",
+  "_type": "controlledTerms:SoftwareFeature",
+  "label": "Controlled terms:software feature",
+  "name": "controlledTerms:SoftwareFeature",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

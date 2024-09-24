@@ -4,10 +4,9 @@
     "keyword",
     "studyTarget"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/CellType",
-  "color": "#BC8A96",
-  "label": "Cell type",
-  "name": "CellType",
+  "_type": "controlledTerms:CellType",
+  "label": "Controlled terms:cell type",
+  "name": "controlledTerms:CellType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

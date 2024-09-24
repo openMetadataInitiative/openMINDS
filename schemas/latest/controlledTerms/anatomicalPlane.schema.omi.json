@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/AnatomicalPlane",
-  "color": "#9DEBDD",
-  "label": "Anatomical plane",
-  "name": "AnatomicalPlane",
+  "_type": "controlledTerms:AnatomicalPlane",
+  "label": "Controlled terms:anatomical plane",
+  "name": "controlledTerms:AnatomicalPlane",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

@@ -4,10 +4,9 @@
     "stimulusType",
     "studyTarget"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
-  "color": "#766E52",
-  "label": "Auditory stimulus type",
-  "name": "AuditoryStimulusType",
+  "_type": "controlledTerms:AuditoryStimulusType",
+  "label": "Controlled terms:auditory stimulus type",
+  "name": "controlledTerms:AuditoryStimulusType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",
