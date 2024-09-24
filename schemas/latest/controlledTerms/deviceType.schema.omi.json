@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/DeviceType",
-  "color": "#01400B",
-  "label": "Device type",
-  "name": "DeviceType",
+  "_type": "controlledTerms:DeviceType",
+  "label": "Controlled terms:device type",
+  "name": "controlledTerms:DeviceType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

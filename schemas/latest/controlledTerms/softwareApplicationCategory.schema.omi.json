@@ -2,11 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory",
-  "color": "#FF9E6B",
-  "description": "Structured information on the category of the software application.",
-  "label": "Software application category",
-  "name": "SoftwareApplicationCategory",
+  "_type": "controlledTerms:SoftwareApplicationCategory",
+  "label": "Controlled terms:software application category",
+  "name": "controlledTerms:SoftwareApplicationCategory",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

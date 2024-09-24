@@ -4,10 +4,9 @@
     "stimulusType",
     "studyTarget"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
-  "color": "#979440",
-  "label": "Gustatory stimulus type",
-  "name": "GustatoryStimulusType",
+  "_type": "controlledTerms:GustatoryStimulusType",
+  "label": "Controlled terms:gustatory stimulus type",
+  "name": "controlledTerms:GustatoryStimulusType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

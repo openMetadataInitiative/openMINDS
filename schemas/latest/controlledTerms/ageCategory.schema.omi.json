@@ -2,11 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/AgeCategory",
-  "color": "#AFCE78",
-  "description": "Structured information on the life cycle (semantic term) of a specific age group.",
-  "label": "Age category",
-  "name": "AgeCategory",
+  "_type": "controlledTerms:AgeCategory",
+  "label": "Controlled terms:age category",
+  "name": "controlledTerms:AgeCategory",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

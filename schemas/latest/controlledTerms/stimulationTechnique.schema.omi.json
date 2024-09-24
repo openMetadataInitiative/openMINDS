@@ -4,10 +4,9 @@
     "keyword",
     "technique"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
-  "color": "#985975",
-  "label": "Stimulation technique",
-  "name": "StimulationTechnique",
+  "_type": "controlledTerms:StimulationTechnique",
+  "label": "Controlled terms:stimulation technique",
+  "name": "controlledTerms:StimulationTechnique",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

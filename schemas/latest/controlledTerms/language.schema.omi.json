@@ -2,11 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/Language",
-  "color": "#6B6466",
-  "description": "Structured information on the available language setting.",
-  "label": "Language",
-  "name": "Language",
+  "_type": "controlledTerms:Language",
+  "label": "Controlled terms:language",
+  "name": "controlledTerms:Language",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

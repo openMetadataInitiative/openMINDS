@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/CranialWindowConstructionType",
-  "color": "#70EC98",
-  "label": "Cranial window construction type",
-  "name": "CranialWindowConstructionType",
+  "_type": "controlledTerms:CranialWindowConstructionType",
+  "label": "Controlled terms:cranial window construction type",
+  "name": "controlledTerms:CranialWindowConstructionType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

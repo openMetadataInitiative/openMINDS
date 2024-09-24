@@ -4,10 +4,9 @@
     "stimulusType",
     "studyTarget"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
-  "color": "#A9795C",
-  "label": "Electrical stimulus type",
-  "name": "ElectricalStimulusType",
+  "_type": "controlledTerms:ElectricalStimulusType",
+  "label": "Controlled terms:electrical stimulus type",
+  "name": "controlledTerms:ElectricalStimulusType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

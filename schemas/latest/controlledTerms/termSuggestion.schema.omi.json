@@ -3,15 +3,14 @@
     "keyword",
     "studyTarget"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
-  "color": "#CD7DAE",
-  "label": "Term suggestion",
-  "name": "TermSuggestion",
+  "_type": "controlledTerms:TermSuggestion",
+  "label": "Controlled terms:term suggestion",
+  "name": "controlledTerms:TermSuggestion",
   "properties": {
     "https://openminds.ebrains.eu/vocab/addExistingTerminology": {
       "_instruction": "Add an existing terminology in which the suggested term should be integrated in.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Terminology"
+        "controlledTerms:Terminology"
       ],
       "description": "Reference to an existing terminology (distinct class to group related terms).",
       "label": "Add existing terminology",

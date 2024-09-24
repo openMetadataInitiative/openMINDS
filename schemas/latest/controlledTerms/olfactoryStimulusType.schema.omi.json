@@ -4,10 +4,9 @@
     "stimulusType",
     "studyTarget"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
-  "color": "#DA71FF",
-  "label": "Olfactory stimulus type",
-  "name": "OlfactoryStimulusType",
+  "_type": "controlledTerms:OlfactoryStimulusType",
+  "label": "Controlled terms:olfactory stimulus type",
+  "name": "controlledTerms:OlfactoryStimulusType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

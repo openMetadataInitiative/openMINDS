@@ -3,10 +3,9 @@
     "keyword",
     "studyTarget"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/MolecularEntity",
-  "color": "#617D9F",
-  "label": "Molecular entity",
-  "name": "MolecularEntity",
+  "_type": "controlledTerms:MolecularEntity",
+  "label": "Controlled terms:molecular entity",
+  "name": "controlledTerms:MolecularEntity",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

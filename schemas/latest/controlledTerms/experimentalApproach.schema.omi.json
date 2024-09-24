@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach",
-  "color": "#7F8427",
-  "label": "Experimental approach",
-  "name": "ExperimentalApproach",
+  "_type": "controlledTerms:ExperimentalApproach",
+  "label": "Controlled terms:experimental approach",
+  "name": "controlledTerms:ExperimentalApproach",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

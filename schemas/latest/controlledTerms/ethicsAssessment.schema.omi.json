@@ -2,11 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment",
-  "color": "#4A1930",
-  "description": "Structured information on the ethics assessment of a dataset.",
-  "label": "Ethics assessment",
-  "name": "EthicsAssessment",
+  "_type": "controlledTerms:EthicsAssessment",
+  "label": "Controlled terms:ethics assessment",
+  "name": "controlledTerms:EthicsAssessment",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

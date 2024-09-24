@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/TissueSampleAttribute",
-  "color": "#AFFFD1",
-  "label": "Tissue sample attribute",
-  "name": "TissueSampleAttribute",
+  "_type": "controlledTerms:TissueSampleAttribute",
+  "label": "Controlled terms:tissue sample attribute",
+  "name": "controlledTerms:TissueSampleAttribute",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

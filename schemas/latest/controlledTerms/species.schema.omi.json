@@ -3,11 +3,9 @@
     "keyword",
     "studyTarget"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/Species",
-  "color": "#320033",
-  "description": "Structured information on the species.",
-  "label": "Species",
-  "name": "Species",
+  "_type": "controlledTerms:Species",
+  "label": "Controlled terms:species",
+  "name": "controlledTerms:Species",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

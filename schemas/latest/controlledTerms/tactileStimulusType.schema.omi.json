@@ -4,10 +4,9 @@
     "stimulusType",
     "studyTarget"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
-  "color": "#EA1CA9",
-  "label": "Tactile stimulus type",
-  "name": "TactileStimulusType",
+  "_type": "controlledTerms:TactileStimulusType",
+  "label": "Controlled terms:tactile stimulus type",
+  "name": "controlledTerms:TactileStimulusType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

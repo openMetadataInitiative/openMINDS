@@ -3,10 +3,9 @@
     "keyword",
     "studyTarget"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/CellCultureType",
-  "color": "#61615A",
-  "label": "Cell culture type",
-  "name": "CellCultureType",
+  "_type": "controlledTerms:CellCultureType",
+  "label": "Controlled terms:cell culture type",
+  "name": "controlledTerms:CellCultureType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

@@ -2,11 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/Laterality",
-  "color": "#A24E3D",
-  "description": "Structured information on the lateral direction.",
-  "label": "Laterality",
-  "name": "Laterality",
+  "_type": "controlledTerms:Laterality",
+  "label": "Controlled terms:laterality",
+  "name": "controlledTerms:Laterality",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

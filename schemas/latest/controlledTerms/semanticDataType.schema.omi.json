@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/SemanticDataType",
-  "color": "#0000A6",
-  "label": "Semantic data type",
-  "name": "SemanticDataType",
+  "_type": "controlledTerms:SemanticDataType",
+  "label": "Controlled terms:semantic data type",
+  "name": "controlledTerms:SemanticDataType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

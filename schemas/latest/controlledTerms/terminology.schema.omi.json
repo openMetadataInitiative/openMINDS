@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/Terminology",
-  "color": "#372D00",
-  "label": "Terminology",
-  "name": "Terminology",
+  "_type": "controlledTerms:Terminology",
+  "label": "Controlled terms:terminology",
+  "name": "controlledTerms:Terminology",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

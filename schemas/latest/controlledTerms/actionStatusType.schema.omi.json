@@ -2,11 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/ActionStatusType",
-  "color": "#E6ECDC",
-  "description": "Structured information about the status of an action.",
-  "label": "Action status type",
-  "name": "ActionStatusType",
+  "_type": "controlledTerms:ActionStatusType",
+  "label": "Controlled terms:action status type",
+  "name": "controlledTerms:ActionStatusType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

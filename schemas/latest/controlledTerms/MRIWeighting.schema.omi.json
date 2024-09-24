@@ -4,9 +4,9 @@
     "keyword",
     "technique"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
-  "label": "Mriweighting",
-  "name": "MRIWeighting",
+  "_type": "controlledTerms:MRIWeighting",
+  "label": "Controlled terms:mriweighting",
+  "name": "controlledTerms:MRIWeighting",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

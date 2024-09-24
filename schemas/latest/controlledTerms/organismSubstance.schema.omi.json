@@ -4,10 +4,9 @@
     "keyword",
     "studyTarget"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
-  "color": "#3A2465",
-  "label": "Organism substance",
-  "name": "OrganismSubstance",
+  "_type": "controlledTerms:OrganismSubstance",
+  "label": "Controlled terms:organism substance",
+  "name": "controlledTerms:OrganismSubstance",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/AnnotationType",
-  "color": "#EAE408",
-  "label": "Annotation type",
-  "name": "AnnotationType",
+  "_type": "controlledTerms:AnnotationType",
+  "label": "Controlled terms:annotation type",
+  "name": "controlledTerms:AnnotationType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

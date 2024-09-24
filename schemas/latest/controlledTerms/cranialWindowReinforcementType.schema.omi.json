@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/CranialWindowReinforcementType",
-  "color": "#6C6D74",
-  "label": "Cranial window reinforcement type",
-  "name": "CranialWindowReinforcementType",
+  "_type": "controlledTerms:CranialWindowReinforcementType",
+  "label": "Controlled terms:cranial window reinforcement type",
+  "name": "controlledTerms:CranialWindowReinforcementType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

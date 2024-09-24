@@ -42,7 +42,7 @@
     "https://openminds.ebrains.eu/vocab/preferredDisplayColor": {
       "_instruction": "Add the preferred color that a viewer should display.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Colormap",
+        "controlledTerms:Colormap",
         "sands:SingleColor"
       ],
       "label": "Preferred display color",

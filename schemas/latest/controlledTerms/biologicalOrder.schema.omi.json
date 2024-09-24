@@ -3,10 +3,9 @@
     "keyword",
     "studyTarget"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/BiologicalOrder",
-  "color": "#69255C",
-  "label": "Biological order",
-  "name": "BiologicalOrder",
+  "_type": "controlledTerms:BiologicalOrder",
+  "label": "Controlled terms:biological order",
+  "name": "controlledTerms:BiologicalOrder",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/PreparationType",
-  "color": "#966716",
-  "label": "Preparation type",
-  "name": "PreparationType",
+  "_type": "controlledTerms:PreparationType",
+  "label": "Controlled terms:preparation type",
+  "name": "controlledTerms:PreparationType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

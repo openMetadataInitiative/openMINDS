@@ -2,11 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement",
-  "color": "#51A058",
-  "description": "Structured information on the unit of measurement.",
-  "label": "Unit of measurement",
-  "name": "UnitOfMeasurement",
+  "_type": "controlledTerms:UnitOfMeasurement",
+  "label": "Controlled terms:unit of measurement",
+  "name": "controlledTerms:UnitOfMeasurement",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

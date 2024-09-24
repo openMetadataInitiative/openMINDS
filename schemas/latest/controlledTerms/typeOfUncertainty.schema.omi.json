@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty",
-  "color": "#7E9285",
-  "label": "Type of uncertainty",
-  "name": "TypeOfUncertainty",
+  "_type": "controlledTerms:TypeOfUncertainty",
+  "label": "Controlled terms:type of uncertainty",
+  "name": "controlledTerms:TypeOfUncertainty",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

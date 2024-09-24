@@ -4,10 +4,9 @@
     "keyword",
     "technique"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
-  "color": "#C7C890",
-  "label": "Stimulation approach",
-  "name": "StimulationApproach",
+  "_type": "controlledTerms:StimulationApproach",
+  "label": "Controlled terms:stimulation approach",
+  "name": "controlledTerms:StimulationApproach",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

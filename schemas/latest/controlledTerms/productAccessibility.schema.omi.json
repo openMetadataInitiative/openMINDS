@@ -2,10 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility",
-  "color": "#EDE6E2",
-  "label": "Product accessibility",
-  "name": "ProductAccessibility",
+  "_type": "controlledTerms:ProductAccessibility",
+  "label": "Controlled terms:product accessibility",
+  "name": "controlledTerms:ProductAccessibility",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",

@@ -2,11 +2,9 @@
   "_categories": [
     "keyword"
   ],
-  "_type": "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage",
-  "color": "#3A3F00",
-  "description": "Structured information on the programming language.",
-  "label": "Programming language",
-  "name": "ProgrammingLanguage",
+  "_type": "controlledTerms:ProgrammingLanguage",
+  "label": "Controlled terms:programming language",
+  "name": "controlledTerms:ProgrammingLanguage",
   "properties": {
     "https://openminds.ebrains.eu/vocab/definition": {
       "_instruction": "Enter one sentence for defining this term.",
