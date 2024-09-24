@@ -1,9 +1,48 @@
 {
+  "chemicals:AmountOfChemical": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Chemicals:amount of chemical",
+    "name": "chemicals:AmountOfChemical",
+    "semanticEquivalent": []
+  },
+  "chemicals:ChemicalMixture": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Chemicals:chemical mixture",
+    "name": "chemicals:ChemicalMixture",
+    "semanticEquivalent": []
+  },
+  "chemicals:ChemicalSubstance": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Chemicals:chemical substance",
+    "name": "chemicals:ChemicalSubstance",
+    "semanticEquivalent": []
+  },
+  "chemicals:ProductSource": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Chemicals:product source",
+    "name": "chemicals:ProductSource",
+    "semanticEquivalent": []
+  },
   "https://openminds.ebrains.eu/chemicals/AmountOfChemical": {
     "color": "#561A02",
     "description": "Structured information about the amount of a given chemical that was used.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Amount of chemical",
@@ -14,7 +53,6 @@
     "color": "#887868",
     "description": "Structured information about a mixture of chemical substances.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Chemical mixture",
@@ -25,7 +63,6 @@
     "color": "#685D75",
     "description": "Structured information about a chemical substance.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Chemical substance",
@@ -36,7 +73,6 @@
     "color": "#EB9A8B",
     "description": "Structured information about the source of a chemical substance or mixture.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Product source",

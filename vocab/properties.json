@@ -392,8 +392,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
-        "https://openminds.ebrains.eu/chemicals/ChemicalSubstance",
+        "chemicals:ChemicalMixture",
+        "chemicals:ChemicalSubstance",
         "https://openminds.ebrains.eu/core/Measurement",
         "https://openminds.ebrains.eu/core/SubjectGroup",
         "https://openminds.ebrains.eu/core/SubjectGroupState",
@@ -658,7 +658,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:QuantitativeValue"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue"
@@ -674,7 +674,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/chemicals/AmountOfChemical"
+        "chemicals:AmountOfChemical"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/chemicals/AmountOfChemical"
@@ -1584,9 +1584,9 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
-          "https://openminds.ebrains.eu/chemicals/ChemicalSubstance",
-          "https://openminds.ebrains.eu/controlledTerms/MolecularEntity"
+          "chemicals:ChemicalMixture",
+          "chemicals:ChemicalSubstance",
+          "controlledTerms:MolecularEntity"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
@@ -1604,7 +1604,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/chemicals/AmountOfChemical"
+        "chemicals:AmountOfChemical"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/chemicals/AmountOfChemical"
@@ -3936,6 +3936,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "core:RRID",
           "https://openminds.ebrains.eu/core/DOI",
           "https://openminds.ebrains.eu/core/GRIDID",
           "https://openminds.ebrains.eu/core/ISBN",
@@ -3978,7 +3979,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/chemicals/ProductSource",
+        "chemicals:ProductSource",
         "https://openminds.ebrains.eu/computation/ValidationTest",
         "https://openminds.ebrains.eu/computation/ValidationTestVersion",
         "https://openminds.ebrains.eu/computation/WorkflowRecipe",
@@ -5735,7 +5736,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/chemicals/AmountOfChemical",
+          "chemicals:AmountOfChemical",
           "https://openminds.ebrains.eu/computation/ValidationTest",
           "https://openminds.ebrains.eu/computation/ValidationTestVersion",
           "https://openminds.ebrains.eu/computation/WorkflowRecipe",
@@ -5805,7 +5806,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
+        "chemicals:ChemicalMixture",
         "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/Project",
         "https://openminds.ebrains.eu/core/ResearchProductGroup",
@@ -6413,7 +6414,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/chemicals/ProductSource",
+        "chemicals:ProductSource",
         "https://openminds.ebrains.eu/core/DOI",
         "https://openminds.ebrains.eu/core/GRIDID",
         "https://openminds.ebrains.eu/core/HANDLE",
@@ -8271,7 +8272,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/chemicals/ChemicalSubstance",
+        "chemicals:ChemicalSubstance",
         "https://openminds.ebrains.eu/computation/DataAnalysis",
         "https://openminds.ebrains.eu/computation/DataCopy",
         "https://openminds.ebrains.eu/computation/GenericComputation",
@@ -8756,7 +8757,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/MolecularEntity"
+          "controlledTerms:MolecularEntity"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/MolecularEntity"
@@ -8772,7 +8773,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/chemicals/ChemicalSubstance"
+        "chemicals:ChemicalSubstance"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/chemicals/ChemicalSubstance"
@@ -8798,7 +8799,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
+        "chemicals:ChemicalMixture",
         "https://openminds.ebrains.eu/computation/Environment",
         "https://openminds.ebrains.eu/computation/HardwareSystem",
         "https://openminds.ebrains.eu/computation/LaunchConfiguration",
@@ -10629,7 +10630,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/chemicals/ProductSource"
+        "chemicals:ProductSource"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/chemicals/ProductSource"
@@ -10640,7 +10641,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/chemicals/ProductSource"
+          "chemicals:ProductSource"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/chemicals/ProductSource"
@@ -10656,8 +10657,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
-        "https://openminds.ebrains.eu/chemicals/ChemicalSubstance"
+        "chemicals:ChemicalMixture",
+        "chemicals:ChemicalSubstance"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
@@ -10833,7 +10834,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/chemicals/ProductSource"
+        "chemicals:ProductSource"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/chemicals/ProductSource"
@@ -10911,8 +10912,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+          "core:QuantitativeValue",
+          "core:QuantitativeValueRange"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue",
@@ -10929,8 +10930,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/chemicals/ChemicalSubstance",
-        "https://openminds.ebrains.eu/chemicals/ProductSource"
+        "chemicals:ChemicalSubstance",
+        "chemicals:ProductSource"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/chemicals/ChemicalSubstance",
@@ -14029,9 +14030,9 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "controlledTerms:ChemicalMixtureType",
           "https://openminds.ebrains.eu/controlledTerms/AnnotationType",
           "https://openminds.ebrains.eu/controlledTerms/AtlasType",
-          "https://openminds.ebrains.eu/controlledTerms/ChemicalMixtureType",
           "https://openminds.ebrains.eu/controlledTerms/ContributionType",
           "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
           "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType",
@@ -14082,7 +14083,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
+        "chemicals:ChemicalMixture",
         "https://openminds.ebrains.eu/core/Contribution",
         "https://openminds.ebrains.eu/core/FileRepository",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",

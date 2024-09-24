@@ -1,9 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/chemicals/ChemicalSubstance",
-  "color": "#685D75",
-  "description": "Structured information about a chemical substance.",
-  "label": "Chemical substance",
-  "name": "ChemicalSubstance",
+  "_type": "chemicals:ChemicalSubstance",
+  "label": "Chemicals:chemical substance",
+  "name": "chemicals:ChemicalSubstance",
   "properties": {
     "https://openminds.ebrains.eu/vocab/additionalRemarks": {
       "_instruction": "Enter any additional remarks concerning this chemical substance.",
@@ -29,7 +27,7 @@
     "https://openminds.ebrains.eu/vocab/molecularEntity": {
       "_instruction": "Add the molecular entity that makes up this chemical substance.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity"
+        "controlledTerms:MolecularEntity"
       ],
       "label": "Molecular entity",
       "labelPlural": "Molecular entities",
@@ -40,7 +38,7 @@
     "https://openminds.ebrains.eu/vocab/productSource": {
       "_instruction": "Add the source of this chemical substance.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/chemicals/ProductSource"
+        "chemicals:ProductSource"
       ],
       "label": "Product source",
       "labelPlural": "Product sources",
@@ -50,8 +48,8 @@
     },
     "https://openminds.ebrains.eu/vocab/purity": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue",
-        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+        "core:QuantitativeValue",
+        "core:QuantitativeValueRange"
       ],
       "_instruction": "Enter the purity of this chemical substance.",
       "label": "Purity",
