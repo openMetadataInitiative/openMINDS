@@ -41,7 +41,8 @@
     "https://openminds.ebrains.eu/vocab/funder": {
       "_instruction": "Add the organization that provided this funding.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Organization"
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
       ],
       "description": "Legal person that provides money for a particular purpose.",
       "label": "Funder",

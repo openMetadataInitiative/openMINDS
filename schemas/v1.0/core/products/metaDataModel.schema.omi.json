@@ -4,8 +4,24 @@
   "label": "Meta data model",
   "name": "MetaDataModel",
   "properties": {
+    "https://openminds.ebrains.eu/vocab/custodian": {
+      "_instruction": "Add one or several custodians (person or organization) that are responsible for this research product. Note that this custodian will be responsible for all attached research product versions.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "description": "The 'custodian' is a legal person who is responsible for the content and quality of the data, metadata, and/or code of a research product.",
+      "label": "Custodian",
+      "labelPlural": "Custodians",
+      "minItems": 1,
+      "name": "custodian",
+      "nameForReverseLink": null,
+      "namePlural": "custodians",
+      "type": "array",
+      "uniqueItems": true
+    },
     "https://openminds.ebrains.eu/vocab/description": {
-      "_instruction": "Enter a description (abstract) for this research product (max. 2000 characters, incl. spaces; no references).",
+      "_instruction": "Enter a description (abstract) for this research product (max. 2000 characters, incl. spaces; no references). Note that this description should be fitting for all attached research product versions.",
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
@@ -16,10 +32,27 @@
       "namePlural": "descriptions",
       "type": "string"
     },
-    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
-      "_instruction": "Add the globally unique and persistent digital identifier of this research product.",
+    "https://openminds.ebrains.eu/vocab/developer": {
+      "_instruction": "Add one or several developers (person or organization) that contributed to the code implementation of this software.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "description": "Legal person that creates or improves products or services (e.g., software, applications, etc.).",
+      "label": "Developer",
+      "labelPlural": "Developers",
+      "minItems": 1,
+      "name": "developer",
+      "nameForReverseLink": null,
+      "namePlural": "developers",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/SWHID"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -29,7 +62,7 @@
       "namePlural": "digitalIdentifiers"
     },
     "https://openminds.ebrains.eu/vocab/fullName": {
-      "_instruction": "Enter a descriptive full name (title) for this research product.",
+      "_instruction": "Enter a descriptive full name (title) for this research product.  Note that this full name should be fitting for all attached research product versions.",
       "description": "Whole, non-abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Full name",
@@ -55,15 +88,26 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/homepage": {
-      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product.",
+      "_instruction": "Add the uniform resource locator (URL) to the homepage of this research product.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/URL"
+      ],
       "description": "Main website of something or someone.",
-      "format": "iri",
-      "formatting": "text/plain",
       "label": "Homepage",
       "labelPlural": "Homepages",
-      "multiline": false,
       "name": "homepage",
-      "namePlural": "homepages",
+      "nameForReverseLink": null,
+      "namePlural": "homepages"
+    },
+    "https://openminds.ebrains.eu/vocab/howToCite": {
+      "_instruction": "Enter the preferred citation text for this research product. Leave blank if citation text can be extracted from the assigned digital identifier.",
+      "description": "Preferred format for citing a particular object or legal person.",
+      "formatting": "text/markdown",
+      "label": "How to cite",
+      "labelPlural": "How to cite",
+      "multiline": true,
+      "name": "howToCite",
+      "namePlural": "howToCite",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/shortName": {
@@ -81,8 +125,9 @@
   },
   "required": [
     "https://openminds.ebrains.eu/vocab/description",
-    "https://openminds.ebrains.eu/vocab/digitalIdentifier",
+    "https://openminds.ebrains.eu/vocab/developer",
     "https://openminds.ebrains.eu/vocab/fullName",
+    "https://openminds.ebrains.eu/vocab/hasVersion",
     "https://openminds.ebrains.eu/vocab/shortName"
   ]
 }

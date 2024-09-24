@@ -5,10 +5,10 @@
   "name": "ElectrodeContact",
   "properties": {
     "https://openminds.ebrains.eu/vocab/coordinatePoint": {
-      "_instruction": "Add the central coordinate of this electrode contact.",
-      "_linkedTypes": [
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/sands/CoordinatePoint"
       ],
+      "_instruction": "Add the central coordinate of this electrode contact.",
       "description": "Pair or triplet of numbers defining the position in a particular two- or three dimensional plane or space.",
       "label": "Coordinate point",
       "labelPlural": "Coordinate points",
@@ -19,7 +19,7 @@
     "https://openminds.ebrains.eu/vocab/definedIn": {
       "_instruction": "Add one or several files in which the electrode contact is defined in.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileInstance"
+        "https://openminds.ebrains.eu/core/File"
       ],
       "description": "Reference to a file instance in which something is stored.",
       "label": "Defined in",
@@ -45,7 +45,8 @@
     "https://openminds.ebrains.eu/vocab/relatedRecording": {
       "_instruction": "Add one or several files in which the recordings from this electrode contact were stored.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileInstance"
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/FileBundle"
       ],
       "description": "Reference to the written, stored evidence of something.",
       "label": "Related recording",
@@ -60,7 +61,8 @@
     "https://openminds.ebrains.eu/vocab/relatedStimulation": {
       "_instruction": "Add one or several files in which the stimulations applied via this electrode contact were stored.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileInstance"
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/FileBundle"
       ],
       "description": "Reference to the written, stored function used as a physiological stimulus.",
       "label": "Related stimulation",

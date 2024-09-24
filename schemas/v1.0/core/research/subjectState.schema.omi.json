@@ -1,4 +1,7 @@
 {
+  "_categories": [
+    "fileOrigin"
+  ],
   "_type": "https://openminds.ebrains.eu/core/SubjectState",
   "color": "#555558",
   "description": "Structured information on a temporary state of a subject.",
@@ -44,7 +47,7 @@
     "https://openminds.ebrains.eu/vocab/handedness": {
       "_instruction": "Add the preferred hand of the subject in this state.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Laterality"
+        "https://openminds.ebrains.eu/controlledTerms/Handedness"
       ],
       "description": "Degree to which an organism prefers one hand or foot over the other hand or foot during the performance of a task.",
       "label": "Handedness",
@@ -52,6 +55,16 @@
       "name": "handedness",
       "nameForReverseLink": null,
       "namePlural": "handedness"
+    },
+    "https://openminds.ebrains.eu/vocab/lookupLabel": {
+      "_instruction": "Enter a lookup label for this specimen (set) state that may help you to more easily find it again.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "labelPlural": "Lookup labels",
+      "multiline": false,
+      "name": "lookupLabel",
+      "namePlural": "lookupLabels",
+      "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/pathology": {
       "_instruction": "Add the pathology of the specimen (set) in this state.",
