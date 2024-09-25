@@ -10,7 +10,7 @@ from git import Repo, Git
 from packaging.utils import canonicalize_version
 from packaging.version import Version
 
-from openMINDS_pipeline.constants import SCHEMA_FILE_ENDING, OPENMINDS_VOCAB
+from openMINDS_pipeline.constants import SCHEMA_FILE_ENDING
 from openMINDS_pipeline.models import Trigger, OpenMINDSModule, DirectoryStructure, SchemaStructure
 from openMINDS_pipeline.resolver import TEMPLATE_PROPERTY_TYPE
 
@@ -47,7 +47,7 @@ def get_basic_type(property_definition:dict) -> Optional[str]:
     return basic_type
 
 
-def evaluate_versions_to_be_built(version_config: str, trigger:Optional[Trigger]) -> Dict[str, Dict[str, OpenMINDSModule]]:
+def evaluate_versions_to_be_built(version_config: str, trigger:Optional[Trigger]) -> (Dict[str, Dict[str, OpenMINDSModule]], Dict[str, str]):
     """
     :return: the dictionary describing all versions supposed to be built either because of a change or because of a build of everything.
     """
@@ -65,22 +65,29 @@ def evaluate_versions_to_be_built(version_config: str, trigger:Optional[Trigger]
     if os.path.exists("pipeline"):
         shutil.rmtree("pipeline")
     relevant_versions = {}
-    for version, modules in versions.items():
+    namespaces = {}
+
+    for version, bundle in versions.items():
         triggering_module = None
         is_dynamic = False
         new_modules = {}
-        for module, module_spec in modules.items():
-            m = OpenMINDSModule(**module_spec)
-            if not m.commit:
-                is_dynamic = True
-                _evaluate_branch_and_commit_for_dynamic_instances(m)
-            if trigger and m.repository and m.repository.endswith(f"{trigger.repository}.git"):
-                triggering_module = m
-            new_modules[module] = m
+
+        for entry, entry_spec in bundle.items():
+            if entry == "namespaces":
+                namespaces[version] = bundle.get("namespaces", {})
+            if entry == "modules":
+                for module_name, module_spec in bundle[entry].items():
+                    m = OpenMINDSModule(**module_spec)
+                    if not m.commit:
+                        is_dynamic = True
+                        _evaluate_branch_and_commit_for_dynamic_instances(m)
+                    if trigger and m.repository and m.repository.endswith(f"{trigger.repository}.git"):
+                        triggering_module = m
+                    new_modules[module_name] = m
         # The version is only relevant if the process was not launched by a submodule change (so everything is built) or if the triggering module is specified with the given branch
         if not trigger or (is_dynamic and triggering_module and triggering_module.branch and triggering_module.branch == trigger.branch):
             relevant_versions[version] = new_modules
-    return relevant_versions
+    return relevant_versions, namespaces
 
 
 def _evaluate_branch_and_commit_for_dynamic_instances(module_spec:OpenMINDSModule):
@@ -102,7 +109,7 @@ def _evaluate_branch_and_commit_for_dynamic_instances(module_spec:OpenMINDSModul
     module_spec.commit = branch_to_commit[module_spec.branch]
 
 
-def find_schemas(directory_structure: DirectoryStructure, modules: Dict[str, OpenMINDSModule]) -> List[SchemaStructure]:
+def find_schemas(directory_structure: DirectoryStructure, modules: Dict[str, OpenMINDSModule], namespaces: Dict[str, str]) -> List[SchemaStructure]:
     schema_information = []
     for schema_group in directory_structure.find_resource_directories(file_ending=SCHEMA_FILE_ENDING):
         schema_group = schema_group.split("/")[0]
@@ -116,7 +123,9 @@ def find_schemas(directory_structure: DirectoryStructure, modules: Dict[str, Ope
                     with open(schema_path, "r") as schema_file:
                         schema = json.load(schema_file)
                     if TEMPLATE_PROPERTY_TYPE in schema:
-                        schema_information.append(SchemaStructure(schema[TEMPLATE_PROPERTY_TYPE], schema_group, version, relative_schema_path))
+                        # remove namespace, will be rebuilt in resolve_extends and resolve_categories
+                        schema[TEMPLATE_PROPERTY_TYPE] = schema[TEMPLATE_PROPERTY_TYPE].split(":")[-1].split("/")[-1]
+                        schema_information.append(SchemaStructure(schema[TEMPLATE_PROPERTY_TYPE], schema_group, version, relative_schema_path, namespaces))
                     else:
                         print(f"Skipping schema {relative_schema_path} because it doesn't contain a valid type")
                 except JSONDecodeError:
@@ -133,12 +142,11 @@ def qualify_property_names(schemas:List[SchemaStructure]):
         if "properties" in schema_payload:
             new_properties = {}
             for p, v in schema_payload["properties"].items():
-                new_properties[f"{OPENMINDS_VOCAB}{p}"] = v
+                new_properties[f"{schema.namespaces['props']}{p}"] = v
             schema_payload["properties"] = new_properties
         if "required" in schema_payload:
-            schema_payload["required"] = [f"{OPENMINDS_VOCAB}{p}" for p in schema_payload["required"]]
+            schema_payload["required"] = [f"{schema.namespaces['props']}{p}" for p in schema_payload["required"]]
             schema_payload["required"].sort()
-
         with open(schema.absolute_path, "w") as target_file:
             target_file.write(json.dumps(schema_payload, indent=2, sort_keys=True))
 
