@@ -21,11 +21,12 @@ class Trigger:
 
 
 class SchemaStructure:
-    def __init__(self, type, schema_group, version, file):
+    def __init__(self, type, schema_group, version, file, namespaces):
         self.type = type
         self.schema_group = schema_group
         self.file = file
         self.version = version
+        self.namespaces = namespaces
         self.categories = None
         self.absolute_path = None
 
@@ -75,7 +76,7 @@ class DirectoryStructure:
         resource_directories = set()
         for source in glob.glob(os.path.join(self.source_directory, f'**/*{file_ending}'), recursive=True):
             resource_dir = os.path.dirname(source)[len(self.source_directory) + 1:]
-            if ("target" not in resource_dir and "expanded" not in resource_dir):
+            if "target" not in resource_dir and "expanded" not in resource_dir:
                 path_split = resource_dir.split("/")
                 if len(path_split) == 1:
                     resource_directories.add(path_split[0])
