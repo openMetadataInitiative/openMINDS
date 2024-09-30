@@ -16,6 +16,18 @@
       "namePlural": "descriptions",
       "type": "string"
     },
+    "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this brain atlas.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers"
+    },
     "https://openminds.ebrains.eu/vocab/fullName": {
       "_instruction": "Enter a descriptive full name for this brain atlas.",
       "description": "Whole, non-abbreviated name of something or somebody.",
@@ -43,15 +55,28 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/homepage": {
+      "_formats": [
+        "iri"
+      ],
       "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this brain atlas.",
       "description": "Main website of something or someone.",
-      "format": "iri",
       "formatting": "text/plain",
       "label": "Homepage",
       "labelPlural": "Homepages",
       "multiline": false,
       "name": "homepage",
       "namePlural": "homepages",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/howToCite": {
+      "_instruction": "Enter the preferred citation text for this brain atlas. Leave blank if citation text can be extracted from the assigned digital identifier.",
+      "description": "Preferred format for citing a particular object or legal person.",
+      "formatting": "text/markdown",
+      "label": "How to cite",
+      "labelPlural": "How to cite",
+      "multiline": true,
+      "name": "howToCite",
+      "namePlural": "howToCite",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/shortName": {

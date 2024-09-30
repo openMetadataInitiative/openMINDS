@@ -20,7 +20,8 @@
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this brain atlas version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI"
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/ISBN"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -43,7 +44,7 @@
     "https://openminds.ebrains.eu/vocab/hasTerminology": {
       "_instruction": "Add the parcellation terminology for this brain atlas version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/parcellationTerminology"
+        "https://openminds.ebrains.eu/sands/ParcellationTerminology"
       ],
       "label": "Has terminology",
       "labelPlural": "Has terminologies",

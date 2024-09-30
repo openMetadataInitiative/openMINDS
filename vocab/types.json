@@ -1180,6 +1180,8 @@
     "color": "#E6ECDC",
     "description": "Structured information about the status of an action.",
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Action status type",
@@ -1202,6 +1204,8 @@
     "color": "#FF0020",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Analysis technique",
@@ -1224,6 +1228,8 @@
     "color": "#203B3C",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Anatomical identification type",
@@ -1234,6 +1240,8 @@
     "color": "#9DEBDD",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Anatomical plane",
@@ -1244,6 +1252,8 @@
     "color": "#1D1702",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Annotation criteria type",
@@ -1254,6 +1264,8 @@
     "color": "#EAE408",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Annotation type",
@@ -1264,6 +1276,8 @@
     "color": "#F3BDA4",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Atlas type",
@@ -1274,27 +1288,20 @@
     "color": "#766E52",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Auditory stimulus type",
     "name": "AuditoryStimulusType",
     "semanticEquivalent": []
   },
-  "https://openminds.ebrains.eu/controlledTerms/BehavioralTask": {
-    "color": null,
-    "description": "Structured information on the behavioral task that had to be performed by a subject.",
-    "isPartOfVersion": [
-      "v1.0",
-      "v2.0"
-    ],
-    "label": "Behavioral task",
-    "name": "BehavioralTask",
-    "semanticEquivalent": []
-  },
   "https://openminds.ebrains.eu/controlledTerms/BiologicalOrder": {
     "color": "#69255C",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Biological order",
@@ -1305,6 +1312,8 @@
     "color": null,
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Biological process",
@@ -1327,6 +1336,8 @@
     "color": "#AD6552",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Breeding type",
@@ -1337,6 +1348,8 @@
     "color": "#61615A",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Cell culture type",
@@ -1359,6 +1372,8 @@
     "color": "#363DFF",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Chemical mixture type",
@@ -1369,6 +1384,8 @@
     "color": "#067EAF",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Colormap",
@@ -1391,6 +1408,8 @@
     "color": "#70EC98",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Cranial window construction type",
@@ -1401,6 +1420,8 @@
     "color": "#6C6D74",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Cranial window reinforcement type",
@@ -1423,26 +1444,20 @@
     "color": "#D1ACFE",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Data type",
     "name": "DataType",
     "semanticEquivalent": []
   },
-  "https://openminds.ebrains.eu/controlledTerms/DatasetType": {
-    "color": null,
-    "description": "Structured information on the provided data type.",
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Dataset type",
-    "name": "DatasetType",
-    "semanticEquivalent": []
-  },
   "https://openminds.ebrains.eu/controlledTerms/DeviceType": {
     "color": "#01400B",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Device type",
@@ -1453,6 +1468,8 @@
     "color": "#DB9D72",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Difference measure",
@@ -1487,6 +1504,8 @@
     "color": "#636A01",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Educational level",
@@ -1497,6 +1516,8 @@
     "color": "#A9795C",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Electrical stimulus type",
@@ -1519,6 +1540,7 @@
     "color": "#7F8427",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
       "v2.0",
       "v3.0"
     ],
@@ -1542,6 +1564,7 @@
     "color": "#D369B4",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
       "v2.0",
       "v3.0"
     ],
@@ -1565,26 +1588,20 @@
     "color": "#FFA0F2",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Genetic strain type",
     "name": "GeneticStrainType",
     "semanticEquivalent": []
   },
-  "https://openminds.ebrains.eu/controlledTerms/Genotype": {
-    "color": null,
-    "description": "Structured information on the genotype of a subject.",
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Genotype",
-    "name": "Genotype",
-    "semanticEquivalent": []
-  },
   "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType": {
     "color": "#979440",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Gustatory stimulus type",
@@ -1595,6 +1612,7 @@
     "color": "#B90076",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
       "v2.0",
       "v3.0"
     ],
@@ -1630,6 +1648,8 @@
     "color": "#372B2E",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Learning resource type",
@@ -1639,7 +1659,11 @@
   "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence": {
     "color": null,
     "description": null,
-    "isPartOfVersion": [],
+    "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
+      "v3.0"
+    ],
     "label": "Mripulse sequence",
     "name": "MRIPulseSequence",
     "semanticEquivalent": []
@@ -1647,7 +1671,11 @@
   "https://openminds.ebrains.eu/controlledTerms/MRIWeighting": {
     "color": null,
     "description": null,
-    "isPartOfVersion": [],
+    "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
+      "v3.0"
+    ],
     "label": "Mriweighting",
     "name": "MRIWeighting",
     "semanticEquivalent": []
@@ -1656,6 +1684,8 @@
     "color": "#2C5742",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Measured quantity",
@@ -1666,6 +1696,8 @@
     "color": null,
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Measured signal type",
@@ -1682,16 +1714,6 @@
     ],
     "label": "Meta data model type",
     "name": "MetaDataModelType",
-    "semanticEquivalent": []
-  },
-  "https://openminds.ebrains.eu/controlledTerms/Modality": {
-    "color": null,
-    "description": "Structured information on the modality.",
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Modality",
-    "name": "Modality",
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel": {
@@ -1722,6 +1744,8 @@
     "color": "#617D9F",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Molecular entity",
@@ -1732,6 +1756,8 @@
     "color": "#DA71FF",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Olfactory stimulus type",
@@ -1766,6 +1792,8 @@
     "color": "#6D3800",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Optical stimulus type",
@@ -1788,6 +1816,8 @@
     "color": "#3A2465",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Organism substance",
@@ -1798,6 +1828,8 @@
     "color": "#222800",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Organism system",
@@ -1808,21 +1840,12 @@
     "color": "#63FFAC",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Patch clamp variation",
     "name": "PatchClampVariation",
-    "semanticEquivalent": []
-  },
-  "https://openminds.ebrains.eu/controlledTerms/Phenotype": {
-    "color": null,
-    "description": "Structured information on the phenotype of a subject.",
-    "isPartOfVersion": [
-      "v1.0",
-      "v2.0"
-    ],
-    "label": "Phenotype",
-    "name": "Phenotype",
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/PreparationType": {
@@ -1841,6 +1864,7 @@
     "color": "#EDE6E2",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
       "v2.0",
       "v3.0"
     ],
@@ -1876,6 +1900,7 @@
     "color": "#0000A6",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
       "v2.0",
       "v3.0"
     ],
@@ -1887,6 +1912,8 @@
     "color": "#528500",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Service",
@@ -1897,6 +1924,8 @@
     "color": "#BEC459",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Setup type",
@@ -1927,16 +1956,6 @@
     "name": "SoftwareFeature",
     "semanticEquivalent": []
   },
-  "https://openminds.ebrains.eu/controlledTerms/SoftwareFeatureCategory": {
-    "color": null,
-    "description": "Structured information on the category of the software feature.",
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Software feature category",
-    "name": "SoftwareFeatureCategory",
-    "semanticEquivalent": []
-  },
   "https://openminds.ebrains.eu/controlledTerms/Species": {
     "color": "#320033",
     "description": "Structured information on the species.",
@@ -1953,6 +1972,8 @@
     "color": "#C7C890",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Stimulation approach",
@@ -1963,37 +1984,20 @@
     "color": "#985975",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Stimulation technique",
     "name": "StimulationTechnique",
     "semanticEquivalent": []
   },
-  "https://openminds.ebrains.eu/controlledTerms/Strain": {
-    "color": null,
-    "description": null,
-    "isPartOfVersion": [
-      "v1.0",
-      "v2.0"
-    ],
-    "label": "Strain",
-    "name": "Strain",
-    "semanticEquivalent": []
-  },
-  "https://openminds.ebrains.eu/controlledTerms/StudyTargetType": {
-    "color": null,
-    "description": "Structured information on the general type of the study target.",
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Study target type",
-    "name": "StudyTargetType",
-    "semanticEquivalent": []
-  },
   "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity": {
     "color": "#4E4452",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Subcellular entity",
@@ -2004,6 +2008,8 @@
     "color": "#962B75",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Subject attribute",
@@ -2014,6 +2020,8 @@
     "color": "#EA1CA9",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Tactile stimulus type",
@@ -2048,6 +2056,7 @@
     "color": "#372D00",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
       "v2.0",
       "v3.0"
     ],
@@ -2059,6 +2068,8 @@
     "color": "#AFFFD1",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Tissue sample attribute",
@@ -2081,6 +2092,7 @@
     "color": "#7E9285",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
       "v2.0",
       "v3.0"
     ],
@@ -2092,6 +2104,7 @@
     "color": "#DA8386",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
       "v2.0",
       "v3.0"
     ],
@@ -2115,20 +2128,12 @@
     "color": "#410601",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Visual stimulus type",
     "name": "VisualStimulusType",
-    "semanticEquivalent": []
-  },
-  "https://openminds.ebrains.eu/controlledTerms/productAccessibility": {
-    "color": null,
-    "description": null,
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Product accessibility",
-    "name": "productAccessibility",
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/AccountInformation": {
@@ -2147,6 +2152,7 @@
     "description": "Structured information about a relationship between two entities, such as a person and their employer.",
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0"
     ],
@@ -2163,6 +2169,17 @@
     ],
     "label": "Behavioral protocol",
     "name": "BehavioralProtocol",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/core/BehavioralTask": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "v1.0",
+      "v2.0"
+    ],
+    "label": "Behavioral task",
+    "name": "BehavioralTask",
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Comment": {
@@ -2203,6 +2220,7 @@
     "description": "Structured information about how to contact a given person or consortium.",
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0"
     ],
@@ -2228,6 +2246,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Content type pattern",
@@ -2276,6 +2296,7 @@
     "description": "Structured information about a digital object identifier, as standardized by the International Organization for Standardization.",
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0"
     ],
@@ -2309,31 +2330,12 @@
     "name": "DatasetVersion",
     "semanticEquivalent": []
   },
-  "https://openminds.ebrains.eu/core/DigitalIdentifier": {
-    "color": null,
-    "description": "Structured information on a digital identifier.",
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Digital identifier",
-    "name": "DigitalIdentifier",
-    "semanticEquivalent": []
-  },
-  "https://openminds.ebrains.eu/core/DigitalIdentifierSchema": {
-    "color": null,
-    "description": "Structured information on a digital identifier schema.",
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Digital identifier schema",
-    "name": "DigitalIdentifierSchema",
-    "semanticEquivalent": []
-  },
   "https://openminds.ebrains.eu/core/File": {
     "color": "#AA9297",
     "description": "Structured information on a file instance that is accessible via a URL.",
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0"
     ],
@@ -2365,21 +2367,13 @@
     "name": "FileBundle",
     "semanticEquivalent": []
   },
-  "https://openminds.ebrains.eu/core/FileInstance": {
-    "color": null,
-    "description": "Structured information on a file instances.",
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "File instance",
-    "name": "FileInstance",
-    "semanticEquivalent": []
-  },
   "https://openminds.ebrains.eu/core/FilePathPattern": {
     "color": "#564620",
     "description": null,
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "File path pattern",
@@ -2404,6 +2398,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "File repository structure",
@@ -2428,6 +2424,7 @@
     "description": "A GRID (Global Research Identifier Database) identifier.",
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0"
     ],
@@ -2464,6 +2461,7 @@
     "description": "An International Standard Book Number of the International ISBN Agency.",
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0"
     ],
@@ -2573,6 +2571,7 @@
     "color": null,
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
       "v2.0"
     ],
     "label": "Numerical parameter",
@@ -2595,6 +2594,7 @@
     "description": "A persistent identifier for a researcher provided by Open Researcher and Contributor ID, Inc.",
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0"
     ],
@@ -2619,20 +2619,11 @@
     "color": null,
     "description": "Structured information on a used parameter set.",
     "isPartOfVersion": [
+      "v1.0",
       "v2.0"
     ],
     "label": "Parameter set",
     "name": "ParameterSet",
-    "semanticEquivalent": []
-  },
-  "https://openminds.ebrains.eu/core/ParameterSetting": {
-    "color": null,
-    "description": "Structured information on a used parameter setting.",
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Parameter setting",
-    "name": "ParameterSetting",
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/core/Person": {
@@ -2742,6 +2733,7 @@
     "description": "A persistent identifier for a research organization, provided by the Research Organization Registry.",
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0"
     ],
@@ -2776,6 +2768,7 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0"
     ],
@@ -2788,6 +2781,8 @@
     "description": null,
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0"
     ],
     "label": "Service link",
@@ -2857,6 +2852,7 @@
     "color": null,
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
       "v2.0"
     ],
     "label": "String parameter",
@@ -2982,6 +2978,7 @@
     "color": null,
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
       "v2.0"
     ],
     "label": "Url",
@@ -3382,16 +3379,6 @@
     "name": "AtlasAnnotation",
     "semanticEquivalent": []
   },
-  "https://openminds.ebrains.eu/sands/AtlasTerminology": {
-    "color": null,
-    "description": null,
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Atlas terminology",
-    "name": "AtlasTerminology",
-    "semanticEquivalent": []
-  },
   "https://openminds.ebrains.eu/sands/BrainAtlas": {
     "color": "#8B4A4E",
     "description": "Structured information on a brain atlas (concept level).",
@@ -3580,6 +3567,7 @@
     "color": "#009A2E",
     "description": null,
     "isPartOfVersion": [
+      "v1.0",
       "v2.0",
       "v3.0"
     ],
