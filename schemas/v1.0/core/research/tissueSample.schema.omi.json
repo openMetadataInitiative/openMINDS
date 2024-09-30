@@ -5,22 +5,6 @@
   "label": "Tissue sample",
   "name": "TissueSample",
   "properties": {
-    "https://openminds.ebrains.eu/vocab/anatomicalLocation": {
-      "_instruction": "Add all anatomical entities to which this tissue sample belongs.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
-        "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
-        "https://openminds.ebrains.eu/sands/ParcellationEntity"
-      ],
-      "label": "Anatomical location",
-      "labelPlural": "Anatomical locations",
-      "minItems": 1,
-      "name": "anatomicalLocation",
-      "nameForReverseLink": null,
-      "namePlural": "anatomicalLocations",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.ebrains.eu/vocab/biologicalSex": {
       "_instruction": "Add the biological sex of this specimen.",
       "_linkedTypes": [
@@ -33,6 +17,18 @@
       "nameForReverseLink": null,
       "namePlural": "biologicalSexes"
     },
+    "https://openminds.ebrains.eu/vocab/genotype": {
+      "_instruction": "Add the genotype of this specimen.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Genotype"
+      ],
+      "description": "Genetic constitution of an individual or group.",
+      "label": "Genotype",
+      "labelPlural": "Genotypes",
+      "name": "genotype",
+      "nameForReverseLink": null,
+      "namePlural": "genotypes"
+    },
     "https://openminds.ebrains.eu/vocab/internalIdentifier": {
       "_instruction": "Enter the identifier of this specimen that is used within the corresponding data.",
       "description": "Term or code that identifies someone or something within a particular product.",
@@ -43,21 +39,6 @@
       "name": "internalIdentifier",
       "namePlural": "internalIdentifiers",
       "type": "string"
-    },
-    "https://openminds.ebrains.eu/vocab/isPartOf": {
-      "_instruction": "Add all tissue sample collections of which this tissue sample is part of.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/TissueSampleCollection"
-      ],
-      "description": "Reference to the ensemble of multiple things or beings.",
-      "label": "Is part of",
-      "labelPlural": "Is part of",
-      "minItems": 1,
-      "name": "isPartOf",
-      "nameForReverseLink": null,
-      "namePlural": "isPartOf",
-      "type": "array",
-      "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/laterality": {
       "_instruction": "Add one or both hemisphere sides from which this tissue sample originates from.",
@@ -74,16 +55,6 @@
       "namePlural": "lateralities",
       "type": "array",
       "uniqueItems": true
-    },
-    "https://openminds.ebrains.eu/vocab/lookupLabel": {
-      "_instruction": "Enter a lookup label for this specimen that may help you to more easily find it again.",
-      "formatting": "text/plain",
-      "label": "Lookup label",
-      "labelPlural": "Lookup labels",
-      "multiline": false,
-      "name": "lookupLabel",
-      "namePlural": "lookupLabels",
-      "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/origin": {
       "_instruction": "Add the biogical origin (organ or cell type) of this tissue sample.",
