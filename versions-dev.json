@@ -164,6 +164,11 @@
           "branch": "v2",
           "commit": "da22d249e824dc02c1ad0e358f82430a2afa2a87",
           "repository": "https://github.com/openMetadataInitiative/openMINDS_stimulation.git"
+        },
+        "neuroimaging": {
+          "branch": "dev",
+          "commit": "da22d249e824dc02c1ad0e358f82430a2afa2a87",
+          "repository": "https://github.com/openMetadataInitiative/openMINDS_neuroimaging.git"
         }
       }
     }
