@@ -1636,6 +1636,26 @@
     "name": "LearningResourceType",
     "semanticEquivalent": []
   },
+  "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "v3.0"
+    ],
+    "label": "Mripulse sequence",
+    "name": "MRIPulseSequence",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/controlledTerms/MRIWeighting": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "v3.0"
+    ],
+    "label": "Mriweighting",
+    "name": "MRIWeighting",
+    "semanticEquivalent": []
+  },
   "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity": {
     "color": "#2C5742",
     "description": null,

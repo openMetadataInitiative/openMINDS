@@ -2796,6 +2796,8 @@
         "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
+        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
+        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
         "https://openminds.ebrains.eu/stimulation/StimulationActivity"
       ]
     }
@@ -3202,6 +3204,8 @@
         "https://openminds.ebrains.eu/controlledTerms/Language",
         "https://openminds.ebrains.eu/controlledTerms/Laterality",
         "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+        "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
         "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
@@ -3252,6 +3256,12 @@
           "ephys:ElectrodeUsage",
           "ephys:PipetteUsage",
           "specimenPrep:SlicingDeviceUsage"
+        ],
+        "v3.0": [
+          "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
+          "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
+          "https://openminds.ebrains.eu/ephys/PipetteUsage",
+          "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
         ]
       },
       "nameForReverseLink": null
@@ -3265,6 +3275,9 @@
     "usedIn": {
       "latest": [
         "stimulation:EphysStimulus"
+      ],
+      "v3.0": [
+        "https://openminds.ebrains.eu/stimulation/EphysStimulus"
       ]
     }
   },
@@ -3653,6 +3666,8 @@
         "https://openminds.ebrains.eu/controlledTerms/Language",
         "https://openminds.ebrains.eu/controlledTerms/Laterality",
         "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+        "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
         "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
@@ -3723,6 +3738,9 @@
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
         "https://openminds.ebrains.eu/specimenPrep/SlicingDevice",
+        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
+        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
+        "https://openminds.ebrains.eu/stimulation/EphysStimulus",
         "https://openminds.ebrains.eu/stimulation/StimulationActivity"
       ]
     }
@@ -4463,6 +4481,8 @@
         "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
+        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
+        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
         "https://openminds.ebrains.eu/stimulation/StimulationActivity"
       ]
     }
@@ -4566,6 +4586,9 @@
       "canPointTo": {
         "latest": [
           "core:QuantitativeValue"
+        ],
+        "v3.0": [
+          "https://openminds.ebrains.eu/core/QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -4577,6 +4600,9 @@
     "usedIn": {
       "latest": [
         "stimulation:EphysStimulus"
+      ],
+      "v3.0": [
+        "https://openminds.ebrains.eu/stimulation/EphysStimulus"
       ]
     }
   },
@@ -4939,6 +4965,7 @@
         "v3.0": [
           "https://openminds.ebrains.eu/core/DOI",
           "https://openminds.ebrains.eu/core/File",
+          "https://openminds.ebrains.eu/core/ISBN",
           "https://openminds.ebrains.eu/core/WebResource"
         ]
       },
@@ -5219,6 +5246,12 @@
           "ephys:ElectrodeUsage",
           "ephys:PipetteUsage",
           "specimenPrep:SlicingDeviceUsage"
+        ],
+        "v3.0": [
+          "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
+          "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
+          "https://openminds.ebrains.eu/ephys/PipetteUsage",
+          "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
         ]
       },
       "nameForReverseLink": null
@@ -5232,6 +5265,9 @@
     "usedIn": {
       "latest": [
         "stimulation:EphysStimulus"
+      ],
+      "v3.0": [
+        "https://openminds.ebrains.eu/stimulation/EphysStimulus"
       ]
     }
   },
@@ -5393,6 +5429,8 @@
           "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType",
           "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
           "https://openminds.ebrains.eu/controlledTerms/Handedness",
+          "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+          "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
           "https://openminds.ebrains.eu/controlledTerms/MolecularEntity",
           "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
           "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
@@ -5406,6 +5444,7 @@
           "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
           "https://openminds.ebrains.eu/controlledTerms/Technique",
           "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
+          "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
           "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
           "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType",
           "https://openminds.ebrains.eu/core/BehavioralProtocol",
@@ -6994,6 +7033,8 @@
         "https://openminds.ebrains.eu/controlledTerms/Language",
         "https://openminds.ebrains.eu/controlledTerms/Laterality",
         "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+        "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
         "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
@@ -7138,7 +7179,8 @@
         "https://openminds.ebrains.eu/ephys/Recording",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
         "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-        "https://openminds.ebrains.eu/sands/CustomAnnotation"
+        "https://openminds.ebrains.eu/sands/CustomAnnotation",
+        "https://openminds.ebrains.eu/stimulation/EphysStimulus"
       ]
     }
   },
@@ -7440,6 +7482,8 @@
         "https://openminds.ebrains.eu/publications/PublicationVolume",
         "https://openminds.ebrains.eu/publications/ScholarlyArticle",
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
+        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
+        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
         "https://openminds.ebrains.eu/stimulation/StimulationActivity"
       ]
     }
@@ -7594,6 +7638,8 @@
           "https://openminds.ebrains.eu/controlledTerms/Language",
           "https://openminds.ebrains.eu/controlledTerms/Laterality",
           "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+          "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+          "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
           "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
           "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
           "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
@@ -7836,6 +7882,8 @@
         "https://openminds.ebrains.eu/controlledTerms/Language",
         "https://openminds.ebrains.eu/controlledTerms/Laterality",
         "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+        "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
         "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
@@ -8377,6 +8425,9 @@
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
         "https://openminds.ebrains.eu/specimenPrep/SlicingDevice",
         "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage",
+        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
+        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
+        "https://openminds.ebrains.eu/stimulation/EphysStimulus",
         "https://openminds.ebrains.eu/stimulation/StimulationActivity"
       ]
     }
@@ -9073,6 +9124,8 @@
         "https://openminds.ebrains.eu/controlledTerms/Language",
         "https://openminds.ebrains.eu/controlledTerms/Laterality",
         "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+        "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
         "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
@@ -10125,6 +10178,8 @@
         "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
+        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
+        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
         "https://openminds.ebrains.eu/stimulation/StimulationActivity"
       ]
     }
@@ -10416,6 +10471,8 @@
         "https://openminds.ebrains.eu/controlledTerms/Language",
         "https://openminds.ebrains.eu/controlledTerms/Laterality",
         "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+        "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
         "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
@@ -10523,6 +10580,8 @@
         "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
+        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
+        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
         "https://openminds.ebrains.eu/stimulation/StimulationActivity"
       ]
     }
@@ -10825,6 +10884,8 @@
         "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
+        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
+        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
         "https://openminds.ebrains.eu/stimulation/StimulationActivity"
       ]
     }
@@ -11649,6 +11710,8 @@
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
+          "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+          "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
           "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
           "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
           "https://openminds.ebrains.eu/controlledTerms/Technique"
@@ -12671,7 +12734,9 @@
           "core:PropertyValueList"
         ],
         "v3.0": [
+          "https://openminds.ebrains.eu/core/Configuration",
           "https://openminds.ebrains.eu/core/File",
+          "https://openminds.ebrains.eu/core/FileBundle",
           "https://openminds.ebrains.eu/core/PropertyValueList"
         ]
       },
@@ -12705,7 +12770,8 @@
       "v3.0": [
         "https://openminds.ebrains.eu/core/ContentType",
         "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-        "https://openminds.ebrains.eu/sands/CustomAnnotation"
+        "https://openminds.ebrains.eu/sands/CustomAnnotation",
+        "https://openminds.ebrains.eu/stimulation/EphysStimulus"
       ]
     }
   },
@@ -12888,6 +12954,8 @@
         "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
+        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
+        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
         "https://openminds.ebrains.eu/stimulation/StimulationActivity"
       ]
     }
@@ -13008,6 +13076,9 @@
       "canPointTo": {
         "latest": [
           "stimulation:EphysStimulus"
+        ],
+        "v3.0": [
+          "https://openminds.ebrains.eu/stimulation/EphysStimulus"
         ]
       },
       "nameForReverseLink": null
@@ -13426,6 +13497,7 @@
           "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
           "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
           "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
+          "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
           "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
           "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType",
           "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
@@ -13487,6 +13559,8 @@
         "https://openminds.ebrains.eu/ephys/ElectrodePlacement",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
+        "https://openminds.ebrains.eu/specimenPrep/TissueCulturePreparation",
+        "https://openminds.ebrains.eu/specimenPrep/TissueSampleSlicing",
         "https://openminds.ebrains.eu/stimulation/StimulationActivity"
       ]
     }
@@ -13717,6 +13791,8 @@
         "https://openminds.ebrains.eu/controlledTerms/Language",
         "https://openminds.ebrains.eu/controlledTerms/Laterality",
         "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+        "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
         "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
         "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
@@ -13872,6 +13948,8 @@
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
+          "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+          "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
           "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
           "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
           "https://openminds.ebrains.eu/controlledTerms/Technique"
