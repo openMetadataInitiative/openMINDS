@@ -105,7 +105,7 @@
     "https://openminds.ebrains.eu/vocab/performedBy": {
       "_instruction": "Add all agents that performed this activity.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/computation/SoftwareAgent",
+        "computation:SoftwareAgent",
         "https://openminds.ebrains.eu/core/Person"
       ],
       "label": "Performed by",

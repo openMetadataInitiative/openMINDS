@@ -1,9 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/computation/HardwareSystem",
-  "color": "#1E2324",
-  "description": "Structured information about computing hardware.",
-  "label": "Hardware system",
-  "name": "HardwareSystem",
+  "_type": "computation:HardwareSystem",
+  "label": "Computation:hardware system",
+  "name": "computation:HardwareSystem",
   "properties": {
     "https://openminds.ebrains.eu/vocab/description": {
       "_instruction": "Enter a short text describing this hardware system.",

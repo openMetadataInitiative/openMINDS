@@ -2,11 +2,9 @@
   "_categories": [
     "researchProduct"
   ],
-  "_type": "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
-  "color": "#4B2C00",
-  "description": "Structured information about a specific implemented version of a workflow recipe.",
-  "label": "Workflow recipe version",
-  "name": "WorkflowRecipeVersion",
+  "_type": "computation:WorkflowRecipeVersion",
+  "label": "Computation:workflow recipe version",
+  "name": "computation:WorkflowRecipeVersion",
   "properties": {
     "https://openminds.ebrains.eu/vocab/accessibility": {
       "_instruction": "Add the accessibility of the data for this research product version.",
@@ -80,7 +78,7 @@
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI"
+        "core:DOI"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -92,7 +90,7 @@
     "https://openminds.ebrains.eu/vocab/format": {
       "_instruction": "Add the content type of this workflow recipe version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "core:ContentType"
       ],
       "description": "Method of digitally organizing and structuring data or information.",
       "label": "Format",
@@ -145,10 +143,10 @@
     "https://openminds.ebrains.eu/vocab/hasPart": {
       "_instruction": "Add all entities that are components of this workflow recipe version (e.g., other workflow recipe versions or software used in this workflow).",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
+        "computation:WorkflowRecipeVersion",
+        "core:File",
+        "core:FileBundle",
+        "core:SoftwareVersion"
       ],
       "label": "Has part",
       "labelPlural": "Has parts",
@@ -187,7 +185,7 @@
     "https://openminds.ebrains.eu/vocab/isAlternativeVersionOf": {
       "_instruction": "Add all workflow recipe versions that can be used alternatively to this workflow recipe version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion"
+        "computation:WorkflowRecipeVersion"
       ],
       "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
       "label": "Is alternative version of",
@@ -202,7 +200,7 @@
     "https://openminds.ebrains.eu/vocab/isNewVersionOf": {
       "_instruction": "Add the workflow recipe version preceding this workflow recipe version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion"
+        "computation:WorkflowRecipeVersion"
       ],
       "description": "Reference to a previous (potentially outdated) particular form of something.",
       "label": "Is new version of",
@@ -308,7 +306,7 @@
     "https://openminds.ebrains.eu/vocab/license": {
       "_instruction": "Add all licenses of this workflow recipe version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/License"
+        "core:License"
       ],
       "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
       "label": "License",

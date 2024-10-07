@@ -111,13 +111,13 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "computation:ValidationTest",
+          "computation:ValidationTestVersion",
+          "computation:WorkflowRecipe",
+          "computation:WorkflowRecipeVersion",
           "core:DatasetVersion",
           "core:ModelVersion",
           "core:SoftwareVersion",
-          "https://openminds.ebrains.eu/computation/ValidationTest",
-          "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-          "https://openminds.ebrains.eu/computation/WorkflowRecipe",
-          "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
           "https://openminds.ebrains.eu/core/Dataset",
           "https://openminds.ebrains.eu/core/DatasetVersion",
           "https://openminds.ebrains.eu/core/MetaDataModel",
@@ -274,8 +274,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/ModelVersion",
@@ -1025,7 +1025,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/LaunchConfiguration"
+        "computation:LaunchConfiguration"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/LaunchConfiguration"
@@ -1791,10 +1791,10 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Configuration",
-          "https://openminds.ebrains.eu/core/File",
-          "https://openminds.ebrains.eu/core/PropertyValueList",
-          "https://openminds.ebrains.eu/core/WebResource"
+          "core:Configuration",
+          "core:File",
+          "core:PropertyValueList",
+          "core:WebResource"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/Configuration",
@@ -1821,9 +1821,9 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/Environment",
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowExecution",
+        "computation:Environment",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowExecution",
         "https://openminds.ebrains.eu/core/Configuration"
       ],
       "v3.0": [
@@ -1995,7 +1995,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/LocalFile",
+        "computation:LocalFile",
         "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileBundle",
         "https://openminds.ebrains.eu/core/WebResource"
@@ -2322,7 +2322,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/File"
+          "core:File"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/File"
@@ -2338,7 +2338,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/LocalFile"
+        "computation:LocalFile"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/LocalFile"
@@ -2372,8 +2372,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/ModelVersion",
@@ -2678,10 +2678,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTest",
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipe",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTest",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipe",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/Dataset",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModel",
@@ -2767,16 +2767,16 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
+        "computation:DataAnalysis",
+        "computation:DataCopy",
+        "computation:GenericComputation",
+        "computation:ModelValidation",
+        "computation:Optimization",
+        "computation:Simulation",
+        "computation:Visualization",
         "ephys:CellPatching",
         "ephys:ElectrodePlacement",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/computation/DataAnalysis",
-        "https://openminds.ebrains.eu/computation/DataCopy",
-        "https://openminds.ebrains.eu/computation/GenericComputation",
-        "https://openminds.ebrains.eu/computation/ModelValidation",
-        "https://openminds.ebrains.eu/computation/Optimization",
-        "https://openminds.ebrains.eu/computation/Simulation",
-        "https://openminds.ebrains.eu/computation/Visualization",
         "https://openminds.ebrains.eu/core/ProtocolExecution",
         "specimenPrep:CranialWindowPreparation",
         "specimenPrep:TissueCulturePreparation",
@@ -2855,6 +2855,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "controlledTerms:DataType",
           "https://openminds.ebrains.eu/controlledTerms/DataType",
           "https://openminds.ebrains.eu/controlledTerms/SemanticDataType"
         ],
@@ -2873,7 +2874,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/LocalFile",
+        "computation:LocalFile",
         "https://openminds.ebrains.eu/core/ContentType",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/File"
@@ -3359,6 +3360,20 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
+        "computation:DataAnalysis",
+        "computation:DataCopy",
+        "computation:Environment",
+        "computation:GenericComputation",
+        "computation:HardwareSystem",
+        "computation:LaunchConfiguration",
+        "computation:ModelValidation",
+        "computation:Optimization",
+        "computation:Simulation",
+        "computation:ValidationTest",
+        "computation:ValidationTestVersion",
+        "computation:Visualization",
+        "computation:WorkflowRecipe",
+        "computation:WorkflowRecipeVersion",
         "controlledTerms:ActionStatusType",
         "controlledTerms:AgeCategory",
         "controlledTerms:AnalysisTechnique",
@@ -3445,20 +3460,6 @@
         "ephys:ElectrodePlacement",
         "ephys:Pipette",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/computation/DataAnalysis",
-        "https://openminds.ebrains.eu/computation/DataCopy",
-        "https://openminds.ebrains.eu/computation/Environment",
-        "https://openminds.ebrains.eu/computation/GenericComputation",
-        "https://openminds.ebrains.eu/computation/HardwareSystem",
-        "https://openminds.ebrains.eu/computation/LaunchConfiguration",
-        "https://openminds.ebrains.eu/computation/ModelValidation",
-        "https://openminds.ebrains.eu/computation/Optimization",
-        "https://openminds.ebrains.eu/computation/Simulation",
-        "https://openminds.ebrains.eu/computation/ValidationTest",
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/Visualization",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipe",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/BehavioralProtocol",
         "https://openminds.ebrains.eu/core/ContentType",
         "https://openminds.ebrains.eu/core/Dataset",
@@ -3759,10 +3760,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTest",
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipe",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTest",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipe",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/MetaDataModel",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/Model",
@@ -3987,13 +3988,13 @@
     "usedIn": {
       "latest": [
         "chemicals:ProductSource",
+        "computation:ValidationTest",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipe",
+        "computation:WorkflowRecipeVersion",
         "ephys:Electrode",
         "ephys:ElectrodeArray",
         "ephys:Pipette",
-        "https://openminds.ebrains.eu/computation/ValidationTest",
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipe",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/Dataset",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModel",
@@ -4434,16 +4435,16 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
+        "computation:DataAnalysis",
+        "computation:DataCopy",
+        "computation:GenericComputation",
+        "computation:ModelValidation",
+        "computation:Optimization",
+        "computation:Simulation",
+        "computation:Visualization",
         "ephys:CellPatching",
         "ephys:ElectrodePlacement",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/computation/DataAnalysis",
-        "https://openminds.ebrains.eu/computation/DataCopy",
-        "https://openminds.ebrains.eu/computation/GenericComputation",
-        "https://openminds.ebrains.eu/computation/ModelValidation",
-        "https://openminds.ebrains.eu/computation/Optimization",
-        "https://openminds.ebrains.eu/computation/Simulation",
-        "https://openminds.ebrains.eu/computation/Visualization",
         "https://openminds.ebrains.eu/core/ProtocolExecution",
         "specimenPrep:CranialWindowPreparation",
         "specimenPrep:TissueCulturePreparation",
@@ -4484,7 +4485,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion"
+        "computation:ValidationTestVersion"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/ValidationTestVersion"
@@ -4495,8 +4496,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/computation/Environment",
-          "https://openminds.ebrains.eu/core/WebServiceVersion"
+          "computation:Environment",
+          "core:WebServiceVersion"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/computation/Environment",
@@ -4513,14 +4514,14 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/DataAnalysis",
-        "https://openminds.ebrains.eu/computation/DataCopy",
-        "https://openminds.ebrains.eu/computation/GenericComputation",
-        "https://openminds.ebrains.eu/computation/ModelValidation",
-        "https://openminds.ebrains.eu/computation/Optimization",
-        "https://openminds.ebrains.eu/computation/Simulation",
-        "https://openminds.ebrains.eu/computation/SoftwareAgent",
-        "https://openminds.ebrains.eu/computation/Visualization"
+        "computation:DataAnalysis",
+        "computation:DataCopy",
+        "computation:GenericComputation",
+        "computation:ModelValidation",
+        "computation:Optimization",
+        "computation:Simulation",
+        "computation:SoftwareAgent",
+        "computation:Visualization"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/DataAnalysis",
@@ -4538,7 +4539,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/PropertyValueList"
+          "core:PropertyValueList"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/PropertyValueList"
@@ -4554,7 +4555,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/LaunchConfiguration"
+        "computation:LaunchConfiguration"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/LaunchConfiguration"
@@ -4636,7 +4637,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/LaunchConfiguration"
+        "computation:LaunchConfiguration"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/LaunchConfiguration"
@@ -4860,6 +4861,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "core:ContentType",
           "https://openminds.ebrains.eu/core/ContentType"
         ],
         "v1.0": [
@@ -4882,9 +4884,9 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/LocalFile",
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:LocalFile",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/Configuration",
         "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileArchive",
@@ -4952,8 +4954,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/ModelVersion",
@@ -5008,10 +5010,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTest",
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipe",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTest",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipe",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/Consortium",
         "https://openminds.ebrains.eu/core/Dataset",
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -5166,8 +5168,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/ModelVersion",
@@ -5322,6 +5324,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "computation:LocalFile",
           "controlledTerms:AnalysisTechnique",
           "controlledTerms:AuditoryStimulusType",
           "controlledTerms:BiologicalOrder",
@@ -5353,7 +5356,6 @@
           "controlledTerms:TissueSampleType",
           "controlledTerms:UBERONParcellation",
           "controlledTerms:VisualStimulusType",
-          "https://openminds.ebrains.eu/computation/LocalFile",
           "https://openminds.ebrains.eu/core/BehavioralProtocol",
           "https://openminds.ebrains.eu/core/File",
           "https://openminds.ebrains.eu/core/FileBundle",
@@ -5526,7 +5528,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/computation/HardwareSystem"
+          "computation:HardwareSystem"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/computation/HardwareSystem"
@@ -5542,7 +5544,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/Environment"
+        "computation:Environment"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/Environment"
@@ -5745,17 +5747,18 @@
       "canPointTo": {
         "latest": [
           "chemicals:AmountOfChemical",
+          "computation:ValidationTest",
+          "computation:ValidationTestVersion",
+          "computation:WorkflowRecipe",
+          "computation:WorkflowRecipeVersion",
+          "core:File",
+          "core:FileBundle",
+          "core:SoftwareVersion",
           "ephys:Electrode",
           "ephys:ElectrodeArray",
           "ephys:Pipette",
-          "https://openminds.ebrains.eu/computation/ValidationTest",
-          "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-          "https://openminds.ebrains.eu/computation/WorkflowRecipe",
-          "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
           "https://openminds.ebrains.eu/core/Dataset",
           "https://openminds.ebrains.eu/core/DatasetVersion",
-          "https://openminds.ebrains.eu/core/File",
-          "https://openminds.ebrains.eu/core/FileBundle",
           "https://openminds.ebrains.eu/core/MetaDataModel",
           "https://openminds.ebrains.eu/core/MetaDataModelVersion",
           "https://openminds.ebrains.eu/core/Model",
@@ -5815,7 +5818,7 @@
     "usedIn": {
       "latest": [
         "chemicals:ChemicalMixture",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/Project",
         "https://openminds.ebrains.eu/core/ResearchProductGroup",
         "https://openminds.ebrains.eu/core/Setup",
@@ -5961,8 +5964,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-          "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+          "computation:ValidationTestVersion",
+          "computation:WorkflowRecipeVersion",
           "https://openminds.ebrains.eu/core/DatasetVersion",
           "https://openminds.ebrains.eu/core/MetaDataModelVersion",
           "https://openminds.ebrains.eu/core/ModelVersion",
@@ -6011,8 +6014,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTest",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipe",
+        "computation:ValidationTest",
+        "computation:WorkflowRecipe",
         "https://openminds.ebrains.eu/core/Dataset",
         "https://openminds.ebrains.eu/core/MetaDataModel",
         "https://openminds.ebrains.eu/core/Model",
@@ -6056,6 +6059,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "core:Hash",
           "https://openminds.ebrains.eu/core/Hash"
         ],
         "v1.0": [
@@ -6078,7 +6082,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/LocalFile",
+        "computation:LocalFile",
         "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileBundle",
         "https://openminds.ebrains.eu/core/FileRepository"
@@ -6199,10 +6203,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTest",
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipe",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTest",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipe",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/Consortium",
         "https://openminds.ebrains.eu/core/Dataset",
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -6341,10 +6345,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTest",
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipe",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTest",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipe",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/Dataset",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModel",
@@ -6553,23 +6557,27 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "computation:LocalFile",
+          "computation:ValidationTestVersion",
+          "core:DatasetVersion",
+          "core:File",
+          "core:FileBundle",
+          "core:ModelVersion",
+          "core:SoftwareVersion",
           "core:SubjectGroupState",
           "core:SubjectState",
           "core:TissueSampleCollectionState",
           "core:TissueSampleState",
-          "https://openminds.ebrains.eu/computation/LocalFile",
-          "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-          "https://openminds.ebrains.eu/core/DatasetVersion",
           "https://openminds.ebrains.eu/core/File",
           "https://openminds.ebrains.eu/core/FileBundle",
-          "https://openminds.ebrains.eu/core/ModelVersion",
-          "https://openminds.ebrains.eu/core/SoftwareVersion",
           "https://openminds.ebrains.eu/core/SubjectGroupState",
           "https://openminds.ebrains.eu/core/SubjectState",
           "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
           "https://openminds.ebrains.eu/core/TissueSampleState",
           "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-          "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+          "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+          "sands:BrainAtlasVersion",
+          "sands:CommonCoordinateSpaceVersion"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/FileBundle",
@@ -6613,16 +6621,16 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
+        "computation:DataAnalysis",
+        "computation:DataCopy",
+        "computation:GenericComputation",
+        "computation:ModelValidation",
+        "computation:Optimization",
+        "computation:Simulation",
+        "computation:Visualization",
         "ephys:CellPatching",
         "ephys:ElectrodePlacement",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/computation/DataAnalysis",
-        "https://openminds.ebrains.eu/computation/DataCopy",
-        "https://openminds.ebrains.eu/computation/GenericComputation",
-        "https://openminds.ebrains.eu/computation/ModelValidation",
-        "https://openminds.ebrains.eu/computation/Optimization",
-        "https://openminds.ebrains.eu/computation/Simulation",
-        "https://openminds.ebrains.eu/computation/Visualization",
         "https://openminds.ebrains.eu/core/ProtocolExecution",
         "specimenPrep:CranialWindowPreparation",
         "specimenPrep:TissueCulturePreparation",
@@ -7177,8 +7185,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-          "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+          "computation:ValidationTestVersion",
+          "computation:WorkflowRecipeVersion",
           "https://openminds.ebrains.eu/core/DatasetVersion",
           "https://openminds.ebrains.eu/core/MetaDataModelVersion",
           "https://openminds.ebrains.eu/core/ModelVersion",
@@ -7218,8 +7226,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/ModelVersion",
@@ -7255,8 +7263,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-          "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+          "computation:ValidationTestVersion",
+          "computation:WorkflowRecipeVersion",
           "https://openminds.ebrains.eu/core/DatasetVersion",
           "https://openminds.ebrains.eu/core/MetaDataModelVersion",
           "https://openminds.ebrains.eu/core/ModelVersion",
@@ -7303,8 +7311,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/ModelVersion",
@@ -7652,8 +7660,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/ModelVersion",
@@ -8026,7 +8034,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/computation/LaunchConfiguration"
+          "computation:LaunchConfiguration"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/computation/LaunchConfiguration"
@@ -8042,13 +8050,13 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/DataAnalysis",
-        "https://openminds.ebrains.eu/computation/DataCopy",
-        "https://openminds.ebrains.eu/computation/GenericComputation",
-        "https://openminds.ebrains.eu/computation/ModelValidation",
-        "https://openminds.ebrains.eu/computation/Optimization",
-        "https://openminds.ebrains.eu/computation/Simulation",
-        "https://openminds.ebrains.eu/computation/Visualization"
+        "computation:DataAnalysis",
+        "computation:DataCopy",
+        "computation:GenericComputation",
+        "computation:ModelValidation",
+        "computation:Optimization",
+        "computation:Simulation",
+        "computation:Visualization"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/DataAnalysis",
@@ -8173,8 +8181,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/ModelVersion",
@@ -8286,6 +8294,13 @@
     "usedIn": {
       "latest": [
         "chemicals:ChemicalSubstance",
+        "computation:DataAnalysis",
+        "computation:DataCopy",
+        "computation:GenericComputation",
+        "computation:ModelValidation",
+        "computation:Optimization",
+        "computation:Simulation",
+        "computation:Visualization",
         "ephys:CellPatching",
         "ephys:Electrode",
         "ephys:ElectrodeArray",
@@ -8295,13 +8310,6 @@
         "ephys:Pipette",
         "ephys:PipetteUsage",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/computation/DataAnalysis",
-        "https://openminds.ebrains.eu/computation/DataCopy",
-        "https://openminds.ebrains.eu/computation/GenericComputation",
-        "https://openminds.ebrains.eu/computation/ModelValidation",
-        "https://openminds.ebrains.eu/computation/Optimization",
-        "https://openminds.ebrains.eu/computation/Simulation",
-        "https://openminds.ebrains.eu/computation/Visualization",
         "https://openminds.ebrains.eu/core/Configuration",
         "https://openminds.ebrains.eu/core/ContentTypePattern",
         "https://openminds.ebrains.eu/core/FileRepositoryStructure",
@@ -8813,6 +8821,11 @@
     "usedIn": {
       "latest": [
         "chemicals:ChemicalMixture",
+        "computation:Environment",
+        "computation:HardwareSystem",
+        "computation:LaunchConfiguration",
+        "computation:LocalFile",
+        "computation:SoftwareAgent",
         "controlledTerms:ActionStatusType",
         "controlledTerms:AgeCategory",
         "controlledTerms:AnalysisTechnique",
@@ -8897,11 +8910,6 @@
         "ephys:ElectrodeArray",
         "ephys:Pipette",
         "ephys:Recording",
-        "https://openminds.ebrains.eu/computation/Environment",
-        "https://openminds.ebrains.eu/computation/HardwareSystem",
-        "https://openminds.ebrains.eu/computation/LaunchConfiguration",
-        "https://openminds.ebrains.eu/computation/LocalFile",
-        "https://openminds.ebrains.eu/computation/SoftwareAgent",
         "https://openminds.ebrains.eu/core/BehavioralProtocol",
         "https://openminds.ebrains.eu/core/ContentType",
         "https://openminds.ebrains.eu/core/File",
@@ -9624,8 +9632,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/ModelVersion",
@@ -9665,17 +9673,17 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "computation:LocalFile",
           "core:File",
+          "core:FileArchive",
           "core:FileBundle",
+          "core:ModelVersion",
           "core:SubjectGroupState",
           "core:SubjectState",
           "core:TissueSampleCollectionState",
           "core:TissueSampleState",
-          "https://openminds.ebrains.eu/computation/LocalFile",
           "https://openminds.ebrains.eu/core/File",
-          "https://openminds.ebrains.eu/core/FileArchive",
           "https://openminds.ebrains.eu/core/FileBundle",
-          "https://openminds.ebrains.eu/core/ModelVersion",
           "https://openminds.ebrains.eu/core/SubjectGroupState",
           "https://openminds.ebrains.eu/core/SubjectState",
           "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
@@ -9719,16 +9727,16 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
+        "computation:DataAnalysis",
+        "computation:DataCopy",
+        "computation:GenericComputation",
+        "computation:ModelValidation",
+        "computation:Optimization",
+        "computation:Simulation",
+        "computation:Visualization",
         "ephys:CellPatching",
         "ephys:ElectrodePlacement",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/computation/DataAnalysis",
-        "https://openminds.ebrains.eu/computation/DataCopy",
-        "https://openminds.ebrains.eu/computation/GenericComputation",
-        "https://openminds.ebrains.eu/computation/ModelValidation",
-        "https://openminds.ebrains.eu/computation/Optimization",
-        "https://openminds.ebrains.eu/computation/Simulation",
-        "https://openminds.ebrains.eu/computation/Visualization",
         "https://openminds.ebrains.eu/core/ProtocolExecution",
         "specimenPrep:CranialWindowPreparation",
         "specimenPrep:TissueCulturePreparation",
@@ -9992,7 +10000,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/LocalFile"
+        "computation:LocalFile"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/LocalFile"
@@ -10078,7 +10086,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/computation/SoftwareAgent",
+          "computation:SoftwareAgent",
           "https://openminds.ebrains.eu/core/Person"
         ],
         "v3.0": [
@@ -10096,16 +10104,16 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
+        "computation:DataAnalysis",
+        "computation:DataCopy",
+        "computation:GenericComputation",
+        "computation:ModelValidation",
+        "computation:Optimization",
+        "computation:Simulation",
+        "computation:Visualization",
         "ephys:CellPatching",
         "ephys:ElectrodePlacement",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/computation/DataAnalysis",
-        "https://openminds.ebrains.eu/computation/DataCopy",
-        "https://openminds.ebrains.eu/computation/GenericComputation",
-        "https://openminds.ebrains.eu/computation/ModelValidation",
-        "https://openminds.ebrains.eu/computation/Optimization",
-        "https://openminds.ebrains.eu/computation/Simulation",
-        "https://openminds.ebrains.eu/computation/Visualization",
         "https://openminds.ebrains.eu/core/ProtocolExecution",
         "specimenPrep:CranialWindowPreparation",
         "specimenPrep:TissueCulturePreparation",
@@ -11089,7 +11097,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion"
+          "computation:WorkflowRecipeVersion"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion"
@@ -11105,14 +11113,14 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/DataAnalysis",
-        "https://openminds.ebrains.eu/computation/DataCopy",
-        "https://openminds.ebrains.eu/computation/GenericComputation",
-        "https://openminds.ebrains.eu/computation/ModelValidation",
-        "https://openminds.ebrains.eu/computation/Optimization",
-        "https://openminds.ebrains.eu/computation/Simulation",
-        "https://openminds.ebrains.eu/computation/Visualization",
-        "https://openminds.ebrains.eu/computation/WorkflowExecution"
+        "computation:DataAnalysis",
+        "computation:DataCopy",
+        "computation:GenericComputation",
+        "computation:ModelValidation",
+        "computation:Optimization",
+        "computation:Simulation",
+        "computation:Visualization",
+        "computation:WorkflowExecution"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/DataAnalysis",
@@ -11163,10 +11171,10 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/DOI",
-          "https://openminds.ebrains.eu/core/File",
-          "https://openminds.ebrains.eu/core/FileBundle",
-          "https://openminds.ebrains.eu/core/WebResource"
+          "core:DOI",
+          "core:File",
+          "core:FileBundle",
+          "core:WebResource"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/DOI",
@@ -11185,7 +11193,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion"
+        "computation:ValidationTestVersion"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/ValidationTestVersion"
@@ -11196,7 +11204,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/Technique"
+          "controlledTerms:Technique"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/Technique"
@@ -11212,7 +11220,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTest"
+        "computation:ValidationTest"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/ValidationTest"
@@ -11364,8 +11372,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/ModelVersion",
@@ -11587,8 +11595,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/ModelVersion",
@@ -11703,8 +11711,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/ModelVersion",
@@ -11822,8 +11830,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+          "core:QuantitativeValue",
+          "core:QuantitativeValueRange"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue",
@@ -11840,13 +11848,13 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/DataAnalysis",
-        "https://openminds.ebrains.eu/computation/DataCopy",
-        "https://openminds.ebrains.eu/computation/GenericComputation",
-        "https://openminds.ebrains.eu/computation/ModelValidation",
-        "https://openminds.ebrains.eu/computation/Optimization",
-        "https://openminds.ebrains.eu/computation/Simulation",
-        "https://openminds.ebrains.eu/computation/Visualization"
+        "computation:DataAnalysis",
+        "computation:DataCopy",
+        "computation:GenericComputation",
+        "computation:ModelValidation",
+        "computation:Optimization",
+        "computation:Simulation",
+        "computation:Visualization"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/DataAnalysis",
@@ -11890,6 +11898,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "controlledTerms:ModelScope",
           "https://openminds.ebrains.eu/controlledTerms/ModelScope"
         ],
         "v1.0": [
@@ -11912,7 +11921,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTest",
+        "computation:ValidationTest",
         "https://openminds.ebrains.eu/core/Model"
       ],
       "v1.0": [
@@ -11936,7 +11945,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ModelValidation"
+        "computation:ModelValidation"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/ModelValidation"
@@ -11947,7 +11956,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/DifferenceMeasure"
+          "controlledTerms:DifferenceMeasure"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/DifferenceMeasure"
@@ -11963,7 +11972,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTest"
+        "computation:ValidationTest"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/ValidationTest"
@@ -12251,10 +12260,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTest",
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipe",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTest",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipe",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/Consortium",
         "https://openminds.ebrains.eu/core/Dataset",
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -12454,7 +12463,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/SoftwareVersion"
+          "core:SoftwareVersion"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/SoftwareVersion"
@@ -12470,8 +12479,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/Environment",
-        "https://openminds.ebrains.eu/computation/SoftwareAgent"
+        "computation:Environment",
+        "computation:SoftwareAgent"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/Environment",
@@ -12569,6 +12578,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "controlledTerms:FileUsageRole",
           "https://openminds.ebrains.eu/controlledTerms/FileUsageRole"
         ],
         "v1.0": [
@@ -12591,7 +12601,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/LocalFile",
+        "computation:LocalFile",
         "https://openminds.ebrains.eu/core/File"
       ],
       "v1.0": [
@@ -12752,13 +12762,13 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/computation/DataAnalysis",
-          "https://openminds.ebrains.eu/computation/DataCopy",
-          "https://openminds.ebrains.eu/computation/GenericComputation",
-          "https://openminds.ebrains.eu/computation/ModelValidation",
-          "https://openminds.ebrains.eu/computation/Optimization",
-          "https://openminds.ebrains.eu/computation/Simulation",
-          "https://openminds.ebrains.eu/computation/Visualization"
+          "computation:DataAnalysis",
+          "computation:DataCopy",
+          "computation:GenericComputation",
+          "computation:ModelValidation",
+          "computation:Optimization",
+          "computation:Simulation",
+          "computation:Visualization"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/computation/DataAnalysis",
@@ -12780,7 +12790,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/WorkflowExecution"
+        "computation:WorkflowExecution"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/WorkflowExecution"
@@ -12859,16 +12869,16 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
+        "computation:DataAnalysis",
+        "computation:DataCopy",
+        "computation:GenericComputation",
+        "computation:ModelValidation",
+        "computation:Optimization",
+        "computation:Simulation",
+        "computation:Visualization",
         "ephys:CellPatching",
         "ephys:ElectrodePlacement",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/computation/DataAnalysis",
-        "https://openminds.ebrains.eu/computation/DataCopy",
-        "https://openminds.ebrains.eu/computation/GenericComputation",
-        "https://openminds.ebrains.eu/computation/ModelValidation",
-        "https://openminds.ebrains.eu/computation/Optimization",
-        "https://openminds.ebrains.eu/computation/Simulation",
-        "https://openminds.ebrains.eu/computation/Visualization",
         "https://openminds.ebrains.eu/core/ProtocolExecution",
         "specimenPrep:CranialWindowPreparation",
         "specimenPrep:TissueCulturePreparation",
@@ -12896,7 +12906,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/computation/SoftwareAgent",
+          "computation:SoftwareAgent",
           "https://openminds.ebrains.eu/core/Person"
         ],
         "v3.0": [
@@ -12914,14 +12924,14 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/DataAnalysis",
-        "https://openminds.ebrains.eu/computation/DataCopy",
-        "https://openminds.ebrains.eu/computation/GenericComputation",
-        "https://openminds.ebrains.eu/computation/ModelValidation",
-        "https://openminds.ebrains.eu/computation/Optimization",
-        "https://openminds.ebrains.eu/computation/Simulation",
-        "https://openminds.ebrains.eu/computation/Visualization",
-        "https://openminds.ebrains.eu/computation/WorkflowExecution"
+        "computation:DataAnalysis",
+        "computation:DataCopy",
+        "computation:GenericComputation",
+        "computation:ModelValidation",
+        "computation:Optimization",
+        "computation:Simulation",
+        "computation:Visualization",
+        "computation:WorkflowExecution"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/DataAnalysis",
@@ -12939,7 +12949,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/ActionStatusType"
+          "controlledTerms:ActionStatusType"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/ActionStatusType"
@@ -12955,13 +12965,13 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/DataAnalysis",
-        "https://openminds.ebrains.eu/computation/DataCopy",
-        "https://openminds.ebrains.eu/computation/GenericComputation",
-        "https://openminds.ebrains.eu/computation/ModelValidation",
-        "https://openminds.ebrains.eu/computation/Optimization",
-        "https://openminds.ebrains.eu/computation/Simulation",
-        "https://openminds.ebrains.eu/computation/Visualization"
+        "computation:DataAnalysis",
+        "computation:DataCopy",
+        "computation:GenericComputation",
+        "computation:ModelValidation",
+        "computation:Optimization",
+        "computation:Simulation",
+        "computation:Visualization"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/DataAnalysis",
@@ -13099,6 +13109,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "core:QuantitativeValue",
           "https://openminds.ebrains.eu/core/QuantitativeValue"
         ],
         "v1.0": [
@@ -13121,7 +13132,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/LocalFile",
+        "computation:LocalFile",
         "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileBundle",
         "https://openminds.ebrains.eu/core/FileRepository"
@@ -13443,17 +13454,17 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
+        "computation:DataAnalysis",
+        "computation:DataCopy",
+        "computation:GenericComputation",
+        "computation:ModelValidation",
+        "computation:Optimization",
+        "computation:Simulation",
+        "computation:ValidationTest",
+        "computation:Visualization",
         "ephys:CellPatching",
         "ephys:ElectrodePlacement",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/computation/DataAnalysis",
-        "https://openminds.ebrains.eu/computation/DataCopy",
-        "https://openminds.ebrains.eu/computation/GenericComputation",
-        "https://openminds.ebrains.eu/computation/ModelValidation",
-        "https://openminds.ebrains.eu/computation/Optimization",
-        "https://openminds.ebrains.eu/computation/Simulation",
-        "https://openminds.ebrains.eu/computation/ValidationTest",
-        "https://openminds.ebrains.eu/computation/Visualization",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/Model",
         "https://openminds.ebrains.eu/core/ProtocolExecution",
@@ -13537,8 +13548,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/ModelVersion",
@@ -13777,13 +13788,13 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/DataAnalysis",
-        "https://openminds.ebrains.eu/computation/DataCopy",
-        "https://openminds.ebrains.eu/computation/GenericComputation",
-        "https://openminds.ebrains.eu/computation/ModelValidation",
-        "https://openminds.ebrains.eu/computation/Optimization",
-        "https://openminds.ebrains.eu/computation/Simulation",
-        "https://openminds.ebrains.eu/computation/Visualization"
+        "computation:DataAnalysis",
+        "computation:DataCopy",
+        "computation:GenericComputation",
+        "computation:ModelValidation",
+        "computation:Optimization",
+        "computation:Simulation",
+        "computation:Visualization"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/DataAnalysis",
@@ -13861,8 +13872,7 @@
           "controlledTerms:MRIWeighting",
           "controlledTerms:StimulationApproach",
           "controlledTerms:StimulationTechnique",
-          "controlledTerms:Technique",
-          "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique"
+          "controlledTerms:Technique"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/Technique"
@@ -13887,13 +13897,13 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/DataAnalysis",
-        "https://openminds.ebrains.eu/computation/DataCopy",
-        "https://openminds.ebrains.eu/computation/GenericComputation",
-        "https://openminds.ebrains.eu/computation/ModelValidation",
-        "https://openminds.ebrains.eu/computation/Optimization",
-        "https://openminds.ebrains.eu/computation/Simulation",
-        "https://openminds.ebrains.eu/computation/Visualization",
+        "computation:DataAnalysis",
+        "computation:DataCopy",
+        "computation:GenericComputation",
+        "computation:ModelValidation",
+        "computation:Optimization",
+        "computation:Simulation",
+        "computation:Visualization",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/Protocol"
       ],
@@ -14523,9 +14533,9 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/HardwareSystem",
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:HardwareSystem",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/ModelVersion",
@@ -14598,8 +14608,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/ModelVersion",
@@ -14748,13 +14758,13 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/computation/DataAnalysis",
-          "https://openminds.ebrains.eu/computation/DataCopy",
-          "https://openminds.ebrains.eu/computation/GenericComputation",
-          "https://openminds.ebrains.eu/computation/ModelValidation",
-          "https://openminds.ebrains.eu/computation/Optimization",
-          "https://openminds.ebrains.eu/computation/Simulation",
-          "https://openminds.ebrains.eu/computation/Visualization"
+          "computation:DataAnalysis",
+          "computation:DataCopy",
+          "computation:GenericComputation",
+          "computation:ModelValidation",
+          "computation:Optimization",
+          "computation:Simulation",
+          "computation:Visualization"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/computation/DataAnalysis",
@@ -14776,13 +14786,13 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/computation/DataAnalysis",
-        "https://openminds.ebrains.eu/computation/DataCopy",
-        "https://openminds.ebrains.eu/computation/GenericComputation",
-        "https://openminds.ebrains.eu/computation/ModelValidation",
-        "https://openminds.ebrains.eu/computation/Optimization",
-        "https://openminds.ebrains.eu/computation/Simulation",
-        "https://openminds.ebrains.eu/computation/Visualization"
+        "computation:DataAnalysis",
+        "computation:DataCopy",
+        "computation:GenericComputation",
+        "computation:ModelValidation",
+        "computation:Optimization",
+        "computation:Simulation",
+        "computation:Visualization"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/DataAnalysis",

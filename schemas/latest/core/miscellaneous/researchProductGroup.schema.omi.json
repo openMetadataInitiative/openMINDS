@@ -17,10 +17,10 @@
     "https://openminds.ebrains.eu/vocab/hasPart": {
       "_instruction": "Add all research products (research product versions) that should be grouped under the given 'context'.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/computation/ValidationTest",
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipe",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTest",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipe",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/Dataset",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModel",

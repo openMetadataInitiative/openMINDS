@@ -1,7 +1,7 @@
 {
   "latest": {
     "agent": [
-      "https://openminds.ebrains.eu/computation/SoftwareAgent",
+      "computation:SoftwareAgent",
       "https://openminds.ebrains.eu/core/Person"
     ],
     "anatomicalLocation": [
@@ -19,13 +19,13 @@
       "sands:SingleColor"
     ],
     "computationalActivity": [
-      "https://openminds.ebrains.eu/computation/DataAnalysis",
-      "https://openminds.ebrains.eu/computation/DataCopy",
-      "https://openminds.ebrains.eu/computation/GenericComputation",
-      "https://openminds.ebrains.eu/computation/ModelValidation",
-      "https://openminds.ebrains.eu/computation/Optimization",
-      "https://openminds.ebrains.eu/computation/Simulation",
-      "https://openminds.ebrains.eu/computation/Visualization"
+      "computation:DataAnalysis",
+      "computation:DataCopy",
+      "computation:GenericComputation",
+      "computation:ModelValidation",
+      "computation:Optimization",
+      "computation:Simulation",
+      "computation:Visualization"
     ],
     "coordinateSpace": [
       "sands:CommonCoordinateSpace",
@@ -39,13 +39,13 @@
       "specimenPrep:SlicingDeviceUsage"
     ],
     "fileOrigin": [
+      "computation:LocalFile",
       "controlledTerms:AnalysisTechnique",
       "controlledTerms:MRIPulseSequence",
       "controlledTerms:MRIWeighting",
       "controlledTerms:StimulationApproach",
       "controlledTerms:StimulationTechnique",
       "controlledTerms:Technique",
-      "https://openminds.ebrains.eu/computation/LocalFile",
       "https://openminds.ebrains.eu/core/BehavioralProtocol",
       "https://openminds.ebrains.eu/core/File",
       "https://openminds.ebrains.eu/core/FileBundle",
@@ -160,10 +160,10 @@
       "publications:ScholarlyArticle"
     ],
     "researchProduct": [
-      "https://openminds.ebrains.eu/computation/ValidationTest",
-      "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-      "https://openminds.ebrains.eu/computation/WorkflowRecipe",
-      "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+      "computation:ValidationTest",
+      "computation:ValidationTestVersion",
+      "computation:WorkflowRecipe",
+      "computation:WorkflowRecipeVersion",
       "https://openminds.ebrains.eu/core/Dataset",
       "https://openminds.ebrains.eu/core/DatasetVersion",
       "https://openminds.ebrains.eu/core/MetaDataModel",
