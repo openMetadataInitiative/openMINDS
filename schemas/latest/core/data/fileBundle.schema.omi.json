@@ -33,6 +33,7 @@
     "https://openminds.ebrains.eu/vocab/groupedBy": {
       "_instruction": "Add all entities that defined which files were grouped into this file bundle. Note that the schema types of the instances stated here, need to match the ones stated under 'groupingType'.",
       "_linkedTypes": [
+        "computation:LocalFile",
         "controlledTerms:AnalysisTechnique",
         "controlledTerms:AuditoryStimulusType",
         "controlledTerms:BiologicalOrder",
@@ -64,7 +65,6 @@
         "controlledTerms:TissueSampleType",
         "controlledTerms:UBERONParcellation",
         "controlledTerms:VisualStimulusType",
-        "https://openminds.ebrains.eu/computation/LocalFile",
         "https://openminds.ebrains.eu/core/BehavioralProtocol",
         "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileBundle",

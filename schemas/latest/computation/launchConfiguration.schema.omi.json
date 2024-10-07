@@ -1,9 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/computation/LaunchConfiguration",
-  "color": "#E69034",
-  "description": "Structured information about the launch of a computational process.",
-  "label": "Launch configuration",
-  "name": "LaunchConfiguration",
+  "_type": "computation:LaunchConfiguration",
+  "label": "Computation:launch configuration",
+  "name": "computation:LaunchConfiguration",
   "properties": {
     "https://openminds.ebrains.eu/vocab/argument": {
       "_instruction": "Enter all command line arguments for this launch configuration.",
@@ -33,7 +31,7 @@
     "https://openminds.ebrains.eu/vocab/environmentVariable": {
       "_instruction": "Add any environment variables defined by this launch configuration.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/PropertyValueList"
+        "core:PropertyValueList"
       ],
       "label": "Environment variable",
       "labelPlural": "Environment variables",

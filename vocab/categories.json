@@ -1,7 +1,7 @@
 {
   "latest": {
     "agent": [
-      "https://openminds.ebrains.eu/computation/SoftwareAgent",
+      "computation:SoftwareAgent",
       "https://openminds.ebrains.eu/core/Person"
     ],
     "anatomicalLocation": [
@@ -19,13 +19,13 @@
       "sands:SingleColor"
     ],
     "computationalActivity": [
-      "https://openminds.ebrains.eu/computation/DataAnalysis",
-      "https://openminds.ebrains.eu/computation/DataCopy",
-      "https://openminds.ebrains.eu/computation/GenericComputation",
-      "https://openminds.ebrains.eu/computation/ModelValidation",
-      "https://openminds.ebrains.eu/computation/Optimization",
-      "https://openminds.ebrains.eu/computation/Simulation",
-      "https://openminds.ebrains.eu/computation/Visualization"
+      "computation:DataAnalysis",
+      "computation:DataCopy",
+      "computation:GenericComputation",
+      "computation:ModelValidation",
+      "computation:Optimization",
+      "computation:Simulation",
+      "computation:Visualization"
     ],
     "coordinateSpace": [
       "sands:CommonCoordinateSpace",
@@ -36,16 +36,17 @@
       "ephys:ElectrodeArrayUsage",
       "ephys:ElectrodeUsage",
       "ephys:PipetteUsage",
+      "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
       "specimenPrep:SlicingDeviceUsage"
     ],
     "fileOrigin": [
+      "computation:LocalFile",
       "controlledTerms:AnalysisTechnique",
       "controlledTerms:MRIPulseSequence",
       "controlledTerms:MRIWeighting",
       "controlledTerms:StimulationApproach",
       "controlledTerms:StimulationTechnique",
       "controlledTerms:Technique",
-      "https://openminds.ebrains.eu/computation/LocalFile",
       "https://openminds.ebrains.eu/core/BehavioralProtocol",
       "https://openminds.ebrains.eu/core/File",
       "https://openminds.ebrains.eu/core/FileBundle",
@@ -160,10 +161,10 @@
       "publications:ScholarlyArticle"
     ],
     "researchProduct": [
-      "https://openminds.ebrains.eu/computation/ValidationTest",
-      "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-      "https://openminds.ebrains.eu/computation/WorkflowRecipe",
-      "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+      "computation:ValidationTest",
+      "computation:ValidationTestVersion",
+      "computation:WorkflowRecipe",
+      "computation:WorkflowRecipeVersion",
       "https://openminds.ebrains.eu/core/Dataset",
       "https://openminds.ebrains.eu/core/DatasetVersion",
       "https://openminds.ebrains.eu/core/MetaDataModel",
@@ -187,6 +188,7 @@
       "ephys:Pipette",
       "https://openminds.ebrains.eu/core/Setup",
       "https://openminds.ebrains.eu/core/SoftwareVersion",
+      "https://openminds.ebrains.eu/neuroimaging/MRIScanner",
       "specimenPrep:SlicingDevice"
     ],
     "stimulus": [
@@ -303,8 +305,6 @@
     "fileOrigin": [
       "https://openminds.ebrains.eu/computation/LocalFile",
       "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
-      "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
-      "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
       "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
       "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
       "https://openminds.ebrains.eu/controlledTerms/Technique",
@@ -361,8 +361,6 @@
       "https://openminds.ebrains.eu/controlledTerms/Language",
       "https://openminds.ebrains.eu/controlledTerms/Laterality",
       "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
-      "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
-      "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
       "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
       "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
       "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
@@ -451,9 +449,6 @@
       "https://openminds.ebrains.eu/ephys/Pipette",
       "https://openminds.ebrains.eu/specimenPrep/SlicingDevice"
     ],
-    "stimulus": [
-      "https://openminds.ebrains.eu/stimulation/EphysStimulus"
-    ],
     "stimulusType": [
       "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
       "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
@@ -486,7 +481,6 @@
       "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
       "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
       "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
-      "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
       "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
       "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType",
       "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
@@ -495,8 +489,6 @@
     ],
     "technique": [
       "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
-      "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
-      "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
       "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
       "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
       "https://openminds.ebrains.eu/controlledTerms/Technique"

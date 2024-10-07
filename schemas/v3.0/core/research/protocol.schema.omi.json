@@ -6,7 +6,7 @@
   "name": "Protocol",
   "properties": {
     "https://openminds.ebrains.eu/vocab/describedIn": {
-      "_instruction": "Add a publication or file in which this protocol is (originally) described in detail.",
+      "_instruction": "Add a publication or file in which this behavioral protocol is (originally) described in detail.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
         "https://openminds.ebrains.eu/core/File",
@@ -64,8 +64,6 @@
       "_instruction": "Add all techniques (including stimulation approaches and/or techniques) that were used in this protocol.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
-        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
-        "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
         "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
         "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
         "https://openminds.ebrains.eu/controlledTerms/Technique"

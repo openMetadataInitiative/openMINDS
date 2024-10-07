@@ -20,10 +20,10 @@
     "https://openminds.ebrains.eu/vocab/about": {
       "_instruction": "Add all research product (versions) this learning resource are about. Note that the learning resource should supplement the usage of the research product (versions) with e.g., instructions on their usage or additional information.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/computation/ValidationTest",
-        "https://openminds.ebrains.eu/computation/ValidationTestVersion",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipe",
-        "https://openminds.ebrains.eu/computation/WorkflowRecipeVersion",
+        "computation:ValidationTest",
+        "computation:ValidationTestVersion",
+        "computation:WorkflowRecipe",
+        "computation:WorkflowRecipeVersion",
         "https://openminds.ebrains.eu/core/Dataset",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModel",

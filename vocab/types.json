@@ -39,6 +39,176 @@
     "name": "chemicals:ProductSource",
     "semanticEquivalent": []
   },
+  "computation:DataAnalysis": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Computation:data analysis",
+    "name": "computation:DataAnalysis",
+    "semanticEquivalent": []
+  },
+  "computation:DataCopy": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Computation:data copy",
+    "name": "computation:DataCopy",
+    "semanticEquivalent": []
+  },
+  "computation:Environment": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Computation:environment",
+    "name": "computation:Environment",
+    "semanticEquivalent": []
+  },
+  "computation:GenericComputation": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Computation:generic computation",
+    "name": "computation:GenericComputation",
+    "semanticEquivalent": []
+  },
+  "computation:HardwareSystem": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Computation:hardware system",
+    "name": "computation:HardwareSystem",
+    "semanticEquivalent": []
+  },
+  "computation:LaunchConfiguration": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Computation:launch configuration",
+    "name": "computation:LaunchConfiguration",
+    "semanticEquivalent": []
+  },
+  "computation:LocalFile": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Computation:local file",
+    "name": "computation:LocalFile",
+    "semanticEquivalent": []
+  },
+  "computation:ModelValidation": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Computation:model validation",
+    "name": "computation:ModelValidation",
+    "semanticEquivalent": []
+  },
+  "computation:Optimization": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Computation:optimization",
+    "name": "computation:Optimization",
+    "semanticEquivalent": []
+  },
+  "computation:Simulation": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Computation:simulation",
+    "name": "computation:Simulation",
+    "semanticEquivalent": []
+  },
+  "computation:SoftwareAgent": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Computation:software agent",
+    "name": "computation:SoftwareAgent",
+    "semanticEquivalent": []
+  },
+  "computation:ValidationTest": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Computation:validation test",
+    "name": "computation:ValidationTest",
+    "semanticEquivalent": []
+  },
+  "computation:ValidationTestVersion": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Computation:validation test version",
+    "name": "computation:ValidationTestVersion",
+    "semanticEquivalent": []
+  },
+  "computation:Visualization": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Computation:visualization",
+    "name": "computation:Visualization",
+    "semanticEquivalent": []
+  },
+  "computation:WorkflowExecution": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Computation:workflow execution",
+    "name": "computation:WorkflowExecution",
+    "semanticEquivalent": []
+  },
+  "computation:WorkflowRecipe": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Computation:workflow recipe",
+    "name": "computation:WorkflowRecipe",
+    "semanticEquivalent": []
+  },
+  "computation:WorkflowRecipeVersion": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Computation:workflow recipe version",
+    "name": "computation:WorkflowRecipeVersion",
+    "semanticEquivalent": []
+  },
   "controlledTerms:ActionStatusType": {
     "color": null,
     "description": null,
@@ -993,7 +1163,6 @@
     "color": "#00B6C5",
     "description": "Structured information on inspecting, cleansing, transforming, and modelling data.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Data analysis",
@@ -1004,7 +1173,6 @@
     "color": "#29607C",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Data copy",
@@ -1015,7 +1183,6 @@
     "color": "#1B782A",
     "description": "Structured information on the computer system or set of systems in which a computation is deployed and executed.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Environment",
@@ -1026,7 +1193,6 @@
     "color": "#FFB789",
     "description": "Structured information about a computation whose type is unknown or unspecified.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Generic computation",
@@ -1037,7 +1203,6 @@
     "color": "#1E2324",
     "description": "Structured information about computing hardware.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Hardware system",
@@ -1048,7 +1213,6 @@
     "color": "#E69034",
     "description": "Structured information about the launch of a computational process.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Launch configuration",
@@ -1059,7 +1223,6 @@
     "color": "#B787A8",
     "description": "Structured information about a file that is not accessible via a URL.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Local file",
@@ -1070,7 +1233,6 @@
     "color": "#436E83",
     "description": "Structured information about a process of validating a computational model.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Model validation",
@@ -1081,7 +1243,6 @@
     "color": "#9D8C76",
     "description": "Structured information about a process of optimizing a model or a piece of code.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Optimization",
@@ -1092,7 +1253,6 @@
     "color": "#5B9C8F",
     "description": "Structured information about a process of running simulations of a computational model.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Simulation",
@@ -1103,7 +1263,6 @@
     "color": "#8D6F81",
     "description": "Structured information about a piece of software or web service that can perform a task autonomously.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Software agent",
@@ -1114,7 +1273,6 @@
     "color": "#813D3A",
     "description": "Structured information about the definition of a process for validating a computational model.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Validation test",
@@ -1125,7 +1283,6 @@
     "color": "#3E7158",
     "description": "Structured information about a specific implementation of a validation test.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Validation test version",
@@ -1136,7 +1293,6 @@
     "color": "#DA0004",
     "description": "Structured information about a process of visualizing a computational model, a computational process, or a dataset.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Visualization",
@@ -1147,7 +1303,6 @@
     "color": "#F4ABAA",
     "description": "Structured information about an execution of a computational workflow.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Workflow execution",
@@ -1158,7 +1313,6 @@
     "color": "#AA62C3",
     "description": "Structured information about the description of a prospective workflow.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Workflow recipe",
@@ -1169,7 +1323,6 @@
     "color": "#4B2C00",
     "description": "Structured information about a specific implemented version of a workflow recipe.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Workflow recipe version",
@@ -1634,26 +1787,6 @@
     ],
     "label": "Learning resource type",
     "name": "LearningResourceType",
-    "semanticEquivalent": []
-  },
-  "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence": {
-    "color": null,
-    "description": null,
-    "isPartOfVersion": [
-      "v3.0"
-    ],
-    "label": "Mripulse sequence",
-    "name": "MRIPulseSequence",
-    "semanticEquivalent": []
-  },
-  "https://openminds.ebrains.eu/controlledTerms/MRIWeighting": {
-    "color": null,
-    "description": null,
-    "isPartOfVersion": [
-      "v3.0"
-    ],
-    "label": "Mriweighting",
-    "name": "MRIWeighting",
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity": {
@@ -3133,6 +3266,96 @@
     ],
     "label": "Recording activity",
     "name": "RecordingActivity",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/neuroimaging/FunctionalMRIAcquisition": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Functional mriacquisition",
+    "name": "FunctionalMRIAcquisition",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/neuroimaging/Image": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Image",
+    "name": "Image",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/neuroimaging/ImageSequence": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Image sequence",
+    "name": "ImageSequence",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/neuroimaging/ImageStack": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Image stack",
+    "name": "ImageStack",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/neuroimaging/MRIScanner": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Mriscanner",
+    "name": "MRIScanner",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Mriscanner usage",
+    "name": "MRIScannerUsage",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/neuroimaging/StructuralMRIAcquisition": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Structural mriacquisition",
+    "name": "StructuralMRIAcquisition",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/neuroimaging/Volume": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Volume",
+    "name": "Volume",
+    "semanticEquivalent": []
+  },
+  "https://openminds.ebrains.eu/neuroimaging/VolumeSequence": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Volume sequence",
+    "name": "VolumeSequence",
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/publications/Book": {

@@ -1,14 +1,12 @@
 {
-  "_type": "https://openminds.ebrains.eu/computation/Environment",
-  "color": "#1B782A",
-  "description": "Structured information on the computer system or set of systems in which a computation is deployed and executed.",
-  "label": "Environment",
-  "name": "Environment",
+  "_type": "computation:Environment",
+  "label": "Computation:environment",
+  "name": "computation:Environment",
   "properties": {
     "https://openminds.ebrains.eu/vocab/configuration": {
       "_instruction": "Add the configuration of this computational environment.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Configuration"
+        "core:Configuration"
       ],
       "label": "Configuration",
       "labelPlural": "Configurations",
@@ -30,7 +28,7 @@
     "https://openminds.ebrains.eu/vocab/hardware": {
       "_instruction": "Add the hardware system on which this computational environment runs.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/computation/HardwareSystem"
+        "computation:HardwareSystem"
       ],
       "label": "Hardware",
       "labelPlural": "Hardware",
@@ -52,7 +50,7 @@
     "https://openminds.ebrains.eu/vocab/software": {
       "_instruction": "Add all software versions available in this computational environment.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
+        "core:SoftwareVersion"
       ],
       "label": "Software",
       "labelPlural": "Software",
