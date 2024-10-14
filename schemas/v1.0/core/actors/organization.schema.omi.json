@@ -1,4 +1,7 @@
 {
+  "_categories": [
+    "legalPerson"
+  ],
   "_type": "https://openminds.ebrains.eu/core/Organization",
   "color": "#ADAAA9",
   "description": "An entity comprised of one or more natural persons with a particular purpose. [adapted from Wikipedia](https://en.wikipedia.org/wiki/Organization)",
@@ -8,7 +11,8 @@
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add one or several globally unique and persistent digital identifier for this organization.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+        "https://openminds.ebrains.eu/core/GRIDID",
+        "https://openminds.ebrains.eu/core/RORID"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -44,16 +48,16 @@
       "namePlural": "hasParents"
     },
     "https://openminds.ebrains.eu/vocab/homepage": {
-      "_instruction": "Enter a internationalized resource identifier (IRI) to the homepage of this organization.",
+      "_instruction": "Add the uniform resource locator (URL) to the homepage of this organization.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/URL"
+      ],
       "description": "Main website of something or someone.",
-      "format": "iri",
-      "formatting": "text/plain",
       "label": "Homepage",
       "labelPlural": "Homepages",
-      "multiline": false,
       "name": "homepage",
-      "namePlural": "homepages",
-      "type": "string"
+      "nameForReverseLink": null,
+      "namePlural": "homepages"
     },
     "https://openminds.ebrains.eu/vocab/shortName": {
       "_instruction": "Enter the short name of this organization.",
