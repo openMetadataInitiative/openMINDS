@@ -3253,6 +3253,12 @@
           "ephys:ElectrodeUsage",
           "ephys:PipetteUsage",
           "specimenPrep:SlicingDeviceUsage"
+        ],
+        "v3.0": [
+          "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
+          "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
+          "https://openminds.ebrains.eu/ephys/PipetteUsage",
+          "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
         ]
       },
       "nameForReverseLink": null
@@ -3266,6 +3272,9 @@
     "usedIn": {
       "latest": [
         "stimulation:EphysStimulus"
+      ],
+      "v3.0": [
+        "https://openminds.ebrains.eu/stimulation/EphysStimulus"
       ]
     }
   },
@@ -3724,6 +3733,7 @@
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
         "https://openminds.ebrains.eu/specimenPrep/SlicingDevice",
+        "https://openminds.ebrains.eu/stimulation/EphysStimulus",
         "https://openminds.ebrains.eu/stimulation/StimulationActivity"
       ]
     }
@@ -4567,6 +4577,9 @@
       "canPointTo": {
         "latest": [
           "core:QuantitativeValue"
+        ],
+        "v3.0": [
+          "https://openminds.ebrains.eu/core/QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -4578,6 +4591,9 @@
     "usedIn": {
       "latest": [
         "stimulation:EphysStimulus"
+      ],
+      "v3.0": [
+        "https://openminds.ebrains.eu/stimulation/EphysStimulus"
       ]
     }
   },
@@ -5221,6 +5237,12 @@
           "ephys:ElectrodeUsage",
           "ephys:PipetteUsage",
           "specimenPrep:SlicingDeviceUsage"
+        ],
+        "v3.0": [
+          "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
+          "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
+          "https://openminds.ebrains.eu/ephys/PipetteUsage",
+          "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
         ]
       },
       "nameForReverseLink": null
@@ -5234,6 +5256,9 @@
     "usedIn": {
       "latest": [
         "stimulation:EphysStimulus"
+      ],
+      "v3.0": [
+        "https://openminds.ebrains.eu/stimulation/EphysStimulus"
       ]
     }
   },
@@ -7146,7 +7171,8 @@
         "https://openminds.ebrains.eu/ephys/Recording",
         "https://openminds.ebrains.eu/ephys/RecordingActivity",
         "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-        "https://openminds.ebrains.eu/sands/CustomAnnotation"
+        "https://openminds.ebrains.eu/sands/CustomAnnotation",
+        "https://openminds.ebrains.eu/stimulation/EphysStimulus"
       ]
     }
   },
@@ -8385,6 +8411,7 @@
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation",
         "https://openminds.ebrains.eu/specimenPrep/SlicingDevice",
         "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage",
+        "https://openminds.ebrains.eu/stimulation/EphysStimulus",
         "https://openminds.ebrains.eu/stimulation/StimulationActivity"
       ]
     }
@@ -12681,7 +12708,9 @@
           "core:PropertyValueList"
         ],
         "v3.0": [
+          "https://openminds.ebrains.eu/core/Configuration",
           "https://openminds.ebrains.eu/core/File",
+          "https://openminds.ebrains.eu/core/FileBundle",
           "https://openminds.ebrains.eu/core/PropertyValueList"
         ]
       },
@@ -12715,7 +12744,8 @@
       "v3.0": [
         "https://openminds.ebrains.eu/core/ContentType",
         "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-        "https://openminds.ebrains.eu/sands/CustomAnnotation"
+        "https://openminds.ebrains.eu/sands/CustomAnnotation",
+        "https://openminds.ebrains.eu/stimulation/EphysStimulus"
       ]
     }
   },
@@ -13018,6 +13048,9 @@
       "canPointTo": {
         "latest": [
           "stimulation:EphysStimulus"
+        ],
+        "v3.0": [
+          "https://openminds.ebrains.eu/stimulation/EphysStimulus"
         ]
       },
       "nameForReverseLink": null

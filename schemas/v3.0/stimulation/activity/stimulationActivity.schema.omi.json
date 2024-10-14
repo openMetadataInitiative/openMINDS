@@ -169,11 +169,14 @@
     },
     "https://openminds.ebrains.eu/vocab/stimulus": {
       "_instruction": "Add all stimuli used during this activity.",
-      "_linkedTypes": [],
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/stimulation/EphysStimulus"
+      ],
       "label": "Stimulus",
       "labelPlural": "Stimuli",
       "minItems": 1,
       "name": "stimulus",
+      "nameForReverseLink": null,
       "namePlural": "stimuli",
       "type": "array",
       "uniqueItems": true
