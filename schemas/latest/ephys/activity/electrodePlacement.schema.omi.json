@@ -5,7 +5,7 @@
   "properties": {
     "https://openminds.ebrains.eu/vocab/customPropertySet": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/CustomPropertySet"
+        "core:CustomPropertySet"
       ],
       "_instruction": "Add any user-defined parameters grouped in context-specific sets that are not covered in the standardized properties of this activity.",
       "label": "Custom property set",
@@ -34,7 +34,7 @@
         "ephys:ElectrodeArrayUsage",
         "ephys:ElectrodeUsage",
         "ephys:PipetteUsage",
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
+        "neuroimaging:MRIScannerUsage",
         "specimenPrep:SlicingDeviceUsage"
       ],
       "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
@@ -80,7 +80,7 @@
     "https://openminds.ebrains.eu/vocab/isPartOf": {
       "_instruction": "Add the dataset version in which this activity was conducted.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DatasetVersion"
+        "core:DatasetVersion"
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
@@ -119,7 +119,7 @@
       "_instruction": "Add all agents that performed this activity.",
       "_linkedTypes": [
         "computation:SoftwareAgent",
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Person"
       ],
       "label": "Performed by",
       "labelPlural": "Performed by",
@@ -133,7 +133,7 @@
     "https://openminds.ebrains.eu/vocab/preparationDesign": {
       "_instruction": "Add the initial preparation type for this activity.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/PreparationType"
+        "controlledTerms:PreparationType"
       ],
       "label": "Preparation design",
       "labelPlural": "Preparation designs",
@@ -144,7 +144,7 @@
     "https://openminds.ebrains.eu/vocab/protocol": {
       "_instruction": "Add all protocols used during this activity.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Protocol"
+        "core:Protocol"
       ],
       "description": "Plan that describes the process of a scientific or medical experiment, treatment, or procedure.",
       "label": "Protocol",

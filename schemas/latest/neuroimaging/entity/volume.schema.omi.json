@@ -1,7 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/neuroimaging/Volume",
-  "label": "Volume",
-  "name": "Volume",
+  "_type": "neuroimaging:Volume",
+  "label": "Neuroimaging:volume",
+  "name": "neuroimaging:Volume",
   "properties": {
     "https://openminds.ebrains.eu/vocab/additionalRemarks": {
       "_instruction": "Enter any additional remarks concerning this volume.",
@@ -20,7 +20,7 @@
         "ephys:ElectrodeArrayUsage",
         "ephys:ElectrodeUsage",
         "ephys:PipetteUsage",
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
+        "neuroimaging:MRIScannerUsage",
         "specimenPrep:SlicingDeviceUsage"
       ],
       "label": "Captured with",
@@ -43,7 +43,7 @@
     "https://openminds.ebrains.eu/vocab/dataLocation": {
       "_instruction": "Add the location of the file or file bundle in which the volume is stored.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File"
+        "core:File"
       ],
       "label": "Data location",
       "labelPlural": "Data locations",
@@ -82,7 +82,7 @@
     },
     "https://openminds.ebrains.eu/vocab/voxelSize": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter the physical voxel size for this image (in x,y,z order).",
       "description": "Extent of the discrete elements comprising a three-dimensional entity.",

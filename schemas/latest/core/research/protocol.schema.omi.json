@@ -1,16 +1,14 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/Protocol",
-  "color": "#E98176",
-  "description": "Structured information on a research project.",
-  "label": "Protocol",
-  "name": "Protocol",
+  "_type": "core:Protocol",
+  "label": "Core:protocol",
+  "name": "core:Protocol",
   "properties": {
     "https://openminds.ebrains.eu/vocab/describedIn": {
       "_instruction": "Add a publication or file in which this protocol is (originally) described in detail.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/WebResource"
+        "core:DOI",
+        "core:File",
+        "core:WebResource"
       ],
       "label": "Described in",
       "labelPlural": "Described in",

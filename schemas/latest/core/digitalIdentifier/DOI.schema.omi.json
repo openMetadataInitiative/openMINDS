@@ -2,11 +2,9 @@
   "_categories": [
     "publicationReference"
   ],
-  "_type": "https://openminds.ebrains.eu/core/DOI",
-  "color": "#766B7E",
-  "description": "Structured information about a digital object identifier, as standardized by the International Organization for Standardization.",
-  "label": "Doi",
-  "name": "DOI",
+  "_type": "core:DOI",
+  "label": "Core:doi",
+  "name": "core:DOI",
   "properties": {
     "https://openminds.ebrains.eu/vocab/identifier": {
       "_instruction": "Enter the unique and persistent object identifier provided by the International Digital Object Identifier Foundation ('Digital Object Identifier'; DOI) as an internationalized resource identifier (IRI) following the defined pattern (i.e., 'https://doi.org/' + DOI).",

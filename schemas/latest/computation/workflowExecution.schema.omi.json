@@ -50,7 +50,7 @@
       "_instruction": "Add the agent that started this workflow execution.",
       "_linkedTypes": [
         "computation:SoftwareAgent",
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Person"
       ],
       "label": "Started by",
       "labelPlural": "Started by",

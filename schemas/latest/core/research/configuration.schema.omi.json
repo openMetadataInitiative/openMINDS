@@ -1,9 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/Configuration",
-  "color": "#CD00C5",
-  "description": "Structured information about the properties or parameters of an entity or process.",
-  "label": "Configuration",
-  "name": "Configuration",
+  "_type": "core:Configuration",
+  "label": "Core:configuration",
+  "name": "core:Configuration",
   "properties": {
     "https://openminds.ebrains.eu/vocab/configuration": {
       "_instruction": "Enter the configuration in a simple text based format (e.g., JSON or YAML).",
@@ -18,7 +16,7 @@
     "https://openminds.ebrains.eu/vocab/format": {
       "_instruction": "Add the content type of this configuration.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "core:ContentType"
       ],
       "description": "Method of digitally organizing and structuring data or information.",
       "label": "Format",

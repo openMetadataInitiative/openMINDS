@@ -2,16 +2,14 @@
   "_categories": [
     "researchProduct"
   ],
-  "_type": "https://openminds.ebrains.eu/core/Model",
-  "color": "#7FBBEC",
-  "description": "Structured information on a computational model (concept level).",
-  "label": "Model",
-  "name": "Model",
+  "_type": "core:Model",
+  "label": "Core:model",
+  "name": "core:Model",
   "properties": {
     "https://openminds.ebrains.eu/vocab/abstractionLevel": {
       "_instruction": "Add the abstraction level of this computational model.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel"
+        "controlledTerms:ModelAbstractionLevel"
       ],
       "description": "Extent of simplification of physical, spatial, or temporal details or attributes in the study of objects or systems.",
       "label": "Abstraction level",
@@ -23,9 +21,9 @@
     "https://openminds.ebrains.eu/vocab/custodian": {
       "_instruction": "Add all parties that fulfill the role of a custodian for this research product (e.g., a research group leader or principle investigator). Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the data, metadata, and/or code of the research product. Unless specified differently, this custodian will be responsible for all attached research product versions.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Consortium",
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Consortium",
+        "core:Organization",
+        "core:Person"
       ],
       "description": "The 'custodian' is a legal person who is responsible for the content and quality of the data, metadata, and/or code of a research product.",
       "label": "Custodian",
@@ -51,9 +49,9 @@
     "https://openminds.ebrains.eu/vocab/developer": {
       "_instruction": "Add all parties that developed this computational model.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Consortium",
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Consortium",
+        "core:Organization",
+        "core:Person"
       ],
       "description": "Legal person that creates or improves products or services (e.g., software, applications, etc.).",
       "label": "Developer",
@@ -68,8 +66,8 @@
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/SWHID"
+        "core:DOI",
+        "core:SWHID"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -92,7 +90,7 @@
     "https://openminds.ebrains.eu/vocab/hasVersion": {
       "_instruction": "Add all versions of this computational model.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ModelVersion"
+        "core:ModelVersion"
       ],
       "description": "Reference to variants of an original.",
       "label": "Has version",
@@ -132,7 +130,7 @@
     "https://openminds.ebrains.eu/vocab/scope": {
       "_instruction": "Add the scope of this computational model.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/ModelScope"
+        "controlledTerms:ModelScope"
       ],
       "description": "Extent of something.",
       "label": "Scope",

@@ -1,8 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/IdentifiersDotOrgID",
-  "color": "#00489C",
-  "label": "Identifiers dot org id",
-  "name": "IdentifiersDotOrgID",
+  "_type": "core:IdentifiersDotOrgID",
+  "label": "Core:identifiers dot org id",
+  "name": "core:IdentifiersDotOrgID",
   "properties": {
     "https://openminds.ebrains.eu/vocab/identifier": {
       "_instruction": "Enter the resolvable identifier (IRI) of Identifiers.org.",

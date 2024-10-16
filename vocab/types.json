@@ -1009,6 +1009,676 @@
     "name": "controlledTerms:VisualStimulusType",
     "semanticEquivalent": []
   },
+  "core:AccountInformation": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:account information",
+    "name": "core:AccountInformation",
+    "semanticEquivalent": []
+  },
+  "core:Affiliation": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:affiliation",
+    "name": "core:Affiliation",
+    "semanticEquivalent": []
+  },
+  "core:BehavioralProtocol": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:behavioral protocol",
+    "name": "core:BehavioralProtocol",
+    "semanticEquivalent": []
+  },
+  "core:Comment": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:comment",
+    "name": "core:Comment",
+    "semanticEquivalent": []
+  },
+  "core:Configuration": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:configuration",
+    "name": "core:Configuration",
+    "semanticEquivalent": []
+  },
+  "core:Consortium": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:consortium",
+    "name": "core:Consortium",
+    "semanticEquivalent": []
+  },
+  "core:ContactInformation": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:contact information",
+    "name": "core:ContactInformation",
+    "semanticEquivalent": []
+  },
+  "core:ContentType": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:content type",
+    "name": "core:ContentType",
+    "semanticEquivalent": []
+  },
+  "core:ContentTypePattern": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:content type pattern",
+    "name": "core:ContentTypePattern",
+    "semanticEquivalent": []
+  },
+  "core:Contribution": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:contribution",
+    "name": "core:Contribution",
+    "semanticEquivalent": []
+  },
+  "core:Copyright": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:copyright",
+    "name": "core:Copyright",
+    "semanticEquivalent": []
+  },
+  "core:CustomPropertySet": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:custom property set",
+    "name": "core:CustomPropertySet",
+    "semanticEquivalent": []
+  },
+  "core:DOI": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:doi",
+    "name": "core:DOI",
+    "semanticEquivalent": []
+  },
+  "core:Dataset": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:dataset",
+    "name": "core:Dataset",
+    "semanticEquivalent": []
+  },
+  "core:DatasetVersion": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:dataset version",
+    "name": "core:DatasetVersion",
+    "semanticEquivalent": []
+  },
+  "core:File": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:file",
+    "name": "core:File",
+    "semanticEquivalent": []
+  },
+  "core:FileArchive": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:file archive",
+    "name": "core:FileArchive",
+    "semanticEquivalent": []
+  },
+  "core:FileBundle": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:file bundle",
+    "name": "core:FileBundle",
+    "semanticEquivalent": []
+  },
+  "core:FilePathPattern": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:file path pattern",
+    "name": "core:FilePathPattern",
+    "semanticEquivalent": []
+  },
+  "core:FileRepository": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:file repository",
+    "name": "core:FileRepository",
+    "semanticEquivalent": []
+  },
+  "core:FileRepositoryStructure": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:file repository structure",
+    "name": "core:FileRepositoryStructure",
+    "semanticEquivalent": []
+  },
+  "core:Funding": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:funding",
+    "name": "core:Funding",
+    "semanticEquivalent": []
+  },
+  "core:GRIDID": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:gridid",
+    "name": "core:GRIDID",
+    "semanticEquivalent": []
+  },
+  "core:HANDLE": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:handle",
+    "name": "core:HANDLE",
+    "semanticEquivalent": []
+  },
+  "core:Hash": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:hash",
+    "name": "core:Hash",
+    "semanticEquivalent": []
+  },
+  "core:ISBN": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:isbn",
+    "name": "core:ISBN",
+    "semanticEquivalent": []
+  },
+  "core:ISSN": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:issn",
+    "name": "core:ISSN",
+    "semanticEquivalent": []
+  },
+  "core:IdentifiersDotOrgID": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:identifiers dot org id",
+    "name": "core:IdentifiersDotOrgID",
+    "semanticEquivalent": []
+  },
+  "core:License": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:license",
+    "name": "core:License",
+    "semanticEquivalent": []
+  },
+  "core:Measurement": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:measurement",
+    "name": "core:Measurement",
+    "semanticEquivalent": []
+  },
+  "core:MetaDataModel": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:meta data model",
+    "name": "core:MetaDataModel",
+    "semanticEquivalent": []
+  },
+  "core:MetaDataModelVersion": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:meta data model version",
+    "name": "core:MetaDataModelVersion",
+    "semanticEquivalent": []
+  },
+  "core:Model": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:model",
+    "name": "core:Model",
+    "semanticEquivalent": []
+  },
+  "core:ModelVersion": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:model version",
+    "name": "core:ModelVersion",
+    "semanticEquivalent": []
+  },
+  "core:NumericalProperty": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:numerical property",
+    "name": "core:NumericalProperty",
+    "semanticEquivalent": []
+  },
+  "core:ORCID": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:orcid",
+    "name": "core:ORCID",
+    "semanticEquivalent": []
+  },
+  "core:Organization": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:organization",
+    "name": "core:Organization",
+    "semanticEquivalent": []
+  },
+  "core:Person": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:person",
+    "name": "core:Person",
+    "semanticEquivalent": []
+  },
+  "core:Project": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:project",
+    "name": "core:Project",
+    "semanticEquivalent": []
+  },
+  "core:PropertyValueList": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:property value list",
+    "name": "core:PropertyValueList",
+    "semanticEquivalent": []
+  },
+  "core:Protocol": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:protocol",
+    "name": "core:Protocol",
+    "semanticEquivalent": []
+  },
+  "core:ProtocolExecution": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:protocol execution",
+    "name": "core:ProtocolExecution",
+    "semanticEquivalent": []
+  },
+  "core:QuantitativeValue": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:quantitative value",
+    "name": "core:QuantitativeValue",
+    "semanticEquivalent": []
+  },
+  "core:QuantitativeValueArray": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:quantitative value array",
+    "name": "core:QuantitativeValueArray",
+    "semanticEquivalent": []
+  },
+  "core:QuantitativeValueRange": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:quantitative value range",
+    "name": "core:QuantitativeValueRange",
+    "semanticEquivalent": []
+  },
+  "core:RORID": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:rorid",
+    "name": "core:RORID",
+    "semanticEquivalent": []
+  },
+  "core:RRID": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:rrid",
+    "name": "core:RRID",
+    "semanticEquivalent": []
+  },
+  "core:ResearchProductGroup": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:research product group",
+    "name": "core:ResearchProductGroup",
+    "semanticEquivalent": []
+  },
+  "core:SWHID": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:swhid",
+    "name": "core:SWHID",
+    "semanticEquivalent": []
+  },
+  "core:ServiceLink": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:service link",
+    "name": "core:ServiceLink",
+    "semanticEquivalent": []
+  },
+  "core:Setup": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:setup",
+    "name": "core:Setup",
+    "semanticEquivalent": []
+  },
+  "core:Software": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:software",
+    "name": "core:Software",
+    "semanticEquivalent": []
+  },
+  "core:SoftwareVersion": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:software version",
+    "name": "core:SoftwareVersion",
+    "semanticEquivalent": []
+  },
+  "core:StockNumber": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:stock number",
+    "name": "core:StockNumber",
+    "semanticEquivalent": []
+  },
+  "core:Strain": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:strain",
+    "name": "core:Strain",
+    "semanticEquivalent": []
+  },
+  "core:StringProperty": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:string property",
+    "name": "core:StringProperty",
+    "semanticEquivalent": []
+  },
+  "core:Subject": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:subject",
+    "name": "core:Subject",
+    "semanticEquivalent": []
+  },
+  "core:SubjectGroup": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:subject group",
+    "name": "core:SubjectGroup",
+    "semanticEquivalent": []
+  },
+  "core:SubjectGroupState": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:subject group state",
+    "name": "core:SubjectGroupState",
+    "semanticEquivalent": []
+  },
+  "core:SubjectState": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:subject state",
+    "name": "core:SubjectState",
+    "semanticEquivalent": []
+  },
+  "core:TissueSample": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:tissue sample",
+    "name": "core:TissueSample",
+    "semanticEquivalent": []
+  },
+  "core:TissueSampleCollection": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:tissue sample collection",
+    "name": "core:TissueSampleCollection",
+    "semanticEquivalent": []
+  },
+  "core:TissueSampleCollectionState": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:tissue sample collection state",
+    "name": "core:TissueSampleCollectionState",
+    "semanticEquivalent": []
+  },
+  "core:TissueSampleState": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:tissue sample state",
+    "name": "core:TissueSampleState",
+    "semanticEquivalent": []
+  },
+  "core:WebResource": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:web resource",
+    "name": "core:WebResource",
+    "semanticEquivalent": []
+  },
+  "core:WebService": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:web service",
+    "name": "core:WebService",
+    "semanticEquivalent": []
+  },
+  "core:WebServiceVersion": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Core:web service version",
+    "name": "core:WebServiceVersion",
+    "semanticEquivalent": []
+  },
   "ephys:CellPatching": {
     "color": null,
     "description": null,
@@ -2272,7 +2942,6 @@
     "color": "#B5D6C3",
     "description": "Structured information about a user account for a web service.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Account information",
@@ -2283,7 +2952,6 @@
     "color": "#A74571",
     "description": "Structured information about a relationship between two entities, such as a person and their employer.",
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -2295,7 +2963,6 @@
     "color": "#73BE54",
     "description": "Structured information about a protocol used in an experiment studying human or animal behavior.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Behavioral protocol",
@@ -2306,7 +2973,6 @@
     "color": "#6EFF92",
     "description": "Structured information about a short text expressing an opinion on, or giving information about some entity.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Comment",
@@ -2317,7 +2983,6 @@
     "color": "#CD00C5",
     "description": "Structured information about the properties or parameters of an entity or process.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Configuration",
@@ -2328,7 +2993,6 @@
     "color": "#C36D96",
     "description": "Structured information about an association of two or more persons or organizations, with the objective of participating in a common activity.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Consortium",
@@ -2339,7 +3003,6 @@
     "color": "#64547B",
     "description": "Structured information about how to contact a given person or consortium.",
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -2351,7 +3014,6 @@
     "color": "#494B5A",
     "description": "Structured information on the content type of a file instance, bundle or repository.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2364,7 +3026,6 @@
     "color": "#72361F",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Content type pattern",
@@ -2375,7 +3036,6 @@
     "color": "#790229",
     "description": "Structured information on the contribution made to a research product.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2388,7 +3048,6 @@
     "color": "#8CD0FF",
     "description": "Structured information on the copyright.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2401,7 +3060,6 @@
     "color": "#009B75",
     "description": "Structured information about properties of an entity that are not represented in an openMINDS schema.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Custom property set",
@@ -2412,7 +3070,6 @@
     "color": "#766B7E",
     "description": "Structured information about a digital object identifier, as standardized by the International Organization for Standardization.",
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -2424,7 +3081,6 @@
     "color": "#F77183",
     "description": "Structured information on data originating from human/animal studies or simulations (concept level).",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2437,7 +3093,6 @@
     "color": "#71555A",
     "description": "Structured information on data originating from human/animal studies or simulations (version level).",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2470,7 +3125,6 @@
     "color": "#AA9297",
     "description": "Structured information on a file instance that is accessible via a URL.",
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -2482,7 +3136,6 @@
     "color": "#83AB58",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "File archive",
@@ -2493,7 +3146,6 @@
     "color": "#91028C",
     "description": "Structured information on a bundle of file instances.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2516,7 +3168,6 @@
     "color": "#564620",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "File path pattern",
@@ -2527,7 +3178,6 @@
     "color": "#682021",
     "description": "Structured information on a file repository.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2540,7 +3190,6 @@
     "color": "#3156DC",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "File repository structure",
@@ -2551,7 +3200,6 @@
     "color": "#73013E",
     "description": "Structured information on used funding.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2564,7 +3212,6 @@
     "color": "#8D918E",
     "description": "A GRID (Global Research Identifier Database) identifier.",
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -2576,7 +3223,6 @@
     "color": "#FF8347",
     "description": "A persistent identifier for an information resource provided by the Handle System of the Corporation for National Research Initiatives.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Handle",
@@ -2587,7 +3233,6 @@
     "color": "#378FDB",
     "description": "Structured information on a hash.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2600,7 +3245,6 @@
     "color": "#1E0200",
     "description": "An International Standard Book Number of the International ISBN Agency.",
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -2612,7 +3256,6 @@
     "color": "#4145A7",
     "description": "An International Standard Serial Number of the ISSN International Centre.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Issn",
@@ -2623,7 +3266,6 @@
     "color": "#00489C",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Identifiers dot org id",
@@ -2634,7 +3276,6 @@
     "color": "#456D75",
     "description": "Structured information on a used license.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2647,7 +3288,6 @@
     "color": "#FFDBE5",
     "description": "Structured information about a measurement performed during a scientific experiment.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Measurement",
@@ -2658,7 +3298,6 @@
     "color": "#602B70",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2671,7 +3310,6 @@
     "color": "#9B9700",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2684,7 +3322,6 @@
     "color": "#7FBBEC",
     "description": "Structured information on a computational model (concept level).",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2697,7 +3334,6 @@
     "color": "#6D80BA",
     "description": "Structured information on a computational model (version level).",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2720,7 +3356,6 @@
     "color": "#B94C59",
     "description": "Structured information about a property of some entity or process whose value is a number.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Numerical property",
@@ -2731,7 +3366,6 @@
     "color": "#852C19",
     "description": "A persistent identifier for a researcher provided by Open Researcher and Contributor ID, Inc.",
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -2743,7 +3377,6 @@
     "color": "#ADAAA9",
     "description": "An entity comprised of one or more natural persons with a particular purpose. [adapted from Wikipedia](https://en.wikipedia.org/wiki/Organization)",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2776,7 +3409,6 @@
     "color": "#E5FDA4",
     "description": "Structured information on a person.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2791,7 +3423,6 @@
     "color": "#8683A9",
     "description": "Structured information on a research project.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2804,7 +3435,6 @@
     "color": "#D7BFC2",
     "description": "An identifiable list of property-value pairs.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Property value list",
@@ -2815,7 +3445,6 @@
     "color": "#E98176",
     "description": "Structured information on a research project.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2828,7 +3457,6 @@
     "color": "#0098FF",
     "description": "Structured information on a protocol execution.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2841,7 +3469,6 @@
     "color": "#0E0D00",
     "description": "Structured information on a quantitative value.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2854,7 +3481,6 @@
     "color": "#8FCCBE",
     "description": "A representation of an array of quantitative values, optionally with uncertainties.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Quantitative value array",
@@ -2865,7 +3491,6 @@
     "color": "#A4E804",
     "description": "A representation of a range of quantitative values.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2878,7 +3503,6 @@
     "color": "#C0B9B2",
     "description": "A persistent identifier for a research organization, provided by the Research Organization Registry.",
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -2890,7 +3514,6 @@
     "color": "#6B543F",
     "description": "A persistent identifier for a research resource provided by the Resource Identification Initiative.",
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Rrid",
@@ -2901,7 +3524,6 @@
     "color": "#920003",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Research product group",
@@ -2912,7 +3534,6 @@
     "color": "#20370E",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0"
     ],
@@ -2924,7 +3545,6 @@
     "color": "#C4DF72",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Service link",
@@ -2935,7 +3555,6 @@
     "color": "#9B585E",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Setup",
@@ -2946,7 +3565,6 @@
     "color": "#511F4D",
     "description": "Structured information on a software tool (concept level).",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2959,7 +3577,6 @@
     "color": "#FFA861",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -2972,7 +3589,6 @@
     "color": "#E8C282",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Stock number",
@@ -2983,7 +3599,6 @@
     "color": "#0089A3",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Strain",
@@ -3004,7 +3619,6 @@
     "color": "#ADAAFF",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "String property",
@@ -3015,7 +3629,6 @@
     "color": "#C86240",
     "description": "Structured information on a subject.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -3028,7 +3641,6 @@
     "color": "#374527",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -3041,7 +3653,6 @@
     "color": "#5EA7FF",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -3054,7 +3665,6 @@
     "color": "#555558",
     "description": "Structured information on a temporary state of a subject.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -3067,7 +3677,6 @@
     "color": "#94A9C9",
     "description": "Structured information on a tissue sample.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -3080,7 +3689,6 @@
     "color": "#00905E",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -3093,7 +3701,6 @@
     "color": "#A697B6",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -3106,7 +3713,6 @@
     "color": "#C7706A",
     "description": "Structured information on a temporary state of a tissue sample.",
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0"
@@ -3129,7 +3735,6 @@
     "color": "#DAA9B5",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Web resource",
@@ -3140,7 +3745,6 @@
     "color": "#6A9573",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Web service",
@@ -3151,7 +3755,6 @@
     "color": "#8D5700",
     "description": null,
     "isPartOfVersion": [
-      "latest",
       "v3.0"
     ],
     "label": "Web service version",
@@ -3266,96 +3869,6 @@
     ],
     "label": "Recording activity",
     "name": "RecordingActivity",
-    "semanticEquivalent": []
-  },
-  "https://openminds.ebrains.eu/neuroimaging/FunctionalMRIAcquisition": {
-    "color": null,
-    "description": null,
-    "isPartOfVersion": [
-      "latest"
-    ],
-    "label": "Functional mriacquisition",
-    "name": "FunctionalMRIAcquisition",
-    "semanticEquivalent": []
-  },
-  "https://openminds.ebrains.eu/neuroimaging/Image": {
-    "color": null,
-    "description": null,
-    "isPartOfVersion": [
-      "latest"
-    ],
-    "label": "Image",
-    "name": "Image",
-    "semanticEquivalent": []
-  },
-  "https://openminds.ebrains.eu/neuroimaging/ImageSequence": {
-    "color": null,
-    "description": null,
-    "isPartOfVersion": [
-      "latest"
-    ],
-    "label": "Image sequence",
-    "name": "ImageSequence",
-    "semanticEquivalent": []
-  },
-  "https://openminds.ebrains.eu/neuroimaging/ImageStack": {
-    "color": null,
-    "description": null,
-    "isPartOfVersion": [
-      "latest"
-    ],
-    "label": "Image stack",
-    "name": "ImageStack",
-    "semanticEquivalent": []
-  },
-  "https://openminds.ebrains.eu/neuroimaging/MRIScanner": {
-    "color": null,
-    "description": null,
-    "isPartOfVersion": [
-      "latest"
-    ],
-    "label": "Mriscanner",
-    "name": "MRIScanner",
-    "semanticEquivalent": []
-  },
-  "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage": {
-    "color": null,
-    "description": null,
-    "isPartOfVersion": [
-      "latest"
-    ],
-    "label": "Mriscanner usage",
-    "name": "MRIScannerUsage",
-    "semanticEquivalent": []
-  },
-  "https://openminds.ebrains.eu/neuroimaging/StructuralMRIAcquisition": {
-    "color": null,
-    "description": null,
-    "isPartOfVersion": [
-      "latest"
-    ],
-    "label": "Structural mriacquisition",
-    "name": "StructuralMRIAcquisition",
-    "semanticEquivalent": []
-  },
-  "https://openminds.ebrains.eu/neuroimaging/Volume": {
-    "color": null,
-    "description": null,
-    "isPartOfVersion": [
-      "latest"
-    ],
-    "label": "Volume",
-    "name": "Volume",
-    "semanticEquivalent": []
-  },
-  "https://openminds.ebrains.eu/neuroimaging/VolumeSequence": {
-    "color": null,
-    "description": null,
-    "isPartOfVersion": [
-      "latest"
-    ],
-    "label": "Volume sequence",
-    "name": "VolumeSequence",
     "semanticEquivalent": []
   },
   "https://openminds.ebrains.eu/publications/Book": {
@@ -3854,6 +4367,96 @@
     ],
     "label": "Stimulation activity",
     "name": "StimulationActivity",
+    "semanticEquivalent": []
+  },
+  "neuroimaging:FunctionalMRIAcquisition": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Neuroimaging:functional mriacquisition",
+    "name": "neuroimaging:FunctionalMRIAcquisition",
+    "semanticEquivalent": []
+  },
+  "neuroimaging:Image": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Neuroimaging:image",
+    "name": "neuroimaging:Image",
+    "semanticEquivalent": []
+  },
+  "neuroimaging:ImageSequence": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Neuroimaging:image sequence",
+    "name": "neuroimaging:ImageSequence",
+    "semanticEquivalent": []
+  },
+  "neuroimaging:ImageStack": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Neuroimaging:image stack",
+    "name": "neuroimaging:ImageStack",
+    "semanticEquivalent": []
+  },
+  "neuroimaging:MRIScanner": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Neuroimaging:mriscanner",
+    "name": "neuroimaging:MRIScanner",
+    "semanticEquivalent": []
+  },
+  "neuroimaging:MRIScannerUsage": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Neuroimaging:mriscanner usage",
+    "name": "neuroimaging:MRIScannerUsage",
+    "semanticEquivalent": []
+  },
+  "neuroimaging:StructuralMRIAcquisition": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Neuroimaging:structural mriacquisition",
+    "name": "neuroimaging:StructuralMRIAcquisition",
+    "semanticEquivalent": []
+  },
+  "neuroimaging:Volume": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Neuroimaging:volume",
+    "name": "neuroimaging:Volume",
+    "semanticEquivalent": []
+  },
+  "neuroimaging:VolumeSequence": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Neuroimaging:volume sequence",
+    "name": "neuroimaging:VolumeSequence",
     "semanticEquivalent": []
   },
   "publications:Book": {

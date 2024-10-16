@@ -1,9 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/GRIDID",
-  "color": "#8D918E",
-  "description": "A GRID (Global Research Identifier Database) identifier.",
-  "label": "Gridid",
-  "name": "GRIDID",
+  "_type": "core:GRIDID",
+  "label": "Core:gridid",
+  "name": "core:GRIDID",
   "properties": {
     "https://openminds.ebrains.eu/vocab/identifier": {
       "_instruction": "Enter the identifier for research organizations provided by the International Digital Object Identifier Foundation ('Global Research Identifier Database IDentifier'; GRIDID) as an internationalized resource identifier (IRI) following the defined pattern (i.e., 'https://grid.ac/institutes/' + GRIDID).",

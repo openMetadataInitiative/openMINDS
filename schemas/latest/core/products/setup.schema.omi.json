@@ -2,10 +2,9 @@
   "_categories": [
     "setupComponent"
   ],
-  "_type": "https://openminds.ebrains.eu/core/Setup",
-  "color": "#9B585E",
-  "label": "Setup",
-  "name": "Setup",
+  "_type": "core:Setup",
+  "label": "Core:setup",
+  "name": "core:Setup",
   "properties": {
     "https://openminds.ebrains.eu/vocab/description": {
       "_instruction": "Enter a short text describing this setup.",
@@ -21,12 +20,12 @@
     "https://openminds.ebrains.eu/vocab/hasPart": {
       "_instruction": "Add all components, including other setups, that are part of this setup. Note that a setup should not be only composed of software.",
       "_linkedTypes": [
+        "core:Setup",
+        "core:SoftwareVersion",
         "ephys:Electrode",
         "ephys:ElectrodeArray",
         "ephys:Pipette",
-        "https://openminds.ebrains.eu/core/Setup",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/neuroimaging/MRIScanner",
+        "neuroimaging:MRIScanner",
         "specimenPrep:SlicingDevice"
       ],
       "label": "Has part",
@@ -51,9 +50,9 @@
     "https://openminds.ebrains.eu/vocab/manufacturer": {
       "_instruction": "Add the manufacturer (private or industrial) that constructed this setup.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Consortium",
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Consortium",
+        "core:Organization",
+        "core:Person"
       ],
       "label": "Manufacturer",
       "labelPlural": "Manufacturers",
@@ -78,7 +77,7 @@
     "https://openminds.ebrains.eu/vocab/type": {
       "_instruction": "Add all types that describe this setup.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/SetupType"
+        "controlledTerms:SetupType"
       ],
       "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
       "label": "Type",

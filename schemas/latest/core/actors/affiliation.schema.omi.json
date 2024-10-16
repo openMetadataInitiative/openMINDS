@@ -1,9 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/Affiliation",
-  "color": "#A74571",
-  "description": "Structured information about a relationship between two entities, such as a person and their employer.",
-  "label": "Affiliation",
-  "name": "Affiliation",
+  "_type": "core:Affiliation",
+  "label": "Core:affiliation",
+  "name": "core:Affiliation",
   "properties": {
     "https://openminds.ebrains.eu/vocab/endDate": {
       "_formats": [
@@ -22,8 +20,8 @@
     "https://openminds.ebrains.eu/vocab/memberOf": {
       "_instruction": "Add the organization or consortium another party was or still is a member of.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Consortium",
-        "https://openminds.ebrains.eu/core/Organization"
+        "core:Consortium",
+        "core:Organization"
       ],
       "label": "Member of",
       "labelPlural": "Member of",

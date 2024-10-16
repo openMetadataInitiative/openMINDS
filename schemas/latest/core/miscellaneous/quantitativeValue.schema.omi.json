@@ -1,14 +1,12 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-  "color": "#0E0D00",
-  "description": "Structured information on a quantitative value.",
-  "label": "Quantitative value",
-  "name": "QuantitativeValue",
+  "_type": "core:QuantitativeValue",
+  "label": "Core:quantitative value",
+  "name": "core:QuantitativeValue",
   "properties": {
     "https://openminds.ebrains.eu/vocab/typeOfUncertainty": {
       "_instruction": "Add the type of uncertainty used to determine the uncertainty for this quantitative value.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty"
+        "controlledTerms:TypeOfUncertainty"
       ],
       "description": "Distinct technique used to quantify the uncertainty of a measurement.",
       "label": "Type of uncertainty",
@@ -34,7 +32,7 @@
     "https://openminds.ebrains.eu/vocab/unit": {
       "_instruction": "Add the unit of measurement of this quantitative value and its uncertainty.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+        "controlledTerms:UnitOfMeasurement"
       ],
       "description": "Determinate quantity adopted as a standard of measurement.",
       "label": "Unit",

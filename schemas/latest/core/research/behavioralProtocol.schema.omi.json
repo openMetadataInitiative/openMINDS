@@ -2,18 +2,16 @@
   "_categories": [
     "fileOrigin"
   ],
-  "_type": "https://openminds.ebrains.eu/core/BehavioralProtocol",
-  "color": "#73BE54",
-  "description": "Structured information about a protocol used in an experiment studying human or animal behavior.",
-  "label": "Behavioral protocol",
-  "name": "BehavioralProtocol",
+  "_type": "core:BehavioralProtocol",
+  "label": "Core:behavioral protocol",
+  "name": "core:BehavioralProtocol",
   "properties": {
     "https://openminds.ebrains.eu/vocab/describedIn": {
       "_instruction": "Add all sources in which this behavioral protocol is described in detail.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/WebResource"
+        "core:DOI",
+        "core:File",
+        "core:WebResource"
       ],
       "label": "Described in",
       "labelPlural": "Described in",
@@ -60,8 +58,8 @@
     "https://openminds.ebrains.eu/vocab/stimulation": {
       "_instruction": "Add all stimulation approaches and/or techniques used within this behavioral protocol.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
-        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique"
+        "controlledTerms:StimulationApproach",
+        "controlledTerms:StimulationTechnique"
       ],
       "label": "Stimulation",
       "labelPlural": "Stimulations",

@@ -1,13 +1,12 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/ContentTypePattern",
-  "color": "#72361F",
-  "label": "Content type pattern",
-  "name": "ContentTypePattern",
+  "_type": "core:ContentTypePattern",
+  "label": "Core:content type pattern",
+  "name": "core:ContentTypePattern",
   "properties": {
     "https://openminds.ebrains.eu/vocab/contentType": {
       "_instruction": "Add the content type that can be defined by the regular expression of this content type pattern (e.g., for file extensions).",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "core:ContentType"
       ],
       "label": "Content type",
       "labelPlural": "Content types",

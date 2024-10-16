@@ -2,11 +2,9 @@
   "_categories": [
     "fileOrigin"
   ],
-  "_type": "https://openminds.ebrains.eu/core/FileBundle",
-  "color": "#91028C",
-  "description": "Structured information on a bundle of file instances.",
-  "label": "File bundle",
-  "name": "FileBundle",
+  "_type": "core:FileBundle",
+  "label": "Core:file bundle",
+  "name": "core:FileBundle",
   "properties": {
     "https://openminds.ebrains.eu/vocab/contentDescription": {
       "_instruction": "Enter a short content description for this file bundle.",
@@ -21,7 +19,7 @@
     "https://openminds.ebrains.eu/vocab/format": {
       "_instruction": "If the files within this bundle are organised and formatted according to a formal data structure, add the content type of this file bundle. Leave blank if no formal data structure has been applied to the files within this bundle.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "core:ContentType"
       ],
       "description": "Method of digitally organizing and structuring data or information.",
       "label": "Format",
@@ -65,17 +63,17 @@
         "controlledTerms:TissueSampleType",
         "controlledTerms:UBERONParcellation",
         "controlledTerms:VisualStimulusType",
-        "https://openminds.ebrains.eu/core/BehavioralProtocol",
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/Subject",
-        "https://openminds.ebrains.eu/core/SubjectGroup",
-        "https://openminds.ebrains.eu/core/SubjectGroupState",
-        "https://openminds.ebrains.eu/core/SubjectState",
-        "https://openminds.ebrains.eu/core/TissueSample",
-        "https://openminds.ebrains.eu/core/TissueSampleCollection",
-        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-        "https://openminds.ebrains.eu/core/TissueSampleState",
+        "core:BehavioralProtocol",
+        "core:File",
+        "core:FileBundle",
+        "core:Subject",
+        "core:SubjectGroup",
+        "core:SubjectGroupState",
+        "core:SubjectState",
+        "core:TissueSample",
+        "core:TissueSampleCollection",
+        "core:TissueSampleCollectionState",
+        "core:TissueSampleState",
         "sands:CommonCoordinateSpace",
         "sands:CommonCoordinateSpaceVersion",
         "sands:CustomAnatomicalEntity",
@@ -96,7 +94,7 @@
     "https://openminds.ebrains.eu/vocab/groupingType": {
       "_instruction": "Add all grouping types that were used to define this file bundle. Note that the grouping types define the possible schema type of the instances stated under 'groupedBy'.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
+        "controlledTerms:FileBundleGrouping"
       ],
       "label": "Grouping type",
       "labelPlural": "Grouping types",
@@ -109,7 +107,7 @@
     },
     "https://openminds.ebrains.eu/vocab/hash": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Hash"
+        "core:Hash"
       ],
       "_instruction": "Add the hash that was generated for this file bundle.",
       "description": "Term used for the process of converting any data into a single value. Often also directly refers to the resulting single value.",
@@ -122,8 +120,8 @@
     "https://openminds.ebrains.eu/vocab/isPartOf": {
       "_instruction": "Add the file bundle or file repository this file bundle is part of.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/FileRepository"
+        "core:FileBundle",
+        "core:FileRepository"
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
@@ -145,7 +143,7 @@
     },
     "https://openminds.ebrains.eu/vocab/storageSize": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter the storage size of this file bundle.",
       "description": "Quantitative value defining how much disk space is used by an object on a computer system.",

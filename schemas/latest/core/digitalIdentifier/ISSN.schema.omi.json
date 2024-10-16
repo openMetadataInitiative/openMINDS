@@ -2,11 +2,9 @@
   "_categories": [
     "publicationReference"
   ],
-  "_type": "https://openminds.ebrains.eu/core/ISSN",
-  "color": "#4145A7",
-  "description": "An International Standard Serial Number of the ISSN International Centre.",
-  "label": "Issn",
-  "name": "ISSN",
+  "_type": "core:ISSN",
+  "label": "Core:issn",
+  "name": "core:ISSN",
   "properties": {
     "https://openminds.ebrains.eu/vocab/identifier": {
       "_instruction": "Enter the serial number for serial publications 'International Standard Serial Number' (ISSN) following the defined pattern (e.g., 1234-5678 or 1234-567X).",

@@ -1,8 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/Strain",
-  "color": "#0089A3",
-  "label": "Strain",
-  "name": "Strain",
+  "_type": "core:Strain",
+  "label": "Core:strain",
+  "name": "core:Strain",
   "properties": {
     "https://openminds.ebrains.eu/vocab/alternateIdentifier": {
       "_instruction": "Enter all identifiers for this strain, excluding its ontological identifiers or RRID (e.g., identifiers from the Mouse Genome Informatics (MGI) database or Rat Genome Database (RGD)).",
@@ -22,7 +21,7 @@
     "https://openminds.ebrains.eu/vocab/backgroundStrain": {
       "_instruction": "Add the background strain that explains the majority of the genetic background and/or causes the majority of the prominent traits. If two strains contributed equally, state both.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Strain"
+        "core:Strain"
       ],
       "label": "Background strain",
       "labelPlural": "Background strains",
@@ -37,7 +36,7 @@
     "https://openminds.ebrains.eu/vocab/breedingType": {
       "_instruction": "Add the breeding type for this strain.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/BreedingType"
+        "controlledTerms:BreedingType"
       ],
       "label": "Breeding type",
       "labelPlural": "Breeding types",
@@ -59,7 +58,7 @@
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add the 'Research Resource Identifier' (RRID) of this strain.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/RRID"
+        "core:RRID"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -71,8 +70,8 @@
     "https://openminds.ebrains.eu/vocab/diseaseModel": {
       "_instruction": "Add all (human) diseases and/or conditions that this strain is a model for.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Disease",
-        "https://openminds.ebrains.eu/controlledTerms/DiseaseModel"
+        "controlledTerms:Disease",
+        "controlledTerms:DiseaseModel"
       ],
       "label": "Disease model",
       "labelPlural": "Disease models",
@@ -86,7 +85,7 @@
     "https://openminds.ebrains.eu/vocab/geneticStrainType": {
       "_instruction": "Add the genetic background type of this strain.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType"
+        "controlledTerms:GeneticStrainType"
       ],
       "label": "Genetic strain type",
       "labelPlural": "Genetic strain types",
@@ -149,7 +148,7 @@
     "https://openminds.ebrains.eu/vocab/species": {
       "_instruction": "Add the species of this strain.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Species"
+        "controlledTerms:Species"
       ],
       "description": "Category of biological classification comprising related organisms or populations potentially capable of interbreeding, and being designated by a binomial that consists of the name of a genus followed by a Latin or latinized uncapitalized noun or adjective.",
       "label": "Species",
@@ -160,7 +159,7 @@
     },
     "https://openminds.ebrains.eu/vocab/stockNumber": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/StockNumber"
+        "core:StockNumber"
       ],
       "_instruction": "Add the stock number from the vendor the strain was supplied from/is in stock at.",
       "label": "Stock number",

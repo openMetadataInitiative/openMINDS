@@ -18,10 +18,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileArchive",
-        "https://openminds.ebrains.eu/core/FileRepository",
-        "https://openminds.ebrains.eu/core/WebResource",
+        "core:File",
+        "core:FileArchive",
+        "core:FileRepository",
+        "core:WebResource",
         "publications:Book",
         "publications:Chapter",
         "publications:LearningResource",
@@ -115,19 +115,16 @@
           "computation:ValidationTestVersion",
           "computation:WorkflowRecipe",
           "computation:WorkflowRecipeVersion",
+          "core:Dataset",
           "core:DatasetVersion",
+          "core:MetaDataModel",
+          "core:MetaDataModelVersion",
+          "core:Model",
           "core:ModelVersion",
+          "core:Software",
           "core:SoftwareVersion",
-          "https://openminds.ebrains.eu/core/Dataset",
-          "https://openminds.ebrains.eu/core/DatasetVersion",
-          "https://openminds.ebrains.eu/core/MetaDataModel",
-          "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-          "https://openminds.ebrains.eu/core/Model",
-          "https://openminds.ebrains.eu/core/ModelVersion",
-          "https://openminds.ebrains.eu/core/Software",
-          "https://openminds.ebrains.eu/core/SoftwareVersion",
-          "https://openminds.ebrains.eu/core/WebService",
-          "https://openminds.ebrains.eu/core/WebServiceVersion",
+          "core:WebService",
+          "core:WebServiceVersion",
           "publications:LivePaper",
           "publications:LivePaperVersion",
           "sands:BrainAtlas",
@@ -168,7 +165,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Comment",
+        "core:Comment",
         "publications:LearningResource",
         "publications:LivePaperVersion"
       ],
@@ -213,7 +210,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel"
+          "controlledTerms:ModelAbstractionLevel"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel"
@@ -235,7 +232,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Model"
+        "core:Model"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/ModelVersion"
@@ -252,7 +249,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility"
+          "controlledTerms:ProductAccessibility"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility"
@@ -276,11 +273,11 @@
       "latest": [
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "core:DatasetVersion",
+        "core:MetaDataModelVersion",
+        "core:ModelVersion",
+        "core:SoftwareVersion",
+        "core:WebServiceVersion",
         "publications:LivePaperVersion",
         "sands:BrainAtlasVersion",
         "sands:CommonCoordinateSpaceVersion"
@@ -330,7 +327,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Funding"
+        "core:Funding"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Funding"
@@ -347,7 +344,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -358,7 +355,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/FunctionalMRIAcquisition"
+        "neuroimaging:FunctionalMRIAcquisition"
       ]
     }
   },
@@ -416,19 +413,19 @@
       "latest": [
         "chemicals:ChemicalMixture",
         "chemicals:ChemicalSubstance",
+        "core:Measurement",
+        "core:SubjectGroup",
+        "core:SubjectGroupState",
+        "core:SubjectState",
+        "core:TissueSampleCollection",
+        "core:TissueSampleCollectionState",
+        "core:TissueSampleState",
         "ephys:Recording",
-        "https://openminds.ebrains.eu/core/Measurement",
-        "https://openminds.ebrains.eu/core/SubjectGroup",
-        "https://openminds.ebrains.eu/core/SubjectGroupState",
-        "https://openminds.ebrains.eu/core/SubjectState",
-        "https://openminds.ebrains.eu/core/TissueSampleCollection",
-        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-        "https://openminds.ebrains.eu/core/TissueSampleState",
-        "https://openminds.ebrains.eu/neuroimaging/Image",
-        "https://openminds.ebrains.eu/neuroimaging/ImageSequence",
-        "https://openminds.ebrains.eu/neuroimaging/ImageStack",
-        "https://openminds.ebrains.eu/neuroimaging/Volume",
-        "https://openminds.ebrains.eu/neuroimaging/VolumeSequence",
+        "neuroimaging:Image",
+        "neuroimaging:ImageSequence",
+        "neuroimaging:ImageStack",
+        "neuroimaging:Volume",
+        "neuroimaging:VolumeSequence",
         "sands:AnatomicalTargetPosition",
         "sands:ParcellationEntityVersion",
         "sands:ViewerSpecification"
@@ -468,7 +465,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Affiliation"
+          "core:Affiliation"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/Affiliation"
@@ -487,8 +484,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Organization",
+        "core:Person"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Person"
@@ -503,8 +500,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+          "core:QuantitativeValue",
+          "core:QuantitativeValueRange"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue",
@@ -529,10 +526,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/SubjectGroupState",
-        "https://openminds.ebrains.eu/core/SubjectState",
-        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-        "https://openminds.ebrains.eu/core/TissueSampleState"
+        "core:SubjectGroupState",
+        "core:SubjectState",
+        "core:TissueSampleCollectionState",
+        "core:TissueSampleState"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/SubjectGroupState",
@@ -558,7 +555,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/AgeCategory"
+          "controlledTerms:AgeCategory"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/AgeCategory"
@@ -580,8 +577,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/SubjectGroupState",
-        "https://openminds.ebrains.eu/core/SubjectState"
+        "core:SubjectGroupState",
+        "core:SubjectState"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/SubjectGroupState",
@@ -616,7 +613,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Hash"
+        "core:Hash"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Hash"
@@ -646,7 +643,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Strain"
+        "core:Strain"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/Strain"
@@ -670,7 +667,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Person",
+        "core:Person",
         "sands:ParcellationEntity",
         "sands:ParcellationEntityVersion"
       ],
@@ -805,10 +802,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
+        "core:TissueSample",
+        "core:TissueSampleCollection",
         "ephys:ElectrodeUsage",
-        "ephys:PipetteUsage",
-        "https://openminds.ebrains.eu/core/TissueSample",
-        "https://openminds.ebrains.eu/core/TissueSampleCollection"
+        "ephys:PipetteUsage"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/TissueSample",
@@ -997,7 +994,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory"
+          "controlledTerms:SoftwareApplicationCategory"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory"
@@ -1019,7 +1016,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
+        "core:SoftwareVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
@@ -1060,7 +1057,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/AccountInformation"
+          "core:AccountInformation"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/AccountInformation"
@@ -1076,7 +1073,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Person"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/Person"
@@ -1107,8 +1104,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/SubjectAttribute",
-          "https://openminds.ebrains.eu/controlledTerms/TissueSampleAttribute"
+          "controlledTerms:SubjectAttribute",
+          "controlledTerms:TissueSampleAttribute"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/SubjectAttribute",
@@ -1125,10 +1122,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/SubjectGroupState",
-        "https://openminds.ebrains.eu/core/SubjectState",
-        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-        "https://openminds.ebrains.eu/core/TissueSampleState"
+        "core:SubjectGroupState",
+        "core:SubjectState",
+        "core:TissueSampleCollectionState",
+        "core:TissueSampleState"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/SubjectGroupState",
@@ -1142,9 +1139,9 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Consortium",
-          "https://openminds.ebrains.eu/core/Organization",
-          "https://openminds.ebrains.eu/core/Person"
+          "core:Consortium",
+          "core:Organization",
+          "core:Person"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Organization",
@@ -1170,8 +1167,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Dataset",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
+        "core:Dataset",
+        "core:DatasetVersion",
         "publications:Book",
         "publications:Chapter",
         "publications:LearningResource",
@@ -1228,7 +1225,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Funding"
+        "core:Funding"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Funding"
@@ -1260,7 +1257,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Funding"
+        "core:Funding"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Funding"
@@ -1319,7 +1316,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/File"
+          "core:File"
         ]
       },
       "nameForReverseLink": null
@@ -1330,7 +1327,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -1338,7 +1335,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/File"
+          "core:File"
         ]
       },
       "nameForReverseLink": null
@@ -1349,7 +1346,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -1357,7 +1354,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Strain"
+          "core:Strain"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/Strain"
@@ -1373,7 +1370,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Strain"
+        "core:Strain"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/Strain"
@@ -1413,7 +1410,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/BehavioralProtocol"
+          "core:BehavioralProtocol"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/BehavioralProtocol"
@@ -1429,9 +1426,9 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/ProtocolExecution",
-        "https://openminds.ebrains.eu/neuroimaging/FunctionalMRIAcquisition"
+        "core:DatasetVersion",
+        "core:ProtocolExecution",
+        "neuroimaging:FunctionalMRIAcquisition"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -1498,7 +1495,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/BiologicalSex"
+          "controlledTerms:BiologicalSex"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/BiologicalSex"
@@ -1520,10 +1517,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Subject",
-        "https://openminds.ebrains.eu/core/SubjectGroup",
-        "https://openminds.ebrains.eu/core/TissueSample",
-        "https://openminds.ebrains.eu/core/TissueSampleCollection"
+        "core:Subject",
+        "core:SubjectGroup",
+        "core:TissueSample",
+        "core:TissueSampleCollection"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Subject",
@@ -1549,7 +1546,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/BreedingType"
+          "controlledTerms:BreedingType"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/BreedingType"
@@ -1565,7 +1562,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Strain"
+        "core:Strain"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/Strain"
@@ -1606,7 +1603,7 @@
           "ephys:ElectrodeArrayUsage",
           "ephys:ElectrodeUsage",
           "ephys:PipetteUsage",
-          "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
+          "neuroimaging:MRIScannerUsage",
           "specimenPrep:SlicingDeviceUsage"
         ]
       },
@@ -1618,11 +1615,11 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/Image",
-        "https://openminds.ebrains.eu/neuroimaging/ImageSequence",
-        "https://openminds.ebrains.eu/neuroimaging/ImageStack",
-        "https://openminds.ebrains.eu/neuroimaging/Volume",
-        "https://openminds.ebrains.eu/neuroimaging/VolumeSequence"
+        "neuroimaging:Image",
+        "neuroimaging:ImageSequence",
+        "neuroimaging:ImageStack",
+        "neuroimaging:Volume",
+        "neuroimaging:VolumeSequence"
       ]
     }
   },
@@ -1770,7 +1767,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -1781,9 +1778,9 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/Image",
-        "https://openminds.ebrains.eu/neuroimaging/ImageSequence",
-        "https://openminds.ebrains.eu/neuroimaging/ImageStack"
+        "neuroimaging:Image",
+        "neuroimaging:ImageSequence",
+        "neuroimaging:ImageStack"
       ]
     }
   },
@@ -1804,7 +1801,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Comment"
+        "core:Comment"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/Comment"
@@ -1815,7 +1812,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Person"
+          "core:Person"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/Person"
@@ -1831,7 +1828,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Comment"
+        "core:Comment"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/Comment"
@@ -1935,7 +1932,7 @@
         "computation:Environment",
         "computation:ValidationTestVersion",
         "computation:WorkflowExecution",
-        "https://openminds.ebrains.eu/core/Configuration"
+        "core:Configuration"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/Environment",
@@ -1976,7 +1973,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/ContactInformation"
+          "core:ContactInformation"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/ContactInformation"
@@ -1995,8 +1992,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Consortium",
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Consortium",
+        "core:Person"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Person"
@@ -2107,9 +2104,9 @@
     "usedIn": {
       "latest": [
         "computation:LocalFile",
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/WebResource"
+        "core:File",
+        "core:FileBundle",
+        "core:WebResource"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/LocalFile",
@@ -2123,7 +2120,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/ContentType"
+          "core:ContentType"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/ContentType"
@@ -2139,7 +2136,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/ContentTypePattern"
+        "core:ContentTypePattern"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/ContentTypePattern"
@@ -2150,7 +2147,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/ContentTypePattern"
+          "core:ContentTypePattern"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/ContentTypePattern"
@@ -2166,7 +2163,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/FileRepository"
+        "core:FileRepository"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/FileRepository"
@@ -2191,8 +2188,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/CustomPropertySet",
-        "https://openminds.ebrains.eu/core/ResearchProductGroup"
+        "core:CustomPropertySet",
+        "core:ResearchProductGroup"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/ParameterSet"
@@ -2207,7 +2204,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/chemicals/AmountOfChemical"
+          "chemicals:AmountOfChemical"
         ]
       },
       "nameForReverseLink": null
@@ -2218,8 +2215,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/FunctionalMRIAcquisition",
-        "https://openminds.ebrains.eu/neuroimaging/StructuralMRIAcquisition"
+        "neuroimaging:FunctionalMRIAcquisition",
+        "neuroimaging:StructuralMRIAcquisition"
       ]
     }
   },
@@ -2254,9 +2251,9 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Consortium",
-          "https://openminds.ebrains.eu/core/Organization",
-          "https://openminds.ebrains.eu/core/Person"
+          "core:Consortium",
+          "core:Organization",
+          "core:Person"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Organization",
@@ -2282,7 +2279,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Contribution"
+        "core:Contribution"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Contribution"
@@ -2353,11 +2350,11 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/Image",
-        "https://openminds.ebrains.eu/neuroimaging/ImageSequence",
-        "https://openminds.ebrains.eu/neuroimaging/ImageStack",
-        "https://openminds.ebrains.eu/neuroimaging/Volume",
-        "https://openminds.ebrains.eu/neuroimaging/VolumeSequence",
+        "neuroimaging:Image",
+        "neuroimaging:ImageSequence",
+        "neuroimaging:ImageStack",
+        "neuroimaging:Volume",
+        "neuroimaging:VolumeSequence",
         "sands:BrainAtlasVersion",
         "sands:CoordinatePoint",
         "sands:CustomAnnotation"
@@ -2422,9 +2419,9 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Consortium",
-          "https://openminds.ebrains.eu/core/Organization",
-          "https://openminds.ebrains.eu/core/Person"
+          "core:Consortium",
+          "core:Organization",
+          "core:Person"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/Organization",
@@ -2446,7 +2443,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Project"
+        "core:Project"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Project"
@@ -2487,8 +2484,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "core:Copyright",
-          "https://openminds.ebrains.eu/core/Copyright"
+          "core:Copyright"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Copyright"
@@ -2512,11 +2508,11 @@
       "latest": [
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "core:DatasetVersion",
+        "core:MetaDataModelVersion",
+        "core:ModelVersion",
+        "core:SoftwareVersion",
+        "core:WebServiceVersion",
         "publications:Book",
         "publications:Chapter",
         "publications:LearningResource",
@@ -2788,9 +2784,9 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Consortium",
-          "https://openminds.ebrains.eu/core/Organization",
-          "https://openminds.ebrains.eu/core/Person"
+          "core:Consortium",
+          "core:Organization",
+          "core:Person"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Organization",
@@ -2820,16 +2816,16 @@
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipe",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/Dataset",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModel",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/Model",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/Software",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebService",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "core:Dataset",
+        "core:DatasetVersion",
+        "core:MetaDataModel",
+        "core:MetaDataModelVersion",
+        "core:Model",
+        "core:ModelVersion",
+        "core:Software",
+        "core:SoftwareVersion",
+        "core:WebService",
+        "core:WebServiceVersion",
         "publications:Book",
         "publications:Chapter",
         "publications:LearningResource",
@@ -2889,7 +2885,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/CustomPropertySet"
+          "core:CustomPropertySet"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/CustomPropertySet"
@@ -2912,10 +2908,10 @@
         "computation:Optimization",
         "computation:Simulation",
         "computation:Visualization",
+        "core:ProtocolExecution",
         "ephys:CellPatching",
         "ephys:ElectrodePlacement",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/core/ProtocolExecution",
         "specimenPrep:CranialWindowPreparation",
         "specimenPrep:TissueCulturePreparation",
         "specimenPrep:TissueSampleSlicing",
@@ -2942,16 +2938,14 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "core:Configuration",
           "core:File",
+          "core:FileArchive",
           "core:FileBundle",
-          "https://openminds.ebrains.eu/core/Configuration",
-          "https://openminds.ebrains.eu/core/File",
-          "https://openminds.ebrains.eu/core/FileArchive",
-          "https://openminds.ebrains.eu/core/FileBundle",
-          "https://openminds.ebrains.eu/core/ModelVersion",
-          "https://openminds.ebrains.eu/core/PropertyValueList",
-          "https://openminds.ebrains.eu/publications/LivePaperResourceItem",
-          "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+          "core:ModelVersion",
+          "core:PropertyValueList",
+          "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+          "publications:LivePaperResourceItem"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/Configuration",
@@ -2974,14 +2968,14 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
+        "core:CustomPropertySet",
+        "core:ServiceLink",
         "ephys:Recording",
-        "https://openminds.ebrains.eu/core/CustomPropertySet",
-        "https://openminds.ebrains.eu/core/ServiceLink",
-        "https://openminds.ebrains.eu/neuroimaging/Image",
-        "https://openminds.ebrains.eu/neuroimaging/ImageSequence",
-        "https://openminds.ebrains.eu/neuroimaging/ImageStack",
-        "https://openminds.ebrains.eu/neuroimaging/Volume",
-        "https://openminds.ebrains.eu/neuroimaging/VolumeSequence",
+        "neuroimaging:Image",
+        "neuroimaging:ImageSequence",
+        "neuroimaging:ImageStack",
+        "neuroimaging:Volume",
+        "neuroimaging:VolumeSequence",
         "sands:ParcellationTerminology",
         "sands:ParcellationTerminologyVersion"
       ],
@@ -2999,8 +2993,7 @@
       "canPointTo": {
         "latest": [
           "controlledTerms:DataType",
-          "https://openminds.ebrains.eu/controlledTerms/DataType",
-          "https://openminds.ebrains.eu/controlledTerms/SemanticDataType"
+          "controlledTerms:SemanticDataType"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/DataType",
@@ -3018,9 +3011,9 @@
     "usedIn": {
       "latest": [
         "computation:LocalFile",
-        "https://openminds.ebrains.eu/core/ContentType",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/File"
+        "core:ContentType",
+        "core:DatasetVersion",
+        "core:File"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/LocalFile",
@@ -3392,7 +3385,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -3403,7 +3396,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/FunctionalMRIAcquisition"
+        "neuroimaging:FunctionalMRIAcquisition"
       ]
     }
   },
@@ -3411,7 +3404,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -3422,7 +3415,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/FunctionalMRIAcquisition"
+        "neuroimaging:FunctionalMRIAcquisition"
       ]
     }
   },
@@ -3433,7 +3426,7 @@
           "ephys:ElectrodeArrayUsage",
           "ephys:ElectrodeUsage",
           "ephys:PipetteUsage",
-          "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
+          "neuroimaging:MRIScannerUsage",
           "specimenPrep:SlicingDeviceUsage"
         ],
         "v3.0": [
@@ -3464,10 +3457,10 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/SubjectGroupState",
-          "https://openminds.ebrains.eu/core/SubjectState",
-          "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-          "https://openminds.ebrains.eu/core/TissueSampleState"
+          "core:SubjectGroupState",
+          "core:SubjectState",
+          "core:TissueSampleCollectionState",
+          "core:TissueSampleState"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/SubjectGroupState",
@@ -3486,10 +3479,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/SubjectGroupState",
-        "https://openminds.ebrains.eu/core/SubjectState",
-        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-        "https://openminds.ebrains.eu/core/TissueSampleState"
+        "core:SubjectGroupState",
+        "core:SubjectState",
+        "core:TissueSampleCollectionState",
+        "core:TissueSampleState"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/SubjectGroupState",
@@ -3503,9 +3496,9 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/DOI",
-          "https://openminds.ebrains.eu/core/File",
-          "https://openminds.ebrains.eu/core/WebResource"
+          "core:DOI",
+          "core:File",
+          "core:WebResource"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/DOI",
@@ -3523,8 +3516,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/BehavioralProtocol",
-        "https://openminds.ebrains.eu/core/Protocol"
+        "core:BehavioralProtocol",
+        "core:Protocol"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/BehavioralProtocol",
@@ -3645,30 +3638,30 @@
         "controlledTerms:UBERONParcellation",
         "controlledTerms:UnitOfMeasurement",
         "controlledTerms:VisualStimulusType",
+        "core:BehavioralProtocol",
+        "core:ContentType",
+        "core:Dataset",
+        "core:DatasetVersion",
+        "core:MetaDataModel",
+        "core:MetaDataModelVersion",
+        "core:Model",
+        "core:ModelVersion",
+        "core:Project",
+        "core:Protocol",
+        "core:ProtocolExecution",
+        "core:Setup",
+        "core:Software",
+        "core:SoftwareVersion",
+        "core:Strain",
+        "core:WebService",
+        "core:WebServiceVersion",
         "ephys:CellPatching",
         "ephys:Electrode",
         "ephys:ElectrodeArray",
         "ephys:ElectrodePlacement",
         "ephys:Pipette",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/core/BehavioralProtocol",
-        "https://openminds.ebrains.eu/core/ContentType",
-        "https://openminds.ebrains.eu/core/Dataset",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModel",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/Model",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/Project",
-        "https://openminds.ebrains.eu/core/Protocol",
-        "https://openminds.ebrains.eu/core/ProtocolExecution",
-        "https://openminds.ebrains.eu/core/Setup",
-        "https://openminds.ebrains.eu/core/Software",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/Strain",
-        "https://openminds.ebrains.eu/core/WebService",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
-        "https://openminds.ebrains.eu/neuroimaging/MRIScanner",
+        "neuroimaging:MRIScanner",
         "publications:LivePaper",
         "publications:LivePaperSection",
         "publications:LivePaperVersion",
@@ -3925,9 +3918,9 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Consortium",
-          "https://openminds.ebrains.eu/core/Organization",
-          "https://openminds.ebrains.eu/core/Person"
+          "core:Consortium",
+          "core:Organization",
+          "core:Person"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Organization",
@@ -3957,14 +3950,14 @@
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipe",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModel",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/Model",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/Software",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebService",
-        "https://openminds.ebrains.eu/core/WebServiceVersion"
+        "core:MetaDataModel",
+        "core:MetaDataModelVersion",
+        "core:Model",
+        "core:ModelVersion",
+        "core:Software",
+        "core:SoftwareVersion",
+        "core:WebService",
+        "core:WebServiceVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -4000,14 +3993,14 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "controlledTerms:OperatingDevice",
           "ephys:Electrode",
           "ephys:ElectrodeArray",
           "ephys:ElectrodeArrayUsage",
           "ephys:ElectrodeUsage",
           "ephys:Pipette",
           "ephys:PipetteUsage",
-          "https://openminds.ebrains.eu/controlledTerms/OperatingDevice",
-          "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
+          "neuroimaging:MRIScannerUsage",
           "specimenPrep:SlicingDevice",
           "specimenPrep:SlicingDeviceUsage"
         ],
@@ -4039,15 +4032,15 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
+        "core:SoftwareVersion",
         "ephys:CellPatching",
         "ephys:ElectrodeArrayUsage",
         "ephys:ElectrodePlacement",
         "ephys:ElectrodeUsage",
         "ephys:PipetteUsage",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/neuroimaging/FunctionalMRIAcquisition",
-        "https://openminds.ebrains.eu/neuroimaging/StructuralMRIAcquisition",
+        "neuroimaging:FunctionalMRIAcquisition",
+        "neuroimaging:StructuralMRIAcquisition",
         "specimenPrep:SlicingDeviceUsage",
         "specimenPrep:TissueSampleSlicing"
       ],
@@ -4074,7 +4067,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/DeviceType"
+          "controlledTerms:DeviceType"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/DeviceType"
@@ -4093,7 +4086,7 @@
         "ephys:Electrode",
         "ephys:ElectrodeArray",
         "ephys:Pipette",
-        "https://openminds.ebrains.eu/neuroimaging/MRIScanner",
+        "neuroimaging:MRIScanner",
         "specimenPrep:SlicingDevice"
       ],
       "v3.0": [
@@ -4123,7 +4116,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Hash"
+        "core:Hash"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Hash"
@@ -4141,16 +4134,14 @@
       "canPointTo": {
         "latest": [
           "core:DOI",
+          "core:GRIDID",
           "core:ISBN",
           "core:ISSN",
+          "core:IdentifiersDotOrgID",
+          "core:ORCID",
+          "core:RORID",
           "core:RRID",
-          "https://openminds.ebrains.eu/core/DOI",
-          "https://openminds.ebrains.eu/core/GRIDID",
-          "https://openminds.ebrains.eu/core/IdentifiersDotOrgID",
-          "https://openminds.ebrains.eu/core/ORCID",
-          "https://openminds.ebrains.eu/core/RORID",
-          "https://openminds.ebrains.eu/core/RRID",
-          "https://openminds.ebrains.eu/core/SWHID"
+          "core:SWHID"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/DigitalIdentifier"
@@ -4189,21 +4180,21 @@
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipe",
         "computation:WorkflowRecipeVersion",
+        "core:Dataset",
+        "core:DatasetVersion",
+        "core:MetaDataModel",
+        "core:MetaDataModelVersion",
+        "core:Model",
+        "core:ModelVersion",
+        "core:Organization",
+        "core:Person",
+        "core:Software",
+        "core:SoftwareVersion",
+        "core:Strain",
         "ephys:Electrode",
         "ephys:ElectrodeArray",
         "ephys:Pipette",
-        "https://openminds.ebrains.eu/core/Dataset",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModel",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/Model",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/Person",
-        "https://openminds.ebrains.eu/core/Software",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/Strain",
-        "https://openminds.ebrains.eu/neuroimaging/MRIScanner",
+        "neuroimaging:MRIScanner",
         "publications:Book",
         "publications:Chapter",
         "publications:LearningResource",
@@ -4305,11 +4296,11 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/Image",
-        "https://openminds.ebrains.eu/neuroimaging/ImageSequence",
-        "https://openminds.ebrains.eu/neuroimaging/ImageStack",
-        "https://openminds.ebrains.eu/neuroimaging/Volume",
-        "https://openminds.ebrains.eu/neuroimaging/VolumeSequence",
+        "neuroimaging:Image",
+        "neuroimaging:ImageSequence",
+        "neuroimaging:ImageStack",
+        "neuroimaging:Volume",
+        "neuroimaging:VolumeSequence",
         "specimenPrep:CranialWindowPreparation"
       ],
       "v3.0": [
@@ -4321,8 +4312,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/Disease",
-          "https://openminds.ebrains.eu/controlledTerms/DiseaseModel"
+          "controlledTerms:Disease",
+          "controlledTerms:DiseaseModel"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/Disease",
@@ -4339,7 +4330,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Strain"
+        "core:Strain"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/Strain"
@@ -4387,8 +4378,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/ContentType",
-        "https://openminds.ebrains.eu/core/ServiceLink"
+        "core:ContentType",
+        "core:ServiceLink"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/ContentType",
@@ -4400,7 +4391,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -4411,7 +4402,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -4419,7 +4410,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -4430,7 +4421,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -4591,7 +4582,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/ContactInformation"
+        "core:ContactInformation"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Person"
@@ -4622,7 +4613,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Affiliation"
+        "core:Affiliation"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Affiliation"
@@ -4683,10 +4674,10 @@
         "computation:Optimization",
         "computation:Simulation",
         "computation:Visualization",
+        "core:ProtocolExecution",
         "ephys:CellPatching",
         "ephys:ElectrodePlacement",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/core/ProtocolExecution",
         "specimenPrep:CranialWindowPreparation",
         "specimenPrep:TissueCulturePreparation",
         "specimenPrep:TissueSampleSlicing",
@@ -4832,7 +4823,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment"
+          "controlledTerms:EthicsAssessment"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment"
@@ -4854,7 +4845,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/DatasetVersion"
+        "core:DatasetVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
@@ -4895,7 +4886,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach"
+          "controlledTerms:ExperimentalApproach"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach"
@@ -4914,7 +4905,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/DatasetVersion"
+        "core:DatasetVersion"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
@@ -4970,7 +4961,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Person"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Person"
@@ -4987,7 +4978,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
+          "controlledTerms:SoftwareFeature"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
@@ -5006,7 +4997,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
+        "core:SoftwareVersion"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
@@ -5020,7 +5011,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/File"
+          "core:File"
         ]
       },
       "nameForReverseLink": null
@@ -5031,7 +5022,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/FunctionalMRIAcquisition"
+        "neuroimaging:FunctionalMRIAcquisition"
       ]
     }
   },
@@ -5052,7 +5043,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -5074,7 +5065,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "core:ContentType"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/ContentType"
@@ -5088,7 +5079,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/FilePathPattern"
+          "core:FilePathPattern"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/FilePathPattern"
@@ -5104,7 +5095,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/FileRepositoryStructure"
+        "core:FileRepositoryStructure"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/FileRepositoryStructure"
@@ -5115,7 +5106,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/FileRepository"
+          "core:FileRepository"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/FileRepository"
@@ -5134,7 +5125,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/File"
+        "core:File"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/File"
@@ -5148,7 +5139,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -5159,7 +5150,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -5167,8 +5158,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "core:ContentType",
-          "https://openminds.ebrains.eu/core/ContentType"
+          "core:ContentType"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/ContentType"
@@ -5193,13 +5183,13 @@
         "computation:LocalFile",
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/Configuration",
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileArchive",
-        "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/FileRepository",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/WebResource"
+        "core:Configuration",
+        "core:File",
+        "core:FileArchive",
+        "core:FileBundle",
+        "core:FileRepository",
+        "core:ModelVersion",
+        "core:WebResource"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/FileBundle",
@@ -5231,10 +5221,10 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/DOI",
-          "https://openminds.ebrains.eu/core/File",
-          "https://openminds.ebrains.eu/core/ISBN",
-          "https://openminds.ebrains.eu/core/WebResource"
+          "core:DOI",
+          "core:File",
+          "core:ISBN",
+          "core:WebResource"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/DigitalIdentifier"
@@ -5262,11 +5252,11 @@
       "latest": [
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "core:DatasetVersion",
+        "core:MetaDataModelVersion",
+        "core:ModelVersion",
+        "core:SoftwareVersion",
+        "core:WebServiceVersion",
         "publications:LivePaperVersion",
         "sands:BrainAtlasVersion",
         "sands:CommonCoordinateSpaceVersion"
@@ -5320,20 +5310,20 @@
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipe",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/Consortium",
-        "https://openminds.ebrains.eu/core/Dataset",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/License",
-        "https://openminds.ebrains.eu/core/MetaDataModel",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/Model",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/Project",
-        "https://openminds.ebrains.eu/core/Software",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebService",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "core:Consortium",
+        "core:Dataset",
+        "core:DatasetVersion",
+        "core:License",
+        "core:MetaDataModel",
+        "core:MetaDataModelVersion",
+        "core:Model",
+        "core:ModelVersion",
+        "core:Organization",
+        "core:Project",
+        "core:Software",
+        "core:SoftwareVersion",
+        "core:WebService",
+        "core:WebServiceVersion",
         "publications:LivePaper",
         "publications:LivePaperVersion",
         "sands:BrainAtlas",
@@ -5407,9 +5397,9 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Consortium",
-          "https://openminds.ebrains.eu/core/Organization",
-          "https://openminds.ebrains.eu/core/Person"
+          "core:Consortium",
+          "core:Organization",
+          "core:Person"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Organization"
@@ -5434,7 +5424,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Funding"
+        "core:Funding"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Funding"
@@ -5451,8 +5441,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "core:Funding",
-          "https://openminds.ebrains.eu/core/Funding"
+          "core:Funding"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Funding"
@@ -5476,11 +5465,11 @@
       "latest": [
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "core:DatasetVersion",
+        "core:MetaDataModelVersion",
+        "core:ModelVersion",
+        "core:SoftwareVersion",
+        "core:WebServiceVersion",
         "publications:Book",
         "publications:Chapter",
         "publications:LearningResource",
@@ -5526,7 +5515,7 @@
           "ephys:ElectrodeArrayUsage",
           "ephys:ElectrodeUsage",
           "ephys:PipetteUsage",
-          "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
+          "neuroimaging:MRIScannerUsage",
           "specimenPrep:SlicingDeviceUsage"
         ],
         "v3.0": [
@@ -5557,7 +5546,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType"
+          "controlledTerms:GeneticStrainType"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType"
@@ -5573,7 +5562,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Strain"
+        "core:Strain"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/Strain"
@@ -5623,7 +5612,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Person"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Person"
@@ -5672,17 +5661,17 @@
           "controlledTerms:TissueSampleType",
           "controlledTerms:UBERONParcellation",
           "controlledTerms:VisualStimulusType",
-          "https://openminds.ebrains.eu/core/BehavioralProtocol",
-          "https://openminds.ebrains.eu/core/File",
-          "https://openminds.ebrains.eu/core/FileBundle",
-          "https://openminds.ebrains.eu/core/Subject",
-          "https://openminds.ebrains.eu/core/SubjectGroup",
-          "https://openminds.ebrains.eu/core/SubjectGroupState",
-          "https://openminds.ebrains.eu/core/SubjectState",
-          "https://openminds.ebrains.eu/core/TissueSample",
-          "https://openminds.ebrains.eu/core/TissueSampleCollection",
-          "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-          "https://openminds.ebrains.eu/core/TissueSampleState",
+          "core:BehavioralProtocol",
+          "core:File",
+          "core:FileBundle",
+          "core:Subject",
+          "core:SubjectGroup",
+          "core:SubjectGroupState",
+          "core:SubjectState",
+          "core:TissueSample",
+          "core:TissueSampleCollection",
+          "core:TissueSampleCollectionState",
+          "core:TissueSampleState",
           "sands:CommonCoordinateSpace",
           "sands:CommonCoordinateSpaceVersion",
           "sands:CustomAnatomicalEntity",
@@ -5755,7 +5744,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/FileBundle"
+        "core:FileBundle"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/FileBundle"
@@ -5772,7 +5761,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
+          "controlledTerms:FileBundleGrouping"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
@@ -5788,8 +5777,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/FilePathPattern"
+        "core:FileBundle",
+        "core:FilePathPattern"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/FileBundle",
@@ -5801,7 +5790,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/Handedness"
+          "controlledTerms:Handedness"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/Laterality"
@@ -5823,8 +5812,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/SubjectGroupState",
-        "https://openminds.ebrains.eu/core/SubjectState"
+        "core:SubjectGroupState",
+        "core:SubjectState"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/SubjectGroupState",
@@ -6011,7 +6000,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Organization",
+          "core:Organization",
           "sands:ParcellationEntity",
           "sands:ParcellationEntityVersion"
         ],
@@ -6039,7 +6028,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Organization",
+        "core:Organization",
         "sands:ParcellationEntity",
         "sands:ParcellationEntityVersion"
       ],
@@ -6067,24 +6056,23 @@
           "computation:ValidationTestVersion",
           "computation:WorkflowRecipe",
           "computation:WorkflowRecipeVersion",
+          "core:Dataset",
+          "core:DatasetVersion",
           "core:File",
           "core:FileBundle",
+          "core:MetaDataModel",
+          "core:MetaDataModelVersion",
+          "core:Model",
+          "core:ModelVersion",
+          "core:Setup",
+          "core:Software",
           "core:SoftwareVersion",
+          "core:WebService",
+          "core:WebServiceVersion",
           "ephys:Electrode",
           "ephys:ElectrodeArray",
           "ephys:Pipette",
-          "https://openminds.ebrains.eu/core/Dataset",
-          "https://openminds.ebrains.eu/core/DatasetVersion",
-          "https://openminds.ebrains.eu/core/MetaDataModel",
-          "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-          "https://openminds.ebrains.eu/core/Model",
-          "https://openminds.ebrains.eu/core/ModelVersion",
-          "https://openminds.ebrains.eu/core/Setup",
-          "https://openminds.ebrains.eu/core/Software",
-          "https://openminds.ebrains.eu/core/SoftwareVersion",
-          "https://openminds.ebrains.eu/core/WebService",
-          "https://openminds.ebrains.eu/core/WebServiceVersion",
-          "https://openminds.ebrains.eu/neuroimaging/MRIScanner",
+          "neuroimaging:MRIScanner",
           "publications:LivePaper",
           "publications:LivePaperVersion",
           "sands:BrainAtlas",
@@ -6136,11 +6124,11 @@
       "latest": [
         "chemicals:ChemicalMixture",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/Project",
-        "https://openminds.ebrains.eu/core/ResearchProductGroup",
-        "https://openminds.ebrains.eu/core/Setup",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebServiceVersion"
+        "core:Project",
+        "core:ResearchProductGroup",
+        "core:Setup",
+        "core:SoftwareVersion",
+        "core:WebServiceVersion"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/chemicals/ChemicalMixture",
@@ -6283,11 +6271,11 @@
         "latest": [
           "computation:ValidationTestVersion",
           "computation:WorkflowRecipeVersion",
-          "https://openminds.ebrains.eu/core/DatasetVersion",
-          "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-          "https://openminds.ebrains.eu/core/ModelVersion",
-          "https://openminds.ebrains.eu/core/SoftwareVersion",
-          "https://openminds.ebrains.eu/core/WebServiceVersion",
+          "core:DatasetVersion",
+          "core:MetaDataModelVersion",
+          "core:ModelVersion",
+          "core:SoftwareVersion",
+          "core:WebServiceVersion",
           "publications:LivePaperVersion",
           "sands:BrainAtlasVersion",
           "sands:CommonCoordinateSpaceVersion",
@@ -6333,11 +6321,11 @@
       "latest": [
         "computation:ValidationTest",
         "computation:WorkflowRecipe",
-        "https://openminds.ebrains.eu/core/Dataset",
-        "https://openminds.ebrains.eu/core/MetaDataModel",
-        "https://openminds.ebrains.eu/core/Model",
-        "https://openminds.ebrains.eu/core/Software",
-        "https://openminds.ebrains.eu/core/WebService",
+        "core:Dataset",
+        "core:MetaDataModel",
+        "core:Model",
+        "core:Software",
+        "core:WebService",
         "publications:LivePaper",
         "sands:BrainAtlas",
         "sands:CommonCoordinateSpace",
@@ -6376,8 +6364,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "core:Hash",
-          "https://openminds.ebrains.eu/core/Hash"
+          "core:Hash"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Hash"
@@ -6400,9 +6387,9 @@
     "usedIn": {
       "latest": [
         "computation:LocalFile",
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/FileRepository"
+        "core:File",
+        "core:FileBundle",
+        "core:FileRepository"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/FileBundle",
@@ -6426,9 +6413,9 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Consortium",
-          "https://openminds.ebrains.eu/core/Organization",
-          "https://openminds.ebrains.eu/core/Person"
+          "core:Consortium",
+          "core:Organization",
+          "core:Person"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Organization",
@@ -6454,7 +6441,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Copyright"
+        "core:Copyright"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Copyright"
@@ -6524,19 +6511,19 @@
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipe",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/Consortium",
-        "https://openminds.ebrains.eu/core/Dataset",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModel",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/Model",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/Project",
-        "https://openminds.ebrains.eu/core/Software",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebService",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "core:Consortium",
+        "core:Dataset",
+        "core:DatasetVersion",
+        "core:MetaDataModel",
+        "core:MetaDataModelVersion",
+        "core:Model",
+        "core:ModelVersion",
+        "core:Organization",
+        "core:Project",
+        "core:Software",
+        "core:SoftwareVersion",
+        "core:WebService",
+        "core:WebServiceVersion",
         "publications:LivePaper",
         "publications:LivePaperVersion",
         "sands:BrainAtlas",
@@ -6605,8 +6592,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "core:Organization",
-          "https://openminds.ebrains.eu/core/Organization"
+          "core:Organization"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Organization"
@@ -6628,7 +6614,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/FileRepository",
+        "core:FileRepository",
         "publications:LivePaperResourceItem"
       ],
       "v1.0": [
@@ -6666,16 +6652,16 @@
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipe",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/Dataset",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModel",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/Model",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/Software",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebService",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "core:Dataset",
+        "core:DatasetVersion",
+        "core:MetaDataModel",
+        "core:MetaDataModelVersion",
+        "core:Model",
+        "core:ModelVersion",
+        "core:Software",
+        "core:SoftwareVersion",
+        "core:WebService",
+        "core:WebServiceVersion",
         "publications:LivePaper",
         "publications:LivePaperVersion",
         "sands:BrainAtlas",
@@ -6743,17 +6729,17 @@
     "usedIn": {
       "latest": [
         "chemicals:ProductSource",
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/GRIDID",
-        "https://openminds.ebrains.eu/core/HANDLE",
-        "https://openminds.ebrains.eu/core/ISBN",
-        "https://openminds.ebrains.eu/core/ISSN",
-        "https://openminds.ebrains.eu/core/IdentifiersDotOrgID",
-        "https://openminds.ebrains.eu/core/ORCID",
-        "https://openminds.ebrains.eu/core/RORID",
-        "https://openminds.ebrains.eu/core/RRID",
-        "https://openminds.ebrains.eu/core/SWHID",
-        "https://openminds.ebrains.eu/core/StockNumber"
+        "core:DOI",
+        "core:GRIDID",
+        "core:HANDLE",
+        "core:ISBN",
+        "core:ISSN",
+        "core:IdentifiersDotOrgID",
+        "core:ORCID",
+        "core:RORID",
+        "core:RRID",
+        "core:SWHID",
+        "core:StockNumber"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DigitalIdentifier"
@@ -6885,12 +6871,6 @@
           "core:SubjectState",
           "core:TissueSampleCollectionState",
           "core:TissueSampleState",
-          "https://openminds.ebrains.eu/core/File",
-          "https://openminds.ebrains.eu/core/FileBundle",
-          "https://openminds.ebrains.eu/core/SubjectGroupState",
-          "https://openminds.ebrains.eu/core/SubjectState",
-          "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-          "https://openminds.ebrains.eu/core/TissueSampleState",
           "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
           "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
           "sands:BrainAtlasVersion",
@@ -6945,12 +6925,12 @@
         "computation:Optimization",
         "computation:Simulation",
         "computation:Visualization",
+        "core:ProtocolExecution",
         "ephys:CellPatching",
         "ephys:ElectrodePlacement",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/core/ProtocolExecution",
-        "https://openminds.ebrains.eu/neuroimaging/FunctionalMRIAcquisition",
-        "https://openminds.ebrains.eu/neuroimaging/StructuralMRIAcquisition",
+        "neuroimaging:FunctionalMRIAcquisition",
+        "neuroimaging:StructuralMRIAcquisition",
         "specimenPrep:CranialWindowPreparation",
         "specimenPrep:TissueCulturePreparation",
         "specimenPrep:TissueSampleSlicing",
@@ -6985,10 +6965,10 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/DOI",
-          "https://openminds.ebrains.eu/core/File",
-          "https://openminds.ebrains.eu/core/FileBundle",
-          "https://openminds.ebrains.eu/core/WebResource",
+          "core:DOI",
+          "core:File",
+          "core:FileBundle",
+          "core:WebResource",
           "https://openminds.ebrains.eu/sands/BrainAtlas",
           "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
           "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
@@ -7023,8 +7003,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion"
+        "core:DatasetVersion",
+        "core:ModelVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/ModelVersion"
@@ -7043,7 +7023,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/ContentType"
+          "core:ContentType"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/ContentType"
@@ -7065,8 +7045,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebServiceVersion"
+        "core:SoftwareVersion",
+        "core:WebServiceVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
@@ -7186,8 +7166,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+          "core:QuantitativeValue",
+          "core:QuantitativeValueRange"
         ]
       },
       "nameForReverseLink": null
@@ -7198,7 +7178,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -7428,21 +7408,21 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
+        "core:BehavioralProtocol",
+        "core:Subject",
+        "core:SubjectGroup",
+        "core:SubjectGroupState",
+        "core:SubjectState",
+        "core:TissueSample",
+        "core:TissueSampleCollection",
+        "core:TissueSampleCollectionState",
+        "core:TissueSampleState",
         "ephys:Channel",
         "ephys:Electrode",
         "ephys:ElectrodeArray",
         "ephys:Pipette",
         "ephys:Recording",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/core/BehavioralProtocol",
-        "https://openminds.ebrains.eu/core/Subject",
-        "https://openminds.ebrains.eu/core/SubjectGroup",
-        "https://openminds.ebrains.eu/core/SubjectGroupState",
-        "https://openminds.ebrains.eu/core/SubjectState",
-        "https://openminds.ebrains.eu/core/TissueSample",
-        "https://openminds.ebrains.eu/core/TissueSampleCollection",
-        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-        "https://openminds.ebrains.eu/core/TissueSampleState",
         "sands:AtlasAnnotation",
         "sands:CustomAnnotation",
         "stimulation:EphysStimulus"
@@ -7525,7 +7505,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -7536,7 +7516,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -7546,11 +7526,11 @@
         "latest": [
           "computation:ValidationTestVersion",
           "computation:WorkflowRecipeVersion",
-          "https://openminds.ebrains.eu/core/DatasetVersion",
-          "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-          "https://openminds.ebrains.eu/core/ModelVersion",
-          "https://openminds.ebrains.eu/core/SoftwareVersion",
-          "https://openminds.ebrains.eu/core/WebServiceVersion",
+          "core:DatasetVersion",
+          "core:MetaDataModelVersion",
+          "core:ModelVersion",
+          "core:SoftwareVersion",
+          "core:WebServiceVersion",
           "publications:LivePaperVersion",
           "sands:BrainAtlasVersion",
           "sands:CommonCoordinateSpaceVersion"
@@ -7587,11 +7567,11 @@
       "latest": [
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "core:DatasetVersion",
+        "core:MetaDataModelVersion",
+        "core:ModelVersion",
+        "core:SoftwareVersion",
+        "core:WebServiceVersion",
         "publications:LivePaperVersion",
         "sands:BrainAtlasVersion",
         "sands:CommonCoordinateSpaceVersion"
@@ -7624,11 +7604,11 @@
         "latest": [
           "computation:ValidationTestVersion",
           "computation:WorkflowRecipeVersion",
-          "https://openminds.ebrains.eu/core/DatasetVersion",
-          "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-          "https://openminds.ebrains.eu/core/ModelVersion",
-          "https://openminds.ebrains.eu/core/SoftwareVersion",
-          "https://openminds.ebrains.eu/core/WebServiceVersion",
+          "core:DatasetVersion",
+          "core:MetaDataModelVersion",
+          "core:ModelVersion",
+          "core:SoftwareVersion",
+          "core:WebServiceVersion",
           "publications:LivePaperVersion",
           "sands:BrainAtlasVersion",
           "sands:CommonCoordinateSpaceVersion"
@@ -7672,11 +7652,11 @@
       "latest": [
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "core:DatasetVersion",
+        "core:MetaDataModelVersion",
+        "core:ModelVersion",
+        "core:SoftwareVersion",
+        "core:WebServiceVersion",
         "publications:LivePaperVersion",
         "sands:BrainAtlasVersion",
         "sands:CommonCoordinateSpaceVersion"
@@ -7714,11 +7694,11 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/DatasetVersion",
-          "https://openminds.ebrains.eu/core/FileBundle",
-          "https://openminds.ebrains.eu/core/FileRepository",
-          "https://openminds.ebrains.eu/core/SubjectGroup",
-          "https://openminds.ebrains.eu/core/TissueSampleCollection",
+          "core:DatasetVersion",
+          "core:FileBundle",
+          "core:FileRepository",
+          "core:SubjectGroup",
+          "core:TissueSampleCollection",
           "publications:Book",
           "publications:LivePaperSection",
           "publications:LivePaperVersion",
@@ -7761,14 +7741,14 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
+        "core:File",
+        "core:FileBundle",
+        "core:ProtocolExecution",
+        "core:Subject",
+        "core:TissueSample",
         "ephys:CellPatching",
         "ephys:ElectrodePlacement",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/ProtocolExecution",
-        "https://openminds.ebrains.eu/core/Subject",
-        "https://openminds.ebrains.eu/core/TissueSample",
         "publications:Chapter",
         "publications:LivePaperResourceItem",
         "publications:LivePaperSection",
@@ -8021,11 +8001,11 @@
       "latest": [
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "core:DatasetVersion",
+        "core:MetaDataModelVersion",
+        "core:ModelVersion",
+        "core:SoftwareVersion",
+        "core:WebServiceVersion",
         "publications:Book",
         "publications:Chapter",
         "publications:LearningResource",
@@ -8292,7 +8272,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Strain"
+        "core:Strain"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/Strain"
@@ -8303,7 +8283,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/Language"
+          "controlledTerms:Language"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/Language"
@@ -8325,7 +8305,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
+        "core:SoftwareVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
@@ -8342,8 +8322,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "controlledTerms:Laterality",
-          "https://openminds.ebrains.eu/controlledTerms/Laterality"
+          "controlledTerms:Laterality"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/Laterality"
@@ -8365,8 +8344,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/TissueSample",
-        "https://openminds.ebrains.eu/core/TissueSampleCollection",
+        "core:TissueSample",
+        "core:TissueSampleCollection",
         "sands:AtlasAnnotation",
         "sands:CustomAnnotation"
       ],
@@ -8471,7 +8450,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/License"
+        "core:License"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/License"
@@ -8516,8 +8495,7 @@
       "canPointTo": {
         "latest": [
           "core:License",
-          "https://openminds.ebrains.eu/core/License",
-          "https://openminds.ebrains.eu/core/WebResource"
+          "core:WebResource"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/License"
@@ -8542,10 +8520,10 @@
       "latest": [
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
+        "core:DatasetVersion",
+        "core:MetaDataModelVersion",
+        "core:ModelVersion",
+        "core:SoftwareVersion",
         "publications:Book",
         "publications:Chapter",
         "publications:LearningResource",
@@ -8627,7 +8605,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Setup"
+        "core:Setup"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/Setup"
@@ -8660,6 +8638,19 @@
         "computation:Optimization",
         "computation:Simulation",
         "computation:Visualization",
+        "core:Configuration",
+        "core:ContentTypePattern",
+        "core:FileRepositoryStructure",
+        "core:PropertyValueList",
+        "core:ProtocolExecution",
+        "core:Subject",
+        "core:SubjectGroup",
+        "core:SubjectGroupState",
+        "core:SubjectState",
+        "core:TissueSample",
+        "core:TissueSampleCollection",
+        "core:TissueSampleCollectionState",
+        "core:TissueSampleState",
         "ephys:CellPatching",
         "ephys:Electrode",
         "ephys:ElectrodeArray",
@@ -8669,23 +8660,10 @@
         "ephys:Pipette",
         "ephys:PipetteUsage",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/core/Configuration",
-        "https://openminds.ebrains.eu/core/ContentTypePattern",
-        "https://openminds.ebrains.eu/core/FileRepositoryStructure",
-        "https://openminds.ebrains.eu/core/PropertyValueList",
-        "https://openminds.ebrains.eu/core/ProtocolExecution",
-        "https://openminds.ebrains.eu/core/Subject",
-        "https://openminds.ebrains.eu/core/SubjectGroup",
-        "https://openminds.ebrains.eu/core/SubjectGroupState",
-        "https://openminds.ebrains.eu/core/SubjectState",
-        "https://openminds.ebrains.eu/core/TissueSample",
-        "https://openminds.ebrains.eu/core/TissueSampleCollection",
-        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-        "https://openminds.ebrains.eu/core/TissueSampleState",
-        "https://openminds.ebrains.eu/neuroimaging/MRIScanner",
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
-        "https://openminds.ebrains.eu/neuroimaging/Volume",
-        "https://openminds.ebrains.eu/neuroimaging/VolumeSequence",
+        "neuroimaging:MRIScanner",
+        "neuroimaging:MRIScannerUsage",
+        "neuroimaging:Volume",
+        "neuroimaging:VolumeSequence",
         "sands:ParcellationEntity",
         "sands:ParcellationEntityVersion",
         "specimenPrep:CranialWindowPreparation",
@@ -8757,7 +8735,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/MRAcquisitionType"
+          "controlledTerms:MRAcquisitionType"
         ]
       },
       "nameForReverseLink": null
@@ -8768,7 +8746,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -8779,7 +8757,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -8787,7 +8765,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -8798,7 +8776,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScanner"
+        "neuroimaging:MRIScanner"
       ]
     }
   },
@@ -8830,9 +8808,9 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Consortium",
-          "https://openminds.ebrains.eu/core/Organization",
-          "https://openminds.ebrains.eu/core/Person"
+          "core:Consortium",
+          "core:Organization",
+          "core:Person"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/Consortium",
@@ -8850,11 +8828,11 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
+        "core:Setup",
         "ephys:Electrode",
         "ephys:ElectrodeArray",
         "ephys:Pipette",
-        "https://openminds.ebrains.eu/core/Setup",
-        "https://openminds.ebrains.eu/neuroimaging/MRIScanner",
+        "neuroimaging:MRIScanner",
         "specimenPrep:SlicingDevice"
       ],
       "v3.0": [
@@ -8914,7 +8892,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+        "core:QuantitativeValueRange"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/QuantitativeValueRange"
@@ -8931,7 +8909,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+          "controlledTerms:UnitOfMeasurement"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
@@ -8947,7 +8925,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+        "core:QuantitativeValueRange"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/QuantitativeValueRange"
@@ -8958,7 +8936,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity"
+          "controlledTerms:MeasuredQuantity"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity"
@@ -8974,7 +8952,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Measurement"
+        "core:Measurement"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/Measurement"
@@ -8988,7 +8966,7 @@
           "ephys:ElectrodeArrayUsage",
           "ephys:ElectrodeUsage",
           "ephys:PipetteUsage",
-          "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
+          "neuroimaging:MRIScannerUsage",
           "specimenPrep:SlicingDeviceUsage"
         ],
         "v3.0": [
@@ -9008,7 +8986,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Measurement"
+        "core:Measurement"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/Measurement"
@@ -9019,8 +8997,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Consortium",
-          "https://openminds.ebrains.eu/core/Organization"
+          "core:Consortium",
+          "core:Organization"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/Consortium",
@@ -9037,7 +9015,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Affiliation"
+        "core:Affiliation"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/Affiliation"
@@ -9048,8 +9026,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/File",
-          "https://openminds.ebrains.eu/core/FileBundle"
+          "core:File",
+          "core:FileBundle"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/File",
@@ -9069,7 +9047,7 @@
         "ephys:ElectrodeArrayUsage",
         "ephys:ElectrodeUsage",
         "ephys:PipetteUsage",
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
+        "neuroimaging:MRIScannerUsage",
         "specimenPrep:SlicingDeviceUsage"
       ],
       "v3.0": [
@@ -9097,7 +9075,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+        "core:QuantitativeValueRange"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/QuantitativeValueRange"
@@ -9114,7 +9092,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+          "controlledTerms:UnitOfMeasurement"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
@@ -9130,7 +9108,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+        "core:QuantitativeValueRange"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/QuantitativeValueRange"
@@ -9322,24 +9300,24 @@
         "controlledTerms:UBERONParcellation",
         "controlledTerms:UnitOfMeasurement",
         "controlledTerms:VisualStimulusType",
+        "core:BehavioralProtocol",
+        "core:ContentType",
+        "core:File",
+        "core:FileBundle",
+        "core:FileRepository",
+        "core:NumericalProperty",
+        "core:Protocol",
+        "core:Setup",
+        "core:Strain",
+        "core:StringProperty",
         "ephys:Electrode",
         "ephys:ElectrodeArray",
         "ephys:Pipette",
         "ephys:Recording",
-        "https://openminds.ebrains.eu/core/BehavioralProtocol",
-        "https://openminds.ebrains.eu/core/ContentType",
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/FileRepository",
-        "https://openminds.ebrains.eu/core/NumericalProperty",
-        "https://openminds.ebrains.eu/core/Protocol",
-        "https://openminds.ebrains.eu/core/Setup",
-        "https://openminds.ebrains.eu/core/Strain",
-        "https://openminds.ebrains.eu/core/StringProperty",
-        "https://openminds.ebrains.eu/neuroimaging/Image",
-        "https://openminds.ebrains.eu/neuroimaging/ImageSequence",
-        "https://openminds.ebrains.eu/neuroimaging/ImageStack",
-        "https://openminds.ebrains.eu/neuroimaging/MRIScanner",
+        "neuroimaging:Image",
+        "neuroimaging:ImageSequence",
+        "neuroimaging:ImageStack",
+        "neuroimaging:MRIScanner",
         "publications:Book",
         "publications:Chapter",
         "publications:LearningResource",
@@ -9640,7 +9618,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/QuantitativeValueArray"
+        "core:QuantitativeValueArray"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/QuantitativeValueArray"
@@ -9654,7 +9632,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -9681,8 +9659,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/ImageSequence",
-        "https://openminds.ebrains.eu/neuroimaging/ImageStack"
+        "neuroimaging:ImageSequence",
+        "neuroimaging:ImageStack"
       ]
     }
   },
@@ -9693,8 +9671,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/Volume",
-        "https://openminds.ebrains.eu/neuroimaging/VolumeSequence"
+        "neuroimaging:Volume",
+        "neuroimaging:VolumeSequence"
       ]
     }
   },
@@ -9707,7 +9685,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/SubjectGroup"
+        "core:SubjectGroup"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/SubjectGroup"
@@ -9723,7 +9701,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/TissueSampleCollection"
+        "core:TissueSampleCollection"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/TissueSampleCollection"
@@ -9737,7 +9715,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/VolumeSequence"
+        "neuroimaging:VolumeSequence"
       ]
     }
   },
@@ -9748,7 +9726,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -9759,7 +9737,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/FunctionalMRIAcquisition"
+        "neuroimaging:FunctionalMRIAcquisition"
       ]
     }
   },
@@ -9782,7 +9760,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Strain",
+        "core:Strain",
         "sands:BrainAtlas",
         "sands:BrainAtlasVersion",
         "sands:CommonCoordinateSpace",
@@ -9912,7 +9890,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/ServiceLink"
+        "core:ServiceLink"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/ServiceLink"
@@ -9923,7 +9901,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/OperatingSystem"
+          "controlledTerms:OperatingSystem"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/OperatingSystem"
@@ -9945,7 +9923,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
+        "core:SoftwareVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
@@ -10001,9 +9979,9 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/CellType",
-          "https://openminds.ebrains.eu/controlledTerms/Organ",
-          "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance"
+          "controlledTerms:CellType",
+          "controlledTerms:Organ",
+          "controlledTerms:OrganismSubstance"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/CellType",
@@ -10029,8 +10007,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/TissueSample",
-        "https://openminds.ebrains.eu/core/TissueSampleCollection"
+        "core:TissueSample",
+        "core:TissueSampleCollection"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/TissueSample",
@@ -10098,7 +10076,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Contribution"
+          "core:Contribution"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Contribution"
@@ -10122,11 +10100,11 @@
       "latest": [
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "core:DatasetVersion",
+        "core:MetaDataModelVersion",
+        "core:ModelVersion",
+        "core:SoftwareVersion",
+        "core:WebServiceVersion",
         "publications:LivePaperVersion",
         "sands:BrainAtlasVersion",
         "sands:CommonCoordinateSpaceVersion"
@@ -10169,13 +10147,7 @@
           "core:SubjectGroupState",
           "core:SubjectState",
           "core:TissueSampleCollectionState",
-          "core:TissueSampleState",
-          "https://openminds.ebrains.eu/core/File",
-          "https://openminds.ebrains.eu/core/FileBundle",
-          "https://openminds.ebrains.eu/core/SubjectGroupState",
-          "https://openminds.ebrains.eu/core/SubjectState",
-          "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-          "https://openminds.ebrains.eu/core/TissueSampleState"
+          "core:TissueSampleState"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/FileBundle",
@@ -10222,10 +10194,10 @@
         "computation:Optimization",
         "computation:Simulation",
         "computation:Visualization",
+        "core:ProtocolExecution",
         "ephys:CellPatching",
         "ephys:ElectrodePlacement",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/core/ProtocolExecution",
         "specimenPrep:CranialWindowPreparation",
         "specimenPrep:TissueCulturePreparation",
         "specimenPrep:TissueSampleSlicing",
@@ -10260,10 +10232,10 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/DOI",
-          "https://openminds.ebrains.eu/core/File",
-          "https://openminds.ebrains.eu/core/FileBundle",
-          "https://openminds.ebrains.eu/core/WebResource"
+          "core:DOI",
+          "core:File",
+          "core:FileBundle",
+          "core:WebResource"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/DigitalIdentifier"
@@ -10290,7 +10262,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/ModelVersion"
+        "core:ModelVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/ModelVersion"
@@ -10307,7 +10279,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/ContentType"
+          "core:ContentType"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/ContentType"
@@ -10329,8 +10301,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebServiceVersion"
+        "core:SoftwareVersion",
+        "core:WebServiceVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
@@ -10348,9 +10320,9 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Consortium",
-          "https://openminds.ebrains.eu/core/Organization",
-          "https://openminds.ebrains.eu/core/Person"
+          "core:Consortium",
+          "core:Organization",
+          "core:Person"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/Consortium",
@@ -10371,7 +10343,7 @@
         "ephys:Electrode",
         "ephys:ElectrodeArray",
         "ephys:Pipette",
-        "https://openminds.ebrains.eu/neuroimaging/MRIScanner",
+        "neuroimaging:MRIScanner",
         "specimenPrep:SlicingDevice"
       ],
       "v3.0": [
@@ -10422,7 +10394,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -10518,8 +10490,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/Disease",
-          "https://openminds.ebrains.eu/controlledTerms/DiseaseModel"
+          "controlledTerms:Disease",
+          "controlledTerms:DiseaseModel"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/Disease",
@@ -10544,10 +10516,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/SubjectGroupState",
-        "https://openminds.ebrains.eu/core/SubjectState",
-        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-        "https://openminds.ebrains.eu/core/TissueSampleState"
+        "core:SubjectGroupState",
+        "core:SubjectState",
+        "core:TissueSampleCollectionState",
+        "core:TissueSampleState"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/SubjectGroupState",
@@ -10594,7 +10566,7 @@
       "canPointTo": {
         "latest": [
           "computation:SoftwareAgent",
-          "https://openminds.ebrains.eu/core/Person"
+          "core:Person"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/computation/SoftwareAgent",
@@ -10618,10 +10590,10 @@
         "computation:Optimization",
         "computation:Simulation",
         "computation:Visualization",
+        "core:ProtocolExecution",
         "ephys:CellPatching",
         "ephys:ElectrodePlacement",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/core/ProtocolExecution",
         "specimenPrep:CranialWindowPreparation",
         "specimenPrep:TissueCulturePreparation",
         "specimenPrep:TissueSampleSlicing",
@@ -10648,7 +10620,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/CartesianDirectionVector"
+          "controlledTerms:CartesianDirectionVector"
         ]
       },
       "nameForReverseLink": null
@@ -10659,7 +10631,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -10691,7 +10663,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Strain"
+        "core:Strain"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Subject",
@@ -10770,7 +10742,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -10781,9 +10753,9 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/Image",
-        "https://openminds.ebrains.eu/neuroimaging/ImageSequence",
-        "https://openminds.ebrains.eu/neuroimaging/ImageStack"
+        "neuroimaging:Image",
+        "neuroimaging:ImageSequence",
+        "neuroimaging:ImageStack"
       ]
     }
   },
@@ -10796,7 +10768,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/QuantitativeValueArray"
+        "core:QuantitativeValueArray"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/QuantitativeValueArray"
@@ -11045,7 +11017,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/PreparationType"
+          "controlledTerms:PreparationType"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/PreparationType"
@@ -11061,11 +11033,11 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
+        "core:DatasetVersion",
+        "core:ProtocolExecution",
         "ephys:CellPatching",
         "ephys:ElectrodePlacement",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/ProtocolExecution",
         "specimenPrep:CranialWindowPreparation",
         "specimenPrep:TissueCulturePreparation",
         "specimenPrep:TissueSampleSlicing",
@@ -11137,7 +11109,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/File"
+          "core:File"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/File"
@@ -11153,7 +11125,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/ServiceLink"
+        "core:ServiceLink"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/ServiceLink"
@@ -11244,7 +11216,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage"
+          "controlledTerms:ProgrammingLanguage"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage"
@@ -11266,7 +11238,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
+        "core:SoftwareVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
@@ -11305,8 +11277,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/NumericalProperty",
-          "https://openminds.ebrains.eu/core/StringProperty"
+          "core:NumericalProperty",
+          "core:StringProperty"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/NumericalProperty",
@@ -11323,7 +11295,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/PropertyValueList"
+        "core:PropertyValueList"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/PropertyValueList"
@@ -11334,7 +11306,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Protocol"
+          "core:Protocol"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Protocol"
@@ -11356,11 +11328,11 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
+        "core:DatasetVersion",
+        "core:ProtocolExecution",
         "ephys:CellPatching",
         "ephys:ElectrodePlacement",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/ProtocolExecution",
         "specimenPrep:CranialWindowPreparation",
         "specimenPrep:TissueCulturePreparation",
         "specimenPrep:TissueSampleSlicing",
@@ -11388,9 +11360,9 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Consortium",
-          "https://openminds.ebrains.eu/core/Organization",
-          "https://openminds.ebrains.eu/core/Person"
+          "core:Consortium",
+          "core:Organization",
+          "core:Person"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/Consortium",
@@ -11449,9 +11421,9 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Consortium",
-          "https://openminds.ebrains.eu/core/Organization",
-          "https://openminds.ebrains.eu/core/Person"
+          "core:Consortium",
+          "core:Organization",
+          "core:Person"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/Consortium",
@@ -11486,7 +11458,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence"
+          "controlledTerms:MRIPulseSequence"
         ]
       },
       "nameForReverseLink": null
@@ -11497,7 +11469,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -11636,7 +11608,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/MRIRadiofrequencyCoilType"
+          "controlledTerms:MRIRadiofrequencyCoilType"
         ]
       },
       "nameForReverseLink": null
@@ -11647,7 +11619,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -11726,7 +11698,7 @@
           "ephys:ElectrodeArrayUsage",
           "ephys:ElectrodeUsage",
           "ephys:PipetteUsage",
-          "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
+          "neuroimaging:MRIScannerUsage",
           "specimenPrep:SlicingDeviceUsage"
         ],
         "v3.0": [
@@ -11830,8 +11802,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/ContentTypePattern",
-        "https://openminds.ebrains.eu/core/FilePathPattern"
+        "core:ContentTypePattern",
+        "core:FilePathPattern"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/ContentTypePattern",
@@ -11906,7 +11878,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "core:ContentType"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/ContentType"
@@ -11923,10 +11895,10 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/DOI",
-          "https://openminds.ebrains.eu/core/HANDLE",
-          "https://openminds.ebrains.eu/core/ISBN",
-          "https://openminds.ebrains.eu/core/ISSN",
+          "core:DOI",
+          "core:HANDLE",
+          "core:ISBN",
+          "core:ISSN",
           "publications:Book",
           "publications:Chapter",
           "publications:ScholarlyArticle"
@@ -11960,11 +11932,11 @@
       "latest": [
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "core:DatasetVersion",
+        "core:MetaDataModelVersion",
+        "core:ModelVersion",
+        "core:SoftwareVersion",
+        "core:WebServiceVersion",
         "publications:LivePaperVersion",
         "sands:BrainAtlasVersion",
         "sands:CommonCoordinateSpaceVersion"
@@ -12131,8 +12103,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+          "core:QuantitativeValue",
+          "core:QuantitativeValueRange"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue",
@@ -12149,10 +12121,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/SubjectGroupState",
-        "https://openminds.ebrains.eu/core/SubjectState",
-        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-        "https://openminds.ebrains.eu/core/TissueSampleState"
+        "core:SubjectGroupState",
+        "core:SubjectState",
+        "core:TissueSampleCollectionState",
+        "core:TissueSampleState"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/SubjectGroupState",
@@ -12183,11 +12155,11 @@
       "latest": [
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "core:DatasetVersion",
+        "core:MetaDataModelVersion",
+        "core:ModelVersion",
+        "core:SoftwareVersion",
+        "core:WebServiceVersion",
         "publications:LivePaperVersion",
         "sands:BrainAtlasVersion",
         "sands:CommonCoordinateSpaceVersion"
@@ -12258,7 +12230,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/CustomPropertySet"
+        "core:CustomPropertySet"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/ParameterSetting"
@@ -12275,7 +12247,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -12286,7 +12258,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -12294,7 +12266,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/FileRepository"
+          "core:FileRepository"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/FileRepository"
@@ -12318,11 +12290,11 @@
       "latest": [
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "core:DatasetVersion",
+        "core:MetaDataModelVersion",
+        "core:ModelVersion",
+        "core:SoftwareVersion",
+        "core:WebServiceVersion",
         "publications:LivePaperVersion",
         "sands:BrainAtlasVersion",
         "sands:CommonCoordinateSpaceVersion"
@@ -12421,7 +12393,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
+        "core:SoftwareVersion"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
@@ -12503,7 +12475,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/File"
+          "core:File"
         ]
       },
       "nameForReverseLink": null
@@ -12514,7 +12486,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/FunctionalMRIAcquisition"
+        "neuroimaging:FunctionalMRIAcquisition"
       ]
     }
   },
@@ -12522,8 +12494,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "controlledTerms:ModelScope",
-          "https://openminds.ebrains.eu/controlledTerms/ModelScope"
+          "controlledTerms:ModelScope"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/ModelScope"
@@ -12546,7 +12517,7 @@
     "usedIn": {
       "latest": [
         "computation:ValidationTest",
-        "https://openminds.ebrains.eu/core/Model"
+        "core:Model"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/ModelVersion"
@@ -12731,7 +12702,7 @@
         "ephys:Electrode",
         "ephys:ElectrodeArray",
         "ephys:Pipette",
-        "https://openminds.ebrains.eu/neuroimaging/MRIScanner",
+        "neuroimaging:MRIScanner",
         "specimenPrep:SlicingDevice"
       ],
       "v3.0": [
@@ -12746,7 +12717,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/ContentType"
+          "core:ContentType"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/ContentType"
@@ -12768,7 +12739,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion"
+        "core:MetaDataModelVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/MetaDataModelVersion"
@@ -12812,8 +12783,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/Service",
-          "https://openminds.ebrains.eu/core/WebService"
+          "controlledTerms:Service",
+          "core:WebService"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/Service",
@@ -12830,8 +12801,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/AccountInformation",
-        "https://openminds.ebrains.eu/core/ServiceLink"
+        "core:AccountInformation",
+        "core:ServiceLink"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/AccountInformation",
@@ -12889,20 +12860,20 @@
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipe",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/Consortium",
-        "https://openminds.ebrains.eu/core/Dataset",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/License",
-        "https://openminds.ebrains.eu/core/MetaDataModel",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/Model",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/Project",
-        "https://openminds.ebrains.eu/core/Software",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebService",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "core:Consortium",
+        "core:Dataset",
+        "core:DatasetVersion",
+        "core:License",
+        "core:MetaDataModel",
+        "core:MetaDataModelVersion",
+        "core:Model",
+        "core:ModelVersion",
+        "core:Organization",
+        "core:Project",
+        "core:Software",
+        "core:SoftwareVersion",
+        "core:WebService",
+        "core:WebServiceVersion",
         "publications:LivePaper",
         "publications:LivePaperVersion",
         "sands:BrainAtlas",
@@ -12976,7 +12947,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValueArray"
+          "core:QuantitativeValueArray"
         ]
       },
       "nameForReverseLink": null
@@ -12987,7 +12958,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -12996,8 +12967,7 @@
       "canPointTo": {
         "latest": [
           "core:QuantitativeValue",
-          "core:QuantitativeValueRange",
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:QuantitativeValueRange"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue",
@@ -13014,7 +12984,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/ImageStack",
+        "neuroimaging:ImageStack",
         "specimenPrep:SlicingDeviceUsage"
       ],
       "v3.0": [
@@ -13026,7 +12996,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValueArray"
+          "core:QuantitativeValueArray"
         ]
       },
       "nameForReverseLink": null
@@ -13037,7 +13007,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -13157,7 +13127,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/File"
+          "core:File"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/File"
@@ -13173,7 +13143,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/FileArchive"
+        "core:FileArchive"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/FileArchive"
@@ -13243,8 +13213,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "controlledTerms:FileUsageRole",
-          "https://openminds.ebrains.eu/controlledTerms/FileUsageRole"
+          "controlledTerms:FileUsageRole"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/fileUsageRole"
@@ -13267,7 +13236,7 @@
     "usedIn": {
       "latest": [
         "computation:LocalFile",
-        "https://openminds.ebrains.eu/core/File"
+        "core:File"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/FileInstance"
@@ -13285,8 +13254,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/Species",
-          "https://openminds.ebrains.eu/core/Strain"
+          "controlledTerms:Species",
+          "core:Strain"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/Species"
@@ -13309,11 +13278,11 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Strain",
-        "https://openminds.ebrains.eu/core/Subject",
-        "https://openminds.ebrains.eu/core/SubjectGroup",
-        "https://openminds.ebrains.eu/core/TissueSample",
-        "https://openminds.ebrains.eu/core/TissueSampleCollection"
+        "core:Strain",
+        "core:Subject",
+        "core:SubjectGroup",
+        "core:TissueSample",
+        "core:TissueSampleCollection"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Subject",
@@ -13371,7 +13340,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/ContentType",
+        "core:ContentType",
         "sands:AtlasAnnotation",
         "sands:CustomAnnotation",
         "stimulation:EphysStimulus"
@@ -13391,7 +13360,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/ContentType"
+          "core:ContentType"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/ContentType"
@@ -13413,7 +13382,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion"
+        "core:MetaDataModelVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/MetaDataModelVersion"
@@ -13430,7 +13399,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation"
+          "controlledTerms:AnatomicalAxesOrientation"
         ]
       },
       "nameForReverseLink": null
@@ -13441,8 +13410,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/FunctionalMRIAcquisition",
-        "https://openminds.ebrains.eu/neuroimaging/StructuralMRIAcquisition"
+        "neuroimaging:FunctionalMRIAcquisition",
+        "neuroimaging:StructuralMRIAcquisition"
       ]
     }
   },
@@ -13453,7 +13422,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -13514,7 +13483,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Affiliation"
+        "core:Affiliation"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Affiliation"
@@ -13575,10 +13544,10 @@
         "computation:Optimization",
         "computation:Simulation",
         "computation:Visualization",
+        "core:ProtocolExecution",
         "ephys:CellPatching",
         "ephys:ElectrodePlacement",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/core/ProtocolExecution",
         "specimenPrep:CranialWindowPreparation",
         "specimenPrep:TissueCulturePreparation",
         "specimenPrep:TissueSampleSlicing",
@@ -13606,7 +13575,7 @@
       "canPointTo": {
         "latest": [
           "computation:SoftwareAgent",
-          "https://openminds.ebrains.eu/core/Person"
+          "core:Person"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/computation/SoftwareAgent",
@@ -13687,8 +13656,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
-          "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique"
+          "controlledTerms:StimulationApproach",
+          "controlledTerms:StimulationTechnique"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
@@ -13705,7 +13674,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/BehavioralProtocol"
+        "core:BehavioralProtocol"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/BehavioralProtocol"
@@ -13771,8 +13740,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/BehavioralProtocol",
-        "https://openminds.ebrains.eu/core/Protocol"
+        "core:BehavioralProtocol",
+        "core:Protocol"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/BehavioralProtocol",
@@ -13784,7 +13753,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/StockNumber"
+          "core:StockNumber"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/StockNumber"
@@ -13800,7 +13769,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Strain"
+        "core:Strain"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/Strain"
@@ -13811,8 +13780,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "core:QuantitativeValue",
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:QuantitativeValue"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue"
@@ -13835,9 +13803,9 @@
     "usedIn": {
       "latest": [
         "computation:LocalFile",
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/FileRepository"
+        "core:File",
+        "core:FileBundle",
+        "core:FileRepository"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/FileBundle",
@@ -13894,7 +13862,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/File"
+          "core:File"
         ]
       },
       "nameForReverseLink": null
@@ -13905,7 +13873,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/FunctionalMRIAcquisition"
+        "neuroimaging:FunctionalMRIAcquisition"
       ]
     }
   },
@@ -13913,7 +13881,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/FileRepositoryStructure"
+          "core:FileRepositoryStructure"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/FileRepositoryStructure"
@@ -13929,7 +13897,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/FileRepository"
+        "core:FileRepository"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/FileRepository"
@@ -13940,10 +13908,10 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Subject",
-          "https://openminds.ebrains.eu/core/SubjectGroup",
-          "https://openminds.ebrains.eu/core/TissueSample",
-          "https://openminds.ebrains.eu/core/TissueSampleCollection"
+          "core:Subject",
+          "core:SubjectGroup",
+          "core:TissueSample",
+          "core:TissueSampleCollection"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/Subject",
@@ -13968,7 +13936,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/DatasetVersion"
+        "core:DatasetVersion"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
@@ -13982,10 +13950,10 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/SubjectGroupState",
-          "https://openminds.ebrains.eu/core/SubjectState",
-          "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-          "https://openminds.ebrains.eu/core/TissueSampleState"
+          "core:SubjectGroupState",
+          "core:SubjectState",
+          "core:TissueSampleCollectionState",
+          "core:TissueSampleState"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/SubjectGroupState",
@@ -14016,10 +13984,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Subject",
-        "https://openminds.ebrains.eu/core/SubjectGroup",
-        "https://openminds.ebrains.eu/core/TissueSample",
-        "https://openminds.ebrains.eu/core/TissueSampleCollection"
+        "core:Subject",
+        "core:SubjectGroup",
+        "core:TissueSample",
+        "core:TissueSampleCollection"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Subject",
@@ -14183,12 +14151,12 @@
         "computation:Simulation",
         "computation:ValidationTest",
         "computation:Visualization",
+        "core:DatasetVersion",
+        "core:Model",
+        "core:ProtocolExecution",
         "ephys:CellPatching",
         "ephys:ElectrodePlacement",
         "ephys:RecordingActivity",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/Model",
-        "https://openminds.ebrains.eu/core/ProtocolExecution",
         "specimenPrep:CranialWindowPreparation",
         "specimenPrep:TissueCulturePreparation",
         "specimenPrep:TissueSampleSlicing",
@@ -14271,11 +14239,11 @@
       "latest": [
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "core:DatasetVersion",
+        "core:MetaDataModelVersion",
+        "core:ModelVersion",
+        "core:SoftwareVersion",
+        "core:WebServiceVersion",
         "publications:LivePaperVersion",
         "sands:BrainAtlasVersion",
         "sands:CommonCoordinateSpaceVersion"
@@ -14399,8 +14367,8 @@
         "controlledTerms:UBERONParcellation",
         "controlledTerms:UnitOfMeasurement",
         "controlledTerms:VisualStimulusType",
-        "https://openminds.ebrains.eu/core/ContentType",
-        "https://openminds.ebrains.eu/core/Strain"
+        "core:ContentType",
+        "core:Strain"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/ContentType"
@@ -14625,8 +14593,8 @@
         "computation:Optimization",
         "computation:Simulation",
         "computation:Visualization",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/Protocol"
+        "core:DatasetVersion",
+        "core:Protocol"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Protocol"
@@ -14680,7 +14648,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
+          "core:QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -14691,8 +14659,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/ImageSequence",
-        "https://openminds.ebrains.eu/neuroimaging/VolumeSequence"
+        "neuroimaging:ImageSequence",
+        "neuroimaging:VolumeSequence"
       ]
     }
   },
@@ -14736,8 +14704,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Comment",
-        "https://openminds.ebrains.eu/core/Measurement"
+        "core:Comment",
+        "core:Measurement"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/Comment",
@@ -14805,13 +14773,13 @@
           "controlledTerms:AnnotationType",
           "controlledTerms:AtlasType",
           "controlledTerms:ChemicalMixtureType",
+          "controlledTerms:ContributionType",
           "controlledTerms:ElectricalStimulusType",
+          "controlledTerms:FileRepositoryType",
           "controlledTerms:LearningResourceType",
-          "https://openminds.ebrains.eu/controlledTerms/ContributionType",
-          "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType",
-          "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
-          "https://openminds.ebrains.eu/controlledTerms/SetupType",
-          "https://openminds.ebrains.eu/controlledTerms/TissueSampleType"
+          "controlledTerms:MetaDataModelType",
+          "controlledTerms:SetupType",
+          "controlledTerms:TissueSampleType"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/DatasetType",
@@ -14856,12 +14824,12 @@
     "usedIn": {
       "latest": [
         "chemicals:ChemicalMixture",
-        "https://openminds.ebrains.eu/core/Contribution",
-        "https://openminds.ebrains.eu/core/FileRepository",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/Setup",
-        "https://openminds.ebrains.eu/core/TissueSample",
-        "https://openminds.ebrains.eu/core/TissueSampleCollection",
+        "core:Contribution",
+        "core:FileRepository",
+        "core:MetaDataModelVersion",
+        "core:Setup",
+        "core:TissueSample",
+        "core:TissueSampleCollection",
         "publications:LearningResource",
         "publications:LivePaperSection",
         "sands:AtlasAnnotation",
@@ -14903,7 +14871,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty"
+          "controlledTerms:TypeOfUncertainty"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty"
@@ -14922,8 +14890,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue",
-        "https://openminds.ebrains.eu/core/QuantitativeValueArray"
+        "core:QuantitativeValue",
+        "core:QuantitativeValueArray"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
@@ -14943,7 +14911,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
@@ -14960,8 +14928,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "controlledTerms:UnitOfMeasurement",
-          "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+          "controlledTerms:UnitOfMeasurement"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
@@ -14983,9 +14950,9 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "ephys:Channel",
-        "https://openminds.ebrains.eu/core/QuantitativeValue",
-        "https://openminds.ebrains.eu/core/QuantitativeValueArray"
+        "core:QuantitativeValue",
+        "core:QuantitativeValueArray",
+        "ephys:Channel"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/ParameterSetting",
@@ -15061,10 +15028,10 @@
         "latest": [
           "core:Subject",
           "core:SubjectGroup",
+          "core:SubjectState",
           "core:TissueSample",
           "core:TissueSampleCollection",
-          "https://openminds.ebrains.eu/core/SubjectState",
-          "https://openminds.ebrains.eu/core/TissueSampleState"
+          "core:TissueSampleState"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/Subject",
@@ -15088,7 +15055,7 @@
         "ephys:ElectrodeArrayUsage",
         "ephys:ElectrodeUsage",
         "ephys:PipetteUsage",
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
+        "neuroimaging:MRIScannerUsage",
         "sands:BrainAtlasVersion",
         "sands:CommonCoordinateSpaceVersion",
         "specimenPrep:SlicingDeviceUsage"
@@ -15120,7 +15087,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/AccountInformation"
+        "core:AccountInformation"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/AccountInformation"
@@ -15131,8 +15098,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+          "core:QuantitativeValue",
+          "core:QuantitativeValueRange"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue",
@@ -15162,10 +15129,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Measurement",
-        "https://openminds.ebrains.eu/core/NumericalProperty",
-        "https://openminds.ebrains.eu/core/QuantitativeValue",
-        "https://openminds.ebrains.eu/core/StringProperty",
+        "core:Measurement",
+        "core:NumericalProperty",
+        "core:QuantitativeValue",
+        "core:StringProperty",
         "sands:SingleColor"
       ],
       "v1.0": [
@@ -15195,7 +15162,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/QuantitativeValueArray"
+        "core:QuantitativeValueArray"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/QuantitativeValueArray"
@@ -15233,7 +15200,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/Organization"
+          "core:Organization"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/Organization"
@@ -15249,7 +15216,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/StockNumber"
+        "core:StockNumber"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/StockNumber"
@@ -15278,11 +15245,11 @@
         "computation:HardwareSystem",
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "core:DatasetVersion",
+        "core:MetaDataModelVersion",
+        "core:ModelVersion",
+        "core:SoftwareVersion",
+        "core:WebServiceVersion",
         "publications:Book",
         "publications:Chapter",
         "publications:LearningResource",
@@ -15352,11 +15319,11 @@
       "latest": [
         "computation:ValidationTestVersion",
         "computation:WorkflowRecipeVersion",
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/core/WebServiceVersion",
+        "core:DatasetVersion",
+        "core:MetaDataModelVersion",
+        "core:ModelVersion",
+        "core:SoftwareVersion",
+        "core:WebServiceVersion",
         "publications:LivePaperVersion",
         "sands:BrainAtlasVersion",
         "sands:CommonCoordinateSpaceVersion",
@@ -15479,7 +15446,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValueArray"
+          "core:QuantitativeValueArray"
         ]
       },
       "nameForReverseLink": null
@@ -15490,7 +15457,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/FunctionalMRIAcquisition"
+        "neuroimaging:FunctionalMRIAcquisition"
       ]
     }
   },
@@ -15498,8 +15465,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "https://openminds.ebrains.eu/core/QuantitativeValueArray"
+          "core:QuantitativeValue",
+          "core:QuantitativeValueArray"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue"
@@ -15515,9 +15482,9 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
-        "https://openminds.ebrains.eu/neuroimaging/Volume",
-        "https://openminds.ebrains.eu/neuroimaging/VolumeSequence"
+        "neuroimaging:MRIScannerUsage",
+        "neuroimaging:Volume",
+        "neuroimaging:VolumeSequence"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/sands/Image"
@@ -15593,7 +15560,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/License"
+        "core:License"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/License"
@@ -15607,8 +15574,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+          "core:QuantitativeValue",
+          "core:QuantitativeValueRange"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue",
@@ -15633,10 +15600,10 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/SubjectGroupState",
-        "https://openminds.ebrains.eu/core/SubjectState",
-        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-        "https://openminds.ebrains.eu/core/TissueSampleState"
+        "core:SubjectGroupState",
+        "core:SubjectState",
+        "core:TissueSampleCollectionState",
+        "core:TissueSampleState"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/SubjectGroupState",
@@ -15704,7 +15671,7 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
-        "https://openminds.ebrains.eu/core/Copyright"
+        "core:Copyright"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Copyright"

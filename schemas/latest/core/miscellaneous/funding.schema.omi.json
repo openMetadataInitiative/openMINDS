@@ -1,9 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/Funding",
-  "color": "#73013E",
-  "description": "Structured information on used funding.",
-  "label": "Funding",
-  "name": "Funding",
+  "_type": "core:Funding",
+  "label": "Core:funding",
+  "name": "core:Funding",
   "properties": {
     "https://openminds.ebrains.eu/vocab/acknowledgement": {
       "_instruction": "Enter the acknowledgement that should be used with this funding.",
@@ -41,9 +39,9 @@
     "https://openminds.ebrains.eu/vocab/funder": {
       "_instruction": "Add the party that provided this funding.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Consortium",
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Consortium",
+        "core:Organization",
+        "core:Person"
       ],
       "description": "Legal person that provides money for a particular purpose.",
       "label": "Funder",

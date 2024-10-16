@@ -2,11 +2,9 @@
   "_categories": [
     "fileOrigin"
   ],
-  "_type": "https://openminds.ebrains.eu/core/File",
-  "color": "#AA9297",
-  "description": "Structured information on a file instance that is accessible via a URL.",
-  "label": "File",
-  "name": "File",
+  "_type": "core:File",
+  "label": "Core:file",
+  "name": "core:File",
   "properties": {
     "https://openminds.ebrains.eu/vocab/IRI": {
       "_formats": [
@@ -35,7 +33,7 @@
     "https://openminds.ebrains.eu/vocab/dataType": {
       "_instruction": "Add all data types that are specifically represented in this file instance.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/DataType"
+        "controlledTerms:DataType"
       ],
       "label": "Data type",
       "labelPlural": "Data types",
@@ -49,7 +47,7 @@
     "https://openminds.ebrains.eu/vocab/fileRepository": {
       "_instruction": "Add the overarching repository to which this file instance belongs.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileRepository"
+        "core:FileRepository"
       ],
       "label": "File repository",
       "labelPlural": "File repositories",
@@ -60,7 +58,7 @@
     "https://openminds.ebrains.eu/vocab/format": {
       "_instruction": "Add the content type of this file instance.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "core:ContentType"
       ],
       "description": "Method of digitally organizing and structuring data or information.",
       "label": "Format",
@@ -71,7 +69,7 @@
     },
     "https://openminds.ebrains.eu/vocab/hash": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Hash"
+        "core:Hash"
       ],
       "_instruction": "Add all hashes that were generated for this file instance.",
       "description": "Term used for the process of converting any data into a single value. Often also directly refers to the resulting single value.",
@@ -87,7 +85,7 @@
     "https://openminds.ebrains.eu/vocab/isPartOf": {
       "_instruction": "Add all file bundles in which this file instance is grouped into.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileBundle"
+        "core:FileBundle"
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
@@ -113,7 +111,7 @@
     "https://openminds.ebrains.eu/vocab/specialUsageRole": {
       "_instruction": "Add the special usage role of this file instance.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/FileUsageRole"
+        "controlledTerms:FileUsageRole"
       ],
       "description": "Particular function of something when it is used.",
       "label": "Special usage role",
@@ -124,7 +122,7 @@
     },
     "https://openminds.ebrains.eu/vocab/storageSize": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter the storage size of this file instance.",
       "description": "Quantitative value defining how much disk space is used by an object on a computer system.",

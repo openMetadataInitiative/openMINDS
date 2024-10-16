@@ -1,13 +1,12 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/FilePathPattern",
-  "color": "#564620",
-  "label": "File path pattern",
-  "name": "FilePathPattern",
+  "_type": "core:FilePathPattern",
+  "label": "Core:file path pattern",
+  "name": "core:FilePathPattern",
   "properties": {
     "https://openminds.ebrains.eu/vocab/groupingType": {
       "_instruction": "Add all grouping types that are defined by this file path pattern.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
+        "controlledTerms:FileBundleGrouping"
       ],
       "label": "Grouping type",
       "labelPlural": "Grouping types",

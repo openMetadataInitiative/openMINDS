@@ -1,9 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/QuantitativeValueRange",
-  "color": "#A4E804",
-  "description": "A representation of a range of quantitative values.",
-  "label": "Quantitative value range",
-  "name": "QuantitativeValueRange",
+  "_type": "core:QuantitativeValueRange",
+  "label": "Core:quantitative value range",
+  "name": "core:QuantitativeValueRange",
   "properties": {
     "https://openminds.ebrains.eu/vocab/maxValue": {
       "_instruction": "Enter the maximum value.",
@@ -17,7 +15,7 @@
     "https://openminds.ebrains.eu/vocab/maxValueUnit": {
       "_instruction": "Add the unit of measurement for the maximum value.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+        "controlledTerms:UnitOfMeasurement"
       ],
       "label": "Max value unit",
       "labelPlural": "Max value units",
@@ -37,7 +35,7 @@
     "https://openminds.ebrains.eu/vocab/minValueUnit": {
       "_instruction": "Add the unit of measurement for the minimum value.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+        "controlledTerms:UnitOfMeasurement"
       ],
       "label": "Min value unit",
       "labelPlural": "Min value units",

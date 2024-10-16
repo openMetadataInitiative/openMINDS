@@ -1,11 +1,11 @@
 {
-  "_type": "https://openminds.ebrains.eu/neuroimaging/FunctionalMRIAcquisition",
-  "label": "Functional mriacquisition",
-  "name": "FunctionalMRIAcquisition",
+  "_type": "neuroimaging:FunctionalMRIAcquisition",
+  "label": "Neuroimaging:functional mriacquisition",
+  "name": "neuroimaging:FunctionalMRIAcquisition",
   "properties": {
     "https://openminds.ebrains.eu/vocab/acquisitionDuration": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter duration of volume acquisition.",
       "label": "Acquisition duration",
@@ -15,7 +15,7 @@
     "https://openminds.ebrains.eu/vocab/behavioralProtocol": {
       "_instruction": "Add all behavioral protocols that were performed during this session.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/BehavioralProtocol"
+        "core:BehavioralProtocol"
       ],
       "label": "Behavioral protocol",
       "labelPlural": "Behavioral protocols",
@@ -29,7 +29,7 @@
     "https://openminds.ebrains.eu/vocab/contrastAgent": {
       "_instruction": "Add the contrast agent used for this scan.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/chemicals/AmountOfChemical"
+        "chemicals:AmountOfChemical"
       ],
       "label": "Contrast agent",
       "name": "contrastAgent",
@@ -37,7 +37,7 @@
     },
     "https://openminds.ebrains.eu/vocab/delayAfterTrigger": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter the duration from trigger delivery to scan onset (only the first volum).",
       "label": "Delay after trigger",
@@ -46,7 +46,7 @@
     },
     "https://openminds.ebrains.eu/vocab/delayTime": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter the arbitrary delay time set by user before each volume acquisition.",
       "label": "Delay time",
@@ -56,7 +56,7 @@
     "https://openminds.ebrains.eu/vocab/device": {
       "_instruction": "Add the MRI machine setting used for this scan.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage"
+        "neuroimaging:MRIScannerUsage"
       ],
       "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
       "label": "Device",
@@ -68,7 +68,7 @@
     "https://openminds.ebrains.eu/vocab/fieldMap": {
       "_instruction": "Add the images or field maps used for correction of inhemogenties in B0 field of this aquisition.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File"
+        "core:File"
       ],
       "label": "Field map",
       "minItems": 1,
@@ -79,8 +79,8 @@
     "https://openminds.ebrains.eu/vocab/input": {
       "_instruction": "Add the state of the subject or tissue sample before this session.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/SubjectState",
-        "https://openminds.ebrains.eu/core/TissueSampleState"
+        "core:SubjectState",
+        "core:TissueSampleState"
       ],
       "description": "Something or someone that is put into or participates in a process or machine.",
       "label": "Input",
@@ -98,7 +98,7 @@
     "https://openminds.ebrains.eu/vocab/sbref": {
       "_instruction": "Add the single-band reference image for this volume.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File"
+        "core:File"
       ],
       "label": "Sbref",
       "name": "sbref",
@@ -107,7 +107,7 @@
     "https://openminds.ebrains.eu/vocab/specimenOrientation": {
       "_instruction": "Add the anatomical orientation of the specimen in the scanner.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation"
+        "controlledTerms:AnatomicalAxesOrientation"
       ],
       "label": "Specimen orientation",
       "name": "specimenOrientation",
@@ -116,7 +116,7 @@
     "https://openminds.ebrains.eu/vocab/structuralMRI": {
       "_instruction": "Add the structural MRI relavent for this aquisition.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File"
+        "core:File"
       ],
       "label": "Structural mri",
       "name": "structuralMRI",
@@ -125,7 +125,7 @@
     "https://openminds.ebrains.eu/vocab/volumeTiming": {
       "_instruction": "Enter aquisition times of each vloume.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValueArray"
+        "core:QuantitativeValueArray"
       ],
       "label": "Volume timing",
       "name": "volumeTiming",

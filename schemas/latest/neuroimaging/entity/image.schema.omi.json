@@ -1,7 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/neuroimaging/Image",
-  "label": "Image",
-  "name": "Image",
+  "_type": "neuroimaging:Image",
+  "label": "Neuroimaging:image",
+  "name": "neuroimaging:Image",
   "properties": {
     "https://openminds.ebrains.eu/vocab/additionalRemarks": {
       "_instruction": "Enter any additional remarks concerning this image.",
@@ -20,7 +20,7 @@
         "ephys:ElectrodeArrayUsage",
         "ephys:ElectrodeUsage",
         "ephys:PipetteUsage",
-        "https://openminds.ebrains.eu/neuroimaging/MRIScannerUsage",
+        "neuroimaging:MRIScannerUsage",
         "specimenPrep:SlicingDeviceUsage"
       ],
       "label": "Captured with",
@@ -29,7 +29,7 @@
     },
     "https://openminds.ebrains.eu/vocab/colorDepth": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter the number of bits used to represent the color of each pixel.",
       "label": "Color depth",
@@ -51,7 +51,7 @@
     "https://openminds.ebrains.eu/vocab/dataLocation": {
       "_instruction": "Add the location of the file or file bundle in which the image is stored.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File"
+        "core:File"
       ],
       "label": "Data location",
       "labelPlural": "Data locations",
@@ -85,7 +85,7 @@
     },
     "https://openminds.ebrains.eu/vocab/pixelSize": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ],
       "_instruction": "Enter the physical pixel size for this image (in x,y order).",
       "label": "Pixel size",

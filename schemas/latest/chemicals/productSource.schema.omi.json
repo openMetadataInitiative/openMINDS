@@ -39,9 +39,9 @@
     "https://openminds.ebrains.eu/vocab/provider": {
       "_instruction": "Add the party (private, commercial or industrial) that provided this product.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Consortium",
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Consortium",
+        "core:Organization",
+        "core:Person"
       ],
       "label": "Provider",
       "labelPlural": "Providers",
