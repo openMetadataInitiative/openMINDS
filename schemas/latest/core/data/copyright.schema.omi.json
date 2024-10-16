@@ -1,16 +1,14 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/Copyright",
-  "color": "#8CD0FF",
-  "description": "Structured information on the copyright.",
-  "label": "Copyright",
-  "name": "Copyright",
+  "_type": "core:Copyright",
+  "label": "Core:copyright",
+  "name": "core:Copyright",
   "properties": {
     "https://openminds.ebrains.eu/vocab/holder": {
       "_instruction": "Add all parties that hold this copyright.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Consortium",
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Consortium",
+        "core:Organization",
+        "core:Person"
       ],
       "description": "Legal person in possession of something.",
       "label": "Holder",

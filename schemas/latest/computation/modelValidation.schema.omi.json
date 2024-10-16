@@ -8,7 +8,7 @@
   "properties": {
     "https://openminds.ebrains.eu/vocab/customPropertySet": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/CustomPropertySet"
+        "core:CustomPropertySet"
       ],
       "_instruction": "Add any user-defined parameters grouped in context-specific sets that are not covered in the standardized properties of this activity.",
       "label": "Custom property set",
@@ -119,7 +119,7 @@
       "_instruction": "Add all agents that performed this activity.",
       "_linkedTypes": [
         "computation:SoftwareAgent",
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Person"
       ],
       "label": "Performed by",
       "labelPlural": "Performed by",
@@ -182,7 +182,7 @@
       "_instruction": "Add the agent that started this computation.",
       "_linkedTypes": [
         "computation:SoftwareAgent",
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Person"
       ],
       "label": "Started by",
       "labelPlural": "Started by",

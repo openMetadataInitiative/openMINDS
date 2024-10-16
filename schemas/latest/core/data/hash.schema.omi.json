@@ -1,9 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/Hash",
-  "color": "#378FDB",
-  "description": "Structured information on a hash.",
-  "label": "Hash",
-  "name": "Hash",
+  "_type": "core:Hash",
+  "label": "Core:hash",
+  "name": "core:Hash",
   "properties": {
     "https://openminds.ebrains.eu/vocab/algorithm": {
       "_instruction": "Enter the algorithm used to generate this hash.",

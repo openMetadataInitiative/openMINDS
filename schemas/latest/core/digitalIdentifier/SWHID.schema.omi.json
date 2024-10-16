@@ -1,8 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/SWHID",
-  "color": "#20370E",
-  "label": "Swhid",
-  "name": "SWHID",
+  "_type": "core:SWHID",
+  "label": "Core:swhid",
+  "name": "core:SWHID",
   "properties": {
     "https://openminds.ebrains.eu/vocab/identifier": {
       "_instruction": "Enter the identifier for software source code artefacts provided by the Software Heritage archive ('SoftWare Heritage persistent IDentifier'; SWHID) as an internationalized resource identifier (IRI) following the defined pattern (i.e., 'https://archive.softwareheritage.org/' + SWHID).",

@@ -2,10 +2,9 @@
   "_categories": [
     "fileOrigin"
   ],
-  "_type": "https://openminds.ebrains.eu/core/SubjectGroup",
-  "color": "#374527",
-  "label": "Subject group",
-  "name": "SubjectGroup",
+  "_type": "core:SubjectGroup",
+  "label": "Core:subject group",
+  "name": "core:SubjectGroup",
   "properties": {
     "https://openminds.ebrains.eu/vocab/additionalRemarks": {
       "_instruction": "Enter any additional remarks concerning this specimen set.",
@@ -21,7 +20,7 @@
     "https://openminds.ebrains.eu/vocab/biologicalSex": {
       "_instruction": "Add the biological sex of all specimen in this set.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex"
+        "controlledTerms:BiologicalSex"
       ],
       "description": "Differentiation of individuals of most species (animals and plants) based on the type of gametes they produce.",
       "label": "Biological sex",
@@ -66,8 +65,8 @@
     "https://openminds.ebrains.eu/vocab/species": {
       "_instruction": "Add the species and/or strain (a sub-type of a genetic variant of species) of all specimen in this set.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Species",
-        "https://openminds.ebrains.eu/core/Strain"
+        "controlledTerms:Species",
+        "core:Strain"
       ],
       "description": "Category of biological classification comprising related organisms or populations potentially capable of interbreeding, and being designated by a binomial that consists of the name of a genus followed by a Latin or latinized uncapitalized noun or adjective.",
       "label": "Species",
@@ -82,7 +81,7 @@
     "https://openminds.ebrains.eu/vocab/studiedState": {
       "_instruction": "Add all states in which this subject group was studied.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/SubjectGroupState"
+        "core:SubjectGroupState"
       ],
       "description": "Reference to a point in time at which something or someone was studied in a particular mode or condition.",
       "label": "Studied state",

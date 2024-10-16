@@ -1,9 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/RRID",
-  "color": "#6B543F",
-  "description": "A persistent identifier for a research resource provided by the Resource Identification Initiative.",
-  "label": "Rrid",
-  "name": "RRID",
+  "_type": "core:RRID",
+  "label": "Core:rrid",
+  "name": "core:RRID",
   "properties": {
     "https://openminds.ebrains.eu/vocab/identifier": {
       "_instruction": "Enter the resource identifier provided by the Resource Identification Initiative ('Research Resource IDentifier'; RRID) as an internationalized resource identifier (IRI) following the defined pattern (i.e., 'https://scicrunch.org/resolver/' + RRID).",

@@ -2,15 +2,14 @@
   "_categories": [
     "researchProduct"
   ],
-  "_type": "https://openminds.ebrains.eu/core/WebServiceVersion",
-  "color": "#8D5700",
-  "label": "Web service version",
-  "name": "WebServiceVersion",
+  "_type": "core:WebServiceVersion",
+  "label": "Core:web service version",
+  "name": "core:WebServiceVersion",
   "properties": {
     "https://openminds.ebrains.eu/vocab/accessibility": {
       "_instruction": "Add the accessibility of the data for this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility"
+        "controlledTerms:ProductAccessibility"
       ],
       "description": "Level to which something is accessible to someone or something.",
       "label": "Accessibility",
@@ -21,7 +20,7 @@
     },
     "https://openminds.ebrains.eu/vocab/copyright": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Copyright"
+        "core:Copyright"
       ],
       "_instruction": "Enter the copyright information of this research product version.",
       "description": "Exclusive and assignable legal right of an originator to reproduce, publish, sell, or distribute the matter and form of a creative work for a defined time period.",
@@ -34,9 +33,9 @@
     "https://openminds.ebrains.eu/vocab/custodian": {
       "_instruction": "Add all parties that fulfill the role of a custodian for the research product version (e.g., a research group leader or principle investigator). Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the data, metadata, and/or code of the research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Consortium",
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Consortium",
+        "core:Organization",
+        "core:Person"
       ],
       "description": "The 'custodian' is a legal person who is responsible for the content and quality of the data, metadata, and/or code of a research product.",
       "label": "Custodian",
@@ -62,9 +61,9 @@
     "https://openminds.ebrains.eu/vocab/developer": {
       "_instruction": "Add all parties that developed this web service version. Note that these developers will overwrite the developer list provided for the overarching web service.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Consortium",
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Consortium",
+        "core:Organization",
+        "core:Person"
       ],
       "description": "Legal person that creates or improves products or services (e.g., software, applications, etc.).",
       "label": "Developer",
@@ -79,10 +78,10 @@
     "https://openminds.ebrains.eu/vocab/fullDocumentation": {
       "_instruction": "Add the publication or file that acts as the full documentation of this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/ISBN",
-        "https://openminds.ebrains.eu/core/WebResource"
+        "core:DOI",
+        "core:File",
+        "core:ISBN",
+        "core:WebResource"
       ],
       "description": "Non-abridged instructions, comments, and information for using a particular product.",
       "label": "Full documentation",
@@ -105,7 +104,7 @@
     "https://openminds.ebrains.eu/vocab/funding": {
       "_instruction": "Add all funding information of this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Funding"
+        "core:Funding"
       ],
       "description": "Money provided by a legal person for a particular purpose.",
       "label": "Funding",
@@ -120,7 +119,7 @@
     "https://openminds.ebrains.eu/vocab/hasPart": {
       "_instruction": "Add all software versions that are components of this web service version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
+        "core:SoftwareVersion"
       ],
       "label": "Has part",
       "labelPlural": "Has parts",
@@ -159,7 +158,7 @@
     "https://openminds.ebrains.eu/vocab/inputFormat": {
       "_instruction": "Add all content types that can be used as input by this web service version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "core:ContentType"
       ],
       "description": "Format of data that is put into a process or machine.",
       "label": "Input format",
@@ -174,7 +173,7 @@
     "https://openminds.ebrains.eu/vocab/isAlternativeVersionOf": {
       "_instruction": "Add all web service versions that can be used alternatively to this web service version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/WebServiceVersion"
+        "core:WebServiceVersion"
       ],
       "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
       "label": "Is alternative version of",
@@ -189,7 +188,7 @@
     "https://openminds.ebrains.eu/vocab/isNewVersionOf": {
       "_instruction": "Add the web service version preceding this web service version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/WebServiceVersion"
+        "core:WebServiceVersion"
       ],
       "description": "Reference to a previous (potentially outdated) particular form of something.",
       "label": "Is new version of",
@@ -294,7 +293,7 @@
     },
     "https://openminds.ebrains.eu/vocab/otherContribution": {
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Contribution"
+        "core:Contribution"
       ],
       "_instruction": "Add any other contributions to this research product version that are not covered under 'author'/'developer' or 'custodian'.",
       "description": "Giving or supplying of something (such as money or time) as a part or share other than what is covered elsewhere.",
@@ -310,7 +309,7 @@
     "https://openminds.ebrains.eu/vocab/outputFormat": {
       "_instruction": "Add all content types that can be generated as output by this web service version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "core:ContentType"
       ],
       "description": "Format of data that comes out of, is delivered or produced by a process or machine.",
       "label": "Output format",
@@ -325,10 +324,10 @@
     "https://openminds.ebrains.eu/vocab/relatedPublication": {
       "_instruction": "Add all further publications besides the full documentation that provide the original context for the production of this research product version (e.g., an original research article that used or produced the data of this research product version).",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/HANDLE",
-        "https://openminds.ebrains.eu/core/ISBN",
-        "https://openminds.ebrains.eu/core/ISSN",
+        "core:DOI",
+        "core:HANDLE",
+        "core:ISBN",
+        "core:ISSN",
         "publications:Book",
         "publications:Chapter",
         "publications:ScholarlyArticle"
@@ -360,7 +359,7 @@
     "https://openminds.ebrains.eu/vocab/repository": {
       "_instruction": "Add the file repository of this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileRepository"
+        "core:FileRepository"
       ],
       "description": "Place, room, or container where something is deposited or stored.",
       "label": "Repository",

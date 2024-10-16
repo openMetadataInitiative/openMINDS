@@ -1,9 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/ORCID",
-  "color": "#852C19",
-  "description": "A persistent identifier for a researcher provided by Open Researcher and Contributor ID, Inc.",
-  "label": "Orcid",
-  "name": "ORCID",
+  "_type": "core:ORCID",
+  "label": "Core:orcid",
+  "name": "core:ORCID",
   "properties": {
     "https://openminds.ebrains.eu/vocab/identifier": {
       "_instruction": "Enter the identifier for researchers provided by Open Researcher and Contributor ID, Inc. (ORCID, Inc.) as an internationalized resource identifier (IRI) following the defined pattern (i.e., 'https://orcid.org/' + ORCID).",

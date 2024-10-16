@@ -33,7 +33,7 @@
     "https://openminds.ebrains.eu/vocab/deviceType": {
       "_instruction": "Add the type of this device.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/DeviceType"
+        "controlledTerms:DeviceType"
       ],
       "label": "Device type",
       "labelPlural": "Device types",
@@ -44,8 +44,8 @@
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this device.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/RRID"
+        "core:DOI",
+        "core:RRID"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -118,9 +118,9 @@
     "https://openminds.ebrains.eu/vocab/manufacturer": {
       "_instruction": "Add the manufacturer (private or industrial) that constructed this device.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Consortium",
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Consortium",
+        "core:Organization",
+        "core:Person"
       ],
       "label": "Manufacturer",
       "labelPlural": "Manufacturers",
@@ -154,9 +154,9 @@
     "https://openminds.ebrains.eu/vocab/owner": {
       "_instruction": "Add all parties that legally own this device.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Consortium",
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/Person"
+        "core:Consortium",
+        "core:Organization",
+        "core:Person"
       ],
       "label": "Owner",
       "labelPlural": "Owners",

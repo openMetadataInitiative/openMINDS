@@ -2,7 +2,7 @@
   "latest": {
     "agent": [
       "computation:SoftwareAgent",
-      "https://openminds.ebrains.eu/core/Person"
+      "core:Person"
     ],
     "anatomicalLocation": [
       "controlledTerms:CellType",
@@ -46,17 +46,17 @@
       "controlledTerms:StimulationApproach",
       "controlledTerms:StimulationTechnique",
       "controlledTerms:Technique",
-      "https://openminds.ebrains.eu/core/BehavioralProtocol",
-      "https://openminds.ebrains.eu/core/File",
-      "https://openminds.ebrains.eu/core/FileBundle",
-      "https://openminds.ebrains.eu/core/Subject",
-      "https://openminds.ebrains.eu/core/SubjectGroup",
-      "https://openminds.ebrains.eu/core/SubjectGroupState",
-      "https://openminds.ebrains.eu/core/SubjectState",
-      "https://openminds.ebrains.eu/core/TissueSample",
-      "https://openminds.ebrains.eu/core/TissueSampleCollection",
-      "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-      "https://openminds.ebrains.eu/core/TissueSampleState"
+      "core:BehavioralProtocol",
+      "core:File",
+      "core:FileBundle",
+      "core:Subject",
+      "core:SubjectGroup",
+      "core:SubjectGroupState",
+      "core:SubjectState",
+      "core:TissueSample",
+      "core:TissueSampleCollection",
+      "core:TissueSampleCollectionState",
+      "core:TissueSampleState"
     ],
     "keyword": [
       "controlledTerms:ActionStatusType",
@@ -141,9 +141,9 @@
       "controlledTerms:VisualStimulusType"
     ],
     "legalPerson": [
-      "https://openminds.ebrains.eu/core/Consortium",
-      "https://openminds.ebrains.eu/core/Organization",
-      "https://openminds.ebrains.eu/core/Person"
+      "core:Consortium",
+      "core:Organization",
+      "core:Person"
     ],
     "mathematicalShapes": [
       "sands:Circle",
@@ -151,10 +151,10 @@
       "sands:Rectangle"
     ],
     "publicationReference": [
-      "https://openminds.ebrains.eu/core/DOI",
-      "https://openminds.ebrains.eu/core/HANDLE",
-      "https://openminds.ebrains.eu/core/ISBN",
-      "https://openminds.ebrains.eu/core/ISSN",
+      "core:DOI",
+      "core:HANDLE",
+      "core:ISBN",
+      "core:ISSN",
       "publications:Book",
       "publications:Chapter",
       "publications:ScholarlyArticle"
@@ -164,16 +164,16 @@
       "computation:ValidationTestVersion",
       "computation:WorkflowRecipe",
       "computation:WorkflowRecipeVersion",
-      "https://openminds.ebrains.eu/core/Dataset",
-      "https://openminds.ebrains.eu/core/DatasetVersion",
-      "https://openminds.ebrains.eu/core/MetaDataModel",
-      "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-      "https://openminds.ebrains.eu/core/Model",
-      "https://openminds.ebrains.eu/core/ModelVersion",
-      "https://openminds.ebrains.eu/core/Software",
-      "https://openminds.ebrains.eu/core/SoftwareVersion",
-      "https://openminds.ebrains.eu/core/WebService",
-      "https://openminds.ebrains.eu/core/WebServiceVersion",
+      "core:Dataset",
+      "core:DatasetVersion",
+      "core:MetaDataModel",
+      "core:MetaDataModelVersion",
+      "core:Model",
+      "core:ModelVersion",
+      "core:Software",
+      "core:SoftwareVersion",
+      "core:WebService",
+      "core:WebServiceVersion",
       "publications:LivePaper",
       "publications:LivePaperVersion",
       "sands:BrainAtlas",
@@ -182,11 +182,11 @@
       "sands:CommonCoordinateSpaceVersion"
     ],
     "setupComponent": [
+      "core:Setup",
+      "core:SoftwareVersion",
       "ephys:Electrode",
       "ephys:ElectrodeArray",
       "ephys:Pipette",
-      "https://openminds.ebrains.eu/core/Setup",
-      "https://openminds.ebrains.eu/core/SoftwareVersion",
       "specimenPrep:SlicingDevice"
     ],
     "stimulus": [

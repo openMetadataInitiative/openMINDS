@@ -1,8 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/StringProperty",
-  "color": "#ADAAFF",
-  "label": "String property",
-  "name": "StringProperty",
+  "_type": "core:StringProperty",
+  "label": "Core:string property",
+  "name": "core:StringProperty",
   "properties": {
     "https://openminds.ebrains.eu/vocab/name": {
       "_instruction": "Enter a descriptive name for this property.",

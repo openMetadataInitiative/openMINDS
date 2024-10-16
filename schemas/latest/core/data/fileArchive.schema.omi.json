@@ -1,8 +1,7 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/FileArchive",
-  "color": "#83AB58",
-  "label": "File archive",
-  "name": "FileArchive",
+  "_type": "core:FileArchive",
+  "label": "Core:file archive",
+  "name": "core:FileArchive",
   "properties": {
     "https://openminds.ebrains.eu/vocab/IRI": {
       "_formats": [
@@ -21,7 +20,7 @@
     "https://openminds.ebrains.eu/vocab/format": {
       "_instruction": "Add the content type of this file archive.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "core:ContentType"
       ],
       "description": "Method of digitally organizing and structuring data or information.",
       "label": "Format",
@@ -33,7 +32,7 @@
     "https://openminds.ebrains.eu/vocab/sourceData": {
       "_instruction": "Add the data that were ingested and modified to create this file archive.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File"
+        "core:File"
       ],
       "label": "Source data",
       "labelPlural": "Source data",

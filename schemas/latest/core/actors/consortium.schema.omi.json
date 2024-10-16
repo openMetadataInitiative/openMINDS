@@ -2,16 +2,14 @@
   "_categories": [
     "legalPerson"
   ],
-  "_type": "https://openminds.ebrains.eu/core/Consortium",
-  "color": "#C36D96",
-  "description": "Structured information about an association of two or more persons or organizations, with the objective of participating in a common activity.",
-  "label": "Consortium",
-  "name": "Consortium",
+  "_type": "core:Consortium",
+  "label": "Core:consortium",
+  "name": "core:Consortium",
   "properties": {
     "https://openminds.ebrains.eu/vocab/contactInformation": {
       "_instruction": "Add the contact information of this consortium.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContactInformation"
+        "core:ContactInformation"
       ],
       "description": "Any available way used to contact a person or business (e.g., address, phone number, email address, etc.).",
       "label": "Contact information",

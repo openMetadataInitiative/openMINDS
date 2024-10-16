@@ -1,14 +1,12 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/ContentType",
-  "color": "#494B5A",
-  "description": "Structured information on the content type of a file instance, bundle or repository.",
-  "label": "Content type",
-  "name": "ContentType",
+  "_type": "core:ContentType",
+  "label": "Core:content type",
+  "name": "core:ContentType",
   "properties": {
     "https://openminds.ebrains.eu/vocab/dataType": {
       "_instruction": "Add all data types that may be represented via this content type.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/DataType"
+        "controlledTerms:DataType"
       ],
       "label": "Data type",
       "labelPlural": "Data types",
