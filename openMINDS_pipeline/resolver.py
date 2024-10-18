@@ -72,10 +72,7 @@ def _schemas_by_category(schemas: List[SchemaStructure]) -> Dict[str, List[str]]
                 if c not in result:
                     result[c] = []
                 # Only SANDS is in uppercase in schema_group
-                if s.schema_group == "SANDS":
-                    result[c].append('sands:' + s.type)
-                else:
-                    result[c].append(s.schema_group + ':' + s.type)
+                result[c].append(s.schema_group.replace("SANDS", "sands") + ':' + s.type)
                 result[c].sort()
     return result
 
@@ -145,6 +142,19 @@ def _apply_extension(source, extension, version, source_schema):
 
 
 def _do_resolve_categories(version:str, schema: SchemaStructure, schemas_by_category):
+
+    def _namespace_completion_categories(schema_payload, schema, p, template_property):
+        def _build_namespace_type(_type):
+            # if _type is an URI rebuild it
+            # else _type consists of prefix:name_type
+            module = _type.split("/")[-2] if '/' in _type else _type.split(":")[0]
+            name_type = _type.split("/")[-1] if '/' in _type else _type.split(":")[-1]
+            return schema.namespaces['types'].replace('{MODULE}', module) + name_type
+
+        schema_payload["properties"][p][template_property] = [
+            _build_namespace_type(_type) for _type in schema_payload["properties"][p][template_property]]
+        return schema_payload
+
     with open(schema.absolute_path, "r") as schema_file:
         schema_payload = json.load(schema_file)
     if "properties" in schema_payload:
@@ -166,39 +176,12 @@ def _do_resolve_categories(version:str, schema: SchemaStructure, schemas_by_cate
                 schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_TYPES] = sorted(embedded_types)
                 del schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES]
 
-            # Write namespace for '_linkedTyped' and '_embeddedType'
-            if version == "latest" or float(version[1:]) >= 4:
-                if TEMPLATE_PROPERTY_LINKED_TYPES in schema_payload["properties"][p]:
-                    schema_payload["properties"][p][TEMPLATE_PROPERTY_LINKED_TYPES] = [
-                        schema.namespaces['types'] + _type.split(":")[-1].split("/")[-1] if (_type.__contains__(
-                            '/') == True or _type.__contains__(
-                            ':') == True) else schema.namespaces['types'] + _type for _type in
-                        schema_payload["properties"][p][TEMPLATE_PROPERTY_LINKED_TYPES]]
+            # Write namespace for '_linkedTypes' and '_embeddedTypes'
+            if TEMPLATE_PROPERTY_LINKED_TYPES in schema_payload["properties"][p]:
+                _namespace_completion_categories(schema_payload, schema, p, TEMPLATE_PROPERTY_LINKED_TYPES)
 
-                if TEMPLATE_PROPERTY_EMBEDDED_TYPES in schema_payload["properties"][p]:
-                    schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_TYPES] = [
-                        schema.namespaces['types'] + _type.split(":")[-1].split("/")[-1] if (_type.__contains__(
-                            '/') == True or _type.__contains__(
-                            ':') == True) else schema.namespaces['types'] + _type for _type in
-                        schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_TYPES]]
-            else:
-                # Can't be rebuilt for older versions with schema_group, a dictionary is needed for tracking the modules in TEMPLATE_PROPERTY_LINKED_TYPES and TEMPLATE_PROPERTY_EMBEDDED_TYPES
-                if TEMPLATE_PROPERTY_LINKED_TYPES in schema_payload["properties"][p]:
-                    schema_payload["properties"][p][TEMPLATE_PROPERTY_LINKED_TYPES] = [
-                        schema.namespaces['types'].replace('{MODULE}',
-                                                           _type.split("/")[-2]) + _type.split(":")[-1].split("/")[-1] if (_type.__contains__(
-                            '/') == True) else schema.namespaces['types'].replace('{MODULE}',
-                                                           _type.split(":")[0]) + _type.split(":")[-1] for _type in
-                        schema_payload["properties"][p][TEMPLATE_PROPERTY_LINKED_TYPES]]
-                        
-                if TEMPLATE_PROPERTY_EMBEDDED_TYPES in schema_payload["properties"][p]:
-                    schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_TYPES] = [
-                        schema.namespaces['types'].replace('{MODULE}',
-                                                           _type.split("/")[-2]) + _type.split(":")[-1].split("/")[-1] if (_type.__contains__(
-                            '/') == True) else                         schema.namespaces['types'].replace('{MODULE}',
-                                                           _type.split(":")[0]) + _type.split(":")[-1] for _type in
-                        schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_TYPES]]
+            if TEMPLATE_PROPERTY_EMBEDDED_TYPES in schema_payload["properties"][p]:
+                _namespace_completion_categories(schema_payload, schema, p, TEMPLATE_PROPERTY_EMBEDDED_TYPES)
 
     with open(schema.absolute_path, "w") as target_file:
         target_file.write(json.dumps(schema_payload, indent=2))
-

@@ -80,12 +80,12 @@ class Types(object):
     def _load_types(self):
         if os.path.exists(self._types_file):
             with open(self._types_file, "r") as types_f:
-                jsond = json.load(types_f)
-                cleaned_jsond = {}
-                for source_type in jsond:
+                _types = json.load(types_f)
+                _type_names = {}
+                for source_type in _types:
                     # remove namespace
-                    cleaned_jsond[source_type.split(":")[-1].split("/")[-1]] = jsond[source_type]
-                return cleaned_jsond
+                    _type_names[source_type.split(":")[-1].split("/")[-1]] = _types[source_type]
+                return _type_names
         else:
             return {}
 
@@ -167,8 +167,8 @@ class TypeExtractor(Types):
             self._types[t]["isPartOfVersion"].append(self._version)
             self._types[t]["isPartOfVersion"].sort()
 
-        # replace by the module name in the versions inferior to v4.0
-        type_namespace= self._namespaces['types'].replace('{MODULE}', schema.schema_group)
+        # replace by the module name in the versions prior to v4.0
+        type_namespace= self._namespaces['types'].replace('{MODULE}', schema.schema_group.replace("SANDS", "sands"))
         if "hasNamespace" not in self._types[t]:
             self._types[t]["hasNamespace"] = []
             self._types[t]["hasNamespace"].append({'namespace': type_namespace,
@@ -177,7 +177,7 @@ class TypeExtractor(Types):
         tmp_namespaces = []
         for x in self._types[t]["hasNamespace"]:
             tmp_namespaces.append(x["namespace"])
-            if self._namespaces['types'].replace('{MODULE}', schema.schema_group) == x["namespace"] and self._version not in x["inVersions"]:
+            if self._namespaces['types'].replace('{MODULE}', schema.schema_group.replace("SANDS", "sands")) == x["namespace"] and self._version not in x["inVersions"]:
                 x["inVersions"].append(self._version)
         if type_namespace not in tmp_namespaces:
             self._types[t]["hasNamespace"].append({'namespace': type_namespace,
@@ -196,13 +196,13 @@ class Property(object):
     def _load_properties(self):
         if os.path.exists(self._properties_file):
             with open(self._properties_file, "r") as properties_f:
-                jsond = json.load(properties_f)
-                cleaned_jsond = {}
-                for source_property in jsond:
+                _properties = json.load(properties_f)
+                _properties_names = {}
+                for source_property in _properties:
                     # remove namespace, not necessary to check for ':' here (only done for types).
                     cleaned_property = source_property.split('/')[-1]
-                    cleaned_jsond[cleaned_property] = jsond[source_property]
-                return cleaned_jsond
+                    _properties_names[cleaned_property] = _properties[source_property]
+                return _properties_names
         else:
             return {}
 
