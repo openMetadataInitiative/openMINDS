@@ -39,7 +39,7 @@
     "https://openminds.ebrains.eu/vocab/coordinateSpace": {
       "_instruction": "Add the coordinate space in which this image exists.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/CustomCoordinateSpace"
+        "sands:CustomCoordinateSpace"
       ],
       "description": "Two or three dimensional geometric setting.",
       "label": "Coordinate space",

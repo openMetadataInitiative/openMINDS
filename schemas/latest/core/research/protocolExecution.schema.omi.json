@@ -65,8 +65,8 @@
         "core:SubjectState",
         "core:TissueSampleCollectionState",
         "core:TissueSampleState",
-        "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "sands:BrainAtlasVersion",
+        "sands:CommonCoordinateSpaceVersion"
       ],
       "description": "Something or someone that is put into or participates in a process or machine.",
       "label": "Input",

@@ -4369,6 +4369,96 @@
     "name": "StimulationActivity",
     "semanticEquivalent": []
   },
+  "neuroimaging:FunctionalMRIAcquisition": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Neuroimaging:functional mriacquisition",
+    "name": "neuroimaging:FunctionalMRIAcquisition",
+    "semanticEquivalent": []
+  },
+  "neuroimaging:Image": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Neuroimaging:image",
+    "name": "neuroimaging:Image",
+    "semanticEquivalent": []
+  },
+  "neuroimaging:ImageSequence": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Neuroimaging:image sequence",
+    "name": "neuroimaging:ImageSequence",
+    "semanticEquivalent": []
+  },
+  "neuroimaging:ImageStack": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Neuroimaging:image stack",
+    "name": "neuroimaging:ImageStack",
+    "semanticEquivalent": []
+  },
+  "neuroimaging:MRIScanner": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Neuroimaging:mriscanner",
+    "name": "neuroimaging:MRIScanner",
+    "semanticEquivalent": []
+  },
+  "neuroimaging:MRIScannerUsage": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Neuroimaging:mriscanner usage",
+    "name": "neuroimaging:MRIScannerUsage",
+    "semanticEquivalent": []
+  },
+  "neuroimaging:StructuralMRIAcquisition": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Neuroimaging:structural mriacquisition",
+    "name": "neuroimaging:StructuralMRIAcquisition",
+    "semanticEquivalent": []
+  },
+  "neuroimaging:Volume": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Neuroimaging:volume",
+    "name": "neuroimaging:Volume",
+    "semanticEquivalent": []
+  },
+  "neuroimaging:VolumeSequence": {
+    "color": null,
+    "description": null,
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Neuroimaging:volume sequence",
+    "name": "neuroimaging:VolumeSequence",
+    "semanticEquivalent": []
+  },
   "publications:Book": {
     "color": null,
     "description": null,

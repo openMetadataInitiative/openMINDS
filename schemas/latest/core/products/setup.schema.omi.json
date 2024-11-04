@@ -25,6 +25,7 @@
         "ephys:Electrode",
         "ephys:ElectrodeArray",
         "ephys:Pipette",
+        "neuroimaging:MRIScanner",
         "specimenPrep:SlicingDevice"
       ],
       "label": "Has part",

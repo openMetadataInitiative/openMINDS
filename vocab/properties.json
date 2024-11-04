@@ -340,6 +340,25 @@
       ]
     }
   },
+  "https://openminds.ebrains.eu/vocab/acquisitionDuration": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Acquisition duration",
+    "name": "acquisitionDuration",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:FunctionalMRIAcquisition"
+      ]
+    }
+  },
   "https://openminds.ebrains.eu/vocab/addExistingTerminology": {
     "asEdge": {
       "canPointTo": {
@@ -402,6 +421,11 @@
         "core:TissueSampleCollectionState",
         "core:TissueSampleState",
         "ephys:Recording",
+        "neuroimaging:Image",
+        "neuroimaging:ImageSequence",
+        "neuroimaging:ImageStack",
+        "neuroimaging:Volume",
+        "neuroimaging:VolumeSequence",
         "sands:AnatomicalTargetPosition",
         "sands:ParcellationEntityVersion",
         "sands:ViewerSpecification"
@@ -1288,6 +1312,44 @@
       ]
     }
   },
+  "https://openminds.ebrains.eu/vocab/bValues": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:File"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "B values",
+    "name": "bValues",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/bVectors": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:File"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "B vectors",
+    "name": "bVectors",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
+      ]
+    }
+  },
   "https://openminds.ebrains.eu/vocab/backgroundStrain": {
     "asEdge": {
       "canPointTo": {
@@ -1365,7 +1427,8 @@
     "usedIn": {
       "latest": [
         "core:DatasetVersion",
-        "core:ProtocolExecution"
+        "core:ProtocolExecution",
+        "neuroimaging:FunctionalMRIAcquisition"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -1533,6 +1596,33 @@
       ]
     }
   },
+  "https://openminds.ebrains.eu/vocab/capturedWith": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "ephys:ElectrodeArrayUsage",
+          "ephys:ElectrodeUsage",
+          "ephys:PipetteUsage",
+          "neuroimaging:MRIScannerUsage",
+          "specimenPrep:SlicingDeviceUsage"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Captured with",
+    "name": "capturedWith",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:Image",
+        "neuroimaging:ImageSequence",
+        "neuroimaging:ImageStack",
+        "neuroimaging:Volume",
+        "neuroimaging:VolumeSequence"
+      ]
+    }
+  },
   "https://openminds.ebrains.eu/vocab/category": {
     "asString": {
       "formatting": "text/plain",
@@ -1670,6 +1760,27 @@
         "https://openminds.ebrains.eu/publications/Chapter",
         "https://openminds.ebrains.eu/publications/LearningResource",
         "https://openminds.ebrains.eu/publications/ScholarlyArticle"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/colorDepth": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Color depth",
+    "name": "colorDepth",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:Image",
+        "neuroimaging:ImageSequence",
+        "neuroimaging:ImageStack"
       ]
     }
   },
@@ -2089,6 +2200,26 @@
       ]
     }
   },
+  "https://openminds.ebrains.eu/vocab/contrastAgent": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "chemicals:AmountOfChemical"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Contrast agent",
+    "name": "contrastAgent",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:FunctionalMRIAcquisition",
+        "neuroimaging:StructuralMRIAcquisition"
+      ]
+    }
+  },
   "https://openminds.ebrains.eu/vocab/contributionType": {
     "asEdge": {
       "canPointTo": {
@@ -2217,6 +2348,11 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
+        "neuroimaging:Image",
+        "neuroimaging:ImageSequence",
+        "neuroimaging:ImageStack",
+        "neuroimaging:Volume",
+        "neuroimaging:VolumeSequence",
         "sands:BrainAtlasVersion",
         "sands:CoordinatePoint",
         "sands:CustomAnnotation"
@@ -2833,6 +2969,11 @@
         "core:CustomPropertySet",
         "core:ServiceLink",
         "ephys:Recording",
+        "neuroimaging:Image",
+        "neuroimaging:ImageSequence",
+        "neuroimaging:ImageStack",
+        "neuroimaging:Volume",
+        "neuroimaging:VolumeSequence",
         "sands:ParcellationTerminology",
         "sands:ParcellationTerminologyVersion"
       ],
@@ -3238,6 +3379,44 @@
       ]
     }
   },
+  "https://openminds.ebrains.eu/vocab/delayAfterTrigger": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Delay after trigger",
+    "name": "delayAfterTrigger",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:FunctionalMRIAcquisition"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/delayTime": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Delay time",
+    "name": "delayTime",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:FunctionalMRIAcquisition"
+      ]
+    }
+  },
   "https://openminds.ebrains.eu/vocab/deliveredBy": {
     "asEdge": {
       "canPointTo": {
@@ -3245,6 +3424,7 @@
           "ephys:ElectrodeArrayUsage",
           "ephys:ElectrodeUsage",
           "ephys:PipetteUsage",
+          "neuroimaging:MRIScannerUsage",
           "specimenPrep:SlicingDeviceUsage"
         ],
         "v3.0": [
@@ -3479,6 +3659,7 @@
         "ephys:ElectrodePlacement",
         "ephys:Pipette",
         "ephys:RecordingActivity",
+        "neuroimaging:MRIScanner",
         "publications:LivePaper",
         "publications:LivePaperSection",
         "publications:LivePaperVersion",
@@ -3817,6 +3998,7 @@
           "ephys:ElectrodeUsage",
           "ephys:Pipette",
           "ephys:PipetteUsage",
+          "neuroimaging:MRIScannerUsage",
           "specimenPrep:SlicingDevice",
           "specimenPrep:SlicingDeviceUsage"
         ],
@@ -3855,6 +4037,8 @@
         "ephys:ElectrodeUsage",
         "ephys:PipetteUsage",
         "ephys:RecordingActivity",
+        "neuroimaging:FunctionalMRIAcquisition",
+        "neuroimaging:StructuralMRIAcquisition",
         "specimenPrep:SlicingDeviceUsage",
         "specimenPrep:TissueSampleSlicing"
       ],
@@ -3900,6 +4084,7 @@
         "ephys:Electrode",
         "ephys:ElectrodeArray",
         "ephys:Pipette",
+        "neuroimaging:MRIScanner",
         "specimenPrep:SlicingDevice"
       ],
       "v3.0": [
@@ -4007,6 +4192,7 @@
         "ephys:Electrode",
         "ephys:ElectrodeArray",
         "ephys:Pipette",
+        "neuroimaging:MRIScanner",
         "publications:Book",
         "publications:Chapter",
         "publications:LearningResource",
@@ -4108,6 +4294,11 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
+        "neuroimaging:Image",
+        "neuroimaging:ImageSequence",
+        "neuroimaging:ImageStack",
+        "neuroimaging:Volume",
+        "neuroimaging:VolumeSequence",
         "specimenPrep:CranialWindowPreparation"
       ],
       "v3.0": [
@@ -4191,6 +4382,44 @@
       "v3.0": [
         "https://openminds.ebrains.eu/core/ContentType",
         "https://openminds.ebrains.eu/core/ServiceLink"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/dwellTime": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Dwell time",
+    "name": "dwellTime",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/echoTime": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Echo time",
+    "name": "echoTime",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -4776,6 +5005,46 @@
       ]
     }
   },
+  "https://openminds.ebrains.eu/vocab/fieldMap": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:File"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Field map",
+    "name": "fieldMap",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:FunctionalMRIAcquisition"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/fieldOfView": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "sands:Circle",
+          "sands:Ellipse",
+          "sands:Rectangle"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Field of view",
+    "name": "fieldOfView",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
+      ]
+    }
+  },
   "https://openminds.ebrains.eu/vocab/fileExtension": {
     "asString": {
       "formatting": "text/plain",
@@ -4861,6 +5130,25 @@
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/File"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/flipAngle": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Flip angle",
+    "name": "flipAngle",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -5225,6 +5513,7 @@
           "ephys:ElectrodeArrayUsage",
           "ephys:ElectrodeUsage",
           "ephys:PipetteUsage",
+          "neuroimaging:MRIScannerUsage",
           "specimenPrep:SlicingDeviceUsage"
         ],
         "v3.0": [
@@ -5781,6 +6070,7 @@
           "ephys:Electrode",
           "ephys:ElectrodeArray",
           "ephys:Pipette",
+          "neuroimaging:MRIScanner",
           "publications:LivePaper",
           "publications:LivePaperVersion",
           "sands:BrainAtlas",
@@ -6579,8 +6869,6 @@
           "core:SubjectState",
           "core:TissueSampleCollectionState",
           "core:TissueSampleState",
-          "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-          "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
           "sands:BrainAtlasVersion",
           "sands:CommonCoordinateSpaceVersion"
         ],
@@ -6637,6 +6925,8 @@
         "ephys:CellPatching",
         "ephys:ElectrodePlacement",
         "ephys:RecordingActivity",
+        "neuroimaging:FunctionalMRIAcquisition",
+        "neuroimaging:StructuralMRIAcquisition",
         "specimenPrep:CranialWindowPreparation",
         "specimenPrep:TissueCulturePreparation",
         "specimenPrep:TissueSampleSlicing",
@@ -6865,6 +7155,26 @@
       "v3.0": [
         "https://openminds.ebrains.eu/ephys/Electrode",
         "https://openminds.ebrains.eu/ephys/ElectrodeArray"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/interSliceGap": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:QuantitativeValue",
+          "core:QuantitativeValueRange"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Inter slice gap",
+    "name": "interSliceGap",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -7184,6 +7494,25 @@
       "v3.0": [
         "https://openminds.ebrains.eu/ephys/Electrode",
         "https://openminds.ebrains.eu/ephys/ElectrodeArray"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/inversionTime": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Inversion time",
+    "name": "inversionTime",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -8327,6 +8656,10 @@
         "ephys:Pipette",
         "ephys:PipetteUsage",
         "ephys:RecordingActivity",
+        "neuroimaging:MRIScanner",
+        "neuroimaging:MRIScannerUsage",
+        "neuroimaging:Volume",
+        "neuroimaging:VolumeSequence",
         "sands:ParcellationEntity",
         "sands:ParcellationEntityVersion",
         "specimenPrep:CranialWindowPreparation",
@@ -8394,6 +8727,55 @@
       ]
     }
   },
+  "https://openminds.ebrains.eu/vocab/mRAcquisitionType": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "controlledTerms:MRAcquisitionType"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "M racquisition type",
+    "name": "mRAcquisitionType",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/mTState": {
+    "description": null,
+    "label": "M tstate",
+    "name": "mTState",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/magneticFieldStrength": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Magnetic field strength",
+    "name": "magneticFieldStrength",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScanner"
+      ]
+    }
+  },
   "https://openminds.ebrains.eu/vocab/majorVersionIdentifier": {
     "asString": {
       "formatting": "text/plain",
@@ -8446,6 +8828,7 @@
         "ephys:Electrode",
         "ephys:ElectrodeArray",
         "ephys:Pipette",
+        "neuroimaging:MRIScanner",
         "specimenPrep:SlicingDevice"
       ],
       "v3.0": [
@@ -8579,6 +8962,7 @@
           "ephys:ElectrodeArrayUsage",
           "ephys:ElectrodeUsage",
           "ephys:PipetteUsage",
+          "neuroimaging:MRIScannerUsage",
           "specimenPrep:SlicingDeviceUsage"
         ],
         "v3.0": [
@@ -8659,6 +9043,7 @@
         "ephys:ElectrodeArrayUsage",
         "ephys:ElectrodeUsage",
         "ephys:PipetteUsage",
+        "neuroimaging:MRIScannerUsage",
         "specimenPrep:SlicingDeviceUsage"
       ],
       "v3.0": [
@@ -8925,6 +9310,10 @@
         "ephys:ElectrodeArray",
         "ephys:Pipette",
         "ephys:Recording",
+        "neuroimaging:Image",
+        "neuroimaging:ImageSequence",
+        "neuroimaging:ImageStack",
+        "neuroimaging:MRIScanner",
         "publications:Book",
         "publications:Chapter",
         "publications:LearningResource",
@@ -9232,6 +9621,17 @@
       ]
     }
   },
+  "https://openminds.ebrains.eu/vocab/nonlinearGradientCorrection": {
+    "description": null,
+    "label": "Nonlinear gradient correction",
+    "name": "nonlinearGradientCorrection",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
+      ]
+    }
+  },
   "https://openminds.ebrains.eu/vocab/numberOfElectrodes": {
     "description": null,
     "label": "Number of electrodes",
@@ -9245,6 +9645,30 @@
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/ephys/ElectrodeArray"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/numberOfImages": {
+    "description": null,
+    "label": "Number of images",
+    "name": "numberOfImages",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:ImageSequence",
+        "neuroimaging:ImageStack"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/numberOfSlices": {
+    "description": null,
+    "label": "Number of slices",
+    "name": "numberOfSlices",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:Volume",
+        "neuroimaging:VolumeSequence"
       ]
     }
   },
@@ -9277,6 +9701,39 @@
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/TissueSampleCollection"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/numberOfVolumes": {
+    "description": null,
+    "label": "Number of volumes",
+    "name": "numberOfVolumes",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:VolumeSequence"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/numberOfVolumesDiscardedByScanner": {
+    "description": null,
+    "label": "Number of volumes discarded by scanner",
+    "name": "numberOfVolumesDiscardedByScanner",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/numberOfVolumesDiscardedByUser": {
+    "description": null,
+    "label": "Number of volumes discarded by user",
+    "name": "numberOfVolumesDiscardedByUser",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:FunctionalMRIAcquisition"
       ]
     }
   },
@@ -9882,6 +10339,7 @@
         "ephys:Electrode",
         "ephys:ElectrodeArray",
         "ephys:Pipette",
+        "neuroimaging:MRIScanner",
         "specimenPrep:SlicingDevice"
       ],
       "v3.0": [
@@ -9915,6 +10373,24 @@
       "v3.0": [
         "https://openminds.ebrains.eu/publications/Chapter",
         "https://openminds.ebrains.eu/publications/ScholarlyArticle"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/parallelAcquisitionTechnique": {
+    "asString": {
+      "formatting": "text/plain",
+      "inVersions": [
+        "latest"
+      ],
+      "multiline": false
+    },
+    "description": null,
+    "label": "Parallel acquisition technique",
+    "name": "parallelAcquisitionTechnique",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -10136,6 +10612,25 @@
       ]
     }
   },
+  "https://openminds.ebrains.eu/vocab/phaseEncodingDirection": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "controlledTerms:CartesianDirectionVector"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Phase encoding direction",
+    "name": "phaseEncodingDirection",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
+      ]
+    }
+  },
   "https://openminds.ebrains.eu/vocab/phenotype": {
     "asEdge": {
       "canPointTo": {
@@ -10236,6 +10731,27 @@
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/ephys/PipetteUsage"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/pixelSize": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Pixel size",
+    "name": "pixelSize",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:Image",
+        "neuroimaging:ImageSequence",
+        "neuroimaging:ImageStack"
       ]
     }
   },
@@ -10934,6 +11450,25 @@
       ]
     }
   },
+  "https://openminds.ebrains.eu/vocab/pulseSequenceType": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "controlledTerms:MRIPulseSequence"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Pulse sequence type",
+    "name": "pulseSequenceType",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
+      ]
+    }
+  },
   "https://openminds.ebrains.eu/vocab/purity": {
     "asEdge": {
       "canPointTo": {
@@ -11065,6 +11600,25 @@
       ]
     }
   },
+  "https://openminds.ebrains.eu/vocab/radiofrequencyCoilType": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "controlledTerms:MRIRadiofrequencyCoilType"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Radiofrequency coil type",
+    "name": "radiofrequencyCoilType",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
+      ]
+    }
+  },
   "https://openminds.ebrains.eu/vocab/radius": {
     "asEdge": {
       "canPointTo": {
@@ -11140,6 +11694,7 @@
           "ephys:ElectrodeArrayUsage",
           "ephys:ElectrodeUsage",
           "ephys:PipetteUsage",
+          "neuroimaging:MRIScannerUsage",
           "specimenPrep:SlicingDeviceUsage"
         ],
         "v3.0": [
@@ -11684,6 +12239,25 @@
       ]
     }
   },
+  "https://openminds.ebrains.eu/vocab/repetitionTime": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Repetition time",
+    "name": "repetitionTime",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
+      ]
+    }
+  },
   "https://openminds.ebrains.eu/vocab/repository": {
     "asEdge": {
       "canPointTo": {
@@ -11890,6 +12464,25 @@
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/ephys/Recording"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/sbref": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:File"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Sbref",
+    "name": "sbref",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:FunctionalMRIAcquisition"
       ]
     }
   },
@@ -12105,6 +12698,7 @@
         "ephys:Electrode",
         "ephys:ElectrodeArray",
         "ephys:Pipette",
+        "neuroimaging:MRIScanner",
         "specimenPrep:SlicingDevice"
       ],
       "v3.0": [
@@ -12345,6 +12939,25 @@
       ]
     }
   },
+  "https://openminds.ebrains.eu/vocab/sliceOrder": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:QuantitativeValueArray"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Slice order",
+    "name": "sliceOrder",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
+      ]
+    }
+  },
   "https://openminds.ebrains.eu/vocab/sliceThickness": {
     "asEdge": {
       "canPointTo": {
@@ -12367,10 +12980,30 @@
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
+        "neuroimaging:ImageStack",
         "specimenPrep:SlicingDeviceUsage"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/sliceTiming": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:QuantitativeValueArray"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Slice timing",
+    "name": "sliceTiming",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -12755,6 +13388,37 @@
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/MetaDataModelVersion"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/specimenOrientation": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "controlledTerms:AnatomicalAxesOrientation"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Specimen orientation",
+    "name": "specimenOrientation",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:FunctionalMRIAcquisition",
+        "neuroimaging:StructuralMRIAcquisition"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/spoilingState": {
+    "description": null,
+    "label": "Spoiling state",
+    "name": "spoilingState",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage"
       ]
     }
   },
@@ -13187,6 +13851,25 @@
         "https://openminds.ebrains.eu/core/SubjectGroup",
         "https://openminds.ebrains.eu/core/TissueSample",
         "https://openminds.ebrains.eu/core/TissueSampleCollection"
+      ]
+    }
+  },
+  "https://openminds.ebrains.eu/vocab/structuralMRI": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:File"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Structural mri",
+    "name": "structuralMRI",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:FunctionalMRIAcquisition"
       ]
     }
   },
@@ -13957,6 +14640,26 @@
       ]
     }
   },
+  "https://openminds.ebrains.eu/vocab/temporalResolution": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Temporal resolution",
+    "name": "temporalResolution",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:ImageSequence",
+        "neuroimaging:VolumeSequence"
+      ]
+    }
+  },
   "https://openminds.ebrains.eu/vocab/terminology": {
     "asEdge": {
       "canPointTo": {
@@ -14348,6 +15051,7 @@
         "ephys:ElectrodeArrayUsage",
         "ephys:ElectrodeUsage",
         "ephys:PipetteUsage",
+        "neuroimaging:MRIScannerUsage",
         "sands:BrainAtlasVersion",
         "sands:CommonCoordinateSpaceVersion",
         "specimenPrep:SlicingDeviceUsage"
@@ -14734,9 +15438,32 @@
       ]
     }
   },
+  "https://openminds.ebrains.eu/vocab/volumeTiming": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "core:QuantitativeValueArray"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "label": "Volume timing",
+    "name": "volumeTiming",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "latest": [
+        "neuroimaging:FunctionalMRIAcquisition"
+      ]
+    }
+  },
   "https://openminds.ebrains.eu/vocab/voxelSize": {
     "asEdge": {
       "canPointTo": {
+        "latest": [
+          "core:QuantitativeValue",
+          "core:QuantitativeValueArray"
+        ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue"
         ]
@@ -14750,6 +15477,11 @@
     "namePlural": "voxelSizes",
     "semanticEquivalent": [],
     "usedIn": {
+      "latest": [
+        "neuroimaging:MRIScannerUsage",
+        "neuroimaging:Volume",
+        "neuroimaging:VolumeSequence"
+      ],
       "v1.0": [
         "https://openminds.ebrains.eu/sands/Image"
       ]
