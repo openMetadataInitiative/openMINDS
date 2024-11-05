@@ -168,7 +168,8 @@ class TypeExtractor(Types):
             self._types[t]["isPartOfVersion"].sort()
 
         # replace by the module name in the versions prior to v4.0
-        type_namespace= self._namespaces['types'].replace('{MODULE}', schema.schema_group.replace("SANDS", "sands"))
+        schema_group_normalized = schema.schema_group.lower() if schema.schema_group.isupper() else schema.schema_group
+        type_namespace= self._namespaces['types'].replace('{MODULE}', schema_group_normalized)
         if "hasNamespace" not in self._types[t]:
             self._types[t]["hasNamespace"] = []
             self._types[t]["hasNamespace"].append({'namespace': type_namespace,
@@ -177,7 +178,7 @@ class TypeExtractor(Types):
         tmp_namespaces = []
         for x in self._types[t]["hasNamespace"]:
             tmp_namespaces.append(x["namespace"])
-            if self._namespaces['types'].replace('{MODULE}', schema.schema_group.replace("SANDS", "sands")) == x["namespace"] and self._version not in x["inVersions"]:
+            if self._namespaces['types'].replace('{MODULE}', schema_group_normalized) == x["namespace"] and self._version not in x["inVersions"]:
                 x["inVersions"].append(self._version)
         if type_namespace not in tmp_namespaces:
             self._types[t]["hasNamespace"].append({'namespace': type_namespace,

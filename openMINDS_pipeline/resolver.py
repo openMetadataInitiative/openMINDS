@@ -71,23 +71,20 @@ def _schemas_by_category(schemas: List[SchemaStructure]) -> Dict[str, List[str]]
             for c in s.categories:
                 if c not in result:
                     result[c] = []
-                # Only SANDS is in uppercase in schema_group
-                result[c].append(s.schema_group.replace("SANDS", "sands") + ':' + s.type)
+                # lowercase "acronym"-alike modules
+                schema_group_normalized = s.schema_group.lower() if s.schema_group.isupper() else s.schema_group
+                result[c].append(schema_group_normalized + ':' + s.type)
                 result[c].sort()
     return result
 
 
 def _do_resolve_extends(version, source_schema, schema, schema_group, directory_structure: DirectoryStructure):
-    # autocomplete with the correct namespace, just rebuild it for older versions
-    if version == "latest" or float(version[1:]) >= 4:
-        if TEMPLATE_PROPERTY_TYPE in schema:
-            schema[TEMPLATE_PROPERTY_TYPE] = source_schema.namespaces['types'] + schema[TEMPLATE_PROPERTY_TYPE].split(":")[-1].split("/")[-1]
-    else:
-        # Rebuild namespace for older versions
-        if TEMPLATE_PROPERTY_TYPE in schema:
-            schema[TEMPLATE_PROPERTY_TYPE] = source_schema.namespaces['types'].replace('{MODULE}',
-                                                           source_schema.schema_group.replace("SANDS", "sands")) + \
-                                             schema[TEMPLATE_PROPERTY_TYPE].split(":")[-1].split("/")[-1]
+    # autocomplete with the correct namespace, just rebuild it for older versions (replace part)
+    if TEMPLATE_PROPERTY_TYPE in schema:
+        schema_group_normalized = source_schema.schema_group.lower() if source_schema.schema_group.isupper() else source_schema.schema_group
+        schema[TEMPLATE_PROPERTY_TYPE] = source_schema.namespaces['types'].replace('{MODULE}',
+                                                                               schema_group_normalized) + \
+                                     schema[TEMPLATE_PROPERTY_TYPE].split(":")[-1].split("/")[-1]
 
     if TEMPLATE_PROPERTY_EXTENDS in schema:
         if schema[TEMPLATE_PROPERTY_EXTENDS].startswith("/"):

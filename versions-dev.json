@@ -142,7 +142,7 @@
         },
         "core": {
           "branch": "v5",
-          "commit": "85bc1de094002f84e92505b4964cabce6dac0b1b",
+          "commit": "5a64aa9dd0db8ac07b9010c7d51963d06f19a58f",
           "repository": "https://github.com/openMetadataInitiative/openMINDS_core.git"
         },
         "ephys": {
@@ -167,7 +167,7 @@
         },
         "neuroimaging": {
           "branch": "dev",
-          "commit": "84192c0f50e0209cf6e632a19bda9e5509717ca0",
+          "commit": "e94c255620c8bb9cc1f42b8d3847a38f9b4ca710",
           "repository": "https://github.com/openMetadataInitiative/openMINDS_neuroimaging.git"
         }
       }
