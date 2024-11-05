@@ -16,7 +16,7 @@ TEMPLATE_PROPERTY_LINKED_CATEGORIES = "_linkedCategories"
 TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES = "_embeddedCategories"
 
 
-def resolve_extends(version, schemas: List[SchemaStructure], directory_structure: DirectoryStructure):
+def resolve_extends(schemas: List[SchemaStructure], directory_structure: DirectoryStructure):
     for schema in schemas:
         try:
             absolute_schema_group_target_dir = directory_structure.expanded_schema_directory(schema)
@@ -25,7 +25,7 @@ def resolve_extends(version, schemas: List[SchemaStructure], directory_structure
             with open(os.path.join(absolute_schema_group_src_dir, schema.file), "r") as schema_file:
                 schema_payload = json.load(schema_file)
             schema_target_path = os.path.join(absolute_schema_group_target_dir, schema.file)
-            _do_resolve_extends(version, schema, schema_payload, schema.schema_group, directory_structure)
+            _do_resolve_extends(schema, schema_payload, schema.schema_group, directory_structure)
             schema.set_absolute_path(schema_target_path)
             os.makedirs(os.path.dirname(schema_target_path), exist_ok=True)
             with open(schema_target_path, "w") as target_file:
@@ -78,7 +78,7 @@ def _schemas_by_category(schemas: List[SchemaStructure]) -> Dict[str, List[str]]
     return result
 
 
-def _do_resolve_extends(version, source_schema, schema, schema_group, directory_structure: DirectoryStructure):
+def _do_resolve_extends(source_schema, schema, schema_group, directory_structure: DirectoryStructure):
     # autocomplete with the correct namespace, just rebuild it for older versions (replace part)
     if TEMPLATE_PROPERTY_TYPE in schema:
         schema_group_normalized = source_schema.schema_group.lower() if source_schema.schema_group.isupper() else source_schema.schema_group
@@ -101,15 +101,15 @@ def _do_resolve_extends(version, source_schema, schema, schema_group, directory_
             with open(extension_path, "r") as extension_file:
                 extension = json.load(extension_file)
             # We need to extend the extension itself first to ensure that we can handle multi-level extensions...
-            extended_schema = _do_resolve_extends(version, source_schema, extension, extension_schema_group, directory_structure)
-            _apply_extension(schema, extended_schema, version, source_schema)
+            extended_schema = _do_resolve_extends(source_schema, extension, extension_schema_group, directory_structure)
+            _apply_extension(schema, extended_schema)
         del schema[TEMPLATE_PROPERTY_EXTENDS]
     if TEMPLATE_PROPERTY_CATEGORIES in schema and schema[TEMPLATE_PROPERTY_CATEGORIES]:
         source_schema.set_categories(schema[TEMPLATE_PROPERTY_CATEGORIES])
     return schema
 
 
-def _apply_extension(source, extension, version, source_schema):
+def _apply_extension(source, extension):
     # Required has to be a list...
     if "required" in extension:
         if "required" not in source:

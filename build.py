@@ -34,7 +34,7 @@ for version, modules in relevant_versions.items():
     all_schemas = find_schemas(directory_structure, modules, namespaces[version])
 
     # Step 4 - Resolve all "_extends" directives and save to target directory
-    resolve_extends(version, all_schemas, directory_structure)
+    resolve_extends(all_schemas, directory_structure)
 
     # Step 5 - Resolve all categories to type lists in target directory. Also saves an overview of categories to type mapping by version into categories.json
     resolve_categories(version, directory_structure, all_schemas)
