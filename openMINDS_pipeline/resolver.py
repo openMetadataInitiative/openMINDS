@@ -16,6 +16,7 @@ TEMPLATE_PROPERTY_LINKED_CATEGORIES = "_linkedCategories"
 TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES = "_embeddedCategories"
 TEMPLATE_PROPERTY_MODULE = "_module"
 
+
 def resolve_extends(schemas: List[SchemaStructure], directory_structure: DirectoryStructure):
     for schema in schemas:
         try:
