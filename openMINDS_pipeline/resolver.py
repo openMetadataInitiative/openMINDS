@@ -14,6 +14,7 @@ TEMPLATE_PROPERTY_FORMATS = "_formats"
 TEMPLATE_PROPERTY_CATEGORIES = "_categories"
 TEMPLATE_PROPERTY_LINKED_CATEGORIES = "_linkedCategories"
 TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES = "_embeddedCategories"
+TEMPLATE_PROPERTY_MODULE = "_module"
 
 
 def resolve_extends(schemas: List[SchemaStructure], directory_structure: DirectoryStructure):
@@ -41,7 +42,7 @@ def resolve_categories(version:str, directory_structure: DirectoryStructure, sch
     schemas_by_category = _schemas_by_category(schemas)
     for schema in schemas:
         print(f"resolving categories for {schema.type}")
-        _do_resolve_categories(schema, schemas_by_category)
+        _do_resolve_categories(version, schema, schemas_by_category)
     categories[version] = schemas_by_category
     _save_categories(directory_structure, categories)
 
@@ -71,12 +72,23 @@ def _schemas_by_category(schemas: List[SchemaStructure]) -> Dict[str, List[str]]
             for c in s.categories:
                 if c not in result:
                     result[c] = []
-                result[c].append(s.type)
+                # lowercase "acronym"-alike modules
+                schema_group_normalized = s.schema_group.lower() if s.schema_group.isupper() else s.schema_group
+                result[c].append(schema_group_normalized + ':' + s.type)
                 result[c].sort()
     return result
 
 
 def _do_resolve_extends(source_schema, schema, schema_group, directory_structure: DirectoryStructure):
+    # Autocomplete with the correct namespace, just rebuild it for older versions (replace part)
+    if TEMPLATE_PROPERTY_TYPE in schema:
+        schema_group_normalized = source_schema.schema_group.lower() if source_schema.schema_group.isupper() else source_schema.schema_group
+        schema[TEMPLATE_PROPERTY_TYPE] = source_schema.namespaces['types'].replace('{MODULE}',
+                                                                               schema_group_normalized) + \
+                                     schema[TEMPLATE_PROPERTY_TYPE].split(":")[-1].split("/")[-1]
+        # Add schema module
+        schema[TEMPLATE_PROPERTY_MODULE] = source_schema.schema_group
+
     if TEMPLATE_PROPERTY_EXTENDS in schema:
         if schema[TEMPLATE_PROPERTY_EXTENDS].startswith("/"):
             extends_split = schema[TEMPLATE_PROPERTY_EXTENDS].split("/")
@@ -129,7 +141,20 @@ def _apply_extension(source, extension):
             source["properties"][k] = extension["properties"][k]
 
 
-def _do_resolve_categories(schema: SchemaStructure, schemas_by_category):
+def _do_resolve_categories(version:str, schema: SchemaStructure, schemas_by_category):
+
+    def _namespace_completion_categories(schema_payload, schema, p, template_property):
+        def _build_namespace_type(_type):
+            # if _type is an URI rebuild it
+            # else _type consists of prefix:name_type
+            module = _type.split("/")[-2] if '/' in _type else _type.split(":")[0]
+            name_type = _type.split("/")[-1] if '/' in _type else _type.split(":")[-1]
+            return schema.namespaces['types'].replace('{MODULE}', module) + name_type
+
+        schema_payload["properties"][p][template_property] = [
+            _build_namespace_type(_type) for _type in schema_payload["properties"][p][template_property]]
+        return schema_payload
+
     with open(schema.absolute_path, "r") as schema_file:
         schema_payload = json.load(schema_file)
     if "properties" in schema_payload:
@@ -150,6 +175,13 @@ def _do_resolve_categories(schema: SchemaStructure, schemas_by_category):
                         embedded_types.extend(schemas_by_category[embedded_category])
                 schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_TYPES] = sorted(embedded_types)
                 del schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES]
+
+            # Write namespace for '_linkedTypes' and '_embeddedTypes'
+            if TEMPLATE_PROPERTY_LINKED_TYPES in schema_payload["properties"][p]:
+                _namespace_completion_categories(schema_payload, schema, p, TEMPLATE_PROPERTY_LINKED_TYPES)
+
+            if TEMPLATE_PROPERTY_EMBEDDED_TYPES in schema_payload["properties"][p]:
+                _namespace_completion_categories(schema_payload, schema, p, TEMPLATE_PROPERTY_EMBEDDED_TYPES)
+
     with open(schema.absolute_path, "w") as target_file:
         target_file.write(json.dumps(schema_payload, indent=2))
-

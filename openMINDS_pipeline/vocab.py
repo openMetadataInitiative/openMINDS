@@ -1,7 +1,7 @@
 import json
 import os
 import re
-from typing import List
+from typing import List, Dict
 
 from openMINDS_pipeline.models import DirectoryStructure, SchemaStructure
 from openMINDS_pipeline.resolver import TEMPLATE_PROPERTY_TYPE
@@ -12,48 +12,50 @@ def _camel_case_to_human_readable(value: str):
     return re.sub("([a-z])([A-Z])", "\g<1> \g<2>", value).capitalize()
 
 
-def enrich_with_types_and_properties(version: str, types, properties, schemas: List[SchemaStructure]):
-    for schema_info in schemas:
+def enrich_with_types_and_properties(version, types, properties, schemas: List[SchemaStructure]):
+   for schema_info in schemas:
         print(f"Enriching schema {schema_info.file}")
         with open(schema_info.absolute_path, "r") as schema_file:
             schema = json.load(schema_file)
-        type = schema[TEMPLATE_PROPERTY_TYPE]
+        type = schema[TEMPLATE_PROPERTY_TYPE].split(":")[-1].split("/")[-1]
         if type in types:
             _enrich_with_type_information(schema, type, types)
+
         if "properties" in schema:
             for p in schema["properties"]:
-                _enrich_with_property_information(version, p, properties, schema)
+                property_with_namespace = p
+                p = p.split('/')[-1]
+                _enrich_with_property_information(schema_info.version, p, properties, schema, property_with_namespace)
         with open(schema_info.absolute_path, "w") as schema_file:
             schema_file.write(json.dumps(schema, indent=2, sort_keys=True))
 
 
-def _enrich_with_property_information(version: str, p, properties, schema):
+def _enrich_with_property_information(version: str, p, properties, schema, property_with_namespace):
     if p in properties:
         prop = properties[p]
         if "description" in prop and prop["description"]:
-            schema["properties"][p]["description"] = prop["description"]
+            schema["properties"][property_with_namespace]["description"] = prop["description"]
         if "label" in prop and prop["label"]:
-            schema["properties"][p]["label"] = prop["label"]
+            schema["properties"][property_with_namespace]["label"] = prop["label"]
         if "labelPlural" in prop and prop["labelPlural"]:
-            schema["properties"][p]["labelPlural"] = prop["labelPlural"]
+            schema["properties"][property_with_namespace]["labelPlural"] = prop["labelPlural"]
         if "name" in prop and prop["name"]:
-            schema["properties"][p]["name"] = prop["name"]
+            schema["properties"][property_with_namespace]["name"] = prop["name"]
         if "namePlural" in prop and prop["namePlural"]:
-            schema["properties"][p]["namePlural"] = prop["namePlural"]
+            schema["properties"][property_with_namespace]["namePlural"] = prop["namePlural"]
         if "semanticEquivalent" in prop and prop["semanticEquivalent"]:
-            schema["properties"][p]["semanticEquivalent"] = prop["semanticEquivalent"]
+            schema["properties"][property_with_namespace]["semanticEquivalent"] = prop["semanticEquivalent"]
 
-        embedded_types, linked_types, edge = is_edge(schema["properties"][p])
+        embedded_types, linked_types, edge = is_edge(schema["properties"][property_with_namespace])
         if edge and "asEdge" in prop:
             for k, v in prop["asEdge"].items():
                 if k != "canPointTo":
-                    schema["properties"][p][k] = v
-        basic_type = get_basic_type(schema["properties"][p])
+                    schema["properties"][property_with_namespace][k] = v
+        basic_type = get_basic_type(schema["properties"][property_with_namespace])
         if basic_type == "string" and "asString" in prop:
             for k, v in prop["asString"].items():
                 if k != "inVersions":
-                    schema["properties"][p][k] = v
-
+                    schema["properties"][property_with_namespace][k] = v
 
 def _enrich_with_type_information(schema, type, types):
     t = types[type]
@@ -78,7 +80,12 @@ class Types(object):
     def _load_types(self):
         if os.path.exists(self._types_file):
             with open(self._types_file, "r") as types_f:
-                return json.load(types_f)
+                _types = json.load(types_f)
+                _type_names = {}
+                for source_type in _types:
+                    # remove namespace
+                    _type_names[source_type.split(":")[-1].split("/")[-1]] = _types[source_type]
+                return _type_names
         else:
             return {}
 
@@ -103,6 +110,7 @@ class TypeExtractor(Types):
     def __init__(self, directory_structure: DirectoryStructure, version: str):
         super().__init__(directory_structure)
         self._version = version
+        self._namespaces = None
 
     def extract_types(self, schemas) -> dict:
         new_types = []
@@ -125,12 +133,17 @@ class TypeExtractor(Types):
         return self._types
 
     def _extract_type(self, schema: SchemaStructure) -> str:
+        self._namespaces = schema.namespaces
+
         with open(schema.absolute_path, "r") as schema_file:
             schema_payload = json.load(schema_file)
-        t = schema_payload[TEMPLATE_PROPERTY_TYPE]
+        # Remove the namespace of the type
+        t = schema_payload[TEMPLATE_PROPERTY_TYPE].split(":")[-1].split("/")[-1]
+
         if t in self._types:
             for k in list(self._types[t].keys()):
-                if k not in ["label", "labelPlural", "name", "namePlural", "description", "semanticEquivalent", "isPartOfVersion", "color"]:
+                if k not in ["label", "labelPlural", "name", "namePlural", "description", "semanticEquivalent",
+                             "isPartOfVersion", "color", "hasNamespace"]:
                     del self._types[t][k]
         simple_name = os.path.basename(t)
         if t not in self._types:
@@ -153,6 +166,25 @@ class TypeExtractor(Types):
         if self._version not in self._types[t]["isPartOfVersion"]:
             self._types[t]["isPartOfVersion"].append(self._version)
             self._types[t]["isPartOfVersion"].sort()
+
+        # replace by the module name in the versions prior to v4.0
+        schema_group_normalized = schema.schema_group.lower() if schema.schema_group.isupper() else schema.schema_group
+        type_namespace= self._namespaces['types'].replace('{MODULE}', schema_group_normalized)
+        if "hasNamespace" not in self._types[t]:
+            self._types[t]["hasNamespace"] = []
+            self._types[t]["hasNamespace"].append({'namespace': type_namespace,
+                                                   'inVersions': [self._version]})
+
+        tmp_namespaces = []
+        for x in self._types[t]["hasNamespace"]:
+            tmp_namespaces.append(x["namespace"])
+            if self._namespaces['types'].replace('{MODULE}', schema_group_normalized) == x["namespace"] and self._version not in x["inVersions"]:
+                x["inVersions"].append(self._version)
+        if type_namespace not in tmp_namespaces:
+            self._types[t]["hasNamespace"].append({'namespace': type_namespace,
+                                                   'inVersions': [self._version]})
+        # Sort the 'hasNamespace' list based on 'inVersions'
+        self._types[t]["hasNamespace"].sort(key=lambda x: sorted(x["inVersions"]))
         return t
 
 
@@ -165,7 +197,13 @@ class Property(object):
     def _load_properties(self):
         if os.path.exists(self._properties_file):
             with open(self._properties_file, "r") as properties_f:
-                return json.load(properties_f)
+                _properties = json.load(properties_f)
+                _properties_names = {}
+                for source_property in _properties:
+                    # remove namespace, not necessary to check for ':' here (only done for types).
+                    cleaned_property = source_property.split('/')[-1]
+                    _properties_names[cleaned_property] = _properties[source_property]
+                return _properties_names
         else:
             return {}
 
@@ -190,23 +228,26 @@ class PropertyExtractor(Property):
     def __init__(self, directory_structure: DirectoryStructure, version: str):
         super().__init__(directory_structure)
         self._version = version
+        self._namespaces = None
 
     def _extract_properties_for_schema(self, schema: SchemaStructure):
+        self._namespaces = schema.namespaces
         with open(schema.absolute_path, "r") as schema_file:
             schema_payload = json.load(schema_file)
         t = schema_payload[TEMPLATE_PROPERTY_TYPE]
         if "properties" in schema_payload:
             for p, v in schema_payload["properties"].items():
+                # remove namespace, not necessary to check for ':' here (only done for types).
+                p = p.split('/')[-1]
                 self._extract_property(t, p, v)
 
     def _extract_property(self, type: str, property: str, definition: dict):
         if property not in self._properties:
             self._properties[property] = {}
         prop = self._properties[property]
-
         # Clear all unexpected fields
         for k in list(prop.keys()):
-            if k not in ["label", "labelPlural", "name", "namePlural", "description", "semanticEquivalent", "asEdge", "asString", "usedIn"]:
+            if k not in ["label", "labelPlural", "name", "namePlural", "description", "semanticEquivalent", "asEdge", "asString", "usedIn", "hasNamespace"]:
                 del prop[k]
 
         # Set default values for manually managed properties
@@ -262,6 +303,22 @@ class PropertyExtractor(Property):
                 prop["asString"]["formatting"] = "text/plain"
             if "multiline" not in prop["asString"]:
                 prop["asString"]["multiline"] = False
+
+        if "hasNamespace" not in prop:
+            prop["hasNamespace"] = []
+            prop["hasNamespace"].append({'namespace': self._namespaces['props'],
+                                                   'inVersions': [self._version]})
+
+        tmp_namespaces = []
+        for x in prop["hasNamespace"]:
+            tmp_namespaces.append(x["namespace"])
+            if self._namespaces['props'] == x["namespace"] and self._version not in x["inVersions"]:
+                x["inVersions"].append(self._version)
+        if self._namespaces['props'] not in tmp_namespaces:
+            prop["hasNamespace"].append({'namespace': self._namespaces['props'],
+                                                   'inVersions': [self._version]})
+        # Sort the 'hasNamespace' list based on 'inVersions'
+        prop["hasNamespace"].sort(key=lambda x: sorted(x["inVersions"]))
 
     def extract_properties(self, schemas) -> dict:
         self._load_properties()

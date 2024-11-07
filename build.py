@@ -1,5 +1,4 @@
 import argparse
-
 import sys
 
 from openMINDS_pipeline.models import DirectoryStructure, Trigger
@@ -22,10 +21,9 @@ directory_structure = DirectoryStructure()
 clone_central(True)
 
 # Step 1 - find the versions to be (re-)built
-relevant_versions = evaluate_versions_to_be_built(args["config"], trigger)
+relevant_versions, namespaces = evaluate_versions_to_be_built(args["config"], trigger)
 
 for version, modules in relevant_versions.items():
-
     DirectoryStructure.clear_directory(directory_structure.expanded_directory)
     DirectoryStructure.clear_directory(directory_structure.source_directory)
 
@@ -33,7 +31,7 @@ for version, modules in relevant_versions.items():
     clone_sources(modules, version)
 
     # Step 3 - Find all involved schemas
-    all_schemas = find_schemas(directory_structure, modules)
+    all_schemas = find_schemas(directory_structure, modules, namespaces[version])
 
     # Step 4 - Resolve all "_extends" directives and save to target directory
     resolve_extends(all_schemas, directory_structure)
@@ -55,7 +53,6 @@ for version, modules in relevant_versions.items():
 
     # Step 10 - Copy results to the target directory
     copy_to_target_directory(directory_structure, version)
-
 
 if not trigger:
     # We've built everything - this is the only chance to do a proper cleanup at the end because we know all versions have been processed.
