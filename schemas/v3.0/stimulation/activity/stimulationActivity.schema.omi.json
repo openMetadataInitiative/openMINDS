@@ -1,6 +1,6 @@
 {
+  "_module": "stimulation",
   "_type": "https://openminds.ebrains.eu/stimulation/StimulationActivity",
-  "color": "#FEFFE6",
   "label": "Stimulation activity",
   "name": "StimulationActivity",
   "properties": {
@@ -169,14 +169,11 @@
     },
     "https://openminds.ebrains.eu/vocab/stimulus": {
       "_instruction": "Add all stimuli used during this activity.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/stimulation/EphysStimulus"
-      ],
+      "_linkedTypes": [],
       "label": "Stimulus",
       "labelPlural": "Stimuli",
       "minItems": 1,
       "name": "stimulus",
-      "nameForReverseLink": null,
       "namePlural": "stimuli",
       "type": "array",
       "uniqueItems": true

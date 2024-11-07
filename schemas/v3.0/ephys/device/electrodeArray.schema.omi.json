@@ -2,8 +2,9 @@
   "_categories": [
     "setupComponent"
   ],
+  "_module": "ephys",
   "_type": "https://openminds.ebrains.eu/ephys/ElectrodeArray",
-  "color": "#337D00",
+  "description": "Structured information on an electrode array.",
   "label": "Electrode array",
   "name": "ElectrodeArray",
   "properties": {

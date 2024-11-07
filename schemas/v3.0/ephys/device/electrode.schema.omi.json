@@ -2,8 +2,9 @@
   "_categories": [
     "setupComponent"
   ],
+  "_module": "ephys",
   "_type": "https://openminds.ebrains.eu/ephys/Electrode",
-  "color": "#D0AC94",
+  "description": "Structured information on an electrode.",
   "label": "Electrode",
   "name": "Electrode",
   "properties": {
