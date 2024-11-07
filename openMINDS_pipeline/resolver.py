@@ -14,7 +14,7 @@ TEMPLATE_PROPERTY_FORMATS = "_formats"
 TEMPLATE_PROPERTY_CATEGORIES = "_categories"
 TEMPLATE_PROPERTY_LINKED_CATEGORIES = "_linkedCategories"
 TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES = "_embeddedCategories"
-
+TEMPLATE_PROPERTY_MODULE = "_module"
 
 def resolve_extends(schemas: List[SchemaStructure], directory_structure: DirectoryStructure):
     for schema in schemas:
@@ -79,12 +79,14 @@ def _schemas_by_category(schemas: List[SchemaStructure]) -> Dict[str, List[str]]
 
 
 def _do_resolve_extends(source_schema, schema, schema_group, directory_structure: DirectoryStructure):
-    # autocomplete with the correct namespace, just rebuild it for older versions (replace part)
+    # Autocomplete with the correct namespace, just rebuild it for older versions (replace part)
     if TEMPLATE_PROPERTY_TYPE in schema:
         schema_group_normalized = source_schema.schema_group.lower() if source_schema.schema_group.isupper() else source_schema.schema_group
         schema[TEMPLATE_PROPERTY_TYPE] = source_schema.namespaces['types'].replace('{MODULE}',
                                                                                schema_group_normalized) + \
                                      schema[TEMPLATE_PROPERTY_TYPE].split(":")[-1].split("/")[-1]
+        # Add schema module
+        schema[TEMPLATE_PROPERTY_MODULE] = source_schema.schema_group
 
     if TEMPLATE_PROPERTY_EXTENDS in schema:
         if schema[TEMPLATE_PROPERTY_EXTENDS].startswith("/"):
