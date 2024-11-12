@@ -18,18 +18,6 @@
       "nameForReverseLink": null,
       "namePlural": "biologicalSexes"
     },
-    "https://openminds.ebrains.eu/vocab/genotype": {
-      "_instruction": "Add the genotype of this specimen.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Genotype"
-      ],
-      "description": "Genetic constitution of an individual or group.",
-      "label": "Genotype",
-      "labelPlural": "Genotypes",
-      "name": "genotype",
-      "nameForReverseLink": null,
-      "namePlural": "genotypes"
-    },
     "https://openminds.ebrains.eu/vocab/internalIdentifier": {
       "_instruction": "Enter the identifier of this specimen that is used within the corresponding data.",
       "description": "Term or code that identifies someone or something within a particular product.",
@@ -39,6 +27,31 @@
       "multiline": false,
       "name": "internalIdentifier",
       "namePlural": "internalIdentifiers",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/isPartOf": {
+      "_instruction": "Add all subject groups of which this subject is a member.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectGroup"
+      ],
+      "description": "Reference to the ensemble of multiple things or beings.",
+      "label": "Is part of",
+      "labelPlural": "Is part of",
+      "minItems": 1,
+      "name": "isPartOf",
+      "nameForReverseLink": null,
+      "namePlural": "isPartOf",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/lookupLabel": {
+      "_instruction": "Enter a lookup label for this specimen that may help you to more easily find it again.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "labelPlural": "Lookup labels",
+      "multiline": false,
+      "name": "lookupLabel",
+      "namePlural": "lookupLabels",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/phenotype": {

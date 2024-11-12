@@ -39,13 +39,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -67,13 +71,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -153,13 +159,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -247,13 +257,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -274,13 +288,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -346,13 +364,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -373,13 +395,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -416,24 +442,6 @@
     "name": "AtlasAnnotation",
     "semanticEquivalent": []
   },
-  "AtlasTerminology": {
-    "color": null,
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/sands/"
-      }
-    ],
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Atlas terminology",
-    "name": "AtlasTerminology",
-    "semanticEquivalent": []
-  },
   "AtlasType": {
     "color": "#F3BDA4",
     "description": null,
@@ -447,13 +455,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -474,13 +486,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -524,6 +540,13 @@
           "v1.0",
           "v2.0"
         ],
+        "namespace": "https://openminds.ebrains.eu/core/"
+      },
+      {
+        "inVersions": [
+          "v1.0",
+          "v2.0"
+        ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
@@ -548,13 +571,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -575,13 +602,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -722,13 +753,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -749,13 +784,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -915,13 +954,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -996,13 +1039,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -1161,13 +1208,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -1220,13 +1269,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -1389,13 +1442,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -1443,13 +1500,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -1616,13 +1677,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -1698,13 +1761,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -1741,24 +1808,6 @@
     ],
     "label": "Dataset",
     "name": "Dataset",
-    "semanticEquivalent": []
-  },
-  "DatasetType": {
-    "color": null,
-    "description": "Structured information on the provided data type.",
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/controlledTerms/"
-      }
-    ],
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Dataset type",
-    "name": "DatasetType",
     "semanticEquivalent": []
   },
   "DatasetVersion": {
@@ -1805,13 +1854,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -1832,54 +1885,22 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
     "label": "Difference measure",
     "name": "DifferenceMeasure",
-    "semanticEquivalent": []
-  },
-  "DigitalIdentifier": {
-    "color": null,
-    "description": "Structured information on a digital identifier.",
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/core/"
-      }
-    ],
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Digital identifier",
-    "name": "DigitalIdentifier",
-    "semanticEquivalent": []
-  },
-  "DigitalIdentifierSchema": {
-    "color": null,
-    "description": "Structured information on a digital identifier schema.",
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/core/"
-      }
-    ],
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Digital identifier schema",
-    "name": "DigitalIdentifierSchema",
     "semanticEquivalent": []
   },
   "Disease": {
@@ -1957,13 +1978,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -1984,13 +2009,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -2297,13 +2326,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -2326,13 +2357,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -2430,24 +2463,6 @@
     "name": "FileBundleGrouping",
     "semanticEquivalent": []
   },
-  "FileInstance": {
-    "color": null,
-    "description": "Structured information on a file instances.",
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/core/"
-      }
-    ],
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "File instance",
-    "name": "FileInstance",
-    "semanticEquivalent": []
-  },
   "FilePathPattern": {
     "color": "#564620",
     "description": null,
@@ -2461,13 +2476,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -2519,13 +2538,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -2547,13 +2570,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -2591,6 +2616,26 @@
     ],
     "label": "File usage role",
     "name": "FileUsageRole",
+    "semanticEquivalent": []
+  },
+  "FunctionalMRIAcquisition": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "isPartOfVersion": [
+      "latest",
+      "v4.0"
+    ],
+    "label": "Functional mriacquisition",
+    "name": "FunctionalMRIAcquisition",
     "semanticEquivalent": []
   },
   "Funding": {
@@ -2638,13 +2683,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -2693,36 +2740,22 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
     "label": "Genetic strain type",
     "name": "GeneticStrainType",
-    "semanticEquivalent": []
-  },
-  "Genotype": {
-    "color": null,
-    "description": "Structured information on the genotype of a subject.",
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/controlledTerms/"
-      }
-    ],
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Genotype",
-    "name": "Genotype",
     "semanticEquivalent": []
   },
   "GustatoryStimulusType": {
@@ -2738,13 +2771,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -2793,13 +2830,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -2880,13 +2919,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -2955,16 +2996,65 @@
     "hasNamespace": [
       {
         "inVersions": [
+          "latest",
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      },
+      {
+        "inVersions": [
           "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/sands/"
       }
     ],
     "isPartOfVersion": [
-      "v1.0"
+      "latest",
+      "v1.0",
+      "v4.0"
     ],
     "label": "Image",
     "name": "Image",
+    "semanticEquivalent": []
+  },
+  "ImageSequence": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "isPartOfVersion": [
+      "latest",
+      "v4.0"
+    ],
+    "label": "Image sequence",
+    "name": "ImageSequence",
+    "semanticEquivalent": []
+  },
+  "ImageStack": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "isPartOfVersion": [
+      "latest",
+      "v4.0"
+    ],
+    "label": "Image stack",
+    "name": "ImageStack",
     "semanticEquivalent": []
   },
   "Language": {
@@ -3096,13 +3186,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -3286,17 +3380,28 @@
           "v4.0"
         ],
         "namespace": "https://openminds.om-i.org/types/"
+      },
+      {
+        "inVersions": [
+          "v1.0",
+          "v2.0",
+          "v3.0"
+        ],
+        "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
+      "v3.0",
       "v4.0"
     ],
     "label": "Mripulse sequence",
     "name": "MRIPulseSequence",
     "semanticEquivalent": []
   },
-  "MRIWeighting": {
+  "MRIScanner": {
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -3310,6 +3415,57 @@
     ],
     "isPartOfVersion": [
       "latest",
+      "v4.0"
+    ],
+    "label": "Mriscanner",
+    "name": "MRIScanner",
+    "semanticEquivalent": []
+  },
+  "MRIScannerUsage": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "isPartOfVersion": [
+      "latest",
+      "v4.0"
+    ],
+    "label": "Mriscanner usage",
+    "name": "MRIScannerUsage",
+    "semanticEquivalent": []
+  },
+  "MRIWeighting": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      },
+      {
+        "inVersions": [
+          "v1.0",
+          "v2.0",
+          "v3.0"
+        ],
+        "namespace": "https://openminds.ebrains.eu/controlledTerms/"
+      }
+    ],
+    "isPartOfVersion": [
+      "latest",
+      "v1.0",
+      "v2.0",
+      "v3.0",
       "v4.0"
     ],
     "label": "Mriweighting",
@@ -3329,13 +3485,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -3356,13 +3516,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -3488,24 +3652,6 @@
     ],
     "label": "Meta data model version",
     "name": "MetaDataModelVersion",
-    "semanticEquivalent": []
-  },
-  "Modality": {
-    "color": null,
-    "description": "Structured information on the modality.",
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/controlledTerms/"
-      }
-    ],
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Modality",
-    "name": "Modality",
     "semanticEquivalent": []
   },
   "Model": {
@@ -3672,13 +3818,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -3692,12 +3842,14 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v2.0"
+          "v2.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "isPartOfVersion": [
+      "v1.0",
       "v2.0"
     ],
     "label": "Numerical parameter",
@@ -3745,13 +3897,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -3773,13 +3927,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -3862,13 +4020,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -3947,13 +4109,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -3974,13 +4140,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -4025,34 +4195,18 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v2.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/core/"
-      }
-    ],
-    "isPartOfVersion": [
-      "v2.0"
-    ],
-    "label": "Parameter set",
-    "name": "ParameterSet",
-    "semanticEquivalent": []
-  },
-  "ParameterSetting": {
-    "color": null,
-    "description": "Structured information on a used parameter setting.",
-    "hasNamespace": [
-      {
-        "inVersions": [
+          "v2.0",
           "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "isPartOfVersion": [
-      "v1.0"
+      "v1.0",
+      "v2.0"
     ],
-    "label": "Parameter setting",
-    "name": "ParameterSetting",
+    "label": "Parameter set",
+    "name": "ParameterSet",
     "semanticEquivalent": []
   },
   "ParcellationEntity": {
@@ -4125,13 +4279,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/sands/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -4180,13 +4336,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -4253,26 +4413,6 @@
     "semanticEquivalent": [
       "https://schema.org/Person"
     ]
-  },
-  "Phenotype": {
-    "color": null,
-    "description": "Structured information on the phenotype of a subject.",
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0",
-          "v2.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/controlledTerms/"
-      }
-    ],
-    "isPartOfVersion": [
-      "v1.0",
-      "v2.0"
-    ],
-    "label": "Phenotype",
-    "name": "Phenotype",
-    "semanticEquivalent": []
   },
   "Pipette": {
     "color": "#2A7FFF",
@@ -4373,13 +4513,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -4812,13 +4954,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -4976,13 +5120,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -5032,13 +5178,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -5060,13 +5208,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -5087,13 +5239,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -5141,13 +5297,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -5383,24 +5543,6 @@
     "name": "SoftwareFeature",
     "semanticEquivalent": []
   },
-  "SoftwareFeatureCategory": {
-    "color": null,
-    "description": "Structured information on the category of the software feature.",
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/controlledTerms/"
-      }
-    ],
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Software feature category",
-    "name": "SoftwareFeatureCategory",
-    "semanticEquivalent": []
-  },
   "SoftwareVersion": {
     "color": "#FFA861",
     "description": null,
@@ -5503,13 +5645,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -5530,13 +5676,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -5598,8 +5748,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v1.0",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -5613,12 +5761,14 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v2.0"
+          "v2.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "isPartOfVersion": [
+      "v1.0",
       "v2.0"
     ],
     "label": "String parameter",
@@ -5652,22 +5802,24 @@
     "name": "StringProperty",
     "semanticEquivalent": []
   },
-  "StudyTargetType": {
+  "StructuralMRIAcquisition": {
     "color": null,
-    "description": "Structured information on the general type of the study target.",
+    "description": null,
     "hasNamespace": [
       {
         "inVersions": [
-          "v1.0"
+          "latest",
+          "v4.0"
         ],
-        "namespace": "https://openminds.ebrains.eu/controlledTerms/"
+        "namespace": "https://openminds.om-i.org/types/"
       }
     ],
     "isPartOfVersion": [
-      "v1.0"
+      "latest",
+      "v4.0"
     ],
-    "label": "Study target type",
-    "name": "StudyTargetType",
+    "label": "Structural mriacquisition",
+    "name": "StructuralMRIAcquisition",
     "semanticEquivalent": []
   },
   "SubcellularEntity": {
@@ -5683,13 +5835,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -5741,13 +5897,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -5861,13 +6021,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -5951,13 +6115,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -6037,13 +6203,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -6216,13 +6386,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -6245,13 +6417,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -6266,12 +6440,14 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v2.0"
+          "v2.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "isPartOfVersion": [
+      "v1.0",
       "v2.0"
     ],
     "label": "Url",
@@ -6403,13 +6579,17 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0",
+          "v2.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -6442,6 +6622,46 @@
     ],
     "label": "Visualization",
     "name": "Visualization",
+    "semanticEquivalent": []
+  },
+  "Volume": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "isPartOfVersion": [
+      "latest",
+      "v4.0"
+    ],
+    "label": "Volume",
+    "name": "Volume",
+    "semanticEquivalent": []
+  },
+  "VolumeSequence": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "isPartOfVersion": [
+      "latest",
+      "v4.0"
+    ],
+    "label": "Volume sequence",
+    "name": "VolumeSequence",
     "semanticEquivalent": []
   },
   "WebResource": {
@@ -6604,24 +6824,6 @@
     ],
     "label": "Workflow recipe version",
     "name": "WorkflowRecipeVersion",
-    "semanticEquivalent": []
-  },
-  "productAccessibility": {
-    "color": null,
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/controlledTerms/"
-      }
-    ],
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Product accessibility",
-    "name": "productAccessibility",
     "semanticEquivalent": []
   }
 }

@@ -2,7 +2,9 @@
   "_categories": [
     "fileOrigin"
   ],
+  "_module": "core",
   "_type": "https://openminds.ebrains.eu/core/BehavioralTask",
+  "description": "Structured information on the behavioral task that had to be performed by a subject.",
   "label": "Behavioral task",
   "name": "BehavioralTask",
   "properties": {
