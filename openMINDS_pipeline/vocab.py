@@ -12,7 +12,7 @@ def _camel_case_to_human_readable(value: str):
     return re.sub("([a-z])([A-Z])", "\g<1> \g<2>", value).capitalize()
 
 
-def enrich_with_types_and_properties(version, types, properties, schemas: List[SchemaStructure]):
+def enrich_with_types_and_properties(types, properties, schemas: List[SchemaStructure]):
    for schema_info in schemas:
         print(f"Enriching schema {schema_info.file}")
         with open(schema_info.absolute_path, "r") as schema_file:

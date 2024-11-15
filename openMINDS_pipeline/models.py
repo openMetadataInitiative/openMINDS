@@ -50,7 +50,6 @@ class DirectoryStructure:
         self.source_directory = os.path.join(self._root_directory, "sources")
         self.target_directory = os.path.join(self._root_directory, "target")
         self.expanded_directory = os.path.join(self._root_directory, "expanded")
-        pass
 
     @staticmethod
     def clear_directory(directory):
@@ -83,4 +82,3 @@ class DirectoryStructure:
                 else:
                     resource_directories.add("/".join([path_split[0], path_split[1]]))
         return list(resource_directories)
-
