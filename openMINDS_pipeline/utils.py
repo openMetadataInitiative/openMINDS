@@ -173,7 +173,7 @@ def get_files_in_directory(version_dir):
 
 
 def detect_moved_files(added_files, removed_files):
-    """ Detect files moved files among two lists """
+    """ Detect moved files among two lists """
     moved_files = [file_path for file_path in added_files if os.path.basename(file_path) in [os.path.basename(removed_file) for removed_file in removed_files]]
     moved_files_basename = [os.path.basename(file) for file in moved_files]
     return moved_files, moved_files_basename
