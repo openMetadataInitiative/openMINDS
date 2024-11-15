@@ -160,3 +160,39 @@ def copy_to_target_directory(directory_structure: DirectoryStructure, version:st
         for file_name in files:
             new_file_name = file_name.replace(".schema.tpl.json", ".schema.omi.json")
             os.rename(os.path.join(root, file_name), os.path.join(root, new_file_name))
+
+
+def get_files_in_directory(version_dir):
+    """ Get all files from a directory and its subdirectories """
+    files = []
+    for root, _, filenames in os.walk(version_dir):
+        for filename in filenames:
+            filepath = os.path.relpath(os.path.join(root, filename), version_dir)
+            files.append(filepath)
+    return sorted(files, key=lambda s: s.lower())
+
+
+def detect_moved_files(added_files, removed_files):
+    """ Detect files moved files among two lists """
+    moved_files = [file_path for file_path in added_files if os.path.basename(file_path) in [os.path.basename(removed_file) for removed_file in removed_files]]
+    moved_files_basename = [os.path.basename(file) for file in moved_files]
+    return moved_files, moved_files_basename
+
+
+def version_key(version):
+    """ Returns a key for sorting versions """
+    if version == 'latest':
+        # Place "latest" at the end
+        return float('inf')
+    else:
+        return float(version[1:])
+
+
+def load_json(filepath):
+    """ Load JSON file content """
+    try:
+        with open(filepath, 'r') as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"Error loading JSON from {filepath}: {e}")
+        return None
