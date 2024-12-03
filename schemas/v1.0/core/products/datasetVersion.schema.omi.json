@@ -19,7 +19,7 @@
       "namePlural": "accessibilities"
     },
     "https://openminds.ebrains.eu/vocab/author": {
-      "_instruction": "If necessary, add one or several authors (person or organization) that contributed to the production and publication of this dataset version. Note that these authors will overwrite the once provided in the dataset product this version belongs to.",
+      "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this research product version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Organization",
         "https://openminds.ebrains.eu/core/Person"
@@ -31,21 +31,6 @@
       "name": "author",
       "nameForReverseLink": null,
       "namePlural": "authors",
-      "type": "array",
-      "uniqueItems": true
-    },
-    "https://openminds.ebrains.eu/vocab/behavioralTask": {
-      "_instruction": "Add one or several behavioral tasks that were performed in this dataset version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/BehavioralTask"
-      ],
-      "description": "Specific set of defined activities (or their absence) that should be performed (or avoided) by a subject.",
-      "label": "Behavioral task",
-      "labelPlural": "Behavioral tasks",
-      "minItems": 1,
-      "name": "behavioralTask",
-      "nameForReverseLink": null,
-      "namePlural": "behavioralTasks",
       "type": "array",
       "uniqueItems": true
     },
@@ -78,7 +63,7 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/description": {
-      "_instruction": "If necessary, enter a version specific description (abstract) for this research product version (max. 2000 characters, incl. spaces; no references). If left blank, the research product version will inherit the 'description' of it's corresponding research product.",
+      "_instruction": "Enter a description (abstract) for this research product (max. 2000 characters, incl. spaces; no references).",
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
@@ -89,10 +74,26 @@
       "namePlural": "descriptions",
       "type": "string"
     },
+    "https://openminds.ebrains.eu/vocab/developer": {
+      "_instruction": "Add one or several developers (person or organization) that contributed to the code implementation of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
+      ],
+      "description": "Legal person that creates or improves products or services (e.g., software, applications, etc.).",
+      "label": "Developer",
+      "labelPlural": "Developers",
+      "minItems": 1,
+      "name": "developer",
+      "nameForReverseLink": null,
+      "namePlural": "developers",
+      "type": "array",
+      "uniqueItems": true
+    },
     "https://openminds.ebrains.eu/vocab/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI"
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -113,26 +114,10 @@
       "nameForReverseLink": null,
       "namePlural": "ethicsAssessments"
     },
-    "https://openminds.ebrains.eu/vocab/experimentalApproach": {
-      "_instruction": "Add all experimental approaches which this dataset version has deployed.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach"
-      ],
-      "label": "Experimental approach",
-      "labelPlural": "Experimental approaches",
-      "minItems": 1,
-      "name": "experimentalApproach",
-      "nameForReverseLink": null,
-      "namePlural": "experimentalApproaches",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.ebrains.eu/vocab/fullDocumentation": {
-      "_instruction": "Add the DOI, file or URL that points to a full documentation of this research product version.",
+      "_instruction": "Add the globally unique and persistent digital identifier of a full documentation of this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/URL"
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ],
       "description": "Non-abridged instructions, comments, and information for using a particular product.",
       "label": "Full documentation",
@@ -142,7 +127,7 @@
       "namePlural": "fullDocumentations"
     },
     "https://openminds.ebrains.eu/vocab/fullName": {
-      "_instruction": "If necessary, enter a version specific descriptive full name (title) for this research product version. If left blank, the research product version will inherit the 'fullName' of it's corresponding research product.",
+      "_instruction": "Enter a descriptive full name (title) for this research product version.",
       "description": "Whole, non-abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Full name",
@@ -167,60 +152,45 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.ebrains.eu/vocab/homepage": {
-      "_instruction": "Add the uniform resource locator (URL) to the homepage of this research product version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/URL"
-      ],
-      "description": "Main website of something or someone.",
-      "label": "Homepage",
-      "labelPlural": "Homepages",
-      "name": "homepage",
-      "nameForReverseLink": null,
-      "namePlural": "homepages"
-    },
-    "https://openminds.ebrains.eu/vocab/howToCite": {
-      "_instruction": "Enter the preferred citation text for this research product version. Leave blank if citation text can be extracted from the assigned digital identifier.",
-      "description": "Preferred format for citing a particular object or legal person.",
-      "formatting": "text/markdown",
-      "label": "How to cite",
-      "labelPlural": "How to cite",
-      "multiline": true,
-      "name": "howToCite",
-      "namePlural": "howToCite",
-      "type": "string"
-    },
-    "https://openminds.ebrains.eu/vocab/inputData": {
-      "_instruction": "Add the data that was used as input for this dataset version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileBundle"
-      ],
-      "description": "Data that is put into a process or machine.",
-      "label": "Input data",
-      "labelPlural": "Input data",
-      "minItems": 1,
-      "name": "inputData",
-      "nameForReverseLink": null,
-      "namePlural": "inputData",
-      "type": "array",
-      "uniqueItems": true
-    },
-    "https://openminds.ebrains.eu/vocab/isAlternativeVersionOf": {
+    "https://openminds.ebrains.eu/vocab/hasAlternativeVersion": {
       "_instruction": "Add all dataset versions that can be used alternatively to this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
       ],
-      "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
-      "label": "Is alternative version of",
-      "labelPlural": "Is alternative version of",
+      "label": "Has alternative version",
+      "labelPlural": "Has alternative versions",
       "minItems": 1,
-      "name": "isAlternativeVersionOf",
+      "name": "hasAlternativeVersion",
       "nameForReverseLink": null,
-      "namePlural": "isAlternativeVersionOf",
+      "namePlural": "hasAlternativeVersions",
       "type": "array",
       "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/hasSupplementVersion": {
+      "_instruction": "Add all dataset versions that supplement this dataset version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DatasetVersion"
+      ],
+      "label": "Has supplement version",
+      "labelPlural": "Has supplement versions",
+      "minItems": 1,
+      "name": "hasSupplementVersion",
+      "nameForReverseLink": null,
+      "namePlural": "hasSupplementVersions",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/homepage": {
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product version.",
+      "description": "Main website of something or someone.",
+      "format": "iri",
+      "formatting": "text/plain",
+      "label": "Homepage",
+      "labelPlural": "Homepages",
+      "multiline": false,
+      "name": "homepage",
+      "namePlural": "homepages",
+      "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/isNewVersionOf": {
       "_instruction": "Add the dataset version preceding this dataset version.",
@@ -252,7 +222,7 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/license": {
-      "_instruction": "Add the license for this dataset version.",
+      "_instruction": "Add the license of this research product version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/License"
       ],
@@ -263,11 +233,26 @@
       "nameForReverseLink": null,
       "namePlural": "licenses"
     },
+    "https://openminds.ebrains.eu/vocab/modality": {
+      "_instruction": "Add all modalities in which the approaches used in this dataset version can be categorized in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Modality"
+      ],
+      "description": "Classification according to a logical proposition in which something exists, is experienced or expressed.",
+      "label": "Modality",
+      "labelPlural": "Modalities",
+      "minItems": 1,
+      "name": "modality",
+      "nameForReverseLink": null,
+      "namePlural": "modalities",
+      "type": "array",
+      "uniqueItems": true
+    },
     "https://openminds.ebrains.eu/vocab/otherContribution": {
-      "_embeddedTypes": [
+      "_instruction": "Add the contributions for each involved person or organization going beyond being an author, custodian or developer of this research product version.",
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Contribution"
       ],
-      "_instruction": "Add the contributions for each involved person or organization going beyond being an author, custodian or developer of this research product version.",
       "description": "Giving or supplying of something (such as money or time) as a part or share other than what is covered elsewhere.",
       "label": "Other contribution",
       "labelPlural": "Other contributions",
@@ -281,8 +266,7 @@
     "https://openminds.ebrains.eu/vocab/relatedPublication": {
       "_instruction": "Add further publications besides the documentation (e.g. an original research article) providing the original context for the production of this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/ISBN"
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ],
       "description": "Reference to something that was made available for the general public to see or buy.",
       "label": "Related publication",
@@ -295,11 +279,9 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/releaseDate": {
-      "_formats": [
-        "date"
-      ],
       "_instruction": "Enter the date (actual or intended) of the first broadcast/publication of this research product version.",
       "description": "Fixed date on which a product is due to become or was made available for the general public to see or buy",
+      "format": "date",
       "formatting": "text/plain",
       "label": "Release date",
       "labelPlural": "Release dates",
@@ -332,62 +314,10 @@
       "namePlural": "shortNames",
       "type": "string"
     },
-    "https://openminds.ebrains.eu/vocab/studiedSpecimen": {
-      "_instruction": "Add one or several specimen (subjects and/or tissue samples) or specimen sets (subject groups and/or tissue sample collections) that were studied in this dataset.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Subject",
-        "https://openminds.ebrains.eu/core/SubjectGroup",
-        "https://openminds.ebrains.eu/core/TissueSample",
-        "https://openminds.ebrains.eu/core/TissueSampleCollection"
-      ],
-      "label": "Studied specimen",
-      "labelPlural": "Studied specimens",
-      "minItems": 1,
-      "name": "studiedSpecimen",
-      "nameForReverseLink": null,
-      "namePlural": "studiedSpecimens",
-      "type": "array",
-      "uniqueItems": true
-    },
-    "https://openminds.ebrains.eu/vocab/supportChannel": {
-      "_instruction": "Enter all channels through which a user can receive support for handling this research product.",
-      "description": "Way of communication used to interact with users or customers.",
-      "formatting": "text/plain",
-      "items": {
-        "_formats": [
-          "email",
-          "iri"
-        ],
-        "type": "string"
-      },
-      "label": "Support channel",
-      "labelPlural": "Support channels",
-      "minItems": 1,
-      "multiline": false,
-      "name": "supportChannel",
-      "namePlural": "supportChannels",
-      "type": "array",
-      "uniqueItems": true
-    },
-    "https://openminds.ebrains.eu/vocab/technique": {
-      "_instruction": "Add one or several techniques that were used in this dataset version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Technique"
-      ],
-      "description": "Method of accomplishing a desired aim.",
-      "label": "Technique",
-      "labelPlural": "Techniques",
-      "minItems": 1,
-      "name": "technique",
-      "nameForReverseLink": null,
-      "namePlural": "techniques",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.ebrains.eu/vocab/type": {
       "_instruction": "Add all data types (raw, derived or simulated) provided in this dataset version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/SemanticDataType"
+        "https://openminds.ebrains.eu/controlledTerms/DatasetType"
       ],
       "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
       "label": "Type",
@@ -411,7 +341,7 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/versionInnovation": {
-      "_instruction": "Enter a summary/description of the novelties/peculiarities of this research product version in comparison to other versions of it's research product. If this research product version is the first released version, you can enter the following disclaimer 'This is the first version of this research product.'",
+      "_instruction": "Enter a short summary of the novelties/peculiarities of this research product version.",
       "description": "Documentation on what changed in comparison to a previously published form of something.",
       "formatting": "text/markdown",
       "label": "Version innovation",
@@ -424,16 +354,20 @@
   },
   "required": [
     "https://openminds.ebrains.eu/vocab/accessibility",
+    "https://openminds.ebrains.eu/vocab/author",
+    "https://openminds.ebrains.eu/vocab/custodian",
+    "https://openminds.ebrains.eu/vocab/description",
     "https://openminds.ebrains.eu/vocab/digitalIdentifier",
     "https://openminds.ebrains.eu/vocab/ethicsAssessment",
-    "https://openminds.ebrains.eu/vocab/experimentalApproach",
     "https://openminds.ebrains.eu/vocab/fullDocumentation",
+    "https://openminds.ebrains.eu/vocab/fullName",
+    "https://openminds.ebrains.eu/vocab/funding",
     "https://openminds.ebrains.eu/vocab/license",
+    "https://openminds.ebrains.eu/vocab/modality",
     "https://openminds.ebrains.eu/vocab/releaseDate",
+    "https://openminds.ebrains.eu/vocab/repository",
     "https://openminds.ebrains.eu/vocab/shortName",
-    "https://openminds.ebrains.eu/vocab/technique",
     "https://openminds.ebrains.eu/vocab/type",
-    "https://openminds.ebrains.eu/vocab/versionIdentifier",
-    "https://openminds.ebrains.eu/vocab/versionInnovation"
+    "https://openminds.ebrains.eu/vocab/versionIdentifier"
   ]
 }

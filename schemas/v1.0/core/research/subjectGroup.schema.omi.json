@@ -5,17 +5,6 @@
   "label": "Subject group",
   "name": "SubjectGroup",
   "properties": {
-    "https://openminds.ebrains.eu/vocab/additionalRemarks": {
-      "_instruction": "Enter additional remarks about the specimen set.",
-      "description": "Mention of what deserves additional attention or notice.",
-      "formatting": "text/markdown",
-      "label": "Additional remarks",
-      "labelPlural": "Additional remarks",
-      "multiline": true,
-      "name": "additionalRemarks",
-      "namePlural": "additionalRemarks",
-      "type": "string"
-    },
     "https://openminds.ebrains.eu/vocab/biologicalSex": {
       "_instruction": "Add the biological sex of all specimen in this set.",
       "_linkedTypes": [
@@ -31,6 +20,21 @@
       "type": "array",
       "uniqueItems": true
     },
+    "https://openminds.ebrains.eu/vocab/genotype": {
+      "_instruction": "Add the genotype of all specimen in this set.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Genotype"
+      ],
+      "description": "Genetic constitution of an individual or group.",
+      "label": "Genotype",
+      "labelPlural": "Genotypes",
+      "minItems": 1,
+      "name": "genotype",
+      "nameForReverseLink": null,
+      "namePlural": "genotypes",
+      "type": "array",
+      "uniqueItems": true
+    },
     "https://openminds.ebrains.eu/vocab/internalIdentifier": {
       "_instruction": "Enter the identifier of this specimen set that is used within the corresponding data.",
       "description": "Term or code that identifies someone or something within a particular product.",
@@ -40,16 +44,6 @@
       "multiline": false,
       "name": "internalIdentifier",
       "namePlural": "internalIdentifiers",
-      "type": "string"
-    },
-    "https://openminds.ebrains.eu/vocab/lookupLabel": {
-      "_instruction": "Enter a lookup label for this specimen set that may help you to more easily find it again.",
-      "formatting": "text/plain",
-      "label": "Lookup label",
-      "labelPlural": "Lookup labels",
-      "multiline": false,
-      "name": "lookupLabel",
-      "namePlural": "lookupLabels",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/phenotype": {

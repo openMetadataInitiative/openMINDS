@@ -7,11 +7,9 @@
   "name": "FileRepository",
   "properties": {
     "https://openminds.ebrains.eu/vocab/IRI": {
-      "_formats": [
-        "iri"
-      ],
       "_instruction": "Enter the internationalized resource identifier (IRI) of this file repository.",
       "description": "Stands for Internationalized Resource Identifier which is an internet protocol standard that builds on the URI protocol, extending the set of permitted characters to include Unicode/ISO 10646.",
+      "format": "iri",
       "formatting": "text/plain",
       "label": "Iri",
       "labelPlural": "IRIs",
@@ -20,22 +18,8 @@
       "namePlural": "IRIs",
       "type": "string"
     },
-    "https://openminds.ebrains.eu/vocab/contentTypePattern": {
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/ContentTypePattern"
-      ],
-      "_instruction": "Add all content type patterns that would identify matching content types for files within this file repository.",
-      "label": "Content type pattern",
-      "labelPlural": "Content type patterns",
-      "minItems": 1,
-      "name": "contentTypePattern",
-      "nameForReverseLink": null,
-      "namePlural": "contentTypePatterns",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.ebrains.eu/vocab/format": {
-      "_instruction": "If file instances and bundles within the repository are organized and formatted according to a formal data structure use the appropriate contentType. Leave blank otherwise.",
+      "_instruction": "Add the content type of this file repository.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ],
@@ -47,10 +31,10 @@
       "namePlural": "formats"
     },
     "https://openminds.ebrains.eu/vocab/hash": {
-      "_embeddedTypes": [
+      "_instruction": "Add the hash that was generated for this file repository.",
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Hash"
       ],
-      "_instruction": "Add the hash that was generated for this file repository.",
       "description": "Term used for the process of converting any data into a single value. Often also directly refers to the resulting single value.",
       "label": "Hash",
       "labelPlural": "Hashes",
@@ -81,17 +65,6 @@
       "namePlural": "names",
       "type": "string"
     },
-    "https://openminds.ebrains.eu/vocab/repositoryType": {
-      "_instruction": "Add the type of this file repository.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType"
-      ],
-      "label": "Repository type",
-      "labelPlural": "Repository types",
-      "name": "repositoryType",
-      "nameForReverseLink": null,
-      "namePlural": "repositoryTypes"
-    },
     "https://openminds.ebrains.eu/vocab/storageSize": {
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
@@ -103,17 +76,6 @@
       "name": "storageSize",
       "nameForReverseLink": null,
       "namePlural": "storageSizes"
-    },
-    "https://openminds.ebrains.eu/vocab/structurePattern": {
-      "_instruction": "Add a file repository structure which identifies the file path patterns used in this file repository.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileRepositoryStructure"
-      ],
-      "label": "Structure pattern",
-      "labelPlural": "Structure patterns",
-      "name": "structurePattern",
-      "nameForReverseLink": null,
-      "namePlural": "structurePatterns"
     }
   },
   "required": [

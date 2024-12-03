@@ -20,7 +20,7 @@
     "https://openminds.ebrains.eu/vocab/definedIn": {
       "_instruction": "Add the file in which this image is stored in.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File"
+        "https://openminds.ebrains.eu/core/FileInstance"
       ],
       "description": "Reference to a file instance in which something is stored.",
       "label": "Defined in",
