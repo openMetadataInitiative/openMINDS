@@ -47,7 +47,7 @@ def resolve_categories(version:str, directory_structure: DirectoryStructure, sch
     _save_categories(directory_structure, categories)
 
 
-def _load_categories(directory_structure):
+def _load_categories(directory_structure: DirectoryStructure):
     categories_file = os.path.join(directory_structure.target_directory, "vocab", "categories.json")
     if os.path.exists(categories_file):
         with open(categories_file, "r") as categories_f:
@@ -141,7 +141,7 @@ def _apply_extension(source, extension):
             source["properties"][k] = extension["properties"][k]
 
 
-def _do_resolve_categories(version:str, schema: SchemaStructure, schemas_by_category):
+def _do_resolve_categories(version: str, schema: SchemaStructure, schemas_by_category):
 
     def _namespace_completion_categories(schema_payload, schema, p, template_property):
         def _build_namespace_type(_type):

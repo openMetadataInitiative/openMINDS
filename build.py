@@ -1,12 +1,14 @@
 import argparse
+import json
 import os
 import sys
 
 from openMINDS_pipeline.models import DirectoryStructure, Trigger
 from openMINDS_pipeline.resolver import resolve_extends, resolve_categories
-from openMINDS_pipeline.utils import clone_sources, find_schemas, evaluate_versions_to_be_built, clone_central, qualify_property_names, copy_to_target_directory, version_key
+from openMINDS_pipeline.utils import clone_sources, find_schemas, evaluate_versions_to_be_built, clone_central, \
+    qualify_property_names, copy_to_target_directory, update_relevant_versions_from_repo
 from openMINDS_pipeline.vocab import TypeExtractor, Types, PropertyExtractor, Property, enrich_with_types_and_properties
-from openMINDS_pipeline.schema_comparator import generate_version_comparison
+from openMINDS_pipeline.schema_comparator import generate_changelogs_and_compability_resolution
 
 
 parser = argparse.ArgumentParser(prog=sys.argv[0], description='Expand openMINDS schema, extract vocabularies and instances')
@@ -57,18 +59,9 @@ for version, modules in relevant_versions.items():
     # Step 10 - Copy results to the target directory
     copy_to_target_directory(directory_structure, version)
 
-# Step 11 - Generation of changelogs
-versions = sorted(list(relevant_versions.keys()), key=version_key)
-for i in range(1, len(versions)):
-    current_version = versions[i]
-    previous_version = versions[i - 1]
-
-    schemas_previous_version = os.path.join(directory_structure.target_directory, 'schemas', previous_version)
-    schemas_current_version = os.path.join(directory_structure.target_directory, 'schemas', current_version)
-    changelog_content = generate_version_comparison(schemas_previous_version, schemas_current_version)
-    changelog_path = os.path.join(directory_structure.target_directory, 'schemas', current_version, f"Release Notes {current_version}.txt")
-    with open(changelog_path, 'w') as f:
-        f.write(changelog_content)
+# Step 11 - Generation of changelogs and add the compatibility of the types (the version used before the one triggered is required)
+update_relevant_versions_from_repo(args["config"], relevant_versions)
+generate_changelogs_and_compability_resolution(relevant_versions, directory_structure)
 
 if not trigger:
     # We've built everything - this is the only chance to do a proper cleanup at the end because we know all versions have been processed.
