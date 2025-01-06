@@ -199,7 +199,7 @@ def get_files_in_directory(version_dir: str)->List[str]:
     return sorted(files, key=lambda s: s.lower())
 
 
-def detect_moved_files(added_files: str, removed_files: str):
+def detect_moved_files(added_files: List[str], removed_files: List[str]):
     """ Detect moved files among two lists """
     moved_files = [file_path for file_path in added_files if os.path.basename(file_path) in [os.path.basename(removed_file) for removed_file in removed_files]]
     moved_files_basename = [os.path.basename(file) for file in moved_files]

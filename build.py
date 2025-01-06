@@ -1,6 +1,4 @@
 import argparse
-import json
-import os
 import sys
 
 from openMINDS_pipeline.models import DirectoryStructure, Trigger
