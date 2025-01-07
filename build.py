@@ -6,7 +6,7 @@ from openMINDS_pipeline.resolver import resolve_extends, resolve_categories
 from openMINDS_pipeline.utils import clone_sources, find_schemas, evaluate_versions_to_be_built, clone_central, \
     qualify_property_names, copy_to_target_directory, update_relevant_versions_from_repo
 from openMINDS_pipeline.vocab import TypeExtractor, Types, PropertyExtractor, Property, enrich_with_types_and_properties
-from openMINDS_pipeline.schema_comparator import generate_changelogs_and_compability_resolution
+from openMINDS_pipeline.schema_comparator import generate_changelogs_and_compatibility_resolution
 
 
 parser = argparse.ArgumentParser(prog=sys.argv[0], description='Expand openMINDS schema, extract vocabularies and instances')
@@ -59,7 +59,7 @@ for version, modules in relevant_versions.items():
 
 # Step 11 - Generation of changelogs and add the compatibility of the types (the version used before the one triggered is required)
 update_relevant_versions_from_repo(args["config"], relevant_versions)
-generate_changelogs_and_compability_resolution(relevant_versions, directory_structure)
+generate_changelogs_and_compatibility_resolution(relevant_versions, directory_structure)
 
 if not trigger:
     # We've built everything - this is the only chance to do a proper cleanup at the end because we know all versions have been processed.

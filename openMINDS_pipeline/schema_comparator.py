@@ -202,7 +202,7 @@ def compare_json_schemas(schema1, schema2, parent_key:str = "", normalize: bool 
     return changes, structured_changes, type_modified, global_changes
 
 
-def generate_changelogs_and_compability_resolution(versions: Dict[str, Dict[str, OpenMINDSModule]], directory_structure: DirectoryStructure):
+def generate_changelogs_and_compatibility_resolution(versions: Dict[str, Dict[str, OpenMINDSModule]], directory_structure: DirectoryStructure):
     """
     Compare schema versions, generate changelogs, and enrich vocab types.
     """
