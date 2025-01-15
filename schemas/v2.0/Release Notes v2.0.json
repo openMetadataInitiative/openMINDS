@@ -1,0 +1,989 @@
+{
+  "title": "Release Notes v2.0",
+  "addedFiles": [
+    "controlledTerms/experimentalApproach.schema.omi.json",
+    "controlledTerms/fileRepositoryType.schema.omi.json",
+    "controlledTerms/handedness.schema.omi.json",
+    "controlledTerms/semanticDataType.schema.omi.json",
+    "controlledTerms/typeOfUncertainty.schema.omi.json",
+    "controlledTerms/UBERONParcellation.schema.omi.json",
+    "core/actors/affiliation.schema.omi.json",
+    "core/actors/contactInformation.schema.omi.json",
+    "core/data/file.schema.omi.json",
+    "core/miscellaneous/DOI.schema.omi.json",
+    "core/miscellaneous/GRIDID.schema.omi.json",
+    "core/miscellaneous/ISBN.schema.omi.json",
+    "core/miscellaneous/ORCID.schema.omi.json",
+    "core/miscellaneous/RORID.schema.omi.json",
+    "core/miscellaneous/SWHID.schema.omi.json",
+    "core/miscellaneous/URL.schema.omi.json",
+    "core/research/numericalParameter.schema.omi.json",
+    "core/research/parameterSet.schema.omi.json",
+    "core/research/stringParameter.schema.omi.json",
+    "SANDS/atlas/atlasAnnotation.schema.omi.json",
+    "SANDS/atlas/commonCoordinateSpace.schema.omi.json",
+    "SANDS/atlas/parcellationEntity.schema.omi.json",
+    "SANDS/atlas/parcellationTerminology.schema.omi.json",
+    "SANDS/miscellaneous/qualitativeRelationAssessment.schema.omi.json",
+    "SANDS/miscellaneous/quantitativeRelationAssessment.schema.omi.json",
+    "SANDS/non-atlas/customAnatomicalEntity.schema.omi.json",
+    "SANDS/non-atlas/customAnnotation.schema.omi.json",
+    "SANDS/non-atlas/customCoordinateSpace.schema.omi.json"
+  ],
+  "removedFiles": [
+    "controlledTerms/datasetType.schema.omi.json",
+    "controlledTerms/genotype.schema.omi.json",
+    "controlledTerms/modality.schema.omi.json",
+    "controlledTerms/softwareFeatureCategory.schema.omi.json",
+    "core/data/fileInstance.schema.omi.json",
+    "core/miscellaneous/digitalIdentifier.schema.omi.json",
+    "core/miscellaneous/digitalIdentifierSchema.schema.omi.json",
+    "core/research/parameterSetting.schema.omi.json",
+    "SANDS/anatomicalEntity.schema.omi.json",
+    "SANDS/anatomicalEntityRelation.schema.omi.json",
+    "SANDS/annotation.schema.omi.json",
+    "SANDS/atlasTerminology.schema.omi.json",
+    "SANDS/coordinateSpace.schema.omi.json",
+    "SANDS/image.schema.omi.json"
+  ],
+  "movedFiles": [
+    {
+      "file": "brainAtlas.schema.omi.json",
+      "source": "SANDS/brainAtlas.schema.omi.json",
+      "destination": "SANDS/atlas/brainAtlas.schema.omi.json"
+    },
+    {
+      "file": "brainAtlasVersion.schema.omi.json",
+      "source": "SANDS/brainAtlasVersion.schema.omi.json",
+      "destination": "SANDS/atlas/brainAtlasVersion.schema.omi.json"
+    },
+    {
+      "file": "coordinatePoint.schema.omi.json",
+      "source": "SANDS/coordinatePoint.schema.omi.json",
+      "destination": "SANDS/miscellaneous/coordinatePoint.schema.omi.json"
+    },
+    {
+      "file": "electrode.schema.omi.json",
+      "source": "SANDS/electrode.schema.omi.json",
+      "destination": "SANDS/non-atlas/electrode.schema.omi.json"
+    },
+    {
+      "file": "electrodeArray.schema.omi.json",
+      "source": "SANDS/electrodeArray.schema.omi.json",
+      "destination": "SANDS/non-atlas/electrodeArray.schema.omi.json"
+    },
+    {
+      "file": "electrodeContact.schema.omi.json",
+      "source": "SANDS/electrodeContact.schema.omi.json",
+      "destination": "SANDS/non-atlas/electrodeContact.schema.omi.json"
+    }
+  ],
+  "changes": [
+    {
+      "file": "controlledTerms/ageCategory.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "AgeCategory"
+    },
+    {
+      "file": "controlledTerms/anatomicalAxesOrientation.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "AnatomicalAxesOrientation"
+    },
+    {
+      "file": "controlledTerms/behavioralTask.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "BehavioralTask"
+    },
+    {
+      "file": "controlledTerms/biologicalSex.schema.omi.json",
+      "addedAttributes": [
+        "_categories",
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "BiologicalSex"
+    },
+    {
+      "file": "controlledTerms/cellType.schema.omi.json",
+      "addedAttributes": [
+        "_categories",
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "CellType"
+    },
+    {
+      "file": "controlledTerms/contributionType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "ContributionType"
+    },
+    {
+      "file": "controlledTerms/criteriaQualityType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "CriteriaQualityType"
+    },
+    {
+      "file": "controlledTerms/disease.schema.omi.json",
+      "addedAttributes": [
+        "_categories",
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "Disease"
+    },
+    {
+      "file": "controlledTerms/diseaseModel.schema.omi.json",
+      "addedAttributes": [
+        "_categories",
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "DiseaseModel"
+    },
+    {
+      "file": "controlledTerms/ethicsAssessment.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "EthicsAssessment"
+    },
+    {
+      "file": "controlledTerms/fileBundleGrouping.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "FileBundleGrouping"
+    },
+    {
+      "file": "controlledTerms/fileUsageRole.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "FileUsageRole"
+    },
+    {
+      "file": "controlledTerms/language.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "Language"
+    },
+    {
+      "file": "controlledTerms/laterality.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "Laterality"
+    },
+    {
+      "file": "controlledTerms/metaDataModelType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "MetaDataModelType"
+    },
+    {
+      "file": "controlledTerms/modelAbstractionLevel.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "ModelAbstractionLevel"
+    },
+    {
+      "file": "controlledTerms/modelScope.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "ModelScope"
+    },
+    {
+      "file": "controlledTerms/operatingDevice.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "OperatingDevice"
+    },
+    {
+      "file": "controlledTerms/operatingSystem.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "OperatingSystem"
+    },
+    {
+      "file": "controlledTerms/organ.schema.omi.json",
+      "addedAttributes": [
+        "_categories",
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "Organ"
+    },
+    {
+      "file": "controlledTerms/phenotype.schema.omi.json",
+      "addedAttributes": [
+        "_categories",
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "Phenotype"
+    },
+    {
+      "file": "controlledTerms/preparationType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "PreparationType"
+    },
+    {
+      "file": "controlledTerms/productAccessibility.schema.omi.json",
+      "addedAttributes": [
+        "color",
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "modifiedAttributes": [
+        "_type",
+        "name"
+      ]
+    },
+    {
+      "file": "controlledTerms/programmingLanguage.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "ProgrammingLanguage"
+    },
+    {
+      "file": "controlledTerms/qualitativeOverlap.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "QualitativeOverlap"
+    },
+    {
+      "file": "controlledTerms/softwareApplicationCategory.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "SoftwareApplicationCategory"
+    },
+    {
+      "file": "controlledTerms/softwareFeature.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "SoftwareFeature"
+    },
+    {
+      "file": "controlledTerms/species.schema.omi.json",
+      "addedAttributes": [
+        "_categories",
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "Species"
+    },
+    {
+      "file": "controlledTerms/strain.schema.omi.json",
+      "addedAttributes": [
+        "_categories",
+        "properties.props:identifier",
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "Strain"
+    },
+    {
+      "file": "controlledTerms/technique.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "Technique"
+    },
+    {
+      "file": "controlledTerms/terminology.schema.omi.json",
+      "addedAttributes": [
+        "color",
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "description",
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "modifiedAttributes": [
+        "_type",
+        "label",
+        "name"
+      ]
+    },
+    {
+      "file": "controlledTerms/termSuggestion.schema.omi.json",
+      "addedAttributes": [
+        "_categories",
+        "properties.props:addExistingTerminology",
+        "properties.props:suggestNewTerminology",
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:terminology",
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "modifiedAttributes": [
+        "required"
+      ],
+      "schemaType": "TermSuggestion"
+    },
+    {
+      "file": "controlledTerms/tissueSampleType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "TissueSampleType"
+    },
+    {
+      "file": "controlledTerms/unitOfMeasurement.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:ontologyIdentifier.format"
+      ],
+      "schemaType": "UnitOfMeasurement"
+    },
+    {
+      "file": "core/actors/organization.schema.omi.json",
+      "addedAttributes": [
+        "_categories",
+        "properties.props:homepage._linkedTypes",
+        "properties.props:homepage.nameForReverseLink"
+      ],
+      "removedAttributes": [
+        "properties.props:homepage.format",
+        "properties.props:homepage.formatting",
+        "properties.props:homepage.multiline",
+        "properties.props:homepage.type"
+      ],
+      "modifiedAttributes": [
+        "properties.props:digitalIdentifier._linkedTypes",
+        "properties.props:homepage._instruction"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "file": "core/actors/person.schema.omi.json",
+      "addedAttributes": [
+        "_categories",
+        "properties.props:affiliation",
+        "properties.props:contactInformation"
+      ],
+      "removedAttributes": [
+        "properties.props:email"
+      ],
+      "modifiedAttributes": [
+        "properties.props:digitalIdentifier._linkedTypes",
+        "required"
+      ],
+      "schemaType": "Person"
+    },
+    {
+      "file": "core/data/contentType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:description",
+        "properties.props:fileExtension",
+        "properties.props:specification",
+        "properties.props:relatedMediaType._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:associatedFileExtension",
+        "properties.props:category",
+        "properties.props:relatedMediaType.format"
+      ],
+      "modifiedAttributes": [
+        "properties.props:relatedMediaType._instruction",
+        "required"
+      ],
+      "schemaType": "ContentType"
+    },
+    {
+      "file": "core/data/copyright.schema.omi.json",
+      "modifiedAttributes": [
+        "properties.props:year.pattern"
+      ],
+      "schemaType": "Copyright"
+    },
+    {
+      "file": "core/data/fileBundle.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:patternOfFilenames",
+        "properties.props:hash._embeddedTypes"
+      ],
+      "removedAttributes": [
+        "properties.props:IRI",
+        "properties.props:hash._linkedTypes"
+      ],
+      "modifiedAttributes": [
+        "properties.props:format._instruction",
+        "required"
+      ],
+      "schemaType": "FileBundle"
+    },
+    {
+      "file": "core/data/fileRepository.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:repositoryType",
+        "properties.props:hash._embeddedTypes",
+        "properties.props:IRI._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:hash._linkedTypes",
+        "properties.props:IRI.format"
+      ],
+      "modifiedAttributes": [
+        "properties.props:format._instruction"
+      ],
+      "schemaType": "FileRepository"
+    },
+    {
+      "file": "core/data/license.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:webpage",
+        "properties.props:legalCode._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:deed",
+        "properties.props:legalCode.format"
+      ],
+      "schemaType": "License"
+    },
+    {
+      "file": "core/miscellaneous/funding.schema.omi.json",
+      "modifiedAttributes": [
+        "properties.props:funder._linkedTypes"
+      ],
+      "schemaType": "Funding"
+    },
+    {
+      "file": "core/miscellaneous/quantitativeValue.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:typeOfUncertainty"
+      ],
+      "schemaType": "QuantitativeValue"
+    },
+    {
+      "file": "core/miscellaneous/quantitativeValueRange.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:unit",
+        "properties.props:maxValue.type",
+        "properties.props:minValue.type"
+      ],
+      "removedAttributes": [
+        "properties.props:maxValue._embeddedTypes",
+        "properties.props:maxValue.nameForReverseLink",
+        "properties.props:minValue._embeddedTypes",
+        "properties.props:minValue.nameForReverseLink"
+      ],
+      "modifiedAttributes": [
+        "properties.props:maxValue._instruction",
+        "properties.props:minValue._instruction"
+      ],
+      "schemaType": "QuantitativeValueRange"
+    },
+    {
+      "file": "core/products/dataset.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:author",
+        "properties.props:custodian",
+        "properties.props:howToCite",
+        "properties.props:homepage._linkedTypes",
+        "properties.props:homepage.nameForReverseLink"
+      ],
+      "removedAttributes": [
+        "properties.props:homepage.format",
+        "properties.props:homepage.formatting",
+        "properties.props:homepage.multiline",
+        "properties.props:homepage.type"
+      ],
+      "modifiedAttributes": [
+        "properties.props:description._instruction",
+        "properties.props:digitalIdentifier._instruction",
+        "properties.props:digitalIdentifier._linkedTypes",
+        "properties.props:fullName._instruction",
+        "properties.props:homepage._instruction",
+        "required"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "file": "core/products/datasetVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:experimentalApproach",
+        "properties.props:howToCite",
+        "properties.props:inputData",
+        "properties.props:isAlternativeVersionOf",
+        "properties.props:protocol",
+        "properties.props:studiedSpecimen",
+        "properties.props:supportChannel",
+        "properties.props:homepage._linkedTypes",
+        "properties.props:homepage.nameForReverseLink",
+        "properties.props:otherContribution._embeddedTypes",
+        "properties.props:releaseDate._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:developer",
+        "properties.props:hasAlternativeVersion",
+        "properties.props:hasSupplementVersion",
+        "properties.props:modality",
+        "properties.props:homepage.format",
+        "properties.props:homepage.formatting",
+        "properties.props:homepage.multiline",
+        "properties.props:homepage.type",
+        "properties.props:otherContribution._linkedTypes",
+        "properties.props:releaseDate.format"
+      ],
+      "modifiedAttributes": [
+        "properties.props:author._instruction",
+        "properties.props:description._instruction",
+        "properties.props:digitalIdentifier._linkedTypes",
+        "properties.props:fullDocumentation._instruction",
+        "properties.props:fullDocumentation._linkedTypes",
+        "properties.props:fullName._instruction",
+        "properties.props:homepage._instruction",
+        "properties.props:license._instruction",
+        "properties.props:relatedPublication._linkedTypes",
+        "properties.props:type._linkedTypes",
+        "properties.props:versionInnovation._instruction",
+        "required"
+      ],
+      "schemaType": "DatasetVersion"
+    },
+    {
+      "file": "core/products/metaDataModel.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:custodian",
+        "properties.props:developer",
+        "properties.props:howToCite",
+        "properties.props:homepage._linkedTypes",
+        "properties.props:homepage.nameForReverseLink"
+      ],
+      "removedAttributes": [
+        "properties.props:homepage.format",
+        "properties.props:homepage.formatting",
+        "properties.props:homepage.multiline",
+        "properties.props:homepage.type"
+      ],
+      "modifiedAttributes": [
+        "properties.props:description._instruction",
+        "properties.props:digitalIdentifier._instruction",
+        "properties.props:digitalIdentifier._linkedTypes",
+        "properties.props:fullName._instruction",
+        "properties.props:homepage._instruction",
+        "required"
+      ],
+      "schemaType": "MetaDataModel"
+    },
+    {
+      "file": "core/products/metaDataModelVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:howToCite",
+        "properties.props:isAlternativeVersionOf",
+        "properties.props:supportChannel",
+        "properties.props:homepage._linkedTypes",
+        "properties.props:homepage.nameForReverseLink",
+        "properties.props:otherContribution._embeddedTypes",
+        "properties.props:releaseDate._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:author",
+        "properties.props:hasAlternativeVersion",
+        "properties.props:hasSupplementVersion",
+        "properties.props:homepage.format",
+        "properties.props:homepage.formatting",
+        "properties.props:homepage.multiline",
+        "properties.props:homepage.type",
+        "properties.props:otherContribution._linkedTypes",
+        "properties.props:releaseDate.format"
+      ],
+      "modifiedAttributes": [
+        "properties.props:description._instruction",
+        "properties.props:developer._instruction",
+        "properties.props:digitalIdentifier._linkedTypes",
+        "properties.props:fullDocumentation._instruction",
+        "properties.props:fullDocumentation._linkedTypes",
+        "properties.props:fullName._instruction",
+        "properties.props:homepage._instruction",
+        "properties.props:license._instruction",
+        "properties.props:relatedPublication._linkedTypes",
+        "properties.props:versionInnovation._instruction",
+        "required"
+      ],
+      "schemaType": "MetaDataModelVersion"
+    },
+    {
+      "file": "core/products/model.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:abstractionLevel",
+        "properties.props:custodian",
+        "properties.props:developer",
+        "properties.props:howToCite",
+        "properties.props:scope",
+        "properties.props:studyTarget",
+        "properties.props:homepage._linkedTypes",
+        "properties.props:homepage.nameForReverseLink"
+      ],
+      "removedAttributes": [
+        "properties.props:homepage.format",
+        "properties.props:homepage.formatting",
+        "properties.props:homepage.multiline",
+        "properties.props:homepage.type"
+      ],
+      "modifiedAttributes": [
+        "properties.props:description._instruction",
+        "properties.props:digitalIdentifier._instruction",
+        "properties.props:digitalIdentifier._linkedTypes",
+        "properties.props:fullName._instruction",
+        "properties.props:homepage._instruction",
+        "required"
+      ],
+      "schemaType": "Model"
+    },
+    {
+      "file": "core/products/modelVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:howToCite",
+        "properties.props:isAlternativeVersionOf",
+        "properties.props:supportChannel",
+        "properties.props:homepage._linkedTypes",
+        "properties.props:homepage.nameForReverseLink",
+        "properties.props:inputData.minItems",
+        "properties.props:inputData.type",
+        "properties.props:inputData.uniqueItems",
+        "properties.props:license.minItems",
+        "properties.props:license.type",
+        "properties.props:license.uniqueItems",
+        "properties.props:otherContribution._embeddedTypes",
+        "properties.props:outputData.minItems",
+        "properties.props:outputData.type",
+        "properties.props:outputData.uniqueItems",
+        "properties.props:releaseDate._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:abstractionLevel",
+        "properties.props:author",
+        "properties.props:hasAlternativeVersion",
+        "properties.props:hasSupplementVersion",
+        "properties.props:scope",
+        "properties.props:studyTarget",
+        "properties.props:homepage.format",
+        "properties.props:homepage.formatting",
+        "properties.props:homepage.multiline",
+        "properties.props:homepage.type",
+        "properties.props:otherContribution._linkedTypes",
+        "properties.props:releaseDate.format"
+      ],
+      "modifiedAttributes": [
+        "properties.props:description._instruction",
+        "properties.props:developer._instruction",
+        "properties.props:digitalIdentifier._linkedTypes",
+        "properties.props:fullDocumentation._instruction",
+        "properties.props:fullDocumentation._linkedTypes",
+        "properties.props:fullName._instruction",
+        "properties.props:homepage._instruction",
+        "properties.props:inputData._linkedTypes",
+        "properties.props:license._instruction",
+        "properties.props:outputData._linkedTypes",
+        "properties.props:relatedPublication._linkedTypes",
+        "properties.props:versionInnovation._instruction",
+        "required"
+      ],
+      "schemaType": "ModelVersion"
+    },
+    {
+      "file": "core/products/project.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:coordinator",
+        "properties.props:homepage._linkedTypes",
+        "properties.props:homepage.nameForReverseLink"
+      ],
+      "removedAttributes": [
+        "properties.props:projectLeader",
+        "properties.props:homepage.format",
+        "properties.props:homepage.formatting",
+        "properties.props:homepage.multiline",
+        "properties.props:homepage.type"
+      ],
+      "modifiedAttributes": [
+        "properties.props:homepage._instruction"
+      ],
+      "schemaType": "Project"
+    },
+    {
+      "file": "core/products/software.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:custodian",
+        "properties.props:developer",
+        "properties.props:howToCite",
+        "properties.props:homepage._linkedTypes",
+        "properties.props:homepage.nameForReverseLink"
+      ],
+      "removedAttributes": [
+        "properties.props:homepage.format",
+        "properties.props:homepage.formatting",
+        "properties.props:homepage.multiline",
+        "properties.props:homepage.type"
+      ],
+      "modifiedAttributes": [
+        "properties.props:description._instruction",
+        "properties.props:digitalIdentifier._instruction",
+        "properties.props:digitalIdentifier._linkedTypes",
+        "properties.props:fullName._instruction",
+        "properties.props:homepage._instruction",
+        "required"
+      ],
+      "schemaType": "Software"
+    },
+    {
+      "file": "core/products/softwareVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:feature",
+        "properties.props:hasComponent",
+        "properties.props:howToCite",
+        "properties.props:isAlternativeVersionOf",
+        "properties.props:requirement",
+        "properties.props:supportChannel",
+        "properties.props:homepage._linkedTypes",
+        "properties.props:homepage.nameForReverseLink",
+        "properties.props:license.minItems",
+        "properties.props:license.type",
+        "properties.props:license.uniqueItems",
+        "properties.props:otherContribution._embeddedTypes",
+        "properties.props:releaseDate._formats"
+      ],
+      "removedAttributes": [
+        "properties.props:author",
+        "properties.props:hasAlternativeVersion",
+        "properties.props:hasFeature",
+        "properties.props:hasRequirement",
+        "properties.props:hasSupplementVersion",
+        "properties.props:homepage.format",
+        "properties.props:homepage.formatting",
+        "properties.props:homepage.multiline",
+        "properties.props:homepage.type",
+        "properties.props:otherContribution._linkedTypes",
+        "properties.props:releaseDate.format"
+      ],
+      "modifiedAttributes": [
+        "properties.props:description._instruction",
+        "properties.props:developer._instruction",
+        "properties.props:digitalIdentifier._linkedTypes",
+        "properties.props:fullDocumentation._instruction",
+        "properties.props:fullDocumentation._linkedTypes",
+        "properties.props:fullName._instruction",
+        "properties.props:homepage._instruction",
+        "properties.props:license._instruction",
+        "properties.props:relatedPublication._linkedTypes",
+        "properties.props:versionInnovation._instruction",
+        "required"
+      ],
+      "schemaType": "SoftwareVersion"
+    },
+    {
+      "file": "core/research/protocol.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:studyOption"
+      ],
+      "removedAttributes": [
+        "properties.props:studyTarget"
+      ],
+      "schemaType": "Protocol"
+    },
+    {
+      "file": "core/research/protocolExecution.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:lookupLabel",
+        "properties.props:parameterSet"
+      ],
+      "removedAttributes": [
+        "properties.props:parameterSetting"
+      ],
+      "modifiedAttributes": [
+        "properties.props:input._linkedTypes",
+        "properties.props:output._linkedTypes",
+        "properties.props:studyTarget._linkedTypes"
+      ],
+      "schemaType": "ProtocolExecution"
+    },
+    {
+      "file": "core/research/subject.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:isPartOf",
+        "properties.props:lookupLabel"
+      ],
+      "removedAttributes": [
+        "properties.props:genotype"
+      ],
+      "schemaType": "Subject"
+    },
+    {
+      "file": "core/research/subjectGroup.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:additionalRemarks",
+        "properties.props:lookupLabel"
+      ],
+      "removedAttributes": [
+        "properties.props:genotype"
+      ],
+      "schemaType": "SubjectGroup"
+    },
+    {
+      "file": "core/research/subjectGroupState.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:lookupLabel"
+      ],
+      "modifiedAttributes": [
+        "properties.props:handedness._linkedTypes"
+      ],
+      "schemaType": "SubjectGroupState"
+    },
+    {
+      "file": "core/research/subjectState.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:lookupLabel"
+      ],
+      "modifiedAttributes": [
+        "properties.props:handedness._linkedTypes"
+      ],
+      "schemaType": "SubjectState"
+    },
+    {
+      "file": "core/research/tissueSample.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:isPartOf",
+        "properties.props:lookupLabel"
+      ],
+      "removedAttributes": [
+        "properties.props:genotype"
+      ],
+      "schemaType": "TissueSample"
+    },
+    {
+      "file": "core/research/tissueSampleCollection.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:additionalRemarks",
+        "properties.props:lookupLabel"
+      ],
+      "removedAttributes": [
+        "properties.props:genotype"
+      ],
+      "schemaType": "TissueSampleCollection"
+    },
+    {
+      "file": "core/research/tissueSampleCollectionState.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:lookupLabel"
+      ],
+      "schemaType": "TissueSampleCollectionState"
+    },
+    {
+      "file": "core/research/tissueSampleState.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:lookupLabel"
+      ],
+      "schemaType": "TissueSampleState"
+    }
+  ]
+}
