@@ -6,13 +6,14 @@ from typing import List, Dict
 from openMINDS_pipeline.models import DirectoryStructure, SchemaStructure
 from openMINDS_pipeline.resolver import TEMPLATE_PROPERTY_TYPE
 from openMINDS_pipeline.utils import get_basic_type, is_edge
+from openMINDS_pipeline.constants import FIRST_VERSION
 
 
 def _camel_case_to_human_readable(value: str):
     return re.sub("([a-z])([A-Z])", "\g<1> \g<2>", value).capitalize()
 
 
-def enrich_with_types_and_properties(version, types, properties, schemas: List[SchemaStructure]):
+def enrich_with_types_and_properties(types, properties, schemas: List[SchemaStructure]):
    for schema_info in schemas:
         print(f"Enriching schema {schema_info.file}")
         with open(schema_info.absolute_path, "r") as schema_file:
@@ -69,6 +70,27 @@ def _enrich_with_type_information(schema, type, types):
         schema["semanticEquivalent"] = t["semanticEquivalent"]
     if "color" in t and t["color"]:
         schema["color"] = t["color"]
+
+
+def enrich_types_with_identical(vocab_types: Dict, changed_types: Dict[str, int], previous_version: str, current_version: str, iteration: int):
+    def extend_or_sort_identical(vocab_entry, current_version: str):
+        """ Helper function to handle sorting of versions in the 'identical' field."""
+        if "identical" in vocab_entry:
+            vocab_entry["identical"][-1].append(current_version)
+            vocab_entry["identical"][-1].sort()
+        else:
+            vocab_entry.setdefault("identical", []).append([current_version])
+
+    for _type in vocab_types:
+        # Handle the first iteration (comparison with v1.0)
+        if previous_version == FIRST_VERSION and previous_version in vocab_types[_type].get("isPartOfVersion"):
+            vocab_types[_type].setdefault("identical", []).append([previous_version])
+
+        # Update based on changed types
+        if _type in changed_types:
+            vocab_types[_type].setdefault("identical", []).append([current_version])
+        elif current_version in vocab_types[_type].get("isPartOfVersion"):
+            extend_or_sort_identical(vocab_types[_type], current_version)
 
 
 class Types(object):
