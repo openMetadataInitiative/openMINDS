@@ -6,6 +6,18 @@
   "label": "Quantitative value",
   "name": "QuantitativeValue",
   "properties": {
+    "https://openminds.ebrains.eu/vocab/typeOfUncertainty": {
+      "_instruction": "Add the type of uncertainty used for this quantitative value.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty"
+      ],
+      "description": "Distinct technique used to quantify the uncertainty of a measurement.",
+      "label": "Type of uncertainty",
+      "labelPlural": "Types of uncertainty",
+      "name": "typeOfUncertainty",
+      "nameForReverseLink": null,
+      "namePlural": "typesOfUncertainty"
+    },
     "https://openminds.ebrains.eu/vocab/uncertainty": {
       "_instruction": "Enter the measurement uncertainty of this quantitative value.",
       "description": "Quantitative value range defining the uncertainty of a measurement.",

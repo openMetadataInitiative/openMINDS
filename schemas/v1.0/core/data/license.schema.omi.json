@@ -6,17 +6,6 @@
   "label": "License",
   "name": "License",
   "properties": {
-    "https://openminds.ebrains.eu/vocab/deed": {
-      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the deed of this license.",
-      "format": "iri",
-      "formatting": "text/plain",
-      "label": "Deed",
-      "labelPlural": "Deeds",
-      "multiline": false,
-      "name": "deed",
-      "namePlural": "deeds",
-      "type": "string"
-    },
     "https://openminds.ebrains.eu/vocab/fullName": {
       "_instruction": "Enter the full name of this license.",
       "description": "Whole, non-abbreviated name of something or somebody.",
@@ -29,9 +18,11 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/legalCode": {
+      "_formats": [
+        "iri"
+      ],
       "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the legal code of this license.",
       "description": "Type of legislation that claims to cover the law system (complete or parts) as it existed at the time the code was enacted.",
-      "format": "iri",
       "formatting": "text/plain",
       "label": "Legal code",
       "labelPlural": "Legal codes",
@@ -50,6 +41,25 @@
       "name": "shortName",
       "namePlural": "shortNames",
       "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/webpage": {
+      "_instruction": "Enter one or several webpages related to this license (e.g. homepage).",
+      "description": "Hypertext document (block of information) found on the World Wide Web.",
+      "formatting": "text/plain",
+      "items": {
+        "_formats": [
+          "iri"
+        ],
+        "type": "string"
+      },
+      "label": "Webpage",
+      "labelPlural": "Webpages",
+      "minItems": 1,
+      "multiline": false,
+      "name": "webpage",
+      "namePlural": "webpages",
+      "type": "array",
+      "uniqueItems": true
     }
   },
   "required": [
