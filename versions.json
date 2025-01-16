@@ -88,12 +88,12 @@
     "modules": {
       "SANDS": {
         "branch": "v3",
-        "commit": "ac2e238661c96bdfa98127b90dad35af6c132d50",
+        "commit": "2d72c428bce35c85828f7fb8acca4cda5eedc4fc",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_SANDS.git"
       },
       "chemicals": {
         "branch": "v1",
-        "commit": "57b5ce3c6d569f0bb8ce761adb48746fd1d970b2",
+        "commit": "aff2209e796ad1511baea62d27ab85e65113583c",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_chemicals.git"
       },
       "computation": {
@@ -108,7 +108,7 @@
       },
       "core": {
         "branch": "v4",
-        "commit": "8b2bc673cbd57a8620a306a7a84253bd6ecd30eb",
+        "commit": "8d2197b955c81c45b8d3437f47d2f8ff6f9af8b5",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_core.git"
       },
       "ephys": {
@@ -118,7 +118,7 @@
       },
       "publications": {
         "branch": "v1",
-        "commit": "d5446304a052a238d431a06bd66d0e444372f159",
+        "commit": "32ae078d248721afddaa3362b7b507aaa73b5cf6",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_publications.git"
       },
       "specimenPrep": {
