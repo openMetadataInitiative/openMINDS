@@ -44,7 +44,7 @@ If you want to reference openMINDS in general, please use always our main RRID P
 :arrow_right:  `openMINDS metadata framework (RRID:SCR_023173)`  
 
 We also have a citable FAIRsharing.org record:  
-:arrow_right: `FAIRsharing.org: openMINDS metadata framework, DOI: https://doi.org/10.25504/FAIRsharing.6ac6aa`
+:arrow_right: `FAIRsharing.org: openMINDS; openMINDS metadata framework, DOI: https://doi.org/10.25504/FAIRsharing.6ac6aa`
 
 For referencing specific openMINDS submodules, please use the following RRID Portal records:  
 :arrow_right:  `openMINDS chemicals metadata model (RRID:SCR_026248)`  
