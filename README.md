@@ -25,7 +25,7 @@ Alternatively you can email us: :arrow_right: **support@openmetadatainitiative.o
 
 General contributions should be raised and discussed on the main :arrow_right: [**openMINDS issue tracker**][issuetracker-main].  
 
-Specific schema contributions should be raised and discussed on the respective submodule:  
+Specific schema contributions should be raised and discussed in the respective submodule:  
 :arrow_right: [**openMINDS_chemicals issue tracker**][issuetracker-chemicals]  
 :arrow_right: [**openMINDS_computation issue tracker**][issuetracker-computation]  
 :arrow_right: [**openMINDS_controlledTerms issue tracker**][issuetracker-controlledTerms]  
