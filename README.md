@@ -71,7 +71,6 @@ The framework also receives support from the [**Helmholtz International BigBrain
 The openMINDS metadata framework is closely collaborating with the [**InterLex Project**][interlex-dashboard] of the [**SciCrunch Data and Resource Infrastructure**][scicrunch-website] and the [**KnowledgeSpace**][ks-website] hosted by the [**International Neuroinformatics Coordinating Facility (INCF)**][incf-website].
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [community-forum]: https://neurostars.org/t/about-the-openminds-category/31428
 [contribution-url]: https://openminds-documentation.readthedocs.io/en/latest/shared/contribution_guidelines.html
 [contributors-url]: https://github.com/openMetadataInitiative/openMINDS/graphs/contributors
