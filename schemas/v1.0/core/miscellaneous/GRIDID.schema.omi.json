@@ -1,0 +1,25 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.ebrains.eu/core/GRIDID",
+  "color": "#8D918E",
+  "description": "A GRID (Global Research Identifier Database) identifier.",
+  "label": "Gridid",
+  "name": "GRIDID",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/identifier": {
+      "_instruction": "Enter the resolvable identifier (IRI) of the Global Research Identifier Database.",
+      "description": "Term or code used to identify something or someone.",
+      "formatting": "text/plain",
+      "label": "Identifier",
+      "labelPlural": "Identifiers",
+      "multiline": false,
+      "name": "identifier",
+      "namePlural": "identifiers",
+      "pattern": "^https://grid.ac/institutes/grid.[0-9]{1,}.([a-f0-9]{1,2})$",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/identifier"
+  ]
+}

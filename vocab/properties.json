@@ -47,9 +47,7 @@
         "https://openminds.om-i.org/types/WebResource"
       ],
       "v1.0": [
-        "https://openminds.ebrains.eu/core/DigitalIdentifierSchema",
-        "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/FileInstance",
+        "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileRepository"
       ],
       "v2.0": [
@@ -84,6 +82,7 @@
     "asString": {
       "formatting": "text/plain",
       "inVersions": [
+        "v1.0",
         "v2.0"
       ],
       "multiline": false
@@ -92,7 +91,8 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v2.0"
+          "v2.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -103,6 +103,9 @@
     "namePlural": "URLs",
     "semanticEquivalent": [],
     "usedIn": {
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/URL"
+      ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/URL"
       ]
@@ -381,7 +384,7 @@
         "https://openminds.om-i.org/types/Model"
       ],
       "v1.0": [
-        "https://openminds.ebrains.eu/core/ModelVersion"
+        "https://openminds.ebrains.eu/core/Model"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Model"
@@ -649,8 +652,10 @@
         "https://openminds.om-i.org/types/ViewerSpecification"
       ],
       "v1.0": [
+        "https://openminds.ebrains.eu/core/SubjectGroup",
         "https://openminds.ebrains.eu/core/SubjectGroupState",
         "https://openminds.ebrains.eu/core/SubjectState",
+        "https://openminds.ebrains.eu/core/TissueSampleCollection",
         "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
         "https://openminds.ebrains.eu/core/TissueSampleState"
       ],
@@ -700,6 +705,9 @@
         "latest": [
           "https://openminds.om-i.org/types/Affiliation"
         ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/core/Affiliation"
+        ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/Affiliation"
         ],
@@ -724,7 +732,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -738,6 +747,9 @@
       "latest": [
         "https://openminds.om-i.org/types/Organization",
         "https://openminds.om-i.org/types/Person"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/Person"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Person"
@@ -1202,6 +1214,11 @@
           "https://openminds.om-i.org/types/SubcellularEntity",
           "https://openminds.om-i.org/types/UBERONParcellation"
         ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
+          "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
+          "https://openminds.ebrains.eu/sands/ParcellationEntity"
+        ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/CellType",
           "https://openminds.ebrains.eu/controlledTerms/Organ",
@@ -1236,7 +1253,8 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -1252,6 +1270,9 @@
         "https://openminds.om-i.org/types/PipetteUsage",
         "https://openminds.om-i.org/types/TissueSample",
         "https://openminds.om-i.org/types/TissueSampleCollection"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/TissueSample"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/TissueSample",
@@ -1710,34 +1731,6 @@
       ]
     }
   },
-  "associatedFileExtension": {
-    "asString": {
-      "formatting": "text/plain",
-      "inVersions": [
-        "v1.0"
-      ],
-      "multiline": false
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/vocab/"
-      }
-    ],
-    "label": "Associated file extension",
-    "labelPlural": "Associated file extensions",
-    "name": "associatedFileExtension",
-    "namePlural": "associatedFileExtensions",
-    "semanticEquivalent": [],
-    "usedIn": {
-      "v1.0": [
-        "https://openminds.ebrains.eu/core/ContentType"
-      ]
-    }
-  },
   "attribute": {
     "asEdge": {
       "canPointTo": {
@@ -1866,10 +1859,8 @@
         "https://openminds.om-i.org/types/ScholarlyArticle"
       ],
       "v1.0": [
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
+        "https://openminds.ebrains.eu/core/Dataset",
+        "https://openminds.ebrains.eu/core/DatasetVersion"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Dataset",
@@ -2231,7 +2222,7 @@
     "asEdge": {
       "canPointTo": {
         "v1.0": [
-          "https://openminds.ebrains.eu/controlledTerms/BehavioralTask"
+          "https://openminds.ebrains.eu/core/BehavioralTask"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/controlledTerms/BehavioralTask"
@@ -2256,7 +2247,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
-        "https://openminds.ebrains.eu/core/Protocol"
+        "https://openminds.ebrains.eu/core/DatasetVersion",
+        "https://openminds.ebrains.eu/core/ProtocolExecution"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Protocol"
@@ -2470,34 +2462,6 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/ViewerSpecification"
-      ]
-    }
-  },
-  "category": {
-    "asString": {
-      "formatting": "text/plain",
-      "inVersions": [
-        "v1.0"
-      ],
-      "multiline": false
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/vocab/"
-      }
-    ],
-    "label": "Category",
-    "labelPlural": "Categories",
-    "name": "category",
-    "namePlural": "categories",
-    "semanticEquivalent": [],
-    "usedIn": {
-      "v1.0": [
-        "https://openminds.ebrains.eu/core/ContentType"
       ]
     }
   },
@@ -3036,6 +3000,9 @@
         "latest": [
           "https://openminds.om-i.org/types/ContactInformation"
         ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/core/ContactInformation"
+        ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/ContactInformation"
         ],
@@ -3060,7 +3027,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -3074,6 +3042,9 @@
       "latest": [
         "https://openminds.om-i.org/types/Consortium",
         "https://openminds.om-i.org/types/Person"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/Person"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Person"
@@ -3216,7 +3187,8 @@
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
-        "https://openminds.ebrains.eu/core/FileInstance"
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/FileBundle"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/File"
@@ -3281,6 +3253,9 @@
         "latest": [
           "https://openminds.om-i.org/types/ContentType"
         ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/core/ContentType"
+        ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/ContentType"
         ],
@@ -3301,7 +3276,8 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -3314,6 +3290,9 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ContentTypePattern"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/ContentTypePattern"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/ContentTypePattern"
@@ -3328,6 +3307,9 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/ContentTypePattern"
+        ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/core/ContentTypePattern"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/ContentTypePattern"
@@ -3349,7 +3331,8 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -3362,6 +3345,9 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/FileRepository"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/FileRepository"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/FileRepository"
@@ -3376,6 +3362,7 @@
       "formatting": "text/plain",
       "inVersions": [
         "latest",
+        "v1.0",
         "v2.0",
         "v3.0",
         "v4.0"
@@ -3394,7 +3381,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -3408,6 +3396,9 @@
       "latest": [
         "https://openminds.om-i.org/types/CustomPropertySet",
         "https://openminds.om-i.org/types/ResearchProductGroup"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/ParameterSet"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/ParameterSet"
@@ -3710,6 +3701,10 @@
           "https://openminds.om-i.org/types/Organization",
           "https://openminds.om-i.org/types/Person"
         ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/core/Organization",
+          "https://openminds.ebrains.eu/core/Person"
+        ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/Organization",
           "https://openminds.ebrains.eu/core/Person"
@@ -3739,7 +3734,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -3752,6 +3748,9 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Project"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/Project"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Project"
@@ -4383,9 +4382,13 @@
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
+        "https://openminds.ebrains.eu/core/Dataset",
         "https://openminds.ebrains.eu/core/DatasetVersion",
+        "https://openminds.ebrains.eu/core/MetaDataModel",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
+        "https://openminds.ebrains.eu/core/Model",
         "https://openminds.ebrains.eu/core/ModelVersion",
+        "https://openminds.ebrains.eu/core/Software",
         "https://openminds.ebrains.eu/core/SoftwareVersion"
       ],
       "v2.0": [
@@ -4553,6 +4556,10 @@
           "https://openminds.om-i.org/types/ParcellationEntityVersion",
           "https://openminds.om-i.org/types/PropertyValueList"
         ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/core/File",
+          "https://openminds.ebrains.eu/core/FileBundle"
+        ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/Configuration",
           "https://openminds.ebrains.eu/core/File",
@@ -4587,7 +4594,8 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -4604,6 +4612,9 @@
         "https://openminds.om-i.org/types/ParcellationTerminologyVersion",
         "https://openminds.om-i.org/types/Recording",
         "https://openminds.om-i.org/types/ServiceLink"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/ServiceLink"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/CustomPropertySet",
@@ -4678,34 +4689,6 @@
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/File",
         "https://openminds.om-i.org/types/LocalFile"
-      ]
-    }
-  },
-  "deed": {
-    "asString": {
-      "formatting": "text/plain",
-      "inVersions": [
-        "v1.0"
-      ],
-      "multiline": false
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/vocab/"
-      }
-    ],
-    "label": "Deed",
-    "labelPlural": "Deeds",
-    "name": "deed",
-    "namePlural": "deeds",
-    "semanticEquivalent": [],
-    "usedIn": {
-      "v1.0": [
-        "https://openminds.ebrains.eu/core/License"
       ]
     }
   },
@@ -4959,6 +4942,7 @@
         "https://openminds.ebrains.eu/controlledTerms/Organ",
         "https://openminds.ebrains.eu/controlledTerms/Phenotype",
         "https://openminds.ebrains.eu/controlledTerms/PreparationType",
+        "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility",
         "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage",
         "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap",
         "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory",
@@ -4966,12 +4950,11 @@
         "https://openminds.ebrains.eu/controlledTerms/SoftwareFeatureCategory",
         "https://openminds.ebrains.eu/controlledTerms/Species",
         "https://openminds.ebrains.eu/controlledTerms/Strain",
-        "https://openminds.ebrains.eu/controlledTerms/StudyTargetType",
         "https://openminds.ebrains.eu/controlledTerms/Technique",
         "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
+        "https://openminds.ebrains.eu/controlledTerms/Terminology",
         "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
-        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement",
-        "https://openminds.ebrains.eu/controlledTerms/productAccessibility"
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/controlledTerms/AgeCategory",
@@ -5232,6 +5215,15 @@
           "https://openminds.om-i.org/types/TissueSampleCollectionState",
           "https://openminds.om-i.org/types/TissueSampleState"
         ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/core/BehavioralTask",
+          "https://openminds.ebrains.eu/core/File",
+          "https://openminds.ebrains.eu/core/FileBundle",
+          "https://openminds.ebrains.eu/core/SubjectGroupState",
+          "https://openminds.ebrains.eu/core/SubjectState",
+          "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
+          "https://openminds.ebrains.eu/core/TissueSampleState"
+        ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/SubjectGroupState",
           "https://openminds.ebrains.eu/core/SubjectState",
@@ -5258,7 +5250,8 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -5274,6 +5267,10 @@
         "https://openminds.om-i.org/types/SubjectState",
         "https://openminds.om-i.org/types/TissueSampleCollectionState",
         "https://openminds.om-i.org/types/TissueSampleState"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/FileBundle"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/SubjectGroupState",
@@ -5540,6 +5537,7 @@
         "https://openminds.ebrains.eu/controlledTerms/Organ",
         "https://openminds.ebrains.eu/controlledTerms/Phenotype",
         "https://openminds.ebrains.eu/controlledTerms/PreparationType",
+        "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility",
         "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage",
         "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap",
         "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory",
@@ -5547,19 +5545,19 @@
         "https://openminds.ebrains.eu/controlledTerms/SoftwareFeatureCategory",
         "https://openminds.ebrains.eu/controlledTerms/Species",
         "https://openminds.ebrains.eu/controlledTerms/Strain",
-        "https://openminds.ebrains.eu/controlledTerms/StudyTargetType",
         "https://openminds.ebrains.eu/controlledTerms/Technique",
         "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
+        "https://openminds.ebrains.eu/controlledTerms/Terminology",
         "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
         "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement",
-        "https://openminds.ebrains.eu/controlledTerms/productAccessibility",
+        "https://openminds.ebrains.eu/core/BehavioralTask",
+        "https://openminds.ebrains.eu/core/ContentType",
         "https://openminds.ebrains.eu/core/Dataset",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModel",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/Model",
         "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/ParameterSetting",
         "https://openminds.ebrains.eu/core/Project",
         "https://openminds.ebrains.eu/core/Protocol",
         "https://openminds.ebrains.eu/core/ProtocolExecution",
@@ -5951,9 +5949,11 @@
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
-        "https://openminds.ebrains.eu/core/DatasetVersion",
+        "https://openminds.ebrains.eu/core/MetaDataModel",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
+        "https://openminds.ebrains.eu/core/Model",
         "https://openminds.ebrains.eu/core/ModelVersion",
+        "https://openminds.ebrains.eu/core/Software",
         "https://openminds.ebrains.eu/core/SoftwareVersion"
       ],
       "v2.0": [
@@ -6229,7 +6229,12 @@
           "https://openminds.om-i.org/types/SWHID"
         ],
         "v1.0": [
-          "https://openminds.ebrains.eu/core/DigitalIdentifier"
+          "https://openminds.ebrains.eu/core/DOI",
+          "https://openminds.ebrains.eu/core/DigitalIdentifier",
+          "https://openminds.ebrains.eu/core/GRIDID",
+          "https://openminds.ebrains.eu/core/ORCID",
+          "https://openminds.ebrains.eu/core/RORID",
+          "https://openminds.ebrains.eu/core/SWHID"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/DOI",
@@ -6861,7 +6866,7 @@
         "https://openminds.om-i.org/types/ContactInformation"
       ],
       "v1.0": [
-        "https://openminds.ebrains.eu/core/Person"
+        "https://openminds.ebrains.eu/core/ContactInformation"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/ContactInformation"
@@ -6879,6 +6884,7 @@
       "formatting": "text/plain",
       "inVersions": [
         "latest",
+        "v1.0",
         "v2.0",
         "v3.0",
         "v4.0"
@@ -6897,7 +6903,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -6910,6 +6917,9 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Affiliation"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/Affiliation"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Affiliation"
@@ -7050,6 +7060,32 @@
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
+      ]
+    }
+  },
+  "endedAtTime": {
+    "asString": {
+      "formatting": "text/plain",
+      "inVersions": [
+        "v1.0"
+      ],
+      "multiline": false
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "v1.0"
+        ],
+        "namespace": "https://openminds.ebrains.eu/vocab/"
+      }
+    ],
+    "label": "Ended at time",
+    "name": "endedAtTime",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/ProtocolExecution"
       ]
     }
   },
@@ -7361,6 +7397,9 @@
         "latest": [
           "https://openminds.om-i.org/types/ExperimentalApproach"
         ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach"
+        ],
         "v2.0": [
           "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach"
         ],
@@ -7385,7 +7424,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -7398,6 +7438,9 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DatasetVersion"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/DatasetVersion"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
@@ -7517,6 +7560,9 @@
         "latest": [
           "https://openminds.om-i.org/types/SoftwareFeature"
         ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
+        ],
         "v2.0": [
           "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
         ],
@@ -7541,7 +7587,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -7554,6 +7601,9 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SoftwareVersion"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
@@ -7571,6 +7621,7 @@
       "formatting": "text/plain",
       "inVersions": [
         "latest",
+        "v1.0",
         "v2.0",
         "v3.0",
         "v4.0"
@@ -7589,7 +7640,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -7602,6 +7654,9 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ContentType"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/ContentType"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/ContentType"
@@ -7619,6 +7674,9 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/FilePathPattern"
+        ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/core/FilePathPattern"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/FilePathPattern"
@@ -7640,7 +7698,8 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -7653,6 +7712,9 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/FileRepositoryStructure"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/FileRepositoryStructure"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/FileRepositoryStructure"
@@ -7667,6 +7729,9 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/FileRepository"
+        ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/core/FileRepository"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/FileRepository"
@@ -7692,7 +7757,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -7705,6 +7771,9 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/File"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/File"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/File"
@@ -7775,8 +7844,8 @@
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
+        "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/FileInstance",
         "https://openminds.ebrains.eu/core/FileRepository",
         "https://openminds.ebrains.eu/core/ModelVersion"
       ],
@@ -7822,7 +7891,9 @@
           "https://openminds.om-i.org/types/WebResource"
         ],
         "v1.0": [
-          "https://openminds.ebrains.eu/core/DigitalIdentifier"
+          "https://openminds.ebrains.eu/core/DOI",
+          "https://openminds.ebrains.eu/core/File",
+          "https://openminds.ebrains.eu/core/URL"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/DOI",
@@ -7832,6 +7903,7 @@
         "v3.0": [
           "https://openminds.ebrains.eu/core/DOI",
           "https://openminds.ebrains.eu/core/File",
+          "https://openminds.ebrains.eu/core/ISBN",
           "https://openminds.ebrains.eu/core/WebResource"
         ],
         "v4.0": [
@@ -7980,6 +8052,7 @@
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
+        "https://openminds.ebrains.eu/core/BehavioralTask",
         "https://openminds.ebrains.eu/core/Dataset",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/License",
@@ -8076,7 +8149,8 @@
           "https://openminds.om-i.org/types/Person"
         ],
         "v1.0": [
-          "https://openminds.ebrains.eu/core/Organization"
+          "https://openminds.ebrains.eu/core/Organization",
+          "https://openminds.ebrains.eu/core/Person"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/Organization",
@@ -8330,38 +8404,6 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/Strain"
-      ]
-    }
-  },
-  "genotype": {
-    "asEdge": {
-      "canPointTo": {
-        "v1.0": [
-          "https://openminds.ebrains.eu/controlledTerms/Genotype"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": "Genetic constitution of an individual or group.",
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/vocab/"
-      }
-    ],
-    "label": "Genotype",
-    "labelPlural": "Genotypes",
-    "name": "genotype",
-    "namePlural": "genotypes",
-    "semanticEquivalent": [],
-    "usedIn": {
-      "v1.0": [
-        "https://openminds.ebrains.eu/core/Subject",
-        "https://openminds.ebrains.eu/core/SubjectGroup",
-        "https://openminds.ebrains.eu/core/TissueSample",
-        "https://openminds.ebrains.eu/core/TissueSampleCollection"
       ]
     }
   },
@@ -8627,6 +8669,9 @@
         "latest": [
           "https://openminds.om-i.org/types/FileBundleGrouping"
         ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
+        ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
         ],
@@ -8647,7 +8692,8 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -8661,6 +8707,9 @@
       "latest": [
         "https://openminds.om-i.org/types/FileBundle",
         "https://openminds.om-i.org/types/FilePathPattern"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/FilePathPattern"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/FileBundle",
@@ -8679,7 +8728,7 @@
           "https://openminds.om-i.org/types/Handedness"
         ],
         "v1.0": [
-          "https://openminds.ebrains.eu/controlledTerms/Laterality"
+          "https://openminds.ebrains.eu/controlledTerms/Handedness"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/controlledTerms/Handedness"
@@ -8791,9 +8840,6 @@
     "asEdge": {
       "canPointTo": {
         "v1.0": [
-          "https://openminds.ebrains.eu/core/DatasetVersion",
-          "https://openminds.ebrains.eu/core/ModelVersion",
-          "https://openminds.ebrains.eu/core/SoftwareVersion",
           "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
         ]
       },
@@ -8815,10 +8861,6 @@
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
       ]
     }
@@ -8889,6 +8931,9 @@
   "hasComponent": {
     "asEdge": {
       "canPointTo": {
+        "v1.0": [
+          "https://openminds.ebrains.eu/core/SoftwareVersion"
+        ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/SoftwareVersion"
         ]
@@ -8899,7 +8944,8 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v2.0"
+          "v2.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -8910,6 +8956,9 @@
     "namePlural": "hasComponents",
     "semanticEquivalent": [],
     "usedIn": {
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
+      ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
       ]
@@ -8966,35 +9015,6 @@
       "v4.0": [
         "https://openminds.om-i.org/types/ParcellationTerminology",
         "https://openminds.om-i.org/types/ParcellationTerminologyVersion"
-      ]
-    }
-  },
-  "hasFeature": {
-    "asEdge": {
-      "canPointTo": {
-        "v1.0": [
-          "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/vocab/"
-      }
-    ],
-    "label": "Has feature",
-    "labelPlural": "Has features",
-    "name": "hasFeature",
-    "namePlural": "hasFeatures",
-    "semanticEquivalent": [],
-    "usedIn": {
-      "v1.0": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
       ]
     }
   },
@@ -9223,34 +9243,6 @@
       ]
     }
   },
-  "hasRequirement": {
-    "asString": {
-      "formatting": "text/plain",
-      "inVersions": [
-        "v1.0"
-      ],
-      "multiline": false
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/vocab/"
-      }
-    ],
-    "label": "Has requirement",
-    "labelPlural": "Has requirements",
-    "name": "hasRequirement",
-    "namePlural": "hasRequirements",
-    "semanticEquivalent": [],
-    "usedIn": {
-      "v1.0": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
-      ]
-    }
-  },
   "hasResearchProducts": {
     "asEdge": {
       "canPointTo": {
@@ -9298,40 +9290,6 @@
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Project"
-      ]
-    }
-  },
-  "hasSupplementVersion": {
-    "asEdge": {
-      "canPointTo": {
-        "v1.0": [
-          "https://openminds.ebrains.eu/core/DatasetVersion",
-          "https://openminds.ebrains.eu/core/ModelVersion",
-          "https://openminds.ebrains.eu/core/SoftwareVersion"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/vocab/"
-      }
-    ],
-    "label": "Has supplement version",
-    "labelPlural": "Has supplement versions",
-    "name": "hasSupplementVersion",
-    "namePlural": "hasSupplementVersions",
-    "semanticEquivalent": [],
-    "usedIn": {
-      "v1.0": [
-        "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
       ]
     }
   },
@@ -9586,8 +9544,8 @@
         "https://openminds.om-i.org/types/LocalFile"
       ],
       "v1.0": [
+        "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/FileInstance",
         "https://openminds.ebrains.eu/core/FileRepository"
       ],
       "v2.0": [
@@ -9730,6 +9688,9 @@
   "homepage": {
     "asEdge": {
       "canPointTo": {
+        "v1.0": [
+          "https://openminds.ebrains.eu/core/URL"
+        ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/URL"
         ]
@@ -10001,7 +9962,14 @@
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
-        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+        "https://openminds.ebrains.eu/core/Dataset",
+        "https://openminds.ebrains.eu/core/DatasetVersion",
+        "https://openminds.ebrains.eu/core/MetaDataModel",
+        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
+        "https://openminds.ebrains.eu/core/Model",
+        "https://openminds.ebrains.eu/core/ModelVersion",
+        "https://openminds.ebrains.eu/core/Software",
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Dataset",
@@ -10113,7 +10081,12 @@
         "https://openminds.om-i.org/types/StockNumber"
       ],
       "v1.0": [
-        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/GRIDID",
+        "https://openminds.ebrains.eu/core/ISBN",
+        "https://openminds.ebrains.eu/core/ORCID",
+        "https://openminds.ebrains.eu/core/RORID",
+        "https://openminds.ebrains.eu/core/SWHID"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/controlledTerms/Strain",
@@ -10151,63 +10124,6 @@
         "https://openminds.om-i.org/types/RRID",
         "https://openminds.om-i.org/types/SWHID",
         "https://openminds.om-i.org/types/StockNumber"
-      ]
-    }
-  },
-  "identifierPattern": {
-    "asString": {
-      "formatting": "text/plain",
-      "inVersions": [
-        "v1.0"
-      ],
-      "multiline": false
-    },
-    "description": "Format of a term or code used to identify something or someone.",
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/vocab/"
-      }
-    ],
-    "label": "Identifier pattern",
-    "labelPlural": "Identifier patterns",
-    "name": "identifierPattern",
-    "namePlural": "identifierPatterns",
-    "semanticEquivalent": [],
-    "usedIn": {
-      "v1.0": [
-        "https://openminds.ebrains.eu/core/DigitalIdentifierSchema"
-      ]
-    }
-  },
-  "identifierSchema": {
-    "asEdge": {
-      "canPointTo": {
-        "v1.0": [
-          "https://openminds.ebrains.eu/core/DigitalIdentifierSchema"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": "Standard for creating a particular identifier for something or someone.",
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/vocab/"
-      }
-    ],
-    "label": "Identifier schema",
-    "labelPlural": "Identifier schemas",
-    "name": "identifierSchema",
-    "namePlural": "identifierSchemas",
-    "semanticEquivalent": [],
-    "usedIn": {
-      "v1.0": [
-        "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ]
     }
   },
@@ -10302,8 +10218,8 @@
           "https://openminds.om-i.org/types/ValidationTestVersion"
         ],
         "v1.0": [
+          "https://openminds.ebrains.eu/core/File",
           "https://openminds.ebrains.eu/core/FileBundle",
-          "https://openminds.ebrains.eu/core/FileInstance",
           "https://openminds.ebrains.eu/core/SubjectGroupState",
           "https://openminds.ebrains.eu/core/SubjectState",
           "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
@@ -10447,7 +10363,9 @@
           "https://openminds.om-i.org/types/WebResource"
         ],
         "v1.0": [
-          "https://openminds.ebrains.eu/core/DigitalIdentifier"
+          "https://openminds.ebrains.eu/core/DOI",
+          "https://openminds.ebrains.eu/core/File",
+          "https://openminds.ebrains.eu/core/FileBundle"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/DOI",
@@ -10506,6 +10424,7 @@
         "https://openminds.om-i.org/types/ModelVersion"
       ],
       "v1.0": [
+        "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/ModelVersion"
       ],
       "v2.0": [
@@ -11271,6 +11190,12 @@
           "https://openminds.om-i.org/types/WebServiceVersion",
           "https://openminds.om-i.org/types/WorkflowRecipeVersion"
         ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/core/DatasetVersion",
+          "https://openminds.ebrains.eu/core/MetaDataModelVersion",
+          "https://openminds.ebrains.eu/core/ModelVersion",
+          "https://openminds.ebrains.eu/core/SoftwareVersion"
+        ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/DatasetVersion",
           "https://openminds.ebrains.eu/core/MetaDataModelVersion",
@@ -11317,7 +11242,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -11339,6 +11265,12 @@
         "https://openminds.om-i.org/types/ValidationTestVersion",
         "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/DatasetVersion",
+        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
+        "https://openminds.ebrains.eu/core/ModelVersion",
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -11524,8 +11456,11 @@
           "https://openminds.om-i.org/types/TissueSampleCollection"
         ],
         "v1.0": [
+          "https://openminds.ebrains.eu/core/DatasetVersion",
           "https://openminds.ebrains.eu/core/FileBundle",
-          "https://openminds.ebrains.eu/core/FileRepository"
+          "https://openminds.ebrains.eu/core/FileRepository",
+          "https://openminds.ebrains.eu/core/SubjectGroup",
+          "https://openminds.ebrains.eu/core/TissueSampleCollection"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/FileBundle",
@@ -11608,8 +11543,11 @@
         "https://openminds.om-i.org/types/TissueSampleSlicing"
       ],
       "v1.0": [
+        "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/FileInstance"
+        "https://openminds.ebrains.eu/core/ProtocolExecution",
+        "https://openminds.ebrains.eu/core/Subject",
+        "https://openminds.ebrains.eu/core/TissueSample"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/File",
@@ -12971,6 +12909,7 @@
       "formatting": "text/plain",
       "inVersions": [
         "latest",
+        "v1.0",
         "v2.0",
         "v3.0",
         "v4.0"
@@ -12989,7 +12928,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -13040,6 +12980,19 @@
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/TissueSampleState",
         "https://openminds.om-i.org/types/Visualization"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/ContentTypePattern",
+        "https://openminds.ebrains.eu/core/FileRepositoryStructure",
+        "https://openminds.ebrains.eu/core/ProtocolExecution",
+        "https://openminds.ebrains.eu/core/Subject",
+        "https://openminds.ebrains.eu/core/SubjectGroup",
+        "https://openminds.ebrains.eu/core/SubjectGroupState",
+        "https://openminds.ebrains.eu/core/SubjectState",
+        "https://openminds.ebrains.eu/core/TissueSample",
+        "https://openminds.ebrains.eu/core/TissueSampleCollection",
+        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
+        "https://openminds.ebrains.eu/core/TissueSampleState"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/ProtocolExecution",
@@ -13302,14 +13255,6 @@
     }
   },
   "maxValue": {
-    "asEdge": {
-      "canPointTo": {
-        "v1.0": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
-        ]
-      },
-      "nameForReverseLink": null
-    },
     "description": "Greatest quantity attained or allowed.",
     "hasNamespace": [
       {
@@ -13616,14 +13561,6 @@
     }
   },
   "minValue": {
-    "asEdge": {
-      "canPointTo": {
-        "v1.0": [
-          "https://openminds.ebrains.eu/core/QuantitativeValue"
-        ]
-      },
-      "nameForReverseLink": null
-    },
     "description": "Smallest quantity attained or allowed.",
     "hasNamespace": [
       {
@@ -13710,35 +13647,6 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/QuantitativeValueRange"
-      ]
-    }
-  },
-  "modality": {
-    "asEdge": {
-      "canPointTo": {
-        "v1.0": [
-          "https://openminds.ebrains.eu/controlledTerms/Modality"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": "Classification according to a logical proposition in which something exists, is experienced or expressed.",
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/vocab/"
-      }
-    ],
-    "label": "Modality",
-    "labelPlural": "Modalities",
-    "name": "modality",
-    "namePlural": "modalities",
-    "semanticEquivalent": [],
-    "usedIn": {
-      "v1.0": [
-        "https://openminds.ebrains.eu/core/DatasetVersion"
       ]
     }
   },
@@ -14021,6 +13929,7 @@
         "https://openminds.ebrains.eu/controlledTerms/Organ",
         "https://openminds.ebrains.eu/controlledTerms/Phenotype",
         "https://openminds.ebrains.eu/controlledTerms/PreparationType",
+        "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility",
         "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage",
         "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap",
         "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory",
@@ -14028,18 +13937,19 @@
         "https://openminds.ebrains.eu/controlledTerms/SoftwareFeatureCategory",
         "https://openminds.ebrains.eu/controlledTerms/Species",
         "https://openminds.ebrains.eu/controlledTerms/Strain",
-        "https://openminds.ebrains.eu/controlledTerms/StudyTargetType",
         "https://openminds.ebrains.eu/controlledTerms/Technique",
         "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
+        "https://openminds.ebrains.eu/controlledTerms/Terminology",
         "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
         "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement",
-        "https://openminds.ebrains.eu/controlledTerms/productAccessibility",
         "https://openminds.ebrains.eu/core/ContentType",
+        "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/FileInstance",
         "https://openminds.ebrains.eu/core/FileRepository",
-        "https://openminds.ebrains.eu/core/ParameterSetting",
+        "https://openminds.ebrains.eu/core/NumericalParameter",
         "https://openminds.ebrains.eu/core/Protocol",
+        "https://openminds.ebrains.eu/core/ServiceLink",
+        "https://openminds.ebrains.eu/core/StringParameter",
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ],
       "v2.0": [
@@ -14628,6 +14538,7 @@
         "https://openminds.ebrains.eu/controlledTerms/Organ",
         "https://openminds.ebrains.eu/controlledTerms/Phenotype",
         "https://openminds.ebrains.eu/controlledTerms/PreparationType",
+        "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility",
         "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage",
         "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap",
         "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory",
@@ -14635,12 +14546,11 @@
         "https://openminds.ebrains.eu/controlledTerms/SoftwareFeatureCategory",
         "https://openminds.ebrains.eu/controlledTerms/Species",
         "https://openminds.ebrains.eu/controlledTerms/Strain",
-        "https://openminds.ebrains.eu/controlledTerms/StudyTargetType",
         "https://openminds.ebrains.eu/controlledTerms/Technique",
         "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
+        "https://openminds.ebrains.eu/controlledTerms/Terminology",
         "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
         "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement",
-        "https://openminds.ebrains.eu/controlledTerms/productAccessibility",
         "https://openminds.ebrains.eu/sands/AnatomicalEntity",
         "https://openminds.ebrains.eu/sands/AtlasTerminology",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
@@ -14717,6 +14627,14 @@
     }
   },
   "openDataIn": {
+    "asEdge": {
+      "canPointTo": {
+        "v1.0": [
+          "https://openminds.ebrains.eu/core/URL"
+        ]
+      },
+      "nameForReverseLink": null
+    },
     "asString": {
       "formatting": "text/plain",
       "inVersions": [
@@ -14737,7 +14655,8 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -14750,6 +14669,9 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ServiceLink"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/ServiceLink"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/ServiceLink"
@@ -14861,6 +14783,9 @@
   "organization": {
     "asEdge": {
       "canPointTo": {
+        "v1.0": [
+          "https://openminds.ebrains.eu/core/Organization"
+        ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/Organization"
         ]
@@ -14871,7 +14796,8 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v2.0"
+          "v2.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -14882,6 +14808,9 @@
     "namePlural": "organizations",
     "semanticEquivalent": [],
     "usedIn": {
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/Affiliation"
+      ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Affiliation"
       ]
@@ -15149,8 +15078,8 @@
           "https://openminds.om-i.org/types/TissueSampleState"
         ],
         "v1.0": [
+          "https://openminds.ebrains.eu/core/File",
           "https://openminds.ebrains.eu/core/FileBundle",
-          "https://openminds.ebrains.eu/core/FileInstance",
           "https://openminds.ebrains.eu/core/SubjectGroupState",
           "https://openminds.ebrains.eu/core/SubjectState",
           "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
@@ -15282,7 +15211,9 @@
           "https://openminds.om-i.org/types/WebResource"
         ],
         "v1.0": [
-          "https://openminds.ebrains.eu/core/DigitalIdentifier"
+          "https://openminds.ebrains.eu/core/DOI",
+          "https://openminds.ebrains.eu/core/File",
+          "https://openminds.ebrains.eu/core/FileBundle"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/DOI",
@@ -15522,6 +15453,10 @@
   "parameter": {
     "asEdge": {
       "canPointTo": {
+        "v1.0": [
+          "https://openminds.ebrains.eu/core/NumericalParameter",
+          "https://openminds.ebrains.eu/core/StringParameter"
+        ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/NumericalParameter",
           "https://openminds.ebrains.eu/core/StringParameter"
@@ -15533,7 +15468,8 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v2.0"
+          "v2.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -15544,6 +15480,9 @@
     "namePlural": "parameters",
     "semanticEquivalent": [],
     "usedIn": {
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/ParameterSet"
+      ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/ParameterSet"
       ]
@@ -15552,6 +15491,9 @@
   "parameterSet": {
     "asEdge": {
       "canPointTo": {
+        "v1.0": [
+          "https://openminds.ebrains.eu/core/ParameterSet"
+        ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/ParameterSet"
         ]
@@ -15562,7 +15504,8 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v2.0"
+          "v2.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -15573,36 +15516,10 @@
     "namePlural": "parameterSets",
     "semanticEquivalent": [],
     "usedIn": {
-      "v2.0": [
-        "https://openminds.ebrains.eu/core/ProtocolExecution"
-      ]
-    }
-  },
-  "parameterSetting": {
-    "asEdge": {
-      "canPointTo": {
-        "v1.0": [
-          "https://openminds.ebrains.eu/core/ParameterSetting"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/vocab/"
-      }
-    ],
-    "label": "Parameter setting",
-    "labelPlural": "Parameter settings",
-    "name": "parameterSetting",
-    "namePlural": "parameterSettings",
-    "semanticEquivalent": [],
-    "usedIn": {
       "v1.0": [
+        "https://openminds.ebrains.eu/core/ProtocolExecution"
+      ],
+      "v2.0": [
         "https://openminds.ebrains.eu/core/ProtocolExecution"
       ]
     }
@@ -15736,6 +15653,7 @@
     "asString": {
       "formatting": "text/plain",
       "inVersions": [
+        "v1.0",
         "v2.0"
       ],
       "multiline": false
@@ -15744,7 +15662,8 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v2.0"
+          "v2.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -15755,6 +15674,9 @@
     "namePlural": "patternsOfFilenames",
     "semanticEquivalent": [],
     "usedIn": {
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/FileBundle"
+      ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/FileBundle"
       ]
@@ -16833,36 +16755,6 @@
       ]
     }
   },
-  "projectLeader": {
-    "asEdge": {
-      "canPointTo": {
-        "v1.0": [
-          "https://openminds.ebrains.eu/core/Organization",
-          "https://openminds.ebrains.eu/core/Person"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/vocab/"
-      }
-    ],
-    "label": "Project leader",
-    "labelPlural": "Project leaders",
-    "name": "projectLeader",
-    "namePlural": "projectLeaders",
-    "semanticEquivalent": [],
-    "usedIn": {
-      "v1.0": [
-        "https://openminds.ebrains.eu/core/Project"
-      ]
-    }
-  },
   "propertyValuePair": {
     "asEdge": {
       "canPointTo": {
@@ -17662,6 +17554,7 @@
       "formatting": "text/plain",
       "inVersions": [
         "latest",
+        "v1.0",
         "v3.0",
         "v4.0"
       ],
@@ -17678,7 +17571,8 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -17692,6 +17586,10 @@
       "latest": [
         "https://openminds.om-i.org/types/ContentTypePattern",
         "https://openminds.om-i.org/types/FilePathPattern"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/ContentTypePattern",
+        "https://openminds.ebrains.eu/core/FilePathPattern"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/ContentTypePattern",
@@ -17846,7 +17744,8 @@
           "https://openminds.om-i.org/types/ScholarlyArticle"
         ],
         "v1.0": [
-          "https://openminds.ebrains.eu/core/DigitalIdentifier"
+          "https://openminds.ebrains.eu/core/DOI",
+          "https://openminds.ebrains.eu/core/ISBN"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/DOI",
@@ -18307,8 +18206,8 @@
           "https://openminds.om-i.org/types/Technique"
         ],
         "v1.0": [
-          "https://openminds.ebrains.eu/controlledTerms/BehavioralTask",
-          "https://openminds.ebrains.eu/controlledTerms/Technique"
+          "https://openminds.ebrains.eu/controlledTerms/Technique",
+          "https://openminds.ebrains.eu/core/BehavioralTask"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/controlledTerms/BehavioralTask",
@@ -18359,7 +18258,7 @@
         "https://openminds.om-i.org/types/CustomPropertySet"
       ],
       "v1.0": [
-        "https://openminds.ebrains.eu/core/ParameterSetting"
+        "https://openminds.ebrains.eu/core/ParameterSet"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/ParameterSet"
@@ -18470,6 +18369,9 @@
   "repositoryType": {
     "asEdge": {
       "canPointTo": {
+        "v1.0": [
+          "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType"
+        ],
         "v2.0": [
           "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType"
         ]
@@ -18480,7 +18382,8 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v2.0"
+          "v2.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -18491,6 +18394,9 @@
     "namePlural": "repositoryTypes",
     "semanticEquivalent": [],
     "usedIn": {
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/FileRepository"
+      ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/FileRepository"
       ]
@@ -18552,6 +18458,7 @@
       "formatting": "text/plain",
       "inVersions": [
         "latest",
+        "v1.0",
         "v2.0",
         "v3.0",
         "v4.0"
@@ -18570,7 +18477,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -18583,6 +18491,9 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SoftwareVersion"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
@@ -18762,7 +18673,7 @@
         "https://openminds.om-i.org/types/ValidationTest"
       ],
       "v1.0": [
-        "https://openminds.ebrains.eu/core/ModelVersion"
+        "https://openminds.ebrains.eu/core/Model"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Model"
@@ -18910,9 +18821,6 @@
   "semanticallyAnchoredTo": {
     "asEdge": {
       "canPointTo": {
-        "v1.0": [
-          "https://openminds.ebrains.eu/sands/AnatomicalEntity"
-        ],
         "v2.0": [
           "https://openminds.ebrains.eu/sands/AnatomicalEntity"
         ]
@@ -18935,9 +18843,6 @@
     "namePlural": "semanticallyAnchoredTo",
     "semanticEquivalent": [],
     "usedIn": {
-      "v1.0": [
-        "https://openminds.ebrains.eu/core/ProtocolExecution"
-      ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/ProtocolExecution"
       ]
@@ -19208,6 +19113,9 @@
           "https://openminds.om-i.org/types/Service",
           "https://openminds.om-i.org/types/WebService"
         ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/controlledTerms/Service"
+        ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/Service",
           "https://openminds.ebrains.eu/core/WebService"
@@ -19230,7 +19138,8 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -19244,6 +19153,9 @@
       "latest": [
         "https://openminds.om-i.org/types/AccountInformation",
         "https://openminds.om-i.org/types/ServiceLink"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/ServiceLink"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/AccountInformation",
@@ -19366,6 +19278,7 @@
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
+        "https://openminds.ebrains.eu/core/BehavioralTask",
         "https://openminds.ebrains.eu/core/Dataset",
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/License",
@@ -19859,7 +19772,7 @@
           "https://openminds.om-i.org/types/FileUsageRole"
         ],
         "v1.0": [
-          "https://openminds.ebrains.eu/controlledTerms/fileUsageRole"
+          "https://openminds.ebrains.eu/controlledTerms/FileUsageRole"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/controlledTerms/FileUsageRole"
@@ -19902,7 +19815,7 @@
         "https://openminds.om-i.org/types/LocalFile"
       ],
       "v1.0": [
-        "https://openminds.ebrains.eu/core/FileInstance"
+        "https://openminds.ebrains.eu/core/File"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/File"
@@ -20026,6 +19939,7 @@
       "formatting": "text/plain",
       "inVersions": [
         "latest",
+        "v1.0",
         "v2.0",
         "v3.0",
         "v4.0"
@@ -20044,7 +19958,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -20060,6 +19975,9 @@
         "https://openminds.om-i.org/types/ContentType",
         "https://openminds.om-i.org/types/CustomAnnotation",
         "https://openminds.om-i.org/types/EphysStimulus"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/ContentType"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/ContentType"
@@ -20210,6 +20128,7 @@
       "formatting": "text/plain",
       "inVersions": [
         "latest",
+        "v1.0",
         "v2.0",
         "v3.0",
         "v4.0"
@@ -20228,7 +20147,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -20241,6 +20161,9 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Affiliation"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/Affiliation"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Affiliation"
@@ -20381,6 +20304,32 @@
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
+      ]
+    }
+  },
+  "startedAtTime": {
+    "asString": {
+      "formatting": "text/plain",
+      "inVersions": [
+        "v1.0"
+      ],
+      "multiline": false
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "v1.0"
+        ],
+        "namespace": "https://openminds.ebrains.eu/vocab/"
+      }
+    ],
+    "label": "Started at time",
+    "name": "startedAtTime",
+    "semanticEquivalent": [],
+    "usedIn": {
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/ProtocolExecution"
       ]
     }
   },
@@ -20787,8 +20736,8 @@
         "https://openminds.om-i.org/types/LocalFile"
       ],
       "v1.0": [
+        "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/FileInstance",
         "https://openminds.ebrains.eu/core/FileRepository"
       ],
       "v2.0": [
@@ -20858,6 +20807,9 @@
         "latest": [
           "https://openminds.om-i.org/types/FileRepositoryStructure"
         ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/core/FileRepositoryStructure"
+        ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/FileRepositoryStructure"
         ],
@@ -20878,7 +20830,8 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -20891,6 +20844,9 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/FileRepository"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/FileRepository"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/FileRepository"
@@ -20908,6 +20864,12 @@
           "https://openminds.om-i.org/types/SubjectGroup",
           "https://openminds.om-i.org/types/TissueSample",
           "https://openminds.om-i.org/types/TissueSampleCollection"
+        ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/core/Subject",
+          "https://openminds.ebrains.eu/core/SubjectGroup",
+          "https://openminds.ebrains.eu/core/TissueSample",
+          "https://openminds.ebrains.eu/core/TissueSampleCollection"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/Subject",
@@ -20942,7 +20904,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -20955,6 +20918,9 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DatasetVersion"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/DatasetVersion"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
@@ -21083,7 +21049,8 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v2.0"
+          "v2.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -21094,6 +21061,9 @@
     "namePlural": "studyOptions",
     "semanticEquivalent": [],
     "usedIn": {
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/Protocol"
+      ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Protocol"
       ]
@@ -21131,21 +21101,6 @@
           "https://openminds.om-i.org/types/TissueSampleType",
           "https://openminds.om-i.org/types/UBERONParcellation",
           "https://openminds.om-i.org/types/VisualStimulusType"
-        ],
-        "v1.0": [
-          "https://openminds.ebrains.eu/controlledTerm/BiologicalSex",
-          "https://openminds.ebrains.eu/controlledTerm/Disease",
-          "https://openminds.ebrains.eu/controlledTerm/Genotype",
-          "https://openminds.ebrains.eu/controlledTerm/Phenotype",
-          "https://openminds.ebrains.eu/controlledTerm/Species",
-          "https://openminds.ebrains.eu/controlledTerm/TermSuggestion",
-          "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
-          "https://openminds.ebrains.eu/controlledTerms/Disease",
-          "https://openminds.ebrains.eu/controlledTerms/Genotype",
-          "https://openminds.ebrains.eu/controlledTerms/Phenotype",
-          "https://openminds.ebrains.eu/controlledTerms/Species",
-          "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
-          "https://openminds.ebrains.eu/sands/AnatomicalEntity"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
@@ -21268,8 +21223,7 @@
         "https://openminds.om-i.org/types/Visualization"
       ],
       "v1.0": [
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/Protocol",
+        "https://openminds.ebrains.eu/core/Model",
         "https://openminds.ebrains.eu/core/ProtocolExecution"
       ],
       "v2.0": [
@@ -21369,6 +21323,7 @@
       "formatting": "text/plain",
       "inVersions": [
         "latest",
+        "v1.0",
         "v2.0",
         "v3.0",
         "v4.0"
@@ -21387,7 +21342,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -21409,6 +21365,12 @@
         "https://openminds.om-i.org/types/ValidationTestVersion",
         "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/DatasetVersion",
+        "https://openminds.ebrains.eu/core/MetaDataModelVersion",
+        "https://openminds.ebrains.eu/core/ModelVersion",
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -21966,6 +21928,7 @@
         "https://openminds.om-i.org/types/Visualization"
       ],
       "v1.0": [
+        "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/Protocol"
       ],
       "v2.0": [
@@ -22233,8 +22196,8 @@
           "https://openminds.om-i.org/types/TissueSampleType"
         ],
         "v1.0": [
-          "https://openminds.ebrains.eu/controlledTerms/DatasetType",
           "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
+          "https://openminds.ebrains.eu/controlledTerms/SemanticDataType",
           "https://openminds.ebrains.eu/controlledTerms/TissueSampleType"
         ],
         "v2.0": [
@@ -22273,7 +22236,6 @@
       "formatting": "text/plain",
       "inVersions": [
         "latest",
-        "v1.0",
         "v3.0",
         "v4.0"
       ],
@@ -22320,7 +22282,6 @@
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/DigitalIdentifierSchema",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/TissueSample",
         "https://openminds.ebrains.eu/core/TissueSampleCollection"
@@ -22369,6 +22330,9 @@
         "latest": [
           "https://openminds.om-i.org/types/TypeOfUncertainty"
         ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty"
+        ],
         "v2.0": [
           "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty"
         ],
@@ -22393,7 +22357,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -22407,6 +22372,9 @@
       "latest": [
         "https://openminds.om-i.org/types/QuantitativeValue",
         "https://openminds.om-i.org/types/QuantitativeValueArray"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
@@ -22514,8 +22482,8 @@
         "https://openminds.om-i.org/types/QuantitativeValueArray"
       ],
       "v1.0": [
-        "https://openminds.ebrains.eu/core/ParameterSetting",
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/QuantitativeValue",
@@ -22755,6 +22723,10 @@
           "https://openminds.om-i.org/types/QuantitativeValue",
           "https://openminds.om-i.org/types/QuantitativeValueRange"
         ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+        ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue",
           "https://openminds.ebrains.eu/core/QuantitativeValueRange"
@@ -22774,6 +22746,7 @@
       "formatting": "text/plain",
       "inVersions": [
         "latest",
+        "v1.0",
         "v2.0",
         "v3.0",
         "v4.0"
@@ -22812,8 +22785,9 @@
         "https://openminds.om-i.org/types/StringProperty"
       ],
       "v1.0": [
-        "https://openminds.ebrains.eu/core/ParameterSetting",
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "https://openminds.ebrains.eu/core/NumericalParameter",
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/StringParameter"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/NumericalParameter",
@@ -23419,6 +23393,7 @@
       "formatting": "text/plain",
       "inVersions": [
         "latest",
+        "v1.0",
         "v2.0",
         "v3.0",
         "v4.0"
@@ -23437,7 +23412,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -23450,6 +23426,9 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/License"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/core/License"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/License"

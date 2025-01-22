@@ -1,0 +1,25 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.ebrains.eu/core/ORCID",
+  "color": "#852C19",
+  "description": "A persistent identifier for a researcher provided by Open Researcher and Contributor ID, Inc.",
+  "label": "Orcid",
+  "name": "ORCID",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/identifier": {
+      "_instruction": "Enter the resolvable identifier (IRI) of the Open Researcher and Contributor ID, Inc.",
+      "description": "Term or code used to identify something or someone.",
+      "formatting": "text/plain",
+      "label": "Identifier",
+      "labelPlural": "Identifiers",
+      "multiline": false,
+      "name": "identifier",
+      "namePlural": "identifiers",
+      "pattern": "^https://orcid.org/[0-9]{4}-[0-9]{4}-[0-9]{4}-([0-9]{3}[A-Z]|[0-9]{4})$",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/identifier"
+  ]
+}

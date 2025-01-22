@@ -10,20 +10,6 @@
   ],
   "changes": [
     {
-      "file": "chemicals/chemicalMixture.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:additionalRemarks._instruction"
-      ],
-      "schemaType": "ChemicalMixture"
-    },
-    {
-      "file": "chemicals/chemicalSubstance.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:additionalRemarks._instruction"
-      ],
-      "schemaType": "ChemicalSubstance"
-    },
-    {
       "file": "computation/dataAnalysis.schema.omi.json",
       "modifiedAttributes": [
         "properties.props:studyTarget._linkedTypes"
@@ -75,7 +61,6 @@
     {
       "file": "computation/validationTestVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:fullDocumentation._linkedTypes",
         "properties.props:keyword._linkedTypes"
       ],
       "schemaType": "ValidationTestVersion"
@@ -90,7 +75,6 @@
     {
       "file": "computation/workflowRecipeVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:fullDocumentation._linkedTypes",
         "properties.props:keyword._linkedTypes"
       ],
       "schemaType": "WorkflowRecipeVersion"
@@ -103,13 +87,6 @@
       "schemaType": "TissueSampleType"
     },
     {
-      "file": "core/data/contentType.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:specification._instruction"
-      ],
-      "schemaType": "ContentType"
-    },
-    {
       "file": "core/data/fileBundle.schema.omi.json",
       "modifiedAttributes": [
         "properties.props:groupedBy._linkedTypes"
@@ -117,16 +94,8 @@
       "schemaType": "FileBundle"
     },
     {
-      "file": "core/miscellaneous/quantitativeValue.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:typeOfUncertainty._instruction"
-      ],
-      "schemaType": "QuantitativeValue"
-    },
-    {
       "file": "core/products/datasetVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:fullDocumentation._linkedTypes",
         "properties.props:keyword._linkedTypes",
         "properties.props:studyTarget._linkedTypes",
         "properties.props:technique._linkedTypes"
@@ -136,7 +105,6 @@
     {
       "file": "core/products/metaDataModelVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:fullDocumentation._linkedTypes",
         "properties.props:keyword._linkedTypes"
       ],
       "schemaType": "MetaDataModelVersion"
@@ -151,7 +119,6 @@
     {
       "file": "core/products/modelVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:fullDocumentation._linkedTypes",
         "properties.props:keyword._linkedTypes"
       ],
       "schemaType": "ModelVersion"
@@ -159,8 +126,6 @@
     {
       "file": "core/products/softwareVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:fullDocumentation._linkedTypes",
-        "properties.props:hasPart._linkedTypes",
         "properties.props:keyword._linkedTypes"
       ],
       "schemaType": "SoftwareVersion"
@@ -168,7 +133,6 @@
     {
       "file": "core/products/webServiceVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:fullDocumentation._linkedTypes",
         "properties.props:keyword._linkedTypes"
       ],
       "schemaType": "WebServiceVersion"
@@ -183,7 +147,6 @@
     {
       "file": "core/research/protocol.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:describedIn._instruction",
         "properties.props:technique._linkedTypes"
       ],
       "schemaType": "Protocol"
@@ -194,56 +157,6 @@
         "properties.props:studyTarget._linkedTypes"
       ],
       "schemaType": "ProtocolExecution"
-    },
-    {
-      "file": "core/research/strain.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:alternateIdentifier._instruction",
-        "properties.props:synonym._instruction"
-      ],
-      "schemaType": "Strain"
-    },
-    {
-      "file": "core/research/subjectGroup.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:additionalRemarks._instruction"
-      ],
-      "schemaType": "SubjectGroup"
-    },
-    {
-      "file": "core/research/subjectGroupState.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:additionalRemarks._instruction"
-      ],
-      "schemaType": "SubjectGroupState"
-    },
-    {
-      "file": "core/research/subjectState.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:additionalRemarks._instruction"
-      ],
-      "schemaType": "SubjectState"
-    },
-    {
-      "file": "core/research/tissueSampleCollection.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:additionalRemarks._instruction"
-      ],
-      "schemaType": "TissueSampleCollection"
-    },
-    {
-      "file": "core/research/tissueSampleCollectionState.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:additionalRemarks._instruction"
-      ],
-      "schemaType": "TissueSampleCollectionState"
-    },
-    {
-      "file": "core/research/tissueSampleState.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:additionalRemarks._instruction"
-      ],
-      "schemaType": "TissueSampleState"
     },
     {
       "file": "ephys/activity/cellPatching.schema.omi.json",
@@ -269,31 +182,27 @@
     {
       "file": "publications/book.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes",
-        "properties.props:modificationDate._instruction"
+        "properties.props:keyword._linkedTypes"
       ],
       "schemaType": "Book"
     },
     {
       "file": "publications/chapter.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes",
-        "properties.props:modificationDate._instruction"
+        "properties.props:keyword._linkedTypes"
       ],
       "schemaType": "Chapter"
     },
     {
       "file": "publications/learningResource.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes",
-        "properties.props:modificationDate._instruction"
+        "properties.props:keyword._linkedTypes"
       ],
       "schemaType": "LearningResource"
     },
     {
       "file": "publications/livePaperVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:fullDocumentation._linkedTypes",
         "properties.props:keyword._linkedTypes"
       ],
       "schemaType": "LivePaperVersion"
@@ -301,15 +210,13 @@
     {
       "file": "publications/scholarlyArticle.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes",
-        "properties.props:modificationDate._instruction"
+        "properties.props:keyword._linkedTypes"
       ],
       "schemaType": "ScholarlyArticle"
     },
     {
       "file": "SANDS/atlas/brainAtlasVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:fullDocumentation._linkedTypes",
         "properties.props:keyword._linkedTypes"
       ],
       "schemaType": "BrainAtlasVersion"
@@ -317,24 +224,9 @@
     {
       "file": "SANDS/atlas/commonCoordinateSpaceVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:fullDocumentation._linkedTypes",
         "properties.props:keyword._linkedTypes"
       ],
       "schemaType": "CommonCoordinateSpaceVersion"
-    },
-    {
-      "file": "SANDS/atlas/parcellationEntity.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:hasParent._instruction"
-      ],
-      "schemaType": "ParcellationEntity"
-    },
-    {
-      "file": "SANDS/miscellaneous/anatomicalTargetPosition.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:additionalRemarks._instruction"
-      ],
-      "schemaType": "AnatomicalTargetPosition"
     },
     {
       "file": "specimenPrep/activity/cranialWindowPreparation.schema.omi.json",

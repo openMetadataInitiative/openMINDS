@@ -240,7 +240,21 @@
       "controlledTerms:Technique"
     ]
   },
-  "v1.0": {},
+  "v1.0": {
+    "fileOrigin": [
+      "core:BehavioralTask",
+      "core:File",
+      "core:FileBundle",
+      "core:SubjectGroupState",
+      "core:SubjectState",
+      "core:TissueSampleCollectionState",
+      "core:TissueSampleState"
+    ],
+    "legalPerson": [
+      "core:Organization",
+      "core:Person"
+    ]
+  },
   "v2.0": {
     "legalPerson": [
       "core:Organization",

@@ -1,0 +1,25 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.ebrains.eu/core/ISBN",
+  "color": "#1E0200",
+  "description": "An International Standard Book Number of the International ISBN Agency.",
+  "label": "Isbn",
+  "name": "ISBN",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/identifier": {
+      "_instruction": "Enter the International Standard Book Number (ISBN-13) of the International ISBN Agency.",
+      "description": "Term or code used to identify something or someone.",
+      "formatting": "text/plain",
+      "label": "Identifier",
+      "labelPlural": "Identifiers",
+      "multiline": false,
+      "name": "identifier",
+      "namePlural": "identifiers",
+      "pattern": "^([0-9]{3}-|)[0-9]{1}-[0-9]{3}-[0-9]{5}-[0-9]{1}$",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/identifier"
+  ]
+}

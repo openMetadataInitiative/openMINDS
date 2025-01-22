@@ -1,0 +1,27 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.ebrains.eu/core/ContactInformation",
+  "color": "#64547B",
+  "description": "Structured information about how to contact a given person or consortium.",
+  "label": "Contact information",
+  "name": "ContactInformation",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/email": {
+      "_formats": [
+        "email"
+      ],
+      "_instruction": "Enter the email address of this person.",
+      "description": "Address to which or from which an electronic mail can be sent.",
+      "formatting": "text/plain",
+      "label": "Email",
+      "labelPlural": "Emails",
+      "multiline": false,
+      "name": "email",
+      "namePlural": "emails",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/email"
+  ]
+}

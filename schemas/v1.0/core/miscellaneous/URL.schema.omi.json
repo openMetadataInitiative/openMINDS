@@ -1,0 +1,24 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.ebrains.eu/core/URL",
+  "label": "Url",
+  "name": "URL",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/URL": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter a uniform resource locator (URL).",
+      "formatting": "text/plain",
+      "label": "Url",
+      "labelPlural": "URLs",
+      "multiline": false,
+      "name": "URL",
+      "namePlural": "URLs",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/URL"
+  ]
+}

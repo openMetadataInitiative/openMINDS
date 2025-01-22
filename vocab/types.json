@@ -81,13 +81,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "identical": [
       [
+        "v1.0",
         "v2.0"
       ],
       [
@@ -98,6 +100,7 @@
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -396,10 +399,8 @@
     ],
     "identical": [
       [
-        "v3.0"
-      ],
-      [
         "latest",
+        "v3.0",
         "v4.0"
       ]
     ],
@@ -671,6 +672,12 @@
     "color": null,
     "description": "Structured information on the behavioral task that had to be performed by a subject.",
     "hasNamespace": [
+      {
+        "inVersions": [
+          "v1.0"
+        ],
+        "namespace": "https://openminds.ebrains.eu/core/"
+      },
       {
         "inVersions": [
           "v1.0",
@@ -1167,10 +1174,8 @@
     ],
     "identical": [
       [
-        "v3.0"
-      ],
-      [
         "latest",
+        "v3.0",
         "v4.0"
       ]
     ],
@@ -1237,10 +1242,8 @@
     ],
     "identical": [
       [
-        "v3.0"
-      ],
-      [
         "latest",
+        "v3.0",
         "v4.0"
       ]
     ],
@@ -1512,13 +1515,15 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "identical": [
       [
+        "v1.0",
         "v2.0"
       ],
       [
@@ -1529,6 +1534,7 @@
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -1559,16 +1565,12 @@
     ],
     "identical": [
       [
-        "v1.0"
-      ],
-      [
+        "v1.0",
         "v2.0"
       ],
       [
-        "v3.0"
-      ],
-      [
         "latest",
+        "v3.0",
         "v4.0"
       ]
     ],
@@ -1596,7 +1598,8 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
@@ -1604,12 +1607,14 @@
     "identical": [
       [
         "latest",
+        "v1.0",
         "v3.0",
         "v4.0"
       ]
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v3.0",
       "v4.0"
     ],
@@ -1790,9 +1795,7 @@
     ],
     "identical": [
       [
-        "v1.0"
-      ],
-      [
+        "v1.0",
         "v2.0"
       ],
       [
@@ -2127,12 +2130,16 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "identical": [
+      [
+        "v1.0"
+      ],
       [
         "latest",
         "v2.0",
@@ -2142,6 +2149,7 @@
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -2278,9 +2286,7 @@
     ],
     "identical": [
       [
-        "v1.0"
-      ],
-      [
+        "v1.0",
         "v2.0"
       ],
       [
@@ -2435,52 +2441,6 @@
     ],
     "label": "Difference measure",
     "name": "DifferenceMeasure",
-    "semanticEquivalent": []
-  },
-  "DigitalIdentifier": {
-    "color": null,
-    "description": "Structured information on a digital identifier.",
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/core/"
-      }
-    ],
-    "identical": [
-      [
-        "v1.0"
-      ]
-    ],
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Digital identifier",
-    "name": "DigitalIdentifier",
-    "semanticEquivalent": []
-  },
-  "DigitalIdentifierSchema": {
-    "color": null,
-    "description": "Structured information on a digital identifier schema.",
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/core/"
-      }
-    ],
-    "identical": [
-      [
-        "v1.0"
-      ]
-    ],
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Digital identifier schema",
-    "name": "DigitalIdentifierSchema",
     "semanticEquivalent": []
   },
   "Disease": {
@@ -3060,12 +3020,16 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "identical": [
+      [
+        "v1.0"
+      ],
       [
         "v2.0"
       ],
@@ -3077,6 +3041,7 @@
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -3209,29 +3174,6 @@
     "name": "FileBundleGrouping",
     "semanticEquivalent": []
   },
-  "FileInstance": {
-    "color": null,
-    "description": "Structured information on a file instances.",
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/core/"
-      }
-    ],
-    "identical": [
-      [
-        "v1.0"
-      ]
-    ],
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "File instance",
-    "name": "FileInstance",
-    "semanticEquivalent": []
-  },
   "FilePathPattern": {
     "color": "#564620",
     "description": null,
@@ -3245,7 +3187,8 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
@@ -3253,12 +3196,14 @@
     "identical": [
       [
         "latest",
+        "v1.0",
         "v3.0",
         "v4.0"
       ]
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v3.0",
       "v4.0"
     ],
@@ -3323,7 +3268,8 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
@@ -3331,12 +3277,14 @@
     "identical": [
       [
         "latest",
+        "v1.0",
         "v3.0",
         "v4.0"
       ]
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v3.0",
       "v4.0"
     ],
@@ -3449,9 +3397,7 @@
     ],
     "identical": [
       [
-        "v1.0"
-      ],
-      [
+        "v1.0",
         "v2.0"
       ],
       [
@@ -3485,12 +3431,16 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "identical": [
+      [
+        "v1.0"
+      ],
       [
         "latest",
         "v2.0",
@@ -3500,6 +3450,7 @@
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -3796,12 +3747,16 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "identical": [
+      [
+        "v1.0"
+      ],
       [
         "latest",
         "v2.0",
@@ -3811,6 +3766,7 @@
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -4124,9 +4080,7 @@
     ],
     "identical": [
       [
-        "v1.0"
-      ],
-      [
+        "v1.0",
         "v2.0"
       ],
       [
@@ -4494,9 +4448,7 @@
     ],
     "identical": [
       [
-        "v1.0"
-      ],
-      [
+        "v1.0",
         "v2.0"
       ],
       [
@@ -4885,17 +4837,20 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v2.0"
+          "v2.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "identical": [
       [
+        "v1.0",
         "v2.0"
       ]
     ],
     "isPartOfVersion": [
+      "v1.0",
       "v2.0"
     ],
     "label": "Numerical parameter",
@@ -4950,12 +4905,16 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "identical": [
+      [
+        "v1.0"
+      ],
       [
         "latest",
         "v2.0",
@@ -4965,6 +4924,7 @@
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -5299,9 +5259,7 @@
     ],
     "identical": [
       [
-        "v1.0"
-      ],
-      [
+        "v1.0",
         "v2.0"
       ],
       [
@@ -5327,29 +5285,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v2.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/core/"
-      }
-    ],
-    "identical": [
-      [
-        "v2.0"
-      ]
-    ],
-    "isPartOfVersion": [
-      "v2.0"
-    ],
-    "label": "Parameter set",
-    "name": "ParameterSet",
-    "semanticEquivalent": []
-  },
-  "ParameterSetting": {
-    "color": null,
-    "description": "Structured information on a used parameter setting.",
-    "hasNamespace": [
-      {
-        "inVersions": [
+          "v2.0",
           "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
@@ -5357,14 +5293,16 @@
     ],
     "identical": [
       [
-        "v1.0"
+        "v1.0",
+        "v2.0"
       ]
     ],
     "isPartOfVersion": [
-      "v1.0"
+      "v1.0",
+      "v2.0"
     ],
-    "label": "Parameter setting",
-    "name": "ParameterSetting",
+    "label": "Parameter set",
+    "name": "ParameterSet",
     "semanticEquivalent": []
   },
   "ParcellationEntity": {
@@ -5391,10 +5329,8 @@
         "v2.0"
       ],
       [
-        "v3.0"
-      ],
-      [
         "latest",
+        "v3.0",
         "v4.0"
       ]
     ],
@@ -5605,9 +5541,7 @@
     ],
     "identical": [
       [
-        "v1.0"
-      ],
-      [
+        "v1.0",
         "v2.0"
       ],
       [
@@ -5783,12 +5717,16 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "identical": [
+      [
+        "v1.0"
+      ],
       [
         "v2.0"
       ],
@@ -5800,6 +5738,7 @@
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -5908,9 +5847,7 @@
     ],
     "identical": [
       [
-        "v1.0"
-      ],
-      [
+        "v1.0",
         "v2.0"
       ],
       [
@@ -6268,16 +6205,12 @@
     ],
     "identical": [
       [
-        "v1.0"
-      ],
-      [
+        "v1.0",
         "v2.0"
       ],
       [
-        "v3.0"
-      ],
-      [
         "latest",
+        "v3.0",
         "v4.0"
       ]
     ],
@@ -6348,9 +6281,7 @@
     ],
     "identical": [
       [
-        "v1.0"
-      ],
-      [
+        "v1.0",
         "v2.0"
       ],
       [
@@ -6384,12 +6315,16 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "identical": [
+      [
+        "v1.0"
+      ],
       [
         "latest",
         "v2.0",
@@ -6399,6 +6334,7 @@
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -6593,12 +6529,16 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "identical": [
+      [
+        "v1.0"
+      ],
       [
         "latest",
         "v2.0",
@@ -6608,6 +6548,7 @@
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -6738,7 +6679,8 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
@@ -6746,12 +6688,14 @@
     "identical": [
       [
         "latest",
+        "v1.0",
         "v3.0",
         "v4.0"
       ]
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v3.0",
       "v4.0"
     ],
@@ -6987,9 +6931,7 @@
     ],
     "identical": [
       [
-        "v1.0"
-      ],
-      [
+        "v1.0",
         "v2.0"
       ],
       [
@@ -7412,11 +7354,9 @@
         "v1.0"
       ],
       [
-        "v2.0",
-        "v3.0"
-      ],
-      [
         "latest",
+        "v2.0",
+        "v3.0",
         "v4.0"
       ]
     ],
@@ -7437,17 +7377,20 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v2.0"
+          "v2.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "identical": [
       [
+        "v1.0",
         "v2.0"
       ]
     ],
     "isPartOfVersion": [
+      "v1.0",
       "v2.0"
     ],
     "label": "String parameter",
@@ -7486,29 +7429,6 @@
     ],
     "label": "String property",
     "name": "StringProperty",
-    "semanticEquivalent": []
-  },
-  "StudyTargetType": {
-    "color": null,
-    "description": "Structured information on the general type of the study target.",
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/controlledTerms/"
-      }
-    ],
-    "identical": [
-      [
-        "v1.0"
-      ]
-    ],
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Study target type",
-    "name": "StudyTargetType",
     "semanticEquivalent": []
   },
   "SubcellularEntity": {
@@ -7567,9 +7487,7 @@
     ],
     "identical": [
       [
-        "v1.0"
-      ],
-      [
+        "v1.0",
         "v2.0"
       ],
       [
@@ -7645,16 +7563,12 @@
     ],
     "identical": [
       [
-        "v1.0"
-      ],
-      [
+        "v1.0",
         "v2.0"
       ],
       [
-        "v3.0"
-      ],
-      [
         "latest",
+        "v3.0",
         "v4.0"
       ]
     ],
@@ -7697,10 +7611,8 @@
         "v2.0"
       ],
       [
-        "v3.0"
-      ],
-      [
         "latest",
+        "v3.0",
         "v4.0"
       ]
     ],
@@ -7743,10 +7655,8 @@
         "v2.0"
       ],
       [
-        "v3.0"
-      ],
-      [
         "latest",
+        "v3.0",
         "v4.0"
       ]
     ],
@@ -7897,12 +7807,16 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "identical": [
+      [
+        "v1.0"
+      ],
       [
         "v2.0"
       ],
@@ -7914,6 +7828,7 @@
     ],
     "isPartOfVersion": [
       "latest",
+      "v1.0",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -8058,16 +7973,12 @@
     ],
     "identical": [
       [
-        "v1.0"
-      ],
-      [
+        "v1.0",
         "v2.0"
       ],
       [
-        "v3.0"
-      ],
-      [
         "latest",
+        "v3.0",
         "v4.0"
       ]
     ],
@@ -8110,10 +8021,8 @@
         "v2.0"
       ],
       [
-        "v3.0"
-      ],
-      [
         "latest",
+        "v3.0",
         "v4.0"
       ]
     ],
@@ -8192,10 +8101,8 @@
         "v2.0"
       ],
       [
-        "v3.0"
-      ],
-      [
         "latest",
+        "v3.0",
         "v4.0"
       ]
     ],
@@ -8340,17 +8247,22 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v2.0"
+          "v2.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "identical": [
       [
+        "v1.0"
+      ],
+      [
         "v2.0"
       ]
     ],
     "isPartOfVersion": [
+      "v1.0",
       "v2.0"
     ],
     "label": "Url",
@@ -8783,29 +8695,6 @@
     ],
     "label": "Workflow recipe version",
     "name": "WorkflowRecipeVersion",
-    "semanticEquivalent": []
-  },
-  "productAccessibility": {
-    "color": null,
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "v1.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/controlledTerms/"
-      }
-    ],
-    "identical": [
-      [
-        "v1.0"
-      ]
-    ],
-    "isPartOfVersion": [
-      "v1.0"
-    ],
-    "label": "Product accessibility",
-    "name": "productAccessibility",
     "semanticEquivalent": []
   }
 }

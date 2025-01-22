@@ -1,0 +1,59 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.ebrains.eu/core/ServiceLink",
+  "color": "#C4DF72",
+  "label": "Service link",
+  "name": "ServiceLink",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/dataLocation": {
+      "_instruction": "Add the file or file bundle with the data that are linked to the specified service.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/FileBundle"
+      ],
+      "label": "Data location",
+      "labelPlural": "Data locations",
+      "name": "dataLocation",
+      "nameForReverseLink": null,
+      "namePlural": "dataLocations"
+    },
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Enter a name that should be used as preferred display label for this service link.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/openDataIn": {
+      "_instruction": "Add the uniform resource locator (URL) to open the linked data in the specified service.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/URL"
+      ],
+      "label": "Open data in",
+      "labelPlural": "Open data in",
+      "name": "openDataIn",
+      "nameForReverseLink": null,
+      "namePlural": "openDataIn"
+    },
+    "https://openminds.ebrains.eu/vocab/service": {
+      "_instruction": "Add the service in which the specified data can be opened.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Service"
+      ],
+      "label": "Service",
+      "labelPlural": "Services",
+      "name": "service",
+      "nameForReverseLink": null,
+      "namePlural": "services"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/dataLocation",
+    "https://openminds.ebrains.eu/vocab/openDataIn",
+    "https://openminds.ebrains.eu/vocab/service"
+  ]
+}

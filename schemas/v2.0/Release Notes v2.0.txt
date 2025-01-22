@@ -7,19 +7,6 @@ Added files:
   - controlledTerms/semanticDataType.schema.omi.json
   - controlledTerms/typeOfUncertainty.schema.omi.json
   - controlledTerms/UBERONParcellation.schema.omi.json
-  - core/actors/affiliation.schema.omi.json
-  - core/actors/contactInformation.schema.omi.json
-  - core/data/file.schema.omi.json
-  - core/miscellaneous/DOI.schema.omi.json
-  - core/miscellaneous/GRIDID.schema.omi.json
-  - core/miscellaneous/ISBN.schema.omi.json
-  - core/miscellaneous/ORCID.schema.omi.json
-  - core/miscellaneous/RORID.schema.omi.json
-  - core/miscellaneous/SWHID.schema.omi.json
-  - core/miscellaneous/URL.schema.omi.json
-  - core/research/numericalParameter.schema.omi.json
-  - core/research/parameterSet.schema.omi.json
-  - core/research/stringParameter.schema.omi.json
   - SANDS/atlas/atlasAnnotation.schema.omi.json
   - SANDS/atlas/commonCoordinateSpace.schema.omi.json
   - SANDS/atlas/parcellationEntity.schema.omi.json
@@ -35,10 +22,11 @@ Removed files:
   - controlledTerms/genotype.schema.omi.json
   - controlledTerms/modality.schema.omi.json
   - controlledTerms/softwareFeatureCategory.schema.omi.json
-  - core/data/fileInstance.schema.omi.json
-  - core/miscellaneous/digitalIdentifier.schema.omi.json
-  - core/miscellaneous/digitalIdentifierSchema.schema.omi.json
-  - core/research/parameterSetting.schema.omi.json
+  - core/data/contentTypePattern.schema.omi.json
+  - core/data/filePathPattern.schema.omi.json
+  - core/data/fileRepositoryStructure.schema.omi.json
+  - core/data/serviceLink.schema.omi.json
+  - core/research/behavioralTask.schema.omi.json
   - SANDS/anatomicalEntity.schema.omi.json
   - SANDS/anatomicalEntityRelation.schema.omi.json
   - SANDS/annotation.schema.omi.json
@@ -149,9 +137,6 @@ Changes in controlledTerms/preparationType.schema.omi.json:
   - Field 'properties.props:ontologyIdentifier._formats' added.
 
 Changes in controlledTerms/productAccessibility.schema.omi.json:
-  - Field 'color' added.
-  - Field '_type' modified.
-  - Field 'name' modified.
   - Field 'properties.props:ontologyIdentifier.format' removed.
   - Field 'properties.props:ontologyIdentifier._formats' added.
 
@@ -187,11 +172,6 @@ Changes in controlledTerms/technique.schema.omi.json:
   - Field 'properties.props:ontologyIdentifier._formats' added.
 
 Changes in controlledTerms/terminology.schema.omi.json:
-  - Field 'description' removed.
-  - Field 'color' added.
-  - Field '_type' modified.
-  - Field 'label' modified.
-  - Field 'name' modified.
   - Field 'properties.props:ontologyIdentifier.format' removed.
   - Field 'properties.props:ontologyIdentifier._formats' added.
 
@@ -212,346 +192,105 @@ Changes in controlledTerms/unitOfMeasurement.schema.omi.json:
   - Field 'properties.props:ontologyIdentifier.format' removed.
   - Field 'properties.props:ontologyIdentifier._formats' added.
 
-Changes in core/actors/organization.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
-  - Field 'properties.props:homepage.format' removed.
-  - Field 'properties.props:homepage.formatting' removed.
-  - Field 'properties.props:homepage.multiline' removed.
-  - Field 'properties.props:homepage.type' removed.
-  - Field 'properties.props:homepage._linkedTypes' added.
-  - Field 'properties.props:homepage.nameForReverseLink' added.
-  - Field 'properties.props:homepage._instruction' modified.
-
-Changes in core/actors/person.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:email' removed.
-  - Field 'properties.props:affiliation' added.
-  - Field 'properties.props:contactInformation' added.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
-  - Field 'required' modified.
-
-Changes in core/data/contentType.schema.omi.json:
-  - Field 'properties.props:associatedFileExtension' removed.
-  - Field 'properties.props:category' removed.
-  - Field 'properties.props:description' added.
-  - Field 'properties.props:fileExtension' added.
-  - Field 'properties.props:specification' added.
-  - Field 'properties.props:relatedMediaType.format' removed.
-  - Field 'properties.props:relatedMediaType._formats' added.
-  - Field 'properties.props:relatedMediaType._instruction' modified.
-  - Field 'required' modified.
-
-Changes in core/data/copyright.schema.omi.json:
-  - Field 'properties.props:year.pattern' modified.
+Changes in core/data/file.schema.omi.json:
+  - Field '_categories' removed.
+  - Field 'properties.props:descendedFrom' removed.
 
 Changes in core/data/fileBundle.schema.omi.json:
-  - Field 'properties.props:IRI' removed.
-  - Field 'properties.props:patternOfFilenames' added.
-  - Field 'properties.props:format._instruction' modified.
-  - Field 'properties.props:hash._linkedTypes' removed.
-  - Field 'properties.props:hash._embeddedTypes' added.
-  - Field 'required' modified.
+  - Field '_categories' removed.
+  - Field 'properties.props:content' removed.
+  - Field 'properties.props:descendedFrom' removed.
 
 Changes in core/data/fileRepository.schema.omi.json:
-  - Field 'properties.props:repositoryType' added.
-  - Field 'properties.props:format._instruction' modified.
-  - Field 'properties.props:hash._linkedTypes' removed.
-  - Field 'properties.props:hash._embeddedTypes' added.
-  - Field 'properties.props:IRI.format' removed.
-  - Field 'properties.props:IRI._formats' added.
+  - Field 'properties.props:contentTypePattern' removed.
+  - Field 'properties.props:structurePattern' removed.
 
-Changes in core/data/license.schema.omi.json:
-  - Field 'properties.props:deed' removed.
-  - Field 'properties.props:webpage' added.
-  - Field 'properties.props:legalCode.format' removed.
-  - Field 'properties.props:legalCode._formats' added.
+Changes in core/miscellaneous/DOI.schema.omi.json:
+  - Field 'required' removed.
+  - Field 'requires' added.
 
-Changes in core/miscellaneous/funding.schema.omi.json:
-  - Field 'properties.props:funder._linkedTypes' modified.
+Changes in core/miscellaneous/GRIDID.schema.omi.json:
+  - Field 'required' removed.
+  - Field 'requires' added.
 
-Changes in core/miscellaneous/quantitativeValue.schema.omi.json:
-  - Field 'properties.props:typeOfUncertainty' added.
+Changes in core/miscellaneous/ISBN.schema.omi.json:
+  - Field 'required' removed.
+  - Field 'requires' added.
+  - Field 'properties.props:identifier._instruction' modified.
 
-Changes in core/miscellaneous/quantitativeValueRange.schema.omi.json:
-  - Field 'properties.props:unit' added.
-  - Field 'properties.props:maxValue._embeddedTypes' removed.
-  - Field 'properties.props:maxValue.nameForReverseLink' removed.
-  - Field 'properties.props:maxValue.type' added.
-  - Field 'properties.props:maxValue._instruction' modified.
-  - Field 'properties.props:minValue._embeddedTypes' removed.
-  - Field 'properties.props:minValue.nameForReverseLink' removed.
-  - Field 'properties.props:minValue.type' added.
-  - Field 'properties.props:minValue._instruction' modified.
+Changes in core/miscellaneous/ORCID.schema.omi.json:
+  - Field 'required' removed.
+  - Field 'requires' added.
 
-Changes in core/products/dataset.schema.omi.json:
-  - Field 'properties.props:author' added.
-  - Field 'properties.props:custodian' added.
-  - Field 'properties.props:howToCite' added.
-  - Field 'properties.props:description._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
-  - Field 'properties.props:fullName._instruction' modified.
-  - Field 'properties.props:homepage.format' removed.
-  - Field 'properties.props:homepage.formatting' removed.
-  - Field 'properties.props:homepage.multiline' removed.
-  - Field 'properties.props:homepage.type' removed.
-  - Field 'properties.props:homepage._linkedTypes' added.
-  - Field 'properties.props:homepage.nameForReverseLink' added.
-  - Field 'properties.props:homepage._instruction' modified.
-  - Field 'required' modified.
+Changes in core/miscellaneous/RORID.schema.omi.json:
+  - Field 'required' removed.
+  - Field 'requires' added.
+
+Changes in core/miscellaneous/SWHID.schema.omi.json:
+  - Field 'required' removed.
+  - Field 'requires' added.
+
+Changes in core/miscellaneous/URL.schema.omi.json:
+  - Field 'required' removed.
+  - Field 'requires' added.
 
 Changes in core/products/datasetVersion.schema.omi.json:
-  - Field 'properties.props:developer' removed.
-  - Field 'properties.props:hasAlternativeVersion' removed.
-  - Field 'properties.props:hasSupplementVersion' removed.
-  - Field 'properties.props:modality' removed.
-  - Field 'properties.props:experimentalApproach' added.
-  - Field 'properties.props:howToCite' added.
-  - Field 'properties.props:inputData' added.
-  - Field 'properties.props:isAlternativeVersionOf' added.
+  - Field 'properties.props:behavioralTask' removed.
+  - Field 'properties.props:technique' removed.
   - Field 'properties.props:protocol' added.
-  - Field 'properties.props:studiedSpecimen' added.
-  - Field 'properties.props:supportChannel' added.
-  - Field 'properties.props:author._instruction' modified.
-  - Field 'properties.props:description._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
-  - Field 'properties.props:fullDocumentation._instruction' modified.
-  - Field 'properties.props:fullDocumentation._linkedTypes' modified.
-  - Field 'properties.props:fullName._instruction' modified.
-  - Field 'properties.props:homepage.format' removed.
-  - Field 'properties.props:homepage.formatting' removed.
-  - Field 'properties.props:homepage.multiline' removed.
-  - Field 'properties.props:homepage.type' removed.
-  - Field 'properties.props:homepage._linkedTypes' added.
-  - Field 'properties.props:homepage.nameForReverseLink' added.
-  - Field 'properties.props:homepage._instruction' modified.
-  - Field 'properties.props:license._instruction' modified.
-  - Field 'properties.props:otherContribution._linkedTypes' removed.
-  - Field 'properties.props:otherContribution._embeddedTypes' added.
-  - Field 'properties.props:relatedPublication._linkedTypes' modified.
-  - Field 'properties.props:releaseDate.format' removed.
-  - Field 'properties.props:releaseDate._formats' added.
-  - Field 'properties.props:type._linkedTypes' modified.
-  - Field 'properties.props:versionInnovation._instruction' modified.
-  - Field 'required' modified.
-
-Changes in core/products/metaDataModel.schema.omi.json:
-  - Field 'properties.props:custodian' added.
-  - Field 'properties.props:developer' added.
-  - Field 'properties.props:howToCite' added.
-  - Field 'properties.props:description._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
-  - Field 'properties.props:fullName._instruction' modified.
-  - Field 'properties.props:homepage.format' removed.
-  - Field 'properties.props:homepage.formatting' removed.
-  - Field 'properties.props:homepage.multiline' removed.
-  - Field 'properties.props:homepage.type' removed.
-  - Field 'properties.props:homepage._linkedTypes' added.
-  - Field 'properties.props:homepage.nameForReverseLink' added.
-  - Field 'properties.props:homepage._instruction' modified.
   - Field 'required' modified.
 
 Changes in core/products/metaDataModelVersion.schema.omi.json:
-  - Field 'properties.props:author' removed.
-  - Field 'properties.props:hasAlternativeVersion' removed.
-  - Field 'properties.props:hasSupplementVersion' removed.
-  - Field 'properties.props:howToCite' added.
-  - Field 'properties.props:isAlternativeVersionOf' added.
-  - Field 'properties.props:supportChannel' added.
-  - Field 'properties.props:description._instruction' modified.
-  - Field 'properties.props:developer._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
-  - Field 'properties.props:fullDocumentation._instruction' modified.
-  - Field 'properties.props:fullDocumentation._linkedTypes' modified.
-  - Field 'properties.props:fullName._instruction' modified.
-  - Field 'properties.props:homepage.format' removed.
-  - Field 'properties.props:homepage.formatting' removed.
-  - Field 'properties.props:homepage.multiline' removed.
-  - Field 'properties.props:homepage.type' removed.
-  - Field 'properties.props:homepage._linkedTypes' added.
-  - Field 'properties.props:homepage.nameForReverseLink' added.
-  - Field 'properties.props:homepage._instruction' modified.
-  - Field 'properties.props:license._instruction' modified.
-  - Field 'properties.props:otherContribution._linkedTypes' removed.
-  - Field 'properties.props:otherContribution._embeddedTypes' added.
-  - Field 'properties.props:relatedPublication._linkedTypes' modified.
-  - Field 'properties.props:releaseDate.format' removed.
-  - Field 'properties.props:releaseDate._formats' added.
-  - Field 'properties.props:versionInnovation._instruction' modified.
   - Field 'required' modified.
 
 Changes in core/products/model.schema.omi.json:
-  - Field 'properties.props:abstractionLevel' added.
-  - Field 'properties.props:custodian' added.
-  - Field 'properties.props:developer' added.
-  - Field 'properties.props:howToCite' added.
-  - Field 'properties.props:scope' added.
-  - Field 'properties.props:studyTarget' added.
-  - Field 'properties.props:description._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
-  - Field 'properties.props:fullName._instruction' modified.
-  - Field 'properties.props:homepage.format' removed.
-  - Field 'properties.props:homepage.formatting' removed.
-  - Field 'properties.props:homepage.multiline' removed.
-  - Field 'properties.props:homepage.type' removed.
-  - Field 'properties.props:homepage._linkedTypes' added.
-  - Field 'properties.props:homepage.nameForReverseLink' added.
-  - Field 'properties.props:homepage._instruction' modified.
-  - Field 'required' modified.
+  - Field 'properties.props:studyTarget.nameForReverseLink' added.
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
 
 Changes in core/products/modelVersion.schema.omi.json:
-  - Field 'properties.props:abstractionLevel' removed.
-  - Field 'properties.props:author' removed.
-  - Field 'properties.props:hasAlternativeVersion' removed.
-  - Field 'properties.props:hasSupplementVersion' removed.
-  - Field 'properties.props:scope' removed.
-  - Field 'properties.props:studyTarget' removed.
-  - Field 'properties.props:howToCite' added.
-  - Field 'properties.props:isAlternativeVersionOf' added.
-  - Field 'properties.props:supportChannel' added.
-  - Field 'properties.props:description._instruction' modified.
-  - Field 'properties.props:developer._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
-  - Field 'properties.props:fullDocumentation._instruction' modified.
-  - Field 'properties.props:fullDocumentation._linkedTypes' modified.
-  - Field 'properties.props:fullName._instruction' modified.
-  - Field 'properties.props:homepage.format' removed.
-  - Field 'properties.props:homepage.formatting' removed.
-  - Field 'properties.props:homepage.multiline' removed.
-  - Field 'properties.props:homepage.type' removed.
-  - Field 'properties.props:homepage._linkedTypes' added.
-  - Field 'properties.props:homepage.nameForReverseLink' added.
-  - Field 'properties.props:homepage._instruction' modified.
-  - Field 'properties.props:inputData.minItems' added.
-  - Field 'properties.props:inputData.type' added.
-  - Field 'properties.props:inputData.uniqueItems' added.
-  - Field 'properties.props:inputData._linkedTypes' modified.
-  - Field 'properties.props:license.minItems' added.
-  - Field 'properties.props:license.type' added.
-  - Field 'properties.props:license.uniqueItems' added.
-  - Field 'properties.props:license._instruction' modified.
-  - Field 'properties.props:otherContribution._linkedTypes' removed.
-  - Field 'properties.props:otherContribution._embeddedTypes' added.
-  - Field 'properties.props:outputData.minItems' added.
-  - Field 'properties.props:outputData.type' added.
-  - Field 'properties.props:outputData.uniqueItems' added.
-  - Field 'properties.props:outputData._linkedTypes' modified.
-  - Field 'properties.props:relatedPublication._linkedTypes' modified.
-  - Field 'properties.props:releaseDate.format' removed.
-  - Field 'properties.props:releaseDate._formats' added.
-  - Field 'properties.props:versionInnovation._instruction' modified.
-  - Field 'required' modified.
-
-Changes in core/products/project.schema.omi.json:
-  - Field 'properties.props:projectLeader' removed.
-  - Field 'properties.props:coordinator' added.
-  - Field 'properties.props:homepage.format' removed.
-  - Field 'properties.props:homepage.formatting' removed.
-  - Field 'properties.props:homepage.multiline' removed.
-  - Field 'properties.props:homepage.type' removed.
-  - Field 'properties.props:homepage._linkedTypes' added.
-  - Field 'properties.props:homepage.nameForReverseLink' added.
-  - Field 'properties.props:homepage._instruction' modified.
-
-Changes in core/products/software.schema.omi.json:
-  - Field 'properties.props:custodian' added.
-  - Field 'properties.props:developer' added.
-  - Field 'properties.props:howToCite' added.
-  - Field 'properties.props:description._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
-  - Field 'properties.props:fullName._instruction' modified.
-  - Field 'properties.props:homepage.format' removed.
-  - Field 'properties.props:homepage.formatting' removed.
-  - Field 'properties.props:homepage.multiline' removed.
-  - Field 'properties.props:homepage.type' removed.
-  - Field 'properties.props:homepage._linkedTypes' added.
-  - Field 'properties.props:homepage.nameForReverseLink' added.
-  - Field 'properties.props:homepage._instruction' modified.
   - Field 'required' modified.
 
 Changes in core/products/softwareVersion.schema.omi.json:
-  - Field 'properties.props:author' removed.
-  - Field 'properties.props:hasAlternativeVersion' removed.
-  - Field 'properties.props:hasFeature' removed.
-  - Field 'properties.props:hasRequirement' removed.
-  - Field 'properties.props:hasSupplementVersion' removed.
-  - Field 'properties.props:feature' added.
-  - Field 'properties.props:hasComponent' added.
-  - Field 'properties.props:howToCite' added.
-  - Field 'properties.props:isAlternativeVersionOf' added.
-  - Field 'properties.props:requirement' added.
-  - Field 'properties.props:supportChannel' added.
-  - Field 'properties.props:description._instruction' modified.
-  - Field 'properties.props:developer._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
-  - Field 'properties.props:fullDocumentation._instruction' modified.
-  - Field 'properties.props:fullDocumentation._linkedTypes' modified.
-  - Field 'properties.props:fullName._instruction' modified.
-  - Field 'properties.props:homepage.format' removed.
-  - Field 'properties.props:homepage.formatting' removed.
-  - Field 'properties.props:homepage.multiline' removed.
-  - Field 'properties.props:homepage.type' removed.
-  - Field 'properties.props:homepage._linkedTypes' added.
-  - Field 'properties.props:homepage.nameForReverseLink' added.
-  - Field 'properties.props:homepage._instruction' modified.
-  - Field 'properties.props:license.minItems' added.
-  - Field 'properties.props:license.type' added.
-  - Field 'properties.props:license.uniqueItems' added.
-  - Field 'properties.props:license._instruction' modified.
-  - Field 'properties.props:otherContribution._linkedTypes' removed.
-  - Field 'properties.props:otherContribution._embeddedTypes' added.
-  - Field 'properties.props:relatedPublication._linkedTypes' modified.
-  - Field 'properties.props:releaseDate.format' removed.
-  - Field 'properties.props:releaseDate._formats' added.
-  - Field 'properties.props:versionInnovation._instruction' modified.
   - Field 'required' modified.
 
 Changes in core/research/protocol.schema.omi.json:
-  - Field 'properties.props:studyTarget' removed.
-  - Field 'properties.props:studyOption' added.
+  - Field 'properties.props:behavioralTask' added.
+  - Field 'properties.props:studyOption.nameForReverseLink' added.
+  - Field 'properties.props:studyOption._linkedTypes' modified.
 
 Changes in core/research/protocolExecution.schema.omi.json:
-  - Field 'properties.props:parameterSetting' removed.
-  - Field 'properties.props:lookupLabel' added.
-  - Field 'properties.props:parameterSet' added.
+  - Field 'properties.props:behavioralTask' removed.
+  - Field 'properties.props:endedAtTime' removed.
+  - Field 'properties.props:isPartOf' removed.
+  - Field 'properties.props:startedAtTime' removed.
+  - Field 'properties.props:semanticallyAnchoredTo' added.
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:input._instruction' modified.
   - Field 'properties.props:input._linkedTypes' modified.
+  - Field 'properties.props:lookupLabel._instruction' modified.
+  - Field 'properties.props:output._instruction' modified.
   - Field 'properties.props:output._linkedTypes' modified.
+  - Field 'properties.props:parameterSet._instruction' modified.
+  - Field 'properties.props:protocol.minItems' removed.
+  - Field 'properties.props:protocol.type' removed.
+  - Field 'properties.props:protocol.uniqueItems' removed.
+  - Field 'properties.props:protocol._instruction' modified.
+  - Field 'properties.props:studyTarget.nameForReverseLink' added.
+  - Field 'properties.props:studyTarget._instruction' modified.
   - Field 'properties.props:studyTarget._linkedTypes' modified.
-
-Changes in core/research/subject.schema.omi.json:
-  - Field 'properties.props:genotype' removed.
-  - Field 'properties.props:isPartOf' added.
-  - Field 'properties.props:lookupLabel' added.
-
-Changes in core/research/subjectGroup.schema.omi.json:
-  - Field 'properties.props:genotype' removed.
-  - Field 'properties.props:additionalRemarks' added.
-  - Field 'properties.props:lookupLabel' added.
+  - Field 'required' modified.
 
 Changes in core/research/subjectGroupState.schema.omi.json:
-  - Field 'properties.props:lookupLabel' added.
-  - Field 'properties.props:handedness._linkedTypes' modified.
+  - Field '_categories' removed.
 
 Changes in core/research/subjectState.schema.omi.json:
-  - Field 'properties.props:lookupLabel' added.
-  - Field 'properties.props:handedness._linkedTypes' modified.
+  - Field '_categories' removed.
 
 Changes in core/research/tissueSample.schema.omi.json:
-  - Field 'properties.props:genotype' removed.
-  - Field 'properties.props:isPartOf' added.
-  - Field 'properties.props:lookupLabel' added.
-
-Changes in core/research/tissueSampleCollection.schema.omi.json:
-  - Field 'properties.props:genotype' removed.
-  - Field 'properties.props:additionalRemarks' added.
-  - Field 'properties.props:lookupLabel' added.
+  - Field 'properties.props:anatomicalLocation' removed.
 
 Changes in core/research/tissueSampleCollectionState.schema.omi.json:
-  - Field 'properties.props:lookupLabel' added.
+  - Field '_categories' removed.
 
 Changes in core/research/tissueSampleState.schema.omi.json:
-  - Field 'properties.props:lookupLabel' added.
+  - Field '_categories' removed.

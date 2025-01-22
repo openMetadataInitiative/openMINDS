@@ -1,0 +1,53 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.ebrains.eu/core/Affiliation",
+  "color": "#A74571",
+  "description": "Structured information about a relationship between two entities, such as a person and their employer.",
+  "label": "Affiliation",
+  "name": "Affiliation",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/endDate": {
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the end date of this affiliation. Leave blank if the affiliation is still current.",
+      "description": "Date in the Gregorian calendar at which something terminates in time.",
+      "formatting": "text/plain",
+      "label": "End date",
+      "labelPlural": "End dates",
+      "multiline": false,
+      "name": "endDate",
+      "namePlural": "endDates",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/organization": {
+      "_instruction": "Add organization to which a person is or was affiliated.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Organization"
+      ],
+      "description": "Legally accountable, administrative and functional structure.",
+      "label": "Organization",
+      "labelPlural": "Organizations",
+      "name": "organization",
+      "nameForReverseLink": null,
+      "namePlural": "organizations"
+    },
+    "https://openminds.ebrains.eu/vocab/startDate": {
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the start date of this affiliation.",
+      "description": "Date in the Gregorian calendar at which something begins in time",
+      "formatting": "text/plain",
+      "label": "Start date",
+      "labelPlural": "Start dates",
+      "multiline": false,
+      "name": "startDate",
+      "namePlural": "startDates",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/organization"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.ebrains.eu/core/ParameterSet",
+  "description": "Structured information on a used parameter set.",
+  "label": "Parameter set",
+  "name": "ParameterSet",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/context": {
+      "_instruction": "Enter the common context for the parameters grouped in this set.",
+      "formatting": "text/plain",
+      "label": "Context",
+      "labelPlural": "Contexts",
+      "multiline": false,
+      "name": "context",
+      "namePlural": "contexts",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/parameter": {
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/NumericalParameter",
+        "https://openminds.ebrains.eu/core/StringParameter"
+      ],
+      "_instruction": "Add all numerical and string parameters that belong to this parameter set.",
+      "description": "Digital or physical property determining a particular function, characteristic or behavior of something.",
+      "label": "Parameter",
+      "labelPlural": "Parameters",
+      "minItems": 1,
+      "name": "parameter",
+      "nameForReverseLink": null,
+      "namePlural": "parameters",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/relevantFor": {
+      "_instruction": "Add the technique or behavioral task where this set of parameters is used in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/BehavioralTask",
+        "https://openminds.ebrains.eu/controlledTerms/Technique"
+      ],
+      "description": "Reference to what or whom something or someone bears significance.",
+      "label": "Relevant for",
+      "labelPlural": "Relevant for",
+      "name": "relevantFor",
+      "nameForReverseLink": null,
+      "namePlural": "relevantFor"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/context",
+    "https://openminds.ebrains.eu/vocab/parameter",
+    "https://openminds.ebrains.eu/vocab/relevantFor"
+  ]
+}
