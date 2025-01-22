@@ -568,7 +568,9 @@
       }
     ],
     "label": "Acquisition duration",
+    "labelPlural": null,
     "name": "acquisitionDuration",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2151,7 +2153,9 @@
       }
     ],
     "label": "B values",
+    "labelPlural": null,
     "name": "bValues",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2185,7 +2189,9 @@
       }
     ],
     "label": "B vectors",
+    "labelPlural": null,
     "name": "bVectors",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2627,7 +2633,9 @@
       }
     ],
     "label": "Captured with",
+    "labelPlural": null,
     "name": "capturedWith",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -2879,7 +2887,9 @@
       }
     ],
     "label": "Color depth",
+    "labelPlural": null,
     "name": "colorDepth",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -3670,7 +3680,9 @@
       }
     ],
     "label": "Contrast agent",
+    "labelPlural": null,
     "name": "contrastAgent",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5571,7 +5583,9 @@
       }
     ],
     "label": "Delay after trigger",
+    "labelPlural": null,
     "name": "delayAfterTrigger",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -5605,7 +5619,9 @@
       }
     ],
     "label": "Delay time",
+    "labelPlural": null,
     "name": "delayTime",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7240,7 +7256,9 @@
       }
     ],
     "label": "Dwell time",
+    "labelPlural": null,
     "name": "dwellTime",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7274,7 +7292,9 @@
       }
     ],
     "label": "Echo time",
+    "labelPlural": null,
     "name": "echoTime",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -7764,7 +7784,9 @@
       }
     ],
     "label": "Ended at time",
+    "labelPlural": null,
     "name": "endedAtTime",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -7970,7 +7992,9 @@
       }
     ],
     "label": "Epoch",
+    "labelPlural": null,
     "name": "epoch",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8337,7 +8361,9 @@
       }
     ],
     "label": "Field map",
+    "labelPlural": null,
     "name": "fieldMap",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8375,7 +8401,9 @@
       }
     ],
     "label": "Field of view",
+    "labelPlural": null,
     "name": "fieldOfView",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -8586,7 +8614,9 @@
       }
     ],
     "label": "Flip angle",
+    "labelPlural": null,
     "name": "flipAngle",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -11520,7 +11550,9 @@
       }
     ],
     "label": "Inter slice gap",
+    "labelPlural": null,
     "name": "interSliceGap",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -12223,7 +12255,9 @@
       }
     ],
     "label": "Inversion time",
+    "labelPlural": null,
     "name": "inversionTime",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -14366,7 +14400,9 @@
       }
     ],
     "label": "M racquisition type",
+    "labelPlural": null,
     "name": "mRAcquisitionType",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -14389,7 +14425,9 @@
       }
     ],
     "label": "M tstate",
+    "labelPlural": null,
     "name": "mTState",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -14423,7 +14461,9 @@
       }
     ],
     "label": "Magnetic field strength",
+    "labelPlural": null,
     "name": "magneticFieldStrength",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -15817,7 +15857,9 @@
       }
     ],
     "label": "Nonlinear gradient correction",
+    "labelPlural": null,
     "name": "nonlinearGradientCorrection",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -15874,7 +15916,9 @@
       }
     ],
     "label": "Number of images",
+    "labelPlural": null,
     "name": "numberOfImages",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -15899,7 +15943,9 @@
       }
     ],
     "label": "Number of slices",
+    "labelPlural": null,
     "name": "numberOfSlices",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -15992,7 +16038,9 @@
       }
     ],
     "label": "Number of volumes",
+    "labelPlural": null,
     "name": "numberOfVolumes",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -16015,7 +16063,9 @@
       }
     ],
     "label": "Number of volumes discarded by scanner",
+    "labelPlural": null,
     "name": "numberOfVolumesDiscardedByScanner",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -16038,7 +16088,9 @@
       }
     ],
     "label": "Number of volumes discarded by user",
+    "labelPlural": null,
     "name": "numberOfVolumesDiscardedByUser",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -16985,7 +17037,9 @@
       }
     ],
     "label": "Parallel acquisition technique",
+    "labelPlural": null,
     "name": "parallelAcquisitionTechnique",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -17344,7 +17398,9 @@
       }
     ],
     "label": "Phase encoding direction",
+    "labelPlural": null,
     "name": "phaseEncodingDirection",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -17545,7 +17601,9 @@
       }
     ],
     "label": "Pixel size",
+    "labelPlural": null,
     "name": "pixelSize",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -18876,7 +18934,9 @@
       }
     ],
     "label": "Pulse sequence type",
+    "labelPlural": null,
     "name": "pulseSequenceType",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -19120,7 +19180,9 @@
       }
     ],
     "label": "Radiofrequency coil type",
+    "labelPlural": null,
     "name": "radiofrequencyCoilType",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -19590,7 +19652,9 @@
       }
     ],
     "label": "Related parcellation term",
+    "labelPlural": null,
     "name": "relatedParcellationTerm",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -20165,7 +20229,9 @@
       }
     ],
     "label": "Repetition time",
+    "labelPlural": null,
     "name": "repetitionTime",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -20551,7 +20617,9 @@
       }
     ],
     "label": "Sbref",
+    "labelPlural": null,
     "name": "sbref",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -21308,7 +21376,9 @@
       }
     ],
     "label": "Slice order",
+    "labelPlural": null,
     "name": "sliceOrder",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -21395,7 +21465,9 @@
       }
     ],
     "label": "Slice timing",
+    "labelPlural": null,
     "name": "sliceTiming",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -22072,7 +22144,9 @@
       }
     ],
     "label": "Specimen orientation",
+    "labelPlural": null,
     "name": "specimenOrientation",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -22097,7 +22171,9 @@
       }
     ],
     "label": "Spoiling state",
+    "labelPlural": null,
     "name": "spoilingState",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -22380,7 +22456,9 @@
       }
     ],
     "label": "Started at time",
+    "labelPlural": null,
     "name": "startedAtTime",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -22885,7 +22963,9 @@
       }
     ],
     "label": "Structural mri",
+    "labelPlural": null,
     "name": "structuralMRI",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -24393,7 +24473,9 @@
       }
     ],
     "label": "Temporal resolution",
+    "labelPlural": null,
     "name": "temporalResolution",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -25695,7 +25777,9 @@
       }
     ],
     "label": "Volume timing",
+    "labelPlural": null,
     "name": "volumeTiming",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
