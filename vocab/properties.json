@@ -7097,7 +7097,9 @@
       }
     ],
     "label": "Ended at time",
+    "labelPlural": null,
     "name": "endedAtTime",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
@@ -7300,7 +7302,9 @@
       }
     ],
     "label": "Epoch",
+    "labelPlural": null,
     "name": "epoch",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "latest": [
@@ -20373,7 +20377,9 @@
       }
     ],
     "label": "Started at time",
+    "labelPlural": null,
     "name": "startedAtTime",
+    "namePlural": null,
     "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
