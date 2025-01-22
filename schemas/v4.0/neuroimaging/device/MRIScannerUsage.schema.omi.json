@@ -25,6 +25,18 @@
       "name": "bVectors",
       "nameForReverseLink": null
     },
+    "https://openminds.om-i.org/props/device": {
+      "_instruction": "Add the MRI Scanner used.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/MRIScanner"
+      ],
+      "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
+      "label": "Device",
+      "labelPlural": "Devices",
+      "name": "device",
+      "nameForReverseLink": null,
+      "namePlural": "devices"
+    },
     "https://openminds.om-i.org/props/dwellTime": {
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValue"
