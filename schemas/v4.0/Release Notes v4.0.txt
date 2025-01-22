@@ -142,19 +142,4 @@ Changes in specimenPrep/activity/tissueSampleSlicing.schema.omi.json:
   - Field 'required' modified.
 
 Changes in stimulation/activity/stimulationActivity.schema.omi.json:
-  - Field 'properties.props:output._instruction' modified.
-  - Field 'properties.props:output._linkedTypes' modified.
-  - Field 'properties.props:stimulus.nameForReverseLink' added.
-  - Field 'properties.props:stimulus._linkedTypes' modified.
   - Field 'properties.props:studyTarget._linkedTypes' modified.
-
-Changes in stimulation/stimulus/ephysStimulus.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'required' added.
-  - Field 'properties.props:deliveredBy' added.
-  - Field 'properties.props:description' added.
-  - Field 'properties.props:epoch' added.
-  - Field 'properties.props:generatedBy' added.
-  - Field 'properties.props:internalIdentifier' added.
-  - Field 'properties.props:lookupLabel' added.
-  - Field 'properties.props:specification' added.

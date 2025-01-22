@@ -461,6 +461,9 @@
       "ephys:Pipette",
       "specimenPrep:SlicingDevice"
     ],
+    "stimulus": [
+      "stimulation:EphysStimulus"
+    ],
     "stimulusType": [
       "controlledTerms:AuditoryStimulusType",
       "controlledTerms:ElectricalStimulusType",

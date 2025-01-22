@@ -284,31 +284,10 @@
     },
     {
       "file": "stimulation/activity/stimulationActivity.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:stimulus.nameForReverseLink"
-      ],
       "modifiedAttributes": [
-        "properties.props:output._instruction",
-        "properties.props:output._linkedTypes",
-        "properties.props:stimulus._linkedTypes",
         "properties.props:studyTarget._linkedTypes"
       ],
       "schemaType": "StimulationActivity"
-    },
-    {
-      "file": "stimulation/stimulus/ephysStimulus.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "required",
-        "properties.props:deliveredBy",
-        "properties.props:description",
-        "properties.props:epoch",
-        "properties.props:generatedBy",
-        "properties.props:internalIdentifier",
-        "properties.props:lookupLabel",
-        "properties.props:specification"
-      ],
-      "schemaType": "EphysStimulus"
     }
   ]
 }
