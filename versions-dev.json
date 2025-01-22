@@ -130,52 +130,42 @@
     "modules": {
       "SANDS": {
         "branch": "v4",
-        "commit": "9d3ed733c65ed0959364ee0255877224f5167414",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_SANDS.git"
       },
       "chemicals": {
         "branch": "v2",
-        "commit": "fab4986659c4abd6e9a41356b9cd7c6f0cf88cc5",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_chemicals.git"
       },
       "computation": {
         "branch": "v2",
-        "commit": "ada215e3ae768948918d651aa4ff99e3372f04fd",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_computation.git"
       },
       "controlledTerms": {
         "branch": "v2",
-        "commit": "2fd8b53fe1fdda8e8e7be79cce6426ce2d5360b3",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_controlledTerms.git"
       },
       "core": {
         "branch": "v5",
-        "commit": "5a64aa9dd0db8ac07b9010c7d51963d06f19a58f",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_core.git"
       },
       "ephys": {
         "branch": "v2",
-        "commit": "3a043926e04184a5c4dbb92992301303d5d79f31",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_ephys.git"
       },
       "publications": {
         "branch": "v2",
-        "commit": "104783cc7330ef4e4a9118b4de612c0eec46cc85",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_publications.git"
       },
       "specimenPrep": {
         "branch": "v2",
-        "commit": "10ee61dd93e614385772d5fc5fbe59f8016c8136",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_specimenPrep.git"
       },
       "stimulation": {
         "branch": "v2",
-        "commit": "da22d249e824dc02c1ad0e358f82430a2afa2a87",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_stimulation.git"
       },
       "neuroimaging": {
         "branch": "dev",
-        "commit": "e94c255620c8bb9cc1f42b8d3847a38f9b4ca710",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_neuroimaging.git"
       }
     }
