@@ -41,22 +41,27 @@ Instance contributions should be raised and discussed on the :arrow_right: [**op
 ## How to cite
 
 If you want to reference openMINDS in general, please use always our main RRID Portal record:  
-:arrow_right:  `openMINDS metadata framework (RRID:SCR_023173)`  
+```
+openMINDS metadata framework (RRID:SCR_023173)
+```  
 
 We also have a citable FAIRsharing.org record:  
-:arrow_right: `FAIRsharing.org: openMINDS; openMINDS metadata framework, DOI: https://doi.org/10.25504/FAIRsharing.6ac6aa`
+```
+FAIRsharing.org: openMINDS; openMINDS metadata framework, DOI: https://doi.org/10.25504/FAIRsharing.6ac6aa
+```
 
 For referencing specific openMINDS submodules, please use the following RRID Portal records:  
-:arrow_right:  `openMINDS chemicals metadata model (RRID:SCR_026248)`  
-:arrow_right:  `openMINDS computation metadata model (RRID:SCR_026249)`  
-:arrow_right:  `openMINDS controlledTerms metadata model (RRID:SCR_026247)`  
-:arrow_right:  `openMINDS core metadata model (RRID:SCR_026246)`  
-:arrow_right:  `openMINDS ephys metadata model (RRID:SCR_026250)`  
-:arrow_right:  `openMINDS publications metadata model (RRID:SCR_026251)`  
-:arrow_right:  `openMINDS SANDS metadata model (RRID:SCR_023498)`  
-:arrow_right:  `openMINDS specimenPrep metadata model (RRID:SCR_026252)`  
-:arrow_right:  `openMINDS stimulation metadata model (RRID:SCR_026253)`  
-
+```
+openMINDS chemicals metadata model (RRID:SCR_026248)  
+openMINDS computation metadata model (RRID:SCR_026249)  
+openMINDS controlledTerms metadata model (RRID:SCR_026247)  
+openMINDS core metadata model (RRID:SCR_026246)  
+openMINDS ephys metadata model (RRID:SCR_026250)  
+openMINDS publications metadata model (RRID:SCR_026251)  
+openMINDS SANDS metadata model (RRID:SCR_023498)  
+openMINDS specimenPrep metadata model (RRID:SCR_026252)  
+openMINDS stimulation metadata model (RRID:SCR_026253)
+```  
 
 ## Funding and acknowledgements
 
