@@ -1,0 +1,296 @@
+Release Notes v2.0:
+
+Added files:
+  - controlledTerms/experimentalApproach.schema.omi.json
+  - controlledTerms/fileRepositoryType.schema.omi.json
+  - controlledTerms/handedness.schema.omi.json
+  - controlledTerms/semanticDataType.schema.omi.json
+  - controlledTerms/typeOfUncertainty.schema.omi.json
+  - controlledTerms/UBERONParcellation.schema.omi.json
+  - SANDS/atlas/atlasAnnotation.schema.omi.json
+  - SANDS/atlas/commonCoordinateSpace.schema.omi.json
+  - SANDS/atlas/parcellationEntity.schema.omi.json
+  - SANDS/atlas/parcellationTerminology.schema.omi.json
+  - SANDS/miscellaneous/qualitativeRelationAssessment.schema.omi.json
+  - SANDS/miscellaneous/quantitativeRelationAssessment.schema.omi.json
+  - SANDS/non-atlas/customAnatomicalEntity.schema.omi.json
+  - SANDS/non-atlas/customAnnotation.schema.omi.json
+  - SANDS/non-atlas/customCoordinateSpace.schema.omi.json
+
+Removed files:
+  - controlledTerms/datasetType.schema.omi.json
+  - controlledTerms/genotype.schema.omi.json
+  - controlledTerms/modality.schema.omi.json
+  - controlledTerms/softwareFeatureCategory.schema.omi.json
+  - core/data/contentTypePattern.schema.omi.json
+  - core/data/filePathPattern.schema.omi.json
+  - core/data/fileRepositoryStructure.schema.omi.json
+  - core/data/serviceLink.schema.omi.json
+  - core/research/behavioralTask.schema.omi.json
+  - SANDS/anatomicalEntity.schema.omi.json
+  - SANDS/anatomicalEntityRelation.schema.omi.json
+  - SANDS/annotation.schema.omi.json
+  - SANDS/atlasTerminology.schema.omi.json
+  - SANDS/coordinateSpace.schema.omi.json
+  - SANDS/image.schema.omi.json
+
+Moved files:
+  - SANDS/brainAtlas.schema.omi.json moved to SANDS/atlas/brainAtlas.schema.omi.json
+  - SANDS/brainAtlasVersion.schema.omi.json moved to SANDS/atlas/brainAtlasVersion.schema.omi.json
+  - SANDS/coordinatePoint.schema.omi.json moved to SANDS/miscellaneous/coordinatePoint.schema.omi.json
+  - SANDS/electrode.schema.omi.json moved to SANDS/non-atlas/electrode.schema.omi.json
+  - SANDS/electrodeArray.schema.omi.json moved to SANDS/non-atlas/electrodeArray.schema.omi.json
+  - SANDS/electrodeContact.schema.omi.json moved to SANDS/non-atlas/electrodeContact.schema.omi.json
+
+Changes in controlledTerms/ageCategory.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/anatomicalAxesOrientation.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/behavioralTask.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/biologicalSex.schema.omi.json:
+  - Field '_categories' added.
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/cellType.schema.omi.json:
+  - Field '_categories' added.
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/contributionType.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/criteriaQualityType.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/disease.schema.omi.json:
+  - Field '_categories' added.
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/diseaseModel.schema.omi.json:
+  - Field '_categories' added.
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/ethicsAssessment.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/fileBundleGrouping.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/fileUsageRole.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/language.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/laterality.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/metaDataModelType.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/modelAbstractionLevel.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/modelScope.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/operatingDevice.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/operatingSystem.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/organ.schema.omi.json:
+  - Field '_categories' added.
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/phenotype.schema.omi.json:
+  - Field '_categories' added.
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/preparationType.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/productAccessibility.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/programmingLanguage.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/qualitativeOverlap.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/softwareApplicationCategory.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/softwareFeature.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/species.schema.omi.json:
+  - Field '_categories' added.
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/strain.schema.omi.json:
+  - Field '_categories' added.
+  - Field 'properties.props:identifier' added.
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/technique.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/terminology.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/termSuggestion.schema.omi.json:
+  - Field '_categories' added.
+  - Field 'properties.props:terminology' removed.
+  - Field 'properties.props:addExistingTerminology' added.
+  - Field 'properties.props:suggestNewTerminology' added.
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+  - Field 'required' modified.
+
+Changes in controlledTerms/tissueSampleType.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in controlledTerms/unitOfMeasurement.schema.omi.json:
+  - Field 'properties.props:ontologyIdentifier.format' removed.
+  - Field 'properties.props:ontologyIdentifier._formats' added.
+
+Changes in core/data/file.schema.omi.json:
+  - Field '_categories' removed.
+  - Field 'properties.props:descendedFrom' removed.
+
+Changes in core/data/fileBundle.schema.omi.json:
+  - Field '_categories' removed.
+  - Field 'properties.props:content' removed.
+  - Field 'properties.props:descendedFrom' removed.
+
+Changes in core/data/fileRepository.schema.omi.json:
+  - Field 'properties.props:contentTypePattern' removed.
+  - Field 'properties.props:structurePattern' removed.
+
+Changes in core/miscellaneous/DOI.schema.omi.json:
+  - Field 'required' removed.
+  - Field 'requires' added.
+
+Changes in core/miscellaneous/GRIDID.schema.omi.json:
+  - Field 'required' removed.
+  - Field 'requires' added.
+
+Changes in core/miscellaneous/ISBN.schema.omi.json:
+  - Field 'required' removed.
+  - Field 'requires' added.
+  - Field 'properties.props:identifier._instruction' modified.
+
+Changes in core/miscellaneous/ORCID.schema.omi.json:
+  - Field 'required' removed.
+  - Field 'requires' added.
+
+Changes in core/miscellaneous/RORID.schema.omi.json:
+  - Field 'required' removed.
+  - Field 'requires' added.
+
+Changes in core/miscellaneous/SWHID.schema.omi.json:
+  - Field 'required' removed.
+  - Field 'requires' added.
+
+Changes in core/miscellaneous/URL.schema.omi.json:
+  - Field 'required' removed.
+  - Field 'requires' added.
+
+Changes in core/products/datasetVersion.schema.omi.json:
+  - Field 'properties.props:behavioralTask' removed.
+  - Field 'properties.props:technique' removed.
+  - Field 'properties.props:protocol' added.
+  - Field 'required' modified.
+
+Changes in core/products/metaDataModelVersion.schema.omi.json:
+  - Field 'required' modified.
+
+Changes in core/products/model.schema.omi.json:
+  - Field 'properties.props:studyTarget.nameForReverseLink' added.
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
+
+Changes in core/products/modelVersion.schema.omi.json:
+  - Field 'required' modified.
+
+Changes in core/products/softwareVersion.schema.omi.json:
+  - Field 'required' modified.
+
+Changes in core/research/protocol.schema.omi.json:
+  - Field 'properties.props:behavioralTask' added.
+  - Field 'properties.props:studyOption.nameForReverseLink' added.
+  - Field 'properties.props:studyOption._linkedTypes' modified.
+
+Changes in core/research/protocolExecution.schema.omi.json:
+  - Field 'properties.props:behavioralTask' removed.
+  - Field 'properties.props:endedAtTime' removed.
+  - Field 'properties.props:isPartOf' removed.
+  - Field 'properties.props:startedAtTime' removed.
+  - Field 'properties.props:semanticallyAnchoredTo' added.
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:input._instruction' modified.
+  - Field 'properties.props:input._linkedTypes' modified.
+  - Field 'properties.props:lookupLabel._instruction' modified.
+  - Field 'properties.props:output._instruction' modified.
+  - Field 'properties.props:output._linkedTypes' modified.
+  - Field 'properties.props:parameterSet._instruction' modified.
+  - Field 'properties.props:protocol.minItems' removed.
+  - Field 'properties.props:protocol.type' removed.
+  - Field 'properties.props:protocol.uniqueItems' removed.
+  - Field 'properties.props:protocol._instruction' modified.
+  - Field 'properties.props:studyTarget.nameForReverseLink' added.
+  - Field 'properties.props:studyTarget._instruction' modified.
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
+  - Field 'required' modified.
+
+Changes in core/research/subjectGroupState.schema.omi.json:
+  - Field '_categories' removed.
+
+Changes in core/research/subjectState.schema.omi.json:
+  - Field '_categories' removed.
+
+Changes in core/research/tissueSample.schema.omi.json:
+  - Field 'properties.props:anatomicalLocation' removed.
+
+Changes in core/research/tissueSampleCollectionState.schema.omi.json:
+  - Field '_categories' removed.
+
+Changes in core/research/tissueSampleState.schema.omi.json:
+  - Field '_categories' removed.
