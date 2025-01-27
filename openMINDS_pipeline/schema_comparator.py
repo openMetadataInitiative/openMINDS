@@ -227,8 +227,8 @@ def generate_changelogs_and_compatibility_resolution(versions: Dict[str, Dict[st
         # Save changelogs in txt and JSON formats
         changelog_dir = os.path.join(target_directory, 'schemas', current_version)
         os.makedirs(changelog_dir, exist_ok=True)
-        save_file(os.path.join(changelog_dir, f"Release Notes {current_version}.txt"), changelog_content)
-        save_file(os.path.join(changelog_dir, f"Release Notes {current_version}.json"),
+        save_file(os.path.join(changelog_dir, f"release_notes_{current_version}.txt"), changelog_content)
+        save_file(os.path.join(changelog_dir, f"release_notes_{current_version}.json"),
                   structured_changelog_content, is_json=True)
 
         enrich_types_with_identical(vocab_types, changed_types, previous_version, current_version, i)
