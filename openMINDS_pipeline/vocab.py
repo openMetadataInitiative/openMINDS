@@ -44,8 +44,6 @@ def _enrich_with_property_information(version: str, p, properties, schema, prope
             schema["properties"][property_with_namespace]["name"] = prop["name"]
         if "namePlural" in prop and prop["namePlural"]:
             schema["properties"][property_with_namespace]["namePlural"] = prop["namePlural"]
-        if "semanticEquivalent" in prop and prop["semanticEquivalent"]:
-            schema["properties"][property_with_namespace]["semanticEquivalent"] = prop["semanticEquivalent"]
 
         embedded_types, linked_types, edge = is_edge(schema["properties"][property_with_namespace])
         if edge and "asEdge" in prop:
@@ -66,8 +64,6 @@ def _enrich_with_type_information(schema, type, types):
         schema["name"] = t["name"]
     if "label" in t and t["label"]:
         schema["label"] = t["label"]
-    if "semanticEquivalent" in t and t["semanticEquivalent"]:
-        schema["semanticEquivalent"] = t["semanticEquivalent"]
     if "color" in t and t["color"]:
         schema["color"] = t["color"]
 
@@ -164,8 +160,7 @@ class TypeExtractor(Types):
 
         if t in self._types:
             for k in list(self._types[t].keys()):
-                if k not in ["label", "labelPlural", "name", "namePlural", "description", "semanticEquivalent",
-                             "isPartOfVersion", "color", "hasNamespace"]:
+                if k not in ["label", "labelPlural", "name", "namePlural", "description", "isPartOfVersion", "color", "hasNamespace"]:
                     del self._types[t][k]
         simple_name = os.path.basename(t)
         if t not in self._types:
@@ -176,9 +171,6 @@ class TypeExtractor(Types):
             self._types[t]["description"] = None
         if "color" not in self._types[t]:
             self._types[t]["color"] = None
-        if "semanticEquivalent" not in self._types[t]:
-            self._types[t]["semanticEquivalent"] = []
-        self._types[t]["semanticEquivalent"].sort()
 
         # properties to be solely managed by the automation
         self._types[t]["label"] = _camel_case_to_human_readable(simple_name)
@@ -269,15 +261,12 @@ class PropertyExtractor(Property):
         prop = self._properties[property]
         # Clear all unexpected fields
         for k in list(prop.keys()):
-            if k not in ["label", "labelPlural", "name", "namePlural", "description", "semanticEquivalent", "asEdge", "asString", "usedIn", "hasNamespace"]:
+            if k not in ["label", "labelPlural", "name", "namePlural", "description", "asEdge", "asString", "usedIn", "hasNamespace"]:
                 del prop[k]
 
         # Set default values for manually managed properties
         if "description" not in prop:
             prop["description"] = None
-        if "semanticEquivalent" not in prop:
-            prop["semanticEquivalent"] = []
-        prop["semanticEquivalent"].sort()
 
         # Automatically calculated values
         unqualified_property = os.path.basename(property)
