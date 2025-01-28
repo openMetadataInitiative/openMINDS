@@ -30,8 +30,7 @@
       "v4.0"
     ],
     "label": "Account information",
-    "name": "AccountInformation",
-    "semanticEquivalent": []
+    "name": "AccountInformation"
   },
   "ActionStatusType": {
     "color": "#E6ECDC",
@@ -64,8 +63,7 @@
       "v4.0"
     ],
     "label": "Action status type",
-    "name": "ActionStatusType",
-    "semanticEquivalent": []
+    "name": "ActionStatusType"
   },
   "Affiliation": {
     "color": "#A74571",
@@ -106,8 +104,7 @@
       "v4.0"
     ],
     "label": "Affiliation",
-    "name": "Affiliation",
-    "semanticEquivalent": []
+    "name": "Affiliation"
   },
   "AgeCategory": {
     "color": "#AFCE78",
@@ -150,8 +147,7 @@
       "v4.0"
     ],
     "label": "Age category",
-    "name": "AgeCategory",
-    "semanticEquivalent": []
+    "name": "AgeCategory"
   },
   "AmountOfChemical": {
     "color": "#561A02",
@@ -184,8 +180,7 @@
       "v4.0"
     ],
     "label": "Amount of chemical",
-    "name": "AmountOfChemical",
-    "semanticEquivalent": []
+    "name": "AmountOfChemical"
   },
   "AnalysisTechnique": {
     "color": "#FF0020",
@@ -218,8 +213,7 @@
       "v4.0"
     ],
     "label": "Analysis technique",
-    "name": "AnalysisTechnique",
-    "semanticEquivalent": []
+    "name": "AnalysisTechnique"
   },
   "AnatomicalAxesOrientation": {
     "color": "#B6E4DE",
@@ -262,8 +256,7 @@
       "v4.0"
     ],
     "label": "Anatomical axes orientation",
-    "name": "AnatomicalAxesOrientation",
-    "semanticEquivalent": []
+    "name": "AnatomicalAxesOrientation"
   },
   "AnatomicalEntity": {
     "color": null,
@@ -285,8 +278,7 @@
       "v1.0"
     ],
     "label": "Anatomical entity",
-    "name": "AnatomicalEntity",
-    "semanticEquivalent": []
+    "name": "AnatomicalEntity"
   },
   "AnatomicalEntityRelation": {
     "color": null,
@@ -308,8 +300,7 @@
       "v1.0"
     ],
     "label": "Anatomical entity relation",
-    "name": "AnatomicalEntityRelation",
-    "semanticEquivalent": []
+    "name": "AnatomicalEntityRelation"
   },
   "AnatomicalIdentificationType": {
     "color": "#203B3C",
@@ -342,8 +333,7 @@
       "v4.0"
     ],
     "label": "Anatomical identification type",
-    "name": "AnatomicalIdentificationType",
-    "semanticEquivalent": []
+    "name": "AnatomicalIdentificationType"
   },
   "AnatomicalPlane": {
     "color": "#9DEBDD",
@@ -376,8 +366,7 @@
       "v4.0"
     ],
     "label": "Anatomical plane",
-    "name": "AnatomicalPlane",
-    "semanticEquivalent": []
+    "name": "AnatomicalPlane"
   },
   "AnatomicalTargetPosition": {
     "color": null,
@@ -410,8 +399,7 @@
       "v4.0"
     ],
     "label": "Anatomical target position",
-    "name": "AnatomicalTargetPosition",
-    "semanticEquivalent": []
+    "name": "AnatomicalTargetPosition"
   },
   "Annotation": {
     "color": null,
@@ -433,8 +421,7 @@
       "v1.0"
     ],
     "label": "Annotation",
-    "name": "Annotation",
-    "semanticEquivalent": []
+    "name": "Annotation"
   },
   "AnnotationCriteriaType": {
     "color": "#1D1702",
@@ -467,8 +454,7 @@
       "v4.0"
     ],
     "label": "Annotation criteria type",
-    "name": "AnnotationCriteriaType",
-    "semanticEquivalent": []
+    "name": "AnnotationCriteriaType"
   },
   "AnnotationType": {
     "color": "#EAE408",
@@ -501,8 +487,7 @@
       "v4.0"
     ],
     "label": "Annotation type",
-    "name": "AnnotationType",
-    "semanticEquivalent": []
+    "name": "AnnotationType"
   },
   "AtlasAnnotation": {
     "color": null,
@@ -540,8 +525,7 @@
       "v4.0"
     ],
     "label": "Atlas annotation",
-    "name": "AtlasAnnotation",
-    "semanticEquivalent": []
+    "name": "AtlasAnnotation"
   },
   "AtlasTerminology": {
     "color": null,
@@ -563,8 +547,7 @@
       "v1.0"
     ],
     "label": "Atlas terminology",
-    "name": "AtlasTerminology",
-    "semanticEquivalent": []
+    "name": "AtlasTerminology"
   },
   "AtlasType": {
     "color": "#F3BDA4",
@@ -597,8 +580,7 @@
       "v4.0"
     ],
     "label": "Atlas type",
-    "name": "AtlasType",
-    "semanticEquivalent": []
+    "name": "AtlasType"
   },
   "AuditoryStimulusType": {
     "color": "#766E52",
@@ -631,8 +613,7 @@
       "v4.0"
     ],
     "label": "Auditory stimulus type",
-    "name": "AuditoryStimulusType",
-    "semanticEquivalent": []
+    "name": "AuditoryStimulusType"
   },
   "BehavioralProtocol": {
     "color": "#73BE54",
@@ -665,8 +646,7 @@
       "v4.0"
     ],
     "label": "Behavioral protocol",
-    "name": "BehavioralProtocol",
-    "semanticEquivalent": []
+    "name": "BehavioralProtocol"
   },
   "BehavioralTask": {
     "color": null,
@@ -699,8 +679,7 @@
       "v2.0"
     ],
     "label": "Behavioral task",
-    "name": "BehavioralTask",
-    "semanticEquivalent": []
+    "name": "BehavioralTask"
   },
   "BiologicalOrder": {
     "color": "#69255C",
@@ -733,8 +712,7 @@
       "v4.0"
     ],
     "label": "Biological order",
-    "name": "BiologicalOrder",
-    "semanticEquivalent": []
+    "name": "BiologicalOrder"
   },
   "BiologicalProcess": {
     "color": null,
@@ -767,8 +745,7 @@
       "v4.0"
     ],
     "label": "Biological process",
-    "name": "BiologicalProcess",
-    "semanticEquivalent": []
+    "name": "BiologicalProcess"
   },
   "BiologicalSex": {
     "color": "#CDE6DC",
@@ -811,8 +788,7 @@
       "v4.0"
     ],
     "label": "Biological sex",
-    "name": "BiologicalSex",
-    "semanticEquivalent": []
+    "name": "BiologicalSex"
   },
   "Book": {
     "color": null,
@@ -847,8 +823,7 @@
       "v4.0"
     ],
     "label": "Book",
-    "name": "Book",
-    "semanticEquivalent": []
+    "name": "Book"
   },
   "BrainAtlas": {
     "color": null,
@@ -889,8 +864,7 @@
       "v4.0"
     ],
     "label": "Brain atlas",
-    "name": "BrainAtlas",
-    "semanticEquivalent": []
+    "name": "BrainAtlas"
   },
   "BrainAtlasVersion": {
     "color": null,
@@ -933,8 +907,7 @@
       "v4.0"
     ],
     "label": "Brain atlas version",
-    "name": "BrainAtlasVersion",
-    "semanticEquivalent": []
+    "name": "BrainAtlasVersion"
   },
   "BreedingType": {
     "color": "#AD6552",
@@ -967,8 +940,7 @@
       "v4.0"
     ],
     "label": "Breeding type",
-    "name": "BreedingType",
-    "semanticEquivalent": []
+    "name": "BreedingType"
   },
   "CellCultureType": {
     "color": "#61615A",
@@ -1001,8 +973,7 @@
       "v4.0"
     ],
     "label": "Cell culture type",
-    "name": "CellCultureType",
-    "semanticEquivalent": []
+    "name": "CellCultureType"
   },
   "CellPatching": {
     "color": "#1A2B2F",
@@ -1037,8 +1008,7 @@
       "v4.0"
     ],
     "label": "Cell patching",
-    "name": "CellPatching",
-    "semanticEquivalent": []
+    "name": "CellPatching"
   },
   "CellType": {
     "color": "#BC8A96",
@@ -1081,8 +1051,7 @@
       "v4.0"
     ],
     "label": "Cell type",
-    "name": "CellType",
-    "semanticEquivalent": []
+    "name": "CellType"
   },
   "Channel": {
     "color": "#5D3033",
@@ -1115,8 +1084,7 @@
       "v4.0"
     ],
     "label": "Channel",
-    "name": "Channel",
-    "semanticEquivalent": []
+    "name": "Channel"
   },
   "Chapter": {
     "color": null,
@@ -1151,8 +1119,7 @@
       "v4.0"
     ],
     "label": "Chapter",
-    "name": "Chapter",
-    "semanticEquivalent": []
+    "name": "Chapter"
   },
   "ChemicalMixture": {
     "color": "#887868",
@@ -1185,8 +1152,7 @@
       "v4.0"
     ],
     "label": "Chemical mixture",
-    "name": "ChemicalMixture",
-    "semanticEquivalent": []
+    "name": "ChemicalMixture"
   },
   "ChemicalMixtureType": {
     "color": "#363DFF",
@@ -1219,8 +1185,7 @@
       "v4.0"
     ],
     "label": "Chemical mixture type",
-    "name": "ChemicalMixtureType",
-    "semanticEquivalent": []
+    "name": "ChemicalMixtureType"
   },
   "ChemicalSubstance": {
     "color": "#685D75",
@@ -1253,8 +1218,7 @@
       "v4.0"
     ],
     "label": "Chemical substance",
-    "name": "ChemicalSubstance",
-    "semanticEquivalent": []
+    "name": "ChemicalSubstance"
   },
   "Circle": {
     "color": null,
@@ -1287,8 +1251,7 @@
       "v4.0"
     ],
     "label": "Circle",
-    "name": "Circle",
-    "semanticEquivalent": []
+    "name": "Circle"
   },
   "Colormap": {
     "color": "#067EAF",
@@ -1321,8 +1284,7 @@
       "v4.0"
     ],
     "label": "Colormap",
-    "name": "Colormap",
-    "semanticEquivalent": []
+    "name": "Colormap"
   },
   "Comment": {
     "color": "#6EFF92",
@@ -1355,8 +1317,7 @@
       "v4.0"
     ],
     "label": "Comment",
-    "name": "Comment",
-    "semanticEquivalent": []
+    "name": "Comment"
   },
   "CommonCoordinateSpace": {
     "color": null,
@@ -1394,8 +1355,7 @@
       "v4.0"
     ],
     "label": "Common coordinate space",
-    "name": "CommonCoordinateSpace",
-    "semanticEquivalent": []
+    "name": "CommonCoordinateSpace"
   },
   "CommonCoordinateSpaceVersion": {
     "color": null,
@@ -1430,8 +1390,7 @@
       "v4.0"
     ],
     "label": "Common coordinate space version",
-    "name": "CommonCoordinateSpaceVersion",
-    "semanticEquivalent": []
+    "name": "CommonCoordinateSpaceVersion"
   },
   "Configuration": {
     "color": "#CD00C5",
@@ -1464,8 +1423,7 @@
       "v4.0"
     ],
     "label": "Configuration",
-    "name": "Configuration",
-    "semanticEquivalent": []
+    "name": "Configuration"
   },
   "Consortium": {
     "color": "#C36D96",
@@ -1498,8 +1456,7 @@
       "v4.0"
     ],
     "label": "Consortium",
-    "name": "Consortium",
-    "semanticEquivalent": []
+    "name": "Consortium"
   },
   "ContactInformation": {
     "color": "#64547B",
@@ -1540,8 +1497,7 @@
       "v4.0"
     ],
     "label": "Contact information",
-    "name": "ContactInformation",
-    "semanticEquivalent": []
+    "name": "ContactInformation"
   },
   "ContentType": {
     "color": "#494B5A",
@@ -1582,8 +1538,7 @@
       "v4.0"
     ],
     "label": "Content type",
-    "name": "ContentType",
-    "semanticEquivalent": []
+    "name": "ContentType"
   },
   "ContentTypePattern": {
     "color": "#72361F",
@@ -1619,8 +1574,7 @@
       "v4.0"
     ],
     "label": "Content type pattern",
-    "name": "ContentTypePattern",
-    "semanticEquivalent": []
+    "name": "ContentTypePattern"
   },
   "Contribution": {
     "color": "#790229",
@@ -1661,8 +1615,7 @@
       "v4.0"
     ],
     "label": "Contribution",
-    "name": "Contribution",
-    "semanticEquivalent": []
+    "name": "Contribution"
   },
   "ContributionType": {
     "color": "#2C3533",
@@ -1705,8 +1658,7 @@
       "v4.0"
     ],
     "label": "Contribution type",
-    "name": "ContributionType",
-    "semanticEquivalent": []
+    "name": "ContributionType"
   },
   "CoordinatePoint": {
     "color": null,
@@ -1747,8 +1699,7 @@
       "v4.0"
     ],
     "label": "Coordinate point",
-    "name": "CoordinatePoint",
-    "semanticEquivalent": []
+    "name": "CoordinatePoint"
   },
   "CoordinateSpace": {
     "color": null,
@@ -1770,8 +1721,7 @@
       "v1.0"
     ],
     "label": "Coordinate space",
-    "name": "CoordinateSpace",
-    "semanticEquivalent": []
+    "name": "CoordinateSpace"
   },
   "Copyright": {
     "color": "#8CD0FF",
@@ -1812,8 +1762,7 @@
       "v4.0"
     ],
     "label": "Copyright",
-    "name": "Copyright",
-    "semanticEquivalent": []
+    "name": "Copyright"
   },
   "CranialWindowConstructionType": {
     "color": "#70EC98",
@@ -1846,8 +1795,7 @@
       "v4.0"
     ],
     "label": "Cranial window construction type",
-    "name": "CranialWindowConstructionType",
-    "semanticEquivalent": []
+    "name": "CranialWindowConstructionType"
   },
   "CranialWindowPreparation": {
     "color": null,
@@ -1882,8 +1830,7 @@
       "v4.0"
     ],
     "label": "Cranial window preparation",
-    "name": "CranialWindowPreparation",
-    "semanticEquivalent": []
+    "name": "CranialWindowPreparation"
   },
   "CranialWindowReinforcementType": {
     "color": "#6C6D74",
@@ -1916,8 +1863,7 @@
       "v4.0"
     ],
     "label": "Cranial window reinforcement type",
-    "name": "CranialWindowReinforcementType",
-    "semanticEquivalent": []
+    "name": "CranialWindowReinforcementType"
   },
   "CriteriaQualityType": {
     "color": "#AABC7A",
@@ -1960,8 +1906,7 @@
       "v4.0"
     ],
     "label": "Criteria quality type",
-    "name": "CriteriaQualityType",
-    "semanticEquivalent": []
+    "name": "CriteriaQualityType"
   },
   "CustomAnatomicalEntity": {
     "color": null,
@@ -1999,8 +1944,7 @@
       "v4.0"
     ],
     "label": "Custom anatomical entity",
-    "name": "CustomAnatomicalEntity",
-    "semanticEquivalent": []
+    "name": "CustomAnatomicalEntity"
   },
   "CustomAnnotation": {
     "color": null,
@@ -2038,8 +1982,7 @@
       "v4.0"
     ],
     "label": "Custom annotation",
-    "name": "CustomAnnotation",
-    "semanticEquivalent": []
+    "name": "CustomAnnotation"
   },
   "CustomCoordinateSpace": {
     "color": null,
@@ -2077,8 +2020,7 @@
       "v4.0"
     ],
     "label": "Custom coordinate space",
-    "name": "CustomCoordinateSpace",
-    "semanticEquivalent": []
+    "name": "CustomCoordinateSpace"
   },
   "CustomPropertySet": {
     "color": "#009B75",
@@ -2113,8 +2055,7 @@
       "v4.0"
     ],
     "label": "Custom property set",
-    "name": "CustomPropertySet",
-    "semanticEquivalent": []
+    "name": "CustomPropertySet"
   },
   "DOI": {
     "color": "#766B7E",
@@ -2155,8 +2096,7 @@
       "v4.0"
     ],
     "label": "Doi",
-    "name": "DOI",
-    "semanticEquivalent": []
+    "name": "DOI"
   },
   "DataAnalysis": {
     "color": "#00B6C5",
@@ -2191,8 +2131,7 @@
       "v4.0"
     ],
     "label": "Data analysis",
-    "name": "DataAnalysis",
-    "semanticEquivalent": []
+    "name": "DataAnalysis"
   },
   "DataCopy": {
     "color": "#29607C",
@@ -2227,8 +2166,7 @@
       "v4.0"
     ],
     "label": "Data copy",
-    "name": "DataCopy",
-    "semanticEquivalent": []
+    "name": "DataCopy"
   },
   "DataType": {
     "color": "#D1ACFE",
@@ -2261,8 +2199,7 @@
       "v4.0"
     ],
     "label": "Data type",
-    "name": "DataType",
-    "semanticEquivalent": []
+    "name": "DataType"
   },
   "Dataset": {
     "color": "#F77183",
@@ -2303,8 +2240,7 @@
       "v4.0"
     ],
     "label": "Dataset",
-    "name": "Dataset",
-    "semanticEquivalent": []
+    "name": "Dataset"
   },
   "DatasetType": {
     "color": null,
@@ -2326,8 +2262,7 @@
       "v1.0"
     ],
     "label": "Dataset type",
-    "name": "DatasetType",
-    "semanticEquivalent": []
+    "name": "DatasetType"
   },
   "DatasetVersion": {
     "color": "#71555A",
@@ -2372,8 +2307,7 @@
       "v4.0"
     ],
     "label": "Dataset version",
-    "name": "DatasetVersion",
-    "semanticEquivalent": []
+    "name": "DatasetVersion"
   },
   "DeviceType": {
     "color": "#01400B",
@@ -2406,8 +2340,7 @@
       "v4.0"
     ],
     "label": "Device type",
-    "name": "DeviceType",
-    "semanticEquivalent": []
+    "name": "DeviceType"
   },
   "DifferenceMeasure": {
     "color": "#DB9D72",
@@ -2440,8 +2373,7 @@
       "v4.0"
     ],
     "label": "Difference measure",
-    "name": "DifferenceMeasure",
-    "semanticEquivalent": []
+    "name": "DifferenceMeasure"
   },
   "Disease": {
     "color": "#00B7E0",
@@ -2484,8 +2416,7 @@
       "v4.0"
     ],
     "label": "Disease",
-    "name": "Disease",
-    "semanticEquivalent": []
+    "name": "Disease"
   },
   "DiseaseModel": {
     "color": "#DA9894",
@@ -2528,8 +2459,7 @@
       "v4.0"
     ],
     "label": "Disease model",
-    "name": "DiseaseModel",
-    "semanticEquivalent": []
+    "name": "DiseaseModel"
   },
   "EducationalLevel": {
     "color": "#636A01",
@@ -2562,8 +2492,7 @@
       "v4.0"
     ],
     "label": "Educational level",
-    "name": "EducationalLevel",
-    "semanticEquivalent": []
+    "name": "EducationalLevel"
   },
   "ElectricalStimulusType": {
     "color": "#A9795C",
@@ -2596,8 +2525,7 @@
       "v4.0"
     ],
     "label": "Electrical stimulus type",
-    "name": "ElectricalStimulusType",
-    "semanticEquivalent": []
+    "name": "ElectricalStimulusType"
   },
   "Electrode": {
     "color": null,
@@ -2641,8 +2569,7 @@
       "v4.0"
     ],
     "label": "Electrode",
-    "name": "Electrode",
-    "semanticEquivalent": []
+    "name": "Electrode"
   },
   "ElectrodeArray": {
     "color": null,
@@ -2686,8 +2613,7 @@
       "v4.0"
     ],
     "label": "Electrode array",
-    "name": "ElectrodeArray",
-    "semanticEquivalent": []
+    "name": "ElectrodeArray"
   },
   "ElectrodeArrayUsage": {
     "color": "#AF5D88",
@@ -2720,8 +2646,7 @@
       "v4.0"
     ],
     "label": "Electrode array usage",
-    "name": "ElectrodeArrayUsage",
-    "semanticEquivalent": []
+    "name": "ElectrodeArrayUsage"
   },
   "ElectrodeContact": {
     "color": null,
@@ -2746,8 +2671,7 @@
       "v2.0"
     ],
     "label": "Electrode contact",
-    "name": "ElectrodeContact",
-    "semanticEquivalent": []
+    "name": "ElectrodeContact"
   },
   "ElectrodePlacement": {
     "color": "#CFFF00",
@@ -2782,8 +2706,7 @@
       "v4.0"
     ],
     "label": "Electrode placement",
-    "name": "ElectrodePlacement",
-    "semanticEquivalent": []
+    "name": "ElectrodePlacement"
   },
   "ElectrodeUsage": {
     "color": "#DD587B",
@@ -2816,8 +2739,7 @@
       "v4.0"
     ],
     "label": "Electrode usage",
-    "name": "ElectrodeUsage",
-    "semanticEquivalent": []
+    "name": "ElectrodeUsage"
   },
   "Ellipse": {
     "color": null,
@@ -2850,8 +2772,7 @@
       "v4.0"
     ],
     "label": "Ellipse",
-    "name": "Ellipse",
-    "semanticEquivalent": []
+    "name": "Ellipse"
   },
   "Environment": {
     "color": "#1B782A",
@@ -2884,8 +2805,7 @@
       "v4.0"
     ],
     "label": "Environment",
-    "name": "Environment",
-    "semanticEquivalent": []
+    "name": "Environment"
   },
   "EphysStimulus": {
     "color": null,
@@ -2918,8 +2838,7 @@
       "v4.0"
     ],
     "label": "Ephys stimulus",
-    "name": "EphysStimulus",
-    "semanticEquivalent": []
+    "name": "EphysStimulus"
   },
   "EthicsAssessment": {
     "color": "#4A1930",
@@ -2962,8 +2881,7 @@
       "v4.0"
     ],
     "label": "Ethics assessment",
-    "name": "EthicsAssessment",
-    "semanticEquivalent": []
+    "name": "EthicsAssessment"
   },
   "ExperimentalApproach": {
     "color": "#7F8427",
@@ -3001,8 +2919,7 @@
       "v4.0"
     ],
     "label": "Experimental approach",
-    "name": "ExperimentalApproach",
-    "semanticEquivalent": []
+    "name": "ExperimentalApproach"
   },
   "File": {
     "color": "#AA9297",
@@ -3045,8 +2962,7 @@
       "v4.0"
     ],
     "label": "File",
-    "name": "File",
-    "semanticEquivalent": []
+    "name": "File"
   },
   "FileArchive": {
     "color": "#83AB58",
@@ -3079,8 +2995,7 @@
       "v4.0"
     ],
     "label": "File archive",
-    "name": "FileArchive",
-    "semanticEquivalent": []
+    "name": "FileArchive"
   },
   "FileBundle": {
     "color": "#91028C",
@@ -3125,8 +3040,7 @@
       "v4.0"
     ],
     "label": "File bundle",
-    "name": "FileBundle",
-    "semanticEquivalent": []
+    "name": "FileBundle"
   },
   "FileBundleGrouping": {
     "color": "#286154",
@@ -3169,8 +3083,7 @@
       "v4.0"
     ],
     "label": "File bundle grouping",
-    "name": "FileBundleGrouping",
-    "semanticEquivalent": []
+    "name": "FileBundleGrouping"
   },
   "FilePathPattern": {
     "color": "#564620",
@@ -3206,8 +3119,7 @@
       "v4.0"
     ],
     "label": "File path pattern",
-    "name": "FilePathPattern",
-    "semanticEquivalent": []
+    "name": "FilePathPattern"
   },
   "FileRepository": {
     "color": "#682021",
@@ -3250,8 +3162,7 @@
       "v4.0"
     ],
     "label": "File repository",
-    "name": "FileRepository",
-    "semanticEquivalent": []
+    "name": "FileRepository"
   },
   "FileRepositoryStructure": {
     "color": "#3156DC",
@@ -3287,8 +3198,7 @@
       "v4.0"
     ],
     "label": "File repository structure",
-    "name": "FileRepositoryStructure",
-    "semanticEquivalent": []
+    "name": "FileRepositoryStructure"
   },
   "FileRepositoryType": {
     "color": "#D369B4",
@@ -3326,8 +3236,7 @@
       "v4.0"
     ],
     "label": "File repository type",
-    "name": "FileRepositoryType",
-    "semanticEquivalent": []
+    "name": "FileRepositoryType"
   },
   "FileUsageRole": {
     "color": "#549E79",
@@ -3370,8 +3279,7 @@
       "v4.0"
     ],
     "label": "File usage role",
-    "name": "FileUsageRole",
-    "semanticEquivalent": []
+    "name": "FileUsageRole"
   },
   "Funding": {
     "color": "#73013E",
@@ -3412,8 +3320,7 @@
       "v4.0"
     ],
     "label": "Funding",
-    "name": "Funding",
-    "semanticEquivalent": []
+    "name": "Funding"
   },
   "GRIDID": {
     "color": "#8D918E",
@@ -3454,8 +3361,7 @@
       "v4.0"
     ],
     "label": "Gridid",
-    "name": "GRIDID",
-    "semanticEquivalent": []
+    "name": "GRIDID"
   },
   "GenericComputation": {
     "color": "#FFB789",
@@ -3490,8 +3396,7 @@
       "v4.0"
     ],
     "label": "Generic computation",
-    "name": "GenericComputation",
-    "semanticEquivalent": []
+    "name": "GenericComputation"
   },
   "GeneticStrainType": {
     "color": "#FFA0F2",
@@ -3524,8 +3429,7 @@
       "v4.0"
     ],
     "label": "Genetic strain type",
-    "name": "GeneticStrainType",
-    "semanticEquivalent": []
+    "name": "GeneticStrainType"
   },
   "Genotype": {
     "color": null,
@@ -3547,8 +3451,7 @@
       "v1.0"
     ],
     "label": "Genotype",
-    "name": "Genotype",
-    "semanticEquivalent": []
+    "name": "Genotype"
   },
   "GustatoryStimulusType": {
     "color": "#979440",
@@ -3581,8 +3484,7 @@
       "v4.0"
     ],
     "label": "Gustatory stimulus type",
-    "name": "GustatoryStimulusType",
-    "semanticEquivalent": []
+    "name": "GustatoryStimulusType"
   },
   "HANDLE": {
     "color": "#FF8347",
@@ -3615,8 +3517,7 @@
       "v4.0"
     ],
     "label": "Handle",
-    "name": "HANDLE",
-    "semanticEquivalent": []
+    "name": "HANDLE"
   },
   "Handedness": {
     "color": "#B90076",
@@ -3654,8 +3555,7 @@
       "v4.0"
     ],
     "label": "Handedness",
-    "name": "Handedness",
-    "semanticEquivalent": []
+    "name": "Handedness"
   },
   "HardwareSystem": {
     "color": "#1E2324",
@@ -3688,8 +3588,7 @@
       "v4.0"
     ],
     "label": "Hardware system",
-    "name": "HardwareSystem",
-    "semanticEquivalent": []
+    "name": "HardwareSystem"
   },
   "Hash": {
     "color": "#378FDB",
@@ -3728,8 +3627,7 @@
       "v4.0"
     ],
     "label": "Hash",
-    "name": "Hash",
-    "semanticEquivalent": []
+    "name": "Hash"
   },
   "ISBN": {
     "color": "#1E0200",
@@ -3770,8 +3668,7 @@
       "v4.0"
     ],
     "label": "Isbn",
-    "name": "ISBN",
-    "semanticEquivalent": []
+    "name": "ISBN"
   },
   "ISSN": {
     "color": "#4145A7",
@@ -3804,8 +3701,7 @@
       "v4.0"
     ],
     "label": "Issn",
-    "name": "ISSN",
-    "semanticEquivalent": []
+    "name": "ISSN"
   },
   "IdentifiersDotOrgID": {
     "color": "#00489C",
@@ -3838,8 +3734,7 @@
       "v4.0"
     ],
     "label": "Identifiers dot org id",
-    "name": "IdentifiersDotOrgID",
-    "semanticEquivalent": []
+    "name": "IdentifiersDotOrgID"
   },
   "Image": {
     "color": null,
@@ -3861,8 +3756,7 @@
       "v1.0"
     ],
     "label": "Image",
-    "name": "Image",
-    "semanticEquivalent": []
+    "name": "Image"
   },
   "Language": {
     "color": "#6B6466",
@@ -3905,8 +3799,7 @@
       "v4.0"
     ],
     "label": "Language",
-    "name": "Language",
-    "semanticEquivalent": []
+    "name": "Language"
   },
   "Laterality": {
     "color": "#A24E3D",
@@ -3949,8 +3842,7 @@
       "v4.0"
     ],
     "label": "Laterality",
-    "name": "Laterality",
-    "semanticEquivalent": []
+    "name": "Laterality"
   },
   "LaunchConfiguration": {
     "color": "#E69034",
@@ -3983,8 +3875,7 @@
       "v4.0"
     ],
     "label": "Launch configuration",
-    "name": "LaunchConfiguration",
-    "semanticEquivalent": []
+    "name": "LaunchConfiguration"
   },
   "LearningResource": {
     "color": null,
@@ -4019,8 +3910,7 @@
       "v4.0"
     ],
     "label": "Learning resource",
-    "name": "LearningResource",
-    "semanticEquivalent": []
+    "name": "LearningResource"
   },
   "LearningResourceType": {
     "color": "#372B2E",
@@ -4053,8 +3943,7 @@
       "v4.0"
     ],
     "label": "Learning resource type",
-    "name": "LearningResourceType",
-    "semanticEquivalent": []
+    "name": "LearningResourceType"
   },
   "License": {
     "color": "#456D75",
@@ -4095,8 +3984,7 @@
       "v4.0"
     ],
     "label": "License",
-    "name": "License",
-    "semanticEquivalent": []
+    "name": "License"
   },
   "LivePaper": {
     "color": null,
@@ -4129,8 +4017,7 @@
       "v4.0"
     ],
     "label": "Live paper",
-    "name": "LivePaper",
-    "semanticEquivalent": []
+    "name": "LivePaper"
   },
   "LivePaperResourceItem": {
     "color": null,
@@ -4163,8 +4050,7 @@
       "v4.0"
     ],
     "label": "Live paper resource item",
-    "name": "LivePaperResourceItem",
-    "semanticEquivalent": []
+    "name": "LivePaperResourceItem"
   },
   "LivePaperSection": {
     "color": null,
@@ -4197,8 +4083,7 @@
       "v4.0"
     ],
     "label": "Live paper section",
-    "name": "LivePaperSection",
-    "semanticEquivalent": []
+    "name": "LivePaperSection"
   },
   "LivePaperVersion": {
     "color": null,
@@ -4233,8 +4118,7 @@
       "v4.0"
     ],
     "label": "Live paper version",
-    "name": "LivePaperVersion",
-    "semanticEquivalent": []
+    "name": "LivePaperVersion"
   },
   "LocalFile": {
     "color": "#B787A8",
@@ -4267,8 +4151,7 @@
       "v4.0"
     ],
     "label": "Local file",
-    "name": "LocalFile",
-    "semanticEquivalent": []
+    "name": "LocalFile"
   },
   "MRIPulseSequence": {
     "color": null,
@@ -4293,8 +4176,7 @@
       "v4.0"
     ],
     "label": "Mripulse sequence",
-    "name": "MRIPulseSequence",
-    "semanticEquivalent": []
+    "name": "MRIPulseSequence"
   },
   "MRIWeighting": {
     "color": null,
@@ -4319,8 +4201,7 @@
       "v4.0"
     ],
     "label": "Mriweighting",
-    "name": "MRIWeighting",
-    "semanticEquivalent": []
+    "name": "MRIWeighting"
   },
   "MeasuredQuantity": {
     "color": "#2C5742",
@@ -4353,8 +4234,7 @@
       "v4.0"
     ],
     "label": "Measured quantity",
-    "name": "MeasuredQuantity",
-    "semanticEquivalent": []
+    "name": "MeasuredQuantity"
   },
   "MeasuredSignalType": {
     "color": null,
@@ -4387,8 +4267,7 @@
       "v4.0"
     ],
     "label": "Measured signal type",
-    "name": "MeasuredSignalType",
-    "semanticEquivalent": []
+    "name": "MeasuredSignalType"
   },
   "Measurement": {
     "color": "#FFDBE5",
@@ -4421,8 +4300,7 @@
       "v4.0"
     ],
     "label": "Measurement",
-    "name": "Measurement",
-    "semanticEquivalent": []
+    "name": "Measurement"
   },
   "MetaDataModel": {
     "color": "#602B70",
@@ -4463,8 +4341,7 @@
       "v4.0"
     ],
     "label": "Meta data model",
-    "name": "MetaDataModel",
-    "semanticEquivalent": []
+    "name": "MetaDataModel"
   },
   "MetaDataModelType": {
     "color": "#A55B54",
@@ -4507,8 +4384,7 @@
       "v4.0"
     ],
     "label": "Meta data model type",
-    "name": "MetaDataModelType",
-    "semanticEquivalent": []
+    "name": "MetaDataModelType"
   },
   "MetaDataModelVersion": {
     "color": "#9B9700",
@@ -4553,8 +4429,7 @@
       "v4.0"
     ],
     "label": "Meta data model version",
-    "name": "MetaDataModelVersion",
-    "semanticEquivalent": []
+    "name": "MetaDataModelVersion"
   },
   "Modality": {
     "color": null,
@@ -4576,8 +4451,7 @@
       "v1.0"
     ],
     "label": "Modality",
-    "name": "Modality",
-    "semanticEquivalent": []
+    "name": "Modality"
   },
   "Model": {
     "color": "#7FBBEC",
@@ -4622,8 +4496,7 @@
       "v4.0"
     ],
     "label": "Model",
-    "name": "Model",
-    "semanticEquivalent": []
+    "name": "Model"
   },
   "ModelAbstractionLevel": {
     "color": "#0086ED",
@@ -4666,8 +4539,7 @@
       "v4.0"
     ],
     "label": "Model abstraction level",
-    "name": "ModelAbstractionLevel",
-    "semanticEquivalent": []
+    "name": "ModelAbstractionLevel"
   },
   "ModelScope": {
     "color": "#B3C2BE",
@@ -4710,8 +4582,7 @@
       "v4.0"
     ],
     "label": "Model scope",
-    "name": "ModelScope",
-    "semanticEquivalent": []
+    "name": "ModelScope"
   },
   "ModelValidation": {
     "color": "#436E83",
@@ -4746,8 +4617,7 @@
       "v4.0"
     ],
     "label": "Model validation",
-    "name": "ModelValidation",
-    "semanticEquivalent": []
+    "name": "ModelValidation"
   },
   "ModelVersion": {
     "color": "#6D80BA",
@@ -4792,8 +4662,7 @@
       "v4.0"
     ],
     "label": "Model version",
-    "name": "ModelVersion",
-    "semanticEquivalent": []
+    "name": "ModelVersion"
   },
   "MolecularEntity": {
     "color": "#617D9F",
@@ -4826,8 +4695,7 @@
       "v4.0"
     ],
     "label": "Molecular entity",
-    "name": "MolecularEntity",
-    "semanticEquivalent": []
+    "name": "MolecularEntity"
   },
   "NumericalParameter": {
     "color": null,
@@ -4852,8 +4720,7 @@
       "v2.0"
     ],
     "label": "Numerical parameter",
-    "name": "NumericalParameter",
-    "semanticEquivalent": []
+    "name": "NumericalParameter"
   },
   "NumericalProperty": {
     "color": "#B94C59",
@@ -4886,8 +4753,7 @@
       "v4.0"
     ],
     "label": "Numerical property",
-    "name": "NumericalProperty",
-    "semanticEquivalent": []
+    "name": "NumericalProperty"
   },
   "ORCID": {
     "color": "#852C19",
@@ -4928,8 +4794,7 @@
       "v4.0"
     ],
     "label": "Orcid",
-    "name": "ORCID",
-    "semanticEquivalent": []
+    "name": "ORCID"
   },
   "OlfactoryStimulusType": {
     "color": "#DA71FF",
@@ -4962,8 +4827,7 @@
       "v4.0"
     ],
     "label": "Olfactory stimulus type",
-    "name": "OlfactoryStimulusType",
-    "semanticEquivalent": []
+    "name": "OlfactoryStimulusType"
   },
   "OperatingDevice": {
     "color": "#688151",
@@ -5006,8 +4870,7 @@
       "v4.0"
     ],
     "label": "Operating device",
-    "name": "OperatingDevice",
-    "semanticEquivalent": []
+    "name": "OperatingDevice"
   },
   "OperatingSystem": {
     "color": "#C9B1A9",
@@ -5050,8 +4913,7 @@
       "v4.0"
     ],
     "label": "Operating system",
-    "name": "OperatingSystem",
-    "semanticEquivalent": []
+    "name": "OperatingSystem"
   },
   "OpticalStimulusType": {
     "color": "#6D3800",
@@ -5084,8 +4946,7 @@
       "v4.0"
     ],
     "label": "Optical stimulus type",
-    "name": "OpticalStimulusType",
-    "semanticEquivalent": []
+    "name": "OpticalStimulusType"
   },
   "Optimization": {
     "color": "#9D8C76",
@@ -5120,8 +4981,7 @@
       "v4.0"
     ],
     "label": "Optimization",
-    "name": "Optimization",
-    "semanticEquivalent": []
+    "name": "Optimization"
   },
   "Organ": {
     "color": "#71BB8C",
@@ -5164,8 +5024,7 @@
       "v4.0"
     ],
     "label": "Organ",
-    "name": "Organ",
-    "semanticEquivalent": []
+    "name": "Organ"
   },
   "OrganismSubstance": {
     "color": "#3A2465",
@@ -5198,8 +5057,7 @@
       "v4.0"
     ],
     "label": "Organism substance",
-    "name": "OrganismSubstance",
-    "semanticEquivalent": []
+    "name": "OrganismSubstance"
   },
   "OrganismSystem": {
     "color": "#222800",
@@ -5232,8 +5090,7 @@
       "v4.0"
     ],
     "label": "Organism system",
-    "name": "OrganismSystem",
-    "semanticEquivalent": []
+    "name": "OrganismSystem"
   },
   "Organization": {
     "color": "#ADAAA9",
@@ -5274,8 +5131,7 @@
       "v4.0"
     ],
     "label": "Organization",
-    "name": "Organization",
-    "semanticEquivalent": []
+    "name": "Organization"
   },
   "ParameterSet": {
     "color": null,
@@ -5300,8 +5156,7 @@
       "v2.0"
     ],
     "label": "Parameter set",
-    "name": "ParameterSet",
-    "semanticEquivalent": []
+    "name": "ParameterSet"
   },
   "ParcellationEntity": {
     "color": null,
@@ -5339,8 +5194,7 @@
       "v4.0"
     ],
     "label": "Parcellation entity",
-    "name": "ParcellationEntity",
-    "semanticEquivalent": []
+    "name": "ParcellationEntity"
   },
   "ParcellationEntityVersion": {
     "color": null,
@@ -5373,8 +5227,7 @@
       "v4.0"
     ],
     "label": "Parcellation entity version",
-    "name": "ParcellationEntityVersion",
-    "semanticEquivalent": []
+    "name": "ParcellationEntityVersion"
   },
   "ParcellationTerminology": {
     "color": null,
@@ -5412,8 +5265,7 @@
       "v4.0"
     ],
     "label": "Parcellation terminology",
-    "name": "ParcellationTerminology",
-    "semanticEquivalent": []
+    "name": "ParcellationTerminology"
   },
   "ParcellationTerminologyVersion": {
     "color": null,
@@ -5446,8 +5298,7 @@
       "v4.0"
     ],
     "label": "Parcellation terminology version",
-    "name": "ParcellationTerminologyVersion",
-    "semanticEquivalent": []
+    "name": "ParcellationTerminologyVersion"
   },
   "PatchClampVariation": {
     "color": "#63FFAC",
@@ -5480,8 +5331,7 @@
       "v4.0"
     ],
     "label": "Patch clamp variation",
-    "name": "PatchClampVariation",
-    "semanticEquivalent": []
+    "name": "PatchClampVariation"
   },
   "Periodical": {
     "color": null,
@@ -5514,8 +5364,7 @@
       "v4.0"
     ],
     "label": "Periodical",
-    "name": "Periodical",
-    "semanticEquivalent": []
+    "name": "Periodical"
   },
   "Person": {
     "color": "#E5FDA4",
@@ -5556,10 +5405,7 @@
       "v4.0"
     ],
     "label": "Person",
-    "name": "Person",
-    "semanticEquivalent": [
-      "https://schema.org/Person"
-    ]
+    "name": "Person"
   },
   "Phenotype": {
     "color": null,
@@ -5586,8 +5432,7 @@
       "v2.0"
     ],
     "label": "Phenotype",
-    "name": "Phenotype",
-    "semanticEquivalent": []
+    "name": "Phenotype"
   },
   "Pipette": {
     "color": "#2A7FFF",
@@ -5620,8 +5465,7 @@
       "v4.0"
     ],
     "label": "Pipette",
-    "name": "Pipette",
-    "semanticEquivalent": []
+    "name": "Pipette"
   },
   "PipetteUsage": {
     "color": "#E20027",
@@ -5654,8 +5498,7 @@
       "v4.0"
     ],
     "label": "Pipette usage",
-    "name": "PipetteUsage",
-    "semanticEquivalent": []
+    "name": "PipetteUsage"
   },
   "PreparationType": {
     "color": "#966716",
@@ -5698,8 +5541,7 @@
       "v4.0"
     ],
     "label": "Preparation type",
-    "name": "PreparationType",
-    "semanticEquivalent": []
+    "name": "PreparationType"
   },
   "ProductAccessibility": {
     "color": "#EDE6E2",
@@ -5742,8 +5584,7 @@
       "v4.0"
     ],
     "label": "Product accessibility",
-    "name": "ProductAccessibility",
-    "semanticEquivalent": []
+    "name": "ProductAccessibility"
   },
   "ProductSource": {
     "color": "#EB9A8B",
@@ -5776,8 +5617,7 @@
       "v4.0"
     ],
     "label": "Product source",
-    "name": "ProductSource",
-    "semanticEquivalent": []
+    "name": "ProductSource"
   },
   "ProgrammingLanguage": {
     "color": "#3A3F00",
@@ -5820,8 +5660,7 @@
       "v4.0"
     ],
     "label": "Programming language",
-    "name": "ProgrammingLanguage",
-    "semanticEquivalent": []
+    "name": "ProgrammingLanguage"
   },
   "Project": {
     "color": "#8683A9",
@@ -5862,8 +5701,7 @@
       "v4.0"
     ],
     "label": "Project",
-    "name": "Project",
-    "semanticEquivalent": []
+    "name": "Project"
   },
   "PropertyValueList": {
     "color": "#D7BFC2",
@@ -5896,8 +5734,7 @@
       "v4.0"
     ],
     "label": "Property value list",
-    "name": "PropertyValueList",
-    "semanticEquivalent": []
+    "name": "PropertyValueList"
   },
   "Protocol": {
     "color": "#E98176",
@@ -5942,8 +5779,7 @@
       "v4.0"
     ],
     "label": "Protocol",
-    "name": "Protocol",
-    "semanticEquivalent": []
+    "name": "Protocol"
   },
   "ProtocolExecution": {
     "color": "#0098FF",
@@ -5988,8 +5824,7 @@
       "v4.0"
     ],
     "label": "Protocol execution",
-    "name": "ProtocolExecution",
-    "semanticEquivalent": []
+    "name": "ProtocolExecution"
   },
   "PublicationIssue": {
     "color": null,
@@ -6022,8 +5857,7 @@
       "v4.0"
     ],
     "label": "Publication issue",
-    "name": "PublicationIssue",
-    "semanticEquivalent": []
+    "name": "PublicationIssue"
   },
   "PublicationVolume": {
     "color": null,
@@ -6056,8 +5890,7 @@
       "v4.0"
     ],
     "label": "Publication volume",
-    "name": "PublicationVolume",
-    "semanticEquivalent": []
+    "name": "PublicationVolume"
   },
   "QualitativeOverlap": {
     "color": "#D16CDA",
@@ -6100,8 +5933,7 @@
       "v4.0"
     ],
     "label": "Qualitative overlap",
-    "name": "QualitativeOverlap",
-    "semanticEquivalent": []
+    "name": "QualitativeOverlap"
   },
   "QualitativeRelationAssessment": {
     "color": null,
@@ -6139,8 +5971,7 @@
       "v4.0"
     ],
     "label": "Qualitative relation assessment",
-    "name": "QualitativeRelationAssessment",
-    "semanticEquivalent": []
+    "name": "QualitativeRelationAssessment"
   },
   "QuantitativeRelationAssessment": {
     "color": null,
@@ -6178,8 +6009,7 @@
       "v4.0"
     ],
     "label": "Quantitative relation assessment",
-    "name": "QuantitativeRelationAssessment",
-    "semanticEquivalent": []
+    "name": "QuantitativeRelationAssessment"
   },
   "QuantitativeValue": {
     "color": "#0E0D00",
@@ -6220,8 +6050,7 @@
       "v4.0"
     ],
     "label": "Quantitative value",
-    "name": "QuantitativeValue",
-    "semanticEquivalent": []
+    "name": "QuantitativeValue"
   },
   "QuantitativeValueArray": {
     "color": "#8FCCBE",
@@ -6254,8 +6083,7 @@
       "v4.0"
     ],
     "label": "Quantitative value array",
-    "name": "QuantitativeValueArray",
-    "semanticEquivalent": []
+    "name": "QuantitativeValueArray"
   },
   "QuantitativeValueRange": {
     "color": "#A4E804",
@@ -6296,8 +6124,7 @@
       "v4.0"
     ],
     "label": "Quantitative value range",
-    "name": "QuantitativeValueRange",
-    "semanticEquivalent": []
+    "name": "QuantitativeValueRange"
   },
   "RORID": {
     "color": "#C0B9B2",
@@ -6338,8 +6165,7 @@
       "v4.0"
     ],
     "label": "Rorid",
-    "name": "RORID",
-    "semanticEquivalent": []
+    "name": "RORID"
   },
   "RRID": {
     "color": "#6B543F",
@@ -6372,8 +6198,7 @@
       "v4.0"
     ],
     "label": "Rrid",
-    "name": "RRID",
-    "semanticEquivalent": []
+    "name": "RRID"
   },
   "Recording": {
     "color": "#FF4A46",
@@ -6406,8 +6231,7 @@
       "v4.0"
     ],
     "label": "Recording",
-    "name": "Recording",
-    "semanticEquivalent": []
+    "name": "Recording"
   },
   "RecordingActivity": {
     "color": "#77733C",
@@ -6442,8 +6266,7 @@
       "v4.0"
     ],
     "label": "Recording activity",
-    "name": "RecordingActivity",
-    "semanticEquivalent": []
+    "name": "RecordingActivity"
   },
   "Rectangle": {
     "color": null,
@@ -6476,8 +6299,7 @@
       "v4.0"
     ],
     "label": "Rectangle",
-    "name": "Rectangle",
-    "semanticEquivalent": []
+    "name": "Rectangle"
   },
   "ResearchProductGroup": {
     "color": "#920003",
@@ -6510,8 +6332,7 @@
       "v4.0"
     ],
     "label": "Research product group",
-    "name": "ResearchProductGroup",
-    "semanticEquivalent": []
+    "name": "ResearchProductGroup"
   },
   "SWHID": {
     "color": "#20370E",
@@ -6552,8 +6373,7 @@
       "v4.0"
     ],
     "label": "Swhid",
-    "name": "SWHID",
-    "semanticEquivalent": []
+    "name": "SWHID"
   },
   "ScholarlyArticle": {
     "color": null,
@@ -6588,8 +6408,7 @@
       "v4.0"
     ],
     "label": "Scholarly article",
-    "name": "ScholarlyArticle",
-    "semanticEquivalent": []
+    "name": "ScholarlyArticle"
   },
   "SemanticDataType": {
     "color": "#0000A6",
@@ -6627,8 +6446,7 @@
       "v4.0"
     ],
     "label": "Semantic data type",
-    "name": "SemanticDataType",
-    "semanticEquivalent": []
+    "name": "SemanticDataType"
   },
   "Service": {
     "color": "#528500",
@@ -6661,8 +6479,7 @@
       "v4.0"
     ],
     "label": "Service",
-    "name": "Service",
-    "semanticEquivalent": []
+    "name": "Service"
   },
   "ServiceLink": {
     "color": "#C4DF72",
@@ -6698,8 +6515,7 @@
       "v4.0"
     ],
     "label": "Service link",
-    "name": "ServiceLink",
-    "semanticEquivalent": []
+    "name": "ServiceLink"
   },
   "Setup": {
     "color": "#9B585E",
@@ -6732,8 +6548,7 @@
       "v4.0"
     ],
     "label": "Setup",
-    "name": "Setup",
-    "semanticEquivalent": []
+    "name": "Setup"
   },
   "SetupType": {
     "color": "#BEC459",
@@ -6766,8 +6581,7 @@
       "v4.0"
     ],
     "label": "Setup type",
-    "name": "SetupType",
-    "semanticEquivalent": []
+    "name": "SetupType"
   },
   "Simulation": {
     "color": "#5B9C8F",
@@ -6802,8 +6616,7 @@
       "v4.0"
     ],
     "label": "Simulation",
-    "name": "Simulation",
-    "semanticEquivalent": []
+    "name": "Simulation"
   },
   "SingleColor": {
     "color": null,
@@ -6836,8 +6649,7 @@
       "v4.0"
     ],
     "label": "Single color",
-    "name": "SingleColor",
-    "semanticEquivalent": []
+    "name": "SingleColor"
   },
   "SlicingDevice": {
     "color": null,
@@ -6870,8 +6682,7 @@
       "v4.0"
     ],
     "label": "Slicing device",
-    "name": "SlicingDevice",
-    "semanticEquivalent": []
+    "name": "SlicingDevice"
   },
   "SlicingDeviceUsage": {
     "color": null,
@@ -6904,8 +6715,7 @@
       "v4.0"
     ],
     "label": "Slicing device usage",
-    "name": "SlicingDeviceUsage",
-    "semanticEquivalent": []
+    "name": "SlicingDeviceUsage"
   },
   "Software": {
     "color": "#511F4D",
@@ -6946,8 +6756,7 @@
       "v4.0"
     ],
     "label": "Software",
-    "name": "Software",
-    "semanticEquivalent": []
+    "name": "Software"
   },
   "SoftwareAgent": {
     "color": "#8D6F81",
@@ -6980,8 +6789,7 @@
       "v4.0"
     ],
     "label": "Software agent",
-    "name": "SoftwareAgent",
-    "semanticEquivalent": []
+    "name": "SoftwareAgent"
   },
   "SoftwareApplicationCategory": {
     "color": "#FF9E6B",
@@ -7024,8 +6832,7 @@
       "v4.0"
     ],
     "label": "Software application category",
-    "name": "SoftwareApplicationCategory",
-    "semanticEquivalent": []
+    "name": "SoftwareApplicationCategory"
   },
   "SoftwareFeature": {
     "color": "#7A5C54",
@@ -7068,8 +6875,7 @@
       "v4.0"
     ],
     "label": "Software feature",
-    "name": "SoftwareFeature",
-    "semanticEquivalent": []
+    "name": "SoftwareFeature"
   },
   "SoftwareFeatureCategory": {
     "color": null,
@@ -7091,8 +6897,7 @@
       "v1.0"
     ],
     "label": "Software feature category",
-    "name": "SoftwareFeatureCategory",
-    "semanticEquivalent": []
+    "name": "SoftwareFeatureCategory"
   },
   "SoftwareVersion": {
     "color": "#FFA861",
@@ -7137,8 +6942,7 @@
       "v4.0"
     ],
     "label": "Software version",
-    "name": "SoftwareVersion",
-    "semanticEquivalent": []
+    "name": "SoftwareVersion"
   },
   "Species": {
     "color": "#320033",
@@ -7181,8 +6985,7 @@
       "v4.0"
     ],
     "label": "Species",
-    "name": "Species",
-    "semanticEquivalent": []
+    "name": "Species"
   },
   "StimulationActivity": {
     "color": null,
@@ -7217,8 +7020,7 @@
       "v4.0"
     ],
     "label": "Stimulation activity",
-    "name": "StimulationActivity",
-    "semanticEquivalent": []
+    "name": "StimulationActivity"
   },
   "StimulationApproach": {
     "color": "#C7C890",
@@ -7251,8 +7053,7 @@
       "v4.0"
     ],
     "label": "Stimulation approach",
-    "name": "StimulationApproach",
-    "semanticEquivalent": []
+    "name": "StimulationApproach"
   },
   "StimulationTechnique": {
     "color": "#985975",
@@ -7285,8 +7086,7 @@
       "v4.0"
     ],
     "label": "Stimulation technique",
-    "name": "StimulationTechnique",
-    "semanticEquivalent": []
+    "name": "StimulationTechnique"
   },
   "StockNumber": {
     "color": "#E8C282",
@@ -7319,8 +7119,7 @@
       "v4.0"
     ],
     "label": "Stock number",
-    "name": "StockNumber",
-    "semanticEquivalent": []
+    "name": "StockNumber"
   },
   "Strain": {
     "color": "#0089A3",
@@ -7366,8 +7165,7 @@
       "v4.0"
     ],
     "label": "Strain",
-    "name": "Strain",
-    "semanticEquivalent": []
+    "name": "Strain"
   },
   "StringParameter": {
     "color": null,
@@ -7392,8 +7190,7 @@
       "v2.0"
     ],
     "label": "String parameter",
-    "name": "StringParameter",
-    "semanticEquivalent": []
+    "name": "StringParameter"
   },
   "StringProperty": {
     "color": "#ADAAFF",
@@ -7426,8 +7223,7 @@
       "v4.0"
     ],
     "label": "String property",
-    "name": "StringProperty",
-    "semanticEquivalent": []
+    "name": "StringProperty"
   },
   "SubcellularEntity": {
     "color": "#4E4452",
@@ -7460,8 +7256,7 @@
       "v4.0"
     ],
     "label": "Subcellular entity",
-    "name": "SubcellularEntity",
-    "semanticEquivalent": []
+    "name": "SubcellularEntity"
   },
   "Subject": {
     "color": "#C86240",
@@ -7502,8 +7297,7 @@
       "v4.0"
     ],
     "label": "Subject",
-    "name": "Subject",
-    "semanticEquivalent": []
+    "name": "Subject"
   },
   "SubjectAttribute": {
     "color": "#962B75",
@@ -7536,8 +7330,7 @@
       "v4.0"
     ],
     "label": "Subject attribute",
-    "name": "SubjectAttribute",
-    "semanticEquivalent": []
+    "name": "SubjectAttribute"
   },
   "SubjectGroup": {
     "color": "#374527",
@@ -7578,8 +7371,7 @@
       "v4.0"
     ],
     "label": "Subject group",
-    "name": "SubjectGroup",
-    "semanticEquivalent": []
+    "name": "SubjectGroup"
   },
   "SubjectGroupState": {
     "color": "#5EA7FF",
@@ -7622,8 +7414,7 @@
       "v4.0"
     ],
     "label": "Subject group state",
-    "name": "SubjectGroupState",
-    "semanticEquivalent": []
+    "name": "SubjectGroupState"
   },
   "SubjectState": {
     "color": "#555558",
@@ -7666,8 +7457,7 @@
       "v4.0"
     ],
     "label": "Subject state",
-    "name": "SubjectState",
-    "semanticEquivalent": []
+    "name": "SubjectState"
   },
   "TactileStimulusType": {
     "color": "#EA1CA9",
@@ -7700,8 +7490,7 @@
       "v4.0"
     ],
     "label": "Tactile stimulus type",
-    "name": "TactileStimulusType",
-    "semanticEquivalent": []
+    "name": "TactileStimulusType"
   },
   "Technique": {
     "color": "#6367A9",
@@ -7744,8 +7533,7 @@
       "v4.0"
     ],
     "label": "Technique",
-    "name": "Technique",
-    "semanticEquivalent": []
+    "name": "Technique"
   },
   "TermSuggestion": {
     "color": "#CD7DAE",
@@ -7788,8 +7576,7 @@
       "v4.0"
     ],
     "label": "Term suggestion",
-    "name": "TermSuggestion",
-    "semanticEquivalent": []
+    "name": "TermSuggestion"
   },
   "Terminology": {
     "color": "#372D00",
@@ -7832,8 +7619,7 @@
       "v4.0"
     ],
     "label": "Terminology",
-    "name": "Terminology",
-    "semanticEquivalent": []
+    "name": "Terminology"
   },
   "TissueCulturePreparation": {
     "color": null,
@@ -7868,8 +7654,7 @@
       "v4.0"
     ],
     "label": "Tissue culture preparation",
-    "name": "TissueCulturePreparation",
-    "semanticEquivalent": []
+    "name": "TissueCulturePreparation"
   },
   "TissueSample": {
     "color": "#94A9C9",
@@ -7912,8 +7697,7 @@
       "v4.0"
     ],
     "label": "Tissue sample",
-    "name": "TissueSample",
-    "semanticEquivalent": []
+    "name": "TissueSample"
   },
   "TissueSampleAttribute": {
     "color": "#AFFFD1",
@@ -7946,8 +7730,7 @@
       "v4.0"
     ],
     "label": "Tissue sample attribute",
-    "name": "TissueSampleAttribute",
-    "semanticEquivalent": []
+    "name": "TissueSampleAttribute"
   },
   "TissueSampleCollection": {
     "color": "#00905E",
@@ -7988,8 +7771,7 @@
       "v4.0"
     ],
     "label": "Tissue sample collection",
-    "name": "TissueSampleCollection",
-    "semanticEquivalent": []
+    "name": "TissueSampleCollection"
   },
   "TissueSampleCollectionState": {
     "color": "#A697B6",
@@ -8032,8 +7814,7 @@
       "v4.0"
     ],
     "label": "Tissue sample collection state",
-    "name": "TissueSampleCollectionState",
-    "semanticEquivalent": []
+    "name": "TissueSampleCollectionState"
   },
   "TissueSampleSlicing": {
     "color": null,
@@ -8068,8 +7849,7 @@
       "v4.0"
     ],
     "label": "Tissue sample slicing",
-    "name": "TissueSampleSlicing",
-    "semanticEquivalent": []
+    "name": "TissueSampleSlicing"
   },
   "TissueSampleState": {
     "color": "#C7706A",
@@ -8112,8 +7892,7 @@
       "v4.0"
     ],
     "label": "Tissue sample state",
-    "name": "TissueSampleState",
-    "semanticEquivalent": []
+    "name": "TissueSampleState"
   },
   "TissueSampleType": {
     "color": "#0AA3F7",
@@ -8158,8 +7937,7 @@
       "v4.0"
     ],
     "label": "Tissue sample type",
-    "name": "TissueSampleType",
-    "semanticEquivalent": []
+    "name": "TissueSampleType"
   },
   "TypeOfUncertainty": {
     "color": "#7E9285",
@@ -8197,8 +7975,7 @@
       "v4.0"
     ],
     "label": "Type of uncertainty",
-    "name": "TypeOfUncertainty",
-    "semanticEquivalent": []
+    "name": "TypeOfUncertainty"
   },
   "UBERONParcellation": {
     "color": "#DA8386",
@@ -8236,8 +8013,7 @@
       "v4.0"
     ],
     "label": "Uberonparcellation",
-    "name": "UBERONParcellation",
-    "semanticEquivalent": []
+    "name": "UBERONParcellation"
   },
   "URL": {
     "color": null,
@@ -8264,8 +8040,7 @@
       "v2.0"
     ],
     "label": "Url",
-    "name": "URL",
-    "semanticEquivalent": []
+    "name": "URL"
   },
   "UnitOfMeasurement": {
     "color": "#51A058",
@@ -8308,8 +8083,7 @@
       "v4.0"
     ],
     "label": "Unit of measurement",
-    "name": "UnitOfMeasurement",
-    "semanticEquivalent": []
+    "name": "UnitOfMeasurement"
   },
   "ValidationTest": {
     "color": "#813D3A",
@@ -8344,8 +8118,7 @@
       "v4.0"
     ],
     "label": "Validation test",
-    "name": "ValidationTest",
-    "semanticEquivalent": []
+    "name": "ValidationTest"
   },
   "ValidationTestVersion": {
     "color": "#3E7158",
@@ -8380,8 +8153,7 @@
       "v4.0"
     ],
     "label": "Validation test version",
-    "name": "ValidationTestVersion",
-    "semanticEquivalent": []
+    "name": "ValidationTestVersion"
   },
   "ViewerSpecification": {
     "color": null,
@@ -8414,8 +8186,7 @@
       "v4.0"
     ],
     "label": "Viewer specification",
-    "name": "ViewerSpecification",
-    "semanticEquivalent": []
+    "name": "ViewerSpecification"
   },
   "VisualStimulusType": {
     "color": "#410601",
@@ -8448,8 +8219,7 @@
       "v4.0"
     ],
     "label": "Visual stimulus type",
-    "name": "VisualStimulusType",
-    "semanticEquivalent": []
+    "name": "VisualStimulusType"
   },
   "Visualization": {
     "color": "#DA0004",
@@ -8484,8 +8254,7 @@
       "v4.0"
     ],
     "label": "Visualization",
-    "name": "Visualization",
-    "semanticEquivalent": []
+    "name": "Visualization"
   },
   "WebResource": {
     "color": "#DAA9B5",
@@ -8518,8 +8287,7 @@
       "v4.0"
     ],
     "label": "Web resource",
-    "name": "WebResource",
-    "semanticEquivalent": []
+    "name": "WebResource"
   },
   "WebService": {
     "color": "#6A9573",
@@ -8552,8 +8320,7 @@
       "v4.0"
     ],
     "label": "Web service",
-    "name": "WebService",
-    "semanticEquivalent": []
+    "name": "WebService"
   },
   "WebServiceVersion": {
     "color": "#8D5700",
@@ -8588,8 +8355,7 @@
       "v4.0"
     ],
     "label": "Web service version",
-    "name": "WebServiceVersion",
-    "semanticEquivalent": []
+    "name": "WebServiceVersion"
   },
   "WorkflowExecution": {
     "color": "#F4ABAA",
@@ -8622,8 +8388,7 @@
       "v4.0"
     ],
     "label": "Workflow execution",
-    "name": "WorkflowExecution",
-    "semanticEquivalent": []
+    "name": "WorkflowExecution"
   },
   "WorkflowRecipe": {
     "color": "#AA62C3",
@@ -8656,8 +8421,7 @@
       "v4.0"
     ],
     "label": "Workflow recipe",
-    "name": "WorkflowRecipe",
-    "semanticEquivalent": []
+    "name": "WorkflowRecipe"
   },
   "WorkflowRecipeVersion": {
     "color": "#4B2C00",
@@ -8692,7 +8456,6 @@
       "v4.0"
     ],
     "label": "Workflow recipe version",
-    "name": "WorkflowRecipeVersion",
-    "semanticEquivalent": []
+    "name": "WorkflowRecipeVersion"
   }
 }

@@ -33,7 +33,6 @@
     "labelPlural": "IRIs",
     "name": "IRI",
     "namePlural": "IRIs",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Book",
@@ -101,7 +100,6 @@
     "labelPlural": "URLs",
     "name": "URL",
     "namePlural": "URLs",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/URL"
@@ -141,7 +139,6 @@
     "labelPlural": "Abbreviations",
     "name": "abbreviation",
     "namePlural": "abbreviations",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlas",
@@ -264,7 +261,6 @@
     "labelPlural": "About",
     "name": "about",
     "namePlural": "about",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Comment",
@@ -313,7 +309,6 @@
     "labelPlural": "Abstracts",
     "name": "abstract",
     "namePlural": "abstracts",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Book",
@@ -378,7 +373,6 @@
     "labelPlural": "Abstraction levels",
     "name": "abstractionLevel",
     "namePlural": "abstractionLevels",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Model"
@@ -440,7 +434,6 @@
     "labelPlural": "Accessibilities",
     "name": "accessibility",
     "namePlural": "accessibilities",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlasVersion",
@@ -526,7 +519,6 @@
     "labelPlural": "Acknowledgements",
     "name": "acknowledgement",
     "namePlural": "acknowledgements",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Funding"
@@ -584,7 +576,6 @@
     "labelPlural": "Add existing terminologies",
     "name": "addExistingTerminology",
     "namePlural": "addExistingTerminologies",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/TermSuggestion"
@@ -634,7 +625,6 @@
     "labelPlural": "Additional remarks",
     "name": "additionalRemarks",
     "namePlural": "additionalRemarks",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalTargetPosition",
@@ -742,7 +732,6 @@
     "labelPlural": "Affiliations",
     "name": "affiliation",
     "namePlural": "affiliations",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Organization",
@@ -812,7 +801,6 @@
     "labelPlural": "Ages",
     "name": "age",
     "namePlural": "ages",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SubjectGroupState",
@@ -889,7 +877,6 @@
     "labelPlural": "Age categories",
     "name": "ageCategory",
     "namePlural": "ageCategories",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SubjectGroupState",
@@ -947,7 +934,6 @@
     "labelPlural": "Algorithms",
     "name": "algorithm",
     "namePlural": "algorithms",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Hash"
@@ -996,7 +982,6 @@
     "labelPlural": "Alternate identifiers",
     "name": "alternateIdentifier",
     "namePlural": "alternateIdentifiers",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Strain"
@@ -1039,7 +1024,6 @@
     "labelPlural": "Alternate names",
     "name": "alternateName",
     "namePlural": "alternateNames",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ParcellationEntity",
@@ -1093,7 +1077,6 @@
     "labelPlural": "Amounts",
     "name": "amount",
     "namePlural": "amounts",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AmountOfChemical"
@@ -1149,7 +1132,6 @@
     "labelPlural": "Anatomical axes orientations",
     "name": "anatomicalAxesOrientation",
     "namePlural": "anatomicalAxesOrientations",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
@@ -1194,7 +1176,6 @@
     "labelPlural": "Anatomical entities",
     "name": "anatomicalEntity",
     "namePlural": "anatomicalEntities",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/sands/AtlasTerminology"
@@ -1263,7 +1244,6 @@
     "labelPlural": "Anatomical locations",
     "name": "anatomicalLocation",
     "namePlural": "anatomicalLocations",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ElectrodeUsage",
@@ -1344,7 +1324,6 @@
     "labelPlural": "Anatomical locations of arrays",
     "name": "anatomicalLocationOfArray",
     "namePlural": "anatomicalLocationsOfArrays",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ElectrodeArrayUsage"
@@ -1413,7 +1392,6 @@
     "labelPlural": "Anatomical locations of electrodes",
     "name": "anatomicalLocationOfElectrodes",
     "namePlural": "anatomicalLocationsOfElectrodes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ElectrodeArrayUsage"
@@ -1482,7 +1460,6 @@
     "labelPlural": "Anatomical targets",
     "name": "anatomicalTarget",
     "namePlural": "anatomicalTargets",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalTargetPosition"
@@ -1530,7 +1507,6 @@
     "labelPlural": "Anchor points",
     "name": "anchorPoint",
     "namePlural": "anchorPoints",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AtlasAnnotation",
@@ -1571,7 +1547,6 @@
     "labelPlural": "Annotation sets",
     "name": "annotationSet",
     "namePlural": "annotationSets",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
@@ -1621,7 +1596,6 @@
     "labelPlural": "Application categories",
     "name": "applicationCategory",
     "namePlural": "applicationCategories",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SoftwareVersion"
@@ -1670,7 +1644,6 @@
     "labelPlural": "Arguments",
     "name": "argument",
     "namePlural": "arguments",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/LaunchConfiguration"
@@ -1718,7 +1691,6 @@
     "labelPlural": "Associated accounts",
     "name": "associatedAccount",
     "namePlural": "associatedAccounts",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Person"
@@ -1769,7 +1741,6 @@
     "labelPlural": "Attributes",
     "name": "attribute",
     "namePlural": "attributes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SubjectGroupState",
@@ -1842,7 +1813,6 @@
     "labelPlural": "Authors",
     "name": "author",
     "namePlural": "authors",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Book",
@@ -1930,7 +1900,6 @@
     "labelPlural": "Award numbers",
     "name": "awardNumber",
     "namePlural": "awardNumbers",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Funding"
@@ -1983,7 +1952,6 @@
     "labelPlural": "Award titles",
     "name": "awardTitle",
     "namePlural": "awardTitles",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Funding"
@@ -2045,7 +2013,6 @@
     "labelPlural": "Axes origins",
     "name": "axesOrigin",
     "namePlural": "axesOrigins",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
@@ -2103,7 +2070,6 @@
     "labelPlural": "Background strains",
     "name": "backgroundStrain",
     "namePlural": "backgroundStrains",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Strain"
@@ -2154,7 +2120,6 @@
     "labelPlural": "Bath temperatures",
     "name": "bathTemperature",
     "namePlural": "bathTemperatures",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CellPatching"
@@ -2202,7 +2167,6 @@
     "labelPlural": "Behavioral protocols",
     "name": "behavioralProtocol",
     "namePlural": "behavioralProtocols",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DatasetVersion",
@@ -2244,7 +2208,6 @@
     "labelPlural": "Behavioral tasks",
     "name": "behavioralTask",
     "namePlural": "behavioralTasks",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -2281,7 +2244,6 @@
     "labelPlural": "Best viewpoints",
     "name": "bestViewPoint",
     "namePlural": "bestViewPoints",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/sands/Annotation"
@@ -2335,7 +2297,6 @@
     "labelPlural": "Biological sexes",
     "name": "biologicalSex",
     "namePlural": "biologicalSexes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Subject",
@@ -2404,7 +2365,6 @@
     "labelPlural": "Breeding types",
     "name": "breedingType",
     "namePlural": "breedingTypes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Strain"
@@ -2452,7 +2412,6 @@
     "labelPlural": "Camera positions",
     "name": "cameraPosition",
     "namePlural": "cameraPositions",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ViewerSpecification"
@@ -2500,7 +2459,6 @@
     "labelPlural": "Channels",
     "name": "channel",
     "namePlural": "channels",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Recording"
@@ -2554,7 +2512,6 @@
     "labelPlural": "Chemical products",
     "name": "chemicalProduct",
     "namePlural": "chemicalProducts",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AmountOfChemical"
@@ -2602,7 +2559,6 @@
     "labelPlural": "Chloride reversal potentials",
     "name": "chlorideReversalPotential",
     "namePlural": "chlorideReversalPotentials",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/PipetteUsage"
@@ -2653,7 +2609,6 @@
     "labelPlural": "Cited publications",
     "name": "citedPublication",
     "namePlural": "citedPublications",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Book",
@@ -2705,7 +2660,6 @@
     "labelPlural": "Comments",
     "name": "comment",
     "namePlural": "comments",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Comment"
@@ -2753,7 +2707,6 @@
     "labelPlural": "Commenters",
     "name": "commenter",
     "namePlural": "commenters",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Comment"
@@ -2801,7 +2754,6 @@
     "labelPlural": "Compensation currents",
     "name": "compensationCurrent",
     "namePlural": "compensationCurrents",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/PipetteUsage"
@@ -2855,7 +2807,6 @@
     "labelPlural": "Conductor materials",
     "name": "conductorMaterial",
     "namePlural": "conductorMaterials",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Electrode",
@@ -2924,7 +2875,6 @@
     "labelPlural": "Configurations",
     "name": "configuration",
     "namePlural": "configurations",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Configuration",
@@ -2981,7 +2931,6 @@
     "labelPlural": "Construction types",
     "name": "constructionType",
     "namePlural": "constructionTypes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CranialWindowPreparation"
@@ -3037,7 +2986,6 @@
     "labelPlural": "Contact information",
     "name": "contactInformation",
     "namePlural": "contactInformation",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Consortium",
@@ -3097,7 +3045,6 @@
     "labelPlural": "Contact resistances",
     "name": "contactResistance",
     "namePlural": "contactResistances",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ElectrodeUsage"
@@ -3148,7 +3095,6 @@
     "labelPlural": "Contact resistances",
     "name": "contactResistances",
     "namePlural": "contactResistances",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ElectrodeArrayUsage"
@@ -3184,7 +3130,6 @@
     "labelPlural": "Content",
     "name": "content",
     "namePlural": "content",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/File",
@@ -3225,7 +3170,6 @@
     "labelPlural": "Content descriptions",
     "name": "contentDescription",
     "namePlural": "contentDescriptions",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/File",
@@ -3286,7 +3230,6 @@
     "labelPlural": "Content types",
     "name": "contentType",
     "namePlural": "contentTypes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ContentTypePattern"
@@ -3341,7 +3284,6 @@
     "labelPlural": "Content type patterns",
     "name": "contentTypePattern",
     "namePlural": "contentTypePatterns",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/FileRepository"
@@ -3391,7 +3333,6 @@
     "labelPlural": "Contexts",
     "name": "context",
     "namePlural": "contexts",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CustomPropertySet",
@@ -3439,7 +3380,6 @@
     "labelPlural": "Contribution types",
     "name": "contributionType",
     "namePlural": "contributionTypes",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/Contribution"
@@ -3500,7 +3440,6 @@
     "labelPlural": "Contributors",
     "name": "contributor",
     "namePlural": "contributors",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Contribution"
@@ -3545,7 +3484,6 @@
     "labelPlural": "Coordinate points",
     "name": "coordinatePoint",
     "namePlural": "coordinatePoints",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/sands/ElectrodeContact"
@@ -3602,7 +3540,6 @@
     "labelPlural": "Coordinate spaces",
     "name": "coordinateSpace",
     "namePlural": "coordinateSpaces",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlasVersion",
@@ -3674,7 +3611,6 @@
     "labelPlural": "Coordinates",
     "name": "coordinates",
     "namePlural": "coordinates",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CoordinatePoint"
@@ -3744,7 +3680,6 @@
     "labelPlural": "Coordinators",
     "name": "coordinator",
     "namePlural": "coordinators",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Project"
@@ -3798,7 +3733,6 @@
     "labelPlural": "Copy of",
     "name": "copyOf",
     "namePlural": "copyOf",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/LocalFile"
@@ -3854,7 +3788,6 @@
     "labelPlural": "Copyrights",
     "name": "copyright",
     "namePlural": "copyrights",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Book",
@@ -3948,7 +3881,6 @@
     "labelPlural": "Corrected names",
     "name": "correctedName",
     "namePlural": "correctedNames",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ParcellationEntityVersion"
@@ -3991,7 +3923,6 @@
     "labelPlural": "Creation dates",
     "name": "creationDate",
     "namePlural": "creationDates",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Book",
@@ -4056,7 +3987,6 @@
     "labelPlural": "Criteria",
     "name": "criteria",
     "namePlural": "criteria",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AtlasAnnotation",
@@ -4131,7 +4061,6 @@
     "labelPlural": "Criteria quality types",
     "name": "criteriaQualityType",
     "namePlural": "criteriaQualityTypes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AtlasAnnotation",
@@ -4190,7 +4119,6 @@
     "labelPlural": "Criteria types",
     "name": "criteriaType",
     "namePlural": "criteriaTypes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AtlasAnnotation",
@@ -4241,7 +4169,6 @@
     "labelPlural": "Culture media",
     "name": "cultureMedium",
     "namePlural": "cultureMedia",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/TissueCulturePreparation"
@@ -4289,7 +4216,6 @@
     "labelPlural": "Culture types",
     "name": "cultureType",
     "namePlural": "cultureTypes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/TissueCulturePreparation"
@@ -4353,7 +4279,6 @@
     "labelPlural": "Custodians",
     "name": "custodian",
     "namePlural": "custodians",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Book",
@@ -4490,7 +4415,6 @@
     "labelPlural": "Custom property sets",
     "name": "customPropertySet",
     "namePlural": "customPropertySets",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CellPatching",
@@ -4604,7 +4528,6 @@
     "labelPlural": "Data locations",
     "name": "dataLocation",
     "namePlural": "dataLocations",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CustomPropertySet",
@@ -4670,7 +4593,6 @@
     "labelPlural": "Data types",
     "name": "dataType",
     "namePlural": "dataTypes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ContentType",
@@ -4735,7 +4657,6 @@
     "labelPlural": "Default images",
     "name": "defaultImage",
     "namePlural": "defaultImages",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
@@ -4784,7 +4705,6 @@
     "labelPlural": "Defined in",
     "name": "definedIn",
     "namePlural": "definedIn",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/sands/AtlasTerminology",
@@ -4831,7 +4751,6 @@
     "labelPlural": "Definitions",
     "name": "definition",
     "namePlural": "definitions",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ActionStatusType",
@@ -5208,7 +5127,6 @@
     "labelPlural": "Delivered by",
     "name": "deliveredBy",
     "namePlural": "deliveredBy",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/EphysStimulus"
@@ -5275,7 +5193,6 @@
     "labelPlural": "Descended from",
     "name": "descendedFrom",
     "namePlural": "descendedFrom",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SubjectGroupState",
@@ -5342,7 +5259,6 @@
     "labelPlural": "Described in",
     "name": "describedIn",
     "namePlural": "describedIn",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BehavioralProtocol",
@@ -5392,7 +5308,6 @@
     "labelPlural": "Descriptions",
     "name": "description",
     "namePlural": "descriptions",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ActionStatusType",
@@ -5948,7 +5863,6 @@
     "labelPlural": "Developers",
     "name": "developer",
     "namePlural": "developers",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MetaDataModel",
@@ -6077,7 +5991,6 @@
     "labelPlural": "Devices",
     "name": "device",
     "namePlural": "devices",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CellPatching",
@@ -6155,7 +6068,6 @@
     "labelPlural": "Device types",
     "name": "deviceType",
     "namePlural": "deviceTypes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Electrode",
@@ -6211,7 +6123,6 @@
     "labelPlural": "Digests",
     "name": "digest",
     "namePlural": "digests",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Hash"
@@ -6306,7 +6217,6 @@
     "labelPlural": "Digital identifiers",
     "name": "digitalIdentifier",
     "namePlural": "digitalIdentifiers",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Book",
@@ -6479,7 +6389,6 @@
     "labelPlural": "Dimensions",
     "name": "dimension",
     "namePlural": "dimensions",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CranialWindowPreparation"
@@ -6530,7 +6439,6 @@
     "labelPlural": "Disease models",
     "name": "diseaseModel",
     "namePlural": "diseaseModels",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Strain"
@@ -6565,7 +6473,6 @@
     "labelPlural": "Display colors",
     "name": "displayColor",
     "namePlural": "displayColors",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/sands/Annotation"
@@ -6606,7 +6513,6 @@
     "labelPlural": "Display labels",
     "name": "displayLabel",
     "namePlural": "displayLabels",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ContentType",
@@ -6657,7 +6563,6 @@
     "labelPlural": "Editors",
     "name": "editor",
     "namePlural": "editors",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Book",
@@ -6714,7 +6619,6 @@
     "labelPlural": "Educational levels",
     "name": "educationalLevel",
     "namePlural": "educationalLevels",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/LearningResource"
@@ -6753,7 +6657,6 @@
     "labelPlural": "Electrode contacts",
     "name": "electrodeContact",
     "namePlural": "electrodeContacts",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/sands/Electrode"
@@ -6793,7 +6696,6 @@
     "labelPlural": "Electrode identifiers",
     "name": "electrodeIdentifier",
     "namePlural": "electrodeIdentifiers",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ElectrodeArray"
@@ -6832,7 +6734,6 @@
     "labelPlural": "Electrodes",
     "name": "electrodes",
     "namePlural": "electrodes",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/sands/ElectrodeArray"
@@ -6876,7 +6777,6 @@
     "labelPlural": "Emails",
     "name": "email",
     "namePlural": "emails",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ContactInformation"
@@ -6929,7 +6829,6 @@
     "labelPlural": "End dates",
     "name": "endDate",
     "namePlural": "endDates",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Affiliation"
@@ -6983,7 +6882,6 @@
     "labelPlural": "End membrane potentials",
     "name": "endMembranePotential",
     "namePlural": "endMembranePotentials",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/PipetteUsage"
@@ -7026,7 +6924,6 @@
     "labelPlural": "End times",
     "name": "endTime",
     "namePlural": "endTimes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CellPatching",
@@ -7100,7 +6997,6 @@
     "labelPlural": null,
     "name": "endedAtTime",
     "namePlural": null,
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/ProtocolExecution"
@@ -7137,7 +7033,6 @@
     "labelPlural": "Entry points",
     "name": "entryPoint",
     "namePlural": "entryPoints",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ValidationTestVersion"
@@ -7188,7 +7083,6 @@
     "labelPlural": "Environments",
     "name": "environment",
     "namePlural": "environments",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DataAnalysis",
@@ -7257,7 +7151,6 @@
     "labelPlural": "Environment variables",
     "name": "environmentVariable",
     "namePlural": "environmentVariables",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/LaunchConfiguration"
@@ -7305,7 +7198,6 @@
     "labelPlural": null,
     "name": "epoch",
     "namePlural": null,
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/EphysStimulus"
@@ -7361,7 +7253,6 @@
     "labelPlural": "Ethics assessments",
     "name": "ethicsAssessment",
     "namePlural": "ethicsAssessments",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DatasetVersion"
@@ -7410,7 +7301,6 @@
     "labelPlural": "Executables",
     "name": "executable",
     "namePlural": "executables",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/LaunchConfiguration"
@@ -7466,7 +7356,6 @@
     "labelPlural": "Experimental approaches",
     "name": "experimentalApproach",
     "namePlural": "experimentalApproaches",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DatasetVersion"
@@ -7520,7 +7409,6 @@
     "labelPlural": "External diameters",
     "name": "externalDiameter",
     "namePlural": "externalDiameters",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Pipette"
@@ -7567,7 +7455,6 @@
     "labelPlural": "Family names",
     "name": "familyName",
     "namePlural": "familyNames",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Person"
@@ -7629,7 +7516,6 @@
     "labelPlural": "Features",
     "name": "feature",
     "namePlural": "features",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SoftwareVersion"
@@ -7682,7 +7568,6 @@
     "labelPlural": "File extensions",
     "name": "fileExtension",
     "namePlural": "fileExtensions",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ContentType"
@@ -7740,7 +7625,6 @@
     "labelPlural": "File path patterns",
     "name": "filePathPattern",
     "namePlural": "filePathPatterns",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/FileRepositoryStructure"
@@ -7799,7 +7683,6 @@
     "labelPlural": "File repositories",
     "name": "fileRepository",
     "namePlural": "fileRepositories",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/File"
@@ -7861,7 +7744,6 @@
     "labelPlural": "Formats",
     "name": "format",
     "namePlural": "formats",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Configuration",
@@ -7969,7 +7851,6 @@
     "labelPlural": "Full documentations",
     "name": "fullDocumentation",
     "namePlural": "fullDocumentations",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlasVersion",
@@ -8055,7 +7936,6 @@
     "labelPlural": "Full names",
     "name": "fullName",
     "namePlural": "fullNames",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlas",
@@ -8223,7 +8103,6 @@
     "labelPlural": "Funders",
     "name": "funder",
     "namePlural": "funders",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Funding"
@@ -8285,7 +8164,6 @@
     "labelPlural": "Funding",
     "name": "funding",
     "namePlural": "funding",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Book",
@@ -8393,7 +8271,6 @@
     "labelPlural": "Generated by",
     "name": "generatedBy",
     "namePlural": "generatedBy",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/EphysStimulus"
@@ -8441,7 +8318,6 @@
     "labelPlural": "Genetic strain types",
     "name": "geneticStrainType",
     "namePlural": "geneticStrainTypes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Strain"
@@ -8488,7 +8364,6 @@
     "labelPlural": "Given names",
     "name": "givenName",
     "namePlural": "givenNames",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Person"
@@ -8691,7 +8566,6 @@
     "labelPlural": "Grouped by",
     "name": "groupedBy",
     "namePlural": "groupedBy",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/FileBundle"
@@ -8749,7 +8623,6 @@
     "labelPlural": "Grouping types",
     "name": "groupingType",
     "namePlural": "groupingTypes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/FileBundle",
@@ -8811,7 +8684,6 @@
     "labelPlural": "Handedness",
     "name": "handedness",
     "namePlural": "handedness",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SubjectGroupState",
@@ -8870,7 +8742,6 @@
     "labelPlural": "Hardware",
     "name": "hardware",
     "namePlural": "hardware",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Environment"
@@ -8905,7 +8776,6 @@
     "labelPlural": "Has alternative versions",
     "name": "hasAlternativeVersion",
     "namePlural": "hasAlternativeVersions",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
@@ -8955,7 +8825,6 @@
     "labelPlural": "Has annotations",
     "name": "hasAnnotation",
     "namePlural": "hasAnnotations",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CustomAnatomicalEntity",
@@ -9001,7 +8870,6 @@
     "labelPlural": "Has components",
     "name": "hasComponent",
     "namePlural": "hasComponents",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
@@ -9049,7 +8917,6 @@
     "labelPlural": "Has entities",
     "name": "hasEntity",
     "namePlural": "hasEntities",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ParcellationTerminology",
@@ -9116,7 +8983,6 @@
     "labelPlural": "Has parents",
     "name": "hasParent",
     "namePlural": "hasParents",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Organization",
@@ -9259,7 +9125,6 @@
     "labelPlural": "Has parts",
     "name": "hasPart",
     "namePlural": "hasParts",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ChemicalMixture",
@@ -9330,7 +9195,6 @@
     "labelPlural": "Has research products",
     "name": "hasResearchProducts",
     "namePlural": "hasResearchProducts",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/Project"
@@ -9382,7 +9246,6 @@
     "labelPlural": "Has terminologies",
     "name": "hasTerminology",
     "namePlural": "hasTerminologies",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlas",
@@ -9482,7 +9345,6 @@
     "labelPlural": "Has versions",
     "name": "hasVersion",
     "namePlural": "hasVersions",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlas",
@@ -9582,7 +9444,6 @@
     "labelPlural": "Hashes",
     "name": "hash",
     "namePlural": "hashes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/File",
@@ -9665,7 +9526,6 @@
     "labelPlural": "Holders",
     "name": "holder",
     "namePlural": "holders",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Copyright"
@@ -9719,7 +9579,6 @@
     "labelPlural": "Holding potentials",
     "name": "holdingPotential",
     "namePlural": "holdingPotentials",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/PipetteUsage"
@@ -9776,7 +9635,6 @@
     "labelPlural": "Homepages",
     "name": "homepage",
     "namePlural": "homepages",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlas",
@@ -9928,7 +9786,6 @@
     "labelPlural": "Hosted by",
     "name": "hostedBy",
     "namePlural": "hostedBy",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/FileRepository",
@@ -9984,7 +9841,6 @@
     "labelPlural": "How to cite",
     "name": "howToCite",
     "namePlural": "howToCite",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlas",
@@ -10111,7 +9967,6 @@
     "labelPlural": "Identifiers",
     "name": "identifier",
     "namePlural": "identifiers",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DOI",
@@ -10223,7 +10078,6 @@
     "labelPlural": "In relation to",
     "name": "inRelationTo",
     "namePlural": "inRelationTo",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/QualitativeRelationAssessment",
@@ -10335,7 +10189,6 @@
     "labelPlural": "Inputs",
     "name": "input",
     "namePlural": "inputs",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CellPatching",
@@ -10464,7 +10317,6 @@
     "labelPlural": "Input data",
     "name": "inputData",
     "namePlural": "inputData",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DatasetVersion",
@@ -10531,7 +10383,6 @@
     "labelPlural": "Input formats",
     "name": "inputFormat",
     "namePlural": "inputFormats",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SoftwareVersion",
@@ -10588,7 +10439,6 @@
     "labelPlural": "Input resistances",
     "name": "inputResistance",
     "namePlural": "inputResistances",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/PipetteUsage"
@@ -10644,7 +10494,6 @@
     "labelPlural": "Inspired by",
     "name": "inspiredBy",
     "namePlural": "inspiredBy",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AtlasAnnotation",
@@ -10708,7 +10557,6 @@
     "labelPlural": "Insulator materials",
     "name": "insulatorMaterial",
     "namePlural": "insulatorMaterials",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Electrode",
@@ -10754,7 +10602,6 @@
     "labelPlural": "Interlex identifiers",
     "name": "interlexIdentifier",
     "namePlural": "interlexIdentifiers",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ActionStatusType",
@@ -11037,7 +10884,6 @@
     "labelPlural": "Internal diameters",
     "name": "internalDiameter",
     "namePlural": "internalDiameters",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Pipette"
@@ -11084,7 +10930,6 @@
     "labelPlural": "Internal identifiers",
     "name": "internalIdentifier",
     "namePlural": "internalIdentifiers",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AtlasAnnotation",
@@ -11207,7 +11052,6 @@
     "labelPlural": "Intrinsic resistances",
     "name": "intrinsicResistance",
     "namePlural": "intrinsicResistances",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Electrode",
@@ -11300,7 +11144,6 @@
     "labelPlural": "Is alternative version of",
     "name": "isAlternativeVersionOf",
     "namePlural": "isAlternativeVersionOf",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlasVersion",
@@ -11432,7 +11275,6 @@
     "labelPlural": "Is new version of",
     "name": "isNewVersionOf",
     "namePlural": "isNewVersionOf",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlasVersion",
@@ -11568,7 +11410,6 @@
     "labelPlural": "Is part of",
     "name": "isPartOf",
     "namePlural": "isPartOf",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CellPatching",
@@ -11674,7 +11515,6 @@
     "labelPlural": "Issue numbers",
     "name": "issueNumber",
     "namePlural": "issueNumbers",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/PublicationIssue"
@@ -11967,7 +11807,6 @@
     "labelPlural": "Keywords",
     "name": "keyword",
     "namePlural": "keywords",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Book",
@@ -12061,7 +11900,6 @@
     "labelPlural": "Knowledge space links",
     "name": "knowledgeSpaceLink",
     "namePlural": "knowledgeSpaceLinks",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ActionStatusType",
@@ -12350,7 +12188,6 @@
     "labelPlural": "Labeling compounds",
     "name": "labelingCompound",
     "namePlural": "labelingCompounds",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/PipetteUsage"
@@ -12393,7 +12230,6 @@
     "labelPlural": "Laboratory codes",
     "name": "laboratoryCode",
     "namePlural": "laboratoryCodes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Strain"
@@ -12449,7 +12285,6 @@
     "labelPlural": "Languages",
     "name": "language",
     "namePlural": "languages",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SoftwareVersion"
@@ -12511,7 +12346,6 @@
     "labelPlural": "Lateralities",
     "name": "laterality",
     "namePlural": "lateralities",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AtlasAnnotation",
@@ -12579,7 +12413,6 @@
     "labelPlural": "Launch configurations",
     "name": "launchConfiguration",
     "namePlural": "launchConfigurations",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DataAnalysis",
@@ -12640,7 +12473,6 @@
     "labelPlural": "Learning outcomes",
     "name": "learningOutcome",
     "namePlural": "learningOutcomes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/LearningResource"
@@ -12687,7 +12519,6 @@
     "labelPlural": "Legal codes",
     "name": "legalCode",
     "namePlural": "legalCodes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/License"
@@ -12741,7 +12572,6 @@
     "labelPlural": "Lengths",
     "name": "length",
     "namePlural": "lengths",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Rectangle"
@@ -12800,7 +12630,6 @@
     "labelPlural": "Licenses",
     "name": "license",
     "namePlural": "licenses",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Book",
@@ -12896,7 +12725,6 @@
     "labelPlural": "Liquid junction potentials",
     "name": "liquidJunctionPotential",
     "namePlural": "liquidJunctionPotentials",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/PipetteUsage"
@@ -12939,7 +12767,6 @@
     "labelPlural": "Locations",
     "name": "location",
     "namePlural": "locations",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Setup"
@@ -12986,7 +12813,6 @@
     "labelPlural": "Lookup labels",
     "name": "lookupLabel",
     "namePlural": "lookupLabels",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CellPatching",
@@ -13170,7 +12996,6 @@
     "labelPlural": "Major version identifiers",
     "name": "majorVersionIdentifier",
     "namePlural": "majorVersionIdentifiers",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlasVersion"
@@ -13224,7 +13049,6 @@
     "labelPlural": "Manufacturers",
     "name": "manufacturer",
     "namePlural": "manufacturers",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Electrode",
@@ -13290,7 +13114,6 @@
     "labelPlural": "Materials",
     "name": "material",
     "namePlural": "materials",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Pipette"
@@ -13326,7 +13149,6 @@
     "labelPlural": "Max values",
     "name": "maxValue",
     "namePlural": "maxValues",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/QuantitativeValueRange"
@@ -13380,7 +13202,6 @@
     "labelPlural": "Max value units",
     "name": "maxValueUnit",
     "namePlural": "maxValueUnits",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/QuantitativeValueRange"
@@ -13428,7 +13249,6 @@
     "labelPlural": "Measured quantities",
     "name": "measuredQuantity",
     "namePlural": "measuredQuantities",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Measurement"
@@ -13485,7 +13305,6 @@
     "labelPlural": "Measured with",
     "name": "measuredWith",
     "namePlural": "measuredWith",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Measurement"
@@ -13536,7 +13355,6 @@
     "labelPlural": "Member of",
     "name": "memberOf",
     "namePlural": "memberOf",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Affiliation"
@@ -13587,7 +13405,6 @@
     "labelPlural": "Metadata locations",
     "name": "metadataLocation",
     "namePlural": "metadataLocations",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ElectrodeArrayUsage",
@@ -13632,7 +13449,6 @@
     "labelPlural": "Min values",
     "name": "minValue",
     "namePlural": "minValues",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/QuantitativeValueRange"
@@ -13686,7 +13502,6 @@
     "labelPlural": "Min value units",
     "name": "minValueUnit",
     "namePlural": "minValueUnits",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/QuantitativeValueRange"
@@ -13729,7 +13544,6 @@
     "labelPlural": "Modification dates",
     "name": "modificationDate",
     "namePlural": "modificationDates",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Book",
@@ -13789,7 +13603,6 @@
     "labelPlural": "Molecular entities",
     "name": "molecularEntity",
     "namePlural": "molecularEntities",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ChemicalSubstance"
@@ -13836,7 +13649,6 @@
     "labelPlural": "Names",
     "name": "name",
     "namePlural": "names",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ActionStatusType",
@@ -14305,7 +14117,6 @@
     "labelPlural": "Naming terms",
     "name": "namingTerm",
     "namePlural": "namingTerms",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/sands/Annotation"
@@ -14355,7 +14166,6 @@
     "labelPlural": "Native units",
     "name": "nativeUnit",
     "namePlural": "nativeUnits",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
@@ -14399,7 +14209,6 @@
     "labelPlural": "Negative uncertainties",
     "name": "negativeUncertainties",
     "namePlural": "negativeUncertainties",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/QuantitativeValueArray"
@@ -14433,7 +14242,6 @@
     "labelPlural": "Number of electrodes",
     "name": "numberOfElectrodes",
     "namePlural": "numberOfElectrodes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ElectrodeArray"
@@ -14467,7 +14275,6 @@
     "labelPlural": "Number of subjects",
     "name": "numberOfSubjects",
     "namePlural": "numberOfSubjects",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SubjectGroup"
@@ -14501,7 +14308,6 @@
     "labelPlural": "Numbers of tissue samples",
     "name": "numberOfTissueSamples",
     "namePlural": "numbersOfTissueSamples",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/TissueSampleCollection"
@@ -14548,7 +14354,6 @@
     "labelPlural": "Ontology identifiers",
     "name": "ontologyIdentifier",
     "namePlural": "ontologyIdentifiers",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlas",
@@ -14714,7 +14519,6 @@
     "labelPlural": "Open data in",
     "name": "openDataIn",
     "namePlural": "openDataIn",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ServiceLink"
@@ -14773,7 +14577,6 @@
     "labelPlural": "Operating systems",
     "name": "operatingSystem",
     "namePlural": "operatingSystems",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SoftwareVersion"
@@ -14813,7 +14616,6 @@
     "labelPlural": "Orders",
     "name": "order",
     "namePlural": "orders",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/LearningResource",
@@ -14855,7 +14657,6 @@
     "labelPlural": "Organizations",
     "name": "organization",
     "namePlural": "organizations",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/Affiliation"
@@ -14916,7 +14717,6 @@
     "labelPlural": "Origins",
     "name": "origin",
     "namePlural": "origins",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/TissueSample",
@@ -14975,7 +14775,6 @@
     "labelPlural": "Oscillation amplitudes",
     "name": "oscillationAmplitude",
     "namePlural": "oscillationAmplitudes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SlicingDeviceUsage"
@@ -15010,7 +14809,6 @@
     "labelPlural": "Other anatomical relations",
     "name": "otherAnatomicalRelation",
     "namePlural": "otherAnatomicalRelations",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
@@ -15060,7 +14858,6 @@
     "labelPlural": "Other contributions",
     "name": "otherContribution",
     "namePlural": "otherContributions",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlasVersion",
@@ -15189,7 +14986,6 @@
     "labelPlural": "Outputs",
     "name": "output",
     "namePlural": "outputs",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CellPatching",
@@ -15306,7 +15102,6 @@
     "labelPlural": "Output data",
     "name": "outputData",
     "namePlural": "outputData",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ModelVersion"
@@ -15368,7 +15163,6 @@
     "labelPlural": "Output formats",
     "name": "outputFormat",
     "namePlural": "outputFormats",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SoftwareVersion",
@@ -15431,7 +15225,6 @@
     "labelPlural": "Owners",
     "name": "owner",
     "namePlural": "owners",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Electrode",
@@ -15483,7 +15276,6 @@
     "labelPlural": "Paginations",
     "name": "pagination",
     "namePlural": "paginations",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Chapter",
@@ -15527,7 +15319,6 @@
     "labelPlural": "Parameters",
     "name": "parameter",
     "namePlural": "parameters",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/ParameterSet"
@@ -15563,7 +15354,6 @@
     "labelPlural": "Parameter sets",
     "name": "parameterSet",
     "namePlural": "parameterSets",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/ProtocolExecution"
@@ -15603,7 +15393,6 @@
     "labelPlural": "Paths",
     "name": "path",
     "namePlural": "paths",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/LocalFile"
@@ -15664,7 +15453,6 @@
     "labelPlural": "Pathologies",
     "name": "pathology",
     "namePlural": "pathologies",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SubjectGroupState",
@@ -15721,7 +15509,6 @@
     "labelPlural": "Patterns of filenames",
     "name": "patternOfFilenames",
     "namePlural": "patternsOfFilenames",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/FileBundle"
@@ -15769,7 +15556,6 @@
     "labelPlural": "Performed by",
     "name": "performedBy",
     "namePlural": "performedBy",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CellPatching",
@@ -15865,7 +15651,6 @@
     "labelPlural": "Phenotypes",
     "name": "phenotype",
     "namePlural": "phenotypes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Strain"
@@ -15928,7 +15713,6 @@
     "labelPlural": "Pipette resistances",
     "name": "pipetteResistance",
     "namePlural": "pipetteResistances",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/PipetteUsage"
@@ -15976,7 +15760,6 @@
     "labelPlural": "Pipette solutions",
     "name": "pipetteSolution",
     "namePlural": "pipetteSolutions",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/PipetteUsage"
@@ -16010,7 +15793,6 @@
     "labelPlural": "Positive uncertainties",
     "name": "positiveUncertainties",
     "namePlural": "positiveUncertainties",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/QuantitativeValueArray"
@@ -16061,7 +15843,6 @@
     "labelPlural": "Preferred display colors",
     "name": "preferredDisplayColor",
     "namePlural": "preferredDisplayColors",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ViewerSpecification"
@@ -16104,7 +15885,6 @@
     "labelPlural": "Preferred ontology identifiers",
     "name": "preferredOntologyIdentifier",
     "namePlural": "preferredOntologyIdentifiers",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ActionStatusType",
@@ -16387,7 +16167,6 @@
     "labelPlural": "Preferred visualizations",
     "name": "preferredVisualization",
     "namePlural": "preferredVisualizations",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AtlasAnnotation",
@@ -16438,7 +16217,6 @@
     "labelPlural": "Preparation designs",
     "name": "preparationDesign",
     "namePlural": "preparationDesigns",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CellPatching",
@@ -16499,7 +16277,6 @@
     "labelPlural": "Preparation types",
     "name": "preparationType",
     "namePlural": "preparationTypes",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/ProtocolExecution"
@@ -16539,7 +16316,6 @@
     "labelPlural": "Prerequisites",
     "name": "prerequisite",
     "namePlural": "prerequisites",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/LearningResource"
@@ -16587,7 +16363,6 @@
     "labelPlural": "Preview images",
     "name": "previewImage",
     "namePlural": "previewImages",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ServiceLink"
@@ -16635,7 +16410,6 @@
     "labelPlural": "Previous recordings",
     "name": "previousRecording",
     "namePlural": "previousRecordings",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Recording"
@@ -16678,7 +16452,6 @@
     "labelPlural": "Product names",
     "name": "productName",
     "namePlural": "productNames",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ProductSource"
@@ -16726,7 +16499,6 @@
     "labelPlural": "Product sources",
     "name": "productSource",
     "namePlural": "productSources",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ChemicalMixture",
@@ -16785,7 +16557,6 @@
     "labelPlural": "Programming languages",
     "name": "programmingLanguage",
     "namePlural": "programmingLanguages",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SoftwareVersion"
@@ -16842,7 +16613,6 @@
     "labelPlural": "Property value pairs",
     "name": "propertyValuePair",
     "namePlural": "propertyValuePairs",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/PropertyValueList"
@@ -16898,7 +16668,6 @@
     "labelPlural": "Protocols",
     "name": "protocol",
     "namePlural": "protocols",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CellPatching",
@@ -16981,7 +16750,6 @@
     "labelPlural": "Providers",
     "name": "provider",
     "namePlural": "providers",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ProductSource"
@@ -17024,7 +16792,6 @@
     "labelPlural": "Publication dates",
     "name": "publicationDate",
     "namePlural": "publicationDates",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Book",
@@ -17087,7 +16854,6 @@
     "labelPlural": "Publishers",
     "name": "publisher",
     "namePlural": "publishers",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Book",
@@ -17147,7 +16913,6 @@
     "labelPlural": "Purities",
     "name": "purity",
     "namePlural": "purities",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ChemicalSubstance",
@@ -17206,7 +16971,6 @@
     "labelPlural": "Qualitative overlaps",
     "name": "qualitativeOverlap",
     "namePlural": "qualitativeOverlaps",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/QualitativeRelationAssessment"
@@ -17273,7 +17037,6 @@
     "labelPlural": "Quantitative overlaps",
     "name": "quantitativeOverlap",
     "namePlural": "quantitativeOverlaps",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/QuantitativeRelationAssessment"
@@ -17307,7 +17070,6 @@
     "labelPlural": "Quantities",
     "name": "quantity",
     "namePlural": "quantities",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/SubjectGroup",
@@ -17354,7 +17116,6 @@
     "labelPlural": "Radii",
     "name": "radius",
     "namePlural": "radii",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Circle"
@@ -17402,7 +17163,6 @@
     "labelPlural": "Recipes",
     "name": "recipe",
     "namePlural": "recipes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DataAnalysis",
@@ -17480,7 +17240,6 @@
     "labelPlural": "Recorded with",
     "name": "recordedWith",
     "namePlural": "recordedWith",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Recording"
@@ -17537,7 +17296,6 @@
     "labelPlural": "Reference data",
     "name": "referenceData",
     "namePlural": "referenceData",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ValidationTestVersion"
@@ -17585,7 +17343,6 @@
     "labelPlural": "Reference data acquisitions",
     "name": "referenceDataAcquisition",
     "namePlural": "referenceDataAcquisitions",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ValidationTest"
@@ -17630,7 +17387,6 @@
     "labelPlural": "Regexes",
     "name": "regex",
     "namePlural": "regexes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ContentTypePattern",
@@ -17685,7 +17441,6 @@
     "labelPlural": "Reinforcement types",
     "name": "reinforcementType",
     "namePlural": "reinforcementTypes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CranialWindowPreparation"
@@ -17720,7 +17475,6 @@
     "labelPlural": "Related atlas terms",
     "name": "relatedAtlasTerm",
     "namePlural": "relatedAtlasTerms",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/sands/Annotation"
@@ -17761,7 +17515,6 @@
     "labelPlural": "Related media types",
     "name": "relatedMediaType",
     "namePlural": "relatedMediaTypes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ContentType"
@@ -17843,7 +17596,6 @@
     "labelPlural": "Related publications",
     "name": "relatedPublication",
     "namePlural": "relatedPublications",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlasVersion",
@@ -17922,7 +17674,6 @@
     "labelPlural": "Related recordings",
     "name": "relatedRecording",
     "namePlural": "relatedRecordings",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/sands/ElectrodeContact"
@@ -17959,7 +17710,6 @@
     "labelPlural": "Related stimulations",
     "name": "relatedStimulation",
     "namePlural": "relatedStimulations",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/sands/ElectrodeContact"
@@ -18011,7 +17761,6 @@
     "labelPlural": "Related UBERON terms",
     "name": "relatedUBERONTerm",
     "namePlural": "relatedUBERONTerms",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CustomAnatomicalEntity",
@@ -18073,7 +17822,6 @@
     "labelPlural": "Relation assessments",
     "name": "relationAssessment",
     "namePlural": "relationAssessments",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CustomAnatomicalEntity",
@@ -18131,7 +17879,6 @@
     "labelPlural": "Relative time indications",
     "name": "relativeTimeIndication",
     "namePlural": "relativeTimeIndications",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SubjectGroupState",
@@ -18187,7 +17934,6 @@
     "labelPlural": "Release dates",
     "name": "releaseDate",
     "namePlural": "releaseDates",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlasVersion",
@@ -18301,7 +18047,6 @@
     "labelPlural": "Relevant for",
     "name": "relevantFor",
     "namePlural": "relevantFor",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CustomPropertySet"
@@ -18363,7 +18108,6 @@
     "labelPlural": "Repositories",
     "name": "repository",
     "namePlural": "repositories",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlasVersion",
@@ -18441,7 +18185,6 @@
     "labelPlural": "Repository types",
     "name": "repositoryType",
     "namePlural": "repositoryTypes",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/FileRepository"
@@ -18489,7 +18232,6 @@
     "labelPlural": "Required times",
     "name": "requiredTime",
     "namePlural": "requiredTimes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/LearningResource"
@@ -18536,7 +18278,6 @@
     "labelPlural": "Requirements",
     "name": "requirement",
     "namePlural": "requirements",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SoftwareVersion"
@@ -18593,7 +18334,6 @@
     "labelPlural": "Resource usages",
     "name": "resourceUsage",
     "namePlural": "resourceUsages",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DataAnalysis",
@@ -18659,7 +18399,6 @@
     "labelPlural": "Sampling frequencies",
     "name": "samplingFrequency",
     "namePlural": "samplingFrequencies",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Recording"
@@ -18715,7 +18454,6 @@
     "labelPlural": "Scopes",
     "name": "scope",
     "namePlural": "scopes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Model",
@@ -18758,7 +18496,6 @@
     "labelPlural": "Scores",
     "name": "score",
     "namePlural": "scores",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ModelValidation"
@@ -18806,7 +18543,6 @@
     "labelPlural": "Score types",
     "name": "scoreType",
     "namePlural": "scoreTypes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ValidationTest"
@@ -18854,7 +18590,6 @@
     "labelPlural": "Seal resistances",
     "name": "sealResistance",
     "namePlural": "sealResistances",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/PipetteUsage"
@@ -18890,7 +18625,6 @@
     "labelPlural": "Semantically anchored to",
     "name": "semanticallyAnchoredTo",
     "namePlural": "semanticallyAnchoredTo",
-    "semanticEquivalent": [],
     "usedIn": {
       "v2.0": [
         "https://openminds.ebrains.eu/core/ProtocolExecution"
@@ -18932,7 +18666,6 @@
     "labelPlural": "Semi major axes",
     "name": "semiMajorAxis",
     "namePlural": "semiMajorAxes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Ellipse"
@@ -18980,7 +18713,6 @@
     "labelPlural": "Semi minor axes",
     "name": "semiMinorAxis",
     "namePlural": "semiMinorAxes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Ellipse"
@@ -19023,7 +18755,6 @@
     "labelPlural": "Serial numbers",
     "name": "serialNumber",
     "namePlural": "serialNumbers",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Electrode",
@@ -19088,7 +18819,6 @@
     "labelPlural": "Serialization formats",
     "name": "serializationFormat",
     "namePlural": "serializationFormats",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MetaDataModelVersion"
@@ -19142,7 +18872,6 @@
     "labelPlural": "Series resistances",
     "name": "seriesResistance",
     "namePlural": "seriesResistances",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/PipetteUsage"
@@ -19197,7 +18926,6 @@
     "labelPlural": "Services",
     "name": "service",
     "namePlural": "services",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AccountInformation",
@@ -19251,7 +18979,6 @@
     "labelPlural": "Setups",
     "name": "setup",
     "namePlural": "setups",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/StimulationActivity"
@@ -19298,7 +19025,6 @@
     "labelPlural": "Short names",
     "name": "shortName",
     "namePlural": "shortNames",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlas",
@@ -19453,7 +19179,6 @@
     "labelPlural": "Slice thicknesses",
     "name": "sliceThickness",
     "namePlural": "sliceThicknesses",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SlicingDeviceUsage"
@@ -19504,7 +19229,6 @@
     "labelPlural": "Slicing angles",
     "name": "slicingAngle",
     "namePlural": "slicingAngles",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SlicingDeviceUsage"
@@ -19552,7 +19276,6 @@
     "labelPlural": "Slicing planes",
     "name": "slicingPlane",
     "namePlural": "slicingPlanes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SlicingDeviceUsage"
@@ -19600,7 +19323,6 @@
     "labelPlural": "Slicing speeds",
     "name": "slicingSpeed",
     "namePlural": "slicingSpeeds",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SlicingDeviceUsage"
@@ -19648,7 +19370,6 @@
     "labelPlural": "Software",
     "name": "software",
     "namePlural": "software",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Environment",
@@ -19699,7 +19420,6 @@
     "labelPlural": "Source data",
     "name": "sourceData",
     "namePlural": "sourceData",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/FileArchive"
@@ -19747,7 +19467,6 @@
     "labelPlural": "Spatial locations",
     "name": "spatialLocation",
     "namePlural": "spatialLocations",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalTargetPosition",
@@ -19801,7 +19520,6 @@
     "labelPlural": "Spatial locations of electrodes",
     "name": "spatialLocationOfElectrodes",
     "namePlural": "spatialLocationsOfElectrodes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ElectrodeArrayUsage"
@@ -19857,7 +19575,6 @@
     "labelPlural": "Special usage roles",
     "name": "specialUsageRole",
     "namePlural": "specialUsageRoles",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/File",
@@ -19925,7 +19642,6 @@
     "labelPlural": "Species",
     "name": "species",
     "namePlural": "species",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Strain",
@@ -20019,7 +19735,6 @@
     "labelPlural": "Specifications",
     "name": "specification",
     "namePlural": "specifications",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AtlasAnnotation",
@@ -20090,7 +19805,6 @@
     "labelPlural": "Specification formats",
     "name": "specificationFormat",
     "namePlural": "specificationFormats",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MetaDataModelVersion"
@@ -20162,7 +19876,6 @@
     "labelPlural": "Stages",
     "name": "stage",
     "namePlural": "stages",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/WorkflowExecution"
@@ -20209,7 +19922,6 @@
     "labelPlural": "Start dates",
     "name": "startDate",
     "namePlural": "startDates",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Affiliation"
@@ -20263,7 +19975,6 @@
     "labelPlural": "Start membrane potentials",
     "name": "startMembranePotential",
     "namePlural": "startMembranePotentials",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/PipetteUsage"
@@ -20306,7 +20017,6 @@
     "labelPlural": "Start times",
     "name": "startTime",
     "namePlural": "startTimes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CellPatching",
@@ -20380,7 +20090,6 @@
     "labelPlural": null,
     "name": "startedAtTime",
     "namePlural": null,
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/ProtocolExecution"
@@ -20425,7 +20134,6 @@
     "labelPlural": "Started by",
     "name": "startedBy",
     "namePlural": "startedBy",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DataAnalysis",
@@ -20494,7 +20202,6 @@
     "labelPlural": "Statuses",
     "name": "status",
     "namePlural": "statuses",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DataAnalysis",
@@ -20563,7 +20270,6 @@
     "labelPlural": "Stimulations",
     "name": "stimulation",
     "namePlural": "stimulations",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BehavioralProtocol"
@@ -20611,7 +20317,6 @@
     "labelPlural": "Stimuli",
     "name": "stimulus",
     "namePlural": "stimuli",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/StimulationActivity"
@@ -20677,7 +20382,6 @@
     "labelPlural": "Stimulus types",
     "name": "stimulusType",
     "namePlural": "stimulusTypes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BehavioralProtocol",
@@ -20728,7 +20432,6 @@
     "labelPlural": "Stock numbers",
     "name": "stockNumber",
     "namePlural": "stockNumbers",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Strain"
@@ -20784,7 +20487,6 @@
     "labelPlural": "Storage sizes",
     "name": "storageSize",
     "namePlural": "storageSizes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/File",
@@ -20842,7 +20544,6 @@
     "labelPlural": "Strains",
     "name": "strain",
     "namePlural": "strains",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/Subject",
@@ -20897,7 +20598,6 @@
     "labelPlural": "Structure patterns",
     "name": "structurePattern",
     "namePlural": "structurePatterns",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/FileRepository"
@@ -20971,7 +20671,6 @@
     "labelPlural": "Studied specimens",
     "name": "studiedSpecimen",
     "namePlural": "studiedSpecimens",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DatasetVersion"
@@ -21048,7 +20747,6 @@
     "labelPlural": "Studied states",
     "name": "studiedState",
     "namePlural": "studiedStates",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Subject",
@@ -21116,7 +20814,6 @@
     "labelPlural": "Study options",
     "name": "studyOption",
     "namePlural": "studyOptions",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/Protocol"
@@ -21257,7 +20954,6 @@
     "labelPlural": "Study targets",
     "name": "studyTarget",
     "namePlural": "studyTargets",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CellPatching",
@@ -21359,7 +21055,6 @@
     "labelPlural": "Suggest new terminologies",
     "name": "suggestNewTerminology",
     "namePlural": "suggestNewTerminologies",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/TermSuggestion"
@@ -21409,7 +21104,6 @@
     "labelPlural": "Support channels",
     "name": "supportChannel",
     "namePlural": "supportChannels",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlasVersion",
@@ -21495,7 +21189,6 @@
     "labelPlural": "Synonyms",
     "name": "synonym",
     "namePlural": "synonyms",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ActionStatusType",
@@ -21785,7 +21478,6 @@
     "labelPlural": "Tags",
     "name": "tag",
     "namePlural": "tags",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DataAnalysis",
@@ -21851,7 +21543,6 @@
     "labelPlural": "Target identification types",
     "name": "targetIdentificationType",
     "namePlural": "targetIdentificationTypes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalTargetPosition"
@@ -21899,7 +21590,6 @@
     "labelPlural": "Target positions",
     "name": "targetPosition",
     "namePlural": "targetPositions",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CellPatching",
@@ -21971,7 +21661,6 @@
     "labelPlural": "Techniques",
     "name": "technique",
     "namePlural": "techniques",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DataAnalysis",
@@ -22053,7 +21742,6 @@
     "labelPlural": "Temperatures",
     "name": "temperature",
     "namePlural": "temperatures",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/TissueSampleSlicing"
@@ -22089,7 +21777,6 @@
     "labelPlural": "Terminologies",
     "name": "terminology",
     "namePlural": "terminologies",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
@@ -22127,7 +21814,6 @@
     "labelPlural": "Timestamps",
     "name": "timestamp",
     "namePlural": "timestamps",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Comment",
@@ -22178,7 +21864,6 @@
     "labelPlural": "Tissue bath solutions",
     "name": "tissueBathSolution",
     "namePlural": "tissueBathSolutions",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CellPatching",
@@ -22224,7 +21909,6 @@
     "labelPlural": "Topics",
     "name": "topic",
     "namePlural": "topics",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/LearningResource"
@@ -22320,7 +22004,6 @@
     "labelPlural": "Types",
     "name": "type",
     "namePlural": "types",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AtlasAnnotation",
@@ -22424,7 +22107,6 @@
     "labelPlural": "Types of uncertainty",
     "name": "typeOfUncertainty",
     "namePlural": "typesOfUncertainty",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/QuantitativeValue",
@@ -22469,7 +22151,6 @@
     "labelPlural": "Uncertainties",
     "name": "uncertainty",
     "namePlural": "uncertainties",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/QuantitativeValue"
@@ -22531,7 +22212,6 @@
     "labelPlural": "Units",
     "name": "unit",
     "namePlural": "units",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Channel",
@@ -22588,7 +22268,6 @@
     "labelPlural": "Used electrodes",
     "name": "usedElectrode",
     "namePlural": "usedElectrodes",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ElectrodeArrayUsage"
@@ -22636,7 +22315,6 @@
     "labelPlural": "Used species",
     "name": "usedSpecies",
     "namePlural": "usedSpecies",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlas",
@@ -22702,7 +22380,6 @@
     "labelPlural": "Used specimens",
     "name": "usedSpecimen",
     "namePlural": "usedSpecimens",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlasVersion",
@@ -22760,7 +22437,6 @@
     "labelPlural": "User names",
     "name": "userName",
     "namePlural": "userNames",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AccountInformation"
@@ -22832,7 +22508,6 @@
     "labelPlural": "Values",
     "name": "value",
     "namePlural": "values",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Measurement",
@@ -22888,7 +22563,6 @@
     "labelPlural": "Values",
     "name": "values",
     "namePlural": "values",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/QuantitativeValueArray"
@@ -22936,7 +22610,6 @@
     "labelPlural": "Variations",
     "name": "variation",
     "namePlural": "variations",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CellPatching"
@@ -22984,7 +22657,6 @@
     "labelPlural": "Vendors",
     "name": "vendor",
     "namePlural": "vendors",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/StockNumber"
@@ -23031,7 +22703,6 @@
     "labelPlural": "Version identifiers",
     "name": "versionIdentifier",
     "namePlural": "versionIdentifiers",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Book",
@@ -23142,7 +22813,6 @@
     "labelPlural": "Version innovations",
     "name": "versionInnovation",
     "namePlural": "versionInnovations",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlasVersion",
@@ -23237,7 +22907,6 @@
     "labelPlural": "Vibration frequencies",
     "name": "vibrationFrequency",
     "namePlural": "vibrationFrequencies",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SlicingDeviceUsage"
@@ -23276,7 +22945,6 @@
     "labelPlural": "Visualized in",
     "name": "visualizedIn",
     "namePlural": "visualizedIn",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/sands/Annotation",
@@ -23319,7 +22987,6 @@
     "labelPlural": "Volume numbers",
     "name": "volumeNumber",
     "namePlural": "volumeNumbers",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/PublicationVolume"
@@ -23354,7 +23021,6 @@
     "labelPlural": "Voxel sizes",
     "name": "voxelSize",
     "namePlural": "voxelSizes",
-    "semanticEquivalent": [],
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/sands/Image"
@@ -23414,7 +23080,6 @@
     "labelPlural": "Was informed by",
     "name": "wasInformedBy",
     "namePlural": "wasInformedBy",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DataAnalysis",
@@ -23479,7 +23144,6 @@
     "labelPlural": "Webpages",
     "name": "webpage",
     "namePlural": "webpages",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/License"
@@ -23546,7 +23210,6 @@
     "labelPlural": "Weights",
     "name": "weight",
     "namePlural": "weights",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SubjectGroupState",
@@ -23615,7 +23278,6 @@
     "labelPlural": "Widths",
     "name": "width",
     "namePlural": "widths",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Rectangle"
@@ -23662,7 +23324,6 @@
     "labelPlural": "Years",
     "name": "year",
     "namePlural": "years",
-    "semanticEquivalent": [],
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Copyright"
