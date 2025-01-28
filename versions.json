@@ -47,12 +47,12 @@
       },
       "controlledTerms": {
         "branch": "v1",
-        "commit": "2400e43e873fbfadd9f776fa69bc541a86144c8a",
+        "commit": "fd2a414b82c9c0b2fba4c881de38defad1189ef9",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_controlledTerms.git"
       },
       "core": {
         "branch": "v3",
-        "commit": "d328b5709bda8a61a3f1cb151780dfb5ef870b1a",
+        "commit": "eb6edffff97eadcc73830d84449ef7e631b35409",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_core.git"
       }
     }
@@ -88,12 +88,12 @@
     "modules": {
       "SANDS": {
         "branch": "v3",
-        "commit": "ac2e238661c96bdfa98127b90dad35af6c132d50",
+        "commit": "2d72c428bce35c85828f7fb8acca4cda5eedc4fc",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_SANDS.git"
       },
       "chemicals": {
         "branch": "v1",
-        "commit": "57b5ce3c6d569f0bb8ce761adb48746fd1d970b2",
+        "commit": "b4f83fc3aedd0e72fe0c29f5aa964b108cb7a69b",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_chemicals.git"
       },
       "computation": {
@@ -108,7 +108,7 @@
       },
       "core": {
         "branch": "v4",
-        "commit": "8b2bc673cbd57a8620a306a7a84253bd6ecd30eb",
+        "commit": "8d2197b955c81c45b8d3437f47d2f8ff6f9af8b5",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_core.git"
       },
       "ephys": {
@@ -118,7 +118,7 @@
       },
       "publications": {
         "branch": "v1",
-        "commit": "d5446304a052a238d431a06bd66d0e444372f159",
+        "commit": "32ae078d248721afddaa3362b7b507aaa73b5cf6",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_publications.git"
       },
       "specimenPrep": {
@@ -128,7 +128,7 @@
       },
       "stimulation": {
         "branch": "v1",
-        "commit": "4dfdbadde9223ea9b6b48f377a424d23b1c8cf04",
+        "commit": "8c879e954377c875a39cff30b1bfd7d165e85d1f",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_stimulation.git"
       }
     }

@@ -267,6 +267,10 @@ class PropertyExtractor(Property):
         # Set default values for manually managed properties
         if "description" not in prop:
             prop["description"] = None
+        if "labelPlural" not in prop:
+            prop["labelPlural"] = None
+        if "namePlural" not in prop:
+            prop["namePlural"] = None
 
         # Automatically calculated values
         unqualified_property = os.path.basename(property)
