@@ -1,6 +1,7 @@
 {
   "latest": {
     "namespaces": {
+      "instances": "https://openminds.om-i.org/instances/",
       "props": "https://openminds.om-i.org/props/",
       "types": "https://openminds.om-i.org/types/"
     },
@@ -40,6 +41,7 @@
   },
   "v1.0": {
     "namespaces": {
+      "instances": "https://openminds.ebrains.eu/instances/",
       "props": "https://openminds.ebrains.eu/vocab/",
       "types": "https://openminds.ebrains.eu/{MODULE}/"
     },
@@ -60,6 +62,7 @@
   },
   "v2.0": {
     "namespaces": {
+      "instances": "https://openminds.ebrains.eu/instances/",
       "props": "https://openminds.ebrains.eu/vocab/",
       "types": "https://openminds.ebrains.eu/{MODULE}/"
     },
@@ -80,6 +83,7 @@
   },
   "v3.0": {
     "namespaces": {
+      "instances": "https://openminds.ebrains.eu/instances/",
       "props": "https://openminds.ebrains.eu/vocab/",
       "types": "https://openminds.ebrains.eu/{MODULE}/"
     },
@@ -124,6 +128,7 @@
   },
   "v4.0": {
     "namespaces": {
+      "instances": "https://openminds.om-i.org/instances/",
       "props": "https://openminds.om-i.org/props/",
       "types": "https://openminds.om-i.org/types/"
     },
