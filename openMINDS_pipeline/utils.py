@@ -26,9 +26,9 @@ def clone_central(refetch:bool):
 def clone_sources(modules, version):
     print(f"Now building the version {version}")
     for module, spec in modules.items():
-        print(f"Cloning module {module} in commit {spec.commit}")
-        repo = Repo.clone_from(spec.repository, f"sources/{module}", no_checkout=True)
-        repo.git.checkout(spec.commit)
+        print(f"Cloning module {module} in commit {spec['commit']}")
+        repo = Repo.clone_from(spec["repository"], f"sources/{module}", no_checkout=True)
+        repo.git.checkout(spec["commit"])
     print("Done cloning")
 
 
