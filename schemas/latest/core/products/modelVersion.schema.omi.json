@@ -91,6 +91,16 @@
       "nameForReverseLink": null,
       "namePlural": "digitalIdentifiers"
     },
+    "https://openminds.om-i.org/props/entryPoint": {
+      "_instruction": "Add the entry point for this model version (for example, the path of the main script file within the repository).",
+      "formatting": "text/plain",
+      "label": "Entry point",
+      "labelPlural": "Entry points",
+      "multiline": false,
+      "name": "entryPoint",
+      "namePlural": "entryPoints",
+      "type": "string"
+    },
     "https://openminds.om-i.org/props/format": {
       "_instruction": "Add the content type of this computational model version, or the content types of the files composing the model version.",
       "_linkedTypes": [

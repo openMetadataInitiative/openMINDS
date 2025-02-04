@@ -24,6 +24,13 @@
       "schemaType": "Measurement"
     },
     {
+      "file": "core/products/modelVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:entryPoint"
+      ],
+      "schemaType": "ModelVersion"
+    },
+    {
       "file": "core/products/setup.schema.omi.json",
       "modifiedAttributes": [
         "properties.props:hasPart._linkedTypes"

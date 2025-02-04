@@ -7715,12 +7715,14 @@
     "namePlural": "entryPoints",
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/computation/ValidationTestVersion"
       ],
       "v4.0": [
+        "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion"
       ]
     }
