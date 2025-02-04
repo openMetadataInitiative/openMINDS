@@ -1,3 +1,12 @@
 {
-  "title": "Release Notes latest"
+  "title": "Release Notes latest",
+  "changes": [
+    {
+      "file": "core/products/modelVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:entryPoint"
+      ],
+      "schemaType": "ModelVersion"
+    }
+  ]
 }
