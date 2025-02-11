@@ -77,6 +77,65 @@
       ]
     }
   },
+  "MRAcquisitionType": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/MRAcquisitionType"
+        ],
+        "v4.0": [
+          "https://openminds.om-i.org/types/MRAcquisitionType"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Mracquisition type",
+    "labelPlural": null,
+    "name": "MRAcquisitionType",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
+      ],
+      "v4.0": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
+      ]
+    }
+  },
+  "MTState": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Mtstate",
+    "labelPlural": null,
+    "name": "MTState",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
+      ],
+      "v4.0": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
+      ]
+    }
+  },
   "URL": {
     "asString": {
       "formatting": "text/plain",
@@ -5099,6 +5158,7 @@
         "https://openminds.om-i.org/types/Language",
         "https://openminds.om-i.org/types/Laterality",
         "https://openminds.om-i.org/types/LearningResourceType",
+        "https://openminds.om-i.org/types/MRAcquisitionType",
         "https://openminds.om-i.org/types/MRIPulseSequence",
         "https://openminds.om-i.org/types/MRIWeighting",
         "https://openminds.om-i.org/types/MeasuredQuantity",
@@ -5861,6 +5921,7 @@
         "https://openminds.om-i.org/types/LivePaper",
         "https://openminds.om-i.org/types/LivePaperSection",
         "https://openminds.om-i.org/types/LivePaperVersion",
+        "https://openminds.om-i.org/types/MRAcquisitionType",
         "https://openminds.om-i.org/types/MRIPulseSequence",
         "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/MRIWeighting",
@@ -11476,6 +11537,7 @@
         "https://openminds.om-i.org/types/Language",
         "https://openminds.om-i.org/types/Laterality",
         "https://openminds.om-i.org/types/LearningResourceType",
+        "https://openminds.om-i.org/types/MRAcquisitionType",
         "https://openminds.om-i.org/types/MRIPulseSequence",
         "https://openminds.om-i.org/types/MRIWeighting",
         "https://openminds.om-i.org/types/MeasuredQuantity",
@@ -12612,6 +12674,7 @@
           "https://openminds.om-i.org/types/Language",
           "https://openminds.om-i.org/types/Laterality",
           "https://openminds.om-i.org/types/LearningResourceType",
+          "https://openminds.om-i.org/types/MRAcquisitionType",
           "https://openminds.om-i.org/types/MRIPulseSequence",
           "https://openminds.om-i.org/types/MRIWeighting",
           "https://openminds.om-i.org/types/MeasuredQuantity",
@@ -12989,6 +13052,7 @@
         "https://openminds.om-i.org/types/Language",
         "https://openminds.om-i.org/types/Laterality",
         "https://openminds.om-i.org/types/LearningResourceType",
+        "https://openminds.om-i.org/types/MRAcquisitionType",
         "https://openminds.om-i.org/types/MRIPulseSequence",
         "https://openminds.om-i.org/types/MRIWeighting",
         "https://openminds.om-i.org/types/MeasuredQuantity",
@@ -14191,65 +14255,6 @@
       ]
     }
   },
-  "mRAcquisitionType": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/MRAcquisitionType"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/MRAcquisitionType"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest",
-          "v4.0"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "M racquisition type",
-    "labelPlural": null,
-    "name": "mRAcquisitionType",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
-  },
-  "mTState": {
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest",
-          "v4.0"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "M tstate",
-    "labelPlural": null,
-    "name": "mTState",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
-  },
   "magneticFieldStrength": {
     "asEdge": {
       "canPointTo": {
@@ -15038,6 +15043,7 @@
         "https://openminds.om-i.org/types/LivePaperResourceItem",
         "https://openminds.om-i.org/types/LivePaperSection",
         "https://openminds.om-i.org/types/LocalFile",
+        "https://openminds.om-i.org/types/MRAcquisitionType",
         "https://openminds.om-i.org/types/MRIPulseSequence",
         "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/MRIWeighting",
@@ -17536,6 +17542,7 @@
         "https://openminds.om-i.org/types/Language",
         "https://openminds.om-i.org/types/Laterality",
         "https://openminds.om-i.org/types/LearningResourceType",
+        "https://openminds.om-i.org/types/MRAcquisitionType",
         "https://openminds.om-i.org/types/MRIPulseSequence",
         "https://openminds.om-i.org/types/MRIWeighting",
         "https://openminds.om-i.org/types/MeasuredQuantity",
@@ -23419,6 +23426,7 @@
         "https://openminds.om-i.org/types/Language",
         "https://openminds.om-i.org/types/Laterality",
         "https://openminds.om-i.org/types/LearningResourceType",
+        "https://openminds.om-i.org/types/MRAcquisitionType",
         "https://openminds.om-i.org/types/MRIPulseSequence",
         "https://openminds.om-i.org/types/MRIWeighting",
         "https://openminds.om-i.org/types/MeasuredQuantity",

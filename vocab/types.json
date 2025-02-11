@@ -835,9 +835,11 @@
     ],
     "identical": [
       [
-        "latest",
         "v3.0",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -915,9 +917,11 @@
         "v2.0"
       ],
       [
-        "latest",
         "v3.0",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -1135,9 +1139,11 @@
     ],
     "identical": [
       [
-        "latest",
         "v3.0",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -1416,9 +1422,11 @@
     ],
     "identical": [
       [
-        "latest",
         "v3.0",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -2310,9 +2318,11 @@
         "v2.0"
       ],
       [
-        "latest",
         "v3.0",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -3986,9 +3996,11 @@
     ],
     "identical": [
       [
-        "latest",
         "v3.0",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -4198,9 +4210,11 @@
     ],
     "identical": [
       [
-        "latest",
         "v3.0",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -4243,6 +4257,28 @@
     ],
     "label": "Local file",
     "name": "LocalFile"
+  },
+  "MRAcquisitionType": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Mracquisition type",
+    "name": "MRAcquisitionType"
   },
   "MRIPulseSequence": {
     "color": null,
@@ -4591,9 +4627,11 @@
         "v2.0"
       ],
       [
-        "latest",
         "v3.0",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -4789,8 +4827,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -6506,9 +6546,11 @@
     ],
     "identical": [
       [
-        "latest",
         "v3.0",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -7022,9 +7064,11 @@
         "v2.0"
       ],
       [
-        "latest",
         "v3.0",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -8244,9 +8288,11 @@
     ],
     "identical": [
       [
-        "latest",
         "v3.0",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -8498,9 +8544,11 @@
     ],
     "identical": [
       [
-        "latest",
         "v3.0",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -8597,9 +8645,11 @@
     ],
     "identical": [
       [
-        "latest",
         "v3.0",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [

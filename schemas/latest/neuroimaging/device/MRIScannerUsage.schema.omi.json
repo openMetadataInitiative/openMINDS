@@ -7,8 +7,23 @@
   "label": "Mriscanner usage",
   "name": "MRIScannerUsage",
   "properties": {
+    "https://openminds.om-i.org/props/MRAcquisitionType": {
+      "_instruction": "Add the type of sequence readout (2D or 3D).",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/MRAcquisitionType"
+      ],
+      "label": "Mracquisition type",
+      "name": "MRAcquisitionType",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/MTState": {
+      "_instruction": "Boolean stating whether the magnetization transfer pulse is applied.",
+      "label": "Mtstate",
+      "name": "MTState",
+      "type": "boolean"
+    },
     "https://openminds.om-i.org/props/bValues": {
-      "_instruction": "Add the b values coresponding to this aquisition.",
+      "_instruction": "Add the b values coresponding to this acquisition.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/File"
       ],
@@ -17,7 +32,7 @@
       "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/bVectors": {
-      "_instruction": "Add the b vectors coresponding to this aquisition.",
+      "_instruction": "Add the b vectors coresponding to this acquisition.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/File"
       ],
@@ -41,7 +56,7 @@
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValue"
       ],
-      "_instruction": "Enter the dewell time of this aquistion.",
+      "_instruction": "Enter the dwell time of this aquistion.",
       "label": "Dwell time",
       "name": "dwellTime",
       "nameForReverseLink": null
@@ -50,7 +65,7 @@
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValue"
       ],
-      "_instruction": "Enter the echo times of this aquisition (TE).",
+      "_instruction": "Enter the echo times of this acquisition (TE).",
       "label": "Echo time",
       "minItems": 1,
       "name": "echoTime",
@@ -107,21 +122,6 @@
       "namePlural": "lookupLabels",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/mRAcquisitionType": {
-      "_instruction": "Add the type of sequence readout (2D or 3D).",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/MRAcquisitionType"
-      ],
-      "label": "M racquisition type",
-      "name": "mRAcquisitionType",
-      "nameForReverseLink": null
-    },
-    "https://openminds.om-i.org/props/mTState": {
-      "_instruction": "Boolean stating whether the magnetization transfer pulse is applied.",
-      "label": "M tstate",
-      "name": "mTState",
-      "type": "boolean"
-    },
     "https://openminds.om-i.org/props/metadataLocation": {
       "_instruction": "Add all files or file bundles containing additional information about the usage of this device.",
       "_linkedTypes": [
@@ -150,7 +150,7 @@
       "type": "number"
     },
     "https://openminds.om-i.org/props/parallelAcquisitionTechnique": {
-      "_ instruction": "Enter the parallel acquisition technique sequance name for this scan. 'GRAPPA' for most Siemens machines and 'SENSE' for most Philips machines.",
+      "_ instruction": "Enter the parallel acquisition technique sequence name for this scan. 'GRAPPA' for most Siemens machines and 'SENSE' for most Philips machines.",
       "formatting": "text/plain",
       "label": "Parallel acquisition technique",
       "multiline": false,
@@ -188,13 +188,13 @@
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValue"
       ],
-      "_instruction": "Enter the echo time of this aquisition (TR).",
+      "_instruction": "Enter the echo time of this acquisition (TR).",
       "label": "Repetition time",
       "name": "repetitionTime",
       "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/sliceOrder": {
-      "_instruction": "Enter the time in which each slice have been aquired within each volume.",
+      "_instruction": "Enter the time in which each slice have been acquired within each volume.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValueArray"
       ],
@@ -203,7 +203,7 @@
       "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/sliceTiming": {
-      "_instruction": "Enter the time in which each slice have been aquired within each volume.",
+      "_instruction": "Enter the time in which each slice have been acquired within each volume.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValueArray"
       ],

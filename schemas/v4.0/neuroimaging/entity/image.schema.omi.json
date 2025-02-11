@@ -17,7 +17,7 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/capturedWith": {
-      "_instruction": "Add the device used to captured this image.",
+      "_instruction": "Add the device used to capture this image.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/ElectrodeArrayUsage",
         "https://openminds.om-i.org/types/ElectrodeUsage",

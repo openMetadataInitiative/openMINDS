@@ -40,7 +40,7 @@
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValue"
       ],
-      "_instruction": "Enter the duration from trigger delivery to scan onset (only the first volum).",
+      "_instruction": "Enter the duration from trigger delivery to scan onset (only the first volume).",
       "label": "Delay after trigger",
       "name": "delayAfterTrigger",
       "nameForReverseLink": null
@@ -67,7 +67,7 @@
       "namePlural": "devices"
     },
     "https://openminds.om-i.org/props/fieldMap": {
-      "_instruction": "Add the images or field maps used for correction of inhemogenties in B0 field of this aquisition.",
+      "_instruction": "Add the images or field maps used for correction of inhomogeneities in B0 field of this acquisition.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/File"
       ],
@@ -115,7 +115,7 @@
       "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/structuralMRI": {
-      "_instruction": "Add the structural MRI relavent for this aquisition.",
+      "_instruction": "Add the structural MRI relevant for this acquisition.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/File"
       ],
@@ -124,7 +124,7 @@
       "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/volumeTiming": {
-      "_instruction": "Enter aquisition times of each vloume.",
+      "_instruction": "Enter acquisition times of each vloume.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValueArray"
       ],
