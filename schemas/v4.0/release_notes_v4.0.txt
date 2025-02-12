@@ -19,6 +19,7 @@ Changes in core/data/measurement.schema.omi.json:
   - Field 'properties.props:measuredWith._linkedTypes' modified.
 
 Changes in core/products/modelVersion.schema.omi.json:
+  - Field 'properties.props:configuration' added.
   - Field 'properties.props:entryPoint' added.
 
 Changes in core/products/setup.schema.omi.json:
