@@ -35,6 +35,7 @@
     {
       "file": "core/products/modelVersion.schema.omi.json",
       "addedAttributes": [
+        "properties.props:configuration",
         "properties.props:entryPoint"
       ],
       "modifiedAttributes": [

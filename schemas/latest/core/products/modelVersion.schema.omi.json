@@ -21,6 +21,20 @@
       "nameForReverseLink": null,
       "namePlural": "accessibilities"
     },
+    "https://openminds.om-i.org/props/configuration": {
+      "_instruction": "Add the configuration information for this model version.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Configuration",
+        "https://openminds.om-i.org/types/File",
+        "https://openminds.om-i.org/types/PropertyValueList",
+        "https://openminds.om-i.org/types/WebResource"
+      ],
+      "label": "Configuration",
+      "labelPlural": "Configurations",
+      "name": "configuration",
+      "nameForReverseLink": null,
+      "namePlural": "configurations"
+    },
     "https://openminds.om-i.org/props/copyright": {
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/Copyright"
