@@ -16,6 +16,8 @@ Changes in core/products/metaDataModelVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified.
 
 Changes in core/products/modelVersion.schema.omi.json:
+  - Field 'properties.props:configuration' added.
+  - Field 'properties.props:entryPoint' added.
   - Field 'properties.props:keyword._linkedTypes' modified.
 
 Changes in core/products/softwareVersion.schema.omi.json:

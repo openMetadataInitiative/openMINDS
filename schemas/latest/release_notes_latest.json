@@ -34,6 +34,10 @@
     },
     {
       "file": "core/products/modelVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:configuration",
+        "properties.props:entryPoint"
+      ],
       "modifiedAttributes": [
         "properties.props:keyword._linkedTypes"
       ],
