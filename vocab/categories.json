@@ -318,6 +318,8 @@
     "fileOrigin": [
       "computation:LocalFile",
       "controlledTerms:AnalysisTechnique",
+      "controlledTerms:MRIPulseSequence",
+      "controlledTerms:MRIWeighting",
       "controlledTerms:StimulationApproach",
       "controlledTerms:StimulationTechnique",
       "controlledTerms:Technique",
@@ -374,6 +376,8 @@
       "controlledTerms:Language",
       "controlledTerms:Laterality",
       "controlledTerms:LearningResourceType",
+      "controlledTerms:MRIPulseSequence",
+      "controlledTerms:MRIWeighting",
       "controlledTerms:MeasuredQuantity",
       "controlledTerms:MeasuredSignalType",
       "controlledTerms:MetaDataModelType",
@@ -497,6 +501,7 @@
       "controlledTerms:SubcellularEntity",
       "controlledTerms:TactileStimulusType",
       "controlledTerms:TermSuggestion",
+      "controlledTerms:TissueSampleType",
       "controlledTerms:UBERONParcellation",
       "controlledTerms:VisualStimulusType",
       "sands:CustomAnatomicalEntity",
@@ -505,6 +510,8 @@
     ],
     "technique": [
       "controlledTerms:AnalysisTechnique",
+      "controlledTerms:MRIPulseSequence",
+      "controlledTerms:MRIWeighting",
       "controlledTerms:StimulationApproach",
       "controlledTerms:StimulationTechnique",
       "controlledTerms:Technique"

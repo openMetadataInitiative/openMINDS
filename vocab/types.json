@@ -3731,6 +3731,7 @@
     ],
     "identical": [
       [
+        "latest",
         "latest"
       ]
     ],
@@ -3750,6 +3751,12 @@
           "v4.0"
         ],
         "namespace": "https://openminds.om-i.org/types/"
+      },
+      {
+        "inVersions": [
+          "v3.0"
+        ],
+        "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "identical": [
@@ -3759,6 +3766,7 @@
     ],
     "isPartOfVersion": [
       "latest",
+      "v3.0",
       "v4.0"
     ],
     "label": "Mripulse sequence",
@@ -3774,6 +3782,12 @@
           "v4.0"
         ],
         "namespace": "https://openminds.om-i.org/types/"
+      },
+      {
+        "inVersions": [
+          "v3.0"
+        ],
+        "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "identical": [
@@ -3783,6 +3797,7 @@
     ],
     "isPartOfVersion": [
       "latest",
+      "v3.0",
       "v4.0"
     ],
     "label": "Mriweighting",

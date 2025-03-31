@@ -1,5 +1,9 @@
 Release Notes latest:
 
+Global changes:
+  - Namespace changed from https://openminds.ebrains.eu/(core|sands|controlledTerms|chemicals|ephys|computation|stimulation|specimenPrep|publications|neuroimaging)/ to https://openminds.om-i.org/types/.
+  - Namespace changed from https://openminds.ebrains.eu/vocab/ to https://openminds.om-i.org/props/.
+
 Added files:
   - controlledTerms/MRAcquisitionType.schema.omi.json
 
