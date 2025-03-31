@@ -113,10 +113,11 @@ def update_relevant_versions_from_repo(version_config, triggered_version):
     last_exclusive_version = exclusive[-1] if exclusive else None
 
     if last_exclusive_version:
-        modules = versions[last_exclusive_version]['modules']
-        for module_name, module_spec in modules.items():
-            m = OpenMINDSModule(**module_spec)
-            clone_sources(m, last_exclusive_version)
+        modules =  {
+            module_name: OpenMINDSModule(**module_spec)
+            for module_name, module_spec in versions[last_exclusive_version]['modules'].items()
+        }
+        clone_sources(modules, last_exclusive_version)
         triggered_version[last_exclusive_version] = versions[last_exclusive_version]
 
 
