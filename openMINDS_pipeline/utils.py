@@ -26,8 +26,12 @@ def clone_central(refetch:bool):
 def clone_sources(modules, version):
     print(f"Now building the version {version}")
     for module, spec in modules.items():
-        print(f"Cloning module {module} in commit {spec.commit}")
-        repo = Repo.clone_from(spec.repository, f"sources/{module}", no_checkout=True)
+        if os.path.exists(f"sources/{module}"):
+            print(f"Checking out commit {spec.commit} from existing clone {module}")
+            repo = Repo(f"sources/{module}")
+        else:
+            print(f"Cloning module {module} in commit {spec.commit}")
+            repo = Repo.clone_from(spec.repository, f"sources/{module}", no_checkout=True)
         repo.git.checkout(spec.commit)
     print("Done cloning")
 
@@ -117,8 +121,6 @@ def update_relevant_versions_from_repo(version_config, triggered_version):
             module_name: OpenMINDSModule(**module_spec)
             for module_name, module_spec in versions[last_exclusive_version]['modules'].items()
         }
-        if os.path.exists("sources"):
-            shutil.rmtree("sources")
         clone_sources(modules, last_exclusive_version)
         triggered_version[last_exclusive_version] = versions[last_exclusive_version]
 
