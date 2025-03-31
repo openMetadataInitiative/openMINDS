@@ -9751,7 +9751,9 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/Organization"
+          "https://openminds.om-i.org/types/Organization",
+          "https://openminds.om-i.org/types/Service",
+          "https://openminds.om-i.org/types/WebService"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Organization"

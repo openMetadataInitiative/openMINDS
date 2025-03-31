@@ -79,6 +79,14 @@
       "schemaType": "LearningResource"
     },
     {
+      "file": "publications/livePaperResourceItem.schema.omi.json",
+      "modifiedAttributes": [
+        "properties.props:hostedBy._instruction",
+        "properties.props:hostedBy._linkedTypes"
+      ],
+      "schemaType": "LivePaperResourceItem"
+    },
+    {
       "file": "publications/livePaperVersion.schema.omi.json",
       "modifiedAttributes": [
         "properties.props:keyword._linkedTypes"

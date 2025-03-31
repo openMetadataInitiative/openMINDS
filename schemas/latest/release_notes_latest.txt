@@ -35,6 +35,10 @@ Changes in publications/chapter.schema.omi.json:
 Changes in publications/learningResource.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified.
 
+Changes in publications/livePaperResourceItem.schema.omi.json:
+  - Field 'properties.props:hostedBy._instruction' modified.
+  - Field 'properties.props:hostedBy._linkedTypes' modified.
+
 Changes in publications/livePaperVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified.
 
