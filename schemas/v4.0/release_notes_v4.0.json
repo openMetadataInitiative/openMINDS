@@ -5,289 +5,67 @@
     "Namespace changed from https://openminds.ebrains.eu/vocab/ to https://openminds.om-i.org/props/."
   ],
   "addedFiles": [
-    "controlledTerms/MRIPulseSequence.schema.omi.json",
-    "controlledTerms/MRIWeighting.schema.omi.json"
+    "neuroimaging/activity/functionalMRIAcquisition.schema.omi.json",
+    "neuroimaging/activity/structuralMRIAcquisition.schema.omi.json",
+    "neuroimaging/device/MRIScanner.schema.omi.json",
+    "neuroimaging/device/MRIScannerUsage.schema.omi.json",
+    "neuroimaging/entity/image.schema.omi.json",
+    "neuroimaging/entity/imageSequence.schema.omi.json",
+    "neuroimaging/entity/imageStack.schema.omi.json",
+    "neuroimaging/entity/volume.schema.omi.json",
+    "neuroimaging/entity/volumeSequence.schema.omi.json"
   ],
   "changes": [
     {
-      "file": "computation/dataAnalysis.schema.omi.json",
+      "file": "core/data/measurement.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:studyTarget._linkedTypes"
+        "properties.props:measuredWith._linkedTypes"
       ],
-      "schemaType": "DataAnalysis"
-    },
-    {
-      "file": "computation/dataCopy.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:studyTarget._linkedTypes"
-      ],
-      "schemaType": "DataCopy"
-    },
-    {
-      "file": "computation/genericComputation.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:studyTarget._linkedTypes"
-      ],
-      "schemaType": "GenericComputation"
-    },
-    {
-      "file": "computation/modelValidation.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:studyTarget._linkedTypes"
-      ],
-      "schemaType": "ModelValidation"
-    },
-    {
-      "file": "computation/optimization.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:studyTarget._linkedTypes"
-      ],
-      "schemaType": "Optimization"
-    },
-    {
-      "file": "computation/simulation.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:studyTarget._linkedTypes"
-      ],
-      "schemaType": "Simulation"
-    },
-    {
-      "file": "computation/validationTest.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:studyTarget._linkedTypes"
-      ],
-      "schemaType": "ValidationTest"
-    },
-    {
-      "file": "computation/validationTestVersion.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
-      ],
-      "schemaType": "ValidationTestVersion"
-    },
-    {
-      "file": "computation/visualization.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:studyTarget._linkedTypes"
-      ],
-      "schemaType": "Visualization"
-    },
-    {
-      "file": "computation/workflowRecipeVersion.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
-      ],
-      "schemaType": "WorkflowRecipeVersion"
-    },
-    {
-      "file": "controlledTerms/tissueSampleType.schema.omi.json",
-      "modifiedAttributes": [
-        "_categories"
-      ],
-      "schemaType": "TissueSampleType"
-    },
-    {
-      "file": "core/data/fileBundle.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:groupedBy._linkedTypes"
-      ],
-      "schemaType": "FileBundle"
-    },
-    {
-      "file": "core/products/datasetVersion.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes",
-        "properties.props:studyTarget._linkedTypes",
-        "properties.props:technique._linkedTypes"
-      ],
-      "schemaType": "DatasetVersion"
-    },
-    {
-      "file": "core/products/metaDataModelVersion.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
-      ],
-      "schemaType": "MetaDataModelVersion"
-    },
-    {
-      "file": "core/products/model.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:studyTarget._linkedTypes"
-      ],
-      "schemaType": "Model"
+      "schemaType": "Measurement"
     },
     {
       "file": "core/products/modelVersion.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
+      "addedAttributes": [
+        "properties.props:configuration",
+        "properties.props:entryPoint"
       ],
       "schemaType": "ModelVersion"
     },
     {
-      "file": "core/products/softwareVersion.schema.omi.json",
+      "file": "core/products/setup.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
+        "properties.props:hasPart._linkedTypes"
       ],
-      "schemaType": "SoftwareVersion"
-    },
-    {
-      "file": "core/products/webServiceVersion.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
-      ],
-      "schemaType": "WebServiceVersion"
-    },
-    {
-      "file": "core/research/customPropertySet.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:relevantFor._linkedTypes"
-      ],
-      "schemaType": "CustomPropertySet"
-    },
-    {
-      "file": "core/research/protocol.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:technique._linkedTypes"
-      ],
-      "schemaType": "Protocol"
-    },
-    {
-      "file": "core/research/protocolExecution.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:studyTarget._linkedTypes"
-      ],
-      "schemaType": "ProtocolExecution"
+      "schemaType": "Setup"
     },
     {
       "file": "ephys/activity/cellPatching.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:studyTarget._linkedTypes"
+        "properties.props:device._linkedTypes"
       ],
       "schemaType": "CellPatching"
     },
     {
       "file": "ephys/activity/electrodePlacement.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:studyTarget._linkedTypes"
+        "properties.props:device._linkedTypes"
       ],
       "schemaType": "ElectrodePlacement"
     },
     {
-      "file": "ephys/activity/recordingActivity.schema.omi.json",
+      "file": "ephys/entity/recording.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:studyTarget._linkedTypes"
+        "properties.props:recordedWith._linkedTypes"
       ],
-      "schemaType": "RecordingActivity"
+      "schemaType": "Recording"
     },
     {
-      "file": "publications/book.schema.omi.json",
+      "file": "stimulation/stimulus/ephysStimulus.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
+        "properties.props:deliveredBy._linkedTypes",
+        "properties.props:generatedBy._linkedTypes"
       ],
-      "schemaType": "Book"
-    },
-    {
-      "file": "publications/chapter.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
-      ],
-      "schemaType": "Chapter"
-    },
-    {
-      "file": "publications/learningResource.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
-      ],
-      "schemaType": "LearningResource"
-    },
-    {
-      "file": "publications/livePaperVersion.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
-      ],
-      "schemaType": "LivePaperVersion"
-    },
-    {
-      "file": "publications/scholarlyArticle.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
-      ],
-      "schemaType": "ScholarlyArticle"
-    },
-    {
-      "file": "SANDS/atlas/brainAtlasVersion.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
-      ],
-      "schemaType": "BrainAtlasVersion"
-    },
-    {
-      "file": "SANDS/atlas/commonCoordinateSpaceVersion.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
-      ],
-      "schemaType": "CommonCoordinateSpaceVersion"
-    },
-    {
-      "file": "specimenPrep/activity/cranialWindowPreparation.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:studyTarget._linkedTypes"
-      ],
-      "schemaType": "CranialWindowPreparation"
-    },
-    {
-      "file": "specimenPrep/activity/tissueCulturePreparation.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:customPropertySet",
-        "properties.props:description",
-        "properties.props:endTime",
-        "properties.props:isPartOf",
-        "properties.props:lookupLabel",
-        "properties.props:performedBy",
-        "properties.props:preparationDesign",
-        "properties.props:protocol",
-        "properties.props:startTime",
-        "properties.props:studyTarget",
-        "properties.props:input.minItems",
-        "properties.props:input.type",
-        "properties.props:input.uniqueItems",
-        "properties.props:output.minItems",
-        "properties.props:output.type",
-        "properties.props:output.uniqueItems"
-      ],
-      "modifiedAttributes": [
-        "required"
-      ],
-      "schemaType": "TissueCulturePreparation"
-    },
-    {
-      "file": "specimenPrep/activity/tissueSampleSlicing.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:customPropertySet",
-        "properties.props:description",
-        "properties.props:endTime",
-        "properties.props:isPartOf",
-        "properties.props:lookupLabel",
-        "properties.props:performedBy",
-        "properties.props:preparationDesign",
-        "properties.props:protocol",
-        "properties.props:startTime",
-        "properties.props:studyTarget",
-        "properties.props:input.minItems",
-        "properties.props:input.type",
-        "properties.props:input.uniqueItems"
-      ],
-      "modifiedAttributes": [
-        "required"
-      ],
-      "schemaType": "TissueSampleSlicing"
-    },
-    {
-      "file": "stimulation/activity/stimulationActivity.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:studyTarget._linkedTypes"
-      ],
-      "schemaType": "StimulationActivity"
+      "schemaType": "EphysStimulus"
     }
   ]
 }
