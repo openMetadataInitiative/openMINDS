@@ -117,6 +117,8 @@ def update_relevant_versions_from_repo(version_config, triggered_version):
             module_name: OpenMINDSModule(**module_spec)
             for module_name, module_spec in versions[last_exclusive_version]['modules'].items()
         }
+        if os.path.exists("sources"):
+            shutil.rmtree("sources")
         clone_sources(modules, last_exclusive_version)
         triggered_version[last_exclusive_version] = versions[last_exclusive_version]
 
