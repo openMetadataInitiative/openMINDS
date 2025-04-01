@@ -69,24 +69,52 @@ def _enrich_with_type_information(schema, type, types):
 
 
 def enrich_types_with_identical(vocab_types: Dict, changed_types: Dict[str, int], previous_version: str, current_version: str, iteration: int):
-    def extend_or_sort_identical(vocab_entry, current_version: str):
-        """ Helper function to handle sorting of versions in the 'identical' field."""
-        if "identical" in vocab_entry:
+    def remove_version_from_identical(vocab_entry, version, previous_version):
+        """
+        Helper function to handle former entries for 'identical' field in the vocab.
+        """
+        if "identical" not in vocab_entry:
+            return None
+
+        _last_version_index = None
+        # Remove version from any group it appears in
+        for index, group in enumerate(vocab_entry["identical"]):
+            if previous_version in group:
+                _last_version_index = index
+            if version in group:
+                group.remove(version)
+                if not group:
+                    vocab_entry["identical"].pop(index)
+        return _last_version_index
+
+    def extend_or_sort_identical(vocab_entry, current_version: str, index: None):
+        """
+        Helper function to handle sorting and adding versions for the 'identical' field in the vocab.
+        """
+        if "identical" not in vocab_entry or len(vocab_entry["identical"]) == 0:
+            vocab_entry["identical"] = [[current_version]]
+        elif index:
+            vocab_entry["identical"][index].append(current_version)
+            vocab_entry["identical"][index].sort()
+        else:
             vocab_entry["identical"][-1].append(current_version)
             vocab_entry["identical"][-1].sort()
-        else:
-            vocab_entry.setdefault("identical", []).append([current_version])
 
     for _type in vocab_types:
+        _last_version_index = remove_version_from_identical(vocab_types[_type], current_version, previous_version)
         # Handle the first iteration (comparison with v1.0)
-        if previous_version == FIRST_VERSION and previous_version in vocab_types[_type].get("isPartOfVersion"):
-            vocab_types[_type].setdefault("identical", []).append([previous_version])
+        if previous_version == FIRST_VERSION and previous_version in vocab_types[_type].get("isPartOfVersion") and _last_version_index != 0:
+            vocab_types[_type].setdefault("identical", []).insert(0, [previous_version])
 
         # Update based on changed types
         if _type in changed_types:
-            vocab_types[_type].setdefault("identical", []).append([current_version])
+            if _last_version_index:
+                vocab_types[_type]["identical"].insert(_last_version_index+1, [current_version])
+                vocab_types[_type]["identical"][_last_version_index+1].sort()
+            else:
+                 vocab_types[_type]["identical"].append([current_version])
         elif current_version in vocab_types[_type].get("isPartOfVersion"):
-            extend_or_sort_identical(vocab_types[_type], current_version)
+            extend_or_sort_identical(vocab_types[_type], current_version, _last_version_index)
 
 
 class Types(object):
@@ -160,7 +188,7 @@ class TypeExtractor(Types):
 
         if t in self._types:
             for k in list(self._types[t].keys()):
-                if k not in ["label", "labelPlural", "name", "namePlural", "description", "isPartOfVersion", "color", "hasNamespace"]:
+                if k not in ["label", "labelPlural", "name", "namePlural", "description", "isPartOfVersion", "color", "hasNamespace", "identical"]:
                     del self._types[t][k]
         simple_name = os.path.basename(t)
         if t not in self._types:

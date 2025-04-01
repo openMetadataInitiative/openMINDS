@@ -207,7 +207,6 @@ def generate_changelogs_and_compatibility_resolution(versions: Dict[str, Dict[st
     Compare schema versions, generate changelogs, and enrich vocab types.
     """
     versions = sorted(list(versions.keys()), key=version_key)
-
     target_directory = directory_structure.target_directory
     vocab_types = load_json(os.path.join(target_directory, 'vocab', 'types.json'))
 
