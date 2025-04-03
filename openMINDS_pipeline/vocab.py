@@ -251,7 +251,7 @@ class PropertyExtractor(Property):
         t = schema_payload[TEMPLATE_PROPERTY_TYPE]
         if "properties" in schema_payload:
             for p, v in schema_payload["properties"].items():
-                # remove namespace, not necessary to check for ':' here (only done for types).
+                # Remove namespace, not necessary to check for ':' here (only done for types).
                 p = p.split('/')[-1]
                 self._extract_property(t, p, v)
 
