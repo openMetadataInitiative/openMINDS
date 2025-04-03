@@ -117,7 +117,6 @@ def update_relevant_versions_from_repo(version_config, triggered_version):
     last_exclusive_version = exclusive[-1] if exclusive else None
 
     if last_exclusive_version:
-        # Not necessary to build this version (schemas are already pulled from OpenMINDS main repository)
         triggered_version[last_exclusive_version] = versions[last_exclusive_version]
 
 
