@@ -166,7 +166,7 @@ def _do_resolve_categories(version: str, schema: SchemaStructure, schemas_by_cat
                     if linked_category in schemas_by_category:
                         linked_types.extend(schemas_by_category[linked_category])
                 schema_payload["properties"][p][TEMPLATE_PROPERTY_LINKED_TYPES] = sorted(linked_types)
-                del schema_payload["properties"][p][TEMPLATE_PROPERTY_LINKED_CATEGORIES]
+                schema_payload["properties"][p]["_belongsToCategory"] = schema_payload["properties"][p].pop(TEMPLATE_PROPERTY_LINKED_CATEGORIES)
             if TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES in schema_payload["properties"][p]:
                 embedded_categories = schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES]
                 embedded_types = []
