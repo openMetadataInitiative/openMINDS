@@ -1,9 +1,5 @@
 {
   "title": "Release Notes latest",
-  "globalChanges": [
-    "Namespace changed from https://openminds.ebrains.eu/(core|sands|controlledTerms|chemicals|ephys|computation|stimulation|specimenPrep|publications|neuroimaging)/ to https://openminds.om-i.org/types/.",
-    "Namespace changed from https://openminds.ebrains.eu/vocab/ to https://openminds.om-i.org/props/."
-  ],
   "addedFiles": [
     "controlledTerms/MRAcquisitionType.schema.omi.json"
   ],
@@ -38,10 +34,6 @@
     },
     {
       "file": "core/products/modelVersion.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:configuration",
-        "properties.props:entryPoint"
-      ],
       "modifiedAttributes": [
         "properties.props:keyword._linkedTypes"
       ],
@@ -81,14 +73,6 @@
         "properties.props:keyword._linkedTypes"
       ],
       "schemaType": "LearningResource"
-    },
-    {
-      "file": "publications/livePaperResourceItem.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:hostedBy._instruction",
-        "properties.props:hostedBy._linkedTypes"
-      ],
-      "schemaType": "LivePaperResourceItem"
     },
     {
       "file": "publications/livePaperVersion.schema.omi.json",
