@@ -189,9 +189,18 @@ def compare_json_schemas(schema1, schema2, parent_key:str = "", normalize: bool 
                 # Ignore if both values represent the same resource after replacement of the namespace
                 if isinstance(normalized_schema1[key], str) and isinstance(normalized_schema2[key], str) and normalize_uri(normalized_schema1[key]) == normalize_uri(normalized_schema2[key]):
                     pass
-                elif [normalize_uri(value1) for value1 in normalized_schema1[key]] != [normalize_uri(value2) for value2 in normalized_schema2[key]]:
-                    changes.append(f"Field '{parent_key + key}' modified.")
-                    structured_changes["modifiedAttributes"].append(parent_key + key)
+                elif (normalize1 := [normalize_uri(value1) for value1 in normalized_schema1[key]]) != (normalize2 :=[normalize_uri(value2) for
+                                                                                           value2 in
+                                                                                           normalized_schema2[key]]):
+                    if type(normalized_schema1[key]) is list and type(normalized_schema2[key]) is list and len(normalize2) > len(normalize1) and set(normalize1).issubset(set(normalize2)):
+                        changes.append(f"Field '{parent_key + key}' modified (value(s) added).")
+                        structured_changes["modifiedAttributes"].append({'property':parent_key + key, 'modification': 'value(s) added'})
+                    elif type(normalized_schema1[key]) is list and type(normalized_schema2[key]) is list and len(normalize1) > len(normalize2) and set(normalize2).issubset(set(normalize1)):
+                        changes.append(f"Field '{parent_key + key}' modified (value(s) removed).")
+                        structured_changes["modifiedAttributes"].append({'property':parent_key + key, 'modification': 'value(s) removed'})
+                    else:
+                        changes.append(f"Field '{parent_key + key}' modified.")
+                        structured_changes["modifiedAttributes"].append({'property': parent_key + key})
 
     if changes and "schemaType" not in structured_changes:
         if "name" in normalized_schema1 and "name" in normalized_schema1:
