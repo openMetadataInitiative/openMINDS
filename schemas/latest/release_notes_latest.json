@@ -7,98 +7,140 @@
     {
       "file": "computation/validationTestVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
+        {
+          "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "ValidationTestVersion"
     },
     {
       "file": "computation/workflowRecipeVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
+        {
+          "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "WorkflowRecipeVersion"
     },
     {
       "file": "core/products/datasetVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
+        {
+          "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "DatasetVersion"
     },
     {
       "file": "core/products/metaDataModelVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
+        {
+          "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "MetaDataModelVersion"
     },
     {
       "file": "core/products/modelVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
+        {
+          "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "ModelVersion"
     },
     {
       "file": "core/products/softwareVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
+        {
+          "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "SoftwareVersion"
     },
     {
       "file": "core/products/webServiceVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
+        {
+          "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "WebServiceVersion"
     },
     {
       "file": "publications/book.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
+        {
+          "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "Book"
     },
     {
       "file": "publications/chapter.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
+        {
+          "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "Chapter"
     },
     {
       "file": "publications/learningResource.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
+        {
+          "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "LearningResource"
     },
     {
       "file": "publications/livePaperVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
+        {
+          "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "LivePaperVersion"
     },
     {
       "file": "publications/scholarlyArticle.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
+        {
+          "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "ScholarlyArticle"
     },
     {
       "file": "SANDS/atlas/brainAtlasVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
+        {
+          "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "BrainAtlasVersion"
     },
     {
       "file": "SANDS/atlas/commonCoordinateSpaceVersion.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:keyword._linkedTypes"
+        {
+          "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "CommonCoordinateSpaceVersion"
     }

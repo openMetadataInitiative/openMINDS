@@ -7,7 +7,7 @@
   "name": "ISBN",
   "properties": {
     "https://openminds.ebrains.eu/vocab/identifier": {
-      "_instruction": "Enter the International Standard Book Number of the International ISBN Agency.",
+      "_instruction": "Enter the International Standard Book Number (ISBN-13) of the International ISBN Agency.",
       "description": "Term or code used to identify something or someone.",
       "formatting": "text/plain",
       "label": "Identifier",
@@ -19,7 +19,7 @@
       "type": "string"
     }
   },
-  "requires": [
-    "identifier"
+  "required": [
+    "https://openminds.ebrains.eu/vocab/identifier"
   ]
 }

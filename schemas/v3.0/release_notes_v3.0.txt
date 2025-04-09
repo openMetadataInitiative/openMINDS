@@ -22,55 +22,10 @@ Added files:
   - computation/workflowExecution.schema.omi.json
   - computation/workflowRecipe.schema.omi.json
   - computation/workflowRecipeVersion.schema.omi.json
-  - controlledTerms/actionStatusType.schema.omi.json
-  - controlledTerms/analysisTechnique.schema.omi.json
-  - controlledTerms/anatomicalIdentificationType.schema.omi.json
-  - controlledTerms/anatomicalPlane.schema.omi.json
-  - controlledTerms/annotationCriteriaType.schema.omi.json
-  - controlledTerms/annotationType.schema.omi.json
-  - controlledTerms/atlasType.schema.omi.json
-  - controlledTerms/auditoryStimulusType.schema.omi.json
-  - controlledTerms/biologicalOrder.schema.omi.json
-  - controlledTerms/biologicalProcess.schema.omi.json
-  - controlledTerms/breedingType.schema.omi.json
-  - controlledTerms/cellCultureType.schema.omi.json
-  - controlledTerms/chemicalMixtureType.schema.omi.json
-  - controlledTerms/colormap.schema.omi.json
-  - controlledTerms/cranialWindowConstructionType.schema.omi.json
-  - controlledTerms/cranialWindowReinforcementType.schema.omi.json
-  - controlledTerms/dataType.schema.omi.json
-  - controlledTerms/deviceType.schema.omi.json
-  - controlledTerms/differenceMeasure.schema.omi.json
-  - controlledTerms/educationalLevel.schema.omi.json
-  - controlledTerms/electricalStimulusType.schema.omi.json
-  - controlledTerms/geneticStrainType.schema.omi.json
-  - controlledTerms/gustatoryStimulusType.schema.omi.json
-  - controlledTerms/learningResourceType.schema.omi.json
-  - controlledTerms/measuredQuantity.schema.omi.json
-  - controlledTerms/measuredSignalType.schema.omi.json
-  - controlledTerms/molecularEntity.schema.omi.json
-  - controlledTerms/olfactoryStimulusType.schema.omi.json
-  - controlledTerms/opticalStimulusType.schema.omi.json
-  - controlledTerms/organismSubstance.schema.omi.json
-  - controlledTerms/organismSystem.schema.omi.json
-  - controlledTerms/patchClampVariation.schema.omi.json
-  - controlledTerms/service.schema.omi.json
-  - controlledTerms/setupType.schema.omi.json
-  - controlledTerms/stimulationApproach.schema.omi.json
-  - controlledTerms/stimulationTechnique.schema.omi.json
-  - controlledTerms/subcellularEntity.schema.omi.json
-  - controlledTerms/subjectAttribute.schema.omi.json
-  - controlledTerms/tactileStimulusType.schema.omi.json
-  - controlledTerms/tissueSampleAttribute.schema.omi.json
-  - controlledTerms/visualStimulusType.schema.omi.json
   - core/actors/accountInformation.schema.omi.json
   - core/actors/consortium.schema.omi.json
-  - core/data/contentTypePattern.schema.omi.json
   - core/data/fileArchive.schema.omi.json
-  - core/data/filePathPattern.schema.omi.json
-  - core/data/fileRepositoryStructure.schema.omi.json
   - core/data/measurement.schema.omi.json
-  - core/data/serviceLink.schema.omi.json
   - core/digitalIdentifier/HANDLE.schema.omi.json
   - core/digitalIdentifier/IdentifiersDotOrgID.schema.omi.json
   - core/digitalIdentifier/ISSN.schema.omi.json
@@ -88,6 +43,7 @@ Added files:
   - core/research/customPropertySet.schema.omi.json
   - core/research/numericalProperty.schema.omi.json
   - core/research/propertyValueList.schema.omi.json
+  - core/research/strain.schema.omi.json
   - core/research/stringProperty.schema.omi.json
   - ephys/activity/cellPatching.schema.omi.json
   - ephys/activity/electrodePlacement.schema.omi.json
@@ -127,9 +83,8 @@ Added files:
   - stimulation/stimulus/ephysStimulus.schema.omi.json
 
 Removed files:
-  - controlledTerms/behavioralTask.schema.omi.json
-  - controlledTerms/phenotype.schema.omi.json
   - core/miscellaneous/URL.schema.omi.json
+  - core/research/behavioralTask.schema.omi.json
   - core/research/numericalParameter.schema.omi.json
   - core/research/parameterSet.schema.omi.json
   - core/research/stringParameter.schema.omi.json
@@ -142,305 +97,8 @@ Moved files:
   - core/miscellaneous/ORCID.schema.omi.json moved to core/digitalIdentifier/ORCID.schema.omi.json
   - core/miscellaneous/RORID.schema.omi.json moved to core/digitalIdentifier/RORID.schema.omi.json
   - core/miscellaneous/SWHID.schema.omi.json moved to core/digitalIdentifier/SWHID.schema.omi.json
-  - controlledTerms/strain.schema.omi.json moved to core/research/strain.schema.omi.json
   - SANDS/non-atlas/electrode.schema.omi.json moved to ephys/device/electrode.schema.omi.json
   - SANDS/non-atlas/electrodeArray.schema.omi.json moved to ephys/device/electrodeArray.schema.omi.json
-
-Changes in controlledTerms/ageCategory.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/anatomicalAxesOrientation.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/biologicalSex.schema.omi.json:
-  - Field '_categories' modified.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/cellType.schema.omi.json:
-  - Field '_categories' modified.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/contributionType.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/criteriaQualityType.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/disease.schema.omi.json:
-  - Field '_categories' modified.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/diseaseModel.schema.omi.json:
-  - Field '_categories' modified.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/ethicsAssessment.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/experimentalApproach.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/fileBundleGrouping.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/fileRepositoryType.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/fileUsageRole.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/handedness.schema.omi.json:
-  - Field '_categories' modified.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/language.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/laterality.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/metaDataModelType.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/modelAbstractionLevel.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/modelScope.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/operatingDevice.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/operatingSystem.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/organ.schema.omi.json:
-  - Field '_categories' modified.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/preparationType.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/productAccessibility.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/programmingLanguage.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/qualitativeOverlap.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/semanticDataType.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/softwareApplicationCategory.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/softwareFeature.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/species.schema.omi.json:
-  - Field '_categories' modified.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/technique.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/terminology.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/termSuggestion.schema.omi.json:
-  - Field '_categories' modified.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/tissueSampleType.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/typeOfUncertainty.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/UBERONParcellation.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
-
-Changes in controlledTerms/unitOfMeasurement.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:ontologyIdentifier' removed.
-  - Field 'properties.props:interlexIdentifier' added.
-  - Field 'properties.props:knowledgeSpaceLink' added.
-  - Field 'properties.props:preferredOntologyIdentifier' added.
-  - Field 'properties.props:synonym' added.
 
 Changes in core/actors/affiliation.schema.omi.json:
   - Field 'properties.props:organization' removed.
@@ -456,13 +114,13 @@ Changes in core/actors/contribution.schema.omi.json:
   - Field 'properties.props:contributionType' removed.
   - Field 'properties.props:type' added.
   - Field 'properties.props:contributor._instruction' modified.
-  - Field 'properties.props:contributor._linkedTypes' modified.
+  - Field 'properties.props:contributor._linkedTypes' modified (value(s) added).
   - Field 'required' modified.
 
 Changes in core/actors/organization.schema.omi.json:
   - Field 'properties.props:affiliation' added.
   - Field 'properties.props:digitalIdentifier._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:hasParent.minItems' added.
   - Field 'properties.props:hasParent.type' added.
@@ -478,7 +136,7 @@ Changes in core/actors/organization.schema.omi.json:
   - Field 'properties.props:shortName._instruction' modified.
 
 Changes in core/actors/person.schema.omi.json:
-  - Field '_categories' modified.
+  - Field '_categories' modified (value(s) added).
   - Field 'properties.props:alternateName' added.
   - Field 'properties.props:associatedAccount' added.
   - Field 'properties.props:affiliation._instruction' modified.
@@ -494,9 +152,14 @@ Changes in core/data/contentType.schema.omi.json:
   - Field 'properties.props:specification._instruction' modified.
   - Field 'properties.props:synonym._instruction' modified.
 
+Changes in core/data/contentTypePattern.schema.omi.json:
+  - Field 'properties.props:contentType._instruction' modified.
+  - Field 'properties.props:lookupLabel._instruction' modified.
+  - Field 'properties.props:regex._instruction' modified.
+
 Changes in core/data/copyright.schema.omi.json:
   - Field 'properties.props:holder._instruction' modified.
-  - Field 'properties.props:holder._linkedTypes' modified.
+  - Field 'properties.props:holder._linkedTypes' modified (value(s) added).
   - Field 'properties.props:year.pattern' removed.
   - Field 'properties.props:year.items' added.
   - Field 'properties.props:year.minItems' added.
@@ -505,8 +168,8 @@ Changes in core/data/copyright.schema.omi.json:
   - Field 'properties.props:year.type' modified.
 
 Changes in core/data/file.schema.omi.json:
-  - Field '_categories' added.
   - Field 'properties.props:content' removed.
+  - Field 'properties.props:descendedFrom' removed.
   - Field 'properties.props:contentDescription' added.
   - Field 'properties.props:dataType' added.
   - Field 'properties.props:fileRepository._instruction' modified.
@@ -519,10 +182,11 @@ Changes in core/data/file.schema.omi.json:
   - Field 'properties.props:name._instruction' modified.
   - Field 'properties.props:specialUsageRole._instruction' modified.
   - Field 'properties.props:storageSize._instruction' modified.
-  - Field 'required' modified.
+  - Field 'required' modified (value(s) removed).
 
 Changes in core/data/fileBundle.schema.omi.json:
-  - Field '_categories' added.
+  - Field 'properties.props:content' removed.
+  - Field 'properties.props:descendedFrom' removed.
   - Field 'properties.props:patternOfFilenames' removed.
   - Field 'properties.props:contentDescription' added.
   - Field 'properties.props:groupingType' added.
@@ -535,24 +199,50 @@ Changes in core/data/fileBundle.schema.omi.json:
   - Field 'properties.props:isPartOf._instruction' modified.
   - Field 'properties.props:storageSize._instruction' modified.
 
+Changes in core/data/filePathPattern.schema.omi.json:
+  - Field 'properties.props:groupingType.minItems' added.
+  - Field 'properties.props:groupingType.type' added.
+  - Field 'properties.props:groupingType.uniqueItems' added.
+  - Field 'properties.props:groupingType._instruction' modified.
+  - Field 'properties.props:regex._instruction' modified.
+
 Changes in core/data/fileRepository.schema.omi.json:
   - Field 'properties.props:repositoryType' removed.
-  - Field 'properties.props:contentTypePattern' added.
-  - Field 'properties.props:structurePattern' added.
   - Field 'properties.props:type' added.
+  - Field 'properties.props:contentTypePattern._embeddedTypes' removed.
+  - Field 'properties.props:contentTypePattern._linkedTypes' added.
+  - Field 'properties.props:contentTypePattern._instruction' modified.
   - Field 'properties.props:format._instruction' modified.
   - Field 'properties.props:hostedBy._instruction' modified.
   - Field 'properties.props:IRI._instruction' modified.
   - Field 'properties.props:storageSize._instruction' modified.
+  - Field 'properties.props:structurePattern._instruction' modified.
+
+Changes in core/data/fileRepositoryStructure.schema.omi.json:
+  - Field 'properties.props:lookupLabel._instruction' modified.
 
 Changes in core/data/license.schema.omi.json:
   - Field 'properties.props:legalCode._instruction' modified.
   - Field 'properties.props:shortName._instruction' modified.
   - Field 'properties.props:webpage._instruction' modified.
 
+Changes in core/data/serviceLink.schema.omi.json:
+  - Field 'properties.props:name' removed.
+  - Field 'properties.props:displayLabel' added.
+  - Field 'properties.props:previewImage' added.
+  - Field 'properties.props:dataLocation._instruction' modified.
+  - Field 'properties.props:dataLocation._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:openDataIn._linkedTypes' removed.
+  - Field 'properties.props:openDataIn.nameForReverseLink' removed.
+  - Field 'properties.props:openDataIn._formats' added.
+  - Field 'properties.props:openDataIn.formatting' added.
+  - Field 'properties.props:openDataIn.multiline' added.
+  - Field 'properties.props:openDataIn.type' added.
+  - Field 'properties.props:openDataIn._instruction' modified.
+
 Changes in core/miscellaneous/funding.schema.omi.json:
   - Field 'properties.props:funder._instruction' modified.
-  - Field 'properties.props:funder._linkedTypes' modified.
+  - Field 'properties.props:funder._linkedTypes' modified (value(s) added).
 
 Changes in core/miscellaneous/quantitativeValue.schema.omi.json:
   - Field 'properties.props:typeOfUncertainty._instruction' modified.
@@ -570,12 +260,12 @@ Changes in core/miscellaneous/quantitativeValueRange.schema.omi.json:
 Changes in core/products/dataset.schema.omi.json:
   - Field '_categories' added.
   - Field 'properties.props:author._instruction' modified.
-  - Field 'properties.props:author._linkedTypes' modified.
+  - Field 'properties.props:author._linkedTypes' modified (value(s) added).
   - Field 'properties.props:custodian._instruction' modified.
-  - Field 'properties.props:custodian._linkedTypes' modified.
+  - Field 'properties.props:custodian._linkedTypes' modified (value(s) added).
   - Field 'properties.props:description.maxLength' removed.
   - Field 'properties.props:description._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:hasVersion._instruction' modified.
   - Field 'properties.props:homepage._linkedTypes' removed.
@@ -590,20 +280,21 @@ Changes in core/products/dataset.schema.omi.json:
 
 Changes in core/products/datasetVersion.schema.omi.json:
   - Field '_categories' added.
+  - Field 'properties.props:behavioralTask' removed.
   - Field 'properties.props:type' removed.
   - Field 'properties.props:behavioralProtocol' added.
   - Field 'properties.props:dataType' added.
   - Field 'properties.props:preparationDesign' added.
+  - Field 'properties.props:protocol' added.
   - Field 'properties.props:studyTarget' added.
-  - Field 'properties.props:technique' added.
   - Field 'properties.props:author._instruction' modified.
-  - Field 'properties.props:author._linkedTypes' modified.
+  - Field 'properties.props:author._linkedTypes' modified (value(s) added).
   - Field 'properties.props:copyright._instruction' modified.
   - Field 'properties.props:custodian._instruction' modified.
-  - Field 'properties.props:custodian._linkedTypes' modified.
+  - Field 'properties.props:custodian._linkedTypes' modified (value(s) added).
   - Field 'properties.props:description.maxLength' removed.
   - Field 'properties.props:description._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
   - Field 'properties.props:fullDocumentation._instruction' modified.
   - Field 'properties.props:fullDocumentation._linkedTypes' modified.
   - Field 'properties.props:fullName._instruction' modified.
@@ -614,7 +305,7 @@ Changes in core/products/datasetVersion.schema.omi.json:
   - Field 'properties.props:homepage.multiline' added.
   - Field 'properties.props:homepage.type' added.
   - Field 'properties.props:homepage._instruction' modified.
-  - Field 'properties.props:inputData._linkedTypes' modified.
+  - Field 'properties.props:inputData._linkedTypes' modified (value(s) added).
   - Field 'properties.props:keyword.formatting' removed.
   - Field 'properties.props:keyword.items' removed.
   - Field 'properties.props:keyword.maxItems' removed.
@@ -623,27 +314,28 @@ Changes in core/products/datasetVersion.schema.omi.json:
   - Field 'properties.props:keyword.nameForReverseLink' added.
   - Field 'properties.props:keyword._instruction' modified.
   - Field 'properties.props:license._instruction' modified.
-  - Field 'properties.props:license._linkedTypes' modified.
+  - Field 'properties.props:license._linkedTypes' modified (value(s) added).
   - Field 'properties.props:otherContribution._instruction' modified.
-  - Field 'properties.props:protocol._instruction' modified.
   - Field 'properties.props:relatedPublication._instruction' modified.
-  - Field 'properties.props:relatedPublication._linkedTypes' modified.
+  - Field 'properties.props:relatedPublication._linkedTypes' modified (value(s) added).
   - Field 'properties.props:releaseDate._instruction' modified.
   - Field 'properties.props:shortName.maxLength' removed.
   - Field 'properties.props:shortName._instruction' modified.
   - Field 'properties.props:studiedSpecimen._instruction' modified.
   - Field 'properties.props:supportChannel._instruction' modified.
+  - Field 'properties.props:technique._instruction' modified.
+  - Field 'properties.props:technique._linkedTypes' modified (value(s) added).
   - Field 'properties.props:versionInnovation._instruction' modified.
   - Field 'required' modified.
 
 Changes in core/products/metaDataModel.schema.omi.json:
   - Field '_categories' added.
   - Field 'properties.props:custodian._instruction' modified.
-  - Field 'properties.props:custodian._linkedTypes' modified.
+  - Field 'properties.props:custodian._linkedTypes' modified (value(s) added).
   - Field 'properties.props:description.maxLength' removed.
   - Field 'properties.props:description._instruction' modified.
   - Field 'properties.props:developer._instruction' modified.
-  - Field 'properties.props:developer._linkedTypes' modified.
+  - Field 'properties.props:developer._linkedTypes' modified (value(s) added).
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:hasVersion._instruction' modified.
   - Field 'properties.props:homepage._linkedTypes' removed.
@@ -660,11 +352,11 @@ Changes in core/products/metaDataModelVersion.schema.omi.json:
   - Field '_categories' added.
   - Field 'properties.props:copyright._instruction' modified.
   - Field 'properties.props:custodian._instruction' modified.
-  - Field 'properties.props:custodian._linkedTypes' modified.
+  - Field 'properties.props:custodian._linkedTypes' modified (value(s) added).
   - Field 'properties.props:description.maxLength' removed.
   - Field 'properties.props:description._instruction' modified.
   - Field 'properties.props:developer._instruction' modified.
-  - Field 'properties.props:developer._linkedTypes' modified.
+  - Field 'properties.props:developer._linkedTypes' modified (value(s) added).
   - Field 'properties.props:fullDocumentation._instruction' modified.
   - Field 'properties.props:fullDocumentation._linkedTypes' modified.
   - Field 'properties.props:fullName._instruction' modified.
@@ -686,23 +378,22 @@ Changes in core/products/metaDataModelVersion.schema.omi.json:
   - Field 'properties.props:license._instruction' modified.
   - Field 'properties.props:otherContribution._instruction' modified.
   - Field 'properties.props:relatedPublication._instruction' modified.
-  - Field 'properties.props:relatedPublication._linkedTypes' modified.
+  - Field 'properties.props:relatedPublication._linkedTypes' modified (value(s) added).
   - Field 'properties.props:releaseDate._instruction' modified.
   - Field 'properties.props:shortName.maxLength' removed.
   - Field 'properties.props:shortName._instruction' modified.
   - Field 'properties.props:supportChannel._instruction' modified.
   - Field 'properties.props:versionInnovation._instruction' modified.
-  - Field 'required' modified.
 
 Changes in core/products/model.schema.omi.json:
   - Field '_categories' added.
   - Field 'properties.props:abstractionLevel._instruction' modified.
   - Field 'properties.props:custodian._instruction' modified.
-  - Field 'properties.props:custodian._linkedTypes' modified.
+  - Field 'properties.props:custodian._linkedTypes' modified (value(s) added).
   - Field 'properties.props:description.maxLength' removed.
   - Field 'properties.props:description._instruction' modified.
   - Field 'properties.props:developer._instruction' modified.
-  - Field 'properties.props:developer._linkedTypes' modified.
+  - Field 'properties.props:developer._linkedTypes' modified (value(s) added).
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:hasVersion._instruction' modified.
   - Field 'properties.props:homepage._linkedTypes' removed.
@@ -716,17 +407,17 @@ Changes in core/products/model.schema.omi.json:
   - Field 'properties.props:shortName.maxLength' removed.
   - Field 'properties.props:shortName._instruction' modified.
   - Field 'properties.props:studyTarget._instruction' modified.
-  - Field 'properties.props:studyTarget._linkedTypes' modified.
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
 
 Changes in core/products/modelVersion.schema.omi.json:
   - Field '_categories' added.
   - Field 'properties.props:copyright._instruction' modified.
   - Field 'properties.props:custodian._instruction' modified.
-  - Field 'properties.props:custodian._linkedTypes' modified.
+  - Field 'properties.props:custodian._linkedTypes' modified (value(s) added).
   - Field 'properties.props:description.maxLength' removed.
   - Field 'properties.props:description._instruction' modified.
   - Field 'properties.props:developer._instruction' modified.
-  - Field 'properties.props:developer._linkedTypes' modified.
+  - Field 'properties.props:developer._linkedTypes' modified (value(s) added).
   - Field 'properties.props:format.minItems' added.
   - Field 'properties.props:format.type' added.
   - Field 'properties.props:format.uniqueItems' added.
@@ -742,7 +433,7 @@ Changes in core/products/modelVersion.schema.omi.json:
   - Field 'properties.props:homepage.type' added.
   - Field 'properties.props:homepage._instruction' modified.
   - Field 'properties.props:inputData._instruction' modified.
-  - Field 'properties.props:inputData._linkedTypes' modified.
+  - Field 'properties.props:inputData._linkedTypes' modified (value(s) added).
   - Field 'properties.props:isAlternativeVersionOf._instruction' modified.
   - Field 'properties.props:isNewVersionOf._instruction' modified.
   - Field 'properties.props:keyword.formatting' removed.
@@ -755,21 +446,20 @@ Changes in core/products/modelVersion.schema.omi.json:
   - Field 'properties.props:license._instruction' modified.
   - Field 'properties.props:otherContribution._instruction' modified.
   - Field 'properties.props:outputData._instruction' modified.
-  - Field 'properties.props:outputData._linkedTypes' modified.
+  - Field 'properties.props:outputData._linkedTypes' modified (value(s) added).
   - Field 'properties.props:relatedPublication._instruction' modified.
-  - Field 'properties.props:relatedPublication._linkedTypes' modified.
+  - Field 'properties.props:relatedPublication._linkedTypes' modified (value(s) added).
   - Field 'properties.props:releaseDate._instruction' modified.
   - Field 'properties.props:shortName.maxLength' removed.
   - Field 'properties.props:shortName._instruction' modified.
   - Field 'properties.props:supportChannel._instruction' modified.
   - Field 'properties.props:versionInnovation._instruction' modified.
-  - Field 'required' modified.
 
 Changes in core/products/project.schema.omi.json:
   - Field 'properties.props:hasResearchProducts' removed.
   - Field 'properties.props:hasPart' added.
   - Field 'properties.props:coordinator._instruction' modified.
-  - Field 'properties.props:coordinator._linkedTypes' modified.
+  - Field 'properties.props:coordinator._linkedTypes' modified (value(s) added).
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:homepage._linkedTypes' removed.
   - Field 'properties.props:homepage.nameForReverseLink' removed.
@@ -784,12 +474,12 @@ Changes in core/products/project.schema.omi.json:
 Changes in core/products/software.schema.omi.json:
   - Field '_categories' added.
   - Field 'properties.props:custodian._instruction' modified.
-  - Field 'properties.props:custodian._linkedTypes' modified.
+  - Field 'properties.props:custodian._linkedTypes' modified (value(s) added).
   - Field 'properties.props:description.maxLength' removed.
   - Field 'properties.props:description._instruction' modified.
   - Field 'properties.props:developer._instruction' modified.
-  - Field 'properties.props:developer._linkedTypes' modified.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:developer._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:hasVersion._instruction' modified.
   - Field 'properties.props:homepage._linkedTypes' removed.
@@ -808,13 +498,13 @@ Changes in core/products/softwareVersion.schema.omi.json:
   - Field 'properties.props:hasPart' added.
   - Field 'properties.props:copyright._instruction' modified.
   - Field 'properties.props:custodian._instruction' modified.
-  - Field 'properties.props:custodian._linkedTypes' modified.
+  - Field 'properties.props:custodian._linkedTypes' modified (value(s) added).
   - Field 'properties.props:description.maxLength' removed.
   - Field 'properties.props:description._instruction' modified.
   - Field 'properties.props:developer._instruction' modified.
-  - Field 'properties.props:developer._linkedTypes' modified.
+  - Field 'properties.props:developer._linkedTypes' modified (value(s) added).
   - Field 'properties.props:device._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
   - Field 'properties.props:feature._instruction' modified.
   - Field 'properties.props:fullDocumentation._instruction' modified.
   - Field 'properties.props:fullDocumentation._linkedTypes' modified.
@@ -839,46 +529,37 @@ Changes in core/products/softwareVersion.schema.omi.json:
   - Field 'properties.props:outputFormat._instruction' modified.
   - Field 'properties.props:programmingLanguage._instruction' modified.
   - Field 'properties.props:relatedPublication._instruction' modified.
-  - Field 'properties.props:relatedPublication._linkedTypes' modified.
+  - Field 'properties.props:relatedPublication._linkedTypes' modified (value(s) added).
   - Field 'properties.props:releaseDate._instruction' modified.
   - Field 'properties.props:shortName.maxLength' removed.
   - Field 'properties.props:shortName._instruction' modified.
   - Field 'properties.props:supportChannel._instruction' modified.
   - Field 'properties.props:versionInnovation._instruction' modified.
-  - Field 'required' modified.
 
 Changes in core/research/protocol.schema.omi.json:
-  - Field 'properties.props:behavioralTask' removed.
   - Field 'properties.props:studyOption' removed.
   - Field 'properties.props:describedIn' added.
   - Field 'properties.props:stimulusType' added.
   - Field 'properties.props:technique._instruction' modified.
-  - Field 'properties.props:technique._linkedTypes' modified.
+  - Field 'properties.props:technique._linkedTypes' modified (value(s) added).
 
 Changes in core/research/protocolExecution.schema.omi.json:
+  - Field 'properties.props:behavioralTask' removed.
+  - Field 'properties.props:endedAtTime' removed.
   - Field 'properties.props:parameterSet' removed.
   - Field 'properties.props:preparationType' removed.
-  - Field 'properties.props:semanticallyAnchoredTo' removed.
+  - Field 'properties.props:startedAtTime' removed.
   - Field 'properties.props:behavioralProtocol' added.
   - Field 'properties.props:customPropertySet' added.
   - Field 'properties.props:endTime' added.
-  - Field 'properties.props:isPartOf' added.
   - Field 'properties.props:performedBy' added.
   - Field 'properties.props:preparationDesign' added.
   - Field 'properties.props:startTime' added.
-  - Field 'properties.props:description._instruction' modified.
-  - Field 'properties.props:input._instruction' modified.
-  - Field 'properties.props:input._linkedTypes' modified.
+  - Field 'properties.props:input._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:isPartOf._instruction' modified.
   - Field 'properties.props:lookupLabel._instruction' modified.
-  - Field 'properties.props:output._instruction' modified.
-  - Field 'properties.props:output._linkedTypes' modified.
-  - Field 'properties.props:protocol.minItems' added.
-  - Field 'properties.props:protocol.type' added.
-  - Field 'properties.props:protocol.uniqueItems' added.
   - Field 'properties.props:protocol._instruction' modified.
-  - Field 'properties.props:studyTarget._instruction' modified.
-  - Field 'properties.props:studyTarget._linkedTypes' modified.
-  - Field 'required' modified.
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
 
 Changes in core/research/subject.schema.omi.json:
   - Field '_categories' added.
@@ -887,8 +568,8 @@ Changes in core/research/subject.schema.omi.json:
   - Field 'properties.props:internalIdentifier._instruction' modified.
   - Field 'properties.props:lookupLabel._instruction' modified.
   - Field 'properties.props:species._instruction' modified.
-  - Field 'properties.props:species._linkedTypes' modified.
-  - Field 'required' modified.
+  - Field 'properties.props:species._linkedTypes' modified (value(s) added).
+  - Field 'required' modified (value(s) removed).
 
 Changes in core/research/subjectGroup.schema.omi.json:
   - Field '_categories' added.
@@ -900,11 +581,10 @@ Changes in core/research/subjectGroup.schema.omi.json:
   - Field 'properties.props:internalIdentifier._instruction' modified.
   - Field 'properties.props:lookupLabel._instruction' modified.
   - Field 'properties.props:species._instruction' modified.
-  - Field 'properties.props:species._linkedTypes' modified.
-  - Field 'required' modified.
+  - Field 'properties.props:species._linkedTypes' modified (value(s) added).
+  - Field 'required' modified (value(s) removed).
 
 Changes in core/research/subjectGroupState.schema.omi.json:
-  - Field '_categories' added.
   - Field 'properties.props:attribute' added.
   - Field 'properties.props:descendedFrom' added.
   - Field 'properties.props:internalIdentifier' added.
@@ -917,7 +597,6 @@ Changes in core/research/subjectGroupState.schema.omi.json:
   - Field 'properties.props:weight._instruction' modified.
 
 Changes in core/research/subjectState.schema.omi.json:
-  - Field '_categories' added.
   - Field 'properties.props:attribute' added.
   - Field 'properties.props:descendedFrom' added.
   - Field 'properties.props:internalIdentifier' added.
@@ -933,16 +612,17 @@ Changes in core/research/tissueSample.schema.omi.json:
   - Field '_categories' added.
   - Field 'properties.props:phenotype' removed.
   - Field 'properties.props:strain' removed.
-  - Field 'properties.props:anatomicalLocation' added.
+  - Field 'properties.props:anatomicalLocation._instruction' modified.
+  - Field 'properties.props:anatomicalLocation._linkedTypes' modified (value(s) added).
   - Field 'properties.props:internalIdentifier._instruction' modified.
   - Field 'properties.props:isPartOf._instruction' modified.
   - Field 'properties.props:laterality._instruction' modified.
   - Field 'properties.props:lookupLabel._instruction' modified.
   - Field 'properties.props:origin._instruction' modified.
-  - Field 'properties.props:origin._linkedTypes' modified.
+  - Field 'properties.props:origin._linkedTypes' modified (value(s) added).
   - Field 'properties.props:species._instruction' modified.
-  - Field 'properties.props:species._linkedTypes' modified.
-  - Field 'required' modified.
+  - Field 'properties.props:species._linkedTypes' modified (value(s) added).
+  - Field 'required' modified (value(s) removed).
 
 Changes in core/research/tissueSampleCollection.schema.omi.json:
   - Field '_categories' added.
@@ -956,13 +636,12 @@ Changes in core/research/tissueSampleCollection.schema.omi.json:
   - Field 'properties.props:laterality._instruction' modified.
   - Field 'properties.props:lookupLabel._instruction' modified.
   - Field 'properties.props:origin._instruction' modified.
-  - Field 'properties.props:origin._linkedTypes' modified.
+  - Field 'properties.props:origin._linkedTypes' modified (value(s) added).
   - Field 'properties.props:species._instruction' modified.
-  - Field 'properties.props:species._linkedTypes' modified.
-  - Field 'required' modified.
+  - Field 'properties.props:species._linkedTypes' modified (value(s) added).
+  - Field 'required' modified (value(s) removed).
 
 Changes in core/research/tissueSampleCollectionState.schema.omi.json:
-  - Field '_categories' added.
   - Field 'properties.props:attribute' added.
   - Field 'properties.props:descendedFrom' added.
   - Field 'properties.props:internalIdentifier' added.
@@ -974,7 +653,6 @@ Changes in core/research/tissueSampleCollectionState.schema.omi.json:
   - Field 'properties.props:weight._instruction' modified.
 
 Changes in core/research/tissueSampleState.schema.omi.json:
-  - Field '_categories' added.
   - Field 'properties.props:attribute' added.
   - Field 'properties.props:descendedFrom' added.
   - Field 'properties.props:internalIdentifier' added.
@@ -1015,7 +693,7 @@ Changes in SANDS/atlas/brainAtlas.schema.omi.json:
   - Field 'properties.props:usedSpecies' added.
   - Field 'properties.props:description._instruction' modified.
   - Field 'properties.props:digitalIdentifier._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:hasVersion._instruction' modified.
   - Field 'properties.props:homepage._linkedTypes' removed.
@@ -1027,7 +705,7 @@ Changes in SANDS/atlas/brainAtlas.schema.omi.json:
   - Field 'properties.props:homepage._instruction' modified.
   - Field 'properties.props:howToCite._instruction' modified.
   - Field 'properties.props:shortName._instruction' modified.
-  - Field 'required' modified.
+  - Field 'required' modified (value(s) added).
 
 Changes in SANDS/atlas/brainAtlasVersion.schema.omi.json:
   - Field '_categories' added.
@@ -1051,7 +729,7 @@ Changes in SANDS/atlas/brainAtlasVersion.schema.omi.json:
   - Field 'properties.props:coordinateSpace._instruction' modified.
   - Field 'properties.props:coordinateSpace._linkedTypes' modified.
   - Field 'properties.props:digitalIdentifier._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:hasTerminology._linkedTypes' removed.
   - Field 'properties.props:hasTerminology._embeddedTypes' added.
@@ -1088,7 +766,7 @@ Changes in SANDS/atlas/commonCoordinateSpace.schema.omi.json:
   - Field 'properties.props:hasVersion' added.
   - Field 'properties.props:usedSpecies' added.
   - Field 'properties.props:digitalIdentifier._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:homepage._linkedTypes' removed.
   - Field 'properties.props:homepage.nameForReverseLink' removed.
@@ -1108,7 +786,7 @@ Changes in SANDS/atlas/commonCoordinateSpace.schema.omi.json:
   - Field 'required' modified.
 
 Changes in SANDS/atlas/parcellationEntity.schema.omi.json:
-  - Field '_categories' modified.
+  - Field '_categories' modified (value(s) added).
   - Field 'properties.props:hasAnnotation' removed.
   - Field 'properties.props:isPartOf' removed.
   - Field 'properties.props:relationAssessment' removed.
@@ -1131,8 +809,8 @@ Changes in SANDS/atlas/parcellationEntity.schema.omi.json:
   - Field 'properties.props:ontologyIdentifier._instruction' modified.
   - Field 'properties.props:ontologyIdentifier.type' modified.
   - Field 'properties.props:relatedUBERONTerm._instruction' modified.
-  - Field 'properties.props:relatedUBERONTerm._linkedTypes' modified.
-  - Field 'required' modified.
+  - Field 'properties.props:relatedUBERONTerm._linkedTypes' modified (value(s) added).
+  - Field 'required' modified (value(s) removed).
 
 Changes in SANDS/atlas/parcellationTerminology.schema.omi.json:
   - Field 'properties.props:definedIn' removed.
@@ -1157,7 +835,7 @@ Changes in SANDS/miscellaneous/coordinatePoint.schema.omi.json:
   - Field 'properties.props:coordinateSpace._linkedTypes' modified.
 
 Changes in SANDS/miscellaneous/qualitativeRelationAssessment.schema.omi.json:
-  - Field 'properties.props:inRelationTo._linkedTypes' modified.
+  - Field 'properties.props:inRelationTo._linkedTypes' modified (value(s) added).
 
 Changes in SANDS/miscellaneous/quantitativeRelationAssessment.schema.omi.json:
   - Field 'properties.props:inRelationTo._instruction' modified.
@@ -1165,7 +843,7 @@ Changes in SANDS/miscellaneous/quantitativeRelationAssessment.schema.omi.json:
   - Field 'properties.props:quantitativeOverlap._instruction' modified.
 
 Changes in SANDS/non-atlas/customAnatomicalEntity.schema.omi.json:
-  - Field '_categories' modified.
+  - Field '_categories' modified (value(s) added).
   - Field 'properties.props:relatedUBERONTerm' added.
   - Field 'properties.props:hasAnnotation._linkedTypes' removed.
   - Field 'properties.props:hasAnnotation._embeddedTypes' added.

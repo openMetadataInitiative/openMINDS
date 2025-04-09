@@ -23,6 +23,12 @@
     "https://openminds.ebrains.eu/vocab/descendedFrom": {
       "_instruction": "Add all entities that played a role in the production of this file bundle (must be true for all grouped files).",
       "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+        "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/Technique",
         "https://openminds.ebrains.eu/core/BehavioralTask",
         "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileBundle",
