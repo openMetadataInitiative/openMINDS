@@ -1,11 +1,18 @@
 {
   "title": "Release Notes latest",
-  "globalChanges": [
-    "Namespace changed from https://openminds.ebrains.eu/(core|sands|controlledTerms|chemicals|ephys|computation|stimulation|specimenPrep|publications|neuroimaging)/ to https://openminds.om-i.org/types/.",
-    "Namespace changed from https://openminds.ebrains.eu/vocab/ to https://openminds.om-i.org/props/."
-  ],
   "addedFiles": [
     "controlledTerms/MRAcquisitionType.schema.omi.json"
+  ],
+  "removedFiles": [
+    "neuroimaging/activity/functionalMRIAcquisition.schema.omi.json",
+    "neuroimaging/activity/structuralMRIAcquisition.schema.omi.json",
+    "neuroimaging/device/MRIScanner.schema.omi.json",
+    "neuroimaging/device/MRIScannerUsage.schema.omi.json",
+    "neuroimaging/entity/image.schema.omi.json",
+    "neuroimaging/entity/imageSequence.schema.omi.json",
+    "neuroimaging/entity/imageStack.schema.omi.json",
+    "neuroimaging/entity/volume.schema.omi.json",
+    "neuroimaging/entity/volumeSequence.schema.omi.json"
   ],
   "changes": [
     {
@@ -23,6 +30,13 @@
       "schemaType": "WorkflowRecipeVersion"
     },
     {
+      "file": "core/data/measurement.schema.omi.json",
+      "modifiedAttributes": [
+        "properties.props:measuredWith._linkedTypes"
+      ],
+      "schemaType": "Measurement"
+    },
+    {
       "file": "core/products/datasetVersion.schema.omi.json",
       "modifiedAttributes": [
         "properties.props:keyword._linkedTypes"
@@ -38,14 +52,17 @@
     },
     {
       "file": "core/products/modelVersion.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:configuration",
-        "properties.props:entryPoint"
-      ],
       "modifiedAttributes": [
         "properties.props:keyword._linkedTypes"
       ],
       "schemaType": "ModelVersion"
+    },
+    {
+      "file": "core/products/setup.schema.omi.json",
+      "modifiedAttributes": [
+        "properties.props:hasPart._linkedTypes"
+      ],
+      "schemaType": "Setup"
     },
     {
       "file": "core/products/softwareVersion.schema.omi.json",
@@ -60,6 +77,27 @@
         "properties.props:keyword._linkedTypes"
       ],
       "schemaType": "WebServiceVersion"
+    },
+    {
+      "file": "ephys/activity/cellPatching.schema.omi.json",
+      "modifiedAttributes": [
+        "properties.props:device._linkedTypes"
+      ],
+      "schemaType": "CellPatching"
+    },
+    {
+      "file": "ephys/activity/electrodePlacement.schema.omi.json",
+      "modifiedAttributes": [
+        "properties.props:device._linkedTypes"
+      ],
+      "schemaType": "ElectrodePlacement"
+    },
+    {
+      "file": "ephys/entity/recording.schema.omi.json",
+      "modifiedAttributes": [
+        "properties.props:recordedWith._linkedTypes"
+      ],
+      "schemaType": "Recording"
     },
     {
       "file": "publications/book.schema.omi.json",
@@ -81,14 +119,6 @@
         "properties.props:keyword._linkedTypes"
       ],
       "schemaType": "LearningResource"
-    },
-    {
-      "file": "publications/livePaperResourceItem.schema.omi.json",
-      "modifiedAttributes": [
-        "properties.props:hostedBy._instruction",
-        "properties.props:hostedBy._linkedTypes"
-      ],
-      "schemaType": "LivePaperResourceItem"
     },
     {
       "file": "publications/livePaperVersion.schema.omi.json",
@@ -117,6 +147,14 @@
         "properties.props:keyword._linkedTypes"
       ],
       "schemaType": "CommonCoordinateSpaceVersion"
+    },
+    {
+      "file": "stimulation/stimulus/ephysStimulus.schema.omi.json",
+      "modifiedAttributes": [
+        "properties.props:deliveredBy._linkedTypes",
+        "properties.props:generatedBy._linkedTypes"
+      ],
+      "schemaType": "EphysStimulus"
     }
   ]
 }
