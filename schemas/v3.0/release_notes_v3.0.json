@@ -223,7 +223,10 @@
         "properties.props:ontologyIdentifier"
       ],
       "modifiedAttributes": [
-        "_categories"
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "BiologicalSex"
     },
@@ -239,7 +242,10 @@
         "properties.props:ontologyIdentifier"
       ],
       "modifiedAttributes": [
-        "_categories"
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "CellType"
     },
@@ -283,7 +289,10 @@
         "properties.props:ontologyIdentifier"
       ],
       "modifiedAttributes": [
-        "_categories"
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "Disease"
     },
@@ -299,7 +308,10 @@
         "properties.props:ontologyIdentifier"
       ],
       "modifiedAttributes": [
-        "_categories"
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "DiseaseModel"
     },
@@ -385,7 +397,10 @@
         "properties.props:ontologyIdentifier"
       ],
       "modifiedAttributes": [
-        "_categories"
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "Handedness"
     },
@@ -499,7 +514,10 @@
         "properties.props:ontologyIdentifier"
       ],
       "modifiedAttributes": [
-        "_categories"
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "Organ"
     },
@@ -613,7 +631,10 @@
         "properties.props:ontologyIdentifier"
       ],
       "modifiedAttributes": [
-        "_categories"
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "Species"
     },
@@ -657,7 +678,10 @@
         "properties.props:ontologyIdentifier"
       ],
       "modifiedAttributes": [
-        "_categories"
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "TermSuggestion"
     },
@@ -726,16 +750,24 @@
         "properties.props:organization"
       ],
       "modifiedAttributes": [
-        "properties.props:endDate._instruction",
-        "properties.props:startDate._instruction",
-        "required"
+        {
+          "property": "properties.props:endDate._instruction"
+        },
+        {
+          "property": "properties.props:startDate._instruction"
+        },
+        {
+          "property": "required"
+        }
       ],
       "schemaType": "Affiliation"
     },
     {
       "file": "core/actors/contactInformation.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:email._instruction"
+        {
+          "property": "properties.props:email._instruction"
+        }
       ],
       "schemaType": "ContactInformation"
     },
@@ -748,9 +780,16 @@
         "properties.props:contributionType"
       ],
       "modifiedAttributes": [
-        "properties.props:contributor._instruction",
-        "properties.props:contributor._linkedTypes",
-        "required"
+        {
+          "property": "properties.props:contributor._instruction"
+        },
+        {
+          "property": "properties.props:contributor._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "required"
+        }
       ],
       "schemaType": "Contribution"
     },
@@ -771,12 +810,25 @@
         "properties.props:homepage.nameForReverseLink"
       ],
       "modifiedAttributes": [
-        "properties.props:digitalIdentifier._instruction",
-        "properties.props:digitalIdentifier._linkedTypes",
-        "properties.props:fullName._instruction",
-        "properties.props:hasParent._instruction",
-        "properties.props:homepage._instruction",
-        "properties.props:shortName._instruction"
+        {
+          "property": "properties.props:digitalIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:hasParent._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        }
       ],
       "schemaType": "Organization"
     },
@@ -787,9 +839,16 @@
         "properties.props:associatedAccount"
       ],
       "modifiedAttributes": [
-        "_categories",
-        "properties.props:affiliation._instruction",
-        "properties.props:digitalIdentifier._instruction"
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:affiliation._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._instruction"
+        }
       ],
       "schemaType": "Person"
     },
@@ -800,12 +859,24 @@
         "properties.props:displayLabel"
       ],
       "modifiedAttributes": [
-        "properties.props:description._instruction",
-        "properties.props:fileExtension._instruction",
-        "properties.props:name._instruction",
-        "properties.props:relatedMediaType._instruction",
-        "properties.props:specification._instruction",
-        "properties.props:synonym._instruction"
+        {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:fileExtension._instruction"
+        },
+        {
+          "property": "properties.props:name._instruction"
+        },
+        {
+          "property": "properties.props:relatedMediaType._instruction"
+        },
+        {
+          "property": "properties.props:specification._instruction"
+        },
+        {
+          "property": "properties.props:synonym._instruction"
+        }
       ],
       "schemaType": "ContentType"
     },
@@ -820,10 +891,19 @@
         "properties.props:year.pattern"
       ],
       "modifiedAttributes": [
-        "properties.props:holder._instruction",
-        "properties.props:holder._linkedTypes",
-        "properties.props:year._instruction",
-        "properties.props:year.type"
+        {
+          "property": "properties.props:holder._instruction"
+        },
+        {
+          "property": "properties.props:holder._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:year._instruction"
+        },
+        {
+          "property": "properties.props:year.type"
+        }
       ],
       "schemaType": "Copyright"
     },
@@ -841,14 +921,31 @@
         "properties.props:content"
       ],
       "modifiedAttributes": [
-        "properties.props:fileRepository._instruction",
-        "properties.props:hash._instruction",
-        "properties.props:IRI._instruction",
-        "properties.props:isPartOf._instruction",
-        "properties.props:name._instruction",
-        "properties.props:specialUsageRole._instruction",
-        "properties.props:storageSize._instruction",
-        "required"
+        {
+          "property": "properties.props:fileRepository._instruction"
+        },
+        {
+          "property": "properties.props:hash._instruction"
+        },
+        {
+          "property": "properties.props:IRI._instruction"
+        },
+        {
+          "property": "properties.props:isPartOf._instruction"
+        },
+        {
+          "property": "properties.props:name._instruction"
+        },
+        {
+          "property": "properties.props:specialUsageRole._instruction"
+        },
+        {
+          "property": "properties.props:storageSize._instruction"
+        },
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
       ],
       "schemaType": "File"
     },
@@ -866,11 +963,21 @@
         "properties.props:patternOfFilenames"
       ],
       "modifiedAttributes": [
-        "properties.props:format._instruction",
-        "properties.props:groupedBy._instruction",
-        "properties.props:groupedBy._linkedTypes",
-        "properties.props:isPartOf._instruction",
-        "properties.props:storageSize._instruction"
+        {
+          "property": "properties.props:format._instruction"
+        },
+        {
+          "property": "properties.props:groupedBy._instruction"
+        },
+        {
+          "property": "properties.props:groupedBy._linkedTypes"
+        },
+        {
+          "property": "properties.props:isPartOf._instruction"
+        },
+        {
+          "property": "properties.props:storageSize._instruction"
+        }
       ],
       "schemaType": "FileBundle"
     },
@@ -885,37 +992,64 @@
         "properties.props:repositoryType"
       ],
       "modifiedAttributes": [
-        "properties.props:format._instruction",
-        "properties.props:hostedBy._instruction",
-        "properties.props:IRI._instruction",
-        "properties.props:storageSize._instruction"
+        {
+          "property": "properties.props:format._instruction"
+        },
+        {
+          "property": "properties.props:hostedBy._instruction"
+        },
+        {
+          "property": "properties.props:IRI._instruction"
+        },
+        {
+          "property": "properties.props:storageSize._instruction"
+        }
       ],
       "schemaType": "FileRepository"
     },
     {
       "file": "core/data/license.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:legalCode._instruction",
-        "properties.props:shortName._instruction",
-        "properties.props:webpage._instruction"
+        {
+          "property": "properties.props:legalCode._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "properties.props:webpage._instruction"
+        }
       ],
       "schemaType": "License"
     },
     {
       "file": "core/miscellaneous/funding.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:funder._instruction",
-        "properties.props:funder._linkedTypes"
+        {
+          "property": "properties.props:funder._instruction"
+        },
+        {
+          "property": "properties.props:funder._linkedTypes",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "Funding"
     },
     {
       "file": "core/miscellaneous/quantitativeValue.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:typeOfUncertainty._instruction",
-        "properties.props:uncertainty._instruction",
-        "properties.props:unit._instruction",
-        "properties.props:value._instruction"
+        {
+          "property": "properties.props:typeOfUncertainty._instruction"
+        },
+        {
+          "property": "properties.props:uncertainty._instruction"
+        },
+        {
+          "property": "properties.props:unit._instruction"
+        },
+        {
+          "property": "properties.props:value._instruction"
+        }
       ],
       "schemaType": "QuantitativeValue"
     },
@@ -929,8 +1063,12 @@
         "properties.props:unit"
       ],
       "modifiedAttributes": [
-        "properties.props:maxValue._instruction",
-        "properties.props:minValue._instruction"
+        {
+          "property": "properties.props:maxValue._instruction"
+        },
+        {
+          "property": "properties.props:minValue._instruction"
+        }
       ],
       "schemaType": "QuantitativeValueRange"
     },
@@ -950,16 +1088,39 @@
         "properties.props:shortName.maxLength"
       ],
       "modifiedAttributes": [
-        "properties.props:author._instruction",
-        "properties.props:author._linkedTypes",
-        "properties.props:custodian._instruction",
-        "properties.props:custodian._linkedTypes",
-        "properties.props:description._instruction",
-        "properties.props:digitalIdentifier._linkedTypes",
-        "properties.props:fullName._instruction",
-        "properties.props:hasVersion._instruction",
-        "properties.props:homepage._instruction",
-        "properties.props:shortName._instruction"
+        {
+          "property": "properties.props:author._instruction"
+        },
+        {
+          "property": "properties.props:author._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:custodian._instruction"
+        },
+        {
+          "property": "properties.props:custodian._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:hasVersion._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        }
       ],
       "schemaType": "Dataset"
     },
@@ -991,31 +1152,87 @@
         "properties.props:shortName.maxLength"
       ],
       "modifiedAttributes": [
-        "properties.props:author._instruction",
-        "properties.props:author._linkedTypes",
-        "properties.props:copyright._instruction",
-        "properties.props:custodian._instruction",
-        "properties.props:custodian._linkedTypes",
-        "properties.props:description._instruction",
-        "properties.props:digitalIdentifier._linkedTypes",
-        "properties.props:fullDocumentation._instruction",
-        "properties.props:fullDocumentation._linkedTypes",
-        "properties.props:fullName._instruction",
-        "properties.props:homepage._instruction",
-        "properties.props:inputData._linkedTypes",
-        "properties.props:keyword._instruction",
-        "properties.props:license._instruction",
-        "properties.props:license._linkedTypes",
-        "properties.props:otherContribution._instruction",
-        "properties.props:protocol._instruction",
-        "properties.props:relatedPublication._instruction",
-        "properties.props:relatedPublication._linkedTypes",
-        "properties.props:releaseDate._instruction",
-        "properties.props:shortName._instruction",
-        "properties.props:studiedSpecimen._instruction",
-        "properties.props:supportChannel._instruction",
-        "properties.props:versionInnovation._instruction",
-        "required"
+        {
+          "property": "properties.props:author._instruction"
+        },
+        {
+          "property": "properties.props:author._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:copyright._instruction"
+        },
+        {
+          "property": "properties.props:custodian._instruction"
+        },
+        {
+          "property": "properties.props:custodian._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:fullDocumentation._instruction"
+        },
+        {
+          "property": "properties.props:fullDocumentation._linkedTypes"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:inputData._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:keyword._instruction"
+        },
+        {
+          "property": "properties.props:license._instruction"
+        },
+        {
+          "property": "properties.props:license._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:otherContribution._instruction"
+        },
+        {
+          "property": "properties.props:protocol._instruction"
+        },
+        {
+          "property": "properties.props:relatedPublication._instruction"
+        },
+        {
+          "property": "properties.props:relatedPublication._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:releaseDate._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "properties.props:studiedSpecimen._instruction"
+        },
+        {
+          "property": "properties.props:supportChannel._instruction"
+        },
+        {
+          "property": "properties.props:versionInnovation._instruction"
+        },
+        {
+          "property": "required"
+        }
       ],
       "schemaType": "DatasetVersion"
     },
@@ -1035,15 +1252,35 @@
         "properties.props:shortName.maxLength"
       ],
       "modifiedAttributes": [
-        "properties.props:custodian._instruction",
-        "properties.props:custodian._linkedTypes",
-        "properties.props:description._instruction",
-        "properties.props:developer._instruction",
-        "properties.props:developer._linkedTypes",
-        "properties.props:fullName._instruction",
-        "properties.props:hasVersion._instruction",
-        "properties.props:homepage._instruction",
-        "properties.props:shortName._instruction"
+        {
+          "property": "properties.props:custodian._instruction"
+        },
+        {
+          "property": "properties.props:custodian._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:developer._instruction"
+        },
+        {
+          "property": "properties.props:developer._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:hasVersion._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        }
       ],
       "schemaType": "MetaDataModel"
     },
@@ -1069,27 +1306,73 @@
         "properties.props:shortName.maxLength"
       ],
       "modifiedAttributes": [
-        "properties.props:copyright._instruction",
-        "properties.props:custodian._instruction",
-        "properties.props:custodian._linkedTypes",
-        "properties.props:description._instruction",
-        "properties.props:developer._instruction",
-        "properties.props:developer._linkedTypes",
-        "properties.props:fullDocumentation._instruction",
-        "properties.props:fullDocumentation._linkedTypes",
-        "properties.props:fullName._instruction",
-        "properties.props:homepage._instruction",
-        "properties.props:isNewVersionOf._instruction",
-        "properties.props:keyword._instruction",
-        "properties.props:license._instruction",
-        "properties.props:otherContribution._instruction",
-        "properties.props:relatedPublication._instruction",
-        "properties.props:relatedPublication._linkedTypes",
-        "properties.props:releaseDate._instruction",
-        "properties.props:shortName._instruction",
-        "properties.props:supportChannel._instruction",
-        "properties.props:versionInnovation._instruction",
-        "required"
+        {
+          "property": "properties.props:copyright._instruction"
+        },
+        {
+          "property": "properties.props:custodian._instruction"
+        },
+        {
+          "property": "properties.props:custodian._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:developer._instruction"
+        },
+        {
+          "property": "properties.props:developer._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:fullDocumentation._instruction"
+        },
+        {
+          "property": "properties.props:fullDocumentation._linkedTypes"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:isNewVersionOf._instruction"
+        },
+        {
+          "property": "properties.props:keyword._instruction"
+        },
+        {
+          "property": "properties.props:license._instruction"
+        },
+        {
+          "property": "properties.props:otherContribution._instruction"
+        },
+        {
+          "property": "properties.props:relatedPublication._instruction"
+        },
+        {
+          "property": "properties.props:relatedPublication._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:releaseDate._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "properties.props:supportChannel._instruction"
+        },
+        {
+          "property": "properties.props:versionInnovation._instruction"
+        },
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
       ],
       "schemaType": "MetaDataModelVersion"
     },
@@ -1109,19 +1392,47 @@
         "properties.props:shortName.maxLength"
       ],
       "modifiedAttributes": [
-        "properties.props:abstractionLevel._instruction",
-        "properties.props:custodian._instruction",
-        "properties.props:custodian._linkedTypes",
-        "properties.props:description._instruction",
-        "properties.props:developer._instruction",
-        "properties.props:developer._linkedTypes",
-        "properties.props:fullName._instruction",
-        "properties.props:hasVersion._instruction",
-        "properties.props:homepage._instruction",
-        "properties.props:scope._instruction",
-        "properties.props:shortName._instruction",
-        "properties.props:studyTarget._instruction",
-        "properties.props:studyTarget._linkedTypes"
+        {
+          "property": "properties.props:abstractionLevel._instruction"
+        },
+        {
+          "property": "properties.props:custodian._instruction"
+        },
+        {
+          "property": "properties.props:custodian._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:developer._instruction"
+        },
+        {
+          "property": "properties.props:developer._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:hasVersion._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:scope._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "properties.props:studyTarget._instruction"
+        },
+        {
+          "property": "properties.props:studyTarget._linkedTypes"
+        }
       ],
       "schemaType": "Model"
     },
@@ -1150,33 +1461,93 @@
         "properties.props:shortName.maxLength"
       ],
       "modifiedAttributes": [
-        "properties.props:copyright._instruction",
-        "properties.props:custodian._instruction",
-        "properties.props:custodian._linkedTypes",
-        "properties.props:description._instruction",
-        "properties.props:developer._instruction",
-        "properties.props:developer._linkedTypes",
-        "properties.props:format._instruction",
-        "properties.props:fullDocumentation._instruction",
-        "properties.props:fullDocumentation._linkedTypes",
-        "properties.props:fullName._instruction",
-        "properties.props:homepage._instruction",
-        "properties.props:inputData._instruction",
-        "properties.props:inputData._linkedTypes",
-        "properties.props:isAlternativeVersionOf._instruction",
-        "properties.props:isNewVersionOf._instruction",
-        "properties.props:keyword._instruction",
-        "properties.props:license._instruction",
-        "properties.props:otherContribution._instruction",
-        "properties.props:outputData._instruction",
-        "properties.props:outputData._linkedTypes",
-        "properties.props:relatedPublication._instruction",
-        "properties.props:relatedPublication._linkedTypes",
-        "properties.props:releaseDate._instruction",
-        "properties.props:shortName._instruction",
-        "properties.props:supportChannel._instruction",
-        "properties.props:versionInnovation._instruction",
-        "required"
+        {
+          "property": "properties.props:copyright._instruction"
+        },
+        {
+          "property": "properties.props:custodian._instruction"
+        },
+        {
+          "property": "properties.props:custodian._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:developer._instruction"
+        },
+        {
+          "property": "properties.props:developer._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:format._instruction"
+        },
+        {
+          "property": "properties.props:fullDocumentation._instruction"
+        },
+        {
+          "property": "properties.props:fullDocumentation._linkedTypes"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:inputData._instruction"
+        },
+        {
+          "property": "properties.props:inputData._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:isAlternativeVersionOf._instruction"
+        },
+        {
+          "property": "properties.props:isNewVersionOf._instruction"
+        },
+        {
+          "property": "properties.props:keyword._instruction"
+        },
+        {
+          "property": "properties.props:license._instruction"
+        },
+        {
+          "property": "properties.props:otherContribution._instruction"
+        },
+        {
+          "property": "properties.props:outputData._instruction"
+        },
+        {
+          "property": "properties.props:outputData._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:relatedPublication._instruction"
+        },
+        {
+          "property": "properties.props:relatedPublication._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:releaseDate._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "properties.props:supportChannel._instruction"
+        },
+        {
+          "property": "properties.props:versionInnovation._instruction"
+        },
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
       ],
       "schemaType": "ModelVersion"
     },
@@ -1195,12 +1566,25 @@
         "properties.props:homepage.nameForReverseLink"
       ],
       "modifiedAttributes": [
-        "properties.props:coordinator._instruction",
-        "properties.props:coordinator._linkedTypes",
-        "properties.props:fullName._instruction",
-        "properties.props:homepage._instruction",
-        "properties.props:shortName._instruction",
-        "required"
+        {
+          "property": "properties.props:coordinator._instruction"
+        },
+        {
+          "property": "properties.props:coordinator._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "required"
+        }
       ],
       "schemaType": "Project"
     },
@@ -1220,16 +1604,39 @@
         "properties.props:shortName.maxLength"
       ],
       "modifiedAttributes": [
-        "properties.props:custodian._instruction",
-        "properties.props:custodian._linkedTypes",
-        "properties.props:description._instruction",
-        "properties.props:developer._instruction",
-        "properties.props:developer._linkedTypes",
-        "properties.props:digitalIdentifier._linkedTypes",
-        "properties.props:fullName._instruction",
-        "properties.props:hasVersion._instruction",
-        "properties.props:homepage._instruction",
-        "properties.props:shortName._instruction"
+        {
+          "property": "properties.props:custodian._instruction"
+        },
+        {
+          "property": "properties.props:custodian._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:developer._instruction"
+        },
+        {
+          "property": "properties.props:developer._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:hasVersion._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        }
       ],
       "schemaType": "Software"
     },
@@ -1257,32 +1664,89 @@
         "properties.props:shortName.maxLength"
       ],
       "modifiedAttributes": [
-        "properties.props:copyright._instruction",
-        "properties.props:custodian._instruction",
-        "properties.props:custodian._linkedTypes",
-        "properties.props:description._instruction",
-        "properties.props:developer._instruction",
-        "properties.props:developer._linkedTypes",
-        "properties.props:device._instruction",
-        "properties.props:digitalIdentifier._linkedTypes",
-        "properties.props:feature._instruction",
-        "properties.props:fullDocumentation._instruction",
-        "properties.props:fullDocumentation._linkedTypes",
-        "properties.props:fullName._instruction",
-        "properties.props:homepage._instruction",
-        "properties.props:inputFormat._instruction",
-        "properties.props:keyword._instruction",
-        "properties.props:license._instruction",
-        "properties.props:otherContribution._instruction",
-        "properties.props:outputFormat._instruction",
-        "properties.props:programmingLanguage._instruction",
-        "properties.props:relatedPublication._instruction",
-        "properties.props:relatedPublication._linkedTypes",
-        "properties.props:releaseDate._instruction",
-        "properties.props:shortName._instruction",
-        "properties.props:supportChannel._instruction",
-        "properties.props:versionInnovation._instruction",
-        "required"
+        {
+          "property": "properties.props:copyright._instruction"
+        },
+        {
+          "property": "properties.props:custodian._instruction"
+        },
+        {
+          "property": "properties.props:custodian._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:developer._instruction"
+        },
+        {
+          "property": "properties.props:developer._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:device._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:feature._instruction"
+        },
+        {
+          "property": "properties.props:fullDocumentation._instruction"
+        },
+        {
+          "property": "properties.props:fullDocumentation._linkedTypes"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:inputFormat._instruction"
+        },
+        {
+          "property": "properties.props:keyword._instruction"
+        },
+        {
+          "property": "properties.props:license._instruction"
+        },
+        {
+          "property": "properties.props:otherContribution._instruction"
+        },
+        {
+          "property": "properties.props:outputFormat._instruction"
+        },
+        {
+          "property": "properties.props:programmingLanguage._instruction"
+        },
+        {
+          "property": "properties.props:relatedPublication._instruction"
+        },
+        {
+          "property": "properties.props:relatedPublication._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:releaseDate._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "properties.props:supportChannel._instruction"
+        },
+        {
+          "property": "properties.props:versionInnovation._instruction"
+        },
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
       ],
       "schemaType": "SoftwareVersion"
     },
@@ -1297,8 +1761,13 @@
         "properties.props:studyOption"
       ],
       "modifiedAttributes": [
-        "properties.props:technique._instruction",
-        "properties.props:technique._linkedTypes"
+        {
+          "property": "properties.props:technique._instruction"
+        },
+        {
+          "property": "properties.props:technique._linkedTypes",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "Protocol"
     },
@@ -1322,16 +1791,38 @@
         "properties.props:semanticallyAnchoredTo"
       ],
       "modifiedAttributes": [
-        "properties.props:description._instruction",
-        "properties.props:input._instruction",
-        "properties.props:input._linkedTypes",
-        "properties.props:lookupLabel._instruction",
-        "properties.props:output._instruction",
-        "properties.props:output._linkedTypes",
-        "properties.props:protocol._instruction",
-        "properties.props:studyTarget._instruction",
-        "properties.props:studyTarget._linkedTypes",
-        "required"
+        {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:input._instruction"
+        },
+        {
+          "property": "properties.props:input._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:lookupLabel._instruction"
+        },
+        {
+          "property": "properties.props:output._instruction"
+        },
+        {
+          "property": "properties.props:output._linkedTypes"
+        },
+        {
+          "property": "properties.props:protocol._instruction"
+        },
+        {
+          "property": "properties.props:studyTarget._instruction"
+        },
+        {
+          "property": "properties.props:studyTarget._linkedTypes"
+        },
+        {
+          "property": "required",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "ProtocolExecution"
     },
@@ -1345,11 +1836,23 @@
         "properties.props:strain"
       ],
       "modifiedAttributes": [
-        "properties.props:internalIdentifier._instruction",
-        "properties.props:lookupLabel._instruction",
-        "properties.props:species._instruction",
-        "properties.props:species._linkedTypes",
-        "required"
+        {
+          "property": "properties.props:internalIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:lookupLabel._instruction"
+        },
+        {
+          "property": "properties.props:species._instruction"
+        },
+        {
+          "property": "properties.props:species._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
       ],
       "schemaType": "Subject"
     },
@@ -1365,12 +1868,26 @@
         "properties.props:strain"
       ],
       "modifiedAttributes": [
-        "properties.props:additionalRemarks._instruction",
-        "properties.props:internalIdentifier._instruction",
-        "properties.props:lookupLabel._instruction",
-        "properties.props:species._instruction",
-        "properties.props:species._linkedTypes",
-        "required"
+        {
+          "property": "properties.props:additionalRemarks._instruction"
+        },
+        {
+          "property": "properties.props:internalIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:lookupLabel._instruction"
+        },
+        {
+          "property": "properties.props:species._instruction"
+        },
+        {
+          "property": "properties.props:species._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
       ],
       "schemaType": "SubjectGroup"
     },
@@ -1384,12 +1901,24 @@
         "properties.props:relativeTimeIndication"
       ],
       "modifiedAttributes": [
-        "properties.props:additionalRemarks._instruction",
-        "properties.props:age._instruction",
-        "properties.props:handedness._instruction",
-        "properties.props:lookupLabel._instruction",
-        "properties.props:pathology._instruction",
-        "properties.props:weight._instruction"
+        {
+          "property": "properties.props:additionalRemarks._instruction"
+        },
+        {
+          "property": "properties.props:age._instruction"
+        },
+        {
+          "property": "properties.props:handedness._instruction"
+        },
+        {
+          "property": "properties.props:lookupLabel._instruction"
+        },
+        {
+          "property": "properties.props:pathology._instruction"
+        },
+        {
+          "property": "properties.props:weight._instruction"
+        }
       ],
       "schemaType": "SubjectGroupState"
     },
@@ -1403,12 +1932,24 @@
         "properties.props:relativeTimeIndication"
       ],
       "modifiedAttributes": [
-        "properties.props:additionalRemarks._instruction",
-        "properties.props:age._instruction",
-        "properties.props:handedness._instruction",
-        "properties.props:lookupLabel._instruction",
-        "properties.props:pathology._instruction",
-        "properties.props:weight._instruction"
+        {
+          "property": "properties.props:additionalRemarks._instruction"
+        },
+        {
+          "property": "properties.props:age._instruction"
+        },
+        {
+          "property": "properties.props:handedness._instruction"
+        },
+        {
+          "property": "properties.props:lookupLabel._instruction"
+        },
+        {
+          "property": "properties.props:pathology._instruction"
+        },
+        {
+          "property": "properties.props:weight._instruction"
+        }
       ],
       "schemaType": "SubjectState"
     },
@@ -1423,15 +1964,36 @@
         "properties.props:strain"
       ],
       "modifiedAttributes": [
-        "properties.props:internalIdentifier._instruction",
-        "properties.props:isPartOf._instruction",
-        "properties.props:laterality._instruction",
-        "properties.props:lookupLabel._instruction",
-        "properties.props:origin._instruction",
-        "properties.props:origin._linkedTypes",
-        "properties.props:species._instruction",
-        "properties.props:species._linkedTypes",
-        "required"
+        {
+          "property": "properties.props:internalIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:isPartOf._instruction"
+        },
+        {
+          "property": "properties.props:laterality._instruction"
+        },
+        {
+          "property": "properties.props:lookupLabel._instruction"
+        },
+        {
+          "property": "properties.props:origin._instruction"
+        },
+        {
+          "property": "properties.props:origin._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:species._instruction"
+        },
+        {
+          "property": "properties.props:species._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
       ],
       "schemaType": "TissueSample"
     },
@@ -1448,15 +2010,36 @@
         "properties.props:strain"
       ],
       "modifiedAttributes": [
-        "properties.props:additionalRemarks._instruction",
-        "properties.props:internalIdentifier._instruction",
-        "properties.props:laterality._instruction",
-        "properties.props:lookupLabel._instruction",
-        "properties.props:origin._instruction",
-        "properties.props:origin._linkedTypes",
-        "properties.props:species._instruction",
-        "properties.props:species._linkedTypes",
-        "required"
+        {
+          "property": "properties.props:additionalRemarks._instruction"
+        },
+        {
+          "property": "properties.props:internalIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:laterality._instruction"
+        },
+        {
+          "property": "properties.props:lookupLabel._instruction"
+        },
+        {
+          "property": "properties.props:origin._instruction"
+        },
+        {
+          "property": "properties.props:origin._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:species._instruction"
+        },
+        {
+          "property": "properties.props:species._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
       ],
       "schemaType": "TissueSampleCollection"
     },
@@ -1470,11 +2053,21 @@
         "properties.props:relativeTimeIndication"
       ],
       "modifiedAttributes": [
-        "properties.props:additionalRemarks._instruction",
-        "properties.props:age._instruction",
-        "properties.props:lookupLabel._instruction",
-        "properties.props:pathology._instruction",
-        "properties.props:weight._instruction"
+        {
+          "property": "properties.props:additionalRemarks._instruction"
+        },
+        {
+          "property": "properties.props:age._instruction"
+        },
+        {
+          "property": "properties.props:lookupLabel._instruction"
+        },
+        {
+          "property": "properties.props:pathology._instruction"
+        },
+        {
+          "property": "properties.props:weight._instruction"
+        }
       ],
       "schemaType": "TissueSampleCollectionState"
     },
@@ -1488,11 +2081,21 @@
         "properties.props:relativeTimeIndication"
       ],
       "modifiedAttributes": [
-        "properties.props:additionalRemarks._instruction",
-        "properties.props:age._instruction",
-        "properties.props:lookupLabel._instruction",
-        "properties.props:pathology._instruction",
-        "properties.props:weight._instruction"
+        {
+          "property": "properties.props:additionalRemarks._instruction"
+        },
+        {
+          "property": "properties.props:age._instruction"
+        },
+        {
+          "property": "properties.props:lookupLabel._instruction"
+        },
+        {
+          "property": "properties.props:pathology._instruction"
+        },
+        {
+          "property": "properties.props:weight._instruction"
+        }
       ],
       "schemaType": "TissueSampleState"
     },
@@ -1515,12 +2118,24 @@
         "properties.props:visualizedIn"
       ],
       "modifiedAttributes": [
-        "properties.props:criteria._instruction",
-        "properties.props:criteriaQualityType._instruction",
-        "properties.props:inspiredBy._instruction",
-        "properties.props:internalIdentifier._instruction",
-        "properties.props:laterality._instruction",
-        "required"
+        {
+          "property": "properties.props:criteria._instruction"
+        },
+        {
+          "property": "properties.props:criteriaQualityType._instruction"
+        },
+        {
+          "property": "properties.props:inspiredBy._instruction"
+        },
+        {
+          "property": "properties.props:internalIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:laterality._instruction"
+        },
+        {
+          "property": "required"
+        }
       ],
       "schemaType": "AtlasAnnotation"
     },
@@ -1544,15 +2159,35 @@
         "properties.props:homepage.nameForReverseLink"
       ],
       "modifiedAttributes": [
-        "properties.props:description._instruction",
-        "properties.props:digitalIdentifier._instruction",
-        "properties.props:digitalIdentifier._linkedTypes",
-        "properties.props:fullName._instruction",
-        "properties.props:hasVersion._instruction",
-        "properties.props:homepage._instruction",
-        "properties.props:howToCite._instruction",
-        "properties.props:shortName._instruction",
-        "required"
+        {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:hasVersion._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:howToCite._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "required",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "BrainAtlas"
     },
@@ -1589,22 +2224,55 @@
         "properties.props:homepage.nameForReverseLink"
       ],
       "modifiedAttributes": [
-        "properties.props:coordinateSpace._instruction",
-        "properties.props:coordinateSpace._linkedTypes",
-        "properties.props:digitalIdentifier._instruction",
-        "properties.props:digitalIdentifier._linkedTypes",
-        "properties.props:fullName._instruction",
-        "properties.props:hasTerminology._instruction",
-        "properties.props:homepage._instruction",
-        "properties.props:howToCite._instruction",
-        "properties.props:isAlternativeVersionOf._instruction",
-        "properties.props:isNewVersionOf._instruction",
-        "properties.props:ontologyIdentifier._instruction",
-        "properties.props:releaseDate._instruction",
-        "properties.props:shortName._instruction",
-        "properties.props:versionIdentifier._instruction",
-        "properties.props:versionInnovation._instruction",
-        "required"
+        {
+          "property": "properties.props:coordinateSpace._instruction"
+        },
+        {
+          "property": "properties.props:coordinateSpace._linkedTypes"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:hasTerminology._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:howToCite._instruction"
+        },
+        {
+          "property": "properties.props:isAlternativeVersionOf._instruction"
+        },
+        {
+          "property": "properties.props:isNewVersionOf._instruction"
+        },
+        {
+          "property": "properties.props:ontologyIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:releaseDate._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "properties.props:versionIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:versionInnovation._instruction"
+        },
+        {
+          "property": "required"
+        }
       ],
       "schemaType": "BrainAtlasVersion"
     },
@@ -1638,15 +2306,34 @@
         "properties.props:ontologyIdentifier._formats"
       ],
       "modifiedAttributes": [
-        "properties.props:digitalIdentifier._instruction",
-        "properties.props:digitalIdentifier._linkedTypes",
-        "properties.props:fullName._instruction",
-        "properties.props:homepage._instruction",
-        "properties.props:howToCite._instruction",
-        "properties.props:ontologyIdentifier._instruction",
-        "properties.props:ontologyIdentifier.type",
-        "properties.props:shortName._instruction",
-        "required"
+        {
+          "property": "properties.props:digitalIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:howToCite._instruction"
+        },
+        {
+          "property": "properties.props:ontologyIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:ontologyIdentifier.type"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "required"
+        }
       ],
       "schemaType": "CommonCoordinateSpace"
     },
@@ -1674,14 +2361,33 @@
         "properties.props:ontologyIdentifier._formats"
       ],
       "modifiedAttributes": [
-        "_categories",
-        "properties.props:hasParent._instruction",
-        "properties.props:name._instruction",
-        "properties.props:ontologyIdentifier._instruction",
-        "properties.props:ontologyIdentifier.type",
-        "properties.props:relatedUBERONTerm._instruction",
-        "properties.props:relatedUBERONTerm._linkedTypes",
-        "required"
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:hasParent._instruction"
+        },
+        {
+          "property": "properties.props:name._instruction"
+        },
+        {
+          "property": "properties.props:ontologyIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:ontologyIdentifier.type"
+        },
+        {
+          "property": "properties.props:relatedUBERONTerm._instruction"
+        },
+        {
+          "property": "properties.props:relatedUBERONTerm._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
       ],
       "schemaType": "ParcellationEntity"
     },
@@ -1705,33 +2411,52 @@
         "properties.props:ontologyIdentifier._formats"
       ],
       "modifiedAttributes": [
-        "properties.props:ontologyIdentifier._instruction",
-        "properties.props:ontologyIdentifier.type",
-        "required"
+        {
+          "property": "properties.props:ontologyIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:ontologyIdentifier.type"
+        },
+        {
+          "property": "required"
+        }
       ],
       "schemaType": "ParcellationTerminology"
     },
     {
       "file": "SANDS/miscellaneous/coordinatePoint.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:coordinates._instruction",
-        "properties.props:coordinateSpace._linkedTypes"
+        {
+          "property": "properties.props:coordinates._instruction"
+        },
+        {
+          "property": "properties.props:coordinateSpace._linkedTypes"
+        }
       ],
       "schemaType": "CoordinatePoint"
     },
     {
       "file": "SANDS/miscellaneous/qualitativeRelationAssessment.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:inRelationTo._linkedTypes"
+        {
+          "property": "properties.props:inRelationTo._linkedTypes",
+          "modification": "value(s) added"
+        }
       ],
       "schemaType": "QualitativeRelationAssessment"
     },
     {
       "file": "SANDS/miscellaneous/quantitativeRelationAssessment.schema.omi.json",
       "modifiedAttributes": [
-        "properties.props:inRelationTo._instruction",
-        "properties.props:inRelationTo._linkedTypes",
-        "properties.props:quantitativeOverlap._instruction"
+        {
+          "property": "properties.props:inRelationTo._instruction"
+        },
+        {
+          "property": "properties.props:inRelationTo._linkedTypes"
+        },
+        {
+          "property": "properties.props:quantitativeOverlap._instruction"
+        }
       ],
       "schemaType": "QuantitativeRelationAssessment"
     },
@@ -1748,9 +2473,16 @@
         "properties.props:hasAnnotation._linkedTypes"
       ],
       "modifiedAttributes": [
-        "_categories",
-        "properties.props:hasAnnotation._instruction",
-        "properties.props:relationAssessment._instruction"
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:hasAnnotation._instruction"
+        },
+        {
+          "property": "properties.props:relationAssessment._instruction"
+        }
       ],
       "schemaType": "CustomAnatomicalEntity"
     },
@@ -1771,14 +2503,30 @@
         "properties.props:visualizedIn"
       ],
       "modifiedAttributes": [
-        "properties.props:coordinateSpace._instruction",
-        "properties.props:coordinateSpace._linkedTypes",
-        "properties.props:criteria._instruction",
-        "properties.props:criteriaQualityType._instruction",
-        "properties.props:inspiredBy._instruction",
-        "properties.props:internalIdentifier._instruction",
-        "properties.props:laterality._instruction",
-        "required"
+        {
+          "property": "properties.props:coordinateSpace._instruction"
+        },
+        {
+          "property": "properties.props:coordinateSpace._linkedTypes"
+        },
+        {
+          "property": "properties.props:criteria._instruction"
+        },
+        {
+          "property": "properties.props:criteriaQualityType._instruction"
+        },
+        {
+          "property": "properties.props:inspiredBy._instruction"
+        },
+        {
+          "property": "properties.props:internalIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:laterality._instruction"
+        },
+        {
+          "property": "required"
+        }
       ],
       "schemaType": "CustomAnnotation"
     },
@@ -1788,8 +2536,12 @@
         "_categories"
       ],
       "modifiedAttributes": [
-        "properties.props:axesOrigin._instruction",
-        "properties.props:defaultImage._instruction"
+        {
+          "property": "properties.props:axesOrigin._instruction"
+        },
+        {
+          "property": "properties.props:defaultImage._instruction"
+        }
       ],
       "schemaType": "CustomCoordinateSpace"
     }

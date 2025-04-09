@@ -182,7 +182,7 @@ Changes in controlledTerms/termSuggestion.schema.omi.json:
   - Field 'properties.props:suggestNewTerminology' added.
   - Field 'properties.props:ontologyIdentifier.format' removed.
   - Field 'properties.props:ontologyIdentifier._formats' added.
-  - Field 'required' modified.
+  - Field 'required' modified (value(s) removed).
 
 Changes in controlledTerms/tissueSampleType.schema.omi.json:
   - Field 'properties.props:ontologyIdentifier.format' removed.
@@ -241,22 +241,22 @@ Changes in core/products/datasetVersion.schema.omi.json:
   - Field 'required' modified.
 
 Changes in core/products/metaDataModelVersion.schema.omi.json:
-  - Field 'required' modified.
+  - Field 'required' modified (value(s) added).
 
 Changes in core/products/model.schema.omi.json:
   - Field 'properties.props:studyTarget.nameForReverseLink' added.
-  - Field 'properties.props:studyTarget._linkedTypes' modified.
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
 
 Changes in core/products/modelVersion.schema.omi.json:
-  - Field 'required' modified.
+  - Field 'required' modified (value(s) added).
 
 Changes in core/products/softwareVersion.schema.omi.json:
-  - Field 'required' modified.
+  - Field 'required' modified (value(s) added).
 
 Changes in core/research/protocol.schema.omi.json:
   - Field 'properties.props:behavioralTask' added.
   - Field 'properties.props:studyOption.nameForReverseLink' added.
-  - Field 'properties.props:studyOption._linkedTypes' modified.
+  - Field 'properties.props:studyOption._linkedTypes' modified (value(s) added).
 
 Changes in core/research/protocolExecution.schema.omi.json:
   - Field 'properties.props:behavioralTask' removed.
@@ -277,8 +277,8 @@ Changes in core/research/protocolExecution.schema.omi.json:
   - Field 'properties.props:protocol._instruction' modified.
   - Field 'properties.props:studyTarget.nameForReverseLink' added.
   - Field 'properties.props:studyTarget._instruction' modified.
-  - Field 'properties.props:studyTarget._linkedTypes' modified.
-  - Field 'required' modified.
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'required' modified (value(s) removed).
 
 Changes in core/research/subjectGroupState.schema.omi.json:
   - Field '_categories' removed.
