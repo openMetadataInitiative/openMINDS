@@ -22,55 +22,10 @@
     "computation/workflowExecution.schema.omi.json",
     "computation/workflowRecipe.schema.omi.json",
     "computation/workflowRecipeVersion.schema.omi.json",
-    "controlledTerms/actionStatusType.schema.omi.json",
-    "controlledTerms/analysisTechnique.schema.omi.json",
-    "controlledTerms/anatomicalIdentificationType.schema.omi.json",
-    "controlledTerms/anatomicalPlane.schema.omi.json",
-    "controlledTerms/annotationCriteriaType.schema.omi.json",
-    "controlledTerms/annotationType.schema.omi.json",
-    "controlledTerms/atlasType.schema.omi.json",
-    "controlledTerms/auditoryStimulusType.schema.omi.json",
-    "controlledTerms/biologicalOrder.schema.omi.json",
-    "controlledTerms/biologicalProcess.schema.omi.json",
-    "controlledTerms/breedingType.schema.omi.json",
-    "controlledTerms/cellCultureType.schema.omi.json",
-    "controlledTerms/chemicalMixtureType.schema.omi.json",
-    "controlledTerms/colormap.schema.omi.json",
-    "controlledTerms/cranialWindowConstructionType.schema.omi.json",
-    "controlledTerms/cranialWindowReinforcementType.schema.omi.json",
-    "controlledTerms/dataType.schema.omi.json",
-    "controlledTerms/deviceType.schema.omi.json",
-    "controlledTerms/differenceMeasure.schema.omi.json",
-    "controlledTerms/educationalLevel.schema.omi.json",
-    "controlledTerms/electricalStimulusType.schema.omi.json",
-    "controlledTerms/geneticStrainType.schema.omi.json",
-    "controlledTerms/gustatoryStimulusType.schema.omi.json",
-    "controlledTerms/learningResourceType.schema.omi.json",
-    "controlledTerms/measuredQuantity.schema.omi.json",
-    "controlledTerms/measuredSignalType.schema.omi.json",
-    "controlledTerms/molecularEntity.schema.omi.json",
-    "controlledTerms/olfactoryStimulusType.schema.omi.json",
-    "controlledTerms/opticalStimulusType.schema.omi.json",
-    "controlledTerms/organismSubstance.schema.omi.json",
-    "controlledTerms/organismSystem.schema.omi.json",
-    "controlledTerms/patchClampVariation.schema.omi.json",
-    "controlledTerms/service.schema.omi.json",
-    "controlledTerms/setupType.schema.omi.json",
-    "controlledTerms/stimulationApproach.schema.omi.json",
-    "controlledTerms/stimulationTechnique.schema.omi.json",
-    "controlledTerms/subcellularEntity.schema.omi.json",
-    "controlledTerms/subjectAttribute.schema.omi.json",
-    "controlledTerms/tactileStimulusType.schema.omi.json",
-    "controlledTerms/tissueSampleAttribute.schema.omi.json",
-    "controlledTerms/visualStimulusType.schema.omi.json",
     "core/actors/accountInformation.schema.omi.json",
     "core/actors/consortium.schema.omi.json",
-    "core/data/contentTypePattern.schema.omi.json",
     "core/data/fileArchive.schema.omi.json",
-    "core/data/filePathPattern.schema.omi.json",
-    "core/data/fileRepositoryStructure.schema.omi.json",
     "core/data/measurement.schema.omi.json",
-    "core/data/serviceLink.schema.omi.json",
     "core/digitalIdentifier/HANDLE.schema.omi.json",
     "core/digitalIdentifier/IdentifiersDotOrgID.schema.omi.json",
     "core/digitalIdentifier/ISSN.schema.omi.json",
@@ -88,6 +43,7 @@
     "core/research/customPropertySet.schema.omi.json",
     "core/research/numericalProperty.schema.omi.json",
     "core/research/propertyValueList.schema.omi.json",
+    "core/research/strain.schema.omi.json",
     "core/research/stringProperty.schema.omi.json",
     "ephys/activity/cellPatching.schema.omi.json",
     "ephys/activity/electrodePlacement.schema.omi.json",
@@ -127,9 +83,8 @@
     "stimulation/stimulus/ephysStimulus.schema.omi.json"
   ],
   "removedFiles": [
-    "controlledTerms/behavioralTask.schema.omi.json",
-    "controlledTerms/phenotype.schema.omi.json",
     "core/miscellaneous/URL.schema.omi.json",
+    "core/research/behavioralTask.schema.omi.json",
     "core/research/numericalParameter.schema.omi.json",
     "core/research/parameterSet.schema.omi.json",
     "core/research/stringParameter.schema.omi.json",
@@ -167,11 +122,6 @@
       "destination": "core/digitalIdentifier/SWHID.schema.omi.json"
     },
     {
-      "file": "strain.schema.omi.json",
-      "source": "controlledTerms/strain.schema.omi.json",
-      "destination": "core/research/strain.schema.omi.json"
-    },
-    {
       "file": "electrode.schema.omi.json",
       "source": "SANDS/non-atlas/electrode.schema.omi.json",
       "destination": "ephys/device/electrode.schema.omi.json"
@@ -183,540 +133,6 @@
     }
   ],
   "changes": [
-    {
-      "file": "controlledTerms/ageCategory.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "AgeCategory"
-    },
-    {
-      "file": "controlledTerms/anatomicalAxesOrientation.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "AnatomicalAxesOrientation"
-    },
-    {
-      "file": "controlledTerms/biologicalSex.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "modifiedAttributes": [
-        "_categories"
-      ],
-      "schemaType": "BiologicalSex"
-    },
-    {
-      "file": "controlledTerms/cellType.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "modifiedAttributes": [
-        "_categories"
-      ],
-      "schemaType": "CellType"
-    },
-    {
-      "file": "controlledTerms/contributionType.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "ContributionType"
-    },
-    {
-      "file": "controlledTerms/criteriaQualityType.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "CriteriaQualityType"
-    },
-    {
-      "file": "controlledTerms/disease.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "modifiedAttributes": [
-        "_categories"
-      ],
-      "schemaType": "Disease"
-    },
-    {
-      "file": "controlledTerms/diseaseModel.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "modifiedAttributes": [
-        "_categories"
-      ],
-      "schemaType": "DiseaseModel"
-    },
-    {
-      "file": "controlledTerms/ethicsAssessment.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "EthicsAssessment"
-    },
-    {
-      "file": "controlledTerms/experimentalApproach.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "ExperimentalApproach"
-    },
-    {
-      "file": "controlledTerms/fileBundleGrouping.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "FileBundleGrouping"
-    },
-    {
-      "file": "controlledTerms/fileRepositoryType.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "FileRepositoryType"
-    },
-    {
-      "file": "controlledTerms/fileUsageRole.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "FileUsageRole"
-    },
-    {
-      "file": "controlledTerms/handedness.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "modifiedAttributes": [
-        "_categories"
-      ],
-      "schemaType": "Handedness"
-    },
-    {
-      "file": "controlledTerms/language.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "Language"
-    },
-    {
-      "file": "controlledTerms/laterality.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "Laterality"
-    },
-    {
-      "file": "controlledTerms/metaDataModelType.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "MetaDataModelType"
-    },
-    {
-      "file": "controlledTerms/modelAbstractionLevel.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "ModelAbstractionLevel"
-    },
-    {
-      "file": "controlledTerms/modelScope.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "ModelScope"
-    },
-    {
-      "file": "controlledTerms/operatingDevice.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "OperatingDevice"
-    },
-    {
-      "file": "controlledTerms/operatingSystem.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "OperatingSystem"
-    },
-    {
-      "file": "controlledTerms/organ.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "modifiedAttributes": [
-        "_categories"
-      ],
-      "schemaType": "Organ"
-    },
-    {
-      "file": "controlledTerms/preparationType.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "PreparationType"
-    },
-    {
-      "file": "controlledTerms/productAccessibility.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "ProductAccessibility"
-    },
-    {
-      "file": "controlledTerms/programmingLanguage.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "ProgrammingLanguage"
-    },
-    {
-      "file": "controlledTerms/qualitativeOverlap.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "QualitativeOverlap"
-    },
-    {
-      "file": "controlledTerms/semanticDataType.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "SemanticDataType"
-    },
-    {
-      "file": "controlledTerms/softwareApplicationCategory.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "SoftwareApplicationCategory"
-    },
-    {
-      "file": "controlledTerms/softwareFeature.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "SoftwareFeature"
-    },
-    {
-      "file": "controlledTerms/species.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "modifiedAttributes": [
-        "_categories"
-      ],
-      "schemaType": "Species"
-    },
-    {
-      "file": "controlledTerms/technique.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "Technique"
-    },
-    {
-      "file": "controlledTerms/terminology.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "Terminology"
-    },
-    {
-      "file": "controlledTerms/termSuggestion.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "modifiedAttributes": [
-        "_categories"
-      ],
-      "schemaType": "TermSuggestion"
-    },
-    {
-      "file": "controlledTerms/tissueSampleType.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "TissueSampleType"
-    },
-    {
-      "file": "controlledTerms/typeOfUncertainty.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "TypeOfUncertainty"
-    },
-    {
-      "file": "controlledTerms/UBERONParcellation.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "UBERONParcellation"
-    },
-    {
-      "file": "controlledTerms/unitOfMeasurement.schema.omi.json",
-      "addedAttributes": [
-        "_categories",
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink",
-        "properties.props:preferredOntologyIdentifier",
-        "properties.props:synonym"
-      ],
-      "removedAttributes": [
-        "properties.props:ontologyIdentifier"
-      ],
-      "schemaType": "UnitOfMeasurement"
-    },
     {
       "file": "core/actors/affiliation.schema.omi.json",
       "addedAttributes": [
@@ -810,6 +226,15 @@
       "schemaType": "ContentType"
     },
     {
+      "file": "core/data/contentTypePattern.schema.omi.json",
+      "modifiedAttributes": [
+        "properties.props:contentType._instruction",
+        "properties.props:lookupLabel._instruction",
+        "properties.props:regex._instruction"
+      ],
+      "schemaType": "ContentTypePattern"
+    },
+    {
       "file": "core/data/copyright.schema.omi.json",
       "addedAttributes": [
         "properties.props:year.items",
@@ -830,7 +255,6 @@
     {
       "file": "core/data/file.schema.omi.json",
       "addedAttributes": [
-        "_categories",
         "properties.props:contentDescription",
         "properties.props:dataType",
         "properties.props:hash.minItems",
@@ -838,7 +262,8 @@
         "properties.props:hash.uniqueItems"
       ],
       "removedAttributes": [
-        "properties.props:content"
+        "properties.props:content",
+        "properties.props:descendedFrom"
       ],
       "modifiedAttributes": [
         "properties.props:fileRepository._instruction",
@@ -855,7 +280,6 @@
     {
       "file": "core/data/fileBundle.schema.omi.json",
       "addedAttributes": [
-        "_categories",
         "properties.props:contentDescription",
         "properties.props:groupingType",
         "properties.props:groupedBy.minItems",
@@ -863,6 +287,8 @@
         "properties.props:groupedBy.uniqueItems"
       ],
       "removedAttributes": [
+        "properties.props:content",
+        "properties.props:descendedFrom",
         "properties.props:patternOfFilenames"
       ],
       "modifiedAttributes": [
@@ -875,22 +301,44 @@
       "schemaType": "FileBundle"
     },
     {
-      "file": "core/data/fileRepository.schema.omi.json",
+      "file": "core/data/filePathPattern.schema.omi.json",
       "addedAttributes": [
-        "properties.props:contentTypePattern",
-        "properties.props:structurePattern",
-        "properties.props:type"
-      ],
-      "removedAttributes": [
-        "properties.props:repositoryType"
+        "properties.props:groupingType.minItems",
+        "properties.props:groupingType.type",
+        "properties.props:groupingType.uniqueItems"
       ],
       "modifiedAttributes": [
+        "properties.props:groupingType._instruction",
+        "properties.props:regex._instruction"
+      ],
+      "schemaType": "FilePathPattern"
+    },
+    {
+      "file": "core/data/fileRepository.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:type",
+        "properties.props:contentTypePattern._linkedTypes"
+      ],
+      "removedAttributes": [
+        "properties.props:repositoryType",
+        "properties.props:contentTypePattern._embeddedTypes"
+      ],
+      "modifiedAttributes": [
+        "properties.props:contentTypePattern._instruction",
         "properties.props:format._instruction",
         "properties.props:hostedBy._instruction",
         "properties.props:IRI._instruction",
-        "properties.props:storageSize._instruction"
+        "properties.props:storageSize._instruction",
+        "properties.props:structurePattern._instruction"
       ],
       "schemaType": "FileRepository"
+    },
+    {
+      "file": "core/data/fileRepositoryStructure.schema.omi.json",
+      "modifiedAttributes": [
+        "properties.props:lookupLabel._instruction"
+      ],
+      "schemaType": "FileRepositoryStructure"
     },
     {
       "file": "core/data/license.schema.omi.json",
@@ -900,6 +348,28 @@
         "properties.props:webpage._instruction"
       ],
       "schemaType": "License"
+    },
+    {
+      "file": "core/data/serviceLink.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:displayLabel",
+        "properties.props:previewImage",
+        "properties.props:openDataIn._formats",
+        "properties.props:openDataIn.formatting",
+        "properties.props:openDataIn.multiline",
+        "properties.props:openDataIn.type"
+      ],
+      "removedAttributes": [
+        "properties.props:name",
+        "properties.props:openDataIn._linkedTypes",
+        "properties.props:openDataIn.nameForReverseLink"
+      ],
+      "modifiedAttributes": [
+        "properties.props:dataLocation._instruction",
+        "properties.props:dataLocation._linkedTypes",
+        "properties.props:openDataIn._instruction"
+      ],
+      "schemaType": "ServiceLink"
     },
     {
       "file": "core/miscellaneous/funding.schema.omi.json",
@@ -970,8 +440,8 @@
         "properties.props:behavioralProtocol",
         "properties.props:dataType",
         "properties.props:preparationDesign",
+        "properties.props:protocol",
         "properties.props:studyTarget",
-        "properties.props:technique",
         "properties.props:homepage._formats",
         "properties.props:homepage.formatting",
         "properties.props:homepage.multiline",
@@ -980,6 +450,7 @@
         "properties.props:keyword.nameForReverseLink"
       ],
       "removedAttributes": [
+        "properties.props:behavioralTask",
         "properties.props:type",
         "properties.props:description.maxLength",
         "properties.props:homepage._linkedTypes",
@@ -1007,13 +478,14 @@
         "properties.props:license._instruction",
         "properties.props:license._linkedTypes",
         "properties.props:otherContribution._instruction",
-        "properties.props:protocol._instruction",
         "properties.props:relatedPublication._instruction",
         "properties.props:relatedPublication._linkedTypes",
         "properties.props:releaseDate._instruction",
         "properties.props:shortName._instruction",
         "properties.props:studiedSpecimen._instruction",
         "properties.props:supportChannel._instruction",
+        "properties.props:technique._instruction",
+        "properties.props:technique._linkedTypes",
         "properties.props:versionInnovation._instruction",
         "required"
       ],
@@ -1088,8 +560,7 @@
         "properties.props:releaseDate._instruction",
         "properties.props:shortName._instruction",
         "properties.props:supportChannel._instruction",
-        "properties.props:versionInnovation._instruction",
-        "required"
+        "properties.props:versionInnovation._instruction"
       ],
       "schemaType": "MetaDataModelVersion"
     },
@@ -1175,8 +646,7 @@
         "properties.props:releaseDate._instruction",
         "properties.props:shortName._instruction",
         "properties.props:supportChannel._instruction",
-        "properties.props:versionInnovation._instruction",
-        "required"
+        "properties.props:versionInnovation._instruction"
       ],
       "schemaType": "ModelVersion"
     },
@@ -1281,8 +751,7 @@
         "properties.props:releaseDate._instruction",
         "properties.props:shortName._instruction",
         "properties.props:supportChannel._instruction",
-        "properties.props:versionInnovation._instruction",
-        "required"
+        "properties.props:versionInnovation._instruction"
       ],
       "schemaType": "SoftwareVersion"
     },
@@ -1293,7 +762,6 @@
         "properties.props:stimulusType"
       ],
       "removedAttributes": [
-        "properties.props:behavioralTask",
         "properties.props:studyOption"
       ],
       "modifiedAttributes": [
@@ -1308,30 +776,23 @@
         "properties.props:behavioralProtocol",
         "properties.props:customPropertySet",
         "properties.props:endTime",
-        "properties.props:isPartOf",
         "properties.props:performedBy",
         "properties.props:preparationDesign",
-        "properties.props:startTime",
-        "properties.props:protocol.minItems",
-        "properties.props:protocol.type",
-        "properties.props:protocol.uniqueItems"
+        "properties.props:startTime"
       ],
       "removedAttributes": [
+        "properties.props:behavioralTask",
+        "properties.props:endedAtTime",
         "properties.props:parameterSet",
         "properties.props:preparationType",
-        "properties.props:semanticallyAnchoredTo"
+        "properties.props:startedAtTime"
       ],
       "modifiedAttributes": [
-        "properties.props:description._instruction",
-        "properties.props:input._instruction",
         "properties.props:input._linkedTypes",
+        "properties.props:isPartOf._instruction",
         "properties.props:lookupLabel._instruction",
-        "properties.props:output._instruction",
-        "properties.props:output._linkedTypes",
         "properties.props:protocol._instruction",
-        "properties.props:studyTarget._instruction",
-        "properties.props:studyTarget._linkedTypes",
-        "required"
+        "properties.props:studyTarget._linkedTypes"
       ],
       "schemaType": "ProtocolExecution"
     },
@@ -1377,7 +838,6 @@
     {
       "file": "core/research/subjectGroupState.schema.omi.json",
       "addedAttributes": [
-        "_categories",
         "properties.props:attribute",
         "properties.props:descendedFrom",
         "properties.props:internalIdentifier",
@@ -1396,7 +856,6 @@
     {
       "file": "core/research/subjectState.schema.omi.json",
       "addedAttributes": [
-        "_categories",
         "properties.props:attribute",
         "properties.props:descendedFrom",
         "properties.props:internalIdentifier",
@@ -1415,14 +874,15 @@
     {
       "file": "core/research/tissueSample.schema.omi.json",
       "addedAttributes": [
-        "_categories",
-        "properties.props:anatomicalLocation"
+        "_categories"
       ],
       "removedAttributes": [
         "properties.props:phenotype",
         "properties.props:strain"
       ],
       "modifiedAttributes": [
+        "properties.props:anatomicalLocation._instruction",
+        "properties.props:anatomicalLocation._linkedTypes",
         "properties.props:internalIdentifier._instruction",
         "properties.props:isPartOf._instruction",
         "properties.props:laterality._instruction",
@@ -1463,7 +923,6 @@
     {
       "file": "core/research/tissueSampleCollectionState.schema.omi.json",
       "addedAttributes": [
-        "_categories",
         "properties.props:attribute",
         "properties.props:descendedFrom",
         "properties.props:internalIdentifier",
@@ -1481,7 +940,6 @@
     {
       "file": "core/research/tissueSampleState.schema.omi.json",
       "addedAttributes": [
-        "_categories",
         "properties.props:attribute",
         "properties.props:descendedFrom",
         "properties.props:internalIdentifier",

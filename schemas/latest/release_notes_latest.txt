@@ -1,5 +1,9 @@
 Release Notes latest:
 
+Global changes:
+  - Namespace changed from https://openminds.ebrains.eu/(core|sands|controlledTerms|chemicals|ephys|computation|stimulation|specimenPrep|publications|neuroimaging)/ to https://openminds.om-i.org/types/.
+  - Namespace changed from https://openminds.ebrains.eu/vocab/ to https://openminds.om-i.org/props/.
+
 Added files:
   - controlledTerms/MRAcquisitionType.schema.omi.json
 
@@ -16,6 +20,8 @@ Changes in core/products/metaDataModelVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified.
 
 Changes in core/products/modelVersion.schema.omi.json:
+  - Field 'properties.props:configuration' added.
+  - Field 'properties.props:entryPoint' added.
   - Field 'properties.props:keyword._linkedTypes' modified.
 
 Changes in core/products/softwareVersion.schema.omi.json:
@@ -32,6 +38,10 @@ Changes in publications/chapter.schema.omi.json:
 
 Changes in publications/learningResource.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified.
+
+Changes in publications/livePaperResourceItem.schema.omi.json:
+  - Field 'properties.props:hostedBy._instruction' modified.
+  - Field 'properties.props:hostedBy._linkedTypes' modified.
 
 Changes in publications/livePaperVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified.
