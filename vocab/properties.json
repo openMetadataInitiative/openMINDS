@@ -77,54 +77,6 @@
       ]
     }
   },
-  "MRAcquisitionType": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/MRAcquisitionType"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Mracquisition type",
-    "labelPlural": null,
-    "name": "MRAcquisitionType",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
-  },
-  "MTState": {
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Mtstate",
-    "labelPlural": null,
-    "name": "MTState",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
-  },
   "URL": {
     "asString": {
       "formatting": "text/plain",
@@ -585,39 +537,14 @@
       ]
     }
   },
-  "acquisitionDuration": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Acquisition duration",
-    "labelPlural": null,
-    "name": "acquisitionDuration",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
-      ]
-    }
-  },
   "addExistingTerminology": {
     "asEdge": {
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/Terminology"
+        ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/controlledTerms/Terminology"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/controlledTerms/Terminology"
@@ -643,7 +570,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -655,6 +583,9 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/TermSuggestion"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/controlledTerms/TermSuggestion"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/controlledTerms/TermSuggestion"
@@ -706,9 +637,6 @@
         "https://openminds.om-i.org/types/AnatomicalTargetPosition",
         "https://openminds.om-i.org/types/ChemicalMixture",
         "https://openminds.om-i.org/types/ChemicalSubstance",
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack",
         "https://openminds.om-i.org/types/Measurement",
         "https://openminds.om-i.org/types/ParcellationEntityVersion",
         "https://openminds.om-i.org/types/Recording",
@@ -718,9 +646,7 @@
         "https://openminds.om-i.org/types/TissueSampleCollection",
         "https://openminds.om-i.org/types/TissueSampleCollectionState",
         "https://openminds.om-i.org/types/TissueSampleState",
-        "https://openminds.om-i.org/types/ViewerSpecification",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
+        "https://openminds.om-i.org/types/ViewerSpecification"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/SubjectGroup",
@@ -1259,7 +1185,7 @@
     "namePlural": "anatomicalEntities",
     "usedIn": {
       "v1.0": [
-        "https://openminds.ebrains.eu/sands/AtlasTerminology"
+        "https://openminds.ebrains.eu/sands/ParcellationTerminology"
       ]
     }
   },
@@ -2116,62 +2042,6 @@
       ]
     }
   },
-  "bValues": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/File"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "B values",
-    "labelPlural": null,
-    "name": "bValues",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
-  },
-  "bVectors": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/File"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "B vectors",
-    "labelPlural": null,
-    "name": "bVectors",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
-  },
   "backgroundStrain": {
     "asEdge": {
       "canPointTo": {
@@ -2307,7 +2177,6 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DatasetVersion",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/ProtocolExecution"
       ],
       "v3.0": [
@@ -2562,42 +2431,6 @@
       ]
     }
   },
-  "capturedWith": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/ElectrodeArrayUsage",
-          "https://openminds.om-i.org/types/ElectrodeUsage",
-          "https://openminds.om-i.org/types/MRIScannerUsage",
-          "https://openminds.om-i.org/types/PipetteUsage",
-          "https://openminds.om-i.org/types/SlicingDeviceUsage"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Captured with",
-    "labelPlural": null,
-    "name": "capturedWith",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
-      ]
-    }
-  },
   "channel": {
     "asEdge": {
       "canPointTo": {
@@ -2801,36 +2634,6 @@
         "https://openminds.om-i.org/types/Chapter",
         "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/ScholarlyArticle"
-      ]
-    }
-  },
-  "colorDepth": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Color depth",
-    "labelPlural": null,
-    "name": "colorDepth",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack"
       ]
     }
   },
@@ -3559,35 +3362,6 @@
       ]
     }
   },
-  "contrastAgent": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/AmountOfChemical"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Contrast agent",
-    "labelPlural": null,
-    "name": "contrastAgent",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition"
-      ]
-    }
-  },
   "contributionType": {
     "asEdge": {
       "canPointTo": {
@@ -3778,12 +3552,7 @@
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlasVersion",
         "https://openminds.om-i.org/types/CoordinatePoint",
-        "https://openminds.om-i.org/types/CustomAnnotation",
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
+        "https://openminds.om-i.org/types/CustomAnnotation"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
@@ -4661,7 +4430,6 @@
         "https://openminds.om-i.org/types/DataAnalysis",
         "https://openminds.om-i.org/types/DataCopy",
         "https://openminds.om-i.org/types/ElectrodePlacement",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/GenericComputation",
         "https://openminds.om-i.org/types/ModelValidation",
         "https://openminds.om-i.org/types/Optimization",
@@ -4669,7 +4437,6 @@
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
@@ -4772,15 +4539,10 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CustomPropertySet",
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack",
         "https://openminds.om-i.org/types/ParcellationTerminology",
         "https://openminds.om-i.org/types/ParcellationTerminologyVersion",
         "https://openminds.om-i.org/types/Recording",
-        "https://openminds.om-i.org/types/ServiceLink",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
+        "https://openminds.om-i.org/types/ServiceLink"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/ServiceLink"
@@ -4929,7 +4691,7 @@
     "asEdge": {
       "canPointTo": {
         "v1.0": [
-          "https://openminds.ebrains.eu/core/FileInstance"
+          "https://openminds.ebrains.eu/core/File"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/File"
@@ -4953,9 +4715,9 @@
     "namePlural": "definedIn",
     "usedIn": {
       "v1.0": [
-        "https://openminds.ebrains.eu/sands/AtlasTerminology",
         "https://openminds.ebrains.eu/sands/ElectrodeContact",
-        "https://openminds.ebrains.eu/sands/Image"
+        "https://openminds.ebrains.eu/sands/Image",
+        "https://openminds.ebrains.eu/sands/ParcellationTerminology"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/sands/ElectrodeContact",
@@ -5083,44 +4845,86 @@
         "https://openminds.om-i.org/types/VisualStimulusType"
       ],
       "v1.0": [
+        "https://openminds.ebrains.eu/controlledTerms/ActionStatusType",
         "https://openminds.ebrains.eu/controlledTerms/AgeCategory",
+        "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
         "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation",
-        "https://openminds.ebrains.eu/controlledTerms/BehavioralTask",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalIdentificationType",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalPlane",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationCriteriaType",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationType",
+        "https://openminds.ebrains.eu/controlledTerms/AtlasType",
+        "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalOrder",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalProcess",
         "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
+        "https://openminds.ebrains.eu/controlledTerms/BreedingType",
+        "https://openminds.ebrains.eu/controlledTerms/CellCultureType",
         "https://openminds.ebrains.eu/controlledTerms/CellType",
+        "https://openminds.ebrains.eu/controlledTerms/ChemicalMixtureType",
+        "https://openminds.ebrains.eu/controlledTerms/Colormap",
         "https://openminds.ebrains.eu/controlledTerms/ContributionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowConstructionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowReinforcementType",
         "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType",
-        "https://openminds.ebrains.eu/controlledTerms/DatasetType",
+        "https://openminds.ebrains.eu/controlledTerms/DataType",
+        "https://openminds.ebrains.eu/controlledTerms/DeviceType",
+        "https://openminds.ebrains.eu/controlledTerms/DifferenceMeasure",
         "https://openminds.ebrains.eu/controlledTerms/Disease",
         "https://openminds.ebrains.eu/controlledTerms/DiseaseModel",
+        "https://openminds.ebrains.eu/controlledTerms/EducationalLevel",
+        "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
         "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment",
+        "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach",
         "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping",
+        "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType",
         "https://openminds.ebrains.eu/controlledTerms/FileUsageRole",
-        "https://openminds.ebrains.eu/controlledTerms/Genotype",
+        "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType",
+        "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Handedness",
         "https://openminds.ebrains.eu/controlledTerms/Language",
         "https://openminds.ebrains.eu/controlledTerms/Laterality",
+        "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+        "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
         "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
-        "https://openminds.ebrains.eu/controlledTerms/Modality",
         "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel",
         "https://openminds.ebrains.eu/controlledTerms/ModelScope",
+        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
         "https://openminds.ebrains.eu/controlledTerms/OperatingDevice",
         "https://openminds.ebrains.eu/controlledTerms/OperatingSystem",
+        "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
         "https://openminds.ebrains.eu/controlledTerms/Organ",
-        "https://openminds.ebrains.eu/controlledTerms/Phenotype",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSystem",
+        "https://openminds.ebrains.eu/controlledTerms/PatchClampVariation",
         "https://openminds.ebrains.eu/controlledTerms/PreparationType",
         "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility",
         "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage",
         "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap",
+        "https://openminds.ebrains.eu/controlledTerms/SemanticDataType",
+        "https://openminds.ebrains.eu/controlledTerms/Service",
+        "https://openminds.ebrains.eu/controlledTerms/SetupType",
         "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory",
         "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature",
-        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeatureCategory",
         "https://openminds.ebrains.eu/controlledTerms/Species",
-        "https://openminds.ebrains.eu/controlledTerms/Strain",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/SubjectAttribute",
+        "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
         "https://openminds.ebrains.eu/controlledTerms/Technique",
         "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
         "https://openminds.ebrains.eu/controlledTerms/Terminology",
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleAttribute",
         "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
-        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+        "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty",
+        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement",
+        "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/controlledTerms/AgeCategory",
@@ -5330,69 +5134,12 @@
       ]
     }
   },
-  "delayAfterTrigger": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Delay after trigger",
-    "labelPlural": null,
-    "name": "delayAfterTrigger",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
-      ]
-    }
-  },
-  "delayTime": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Delay time",
-    "labelPlural": null,
-    "name": "delayTime",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
-      ]
-    }
-  },
   "deliveredBy": {
     "asEdge": {
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/ElectrodeArrayUsage",
           "https://openminds.om-i.org/types/ElectrodeUsage",
-          "https://openminds.om-i.org/types/MRIScannerUsage",
           "https://openminds.om-i.org/types/PipetteUsage",
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
         ],
@@ -5453,6 +5200,12 @@
           "https://openminds.om-i.org/types/TissueSampleState"
         ],
         "v1.0": [
+          "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
+          "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+          "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
+          "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
+          "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
+          "https://openminds.ebrains.eu/controlledTerms/Technique",
           "https://openminds.ebrains.eu/core/BehavioralTask",
           "https://openminds.ebrains.eu/core/File",
           "https://openminds.ebrains.eu/core/FileBundle",
@@ -5665,7 +5418,6 @@
         "https://openminds.om-i.org/types/FileBundleGrouping",
         "https://openminds.om-i.org/types/FileRepositoryType",
         "https://openminds.om-i.org/types/FileUsageRole",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/GenericComputation",
         "https://openminds.om-i.org/types/GeneticStrainType",
         "https://openminds.om-i.org/types/GustatoryStimulusType",
@@ -5680,7 +5432,6 @@
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MRAcquisitionType",
         "https://openminds.om-i.org/types/MRIPulseSequence",
-        "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/MRIWeighting",
         "https://openminds.om-i.org/types/MeasuredQuantity",
         "https://openminds.om-i.org/types/MeasuredSignalType",
@@ -5726,7 +5477,6 @@
         "https://openminds.om-i.org/types/StimulationApproach",
         "https://openminds.om-i.org/types/StimulationTechnique",
         "https://openminds.om-i.org/types/Strain",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/SubcellularEntity",
         "https://openminds.om-i.org/types/SubjectAttribute",
         "https://openminds.om-i.org/types/TactileStimulusType",
@@ -5750,44 +5500,86 @@
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
+        "https://openminds.ebrains.eu/controlledTerms/ActionStatusType",
         "https://openminds.ebrains.eu/controlledTerms/AgeCategory",
+        "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
         "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation",
-        "https://openminds.ebrains.eu/controlledTerms/BehavioralTask",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalIdentificationType",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalPlane",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationCriteriaType",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationType",
+        "https://openminds.ebrains.eu/controlledTerms/AtlasType",
+        "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalOrder",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalProcess",
         "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
+        "https://openminds.ebrains.eu/controlledTerms/BreedingType",
+        "https://openminds.ebrains.eu/controlledTerms/CellCultureType",
         "https://openminds.ebrains.eu/controlledTerms/CellType",
+        "https://openminds.ebrains.eu/controlledTerms/ChemicalMixtureType",
+        "https://openminds.ebrains.eu/controlledTerms/Colormap",
         "https://openminds.ebrains.eu/controlledTerms/ContributionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowConstructionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowReinforcementType",
         "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType",
-        "https://openminds.ebrains.eu/controlledTerms/DatasetType",
+        "https://openminds.ebrains.eu/controlledTerms/DataType",
+        "https://openminds.ebrains.eu/controlledTerms/DeviceType",
+        "https://openminds.ebrains.eu/controlledTerms/DifferenceMeasure",
         "https://openminds.ebrains.eu/controlledTerms/Disease",
         "https://openminds.ebrains.eu/controlledTerms/DiseaseModel",
+        "https://openminds.ebrains.eu/controlledTerms/EducationalLevel",
+        "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
         "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment",
+        "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach",
         "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping",
+        "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType",
         "https://openminds.ebrains.eu/controlledTerms/FileUsageRole",
-        "https://openminds.ebrains.eu/controlledTerms/Genotype",
+        "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType",
+        "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Handedness",
         "https://openminds.ebrains.eu/controlledTerms/Language",
         "https://openminds.ebrains.eu/controlledTerms/Laterality",
+        "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+        "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
         "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
-        "https://openminds.ebrains.eu/controlledTerms/Modality",
         "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel",
         "https://openminds.ebrains.eu/controlledTerms/ModelScope",
+        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
         "https://openminds.ebrains.eu/controlledTerms/OperatingDevice",
         "https://openminds.ebrains.eu/controlledTerms/OperatingSystem",
+        "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
         "https://openminds.ebrains.eu/controlledTerms/Organ",
-        "https://openminds.ebrains.eu/controlledTerms/Phenotype",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSystem",
+        "https://openminds.ebrains.eu/controlledTerms/PatchClampVariation",
         "https://openminds.ebrains.eu/controlledTerms/PreparationType",
         "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility",
         "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage",
         "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap",
+        "https://openminds.ebrains.eu/controlledTerms/SemanticDataType",
+        "https://openminds.ebrains.eu/controlledTerms/Service",
+        "https://openminds.ebrains.eu/controlledTerms/SetupType",
         "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory",
         "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature",
-        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeatureCategory",
         "https://openminds.ebrains.eu/controlledTerms/Species",
-        "https://openminds.ebrains.eu/controlledTerms/Strain",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/SubjectAttribute",
+        "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
         "https://openminds.ebrains.eu/controlledTerms/Technique",
         "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
         "https://openminds.ebrains.eu/controlledTerms/Terminology",
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleAttribute",
         "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
+        "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty",
+        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
         "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement",
+        "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType",
         "https://openminds.ebrains.eu/core/BehavioralTask",
         "https://openminds.ebrains.eu/core/ContentType",
         "https://openminds.ebrains.eu/core/Dataset",
@@ -6240,8 +6032,6 @@
           "https://openminds.om-i.org/types/ElectrodeArray",
           "https://openminds.om-i.org/types/ElectrodeArrayUsage",
           "https://openminds.om-i.org/types/ElectrodeUsage",
-          "https://openminds.om-i.org/types/MRIScanner",
-          "https://openminds.om-i.org/types/MRIScannerUsage",
           "https://openminds.om-i.org/types/OperatingDevice",
           "https://openminds.om-i.org/types/Pipette",
           "https://openminds.om-i.org/types/PipetteUsage",
@@ -6307,13 +6097,10 @@
         "https://openminds.om-i.org/types/ElectrodeArrayUsage",
         "https://openminds.om-i.org/types/ElectrodePlacement",
         "https://openminds.om-i.org/types/ElectrodeUsage",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
-        "https://openminds.om-i.org/types/MRIScannerUsage",
         "https://openminds.om-i.org/types/PipetteUsage",
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/SlicingDeviceUsage",
         "https://openminds.om-i.org/types/SoftwareVersion",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueSampleSlicing"
       ],
       "v1.0": [
@@ -6385,7 +6172,6 @@
       "latest": [
         "https://openminds.om-i.org/types/Electrode",
         "https://openminds.om-i.org/types/ElectrodeArray",
-        "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/Pipette",
         "https://openminds.om-i.org/types/SlicingDevice"
       ],
@@ -6471,7 +6257,6 @@
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/DOI",
-          "https://openminds.ebrains.eu/core/DigitalIdentifier",
           "https://openminds.ebrains.eu/core/GRIDID",
           "https://openminds.ebrains.eu/core/ORCID",
           "https://openminds.ebrains.eu/core/RORID",
@@ -6546,7 +6331,6 @@
         "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/LivePaper",
         "https://openminds.om-i.org/types/LivePaperVersion",
-        "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/MetaDataModel",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/Model",
@@ -6577,6 +6361,7 @@
         "https://openminds.ebrains.eu/core/Person",
         "https://openminds.ebrains.eu/core/Software",
         "https://openminds.ebrains.eu/core/SoftwareVersion",
+        "https://openminds.ebrains.eu/sands/BrainAtlas",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
         "https://openminds.ebrains.eu/sands/CoordinateSpace"
       ],
@@ -6706,12 +6491,7 @@
     "namePlural": "dimensions",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/CranialWindowPreparation",
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
+        "https://openminds.om-i.org/types/CranialWindowPreparation"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation"
@@ -6775,6 +6555,7 @@
     "asString": {
       "formatting": "text/plain",
       "inVersions": [
+        "v1.0",
         "v2.0"
       ],
       "multiline": false
@@ -6845,62 +6626,6 @@
       "v4.0": [
         "https://openminds.om-i.org/types/ContentType",
         "https://openminds.om-i.org/types/ServiceLink"
-      ]
-    }
-  },
-  "dwellTime": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Dwell time",
-    "labelPlural": null,
-    "name": "dwellTime",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
-  },
-  "echoTime": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Echo time",
-    "labelPlural": null,
-    "name": "echoTime",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
   },
@@ -7307,7 +7032,6 @@
         "https://openminds.om-i.org/types/DataAnalysis",
         "https://openminds.om-i.org/types/DataCopy",
         "https://openminds.om-i.org/types/ElectrodePlacement",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/GenericComputation",
         "https://openminds.om-i.org/types/ModelValidation",
         "https://openminds.om-i.org/types/Optimization",
@@ -7315,7 +7039,6 @@
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
@@ -7913,64 +7636,6 @@
       ]
     }
   },
-  "fieldMap": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/File"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Field map",
-    "labelPlural": null,
-    "name": "fieldMap",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
-      ]
-    }
-  },
-  "fieldOfView": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/Circle",
-          "https://openminds.om-i.org/types/Ellipse",
-          "https://openminds.om-i.org/types/Rectangle"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Field of view",
-    "labelPlural": null,
-    "name": "fieldOfView",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
-  },
   "fileExtension": {
     "asString": {
       "formatting": "text/plain",
@@ -8135,34 +7800,6 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/File"
-      ]
-    }
-  },
-  "flipAngle": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Flip angle",
-    "labelPlural": null,
-    "name": "flipAngle",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
   },
@@ -8441,10 +8078,10 @@
         "https://openminds.ebrains.eu/core/Project",
         "https://openminds.ebrains.eu/core/Software",
         "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/sands/AtlasTerminology",
         "https://openminds.ebrains.eu/sands/BrainAtlas",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CoordinateSpace"
+        "https://openminds.ebrains.eu/sands/CoordinateSpace",
+        "https://openminds.ebrains.eu/sands/ParcellationTerminology"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Dataset",
@@ -8698,7 +8335,6 @@
         "latest": [
           "https://openminds.om-i.org/types/ElectrodeArrayUsage",
           "https://openminds.om-i.org/types/ElectrodeUsage",
-          "https://openminds.om-i.org/types/MRIScannerUsage",
           "https://openminds.om-i.org/types/PipetteUsage",
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
         ],
@@ -9221,14 +8857,6 @@
     }
   },
   "hasAlternativeVersion": {
-    "asEdge": {
-      "canPointTo": {
-        "v1.0": [
-          "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
-        ]
-      },
-      "nameForReverseLink": null
-    },
     "description": null,
     "hasNamespace": [
       {
@@ -9242,11 +8870,7 @@
     "labelPlural": "Has alternative versions",
     "name": "hasAlternativeVersion",
     "namePlural": "hasAlternativeVersions",
-    "usedIn": {
-      "v1.0": [
-        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
-      ]
-    }
+    "usedIn": {}
   },
   "hasAnnotation": {
     "asEdge": {
@@ -9492,7 +9116,6 @@
           "https://openminds.om-i.org/types/FileBundle",
           "https://openminds.om-i.org/types/LivePaper",
           "https://openminds.om-i.org/types/LivePaperVersion",
-          "https://openminds.om-i.org/types/MRIScanner",
           "https://openminds.om-i.org/types/MetaDataModel",
           "https://openminds.om-i.org/types/MetaDataModelVersion",
           "https://openminds.om-i.org/types/Model",
@@ -10341,7 +9964,10 @@
         "https://openminds.ebrains.eu/core/Model",
         "https://openminds.ebrains.eu/core/ModelVersion",
         "https://openminds.ebrains.eu/core/Software",
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
+        "https://openminds.ebrains.eu/core/SoftwareVersion",
+        "https://openminds.ebrains.eu/sands/BrainAtlas",
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+        "https://openminds.ebrains.eu/sands/CoordinateSpace"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Dataset",
@@ -10665,7 +10291,6 @@
         "https://openminds.om-i.org/types/DataAnalysis",
         "https://openminds.om-i.org/types/DataCopy",
         "https://openminds.om-i.org/types/ElectrodePlacement",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/GenericComputation",
         "https://openminds.om-i.org/types/ModelValidation",
         "https://openminds.om-i.org/types/Optimization",
@@ -10673,7 +10298,6 @@
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
@@ -11043,40 +10667,12 @@
       ]
     }
   },
-  "interSliceGap": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue",
-          "https://openminds.om-i.org/types/QuantitativeValueRange"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Inter slice gap",
-    "labelPlural": null,
-    "name": "interSliceGap",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
-  },
   "interlexIdentifier": {
     "asString": {
       "formatting": "text/plain",
       "inVersions": [
         "latest",
+        "v1.0",
         "v3.0",
         "v4.0"
       ],
@@ -11093,7 +10689,8 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -11185,6 +10782,88 @@
         "https://openminds.om-i.org/types/UBERONParcellation",
         "https://openminds.om-i.org/types/UnitOfMeasurement",
         "https://openminds.om-i.org/types/VisualStimulusType"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/controlledTerms/ActionStatusType",
+        "https://openminds.ebrains.eu/controlledTerms/AgeCategory",
+        "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalIdentificationType",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalPlane",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationCriteriaType",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationType",
+        "https://openminds.ebrains.eu/controlledTerms/AtlasType",
+        "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalOrder",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalProcess",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
+        "https://openminds.ebrains.eu/controlledTerms/BreedingType",
+        "https://openminds.ebrains.eu/controlledTerms/CellCultureType",
+        "https://openminds.ebrains.eu/controlledTerms/CellType",
+        "https://openminds.ebrains.eu/controlledTerms/ChemicalMixtureType",
+        "https://openminds.ebrains.eu/controlledTerms/Colormap",
+        "https://openminds.ebrains.eu/controlledTerms/ContributionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowConstructionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowReinforcementType",
+        "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType",
+        "https://openminds.ebrains.eu/controlledTerms/DataType",
+        "https://openminds.ebrains.eu/controlledTerms/DeviceType",
+        "https://openminds.ebrains.eu/controlledTerms/DifferenceMeasure",
+        "https://openminds.ebrains.eu/controlledTerms/Disease",
+        "https://openminds.ebrains.eu/controlledTerms/DiseaseModel",
+        "https://openminds.ebrains.eu/controlledTerms/EducationalLevel",
+        "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment",
+        "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach",
+        "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping",
+        "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType",
+        "https://openminds.ebrains.eu/controlledTerms/FileUsageRole",
+        "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType",
+        "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Handedness",
+        "https://openminds.ebrains.eu/controlledTerms/Language",
+        "https://openminds.ebrains.eu/controlledTerms/Laterality",
+        "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+        "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
+        "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
+        "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel",
+        "https://openminds.ebrains.eu/controlledTerms/ModelScope",
+        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/OperatingDevice",
+        "https://openminds.ebrains.eu/controlledTerms/OperatingSystem",
+        "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Organ",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSystem",
+        "https://openminds.ebrains.eu/controlledTerms/PatchClampVariation",
+        "https://openminds.ebrains.eu/controlledTerms/PreparationType",
+        "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility",
+        "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage",
+        "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap",
+        "https://openminds.ebrains.eu/controlledTerms/SemanticDataType",
+        "https://openminds.ebrains.eu/controlledTerms/Service",
+        "https://openminds.ebrains.eu/controlledTerms/SetupType",
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory",
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature",
+        "https://openminds.ebrains.eu/controlledTerms/Species",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/SubjectAttribute",
+        "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Technique",
+        "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
+        "https://openminds.ebrains.eu/controlledTerms/Terminology",
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleAttribute",
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
+        "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty",
+        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement",
+        "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/controlledTerms/ActionStatusType",
@@ -11568,34 +11247,6 @@
       ]
     }
   },
-  "inversionTime": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Inversion time",
-    "labelPlural": null,
-    "name": "inversionTime",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
-  },
   "isAlternativeVersionOf": {
     "asEdge": {
       "canPointTo": {
@@ -11615,7 +11266,8 @@
           "https://openminds.ebrains.eu/core/DatasetVersion",
           "https://openminds.ebrains.eu/core/MetaDataModelVersion",
           "https://openminds.ebrains.eu/core/ModelVersion",
-          "https://openminds.ebrains.eu/core/SoftwareVersion"
+          "https://openminds.ebrains.eu/core/SoftwareVersion",
+          "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -11690,7 +11342,8 @@
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
         "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
+        "https://openminds.ebrains.eu/core/SoftwareVersion",
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -11947,7 +11600,6 @@
         "https://openminds.om-i.org/types/ElectrodePlacement",
         "https://openminds.om-i.org/types/File",
         "https://openminds.om-i.org/types/FileBundle",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/LivePaperResourceItem",
         "https://openminds.om-i.org/types/LivePaperSection",
         "https://openminds.om-i.org/types/ProtocolExecution",
@@ -11956,7 +11608,6 @@
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/ScholarlyArticle",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/Subject",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSample",
@@ -12407,6 +12058,7 @@
       "formatting": "text/plain",
       "inVersions": [
         "latest",
+        "v1.0",
         "v3.0",
         "v4.0"
       ],
@@ -12423,7 +12075,8 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -12515,6 +12168,88 @@
         "https://openminds.om-i.org/types/UBERONParcellation",
         "https://openminds.om-i.org/types/UnitOfMeasurement",
         "https://openminds.om-i.org/types/VisualStimulusType"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/controlledTerms/ActionStatusType",
+        "https://openminds.ebrains.eu/controlledTerms/AgeCategory",
+        "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalIdentificationType",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalPlane",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationCriteriaType",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationType",
+        "https://openminds.ebrains.eu/controlledTerms/AtlasType",
+        "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalOrder",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalProcess",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
+        "https://openminds.ebrains.eu/controlledTerms/BreedingType",
+        "https://openminds.ebrains.eu/controlledTerms/CellCultureType",
+        "https://openminds.ebrains.eu/controlledTerms/CellType",
+        "https://openminds.ebrains.eu/controlledTerms/ChemicalMixtureType",
+        "https://openminds.ebrains.eu/controlledTerms/Colormap",
+        "https://openminds.ebrains.eu/controlledTerms/ContributionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowConstructionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowReinforcementType",
+        "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType",
+        "https://openminds.ebrains.eu/controlledTerms/DataType",
+        "https://openminds.ebrains.eu/controlledTerms/DeviceType",
+        "https://openminds.ebrains.eu/controlledTerms/DifferenceMeasure",
+        "https://openminds.ebrains.eu/controlledTerms/Disease",
+        "https://openminds.ebrains.eu/controlledTerms/DiseaseModel",
+        "https://openminds.ebrains.eu/controlledTerms/EducationalLevel",
+        "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment",
+        "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach",
+        "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping",
+        "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType",
+        "https://openminds.ebrains.eu/controlledTerms/FileUsageRole",
+        "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType",
+        "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Handedness",
+        "https://openminds.ebrains.eu/controlledTerms/Language",
+        "https://openminds.ebrains.eu/controlledTerms/Laterality",
+        "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+        "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
+        "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
+        "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel",
+        "https://openminds.ebrains.eu/controlledTerms/ModelScope",
+        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/OperatingDevice",
+        "https://openminds.ebrains.eu/controlledTerms/OperatingSystem",
+        "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Organ",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSystem",
+        "https://openminds.ebrains.eu/controlledTerms/PatchClampVariation",
+        "https://openminds.ebrains.eu/controlledTerms/PreparationType",
+        "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility",
+        "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage",
+        "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap",
+        "https://openminds.ebrains.eu/controlledTerms/SemanticDataType",
+        "https://openminds.ebrains.eu/controlledTerms/Service",
+        "https://openminds.ebrains.eu/controlledTerms/SetupType",
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory",
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature",
+        "https://openminds.ebrains.eu/controlledTerms/Species",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/SubjectAttribute",
+        "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Technique",
+        "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
+        "https://openminds.ebrains.eu/controlledTerms/Terminology",
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleAttribute",
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
+        "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty",
+        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement",
+        "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/controlledTerms/ActionStatusType",
@@ -13362,10 +13097,7 @@
         "https://openminds.om-i.org/types/ElectrodeUsage",
         "https://openminds.om-i.org/types/EphysStimulus",
         "https://openminds.om-i.org/types/FileRepositoryStructure",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/GenericComputation",
-        "https://openminds.om-i.org/types/MRIScanner",
-        "https://openminds.om-i.org/types/MRIScannerUsage",
         "https://openminds.om-i.org/types/ModelValidation",
         "https://openminds.om-i.org/types/Optimization",
         "https://openminds.om-i.org/types/ParcellationEntity",
@@ -13379,7 +13111,6 @@
         "https://openminds.om-i.org/types/SlicingDevice",
         "https://openminds.om-i.org/types/SlicingDeviceUsage",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/Subject",
         "https://openminds.om-i.org/types/SubjectGroup",
         "https://openminds.om-i.org/types/SubjectGroupState",
@@ -13390,9 +13121,7 @@
         "https://openminds.om-i.org/types/TissueSampleCollectionState",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/TissueSampleState",
-        "https://openminds.om-i.org/types/Visualization",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
+        "https://openminds.om-i.org/types/Visualization"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/ContentTypePattern",
@@ -13505,34 +13234,6 @@
       ]
     }
   },
-  "magneticFieldStrength": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Magnetic field strength",
-    "labelPlural": null,
-    "name": "magneticFieldStrength",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScanner"
-      ]
-    }
-  },
   "majorVersionIdentifier": {
     "asString": {
       "formatting": "text/plain",
@@ -13620,7 +13321,6 @@
       "latest": [
         "https://openminds.om-i.org/types/Electrode",
         "https://openminds.om-i.org/types/ElectrodeArray",
-        "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/Pipette",
         "https://openminds.om-i.org/types/Setup",
         "https://openminds.om-i.org/types/SlicingDevice"
@@ -13835,7 +13535,6 @@
         "latest": [
           "https://openminds.om-i.org/types/ElectrodeArrayUsage",
           "https://openminds.om-i.org/types/ElectrodeUsage",
-          "https://openminds.om-i.org/types/MRIScannerUsage",
           "https://openminds.om-i.org/types/PipetteUsage",
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
         ],
@@ -13978,7 +13677,6 @@
       "latest": [
         "https://openminds.om-i.org/types/ElectrodeArrayUsage",
         "https://openminds.om-i.org/types/ElectrodeUsage",
-        "https://openminds.om-i.org/types/MRIScannerUsage",
         "https://openminds.om-i.org/types/PipetteUsage",
         "https://openminds.om-i.org/types/SlicingDeviceUsage"
       ],
@@ -14272,9 +13970,6 @@
         "https://openminds.om-i.org/types/GustatoryStimulusType",
         "https://openminds.om-i.org/types/Handedness",
         "https://openminds.om-i.org/types/HardwareSystem",
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack",
         "https://openminds.om-i.org/types/Language",
         "https://openminds.om-i.org/types/Laterality",
         "https://openminds.om-i.org/types/LaunchConfiguration",
@@ -14285,7 +13980,6 @@
         "https://openminds.om-i.org/types/LocalFile",
         "https://openminds.om-i.org/types/MRAcquisitionType",
         "https://openminds.om-i.org/types/MRIPulseSequence",
-        "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/MRIWeighting",
         "https://openminds.om-i.org/types/MeasuredQuantity",
         "https://openminds.om-i.org/types/MeasuredSignalType",
@@ -14340,44 +14034,86 @@
         "https://openminds.om-i.org/types/VisualStimulusType"
       ],
       "v1.0": [
+        "https://openminds.ebrains.eu/controlledTerms/ActionStatusType",
         "https://openminds.ebrains.eu/controlledTerms/AgeCategory",
+        "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
         "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation",
-        "https://openminds.ebrains.eu/controlledTerms/BehavioralTask",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalIdentificationType",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalPlane",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationCriteriaType",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationType",
+        "https://openminds.ebrains.eu/controlledTerms/AtlasType",
+        "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalOrder",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalProcess",
         "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
+        "https://openminds.ebrains.eu/controlledTerms/BreedingType",
+        "https://openminds.ebrains.eu/controlledTerms/CellCultureType",
         "https://openminds.ebrains.eu/controlledTerms/CellType",
+        "https://openminds.ebrains.eu/controlledTerms/ChemicalMixtureType",
+        "https://openminds.ebrains.eu/controlledTerms/Colormap",
         "https://openminds.ebrains.eu/controlledTerms/ContributionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowConstructionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowReinforcementType",
         "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType",
-        "https://openminds.ebrains.eu/controlledTerms/DatasetType",
+        "https://openminds.ebrains.eu/controlledTerms/DataType",
+        "https://openminds.ebrains.eu/controlledTerms/DeviceType",
+        "https://openminds.ebrains.eu/controlledTerms/DifferenceMeasure",
         "https://openminds.ebrains.eu/controlledTerms/Disease",
         "https://openminds.ebrains.eu/controlledTerms/DiseaseModel",
+        "https://openminds.ebrains.eu/controlledTerms/EducationalLevel",
+        "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
         "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment",
+        "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach",
         "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping",
+        "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType",
         "https://openminds.ebrains.eu/controlledTerms/FileUsageRole",
-        "https://openminds.ebrains.eu/controlledTerms/Genotype",
+        "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType",
+        "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Handedness",
         "https://openminds.ebrains.eu/controlledTerms/Language",
         "https://openminds.ebrains.eu/controlledTerms/Laterality",
+        "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+        "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
         "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
-        "https://openminds.ebrains.eu/controlledTerms/Modality",
         "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel",
         "https://openminds.ebrains.eu/controlledTerms/ModelScope",
+        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
         "https://openminds.ebrains.eu/controlledTerms/OperatingDevice",
         "https://openminds.ebrains.eu/controlledTerms/OperatingSystem",
+        "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
         "https://openminds.ebrains.eu/controlledTerms/Organ",
-        "https://openminds.ebrains.eu/controlledTerms/Phenotype",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSystem",
+        "https://openminds.ebrains.eu/controlledTerms/PatchClampVariation",
         "https://openminds.ebrains.eu/controlledTerms/PreparationType",
         "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility",
         "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage",
         "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap",
+        "https://openminds.ebrains.eu/controlledTerms/SemanticDataType",
+        "https://openminds.ebrains.eu/controlledTerms/Service",
+        "https://openminds.ebrains.eu/controlledTerms/SetupType",
         "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory",
         "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature",
-        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeatureCategory",
         "https://openminds.ebrains.eu/controlledTerms/Species",
-        "https://openminds.ebrains.eu/controlledTerms/Strain",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/SubjectAttribute",
+        "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
         "https://openminds.ebrains.eu/controlledTerms/Technique",
         "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
         "https://openminds.ebrains.eu/controlledTerms/Terminology",
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleAttribute",
         "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
+        "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty",
+        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
         "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement",
+        "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType",
         "https://openminds.ebrains.eu/core/ContentType",
         "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileBundle",
@@ -14796,26 +14532,6 @@
       ]
     }
   },
-  "nonlinearGradientCorrection": {
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Nonlinear gradient correction",
-    "labelPlural": null,
-    "name": "nonlinearGradientCorrection",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
-  },
   "numberOfElectrodes": {
     "description": null,
     "hasNamespace": [
@@ -14846,48 +14562,6 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/ElectrodeArray"
-      ]
-    }
-  },
-  "numberOfImages": {
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Number of images",
-    "labelPlural": null,
-    "name": "numberOfImages",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack"
-      ]
-    }
-  },
-  "numberOfSlices": {
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Number of slices",
-    "labelPlural": null,
-    "name": "numberOfSlices",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
       ]
     }
   },
@@ -14957,66 +14631,6 @@
       ]
     }
   },
-  "numberOfVolumes": {
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Number of volumes",
-    "labelPlural": null,
-    "name": "numberOfVolumes",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/VolumeSequence"
-      ]
-    }
-  },
-  "numberOfVolumesDiscardedByScanner": {
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Number of volumes discarded by scanner",
-    "labelPlural": null,
-    "name": "numberOfVolumesDiscardedByScanner",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
-  },
-  "numberOfVolumesDiscardedByUser": {
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Number of volumes discarded by user",
-    "labelPlural": null,
-    "name": "numberOfVolumesDiscardedByUser",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
-      ]
-    }
-  },
   "ontologyIdentifier": {
     "asString": {
       "formatting": "text/plain",
@@ -15064,48 +14678,10 @@
         "https://openminds.om-i.org/types/Strain"
       ],
       "v1.0": [
-        "https://openminds.ebrains.eu/controlledTerms/AgeCategory",
-        "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation",
-        "https://openminds.ebrains.eu/controlledTerms/BehavioralTask",
-        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
-        "https://openminds.ebrains.eu/controlledTerms/CellType",
-        "https://openminds.ebrains.eu/controlledTerms/ContributionType",
-        "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType",
-        "https://openminds.ebrains.eu/controlledTerms/DatasetType",
-        "https://openminds.ebrains.eu/controlledTerms/Disease",
-        "https://openminds.ebrains.eu/controlledTerms/DiseaseModel",
-        "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment",
-        "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping",
-        "https://openminds.ebrains.eu/controlledTerms/FileUsageRole",
-        "https://openminds.ebrains.eu/controlledTerms/Genotype",
-        "https://openminds.ebrains.eu/controlledTerms/Language",
-        "https://openminds.ebrains.eu/controlledTerms/Laterality",
-        "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
-        "https://openminds.ebrains.eu/controlledTerms/Modality",
-        "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel",
-        "https://openminds.ebrains.eu/controlledTerms/ModelScope",
-        "https://openminds.ebrains.eu/controlledTerms/OperatingDevice",
-        "https://openminds.ebrains.eu/controlledTerms/OperatingSystem",
-        "https://openminds.ebrains.eu/controlledTerms/Organ",
-        "https://openminds.ebrains.eu/controlledTerms/Phenotype",
-        "https://openminds.ebrains.eu/controlledTerms/PreparationType",
-        "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility",
-        "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage",
-        "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap",
-        "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory",
-        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature",
-        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeatureCategory",
-        "https://openminds.ebrains.eu/controlledTerms/Species",
-        "https://openminds.ebrains.eu/controlledTerms/Strain",
-        "https://openminds.ebrains.eu/controlledTerms/Technique",
-        "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
-        "https://openminds.ebrains.eu/controlledTerms/Terminology",
-        "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
-        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement",
         "https://openminds.ebrains.eu/sands/AnatomicalEntity",
-        "https://openminds.ebrains.eu/sands/AtlasTerminology",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CoordinateSpace"
+        "https://openminds.ebrains.eu/sands/CoordinateSpace",
+        "https://openminds.ebrains.eu/sands/ParcellationTerminology"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/controlledTerms/AgeCategory",
@@ -15690,7 +15266,6 @@
         "https://openminds.om-i.org/types/DataAnalysis",
         "https://openminds.om-i.org/types/DataCopy",
         "https://openminds.om-i.org/types/ElectrodePlacement",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/GenericComputation",
         "https://openminds.om-i.org/types/ModelValidation",
         "https://openminds.om-i.org/types/Optimization",
@@ -15698,7 +15273,6 @@
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
@@ -15928,7 +15502,6 @@
       "latest": [
         "https://openminds.om-i.org/types/Electrode",
         "https://openminds.om-i.org/types/ElectrodeArray",
-        "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/Pipette",
         "https://openminds.om-i.org/types/SlicingDevice"
       ],
@@ -15988,33 +15561,6 @@
       "v4.0": [
         "https://openminds.om-i.org/types/Chapter",
         "https://openminds.om-i.org/types/ScholarlyArticle"
-      ]
-    }
-  },
-  "parallelAcquisitionTechnique": {
-    "asString": {
-      "formatting": "text/plain",
-      "inVersions": [
-        "latest"
-      ],
-      "multiline": false
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Parallel acquisition technique",
-    "labelPlural": null,
-    "name": "parallelAcquisitionTechnique",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
   },
@@ -16290,7 +15836,6 @@
         "https://openminds.om-i.org/types/DataAnalysis",
         "https://openminds.om-i.org/types/DataCopy",
         "https://openminds.om-i.org/types/ElectrodePlacement",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/GenericComputation",
         "https://openminds.om-i.org/types/ModelValidation",
         "https://openminds.om-i.org/types/Optimization",
@@ -16298,7 +15843,6 @@
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
@@ -16334,34 +15878,6 @@
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
-      ]
-    }
-  },
-  "phaseEncodingDirection": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/CartesianDirectionVector"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Phase encoding direction",
-    "labelPlural": null,
-    "name": "phaseEncodingDirection",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
   },
@@ -16529,36 +16045,6 @@
       ]
     }
   },
-  "pixelSize": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Pixel size",
-    "labelPlural": null,
-    "name": "pixelSize",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack"
-      ]
-    }
-  },
   "positiveUncertainties": {
     "description": null,
     "hasNamespace": [
@@ -16647,6 +16133,7 @@
       "formatting": "text/plain",
       "inVersions": [
         "latest",
+        "v1.0",
         "v3.0",
         "v4.0"
       ],
@@ -16663,7 +16150,8 @@
       },
       {
         "inVersions": [
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -16755,6 +16243,88 @@
         "https://openminds.om-i.org/types/UBERONParcellation",
         "https://openminds.om-i.org/types/UnitOfMeasurement",
         "https://openminds.om-i.org/types/VisualStimulusType"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/controlledTerms/ActionStatusType",
+        "https://openminds.ebrains.eu/controlledTerms/AgeCategory",
+        "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalIdentificationType",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalPlane",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationCriteriaType",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationType",
+        "https://openminds.ebrains.eu/controlledTerms/AtlasType",
+        "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalOrder",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalProcess",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
+        "https://openminds.ebrains.eu/controlledTerms/BreedingType",
+        "https://openminds.ebrains.eu/controlledTerms/CellCultureType",
+        "https://openminds.ebrains.eu/controlledTerms/CellType",
+        "https://openminds.ebrains.eu/controlledTerms/ChemicalMixtureType",
+        "https://openminds.ebrains.eu/controlledTerms/Colormap",
+        "https://openminds.ebrains.eu/controlledTerms/ContributionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowConstructionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowReinforcementType",
+        "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType",
+        "https://openminds.ebrains.eu/controlledTerms/DataType",
+        "https://openminds.ebrains.eu/controlledTerms/DeviceType",
+        "https://openminds.ebrains.eu/controlledTerms/DifferenceMeasure",
+        "https://openminds.ebrains.eu/controlledTerms/Disease",
+        "https://openminds.ebrains.eu/controlledTerms/DiseaseModel",
+        "https://openminds.ebrains.eu/controlledTerms/EducationalLevel",
+        "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment",
+        "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach",
+        "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping",
+        "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType",
+        "https://openminds.ebrains.eu/controlledTerms/FileUsageRole",
+        "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType",
+        "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Handedness",
+        "https://openminds.ebrains.eu/controlledTerms/Language",
+        "https://openminds.ebrains.eu/controlledTerms/Laterality",
+        "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+        "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
+        "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
+        "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel",
+        "https://openminds.ebrains.eu/controlledTerms/ModelScope",
+        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/OperatingDevice",
+        "https://openminds.ebrains.eu/controlledTerms/OperatingSystem",
+        "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Organ",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSystem",
+        "https://openminds.ebrains.eu/controlledTerms/PatchClampVariation",
+        "https://openminds.ebrains.eu/controlledTerms/PreparationType",
+        "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility",
+        "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage",
+        "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap",
+        "https://openminds.ebrains.eu/controlledTerms/SemanticDataType",
+        "https://openminds.ebrains.eu/controlledTerms/Service",
+        "https://openminds.ebrains.eu/controlledTerms/SetupType",
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory",
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature",
+        "https://openminds.ebrains.eu/controlledTerms/Species",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/SubjectAttribute",
+        "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Technique",
+        "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
+        "https://openminds.ebrains.eu/controlledTerms/Terminology",
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleAttribute",
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
+        "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty",
+        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement",
+        "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/controlledTerms/ActionStatusType",
@@ -17011,11 +16581,9 @@
         "https://openminds.om-i.org/types/CranialWindowPreparation",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/ElectrodePlacement",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/ProtocolExecution",
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing"
       ],
@@ -17464,11 +17032,9 @@
         "https://openminds.om-i.org/types/CranialWindowPreparation",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/ElectrodePlacement",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/ProtocolExecution",
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing"
       ],
@@ -17664,34 +17230,6 @@
         "https://openminds.om-i.org/types/Chapter",
         "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/ScholarlyArticle"
-      ]
-    }
-  },
-  "pulseSequenceType": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/MRIPulseSequence"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Pulse sequence type",
-    "labelPlural": null,
-    "name": "pulseSequenceType",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
   },
@@ -17901,34 +17439,6 @@
       ]
     }
   },
-  "radiofrequencyCoilType": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/MRIRadiofrequencyCoilType"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Radiofrequency coil type",
-    "labelPlural": null,
-    "name": "radiofrequencyCoilType",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
-  },
   "radius": {
     "asEdge": {
       "canPointTo": {
@@ -18050,7 +17560,6 @@
         "latest": [
           "https://openminds.om-i.org/types/ElectrodeArrayUsage",
           "https://openminds.om-i.org/types/ElectrodeUsage",
-          "https://openminds.om-i.org/types/MRIScannerUsage",
           "https://openminds.om-i.org/types/PipetteUsage",
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
         ],
@@ -18303,14 +17812,6 @@
     }
   },
   "relatedAtlasTerm": {
-    "asEdge": {
-      "canPointTo": {
-        "v1.0": [
-          "https://openminds.ebrains.eu/sands/AnatomicalEntity"
-        ]
-      },
-      "nameForReverseLink": null
-    },
     "description": "Reference to a related naming term of an anatomical structure that is defined in a particular brain atlas.",
     "hasNamespace": [
       {
@@ -18324,11 +17825,7 @@
     "labelPlural": "Related atlas terms",
     "name": "relatedAtlasTerm",
     "namePlural": "relatedAtlasTerms",
-    "usedIn": {
-      "v1.0": [
-        "https://openminds.ebrains.eu/sands/Annotation"
-      ]
-    }
+    "usedIn": {}
   },
   "relatedMediaType": {
     "asString": {
@@ -18379,6 +17876,34 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/ContentType"
+      ]
+    }
+  },
+  "relatedParcellationTerm": {
+    "asEdge": {
+      "canPointTo": {
+        "v1.0": [
+          "https://openminds.ebrains.eu/sands/AnatomicalEntity"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "v1.0"
+        ],
+        "namespace": "https://openminds.ebrains.eu/vocab/"
+      }
+    ],
+    "label": "Related parcellation term",
+    "labelPlural": null,
+    "name": "relatedParcellationTerm",
+    "namePlural": null,
+    "usedIn": {
+      "v1.0": [
+        "https://openminds.ebrains.eu/sands/Annotation"
       ]
     }
   },
@@ -18500,7 +18025,8 @@
     "asEdge": {
       "canPointTo": {
         "v1.0": [
-          "https://openminds.ebrains.eu/core/FileInstance"
+          "https://openminds.ebrains.eu/core/File",
+          "https://openminds.ebrains.eu/core/FileBundle"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/File",
@@ -18536,7 +18062,8 @@
     "asEdge": {
       "canPointTo": {
         "v1.0": [
-          "https://openminds.ebrains.eu/core/FileInstance"
+          "https://openminds.ebrains.eu/core/File",
+          "https://openminds.ebrains.eu/core/FileBundle"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/core/File",
@@ -18914,34 +18441,6 @@
       ]
     }
   },
-  "repetitionTime": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Repetition time",
-    "labelPlural": null,
-    "name": "repetitionTime",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
-  },
   "repository": {
     "asEdge": {
       "canPointTo": {
@@ -19285,34 +18784,6 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/Recording"
-      ]
-    }
-  },
-  "sbref": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/File"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Sbref",
-    "labelPlural": null,
-    "name": "sbref",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
       ]
     }
   },
@@ -19664,7 +19135,6 @@
       "latest": [
         "https://openminds.om-i.org/types/Electrode",
         "https://openminds.om-i.org/types/ElectrodeArray",
-        "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/Pipette",
         "https://openminds.om-i.org/types/SlicingDevice"
       ],
@@ -19971,10 +19441,10 @@
         "https://openminds.ebrains.eu/core/Project",
         "https://openminds.ebrains.eu/core/Software",
         "https://openminds.ebrains.eu/core/SoftwareVersion",
-        "https://openminds.ebrains.eu/sands/AtlasTerminology",
         "https://openminds.ebrains.eu/sands/BrainAtlas",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CoordinateSpace"
+        "https://openminds.ebrains.eu/sands/CoordinateSpace",
+        "https://openminds.ebrains.eu/sands/ParcellationTerminology"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/core/Dataset",
@@ -20047,34 +19517,6 @@
       ]
     }
   },
-  "sliceOrder": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValueArray"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Slice order",
-    "labelPlural": null,
-    "name": "sliceOrder",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
-  },
   "sliceThickness": {
     "asEdge": {
       "canPointTo": {
@@ -20115,7 +19557,6 @@
     "namePlural": "sliceThicknesses",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/ImageStack",
         "https://openminds.om-i.org/types/SlicingDeviceUsage"
       ],
       "v3.0": [
@@ -20123,34 +19564,6 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/SlicingDeviceUsage"
-      ]
-    }
-  },
-  "sliceTiming": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValueArray"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Slice timing",
-    "labelPlural": null,
-    "name": "sliceTiming",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
   },
@@ -20786,55 +20199,6 @@
       ]
     }
   },
-  "specimenOrientation": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/AnatomicalAxesOrientation"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Specimen orientation",
-    "labelPlural": null,
-    "name": "specimenOrientation",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition"
-      ]
-    }
-  },
-  "spoilingState": {
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Spoiling state",
-    "labelPlural": null,
-    "name": "spoilingState",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
-  },
   "stage": {
     "asEdge": {
       "canPointTo": {
@@ -21036,7 +20400,6 @@
         "https://openminds.om-i.org/types/DataAnalysis",
         "https://openminds.om-i.org/types/DataCopy",
         "https://openminds.om-i.org/types/ElectrodePlacement",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/GenericComputation",
         "https://openminds.om-i.org/types/ModelValidation",
         "https://openminds.om-i.org/types/Optimization",
@@ -21044,7 +20407,6 @@
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
@@ -21573,34 +20935,6 @@
       ]
     }
   },
-  "structuralMRI": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/File"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Structural mri",
-    "labelPlural": null,
-    "name": "structuralMRI",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
-      ]
-    }
-  },
   "structurePattern": {
     "asEdge": {
       "canPointTo": {
@@ -21825,6 +21159,34 @@
   "studyOption": {
     "asEdge": {
       "canPointTo": {
+        "v1.0": [
+          "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
+          "https://openminds.ebrains.eu/controlledTerms/BiologicalOrder",
+          "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
+          "https://openminds.ebrains.eu/controlledTerms/BreedingType",
+          "https://openminds.ebrains.eu/controlledTerms/CellCultureType",
+          "https://openminds.ebrains.eu/controlledTerms/CellType",
+          "https://openminds.ebrains.eu/controlledTerms/Disease",
+          "https://openminds.ebrains.eu/controlledTerms/DiseaseModel",
+          "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
+          "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType",
+          "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
+          "https://openminds.ebrains.eu/controlledTerms/Handedness",
+          "https://openminds.ebrains.eu/controlledTerms/MolecularEntity",
+          "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
+          "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
+          "https://openminds.ebrains.eu/controlledTerms/Organ",
+          "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
+          "https://openminds.ebrains.eu/controlledTerms/OrganismSystem",
+          "https://openminds.ebrains.eu/controlledTerms/Species",
+          "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
+          "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
+          "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
+          "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
+          "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
+          "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType",
+          "https://openminds.ebrains.eu/sands/AnatomicalEntity"
+        ],
         "v2.0": [
           "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
           "https://openminds.ebrains.eu/controlledTerms/CellType",
@@ -21897,6 +21259,34 @@
           "https://openminds.om-i.org/types/TissueSampleType",
           "https://openminds.om-i.org/types/UBERONParcellation",
           "https://openminds.om-i.org/types/VisualStimulusType"
+        ],
+        "v1.0": [
+          "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
+          "https://openminds.ebrains.eu/controlledTerms/BiologicalOrder",
+          "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
+          "https://openminds.ebrains.eu/controlledTerms/BreedingType",
+          "https://openminds.ebrains.eu/controlledTerms/CellCultureType",
+          "https://openminds.ebrains.eu/controlledTerms/CellType",
+          "https://openminds.ebrains.eu/controlledTerms/Disease",
+          "https://openminds.ebrains.eu/controlledTerms/DiseaseModel",
+          "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
+          "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType",
+          "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
+          "https://openminds.ebrains.eu/controlledTerms/Handedness",
+          "https://openminds.ebrains.eu/controlledTerms/MolecularEntity",
+          "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
+          "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
+          "https://openminds.ebrains.eu/controlledTerms/Organ",
+          "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
+          "https://openminds.ebrains.eu/controlledTerms/OrganismSystem",
+          "https://openminds.ebrains.eu/controlledTerms/Species",
+          "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
+          "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
+          "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
+          "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
+          "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
+          "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType",
+          "https://openminds.ebrains.eu/sands/AnatomicalEntity"
         ],
         "v2.0": [
           "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
@@ -22004,7 +21394,6 @@
         "https://openminds.om-i.org/types/DataCopy",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/ElectrodePlacement",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/GenericComputation",
         "https://openminds.om-i.org/types/Model",
         "https://openminds.om-i.org/types/ModelValidation",
@@ -22013,7 +21402,6 @@
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/ValidationTest",
@@ -22072,6 +21460,7 @@
       "formatting": "text/plain",
       "inVersions": [
         "latest",
+        "v1.0",
         "v2.0",
         "v3.0",
         "v4.0"
@@ -22090,7 +21479,8 @@
       {
         "inVersions": [
           "v2.0",
-          "v3.0"
+          "v3.0",
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
@@ -22102,6 +21492,9 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/TermSuggestion"
+      ],
+      "v1.0": [
+        "https://openminds.ebrains.eu/controlledTerms/TermSuggestion"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/controlledTerms/TermSuggestion"
@@ -22320,6 +21713,86 @@
         "https://openminds.om-i.org/types/VisualStimulusType"
       ],
       "v1.0": [
+        "https://openminds.ebrains.eu/controlledTerms/ActionStatusType",
+        "https://openminds.ebrains.eu/controlledTerms/AgeCategory",
+        "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalIdentificationType",
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalPlane",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationCriteriaType",
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationType",
+        "https://openminds.ebrains.eu/controlledTerms/AtlasType",
+        "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalOrder",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalProcess",
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
+        "https://openminds.ebrains.eu/controlledTerms/BreedingType",
+        "https://openminds.ebrains.eu/controlledTerms/CellCultureType",
+        "https://openminds.ebrains.eu/controlledTerms/CellType",
+        "https://openminds.ebrains.eu/controlledTerms/ChemicalMixtureType",
+        "https://openminds.ebrains.eu/controlledTerms/Colormap",
+        "https://openminds.ebrains.eu/controlledTerms/ContributionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowConstructionType",
+        "https://openminds.ebrains.eu/controlledTerms/CranialWindowReinforcementType",
+        "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType",
+        "https://openminds.ebrains.eu/controlledTerms/DataType",
+        "https://openminds.ebrains.eu/controlledTerms/DeviceType",
+        "https://openminds.ebrains.eu/controlledTerms/DifferenceMeasure",
+        "https://openminds.ebrains.eu/controlledTerms/Disease",
+        "https://openminds.ebrains.eu/controlledTerms/DiseaseModel",
+        "https://openminds.ebrains.eu/controlledTerms/EducationalLevel",
+        "https://openminds.ebrains.eu/controlledTerms/ElectricalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment",
+        "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach",
+        "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping",
+        "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType",
+        "https://openminds.ebrains.eu/controlledTerms/FileUsageRole",
+        "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType",
+        "https://openminds.ebrains.eu/controlledTerms/GustatoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Handedness",
+        "https://openminds.ebrains.eu/controlledTerms/Language",
+        "https://openminds.ebrains.eu/controlledTerms/Laterality",
+        "https://openminds.ebrains.eu/controlledTerms/LearningResourceType",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+        "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity",
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredSignalType",
+        "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType",
+        "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel",
+        "https://openminds.ebrains.eu/controlledTerms/ModelScope",
+        "https://openminds.ebrains.eu/controlledTerms/MolecularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/OlfactoryStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/OperatingDevice",
+        "https://openminds.ebrains.eu/controlledTerms/OperatingSystem",
+        "https://openminds.ebrains.eu/controlledTerms/OpticalStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Organ",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSystem",
+        "https://openminds.ebrains.eu/controlledTerms/PatchClampVariation",
+        "https://openminds.ebrains.eu/controlledTerms/PreparationType",
+        "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility",
+        "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage",
+        "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap",
+        "https://openminds.ebrains.eu/controlledTerms/SemanticDataType",
+        "https://openminds.ebrains.eu/controlledTerms/Service",
+        "https://openminds.ebrains.eu/controlledTerms/SetupType",
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory",
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature",
+        "https://openminds.ebrains.eu/controlledTerms/Species",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
+        "https://openminds.ebrains.eu/controlledTerms/SubjectAttribute",
+        "https://openminds.ebrains.eu/controlledTerms/TactileStimulusType",
+        "https://openminds.ebrains.eu/controlledTerms/Technique",
+        "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
+        "https://openminds.ebrains.eu/controlledTerms/Terminology",
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleAttribute",
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleType",
+        "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty",
+        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement",
+        "https://openminds.ebrains.eu/controlledTerms/VisualStimulusType",
         "https://openminds.ebrains.eu/core/ContentType"
       ],
       "v2.0": [
@@ -22799,41 +22272,11 @@
       ]
     }
   },
-  "temporalResolution": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Temporal resolution",
-    "labelPlural": null,
-    "name": "temporalResolution",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/VolumeSequence"
-      ]
-    }
-  },
   "terminology": {
     "asEdge": {
       "canPointTo": {
         "v1.0": [
-          "https://openminds.ebrains.eu/controlledTerms/Terminology",
-          "https://openminds.ebrains.eu/sands/AtlasTerminology"
+          "https://openminds.ebrains.eu/sands/ParcellationTerminology"
         ]
       },
       "nameForReverseLink": null
@@ -22853,7 +22296,6 @@
     "namePlural": "terminologies",
     "usedIn": {
       "v1.0": [
-        "https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
       ]
     }
@@ -23460,7 +22902,6 @@
         "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
         "https://openminds.om-i.org/types/ElectrodeArrayUsage",
         "https://openminds.om-i.org/types/ElectrodeUsage",
-        "https://openminds.om-i.org/types/MRIScannerUsage",
         "https://openminds.om-i.org/types/PipetteUsage",
         "https://openminds.om-i.org/types/SlicingDeviceUsage"
       ],
@@ -24074,41 +23515,9 @@
       ]
     }
   },
-  "volumeTiming": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValueArray"
-        ]
-      },
-      "nameForReverseLink": null
-    },
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      }
-    ],
-    "label": "Volume timing",
-    "labelPlural": null,
-    "name": "volumeTiming",
-    "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
-      ]
-    }
-  },
   "voxelSize": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue",
-          "https://openminds.om-i.org/types/QuantitativeValueArray"
-        ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue"
         ]
@@ -24117,12 +23526,6 @@
     },
     "description": "Extent of the discrete elements comprising a three-dimensional entity.",
     "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/props/"
-      },
       {
         "inVersions": [
           "v1.0"
@@ -24135,11 +23538,6 @@
     "name": "voxelSize",
     "namePlural": "voxelSizes",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
-      ],
       "v1.0": [
         "https://openminds.ebrains.eu/sands/Image"
       ]
