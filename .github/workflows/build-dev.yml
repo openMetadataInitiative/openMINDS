@@ -46,11 +46,15 @@ jobs:
       run: |
         cp -R target/* development
         cd development
-        git config --global user.email "openminds@ebrains.eu"
+        git config --global user.email "support@openmetadatainitiative.org"
         git config --global user.name "openMINDS pipeline"
         if [[ $(git add -A --dry-run | wc -l) -gt 0 ]]; then
             git add -A
-            git commit -m "build triggered by submodule ${{ inputs.repository }} version ${{ inputs.branch }}"
+            if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+              git commit -m "build triggered by submodule ${{ inputs.repository }} version ${{ inputs.branch }}"
+            else
+              git commit -m "build triggered by ${{ github.event_name }}"
+            fi
             git push -f
         else
             echo "Nothing to commit"
