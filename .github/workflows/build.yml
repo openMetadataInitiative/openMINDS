@@ -49,6 +49,7 @@ jobs:
         git config --global user.email "support@openmetadatainitiative.org"
         git config --global user.name "openMINDS pipeline"
         if [[ $(git add -A --dry-run | wc -l) -gt 0 ]]; then
+            git add -u
             git add -A
             if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
               git commit -m "build triggered by submodule ${{ inputs.repository }} version ${{ inputs.branch }}"
