@@ -8,6 +8,9 @@
   "name": "EphysStimulus",
   "properties": {
     "https://openminds.ebrains.eu/vocab/deliveredBy": {
+      "_belongsToCategory": [
+        "deviceUsage"
+      ],
       "_instruction": "Add the device used to deliver this stimulus.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
@@ -42,6 +45,9 @@
       "nameForReverseLink": null
     },
     "https://openminds.ebrains.eu/vocab/generatedBy": {
+      "_belongsToCategory": [
+        "deviceUsage"
+      ],
       "_instruction": "Add the device used to generate this stimulus.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",

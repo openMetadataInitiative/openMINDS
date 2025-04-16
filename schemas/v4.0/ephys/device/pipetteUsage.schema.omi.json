@@ -9,6 +9,9 @@
   "name": "PipetteUsage",
   "properties": {
     "https://openminds.om-i.org/props/anatomicalLocation": {
+      "_belongsToCategory": [
+        "anatomicalLocation"
+      ],
       "_instruction": "Add the anatomical entity that semantically best describes the anatomical location of the pipette tip.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/CellType",

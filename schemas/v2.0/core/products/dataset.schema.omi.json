@@ -7,6 +7,9 @@
   "name": "Dataset",
   "properties": {
     "https://openminds.ebrains.eu/vocab/author": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this dataset.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Organization",
@@ -23,6 +26,9 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/custodian": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add one or several custodians (person or organization) that are responsible for this research product. Note that this custodian will be responsible for all attached research product versions.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Organization",

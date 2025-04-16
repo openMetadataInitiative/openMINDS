@@ -53,6 +53,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/manufacturer": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add the manufacturer (private or industrial) that constructed this device.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Consortium",
@@ -80,6 +83,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/owner": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add all parties that legally own this device.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Consortium",

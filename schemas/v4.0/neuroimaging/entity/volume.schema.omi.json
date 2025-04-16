@@ -16,6 +16,9 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/capturedWith": {
+      "_belongsToCategory": [
+        "deviceUsage"
+      ],
       "_instruction": "Add the device used to capture this volume.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/ElectrodeArrayUsage",

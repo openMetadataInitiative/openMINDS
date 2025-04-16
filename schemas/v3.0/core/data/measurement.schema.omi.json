@@ -29,6 +29,9 @@
       "namePlural": "measuredQuantities"
     },
     "https://openminds.ebrains.eu/vocab/measuredWith": {
+      "_belongsToCategory": [
+        "deviceUsage"
+      ],
       "_instruction": "Add the device that was used during this measurement.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",

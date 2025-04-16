@@ -74,6 +74,9 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/fieldOfView": {
+      "_belongsToCategory": [
+        "mathematicalShapes"
+      ],
       "_instruction": "Add the field of view of this image.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/Circle",

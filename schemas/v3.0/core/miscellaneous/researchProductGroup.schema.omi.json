@@ -16,6 +16,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/hasPart": {
+      "_belongsToCategory": [
+        "researchProduct"
+      ],
       "_instruction": "Add all research products (research product versions) that should be grouped under the given 'context'.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/computation/ValidationTest",

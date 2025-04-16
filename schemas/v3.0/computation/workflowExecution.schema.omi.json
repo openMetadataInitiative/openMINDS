@@ -30,6 +30,9 @@
       "namePlural": "recipes"
     },
     "https://openminds.ebrains.eu/vocab/stage": {
+      "_belongsToCategory": [
+        "computationalActivity"
+      ],
       "_instruction": "Add all stages that were performed in this workflow execution.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/computation/DataAnalysis",
@@ -50,6 +53,9 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/startedBy": {
+      "_belongsToCategory": [
+        "agent"
+      ],
       "_instruction": "Add the agent that started this workflow execution.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/computation/SoftwareAgent",

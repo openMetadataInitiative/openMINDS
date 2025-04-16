@@ -118,6 +118,9 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/performedBy": {
+      "_belongsToCategory": [
+        "agent"
+      ],
       "_instruction": "Add all agents that performed this activity.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/computation/SoftwareAgent",
@@ -173,6 +176,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/startedBy": {
+      "_belongsToCategory": [
+        "agent"
+      ],
       "_instruction": "Add the agent that started this computation.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/computation/SoftwareAgent",
@@ -196,6 +202,9 @@
       "namePlural": "statuses"
     },
     "https://openminds.ebrains.eu/vocab/studyTarget": {
+      "_belongsToCategory": [
+        "studyTarget"
+      ],
       "_instruction": "Add all study targets of this activity.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
@@ -268,6 +277,9 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/wasInformedBy": {
+      "_belongsToCategory": [
+        "computationalActivity"
+      ],
       "_instruction": "Add another computation that sent data to this one during runtime.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/computation/DataAnalysis",

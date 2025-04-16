@@ -20,6 +20,9 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/hasPart": {
+      "_belongsToCategory": [
+        "setupComponent"
+      ],
       "_instruction": "Add all components, including other setups, that are part of this setup. Note that a setup should not be only composed of software.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/Setup",
@@ -50,6 +53,9 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/manufacturer": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add the manufacturer (private or industrial) that constructed this setup.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/Consortium",

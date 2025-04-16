@@ -7,6 +7,9 @@
   "name": "Contribution",
   "properties": {
     "https://openminds.om-i.org/props/contributor": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add all types of contribution made by the stated 'contributor'.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/Consortium",

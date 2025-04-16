@@ -62,6 +62,9 @@
       "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/manufacturer": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add the manufacturer (private or industrial) that constructed this device.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/Consortium",
@@ -89,6 +92,9 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/owner": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add all parties that legally own this device.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/Consortium",

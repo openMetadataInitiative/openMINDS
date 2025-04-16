@@ -74,6 +74,9 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/stimulusType": {
+      "_belongsToCategory": [
+        "stimulusType"
+      ],
       "_instruction": "Add all stimulus types used within this behavioral protocol.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/AuditoryStimulusType",

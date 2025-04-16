@@ -7,6 +7,9 @@
   "name": "Project",
   "properties": {
     "https://openminds.ebrains.eu/vocab/coordinator": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add one or several project coordinators (person or organization).",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Organization",

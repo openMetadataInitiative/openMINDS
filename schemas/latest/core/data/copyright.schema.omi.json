@@ -7,6 +7,9 @@
   "name": "Copyright",
   "properties": {
     "https://openminds.om-i.org/props/holder": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add all parties that hold this copyright.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/Consortium",

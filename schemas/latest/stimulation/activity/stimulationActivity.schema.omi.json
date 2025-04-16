@@ -104,6 +104,9 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/performedBy": {
+      "_belongsToCategory": [
+        "agent"
+      ],
       "_instruction": "Add all agents that performed this activity.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/SoftwareAgent",
@@ -170,6 +173,9 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/stimulus": {
+      "_belongsToCategory": [
+        "stimulus"
+      ],
       "_instruction": "Add all stimuli used during this activity.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/EphysStimulus"
@@ -184,6 +190,9 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/studyTarget": {
+      "_belongsToCategory": [
+        "studyTarget"
+      ],
       "_instruction": "Add all study targets of this activity.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/AuditoryStimulusType",

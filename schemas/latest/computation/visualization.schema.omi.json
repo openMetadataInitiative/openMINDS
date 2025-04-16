@@ -118,6 +118,9 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/performedBy": {
+      "_belongsToCategory": [
+        "agent"
+      ],
       "_instruction": "Add all agents that performed this activity.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/SoftwareAgent",
@@ -173,6 +176,9 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/startedBy": {
+      "_belongsToCategory": [
+        "agent"
+      ],
       "_instruction": "Add the agent that started this computation.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/SoftwareAgent",
@@ -196,6 +202,9 @@
       "namePlural": "statuses"
     },
     "https://openminds.om-i.org/props/studyTarget": {
+      "_belongsToCategory": [
+        "studyTarget"
+      ],
       "_instruction": "Add all study targets of this activity.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/AuditoryStimulusType",
@@ -268,6 +277,9 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/wasInformedBy": {
+      "_belongsToCategory": [
+        "computationalActivity"
+      ],
       "_instruction": "Add another computation that sent data to this one during runtime.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/DataAnalysis",

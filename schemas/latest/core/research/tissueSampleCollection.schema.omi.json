@@ -20,6 +20,9 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/anatomicalLocation": {
+      "_belongsToCategory": [
+        "anatomicalLocation"
+      ],
       "_instruction": "Add all anatomical entities that describe the anatomical location of this tissue sample collection.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/CellType",

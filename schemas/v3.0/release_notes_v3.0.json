@@ -361,6 +361,7 @@
       "addedAttributes": [
         "properties.props:contentDescription",
         "properties.props:groupingType",
+        "properties.props:groupedBy._belongsToCategory",
         "properties.props:groupedBy.minItems",
         "properties.props:groupedBy.type",
         "properties.props:groupedBy.uniqueItems"
@@ -606,8 +607,11 @@
         "properties.props:homepage.formatting",
         "properties.props:homepage.multiline",
         "properties.props:homepage.type",
+        "properties.props:keyword._belongsToCategory",
         "properties.props:keyword._linkedTypes",
-        "properties.props:keyword.nameForReverseLink"
+        "properties.props:keyword.nameForReverseLink",
+        "properties.props:relatedPublication._belongsToCategory",
+        "properties.props:technique._belongsToCategory"
       ],
       "removedAttributes": [
         "properties.props:behavioralTask",
@@ -766,8 +770,10 @@
         "properties.props:homepage.formatting",
         "properties.props:homepage.multiline",
         "properties.props:homepage.type",
+        "properties.props:keyword._belongsToCategory",
         "properties.props:keyword._linkedTypes",
-        "properties.props:keyword.nameForReverseLink"
+        "properties.props:keyword.nameForReverseLink",
+        "properties.props:relatedPublication._belongsToCategory"
       ],
       "removedAttributes": [
         "properties.props:description.maxLength",
@@ -918,8 +924,10 @@
         "properties.props:homepage.formatting",
         "properties.props:homepage.multiline",
         "properties.props:homepage.type",
+        "properties.props:keyword._belongsToCategory",
         "properties.props:keyword._linkedTypes",
-        "properties.props:keyword.nameForReverseLink"
+        "properties.props:keyword.nameForReverseLink",
+        "properties.props:relatedPublication._belongsToCategory"
       ],
       "removedAttributes": [
         "properties.props:description.maxLength",
@@ -1116,8 +1124,10 @@
         "properties.props:homepage.formatting",
         "properties.props:homepage.multiline",
         "properties.props:homepage.type",
+        "properties.props:keyword._belongsToCategory",
         "properties.props:keyword._linkedTypes",
-        "properties.props:keyword.nameForReverseLink"
+        "properties.props:keyword.nameForReverseLink",
+        "properties.props:relatedPublication._belongsToCategory"
       ],
       "removedAttributes": [
         "properties.props:hasComponent",
@@ -1217,7 +1227,8 @@
       "file": "core/research/protocol.schema.omi.json",
       "addedAttributes": [
         "properties.props:describedIn",
-        "properties.props:stimulusType"
+        "properties.props:stimulusType",
+        "properties.props:technique._belongsToCategory"
       ],
       "removedAttributes": [
         "properties.props:studyOption"
@@ -1399,7 +1410,8 @@
     {
       "file": "core/research/tissueSample.schema.omi.json",
       "addedAttributes": [
-        "_categories"
+        "_categories",
+        "properties.props:anatomicalLocation._belongsToCategory"
       ],
       "removedAttributes": [
         "properties.props:phenotype",

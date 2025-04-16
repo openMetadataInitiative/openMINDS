@@ -9,6 +9,9 @@
   "name": "ElectrodeArrayUsage",
   "properties": {
     "https://openminds.ebrains.eu/vocab/anatomicalLocationOfArray": {
+      "_belongsToCategory": [
+        "anatomicalLocation"
+      ],
       "_instruction": "Add all anatomical entities that semantically best describe the overall anatomical location of the electrode array.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/CellType",
@@ -30,6 +33,9 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/anatomicalLocationOfElectrodes": {
+      "_belongsToCategory": [
+        "anatomicalLocation"
+      ],
       "_instruction": "Add all anatomical entities that semantically best describe the anatomical location of each electrode contact of this array during its use, in the same order that the electrode identifiers for this electrode array have been specified.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/CellType",

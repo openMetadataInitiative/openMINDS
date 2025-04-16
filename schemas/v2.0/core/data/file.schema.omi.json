@@ -35,6 +35,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/descendedFrom": {
+      "_belongsToCategory": [
+        "fileOrigin"
+      ],
       "_instruction": "Add all entities that played a role in the production of this single file.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",

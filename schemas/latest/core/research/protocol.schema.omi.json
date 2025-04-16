@@ -42,6 +42,9 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/stimulusType": {
+      "_belongsToCategory": [
+        "stimulusType"
+      ],
       "_instruction": "Add all stimulus types used with this protocol.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/AuditoryStimulusType",
@@ -62,6 +65,9 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/technique": {
+      "_belongsToCategory": [
+        "technique"
+      ],
       "_instruction": "Add all techniques (including stimulation approaches and/or techniques) that were used in this protocol.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/AnalysisTechnique",

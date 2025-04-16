@@ -40,6 +40,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/funder": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add the organization that provided this funding.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Organization",
