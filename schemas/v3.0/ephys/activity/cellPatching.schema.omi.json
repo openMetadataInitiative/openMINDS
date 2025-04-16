@@ -43,6 +43,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/device": {
+      "_belongsToCategory": [
+        "deviceUsage"
+      ],
       "_instruction": "Add all patch pipettes placed during this activity.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
@@ -129,6 +132,9 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/performedBy": {
+      "_belongsToCategory": [
+        "agent"
+      ],
       "_instruction": "Add all agents that performed this activity.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/computation/SoftwareAgent",
@@ -184,6 +190,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/studyTarget": {
+      "_belongsToCategory": [
+        "studyTarget"
+      ],
       "_instruction": "Add all study targets of this activity.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",

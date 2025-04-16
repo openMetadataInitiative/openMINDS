@@ -22,6 +22,9 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/contributor": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add the contributing person or organization.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Organization",

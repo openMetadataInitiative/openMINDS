@@ -16,6 +16,9 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/anatomicalTarget": {
+      "_belongsToCategory": [
+        "anatomicalLocation"
+      ],
       "_instruction": "Add all anatomical entities that describe the target position(s).",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/CellType",

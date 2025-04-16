@@ -122,6 +122,9 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/studyTarget": {
+      "_belongsToCategory": [
+        "studyTarget"
+      ],
       "_instruction": "Add all study targets of this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",

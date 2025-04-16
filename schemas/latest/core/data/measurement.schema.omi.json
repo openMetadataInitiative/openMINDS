@@ -29,6 +29,9 @@
       "namePlural": "measuredQuantities"
     },
     "https://openminds.om-i.org/props/measuredWith": {
+      "_belongsToCategory": [
+        "deviceUsage"
+      ],
       "_instruction": "Add the device that was used during this measurement.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/ElectrodeArrayUsage",

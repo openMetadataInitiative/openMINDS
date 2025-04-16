@@ -16,6 +16,9 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/hasPart": {
+      "_belongsToCategory": [
+        "researchProduct"
+      ],
       "_instruction": "Add all research products (research product versions) that should be grouped under the given 'context'.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/ValidationTest",

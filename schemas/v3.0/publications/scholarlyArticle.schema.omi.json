@@ -32,6 +32,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/author": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add all parties that contributed to this creative work as authors.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Consortium",
@@ -89,6 +92,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/custodian": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add all parties that fulfill the role of a custodian for this creative work (e.g., a corresponding author). Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the creative work.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Consortium",
@@ -160,6 +166,9 @@
       "namePlural": "isPartOf"
     },
     "https://openminds.ebrains.eu/vocab/keyword": {
+      "_belongsToCategory": [
+        "keyword"
+      ],
       "_instruction": "Add all relevant keywords to this creative work either by adding controlled terms or by suggesting new terms.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/ActionStatusType",
@@ -311,6 +320,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/publisher": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add the party (private or commercial) that published this creative work.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Consortium",

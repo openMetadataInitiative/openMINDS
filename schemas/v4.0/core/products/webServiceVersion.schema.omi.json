@@ -33,6 +33,9 @@
       "namePlural": "copyrights"
     },
     "https://openminds.om-i.org/props/custodian": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add all parties that fulfill the role of a custodian for the research product version (e.g., a research group leader or principle investigator). Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the data, metadata, and/or code of the research product version.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/Consortium",
@@ -61,6 +64,9 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/developer": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add all parties that developed this web service version. Note that these developers will overwrite the developer list provided for the overarching web service.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/Consortium",
@@ -200,6 +206,9 @@
       "namePlural": "isNewVersionOf"
     },
     "https://openminds.om-i.org/props/keyword": {
+      "_belongsToCategory": [
+        "keyword"
+      ],
       "_instruction": "Add all relevant keywords to this research product version either by adding controlled terms or by suggesting new terms.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/ActionStatusType",
@@ -324,6 +333,9 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/relatedPublication": {
+      "_belongsToCategory": [
+        "publicationReference"
+      ],
       "_instruction": "Add all further publications besides the full documentation that provide the original context for the production of this research product version (e.g., an original research article that used or produced the data of this research product version).",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/DOI",

@@ -10,6 +10,9 @@
   "name": "TissueSample",
   "properties": {
     "https://openminds.om-i.org/props/anatomicalLocation": {
+      "_belongsToCategory": [
+        "anatomicalLocation"
+      ],
       "_instruction": "Add all anatomical entities that describe the anatomical location of this tissue sample.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/CellType",

@@ -7,6 +7,9 @@
   "name": "Comment",
   "properties": {
     "https://openminds.ebrains.eu/vocab/about": {
+      "_belongsToCategory": [
+        "researchProduct"
+      ],
       "_instruction": "Add the research product (version) that this comment is about.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/computation/ValidationTest",

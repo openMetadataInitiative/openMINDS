@@ -40,6 +40,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/provider": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add the party (private, commercial or industrial) that provided this product.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Consortium",

@@ -7,6 +7,9 @@
   "name": "Project",
   "properties": {
     "https://openminds.ebrains.eu/vocab/coordinator": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add all parties that coordinate this project.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Consortium",
@@ -46,6 +49,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/hasPart": {
+      "_belongsToCategory": [
+        "researchProduct"
+      ],
       "_instruction": "Add all research product (versions) that are part of this project.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/computation/ValidationTest",

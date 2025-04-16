@@ -527,6 +527,7 @@ Changes in core/data/fileBundle.schema.omi.json:
   - Field 'properties.props:contentDescription' added.
   - Field 'properties.props:groupingType' added.
   - Field 'properties.props:format._instruction' modified.
+  - Field 'properties.props:groupedBy._belongsToCategory' added.
   - Field 'properties.props:groupedBy.minItems' added.
   - Field 'properties.props:groupedBy.type' added.
   - Field 'properties.props:groupedBy.uniqueItems' added.
@@ -619,6 +620,7 @@ Changes in core/products/datasetVersion.schema.omi.json:
   - Field 'properties.props:keyword.items' removed.
   - Field 'properties.props:keyword.maxItems' removed.
   - Field 'properties.props:keyword.multiline' removed.
+  - Field 'properties.props:keyword._belongsToCategory' added.
   - Field 'properties.props:keyword._linkedTypes' added.
   - Field 'properties.props:keyword.nameForReverseLink' added.
   - Field 'properties.props:keyword._instruction' modified.
@@ -626,6 +628,7 @@ Changes in core/products/datasetVersion.schema.omi.json:
   - Field 'properties.props:license._linkedTypes' modified (value(s) added).
   - Field 'properties.props:otherContribution._instruction' modified.
   - Field 'properties.props:protocol._instruction' modified.
+  - Field 'properties.props:relatedPublication._belongsToCategory' added.
   - Field 'properties.props:relatedPublication._instruction' modified.
   - Field 'properties.props:relatedPublication._linkedTypes' modified (value(s) added).
   - Field 'properties.props:releaseDate._instruction' modified.
@@ -680,11 +683,13 @@ Changes in core/products/metaDataModelVersion.schema.omi.json:
   - Field 'properties.props:keyword.items' removed.
   - Field 'properties.props:keyword.maxItems' removed.
   - Field 'properties.props:keyword.multiline' removed.
+  - Field 'properties.props:keyword._belongsToCategory' added.
   - Field 'properties.props:keyword._linkedTypes' added.
   - Field 'properties.props:keyword.nameForReverseLink' added.
   - Field 'properties.props:keyword._instruction' modified.
   - Field 'properties.props:license._instruction' modified.
   - Field 'properties.props:otherContribution._instruction' modified.
+  - Field 'properties.props:relatedPublication._belongsToCategory' added.
   - Field 'properties.props:relatedPublication._instruction' modified.
   - Field 'properties.props:relatedPublication._linkedTypes' modified (value(s) added).
   - Field 'properties.props:releaseDate._instruction' modified.
@@ -749,6 +754,7 @@ Changes in core/products/modelVersion.schema.omi.json:
   - Field 'properties.props:keyword.items' removed.
   - Field 'properties.props:keyword.maxItems' removed.
   - Field 'properties.props:keyword.multiline' removed.
+  - Field 'properties.props:keyword._belongsToCategory' added.
   - Field 'properties.props:keyword._linkedTypes' added.
   - Field 'properties.props:keyword.nameForReverseLink' added.
   - Field 'properties.props:keyword._instruction' modified.
@@ -756,6 +762,7 @@ Changes in core/products/modelVersion.schema.omi.json:
   - Field 'properties.props:otherContribution._instruction' modified.
   - Field 'properties.props:outputData._instruction' modified.
   - Field 'properties.props:outputData._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:relatedPublication._belongsToCategory' added.
   - Field 'properties.props:relatedPublication._instruction' modified.
   - Field 'properties.props:relatedPublication._linkedTypes' modified (value(s) added).
   - Field 'properties.props:releaseDate._instruction' modified.
@@ -831,6 +838,7 @@ Changes in core/products/softwareVersion.schema.omi.json:
   - Field 'properties.props:keyword.items' removed.
   - Field 'properties.props:keyword.maxItems' removed.
   - Field 'properties.props:keyword.multiline' removed.
+  - Field 'properties.props:keyword._belongsToCategory' added.
   - Field 'properties.props:keyword._linkedTypes' added.
   - Field 'properties.props:keyword.nameForReverseLink' added.
   - Field 'properties.props:keyword._instruction' modified.
@@ -838,6 +846,7 @@ Changes in core/products/softwareVersion.schema.omi.json:
   - Field 'properties.props:otherContribution._instruction' modified.
   - Field 'properties.props:outputFormat._instruction' modified.
   - Field 'properties.props:programmingLanguage._instruction' modified.
+  - Field 'properties.props:relatedPublication._belongsToCategory' added.
   - Field 'properties.props:relatedPublication._instruction' modified.
   - Field 'properties.props:relatedPublication._linkedTypes' modified (value(s) added).
   - Field 'properties.props:releaseDate._instruction' modified.
@@ -852,6 +861,7 @@ Changes in core/research/protocol.schema.omi.json:
   - Field 'properties.props:studyOption' removed.
   - Field 'properties.props:describedIn' added.
   - Field 'properties.props:stimulusType' added.
+  - Field 'properties.props:technique._belongsToCategory' added.
   - Field 'properties.props:technique._instruction' modified.
   - Field 'properties.props:technique._linkedTypes' modified (value(s) added).
 

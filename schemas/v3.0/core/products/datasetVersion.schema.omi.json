@@ -22,6 +22,9 @@
       "namePlural": "accessibilities"
     },
     "https://openminds.ebrains.eu/vocab/author": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add all parties that contributed to this dataset version as authors. Note that these authors will overwrite the author list provided for the overarching dataset.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Consortium",
@@ -65,6 +68,9 @@
       "namePlural": "copyrights"
     },
     "https://openminds.ebrains.eu/vocab/custodian": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add all parties that fulfill the role of a custodian for the research product version (e.g., a research group leader or principle investigator). Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the data, metadata, and/or code of the research product version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Consortium",
@@ -261,6 +267,9 @@
       "namePlural": "isNewVersionOf"
     },
     "https://openminds.ebrains.eu/vocab/keyword": {
+      "_belongsToCategory": [
+        "keyword"
+      ],
       "_instruction": "Add all relevant keywords to this research product version either by adding controlled terms or by suggesting new terms.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/ActionStatusType",
@@ -410,6 +419,9 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/relatedPublication": {
+      "_belongsToCategory": [
+        "publicationReference"
+      ],
       "_instruction": "Add all further publications besides the full documentation that provide the original context for the production of this research product version (e.g., an original research article that used or produced the data of this research product version).",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
@@ -485,6 +497,9 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/studyTarget": {
+      "_belongsToCategory": [
+        "studyTarget"
+      ],
       "_instruction": "Add all study targets of this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/AuditoryStimulusType",
@@ -546,6 +561,9 @@
       "uniqueItems": true
     },
     "https://openminds.ebrains.eu/vocab/technique": {
+      "_belongsToCategory": [
+        "technique"
+      ],
       "_instruction": "Add all techniques that were used in this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",

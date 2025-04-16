@@ -7,6 +7,9 @@
   "name": "Copyright",
   "properties": {
     "https://openminds.ebrains.eu/vocab/holder": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add all parties that hold this copyright.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Consortium",

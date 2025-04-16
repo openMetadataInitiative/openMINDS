@@ -7,6 +7,9 @@
   "name": "Project",
   "properties": {
     "https://openminds.om-i.org/props/coordinator": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add all parties that coordinate this project.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/Consortium",
@@ -46,6 +49,9 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/hasPart": {
+      "_belongsToCategory": [
+        "researchProduct"
+      ],
       "_instruction": "Add all research product (versions) that are part of this project.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/ValidationTest",

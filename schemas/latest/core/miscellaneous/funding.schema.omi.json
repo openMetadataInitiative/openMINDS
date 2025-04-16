@@ -40,6 +40,9 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/funder": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add the party that provided this funding.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/Consortium",

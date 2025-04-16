@@ -161,6 +161,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/studyTarget": {
+      "_belongsToCategory": [
+        "studyTarget"
+      ],
       "_instruction": "Add all study targets of this activity.",
       "_linkedTypes": [],
       "description": "Structure or function that was targeted within a study.",

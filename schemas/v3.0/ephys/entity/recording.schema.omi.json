@@ -76,6 +76,9 @@
       "namePlural": "previousRecordings"
     },
     "https://openminds.ebrains.eu/vocab/recordedWith": {
+      "_belongsToCategory": [
+        "deviceUsage"
+      ],
       "_instruction": "Add the device used to generate this recording.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",

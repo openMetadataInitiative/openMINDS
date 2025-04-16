@@ -30,6 +30,9 @@
       "namePlural": "dataLocations"
     },
     "https://openminds.om-i.org/props/relevantFor": {
+      "_belongsToCategory": [
+        "technique"
+      ],
       "_instruction": "Add the technique for which this custom property set is relevant.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/AnalysisTechnique",

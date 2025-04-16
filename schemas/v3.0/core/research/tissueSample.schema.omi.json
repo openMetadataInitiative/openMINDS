@@ -10,6 +10,9 @@
   "name": "TissueSample",
   "properties": {
     "https://openminds.ebrains.eu/vocab/anatomicalLocation": {
+      "_belongsToCategory": [
+        "anatomicalLocation"
+      ],
       "_instruction": "Add all anatomical entities that describe the anatomical location of this tissue sample.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/CellType",

@@ -30,6 +30,9 @@
       "namePlural": "recipes"
     },
     "https://openminds.om-i.org/props/stage": {
+      "_belongsToCategory": [
+        "computationalActivity"
+      ],
       "_instruction": "Add all stages that were performed in this workflow execution.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/DataAnalysis",
@@ -50,6 +53,9 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/startedBy": {
+      "_belongsToCategory": [
+        "agent"
+      ],
       "_instruction": "Add the agent that started this workflow execution.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/SoftwareAgent",

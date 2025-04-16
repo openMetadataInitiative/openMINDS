@@ -30,6 +30,9 @@
       "namePlural": "copyrights"
     },
     "https://openminds.ebrains.eu/vocab/custodian": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add one or several custodians (person or organization) that are responsible for this research product version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Organization",
@@ -58,6 +61,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/developer": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "If necessary, add one or several developers (person or organization) that contributed to the code implementation of this (meta)data model version. Note that these developers will overwrite the once provided in the (meta)data model product this version belongs to.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Organization",

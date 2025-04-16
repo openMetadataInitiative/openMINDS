@@ -44,6 +44,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/studyOption": {
+      "_belongsToCategory": [
+        "studyTarget"
+      ],
       "_instruction": "Add all study options this protocol offers.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/BiologicalSex",

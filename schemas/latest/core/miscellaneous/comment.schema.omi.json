@@ -7,6 +7,9 @@
   "name": "Comment",
   "properties": {
     "https://openminds.om-i.org/props/about": {
+      "_belongsToCategory": [
+        "researchProduct"
+      ],
       "_instruction": "Add the research product (version) that this comment is about.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/ValidationTest",

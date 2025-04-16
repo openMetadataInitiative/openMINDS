@@ -19,6 +19,9 @@
       "namePlural": "abstractionLevels"
     },
     "https://openminds.ebrains.eu/vocab/custodian": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add one or several custodians (person or organization) that are responsible for this research product. Note that this custodian will be responsible for all attached research product versions.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Organization",
@@ -47,6 +50,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/developer": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
       "_instruction": "Add one or several developers (person or organization) that contributed to the code implementation of this model.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Organization",
@@ -149,6 +155,9 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/studyTarget": {
+      "_belongsToCategory": [
+        "studyTarget"
+      ],
       "_instruction": "Add all study targets of this model version.",
       "_linkedTypes": [],
       "description": "Structure or function that was targeted within a study.",
