@@ -5,7 +5,7 @@ from typing import Dict
 from openMINDS_pipeline.constants import NAMESPACE_PATTERNS
 from openMINDS_pipeline.models import DirectoryStructure, OpenMINDSModule
 from openMINDS_pipeline.utils import get_files_in_directory, load_json, detect_moved_files, save_file, version_key
-from openMINDS_pipeline.vocab import enrich_types_with_identical
+from openMINDS_pipeline.vocab import enrich_types_with_identical, enrich_types_with_backwards_compatibility
 from openMINDS_pipeline.resolver import TEMPLATE_PROPERTY_TYPE
 
 
@@ -32,7 +32,7 @@ def compare_versions(version1_dir: str, version2_dir: str, normalize: bool = Tru
     files_to_compare = sorted(set(files1).intersection(set(files2)), key=lambda s: s.lower())
 
     # Report global changes, checking the first file is enough
-    _, _, _, global_changes = compare_files(version1_dir, version2_dir, files_to_compare[0],
+    _, _, _, _, _, global_changes = compare_files(version1_dir, version2_dir, files_to_compare[0],
                                                                          normalize)
     if "globalChanges" in global_changes:
         if global_changes["globalChanges"]:
@@ -71,10 +71,13 @@ def compare_versions(version1_dir: str, version2_dir: str, normalize: bool = Tru
     # Compare files for changes
     changes = []
     changed_types = {}
+    not_backward_compatible_types = {}
     for idx, file in enumerate(files_to_compare):
-        diff, diff_structured, type_modified, global_changes = compare_files(version1_dir, version2_dir, file, normalize)
+        diff, diff_structured, _, type_modified, type_not_backward_compatible, global_changes = compare_files(version1_dir, version2_dir, file, normalize)
         if type_modified:
             changed_types[type_modified] = idx
+        if type_not_backward_compatible:
+            not_backward_compatible_types[type_not_backward_compatible] = idx
 
         # Remove empty attributes from diff_structured
         diff_structured = {k: v for k, v in diff_structured.items() if v}
@@ -89,7 +92,7 @@ def compare_versions(version1_dir: str, version2_dir: str, normalize: bool = Tru
     if changes:
         structured_changelog["changes"] = changes
 
-    return changelog, structured_changelog, changed_types
+    return changelog, structured_changelog, changed_types, not_backward_compatible_types
 
 
 def compare_files(version1_dir: str, version2_dir: str, filename: str, normalize: bool = True):
@@ -110,7 +113,9 @@ def compare_files(version1_dir: str, version2_dir: str, filename: str, normalize
 def compare_json_schemas(schema1, schema2, parent_key:str = "", normalize: bool = True):
     """ Recursively compare two schema files (comparison of the attributes) """
     changes = []
+    not_backward_changes = []
     type_modified = None
+    type_not_backward_compatible = None
     structured_changes = {"addedAttributes": [], "removedAttributes": [], "modifiedAttributes": []}
     global_changes = {"globalChanges": []}
 
@@ -159,12 +164,14 @@ def compare_json_schemas(schema1, schema2, parent_key:str = "", normalize: bool 
 
         if namespaces_changes:
             global_changes["globalChanges"].extend(namespaces_changes)
+            not_backward_changes.extend(namespaces_changes)
 
     # Find keys present in schema1 but not in schema2
     for key in sorted(normalized_schema1, key=lambda s: s.lower()):
         if key not in normalized_schema2:
             changes.append(f"Field '{parent_key + key}' removed.")
             structured_changes["removedAttributes"].append(parent_key + key)
+            not_backward_changes.append(f"Field '{parent_key + key}' removed.")
 
     # Find keys present in schema2 but not in schema1
     for key in sorted(normalized_schema2, key=lambda s: s.lower()):
@@ -177,7 +184,7 @@ def compare_json_schemas(schema1, schema2, parent_key:str = "", normalize: bool 
         if key in normalized_schema2:
             # If the values are dictionaries, we need to compare them recursively
             if isinstance(normalized_schema1[key], dict) and isinstance(normalized_schema2[key], dict):
-                nested_changes, nested_structured_changes, _, nested_global_changes = compare_json_schemas(normalized_schema1[key], normalized_schema2[key], parent_key + key + ".", normalize)
+                nested_changes, nested_structured_changes, _, _, _, nested_global_changes = compare_json_schemas(normalized_schema1[key], normalized_schema2[key], parent_key + key + ".", normalize)
                 if nested_global_changes:
                     global_changes["globalChanges"].extend(nested_global_changes["globalChanges"])
                 changes.extend(nested_changes)
@@ -195,20 +202,32 @@ def compare_json_schemas(schema1, schema2, parent_key:str = "", normalize: bool 
                     if type(normalized_schema1[key]) is list and type(normalized_schema2[key]) is list and len(normalize2) > len(normalize1) and set(normalize1).issubset(set(normalize2)):
                         changes.append(f"Field '{parent_key + key}' modified (value(s) added).")
                         structured_changes["modifiedAttributes"].append({'property':parent_key + key, 'modification': 'value(s) added'})
+                        if key == 'required':
+                            not_backward_changes.append(f"Field '{parent_key + key}' modified (value(s) added).")
                     elif type(normalized_schema1[key]) is list and type(normalized_schema2[key]) is list and len(normalize1) > len(normalize2) and set(normalize2).issubset(set(normalize1)):
                         changes.append(f"Field '{parent_key + key}' modified (value(s) removed).")
                         structured_changes["modifiedAttributes"].append({'property':parent_key + key, 'modification': 'value(s) removed'})
                     else:
                         changes.append(f"Field '{parent_key + key}' modified.")
                         structured_changes["modifiedAttributes"].append({'property': parent_key + key})
+                        if key in ['_type', 'required', 'type']:
+                            not_backward_changes.append(f"Field '{parent_key + key}' modified.")
 
     if changes and "schemaType" not in structured_changes:
         if "name" in normalized_schema1 and "name" in normalized_schema1:
             if normalized_schema1["name"] == normalized_schema2["name"]:
                 structured_changes["schemaType"] = normalized_schema1["name"]
                 type_modified = structured_changes["schemaType"]
+    # Consider global change such as namespace changes for the field 'identical' in vocab
+    elif global_changes['globalChanges']:
+        if "name" in normalized_schema1 and "name" in normalized_schema1:
+            type_modified = normalized_schema1["name"]
 
-    return changes, structured_changes, type_modified, global_changes
+    if not_backward_changes:
+        if "name" in normalized_schema1 and "name" in normalized_schema1:
+            type_not_backward_compatible = normalized_schema1["name"]
+
+    return changes, structured_changes, not_backward_changes, type_modified, type_not_backward_compatible, global_changes
 
 
 def generate_changelogs_and_compatibility_resolution(versions: Dict[str, Dict[str, OpenMINDSModule]], directory_structure: DirectoryStructure):
@@ -226,7 +245,7 @@ def generate_changelogs_and_compatibility_resolution(versions: Dict[str, Dict[st
         print(f"Now building the changelog for {current_version}.")
         schemas_previous_version = os.path.join(target_directory, 'schemas', previous_version)
         schemas_current_version = os.path.join(target_directory, 'schemas', current_version)
-        changelog_content, structured_changelog_content, changed_types = compare_versions(
+        changelog_content, structured_changelog_content, changed_types, not_backwards_compatible_types = compare_versions(
             schemas_previous_version,
             schemas_current_version,
             normalize=True
@@ -239,6 +258,7 @@ def generate_changelogs_and_compatibility_resolution(versions: Dict[str, Dict[st
         save_file(os.path.join(changelog_dir, f"release_notes_{current_version}.json"),
                   structured_changelog_content, is_json=True)
 
-        enrich_types_with_identical(vocab_types, changed_types, previous_version, current_version, i)
+        enrich_types_with_identical(vocab_types, changed_types, previous_version, current_version)
+        enrich_types_with_backwards_compatibility(vocab_types, not_backwards_compatible_types, previous_version, current_version)
 
     save_file(os.path.join(target_directory, 'vocab', 'types.json'), vocab_types, is_json=True, sort_keys=True)
