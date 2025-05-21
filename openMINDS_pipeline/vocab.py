@@ -227,7 +227,7 @@ class TypeExtractor(Types):
 
         if t in self._types:
             for k in list(self._types[t].keys()):
-                if k not in ["label", "labelPlural", "name", "namePlural", "description", "isPartOfVersion", "color", "hasNamespace", "identical"]:
+                if k not in ["label", "labelPlural", "name", "namePlural", "description", "isPartOfVersion", "color", "hasNamespace", "identical", "backwardsCompatibility"]:
                     del self._types[t][k]
         simple_name = os.path.basename(t)
         if t not in self._types:
