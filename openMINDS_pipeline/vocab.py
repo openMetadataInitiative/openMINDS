@@ -129,6 +129,8 @@ def enrich_types_with_backwards_compatibility(vocab_types: Dict, not_backwards_c
                 vocab_entry['backwardsCompatibility'][key].remove(current_version)
             if key == current_version:
                 del vocab_entry['backwardsCompatibility'][key]
+                if len(vocab_entry['backwardsCompatibility']) == 0:
+                    del vocab_entry['backwardsCompatibility']
 
     def get_previous_available_version(vocab_entry, current_version):
         versions = sorted(vocab_entry.get("isPartOfVersion"), key=version_key)
@@ -145,7 +147,8 @@ def enrich_types_with_backwards_compatibility(vocab_types: Dict, not_backwards_c
         # Update based on changed types
         if _type not in not_backwards_compatible_types and current_version in vocab_types[_type].get("isPartOfVersion"):
             if 'backwardsCompatibility' in vocab_types[_type]:
-                vocab_types[_type]['backwardsCompatibility'][current_version] = [previous_version] + vocab_types[_type]['backwardsCompatibility'][get_previous_available_version(vocab_types[_type], current_version)]
+                previous_available_version = get_previous_available_version(vocab_types[_type], current_version)
+                vocab_types[_type]['backwardsCompatibility'][current_version] = [previous_available_version] + vocab_types[_type]['backwardsCompatibility'][previous_available_version]
                 sorted(vocab_types[_type]['backwardsCompatibility'][current_version])
             else:
                 vocab_types[_type]['backwardsCompatibility'] = {}
