@@ -19,11 +19,9 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/hostedBy": {
-      "_instruction": "Add the web service or organization that hosts this live paper resource item.",
+      "_instruction": "Add the host organization of this live paper resource item.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/Organization",
-        "https://openminds.om-i.org/types/WebService",
-        "https://openminds.om-i.org/types/Service"
+        "https://openminds.om-i.org/types/Organization"
       ],
       "description": "Reference to an organization that provides facilities and services for something.",
       "label": "Hosted by",
