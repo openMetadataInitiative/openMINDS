@@ -36,8 +36,6 @@
       "_instruction": "Add the technique for which this custom property set is relevant.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
-        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
-        "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
         "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
         "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
         "https://openminds.ebrains.eu/controlledTerms/Technique"
