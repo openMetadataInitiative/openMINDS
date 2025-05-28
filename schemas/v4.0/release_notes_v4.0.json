@@ -6,7 +6,16 @@
   ],
   "addedFiles": [
     "controlledTerms/MRIPulseSequence.schema.omi.json",
-    "controlledTerms/MRIWeighting.schema.omi.json"
+    "controlledTerms/MRIWeighting.schema.omi.json",
+    "neuroimaging/activity/functionalMRIAcquisition.schema.omi.json",
+    "neuroimaging/activity/structuralMRIAcquisition.schema.omi.json",
+    "neuroimaging/device/MRIScanner.schema.omi.json",
+    "neuroimaging/device/MRIScannerUsage.schema.omi.json",
+    "neuroimaging/entity/image.schema.omi.json",
+    "neuroimaging/entity/imageSequence.schema.omi.json",
+    "neuroimaging/entity/imageStack.schema.omi.json",
+    "neuroimaging/entity/volume.schema.omi.json",
+    "neuroimaging/entity/volumeSequence.schema.omi.json"
   ],
   "changes": [
     {
@@ -130,6 +139,16 @@
       "schemaType": "FileBundle"
     },
     {
+      "file": "core/data/measurement.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:measuredWith._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "Measurement"
+    },
+    {
       "file": "core/products/datasetVersion.schema.omi.json",
       "modifiedAttributes": [
         {
@@ -169,6 +188,10 @@
     },
     {
       "file": "core/products/modelVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:configuration",
+        "properties.props:entryPoint"
+      ],
       "modifiedAttributes": [
         {
           "property": "properties.props:keyword._linkedTypes",
@@ -176,6 +199,16 @@
         }
       ],
       "schemaType": "ModelVersion"
+    },
+    {
+      "file": "core/products/setup.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:hasPart._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "Setup"
     },
     {
       "file": "core/products/softwareVersion.schema.omi.json",
@@ -231,6 +264,10 @@
       "file": "ephys/activity/cellPatching.schema.omi.json",
       "modifiedAttributes": [
         {
+          "property": "properties.props:device._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
           "property": "properties.props:studyTarget._linkedTypes",
           "modification": "value(s) added"
         }
@@ -240,6 +277,10 @@
     {
       "file": "ephys/activity/electrodePlacement.schema.omi.json",
       "modifiedAttributes": [
+        {
+          "property": "properties.props:device._linkedTypes",
+          "modification": "value(s) added"
+        },
         {
           "property": "properties.props:studyTarget._linkedTypes",
           "modification": "value(s) added"
@@ -256,6 +297,16 @@
         }
       ],
       "schemaType": "RecordingActivity"
+    },
+    {
+      "file": "ephys/entity/recording.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:recordedWith._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "Recording"
     },
     {
       "file": "publications/book.schema.omi.json",
@@ -286,6 +337,19 @@
         }
       ],
       "schemaType": "LearningResource"
+    },
+    {
+      "file": "publications/livePaperResourceItem.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:hostedBy._instruction"
+        },
+        {
+          "property": "properties.props:hostedBy._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "LivePaperResourceItem"
     },
     {
       "file": "publications/livePaperVersion.schema.omi.json",
@@ -399,6 +463,20 @@
         }
       ],
       "schemaType": "StimulationActivity"
+    },
+    {
+      "file": "stimulation/stimulus/ephysStimulus.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:deliveredBy._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:generatedBy._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "EphysStimulus"
     }
   ]
 }

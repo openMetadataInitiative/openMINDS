@@ -903,10 +903,10 @@
         "v3.0"
       ],
       [
-        "latest"
+        "v4.0"
       ],
       [
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -2321,10 +2321,10 @@
         "v3.0"
       ],
       [
-        "latest"
+        "v4.0"
       ],
       [
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -2855,8 +2855,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -3053,10 +3055,10 @@
         "v2.0"
       ],
       [
-        "latest",
         "v3.0"
       ],
       [
+        "latest",
         "v4.0"
       ]
     ],
@@ -3308,6 +3310,31 @@
     ],
     "label": "File usage role",
     "name": "FileUsageRole"
+  },
+  "FunctionalMRIAcquisition": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest",
+        "v4.0"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest",
+      "v4.0"
+    ],
+    "label": "Functional mriacquisition",
+    "name": "FunctionalMRIAcquisition"
   },
   "Funding": {
     "color": "#73013E",
@@ -3772,6 +3799,13 @@
     "hasNamespace": [
       {
         "inVersions": [
+          "latest",
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      },
+      {
+        "inVersions": [
           "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/sands/"
@@ -3779,14 +3813,68 @@
     ],
     "identical": [
       [
-        "v1.0"
+        "latest",
+        "v1.0",
+        "v4.0"
       ]
     ],
     "isPartOfVersion": [
-      "v1.0"
+      "latest",
+      "v1.0",
+      "v4.0"
     ],
     "label": "Image",
     "name": "Image"
+  },
+  "ImageSequence": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest",
+        "v4.0"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest",
+      "v4.0"
+    ],
+    "label": "Image sequence",
+    "name": "ImageSequence"
+  },
+  "ImageStack": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest",
+        "v4.0"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest",
+      "v4.0"
+    ],
+    "label": "Image stack",
+    "name": "ImageStack"
   },
   "Language": {
     "color": "#6B6466",
@@ -4073,11 +4161,11 @@
     ],
     "identical": [
       [
-        "v3.0",
-        "v4.0"
+        "v3.0"
       ],
       [
-        "latest"
+        "latest",
+        "v4.0"
       ]
     ],
     "isPartOfVersion": [
@@ -4223,12 +4311,6 @@
           "v4.0"
         ],
         "namespace": "https://openminds.om-i.org/types/"
-      },
-      {
-        "inVersions": [
-          "v3.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "identical": [
@@ -4239,11 +4321,60 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v3.0",
       "v4.0"
     ],
     "label": "Mripulse sequence",
     "name": "MRIPulseSequence"
+  },
+  "MRIScanner": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest",
+        "v4.0"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest",
+      "v4.0"
+    ],
+    "label": "Mriscanner",
+    "name": "MRIScanner"
+  },
+  "MRIScannerUsage": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest",
+        "v4.0"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest",
+      "v4.0"
+    ],
+    "label": "Mriscanner usage",
+    "name": "MRIScannerUsage"
   },
   "MRIWeighting": {
     "color": null,
@@ -4255,12 +4386,6 @@
           "v4.0"
         ],
         "namespace": "https://openminds.om-i.org/types/"
-      },
-      {
-        "inVersions": [
-          "v3.0"
-        ],
-        "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
     ],
     "identical": [
@@ -4271,7 +4396,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v3.0",
       "v4.0"
     ],
     "label": "Mriweighting",
@@ -4363,8 +4487,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -4493,10 +4619,10 @@
         "v3.0"
       ],
       [
-        "latest"
+        "v4.0"
       ],
       [
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -4559,10 +4685,10 @@
         "v2.0"
       ],
       [
-        "latest",
         "v3.0"
       ],
       [
+        "latest",
         "v4.0"
       ]
     ],
@@ -4728,10 +4854,10 @@
         "v3.0"
       ],
       [
-        "latest"
+        "v4.0"
       ],
       [
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -5850,10 +5976,10 @@
         "v2.0"
       ],
       [
-        "latest",
         "v3.0"
       ],
       [
+        "latest",
         "v4.0"
       ]
     ],
@@ -5895,10 +6021,10 @@
         "v2.0"
       ],
       [
-        "latest",
         "v3.0"
       ],
       [
+        "latest",
         "v4.0"
       ]
     ],
@@ -6310,8 +6436,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -6629,8 +6757,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -7024,10 +7154,10 @@
         "v3.0"
       ],
       [
-        "latest"
+        "v4.0"
       ],
       [
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -7320,6 +7450,31 @@
     ],
     "label": "String property",
     "name": "StringProperty"
+  },
+  "StructuralMRIAcquisition": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest",
+        "v4.0"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest",
+      "v4.0"
+    ],
+    "label": "Structural mriacquisition",
+    "name": "StructuralMRIAcquisition"
   },
   "SubcellularEntity": {
     "color": "#4E4452",
@@ -8024,10 +8179,10 @@
         "v2.0"
       ],
       [
-        "latest",
         "v3.0"
       ],
       [
+        "latest",
         "v4.0"
       ]
     ],
@@ -8359,6 +8514,56 @@
     ],
     "label": "Visualization",
     "name": "Visualization"
+  },
+  "Volume": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest",
+        "v4.0"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest",
+      "v4.0"
+    ],
+    "label": "Volume",
+    "name": "Volume"
+  },
+  "VolumeSequence": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest",
+        "v4.0"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest",
+      "v4.0"
+    ],
+    "label": "Volume sequence",
+    "name": "VolumeSequence"
   },
   "WebResource": {
     "color": "#DAA9B5",
