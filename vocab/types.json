@@ -45,8 +45,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -60,7 +59,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -95,9 +93,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -137,10 +133,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -201,8 +197,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -216,7 +211,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -248,10 +242,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -323,8 +317,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -338,7 +331,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -358,8 +350,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -373,7 +364,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -448,8 +438,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -463,7 +452,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -483,8 +471,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -498,7 +485,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -529,11 +515,9 @@
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -580,8 +564,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -595,7 +578,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -615,8 +597,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -630,7 +611,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -676,8 +656,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v1.0",
-          "v2.0"
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       },
@@ -717,8 +696,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -732,7 +710,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -752,8 +729,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -767,7 +743,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -799,10 +774,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -840,8 +815,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -880,9 +857,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -925,10 +900,10 @@
         "v2.0"
       ],
       [
-        "latest"
+        "v3.0"
       ],
       [
-        "v3.0"
+        "latest"
       ],
       [
         "v4.0"
@@ -957,8 +932,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -972,7 +946,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -992,8 +965,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -1007,7 +979,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -1074,10 +1045,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -1148,8 +1119,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -1206,8 +1179,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -1221,7 +1193,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -1307,8 +1278,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -1322,7 +1292,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -1386,11 +1355,9 @@
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -1425,8 +1392,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -1531,9 +1500,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -1576,9 +1543,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -1607,26 +1572,22 @@
       {
         "inVersions": [
           "v3.0",
-          "v1.0",
-          "v2.0"
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "identical": [
       [
+        "latest",
         "v1.0",
         "v3.0",
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -1661,9 +1622,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -1703,10 +1662,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -1749,9 +1708,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -1816,9 +1773,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -1846,8 +1801,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -1861,7 +1815,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -1916,8 +1869,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -1931,7 +1883,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -1963,10 +1914,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -2005,11 +1956,9 @@
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -2045,11 +1994,9 @@
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -2085,11 +2032,9 @@
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -2260,8 +2205,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -2275,7 +2219,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -2310,9 +2253,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -2377,10 +2318,10 @@
         "v2.0"
       ],
       [
-        "latest"
+        "v3.0"
       ],
       [
-        "v3.0"
+        "latest"
       ],
       [
         "v4.0"
@@ -2409,8 +2350,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -2424,7 +2364,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -2444,8 +2383,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -2459,7 +2397,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -2491,10 +2428,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -2534,10 +2471,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -2565,8 +2502,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -2580,7 +2516,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -2600,8 +2535,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -2615,7 +2549,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -2960,10 +2893,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -3044,9 +2977,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -3122,9 +3053,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0"
       ],
       [
@@ -3166,10 +3095,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -3198,26 +3127,22 @@
       {
         "inVersions": [
           "v3.0",
-          "v1.0",
-          "v2.0"
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "identical": [
       [
+        "latest",
         "v1.0",
         "v3.0",
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -3252,9 +3177,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -3283,26 +3206,22 @@
       {
         "inVersions": [
           "v3.0",
-          "v1.0",
-          "v2.0"
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "identical": [
       [
+        "latest",
         "v1.0",
         "v3.0",
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -3372,10 +3291,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -3418,9 +3337,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -3524,8 +3441,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -3539,7 +3455,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -3581,8 +3496,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -3596,7 +3510,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -3900,10 +3813,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -3943,10 +3856,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -4017,8 +3930,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -4042,8 +3957,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -4057,7 +3971,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -4092,9 +4005,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -4162,9 +4073,11 @@
     ],
     "identical": [
       [
-        "latest",
         "v3.0",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -4231,8 +4144,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -4311,7 +4226,7 @@
       },
       {
         "inVersions": [
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -4324,7 +4239,7 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
+      "v3.0",
       "v4.0"
     ],
     "label": "Mripulse sequence",
@@ -4343,7 +4258,7 @@
       },
       {
         "inVersions": [
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -4356,7 +4271,7 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
+      "v3.0",
       "v4.0"
     ],
     "label": "Mriweighting",
@@ -4375,8 +4290,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -4390,7 +4304,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -4410,8 +4323,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -4425,7 +4337,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -4493,9 +4404,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -4535,10 +4444,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -4581,10 +4490,10 @@
         "v2.0"
       ],
       [
-        "latest"
+        "v3.0"
       ],
       [
-        "v3.0"
+        "latest"
       ],
       [
         "v4.0"
@@ -4650,9 +4559,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0"
       ],
       [
@@ -4694,10 +4601,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -4737,10 +4644,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -4818,10 +4725,10 @@
         "v2.0"
       ],
       [
-        "latest"
+        "v3.0"
       ],
       [
-        "v3.0"
+        "latest"
       ],
       [
         "v4.0"
@@ -4850,8 +4757,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -4865,7 +4771,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -4984,8 +4889,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -4999,7 +4903,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -5031,10 +4934,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -5074,10 +4977,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -5105,8 +5008,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -5120,7 +5022,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -5187,10 +5088,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -5218,8 +5119,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -5233,7 +5133,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -5253,8 +5152,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -5268,7 +5166,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -5303,9 +5200,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -5369,11 +5264,9 @@
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -5442,11 +5335,9 @@
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -5504,8 +5395,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -5519,7 +5409,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -5587,9 +5476,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -5625,7 +5512,8 @@
       ]
     ],
     "isPartOfVersion": [
-      "v1.0"
+      "v1.0",
+      "v2.0"
     ],
     "label": "Phenotype",
     "name": "Phenotype"
@@ -5721,10 +5609,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -5764,10 +5652,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -5840,10 +5728,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -5886,9 +5774,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -5964,9 +5850,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0"
       ],
       [
@@ -6011,9 +5895,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0"
       ],
       [
@@ -6121,10 +6003,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -6163,11 +6045,9 @@
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -6203,11 +6083,9 @@
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -6247,9 +6125,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -6325,9 +6201,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -6614,8 +6488,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -6677,8 +6553,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -6692,7 +6567,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -6713,26 +6587,22 @@
       {
         "inVersions": [
           "v3.0",
-          "v1.0",
-          "v2.0"
+          "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/core/"
       }
     ],
     "identical": [
       [
+        "latest",
         "v1.0",
         "v3.0",
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
       "latest",
       "v1.0",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -6785,8 +6655,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -6800,7 +6669,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -6969,9 +6837,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -7044,10 +6910,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -7087,10 +6953,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -7155,10 +7021,10 @@
         "v2.0"
       ],
       [
-        "latest"
+        "v3.0"
       ],
       [
-        "v3.0"
+        "latest"
       ],
       [
         "v4.0"
@@ -7199,10 +7065,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -7265,8 +7131,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -7280,7 +7145,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -7300,8 +7164,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -7315,7 +7178,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -7394,6 +7256,7 @@
     "isPartOfVersion": [
       "latest",
       "v1.0",
+      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -7471,8 +7334,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -7486,7 +7348,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -7521,9 +7382,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -7551,8 +7410,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -7566,7 +7424,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -7601,9 +7458,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -7646,9 +7501,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -7691,9 +7544,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -7721,8 +7572,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -7736,7 +7586,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -7768,10 +7617,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -7811,10 +7660,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -7854,10 +7703,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -7935,9 +7784,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -7965,8 +7812,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -7980,7 +7826,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -8015,9 +7860,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -8060,9 +7903,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -8140,9 +7981,7 @@
         "v2.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -8182,10 +8021,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0"
       ],
       [
@@ -8330,10 +8169,10 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0"
       ],
       [
+        "latest",
         "v3.0",
         "v4.0"
       ]
@@ -8406,8 +8245,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -8464,8 +8305,7 @@
       },
       {
         "inVersions": [
-          "v3.0",
-          "v2.0"
+          "v3.0"
         ],
         "namespace": "https://openminds.ebrains.eu/controlledTerms/"
       }
@@ -8479,7 +8319,6 @@
     ],
     "isPartOfVersion": [
       "latest",
-      "v2.0",
       "v3.0",
       "v4.0"
     ],
@@ -8610,8 +8449,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -8711,8 +8552,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
