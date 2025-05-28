@@ -242,21 +242,6 @@
     ]
   },
   "v1.0": {
-    "fileOrigin": [
-      "core:BehavioralTask",
-      "core:File",
-      "core:FileBundle",
-      "core:SubjectGroupState",
-      "core:SubjectState",
-      "core:TissueSampleCollectionState",
-      "core:TissueSampleState"
-    ],
-    "legalPerson": [
-      "core:Organization",
-      "core:Person"
-    ]
-  },
-  "v2.0": {
     "anatomicalLocation": [
       "controlledTerms:CellType",
       "controlledTerms:Organ",
@@ -403,8 +388,7 @@
       "controlledTerms:TissueSampleType",
       "controlledTerms:UBERONParcellation",
       "controlledTerms:VisualStimulusType",
-      "sands:CustomAnatomicalEntity",
-      "sands:ParcellationEntity"
+      "sands:AnatomicalEntity"
     ],
     "technique": [
       "controlledTerms:AnalysisTechnique",
@@ -413,6 +397,26 @@
       "controlledTerms:StimulationApproach",
       "controlledTerms:StimulationTechnique",
       "controlledTerms:Technique"
+    ]
+  },
+  "v2.0": {
+    "legalPerson": [
+      "core:Organization",
+      "core:Person"
+    ],
+    "studyTarget": [
+      "controlledTerms:BiologicalSex",
+      "controlledTerms:CellType",
+      "controlledTerms:Disease",
+      "controlledTerms:DiseaseModel",
+      "controlledTerms:Handedness",
+      "controlledTerms:Organ",
+      "controlledTerms:Phenotype",
+      "controlledTerms:Species",
+      "controlledTerms:Strain",
+      "controlledTerms:TermSuggestion",
+      "sands:CustomAnatomicalEntity",
+      "sands:ParcellationEntity"
     ]
   },
   "v3.0": {

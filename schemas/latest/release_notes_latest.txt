@@ -70,15 +70,23 @@ Added files:
   - publications/publicationIssue.schema.omi.json
   - publications/publicationVolume.schema.omi.json
   - publications/scholarlyArticle.schema.omi.json
+  - SANDS/atlas/atlasAnnotation.schema.omi.json
+  - SANDS/atlas/commonCoordinateSpace.schema.omi.json
   - SANDS/atlas/commonCoordinateSpaceVersion.schema.omi.json
+  - SANDS/atlas/parcellationEntity.schema.omi.json
   - SANDS/atlas/parcellationEntityVersion.schema.omi.json
   - SANDS/atlas/parcellationTerminologyVersion.schema.omi.json
   - SANDS/mathematicalShapes/circle.schema.omi.json
   - SANDS/mathematicalShapes/ellipse.schema.omi.json
   - SANDS/mathematicalShapes/rectangle.schema.omi.json
   - SANDS/miscellaneous/anatomicalTargetPosition.schema.omi.json
+  - SANDS/miscellaneous/qualitativeRelationAssessment.schema.omi.json
+  - SANDS/miscellaneous/quantitativeRelationAssessment.schema.omi.json
   - SANDS/miscellaneous/singleColor.schema.omi.json
   - SANDS/miscellaneous/viewerSpecification.schema.omi.json
+  - SANDS/non-atlas/customAnatomicalEntity.schema.omi.json
+  - SANDS/non-atlas/customAnnotation.schema.omi.json
+  - SANDS/non-atlas/customCoordinateSpace.schema.omi.json
   - specimenPrep/activity/cranialWindowPreparation.schema.omi.json
   - specimenPrep/activity/tissueCulturePreparation.schema.omi.json
   - specimenPrep/activity/tissueSampleSlicing.schema.omi.json
@@ -93,7 +101,12 @@ Removed files:
   - core/research/numericalParameter.schema.omi.json
   - core/research/parameterSet.schema.omi.json
   - core/research/stringParameter.schema.omi.json
-  - SANDS/non-atlas/electrodeContact.schema.omi.json
+  - SANDS/anatomicalEntity.schema.omi.json
+  - SANDS/anatomicalEntityRelation.schema.omi.json
+  - SANDS/annotation.schema.omi.json
+  - SANDS/coordinateSpace.schema.omi.json
+  - SANDS/electrodeContact.schema.omi.json
+  - SANDS/image.schema.omi.json
 
 Moved files:
   - core/miscellaneous/DOI.schema.omi.json moved to core/digitalIdentifier/DOI.schema.omi.json
@@ -102,8 +115,12 @@ Moved files:
   - core/miscellaneous/ORCID.schema.omi.json moved to core/digitalIdentifier/ORCID.schema.omi.json
   - core/miscellaneous/RORID.schema.omi.json moved to core/digitalIdentifier/RORID.schema.omi.json
   - core/miscellaneous/SWHID.schema.omi.json moved to core/digitalIdentifier/SWHID.schema.omi.json
-  - SANDS/non-atlas/electrode.schema.omi.json moved to ephys/device/electrode.schema.omi.json
-  - SANDS/non-atlas/electrodeArray.schema.omi.json moved to ephys/device/electrodeArray.schema.omi.json
+  - SANDS/electrode.schema.omi.json moved to ephys/device/electrode.schema.omi.json
+  - SANDS/electrodeArray.schema.omi.json moved to ephys/device/electrodeArray.schema.omi.json
+  - SANDS/brainAtlas.schema.omi.json moved to SANDS/atlas/brainAtlas.schema.omi.json
+  - SANDS/brainAtlasVersion.schema.omi.json moved to SANDS/atlas/brainAtlasVersion.schema.omi.json
+  - SANDS/parcellationTerminology.schema.omi.json moved to SANDS/atlas/parcellationTerminology.schema.omi.json
+  - SANDS/coordinatePoint.schema.omi.json moved to SANDS/miscellaneous/coordinatePoint.schema.omi.json
 
 Changes in core/actors/affiliation.schema.omi.json:
   - Field 'properties.props:organization' removed.
@@ -418,7 +435,7 @@ Changes in core/products/model.schema.omi.json:
   - Field 'properties.props:shortName.maxLength' removed.
   - Field 'properties.props:shortName._instruction' modified.
   - Field 'properties.props:studyTarget._instruction' modified.
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
 
 Changes in core/products/modelVersion.schema.omi.json:
   - Field '_categories' added.
@@ -577,7 +594,7 @@ Changes in core/research/protocolExecution.schema.omi.json:
   - Field 'properties.props:isPartOf._instruction' modified.
   - Field 'properties.props:lookupLabel._instruction' modified.
   - Field 'properties.props:protocol._instruction' modified.
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
 
 Changes in core/research/subject.schema.omi.json:
   - Field '_categories' added.
@@ -681,218 +698,3 @@ Changes in core/research/tissueSampleState.schema.omi.json:
   - Field 'properties.props:lookupLabel._instruction' modified.
   - Field 'properties.props:pathology._instruction' modified.
   - Field 'properties.props:weight._instruction' modified.
-
-Changes in SANDS/atlas/atlasAnnotation.schema.omi.json:
-  - Field 'properties.props:bestViewPoint' removed.
-  - Field 'properties.props:displayColor' removed.
-  - Field 'properties.props:lookupLabel' removed.
-  - Field 'properties.props:name' removed.
-  - Field 'properties.props:versionIdentifier' removed.
-  - Field 'properties.props:versionInnovation' removed.
-  - Field 'properties.props:visualizedIn' removed.
-  - Field 'properties.props:anchorPoint' added.
-  - Field 'properties.props:criteriaType' added.
-  - Field 'properties.props:preferredVisualization' added.
-  - Field 'properties.props:specification' added.
-  - Field 'properties.props:type' added.
-  - Field 'properties.props:criteria._instruction' modified.
-  - Field 'properties.props:criteriaQualityType._instruction' modified.
-  - Field 'properties.props:inspiredBy._instruction' modified.
-  - Field 'properties.props:internalIdentifier._instruction' modified.
-  - Field 'properties.props:laterality._instruction' modified.
-  - Field 'required' modified.
-
-Changes in SANDS/atlas/brainAtlas.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:abbreviation' added.
-  - Field 'properties.props:author' added.
-  - Field 'properties.props:custodian' added.
-  - Field 'properties.props:hasTerminology' added.
-  - Field 'properties.props:ontologyIdentifier' added.
-  - Field 'properties.props:usedSpecies' added.
-  - Field 'properties.props:description._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
-  - Field 'properties.props:fullName._instruction' modified.
-  - Field 'properties.props:hasVersion._instruction' modified.
-  - Field 'properties.props:homepage._linkedTypes' removed.
-  - Field 'properties.props:homepage.nameForReverseLink' removed.
-  - Field 'properties.props:homepage._formats' added.
-  - Field 'properties.props:homepage.formatting' added.
-  - Field 'properties.props:homepage.multiline' added.
-  - Field 'properties.props:homepage.type' added.
-  - Field 'properties.props:homepage._instruction' modified.
-  - Field 'properties.props:howToCite._instruction' modified.
-  - Field 'properties.props:shortName._instruction' modified.
-  - Field 'required' modified (value(s) added).
-
-Changes in SANDS/atlas/brainAtlasVersion.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:abbreviation' added.
-  - Field 'properties.props:accessibility' added.
-  - Field 'properties.props:author' added.
-  - Field 'properties.props:copyright' added.
-  - Field 'properties.props:custodian' added.
-  - Field 'properties.props:description' added.
-  - Field 'properties.props:fullDocumentation' added.
-  - Field 'properties.props:funding' added.
-  - Field 'properties.props:keyword' added.
-  - Field 'properties.props:license' added.
-  - Field 'properties.props:majorVersionIdentifier' added.
-  - Field 'properties.props:otherContribution' added.
-  - Field 'properties.props:relatedPublication' added.
-  - Field 'properties.props:repository' added.
-  - Field 'properties.props:supportChannel' added.
-  - Field 'properties.props:type' added.
-  - Field 'properties.props:usedSpecimen' added.
-  - Field 'properties.props:coordinateSpace._instruction' modified.
-  - Field 'properties.props:coordinateSpace._linkedTypes' modified.
-  - Field 'properties.props:digitalIdentifier._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
-  - Field 'properties.props:fullName._instruction' modified.
-  - Field 'properties.props:hasTerminology._linkedTypes' removed.
-  - Field 'properties.props:hasTerminology._embeddedTypes' added.
-  - Field 'properties.props:hasTerminology._instruction' modified.
-  - Field 'properties.props:homepage._linkedTypes' removed.
-  - Field 'properties.props:homepage.nameForReverseLink' removed.
-  - Field 'properties.props:homepage._formats' added.
-  - Field 'properties.props:homepage.formatting' added.
-  - Field 'properties.props:homepage.multiline' added.
-  - Field 'properties.props:homepage.type' added.
-  - Field 'properties.props:homepage._instruction' modified.
-  - Field 'properties.props:howToCite._instruction' modified.
-  - Field 'properties.props:isAlternativeVersionOf._instruction' modified.
-  - Field 'properties.props:isNewVersionOf._instruction' modified.
-  - Field 'properties.props:ontologyIdentifier._instruction' modified.
-  - Field 'properties.props:releaseDate._instruction' modified.
-  - Field 'properties.props:shortName._instruction' modified.
-  - Field 'properties.props:versionIdentifier._instruction' modified.
-  - Field 'properties.props:versionInnovation._instruction' modified.
-  - Field 'required' modified.
-
-Changes in SANDS/atlas/commonCoordinateSpace.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:anatomicalAxesOrientation' removed.
-  - Field 'properties.props:axesOrigin' removed.
-  - Field 'properties.props:defaultImage' removed.
-  - Field 'properties.props:nativeUnit' removed.
-  - Field 'properties.props:releaseDate' removed.
-  - Field 'properties.props:versionIdentifier' removed.
-  - Field 'properties.props:abbreviation' added.
-  - Field 'properties.props:author' added.
-  - Field 'properties.props:custodian' added.
-  - Field 'properties.props:description' added.
-  - Field 'properties.props:hasVersion' added.
-  - Field 'properties.props:usedSpecies' added.
-  - Field 'properties.props:digitalIdentifier._instruction' modified.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
-  - Field 'properties.props:fullName._instruction' modified.
-  - Field 'properties.props:homepage._linkedTypes' removed.
-  - Field 'properties.props:homepage.nameForReverseLink' removed.
-  - Field 'properties.props:homepage._formats' added.
-  - Field 'properties.props:homepage.formatting' added.
-  - Field 'properties.props:homepage.multiline' added.
-  - Field 'properties.props:homepage.type' added.
-  - Field 'properties.props:homepage._instruction' modified.
-  - Field 'properties.props:howToCite._instruction' modified.
-  - Field 'properties.props:ontologyIdentifier._formats' removed.
-  - Field 'properties.props:ontologyIdentifier.items' added.
-  - Field 'properties.props:ontologyIdentifier.minItems' added.
-  - Field 'properties.props:ontologyIdentifier.uniqueItems' added.
-  - Field 'properties.props:ontologyIdentifier._instruction' modified.
-  - Field 'properties.props:ontologyIdentifier.type' modified.
-  - Field 'properties.props:shortName._instruction' modified.
-  - Field 'required' modified.
-
-Changes in SANDS/atlas/parcellationEntity.schema.omi.json:
-  - Field '_categories' modified (value(s) added).
-  - Field 'properties.props:hasAnnotation' removed.
-  - Field 'properties.props:isPartOf' removed.
-  - Field 'properties.props:relationAssessment' removed.
-  - Field 'properties.props:versionIdentifier' removed.
-  - Field 'properties.props:versionInnovation' removed.
-  - Field 'properties.props:abbreviation' added.
-  - Field 'properties.props:alternateName' added.
-  - Field 'properties.props:definition' added.
-  - Field 'properties.props:hasVersion' added.
-  - Field 'properties.props:lookupLabel' added.
-  - Field 'properties.props:hasParent.minItems' added.
-  - Field 'properties.props:hasParent.type' added.
-  - Field 'properties.props:hasParent.uniqueItems' added.
-  - Field 'properties.props:hasParent._instruction' modified.
-  - Field 'properties.props:name._instruction' modified.
-  - Field 'properties.props:ontologyIdentifier._formats' removed.
-  - Field 'properties.props:ontologyIdentifier.items' added.
-  - Field 'properties.props:ontologyIdentifier.minItems' added.
-  - Field 'properties.props:ontologyIdentifier.uniqueItems' added.
-  - Field 'properties.props:ontologyIdentifier._instruction' modified.
-  - Field 'properties.props:ontologyIdentifier.type' modified.
-  - Field 'properties.props:relatedUBERONTerm._instruction' modified.
-  - Field 'properties.props:relatedUBERONTerm._linkedTypes' modified (value(s) added).
-  - Field 'required' modified (value(s) removed).
-
-Changes in SANDS/atlas/parcellationTerminology.schema.omi.json:
-  - Field 'properties.props:definedIn' removed.
-  - Field 'properties.props:fullName' removed.
-  - Field 'properties.props:isAlternativeVersionOf' removed.
-  - Field 'properties.props:isNewVersionOf' removed.
-  - Field 'properties.props:shortName' removed.
-  - Field 'properties.props:versionIdentifier' removed.
-  - Field 'properties.props:versionInnovation' removed.
-  - Field 'properties.props:dataLocation' added.
-  - Field 'properties.props:hasEntity' added.
-  - Field 'properties.props:ontologyIdentifier._formats' removed.
-  - Field 'properties.props:ontologyIdentifier.items' added.
-  - Field 'properties.props:ontologyIdentifier.minItems' added.
-  - Field 'properties.props:ontologyIdentifier.uniqueItems' added.
-  - Field 'properties.props:ontologyIdentifier._instruction' modified.
-  - Field 'properties.props:ontologyIdentifier.type' modified.
-  - Field 'required' modified.
-
-Changes in SANDS/miscellaneous/coordinatePoint.schema.omi.json:
-  - Field 'properties.props:coordinates._instruction' modified.
-  - Field 'properties.props:coordinateSpace._linkedTypes' modified.
-
-Changes in SANDS/miscellaneous/qualitativeRelationAssessment.schema.omi.json:
-  - Field 'properties.props:inRelationTo._linkedTypes' modified (value(s) added).
-
-Changes in SANDS/miscellaneous/quantitativeRelationAssessment.schema.omi.json:
-  - Field 'properties.props:inRelationTo._instruction' modified.
-  - Field 'properties.props:inRelationTo._linkedTypes' modified.
-  - Field 'properties.props:quantitativeOverlap._instruction' modified.
-
-Changes in SANDS/non-atlas/customAnatomicalEntity.schema.omi.json:
-  - Field '_categories' modified (value(s) added).
-  - Field 'properties.props:relatedUBERONTerm' added.
-  - Field 'properties.props:hasAnnotation._linkedTypes' removed.
-  - Field 'properties.props:hasAnnotation._embeddedTypes' added.
-  - Field 'properties.props:hasAnnotation.minItems' added.
-  - Field 'properties.props:hasAnnotation.type' added.
-  - Field 'properties.props:hasAnnotation.uniqueItems' added.
-  - Field 'properties.props:hasAnnotation._instruction' modified.
-  - Field 'properties.props:relationAssessment._instruction' modified.
-
-Changes in SANDS/non-atlas/customAnnotation.schema.omi.json:
-  - Field 'properties.props:bestViewPoint' removed.
-  - Field 'properties.props:displayColor' removed.
-  - Field 'properties.props:lookupLabel' removed.
-  - Field 'properties.props:name' removed.
-  - Field 'properties.props:visualizedIn' removed.
-  - Field 'properties.props:anchorPoint' added.
-  - Field 'properties.props:criteriaType' added.
-  - Field 'properties.props:preferredVisualization' added.
-  - Field 'properties.props:specification' added.
-  - Field 'properties.props:type' added.
-  - Field 'properties.props:coordinateSpace._instruction' modified.
-  - Field 'properties.props:coordinateSpace._linkedTypes' modified.
-  - Field 'properties.props:criteria._instruction' modified.
-  - Field 'properties.props:criteriaQualityType._instruction' modified.
-  - Field 'properties.props:inspiredBy._instruction' modified.
-  - Field 'properties.props:internalIdentifier._instruction' modified.
-  - Field 'properties.props:laterality._instruction' modified.
-  - Field 'required' modified.
-
-Changes in SANDS/non-atlas/customCoordinateSpace.schema.omi.json:
-  - Field '_categories' added.
-  - Field 'properties.props:axesOrigin._instruction' modified.
-  - Field 'properties.props:defaultImage._instruction' modified.

@@ -33,7 +33,7 @@
     "https://openminds.ebrains.eu/vocab/isAlternativeVersionOf": {
       "_instruction": "Add one or several alternative versions to this parcellation terminology.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationTerminology"
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
       ],
       "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
       "label": "Is alternative version of",
@@ -48,7 +48,7 @@
     "https://openminds.ebrains.eu/vocab/isNewVersionOf": {
       "_instruction": "Add the earlier version of this parcellation terminology.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationTerminology"
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
       ],
       "description": "Reference to a previous (potentially outdated) particular form of something.",
       "label": "Is new version of",
