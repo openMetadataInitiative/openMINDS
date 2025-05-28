@@ -70,23 +70,15 @@
     "publications/publicationIssue.schema.omi.json",
     "publications/publicationVolume.schema.omi.json",
     "publications/scholarlyArticle.schema.omi.json",
-    "SANDS/atlas/atlasAnnotation.schema.omi.json",
-    "SANDS/atlas/commonCoordinateSpace.schema.omi.json",
     "SANDS/atlas/commonCoordinateSpaceVersion.schema.omi.json",
-    "SANDS/atlas/parcellationEntity.schema.omi.json",
     "SANDS/atlas/parcellationEntityVersion.schema.omi.json",
     "SANDS/atlas/parcellationTerminologyVersion.schema.omi.json",
     "SANDS/mathematicalShapes/circle.schema.omi.json",
     "SANDS/mathematicalShapes/ellipse.schema.omi.json",
     "SANDS/mathematicalShapes/rectangle.schema.omi.json",
     "SANDS/miscellaneous/anatomicalTargetPosition.schema.omi.json",
-    "SANDS/miscellaneous/qualitativeRelationAssessment.schema.omi.json",
-    "SANDS/miscellaneous/quantitativeRelationAssessment.schema.omi.json",
     "SANDS/miscellaneous/singleColor.schema.omi.json",
     "SANDS/miscellaneous/viewerSpecification.schema.omi.json",
-    "SANDS/non-atlas/customAnatomicalEntity.schema.omi.json",
-    "SANDS/non-atlas/customAnnotation.schema.omi.json",
-    "SANDS/non-atlas/customCoordinateSpace.schema.omi.json",
     "specimenPrep/activity/cranialWindowPreparation.schema.omi.json",
     "specimenPrep/activity/tissueCulturePreparation.schema.omi.json",
     "specimenPrep/activity/tissueSampleSlicing.schema.omi.json",
@@ -101,12 +93,7 @@
     "core/research/numericalParameter.schema.omi.json",
     "core/research/parameterSet.schema.omi.json",
     "core/research/stringParameter.schema.omi.json",
-    "SANDS/anatomicalEntity.schema.omi.json",
-    "SANDS/anatomicalEntityRelation.schema.omi.json",
-    "SANDS/annotation.schema.omi.json",
-    "SANDS/coordinateSpace.schema.omi.json",
-    "SANDS/electrodeContact.schema.omi.json",
-    "SANDS/image.schema.omi.json"
+    "SANDS/non-atlas/electrodeContact.schema.omi.json"
   ],
   "movedFiles": [
     {
@@ -141,33 +128,13 @@
     },
     {
       "file": "electrode.schema.omi.json",
-      "source": "SANDS/electrode.schema.omi.json",
+      "source": "SANDS/non-atlas/electrode.schema.omi.json",
       "destination": "ephys/device/electrode.schema.omi.json"
     },
     {
       "file": "electrodeArray.schema.omi.json",
-      "source": "SANDS/electrodeArray.schema.omi.json",
+      "source": "SANDS/non-atlas/electrodeArray.schema.omi.json",
       "destination": "ephys/device/electrodeArray.schema.omi.json"
-    },
-    {
-      "file": "brainAtlas.schema.omi.json",
-      "source": "SANDS/brainAtlas.schema.omi.json",
-      "destination": "SANDS/atlas/brainAtlas.schema.omi.json"
-    },
-    {
-      "file": "brainAtlasVersion.schema.omi.json",
-      "source": "SANDS/brainAtlasVersion.schema.omi.json",
-      "destination": "SANDS/atlas/brainAtlasVersion.schema.omi.json"
-    },
-    {
-      "file": "parcellationTerminology.schema.omi.json",
-      "source": "SANDS/parcellationTerminology.schema.omi.json",
-      "destination": "SANDS/atlas/parcellationTerminology.schema.omi.json"
-    },
-    {
-      "file": "coordinatePoint.schema.omi.json",
-      "source": "SANDS/coordinatePoint.schema.omi.json",
-      "destination": "SANDS/miscellaneous/coordinatePoint.schema.omi.json"
     }
   ],
   "changes": [
@@ -945,7 +912,8 @@
           "property": "properties.props:studyTarget._instruction"
         },
         {
-          "property": "properties.props:studyTarget._linkedTypes"
+          "property": "properties.props:studyTarget._linkedTypes",
+          "modification": "value(s) added"
         }
       ],
       "schemaType": "Model"
@@ -1315,7 +1283,8 @@
           "property": "properties.props:protocol._instruction"
         },
         {
-          "property": "properties.props:studyTarget._linkedTypes"
+          "property": "properties.props:studyTarget._linkedTypes",
+          "modification": "value(s) added"
         }
       ],
       "schemaType": "ProtocolExecution"
@@ -1595,6 +1564,452 @@
         }
       ],
       "schemaType": "TissueSampleState"
+    },
+    {
+      "file": "SANDS/atlas/atlasAnnotation.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:anchorPoint",
+        "properties.props:criteriaType",
+        "properties.props:preferredVisualization",
+        "properties.props:specification",
+        "properties.props:type"
+      ],
+      "removedAttributes": [
+        "properties.props:bestViewPoint",
+        "properties.props:displayColor",
+        "properties.props:lookupLabel",
+        "properties.props:name",
+        "properties.props:versionIdentifier",
+        "properties.props:versionInnovation",
+        "properties.props:visualizedIn"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:criteria._instruction"
+        },
+        {
+          "property": "properties.props:criteriaQualityType._instruction"
+        },
+        {
+          "property": "properties.props:inspiredBy._instruction"
+        },
+        {
+          "property": "properties.props:internalIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:laterality._instruction"
+        },
+        {
+          "property": "required"
+        }
+      ],
+      "schemaType": "AtlasAnnotation"
+    },
+    {
+      "file": "SANDS/atlas/brainAtlas.schema.omi.json",
+      "addedAttributes": [
+        "_categories",
+        "properties.props:abbreviation",
+        "properties.props:author",
+        "properties.props:custodian",
+        "properties.props:hasTerminology",
+        "properties.props:ontologyIdentifier",
+        "properties.props:usedSpecies",
+        "properties.props:homepage._formats",
+        "properties.props:homepage.formatting",
+        "properties.props:homepage.multiline",
+        "properties.props:homepage.type"
+      ],
+      "removedAttributes": [
+        "properties.props:homepage._linkedTypes",
+        "properties.props:homepage.nameForReverseLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:hasVersion._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:howToCite._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "required",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "BrainAtlas"
+    },
+    {
+      "file": "SANDS/atlas/brainAtlasVersion.schema.omi.json",
+      "addedAttributes": [
+        "_categories",
+        "properties.props:abbreviation",
+        "properties.props:accessibility",
+        "properties.props:author",
+        "properties.props:copyright",
+        "properties.props:custodian",
+        "properties.props:description",
+        "properties.props:fullDocumentation",
+        "properties.props:funding",
+        "properties.props:keyword",
+        "properties.props:license",
+        "properties.props:majorVersionIdentifier",
+        "properties.props:otherContribution",
+        "properties.props:relatedPublication",
+        "properties.props:repository",
+        "properties.props:supportChannel",
+        "properties.props:type",
+        "properties.props:usedSpecimen",
+        "properties.props:hasTerminology._embeddedTypes",
+        "properties.props:homepage._formats",
+        "properties.props:homepage.formatting",
+        "properties.props:homepage.multiline",
+        "properties.props:homepage.type"
+      ],
+      "removedAttributes": [
+        "properties.props:hasTerminology._linkedTypes",
+        "properties.props:homepage._linkedTypes",
+        "properties.props:homepage.nameForReverseLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:coordinateSpace._instruction"
+        },
+        {
+          "property": "properties.props:coordinateSpace._linkedTypes"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:hasTerminology._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:howToCite._instruction"
+        },
+        {
+          "property": "properties.props:isAlternativeVersionOf._instruction"
+        },
+        {
+          "property": "properties.props:isNewVersionOf._instruction"
+        },
+        {
+          "property": "properties.props:ontologyIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:releaseDate._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "properties.props:versionIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:versionInnovation._instruction"
+        },
+        {
+          "property": "required"
+        }
+      ],
+      "schemaType": "BrainAtlasVersion"
+    },
+    {
+      "file": "SANDS/atlas/commonCoordinateSpace.schema.omi.json",
+      "addedAttributes": [
+        "_categories",
+        "properties.props:abbreviation",
+        "properties.props:author",
+        "properties.props:custodian",
+        "properties.props:description",
+        "properties.props:hasVersion",
+        "properties.props:usedSpecies",
+        "properties.props:homepage._formats",
+        "properties.props:homepage.formatting",
+        "properties.props:homepage.multiline",
+        "properties.props:homepage.type",
+        "properties.props:ontologyIdentifier.items",
+        "properties.props:ontologyIdentifier.minItems",
+        "properties.props:ontologyIdentifier.uniqueItems"
+      ],
+      "removedAttributes": [
+        "properties.props:anatomicalAxesOrientation",
+        "properties.props:axesOrigin",
+        "properties.props:defaultImage",
+        "properties.props:nativeUnit",
+        "properties.props:releaseDate",
+        "properties.props:versionIdentifier",
+        "properties.props:homepage._linkedTypes",
+        "properties.props:homepage.nameForReverseLink",
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:digitalIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:howToCite._instruction"
+        },
+        {
+          "property": "properties.props:ontologyIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:ontologyIdentifier.type"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "required"
+        }
+      ],
+      "schemaType": "CommonCoordinateSpace"
+    },
+    {
+      "file": "SANDS/atlas/parcellationEntity.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:abbreviation",
+        "properties.props:alternateName",
+        "properties.props:definition",
+        "properties.props:hasVersion",
+        "properties.props:lookupLabel",
+        "properties.props:hasParent.minItems",
+        "properties.props:hasParent.type",
+        "properties.props:hasParent.uniqueItems",
+        "properties.props:ontologyIdentifier.items",
+        "properties.props:ontologyIdentifier.minItems",
+        "properties.props:ontologyIdentifier.uniqueItems"
+      ],
+      "removedAttributes": [
+        "properties.props:hasAnnotation",
+        "properties.props:isPartOf",
+        "properties.props:relationAssessment",
+        "properties.props:versionIdentifier",
+        "properties.props:versionInnovation",
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:hasParent._instruction"
+        },
+        {
+          "property": "properties.props:name._instruction"
+        },
+        {
+          "property": "properties.props:ontologyIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:ontologyIdentifier.type"
+        },
+        {
+          "property": "properties.props:relatedUBERONTerm._instruction"
+        },
+        {
+          "property": "properties.props:relatedUBERONTerm._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
+      ],
+      "schemaType": "ParcellationEntity"
+    },
+    {
+      "file": "SANDS/atlas/parcellationTerminology.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:dataLocation",
+        "properties.props:hasEntity",
+        "properties.props:ontologyIdentifier.items",
+        "properties.props:ontologyIdentifier.minItems",
+        "properties.props:ontologyIdentifier.uniqueItems"
+      ],
+      "removedAttributes": [
+        "properties.props:definedIn",
+        "properties.props:fullName",
+        "properties.props:isAlternativeVersionOf",
+        "properties.props:isNewVersionOf",
+        "properties.props:shortName",
+        "properties.props:versionIdentifier",
+        "properties.props:versionInnovation",
+        "properties.props:ontologyIdentifier._formats"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:ontologyIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:ontologyIdentifier.type"
+        },
+        {
+          "property": "required"
+        }
+      ],
+      "schemaType": "ParcellationTerminology"
+    },
+    {
+      "file": "SANDS/miscellaneous/coordinatePoint.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:coordinates._instruction"
+        },
+        {
+          "property": "properties.props:coordinateSpace._linkedTypes"
+        }
+      ],
+      "schemaType": "CoordinatePoint"
+    },
+    {
+      "file": "SANDS/miscellaneous/qualitativeRelationAssessment.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:inRelationTo._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "QualitativeRelationAssessment"
+    },
+    {
+      "file": "SANDS/miscellaneous/quantitativeRelationAssessment.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:inRelationTo._instruction"
+        },
+        {
+          "property": "properties.props:inRelationTo._linkedTypes"
+        },
+        {
+          "property": "properties.props:quantitativeOverlap._instruction"
+        }
+      ],
+      "schemaType": "QuantitativeRelationAssessment"
+    },
+    {
+      "file": "SANDS/non-atlas/customAnatomicalEntity.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:relatedUBERONTerm",
+        "properties.props:hasAnnotation._embeddedTypes",
+        "properties.props:hasAnnotation.minItems",
+        "properties.props:hasAnnotation.type",
+        "properties.props:hasAnnotation.uniqueItems"
+      ],
+      "removedAttributes": [
+        "properties.props:hasAnnotation._linkedTypes"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:hasAnnotation._instruction"
+        },
+        {
+          "property": "properties.props:relationAssessment._instruction"
+        }
+      ],
+      "schemaType": "CustomAnatomicalEntity"
+    },
+    {
+      "file": "SANDS/non-atlas/customAnnotation.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:anchorPoint",
+        "properties.props:criteriaType",
+        "properties.props:preferredVisualization",
+        "properties.props:specification",
+        "properties.props:type"
+      ],
+      "removedAttributes": [
+        "properties.props:bestViewPoint",
+        "properties.props:displayColor",
+        "properties.props:lookupLabel",
+        "properties.props:name",
+        "properties.props:visualizedIn"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:coordinateSpace._instruction"
+        },
+        {
+          "property": "properties.props:coordinateSpace._linkedTypes"
+        },
+        {
+          "property": "properties.props:criteria._instruction"
+        },
+        {
+          "property": "properties.props:criteriaQualityType._instruction"
+        },
+        {
+          "property": "properties.props:inspiredBy._instruction"
+        },
+        {
+          "property": "properties.props:internalIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:laterality._instruction"
+        },
+        {
+          "property": "required"
+        }
+      ],
+      "schemaType": "CustomAnnotation"
+    },
+    {
+      "file": "SANDS/non-atlas/customCoordinateSpace.schema.omi.json",
+      "addedAttributes": [
+        "_categories"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:axesOrigin._instruction"
+        },
+        {
+          "property": "properties.props:defaultImage._instruction"
+        }
+      ],
+      "schemaType": "CustomCoordinateSpace"
     }
   ]
 }
