@@ -1,4 +1,7 @@
 {
+  "_categories": [
+    "studyTarget"
+  ],
   "_module": "SANDS",
   "_type": "https://openminds.ebrains.eu/sands/AnatomicalEntity",
   "description": "Structured information on an anatomical entity.",
@@ -29,9 +32,11 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
+      "_formats": [
+        "iri"
+      ],
       "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the ontological term matching this anatomical entity.",
       "description": "Term or code used to identify something or someone registered within a particular ontology.",
-      "format": "iri",
       "formatting": "text/plain",
       "label": "Ontology identifier",
       "labelPlural": "Ontology identifiers",
@@ -41,10 +46,10 @@
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/otherAnatomicalRelation": {
-      "_instruction": "Add one or several relations of this anatomical entity to other anatomical entities that are used elsewhere to describe (roughly) the same anatomical location.",
-      "_linkedTypes": [
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntityRelation"
       ],
+      "_instruction": "Add one or several relations of this anatomical entity to other anatomical entities that are used elsewhere to describe (roughly) the same anatomical location.",
       "description": "Reference to a related anatomical structure.",
       "label": "Other anatomical relation",
       "labelPlural": "Other anatomical relations",
