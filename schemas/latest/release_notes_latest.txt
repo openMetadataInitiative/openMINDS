@@ -1,17 +1,27 @@
 Release Notes latest:
 
-Global changes:
-  - Namespace changed from https://openminds.ebrains.eu/(core|sands|controlledTerms|chemicals|ephys|computation|stimulation|specimenPrep|publications|neuroimaging)/ to https://openminds.om-i.org/types/.
-  - Namespace changed from https://openminds.ebrains.eu/vocab/ to https://openminds.om-i.org/props/.
-
 Added files:
   - controlledTerms/MRAcquisitionType.schema.omi.json
+
+Removed files:
+  - neuroimaging/activity/functionalMRIAcquisition.schema.omi.json
+  - neuroimaging/activity/structuralMRIAcquisition.schema.omi.json
+  - neuroimaging/device/MRIScanner.schema.omi.json
+  - neuroimaging/device/MRIScannerUsage.schema.omi.json
+  - neuroimaging/entity/image.schema.omi.json
+  - neuroimaging/entity/imageSequence.schema.omi.json
+  - neuroimaging/entity/imageStack.schema.omi.json
+  - neuroimaging/entity/volume.schema.omi.json
+  - neuroimaging/entity/volumeSequence.schema.omi.json
 
 Changes in computation/validationTestVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
 
 Changes in computation/workflowRecipeVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+
+Changes in core/data/measurement.schema.omi.json:
+  - Field 'properties.props:measuredWith._linkedTypes' modified (value(s) removed).
 
 Changes in core/products/datasetVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
@@ -20,15 +30,25 @@ Changes in core/products/metaDataModelVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
 
 Changes in core/products/modelVersion.schema.omi.json:
-  - Field 'properties.props:configuration' added.
-  - Field 'properties.props:entryPoint' added.
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+
+Changes in core/products/setup.schema.omi.json:
+  - Field 'properties.props:hasPart._linkedTypes' modified (value(s) removed).
 
 Changes in core/products/softwareVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
 
 Changes in core/products/webServiceVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+
+Changes in ephys/activity/cellPatching.schema.omi.json:
+  - Field 'properties.props:device._linkedTypes' modified (value(s) removed).
+
+Changes in ephys/activity/electrodePlacement.schema.omi.json:
+  - Field 'properties.props:device._linkedTypes' modified (value(s) removed).
+
+Changes in ephys/entity/recording.schema.omi.json:
+  - Field 'properties.props:recordedWith._linkedTypes' modified (value(s) removed).
 
 Changes in publications/book.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
@@ -38,10 +58,6 @@ Changes in publications/chapter.schema.omi.json:
 
 Changes in publications/learningResource.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
-
-Changes in publications/livePaperResourceItem.schema.omi.json:
-  - Field 'properties.props:hostedBy._instruction' modified.
-  - Field 'properties.props:hostedBy._linkedTypes' modified (value(s) added).
 
 Changes in publications/livePaperVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
@@ -54,3 +70,7 @@ Changes in SANDS/atlas/brainAtlasVersion.schema.omi.json:
 
 Changes in SANDS/atlas/commonCoordinateSpaceVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+
+Changes in stimulation/stimulus/ephysStimulus.schema.omi.json:
+  - Field 'properties.props:deliveredBy._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:generatedBy._linkedTypes' modified (value(s) removed).
