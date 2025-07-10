@@ -140,7 +140,7 @@ def enrich_types_with_backwards_compatibility(vocab_types: Dict, not_backwards_c
     for _type in vocab_types:
         remove_version_from_backwards_compatibility(vocab_types[_type], current_version)
         # Handle the first iteration (comparison with v1.0)
-        if previous_version == FIRST_VERSION and previous_version in vocab_types[_type].get("isPartOfVersion"): #and _last_version_index != 0:
+        if previous_version == FIRST_VERSION and previous_version in vocab_types[_type].get("isPartOfVersion"):
             vocab_types[_type]['backwardsCompatibility'] = {}
             vocab_types[_type]['backwardsCompatibility'][previous_version] = []
 
