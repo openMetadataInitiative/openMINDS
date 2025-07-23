@@ -39,6 +39,16 @@
       "schemaType": "WorkflowRecipeVersion"
     },
     {
+      "file": "controlledTerms/molecularEntity.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "MolecularEntity"
+    },
+    {
       "file": "core/products/datasetVersion.schema.omi.json",
       "modifiedAttributes": [
         {

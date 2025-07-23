@@ -16,7 +16,8 @@
     ],
     "chemicalProduct": [
       "chemicals:ChemicalMixture",
-      "chemicals:ChemicalSubstance"
+      "chemicals:ChemicalSubstance",
+      "controlledTerms:MolecularEntity"
     ],
     "color": [
       "controlledTerms:Colormap",
