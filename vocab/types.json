@@ -1008,8 +1008,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -1153,11 +1155,11 @@
     ],
     "identical": [
       [
-        "v3.0"
+        "v3.0",
+        "v4.0"
       ],
       [
-        "latest",
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -1221,11 +1223,11 @@
     ],
     "identical": [
       [
-        "v3.0"
+        "v3.0",
+        "v4.0"
       ],
       [
-        "latest",
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -2728,8 +2730,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -2859,11 +2863,11 @@
     ],
     "identical": [
       [
-        "v3.0"
+        "v3.0",
+        "v4.0"
       ],
       [
-        "latest",
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -3321,21 +3325,18 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
     "identical": [
       [
-        "latest",
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
-      "v4.0"
+      "latest"
     ],
     "label": "Functional mriacquisition",
     "name": "FunctionalMRIAcquisition"
@@ -3803,8 +3804,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/types/"
       },
@@ -3818,14 +3818,12 @@
     "identical": [
       [
         "latest",
-        "v1.0",
-        "v4.0"
+        "v1.0"
       ]
     ],
     "isPartOfVersion": [
       "latest",
-      "v1.0",
-      "v4.0"
+      "v1.0"
     ],
     "label": "Image",
     "name": "Image"
@@ -3836,21 +3834,18 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
     "identical": [
       [
-        "latest",
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
-      "v4.0"
+      "latest"
     ],
     "label": "Image sequence",
     "name": "ImageSequence"
@@ -3861,21 +3856,18 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
     "identical": [
       [
-        "latest",
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
-      "v4.0"
+      "latest"
     ],
     "label": "Image stack",
     "name": "ImageStack"
@@ -4165,11 +4157,11 @@
     ],
     "identical": [
       [
-        "v3.0"
+        "v3.0",
+        "v4.0"
       ],
       [
-        "latest",
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -4336,21 +4328,18 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
     "identical": [
       [
-        "latest",
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
-      "v4.0"
+      "latest"
     ],
     "label": "Mriscanner",
     "name": "MRIScanner"
@@ -4361,21 +4350,18 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
     "identical": [
       [
-        "latest",
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
-      "v4.0"
+      "latest"
     ],
     "label": "Mriscanner usage",
     "name": "MRIScannerUsage"
@@ -4491,11 +4477,11 @@
     ],
     "identical": [
       [
-        "v3.0"
+        "v3.0",
+        "v4.0"
       ],
       [
-        "latest",
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -4894,9 +4880,11 @@
     ],
     "identical": [
       [
-        "latest",
         "v3.0",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -6440,11 +6428,11 @@
     ],
     "identical": [
       [
-        "v3.0"
+        "v3.0",
+        "v4.0"
       ],
       [
-        "latest",
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -6761,11 +6749,11 @@
     ],
     "identical": [
       [
-        "v3.0"
+        "v3.0",
+        "v4.0"
       ],
       [
-        "latest",
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -7461,21 +7449,18 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
     "identical": [
       [
-        "latest",
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
-      "v4.0"
+      "latest"
     ],
     "label": "Structural mriacquisition",
     "name": "StructuralMRIAcquisition"
@@ -8525,21 +8510,18 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
     "identical": [
       [
-        "latest",
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
-      "v4.0"
+      "latest"
     ],
     "label": "Volume",
     "name": "Volume"
@@ -8550,21 +8532,18 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
     "identical": [
       [
-        "latest",
-        "v4.0"
+        "latest"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
-      "v4.0"
+      "latest"
     ],
     "label": "Volume sequence",
     "name": "VolumeSequence"

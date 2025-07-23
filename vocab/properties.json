@@ -82,9 +82,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/MRAcquisitionType"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/MRAcquisitionType"
         ]
       },
       "nameForReverseLink": null
@@ -93,8 +90,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -106,9 +102,6 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
   },
@@ -117,8 +110,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -129,9 +121,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
@@ -601,9 +590,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -612,8 +598,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -624,9 +609,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
       ]
     }
@@ -775,9 +757,6 @@
         "https://openminds.om-i.org/types/AnatomicalTargetPosition",
         "https://openminds.om-i.org/types/ChemicalMixture",
         "https://openminds.om-i.org/types/ChemicalSubstance",
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack",
         "https://openminds.om-i.org/types/Measurement",
         "https://openminds.om-i.org/types/ParcellationEntityVersion",
         "https://openminds.om-i.org/types/Recording",
@@ -787,9 +766,7 @@
         "https://openminds.om-i.org/types/TissueSampleCollection",
         "https://openminds.om-i.org/types/TissueSampleCollectionState",
         "https://openminds.om-i.org/types/TissueSampleState",
-        "https://openminds.om-i.org/types/ViewerSpecification",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
+        "https://openminds.om-i.org/types/ViewerSpecification"
       ]
     }
   },
@@ -2144,9 +2121,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/File"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/File"
         ]
       },
       "nameForReverseLink": null
@@ -2155,8 +2129,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -2168,9 +2141,6 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
   },
@@ -2178,9 +2148,6 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/File"
-        ],
-        "v4.0": [
           "https://openminds.om-i.org/types/File"
         ]
       },
@@ -2190,8 +2157,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -2202,9 +2168,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
@@ -2353,7 +2316,6 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/DatasetVersion",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/ProtocolExecution"
       ]
     }
@@ -2609,13 +2571,6 @@
           "https://openminds.om-i.org/types/MRIScannerUsage",
           "https://openminds.om-i.org/types/PipetteUsage",
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/ElectrodeArrayUsage",
-          "https://openminds.om-i.org/types/ElectrodeUsage",
-          "https://openminds.om-i.org/types/MRIScannerUsage",
-          "https://openminds.om-i.org/types/PipetteUsage",
-          "https://openminds.om-i.org/types/SlicingDeviceUsage"
         ]
       },
       "nameForReverseLink": null
@@ -2624,8 +2579,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -2636,13 +2590,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/Image",
         "https://openminds.om-i.org/types/ImageSequence",
         "https://openminds.om-i.org/types/ImageStack",
@@ -2862,9 +2809,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -2873,8 +2817,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -2885,11 +2828,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/Image",
         "https://openminds.om-i.org/types/ImageSequence",
         "https://openminds.om-i.org/types/ImageStack"
@@ -3158,7 +3096,6 @@
       "v4.0": [
         "https://openminds.om-i.org/types/Configuration",
         "https://openminds.om-i.org/types/Environment",
-        "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
         "https://openminds.om-i.org/types/WorkflowExecution"
       ]
@@ -3627,9 +3564,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/AmountOfChemical"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/AmountOfChemical"
         ]
       },
       "nameForReverseLink": null
@@ -3638,8 +3572,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -3650,10 +3583,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/StructuralMRIAcquisition"
       ]
@@ -3874,12 +3803,7 @@
       "v4.0": [
         "https://openminds.om-i.org/types/BrainAtlasVersion",
         "https://openminds.om-i.org/types/CoordinatePoint",
-        "https://openminds.om-i.org/types/CustomAnnotation",
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
+        "https://openminds.om-i.org/types/CustomAnnotation"
       ]
     }
   },
@@ -4771,7 +4695,6 @@
         "https://openminds.om-i.org/types/DataAnalysis",
         "https://openminds.om-i.org/types/DataCopy",
         "https://openminds.om-i.org/types/ElectrodePlacement",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/GenericComputation",
         "https://openminds.om-i.org/types/ModelValidation",
         "https://openminds.om-i.org/types/Optimization",
@@ -4779,7 +4702,6 @@
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
@@ -4872,15 +4794,10 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/CustomPropertySet",
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack",
         "https://openminds.om-i.org/types/ParcellationTerminology",
         "https://openminds.om-i.org/types/ParcellationTerminologyVersion",
         "https://openminds.om-i.org/types/Recording",
-        "https://openminds.om-i.org/types/ServiceLink",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
+        "https://openminds.om-i.org/types/ServiceLink"
       ]
     }
   },
@@ -5418,9 +5335,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -5429,8 +5343,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -5442,9 +5355,6 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
       ]
     }
   },
@@ -5452,9 +5362,6 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
-        "v4.0": [
           "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
@@ -5464,8 +5371,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -5476,9 +5382,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
       ]
     }
@@ -5502,7 +5405,6 @@
         "v4.0": [
           "https://openminds.om-i.org/types/ElectrodeArrayUsage",
           "https://openminds.om-i.org/types/ElectrodeUsage",
-          "https://openminds.om-i.org/types/MRIScannerUsage",
           "https://openminds.om-i.org/types/PipetteUsage",
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
         ]
@@ -6136,7 +6038,6 @@
         "https://openminds.om-i.org/types/FileBundleGrouping",
         "https://openminds.om-i.org/types/FileRepositoryType",
         "https://openminds.om-i.org/types/FileUsageRole",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/GenericComputation",
         "https://openminds.om-i.org/types/GeneticStrainType",
         "https://openminds.om-i.org/types/GustatoryStimulusType",
@@ -6150,7 +6051,6 @@
         "https://openminds.om-i.org/types/LivePaperSection",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MRIPulseSequence",
-        "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/MRIWeighting",
         "https://openminds.om-i.org/types/MeasuredQuantity",
         "https://openminds.om-i.org/types/MeasuredSignalType",
@@ -6196,7 +6096,6 @@
         "https://openminds.om-i.org/types/StimulationApproach",
         "https://openminds.om-i.org/types/StimulationTechnique",
         "https://openminds.om-i.org/types/Strain",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/SubcellularEntity",
         "https://openminds.om-i.org/types/SubjectAttribute",
         "https://openminds.om-i.org/types/TactileStimulusType",
@@ -6371,8 +6270,6 @@
           "https://openminds.om-i.org/types/ElectrodeArray",
           "https://openminds.om-i.org/types/ElectrodeArrayUsage",
           "https://openminds.om-i.org/types/ElectrodeUsage",
-          "https://openminds.om-i.org/types/MRIScanner",
-          "https://openminds.om-i.org/types/MRIScannerUsage",
           "https://openminds.om-i.org/types/OperatingDevice",
           "https://openminds.om-i.org/types/Pipette",
           "https://openminds.om-i.org/types/PipetteUsage",
@@ -6441,13 +6338,10 @@
         "https://openminds.om-i.org/types/ElectrodeArrayUsage",
         "https://openminds.om-i.org/types/ElectrodePlacement",
         "https://openminds.om-i.org/types/ElectrodeUsage",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
-        "https://openminds.om-i.org/types/MRIScannerUsage",
         "https://openminds.om-i.org/types/PipetteUsage",
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/SlicingDeviceUsage",
         "https://openminds.om-i.org/types/SoftwareVersion",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueSampleSlicing"
       ]
     }
@@ -6504,7 +6398,6 @@
       "v4.0": [
         "https://openminds.om-i.org/types/Electrode",
         "https://openminds.om-i.org/types/ElectrodeArray",
-        "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/Pipette",
         "https://openminds.om-i.org/types/SlicingDevice"
       ]
@@ -6749,7 +6642,6 @@
         "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/LivePaper",
         "https://openminds.om-i.org/types/LivePaperVersion",
-        "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/MetaDataModel",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/Model",
@@ -6825,12 +6717,7 @@
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation"
       ],
       "v4.0": [
-        "https://openminds.om-i.org/types/CranialWindowPreparation",
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
+        "https://openminds.om-i.org/types/CranialWindowPreparation"
       ]
     }
   },
@@ -6966,9 +6853,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -6977,8 +6861,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -6990,9 +6873,6 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
   },
@@ -7000,9 +6880,6 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
-        "v4.0": [
           "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
@@ -7012,8 +6889,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -7024,9 +6900,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
@@ -7468,7 +7341,6 @@
         "https://openminds.om-i.org/types/DataAnalysis",
         "https://openminds.om-i.org/types/DataCopy",
         "https://openminds.om-i.org/types/ElectrodePlacement",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/GenericComputation",
         "https://openminds.om-i.org/types/ModelValidation",
         "https://openminds.om-i.org/types/Optimization",
@@ -7476,7 +7348,6 @@
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
@@ -7549,7 +7420,6 @@
         "https://openminds.ebrains.eu/computation/ValidationTestVersion"
       ],
       "v4.0": [
-        "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion"
       ]
     }
@@ -8048,9 +7918,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/File"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/File"
         ]
       },
       "nameForReverseLink": null
@@ -8059,8 +7926,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -8072,9 +7938,6 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
       ]
     }
   },
@@ -8082,11 +7945,6 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/Circle",
-          "https://openminds.om-i.org/types/Ellipse",
-          "https://openminds.om-i.org/types/Rectangle"
-        ],
-        "v4.0": [
           "https://openminds.om-i.org/types/Circle",
           "https://openminds.om-i.org/types/Ellipse",
           "https://openminds.om-i.org/types/Rectangle"
@@ -8098,8 +7956,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -8110,9 +7967,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
@@ -8289,9 +8143,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -8300,8 +8151,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -8312,9 +8162,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
@@ -8864,7 +8711,6 @@
         "v4.0": [
           "https://openminds.om-i.org/types/ElectrodeArrayUsage",
           "https://openminds.om-i.org/types/ElectrodeUsage",
-          "https://openminds.om-i.org/types/MRIScannerUsage",
           "https://openminds.om-i.org/types/PipetteUsage",
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
         ]
@@ -9707,7 +9553,6 @@
           "https://openminds.om-i.org/types/FileBundle",
           "https://openminds.om-i.org/types/LivePaper",
           "https://openminds.om-i.org/types/LivePaperVersion",
-          "https://openminds.om-i.org/types/MRIScanner",
           "https://openminds.om-i.org/types/MetaDataModel",
           "https://openminds.om-i.org/types/MetaDataModelVersion",
           "https://openminds.om-i.org/types/Model",
@@ -10383,9 +10228,7 @@
           "https://openminds.ebrains.eu/core/Organization"
         ],
         "v4.0": [
-          "https://openminds.om-i.org/types/Organization",
-          "https://openminds.om-i.org/types/Service",
-          "https://openminds.om-i.org/types/WebService"
+          "https://openminds.om-i.org/types/Organization"
         ]
       },
       "nameForReverseLink": null
@@ -10864,7 +10707,6 @@
         "https://openminds.om-i.org/types/DataAnalysis",
         "https://openminds.om-i.org/types/DataCopy",
         "https://openminds.om-i.org/types/ElectrodePlacement",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/GenericComputation",
         "https://openminds.om-i.org/types/ModelValidation",
         "https://openminds.om-i.org/types/Optimization",
@@ -10872,7 +10714,6 @@
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
@@ -11208,10 +11049,6 @@
         "latest": [
           "https://openminds.om-i.org/types/QuantitativeValue",
           "https://openminds.om-i.org/types/QuantitativeValueRange"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/QuantitativeValue",
-          "https://openminds.om-i.org/types/QuantitativeValueRange"
         ]
       },
       "nameForReverseLink": null
@@ -11220,8 +11057,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -11232,9 +11068,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
@@ -11740,9 +11573,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -11751,8 +11581,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -11763,9 +11592,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
@@ -12175,7 +12001,6 @@
         "https://openminds.om-i.org/types/ElectrodePlacement",
         "https://openminds.om-i.org/types/File",
         "https://openminds.om-i.org/types/FileBundle",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/LivePaperResourceItem",
         "https://openminds.om-i.org/types/LivePaperSection",
         "https://openminds.om-i.org/types/ProtocolExecution",
@@ -12184,7 +12009,6 @@
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/ScholarlyArticle",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/Subject",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSample",
@@ -13653,10 +13477,7 @@
         "https://openminds.om-i.org/types/ElectrodeUsage",
         "https://openminds.om-i.org/types/EphysStimulus",
         "https://openminds.om-i.org/types/FileRepositoryStructure",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/GenericComputation",
-        "https://openminds.om-i.org/types/MRIScanner",
-        "https://openminds.om-i.org/types/MRIScannerUsage",
         "https://openminds.om-i.org/types/ModelValidation",
         "https://openminds.om-i.org/types/Optimization",
         "https://openminds.om-i.org/types/ParcellationEntity",
@@ -13670,7 +13491,6 @@
         "https://openminds.om-i.org/types/SlicingDevice",
         "https://openminds.om-i.org/types/SlicingDeviceUsage",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/Subject",
         "https://openminds.om-i.org/types/SubjectGroup",
         "https://openminds.om-i.org/types/SubjectGroupState",
@@ -13681,9 +13501,7 @@
         "https://openminds.om-i.org/types/TissueSampleCollectionState",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/TissueSampleState",
-        "https://openminds.om-i.org/types/Visualization",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
+        "https://openminds.om-i.org/types/Visualization"
       ]
     }
   },
@@ -13691,9 +13509,6 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
-        "v4.0": [
           "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
@@ -13703,8 +13518,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -13715,9 +13529,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRIScanner"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/MRIScanner"
       ]
     }
@@ -13824,7 +13635,6 @@
       "v4.0": [
         "https://openminds.om-i.org/types/Electrode",
         "https://openminds.om-i.org/types/ElectrodeArray",
-        "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/Pipette",
         "https://openminds.om-i.org/types/Setup",
         "https://openminds.om-i.org/types/SlicingDevice"
@@ -14038,7 +13848,6 @@
         "v4.0": [
           "https://openminds.om-i.org/types/ElectrodeArrayUsage",
           "https://openminds.om-i.org/types/ElectrodeUsage",
-          "https://openminds.om-i.org/types/MRIScannerUsage",
           "https://openminds.om-i.org/types/PipetteUsage",
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
         ]
@@ -14182,7 +13991,6 @@
       "v4.0": [
         "https://openminds.om-i.org/types/ElectrodeArrayUsage",
         "https://openminds.om-i.org/types/ElectrodeUsage",
-        "https://openminds.om-i.org/types/MRIScannerUsage",
         "https://openminds.om-i.org/types/PipetteUsage",
         "https://openminds.om-i.org/types/SlicingDeviceUsage"
       ]
@@ -14798,9 +14606,6 @@
         "https://openminds.om-i.org/types/GustatoryStimulusType",
         "https://openminds.om-i.org/types/Handedness",
         "https://openminds.om-i.org/types/HardwareSystem",
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack",
         "https://openminds.om-i.org/types/Language",
         "https://openminds.om-i.org/types/Laterality",
         "https://openminds.om-i.org/types/LaunchConfiguration",
@@ -14810,7 +14615,6 @@
         "https://openminds.om-i.org/types/LivePaperSection",
         "https://openminds.om-i.org/types/LocalFile",
         "https://openminds.om-i.org/types/MRIPulseSequence",
-        "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/MRIWeighting",
         "https://openminds.om-i.org/types/MeasuredQuantity",
         "https://openminds.om-i.org/types/MeasuredSignalType",
@@ -14997,8 +14801,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -15009,9 +14812,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
@@ -15054,8 +14854,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -15068,10 +14867,6 @@
       "latest": [
         "https://openminds.om-i.org/types/ImageSequence",
         "https://openminds.om-i.org/types/ImageStack"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack"
       ]
     }
   },
@@ -15080,8 +14875,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -15092,10 +14886,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/Volume",
         "https://openminds.om-i.org/types/VolumeSequence"
       ]
@@ -15172,8 +14962,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -15185,9 +14974,6 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/VolumeSequence"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/VolumeSequence"
       ]
     }
   },
@@ -15196,8 +14982,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -15209,9 +14994,6 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
   },
@@ -15220,8 +15002,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -15232,9 +15013,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
       ]
     }
@@ -15954,7 +15732,6 @@
         "https://openminds.om-i.org/types/DataAnalysis",
         "https://openminds.om-i.org/types/DataCopy",
         "https://openminds.om-i.org/types/ElectrodePlacement",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/GenericComputation",
         "https://openminds.om-i.org/types/ModelValidation",
         "https://openminds.om-i.org/types/Optimization",
@@ -15962,7 +15739,6 @@
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
@@ -16165,7 +15941,6 @@
       "v4.0": [
         "https://openminds.om-i.org/types/Electrode",
         "https://openminds.om-i.org/types/ElectrodeArray",
-        "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/Pipette",
         "https://openminds.om-i.org/types/SlicingDevice"
       ]
@@ -16220,8 +15995,7 @@
     "asString": {
       "formatting": "text/plain",
       "inVersions": [
-        "latest",
-        "v4.0"
+        "latest"
       ],
       "multiline": false
     },
@@ -16229,8 +16003,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -16241,9 +16014,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
@@ -16554,7 +16324,6 @@
         "https://openminds.om-i.org/types/DataAnalysis",
         "https://openminds.om-i.org/types/DataCopy",
         "https://openminds.om-i.org/types/ElectrodePlacement",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/GenericComputation",
         "https://openminds.om-i.org/types/ModelValidation",
         "https://openminds.om-i.org/types/Optimization",
@@ -16562,7 +16331,6 @@
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
@@ -16574,9 +16342,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/CartesianDirectionVector"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/CartesianDirectionVector"
         ]
       },
       "nameForReverseLink": null
@@ -16585,8 +16350,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -16597,9 +16361,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
@@ -16773,9 +16534,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -16784,8 +16542,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -16796,11 +16553,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/Image",
         "https://openminds.om-i.org/types/ImageSequence",
         "https://openminds.om-i.org/types/ImageStack"
@@ -17281,11 +17033,9 @@
         "https://openminds.om-i.org/types/CranialWindowPreparation",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/ElectrodePlacement",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/ProtocolExecution",
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing"
       ]
@@ -17743,11 +17493,9 @@
         "https://openminds.om-i.org/types/CranialWindowPreparation",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/ElectrodePlacement",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/ProtocolExecution",
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing"
       ]
@@ -17924,9 +17672,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/MRIPulseSequence"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/MRIPulseSequence"
         ]
       },
       "nameForReverseLink": null
@@ -17935,8 +17680,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -17947,9 +17691,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
@@ -18165,9 +17906,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/MRIRadiofrequencyCoilType"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/MRIRadiofrequencyCoilType"
         ]
       },
       "nameForReverseLink": null
@@ -18176,8 +17914,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -18188,9 +17925,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
@@ -18329,7 +18063,6 @@
         "v4.0": [
           "https://openminds.om-i.org/types/ElectrodeArrayUsage",
           "https://openminds.om-i.org/types/ElectrodeUsage",
-          "https://openminds.om-i.org/types/MRIScannerUsage",
           "https://openminds.om-i.org/types/PipetteUsage",
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
         ]
@@ -19186,9 +18919,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -19197,8 +18927,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -19209,9 +18938,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
@@ -19567,9 +19293,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/File"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/File"
         ]
       },
       "nameForReverseLink": null
@@ -19578,8 +19301,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -19590,9 +19312,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
       ]
     }
@@ -19958,7 +19677,6 @@
       "v4.0": [
         "https://openminds.om-i.org/types/Electrode",
         "https://openminds.om-i.org/types/ElectrodeArray",
-        "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/Pipette",
         "https://openminds.om-i.org/types/SlicingDevice"
       ]
@@ -20334,9 +20052,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/QuantitativeValueArray"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/QuantitativeValueArray"
         ]
       },
       "nameForReverseLink": null
@@ -20345,8 +20060,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -20357,9 +20071,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
@@ -20411,7 +20122,6 @@
         "https://openminds.ebrains.eu/specimenPrep/SlicingDeviceUsage"
       ],
       "v4.0": [
-        "https://openminds.om-i.org/types/ImageStack",
         "https://openminds.om-i.org/types/SlicingDeviceUsage"
       ]
     }
@@ -20421,9 +20131,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/QuantitativeValueArray"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/QuantitativeValueArray"
         ]
       },
       "nameForReverseLink": null
@@ -20432,8 +20139,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -20444,9 +20150,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
@@ -21088,9 +20791,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/AnatomicalAxesOrientation"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/AnatomicalAxesOrientation"
         ]
       },
       "nameForReverseLink": null
@@ -21099,8 +20799,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -21113,10 +20812,6 @@
       "latest": [
         "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/StructuralMRIAcquisition"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition"
       ]
     }
   },
@@ -21125,8 +20820,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -21137,9 +20831,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
@@ -21379,7 +21070,6 @@
         "https://openminds.om-i.org/types/DataAnalysis",
         "https://openminds.om-i.org/types/DataCopy",
         "https://openminds.om-i.org/types/ElectrodePlacement",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/GenericComputation",
         "https://openminds.om-i.org/types/ModelValidation",
         "https://openminds.om-i.org/types/Optimization",
@@ -21387,7 +21077,6 @@
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
@@ -21889,9 +21578,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/File"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/File"
         ]
       },
       "nameForReverseLink": null
@@ -21900,8 +21586,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -21912,9 +21597,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
       ]
     }
@@ -22370,7 +22052,6 @@
         "https://openminds.om-i.org/types/DataCopy",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/ElectrodePlacement",
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/GenericComputation",
         "https://openminds.om-i.org/types/Model",
         "https://openminds.om-i.org/types/ModelValidation",
@@ -22379,7 +22060,6 @@
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/ValidationTest",
@@ -23124,9 +22804,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -23135,8 +22812,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -23147,10 +22823,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/VolumeSequence"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/ImageSequence",
         "https://openminds.om-i.org/types/VolumeSequence"
       ]
@@ -23805,7 +23477,6 @@
         "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
         "https://openminds.om-i.org/types/ElectrodeArrayUsage",
         "https://openminds.om-i.org/types/ElectrodeUsage",
-        "https://openminds.om-i.org/types/MRIScannerUsage",
         "https://openminds.om-i.org/types/PipetteUsage",
         "https://openminds.om-i.org/types/SlicingDeviceUsage"
       ]
@@ -24408,9 +24079,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/QuantitativeValueArray"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/QuantitativeValueArray"
         ]
       },
       "nameForReverseLink": null
@@ -24419,8 +24087,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -24431,9 +24098,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
-      ],
-      "v4.0": [
         "https://openminds.om-i.org/types/FunctionalMRIAcquisition"
       ]
     }
@@ -24447,10 +24111,6 @@
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/QuantitativeValue",
-          "https://openminds.om-i.org/types/QuantitativeValueArray"
         ]
       },
       "nameForReverseLink": null
@@ -24459,8 +24119,7 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest",
-          "v4.0"
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       },
@@ -24483,11 +24142,6 @@
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/sands/Image"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/MRIScannerUsage",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
       ]
     }
   },
