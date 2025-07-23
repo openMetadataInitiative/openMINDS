@@ -1,16 +1,7 @@
 {
   "title": "Release Notes latest",
   "addedFiles": [
-    "controlledTerms/MRAcquisitionType.schema.omi.json",
-    "neuroimaging/activity/functionalMRIAcquisition.schema.omi.json",
-    "neuroimaging/activity/structuralMRIAcquisition.schema.omi.json",
-    "neuroimaging/device/MRIScanner.schema.omi.json",
-    "neuroimaging/device/MRIScannerUsage.schema.omi.json",
-    "neuroimaging/entity/image.schema.omi.json",
-    "neuroimaging/entity/imageSequence.schema.omi.json",
-    "neuroimaging/entity/imageStack.schema.omi.json",
-    "neuroimaging/entity/volume.schema.omi.json",
-    "neuroimaging/entity/volumeSequence.schema.omi.json"
+    "controlledTerms/MRAcquisitionType.schema.omi.json"
   ],
   "changes": [
     {
@@ -58,16 +49,6 @@
       "schemaType": "MolecularEntity"
     },
     {
-      "file": "core/data/measurement.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:measuredWith._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "Measurement"
-    },
-    {
       "file": "core/products/datasetVersion.schema.omi.json",
       "modifiedAttributes": [
         {
@@ -102,16 +83,6 @@
       "schemaType": "ModelVersion"
     },
     {
-      "file": "core/products/setup.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:hasPart._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "Setup"
-    },
-    {
       "file": "core/products/softwareVersion.schema.omi.json",
       "modifiedAttributes": [
         {
@@ -130,36 +101,6 @@
         }
       ],
       "schemaType": "WebServiceVersion"
-    },
-    {
-      "file": "ephys/activity/cellPatching.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:device._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "CellPatching"
-    },
-    {
-      "file": "ephys/activity/electrodePlacement.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:device._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "ElectrodePlacement"
-    },
-    {
-      "file": "ephys/entity/recording.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:recordedWith._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "Recording"
     },
     {
       "file": "publications/book.schema.omi.json",
@@ -243,20 +184,6 @@
         }
       ],
       "schemaType": "CommonCoordinateSpaceVersion"
-    },
-    {
-      "file": "stimulation/stimulus/ephysStimulus.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:deliveredBy._linkedTypes",
-          "modification": "value(s) added"
-        },
-        {
-          "property": "properties.props:generatedBy._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "EphysStimulus"
     }
   ]
 }
