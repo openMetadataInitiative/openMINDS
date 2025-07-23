@@ -5,6 +5,20 @@
   ],
   "changes": [
     {
+      "file": "chemicals/chemicalMixture.schema.omi.json",
+      "addedAttributes": [
+        "_categories"
+      ],
+      "schemaType": "ChemicalMixture"
+    },
+    {
+      "file": "chemicals/chemicalSubstance.schema.omi.json",
+      "addedAttributes": [
+        "_categories"
+      ],
+      "schemaType": "ChemicalSubstance"
+    },
+    {
       "file": "computation/validationTestVersion.schema.omi.json",
       "modifiedAttributes": [
         {

@@ -3,6 +3,12 @@ Release Notes latest:
 Added files:
   - controlledTerms/MRAcquisitionType.schema.omi.json
 
+Changes in chemicals/chemicalMixture.schema.omi.json:
+  - Field '_categories' added.
+
+Changes in chemicals/chemicalSubstance.schema.omi.json:
+  - Field '_categories' added.
+
 Changes in computation/validationTestVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
 
