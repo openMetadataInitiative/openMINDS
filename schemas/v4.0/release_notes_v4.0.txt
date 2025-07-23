@@ -17,6 +17,12 @@ Added files:
   - neuroimaging/entity/volume.schema.omi.json
   - neuroimaging/entity/volumeSequence.schema.omi.json
 
+Changes in chemicals/chemicalMixture.schema.omi.json:
+  - Field '_categories' added.
+
+Changes in chemicals/chemicalSubstance.schema.omi.json:
+  - Field '_categories' added.
+
 Changes in computation/dataAnalysis.schema.omi.json:
   - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
 

@@ -14,6 +14,10 @@
       "sands:ParcellationEntity",
       "sands:ParcellationEntityVersion"
     ],
+    "chemicalProduct": [
+      "chemicals:ChemicalMixture",
+      "chemicals:ChemicalSubstance"
+    ],
     "color": [
       "controlledTerms:Colormap",
       "sands:SingleColor"
@@ -526,6 +530,10 @@
       "sands:CustomAnatomicalEntity",
       "sands:ParcellationEntity",
       "sands:ParcellationEntityVersion"
+    ],
+    "chemicalProduct": [
+      "chemicals:ChemicalMixture",
+      "chemicals:ChemicalSubstance"
     ],
     "color": [
       "controlledTerms:Colormap",
