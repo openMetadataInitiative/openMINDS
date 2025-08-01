@@ -71,6 +71,8 @@
       "_instruction": "Add all techniques (including stimulation approaches and/or techniques) that were used in this protocol.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/AnalysisTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/MRIPulseSequence",
+        "https://openminds.ebrains.eu/controlledTerms/MRIWeighting",
         "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
         "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
         "https://openminds.ebrains.eu/controlledTerms/Technique"
