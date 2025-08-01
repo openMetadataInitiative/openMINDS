@@ -162,19 +162,19 @@ def _do_resolve_categories(version: str, schema: SchemaStructure, schemas_by_cat
             belongs_to_categories = []
             if TEMPLATE_PROPERTY_LINKED_CATEGORIES in schema_payload["properties"][p]:
                 linked_categories = schema_payload["properties"][p][TEMPLATE_PROPERTY_LINKED_CATEGORIES]
-                linked_types = []
+                linked_types = set()
                 for linked_category in linked_categories:
                     if linked_category in schemas_by_category:
-                        linked_types.extend(schemas_by_category[linked_category])
+                        linked_types.update(schemas_by_category[linked_category])
                 schema_payload["properties"][p][TEMPLATE_PROPERTY_LINKED_TYPES] = sorted(linked_types)
                 belongs_to_categories.extend(linked_categories)
                 del schema_payload["properties"][p][TEMPLATE_PROPERTY_LINKED_CATEGORIES]
             if TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES in schema_payload["properties"][p]:
                 embedded_categories = schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES]
-                embedded_types = []
+                embedded_types = set()
                 for embedded_category in embedded_categories:
                     if embedded_category in schemas_by_category:
-                        embedded_types.extend(schemas_by_category[embedded_category])
+                        embedded_types.update(schemas_by_category[embedded_category])
                 schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_TYPES] = sorted(embedded_types)
                 belongs_to_categories.extend(embedded_categories)
                 del schema_payload["properties"][p][TEMPLATE_PROPERTY_EMBEDDED_CATEGORIES]
