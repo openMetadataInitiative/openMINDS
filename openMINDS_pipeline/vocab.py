@@ -5,7 +5,7 @@ from typing import List, Dict
 
 from openMINDS_pipeline.models import DirectoryStructure, SchemaStructure
 from openMINDS_pipeline.resolver import TEMPLATE_PROPERTY_TYPE
-from openMINDS_pipeline.utils import get_basic_type, is_edge
+from openMINDS_pipeline.utils import get_basic_type, is_edge, version_key
 from openMINDS_pipeline.constants import FIRST_VERSION
 
 
@@ -68,7 +68,7 @@ def _enrich_with_type_information(schema, type, types):
         schema["color"] = t["color"]
 
 
-def enrich_types_with_identical(vocab_types: Dict, changed_types: Dict[str, int], previous_version: str, current_version: str, iteration: int):
+def enrich_types_with_identical(vocab_types: Dict, changed_types: Dict[str, int], previous_version: str, current_version: str):
     def remove_version_from_identical(vocab_entry, version, previous_version):
         """
         Helper function to handle former entries for 'identical' field in the vocab.
@@ -116,6 +116,45 @@ def enrich_types_with_identical(vocab_types: Dict, changed_types: Dict[str, int]
         elif current_version in vocab_types[_type].get("isPartOfVersion"):
             extend_or_sort_identical(vocab_types[_type], current_version, _last_version_index)
 
+def enrich_types_with_backwards_compatibility(vocab_types: Dict, not_backwards_compatible_types: Dict[str, int], previous_version: str, current_version: str):
+    def remove_version_from_backwards_compatibility(vocab_entry, current_version):
+        """
+        Helper function to handle former entries for 'backwardsCompability' field in the vocab.
+        """
+        if 'backwardsCompatibility' not in vocab_entry:
+            return None
+
+        for index, key in enumerate(vocab_entry['backwardsCompatibility']):
+            if vocab_entry['backwardsCompatibility'][key] is not None and current_version in vocab_entry['backwardsCompatibility'][key]:
+                vocab_entry['backwardsCompatibility'][key].remove(current_version)
+            if key == current_version:
+                del vocab_entry['backwardsCompatibility'][key]
+                if len(vocab_entry['backwardsCompatibility']) == 0:
+                    del vocab_entry['backwardsCompatibility']
+
+    def get_previous_available_version(vocab_entry, current_version):
+        versions = sorted(vocab_entry.get("isPartOfVersion"), key=version_key)
+        versions.index(current_version)
+        return versions[versions.index(current_version)-1]
+
+    for _type in vocab_types:
+        remove_version_from_backwards_compatibility(vocab_types[_type], current_version)
+        # Handle the first iteration (comparison with v1.0)
+        if previous_version == FIRST_VERSION and previous_version in vocab_types[_type].get("isPartOfVersion"):
+            vocab_types[_type]['backwardsCompatibility'] = {}
+            vocab_types[_type]['backwardsCompatibility'][previous_version] = []
+
+        # Update based on changed types
+        if _type not in not_backwards_compatible_types and current_version in vocab_types[_type].get("isPartOfVersion"):
+            if 'backwardsCompatibility' in vocab_types[_type]:
+                previous_available_version = get_previous_available_version(vocab_types[_type], current_version)
+                vocab_types[_type]['backwardsCompatibility'][current_version] = [previous_available_version] + vocab_types[_type]['backwardsCompatibility'][previous_available_version]
+                sorted(vocab_types[_type]['backwardsCompatibility'][current_version])
+            else:
+                vocab_types[_type]['backwardsCompatibility'] = {}
+                vocab_types[_type]['backwardsCompatibility'][current_version] = []
+        elif current_version in vocab_types[_type].get('isPartOfVersion'):
+            vocab_types[_type]['backwardsCompatibility'][current_version] = []
 
 class Types(object):
 
@@ -188,7 +227,7 @@ class TypeExtractor(Types):
 
         if t in self._types:
             for k in list(self._types[t].keys()):
-                if k not in ["label", "labelPlural", "name", "namePlural", "description", "isPartOfVersion", "color", "hasNamespace", "identical"]:
+                if k not in ["label", "labelPlural", "name", "namePlural", "description", "isPartOfVersion", "color", "hasNamespace", "identical", "backwardsCompatibility"]:
                     del self._types[t][k]
         simple_name = os.path.basename(t)
         if t not in self._types:
