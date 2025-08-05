@@ -41,6 +41,7 @@
       "ephys:ElectrodeArrayUsage",
       "ephys:ElectrodeUsage",
       "ephys:PipetteUsage",
+      "neuroimaging:MRIScannerUsage",
       "specimenPrep:SlicingDeviceUsage"
     ],
     "fileOrigin": [
@@ -104,9 +105,9 @@
       "controlledTerms:Language",
       "controlledTerms:Laterality",
       "controlledTerms:LearningResourceType",
-      "controlledTerms:MRAcquisitionType",
       "controlledTerms:MRIPulseSequence",
       "controlledTerms:MRIWeighting",
+      "controlledTerms:MRSpatialEncoding",
       "controlledTerms:MeasuredQuantity",
       "controlledTerms:MeasuredSignalType",
       "controlledTerms:MetaDataModelType",
@@ -193,6 +194,7 @@
       "ephys:Electrode",
       "ephys:ElectrodeArray",
       "ephys:Pipette",
+      "neuroimaging:MRIScanner",
       "specimenPrep:SlicingDevice"
     ],
     "stimulus": [
