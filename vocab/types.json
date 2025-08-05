@@ -4206,14 +4206,8 @@
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
-    "identical": [
-      [
-        "latest"
-      ]
-    ],
-    "isPartOfVersion": [
-      "latest"
-    ],
+    "identical": [],
+    "isPartOfVersion": [],
     "label": "Mracquisition type",
     "name": "MRAcquisitionType"
   },
@@ -4266,6 +4260,28 @@
     ],
     "label": "Mriweighting",
     "name": "MRIWeighting"
+  },
+  "MRSpatialEncoding": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Mrspatial encoding",
+    "name": "MRSpatialEncoding"
   },
   "MeasuredQuantity": {
     "color": "#2C5742",
