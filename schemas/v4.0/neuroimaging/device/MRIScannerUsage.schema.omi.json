@@ -7,13 +7,13 @@
   "label": "Mriscanner usage",
   "name": "MRIScannerUsage",
   "properties": {
-    "https://openminds.om-i.org/props/MRAcquisitionType": {
-      "_instruction": "Add the type of sequence readout (2D or 3D).",
+    "https://openminds.om-i.org/props/MRSpatialEncoding": {
+      "_instruction": "Add how spatial information was encoded. Examples include 'frequencyPhaseEncoding' (2D) and 'frequencyPhasePhaseEncoding' (3D).",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/MRAcquisitionType"
+        "https://openminds.om-i.org/types/MRSpatialEncoding"
       ],
-      "label": "Mracquisition type",
-      "name": "MRAcquisitionType",
+      "label": "Mrspatial encoding",
+      "name": "MRSpatialEncoding",
       "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/MTState": {
