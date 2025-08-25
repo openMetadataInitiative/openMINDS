@@ -4195,22 +4195,6 @@
     "label": "Local file",
     "name": "LocalFile"
   },
-  "MRAcquisitionType": {
-    "color": null,
-    "description": null,
-    "hasNamespace": [
-      {
-        "inVersions": [
-          "latest"
-        ],
-        "namespace": "https://openminds.om-i.org/types/"
-      }
-    ],
-    "identical": [],
-    "isPartOfVersion": [],
-    "label": "Mracquisition type",
-    "name": "MRAcquisitionType"
-  },
   "MRIPulseSequence": {
     "color": null,
     "description": null,
