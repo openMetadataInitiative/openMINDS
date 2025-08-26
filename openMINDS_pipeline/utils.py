@@ -4,7 +4,7 @@ import json
 import re
 import shutil
 from json import JSONDecodeError
-from typing import Optional, Dict, List
+from typing import Optional, Dict, List, Tuple
 
 from git import Repo, Git
 from packaging.utils import canonicalize_version
@@ -15,7 +15,7 @@ from openMINDS_pipeline.models import Trigger, OpenMINDSModule, DirectoryStructu
 from openMINDS_pipeline.resolver import TEMPLATE_PROPERTY_TYPE
 
 
-def clone_central(refetch:bool):
+def clone_central(refetch:bool) -> None:
     if refetch and os.path.exists("target"):
         shutil.rmtree("target")
     if not os.path.exists("target"):
@@ -23,7 +23,7 @@ def clone_central(refetch:bool):
         shutil.rmtree("target/.git")
 
 
-def clone_sources(modules, version):
+def clone_sources(modules, version) -> None:
     print(f"Now building the version {version}")
     for module, spec in modules.items():
         if os.path.exists(f"sources/{module}"):
@@ -36,7 +36,7 @@ def clone_sources(modules, version):
     print("Done cloning")
 
 
-def is_edge(property_definition:dict):
+def is_edge(property_definition:dict) -> Tuple[Optional[List[str]], Optional[List[str]], bool]:
     embedded_types = property_definition["_embeddedTypes"] if "_embeddedTypes" in property_definition else None
     linked_types = property_definition["_linkedTypes"] if "_linkedTypes" in property_definition else None
     return embedded_types, linked_types, bool(embedded_types or linked_types)
@@ -94,7 +94,7 @@ def evaluate_versions_to_be_built(version_config: str, trigger:Optional[Trigger]
     return relevant_versions, namespaces
 
 
-def update_relevant_versions_from_repo(version_config, triggered_version):
+def update_relevant_versions_from_repo(version_config, triggered_version) -> None:
     """
     Update relevant_versions by identifying and adding the latest version exclusive to either
     the relevant or configuration version file.
@@ -120,7 +120,7 @@ def update_relevant_versions_from_repo(version_config, triggered_version):
         triggered_version[last_exclusive_version] = versions[last_exclusive_version]
 
 
-def _evaluate_branch_and_commit_for_dynamic_instances(module_spec:OpenMINDSModule):
+def _evaluate_branch_and_commit_for_dynamic_instances(module_spec:OpenMINDSModule) -> None:
     git_instance = Git()
     branches = git_instance.ls_remote('--heads', module_spec.repository).splitlines()
     if module_spec.branch:
@@ -165,7 +165,7 @@ def find_schemas(directory_structure: DirectoryStructure, modules: Dict[str, Ope
     return schema_information
 
 
-def qualify_property_names(schemas: List[SchemaStructure]):
+def qualify_property_names(schemas: List[SchemaStructure]) -> None:
     for schema in schemas:
         with open(schema.absolute_path, "r") as schema_file:
             schema_payload = json.load(schema_file)
@@ -181,7 +181,7 @@ def qualify_property_names(schemas: List[SchemaStructure]):
             target_file.write(json.dumps(schema_payload, indent=2, sort_keys=True))
 
 
-def copy_to_target_directory(directory_structure: DirectoryStructure, version:str):
+def copy_to_target_directory(directory_structure: DirectoryStructure, version:str) -> None:
     schemas_version_directory = os.path.join(directory_structure.target_directory, "schemas", version)
     if os.path.exists(schemas_version_directory):
         shutil.rmtree(schemas_version_directory)
@@ -192,7 +192,7 @@ def copy_to_target_directory(directory_structure: DirectoryStructure, version:st
             os.rename(os.path.join(root, file_name), os.path.join(root, new_file_name))
 
 
-def get_files_in_directory(version_dir: str)->List[str]:
+def get_files_in_directory(version_dir: str) -> List[str]:
     """ Get all files from a directory and its subdirectories """
     files = []
     for root, _, filenames in os.walk(version_dir):
@@ -202,15 +202,15 @@ def get_files_in_directory(version_dir: str)->List[str]:
     return sorted(files, key=lambda s: s.lower())
 
 
-def detect_moved_files(added_files: List[str], removed_files: List[str]):
-    """ Detect moved files among two lists """
+def detect_moved_files(added_files: List[str], removed_files: List[str]) -> Tuple[List[str], List[str]]:
+    """ Detect moved files among two lists. """
     moved_files = [file_path for file_path in added_files if os.path.basename(file_path) in [os.path.basename(removed_file) for removed_file in removed_files]]
     moved_files_basename = [os.path.basename(file) for file in moved_files]
     return moved_files, moved_files_basename
 
 
-def version_key(version: str)->float:
-    """ Returns a key for sorting versions """
+def version_key(version: str) -> float:
+    """ Returns a key for sorting versions. """
     if version == 'latest':
         # Place "latest" at the end
         return float('inf')
@@ -218,8 +218,8 @@ def version_key(version: str)->float:
         return float(version[1:])
 
 
-def load_json(filepath: str):
-    """ Load JSON file content """
+def load_json(filepath: str) -> Optional[Dict]:
+    """ Load JSON file content. """
     try:
         with open(filepath, 'r') as f:
             return json.load(f)
@@ -228,10 +228,11 @@ def load_json(filepath: str):
         return None
 
 
-def save_file(file_path: str, content, is_json: bool = False, sort_keys: bool = False):
-    """Save content to a file, optionally as JSON"""
+def save_file(file_path: str, content, is_json: bool = False, sort_keys: bool = False) -> None:
+    """ Save content to a file, optionally as JSON. """
     with open(file_path, 'w') as f:
         if is_json:
             json.dump(content, f, indent=2, sort_keys=sort_keys)
+            f.write('\n')
         else:
             f.write(content)
