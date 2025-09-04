@@ -44,7 +44,7 @@ jobs:
 
     - name: Push to main
       run: |
-        rsync -a --delete target/ main/
+        rsync -a --delete --exclude '.git/' target/ main/
         cd main
         git config --global user.email "support@openmetadatainitiative.org"
         git config --global user.name "openMINDS pipeline"
