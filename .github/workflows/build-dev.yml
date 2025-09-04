@@ -44,7 +44,7 @@ jobs:
 
     - name: Push to development
       run: |
-        cp -R target/* development
+        rsync -a --delete target/ development/
         cd development
         git config --global user.email "support@openmetadatainitiative.org"
         git config --global user.name "openMINDS pipeline"
