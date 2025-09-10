@@ -124,12 +124,12 @@ def enrich_types_with_backwards_compatibility(vocab_types: Dict, not_backwards_c
         if 'backwardsCompatibility' not in vocab_entry:
             return None
 
-        for index, key in enumerate(vocab_entry['backwardsCompatibility']):
-            if vocab_entry['backwardsCompatibility'][key] is not None and current_version in vocab_entry['backwardsCompatibility'][key]:
-                vocab_entry['backwardsCompatibility'][key].remove(current_version)
-            if key == current_version:
-                del vocab_entry['backwardsCompatibility'][key]
-                if len(vocab_entry['backwardsCompatibility']) == 0:
+        for version in list(vocab_entry['backwardsCompatibility']):
+            if vocab_entry['backwardsCompatibility'][version] is not None and current_version in vocab_entry['backwardsCompatibility'][version]:
+                vocab_entry['backwardsCompatibility'][version].remove(current_version)
+            if version == current_version:
+                del vocab_entry['backwardsCompatibility'][version]
+                if not vocab_entry['backwardsCompatibility']:
                     del vocab_entry['backwardsCompatibility']
 
     def get_previous_available_version(vocab_entry, current_version):
