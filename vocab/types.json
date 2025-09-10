@@ -1,5 +1,12 @@
 {
   "AccountInformation": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#B5D6C3",
     "description": "Structured information about a user account for a web service.",
     "hasNamespace": [
@@ -19,8 +26,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -33,6 +42,20 @@
     "name": "AccountInformation"
   },
   "ActionStatusType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#E6ECDC",
     "description": "Structured information about the status of an action.",
     "hasNamespace": [
@@ -57,9 +80,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -74,6 +99,17 @@
     "name": "ActionStatusType"
   },
   "Affiliation": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#A74571",
     "description": "Structured information about a relationship between two entities, such as a person and their employer.",
     "hasNamespace": [
@@ -101,8 +137,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -117,6 +155,20 @@
     "name": "Affiliation"
   },
   "AgeCategory": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#AFCE78",
     "description": "Structured information on the life cycle (semantic term) of a specific age group.",
     "hasNamespace": [
@@ -141,9 +193,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -158,6 +212,13 @@
     "name": "AgeCategory"
   },
   "AmountOfChemical": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#561A02",
     "description": "Structured information about the amount of a given chemical that was used.",
     "hasNamespace": [
@@ -177,8 +238,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -191,6 +254,20 @@
     "name": "AmountOfChemical"
   },
   "AnalysisTechnique": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#FF0020",
     "description": null,
     "hasNamespace": [
@@ -215,9 +292,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -232,6 +311,20 @@
     "name": "AnalysisTechnique"
   },
   "AnatomicalAxesOrientation": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#B6E4DE",
     "description": "Structured information on the anatomical directions of the X, Y, and Z axis.",
     "hasNamespace": [
@@ -256,9 +349,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -273,6 +368,9 @@
     "name": "AnatomicalAxesOrientation"
   },
   "AnatomicalEntity": {
+    "backwardsCompatibility": {
+      "v1.0": []
+    },
     "color": null,
     "description": "Structured information on an anatomical entity.",
     "hasNamespace": [
@@ -295,6 +393,9 @@
     "name": "AnatomicalEntity"
   },
   "AnatomicalEntityRelation": {
+    "backwardsCompatibility": {
+      "v1.0": []
+    },
     "color": null,
     "description": "Structured information on the relation between one anatomical entity and another.",
     "hasNamespace": [
@@ -317,6 +418,20 @@
     "name": "AnatomicalEntityRelation"
   },
   "AnatomicalIdentificationType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#203B3C",
     "description": null,
     "hasNamespace": [
@@ -341,9 +456,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -358,6 +475,20 @@
     "name": "AnatomicalIdentificationType"
   },
   "AnatomicalPlane": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#9DEBDD",
     "description": null,
     "hasNamespace": [
@@ -382,9 +513,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -399,6 +532,13 @@
     "name": "AnatomicalPlane"
   },
   "AnatomicalTargetPosition": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -418,8 +558,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -432,6 +574,9 @@
     "name": "AnatomicalTargetPosition"
   },
   "Annotation": {
+    "backwardsCompatibility": {
+      "v1.0": []
+    },
     "color": null,
     "description": "Structured information on an image annotation.",
     "hasNamespace": [
@@ -454,6 +599,20 @@
     "name": "Annotation"
   },
   "AnnotationCriteriaType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#1D1702",
     "description": null,
     "hasNamespace": [
@@ -478,9 +637,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -495,6 +656,20 @@
     "name": "AnnotationCriteriaType"
   },
   "AnnotationType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#EAE408",
     "description": null,
     "hasNamespace": [
@@ -519,9 +694,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -536,6 +713,14 @@
     "name": "AnnotationType"
   },
   "AtlasAnnotation": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v2.0": [],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -559,8 +744,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -574,6 +761,20 @@
     "name": "AtlasAnnotation"
   },
   "AtlasType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#F3BDA4",
     "description": null,
     "hasNamespace": [
@@ -598,9 +799,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -615,6 +818,20 @@
     "name": "AtlasType"
   },
   "AuditoryStimulusType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#766E52",
     "description": null,
     "hasNamespace": [
@@ -639,9 +856,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -656,6 +875,13 @@
     "name": "AuditoryStimulusType"
   },
   "BehavioralProtocol": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#73BE54",
     "description": "Structured information about a protocol used in an experiment studying human or animal behavior.",
     "hasNamespace": [
@@ -675,8 +901,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -689,6 +917,12 @@
     "name": "BehavioralProtocol"
   },
   "BehavioralTask": {
+    "backwardsCompatibility": {
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ]
+    },
     "color": null,
     "description": "Structured information on the behavioral task that had to be performed by a subject.",
     "hasNamespace": [
@@ -721,6 +955,20 @@
     "name": "BehavioralTask"
   },
   "BiologicalOrder": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#69255C",
     "description": null,
     "hasNamespace": [
@@ -745,9 +993,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -762,6 +1012,20 @@
     "name": "BiologicalOrder"
   },
   "BiologicalProcess": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -786,9 +1050,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -803,6 +1069,20 @@
     "name": "BiologicalProcess"
   },
   "BiologicalSex": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#CDE6DC",
     "description": "Structured information on the biological sex of a subject.",
     "hasNamespace": [
@@ -827,9 +1107,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -844,6 +1126,13 @@
     "name": "BiologicalSex"
   },
   "Book": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -863,7 +1152,9 @@
     ],
     "identical": [
       [
-        "v3.0",
+        "v3.0"
+      ],
+      [
         "v4.0"
       ],
       [
@@ -879,6 +1170,17 @@
     "name": "Book"
   },
   "BrainAtlas": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -906,8 +1208,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -922,6 +1226,17 @@
     "name": "BrainAtlas"
   },
   "BrainAtlasVersion": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -949,7 +1264,9 @@
         "v2.0"
       ],
       [
-        "v3.0",
+        "v3.0"
+      ],
+      [
         "v4.0"
       ],
       [
@@ -967,6 +1284,20 @@
     "name": "BrainAtlasVersion"
   },
   "BreedingType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#AD6552",
     "description": null,
     "hasNamespace": [
@@ -991,9 +1322,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -1008,6 +1341,20 @@
     "name": "BreedingType"
   },
   "CellCultureType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#61615A",
     "description": null,
     "hasNamespace": [
@@ -1032,9 +1379,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -1049,6 +1398,13 @@
     "name": "CellCultureType"
   },
   "CellPatching": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#1A2B2F",
     "description": null,
     "hasNamespace": [
@@ -1084,6 +1440,20 @@
     "name": "CellPatching"
   },
   "CellType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#BC8A96",
     "description": null,
     "hasNamespace": [
@@ -1108,9 +1478,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -1125,6 +1497,13 @@
     "name": "CellType"
   },
   "Channel": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#5D3033",
     "description": null,
     "hasNamespace": [
@@ -1144,8 +1523,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -1158,6 +1539,13 @@
     "name": "Channel"
   },
   "Chapter": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -1177,7 +1565,9 @@
     ],
     "identical": [
       [
-        "v3.0",
+        "v3.0"
+      ],
+      [
         "v4.0"
       ],
       [
@@ -1193,6 +1583,13 @@
     "name": "Chapter"
   },
   "ChemicalMixture": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#887868",
     "description": "Structured information about a mixture of chemical substances.",
     "hasNamespace": [
@@ -1228,6 +1625,20 @@
     "name": "ChemicalMixture"
   },
   "ChemicalMixtureType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#363DFF",
     "description": null,
     "hasNamespace": [
@@ -1252,9 +1663,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -1269,6 +1682,13 @@
     "name": "ChemicalMixtureType"
   },
   "ChemicalSubstance": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#685D75",
     "description": "Structured information about a chemical substance.",
     "hasNamespace": [
@@ -1304,6 +1724,13 @@
     "name": "ChemicalSubstance"
   },
   "Circle": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -1323,8 +1750,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -1337,6 +1766,20 @@
     "name": "Circle"
   },
   "Colormap": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#067EAF",
     "description": null,
     "hasNamespace": [
@@ -1361,9 +1804,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -1378,6 +1823,13 @@
     "name": "Colormap"
   },
   "Comment": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#6EFF92",
     "description": "Structured information about a short text expressing an opinion on, or giving information about some entity.",
     "hasNamespace": [
@@ -1397,8 +1849,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -1411,6 +1865,14 @@
     "name": "Comment"
   },
   "CommonCoordinateSpace": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v2.0": [],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -1434,8 +1896,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -1449,6 +1913,13 @@
     "name": "CommonCoordinateSpace"
   },
   "CommonCoordinateSpaceVersion": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -1468,7 +1939,9 @@
     ],
     "identical": [
       [
-        "v3.0",
+        "v3.0"
+      ],
+      [
         "v4.0"
       ],
       [
@@ -1484,6 +1957,13 @@
     "name": "CommonCoordinateSpaceVersion"
   },
   "Configuration": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#CD00C5",
     "description": "Structured information about the properties or parameters of an entity or process.",
     "hasNamespace": [
@@ -1503,8 +1983,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -1517,6 +1999,13 @@
     "name": "Configuration"
   },
   "Consortium": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#C36D96",
     "description": "Structured information about an association of two or more persons or organizations, with the objective of participating in a common activity.",
     "hasNamespace": [
@@ -1536,8 +2025,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -1550,6 +2041,20 @@
     "name": "Consortium"
   },
   "ContactInformation": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#64547B",
     "description": "Structured information about how to contact a given person or consortium.",
     "hasNamespace": [
@@ -1577,8 +2082,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -1593,6 +2100,20 @@
     "name": "ContactInformation"
   },
   "ContentType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#494B5A",
     "description": "Structured information on the content type of a file instance, bundle or repository.",
     "hasNamespace": [
@@ -1620,8 +2141,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -1636,6 +2159,20 @@
     "name": "ContentType"
   },
   "ContentTypePattern": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#72361F",
     "description": null,
     "hasNamespace": [
@@ -1661,8 +2198,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -1677,6 +2216,17 @@
     "name": "ContentTypePattern"
   },
   "Contribution": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#790229",
     "description": "Structured information on the contribution made to a research product.",
     "hasNamespace": [
@@ -1704,8 +2254,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -1720,6 +2272,20 @@
     "name": "Contribution"
   },
   "ContributionType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#2C3533",
     "description": "Structured information on the type of contribution a person or organization performed.",
     "hasNamespace": [
@@ -1744,9 +2310,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -1761,6 +2329,20 @@
     "name": "ContributionType"
   },
   "CoordinatePoint": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -1788,8 +2370,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -1804,6 +2388,9 @@
     "name": "CoordinatePoint"
   },
   "CoordinateSpace": {
+    "backwardsCompatibility": {
+      "v1.0": []
+    },
     "color": null,
     "description": "Structured information on a coordinate space.",
     "hasNamespace": [
@@ -1826,6 +2413,20 @@
     "name": "CoordinateSpace"
   },
   "Copyright": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#8CD0FF",
     "description": "Structured information on the copyright.",
     "hasNamespace": [
@@ -1853,8 +2454,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -1869,6 +2472,20 @@
     "name": "Copyright"
   },
   "CranialWindowConstructionType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#70EC98",
     "description": null,
     "hasNamespace": [
@@ -1893,9 +2510,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -1910,6 +2529,13 @@
     "name": "CranialWindowConstructionType"
   },
   "CranialWindowPreparation": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -1929,8 +2555,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -1943,6 +2571,20 @@
     "name": "CranialWindowPreparation"
   },
   "CranialWindowReinforcementType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#6C6D74",
     "description": null,
     "hasNamespace": [
@@ -1967,9 +2609,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -1984,6 +2628,20 @@
     "name": "CranialWindowReinforcementType"
   },
   "CriteriaQualityType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#AABC7A",
     "description": "Structured information on the quality type of the defined criteria for a measurement.",
     "hasNamespace": [
@@ -2008,9 +2666,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -2025,6 +2685,16 @@
     "name": "CriteriaQualityType"
   },
   "CustomAnatomicalEntity": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v2.0": [],
+      "v3.0": [
+        "v2.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -2048,8 +2718,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -2063,6 +2735,14 @@
     "name": "CustomAnatomicalEntity"
   },
   "CustomAnnotation": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v2.0": [],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -2086,8 +2766,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -2101,6 +2783,16 @@
     "name": "CustomAnnotation"
   },
   "CustomCoordinateSpace": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v2.0": [],
+      "v3.0": [
+        "v2.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -2124,8 +2816,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -2139,6 +2833,13 @@
     "name": "CustomCoordinateSpace"
   },
   "CustomPropertySet": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#009B75",
     "description": "Structured information about properties of an entity that are not represented in an openMINDS schema.",
     "hasNamespace": [
@@ -2158,8 +2859,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -2172,6 +2875,20 @@
     "name": "CustomPropertySet"
   },
   "DOI": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#766B7E",
     "description": "Structured information about a digital object identifier, as standardized by the International Organization for Standardization.",
     "hasNamespace": [
@@ -2196,9 +2913,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -2213,6 +2932,13 @@
     "name": "DOI"
   },
   "DataAnalysis": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#00B6C5",
     "description": "Structured information on inspecting, cleansing, transforming, and modelling data.",
     "hasNamespace": [
@@ -2232,8 +2958,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -2246,6 +2974,13 @@
     "name": "DataAnalysis"
   },
   "DataCopy": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#29607C",
     "description": null,
     "hasNamespace": [
@@ -2265,8 +3000,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -2279,6 +3016,20 @@
     "name": "DataCopy"
   },
   "DataType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#D1ACFE",
     "description": null,
     "hasNamespace": [
@@ -2303,9 +3054,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -2320,6 +3073,20 @@
     "name": "DataType"
   },
   "Dataset": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#F77183",
     "description": "Structured information on data originating from human/animal studies or simulations (concept level).",
     "hasNamespace": [
@@ -2347,8 +3114,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -2363,6 +3132,17 @@
     "name": "Dataset"
   },
   "DatasetVersion": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#71555A",
     "description": "Structured information on data originating from human/animal studies or simulations (version level).",
     "hasNamespace": [
@@ -2390,7 +3170,9 @@
         "v2.0"
       ],
       [
-        "v3.0",
+        "v3.0"
+      ],
+      [
         "v4.0"
       ],
       [
@@ -2408,6 +3190,20 @@
     "name": "DatasetVersion"
   },
   "DeviceType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#01400B",
     "description": null,
     "hasNamespace": [
@@ -2432,9 +3228,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -2449,6 +3247,20 @@
     "name": "DeviceType"
   },
   "DifferenceMeasure": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#DB9D72",
     "description": null,
     "hasNamespace": [
@@ -2473,9 +3285,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -2490,6 +3304,20 @@
     "name": "DifferenceMeasure"
   },
   "Disease": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#00B7E0",
     "description": "Structured information on a disease.",
     "hasNamespace": [
@@ -2514,9 +3342,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -2531,6 +3361,20 @@
     "name": "Disease"
   },
   "DiseaseModel": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#DA9894",
     "description": null,
     "hasNamespace": [
@@ -2555,9 +3399,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -2572,6 +3418,20 @@
     "name": "DiseaseModel"
   },
   "EducationalLevel": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#636A01",
     "description": null,
     "hasNamespace": [
@@ -2596,9 +3456,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -2613,6 +3475,20 @@
     "name": "EducationalLevel"
   },
   "ElectricalStimulusType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#A9795C",
     "description": null,
     "hasNamespace": [
@@ -2637,9 +3513,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -2654,6 +3532,20 @@
     "name": "ElectricalStimulusType"
   },
   "Electrode": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": "Structured information on an electrode.",
     "hasNamespace": [
@@ -2680,10 +3572,12 @@
     ],
     "identical": [
       [
-        "latest",
         "v1.0",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -2698,6 +3592,20 @@
     "name": "Electrode"
   },
   "ElectrodeArray": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": "Structured information on an electrode array.",
     "hasNamespace": [
@@ -2724,10 +3632,12 @@
     ],
     "identical": [
       [
-        "latest",
         "v1.0",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -2742,6 +3652,13 @@
     "name": "ElectrodeArray"
   },
   "ElectrodeArrayUsage": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#AF5D88",
     "description": null,
     "hasNamespace": [
@@ -2761,8 +3678,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -2775,6 +3694,12 @@
     "name": "ElectrodeArrayUsage"
   },
   "ElectrodeContact": {
+    "backwardsCompatibility": {
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ]
+    },
     "color": null,
     "description": "Structured information on an electrode contact.",
     "hasNamespace": [
@@ -2800,6 +3725,13 @@
     "name": "ElectrodeContact"
   },
   "ElectrodePlacement": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#CFFF00",
     "description": null,
     "hasNamespace": [
@@ -2835,6 +3767,13 @@
     "name": "ElectrodePlacement"
   },
   "ElectrodeUsage": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#DD587B",
     "description": null,
     "hasNamespace": [
@@ -2854,8 +3793,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -2868,6 +3809,13 @@
     "name": "ElectrodeUsage"
   },
   "Ellipse": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -2887,8 +3835,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -2901,6 +3851,13 @@
     "name": "Ellipse"
   },
   "Environment": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#1B782A",
     "description": "Structured information on the computer system or set of systems in which a computation is deployed and executed.",
     "hasNamespace": [
@@ -2920,8 +3877,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -2934,6 +3893,13 @@
     "name": "Environment"
   },
   "EphysStimulus": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -2969,6 +3935,20 @@
     "name": "EphysStimulus"
   },
   "EthicsAssessment": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#4A1930",
     "description": "Structured information on the ethics assessment of a dataset.",
     "hasNamespace": [
@@ -2993,9 +3973,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -3010,6 +3992,20 @@
     "name": "EthicsAssessment"
   },
   "ExperimentalApproach": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#7F8427",
     "description": null,
     "hasNamespace": [
@@ -3034,9 +4030,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -3051,6 +4049,20 @@
     "name": "ExperimentalApproach"
   },
   "File": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#AA9297",
     "description": "Structured information on a file instance that is accessible via a URL.",
     "hasNamespace": [
@@ -3078,8 +4090,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -3094,6 +4108,13 @@
     "name": "File"
   },
   "FileArchive": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#83AB58",
     "description": null,
     "hasNamespace": [
@@ -3113,8 +4134,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -3127,6 +4150,20 @@
     "name": "FileArchive"
   },
   "FileBundle": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#91028C",
     "description": "Structured information on a bundle of file instances.",
     "hasNamespace": [
@@ -3154,8 +4191,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -3170,6 +4209,20 @@
     "name": "FileBundle"
   },
   "FileBundleGrouping": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#286154",
     "description": "Structured information on the grouping mechanism of a file bundle.",
     "hasNamespace": [
@@ -3194,9 +4247,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -3211,6 +4266,20 @@
     "name": "FileBundleGrouping"
   },
   "FilePathPattern": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#564620",
     "description": null,
     "hasNamespace": [
@@ -3236,8 +4305,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -3252,6 +4323,20 @@
     "name": "FilePathPattern"
   },
   "FileRepository": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#682021",
     "description": "Structured information on a file repository.",
     "hasNamespace": [
@@ -3279,8 +4364,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -3295,6 +4382,20 @@
     "name": "FileRepository"
   },
   "FileRepositoryStructure": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#3156DC",
     "description": null,
     "hasNamespace": [
@@ -3320,8 +4421,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -3336,6 +4439,20 @@
     "name": "FileRepositoryStructure"
   },
   "FileRepositoryType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#D369B4",
     "description": null,
     "hasNamespace": [
@@ -3360,9 +4477,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -3377,6 +4496,20 @@
     "name": "FileRepositoryType"
   },
   "FileUsageRole": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#549E79",
     "description": "Structured information on the usage role of a file instance or bundle.",
     "hasNamespace": [
@@ -3401,9 +4534,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -3418,6 +4553,12 @@
     "name": "FileUsageRole"
   },
   "FunctionalMRIAcquisition": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -3443,6 +4584,20 @@
     "name": "FunctionalMRIAcquisition"
   },
   "Funding": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#73013E",
     "description": "Structured information on used funding.",
     "hasNamespace": [
@@ -3470,8 +4625,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -3486,6 +4643,20 @@
     "name": "Funding"
   },
   "GRIDID": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#8D918E",
     "description": "A GRID (Global Research Identifier Database) identifier.",
     "hasNamespace": [
@@ -3510,9 +4681,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -3527,6 +4700,13 @@
     "name": "GRIDID"
   },
   "GenericComputation": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#FFB789",
     "description": "Structured information about a computation whose type is unknown or unspecified.",
     "hasNamespace": [
@@ -3546,8 +4726,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -3560,6 +4742,20 @@
     "name": "GenericComputation"
   },
   "GeneticStrainType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#FFA0F2",
     "description": null,
     "hasNamespace": [
@@ -3584,9 +4780,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -3601,6 +4799,20 @@
     "name": "GeneticStrainType"
   },
   "GustatoryStimulusType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#979440",
     "description": null,
     "hasNamespace": [
@@ -3625,9 +4837,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -3642,6 +4856,13 @@
     "name": "GustatoryStimulusType"
   },
   "HANDLE": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#FF8347",
     "description": "A persistent identifier for an information resource provided by the Handle System of the Corporation for National Research Initiatives.",
     "hasNamespace": [
@@ -3661,8 +4882,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -3675,6 +4898,20 @@
     "name": "HANDLE"
   },
   "Handedness": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#B90076",
     "description": null,
     "hasNamespace": [
@@ -3699,9 +4936,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -3716,6 +4955,13 @@
     "name": "Handedness"
   },
   "HardwareSystem": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#1E2324",
     "description": "Structured information about computing hardware.",
     "hasNamespace": [
@@ -3735,8 +4981,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -3749,6 +4997,20 @@
     "name": "HardwareSystem"
   },
   "Hash": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#378FDB",
     "description": "Structured information on a hash.",
     "hasNamespace": [
@@ -3770,10 +5032,12 @@
     ],
     "identical": [
       [
-        "latest",
         "v1.0",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -3788,6 +5052,20 @@
     "name": "Hash"
   },
   "ISBN": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#1E0200",
     "description": "An International Standard Book Number of the International ISBN Agency.",
     "hasNamespace": [
@@ -3812,9 +5090,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -3829,6 +5109,13 @@
     "name": "ISBN"
   },
   "ISSN": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#4145A7",
     "description": "An International Standard Serial Number of the ISSN International Centre.",
     "hasNamespace": [
@@ -3848,8 +5135,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -3862,6 +5151,13 @@
     "name": "ISSN"
   },
   "IdentifiersDotOrgID": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#00489C",
     "description": null,
     "hasNamespace": [
@@ -3881,8 +5177,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -3895,6 +5193,16 @@
     "name": "IdentifiersDotOrgID"
   },
   "Image": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0",
+        "v1.0"
+      ],
+      "v1.0": [],
+      "v4.0": [
+        "v1.0"
+      ]
+    },
     "color": null,
     "description": "Structured information on an image.",
     "hasNamespace": [
@@ -3928,6 +5236,12 @@
     "name": "Image"
   },
   "ImageSequence": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -3953,6 +5267,12 @@
     "name": "ImageSequence"
   },
   "ImageStack": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -3978,6 +5298,20 @@
     "name": "ImageStack"
   },
   "Language": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#6B6466",
     "description": "Structured information on the available language setting.",
     "hasNamespace": [
@@ -4002,9 +5336,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -4019,6 +5355,20 @@
     "name": "Language"
   },
   "Laterality": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#A24E3D",
     "description": "Structured information on the lateral direction.",
     "hasNamespace": [
@@ -4043,9 +5393,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -4060,6 +5412,13 @@
     "name": "Laterality"
   },
   "LaunchConfiguration": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#E69034",
     "description": "Structured information about the launch of a computational process.",
     "hasNamespace": [
@@ -4079,8 +5438,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -4093,6 +5454,13 @@
     "name": "LaunchConfiguration"
   },
   "LearningResource": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -4112,7 +5480,9 @@
     ],
     "identical": [
       [
-        "v3.0",
+        "v3.0"
+      ],
+      [
         "v4.0"
       ],
       [
@@ -4128,6 +5498,20 @@
     "name": "LearningResource"
   },
   "LearningResourceType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#372B2E",
     "description": null,
     "hasNamespace": [
@@ -4152,9 +5536,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -4169,6 +5555,20 @@
     "name": "LearningResourceType"
   },
   "License": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#456D75",
     "description": "Structured information on a used license.",
     "hasNamespace": [
@@ -4196,8 +5596,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -4212,6 +5614,13 @@
     "name": "License"
   },
   "LivePaper": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -4231,8 +5640,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -4245,6 +5656,13 @@
     "name": "LivePaper"
   },
   "LivePaperResourceItem": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -4280,6 +5698,13 @@
     "name": "LivePaperResourceItem"
   },
   "LivePaperSection": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -4299,8 +5724,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -4313,6 +5740,13 @@
     "name": "LivePaperSection"
   },
   "LivePaperVersion": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -4332,7 +5766,9 @@
     ],
     "identical": [
       [
-        "v3.0",
+        "v3.0"
+      ],
+      [
         "v4.0"
       ],
       [
@@ -4348,6 +5784,13 @@
     "name": "LivePaperVersion"
   },
   "LocalFile": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#B787A8",
     "description": "Structured information about a file that is not accessible via a URL.",
     "hasNamespace": [
@@ -4367,8 +5810,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -4381,6 +5826,20 @@
     "name": "LocalFile"
   },
   "MRIPulseSequence": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -4405,9 +5864,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -4422,6 +5883,12 @@
     "name": "MRIPulseSequence"
   },
   "MRIScanner": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -4447,6 +5914,12 @@
     "name": "MRIScanner"
   },
   "MRIScannerUsage": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -4472,6 +5945,20 @@
     "name": "MRIScannerUsage"
   },
   "MRIWeighting": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -4496,9 +5983,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -4513,6 +6002,9 @@
     "name": "MRIWeighting"
   },
   "MRSpatialEncoding": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -4535,6 +6027,20 @@
     "name": "MRSpatialEncoding"
   },
   "MeasuredQuantity": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#2C5742",
     "description": null,
     "hasNamespace": [
@@ -4559,9 +6065,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -4576,6 +6084,20 @@
     "name": "MeasuredQuantity"
   },
   "MeasuredSignalType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -4600,9 +6122,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -4617,6 +6141,13 @@
     "name": "MeasuredSignalType"
   },
   "Measurement": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#FFDBE5",
     "description": "Structured information about a measurement performed during a scientific experiment.",
     "hasNamespace": [
@@ -4652,6 +6183,20 @@
     "name": "Measurement"
   },
   "MetaDataModel": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#602B70",
     "description": null,
     "hasNamespace": [
@@ -4679,8 +6224,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -4695,6 +6242,20 @@
     "name": "MetaDataModel"
   },
   "MetaDataModelType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#A55B54",
     "description": null,
     "hasNamespace": [
@@ -4719,9 +6280,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -4736,6 +6299,20 @@
     "name": "MetaDataModelType"
   },
   "MetaDataModelVersion": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#9B9700",
     "description": null,
     "hasNamespace": [
@@ -4763,7 +6340,9 @@
         "v2.0"
       ],
       [
-        "v3.0",
+        "v3.0"
+      ],
+      [
         "v4.0"
       ],
       [
@@ -4781,6 +6360,20 @@
     "name": "MetaDataModelVersion"
   },
   "Model": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#7FBBEC",
     "description": "Structured information on a computational model (concept level).",
     "hasNamespace": [
@@ -4808,8 +6401,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -4824,6 +6419,20 @@
     "name": "Model"
   },
   "ModelAbstractionLevel": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#0086ED",
     "description": "Structured information on abstraction level of the computational model.",
     "hasNamespace": [
@@ -4848,9 +6457,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -4865,6 +6476,20 @@
     "name": "ModelAbstractionLevel"
   },
   "ModelScope": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#B3C2BE",
     "description": "Structured information on the scope of the computational model.",
     "hasNamespace": [
@@ -4889,9 +6514,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -4906,6 +6533,13 @@
     "name": "ModelScope"
   },
   "ModelValidation": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#436E83",
     "description": "Structured information about a process of validating a computational model.",
     "hasNamespace": [
@@ -4925,8 +6559,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -4939,6 +6575,20 @@
     "name": "ModelValidation"
   },
   "ModelVersion": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#6D80BA",
     "description": "Structured information on a computational model (version level).",
     "hasNamespace": [
@@ -4986,6 +6636,20 @@
     "name": "ModelVersion"
   },
   "MolecularEntity": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#617D9F",
     "description": null,
     "hasNamespace": [
@@ -5011,7 +6675,9 @@
       ],
       [
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
         "v4.0"
       ],
       [
@@ -5029,6 +6695,12 @@
     "name": "MolecularEntity"
   },
   "NumericalParameter": {
+    "backwardsCompatibility": {
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ]
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -5054,6 +6726,13 @@
     "name": "NumericalParameter"
   },
   "NumericalProperty": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#B94C59",
     "description": "Structured information about a property of some entity or process whose value is a number.",
     "hasNamespace": [
@@ -5073,8 +6752,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -5087,6 +6768,20 @@
     "name": "NumericalProperty"
   },
   "ORCID": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#852C19",
     "description": "A persistent identifier for a researcher provided by Open Researcher and Contributor ID, Inc.",
     "hasNamespace": [
@@ -5111,9 +6806,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -5128,6 +6825,20 @@
     "name": "ORCID"
   },
   "OlfactoryStimulusType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#DA71FF",
     "description": null,
     "hasNamespace": [
@@ -5152,9 +6863,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -5169,6 +6882,20 @@
     "name": "OlfactoryStimulusType"
   },
   "OperatingDevice": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#688151",
     "description": "Structured information on the operating device.",
     "hasNamespace": [
@@ -5193,9 +6920,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -5210,6 +6939,20 @@
     "name": "OperatingDevice"
   },
   "OperatingSystem": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#C9B1A9",
     "description": "Structured information on the operating system.",
     "hasNamespace": [
@@ -5234,9 +6977,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -5251,6 +6996,20 @@
     "name": "OperatingSystem"
   },
   "OpticalStimulusType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#6D3800",
     "description": null,
     "hasNamespace": [
@@ -5275,9 +7034,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -5292,6 +7053,13 @@
     "name": "OpticalStimulusType"
   },
   "Optimization": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#9D8C76",
     "description": "Structured information about a process of optimizing a model or a piece of code.",
     "hasNamespace": [
@@ -5311,8 +7079,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -5325,6 +7095,20 @@
     "name": "Optimization"
   },
   "Organ": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#71BB8C",
     "description": null,
     "hasNamespace": [
@@ -5349,9 +7133,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -5366,6 +7152,20 @@
     "name": "Organ"
   },
   "OrganismSubstance": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#3A2465",
     "description": null,
     "hasNamespace": [
@@ -5390,9 +7190,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -5407,6 +7209,20 @@
     "name": "OrganismSubstance"
   },
   "OrganismSystem": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#222800",
     "description": null,
     "hasNamespace": [
@@ -5431,9 +7247,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -5448,6 +7266,20 @@
     "name": "OrganismSystem"
   },
   "Organization": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#ADAAA9",
     "description": "An entity comprised of one or more natural persons with a particular purpose. [adapted from Wikipedia](https://en.wikipedia.org/wiki/Organization)",
     "hasNamespace": [
@@ -5475,8 +7307,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -5491,6 +7325,12 @@
     "name": "Organization"
   },
   "ParameterSet": {
+    "backwardsCompatibility": {
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ]
+    },
     "color": null,
     "description": "Structured information on a used parameter set.",
     "hasNamespace": [
@@ -5516,6 +7356,16 @@
     "name": "ParameterSet"
   },
   "ParcellationEntity": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v2.0": [],
+      "v3.0": [
+        "v2.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -5539,8 +7389,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -5554,6 +7406,13 @@
     "name": "ParcellationEntity"
   },
   "ParcellationEntityVersion": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -5573,8 +7432,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -5587,6 +7448,17 @@
     "name": "ParcellationEntityVersion"
   },
   "ParcellationTerminology": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -5614,8 +7486,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -5630,6 +7504,13 @@
     "name": "ParcellationTerminology"
   },
   "ParcellationTerminologyVersion": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -5649,8 +7530,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -5663,6 +7546,20 @@
     "name": "ParcellationTerminologyVersion"
   },
   "PatchClampVariation": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#63FFAC",
     "description": null,
     "hasNamespace": [
@@ -5687,9 +7584,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -5704,6 +7603,13 @@
     "name": "PatchClampVariation"
   },
   "Periodical": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -5723,8 +7629,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -5737,6 +7645,20 @@
     "name": "Periodical"
   },
   "Person": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#E5FDA4",
     "description": "Structured information on a person.",
     "hasNamespace": [
@@ -5764,8 +7686,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -5780,6 +7704,13 @@
     "name": "Person"
   },
   "Pipette": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#2A7FFF",
     "description": null,
     "hasNamespace": [
@@ -5799,8 +7730,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -5813,6 +7746,13 @@
     "name": "Pipette"
   },
   "PipetteUsage": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#E20027",
     "description": null,
     "hasNamespace": [
@@ -5832,8 +7772,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -5846,6 +7788,20 @@
     "name": "PipetteUsage"
   },
   "PreparationType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#966716",
     "description": null,
     "hasNamespace": [
@@ -5870,9 +7826,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -5887,6 +7845,20 @@
     "name": "PreparationType"
   },
   "ProductAccessibility": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#EDE6E2",
     "description": null,
     "hasNamespace": [
@@ -5911,9 +7883,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -5928,6 +7902,13 @@
     "name": "ProductAccessibility"
   },
   "ProductSource": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#EB9A8B",
     "description": "Structured information about the source of a chemical substance or mixture.",
     "hasNamespace": [
@@ -5947,8 +7928,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -5961,6 +7944,20 @@
     "name": "ProductSource"
   },
   "ProgrammingLanguage": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#3A3F00",
     "description": "Structured information on the programming language.",
     "hasNamespace": [
@@ -5985,9 +7982,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -6002,6 +8001,17 @@
     "name": "ProgrammingLanguage"
   },
   "Project": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#8683A9",
     "description": "Structured information on a research project.",
     "hasNamespace": [
@@ -6029,8 +8039,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -6045,6 +8057,13 @@
     "name": "Project"
   },
   "PropertyValueList": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#D7BFC2",
     "description": "An identifiable list of property-value pairs.",
     "hasNamespace": [
@@ -6064,8 +8083,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -6078,6 +8099,20 @@
     "name": "PropertyValueList"
   },
   "Protocol": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#E98176",
     "description": "Structured information on a research project.",
     "hasNamespace": [
@@ -6105,8 +8140,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -6121,6 +8158,20 @@
     "name": "Protocol"
   },
   "ProtocolExecution": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#0098FF",
     "description": "Structured information on a protocol execution.",
     "hasNamespace": [
@@ -6148,8 +8199,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -6164,6 +8217,13 @@
     "name": "ProtocolExecution"
   },
   "PublicationIssue": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -6183,8 +8243,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -6197,6 +8259,13 @@
     "name": "PublicationIssue"
   },
   "PublicationVolume": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -6216,8 +8285,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -6230,6 +8301,20 @@
     "name": "PublicationVolume"
   },
   "QualitativeOverlap": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#D16CDA",
     "description": null,
     "hasNamespace": [
@@ -6254,9 +8339,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -6271,6 +8358,16 @@
     "name": "QualitativeOverlap"
   },
   "QualitativeRelationAssessment": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v2.0": [],
+      "v3.0": [
+        "v2.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -6294,8 +8391,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -6309,6 +8408,16 @@
     "name": "QualitativeRelationAssessment"
   },
   "QuantitativeRelationAssessment": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v2.0": [],
+      "v3.0": [
+        "v2.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -6332,8 +8441,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -6347,6 +8458,20 @@
     "name": "QuantitativeRelationAssessment"
   },
   "QuantitativeValue": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#0E0D00",
     "description": "Structured information on a quantitative value.",
     "hasNamespace": [
@@ -6374,8 +8499,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -6390,6 +8517,13 @@
     "name": "QuantitativeValue"
   },
   "QuantitativeValueArray": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#8FCCBE",
     "description": "A representation of an array of quantitative values, optionally with uncertainties.",
     "hasNamespace": [
@@ -6409,8 +8543,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -6423,6 +8559,20 @@
     "name": "QuantitativeValueArray"
   },
   "QuantitativeValueRange": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#A4E804",
     "description": "A representation of a range of quantitative values.",
     "hasNamespace": [
@@ -6450,8 +8600,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -6466,6 +8618,20 @@
     "name": "QuantitativeValueRange"
   },
   "RORID": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#C0B9B2",
     "description": "A persistent identifier for a research organization, provided by the Research Organization Registry.",
     "hasNamespace": [
@@ -6490,9 +8656,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -6507,6 +8675,13 @@
     "name": "RORID"
   },
   "RRID": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#6B543F",
     "description": "A persistent identifier for a research resource provided by the Resource Identification Initiative.",
     "hasNamespace": [
@@ -6526,8 +8701,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -6540,6 +8717,13 @@
     "name": "RRID"
   },
   "Recording": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#FF4A46",
     "description": null,
     "hasNamespace": [
@@ -6575,6 +8759,13 @@
     "name": "Recording"
   },
   "RecordingActivity": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#77733C",
     "description": null,
     "hasNamespace": [
@@ -6594,8 +8785,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -6608,6 +8801,13 @@
     "name": "RecordingActivity"
   },
   "Rectangle": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -6627,8 +8827,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -6641,6 +8843,13 @@
     "name": "Rectangle"
   },
   "ResearchProductGroup": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#920003",
     "description": null,
     "hasNamespace": [
@@ -6660,8 +8869,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -6674,6 +8885,20 @@
     "name": "ResearchProductGroup"
   },
   "SWHID": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#20370E",
     "description": null,
     "hasNamespace": [
@@ -6698,9 +8923,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -6715,6 +8942,13 @@
     "name": "SWHID"
   },
   "ScholarlyArticle": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -6734,7 +8968,9 @@
     ],
     "identical": [
       [
-        "v3.0",
+        "v3.0"
+      ],
+      [
         "v4.0"
       ],
       [
@@ -6750,6 +8986,20 @@
     "name": "ScholarlyArticle"
   },
   "SemanticDataType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#0000A6",
     "description": null,
     "hasNamespace": [
@@ -6774,9 +9024,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -6791,6 +9043,20 @@
     "name": "SemanticDataType"
   },
   "Service": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#528500",
     "description": null,
     "hasNamespace": [
@@ -6815,9 +9081,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -6832,6 +9100,20 @@
     "name": "Service"
   },
   "ServiceLink": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#C4DF72",
     "description": null,
     "hasNamespace": [
@@ -6857,8 +9139,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -6873,6 +9157,13 @@
     "name": "ServiceLink"
   },
   "Setup": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#9B585E",
     "description": null,
     "hasNamespace": [
@@ -6908,6 +9199,20 @@
     "name": "Setup"
   },
   "SetupType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#BEC459",
     "description": null,
     "hasNamespace": [
@@ -6932,9 +9237,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -6949,6 +9256,13 @@
     "name": "SetupType"
   },
   "Simulation": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#5B9C8F",
     "description": "Structured information about a process of running simulations of a computational model.",
     "hasNamespace": [
@@ -6968,8 +9282,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -6982,6 +9298,13 @@
     "name": "Simulation"
   },
   "SingleColor": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -7001,8 +9324,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -7015,6 +9340,13 @@
     "name": "SingleColor"
   },
   "SlicingDevice": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -7034,8 +9366,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -7048,6 +9382,13 @@
     "name": "SlicingDevice"
   },
   "SlicingDeviceUsage": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -7067,8 +9408,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -7081,6 +9424,20 @@
     "name": "SlicingDeviceUsage"
   },
   "Software": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#511F4D",
     "description": "Structured information on a software tool (concept level).",
     "hasNamespace": [
@@ -7108,8 +9465,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -7124,6 +9483,13 @@
     "name": "Software"
   },
   "SoftwareAgent": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#8D6F81",
     "description": "Structured information about a piece of software or web service that can perform a task autonomously.",
     "hasNamespace": [
@@ -7143,8 +9509,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -7157,6 +9525,20 @@
     "name": "SoftwareAgent"
   },
   "SoftwareApplicationCategory": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#FF9E6B",
     "description": "Structured information on the category of the software application.",
     "hasNamespace": [
@@ -7181,9 +9563,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -7198,6 +9582,20 @@
     "name": "SoftwareApplicationCategory"
   },
   "SoftwareFeature": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#7A5C54",
     "description": null,
     "hasNamespace": [
@@ -7222,9 +9620,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -7239,6 +9639,20 @@
     "name": "SoftwareFeature"
   },
   "SoftwareVersion": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#FFA861",
     "description": null,
     "hasNamespace": [
@@ -7266,7 +9680,9 @@
         "v2.0"
       ],
       [
-        "v3.0",
+        "v3.0"
+      ],
+      [
         "v4.0"
       ],
       [
@@ -7284,6 +9700,20 @@
     "name": "SoftwareVersion"
   },
   "Species": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#320033",
     "description": "Structured information on the species.",
     "hasNamespace": [
@@ -7308,9 +9738,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -7325,6 +9757,13 @@
     "name": "Species"
   },
   "StimulationActivity": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -7344,8 +9783,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -7358,6 +9799,20 @@
     "name": "StimulationActivity"
   },
   "StimulationApproach": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#C7C890",
     "description": null,
     "hasNamespace": [
@@ -7382,9 +9837,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -7399,6 +9856,20 @@
     "name": "StimulationApproach"
   },
   "StimulationTechnique": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#985975",
     "description": null,
     "hasNamespace": [
@@ -7423,9 +9894,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -7440,6 +9913,13 @@
     "name": "StimulationTechnique"
   },
   "StockNumber": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#E8C282",
     "description": null,
     "hasNamespace": [
@@ -7459,8 +9939,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -7473,6 +9955,13 @@
     "name": "StockNumber"
   },
   "Strain": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#0089A3",
     "description": null,
     "hasNamespace": [
@@ -7502,8 +9991,10 @@
         "v1.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -7516,6 +10007,12 @@
     "name": "Strain"
   },
   "StringParameter": {
+    "backwardsCompatibility": {
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ]
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -7541,6 +10038,13 @@
     "name": "StringParameter"
   },
   "StringProperty": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#ADAAFF",
     "description": null,
     "hasNamespace": [
@@ -7560,8 +10064,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -7574,6 +10080,12 @@
     "name": "StringProperty"
   },
   "StructuralMRIAcquisition": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -7599,6 +10111,20 @@
     "name": "StructuralMRIAcquisition"
   },
   "SubcellularEntity": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#4E4452",
     "description": null,
     "hasNamespace": [
@@ -7623,9 +10149,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -7640,6 +10168,20 @@
     "name": "SubcellularEntity"
   },
   "Subject": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#C86240",
     "description": "Structured information on a subject.",
     "hasNamespace": [
@@ -7667,8 +10209,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -7683,6 +10227,20 @@
     "name": "Subject"
   },
   "SubjectAttribute": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#962B75",
     "description": null,
     "hasNamespace": [
@@ -7707,9 +10265,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -7724,6 +10284,20 @@
     "name": "SubjectAttribute"
   },
   "SubjectGroup": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#374527",
     "description": null,
     "hasNamespace": [
@@ -7751,8 +10325,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -7767,6 +10343,20 @@
     "name": "SubjectGroup"
   },
   "SubjectGroupState": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#5EA7FF",
     "description": null,
     "hasNamespace": [
@@ -7794,8 +10384,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -7810,6 +10402,20 @@
     "name": "SubjectGroupState"
   },
   "SubjectState": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#555558",
     "description": "Structured information on a temporary state of a subject.",
     "hasNamespace": [
@@ -7837,8 +10443,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -7853,6 +10461,20 @@
     "name": "SubjectState"
   },
   "TactileStimulusType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#EA1CA9",
     "description": null,
     "hasNamespace": [
@@ -7877,9 +10499,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -7894,6 +10518,20 @@
     "name": "TactileStimulusType"
   },
   "Technique": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#6367A9",
     "description": "Structured information on the technique.",
     "hasNamespace": [
@@ -7918,9 +10556,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -7935,6 +10575,20 @@
     "name": "Technique"
   },
   "TermSuggestion": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#CD7DAE",
     "description": null,
     "hasNamespace": [
@@ -7959,9 +10613,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -7976,6 +10632,20 @@
     "name": "TermSuggestion"
   },
   "Terminology": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#372D00",
     "description": null,
     "hasNamespace": [
@@ -8000,9 +10670,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -8017,6 +10689,13 @@
     "name": "Terminology"
   },
   "TissueCulturePreparation": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -8036,8 +10715,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -8050,6 +10731,20 @@
     "name": "TissueCulturePreparation"
   },
   "TissueSample": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#94A9C9",
     "description": "Structured information on a tissue sample.",
     "hasNamespace": [
@@ -8077,8 +10772,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -8093,6 +10790,20 @@
     "name": "TissueSample"
   },
   "TissueSampleAttribute": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#AFFFD1",
     "description": null,
     "hasNamespace": [
@@ -8117,9 +10828,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -8134,6 +10847,20 @@
     "name": "TissueSampleAttribute"
   },
   "TissueSampleCollection": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#00905E",
     "description": null,
     "hasNamespace": [
@@ -8161,8 +10888,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -8177,6 +10906,20 @@
     "name": "TissueSampleCollection"
   },
   "TissueSampleCollectionState": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#A697B6",
     "description": null,
     "hasNamespace": [
@@ -8204,8 +10947,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -8220,6 +10965,13 @@
     "name": "TissueSampleCollectionState"
   },
   "TissueSampleSlicing": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -8239,8 +10991,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -8253,6 +11007,20 @@
     "name": "TissueSampleSlicing"
   },
   "TissueSampleState": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#C7706A",
     "description": "Structured information on a temporary state of a tissue sample.",
     "hasNamespace": [
@@ -8280,8 +11048,10 @@
         "v2.0"
       ],
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -8296,6 +11066,20 @@
     "name": "TissueSampleState"
   },
   "TissueSampleType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#0AA3F7",
     "description": "Structured information on the general type of the tissue sample.",
     "hasNamespace": [
@@ -8320,9 +11104,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -8337,6 +11123,20 @@
     "name": "TissueSampleType"
   },
   "TypeOfUncertainty": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#7E9285",
     "description": null,
     "hasNamespace": [
@@ -8361,9 +11161,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -8378,6 +11180,20 @@
     "name": "TypeOfUncertainty"
   },
   "UBERONParcellation": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#DA8386",
     "description": null,
     "hasNamespace": [
@@ -8402,9 +11218,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -8419,6 +11237,12 @@
     "name": "UBERONParcellation"
   },
   "URL": {
+    "backwardsCompatibility": {
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ]
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -8444,6 +11268,20 @@
     "name": "URL"
   },
   "UnitOfMeasurement": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#51A058",
     "description": "Structured information on the unit of measurement.",
     "hasNamespace": [
@@ -8468,9 +11306,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -8485,6 +11325,13 @@
     "name": "UnitOfMeasurement"
   },
   "ValidationTest": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#813D3A",
     "description": "Structured information about the definition of a process for validating a computational model.",
     "hasNamespace": [
@@ -8504,8 +11351,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -8518,6 +11367,13 @@
     "name": "ValidationTest"
   },
   "ValidationTestVersion": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#3E7158",
     "description": "Structured information about a specific implementation of a validation test.",
     "hasNamespace": [
@@ -8537,7 +11393,9 @@
     ],
     "identical": [
       [
-        "v3.0",
+        "v3.0"
+      ],
+      [
         "v4.0"
       ],
       [
@@ -8553,6 +11411,13 @@
     "name": "ValidationTestVersion"
   },
   "ViewerSpecification": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -8572,8 +11437,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -8586,6 +11453,20 @@
     "name": "ViewerSpecification"
   },
   "VisualStimulusType": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v1.0": [],
+      "v2.0": [
+        "v1.0"
+      ],
+      "v3.0": [
+        "v2.0",
+        "v1.0"
+      ],
+      "v4.0": []
+    },
     "color": "#410601",
     "description": null,
     "hasNamespace": [
@@ -8610,9 +11491,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
-        "v3.0",
+        "v3.0"
+      ],
+      [
+        "latest",
         "v4.0"
       ]
     ],
@@ -8627,6 +11510,13 @@
     "name": "VisualStimulusType"
   },
   "Visualization": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#DA0004",
     "description": "Structured information about a process of visualizing a computational model, a computational process, or a dataset.",
     "hasNamespace": [
@@ -8646,8 +11536,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -8660,6 +11552,12 @@
     "name": "Visualization"
   },
   "Volume": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -8685,6 +11583,12 @@
     "name": "Volume"
   },
   "VolumeSequence": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v4.0": []
+    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -8710,6 +11614,13 @@
     "name": "VolumeSequence"
   },
   "WebResource": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#DAA9B5",
     "description": null,
     "hasNamespace": [
@@ -8729,8 +11640,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -8743,6 +11656,13 @@
     "name": "WebResource"
   },
   "WebService": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#6A9573",
     "description": null,
     "hasNamespace": [
@@ -8762,8 +11682,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -8776,6 +11698,13 @@
     "name": "WebService"
   },
   "WebServiceVersion": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#8D5700",
     "description": null,
     "hasNamespace": [
@@ -8795,7 +11724,9 @@
     ],
     "identical": [
       [
-        "v3.0",
+        "v3.0"
+      ],
+      [
         "v4.0"
       ],
       [
@@ -8811,6 +11742,13 @@
     "name": "WebServiceVersion"
   },
   "WorkflowExecution": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#F4ABAA",
     "description": "Structured information about an execution of a computational workflow.",
     "hasNamespace": [
@@ -8830,8 +11768,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -8844,6 +11784,13 @@
     "name": "WorkflowExecution"
   },
   "WorkflowRecipe": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#AA62C3",
     "description": "Structured information about the description of a prospective workflow.",
     "hasNamespace": [
@@ -8863,8 +11810,10 @@
     ],
     "identical": [
       [
+        "v3.0"
+      ],
+      [
         "latest",
-        "v3.0",
         "v4.0"
       ]
     ],
@@ -8877,6 +11826,13 @@
     "name": "WorkflowRecipe"
   },
   "WorkflowRecipeVersion": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
+      "v3.0": [],
+      "v4.0": []
+    },
     "color": "#4B2C00",
     "description": "Structured information about a specific implemented version of a workflow recipe.",
     "hasNamespace": [
@@ -8896,7 +11852,9 @@
     ],
     "identical": [
       [
-        "v3.0",
+        "v3.0"
+      ],
+      [
         "v4.0"
       ],
       [
