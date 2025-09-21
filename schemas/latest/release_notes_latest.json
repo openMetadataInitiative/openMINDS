@@ -118,6 +118,9 @@
         {
           "property": "properties.props:keyword._linkedTypes",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:pagination._instruction"
         }
       ],
       "schemaType": "Chapter"
@@ -161,6 +164,9 @@
         {
           "property": "properties.props:keyword._linkedTypes",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:pagination._instruction"
         }
       ],
       "schemaType": "ScholarlyArticle"

@@ -40,6 +40,7 @@ Changes in publications/book.schema.omi.json:
 
 Changes in publications/chapter.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:pagination._instruction' modified.
 
 Changes in publications/learningResource.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
@@ -53,6 +54,7 @@ Changes in publications/livePaperVersion.schema.omi.json:
 
 Changes in publications/scholarlyArticle.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:pagination._instruction' modified.
 
 Changes in SANDS/atlas/brainAtlasVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
