@@ -3,12 +3,6 @@ Release Notes latest:
 Added files:
   - controlledTerms/MRSpatialEncoding.schema.omi.json
 
-Changes in chemicals/chemicalMixture.schema.omi.json:
-  - Field '_categories' added.
-
-Changes in chemicals/chemicalSubstance.schema.omi.json:
-  - Field '_categories' added.
-
 Changes in computation/validationTestVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
 
@@ -25,8 +19,6 @@ Changes in core/products/metaDataModelVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
 
 Changes in core/products/modelVersion.schema.omi.json:
-  - Field 'properties.props:configuration' added.
-  - Field 'properties.props:entryPoint' added.
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
 
 Changes in core/products/softwareVersion.schema.omi.json:
@@ -43,10 +35,6 @@ Changes in publications/chapter.schema.omi.json:
 
 Changes in publications/learningResource.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
-
-Changes in publications/livePaperResourceItem.schema.omi.json:
-  - Field 'properties.props:hostedBy._instruction' modified.
-  - Field 'properties.props:hostedBy._linkedTypes' modified (value(s) added).
 
 Changes in publications/livePaperVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
