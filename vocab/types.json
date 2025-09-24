@@ -1784,6 +1784,31 @@
     "label": "Common coordinate space version",
     "name": "CommonCoordinateSpaceVersion"
   },
+  "CommunicationProtocol": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Communication protocol",
+    "name": "CommunicationProtocol"
+  },
   "Configuration": {
     "backwardsCompatibility": {
       "latest": [
