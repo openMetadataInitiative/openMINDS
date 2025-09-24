@@ -3014,6 +3014,31 @@
     "label": "Dataset version",
     "name": "DatasetVersion"
   },
+  "DeploymentEnvironmentType": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Deployment environment type",
+    "name": "DeploymentEnvironmentType"
+  },
   "DeviceType": {
     "backwardsCompatibility": {
       "latest": [
