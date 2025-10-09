@@ -1,6 +1,7 @@
 {
   "title": "Release Notes latest",
   "addedFiles": [
+    "controlledTerms/communicationInterfaceType.schema.omi.json",
     "controlledTerms/communicationProtocol.schema.omi.json",
     "controlledTerms/deploymentEnvironmentType.schema.omi.json",
     "controlledTerms/MRSpatialEncoding.schema.omi.json"
