@@ -64,6 +64,10 @@
       "core:TissueSampleCollectionState",
       "core:TissueSampleState"
     ],
+    "jurisdiction": [
+      "controlledTerms:SovereignState",
+      "controlledTerms:SupranationalBody"
+    ],
     "keyword": [
       "controlledTerms:ActionStatusType",
       "controlledTerms:AgeCategory",
@@ -134,11 +138,13 @@
       "controlledTerms:SetupType",
       "controlledTerms:SoftwareApplicationCategory",
       "controlledTerms:SoftwareFeature",
+      "controlledTerms:SovereignState",
       "controlledTerms:Species",
       "controlledTerms:StimulationApproach",
       "controlledTerms:StimulationTechnique",
       "controlledTerms:SubcellularEntity",
       "controlledTerms:SubjectAttribute",
+      "controlledTerms:SupranationalBody",
       "controlledTerms:TactileStimulusType",
       "controlledTerms:Technique",
       "controlledTerms:TermSuggestion",
