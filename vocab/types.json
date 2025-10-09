@@ -9158,6 +9158,31 @@
     "label": "Software version",
     "name": "SoftwareVersion"
   },
+  "SovereignState": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sovereign state",
+    "name": "SovereignState"
+  },
   "Species": {
     "backwardsCompatibility": {
       "latest": [
@@ -9833,6 +9858,31 @@
     ],
     "label": "Subject state",
     "name": "SubjectState"
+  },
+  "SupranationalBody": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Supranational body",
+    "name": "SupranationalBody"
   },
   "TactileStimulusType": {
     "backwardsCompatibility": {
