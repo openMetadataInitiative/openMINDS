@@ -8,6 +8,13 @@ Added files:
   - controlledTerms/sovereignState.schema.omi.json
   - controlledTerms/supranationalBody.schema.omi.json
 
+Removed files:
+
+Moved files:
+  - SANDS/mathematicalShapes/circle.schema.omi.json moved to SANDS/mathematicalShape/circle.schema.omi.json
+  - SANDS/mathematicalShapes/ellipse.schema.omi.json moved to SANDS/mathematicalShape/ellipse.schema.omi.json
+  - SANDS/mathematicalShapes/rectangle.schema.omi.json moved to SANDS/mathematicalShape/rectangle.schema.omi.json
+
 Changes in chemicals/chemicalMixture.schema.omi.json:
   - Field '_categories' added.
 
@@ -66,3 +73,7 @@ Changes in SANDS/atlas/brainAtlasVersion.schema.omi.json:
 
 Changes in SANDS/atlas/commonCoordinateSpaceVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+
+Changes in specimenPrep/activity/cranialWindowPreparation.schema.omi.json:
+  - Field 'properties.props:dimension.nameForReverseLink' removed.
+  - Field 'properties.props:dimension._embeddedTypes' modified (value(s) removed).

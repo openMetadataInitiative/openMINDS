@@ -8,6 +8,24 @@
     "controlledTerms/sovereignState.schema.omi.json",
     "controlledTerms/supranationalBody.schema.omi.json"
   ],
+  "removedFiles": [],
+  "movedFiles": [
+    {
+      "file": "circle.schema.omi.json",
+      "source": "SANDS/mathematicalShapes/circle.schema.omi.json",
+      "destination": "SANDS/mathematicalShape/circle.schema.omi.json"
+    },
+    {
+      "file": "ellipse.schema.omi.json",
+      "source": "SANDS/mathematicalShapes/ellipse.schema.omi.json",
+      "destination": "SANDS/mathematicalShape/ellipse.schema.omi.json"
+    },
+    {
+      "file": "rectangle.schema.omi.json",
+      "source": "SANDS/mathematicalShapes/rectangle.schema.omi.json",
+      "destination": "SANDS/mathematicalShape/rectangle.schema.omi.json"
+    }
+  ],
   "changes": [
     {
       "file": "chemicals/chemicalMixture.schema.omi.json",
@@ -195,6 +213,19 @@
         }
       ],
       "schemaType": "CommonCoordinateSpaceVersion"
+    },
+    {
+      "file": "specimenPrep/activity/cranialWindowPreparation.schema.omi.json",
+      "removedAttributes": [
+        "properties.props:dimension.nameForReverseLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:dimension._embeddedTypes",
+          "modification": "value(s) removed"
+        }
+      ],
+      "schemaType": "CranialWindowPreparation"
     }
   ]
 }
