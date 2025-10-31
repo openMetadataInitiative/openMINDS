@@ -41,6 +41,7 @@
       "ephys:ElectrodeArrayUsage",
       "ephys:ElectrodeUsage",
       "ephys:PipetteUsage",
+      "neuroimaging:MRIScannerUsage",
       "specimenPrep:SlicingDeviceUsage"
     ],
     "fileOrigin": [
@@ -160,7 +161,7 @@
       "core:Organization",
       "core:Person"
     ],
-    "mathematicalShapes": [
+    "mathematicalShape": [
       "sands:Circle",
       "sands:Ellipse",
       "sands:Rectangle"
@@ -202,6 +203,7 @@
       "ephys:Electrode",
       "ephys:ElectrodeArray",
       "ephys:Pipette",
+      "neuroimaging:MRIScanner",
       "specimenPrep:SlicingDevice"
     ],
     "stimulus": [
@@ -539,6 +541,10 @@
       "sands:ParcellationEntity",
       "sands:ParcellationEntityVersion"
     ],
+    "chemicalProduct": [
+      "chemicals:ChemicalMixture",
+      "chemicals:ChemicalSubstance"
+    ],
     "color": [
       "controlledTerms:Colormap",
       "sands:SingleColor"
@@ -561,6 +567,7 @@
       "ephys:ElectrodeArrayUsage",
       "ephys:ElectrodeUsage",
       "ephys:PipetteUsage",
+      "neuroimaging:MRIScannerUsage",
       "specimenPrep:SlicingDeviceUsage"
     ],
     "fileOrigin": [
@@ -670,7 +677,7 @@
       "core:Organization",
       "core:Person"
     ],
-    "mathematicalShapes": [
+    "mathematicalShape": [
       "sands:Circle",
       "sands:Ellipse",
       "sands:Rectangle"
@@ -712,6 +719,7 @@
       "ephys:Electrode",
       "ephys:ElectrodeArray",
       "ephys:Pipette",
+      "neuroimaging:MRIScanner",
       "specimenPrep:SlicingDevice"
     ],
     "stimulus": [

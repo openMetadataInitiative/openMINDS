@@ -1,19 +1,40 @@
 {
-  "_module": "specimenPrep",
-  "_type": "https://openminds.om-i.org/types/CranialWindowPreparation",
-  "label": "Cranial window preparation",
-  "name": "CranialWindowPreparation",
+  "_module": "neuroimaging",
+  "_type": "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
+  "label": "Functional mriacquisition",
+  "name": "FunctionalMRIAcquisition",
   "properties": {
-    "https://openminds.om-i.org/props/constructionType": {
-      "_instruction": "Add the construction type of the cranial window.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/CranialWindowConstructionType"
+    "https://openminds.om-i.org/props/acquisitionDuration": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
       ],
-      "label": "Construction type",
-      "labelPlural": "Construction types",
-      "name": "constructionType",
+      "_instruction": "Enter duration of volume acquisition.",
+      "label": "Acquisition duration",
+      "name": "acquisitionDuration",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/behavioralProtocol": {
+      "_instruction": "Add all behavioral protocols that were performed during this session.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/BehavioralProtocol"
+      ],
+      "label": "Behavioral protocol",
+      "labelPlural": "Behavioral protocols",
+      "minItems": 1,
+      "name": "behavioralProtocol",
       "nameForReverseLink": null,
-      "namePlural": "constructionTypes"
+      "namePlural": "behavioralProtocols",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/contrastAgent": {
+      "_instruction": "Add the contrast agent used for this scan.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AmountOfChemical"
+      ],
+      "label": "Contrast agent",
+      "name": "contrastAgent",
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/customPropertySet": {
       "_embeddedTypes": [
@@ -29,6 +50,24 @@
       "type": "array",
       "uniqueItems": true
     },
+    "https://openminds.om-i.org/props/delayAfterTrigger": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the duration from trigger delivery to scan onset (only the first volume).",
+      "label": "Delay after trigger",
+      "name": "delayAfterTrigger",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/delayTime": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the arbitrary delay time set by user before each volume acquisition.",
+      "label": "Delay time",
+      "name": "delayTime",
+      "nameForReverseLink": null
+    },
     "https://openminds.om-i.org/props/description": {
       "_instruction": "Enter a description of this activity.",
       "description": "Longer statement or account giving the characteristics of someone or something.",
@@ -40,16 +79,17 @@
       "namePlural": "descriptions",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/dimension": {
-      "_belongsToCategory": [
-        "mathematicalShapes"
+    "https://openminds.om-i.org/props/device": {
+      "_instruction": "Add the MRI machine setting used for this scan.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
       ],
-      "_embeddedTypes": [],
-      "_instruction": "Enter the dimension of the cranial window by defining its mathematical shape.",
-      "label": "Dimension",
-      "labelPlural": "Dimensions",
-      "name": "dimension",
-      "namePlural": "dimensions"
+      "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
+      "label": "Device",
+      "labelPlural": "Devices",
+      "name": "device",
+      "nameForReverseLink": null,
+      "namePlural": "devices"
     },
     "https://openminds.om-i.org/props/endTime": {
       "_formats": [
@@ -65,10 +105,22 @@
       "namePlural": "endTimes",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/input": {
-      "_instruction": "Add the state of the subject which received the cranial window before this activity.",
+    "https://openminds.om-i.org/props/fieldMap": {
+      "_instruction": "Add the images or field maps used for correction of inhomogeneities in B0 field of this acquisition.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/SubjectState"
+        "https://openminds.om-i.org/types/File"
+      ],
+      "label": "Field map",
+      "minItems": 1,
+      "name": "fieldMap",
+      "nameForReverseLink": null,
+      "type": "array"
+    },
+    "https://openminds.om-i.org/props/input": {
+      "_instruction": "Add the state of the subject or tissue sample before this session.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SubjectState",
+        "https://openminds.om-i.org/types/TissueSampleState"
       ],
       "description": "Something or someone that is put into or participates in a process or machine.",
       "label": "Input",
@@ -102,10 +154,17 @@
       "namePlural": "lookupLabels",
       "type": "string"
     },
+    "https://openminds.om-i.org/props/numberOfVolumesDiscardedByUser": {
+      "_instruction": "Enter number of volumes discarded by user before the first volume.",
+      "label": "Number of volumes discarded by user",
+      "name": "numberOfVolumesDiscardedByUser",
+      "type": "number"
+    },
     "https://openminds.om-i.org/props/output": {
-      "_instruction": "Add the state of the subject which received the cranial window as a result of this activity.",
+      "_instruction": "Add all outputs generated by this activity.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/SubjectState"
+        "https://openminds.om-i.org/types/File",
+        "https://openminds.om-i.org/types/FileBundle"
       ],
       "description": "Something or someone that comes out of, is delivered or produced by a process or machine.",
       "label": "Output",
@@ -161,16 +220,23 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.om-i.org/props/reinforcementType": {
-      "_instruction": "Add the reinforcement type of the cranial window.",
+    "https://openminds.om-i.org/props/sbref": {
+      "_instruction": "Add the single-band reference image for this volume.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/CranialWindowReinforcementType"
+        "https://openminds.om-i.org/types/File"
       ],
-      "label": "Reinforcement type",
-      "labelPlural": "Reinforcement types",
-      "name": "reinforcementType",
-      "nameForReverseLink": null,
-      "namePlural": "reinforcementTypes"
+      "label": "Sbref",
+      "name": "sbref",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/specimenOrientation": {
+      "_instruction": "Add the anatomical orientation of the specimen in the scanner.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnatomicalAxesOrientation"
+      ],
+      "label": "Specimen orientation",
+      "name": "specimenOrientation",
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/startTime": {
       "_formats": [
@@ -185,6 +251,15 @@
       "name": "startTime",
       "namePlural": "startTimes",
       "type": "string"
+    },
+    "https://openminds.om-i.org/props/structuralMRI": {
+      "_instruction": "Add the structural MRI relevant for this acquisition.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File"
+      ],
+      "label": "Structural mri",
+      "name": "structuralMRI",
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/studyTarget": {
       "_belongsToCategory": [
@@ -230,10 +305,19 @@
       "namePlural": "studyTargets",
       "type": "array",
       "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/volumeTiming": {
+      "_instruction": "Enter acquisition times of each vloume.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValueArray"
+      ],
+      "label": "Volume timing",
+      "name": "volumeTiming",
+      "nameForReverseLink": null
     }
   },
   "required": [
-    "https://openminds.om-i.org/props/constructionType",
+    "https://openminds.om-i.org/props/device",
     "https://openminds.om-i.org/props/input",
     "https://openminds.om-i.org/props/isPartOf",
     "https://openminds.om-i.org/props/output",

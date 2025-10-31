@@ -44,16 +44,11 @@
       "_belongsToCategory": [
         "mathematicalShapes"
       ],
-      "_embeddedTypes": [
-        "https://openminds.om-i.org/types/Circle",
-        "https://openminds.om-i.org/types/Ellipse",
-        "https://openminds.om-i.org/types/Rectangle"
-      ],
+      "_embeddedTypes": [],
       "_instruction": "Enter the dimension of the cranial window by defining its mathematical shape.",
       "label": "Dimension",
       "labelPlural": "Dimensions",
       "name": "dimension",
-      "nameForReverseLink": null,
       "namePlural": "dimensions"
     },
     "https://openminds.om-i.org/props/endTime": {

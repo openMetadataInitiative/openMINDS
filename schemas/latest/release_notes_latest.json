@@ -10,20 +10,6 @@
   ],
   "changes": [
     {
-      "file": "chemicals/chemicalMixture.schema.omi.json",
-      "addedAttributes": [
-        "_categories"
-      ],
-      "schemaType": "ChemicalMixture"
-    },
-    {
-      "file": "chemicals/chemicalSubstance.schema.omi.json",
-      "addedAttributes": [
-        "_categories"
-      ],
-      "schemaType": "ChemicalSubstance"
-    },
-    {
       "file": "computation/validationTestVersion.schema.omi.json",
       "modifiedAttributes": [
         {
@@ -75,10 +61,6 @@
     },
     {
       "file": "core/products/modelVersion.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:configuration",
-        "properties.props:entryPoint"
-      ],
       "modifiedAttributes": [
         {
           "property": "properties.props:keyword._linkedTypes",
@@ -123,9 +105,6 @@
         {
           "property": "properties.props:keyword._linkedTypes",
           "modification": "value(s) added"
-        },
-        {
-          "property": "properties.props:pagination._instruction"
         }
       ],
       "schemaType": "Chapter"
@@ -139,19 +118,6 @@
         }
       ],
       "schemaType": "LearningResource"
-    },
-    {
-      "file": "publications/livePaperResourceItem.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:hostedBy._instruction"
-        },
-        {
-          "property": "properties.props:hostedBy._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "LivePaperResourceItem"
     },
     {
       "file": "publications/livePaperVersion.schema.omi.json",
@@ -169,9 +135,6 @@
         {
           "property": "properties.props:keyword._linkedTypes",
           "modification": "value(s) added"
-        },
-        {
-          "property": "properties.props:pagination._instruction"
         }
       ],
       "schemaType": "ScholarlyArticle"
