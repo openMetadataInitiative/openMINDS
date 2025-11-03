@@ -6364,6 +6364,11 @@
   "dimension": {
     "asEdge": {
       "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/Circle",
+          "https://openminds.om-i.org/types/Ellipse",
+          "https://openminds.om-i.org/types/Rectangle"
+        ],
         "v3.0": [
           "https://openminds.ebrains.eu/sands/Circle",
           "https://openminds.ebrains.eu/sands/Ellipse",
