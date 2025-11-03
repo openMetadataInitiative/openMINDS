@@ -431,13 +431,9 @@
     },
     {
       "file": "specimenPrep/activity/cranialWindowPreparation.schema.omi.json",
-      "removedAttributes": [
-        "properties.props:dimension.nameForReverseLink"
-      ],
       "modifiedAttributes": [
         {
-          "property": "properties.props:dimension._embeddedTypes",
-          "modification": "value(s) removed"
+          "property": "properties.props:dimension._belongsToCategory"
         },
         {
           "property": "properties.props:studyTarget._linkedTypes",

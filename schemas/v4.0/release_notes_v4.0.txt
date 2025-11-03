@@ -145,8 +145,7 @@ Changes in SANDS/atlas/commonCoordinateSpaceVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
 
 Changes in specimenPrep/activity/cranialWindowPreparation.schema.omi.json:
-  - Field 'properties.props:dimension.nameForReverseLink' removed.
-  - Field 'properties.props:dimension._embeddedTypes' modified (value(s) removed).
+  - Field 'properties.props:dimension._belongsToCategory' modified.
   - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
 
 Changes in specimenPrep/activity/tissueCulturePreparation.schema.omi.json:
