@@ -14,6 +14,10 @@
       "sands:ParcellationEntity",
       "sands:ParcellationEntityVersion"
     ],
+    "biologicalTaxon": [
+      "controlledTerms:BiologicalOrder",
+      "controlledTerms:Species"
+    ],
     "chemicalProduct": [
       "chemicals:ChemicalMixture",
       "chemicals:ChemicalSubstance",
@@ -541,10 +545,6 @@
       "sands:ParcellationEntity",
       "sands:ParcellationEntityVersion"
     ],
-    "chemicalProduct": [
-      "chemicals:ChemicalMixture",
-      "chemicals:ChemicalSubstance"
-    ],
     "color": [
       "controlledTerms:Colormap",
       "sands:SingleColor"
@@ -567,7 +567,6 @@
       "ephys:ElectrodeArrayUsage",
       "ephys:ElectrodeUsage",
       "ephys:PipetteUsage",
-      "neuroimaging:MRIScannerUsage",
       "specimenPrep:SlicingDeviceUsage"
     ],
     "fileOrigin": [
@@ -677,7 +676,7 @@
       "core:Organization",
       "core:Person"
     ],
-    "mathematicalShape": [
+    "mathematicalShapes": [
       "sands:Circle",
       "sands:Ellipse",
       "sands:Rectangle"
@@ -719,7 +718,6 @@
       "ephys:Electrode",
       "ephys:ElectrodeArray",
       "ephys:Pipette",
-      "neuroimaging:MRIScanner",
       "specimenPrep:SlicingDevice"
     ],
     "stimulus": [
