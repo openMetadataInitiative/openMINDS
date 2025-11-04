@@ -27,7 +27,13 @@ Changes in computation/validationTestVersion.schema.omi.json:
 Changes in computation/workflowRecipeVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
 
+Changes in controlledTerms/biologicalOrder.schema.omi.json:
+  - Field '_categories' modified (value(s) added).
+
 Changes in controlledTerms/molecularEntity.schema.omi.json:
+  - Field '_categories' modified (value(s) added).
+
+Changes in controlledTerms/species.schema.omi.json:
   - Field '_categories' modified (value(s) added).
 
 Changes in core/products/datasetVersion.schema.omi.json:

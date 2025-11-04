@@ -14,6 +14,10 @@
       "sands:ParcellationEntity",
       "sands:ParcellationEntityVersion"
     ],
+    "biologicalTaxon": [
+      "controlledTerms:BiologicalOrder",
+      "controlledTerms:Species"
+    ],
     "chemicalProduct": [
       "chemicals:ChemicalMixture",
       "chemicals:ChemicalSubstance",
