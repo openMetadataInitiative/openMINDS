@@ -8,9 +8,7 @@
     "controlledTerms/sovereignState.schema.omi.json",
     "controlledTerms/supranationalBody.schema.omi.json",
     "core/miscellaneous/geoCoordinates.schema.omi.json",
-    "core/miscellaneous/location.schema.omi.json"
-  ],
-  "removedFiles": [
+    "core/miscellaneous/location.schema.omi.json",
     "neuroimaging/activity/functionalMRIAcquisition.schema.omi.json",
     "neuroimaging/activity/structuralMRIAcquisition.schema.omi.json",
     "neuroimaging/device/MRIScanner.schema.omi.json",
@@ -21,7 +19,39 @@
     "neuroimaging/entity/volume.schema.omi.json",
     "neuroimaging/entity/volumeSequence.schema.omi.json"
   ],
+  "removedFiles": [],
+  "movedFiles": [
+    {
+      "file": "circle.schema.omi.json",
+      "source": "SANDS/mathematicalShapes/circle.schema.omi.json",
+      "destination": "SANDS/mathematicalShape/circle.schema.omi.json"
+    },
+    {
+      "file": "ellipse.schema.omi.json",
+      "source": "SANDS/mathematicalShapes/ellipse.schema.omi.json",
+      "destination": "SANDS/mathematicalShape/ellipse.schema.omi.json"
+    },
+    {
+      "file": "rectangle.schema.omi.json",
+      "source": "SANDS/mathematicalShapes/rectangle.schema.omi.json",
+      "destination": "SANDS/mathematicalShape/rectangle.schema.omi.json"
+    }
+  ],
   "changes": [
+    {
+      "file": "chemicals/chemicalMixture.schema.omi.json",
+      "addedAttributes": [
+        "_categories"
+      ],
+      "schemaType": "ChemicalMixture"
+    },
+    {
+      "file": "chemicals/chemicalSubstance.schema.omi.json",
+      "addedAttributes": [
+        "_categories"
+      ],
+      "schemaType": "ChemicalSubstance"
+    },
     {
       "file": "computation/validationTest.schema.omi.json",
       "modifiedAttributes": [
@@ -105,7 +135,7 @@
       "modifiedAttributes": [
         {
           "property": "properties.props:measuredWith._linkedTypes",
-          "modification": "value(s) removed"
+          "modification": "value(s) added"
         }
       ],
       "schemaType": "Measurement"
@@ -198,6 +228,8 @@
     {
       "file": "core/products/modelVersion.schema.omi.json",
       "addedAttributes": [
+        "properties.props:configuration",
+        "properties.props:entryPoint",
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
         "properties.props:isVersionOf"
@@ -223,7 +255,7 @@
       "modifiedAttributes": [
         {
           "property": "properties.props:hasPart._linkedTypes",
-          "modification": "value(s) removed"
+          "modification": "value(s) added"
         }
       ],
       "schemaType": "Setup"
@@ -305,7 +337,7 @@
       "modifiedAttributes": [
         {
           "property": "properties.props:device._linkedTypes",
-          "modification": "value(s) removed"
+          "modification": "value(s) added"
         }
       ],
       "schemaType": "CellPatching"
@@ -315,7 +347,7 @@
       "modifiedAttributes": [
         {
           "property": "properties.props:device._linkedTypes",
-          "modification": "value(s) removed"
+          "modification": "value(s) added"
         }
       ],
       "schemaType": "ElectrodePlacement"
@@ -325,7 +357,7 @@
       "modifiedAttributes": [
         {
           "property": "properties.props:recordedWith._linkedTypes",
-          "modification": "value(s) removed"
+          "modification": "value(s) added"
         }
       ],
       "schemaType": "Recording"
@@ -346,6 +378,9 @@
         {
           "property": "properties.props:keyword._linkedTypes",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:pagination._instruction"
         }
       ],
       "schemaType": "Chapter"
@@ -371,6 +406,19 @@
       "schemaType": "LivePaper"
     },
     {
+      "file": "publications/livePaperResourceItem.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:hostedBy._instruction"
+        },
+        {
+          "property": "properties.props:hostedBy._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "LivePaperResourceItem"
+    },
+    {
       "file": "publications/livePaperVersion.schema.omi.json",
       "modifiedAttributes": [
         {
@@ -390,6 +438,9 @@
         {
           "property": "properties.props:keyword._linkedTypes",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:pagination._instruction"
         }
       ],
       "schemaType": "ScholarlyArticle"
@@ -443,15 +494,24 @@
       "schemaType": "CommonCoordinateSpaceVersion"
     },
     {
+      "file": "specimenPrep/activity/cranialWindowPreparation.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:dimension._belongsToCategory"
+        }
+      ],
+      "schemaType": "CranialWindowPreparation"
+    },
+    {
       "file": "stimulation/stimulus/ephysStimulus.schema.omi.json",
       "modifiedAttributes": [
         {
           "property": "properties.props:deliveredBy._linkedTypes",
-          "modification": "value(s) removed"
+          "modification": "value(s) added"
         },
         {
           "property": "properties.props:generatedBy._linkedTypes",
-          "modification": "value(s) removed"
+          "modification": "value(s) added"
         }
       ],
       "schemaType": "EphysStimulus"
