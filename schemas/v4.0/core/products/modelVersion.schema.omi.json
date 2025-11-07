@@ -21,20 +21,6 @@
       "nameForReverseLink": null,
       "namePlural": "accessibilities"
     },
-    "https://openminds.om-i.org/props/configuration": {
-      "_instruction": "Add the configuration information for this model version.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/Configuration",
-        "https://openminds.om-i.org/types/File",
-        "https://openminds.om-i.org/types/PropertyValueList",
-        "https://openminds.om-i.org/types/WebResource"
-      ],
-      "label": "Configuration",
-      "labelPlural": "Configurations",
-      "name": "configuration",
-      "nameForReverseLink": null,
-      "namePlural": "configurations"
-    },
     "https://openminds.om-i.org/props/copyright": {
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/Copyright"
@@ -110,16 +96,6 @@
       "name": "digitalIdentifier",
       "nameForReverseLink": null,
       "namePlural": "digitalIdentifiers"
-    },
-    "https://openminds.om-i.org/props/entryPoint": {
-      "_instruction": "Add the entry point for this model version (for example, the path of the main script file within the repository).",
-      "formatting": "text/plain",
-      "label": "Entry point",
-      "labelPlural": "Entry points",
-      "multiline": false,
-      "name": "entryPoint",
-      "namePlural": "entryPoints",
-      "type": "string"
     },
     "https://openminds.om-i.org/props/format": {
       "_instruction": "Add the content type of this computational model version, or the content types of the files composing the model version.",
@@ -220,35 +196,32 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.om-i.org/props/isPrecededBy": {
-      "_instruction": "Add the model version preceding this model version.",
+    "https://openminds.om-i.org/props/isAlternativeVersionOf": {
+      "_instruction": "Add all computational model versions that can be used alternatively to this computational model version.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/ModelVersion"
       ],
-      "label": "Is preceded by",
-      "name": "isPrecededBy",
-      "nameForReverseLink": null
-    },
-    "https://openminds.om-i.org/props/isVariantOf": {
-      "_instruction": "Add all model versions that can be used alternatively to this model version.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/ModelVersion"
-      ],
-      "label": "Is variant of",
+      "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
+      "label": "Is alternative version of",
+      "labelPlural": "Is alternative version of",
       "minItems": 1,
-      "name": "isVariantOf",
+      "name": "isAlternativeVersionOf",
       "nameForReverseLink": null,
+      "namePlural": "isAlternativeVersionOf",
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.om-i.org/props/isVersionOf": {
-      "_instruction": "Add the version-independent information about this model.",
+    "https://openminds.om-i.org/props/isNewVersionOf": {
+      "_instruction": "Add the computational model version preceding this computational model version.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/Model"
+        "https://openminds.om-i.org/types/ModelVersion"
       ],
-      "label": "Is version of",
-      "name": "isVersionOf",
-      "nameForReverseLink": null
+      "description": "Reference to a previous (potentially outdated) particular form of something.",
+      "label": "Is new version of",
+      "labelPlural": "Is new version of",
+      "name": "isNewVersionOf",
+      "nameForReverseLink": null,
+      "namePlural": "isNewVersionOf"
     },
     "https://openminds.om-i.org/props/keyword": {
       "_belongsToCategory": [
@@ -503,7 +476,6 @@
     "https://openminds.om-i.org/props/accessibility",
     "https://openminds.om-i.org/props/format",
     "https://openminds.om-i.org/props/fullDocumentation",
-    "https://openminds.om-i.org/props/isVersionOf",
     "https://openminds.om-i.org/props/license",
     "https://openminds.om-i.org/props/releaseDate",
     "https://openminds.om-i.org/props/shortName",
