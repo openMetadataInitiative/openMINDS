@@ -96,21 +96,6 @@
       "namePlural": "fullNames",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/hasVersion": {
-      "_instruction": "Add all versions of this computational model.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/ModelVersion"
-      ],
-      "description": "Reference to variants of an original.",
-      "label": "Has version",
-      "labelPlural": "Has versions",
-      "minItems": 1,
-      "name": "hasVersion",
-      "nameForReverseLink": null,
-      "namePlural": "hasVersions",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.om-i.org/props/homepage": {
       "_formats": [
         "iri"
@@ -210,7 +195,6 @@
     "https://openminds.om-i.org/props/description",
     "https://openminds.om-i.org/props/developer",
     "https://openminds.om-i.org/props/fullName",
-    "https://openminds.om-i.org/props/hasVersion",
     "https://openminds.om-i.org/props/scope",
     "https://openminds.om-i.org/props/shortName",
     "https://openminds.om-i.org/props/studyTarget"
