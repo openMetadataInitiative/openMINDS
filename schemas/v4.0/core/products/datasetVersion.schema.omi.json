@@ -239,32 +239,35 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.om-i.org/props/isAlternativeVersionOf": {
-      "_instruction": "Add all dataset versions that can be used alternatively to this dataset version.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/DatasetVersion"
-      ],
-      "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
-      "label": "Is alternative version of",
-      "labelPlural": "Is alternative version of",
-      "minItems": 1,
-      "name": "isAlternativeVersionOf",
-      "nameForReverseLink": null,
-      "namePlural": "isAlternativeVersionOf",
-      "type": "array",
-      "uniqueItems": true
-    },
-    "https://openminds.om-i.org/props/isNewVersionOf": {
+    "https://openminds.om-i.org/props/isPrecededBy": {
       "_instruction": "Add the dataset version preceding this dataset version.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/DatasetVersion"
       ],
-      "description": "Reference to a previous (potentially outdated) particular form of something.",
-      "label": "Is new version of",
-      "labelPlural": "Is new version of",
-      "name": "isNewVersionOf",
+      "label": "Is preceded by",
+      "name": "isPrecededBy",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/isVariantOf": {
+      "_instruction": "Add all dataset versions that can be used alternatively to this dataset version.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/DatasetVersion"
+      ],
+      "label": "Is variant of",
+      "minItems": 1,
+      "name": "isVariantOf",
       "nameForReverseLink": null,
-      "namePlural": "isNewVersionOf"
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/isVersionOf": {
+      "_instruction": "Add the version-independent information about this dataset.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Dataset"
+      ],
+      "label": "Is version of",
+      "name": "isVersionOf",
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/keyword": {
       "_belongsToCategory": [
@@ -616,6 +619,7 @@
     "https://openminds.om-i.org/props/ethicsAssessment",
     "https://openminds.om-i.org/props/experimentalApproach",
     "https://openminds.om-i.org/props/fullDocumentation",
+    "https://openminds.om-i.org/props/isVersionOf",
     "https://openminds.om-i.org/props/license",
     "https://openminds.om-i.org/props/releaseDate",
     "https://openminds.om-i.org/props/shortName",

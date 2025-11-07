@@ -1055,9 +1055,7 @@
   },
   "BrainAtlas": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
+      "latest": [],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -1095,8 +1093,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -1281,8 +1281,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -1468,10 +1470,8 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -1554,10 +1554,8 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -1696,9 +1694,7 @@
   },
   "CommonCoordinateSpace": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
+      "latest": [],
       "v2.0": [],
       "v3.0": [],
       "v4.0": []
@@ -1729,8 +1725,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -2418,10 +2416,8 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -2905,9 +2901,7 @@
   },
   "Dataset": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
+      "latest": [],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -2948,8 +2942,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -3581,8 +3577,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -3749,8 +3747,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -4350,6 +4350,23 @@
     ],
     "label": "File usage role",
     "name": "FileUsageRole"
+  },
+  "FunctionalMRIAcquisition": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "isPartOfVersion": [
+      "v4.0"
+    ],
+    "label": "Functional mriacquisition",
+    "name": "FunctionalMRIAcquisition"
   },
   "Funding": {
     "backwardsCompatibility": {
@@ -4981,6 +4998,12 @@
           "v1.0"
         ],
         "namespace": "https://openminds.ebrains.eu/sands/"
+      },
+      {
+        "inVersions": [
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
       }
     ],
     "identical": [
@@ -4989,10 +5012,45 @@
       ]
     ],
     "isPartOfVersion": [
-      "v1.0"
+      "v1.0",
+      "v4.0"
     ],
     "label": "Image",
     "name": "Image"
+  },
+  "ImageSequence": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "isPartOfVersion": [
+      "v4.0"
+    ],
+    "label": "Image sequence",
+    "name": "ImageSequence"
+  },
+  "ImageStack": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "isPartOfVersion": [
+      "v4.0"
+    ],
+    "label": "Image stack",
+    "name": "ImageStack"
   },
   "Language": {
     "backwardsCompatibility": {
@@ -5301,9 +5359,7 @@
   },
   "LivePaper": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
+      "latest": [],
       "v3.0": [],
       "v4.0": []
     },
@@ -5329,8 +5385,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -5371,10 +5429,8 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -5569,6 +5625,40 @@
     "label": "Mripulse sequence",
     "name": "MRIPulseSequence"
   },
+  "MRIScanner": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "isPartOfVersion": [
+      "v4.0"
+    ],
+    "label": "Mriscanner",
+    "name": "MRIScanner"
+  },
+  "MRIScannerUsage": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "isPartOfVersion": [
+      "v4.0"
+    ],
+    "label": "Mriscanner usage",
+    "name": "MRIScannerUsage"
+  },
   "MRIWeighting": {
     "backwardsCompatibility": {
       "latest": [
@@ -5739,8 +5829,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -5753,9 +5845,7 @@
   },
   "MetaDataModel": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
+      "latest": [],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -5796,8 +5886,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -5954,9 +6046,7 @@
   },
   "Model": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
+      "latest": [],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -5997,8 +6087,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -8280,8 +8372,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -8688,8 +8782,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -8912,9 +9008,7 @@
   },
   "Software": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
+      "latest": [],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -8955,8 +9049,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -9600,6 +9696,23 @@
     ],
     "label": "String property",
     "name": "StringProperty"
+  },
+  "StructuralMRIAcquisition": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "isPartOfVersion": [
+      "v4.0"
+    ],
+    "label": "Structural mriacquisition",
+    "name": "StructuralMRIAcquisition"
   },
   "SubcellularEntity": {
     "backwardsCompatibility": {
@@ -10766,9 +10879,7 @@
   },
   "ValidationTest": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
+      "latest": [],
       "v3.0": [],
       "v4.0": []
     },
@@ -10794,8 +10905,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -10976,6 +11089,40 @@
     "label": "Visualization",
     "name": "Visualization"
   },
+  "Volume": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "isPartOfVersion": [
+      "v4.0"
+    ],
+    "label": "Volume",
+    "name": "Volume"
+  },
+  "VolumeSequence": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "isPartOfVersion": [
+      "v4.0"
+    ],
+    "label": "Volume sequence",
+    "name": "VolumeSequence"
+  },
   "WebResource": {
     "backwardsCompatibility": {
       "latest": [
@@ -11020,9 +11167,7 @@
   },
   "WebService": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
+      "latest": [],
       "v3.0": [],
       "v4.0": []
     },
@@ -11048,8 +11193,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -11148,9 +11295,7 @@
   },
   "WorkflowRecipe": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
+      "latest": [],
       "v3.0": [],
       "v4.0": []
     },
@@ -11176,8 +11321,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
