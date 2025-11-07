@@ -220,32 +220,35 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.om-i.org/props/isAlternativeVersionOf": {
-      "_instruction": "Add all computational model versions that can be used alternatively to this computational model version.",
+    "https://openminds.om-i.org/props/isPrecededBy": {
+      "_instruction": "Add the model version preceding this model version.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/ModelVersion"
       ],
-      "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
-      "label": "Is alternative version of",
-      "labelPlural": "Is alternative version of",
+      "label": "Is preceded by",
+      "name": "isPrecededBy",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/isVariantOf": {
+      "_instruction": "Add all model versions that can be used alternatively to this model version.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ModelVersion"
+      ],
+      "label": "Is variant of",
       "minItems": 1,
-      "name": "isAlternativeVersionOf",
+      "name": "isVariantOf",
       "nameForReverseLink": null,
-      "namePlural": "isAlternativeVersionOf",
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.om-i.org/props/isNewVersionOf": {
-      "_instruction": "Add the computational model version preceding this computational model version.",
+    "https://openminds.om-i.org/props/isVersionOf": {
+      "_instruction": "Add the version-independent information about this model.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/ModelVersion"
+        "https://openminds.om-i.org/types/Model"
       ],
-      "description": "Reference to a previous (potentially outdated) particular form of something.",
-      "label": "Is new version of",
-      "labelPlural": "Is new version of",
-      "name": "isNewVersionOf",
-      "nameForReverseLink": null,
-      "namePlural": "isNewVersionOf"
+      "label": "Is version of",
+      "name": "isVersionOf",
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/keyword": {
       "_belongsToCategory": [
@@ -506,6 +509,7 @@
     "https://openminds.om-i.org/props/accessibility",
     "https://openminds.om-i.org/props/format",
     "https://openminds.om-i.org/props/fullDocumentation",
+    "https://openminds.om-i.org/props/isVersionOf",
     "https://openminds.om-i.org/props/license",
     "https://openminds.om-i.org/props/releaseDate",
     "https://openminds.om-i.org/props/shortName",

@@ -241,32 +241,35 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.om-i.org/props/isAlternativeVersionOf": {
-      "_instruction": "Add all software versions that can be used alternatively to this software version.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/SoftwareVersion"
-      ],
-      "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
-      "label": "Is alternative version of",
-      "labelPlural": "Is alternative version of",
-      "minItems": 1,
-      "name": "isAlternativeVersionOf",
-      "nameForReverseLink": null,
-      "namePlural": "isAlternativeVersionOf",
-      "type": "array",
-      "uniqueItems": true
-    },
-    "https://openminds.om-i.org/props/isNewVersionOf": {
+    "https://openminds.om-i.org/props/isPrecededBy": {
       "_instruction": "Add the software version preceding this software version.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/SoftwareVersion"
       ],
-      "description": "Reference to a previous (potentially outdated) particular form of something.",
-      "label": "Is new version of",
-      "labelPlural": "Is new version of",
-      "name": "isNewVersionOf",
+      "label": "Is preceded by",
+      "name": "isPrecededBy",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/isVariantOf": {
+      "_instruction": "Add all software versions that can be used alternatively to this software version.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SoftwareVersion"
+      ],
+      "label": "Is variant of",
+      "minItems": 1,
+      "name": "isVariantOf",
       "nameForReverseLink": null,
-      "namePlural": "isNewVersionOf"
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/isVersionOf": {
+      "_instruction": "Add the version-independent information about this software.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Software"
+      ],
+      "label": "Is version of",
+      "name": "isVersionOf",
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/keyword": {
       "_belongsToCategory": [
@@ -587,6 +590,7 @@
     "https://openminds.om-i.org/props/device",
     "https://openminds.om-i.org/props/feature",
     "https://openminds.om-i.org/props/fullDocumentation",
+    "https://openminds.om-i.org/props/isVersionOf",
     "https://openminds.om-i.org/props/language",
     "https://openminds.om-i.org/props/license",
     "https://openminds.om-i.org/props/operatingSystem",

@@ -8,7 +8,16 @@
     "controlledTerms/sovereignState.schema.omi.json",
     "controlledTerms/supranationalBody.schema.omi.json",
     "core/miscellaneous/geoCoordinates.schema.omi.json",
-    "core/miscellaneous/location.schema.omi.json"
+    "core/miscellaneous/location.schema.omi.json",
+    "neuroimaging/activity/functionalMRIAcquisition.schema.omi.json",
+    "neuroimaging/activity/structuralMRIAcquisition.schema.omi.json",
+    "neuroimaging/device/MRIScanner.schema.omi.json",
+    "neuroimaging/device/MRIScannerUsage.schema.omi.json",
+    "neuroimaging/entity/image.schema.omi.json",
+    "neuroimaging/entity/imageSequence.schema.omi.json",
+    "neuroimaging/entity/imageStack.schema.omi.json",
+    "neuroimaging/entity/volume.schema.omi.json",
+    "neuroimaging/entity/volumeSequence.schema.omi.json"
   ],
   "removedFiles": [],
   "movedFiles": [
@@ -44,20 +53,48 @@
       "schemaType": "ChemicalSubstance"
     },
     {
+      "file": "computation/validationTest.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
+      ],
+      "schemaType": "ValidationTest"
+    },
+    {
       "file": "computation/validationTestVersion.schema.omi.json",
       "modifiedAttributes": [
         {
           "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "required",
           "modification": "value(s) added"
         }
       ],
       "schemaType": "ValidationTestVersion"
     },
     {
+      "file": "computation/workflowRecipe.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
+      ],
+      "schemaType": "WorkflowRecipe"
+    },
+    {
       "file": "computation/workflowRecipeVersion.schema.omi.json",
       "modifiedAttributes": [
         {
           "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "required",
           "modification": "value(s) added"
         }
       ],
@@ -94,58 +131,236 @@
       "schemaType": "Species"
     },
     {
+      "file": "core/data/measurement.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:measuredWith._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "Measurement"
+    },
+    {
+      "file": "core/products/dataset.schema.omi.json",
+      "removedAttributes": [
+        "properties.props:hasVersion"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
+      ],
+      "schemaType": "Dataset"
+    },
+    {
       "file": "core/products/datasetVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:isPrecededBy",
+        "properties.props:isVariantOf",
+        "properties.props:isVersionOf"
+      ],
+      "removedAttributes": [
+        "properties.props:isAlternativeVersionOf",
+        "properties.props:isNewVersionOf"
+      ],
       "modifiedAttributes": [
         {
           "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "required",
           "modification": "value(s) added"
         }
       ],
       "schemaType": "DatasetVersion"
     },
     {
+      "file": "core/products/metaDataModel.schema.omi.json",
+      "removedAttributes": [
+        "properties.props:hasVersion"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
+      ],
+      "schemaType": "MetaDataModel"
+    },
+    {
       "file": "core/products/metaDataModelVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:isPrecededBy",
+        "properties.props:isVariantOf",
+        "properties.props:isVersionOf"
+      ],
+      "removedAttributes": [
+        "properties.props:isAlternativeVersionOf",
+        "properties.props:isNewVersionOf"
+      ],
       "modifiedAttributes": [
         {
           "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "required",
           "modification": "value(s) added"
         }
       ],
       "schemaType": "MetaDataModelVersion"
     },
     {
+      "file": "core/products/model.schema.omi.json",
+      "removedAttributes": [
+        "properties.props:hasVersion"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
+      ],
+      "schemaType": "Model"
+    },
+    {
       "file": "core/products/modelVersion.schema.omi.json",
       "addedAttributes": [
         "properties.props:configuration",
-        "properties.props:entryPoint"
+        "properties.props:entryPoint",
+        "properties.props:isPrecededBy",
+        "properties.props:isVariantOf",
+        "properties.props:isVersionOf"
+      ],
+      "removedAttributes": [
+        "properties.props:isAlternativeVersionOf",
+        "properties.props:isNewVersionOf"
       ],
       "modifiedAttributes": [
         {
           "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "required",
           "modification": "value(s) added"
         }
       ],
       "schemaType": "ModelVersion"
     },
     {
+      "file": "core/products/setup.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:hasPart._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "Setup"
+    },
+    {
+      "file": "core/products/software.schema.omi.json",
+      "removedAttributes": [
+        "properties.props:hasVersion"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
+      ],
+      "schemaType": "Software"
+    },
+    {
       "file": "core/products/softwareVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:isPrecededBy",
+        "properties.props:isVariantOf",
+        "properties.props:isVersionOf"
+      ],
+      "removedAttributes": [
+        "properties.props:isAlternativeVersionOf",
+        "properties.props:isNewVersionOf"
+      ],
       "modifiedAttributes": [
         {
           "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "required",
           "modification": "value(s) added"
         }
       ],
       "schemaType": "SoftwareVersion"
     },
     {
+      "file": "core/products/webService.schema.omi.json",
+      "removedAttributes": [
+        "properties.props:hasVersion"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
+      ],
+      "schemaType": "WebService"
+    },
+    {
       "file": "core/products/webServiceVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:isPrecededBy",
+        "properties.props:isVariantOf",
+        "properties.props:isVersionOf"
+      ],
+      "removedAttributes": [
+        "properties.props:isAlternativeVersionOf",
+        "properties.props:isNewVersionOf"
+      ],
       "modifiedAttributes": [
         {
           "property": "properties.props:keyword._linkedTypes",
           "modification": "value(s) added"
+        },
+        {
+          "property": "required",
+          "modification": "value(s) added"
         }
       ],
       "schemaType": "WebServiceVersion"
+    },
+    {
+      "file": "ephys/activity/cellPatching.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:device._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "CellPatching"
+    },
+    {
+      "file": "ephys/activity/electrodePlacement.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:device._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "ElectrodePlacement"
+    },
+    {
+      "file": "ephys/entity/recording.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:recordedWith._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "Recording"
     },
     {
       "file": "publications/book.schema.omi.json",
@@ -181,6 +396,16 @@
       "schemaType": "LearningResource"
     },
     {
+      "file": "publications/livePaper.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
+      ],
+      "schemaType": "LivePaper"
+    },
+    {
       "file": "publications/livePaperResourceItem.schema.omi.json",
       "modifiedAttributes": [
         {
@@ -198,6 +423,10 @@
       "modifiedAttributes": [
         {
           "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "required",
           "modification": "value(s) added"
         }
       ],
@@ -217,20 +446,48 @@
       "schemaType": "ScholarlyArticle"
     },
     {
+      "file": "SANDS/atlas/brainAtlas.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
+      ],
+      "schemaType": "BrainAtlas"
+    },
+    {
       "file": "SANDS/atlas/brainAtlasVersion.schema.omi.json",
       "modifiedAttributes": [
         {
           "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "required",
           "modification": "value(s) added"
         }
       ],
       "schemaType": "BrainAtlasVersion"
     },
     {
+      "file": "SANDS/atlas/commonCoordinateSpace.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "required",
+          "modification": "value(s) removed"
+        }
+      ],
+      "schemaType": "CommonCoordinateSpace"
+    },
+    {
       "file": "SANDS/atlas/commonCoordinateSpaceVersion.schema.omi.json",
       "modifiedAttributes": [
         {
           "property": "properties.props:keyword._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "required",
           "modification": "value(s) added"
         }
       ],
@@ -244,6 +501,20 @@
         }
       ],
       "schemaType": "CranialWindowPreparation"
+    },
+    {
+      "file": "stimulation/stimulus/ephysStimulus.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:deliveredBy._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:generatedBy._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "EphysStimulus"
     }
   ]
 }
