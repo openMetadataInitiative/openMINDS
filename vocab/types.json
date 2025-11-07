@@ -4573,6 +4573,31 @@
     "label": "Genotype",
     "name": "Genotype"
   },
+  "GeoCoordinates": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Geo coordinates",
+    "name": "GeoCoordinates"
+  },
   "GustatoryStimulusType": {
     "backwardsCompatibility": {
       "latest": [
@@ -5487,6 +5512,31 @@
     ],
     "label": "Local file",
     "name": "LocalFile"
+  },
+  "Location": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Location",
+    "name": "Location"
   },
   "MRIPulseSequence": {
     "backwardsCompatibility": {

@@ -1,0 +1,30 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/GeoCoordinates",
+  "label": "Geo coordinates",
+  "name": "GeoCoordinates",
+  "properties": {
+    "https://openminds.om-i.org/props/elevation": {
+      "_instruction": "Enter the elevation of the location in metres, following the definitions of the WGS84 system.",
+      "label": "Elevation",
+      "name": "elevation",
+      "type": "number"
+    },
+    "https://openminds.om-i.org/props/latitude": {
+      "_instruction": "Enter the latitude of the location in decimal degrees, following the definitions of the WGS84 system.",
+      "label": "Latitude",
+      "name": "latitude",
+      "type": "number"
+    },
+    "https://openminds.om-i.org/props/longitude": {
+      "_instruction": "Enter the longitude of the location in decimal degrees, following the definitions of the WGS84 system.",
+      "label": "Longitude",
+      "name": "longitude",
+      "type": "number"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/latitude",
+    "https://openminds.om-i.org/props/longitude"
+  ]
+}

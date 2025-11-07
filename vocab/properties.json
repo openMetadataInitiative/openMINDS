@@ -689,6 +689,33 @@
       ]
     }
   },
+  "address": {
+    "asString": {
+      "formatting": "text/plain",
+      "inVersions": [
+        "latest"
+      ],
+      "multiline": false
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Address",
+    "labelPlural": null,
+    "name": "address",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Location"
+      ]
+    }
+  },
   "affiliation": {
     "asEdge": {
       "canPointTo": {
@@ -3894,6 +3921,34 @@
       ]
     }
   },
+  "country": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/SovereignState"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Country",
+    "labelPlural": null,
+    "name": "country",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Location"
+      ]
+    }
+  },
   "creationDate": {
     "asString": {
       "formatting": "text/plain",
@@ -6756,6 +6811,26 @@
       ]
     }
   },
+  "elevation": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Elevation",
+    "labelPlural": null,
+    "name": "elevation",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/GeoCoordinates"
+      ]
+    }
+  },
   "email": {
     "asString": {
       "formatting": "text/plain",
@@ -8341,6 +8416,34 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/Strain"
+      ]
+    }
+  },
+  "geoCoordinates": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/GeoCoordinates"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Geo coordinates",
+    "labelPlural": null,
+    "name": "geoCoordinates",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Location"
       ]
     }
   },
@@ -12412,6 +12515,26 @@
       ]
     }
   },
+  "latitude": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Latitude",
+    "labelPlural": null,
+    "name": "latitude",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/GeoCoordinates"
+      ]
+    }
+  },
   "launchConfiguration": {
     "asEdge": {
       "canPointTo": {
@@ -12810,6 +12933,26 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/Setup"
+      ]
+    }
+  },
+  "longitude": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Longitude",
+    "labelPlural": null,
+    "name": "longitude",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/GeoCoordinates"
       ]
     }
   },
