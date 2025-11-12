@@ -1,0 +1,145 @@
+Release Notes v4.0:
+
+Global changes:
+  - Namespace changed from https://openminds.ebrains.eu/(core|sands|controlledTerms|chemicals|ephys|computation|stimulation|specimenPrep|publications|neuroimaging)/ to https://openminds.om-i.org/types/.
+  - Namespace changed from https://openminds.ebrains.eu/vocab/ to https://openminds.om-i.org/props/.
+
+Added files:
+  - controlledTerms/MRIPulseSequence.schema.omi.json
+  - controlledTerms/MRIWeighting.schema.omi.json
+
+Changes in computation/dataAnalysis.schema.omi.json:
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+
+Changes in computation/dataCopy.schema.omi.json:
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+
+Changes in computation/genericComputation.schema.omi.json:
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+
+Changes in computation/modelValidation.schema.omi.json:
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+
+Changes in computation/optimization.schema.omi.json:
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+
+Changes in computation/simulation.schema.omi.json:
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+
+Changes in computation/validationTest.schema.omi.json:
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+
+Changes in computation/validationTestVersion.schema.omi.json:
+  - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+
+Changes in computation/visualization.schema.omi.json:
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+
+Changes in computation/workflowRecipeVersion.schema.omi.json:
+  - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+
+Changes in controlledTerms/tissueSampleType.schema.omi.json:
+  - Field '_categories' modified (value(s) added).
+
+Changes in core/data/fileBundle.schema.omi.json:
+  - Field 'properties.props:groupedBy._linkedTypes' modified (value(s) added).
+
+Changes in core/products/datasetVersion.schema.omi.json:
+  - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:technique._linkedTypes' modified (value(s) added).
+
+Changes in core/products/metaDataModelVersion.schema.omi.json:
+  - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+
+Changes in core/products/model.schema.omi.json:
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+
+Changes in core/products/modelVersion.schema.omi.json:
+  - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+
+Changes in core/products/softwareVersion.schema.omi.json:
+  - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+
+Changes in core/products/webServiceVersion.schema.omi.json:
+  - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+
+Changes in core/research/customPropertySet.schema.omi.json:
+  - Field 'properties.props:relevantFor._linkedTypes' modified (value(s) added).
+
+Changes in core/research/protocol.schema.omi.json:
+  - Field 'properties.props:technique._linkedTypes' modified (value(s) added).
+
+Changes in core/research/protocolExecution.schema.omi.json:
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+
+Changes in ephys/activity/cellPatching.schema.omi.json:
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+
+Changes in ephys/activity/electrodePlacement.schema.omi.json:
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+
+Changes in ephys/activity/recordingActivity.schema.omi.json:
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+
+Changes in publications/book.schema.omi.json:
+  - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+
+Changes in publications/chapter.schema.omi.json:
+  - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+
+Changes in publications/learningResource.schema.omi.json:
+  - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+
+Changes in publications/livePaperVersion.schema.omi.json:
+  - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+
+Changes in publications/scholarlyArticle.schema.omi.json:
+  - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+
+Changes in SANDS/atlas/brainAtlasVersion.schema.omi.json:
+  - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+
+Changes in SANDS/atlas/commonCoordinateSpaceVersion.schema.omi.json:
+  - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+
+Changes in specimenPrep/activity/cranialWindowPreparation.schema.omi.json:
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+
+Changes in specimenPrep/activity/tissueCulturePreparation.schema.omi.json:
+  - Field 'properties.props:customPropertySet' added.
+  - Field 'properties.props:description' added.
+  - Field 'properties.props:endTime' added.
+  - Field 'properties.props:isPartOf' added.
+  - Field 'properties.props:lookupLabel' added.
+  - Field 'properties.props:performedBy' added.
+  - Field 'properties.props:preparationDesign' added.
+  - Field 'properties.props:protocol' added.
+  - Field 'properties.props:startTime' added.
+  - Field 'properties.props:studyTarget' added.
+  - Field 'properties.props:input.minItems' added.
+  - Field 'properties.props:input.type' added.
+  - Field 'properties.props:input.uniqueItems' added.
+  - Field 'properties.props:output.minItems' added.
+  - Field 'properties.props:output.type' added.
+  - Field 'properties.props:output.uniqueItems' added.
+  - Field 'required' modified (value(s) added).
+
+Changes in specimenPrep/activity/tissueSampleSlicing.schema.omi.json:
+  - Field 'properties.props:customPropertySet' added.
+  - Field 'properties.props:description' added.
+  - Field 'properties.props:endTime' added.
+  - Field 'properties.props:isPartOf' added.
+  - Field 'properties.props:lookupLabel' added.
+  - Field 'properties.props:performedBy' added.
+  - Field 'properties.props:preparationDesign' added.
+  - Field 'properties.props:protocol' added.
+  - Field 'properties.props:startTime' added.
+  - Field 'properties.props:studyTarget' added.
+  - Field 'properties.props:input.minItems' added.
+  - Field 'properties.props:input.type' added.
+  - Field 'properties.props:input.uniqueItems' added.
+  - Field 'required' modified (value(s) added).
+
+Changes in stimulation/activity/stimulationActivity.schema.omi.json:
+  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
