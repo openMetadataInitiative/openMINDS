@@ -21,6 +21,23 @@
     "neuroimaging/entity/volume.schema.omi.json",
     "neuroimaging/entity/volumeSequence.schema.omi.json"
   ],
+  "movedFiles": [
+    {
+      "file": "circle.schema.omi.json",
+      "source": "SANDS/mathematicalShapes/circle.schema.omi.json",
+      "destination": "SANDS/mathematicalShape/circle.schema.omi.json"
+    },
+    {
+      "file": "ellipse.schema.omi.json",
+      "source": "SANDS/mathematicalShapes/ellipse.schema.omi.json",
+      "destination": "SANDS/mathematicalShape/ellipse.schema.omi.json"
+    },
+    {
+      "file": "rectangle.schema.omi.json",
+      "source": "SANDS/mathematicalShapes/rectangle.schema.omi.json",
+      "destination": "SANDS/mathematicalShape/rectangle.schema.omi.json"
+    }
+  ],
   "changes": [
     {
       "file": "computation/validationTest.schema.omi.json",
@@ -501,6 +518,19 @@
         }
       ],
       "schemaType": "CommonCoordinateSpaceVersion"
+    },
+    {
+      "file": "specimenPrep/activity/cranialWindowPreparation.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:dimension.nameForReverseLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:dimension._embeddedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "CranialWindowPreparation"
     },
     {
       "file": "stimulation/stimulus/ephysStimulus.schema.omi.json",

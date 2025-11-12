@@ -21,6 +21,11 @@ Removed files:
   - neuroimaging/entity/volume.schema.omi.json
   - neuroimaging/entity/volumeSequence.schema.omi.json
 
+Moved files:
+  - SANDS/mathematicalShapes/circle.schema.omi.json moved to SANDS/mathematicalShape/circle.schema.omi.json
+  - SANDS/mathematicalShapes/ellipse.schema.omi.json moved to SANDS/mathematicalShape/ellipse.schema.omi.json
+  - SANDS/mathematicalShapes/rectangle.schema.omi.json moved to SANDS/mathematicalShape/rectangle.schema.omi.json
+
 Changes in computation/validationTest.schema.omi.json:
   - Field 'properties.props:hasVersion' removed.
   - Field 'required' modified (value(s) removed).
@@ -186,6 +191,10 @@ Changes in SANDS/atlas/commonCoordinateSpaceVersion.schema.omi.json:
   - Field 'properties.props:isVersionOf' added.
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
   - Field 'required' modified (value(s) added).
+
+Changes in specimenPrep/activity/cranialWindowPreparation.schema.omi.json:
+  - Field 'properties.props:dimension.nameForReverseLink' added.
+  - Field 'properties.props:dimension._embeddedTypes' modified (value(s) added).
 
 Changes in stimulation/stimulus/ephysStimulus.schema.omi.json:
   - Field 'properties.props:deliveredBy._linkedTypes' modified (value(s) removed).
