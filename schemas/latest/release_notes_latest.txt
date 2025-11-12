@@ -175,16 +175,28 @@ Changes in publications/scholarlyArticle.schema.omi.json:
   - Field 'properties.props:pagination._instruction' modified.
 
 Changes in SANDS/atlas/brainAtlas.schema.omi.json:
+  - Field 'properties.props:hasVersion' removed.
   - Field 'required' modified (value(s) removed).
 
 Changes in SANDS/atlas/brainAtlasVersion.schema.omi.json:
+  - Field 'properties.props:isAlternativeVersionOf' removed.
+  - Field 'properties.props:isNewVersionOf' removed.
+  - Field 'properties.props:isPrecededBy' added.
+  - Field 'properties.props:isVariantOf' added.
+  - Field 'properties.props:isVersionOf' added.
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
   - Field 'required' modified (value(s) added).
 
 Changes in SANDS/atlas/commonCoordinateSpace.schema.omi.json:
+  - Field 'properties.props:hasVersion' removed.
   - Field 'required' modified (value(s) removed).
 
 Changes in SANDS/atlas/commonCoordinateSpaceVersion.schema.omi.json:
+  - Field 'properties.props:isAlternativeVersionOf' removed.
+  - Field 'properties.props:isNewVersionOf' removed.
+  - Field 'properties.props:isPrecededBy' added.
+  - Field 'properties.props:isVariantOf' added.
+  - Field 'properties.props:isVersionOf' added.
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
   - Field 'required' modified (value(s) added).
 
