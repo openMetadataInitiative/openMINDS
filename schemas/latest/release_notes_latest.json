@@ -45,6 +45,9 @@
     },
     {
       "file": "computation/validationTest.schema.omi.json",
+      "removedAttributes": [
+        "properties.props:hasVersion"
+      ],
       "modifiedAttributes": [
         {
           "property": "required",
@@ -55,6 +58,15 @@
     },
     {
       "file": "computation/validationTestVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:isPrecededBy",
+        "properties.props:isVariantOf",
+        "properties.props:isVersionOf"
+      ],
+      "removedAttributes": [
+        "properties.props:isAlternativeVersionOf",
+        "properties.props:isNewVersionOf"
+      ],
       "modifiedAttributes": [
         {
           "property": "properties.props:keyword._linkedTypes",
@@ -69,6 +81,9 @@
     },
     {
       "file": "computation/workflowRecipe.schema.omi.json",
+      "removedAttributes": [
+        "properties.props:hasVersion"
+      ],
       "modifiedAttributes": [
         {
           "property": "required",
@@ -79,6 +94,15 @@
     },
     {
       "file": "computation/workflowRecipeVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:isPrecededBy",
+        "properties.props:isVariantOf",
+        "properties.props:isVersionOf"
+      ],
+      "removedAttributes": [
+        "properties.props:isAlternativeVersionOf",
+        "properties.props:isNewVersionOf"
+      ],
       "modifiedAttributes": [
         {
           "property": "properties.props:keyword._linkedTypes",

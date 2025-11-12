@@ -24,16 +24,28 @@ Changes in chemicals/chemicalSubstance.schema.omi.json:
   - Field '_categories' added.
 
 Changes in computation/validationTest.schema.omi.json:
+  - Field 'properties.props:hasVersion' removed.
   - Field 'required' modified (value(s) removed).
 
 Changes in computation/validationTestVersion.schema.omi.json:
+  - Field 'properties.props:isAlternativeVersionOf' removed.
+  - Field 'properties.props:isNewVersionOf' removed.
+  - Field 'properties.props:isPrecededBy' added.
+  - Field 'properties.props:isVariantOf' added.
+  - Field 'properties.props:isVersionOf' added.
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
   - Field 'required' modified (value(s) added).
 
 Changes in computation/workflowRecipe.schema.omi.json:
+  - Field 'properties.props:hasVersion' removed.
   - Field 'required' modified (value(s) removed).
 
 Changes in computation/workflowRecipeVersion.schema.omi.json:
+  - Field 'properties.props:isAlternativeVersionOf' removed.
+  - Field 'properties.props:isNewVersionOf' removed.
+  - Field 'properties.props:isPrecededBy' added.
+  - Field 'properties.props:isVariantOf' added.
+  - Field 'properties.props:isVersionOf' added.
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
   - Field 'required' modified (value(s) added).
 
