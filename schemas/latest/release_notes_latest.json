@@ -412,6 +412,9 @@
     },
     {
       "file": "SANDS/atlas/brainAtlas.schema.omi.json",
+      "removedAttributes": [
+        "properties.props:hasVersion"
+      ],
       "modifiedAttributes": [
         {
           "property": "required",
@@ -422,6 +425,15 @@
     },
     {
       "file": "SANDS/atlas/brainAtlasVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:isPrecededBy",
+        "properties.props:isVariantOf",
+        "properties.props:isVersionOf"
+      ],
+      "removedAttributes": [
+        "properties.props:isAlternativeVersionOf",
+        "properties.props:isNewVersionOf"
+      ],
       "modifiedAttributes": [
         {
           "property": "properties.props:keyword._linkedTypes",
@@ -436,6 +448,9 @@
     },
     {
       "file": "SANDS/atlas/commonCoordinateSpace.schema.omi.json",
+      "removedAttributes": [
+        "properties.props:hasVersion"
+      ],
       "modifiedAttributes": [
         {
           "property": "required",
@@ -446,6 +461,15 @@
     },
     {
       "file": "SANDS/atlas/commonCoordinateSpaceVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:isPrecededBy",
+        "properties.props:isVariantOf",
+        "properties.props:isVersionOf"
+      ],
+      "removedAttributes": [
+        "properties.props:isAlternativeVersionOf",
+        "properties.props:isNewVersionOf"
+      ],
       "modifiedAttributes": [
         {
           "property": "properties.props:keyword._linkedTypes",
