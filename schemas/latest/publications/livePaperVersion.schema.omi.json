@@ -176,32 +176,35 @@
       "namePlural": "howToCite",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/isAlternativeVersionOf": {
-      "_instruction": "Add all live paper versions that can be used alternatively to this live paper version.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/LivePaperVersion"
-      ],
-      "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
-      "label": "Is alternative version of",
-      "labelPlural": "Is alternative version of",
-      "minItems": 1,
-      "name": "isAlternativeVersionOf",
-      "nameForReverseLink": null,
-      "namePlural": "isAlternativeVersionOf",
-      "type": "array",
-      "uniqueItems": true
-    },
-    "https://openminds.om-i.org/props/isNewVersionOf": {
+    "https://openminds.om-i.org/props/isPrecededBy": {
       "_instruction": "Add the live paper version preceding this live paper version.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/LivePaperVersion"
       ],
-      "description": "Reference to a previous (potentially outdated) particular form of something.",
-      "label": "Is new version of",
-      "labelPlural": "Is new version of",
-      "name": "isNewVersionOf",
+      "label": "Is preceded by",
+      "name": "isPrecededBy",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/isVariantOf": {
+      "_instruction": "Add all live paper versions that can be used alternatively to this live paper version.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/LivePaperVersion"
+      ],
+      "label": "Is variant of",
+      "minItems": 1,
+      "name": "isVariantOf",
       "nameForReverseLink": null,
-      "namePlural": "isNewVersionOf"
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/isVersionOf": {
+      "_instruction": "Add the version-independent information about this live paper.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/LivePaper"
+      ],
+      "label": "Is version of",
+      "name": "isVersionOf",
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/keyword": {
       "_belongsToCategory": [

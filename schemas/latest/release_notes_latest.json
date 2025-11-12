@@ -362,6 +362,9 @@
     },
     {
       "file": "publications/livePaper.schema.omi.json",
+      "removedAttributes": [
+        "properties.props:hasVersion"
+      ],
       "modifiedAttributes": [
         {
           "property": "required",
@@ -385,6 +388,15 @@
     },
     {
       "file": "publications/livePaperVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:isPrecededBy",
+        "properties.props:isVariantOf",
+        "properties.props:isVersionOf"
+      ],
+      "removedAttributes": [
+        "properties.props:isAlternativeVersionOf",
+        "properties.props:isNewVersionOf"
+      ],
       "modifiedAttributes": [
         {
           "property": "properties.props:keyword._linkedTypes",
