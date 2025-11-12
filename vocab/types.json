@@ -6879,9 +6879,7 @@
   },
   "ParcellationEntity": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
+      "latest": [],
       "v2.0": [],
       "v3.0": [
         "v2.0"
@@ -6914,8 +6912,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -6929,9 +6929,7 @@
   },
   "ParcellationEntityVersion": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
+      "latest": [],
       "v3.0": [],
       "v4.0": []
     },
@@ -6957,8 +6955,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -7004,8 +7004,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -7047,8 +7049,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [

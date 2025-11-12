@@ -7,7 +7,8 @@
     "https://openminds.om-i.org/props/dataLocation": {
       "_instruction": "Add the location of all files in which this parcellation terminology version is stored.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/File"
+        "https://openminds.om-i.org/types/File",
+        "https://openminds.om-i.org/types/WebResource"
       ],
       "label": "Data location",
       "labelPlural": "Data locations",
@@ -17,6 +18,20 @@
       "namePlural": "dataLocations",
       "type": "array",
       "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this parcellation terminology version.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/DOI",
+        "https://openminds.om-i.org/types/ISBN",
+        "https://openminds.om-i.org/types/RRID"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers"
     },
     "https://openminds.om-i.org/props/hasEntity": {
       "_instruction": "Add all parcellation entity versions which belong to this parcellation terminology version.",

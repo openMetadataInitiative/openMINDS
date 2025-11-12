@@ -128,6 +128,7 @@
     }
   },
   "required": [
+    "https://openminds.om-i.org/props/lookupLabel",
     "https://openminds.om-i.org/props/name"
   ]
 }

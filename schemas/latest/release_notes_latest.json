@@ -495,6 +495,52 @@
       "schemaType": "CommonCoordinateSpaceVersion"
     },
     {
+      "file": "SANDS/atlas/parcellationEntity.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "required",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "ParcellationEntity"
+    },
+    {
+      "file": "SANDS/atlas/parcellationEntityVersion.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "required",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "ParcellationEntityVersion"
+    },
+    {
+      "file": "SANDS/atlas/parcellationTerminology.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:digitalIdentifier"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:dataLocation._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "ParcellationTerminology"
+    },
+    {
+      "file": "SANDS/atlas/parcellationTerminologyVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:digitalIdentifier"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:dataLocation._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "ParcellationTerminologyVersion"
+    },
+    {
       "file": "specimenPrep/activity/cranialWindowPreparation.schema.omi.json",
       "modifiedAttributes": [
         {

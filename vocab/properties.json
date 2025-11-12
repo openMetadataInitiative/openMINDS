@@ -4534,7 +4534,8 @@
           "https://openminds.om-i.org/types/LivePaperResourceItem",
           "https://openminds.om-i.org/types/ModelVersion",
           "https://openminds.om-i.org/types/ParcellationEntityVersion",
-          "https://openminds.om-i.org/types/PropertyValueList"
+          "https://openminds.om-i.org/types/PropertyValueList",
+          "https://openminds.om-i.org/types/WebResource"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/File",
@@ -6305,6 +6306,8 @@
         "https://openminds.om-i.org/types/Model",
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/Organization",
+        "https://openminds.om-i.org/types/ParcellationTerminology",
+        "https://openminds.om-i.org/types/ParcellationTerminologyVersion",
         "https://openminds.om-i.org/types/Periodical",
         "https://openminds.om-i.org/types/Person",
         "https://openminds.om-i.org/types/Pipette",
