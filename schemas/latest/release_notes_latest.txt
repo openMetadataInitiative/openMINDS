@@ -160,6 +160,7 @@ Changes in publications/learningResource.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
 
 Changes in publications/livePaper.schema.omi.json:
+  - Field 'properties.props:hasVersion' removed.
   - Field 'required' modified (value(s) removed).
 
 Changes in publications/livePaperResourceItem.schema.omi.json:
@@ -167,6 +168,11 @@ Changes in publications/livePaperResourceItem.schema.omi.json:
   - Field 'properties.props:hostedBy._linkedTypes' modified (value(s) added).
 
 Changes in publications/livePaperVersion.schema.omi.json:
+  - Field 'properties.props:isAlternativeVersionOf' removed.
+  - Field 'properties.props:isNewVersionOf' removed.
+  - Field 'properties.props:isPrecededBy' added.
+  - Field 'properties.props:isVariantOf' added.
+  - Field 'properties.props:isVersionOf' added.
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
   - Field 'required' modified (value(s) added).
 
