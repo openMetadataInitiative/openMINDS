@@ -210,9 +210,11 @@
         "https://openminds.om-i.org/types/BrainAtlasVersion"
       ],
       "label": "Is variant of",
+      "labelPlural": "Is variant of",
       "minItems": 1,
       "name": "isVariantOf",
       "nameForReverseLink": null,
+      "namePlural": "isVariantOf",
       "type": "array",
       "uniqueItems": true
     },

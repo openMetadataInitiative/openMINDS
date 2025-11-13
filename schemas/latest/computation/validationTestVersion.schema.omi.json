@@ -213,9 +213,11 @@
         "https://openminds.om-i.org/types/ValidationTestVersion"
       ],
       "label": "Is variant of",
+      "labelPlural": "Is variant of",
       "minItems": 1,
       "name": "isVariantOf",
       "nameForReverseLink": null,
+      "namePlural": "isVariantOf",
       "type": "array",
       "uniqueItems": true
     },
