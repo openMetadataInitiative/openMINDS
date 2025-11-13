@@ -78,14 +78,9 @@
         "mathematicalShapes"
       ],
       "_instruction": "Add the field of view of this image.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/Circle",
-        "https://openminds.om-i.org/types/Ellipse",
-        "https://openminds.om-i.org/types/Rectangle"
-      ],
+      "_linkedTypes": [],
       "label": "Field of view",
-      "name": "fieldOfView",
-      "nameForReverseLink": null
+      "name": "fieldOfView"
     },
     "https://openminds.om-i.org/props/flipAngle": {
       "_embeddedTypes": [
