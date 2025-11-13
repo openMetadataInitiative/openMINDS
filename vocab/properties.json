@@ -11619,9 +11619,9 @@
       }
     ],
     "label": "Is variant of",
-    "labelPlural": null,
+    "labelPlural": "Is variant of",
     "name": "isVariantOf",
-    "namePlural": null,
+    "namePlural": "isVariantOf",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/BrainAtlasVersion",
