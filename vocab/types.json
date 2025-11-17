@@ -6254,6 +6254,31 @@
     "label": "Model version",
     "name": "ModelVersion"
   },
+  "ModificationClause": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Modification clause",
+    "name": "ModificationClause"
+  },
   "MolecularEntity": {
     "backwardsCompatibility": {
       "latest": [
