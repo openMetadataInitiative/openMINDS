@@ -5,11 +5,21 @@
     "controlledTerms/communicationProtocol.schema.omi.json",
     "controlledTerms/dependencyImpact.schema.omi.json",
     "controlledTerms/deploymentEnvironmentType.schema.omi.json",
+    "controlledTerms/modificationClause.schema.omi.json",
     "controlledTerms/MRSpatialEncoding.schema.omi.json",
     "controlledTerms/sovereignState.schema.omi.json",
     "controlledTerms/supranationalBody.schema.omi.json",
     "core/miscellaneous/geoCoordinates.schema.omi.json",
-    "core/miscellaneous/location.schema.omi.json"
+    "core/miscellaneous/location.schema.omi.json",
+    "neuroimaging/activity/functionalMRIAcquisition.schema.omi.json",
+    "neuroimaging/activity/structuralMRIAcquisition.schema.omi.json",
+    "neuroimaging/device/MRIScanner.schema.omi.json",
+    "neuroimaging/device/MRIScannerUsage.schema.omi.json",
+    "neuroimaging/entity/image.schema.omi.json",
+    "neuroimaging/entity/imageSequence.schema.omi.json",
+    "neuroimaging/entity/imageStack.schema.omi.json",
+    "neuroimaging/entity/volume.schema.omi.json",
+    "neuroimaging/entity/volumeSequence.schema.omi.json"
   ],
   "removedFiles": [],
   "movedFiles": [
@@ -147,6 +157,16 @@
       "schemaType": "Species"
     },
     {
+      "file": "core/data/measurement.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:measuredWith._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "Measurement"
+    },
+    {
       "file": "core/products/dataset.schema.omi.json",
       "removedAttributes": [
         "properties.props:hasVersion"
@@ -257,6 +277,16 @@
       "schemaType": "ModelVersion"
     },
     {
+      "file": "core/products/setup.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:hasPart._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "Setup"
+    },
+    {
       "file": "core/products/software.schema.omi.json",
       "removedAttributes": [
         "properties.props:hasVersion"
@@ -327,6 +357,36 @@
         }
       ],
       "schemaType": "WebServiceVersion"
+    },
+    {
+      "file": "ephys/activity/cellPatching.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:device._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "CellPatching"
+    },
+    {
+      "file": "ephys/activity/electrodePlacement.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:device._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "ElectrodePlacement"
+    },
+    {
+      "file": "ephys/entity/recording.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:recordedWith._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "Recording"
     },
     {
       "file": "publications/book.schema.omi.json",
@@ -549,6 +609,20 @@
         }
       ],
       "schemaType": "CranialWindowPreparation"
+    },
+    {
+      "file": "stimulation/stimulus/ephysStimulus.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:deliveredBy._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:generatedBy._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "EphysStimulus"
     }
   ]
 }

@@ -45,6 +45,7 @@
       "ephys:ElectrodeArrayUsage",
       "ephys:ElectrodeUsage",
       "ephys:PipetteUsage",
+      "neuroimaging:MRIScannerUsage",
       "specimenPrep:SlicingDeviceUsage"
     ],
     "fileOrigin": [
@@ -124,6 +125,7 @@
       "controlledTerms:MetaDataModelType",
       "controlledTerms:ModelAbstractionLevel",
       "controlledTerms:ModelScope",
+      "controlledTerms:ModificationClause",
       "controlledTerms:MolecularEntity",
       "controlledTerms:OlfactoryStimulusType",
       "controlledTerms:OperatingDevice",
@@ -207,6 +209,7 @@
       "ephys:Electrode",
       "ephys:ElectrodeArray",
       "ephys:Pipette",
+      "neuroimaging:MRIScanner",
       "specimenPrep:SlicingDevice"
     ],
     "stimulus": [
