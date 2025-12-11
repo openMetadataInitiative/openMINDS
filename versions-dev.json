@@ -168,10 +168,6 @@
       "stimulation": {
         "branch": "v2",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_stimulation.git"
-      },
-      "neuroimaging": {
-        "branch": "dev",
-        "repository": "https://github.com/openMetadataInitiative/openMINDS_neuroimaging.git"
       }
     }
   }
