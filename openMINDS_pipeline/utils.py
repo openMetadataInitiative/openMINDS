@@ -15,11 +15,14 @@ from openMINDS_pipeline.models import Trigger, OpenMINDSModule, DirectoryStructu
 from openMINDS_pipeline.resolver import TEMPLATE_PROPERTY_TYPE
 
 
-def clone_central(refetch:bool) -> None:
+def clone_central(refetch:bool, branch:Optional[str]=None) -> None:
     if refetch and os.path.exists("target"):
         shutil.rmtree("target")
     if not os.path.exists("target"):
-        Repo.clone_from("https://github.com/openMetadataInitiative/openMINDS.git", "target")
+        if branch:
+            Repo.clone_from("https://github.com/openMetadataInitiative/openMINDS.git", "target", branch=branch)
+        else:
+            Repo.clone_from("https://github.com/openMetadataInitiative/openMINDS.git", "target")
         shutil.rmtree("target/.git")
 
 

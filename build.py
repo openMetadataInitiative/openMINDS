@@ -21,7 +21,10 @@ print(f"Triggering the generation of sources for openMINDS")
 print("***************************************")
 
 directory_structure = DirectoryStructure()
-clone_central(True)
+if args["config"] == "versions-dev.json":
+    clone_central(True, branch="development")
+else:
+    clone_central(True)
 
 # Step 1 - find the versions to be (re-)built
 relevant_versions, namespaces = evaluate_versions_to_be_built(args["config"], trigger)
