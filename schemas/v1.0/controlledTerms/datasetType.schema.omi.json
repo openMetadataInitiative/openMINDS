@@ -1,0 +1,57 @@
+{
+  "_module": "controlledTerms",
+  "_type": "https://openminds.ebrains.eu/controlledTerms/DatasetType",
+  "description": "Structured information on the provided data type.",
+  "label": "Dataset type",
+  "name": "DatasetType",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/definition": {
+      "_instruction": "Enter one sentence for defining this term.",
+      "description": "Short, but precise statement of the meaning of a word, word group, sign or a symbol.",
+      "formatting": "text/markdown",
+      "label": "Definition",
+      "labelPlural": "Definitions",
+      "multiline": true,
+      "name": "definition",
+      "namePlural": "definitions",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/description": {
+      "_instruction": "Enter a short text describing this term.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/markdown",
+      "label": "Description",
+      "labelPlural": "Descriptions",
+      "multiline": true,
+      "name": "description",
+      "namePlural": "descriptions",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Controlled term originating from a defined terminology.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
+      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the related ontological term.",
+      "description": "Term or code used to identify something or someone registered within a particular ontology.",
+      "format": "iri",
+      "formatting": "text/plain",
+      "label": "Ontology identifier",
+      "labelPlural": "Ontology identifiers",
+      "multiline": false,
+      "name": "ontologyIdentifier",
+      "namePlural": "ontologyIdentifiers",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/name"
+  ]
+}

@@ -20,6 +20,12 @@ Moved files:
   - SANDS/mathematicalShapes/ellipse.schema.omi.json moved to SANDS/mathematicalShape/ellipse.schema.omi.json
   - SANDS/mathematicalShapes/rectangle.schema.omi.json moved to SANDS/mathematicalShape/rectangle.schema.omi.json
 
+Changes in chemicals/chemicalMixture.schema.omi.json:
+  - Field '_categories' added.
+
+Changes in chemicals/chemicalSubstance.schema.omi.json:
+  - Field '_categories' added.
+
 Changes in computation/validationTest.schema.omi.json:
   - Field 'properties.props:hasVersion' removed.
   - Field 'required' modified (value(s) removed).
@@ -88,6 +94,8 @@ Changes in core/products/model.schema.omi.json:
 Changes in core/products/modelVersion.schema.omi.json:
   - Field 'properties.props:isAlternativeVersionOf' removed.
   - Field 'properties.props:isNewVersionOf' removed.
+  - Field 'properties.props:configuration' added.
+  - Field 'properties.props:entryPoint' added.
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
@@ -120,15 +128,12 @@ Changes in core/products/webServiceVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
   - Field 'required' modified (value(s) added).
 
-Changes in neuroimaging/device/MRIScannerUsage.schema.omi.json:
-  - Field 'properties.props:fieldOfView.nameForReverseLink' removed.
-  - Field 'properties.props:fieldOfView._linkedTypes' modified (value(s) removed).
-
 Changes in publications/book.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
 
 Changes in publications/chapter.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:pagination._instruction' modified.
 
 Changes in publications/learningResource.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
@@ -136,6 +141,10 @@ Changes in publications/learningResource.schema.omi.json:
 Changes in publications/livePaper.schema.omi.json:
   - Field 'properties.props:hasVersion' removed.
   - Field 'required' modified (value(s) removed).
+
+Changes in publications/livePaperResourceItem.schema.omi.json:
+  - Field 'properties.props:hostedBy._instruction' modified.
+  - Field 'properties.props:hostedBy._linkedTypes' modified (value(s) added).
 
 Changes in publications/livePaperVersion.schema.omi.json:
   - Field 'properties.props:isAlternativeVersionOf' removed.
@@ -148,6 +157,7 @@ Changes in publications/livePaperVersion.schema.omi.json:
 
 Changes in publications/scholarlyArticle.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:pagination._instruction' modified.
 
 Changes in SANDS/atlas/brainAtlas.schema.omi.json:
   - Field 'properties.props:hasVersion' removed.
@@ -190,5 +200,4 @@ Changes in SANDS/atlas/parcellationTerminologyVersion.schema.omi.json:
   - Field 'properties.props:dataLocation._linkedTypes' modified (value(s) added).
 
 Changes in specimenPrep/activity/cranialWindowPreparation.schema.omi.json:
-  - Field 'properties.props:dimension.nameForReverseLink' added.
-  - Field 'properties.props:dimension._embeddedTypes' modified (value(s) added).
+  - Field 'properties.props:dimension._belongsToCategory' modified.

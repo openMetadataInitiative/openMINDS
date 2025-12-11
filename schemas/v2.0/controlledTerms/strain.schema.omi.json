@@ -1,0 +1,78 @@
+{
+  "_categories": [
+    "studyTarget"
+  ],
+  "_module": "controlledTerms",
+  "_type": "https://openminds.ebrains.eu/controlledTerms/Strain",
+  "color": "#0089A3",
+  "label": "Strain",
+  "name": "Strain",
+  "properties": {
+    "https://openminds.ebrains.eu/vocab/definition": {
+      "_instruction": "Enter one sentence for defining this term.",
+      "description": "Short, but precise statement of the meaning of a word, word group, sign or a symbol.",
+      "formatting": "text/markdown",
+      "label": "Definition",
+      "labelPlural": "Definitions",
+      "multiline": true,
+      "name": "definition",
+      "namePlural": "definitions",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/description": {
+      "_instruction": "Enter a short text describing this term.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/markdown",
+      "label": "Description",
+      "labelPlural": "Descriptions",
+      "multiline": true,
+      "name": "description",
+      "namePlural": "descriptions",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/identifier": {
+      "_instruction": "Enter other database identifiers for the given strain that are supported by the members of the Alliance of Genome Resources (https://www.alliancegenome.org/).",
+      "description": "Term or code used to identify something or someone.",
+      "formatting": "text/plain",
+      "items": {
+        "type": "string"
+      },
+      "label": "Identifier",
+      "labelPlural": "Identifiers",
+      "minItems": 1,
+      "multiline": false,
+      "name": "identifier",
+      "namePlural": "identifiers",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.ebrains.eu/vocab/name": {
+      "_instruction": "Controlled term originating from a defined terminology.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the related ontological term.",
+      "description": "Term or code used to identify something or someone registered within a particular ontology.",
+      "formatting": "text/plain",
+      "label": "Ontology identifier",
+      "labelPlural": "Ontology identifiers",
+      "multiline": false,
+      "name": "ontologyIdentifier",
+      "namePlural": "ontologyIdentifiers",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.ebrains.eu/vocab/name"
+  ]
+}
