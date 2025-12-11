@@ -299,7 +299,7 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/pagination": {
-      "_instruction": "Enter the page range of this scholarly article.",
+      "_instruction": "Enter the page range of this scholarly article, expressed as two numbers separated by a dash, e.g., '435-452', or a non-page-number identifier such as used in online-only journals.",
       "formatting": "text/plain",
       "label": "Pagination",
       "labelPlural": "Paginations",

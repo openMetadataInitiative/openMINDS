@@ -6,10 +6,10 @@
   "name": "Annotation",
   "properties": {
     "https://openminds.ebrains.eu/vocab/bestViewPoint": {
-      "_instruction": "Add the coordinate point identifying the best view of this annotation in space.",
-      "_linkedTypes": [
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/sands/CoordinatePoint"
       ],
+      "_instruction": "Add the coordinate point identifying the best view of this annotation in space.",
       "description": "Coordinate point from which you get the best view of something.",
       "label": "Best view point",
       "labelPlural": "Best viewpoints",
@@ -42,20 +42,16 @@
       "namePlural": "criteriaQualityTypes"
     },
     "https://openminds.ebrains.eu/vocab/displayColor": {
-      "_instruction": "Enter the preferred display color (RGB) for this annotation.",
+      "_instruction": "Enter the preferred display color (HEX) for this annotation.",
       "description": "Preferred coloring.",
-      "items": {
-        "maximum": 255,
-        "minimum": 0,
-        "type": "integer"
-      },
+      "formatting": "text/plain",
       "label": "Display color",
       "labelPlural": "Display colors",
-      "maxItems": 3,
-      "minItems": 3,
+      "multiline": false,
       "name": "displayColor",
       "namePlural": "displayColors",
-      "type": "array"
+      "pattern": "^#[0-9A-Fa-f]{6}$",
+      "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/inspiredBy": {
       "_instruction": "Add one or several (source) images that inspired the definition of this annotation.",
@@ -114,18 +110,15 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.ebrains.eu/vocab/relatedAtlasTerm": {
-      "_instruction": "Add one or several anatomical entities of registered brain atlas annotations to which this annotation is related to.",
+    "https://openminds.ebrains.eu/vocab/relatedParcellationTerm": {
+      "_instruction": "Add one or several anatomical entities of registered parcellation terminologies to which this annotation is related to.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ],
-      "description": "Reference to a related naming term of an anatomical structure that is defined in a particular brain atlas.",
-      "label": "Related atlas term",
-      "labelPlural": "Related atlas terms",
+      "label": "Related parcellation term",
       "minItems": 1,
-      "name": "relatedAtlasTerm",
+      "name": "relatedParcellationTerm",
       "nameForReverseLink": null,
-      "namePlural": "relatedAtlasTerms",
       "type": "array",
       "unqiueItems": true
     },

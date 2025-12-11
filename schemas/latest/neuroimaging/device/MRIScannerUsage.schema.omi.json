@@ -1,0 +1,262 @@
+{
+  "_categories": [
+    "deviceUsage"
+  ],
+  "_module": "neuroimaging",
+  "_type": "https://openminds.om-i.org/types/MRIScannerUsage",
+  "label": "Mriscanner usage",
+  "name": "MRIScannerUsage",
+  "properties": {
+    "https://openminds.om-i.org/props/MRSpatialEncoding": {
+      "_instruction": "Add how spatial information was encoded. Examples include 'frequencyPhaseEncoding' (2D) and 'frequencyPhasePhaseEncoding' (3D).",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/MRSpatialEncoding"
+      ],
+      "label": "Mrspatial encoding",
+      "name": "MRSpatialEncoding",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/MTState": {
+      "_instruction": "Boolean stating whether the magnetization transfer pulse is applied.",
+      "label": "Mtstate",
+      "name": "MTState",
+      "type": "boolean"
+    },
+    "https://openminds.om-i.org/props/bValues": {
+      "_instruction": "Add the b values coresponding to this acquisition.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File"
+      ],
+      "label": "B values",
+      "name": "bValues",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/bVectors": {
+      "_instruction": "Add the b vectors coresponding to this acquisition.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File"
+      ],
+      "label": "B vectors",
+      "name": "bVectors",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/device": {
+      "_instruction": "Add the MRI Scanner used.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/MRIScanner"
+      ],
+      "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
+      "label": "Device",
+      "labelPlural": "Devices",
+      "name": "device",
+      "nameForReverseLink": null,
+      "namePlural": "devices"
+    },
+    "https://openminds.om-i.org/props/dwellTime": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the dwell time of this aquistion.",
+      "label": "Dwell time",
+      "name": "dwellTime",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/echoTime": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the echo times of this acquisition (TE).",
+      "label": "Echo time",
+      "minItems": 1,
+      "name": "echoTime",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/fieldOfView": {
+      "_belongsToCategory": [
+        "mathematicalShapes"
+      ],
+      "_instruction": "Add the field of view of this image.",
+      "_linkedTypes": [],
+      "label": "Field of view",
+      "name": "fieldOfView"
+    },
+    "https://openminds.om-i.org/props/flipAngle": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the flip angle of this scan (preferred units: degrees).",
+      "label": "Flip angle",
+      "name": "flipAngle",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/interSliceGap": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue",
+        "https://openminds.om-i.org/types/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the inter slice distance of this scan.",
+      "label": "Inter slice gap",
+      "name": "interSliceGap",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/inversionTime": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the inversion time of this aquistion.",
+      "label": "Inversion time",
+      "name": "inversionTime",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/lookupLabel": {
+      "_instruction": "Enter a lookup label for this device usage that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "labelPlural": "Lookup labels",
+      "multiline": false,
+      "name": "lookupLabel",
+      "namePlural": "lookupLabels",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/metadataLocation": {
+      "_instruction": "Add all files or file bundles containing additional information about the usage of this device.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File",
+        "https://openminds.om-i.org/types/FileBundle"
+      ],
+      "label": "Metadata location",
+      "labelPlural": "Metadata locations",
+      "minItems": 1,
+      "name": "metadataLocation",
+      "nameForReverseLink": null,
+      "namePlural": "metadataLocations",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/nonlinearGradientCorrection": {
+      "_instruction": "Has this scan, been corrected for gradient nonlinearities by the scanner sequence?",
+      "label": "Nonlinear gradient correction",
+      "name": "nonlinearGradientCorrection",
+      "type": "boolean"
+    },
+    "https://openminds.om-i.org/props/numberOfVolumesDiscardedByScanner": {
+      "_instruction": "Enter number of volumes discarded by scanner before the first volume.",
+      "label": "Number of volumes discarded by scanner",
+      "name": "numberOfVolumesDiscardedByScanner",
+      "type": "number"
+    },
+    "https://openminds.om-i.org/props/parallelAcquisitionTechnique": {
+      "_ instruction": "Enter the parallel acquisition technique sequence name for this scan. 'GRAPPA' for most Siemens machines and 'SENSE' for most Philips machines.",
+      "formatting": "text/plain",
+      "label": "Parallel acquisition technique",
+      "multiline": false,
+      "name": "parallelAcquisitionTechnique",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/phaseEncodingDirection": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValueArray"
+      ],
+      "_instruction": "Enter the direction vector along which phase encoding is applied. This vector indicates the axis of potential distortions in image space (e.g., [1,0,0] for i, [0,1,0] for j, [0,0,1] for k). A negative value indicates reversed polarity.",
+      "label": "Phase encoding direction",
+      "name": "phaseEncodingDirection",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/pulseSequenceType": {
+      "_instruction": "Add the type pulse sequence used for this scan.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/MRIPulseSequence"
+      ],
+      "label": "Pulse sequence type",
+      "name": "pulseSequenceType",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/radiofrequencyCoilType": {
+      "_instruction": "Add the type of radiofrequency coil.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/MRIRadiofrequencyCoilType"
+      ],
+      "label": "Radiofrequency coil type",
+      "name": "radiofrequencyCoilType",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/receiveCoilName": {
+      "_instruction": "Enter the name of the receive coil used. (Corresponds to DICOM tag 0018,1250)",
+      "formatting": "text/plain",
+      "label": "Receive coil name",
+      "multiline": false,
+      "name": "receiveCoilName",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/repetitionTime": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the echo time of this acquisition (TR).",
+      "label": "Repetition time",
+      "name": "repetitionTime",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/sliceOrder": {
+      "_instruction": "Enter the time in which each slice have been acquired within each volume.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValueArray"
+      ],
+      "label": "Slice order",
+      "name": "sliceOrder",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/sliceTiming": {
+      "_instruction": "Enter the time in which each slice have been acquired within each volume.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValueArray"
+      ],
+      "label": "Slice timing",
+      "name": "sliceTiming",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/spoilingState": {
+      "_instruction": "Boolean stating whether the pulse sequence uses any type of spoiling strategy to suppress residual transverse magnetization.",
+      "label": "Spoiling state",
+      "name": "spoilingState",
+      "type": "boolean"
+    },
+    "https://openminds.om-i.org/props/transmitCoilName": {
+      "_instruction": "Enter the name of the transmit coil used. (Corresponds to DICOM tag 0018,1251)",
+      "formatting": "text/plain",
+      "label": "Transmit coil name",
+      "multiline": false,
+      "name": "transmitCoilName",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/usedSpecimen": {
+      "_instruction": "Add the state of the tissue sample or subject that this device was used on.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SubjectState",
+        "https://openminds.om-i.org/types/TissueSampleState"
+      ],
+      "label": "Used specimen",
+      "labelPlural": "Used specimens",
+      "name": "usedSpecimen",
+      "nameForReverseLink": null,
+      "namePlural": "usedSpecimens"
+    },
+    "https://openminds.om-i.org/props/voxelSize": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValueArray"
+      ],
+      "_instruction": "Enter voxel size this image: in this order x,y,z.",
+      "description": "Extent of the discrete elements comprising a three-dimensional entity.",
+      "label": "Voxel size",
+      "labelPlural": "Voxel sizes",
+      "name": "voxelSize",
+      "nameForReverseLink": null,
+      "namePlural": "voxelSizes"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/device"
+  ]
+}

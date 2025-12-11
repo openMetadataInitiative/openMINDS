@@ -5,233 +5,64 @@
     "Namespace changed from https://openminds.ebrains.eu/vocab/ to https://openminds.om-i.org/props/."
   ],
   "addedFiles": [
-    "controlledTerms/MRIPulseSequence.schema.omi.json",
-    "controlledTerms/MRIWeighting.schema.omi.json"
+    "neuroimaging/activity/functionalMRIAcquisition.schema.omi.json",
+    "neuroimaging/activity/structuralMRIAcquisition.schema.omi.json",
+    "neuroimaging/device/MRIScanner.schema.omi.json",
+    "neuroimaging/device/MRIScannerUsage.schema.omi.json",
+    "neuroimaging/entity/image.schema.omi.json",
+    "neuroimaging/entity/imageSequence.schema.omi.json",
+    "neuroimaging/entity/imageStack.schema.omi.json",
+    "neuroimaging/entity/volume.schema.omi.json",
+    "neuroimaging/entity/volumeSequence.schema.omi.json"
   ],
   "changes": [
     {
-      "file": "computation/dataAnalysis.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:studyTarget._linkedTypes",
-          "modification": "value(s) added"
-        }
+      "file": "chemicals/chemicalMixture.schema.omi.json",
+      "addedAttributes": [
+        "_categories"
       ],
-      "schemaType": "DataAnalysis"
+      "schemaType": "ChemicalMixture"
     },
     {
-      "file": "computation/dataCopy.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:studyTarget._linkedTypes",
-          "modification": "value(s) added"
-        }
+      "file": "chemicals/chemicalSubstance.schema.omi.json",
+      "addedAttributes": [
+        "_categories"
       ],
-      "schemaType": "DataCopy"
+      "schemaType": "ChemicalSubstance"
     },
     {
-      "file": "computation/genericComputation.schema.omi.json",
+      "file": "core/data/measurement.schema.omi.json",
       "modifiedAttributes": [
         {
-          "property": "properties.props:studyTarget._linkedTypes",
+          "property": "properties.props:measuredWith._linkedTypes",
           "modification": "value(s) added"
         }
       ],
-      "schemaType": "GenericComputation"
-    },
-    {
-      "file": "computation/modelValidation.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:studyTarget._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "ModelValidation"
-    },
-    {
-      "file": "computation/optimization.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:studyTarget._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "Optimization"
-    },
-    {
-      "file": "computation/simulation.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:studyTarget._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "Simulation"
-    },
-    {
-      "file": "computation/validationTest.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:studyTarget._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "ValidationTest"
-    },
-    {
-      "file": "computation/validationTestVersion.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "ValidationTestVersion"
-    },
-    {
-      "file": "computation/visualization.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:studyTarget._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "Visualization"
-    },
-    {
-      "file": "computation/workflowRecipeVersion.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "WorkflowRecipeVersion"
-    },
-    {
-      "file": "controlledTerms/tissueSampleType.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "_categories",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "TissueSampleType"
-    },
-    {
-      "file": "core/data/fileBundle.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:groupedBy._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "FileBundle"
-    },
-    {
-      "file": "core/products/datasetVersion.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        },
-        {
-          "property": "properties.props:studyTarget._linkedTypes",
-          "modification": "value(s) added"
-        },
-        {
-          "property": "properties.props:technique._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "DatasetVersion"
-    },
-    {
-      "file": "core/products/metaDataModelVersion.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "MetaDataModelVersion"
-    },
-    {
-      "file": "core/products/model.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:studyTarget._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "Model"
+      "schemaType": "Measurement"
     },
     {
       "file": "core/products/modelVersion.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
+      "addedAttributes": [
+        "properties.props:configuration",
+        "properties.props:entryPoint"
       ],
       "schemaType": "ModelVersion"
     },
     {
-      "file": "core/products/softwareVersion.schema.omi.json",
+      "file": "core/products/setup.schema.omi.json",
       "modifiedAttributes": [
         {
-          "property": "properties.props:keyword._linkedTypes",
+          "property": "properties.props:hasPart._linkedTypes",
           "modification": "value(s) added"
         }
       ],
-      "schemaType": "SoftwareVersion"
-    },
-    {
-      "file": "core/products/webServiceVersion.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "WebServiceVersion"
-    },
-    {
-      "file": "core/research/customPropertySet.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:relevantFor._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "CustomPropertySet"
-    },
-    {
-      "file": "core/research/protocol.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:technique._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "Protocol"
-    },
-    {
-      "file": "core/research/protocolExecution.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:studyTarget._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "ProtocolExecution"
+      "schemaType": "Setup"
     },
     {
       "file": "ephys/activity/cellPatching.schema.omi.json",
       "modifiedAttributes": [
         {
-          "property": "properties.props:studyTarget._linkedTypes",
+          "property": "properties.props:device._linkedTypes",
           "modification": "value(s) added"
         }
       ],
@@ -241,164 +72,82 @@
       "file": "ephys/activity/electrodePlacement.schema.omi.json",
       "modifiedAttributes": [
         {
-          "property": "properties.props:studyTarget._linkedTypes",
+          "property": "properties.props:device._linkedTypes",
           "modification": "value(s) added"
         }
       ],
       "schemaType": "ElectrodePlacement"
     },
     {
-      "file": "ephys/activity/recordingActivity.schema.omi.json",
+      "file": "ephys/entity/recording.schema.omi.json",
       "modifiedAttributes": [
         {
-          "property": "properties.props:studyTarget._linkedTypes",
+          "property": "properties.props:recordedWith._linkedTypes",
           "modification": "value(s) added"
         }
       ],
-      "schemaType": "RecordingActivity"
-    },
-    {
-      "file": "publications/book.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "Book"
+      "schemaType": "Recording"
     },
     {
       "file": "publications/chapter.schema.omi.json",
       "modifiedAttributes": [
         {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
+          "property": "properties.props:pagination._instruction"
         }
       ],
       "schemaType": "Chapter"
     },
     {
-      "file": "publications/learningResource.schema.omi.json",
+      "file": "publications/livePaperResourceItem.schema.omi.json",
       "modifiedAttributes": [
         {
-          "property": "properties.props:keyword._linkedTypes",
+          "property": "properties.props:hostedBy._instruction"
+        },
+        {
+          "property": "properties.props:hostedBy._linkedTypes",
           "modification": "value(s) added"
         }
       ],
-      "schemaType": "LearningResource"
-    },
-    {
-      "file": "publications/livePaperVersion.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "LivePaperVersion"
+      "schemaType": "LivePaperResourceItem"
     },
     {
       "file": "publications/scholarlyArticle.schema.omi.json",
       "modifiedAttributes": [
         {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
+          "property": "properties.props:pagination._instruction"
         }
       ],
       "schemaType": "ScholarlyArticle"
     },
     {
-      "file": "SANDS/atlas/brainAtlasVersion.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "BrainAtlasVersion"
-    },
-    {
-      "file": "SANDS/atlas/commonCoordinateSpaceVersion.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "CommonCoordinateSpaceVersion"
-    },
-    {
       "file": "specimenPrep/activity/cranialWindowPreparation.schema.omi.json",
+      "removedAttributes": [
+        "properties.props:dimension.nameForReverseLink"
+      ],
       "modifiedAttributes": [
         {
-          "property": "properties.props:studyTarget._linkedTypes",
-          "modification": "value(s) added"
+          "property": "properties.props:dimension._belongsToCategory"
+        },
+        {
+          "property": "properties.props:dimension._embeddedTypes",
+          "modification": "value(s) removed"
         }
       ],
       "schemaType": "CranialWindowPreparation"
     },
     {
-      "file": "specimenPrep/activity/tissueCulturePreparation.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:customPropertySet",
-        "properties.props:description",
-        "properties.props:endTime",
-        "properties.props:isPartOf",
-        "properties.props:lookupLabel",
-        "properties.props:performedBy",
-        "properties.props:preparationDesign",
-        "properties.props:protocol",
-        "properties.props:startTime",
-        "properties.props:studyTarget",
-        "properties.props:input.minItems",
-        "properties.props:input.type",
-        "properties.props:input.uniqueItems",
-        "properties.props:output.minItems",
-        "properties.props:output.type",
-        "properties.props:output.uniqueItems"
-      ],
+      "file": "stimulation/stimulus/ephysStimulus.schema.omi.json",
       "modifiedAttributes": [
         {
-          "property": "required",
+          "property": "properties.props:deliveredBy._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:generatedBy._linkedTypes",
           "modification": "value(s) added"
         }
       ],
-      "schemaType": "TissueCulturePreparation"
-    },
-    {
-      "file": "specimenPrep/activity/tissueSampleSlicing.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:customPropertySet",
-        "properties.props:description",
-        "properties.props:endTime",
-        "properties.props:isPartOf",
-        "properties.props:lookupLabel",
-        "properties.props:performedBy",
-        "properties.props:preparationDesign",
-        "properties.props:protocol",
-        "properties.props:startTime",
-        "properties.props:studyTarget",
-        "properties.props:input.minItems",
-        "properties.props:input.type",
-        "properties.props:input.uniqueItems"
-      ],
-      "modifiedAttributes": [
-        {
-          "property": "required",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "TissueSampleSlicing"
-    },
-    {
-      "file": "stimulation/activity/stimulationActivity.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:studyTarget._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "StimulationActivity"
+      "schemaType": "EphysStimulus"
     }
   ]
 }
