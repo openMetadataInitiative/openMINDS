@@ -71,6 +71,7 @@ Changes in core/products/datasetVersion.schema.omi.json:
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:inputData._linkedTypes' modified.
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
   - Field 'required' modified (value(s) added).
 
@@ -112,6 +113,7 @@ Changes in core/products/softwareVersion.schema.omi.json:
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:hasPart._linkedTypes' modified.
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
   - Field 'required' modified (value(s) added).
 
