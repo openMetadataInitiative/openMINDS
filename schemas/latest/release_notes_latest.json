@@ -179,6 +179,9 @@
       ],
       "modifiedAttributes": [
         {
+          "property": "properties.props:inputData._linkedTypes"
+        },
+        {
           "property": "properties.props:keyword._linkedTypes",
           "modification": "value(s) added"
         },
@@ -296,6 +299,9 @@
         "properties.props:isNewVersionOf"
       ],
       "modifiedAttributes": [
+        {
+          "property": "properties.props:hasPart._linkedTypes"
+        },
         {
           "property": "properties.props:keyword._linkedTypes",
           "modification": "value(s) added"
