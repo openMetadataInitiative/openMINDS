@@ -149,6 +149,19 @@
       "schemaType": "Species"
     },
     {
+      "file": "core/data/fileBundle.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:groupedBy._belongsToCategory"
+        },
+        {
+          "property": "properties.props:groupedBy._linkedTypes",
+          "modification": "value(s) removed"
+        }
+      ],
+      "schemaType": "FileBundle"
+    },
+    {
       "file": "core/products/dataset.schema.omi.json",
       "removedAttributes": [
         "properties.props:hasVersion"

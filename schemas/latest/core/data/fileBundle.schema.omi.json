@@ -33,7 +33,7 @@
     },
     "https://openminds.om-i.org/props/groupedBy": {
       "_belongsToCategory": [
-        "coordinateSpace",
+        "coordinateFramework",
         "fileOrigin",
         "studyTarget"
       ],
@@ -82,10 +82,7 @@
         "https://openminds.om-i.org/types/TissueSampleCollection",
         "https://openminds.om-i.org/types/TissueSampleCollectionState",
         "https://openminds.om-i.org/types/TissueSampleState",
-        "https://openminds.om-i.org/types/CommonCoordinateSpace",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
         "https://openminds.om-i.org/types/CustomAnatomicalEntity",
-        "https://openminds.om-i.org/types/CustomCoordinateSpace",
         "https://openminds.om-i.org/types/ParcellationEntity",
         "https://openminds.om-i.org/types/ParcellationEntityVersion"
       ],
