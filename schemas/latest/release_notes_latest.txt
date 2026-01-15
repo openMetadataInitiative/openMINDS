@@ -26,6 +26,9 @@ Changes in chemicals/chemicalMixture.schema.omi.json:
 Changes in chemicals/chemicalSubstance.schema.omi.json:
   - Field '_categories' added.
 
+Changes in computation/dataAnalysis.schema.omi.json:
+  - Field 'properties.props:input._linkedTypes' modified.
+
 Changes in computation/validationTest.schema.omi.json:
   - Field 'properties.props:hasVersion' removed.
   - Field 'required' modified (value(s) removed).
