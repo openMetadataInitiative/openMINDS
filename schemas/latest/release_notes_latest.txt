@@ -64,6 +64,10 @@ Changes in controlledTerms/molecularEntity.schema.omi.json:
 Changes in controlledTerms/species.schema.omi.json:
   - Field '_categories' modified (value(s) added).
 
+Changes in core/data/fileBundle.schema.omi.json:
+  - Field 'properties.props:groupedBy._belongsToCategory' modified.
+  - Field 'properties.props:groupedBy._linkedTypes' modified (value(s) removed).
+
 Changes in core/data/measurement.schema.omi.json:
   - Field 'properties.props:measuredWith._linkedTypes' modified (value(s) added).
 
