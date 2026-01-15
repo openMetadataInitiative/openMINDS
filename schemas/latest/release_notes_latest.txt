@@ -29,6 +29,9 @@ Moved files:
   - SANDS/mathematicalShapes/ellipse.schema.omi.json moved to SANDS/mathematicalShape/ellipse.schema.omi.json
   - SANDS/mathematicalShapes/rectangle.schema.omi.json moved to SANDS/mathematicalShape/rectangle.schema.omi.json
 
+Changes in computation/dataAnalysis.schema.omi.json:
+  - Field 'properties.props:input._linkedTypes' modified.
+
 Changes in computation/validationTest.schema.omi.json:
   - Field 'properties.props:hasVersion' removed.
   - Field 'required' modified (value(s) removed).

@@ -42,6 +42,15 @@
   ],
   "changes": [
     {
+      "file": "computation/dataAnalysis.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:input._linkedTypes"
+        }
+      ],
+      "schemaType": "DataAnalysis"
+    },
+    {
       "file": "computation/validationTest.schema.omi.json",
       "removedAttributes": [
         "properties.props:hasVersion"
