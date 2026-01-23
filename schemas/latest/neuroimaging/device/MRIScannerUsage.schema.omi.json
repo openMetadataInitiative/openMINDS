@@ -173,23 +173,6 @@
       "name": "pulseSequenceType",
       "nameForReverseLink": null
     },
-    "https://openminds.om-i.org/props/radiofrequencyCoilType": {
-      "_instruction": "Add the type of radiofrequency coil.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/MRIRadiofrequencyCoilType"
-      ],
-      "label": "Radiofrequency coil type",
-      "name": "radiofrequencyCoilType",
-      "nameForReverseLink": null
-    },
-    "https://openminds.om-i.org/props/receiveCoilName": {
-      "_instruction": "Enter the name of the receive coil used. (Corresponds to DICOM tag 0018,1250)",
-      "formatting": "text/plain",
-      "label": "Receive coil name",
-      "multiline": false,
-      "name": "receiveCoilName",
-      "type": "string"
-    },
     "https://openminds.om-i.org/props/repetitionTime": {
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValue"
@@ -223,13 +206,15 @@
       "name": "spoilingState",
       "type": "boolean"
     },
-    "https://openminds.om-i.org/props/transmitCoilName": {
-      "_instruction": "Enter the name of the transmit coil used. (Corresponds to DICOM tag 0018,1251)",
-      "formatting": "text/plain",
-      "label": "Transmit coil name",
-      "multiline": false,
-      "name": "transmitCoilName",
-      "type": "string"
+    "https://openminds.om-i.org/props/usedCoils": {
+      "_instruction": "Add the radiofrequency coils used for this experiment. Corresponds to DICOM tags (0018,9042) [MR Receive Coil Sequence Attribute] and (0018,9049) [MR Transmit Coil Sequence Attribute]. Preferably, create an object describing the coil (e.g., an instance of neuroimaging:MRIRadiofrequencyCoil); if less information is available, provide at least the device type.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/DeviceType",
+        "https://openminds.om-i.org/types/MRICoilUsage"
+      ],
+      "label": "Used coils",
+      "name": "usedCoils",
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/usedSpecimen": {
       "_instruction": "Add the state of the tissue sample or subject that this device was used on.",

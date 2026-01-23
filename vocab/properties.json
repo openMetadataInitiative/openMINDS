@@ -613,6 +613,36 @@
       ]
     }
   },
+  "activeElement": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/GenericIdentifier",
+          "https://openminds.om-i.org/types/string"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Active element",
+    "labelPlural": null,
+    "name": "activeElement",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRICoil",
+        "https://openminds.om-i.org/types/MRICoilUsage"
+      ]
+    }
+  },
   "addExistingTerminology": {
     "asEdge": {
       "canPointTo": {
@@ -2612,6 +2642,7 @@
         "latest": [
           "https://openminds.om-i.org/types/ElectrodeArrayUsage",
           "https://openminds.om-i.org/types/ElectrodeUsage",
+          "https://openminds.om-i.org/types/MRICoilUsage",
           "https://openminds.om-i.org/types/MRIScannerUsage",
           "https://openminds.om-i.org/types/PipetteUsage",
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
@@ -2845,6 +2876,34 @@
         "https://openminds.om-i.org/types/Chapter",
         "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/ScholarlyArticle"
+      ]
+    }
+  },
+  "coilGeometry": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/MRIRadioFrequencyCoilGeometry"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Coil geometry",
+    "labelPlural": null,
+    "name": "coilGeometry",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRICoil"
       ]
     }
   },
@@ -5583,6 +5642,7 @@
         "latest": [
           "https://openminds.om-i.org/types/ElectrodeArrayUsage",
           "https://openminds.om-i.org/types/ElectrodeUsage",
+          "https://openminds.om-i.org/types/MRICoilUsage",
           "https://openminds.om-i.org/types/MRIScannerUsage",
           "https://openminds.om-i.org/types/PipetteUsage",
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
@@ -5899,6 +5959,7 @@
         "https://openminds.om-i.org/types/LivePaper",
         "https://openminds.om-i.org/types/LivePaperSection",
         "https://openminds.om-i.org/types/LivePaperVersion",
+        "https://openminds.om-i.org/types/MRICoil",
         "https://openminds.om-i.org/types/MRIPulseSequence",
         "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/MRIWeighting",
@@ -6552,6 +6613,8 @@
           "https://openminds.om-i.org/types/ElectrodeArray",
           "https://openminds.om-i.org/types/ElectrodeArrayUsage",
           "https://openminds.om-i.org/types/ElectrodeUsage",
+          "https://openminds.om-i.org/types/MRICoil",
+          "https://openminds.om-i.org/types/MRICoilUsage",
           "https://openminds.om-i.org/types/MRIScanner",
           "https://openminds.om-i.org/types/MRIScannerUsage",
           "https://openminds.om-i.org/types/OperatingDevice",
@@ -6620,6 +6683,7 @@
         "https://openminds.om-i.org/types/ElectrodePlacement",
         "https://openminds.om-i.org/types/ElectrodeUsage",
         "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
+        "https://openminds.om-i.org/types/MRICoilUsage",
         "https://openminds.om-i.org/types/MRIScannerUsage",
         "https://openminds.om-i.org/types/PipetteUsage",
         "https://openminds.om-i.org/types/RecordingActivity",
@@ -6697,6 +6761,7 @@
       "latest": [
         "https://openminds.om-i.org/types/Electrode",
         "https://openminds.om-i.org/types/ElectrodeArray",
+        "https://openminds.om-i.org/types/MRICoil",
         "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/Pipette",
         "https://openminds.om-i.org/types/SlicingDevice"
@@ -6858,6 +6923,7 @@
         "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/LivePaper",
         "https://openminds.om-i.org/types/LivePaperVersion",
+        "https://openminds.om-i.org/types/MRICoil",
         "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/MetaDataModel",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
@@ -7020,6 +7086,7 @@
         "https://openminds.om-i.org/types/Image",
         "https://openminds.om-i.org/types/ImageSequence",
         "https://openminds.om-i.org/types/ImageStack",
+        "https://openminds.om-i.org/types/MRICoil",
         "https://openminds.om-i.org/types/Volume",
         "https://openminds.om-i.org/types/VolumeSequence"
       ],
@@ -7427,6 +7494,26 @@
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/sands/ElectrodeArray"
+      ]
+    }
+  },
+  "elementCount": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Element count",
+    "labelPlural": null,
+    "name": "elementCount",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRICoil"
       ]
     }
   },
@@ -9035,6 +9122,7 @@
         "latest": [
           "https://openminds.om-i.org/types/ElectrodeArrayUsage",
           "https://openminds.om-i.org/types/ElectrodeUsage",
+          "https://openminds.om-i.org/types/MRICoilUsage",
           "https://openminds.om-i.org/types/MRIScannerUsage",
           "https://openminds.om-i.org/types/PipetteUsage",
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
@@ -9838,6 +9926,7 @@
           "https://openminds.om-i.org/types/FileBundle",
           "https://openminds.om-i.org/types/LivePaper",
           "https://openminds.om-i.org/types/LivePaperVersion",
+          "https://openminds.om-i.org/types/MRICoil",
           "https://openminds.om-i.org/types/MRIScanner",
           "https://openminds.om-i.org/types/MetaDataModel",
           "https://openminds.om-i.org/types/MetaDataModelVersion",
@@ -14200,6 +14289,8 @@
         "https://openminds.om-i.org/types/FileRepositoryStructure",
         "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/GenericComputation",
+        "https://openminds.om-i.org/types/MRICoil",
+        "https://openminds.om-i.org/types/MRICoilUsage",
         "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/MRIScannerUsage",
         "https://openminds.om-i.org/types/ModelValidation",
@@ -14460,6 +14551,7 @@
       "latest": [
         "https://openminds.om-i.org/types/Electrode",
         "https://openminds.om-i.org/types/ElectrodeArray",
+        "https://openminds.om-i.org/types/MRICoil",
         "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/Pipette",
         "https://openminds.om-i.org/types/Setup",
@@ -14675,6 +14767,7 @@
         "latest": [
           "https://openminds.om-i.org/types/ElectrodeArrayUsage",
           "https://openminds.om-i.org/types/ElectrodeUsage",
+          "https://openminds.om-i.org/types/MRICoilUsage",
           "https://openminds.om-i.org/types/MRIScannerUsage",
           "https://openminds.om-i.org/types/PipetteUsage",
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
@@ -14818,6 +14911,7 @@
       "latest": [
         "https://openminds.om-i.org/types/ElectrodeArrayUsage",
         "https://openminds.om-i.org/types/ElectrodeUsage",
+        "https://openminds.om-i.org/types/MRICoilUsage",
         "https://openminds.om-i.org/types/MRIScannerUsage",
         "https://openminds.om-i.org/types/PipetteUsage",
         "https://openminds.om-i.org/types/SlicingDeviceUsage"
@@ -15025,6 +15119,62 @@
       ]
     }
   },
+  "mountingLocation": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/AnatomicalRegion"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Mounting location",
+    "labelPlural": null,
+    "name": "mountingLocation",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRICoilUsage"
+      ]
+    }
+  },
+  "mountingType": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/MRIRadioFrequencyCoilMountingType"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Mounting type",
+    "labelPlural": null,
+    "name": "mountingType",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRICoil"
+      ]
+    }
+  },
   "name": {
     "asString": {
       "formatting": "text/plain",
@@ -15127,6 +15277,7 @@
         "https://openminds.om-i.org/types/LivePaperResourceItem",
         "https://openminds.om-i.org/types/LivePaperSection",
         "https://openminds.om-i.org/types/LocalFile",
+        "https://openminds.om-i.org/types/MRICoil",
         "https://openminds.om-i.org/types/MRIPulseSequence",
         "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/MRIWeighting",
@@ -16790,6 +16941,7 @@
       "latest": [
         "https://openminds.om-i.org/types/Electrode",
         "https://openminds.om-i.org/types/ElectrodeArray",
+        "https://openminds.om-i.org/types/MRICoil",
         "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/Pipette",
         "https://openminds.om-i.org/types/SlicingDevice"
@@ -16877,6 +17029,26 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
+      ]
+    }
+  },
+  "parallelImagingCapable": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Parallel imaging capable",
+    "labelPlural": null,
+    "name": "parallelImagingCapable",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRICoil"
       ]
     }
   },
@@ -18946,11 +19118,11 @@
       ]
     }
   },
-  "radiofrequencyCoilType": {
+  "radioFrequencyCoilType": {
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/MRIRadiofrequencyCoilType"
+          "https://openminds.om-i.org/types/MRIRadioFrequencyCoilType"
         ]
       },
       "nameForReverseLink": null
@@ -18964,15 +19136,59 @@
         "namespace": "https://openminds.om-i.org/props/"
       }
     ],
+    "label": "Radio frequency coil type",
+    "labelPlural": null,
+    "name": "radioFrequencyCoilType",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRICoil"
+      ]
+    }
+  },
+  "radiofrequencyCoilRole": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/MRIradioFrequencyCoilRole"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Radiofrequency coil role",
+    "labelPlural": null,
+    "name": "radiofrequencyCoilRole",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRICoilUsage"
+      ]
+    }
+  },
+  "radiofrequencyCoilType": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
     "label": "Radiofrequency coil type",
     "labelPlural": null,
     "name": "radiofrequencyCoilType",
     "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
+    "usedIn": {}
   },
   "radius": {
     "asEdge": {
@@ -19024,9 +19240,7 @@
   "receiveCoilName": {
     "asString": {
       "formatting": "text/plain",
-      "inVersions": [
-        "latest"
-      ],
+      "inVersions": [],
       "multiline": false
     },
     "description": null,
@@ -19042,11 +19256,7 @@
     "labelPlural": null,
     "name": "receiveCoilName",
     "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
+    "usedIn": {}
   },
   "recipe": {
     "asEdge": {
@@ -19122,6 +19332,7 @@
         "latest": [
           "https://openminds.om-i.org/types/ElectrodeArrayUsage",
           "https://openminds.om-i.org/types/ElectrodeUsage",
+          "https://openminds.om-i.org/types/MRICoilUsage",
           "https://openminds.om-i.org/types/MRIScannerUsage",
           "https://openminds.om-i.org/types/PipetteUsage",
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
@@ -20717,6 +20928,7 @@
       "latest": [
         "https://openminds.om-i.org/types/Electrode",
         "https://openminds.om-i.org/types/ElectrodeArray",
+        "https://openminds.om-i.org/types/MRICoil",
         "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/Pipette",
         "https://openminds.om-i.org/types/SlicingDevice"
@@ -23892,6 +24104,34 @@
       ]
     }
   },
+  "targetAnatomyCoverage": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/AnatomicalRegion"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Target anatomy coverage",
+    "labelPlural": null,
+    "name": "targetAnatomyCoverage",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRICoil"
+      ]
+    }
+  },
   "targetIdentificationType": {
     "asEdge": {
       "canPointTo": {
@@ -24338,9 +24578,7 @@
   "transmitCoilName": {
     "asString": {
       "formatting": "text/plain",
-      "inVersions": [
-        "latest"
-      ],
+      "inVersions": [],
       "multiline": false
     },
     "description": null,
@@ -24356,11 +24594,7 @@
     "labelPlural": null,
     "name": "transmitCoilName",
     "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
+    "usedIn": {}
   },
   "type": {
     "asEdge": {
@@ -24679,6 +24913,35 @@
       ]
     }
   },
+  "usedCoils": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/DeviceType",
+          "https://openminds.om-i.org/types/MRICoilUsage"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Used coils",
+    "labelPlural": null,
+    "name": "usedCoils",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
+      ]
+    }
+  },
   "usedElectrode": {
     "asString": {
       "formatting": "text/plain",
@@ -24827,6 +25090,7 @@
         "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
         "https://openminds.om-i.org/types/ElectrodeArrayUsage",
         "https://openminds.om-i.org/types/ElectrodeUsage",
+        "https://openminds.om-i.org/types/MRICoilUsage",
         "https://openminds.om-i.org/types/MRIScannerUsage",
         "https://openminds.om-i.org/types/PipetteUsage",
         "https://openminds.om-i.org/types/SlicingDeviceUsage"

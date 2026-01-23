@@ -1,0 +1,199 @@
+{
+  "_categories": [
+    "setupComponent"
+  ],
+  "_module": "neuroimaging",
+  "_type": "https://openminds.om-i.org/types/MRICoil",
+  "label": "Mricoil",
+  "name": "MRICoil",
+  "properties": {
+    "https://openminds.om-i.org/props/activeElement": {
+      "_instruction": "Enter all the identifiers of the active coil elements or channels.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/GenericIdentifier",
+        "https://openminds.om-i.org/types/string"
+      ],
+      "label": "Active element",
+      "minItems": 1,
+      "name": "activeElement",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/coilGeometry": {
+      "_instruction": "Add the geometry of the coil (e.g., birdcage, loop, Helmholtz).",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/MRIRadioFrequencyCoilGeometry"
+      ],
+      "label": "Coil geometry",
+      "name": "coilGeometry",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/description": {
+      "_instruction": "Enter a short text describing this device.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/markdown",
+      "label": "Description",
+      "labelPlural": "Descriptions",
+      "multiline": true,
+      "name": "description",
+      "namePlural": "descriptions",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/deviceType": {
+      "_instruction": "Add the type of this device.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/DeviceType"
+      ],
+      "label": "Device type",
+      "labelPlural": "Device types",
+      "name": "deviceType",
+      "nameForReverseLink": null,
+      "namePlural": "deviceTypes"
+    },
+    "https://openminds.om-i.org/props/digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this device.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/DOI",
+        "https://openminds.om-i.org/types/RRID"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers"
+    },
+    "https://openminds.om-i.org/props/dimension": {
+      "_belongsToCategory": [
+        "mathematicalShape"
+      ],
+      "_instruction": "Add the dimension of this coil.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Circle",
+        "https://openminds.om-i.org/types/Ellipse",
+        "https://openminds.om-i.org/types/Rectangle"
+      ],
+      "label": "Dimension",
+      "labelPlural": "Dimensions",
+      "name": "dimension",
+      "nameForReverseLink": null,
+      "namePlural": "dimensions"
+    },
+    "https://openminds.om-i.org/props/elementCount": {
+      "_instruction": "Enter the total number of coil elements.",
+      "label": "Element count",
+      "minimum": 1,
+      "name": "elementCount",
+      "type": "integer"
+    },
+    "https://openminds.om-i.org/props/lookupLabel": {
+      "_instruction": "Enter a lookup label for this device that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "labelPlural": "Lookup labels",
+      "multiline": false,
+      "name": "lookupLabel",
+      "namePlural": "lookupLabels",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/manufacturer": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
+      "_instruction": "Add the manufacturer (private or industrial) that constructed this device.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Consortium",
+        "https://openminds.om-i.org/types/Organization",
+        "https://openminds.om-i.org/types/Person"
+      ],
+      "label": "Manufacturer",
+      "labelPlural": "Manufacturers",
+      "minItems": 1,
+      "name": "manufacturer",
+      "nameForReverseLink": null,
+      "namePlural": "manufacturers",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/mountingType": {
+      "_instruction": "Add the coil mounting type (e.g., built-in, external, interventional, wearable).",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/MRIRadioFrequencyCoilMountingType"
+      ],
+      "label": "Mounting type",
+      "name": "mountingType",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter a descriptive name for this device, preferably including the model name as defined by the manufacturer.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/owner": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
+      "_instruction": "Add all parties that legally own this device.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Consortium",
+        "https://openminds.om-i.org/types/Organization",
+        "https://openminds.om-i.org/types/Person"
+      ],
+      "label": "Owner",
+      "labelPlural": "Owners",
+      "minItems": 1,
+      "name": "owner",
+      "nameForReverseLink": null,
+      "namePlural": "owners",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/parallelImagingCapable": {
+      "_instruction": "Indicate whether the coil supports parallel imaging.",
+      "label": "Parallel imaging capable",
+      "name": "parallelImagingCapable",
+      "type": "boolean"
+    },
+    "https://openminds.om-i.org/props/radioFrequencyCoilType": {
+      "_instruction": "Add the coil type (e.g., volume, surface, phased array).",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/MRIRadioFrequencyCoilType"
+      ],
+      "label": "Radio frequency coil type",
+      "name": "radioFrequencyCoilType",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/serialNumber": {
+      "_instruction": "Enter the serial number of this device.",
+      "formatting": "text/plain",
+      "label": "Serial number",
+      "labelPlural": "Serial numbers",
+      "multiline": false,
+      "name": "serialNumber",
+      "namePlural": "serialNumbers",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/targetAnatomyCoverage": {
+      "_instruction": "Add the anatomical region(s) the coil is designed to cover.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnatomicalRegion"
+      ],
+      "label": "Target anatomy coverage",
+      "name": "targetAnatomyCoverage",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/deviceType",
+    "https://openminds.om-i.org/props/elementCount",
+    "https://openminds.om-i.org/props/name",
+    "https://openminds.om-i.org/props/radioFrequencyCoilType"
+  ]
+}

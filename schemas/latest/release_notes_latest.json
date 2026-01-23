@@ -14,6 +14,8 @@
     "core/miscellaneous/location.schema.omi.json",
     "neuroimaging/activity/functionalMRIAcquisition.schema.omi.json",
     "neuroimaging/activity/structuralMRIAcquisition.schema.omi.json",
+    "neuroimaging/device/MRICoil.schema.omi.json",
+    "neuroimaging/device/MRICoilUsage.schema.omi.json",
     "neuroimaging/device/MRIScanner.schema.omi.json",
     "neuroimaging/device/MRIScannerUsage.schema.omi.json",
     "neuroimaging/entity/image.schema.omi.json",

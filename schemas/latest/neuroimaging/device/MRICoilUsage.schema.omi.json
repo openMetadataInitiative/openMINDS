@@ -1,0 +1,95 @@
+{
+  "_categories": [
+    "deviceUsage"
+  ],
+  "_module": "neuroimaging",
+  "_type": "https://openminds.om-i.org/types/MRICoilUsage",
+  "label": "Mricoil usage",
+  "name": "MRICoilUsage",
+  "properties": {
+    "https://openminds.om-i.org/props/activeElement": {
+      "_instruction": "If applicable, list the identifiers of the active coil elements or channels.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/GenericIdentifier",
+        "https://openminds.om-i.org/types/string"
+      ],
+      "label": "Active element",
+      "minItems": 1,
+      "name": "activeElement",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/device": {
+      "_instruction": "Add the MRI Coil used.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/MRICoil"
+      ],
+      "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
+      "label": "Device",
+      "labelPlural": "Devices",
+      "name": "device",
+      "nameForReverseLink": null,
+      "namePlural": "devices"
+    },
+    "https://openminds.om-i.org/props/lookupLabel": {
+      "_instruction": "Enter a lookup label for this device usage that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "labelPlural": "Lookup labels",
+      "multiline": false,
+      "name": "lookupLabel",
+      "namePlural": "lookupLabels",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/metadataLocation": {
+      "_instruction": "Add all files or file bundles containing additional information about the usage of this device.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File",
+        "https://openminds.om-i.org/types/FileBundle"
+      ],
+      "label": "Metadata location",
+      "labelPlural": "Metadata locations",
+      "minItems": 1,
+      "name": "metadataLocation",
+      "nameForReverseLink": null,
+      "namePlural": "metadataLocations",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/mountingLocation": {
+      "_instruction": "Describe how the coil is mounted or positioned relative to the subject (e.g., head, knee, body).",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnatomicalRegion"
+      ],
+      "label": "Mounting location",
+      "name": "mountingLocation",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/radiofrequencyCoilRole": {
+      "_instruction": "Add the functional role of the RF coil (e.g., transmit, receive, transmit/receive).",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/MRIradioFrequencyCoilRole"
+      ],
+      "label": "Radiofrequency coil role",
+      "name": "radiofrequencyCoilRole",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/usedSpecimen": {
+      "_instruction": "Add the state of the tissue sample or subject that this device was used on.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SubjectState",
+        "https://openminds.om-i.org/types/TissueSampleState"
+      ],
+      "label": "Used specimen",
+      "labelPlural": "Used specimens",
+      "name": "usedSpecimen",
+      "nameForReverseLink": null,
+      "namePlural": "usedSpecimens"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/device",
+    "https://openminds.om-i.org/props/radioFrequencyCoilRole"
+  ]
+}
