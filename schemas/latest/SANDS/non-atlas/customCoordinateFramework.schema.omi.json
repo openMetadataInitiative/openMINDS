@@ -1,14 +1,14 @@
 {
   "_categories": [
-    "coordinateSpace"
+    "coordinateFramework"
   ],
   "_module": "SANDS",
-  "_type": "https://openminds.om-i.org/types/CustomCoordinateSpace",
-  "label": "Custom coordinate space",
-  "name": "CustomCoordinateSpace",
+  "_type": "https://openminds.om-i.org/types/customCoordinateFramework",
+  "label": "Custom coordinate framework",
+  "name": "customCoordinateFramework",
   "properties": {
     "https://openminds.om-i.org/props/anatomicalAxesOrientation": {
-      "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (stated as XYZ) for this custom coordinate space.",
+      "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (stated as XYZ) for the anatomical space of this custom coordinate framework.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/AnatomicalAxesOrientation"
       ],
@@ -23,7 +23,7 @@
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValue"
       ],
-      "_instruction": "Enter the origin (central point where all axes intersect) of this custom coordinate space for two-dimensional spaces as [x, y] or for three-dimensional space as [x, y, z].",
+      "_instruction": "Enter the coordinate point in the native anatomical space of the template as [x, y] or [x, y, z] for two- or three-dimensional spaces, respectively, that has been defined as the origin of the anatomical space of this custom coordinate framework (i.e., as the central point where all axes intersect).",
       "description": "Special point in a coordinate system used as a fixed point of reference for the geometry of the surrounding space.",
       "label": "Axes origin",
       "labelPlural": "Axes origins",
@@ -36,7 +36,7 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/defaultImage": {
-      "_instruction": "Add all image files used as visual representation of this custom coordinate space.",
+      "_instruction": "Add all image files used as visual representation of this custom coordinate framework.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/File"
       ],
@@ -51,7 +51,7 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/name": {
-      "_instruction": "Enter a descriptive name for this custom coordinate space.",
+      "_instruction": "Enter a descriptive name for this custom coordinate framework.",
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",
@@ -62,7 +62,7 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/nativeUnit": {
-      "_instruction": "Add the native unit that is used for this custom coordinate space.",
+      "_instruction": "Add the native unit that is used for this custom coordinate framework.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/UnitOfMeasurement"
       ],

@@ -12,8 +12,18 @@ Added files:
   - controlledTerms/supranationalBody.schema.omi.json
   - core/miscellaneous/geoCoordinates.schema.omi.json
   - core/miscellaneous/location.schema.omi.json
+  - SANDS/atlas/anatomicalAtlas.schema.omi.json
+  - SANDS/atlas/anatomicalAtlasVersion.schema.omi.json
+  - SANDS/atlas/commonCoordinateFramework.schema.omi.json
+  - SANDS/atlas/commonCoordinateFrameworkVersion.schema.omi.json
+  - SANDS/non-atlas/customCoordinateFramework.schema.omi.json
 
 Removed files:
+  - SANDS/atlas/brainAtlas.schema.omi.json
+  - SANDS/atlas/brainAtlasVersion.schema.omi.json
+  - SANDS/atlas/commonCoordinateSpace.schema.omi.json
+  - SANDS/atlas/commonCoordinateSpaceVersion.schema.omi.json
+  - SANDS/non-atlas/customCoordinateSpace.schema.omi.json
 
 Moved files:
   - SANDS/mathematicalShapes/circle.schema.omi.json moved to SANDS/mathematicalShape/circle.schema.omi.json
@@ -66,7 +76,13 @@ Changes in controlledTerms/species.schema.omi.json:
 
 Changes in core/data/fileBundle.schema.omi.json:
   - Field 'properties.props:groupedBy._belongsToCategory' modified.
-  - Field 'properties.props:groupedBy._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:groupedBy._linkedTypes' modified.
+
+Changes in core/miscellaneous/comment.schema.omi.json:
+  - Field 'properties.props:about._linkedTypes' modified.
+
+Changes in core/miscellaneous/researchProductGroup.schema.omi.json:
+  - Field 'properties.props:hasPart._linkedTypes' modified.
 
 Changes in core/products/dataset.schema.omi.json:
   - Field 'properties.props:hasVersion' removed.
@@ -110,6 +126,9 @@ Changes in core/products/modelVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
   - Field 'required' modified (value(s) added).
 
+Changes in core/products/project.schema.omi.json:
+  - Field 'properties.props:hasPart._linkedTypes' modified.
+
 Changes in core/products/software.schema.omi.json:
   - Field 'properties.props:hasVersion' removed.
   - Field 'required' modified (value(s) removed).
@@ -145,6 +164,7 @@ Changes in publications/chapter.schema.omi.json:
   - Field 'properties.props:pagination._instruction' modified.
 
 Changes in publications/learningResource.schema.omi.json:
+  - Field 'properties.props:about._linkedTypes' modified.
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
 
 Changes in publications/livePaper.schema.omi.json:
@@ -168,32 +188,6 @@ Changes in publications/scholarlyArticle.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
   - Field 'properties.props:pagination._instruction' modified.
 
-Changes in SANDS/atlas/brainAtlas.schema.omi.json:
-  - Field 'properties.props:hasVersion' removed.
-  - Field 'required' modified (value(s) removed).
-
-Changes in SANDS/atlas/brainAtlasVersion.schema.omi.json:
-  - Field 'properties.props:isAlternativeVersionOf' removed.
-  - Field 'properties.props:isNewVersionOf' removed.
-  - Field 'properties.props:isPrecededBy' added.
-  - Field 'properties.props:isVariantOf' added.
-  - Field 'properties.props:isVersionOf' added.
-  - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
-  - Field 'required' modified (value(s) added).
-
-Changes in SANDS/atlas/commonCoordinateSpace.schema.omi.json:
-  - Field 'properties.props:hasVersion' removed.
-  - Field 'required' modified (value(s) removed).
-
-Changes in SANDS/atlas/commonCoordinateSpaceVersion.schema.omi.json:
-  - Field 'properties.props:isAlternativeVersionOf' removed.
-  - Field 'properties.props:isNewVersionOf' removed.
-  - Field 'properties.props:isPrecededBy' added.
-  - Field 'properties.props:isVariantOf' added.
-  - Field 'properties.props:isVersionOf' added.
-  - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
-  - Field 'required' modified (value(s) added).
-
 Changes in SANDS/atlas/parcellationEntity.schema.omi.json:
   - Field 'required' modified (value(s) added).
 
@@ -207,6 +201,16 @@ Changes in SANDS/atlas/parcellationTerminology.schema.omi.json:
 Changes in SANDS/atlas/parcellationTerminologyVersion.schema.omi.json:
   - Field 'properties.props:digitalIdentifier' added.
   - Field 'properties.props:dataLocation._linkedTypes' modified (value(s) added).
+
+Changes in SANDS/miscellaneous/coordinatePoint.schema.omi.json:
+  - Field 'properties.props:coordinateSpace' removed.
+  - Field 'properties.props:coordinateFramework' added.
+  - Field 'required' modified.
+
+Changes in SANDS/non-atlas/customAnnotation.schema.omi.json:
+  - Field 'properties.props:coordinateSpace' removed.
+  - Field 'properties.props:coordinateFramework' added.
+  - Field 'required' modified.
 
 Changes in specimenPrep/activity/cranialWindowPreparation.schema.omi.json:
   - Field 'properties.props:dimension._belongsToCategory' modified.

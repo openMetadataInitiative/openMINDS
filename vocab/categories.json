@@ -36,10 +36,10 @@
       "computation:Simulation",
       "computation:Visualization"
     ],
-    "coordinateSpace": [
-      "sands:CommonCoordinateSpace",
-      "sands:CommonCoordinateSpaceVersion",
-      "sands:CustomCoordinateSpace"
+    "coordinateFramework": [
+      "sands:CommonCoordinateFramework",
+      "sands:CommonCoordinateFrameworkVersion",
+      "sands:customCoordinateFramework"
     ],
     "deviceUsage": [
       "ephys:ElectrodeArrayUsage",
@@ -198,10 +198,10 @@
       "core:WebServiceVersion",
       "publications:LivePaper",
       "publications:LivePaperVersion",
-      "sands:BrainAtlas",
-      "sands:BrainAtlasVersion",
-      "sands:CommonCoordinateSpace",
-      "sands:CommonCoordinateSpaceVersion"
+      "sands:AnatomicalAtlas",
+      "sands:AnatomicalAtlasVersion",
+      "sands:CommonCoordinateFramework",
+      "sands:CommonCoordinateFrameworkVersion"
     ],
     "setupComponent": [
       "core:Setup",

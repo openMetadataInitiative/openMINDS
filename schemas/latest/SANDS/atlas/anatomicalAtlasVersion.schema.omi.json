@@ -3,12 +3,12 @@
     "researchProduct"
   ],
   "_module": "SANDS",
-  "_type": "https://openminds.om-i.org/types/BrainAtlasVersion",
-  "label": "Brain atlas version",
-  "name": "BrainAtlasVersion",
+  "_type": "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+  "label": "Anatomical atlas version",
+  "name": "AnatomicalAtlasVersion",
   "properties": {
     "https://openminds.om-i.org/props/abbreviation": {
-      "_instruction": "Enter the official abbreviation of this brain atlas version.",
+      "_instruction": "Enter the official abbreviation of this anatomical atlas version.",
       "formatting": "text/plain",
       "label": "Abbreviation",
       "labelPlural": "Abbreviations",
@@ -29,37 +29,14 @@
       "nameForReverseLink": null,
       "namePlural": "accessibilities"
     },
-    "https://openminds.om-i.org/props/author": {
-      "_belongsToCategory": [
-        "legalPerson"
-      ],
-      "_instruction": "Add all parties that contributed to this brain atlas version as authors. Note that these authors will overwrite the author list provided for the overarching brain atlas.",
+    "https://openminds.om-i.org/props/coordinateFramework": {
+      "_instruction": "Add the specific common coordinate framework in which this anatomical atlas version exists.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/Consortium",
-        "https://openminds.om-i.org/types/Organization",
-        "https://openminds.om-i.org/types/Person"
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion"
       ],
-      "description": "Creator of a literary or creative work, as well as a dataset publication.",
-      "label": "Author",
-      "labelPlural": "Authors",
-      "minItems": 1,
-      "name": "author",
-      "nameForReverseLink": null,
-      "namePlural": "authors",
-      "type": "array",
-      "uniqueItems": true
-    },
-    "https://openminds.om-i.org/props/coordinateSpace": {
-      "_instruction": "Add the specific common coordinate space in which this brain atlas version exists.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion"
-      ],
-      "description": "Two or three dimensional geometric setting.",
-      "label": "Coordinate space",
-      "labelPlural": "Coordinate spaces",
-      "name": "coordinateSpace",
-      "nameForReverseLink": null,
-      "namePlural": "coordinateSpaces"
+      "label": "Coordinate framework",
+      "name": "coordinateFramework",
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/copyright": {
       "_embeddedTypes": [
@@ -163,7 +140,7 @@
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/ParcellationTerminologyVersion"
       ],
-      "_instruction": "Enter the specific parcellation terminology of this brain atlas version.",
+      "_instruction": "Enter the specific parcellation terminology of this anatomical atlas version.",
       "label": "Has terminology",
       "labelPlural": "Has terminologies",
       "name": "hasTerminology",
@@ -196,18 +173,18 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/isPrecededBy": {
-      "_instruction": "Add the brain atlas version preceding this brain atlas version.",
+      "_instruction": "Add the brain atlas version preceding this anatomical atlas version.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/BrainAtlasVersion"
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion"
       ],
       "label": "Is preceded by",
       "name": "isPrecededBy",
       "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/isVariantOf": {
-      "_instruction": "Add all brain atlas versions that can be used alternatively to this brain atlas version.",
+      "_instruction": "Add all brain atlas versions that can be used alternatively to this anatomical atlas version.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/BrainAtlasVersion"
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion"
       ],
       "label": "Is variant of",
       "labelPlural": "Is variant of",
@@ -219,9 +196,9 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/isVersionOf": {
-      "_instruction": "Add the version-independent information about this brain atlas.",
+      "_instruction": "Add the version-independent information about this anatomical atlas.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/BrainAtlas"
+        "https://openminds.om-i.org/types/AnatomicalAtlas"
       ],
       "label": "Is version of",
       "name": "isVersionOf",
@@ -333,18 +310,6 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.om-i.org/props/license": {
-      "_instruction": "Add the license of this brain atlas version.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/License"
-      ],
-      "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
-      "label": "License",
-      "labelPlural": "Licenses",
-      "name": "license",
-      "nameForReverseLink": null,
-      "namePlural": "licenses"
-    },
     "https://openminds.om-i.org/props/majorVersionIdentifier": {
       "_instruction": "Enter the identifier of the major version release this research product version belongs to.",
       "formatting": "text/plain",
@@ -359,7 +324,7 @@
       "_formats": [
         "iri"
       ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) to the related ontological term matching this brain atlas version.",
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the related ontological term matching this anatomical atlas version.",
       "description": "Term or code used to identify something or someone registered within a particular ontology.",
       "formatting": "text/plain",
       "label": "Ontology identifier",
@@ -466,7 +431,7 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/type": {
-      "_instruction": "Add the type of this brain atlas version.",
+      "_instruction": "Add the type of this anatomical atlas version.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/AtlasType"
       ],
@@ -478,7 +443,7 @@
       "namePlural": "types"
     },
     "https://openminds.om-i.org/props/usedSpecimen": {
-      "_instruction": "Add the specimen that was used for the creation of this brain atlas version.",
+      "_instruction": "Add the specimen(s) that were used in the creation of this anatomical atlas version.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/Subject",
         "https://openminds.om-i.org/types/SubjectGroup",
@@ -519,13 +484,13 @@
   },
   "required": [
     "https://openminds.om-i.org/props/accessibility",
-    "https://openminds.om-i.org/props/coordinateSpace",
     "https://openminds.om-i.org/props/fullDocumentation",
     "https://openminds.om-i.org/props/hasTerminology",
+    "https://openminds.om-i.org/props/howToCite",
     "https://openminds.om-i.org/props/isVersionOf",
-    "https://openminds.om-i.org/props/license",
     "https://openminds.om-i.org/props/releaseDate",
     "https://openminds.om-i.org/props/shortName",
+    "https://openminds.om-i.org/props/type",
     "https://openminds.om-i.org/props/versionIdentifier",
     "https://openminds.om-i.org/props/versionInnovation"
   ]

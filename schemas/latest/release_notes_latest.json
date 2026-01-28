@@ -11,9 +11,20 @@
     "controlledTerms/sovereignState.schema.omi.json",
     "controlledTerms/supranationalBody.schema.omi.json",
     "core/miscellaneous/geoCoordinates.schema.omi.json",
-    "core/miscellaneous/location.schema.omi.json"
+    "core/miscellaneous/location.schema.omi.json",
+    "SANDS/atlas/anatomicalAtlas.schema.omi.json",
+    "SANDS/atlas/anatomicalAtlasVersion.schema.omi.json",
+    "SANDS/atlas/commonCoordinateFramework.schema.omi.json",
+    "SANDS/atlas/commonCoordinateFrameworkVersion.schema.omi.json",
+    "SANDS/non-atlas/customCoordinateFramework.schema.omi.json"
   ],
-  "removedFiles": [],
+  "removedFiles": [
+    "SANDS/atlas/brainAtlas.schema.omi.json",
+    "SANDS/atlas/brainAtlasVersion.schema.omi.json",
+    "SANDS/atlas/commonCoordinateSpace.schema.omi.json",
+    "SANDS/atlas/commonCoordinateSpaceVersion.schema.omi.json",
+    "SANDS/non-atlas/customCoordinateSpace.schema.omi.json"
+  ],
   "movedFiles": [
     {
       "file": "circle.schema.omi.json",
@@ -164,11 +175,28 @@
           "property": "properties.props:groupedBy._belongsToCategory"
         },
         {
-          "property": "properties.props:groupedBy._linkedTypes",
-          "modification": "value(s) removed"
+          "property": "properties.props:groupedBy._linkedTypes"
         }
       ],
       "schemaType": "FileBundle"
+    },
+    {
+      "file": "core/miscellaneous/comment.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:about._linkedTypes"
+        }
+      ],
+      "schemaType": "Comment"
+    },
+    {
+      "file": "core/miscellaneous/researchProductGroup.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:hasPart._linkedTypes"
+        }
+      ],
+      "schemaType": "ResearchProductGroup"
     },
     {
       "file": "core/products/dataset.schema.omi.json",
@@ -284,6 +312,15 @@
       "schemaType": "ModelVersion"
     },
     {
+      "file": "core/products/project.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:hasPart._linkedTypes"
+        }
+      ],
+      "schemaType": "Project"
+    },
+    {
       "file": "core/products/software.schema.omi.json",
       "removedAttributes": [
         "properties.props:hasVersion"
@@ -385,6 +422,9 @@
       "file": "publications/learningResource.schema.omi.json",
       "modifiedAttributes": [
         {
+          "property": "properties.props:about._linkedTypes"
+        },
+        {
           "property": "properties.props:keyword._linkedTypes",
           "modification": "value(s) added"
         }
@@ -454,78 +494,6 @@
       "schemaType": "ScholarlyArticle"
     },
     {
-      "file": "SANDS/atlas/brainAtlas.schema.omi.json",
-      "removedAttributes": [
-        "properties.props:hasVersion"
-      ],
-      "modifiedAttributes": [
-        {
-          "property": "required",
-          "modification": "value(s) removed"
-        }
-      ],
-      "schemaType": "BrainAtlas"
-    },
-    {
-      "file": "SANDS/atlas/brainAtlasVersion.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:isPrecededBy",
-        "properties.props:isVariantOf",
-        "properties.props:isVersionOf"
-      ],
-      "removedAttributes": [
-        "properties.props:isAlternativeVersionOf",
-        "properties.props:isNewVersionOf"
-      ],
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        },
-        {
-          "property": "required",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "BrainAtlasVersion"
-    },
-    {
-      "file": "SANDS/atlas/commonCoordinateSpace.schema.omi.json",
-      "removedAttributes": [
-        "properties.props:hasVersion"
-      ],
-      "modifiedAttributes": [
-        {
-          "property": "required",
-          "modification": "value(s) removed"
-        }
-      ],
-      "schemaType": "CommonCoordinateSpace"
-    },
-    {
-      "file": "SANDS/atlas/commonCoordinateSpaceVersion.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:isPrecededBy",
-        "properties.props:isVariantOf",
-        "properties.props:isVersionOf"
-      ],
-      "removedAttributes": [
-        "properties.props:isAlternativeVersionOf",
-        "properties.props:isNewVersionOf"
-      ],
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        },
-        {
-          "property": "required",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "CommonCoordinateSpaceVersion"
-    },
-    {
       "file": "SANDS/atlas/parcellationEntity.schema.omi.json",
       "modifiedAttributes": [
         {
@@ -570,6 +538,36 @@
         }
       ],
       "schemaType": "ParcellationTerminologyVersion"
+    },
+    {
+      "file": "SANDS/miscellaneous/coordinatePoint.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:coordinateFramework"
+      ],
+      "removedAttributes": [
+        "properties.props:coordinateSpace"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "required"
+        }
+      ],
+      "schemaType": "CoordinatePoint"
+    },
+    {
+      "file": "SANDS/non-atlas/customAnnotation.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:coordinateFramework"
+      ],
+      "removedAttributes": [
+        "properties.props:coordinateSpace"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "required"
+        }
+      ],
+      "schemaType": "CustomAnnotation"
     },
     {
       "file": "specimenPrep/activity/cranialWindowPreparation.schema.omi.json",

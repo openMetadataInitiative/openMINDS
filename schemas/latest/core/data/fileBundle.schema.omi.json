@@ -82,9 +82,12 @@
         "https://openminds.om-i.org/types/TissueSampleCollection",
         "https://openminds.om-i.org/types/TissueSampleCollectionState",
         "https://openminds.om-i.org/types/TissueSampleState",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/CustomAnatomicalEntity",
         "https://openminds.om-i.org/types/ParcellationEntity",
-        "https://openminds.om-i.org/types/ParcellationEntityVersion"
+        "https://openminds.om-i.org/types/ParcellationEntityVersion",
+        "https://openminds.om-i.org/types/customCoordinateFramework"
       ],
       "description": "Reference to the aspect used to group something.",
       "label": "Grouped by",

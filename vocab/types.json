@@ -282,6 +282,56 @@
     "label": "Analysis technique",
     "name": "AnalysisTechnique"
   },
+  "AnatomicalAtlas": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Anatomical atlas",
+    "name": "AnatomicalAtlas"
+  },
+  "AnatomicalAtlasVersion": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Anatomical atlas version",
+    "name": "AnatomicalAtlasVersion"
+  },
   "AnatomicalAxesOrientation": {
     "backwardsCompatibility": {
       "latest": [
@@ -1055,9 +1105,6 @@
   },
   "BrainAtlas": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -1096,13 +1143,9 @@
       ],
       [
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0",
@@ -1113,7 +1156,6 @@
   },
   "BrainAtlasVersion": {
     "backwardsCompatibility": {
-      "latest": [],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -1152,13 +1194,9 @@
       ],
       [
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0",
@@ -1682,8 +1720,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -1694,11 +1734,58 @@
     "label": "Comment",
     "name": "Comment"
   },
+  "CommonCoordinateFramework": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Common coordinate framework",
+    "name": "CommonCoordinateFramework"
+  },
+  "CommonCoordinateFrameworkVersion": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Common coordinate framework version",
+    "name": "CommonCoordinateFrameworkVersion"
+  },
   "CommonCoordinateSpace": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
       "v2.0": [],
       "v3.0": [],
       "v4.0": []
@@ -1730,13 +1817,9 @@
       ],
       [
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -1746,7 +1829,6 @@
   },
   "CommonCoordinateSpaceVersion": {
     "backwardsCompatibility": {
-      "latest": [],
       "v3.0": [],
       "v4.0": []
     },
@@ -1773,13 +1855,9 @@
       ],
       [
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
       "v3.0",
       "v4.0"
     ],
@@ -2205,9 +2283,7 @@
   },
   "CoordinatePoint": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
+      "latest": [],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -2248,8 +2324,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -2585,9 +2663,7 @@
   },
   "CustomAnnotation": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
+      "latest": [],
       "v2.0": [],
       "v3.0": [],
       "v4.0": []
@@ -2618,8 +2694,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -2633,9 +2711,6 @@
   },
   "CustomCoordinateSpace": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
       "v2.0": [],
       "v3.0": [
         "v2.0"
@@ -2668,12 +2743,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -7663,8 +7736,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -8489,8 +8564,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -11314,5 +11391,30 @@
     ],
     "label": "Workflow recipe version",
     "name": "WorkflowRecipeVersion"
+  },
+  "customCoordinateFramework": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Custom coordinate framework",
+    "name": "customCoordinateFramework"
   }
 }
