@@ -189,10 +189,10 @@
     "namePlural": "abbreviations",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlas",
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateSpace",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/ParcellationEntity",
         "https://openminds.om-i.org/types/ParcellationEntityVersion",
         "https://openminds.om-i.org/types/Periodical"
@@ -221,10 +221,10 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/BrainAtlas",
-          "https://openminds.om-i.org/types/BrainAtlasVersion",
-          "https://openminds.om-i.org/types/CommonCoordinateSpace",
-          "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+          "https://openminds.om-i.org/types/AnatomicalAtlas",
+          "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+          "https://openminds.om-i.org/types/CommonCoordinateFramework",
+          "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
           "https://openminds.om-i.org/types/Dataset",
           "https://openminds.om-i.org/types/DatasetVersion",
           "https://openminds.om-i.org/types/LivePaper",
@@ -484,8 +484,8 @@
     "namePlural": "accessibilities",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
@@ -1279,8 +1279,8 @@
     "namePlural": "anatomicalAxesOrientations",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
-        "https://openminds.om-i.org/types/CustomCoordinateSpace"
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+        "https://openminds.om-i.org/types/customCoordinateFramework"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/sands/CoordinateSpace"
@@ -1970,11 +1970,7 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Book",
-        "https://openminds.om-i.org/types/BrainAtlas",
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
         "https://openminds.om-i.org/types/Chapter",
-        "https://openminds.om-i.org/types/CommonCoordinateSpace",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
         "https://openminds.om-i.org/types/Dataset",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/LearningResource",
@@ -2169,8 +2165,8 @@
     "namePlural": "axesOrigins",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
-        "https://openminds.om-i.org/types/CustomCoordinateSpace"
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+        "https://openminds.om-i.org/types/customCoordinateFramework"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/sands/CoordinateSpace"
@@ -3811,6 +3807,37 @@
       ]
     }
   },
+  "coordinateFramework": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+          "https://openminds.om-i.org/types/CustomCoordinateFramework"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Coordinate framework",
+    "labelPlural": null,
+    "name": "coordinateFramework",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CoordinatePoint",
+        "https://openminds.om-i.org/types/CustomAnnotation"
+      ]
+    }
+  },
   "coordinatePoint": {
     "asEdge": {
       "canPointTo": {
@@ -3895,9 +3922,6 @@
     "namePlural": "coordinateSpaces",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CoordinatePoint",
-        "https://openminds.om-i.org/types/CustomAnnotation",
         "https://openminds.om-i.org/types/Image",
         "https://openminds.om-i.org/types/ImageSequence",
         "https://openminds.om-i.org/types/ImageStack",
@@ -4148,10 +4172,10 @@
     "namePlural": "copyrights",
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/Book",
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
         "https://openminds.om-i.org/types/Chapter",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/LivePaperVersion",
@@ -4667,12 +4691,12 @@
     "namePlural": "custodians",
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/Book",
-        "https://openminds.om-i.org/types/BrainAtlas",
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
         "https://openminds.om-i.org/types/Chapter",
-        "https://openminds.om-i.org/types/CommonCoordinateSpace",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/Dataset",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/LearningResource",
@@ -5063,8 +5087,8 @@
     "namePlural": "defaultImages",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
-        "https://openminds.om-i.org/types/CustomCoordinateSpace"
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+        "https://openminds.om-i.org/types/customCoordinateFramework"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/sands/CoordinateSpace"
@@ -5894,6 +5918,8 @@
         "https://openminds.om-i.org/types/ActionStatusType",
         "https://openminds.om-i.org/types/AgeCategory",
         "https://openminds.om-i.org/types/AnalysisTechnique",
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/AnatomicalAxesOrientation",
         "https://openminds.om-i.org/types/AnatomicalIdentificationType",
         "https://openminds.om-i.org/types/AnatomicalPlane",
@@ -5905,16 +5931,14 @@
         "https://openminds.om-i.org/types/BiologicalOrder",
         "https://openminds.om-i.org/types/BiologicalProcess",
         "https://openminds.om-i.org/types/BiologicalSex",
-        "https://openminds.om-i.org/types/BrainAtlas",
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
         "https://openminds.om-i.org/types/BreedingType",
         "https://openminds.om-i.org/types/CellCultureType",
         "https://openminds.om-i.org/types/CellPatching",
         "https://openminds.om-i.org/types/CellType",
         "https://openminds.om-i.org/types/ChemicalMixtureType",
         "https://openminds.om-i.org/types/Colormap",
-        "https://openminds.om-i.org/types/CommonCoordinateSpace",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/CommunicationInterfaceType",
         "https://openminds.om-i.org/types/CommunicationProtocol",
         "https://openminds.om-i.org/types/ContentType",
@@ -6910,12 +6934,12 @@
     "namePlural": "digitalIdentifiers",
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/Book",
-        "https://openminds.om-i.org/types/BrainAtlas",
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
         "https://openminds.om-i.org/types/Chapter",
-        "https://openminds.om-i.org/types/CommonCoordinateSpace",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/Dataset",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/Electrode",
@@ -8741,8 +8765,8 @@
     "namePlural": "fullDocumentations",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
@@ -8826,10 +8850,10 @@
     "namePlural": "fullNames",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlas",
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateSpace",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/Consortium",
         "https://openminds.om-i.org/types/Dataset",
         "https://openminds.om-i.org/types/DatasetVersion",
@@ -9055,10 +9079,10 @@
     "namePlural": "funding",
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/Book",
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
         "https://openminds.om-i.org/types/Chapter",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/LivePaperVersion",
@@ -9313,6 +9337,8 @@
           "https://openminds.om-i.org/types/BreedingType",
           "https://openminds.om-i.org/types/CellCultureType",
           "https://openminds.om-i.org/types/CellType",
+          "https://openminds.om-i.org/types/CommonCoordinateFramework",
+          "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
           "https://openminds.om-i.org/types/CustomAnatomicalEntity",
           "https://openminds.om-i.org/types/Disease",
           "https://openminds.om-i.org/types/DiseaseModel",
@@ -9350,7 +9376,8 @@
           "https://openminds.om-i.org/types/TissueSampleState",
           "https://openminds.om-i.org/types/TissueSampleType",
           "https://openminds.om-i.org/types/UBERONParcellation",
-          "https://openminds.om-i.org/types/VisualStimulusType"
+          "https://openminds.om-i.org/types/VisualStimulusType",
+          "https://openminds.om-i.org/types/customCoordinateFramework"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
@@ -9912,12 +9939,10 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/AmountOfChemical",
+          "https://openminds.om-i.org/types/AnatomicalAtlas",
           "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
-          "https://openminds.om-i.org/types/BrainAtlas",
-          "https://openminds.om-i.org/types/BrainAtlasVersion",
+          "https://openminds.om-i.org/types/CommonCoordinateFramework",
           "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
-          "https://openminds.om-i.org/types/CommonCoordinateSpace",
-          "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
           "https://openminds.om-i.org/types/Dataset",
           "https://openminds.om-i.org/types/DatasetVersion",
           "https://openminds.om-i.org/types/Electrode",
@@ -10150,8 +10175,8 @@
     "namePlural": "hasTerminologies",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlas",
-        "https://openminds.om-i.org/types/BrainAtlasVersion"
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion"
       ],
       "v2.0": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
@@ -10519,10 +10544,10 @@
     "namePlural": "homepages",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlas",
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateSpace",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/Consortium",
         "https://openminds.om-i.org/types/Dataset",
         "https://openminds.om-i.org/types/DatasetVersion",
@@ -10729,10 +10754,10 @@
     "namePlural": "howToCite",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlas",
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateSpace",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/Dataset",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/LivePaper",
@@ -12579,7 +12604,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/BrainAtlasVersion",
+          "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
           "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
           "https://openminds.om-i.org/types/DatasetVersion",
           "https://openminds.om-i.org/types/LivePaperVersion",
@@ -12608,8 +12633,8 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
@@ -12625,7 +12650,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/BrainAtlasVersion",
+          "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
           "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
           "https://openminds.om-i.org/types/DatasetVersion",
           "https://openminds.om-i.org/types/LivePaperVersion",
@@ -12654,8 +12679,8 @@
     "namePlural": "isVariantOf",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
@@ -12671,7 +12696,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/BrainAtlas",
+          "https://openminds.om-i.org/types/AnatomicalAtlas",
           "https://openminds.om-i.org/types/CommonCoordinateSpace",
           "https://openminds.om-i.org/types/Dataset",
           "https://openminds.om-i.org/types/LivePaper",
@@ -12700,8 +12725,8 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
@@ -13048,10 +13073,10 @@
     "namePlural": "keywords",
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/Book",
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
         "https://openminds.om-i.org/types/Chapter",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/LivePaperVersion",
@@ -14071,9 +14096,7 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Book",
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
         "https://openminds.om-i.org/types/Chapter",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/LivePaperVersion",
@@ -14496,7 +14519,7 @@
     "namePlural": "majorVersionIdentifiers",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlasVersion"
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
@@ -15241,7 +15264,6 @@
         "https://openminds.om-i.org/types/CranialWindowReinforcementType",
         "https://openminds.om-i.org/types/CriteriaQualityType",
         "https://openminds.om-i.org/types/CustomAnatomicalEntity",
-        "https://openminds.om-i.org/types/CustomCoordinateSpace",
         "https://openminds.om-i.org/types/DataType",
         "https://openminds.om-i.org/types/DependencyImpact",
         "https://openminds.om-i.org/types/DeploymentEnvironmentType",
@@ -15336,7 +15358,8 @@
         "https://openminds.om-i.org/types/TypeOfUncertainty",
         "https://openminds.om-i.org/types/UBERONParcellation",
         "https://openminds.om-i.org/types/UnitOfMeasurement",
-        "https://openminds.om-i.org/types/VisualStimulusType"
+        "https://openminds.om-i.org/types/VisualStimulusType",
+        "https://openminds.om-i.org/types/customCoordinateFramework"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/controlledTerms/ActionStatusType",
@@ -15827,8 +15850,8 @@
     "namePlural": "nativeUnits",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
-        "https://openminds.om-i.org/types/CustomCoordinateSpace"
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+        "https://openminds.om-i.org/types/customCoordinateFramework"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/sands/CoordinateSpace"
@@ -16137,10 +16160,10 @@
     "namePlural": "ontologyIdentifiers",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlas",
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateSpace",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/ParcellationEntity",
         "https://openminds.om-i.org/types/ParcellationEntityVersion",
         "https://openminds.om-i.org/types/ParcellationTerminology",
@@ -16570,8 +16593,8 @@
     "namePlural": "otherContributions",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
@@ -19736,8 +19759,8 @@
     "namePlural": "relatedPublications",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
@@ -20076,8 +20099,8 @@
     "namePlural": "releaseDates",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
@@ -20280,8 +20303,8 @@
     "namePlural": "repositories",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
@@ -21205,10 +21228,10 @@
     "namePlural": "shortNames",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlas",
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateSpace",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/Consortium",
         "https://openminds.om-i.org/types/Dataset",
         "https://openminds.om-i.org/types/DatasetVersion",
@@ -23531,8 +23554,8 @@
     "namePlural": "supportChannels",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
@@ -24681,8 +24704,8 @@
     "namePlural": "types",
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/AtlasAnnotation",
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
         "https://openminds.om-i.org/types/ChemicalMixture",
         "https://openminds.om-i.org/types/Contribution",
         "https://openminds.om-i.org/types/CustomAnnotation",
@@ -24987,9 +25010,6 @@
   "usedSpecies": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/Species"
-        ],
         "v3.0": [
           "https://openminds.ebrains.eu/controlledTerms/Species"
         ],
@@ -25020,10 +25040,6 @@
     "name": "usedSpecies",
     "namePlural": "usedSpecies",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/BrainAtlas",
-        "https://openminds.om-i.org/types/CommonCoordinateSpace"
-      ],
       "v3.0": [
         "https://openminds.ebrains.eu/sands/BrainAtlas",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpace"
@@ -25086,8 +25102,8 @@
     "namePlural": "usedSpecimens",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/ElectrodeArrayUsage",
         "https://openminds.om-i.org/types/ElectrodeUsage",
         "https://openminds.om-i.org/types/MRICoilUsage",
@@ -25110,6 +25126,36 @@
         "https://openminds.om-i.org/types/ElectrodeUsage",
         "https://openminds.om-i.org/types/PipetteUsage",
         "https://openminds.om-i.org/types/SlicingDeviceUsage"
+      ]
+    }
+  },
+  "usedTaxon": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/BiologicalOrder",
+          "https://openminds.om-i.org/types/Species"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Used taxon",
+    "labelPlural": null,
+    "name": "usedTaxon",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework"
       ]
     }
   },
@@ -25411,10 +25457,10 @@
     "namePlural": "versionIdentifiers",
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/Book",
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
         "https://openminds.om-i.org/types/Chapter",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/HardwareSystem",
         "https://openminds.om-i.org/types/LearningResource",
@@ -25521,8 +25567,8 @@
     "namePlural": "versionInnovations",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",

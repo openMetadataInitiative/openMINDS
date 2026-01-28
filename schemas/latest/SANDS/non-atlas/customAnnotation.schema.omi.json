@@ -18,18 +18,15 @@
       "namePlural": "anchorPoints",
       "type": "array"
     },
-    "https://openminds.om-i.org/props/coordinateSpace": {
-      "_instruction": "Add the coordinate space for this custom annotation.",
+    "https://openminds.om-i.org/props/coordinateFramework": {
+      "_instruction": "Add the coordinate framework for this custom annotation.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
-        "https://openminds.om-i.org/types/CustomCoordinateSpace"
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+        "https://openminds.om-i.org/types/CustomCoordinateFramework"
       ],
-      "description": "Two or three dimensional geometric setting.",
-      "label": "Coordinate space",
-      "labelPlural": "Coordinate spaces",
-      "name": "coordinateSpace",
-      "nameForReverseLink": null,
-      "namePlural": "coordinateSpaces"
+      "label": "Coordinate framework",
+      "name": "coordinateFramework",
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/criteria": {
       "_instruction": "Add the protocol execution defining the criteria that were applied to produce this annotation.",
@@ -146,7 +143,7 @@
     }
   },
   "required": [
-    "https://openminds.om-i.org/props/coordinateSpace",
+    "https://openminds.om-i.org/props/coordinateFramework",
     "https://openminds.om-i.org/props/criteriaQualityType",
     "https://openminds.om-i.org/props/criteriaType",
     "https://openminds.om-i.org/props/type"

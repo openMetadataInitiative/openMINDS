@@ -3,12 +3,12 @@
     "researchProduct"
   ],
   "_module": "SANDS",
-  "_type": "https://openminds.om-i.org/types/BrainAtlas",
-  "label": "Brain atlas",
-  "name": "BrainAtlas",
+  "_type": "https://openminds.om-i.org/types/AnatomicalAtlas",
+  "label": "Anatomical atlas",
+  "name": "AnatomicalAtlas",
   "properties": {
     "https://openminds.om-i.org/props/abbreviation": {
-      "_instruction": "Enter the official abbreviation of this brain atlas.",
+      "_instruction": "Enter the official abbreviation of this anatomical atlas.",
       "formatting": "text/plain",
       "label": "Abbreviation",
       "labelPlural": "Abbreviations",
@@ -16,26 +16,6 @@
       "name": "abbreviation",
       "namePlural": "abbreviations",
       "type": "string"
-    },
-    "https://openminds.om-i.org/props/author": {
-      "_belongsToCategory": [
-        "legalPerson"
-      ],
-      "_instruction": "Add all parties that contributed to this brain atlas as authors.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/Consortium",
-        "https://openminds.om-i.org/types/Organization",
-        "https://openminds.om-i.org/types/Person"
-      ],
-      "description": "Creator of a literary or creative work, as well as a dataset publication.",
-      "label": "Author",
-      "labelPlural": "Authors",
-      "minItems": 1,
-      "name": "author",
-      "nameForReverseLink": null,
-      "namePlural": "authors",
-      "type": "array",
-      "uniqueItems": true
     },
     "https://openminds.om-i.org/props/custodian": {
       "_belongsToCategory": [
@@ -97,7 +77,7 @@
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/ParcellationTerminology"
       ],
-      "_instruction": "Enter the parcellation terminology of this brain atlas.",
+      "_instruction": "Enter the parcellation terminology of this anatomical atlas.",
       "label": "Has terminology",
       "labelPlural": "Has terminologies",
       "name": "hasTerminology",
@@ -133,7 +113,7 @@
       "_formats": [
         "iri"
       ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) to the related ontological term matching this brain atlas.",
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the related ontological term matching this anatomical atlas.",
       "description": "Term or code used to identify something or someone registered within a particular ontology.",
       "formatting": "text/plain",
       "label": "Ontology identifier",
@@ -154,23 +134,21 @@
       "namePlural": "shortNames",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/usedSpecies": {
-      "_instruction": "Add the species that was used for the creation of this brain atlas.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/Species"
+    "https://openminds.om-i.org/props/usedTaxon": {
+      "_instruction": "Add the taxon (e.g., species) that was used for the creation of this anatomical atlas.",
+      "_linkedcategories": [
+        "biologicalTaxon"
       ],
-      "label": "Used species",
-      "labelPlural": "Used species",
-      "name": "usedSpecies",
-      "nameForReverseLink": null,
-      "namePlural": "usedSpecies"
+      "label": "Used taxon",
+      "name": "usedTaxon"
     }
   },
   "required": [
-    "https://openminds.om-i.org/props/author",
     "https://openminds.om-i.org/props/description",
     "https://openminds.om-i.org/props/fullName",
     "https://openminds.om-i.org/props/hasTerminology",
-    "https://openminds.om-i.org/props/shortName"
+    "https://openminds.om-i.org/props/howToCite",
+    "https://openminds.om-i.org/props/shortName",
+    "https://openminds.om-i.org/props/usedTaxon"
   ]
 }

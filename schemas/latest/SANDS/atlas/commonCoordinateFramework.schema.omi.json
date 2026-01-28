@@ -1,15 +1,15 @@
 {
   "_categories": [
-    "coordinateSpace",
+    "coordinateFramework",
     "researchProduct"
   ],
   "_module": "SANDS",
-  "_type": "https://openminds.om-i.org/types/CommonCoordinateSpace",
-  "label": "Common coordinate space",
-  "name": "CommonCoordinateSpace",
+  "_type": "https://openminds.om-i.org/types/CommonCoordinateFramework",
+  "label": "Common coordinate framework",
+  "name": "CommonCoordinateFramework",
   "properties": {
     "https://openminds.om-i.org/props/abbreviation": {
-      "_instruction": "Enter the official abbreviation of this common coordinate space.",
+      "_instruction": "Enter the official abbreviation of this common coordinate framework.",
       "formatting": "text/plain",
       "label": "Abbreviation",
       "labelPlural": "Abbreviations",
@@ -17,26 +17,6 @@
       "name": "abbreviation",
       "namePlural": "abbreviations",
       "type": "string"
-    },
-    "https://openminds.om-i.org/props/author": {
-      "_belongsToCategory": [
-        "legalPerson"
-      ],
-      "_instruction": "Add all parties that contributed to this common coordinate space as authors.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/Consortium",
-        "https://openminds.om-i.org/types/Organization",
-        "https://openminds.om-i.org/types/Person"
-      ],
-      "description": "Creator of a literary or creative work, as well as a dataset publication.",
-      "label": "Author",
-      "labelPlural": "Authors",
-      "minItems": 1,
-      "name": "author",
-      "nameForReverseLink": null,
-      "namePlural": "authors",
-      "type": "array",
-      "uniqueItems": true
     },
     "https://openminds.om-i.org/props/custodian": {
       "_belongsToCategory": [
@@ -120,7 +100,7 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/ontologyIdentifier": {
-      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the related ontological terms matching this common coordinate space.",
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the related ontological terms matching this common coordinate framework.",
       "description": "Term or code used to identify something or someone registered within a particular ontology.",
       "formatting": "text/plain",
       "items": {
@@ -149,22 +129,25 @@
       "namePlural": "shortNames",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/usedSpecies": {
-      "_instruction": "Add the species that was used for the creation of this common coordinate space.",
+    "https://openminds.om-i.org/props/usedTaxon": {
+      "_belongsToCategory": [
+        "biologicalTaxon"
+      ],
+      "_instruction": "Add the taxon (e.g., species) that was used for the creation of this common coordinate framework.",
       "_linkedTypes": [
+        "https://openminds.om-i.org/types/BiologicalOrder",
         "https://openminds.om-i.org/types/Species"
       ],
-      "label": "Used species",
-      "labelPlural": "Used species",
-      "name": "usedSpecies",
-      "nameForReverseLink": null,
-      "namePlural": "usedSpecies"
+      "label": "Used taxon",
+      "name": "usedTaxon",
+      "nameForReverseLink": null
     }
   },
   "required": [
     "https://openminds.om-i.org/props/description",
     "https://openminds.om-i.org/props/fullName",
+    "https://openminds.om-i.org/props/howToCite",
     "https://openminds.om-i.org/props/shortName",
-    "https://openminds.om-i.org/props/usedSpecies"
+    "https://openminds.om-i.org/props/usedTaxon"
   ]
 }

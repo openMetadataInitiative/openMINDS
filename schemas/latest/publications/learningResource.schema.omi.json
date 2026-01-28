@@ -40,10 +40,10 @@
         "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/LivePaper",
         "https://openminds.om-i.org/types/LivePaperVersion",
-        "https://openminds.om-i.org/types/BrainAtlas",
-        "https://openminds.om-i.org/types/BrainAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateSpace",
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion"
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion"
       ],
       "label": "About",
       "labelPlural": "About",

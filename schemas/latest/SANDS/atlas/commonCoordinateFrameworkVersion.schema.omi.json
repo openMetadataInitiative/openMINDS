@@ -1,15 +1,15 @@
 {
   "_categories": [
-    "coordinateSpace",
+    "coordinateFramework",
     "researchProduct"
   ],
   "_module": "SANDS",
-  "_type": "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
-  "label": "Common coordinate space version",
-  "name": "CommonCoordinateSpaceVersion",
+  "_type": "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+  "label": "Common coordinate framework version",
+  "name": "CommonCoordinateFrameworkVersion",
   "properties": {
     "https://openminds.om-i.org/props/abbreviation": {
-      "_instruction": "Enter the official abbreviation of this common coordinate space version.",
+      "_instruction": "Enter the official abbreviation of this common coordinate framework version.",
       "formatting": "text/plain",
       "label": "Abbreviation",
       "labelPlural": "Abbreviations",
@@ -31,7 +31,7 @@
       "namePlural": "accessibilities"
     },
     "https://openminds.om-i.org/props/anatomicalAxesOrientation": {
-      "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (stated as XYZ) for this common coordinate space version.",
+      "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (stated as XYZ) for the anatomical space of this common coordinate framework version.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/AnatomicalAxesOrientation"
       ],
@@ -42,31 +42,11 @@
       "nameForReverseLink": null,
       "namePlural": "anatomicalAxesOrientations"
     },
-    "https://openminds.om-i.org/props/author": {
-      "_belongsToCategory": [
-        "legalPerson"
-      ],
-      "_instruction": "Add all parties that contributed to this common coordinate space version as authors. Note that these authors will overwrite the author list provided for the overarching common coordinate space.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/Consortium",
-        "https://openminds.om-i.org/types/Organization",
-        "https://openminds.om-i.org/types/Person"
-      ],
-      "description": "Creator of a literary or creative work, as well as a dataset publication.",
-      "label": "Author",
-      "labelPlural": "Authors",
-      "minItems": 1,
-      "name": "author",
-      "nameForReverseLink": null,
-      "namePlural": "authors",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.om-i.org/props/axesOrigin": {
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValue"
       ],
-      "_instruction": "Enter the origin (central point where all axes intersect) of this common coordinate space version for two-dimensional spaces as [x, y] or for three-dimensional space as [x, y, z].",
+      "_instruction": "Enter the coordinate point in the native anatomical space of the template as [x, y] or [x, y, z] for two- or three-dimensional spaces, respectively, that has been defined as the origin of the anatomical space of this common coordinate framework version (i.e., as the central point where all axes intersect).",
       "description": "Special point in a coordinate system used as a fixed point of reference for the geometry of the surrounding space.",
       "label": "Axes origin",
       "labelPlural": "Axes origins",
@@ -111,7 +91,7 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/defaultImage": {
-      "_instruction": "Add all image files used as visual representation of this common coordinate space version.",
+      "_instruction": "Add all image files used as visual representation of this common coordinate framework version.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/File"
       ],
@@ -217,7 +197,7 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/isPrecededBy": {
-      "_instruction": "Add the common coordinate space version preceding this common coordinate space version.",
+      "_instruction": "Add the common coordinate framework version preceding this common coordinate framework version.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion"
       ],
@@ -226,7 +206,7 @@
       "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/isVariantOf": {
-      "_instruction": "Add all common coordinate space versions that can be used alternatively to this common coordinate space version.",
+      "_instruction": "Add all common coordinate framework versions that can be used alternatively to this common coordinate framework version.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion"
       ],
@@ -240,7 +220,7 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/isVersionOf": {
-      "_instruction": "Add the version-independent information about this common coordinate space.",
+      "_instruction": "Add the version-independent information about this common coordinate framework.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/CommonCoordinateSpace"
       ],
@@ -354,20 +334,8 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.om-i.org/props/license": {
-      "_instruction": "Add the license of this common coordinate space version.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/License"
-      ],
-      "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
-      "label": "License",
-      "labelPlural": "Licenses",
-      "name": "license",
-      "nameForReverseLink": null,
-      "namePlural": "licenses"
-    },
     "https://openminds.om-i.org/props/nativeUnit": {
-      "_instruction": "Add the native unit that is used for this common coordinate space version.",
+      "_instruction": "Add the native unit that is used for this common coordinate framework version.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/UnitOfMeasurement"
       ],
@@ -379,7 +347,7 @@
       "namePlural": "nativeUnits"
     },
     "https://openminds.om-i.org/props/ontologyIdentifier": {
-      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the related ontological terms matching this common coordinate space version.",
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the related ontological terms matching this common coordinate framework version.",
       "description": "Term or code used to identify something or someone registered within a particular ontology.",
       "formatting": "text/plain",
       "items": {
@@ -494,7 +462,7 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/usedSpecimen": {
-      "_instruction": "Add the specimen that was used for the creation of this common coordinate space version.",
+      "_instruction": "Add the specimen(s) that were used in the creation of this common coordinate framework version.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/Subject",
         "https://openminds.om-i.org/types/SubjectGroup",
@@ -538,6 +506,7 @@
     "https://openminds.om-i.org/props/anatomicalAxesOrientation",
     "https://openminds.om-i.org/props/axesOrigin",
     "https://openminds.om-i.org/props/fullDocumentation",
+    "https://openminds.om-i.org/props/howToCite",
     "https://openminds.om-i.org/props/isVersionOf",
     "https://openminds.om-i.org/props/nativeUnit",
     "https://openminds.om-i.org/props/releaseDate",
