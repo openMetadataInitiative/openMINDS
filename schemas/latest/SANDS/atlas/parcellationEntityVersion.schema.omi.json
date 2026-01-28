@@ -1,6 +1,7 @@
 {
   "_categories": [
     "anatomicalLocation",
+    "isVersionOf",
     "studyTarget"
   ],
   "_module": "SANDS",
@@ -83,6 +84,15 @@
       "namePlural": "hasParents",
       "type": "array",
       "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/isVersionOf": {
+      "_instruction": "Add the version-independent information about this parcellation entity.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ParcellationEntity"
+      ],
+      "label": "Is version of",
+      "name": "isVersionOf",
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/lookupLabel": {
       "_instruction": "Enter a lookup label for this parcellation entity version that may help you to find this instance more easily.",

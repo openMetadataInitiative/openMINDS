@@ -59,21 +59,6 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.om-i.org/props/hasVersion": {
-      "_instruction": "Add all versions of this parcellation entity.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/ParcellationEntityVersion"
-      ],
-      "description": "Reference to variants of an original.",
-      "label": "Has version",
-      "labelPlural": "Has versions",
-      "minItems": 1,
-      "name": "hasVersion",
-      "nameForReverseLink": null,
-      "namePlural": "hasVersions",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.om-i.org/props/lookupLabel": {
       "_instruction": "Enter a lookup label for this parcellation entity that may help you to find this instance more easily.",
       "formatting": "text/plain",

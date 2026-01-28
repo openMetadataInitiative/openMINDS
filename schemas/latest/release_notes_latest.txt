@@ -189,9 +189,12 @@ Changes in publications/scholarlyArticle.schema.omi.json:
   - Field 'properties.props:pagination._instruction' modified.
 
 Changes in SANDS/atlas/parcellationEntity.schema.omi.json:
+  - Field 'properties.props:hasVersion' removed.
   - Field 'required' modified (value(s) added).
 
 Changes in SANDS/atlas/parcellationEntityVersion.schema.omi.json:
+  - Field '_categories' modified (value(s) added).
+  - Field 'properties.props:isVersionOf' added.
   - Field 'required' modified (value(s) added).
 
 Changes in SANDS/atlas/parcellationTerminology.schema.omi.json:
