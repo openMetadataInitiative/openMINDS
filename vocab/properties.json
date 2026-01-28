@@ -10194,9 +10194,6 @@
   "hasVersion": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/ParcellationEntityVersion"
-        ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/DatasetVersion",
           "https://openminds.ebrains.eu/core/MetaDataModelVersion",
@@ -10263,9 +10260,6 @@
     "name": "hasVersion",
     "namePlural": "hasVersions",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/ParcellationEntity"
-      ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Dataset",
         "https://openminds.ebrains.eu/core/MetaDataModel",
@@ -12702,6 +12696,7 @@
           "https://openminds.om-i.org/types/LivePaper",
           "https://openminds.om-i.org/types/MetaDataModel",
           "https://openminds.om-i.org/types/Model",
+          "https://openminds.om-i.org/types/ParcellationEntity",
           "https://openminds.om-i.org/types/Software",
           "https://openminds.om-i.org/types/ValidationTest",
           "https://openminds.om-i.org/types/WebService",
@@ -12731,6 +12726,7 @@
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/ParcellationEntityVersion",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
         "https://openminds.om-i.org/types/WebServiceVersion",

@@ -521,6 +521,9 @@
     },
     {
       "file": "SANDS/atlas/parcellationEntity.schema.omi.json",
+      "removedAttributes": [
+        "properties.props:hasVersion"
+      ],
       "modifiedAttributes": [
         {
           "property": "required",
@@ -531,7 +534,14 @@
     },
     {
       "file": "SANDS/atlas/parcellationEntityVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:isVersionOf"
+      ],
       "modifiedAttributes": [
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        },
         {
           "property": "required",
           "modification": "value(s) added"
