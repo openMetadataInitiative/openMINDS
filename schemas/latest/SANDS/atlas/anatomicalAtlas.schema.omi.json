@@ -135,12 +135,17 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/usedTaxon": {
-      "_instruction": "Add the taxon (e.g., species) that was used for the creation of this anatomical atlas.",
-      "_linkedcategories": [
+      "_belongsToCategory": [
         "biologicalTaxon"
       ],
+      "_instruction": "Add the taxon (e.g., species) that was used for the creation of this anatomical atlas.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/BiologicalOrder",
+        "https://openminds.om-i.org/types/Species"
+      ],
       "label": "Used taxon",
-      "name": "usedTaxon"
+      "name": "usedTaxon",
+      "nameForReverseLink": null
     }
   },
   "required": [
