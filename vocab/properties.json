@@ -7392,9 +7392,6 @@
   "ethicsAssessment": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/EthicsAssessment"
-        ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment"
         ],
@@ -7433,9 +7430,6 @@
     "name": "ethicsAssessment",
     "namePlural": "ethicsAssessments",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/DatasetVersion"
-      ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
       ],
@@ -7446,6 +7440,35 @@
         "https://openminds.ebrains.eu/core/DatasetVersion"
       ],
       "v4.0": [
+        "https://openminds.om-i.org/types/DatasetVersion"
+      ]
+    }
+  },
+  "ethicsJurisdiction": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/SovereignState",
+          "https://openminds.om-i.org/types/SupranationalBody"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Ethics jurisdiction",
+    "labelPlural": null,
+    "name": "ethicsJurisdiction",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
         "https://openminds.om-i.org/types/DatasetVersion"
       ]
     }
