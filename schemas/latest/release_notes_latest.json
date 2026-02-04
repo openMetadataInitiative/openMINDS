@@ -23,6 +23,7 @@
     "SANDS/non-atlas/customCoordinateFramework.schema.omi.json"
   ],
   "removedFiles": [
+    "controlledTerms/ethicsAssessment.schema.omi.json",
     "SANDS/atlas/brainAtlas.schema.omi.json",
     "SANDS/atlas/brainAtlasVersion.schema.omi.json",
     "SANDS/atlas/commonCoordinateSpace.schema.omi.json",
@@ -97,8 +98,7 @@
       ],
       "modifiedAttributes": [
         {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
+          "property": "properties.props:keyword._linkedTypes"
         },
         {
           "property": "required",
@@ -134,8 +134,7 @@
       ],
       "modifiedAttributes": [
         {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
+          "property": "properties.props:keyword._linkedTypes"
         },
         {
           "property": "required",
@@ -249,8 +248,7 @@
           "property": "properties.props:inputData._linkedTypes"
         },
         {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
+          "property": "properties.props:keyword._linkedTypes"
         },
         {
           "property": "required"
@@ -286,8 +284,7 @@
       ],
       "modifiedAttributes": [
         {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
+          "property": "properties.props:keyword._linkedTypes"
         },
         {
           "property": "required"
@@ -325,8 +322,7 @@
       ],
       "modifiedAttributes": [
         {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
+          "property": "properties.props:keyword._linkedTypes"
         },
         {
           "property": "required"
@@ -374,8 +370,7 @@
           "property": "properties.props:hasPart._linkedTypes"
         },
         {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
+          "property": "properties.props:keyword._linkedTypes"
         },
         {
           "property": "required"
@@ -410,8 +405,7 @@
       ],
       "modifiedAttributes": [
         {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
+          "property": "properties.props:keyword._linkedTypes"
         },
         {
           "property": "required",
@@ -424,8 +418,7 @@
       "file": "publications/book.schema.omi.json",
       "modifiedAttributes": [
         {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
+          "property": "properties.props:keyword._linkedTypes"
         }
       ],
       "schemaType": "Book"
@@ -434,8 +427,7 @@
       "file": "publications/chapter.schema.omi.json",
       "modifiedAttributes": [
         {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
+          "property": "properties.props:keyword._linkedTypes"
         },
         {
           "property": "properties.props:pagination._instruction"
@@ -450,8 +442,7 @@
           "property": "properties.props:about._linkedTypes"
         },
         {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
+          "property": "properties.props:keyword._linkedTypes"
         }
       ],
       "schemaType": "LearningResource"
@@ -496,8 +487,7 @@
       ],
       "modifiedAttributes": [
         {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
+          "property": "properties.props:keyword._linkedTypes"
         },
         {
           "property": "required",
@@ -510,8 +500,7 @@
       "file": "publications/scholarlyArticle.schema.omi.json",
       "modifiedAttributes": [
         {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
+          "property": "properties.props:keyword._linkedTypes"
         },
         {
           "property": "properties.props:pagination._instruction"
