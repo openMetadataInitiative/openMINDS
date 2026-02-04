@@ -397,21 +397,6 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.om-i.org/props/license": {
-      "_instruction": "Add all licenses of this software version.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/License"
-      ],
-      "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
-      "label": "License",
-      "labelPlural": "Licenses",
-      "minItems": 1,
-      "name": "license",
-      "nameForReverseLink": null,
-      "namePlural": "licenses",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.om-i.org/props/operatingSystem": {
       "_instruction": "Add all operating systems supported by this software version.",
       "_linkedTypes": [
@@ -569,6 +554,19 @@
       "type": "array",
       "uniqueItems": true
     },
+    "https://openminds.om-i.org/props/usageCondition": {
+      "_instruction": "Add all licenses and available data usage agreements applicable to this product version. Inherited by all product versions unless overridden at the version level.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/License",
+        "https://openminds.om-i.org/types/UsageAgreement"
+      ],
+      "label": "Usage condition",
+      "minItems": 1,
+      "name": "usageCondition",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
     "https://openminds.om-i.org/props/versionIdentifier": {
       "_instruction": "Enter the version identifier of this research product version.",
       "description": "Term or code used to identify the version of something.",
@@ -600,7 +598,6 @@
     "https://openminds.om-i.org/props/fullDocumentation",
     "https://openminds.om-i.org/props/isVersionOf",
     "https://openminds.om-i.org/props/language",
-    "https://openminds.om-i.org/props/license",
     "https://openminds.om-i.org/props/operatingSystem",
     "https://openminds.om-i.org/props/programmingLanguage",
     "https://openminds.om-i.org/props/releaseDate",

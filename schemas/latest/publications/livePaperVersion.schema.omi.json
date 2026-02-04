@@ -438,6 +438,19 @@
       "type": "array",
       "uniqueItems": true
     },
+    "https://openminds.om-i.org/props/usageCondition": {
+      "_instruction": "Add all licenses and available data usage agreements applicable to this product version. Inherited by all product versions unless overridden at the version level.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/License",
+        "https://openminds.om-i.org/types/UsageAgreement"
+      ],
+      "label": "Usage condition",
+      "minItems": 1,
+      "name": "usageCondition",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
     "https://openminds.om-i.org/props/versionIdentifier": {
       "_instruction": "Enter the version identifier of this research product version.",
       "description": "Term or code used to identify the version of something.",

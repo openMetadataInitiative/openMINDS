@@ -2410,8 +2410,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -11014,6 +11016,31 @@
     ],
     "label": "Unit of measurement",
     "name": "UnitOfMeasurement"
+  },
+  "UsageAgreement": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Usage agreement",
+    "name": "UsageAgreement"
   },
   "ValidationTest": {
     "backwardsCompatibility": {

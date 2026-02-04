@@ -445,6 +445,19 @@
       "nameForReverseLink": null,
       "namePlural": "types"
     },
+    "https://openminds.om-i.org/props/usageCondition": {
+      "_instruction": "Add all licenses and available data usage agreements applicable to this product version. Inherited by all product versions unless overridden at the version level.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/License",
+        "https://openminds.om-i.org/types/UsageAgreement"
+      ],
+      "label": "Usage condition",
+      "minItems": 1,
+      "name": "usageCondition",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
     "https://openminds.om-i.org/props/usedSpecimen": {
       "_instruction": "Add the specimen(s) that were used in the creation of this anatomical atlas version.",
       "_linkedTypes": [
