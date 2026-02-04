@@ -107,9 +107,11 @@ Changes in core/products/dataset.schema.omi.json:
   - Field 'required' modified (value(s) removed).
 
 Changes in core/products/datasetVersion.schema.omi.json:
+  - Field 'properties.props:ethicsAssessment' removed.
   - Field 'properties.props:isAlternativeVersionOf' removed.
   - Field 'properties.props:isNewVersionOf' removed.
   - Field 'properties.props:license' removed.
+  - Field 'properties.props:ethicsJurisdiction' added.
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.

@@ -125,17 +125,18 @@
       "nameForReverseLink": null,
       "namePlural": "digitalIdentifiers"
     },
-    "https://openminds.om-i.org/props/ethicsAssessment": {
-      "_instruction": "Add the result of the ethics assessment of this dataset version.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/EthicsAssessment"
+    "https://openminds.om-i.org/props/ethicsJurisdiction": {
+      "_belongsToCategory": [
+        "jurisdiction"
       ],
-      "description": "Judgment about the applied principles of conduct governing an individual or a group.",
-      "label": "Ethics assessment",
-      "labelPlural": "Ethics assessments",
-      "name": "ethicsAssessment",
-      "nameForReverseLink": null,
-      "namePlural": "ethicsAssessments"
+      "_instruction": "Add the jurisdiction under which the ethics assessment of this dataset version was conducted.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SovereignState",
+        "https://openminds.om-i.org/types/SupranationalBody"
+      ],
+      "label": "Ethics jurisdiction",
+      "name": "ethicsJurisdiction",
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/experimentalApproach": {
       "_instruction": "Add all experimental approaches which this dataset version has deployed.",
@@ -630,7 +631,7 @@
     "https://openminds.om-i.org/props/accessibility",
     "https://openminds.om-i.org/props/dataType",
     "https://openminds.om-i.org/props/digitalIdentifier",
-    "https://openminds.om-i.org/props/ethicsAssessment",
+    "https://openminds.om-i.org/props/ethicsJurisdiction",
     "https://openminds.om-i.org/props/experimentalApproach",
     "https://openminds.om-i.org/props/fullDocumentation",
     "https://openminds.om-i.org/props/isVersionOf",
