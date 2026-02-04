@@ -1,11 +1,12 @@
 {
   "_categories": [
-    "keyword"
+    "keyword",
+    "modificationProfileAspect"
   ],
   "_module": "controlledTerms",
-  "_type": "https://openminds.om-i.org/types/ModificationClause",
-  "label": "Modification clause",
-  "name": "ModificationClause",
+  "_type": "https://openminds.om-i.org/types/ModificationForm",
+  "label": "Modification form",
+  "name": "ModificationForm",
   "properties": {
     "https://openminds.om-i.org/props/definition": {
       "_instruction": "Enter one sentence for defining this term.",

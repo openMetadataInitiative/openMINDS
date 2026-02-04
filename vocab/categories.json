@@ -127,7 +127,10 @@
       "controlledTerms:MetaDataModelType",
       "controlledTerms:ModelAbstractionLevel",
       "controlledTerms:ModelScope",
-      "controlledTerms:ModificationClause",
+      "controlledTerms:ModificationConsentRequirement",
+      "controlledTerms:ModificationConstraint",
+      "controlledTerms:ModificationForm",
+      "controlledTerms:ModificationScope",
       "controlledTerms:MolecularEntity",
       "controlledTerms:OlfactoryStimulusType",
       "controlledTerms:OperatingDevice",
@@ -174,6 +177,12 @@
       "sands:Circle",
       "sands:Ellipse",
       "sands:Rectangle"
+    ],
+    "modificationProfileAspect": [
+      "controlledTerms:ModificationConsentRequirement",
+      "controlledTerms:ModificationConstraint",
+      "controlledTerms:ModificationForm",
+      "controlledTerms:ModificationScope"
     ],
     "publicationReference": [
       "core:DOI",
