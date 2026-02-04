@@ -1,0 +1,128 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/UsageAgreement",
+  "label": "Usage agreement",
+  "name": "UsageAgreement",
+  "properties": {
+    "https://openminds.om-i.org/props/authoringParty": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
+      "_instruction": "Add all natural persons and legal entities (in display order) responsible for creating and establishing this usage agreement.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Consortium",
+        "https://openminds.om-i.org/types/Organization",
+        "https://openminds.om-i.org/types/Person"
+      ],
+      "label": "Authoring party",
+      "minItems": 1,
+      "name": "authoringParty",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/fullName": {
+      "_instruction": "Enter the full name of this usage agreement.",
+      "description": "Whole, non-abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Full name",
+      "labelPlural": "Full names",
+      "multiline": false,
+      "name": "fullName",
+      "namePlural": "fullNames",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/jurisdiction": {
+      "_belongsToCategory": [
+        "jurisdiction"
+      ],
+      "_instruction": "Enter the jurisdiction in which this usage agreement was issued.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SovereignState",
+        "https://openminds.om-i.org/types/SupranationalBody"
+      ],
+      "label": "Jurisdiction",
+      "name": "jurisdiction",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/modificationProfile": {
+      "_belongsToCategory": [
+        "modificationProfileAspect"
+      ],
+      "_instruction": "Add all the types of modifications that are allowed under this usage agreement.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ModificationConsentRequirement",
+        "https://openminds.om-i.org/types/ModificationConstraint",
+        "https://openminds.om-i.org/types/ModificationForm",
+        "https://openminds.om-i.org/types/ModificationScope"
+      ],
+      "label": "Modification profile",
+      "minItems": 1,
+      "name": "modificationProfile",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/shortName": {
+      "_instruction": "Enter a short name (or alias) for this usage agreement that could be used as a shortened display title (e.g., for web services with too little space to display the full name).",
+      "description": "Shortened or fully abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Short name",
+      "labelPlural": "Short names",
+      "multiline": false,
+      "name": "shortName",
+      "namePlural": "shortNames",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/source": {
+      "_instruction": "Add all licenses or usage agreements that served as references in the creation of this usage agreement.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/License",
+        "https://openminds.om-i.org/types/UsageAgreement"
+      ],
+      "label": "Source",
+      "minItems": 1,
+      "name": "source",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/supportChannel": {
+      "_instruction": "Enter all channels through which users can obtain support and initiate negotiations regarding this usage agreement with the authoring party.",
+      "description": "Way of communication used to interact with users or customers.",
+      "formatting": "text/plain",
+      "items": {
+        "_formats": [
+          "email",
+          "iri"
+        ],
+        "type": "string"
+      },
+      "label": "Support channel",
+      "labelPlural": "Support channels",
+      "minItems": 1,
+      "multiline": false,
+      "name": "supportChannel",
+      "namePlural": "supportChannels",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/template": {
+      "_instruction": "Add the web resource that supplies the template for this usage agreement.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/WebResource"
+      ],
+      "label": "Template",
+      "name": "template",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/authoringParty",
+    "https://openminds.om-i.org/props/fullName",
+    "https://openminds.om-i.org/props/jurisdiction",
+    "https://openminds.om-i.org/props/modificationProfile",
+    "https://openminds.om-i.org/props/shortName",
+    "https://openminds.om-i.org/props/template"
+  ]
+}

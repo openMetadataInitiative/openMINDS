@@ -303,18 +303,6 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.om-i.org/props/license": {
-      "_instruction": "Add the license of this (meta)data model version.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/License"
-      ],
-      "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
-      "label": "License",
-      "labelPlural": "Licenses",
-      "name": "license",
-      "nameForReverseLink": null,
-      "namePlural": "licenses"
-    },
     "https://openminds.om-i.org/props/otherContribution": {
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/Contribution"
@@ -453,6 +441,19 @@
       "nameForReverseLink": null,
       "namePlural": "types"
     },
+    "https://openminds.om-i.org/props/usageCondition": {
+      "_instruction": "Add all licenses and available data usage agreements applicable to this product version. Inherited by all product versions unless overridden at the version level.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/License",
+        "https://openminds.om-i.org/types/UsageAgreement"
+      ],
+      "label": "Usage condition",
+      "minItems": 1,
+      "name": "usageCondition",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
     "https://openminds.om-i.org/props/versionIdentifier": {
       "_instruction": "Enter the version identifier of this research product version.",
       "description": "Term or code used to identify the version of something.",
@@ -480,7 +481,6 @@
     "https://openminds.om-i.org/props/accessibility",
     "https://openminds.om-i.org/props/fullDocumentation",
     "https://openminds.om-i.org/props/isVersionOf",
-    "https://openminds.om-i.org/props/license",
     "https://openminds.om-i.org/props/releaseDate",
     "https://openminds.om-i.org/props/shortName",
     "https://openminds.om-i.org/props/type",

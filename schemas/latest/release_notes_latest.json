@@ -13,6 +13,7 @@
     "controlledTerms/organizationType.schema.omi.json",
     "controlledTerms/sovereignState.schema.omi.json",
     "controlledTerms/supranationalBody.schema.omi.json",
+    "core/data/usageAgreement.schema.omi.json",
     "core/miscellaneous/geoCoordinates.schema.omi.json",
     "core/miscellaneous/location.schema.omi.json",
     "neuroimaging/activity/functionalMRIAcquisition.schema.omi.json",
@@ -84,7 +85,8 @@
       "addedAttributes": [
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
-        "properties.props:isVersionOf"
+        "properties.props:isVersionOf",
+        "properties.props:usageCondition"
       ],
       "removedAttributes": [
         "properties.props:isAlternativeVersionOf",
@@ -120,7 +122,8 @@
       "addedAttributes": [
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
-        "properties.props:isVersionOf"
+        "properties.props:isVersionOf",
+        "properties.props:usageCondition"
       ],
       "removedAttributes": [
         "properties.props:isAlternativeVersionOf",
@@ -167,6 +170,18 @@
         }
       ],
       "schemaType": "Species"
+    },
+    {
+      "file": "core/data/copyright.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:customUsageClause"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:year._instruction"
+        }
+      ],
+      "schemaType": "Copyright"
     },
     {
       "file": "core/data/fileBundle.schema.omi.json",
@@ -226,11 +241,13 @@
       "addedAttributes": [
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
-        "properties.props:isVersionOf"
+        "properties.props:isVersionOf",
+        "properties.props:usageCondition"
       ],
       "removedAttributes": [
         "properties.props:isAlternativeVersionOf",
-        "properties.props:isNewVersionOf"
+        "properties.props:isNewVersionOf",
+        "properties.props:license"
       ],
       "modifiedAttributes": [
         {
@@ -241,8 +258,7 @@
           "modification": "value(s) added"
         },
         {
-          "property": "required",
-          "modification": "value(s) added"
+          "property": "required"
         }
       ],
       "schemaType": "DatasetVersion"
@@ -265,11 +281,13 @@
       "addedAttributes": [
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
-        "properties.props:isVersionOf"
+        "properties.props:isVersionOf",
+        "properties.props:usageCondition"
       ],
       "removedAttributes": [
         "properties.props:isAlternativeVersionOf",
-        "properties.props:isNewVersionOf"
+        "properties.props:isNewVersionOf",
+        "properties.props:license"
       ],
       "modifiedAttributes": [
         {
@@ -277,8 +295,7 @@
           "modification": "value(s) added"
         },
         {
-          "property": "required",
-          "modification": "value(s) added"
+          "property": "required"
         }
       ],
       "schemaType": "MetaDataModelVersion"
@@ -301,11 +318,13 @@
       "addedAttributes": [
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
-        "properties.props:isVersionOf"
+        "properties.props:isVersionOf",
+        "properties.props:usageCondition"
       ],
       "removedAttributes": [
         "properties.props:isAlternativeVersionOf",
-        "properties.props:isNewVersionOf"
+        "properties.props:isNewVersionOf",
+        "properties.props:license"
       ],
       "modifiedAttributes": [
         {
@@ -313,8 +332,7 @@
           "modification": "value(s) added"
         },
         {
-          "property": "required",
-          "modification": "value(s) added"
+          "property": "required"
         }
       ],
       "schemaType": "ModelVersion"
@@ -356,11 +374,13 @@
       "addedAttributes": [
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
-        "properties.props:isVersionOf"
+        "properties.props:isVersionOf",
+        "properties.props:usageCondition"
       ],
       "removedAttributes": [
         "properties.props:isAlternativeVersionOf",
-        "properties.props:isNewVersionOf"
+        "properties.props:isNewVersionOf",
+        "properties.props:license"
       ],
       "modifiedAttributes": [
         {
@@ -371,8 +391,7 @@
           "modification": "value(s) added"
         },
         {
-          "property": "required",
-          "modification": "value(s) added"
+          "property": "required"
         }
       ],
       "schemaType": "SoftwareVersion"
@@ -395,7 +414,8 @@
       "addedAttributes": [
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
-        "properties.props:isVersionOf"
+        "properties.props:isVersionOf",
+        "properties.props:usageCondition"
       ],
       "removedAttributes": [
         "properties.props:isAlternativeVersionOf",
@@ -494,7 +514,8 @@
       "addedAttributes": [
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
-        "properties.props:isVersionOf"
+        "properties.props:isVersionOf",
+        "properties.props:usageCondition"
       ],
       "removedAttributes": [
         "properties.props:isAlternativeVersionOf",

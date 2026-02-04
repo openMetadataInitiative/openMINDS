@@ -13,6 +13,7 @@ Added files:
   - controlledTerms/organizationType.schema.omi.json
   - controlledTerms/sovereignState.schema.omi.json
   - controlledTerms/supranationalBody.schema.omi.json
+  - core/data/usageAgreement.schema.omi.json
   - core/miscellaneous/geoCoordinates.schema.omi.json
   - core/miscellaneous/location.schema.omi.json
   - neuroimaging/activity/functionalMRIAcquisition.schema.omi.json
@@ -57,6 +58,7 @@ Changes in computation/validationTestVersion.schema.omi.json:
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:usageCondition' added.
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
   - Field 'required' modified (value(s) added).
 
@@ -70,6 +72,7 @@ Changes in computation/workflowRecipeVersion.schema.omi.json:
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:usageCondition' added.
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
   - Field 'required' modified (value(s) added).
 
@@ -81,6 +84,10 @@ Changes in controlledTerms/molecularEntity.schema.omi.json:
 
 Changes in controlledTerms/species.schema.omi.json:
   - Field '_categories' modified (value(s) added).
+
+Changes in core/data/copyright.schema.omi.json:
+  - Field 'properties.props:customUsageClause' added.
+  - Field 'properties.props:year._instruction' modified.
 
 Changes in core/data/fileBundle.schema.omi.json:
   - Field 'properties.props:groupedBy._belongsToCategory' modified.
@@ -102,12 +109,14 @@ Changes in core/products/dataset.schema.omi.json:
 Changes in core/products/datasetVersion.schema.omi.json:
   - Field 'properties.props:isAlternativeVersionOf' removed.
   - Field 'properties.props:isNewVersionOf' removed.
+  - Field 'properties.props:license' removed.
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:usageCondition' added.
   - Field 'properties.props:inputData._linkedTypes' modified.
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
-  - Field 'required' modified (value(s) added).
+  - Field 'required' modified.
 
 Changes in core/products/metaDataModel.schema.omi.json:
   - Field 'properties.props:hasVersion' removed.
@@ -116,11 +125,13 @@ Changes in core/products/metaDataModel.schema.omi.json:
 Changes in core/products/metaDataModelVersion.schema.omi.json:
   - Field 'properties.props:isAlternativeVersionOf' removed.
   - Field 'properties.props:isNewVersionOf' removed.
+  - Field 'properties.props:license' removed.
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:usageCondition' added.
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
-  - Field 'required' modified (value(s) added).
+  - Field 'required' modified.
 
 Changes in core/products/model.schema.omi.json:
   - Field 'properties.props:hasVersion' removed.
@@ -129,11 +140,13 @@ Changes in core/products/model.schema.omi.json:
 Changes in core/products/modelVersion.schema.omi.json:
   - Field 'properties.props:isAlternativeVersionOf' removed.
   - Field 'properties.props:isNewVersionOf' removed.
+  - Field 'properties.props:license' removed.
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:usageCondition' added.
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
-  - Field 'required' modified (value(s) added).
+  - Field 'required' modified.
 
 Changes in core/products/project.schema.omi.json:
   - Field 'properties.props:hasPart._linkedTypes' modified.
@@ -148,12 +161,14 @@ Changes in core/products/software.schema.omi.json:
 Changes in core/products/softwareVersion.schema.omi.json:
   - Field 'properties.props:isAlternativeVersionOf' removed.
   - Field 'properties.props:isNewVersionOf' removed.
+  - Field 'properties.props:license' removed.
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:usageCondition' added.
   - Field 'properties.props:hasPart._linkedTypes' modified.
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
-  - Field 'required' modified (value(s) added).
+  - Field 'required' modified.
 
 Changes in core/products/webService.schema.omi.json:
   - Field 'properties.props:hasVersion' removed.
@@ -165,6 +180,7 @@ Changes in core/products/webServiceVersion.schema.omi.json:
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:usageCondition' added.
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
   - Field 'required' modified (value(s) added).
 
@@ -197,6 +213,7 @@ Changes in publications/livePaperVersion.schema.omi.json:
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:usageCondition' added.
   - Field 'properties.props:keyword._linkedTypes' modified (value(s) added).
   - Field 'required' modified (value(s) added).
 
