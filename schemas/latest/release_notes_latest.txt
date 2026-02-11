@@ -20,6 +20,7 @@ Added files:
   - controlledTerms/sovereignState.schema.omi.json
   - controlledTerms/supranationalBody.schema.omi.json
   - core/data/usageAgreement.schema.omi.json
+  - core/miscellaneous/accessibility.schema.omi.json
   - core/miscellaneous/geoCoordinates.schema.omi.json
   - core/miscellaneous/location.schema.omi.json
   - SANDS/atlas/anatomicalAtlas.schema.omi.json
@@ -60,7 +61,9 @@ Changes in computation/validationTestVersion.schema.omi.json:
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:publicationStatus' added.
   - Field 'properties.props:usageCondition' added.
+  - Field 'properties.props:accessibility._linkedTypes' modified.
   - Field 'properties.props:keyword._linkedTypes' modified.
   - Field 'required' modified (value(s) added).
 
@@ -74,7 +77,9 @@ Changes in computation/workflowRecipeVersion.schema.omi.json:
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:publicationStatus' added.
   - Field 'properties.props:usageCondition' added.
+  - Field 'properties.props:accessibility._linkedTypes' modified.
   - Field 'properties.props:keyword._linkedTypes' modified.
   - Field 'required' modified (value(s) added).
 
@@ -114,7 +119,9 @@ Changes in core/products/datasetVersion.schema.omi.json:
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:publicationStatus' added.
   - Field 'properties.props:usageCondition' added.
+  - Field 'properties.props:accessibility._linkedTypes' modified.
   - Field 'properties.props:inputData._linkedTypes' modified.
   - Field 'properties.props:keyword._linkedTypes' modified.
   - Field 'required' modified.
@@ -130,7 +137,9 @@ Changes in core/products/metaDataModelVersion.schema.omi.json:
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:publicationStatus' added.
   - Field 'properties.props:usageCondition' added.
+  - Field 'properties.props:accessibility._linkedTypes' modified.
   - Field 'properties.props:keyword._linkedTypes' modified.
   - Field 'required' modified.
 
@@ -147,7 +156,9 @@ Changes in core/products/modelVersion.schema.omi.json:
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:publicationStatus' added.
   - Field 'properties.props:usageCondition' added.
+  - Field 'properties.props:accessibility._linkedTypes' modified.
   - Field 'properties.props:keyword._linkedTypes' modified.
   - Field 'required' modified.
 
@@ -165,7 +176,9 @@ Changes in core/products/softwareVersion.schema.omi.json:
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:publicationStatus' added.
   - Field 'properties.props:usageCondition' added.
+  - Field 'properties.props:accessibility._linkedTypes' modified.
   - Field 'properties.props:hasPart._linkedTypes' modified.
   - Field 'properties.props:keyword._linkedTypes' modified.
   - Field 'required' modified.
@@ -180,7 +193,9 @@ Changes in core/products/webServiceVersion.schema.omi.json:
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:publicationStatus' added.
   - Field 'properties.props:usageCondition' added.
+  - Field 'properties.props:accessibility._linkedTypes' modified.
   - Field 'properties.props:keyword._linkedTypes' modified.
   - Field 'required' modified (value(s) added).
 
@@ -209,7 +224,9 @@ Changes in publications/livePaperVersion.schema.omi.json:
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:publicationStatus' added.
   - Field 'properties.props:usageCondition' added.
+  - Field 'properties.props:accessibility._linkedTypes' modified.
   - Field 'properties.props:keyword._linkedTypes' modified.
   - Field 'required' modified (value(s) added).
 

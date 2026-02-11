@@ -395,7 +395,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/ProductAccessibility"
+          "https://openminds.om-i.org/types/Accessibility"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility"
@@ -2481,6 +2481,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "https://openminds.om-i.org/types/AccessChannel",
           "https://openminds.om-i.org/types/Channel"
         ],
         "v3.0": [
@@ -2514,6 +2515,7 @@
     "namePlural": "channels",
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/Accessibility",
         "https://openminds.om-i.org/types/Recording"
       ],
       "v3.0": [
@@ -6931,6 +6933,34 @@
       ]
     }
   },
+  "eligibility": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/AccessEligibilityType"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Eligibility",
+    "labelPlural": null,
+    "name": "eligibility",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Accessibility"
+      ]
+    }
+  },
   "email": {
     "asString": {
       "formatting": "text/plain",
@@ -7910,6 +7940,34 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/File"
+      ]
+    }
+  },
+  "form": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/AccessForm"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Form",
+    "labelPlural": null,
+    "name": "form",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Accessibility"
       ]
     }
   },
@@ -15990,6 +16048,34 @@
       ]
     }
   },
+  "paymentModel": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/PaymentModelType"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Payment model",
+    "labelPlural": null,
+    "name": "paymentModel",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Accessibility"
+      ]
+    }
+  },
   "performedBy": {
     "asEdge": {
       "canPointTo": {
@@ -16911,6 +16997,34 @@
       ]
     }
   },
+  "process": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/AccessProcessType"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Process",
+    "labelPlural": null,
+    "name": "process",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Accessibility"
+      ]
+    }
+  },
   "productName": {
     "asString": {
       "formatting": "text/plain",
@@ -17299,6 +17413,43 @@
         "https://openminds.om-i.org/types/Chapter",
         "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/ScholarlyArticle"
+      ]
+    }
+  },
+  "publicationStatus": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/PublicationStatus"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Publication status",
+    "labelPlural": null,
+    "name": "publicationStatus",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+        "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/LivePaperVersion",
+        "https://openminds.om-i.org/types/MetaDataModelVersion",
+        "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/SoftwareVersion",
+        "https://openminds.om-i.org/types/ValidationTestVersion",
+        "https://openminds.om-i.org/types/WebServiceVersion",
+        "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ]
     }
   },
