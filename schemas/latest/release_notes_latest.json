@@ -20,6 +20,7 @@
     "controlledTerms/sovereignState.schema.omi.json",
     "controlledTerms/supranationalBody.schema.omi.json",
     "core/data/usageAgreement.schema.omi.json",
+    "core/miscellaneous/accessibility.schema.omi.json",
     "core/miscellaneous/geoCoordinates.schema.omi.json",
     "core/miscellaneous/location.schema.omi.json",
     "neuroimaging/activity/functionalMRIAcquisition.schema.omi.json",
@@ -93,6 +94,7 @@
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
         "properties.props:isVersionOf",
+        "properties.props:publicationStatus",
         "properties.props:usageCondition"
       ],
       "removedAttributes": [
@@ -100,6 +102,9 @@
         "properties.props:isNewVersionOf"
       ],
       "modifiedAttributes": [
+        {
+          "property": "properties.props:accessibility._linkedTypes"
+        },
         {
           "property": "properties.props:keyword._linkedTypes"
         },
@@ -129,6 +134,7 @@
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
         "properties.props:isVersionOf",
+        "properties.props:publicationStatus",
         "properties.props:usageCondition"
       ],
       "removedAttributes": [
@@ -136,6 +142,9 @@
         "properties.props:isNewVersionOf"
       ],
       "modifiedAttributes": [
+        {
+          "property": "properties.props:accessibility._linkedTypes"
+        },
         {
           "property": "properties.props:keyword._linkedTypes"
         },
@@ -248,6 +257,7 @@
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
         "properties.props:isVersionOf",
+        "properties.props:publicationStatus",
         "properties.props:usageCondition"
       ],
       "removedAttributes": [
@@ -257,6 +267,9 @@
         "properties.props:license"
       ],
       "modifiedAttributes": [
+        {
+          "property": "properties.props:accessibility._linkedTypes"
+        },
         {
           "property": "properties.props:inputData._linkedTypes"
         },
@@ -288,6 +301,7 @@
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
         "properties.props:isVersionOf",
+        "properties.props:publicationStatus",
         "properties.props:usageCondition"
       ],
       "removedAttributes": [
@@ -296,6 +310,9 @@
         "properties.props:license"
       ],
       "modifiedAttributes": [
+        {
+          "property": "properties.props:accessibility._linkedTypes"
+        },
         {
           "property": "properties.props:keyword._linkedTypes"
         },
@@ -324,6 +341,7 @@
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
         "properties.props:isVersionOf",
+        "properties.props:publicationStatus",
         "properties.props:usageCondition"
       ],
       "removedAttributes": [
@@ -332,6 +350,9 @@
         "properties.props:license"
       ],
       "modifiedAttributes": [
+        {
+          "property": "properties.props:accessibility._linkedTypes"
+        },
         {
           "property": "properties.props:keyword._linkedTypes"
         },
@@ -379,6 +400,7 @@
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
         "properties.props:isVersionOf",
+        "properties.props:publicationStatus",
         "properties.props:usageCondition"
       ],
       "removedAttributes": [
@@ -387,6 +409,9 @@
         "properties.props:license"
       ],
       "modifiedAttributes": [
+        {
+          "property": "properties.props:accessibility._linkedTypes"
+        },
         {
           "property": "properties.props:hasPart._linkedTypes"
         },
@@ -418,6 +443,7 @@
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
         "properties.props:isVersionOf",
+        "properties.props:publicationStatus",
         "properties.props:usageCondition"
       ],
       "removedAttributes": [
@@ -425,6 +451,9 @@
         "properties.props:isNewVersionOf"
       ],
       "modifiedAttributes": [
+        {
+          "property": "properties.props:accessibility._linkedTypes"
+        },
         {
           "property": "properties.props:keyword._linkedTypes"
         },
@@ -514,6 +543,7 @@
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
         "properties.props:isVersionOf",
+        "properties.props:publicationStatus",
         "properties.props:usageCondition"
       ],
       "removedAttributes": [
@@ -521,6 +551,9 @@
         "properties.props:isNewVersionOf"
       ],
       "modifiedAttributes": [
+        {
+          "property": "properties.props:accessibility._linkedTypes"
+        },
         {
           "property": "properties.props:keyword._linkedTypes"
         },

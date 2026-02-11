@@ -20,7 +20,7 @@
     "https://openminds.om-i.org/props/accessibility": {
       "_instruction": "Add the accessibility of the data for this research product version.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/ProductAccessibility"
+        "https://openminds.om-i.org/types/Accessibility"
       ],
       "description": "Level to which something is accessible to someone or something.",
       "label": "Accessibility",
@@ -356,6 +356,15 @@
       "namePlural": "otherContributions",
       "type": "array",
       "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/publicationStatus": {
+      "_instruction": "Add the relevant publication status indicating the current lifecycle state of the resource (published, embargoed, disposed, retracted, etc.).",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/PublicationStatus"
+      ],
+      "label": "Publication status",
+      "name": "publicationStatus",
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/relatedPublication": {
       "_belongsToCategory": [
