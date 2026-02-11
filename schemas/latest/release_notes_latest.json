@@ -1,6 +1,10 @@
 {
   "title": "Release Notes latest",
   "addedFiles": [
+    "controlledTerms/accessChannel.schema.omi.json",
+    "controlledTerms/accessEligibilityType.schema.omi.json",
+    "controlledTerms/accessForm.schema.omi.json",
+    "controlledTerms/accessProcessType.schema.omi.json",
     "controlledTerms/communicationInterfaceType.schema.omi.json",
     "controlledTerms/communicationProtocol.schema.omi.json",
     "controlledTerms/dependencyImpact.schema.omi.json",
@@ -11,6 +15,8 @@
     "controlledTerms/modificationScope.schema.omi.json",
     "controlledTerms/MRSpatialEncoding.schema.omi.json",
     "controlledTerms/organizationType.schema.omi.json",
+    "controlledTerms/paymentModelType.schema.omi.json",
+    "controlledTerms/publicationStatus.schema.omi.json",
     "controlledTerms/sovereignState.schema.omi.json",
     "controlledTerms/supranationalBody.schema.omi.json",
     "core/data/usageAgreement.schema.omi.json",

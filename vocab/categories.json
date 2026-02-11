@@ -77,6 +77,10 @@
       "controlledTerms:SupranationalBody"
     ],
     "keyword": [
+      "controlledTerms:AccessChannel",
+      "controlledTerms:AccessEligibilityType",
+      "controlledTerms:AccessForm",
+      "controlledTerms:AccessProcessType",
       "controlledTerms:ActionStatusType",
       "controlledTerms:AgeCategory",
       "controlledTerms:AnalysisTechnique",
@@ -142,9 +146,11 @@
       "controlledTerms:OrganismSystem",
       "controlledTerms:OrganizationType",
       "controlledTerms:PatchClampVariation",
+      "controlledTerms:PaymentModelType",
       "controlledTerms:PreparationType",
       "controlledTerms:ProductAccessibility",
       "controlledTerms:ProgrammingLanguage",
+      "controlledTerms:PublicationStatus",
       "controlledTerms:QualitativeOverlap",
       "controlledTerms:SemanticDataType",
       "controlledTerms:Service",
