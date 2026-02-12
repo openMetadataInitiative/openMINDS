@@ -638,7 +638,6 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRICoil",
         "https://openminds.om-i.org/types/MRICoilUsage"
       ]
     }
@@ -2925,14 +2924,6 @@
     }
   },
   "coilGeometry": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/MRIRadioFrequencyCoilGeometry"
-        ]
-      },
-      "nameForReverseLink": null
-    },
     "description": null,
     "hasNamespace": [
       {
@@ -2946,11 +2937,7 @@
     "labelPlural": null,
     "name": "coilGeometry",
     "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRICoil"
-      ]
-    }
+    "usedIn": {}
   },
   "colorDepth": {
     "asEdge": {
@@ -7227,7 +7214,6 @@
         "https://openminds.om-i.org/types/Image",
         "https://openminds.om-i.org/types/ImageSequence",
         "https://openminds.om-i.org/types/ImageStack",
-        "https://openminds.om-i.org/types/MRICoil",
         "https://openminds.om-i.org/types/Volume",
         "https://openminds.om-i.org/types/VolumeSequence"
       ],
@@ -15465,7 +15451,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/MRIRadioFrequencyCoilMountingType"
+          "https://openminds.om-i.org/types/DeviceMountingType"
         ]
       },
       "nameForReverseLink": null
@@ -17406,11 +17392,7 @@
     "labelPlural": null,
     "name": "parallelImagingCapable",
     "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRICoil"
-      ]
-    }
+    "usedIn": {}
   },
   "parameter": {
     "asEdge": {
@@ -19593,14 +19575,6 @@
     }
   },
   "radioFrequencyCoilType": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/MRIRadioFrequencyCoilType"
-        ]
-      },
-      "nameForReverseLink": null
-    },
     "description": null,
     "hasNamespace": [
       {
@@ -19614,11 +19588,7 @@
     "labelPlural": null,
     "name": "radioFrequencyCoilType",
     "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRICoil"
-      ]
-    }
+    "usedIn": {}
   },
   "radiofrequencyCoilRole": {
     "asEdge": {
@@ -24626,14 +24596,6 @@
     }
   },
   "targetAnatomyCoverage": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/AnatomicalRegion"
-        ]
-      },
-      "nameForReverseLink": null
-    },
     "description": null,
     "hasNamespace": [
       {
@@ -24647,11 +24609,7 @@
     "labelPlural": null,
     "name": "targetAnatomyCoverage",
     "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRICoil"
-      ]
-    }
+    "usedIn": {}
   },
   "targetIdentificationType": {
     "asEdge": {
