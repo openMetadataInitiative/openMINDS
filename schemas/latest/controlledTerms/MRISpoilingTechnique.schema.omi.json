@@ -1,11 +1,12 @@
 {
   "_categories": [
-    "keyword"
+    "keyword",
+    "technique"
   ],
   "_module": "controlledTerms",
-  "_type": "https://openminds.om-i.org/types/MRSpatialEncoding",
-  "label": "Mrspatial encoding",
-  "name": "MRSpatialEncoding",
+  "_type": "https://openminds.om-i.org/types/MRISpoilingTechnique",
+  "label": "Mrispoiling technique",
+  "name": "MRISpoilingTechnique",
   "properties": {
     "https://openminds.om-i.org/props/definition": {
       "_instruction": "Enter one sentence for defining this term.",
