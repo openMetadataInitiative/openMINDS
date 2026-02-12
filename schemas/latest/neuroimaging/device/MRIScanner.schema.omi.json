@@ -123,6 +123,7 @@
   },
   "required": [
     "https://openminds.om-i.org/props/deviceType",
+    "https://openminds.om-i.org/props/magneticFieldStrength",
     "https://openminds.om-i.org/props/name"
   ]
 }
