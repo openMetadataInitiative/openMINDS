@@ -47,6 +47,10 @@ Added files:
 
 Removed files:
   - controlledTerms/ethicsAssessment.schema.omi.json
+  - core/data/rasterImage.schema.omi.json
+  - core/data/rasterImageStack.schema.omi.json
+  - core/data/rasterVolume.schema.omi.json
+  - core/data/rasterVolumeSequence.schema.omi.json
   - SANDS/atlas/brainAtlas.schema.omi.json
   - SANDS/atlas/brainAtlasVersion.schema.omi.json
   - SANDS/atlas/commonCoordinateSpace.schema.omi.json

@@ -9419,6 +9419,74 @@
     "label": "Rrid",
     "name": "RRID"
   },
+  "RasterImage": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "isPartOfVersion": [
+      "v4.0"
+    ],
+    "label": "Raster image",
+    "name": "RasterImage"
+  },
+  "RasterImageStack": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "isPartOfVersion": [
+      "v4.0"
+    ],
+    "label": "Raster image stack",
+    "name": "RasterImageStack"
+  },
+  "RasterVolume": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "isPartOfVersion": [
+      "v4.0"
+    ],
+    "label": "Raster volume",
+    "name": "RasterVolume"
+  },
+  "RasterVolumeSequence": {
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "isPartOfVersion": [
+      "v4.0"
+    ],
+    "label": "Raster volume sequence",
+    "name": "RasterVolumeSequence"
+  },
   "Recording": {
     "backwardsCompatibility": {
       "latest": [

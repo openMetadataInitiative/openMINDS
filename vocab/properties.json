@@ -796,6 +796,10 @@
         "https://openminds.om-i.org/types/ChemicalSubstance",
         "https://openminds.om-i.org/types/Measurement",
         "https://openminds.om-i.org/types/ParcellationEntityVersion",
+        "https://openminds.om-i.org/types/RasterImage",
+        "https://openminds.om-i.org/types/RasterImageStack",
+        "https://openminds.om-i.org/types/RasterVolume",
+        "https://openminds.om-i.org/types/RasterVolumeSequence",
         "https://openminds.om-i.org/types/Recording",
         "https://openminds.om-i.org/types/SubjectGroup",
         "https://openminds.om-i.org/types/SubjectGroupState",
@@ -2672,6 +2676,12 @@
           "https://openminds.om-i.org/types/MRIScannerUsage",
           "https://openminds.om-i.org/types/PipetteUsage",
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
+        ],
+        "v4.0": [
+          "https://openminds.om-i.org/types/ElectrodeArrayUsage",
+          "https://openminds.om-i.org/types/ElectrodeUsage",
+          "https://openminds.om-i.org/types/PipetteUsage",
+          "https://openminds.om-i.org/types/SlicingDeviceUsage"
         ]
       },
       "nameForReverseLink": null
@@ -2680,7 +2690,8 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest"
+          "latest",
+          "v4.0"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -2696,6 +2707,12 @@
         "https://openminds.om-i.org/types/ImageStack",
         "https://openminds.om-i.org/types/Volume",
         "https://openminds.om-i.org/types/VolumeSequence"
+      ],
+      "v4.0": [
+        "https://openminds.om-i.org/types/RasterImage",
+        "https://openminds.om-i.org/types/RasterImageStack",
+        "https://openminds.om-i.org/types/RasterVolume",
+        "https://openminds.om-i.org/types/RasterVolumeSequence"
       ]
     }
   },
@@ -3845,6 +3862,10 @@
         "latest": [
           "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
           "https://openminds.om-i.org/types/CustomCoordinateFramework"
+        ],
+        "v4.0": [
+          "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+          "https://openminds.om-i.org/types/CustomCoordinateFramework"
         ]
       },
       "nameForReverseLink": null
@@ -3853,7 +3874,8 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest"
+          "latest",
+          "v4.0"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -3867,6 +3889,12 @@
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/CoordinatePoint",
         "https://openminds.om-i.org/types/CustomAnnotation"
+      ],
+      "v4.0": [
+        "https://openminds.om-i.org/types/RasterImage",
+        "https://openminds.om-i.org/types/RasterImageStack",
+        "https://openminds.om-i.org/types/RasterVolume",
+        "https://openminds.om-i.org/types/RasterVolumeSequence"
       ]
     }
   },
@@ -5037,6 +5065,10 @@
         "https://openminds.om-i.org/types/CustomPropertySet",
         "https://openminds.om-i.org/types/ParcellationTerminology",
         "https://openminds.om-i.org/types/ParcellationTerminologyVersion",
+        "https://openminds.om-i.org/types/RasterImage",
+        "https://openminds.om-i.org/types/RasterImageStack",
+        "https://openminds.om-i.org/types/RasterVolume",
+        "https://openminds.om-i.org/types/RasterVolumeSequence",
         "https://openminds.om-i.org/types/Recording",
         "https://openminds.om-i.org/types/ServiceLink"
       ]
@@ -7203,7 +7235,11 @@
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation"
       ],
       "v4.0": [
-        "https://openminds.om-i.org/types/CranialWindowPreparation"
+        "https://openminds.om-i.org/types/CranialWindowPreparation",
+        "https://openminds.om-i.org/types/RasterImage",
+        "https://openminds.om-i.org/types/RasterImageStack",
+        "https://openminds.om-i.org/types/RasterVolume",
+        "https://openminds.om-i.org/types/RasterVolumeSequence"
       ]
     }
   },
@@ -16015,6 +16051,10 @@
         "https://openminds.om-i.org/types/ProgrammingLanguage",
         "https://openminds.om-i.org/types/Protocol",
         "https://openminds.om-i.org/types/QualitativeOverlap",
+        "https://openminds.om-i.org/types/RasterImage",
+        "https://openminds.om-i.org/types/RasterImageStack",
+        "https://openminds.om-i.org/types/RasterVolume",
+        "https://openminds.om-i.org/types/RasterVolumeSequence",
         "https://openminds.om-i.org/types/Recording",
         "https://openminds.om-i.org/types/ScholarlyArticle",
         "https://openminds.om-i.org/types/SemanticDataType",
@@ -16229,7 +16269,8 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest"
+          "latest",
+          "v4.0"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -16242,6 +16283,30 @@
       "latest": [
         "https://openminds.om-i.org/types/ImageSequence",
         "https://openminds.om-i.org/types/ImageStack"
+      ],
+      "v4.0": [
+        "https://openminds.om-i.org/types/RasterImageStack"
+      ]
+    }
+  },
+  "numberOfPlanes": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Number of planes",
+    "labelPlural": null,
+    "name": "numberOfPlanes",
+    "namePlural": null,
+    "usedIn": {
+      "v4.0": [
+        "https://openminds.om-i.org/types/RasterVolume",
+        "https://openminds.om-i.org/types/RasterVolumeSequence"
       ]
     }
   },
@@ -16337,7 +16402,8 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest"
+          "latest",
+          "v4.0"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -16349,6 +16415,9 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/VolumeSequence"
+      ],
+      "v4.0": [
+        "https://openminds.om-i.org/types/RasterVolumeSequence"
       ]
     }
   },
@@ -17889,6 +17958,9 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/QuantitativeValue"
+        ],
+        "v4.0": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -17897,7 +17969,8 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest"
+          "latest",
+          "v4.0"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -17911,6 +17984,10 @@
         "https://openminds.om-i.org/types/Image",
         "https://openminds.om-i.org/types/ImageSequence",
         "https://openminds.om-i.org/types/ImageStack"
+      ],
+      "v4.0": [
+        "https://openminds.om-i.org/types/RasterImage",
+        "https://openminds.om-i.org/types/RasterImageStack"
       ]
     }
   },
@@ -24885,6 +24962,34 @@
       ]
     }
   },
+  "temporalSamplingFrequency": {
+    "asEdge": {
+      "canPointTo": {
+        "v4.0": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Temporal sampling frequency",
+    "labelPlural": null,
+    "name": "temporalSamplingFrequency",
+    "namePlural": null,
+    "usedIn": {
+      "v4.0": [
+        "https://openminds.om-i.org/types/RasterVolumeSequence"
+      ]
+    }
+  },
   "terminology": {
     "asEdge": {
       "canPointTo": {
@@ -26278,6 +26383,9 @@
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue"
+        ],
+        "v4.0": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -26286,7 +26394,8 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest"
+          "latest",
+          "v4.0"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       },
@@ -26309,6 +26418,10 @@
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/sands/Image"
+      ],
+      "v4.0": [
+        "https://openminds.om-i.org/types/RasterVolume",
+        "https://openminds.om-i.org/types/RasterVolumeSequence"
       ]
     }
   },
@@ -26624,6 +26737,34 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/Copyright"
+      ]
+    }
+  },
+  "z-stepSize": {
+    "asEdge": {
+      "canPointTo": {
+        "v4.0": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "v4.0"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Z-step size",
+    "labelPlural": null,
+    "name": "z-stepSize",
+    "namePlural": null,
+    "usedIn": {
+      "v4.0": [
+        "https://openminds.om-i.org/types/RasterImageStack"
       ]
     }
   }
