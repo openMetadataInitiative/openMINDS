@@ -9,15 +9,20 @@
     "controlledTerms/communicationProtocol.schema.omi.json",
     "controlledTerms/dependencyImpact.schema.omi.json",
     "controlledTerms/deploymentEnvironmentType.schema.omi.json",
+    "controlledTerms/deviceMountingType.schema.omi.json",
     "controlledTerms/modificationConsentRequirement.schema.omi.json",
     "controlledTerms/modificationConstraint.schema.omi.json",
     "controlledTerms/modificationForm.schema.omi.json",
     "controlledTerms/modificationScope.schema.omi.json",
-    "controlledTerms/MRSpatialEncoding.schema.omi.json",
+    "controlledTerms/MRICoilRole.schema.omi.json",
+    "controlledTerms/MRIParallelAcquisitionTechnique.schema.omi.json",
+    "controlledTerms/MRISpoilingTechnique.schema.omi.json",
     "controlledTerms/organizationType.schema.omi.json",
     "controlledTerms/paymentModelType.schema.omi.json",
     "controlledTerms/publicationStatus.schema.omi.json",
+    "controlledTerms/pulseShape.schema.omi.json",
     "controlledTerms/sovereignState.schema.omi.json",
+    "controlledTerms/spatialEncoding.schema.omi.json",
     "controlledTerms/supranationalBody.schema.omi.json",
     "core/data/usageAgreement.schema.omi.json",
     "core/miscellaneous/accessibility.schema.omi.json",
@@ -270,6 +275,10 @@
           "property": "properties.props:keyword._linkedTypes"
         },
         {
+          "property": "properties.props:technique._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
           "property": "required"
         }
       ],
@@ -448,6 +457,26 @@
         }
       ],
       "schemaType": "WebServiceVersion"
+    },
+    {
+      "file": "core/research/customPropertySet.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:relevantFor._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "CustomPropertySet"
+    },
+    {
+      "file": "core/research/protocol.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:technique._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "Protocol"
     },
     {
       "file": "publications/book.schema.omi.json",

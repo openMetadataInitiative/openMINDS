@@ -9,15 +9,20 @@ Added files:
   - controlledTerms/communicationProtocol.schema.omi.json
   - controlledTerms/dependencyImpact.schema.omi.json
   - controlledTerms/deploymentEnvironmentType.schema.omi.json
+  - controlledTerms/deviceMountingType.schema.omi.json
   - controlledTerms/modificationConsentRequirement.schema.omi.json
   - controlledTerms/modificationConstraint.schema.omi.json
   - controlledTerms/modificationForm.schema.omi.json
   - controlledTerms/modificationScope.schema.omi.json
-  - controlledTerms/MRSpatialEncoding.schema.omi.json
+  - controlledTerms/MRICoilRole.schema.omi.json
+  - controlledTerms/MRIParallelAcquisitionTechnique.schema.omi.json
+  - controlledTerms/MRISpoilingTechnique.schema.omi.json
   - controlledTerms/organizationType.schema.omi.json
   - controlledTerms/paymentModelType.schema.omi.json
   - controlledTerms/publicationStatus.schema.omi.json
+  - controlledTerms/pulseShape.schema.omi.json
   - controlledTerms/sovereignState.schema.omi.json
+  - controlledTerms/spatialEncoding.schema.omi.json
   - controlledTerms/supranationalBody.schema.omi.json
   - core/data/usageAgreement.schema.omi.json
   - core/miscellaneous/accessibility.schema.omi.json
@@ -124,6 +129,7 @@ Changes in core/products/datasetVersion.schema.omi.json:
   - Field 'properties.props:accessibility._linkedTypes' modified.
   - Field 'properties.props:inputData._linkedTypes' modified.
   - Field 'properties.props:keyword._linkedTypes' modified.
+  - Field 'properties.props:technique._linkedTypes' modified (value(s) added).
   - Field 'required' modified.
 
 Changes in core/products/metaDataModel.schema.omi.json:
@@ -198,6 +204,12 @@ Changes in core/products/webServiceVersion.schema.omi.json:
   - Field 'properties.props:accessibility._linkedTypes' modified.
   - Field 'properties.props:keyword._linkedTypes' modified.
   - Field 'required' modified (value(s) added).
+
+Changes in core/research/customPropertySet.schema.omi.json:
+  - Field 'properties.props:relevantFor._linkedTypes' modified (value(s) added).
+
+Changes in core/research/protocol.schema.omi.json:
+  - Field 'properties.props:technique._linkedTypes' modified (value(s) added).
 
 Changes in publications/book.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified.

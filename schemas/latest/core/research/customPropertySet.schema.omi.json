@@ -36,8 +36,11 @@
       "_instruction": "Add the technique for which this custom property set is relevant.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/AnalysisTechnique",
+        "https://openminds.om-i.org/types/MRIParallelAcquisitionTechnique",
         "https://openminds.om-i.org/types/MRIPulseSequence",
+        "https://openminds.om-i.org/types/MRISpoilingTechnique",
         "https://openminds.om-i.org/types/MRIWeighting",
+        "https://openminds.om-i.org/types/SpatialEncoding",
         "https://openminds.om-i.org/types/StimulationApproach",
         "https://openminds.om-i.org/types/StimulationTechnique",
         "https://openminds.om-i.org/types/Technique"

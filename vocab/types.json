@@ -2911,8 +2911,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -3294,6 +3296,31 @@
     ],
     "label": "Deployment environment type",
     "name": "DeploymentEnvironmentType"
+  },
+  "DeviceMountingType": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Device mounting type",
+    "name": "DeviceMountingType"
   },
   "DeviceType": {
     "backwardsCompatibility": {
@@ -5762,6 +5789,56 @@
     "label": "Location",
     "name": "Location"
   },
+  "MRICoilRole": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Mricoil role",
+    "name": "MRICoilRole"
+  },
+  "MRIParallelAcquisitionTechnique": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Mriparallel acquisition technique",
+    "name": "MRIParallelAcquisitionTechnique"
+  },
   "MRIPulseSequence": {
     "backwardsCompatibility": {
       "latest": [
@@ -5792,6 +5869,31 @@
     ],
     "label": "Mripulse sequence",
     "name": "MRIPulseSequence"
+  },
+  "MRISpoilingTechnique": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Mrispoiling technique",
+    "name": "MRISpoilingTechnique"
   },
   "MRIWeighting": {
     "backwardsCompatibility": {
@@ -5825,9 +5927,6 @@
     "name": "MRIWeighting"
   },
   "MRSpatialEncoding": {
-    "backwardsCompatibility": {
-      "latest": []
-    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -5838,14 +5937,8 @@
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
-    "identical": [
-      [
-        "latest"
-      ]
-    ],
-    "isPartOfVersion": [
-      "latest"
-    ],
+    "identical": [],
+    "isPartOfVersion": [],
     "label": "Mrspatial encoding",
     "name": "MRSpatialEncoding"
   },
@@ -8077,8 +8170,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
+      ],
+      [
+        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -8255,6 +8350,31 @@
     ],
     "label": "Publication volume",
     "name": "PublicationVolume"
+  },
+  "PulseShape": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Pulse shape",
+    "name": "PulseShape"
   },
   "QualitativeOverlap": {
     "backwardsCompatibility": {
@@ -9659,6 +9779,31 @@
     ],
     "label": "Sovereign state",
     "name": "SovereignState"
+  },
+  "SpatialEncoding": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Spatial encoding",
+    "name": "SpatialEncoding"
   },
   "Species": {
     "backwardsCompatibility": {
