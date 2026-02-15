@@ -1283,7 +1283,7 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
-        "https://openminds.om-i.org/types/customCoordinateFramework"
+        "https://openminds.om-i.org/types/CustomCoordinateFramework"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/sands/CoordinateSpace"
@@ -2199,7 +2199,7 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
-        "https://openminds.om-i.org/types/customCoordinateFramework"
+        "https://openminds.om-i.org/types/CustomCoordinateFramework"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/sands/CoordinateSpace"
@@ -5166,7 +5166,7 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
-        "https://openminds.om-i.org/types/customCoordinateFramework"
+        "https://openminds.om-i.org/types/CustomCoordinateFramework"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/sands/CoordinateSpace"
@@ -9527,6 +9527,7 @@
           "https://openminds.om-i.org/types/CommonCoordinateFramework",
           "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
           "https://openminds.om-i.org/types/CustomAnatomicalEntity",
+          "https://openminds.om-i.org/types/CustomCoordinateFramework",
           "https://openminds.om-i.org/types/Disease",
           "https://openminds.om-i.org/types/DiseaseModel",
           "https://openminds.om-i.org/types/ElectricalStimulusType",
@@ -9563,8 +9564,7 @@
           "https://openminds.om-i.org/types/TissueSampleState",
           "https://openminds.om-i.org/types/TissueSampleType",
           "https://openminds.om-i.org/types/UBERONParcellation",
-          "https://openminds.om-i.org/types/VisualStimulusType",
-          "https://openminds.om-i.org/types/customCoordinateFramework"
+          "https://openminds.om-i.org/types/VisualStimulusType"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
@@ -15543,6 +15543,7 @@
         "https://openminds.om-i.org/types/CranialWindowReinforcementType",
         "https://openminds.om-i.org/types/CriteriaQualityType",
         "https://openminds.om-i.org/types/CustomAnatomicalEntity",
+        "https://openminds.om-i.org/types/CustomCoordinateFramework",
         "https://openminds.om-i.org/types/DataType",
         "https://openminds.om-i.org/types/DependencyImpact",
         "https://openminds.om-i.org/types/DeploymentEnvironmentType",
@@ -15646,8 +15647,7 @@
         "https://openminds.om-i.org/types/TypeOfUncertainty",
         "https://openminds.om-i.org/types/UBERONParcellation",
         "https://openminds.om-i.org/types/UnitOfMeasurement",
-        "https://openminds.om-i.org/types/VisualStimulusType",
-        "https://openminds.om-i.org/types/customCoordinateFramework"
+        "https://openminds.om-i.org/types/VisualStimulusType"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/controlledTerms/ActionStatusType",
@@ -16143,7 +16143,7 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
-        "https://openminds.om-i.org/types/customCoordinateFramework"
+        "https://openminds.om-i.org/types/CustomCoordinateFramework"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/sands/CoordinateSpace"

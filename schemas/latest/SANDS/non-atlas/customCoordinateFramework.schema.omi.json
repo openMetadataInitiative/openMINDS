@@ -3,9 +3,9 @@
     "coordinateFramework"
   ],
   "_module": "SANDS",
-  "_type": "https://openminds.om-i.org/types/customCoordinateFramework",
+  "_type": "https://openminds.om-i.org/types/CustomCoordinateFramework",
   "label": "Custom coordinate framework",
-  "name": "customCoordinateFramework",
+  "name": "CustomCoordinateFramework",
   "properties": {
     "https://openminds.om-i.org/props/anatomicalAxesOrientation": {
       "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (stated as XYZ) for the anatomical space of this custom coordinate framework.",
