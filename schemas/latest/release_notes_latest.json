@@ -479,6 +479,15 @@
       "schemaType": "Protocol"
     },
     {
+      "file": "core/research/protocolExecution.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:input._linkedTypes"
+        }
+      ],
+      "schemaType": "ProtocolExecution"
+    },
+    {
       "file": "publications/book.schema.omi.json",
       "modifiedAttributes": [
         {
