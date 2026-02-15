@@ -224,6 +224,9 @@ Changes in core/research/customPropertySet.schema.omi.json:
 Changes in core/research/protocol.schema.omi.json:
   - Field 'properties.props:technique._linkedTypes' modified (value(s) added).
 
+Changes in core/research/protocolExecution.schema.omi.json:
+  - Field 'properties.props:input._linkedTypes' modified.
+
 Changes in ephys/activity/cellPatching.schema.omi.json:
   - Field 'properties.props:device._linkedTypes' modified (value(s) added).
 
