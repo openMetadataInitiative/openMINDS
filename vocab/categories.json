@@ -39,7 +39,7 @@
     "coordinateFramework": [
       "sands:CommonCoordinateFramework",
       "sands:CommonCoordinateFrameworkVersion",
-      "sands:customCoordinateFramework"
+      "sands:CustomCoordinateFramework"
     ],
     "deviceUsage": [
       "ephys:ElectrodeArrayUsage",

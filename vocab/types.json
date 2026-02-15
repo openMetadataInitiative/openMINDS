@@ -2836,6 +2836,31 @@
     "label": "Custom annotation",
     "name": "CustomAnnotation"
   },
+  "CustomCoordinateFramework": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Custom coordinate framework",
+    "name": "CustomCoordinateFramework"
+  },
   "CustomCoordinateSpace": {
     "backwardsCompatibility": {
       "v2.0": [],
@@ -11828,9 +11853,6 @@
     "name": "WorkflowRecipeVersion"
   },
   "customCoordinateFramework": {
-    "backwardsCompatibility": {
-      "latest": []
-    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -11841,14 +11863,8 @@
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
-    "identical": [
-      [
-        "latest"
-      ]
-    ],
-    "isPartOfVersion": [
-      "latest"
-    ],
+    "identical": [],
+    "isPartOfVersion": [],
     "label": "Custom coordinate framework",
     "name": "customCoordinateFramework"
   }
