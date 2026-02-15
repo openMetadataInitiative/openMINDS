@@ -199,7 +199,7 @@
     "https://openminds.om-i.org/props/isPrecededBy": {
       "_instruction": "Add the common coordinate framework version preceding this common coordinate framework version.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion"
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion"
       ],
       "label": "Is preceded by",
       "name": "isPrecededBy",
@@ -208,7 +208,7 @@
     "https://openminds.om-i.org/props/isVariantOf": {
       "_instruction": "Add all common coordinate framework versions that can be used alternatively to this common coordinate framework version.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion"
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion"
       ],
       "label": "Is variant of",
       "labelPlural": "Is variant of",
