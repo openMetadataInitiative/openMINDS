@@ -580,9 +580,11 @@
         "https://openminds.om-i.org/types/UsageAgreement"
       ],
       "label": "Usage condition",
+      "labelPlural": "Usage conditions",
       "minItems": 1,
       "name": "usageCondition",
       "nameForReverseLink": null,
+      "namePlural": "usageConditions",
       "type": "array",
       "uniqueItems": true
     },

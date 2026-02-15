@@ -15,9 +15,11 @@
         "https://openminds.om-i.org/types/Person"
       ],
       "label": "Authoring party",
+      "labelPlural": "Authoring parties",
       "minItems": 1,
       "name": "authoringParty",
       "nameForReverseLink": null,
+      "namePlural": "authoringParties",
       "type": "array",
       "uniqueItems": true
     },
@@ -57,9 +59,11 @@
         "https://openminds.om-i.org/types/ModificationScope"
       ],
       "label": "Modification profile",
+      "labelPlural": "Modification profiles",
       "minItems": 1,
       "name": "modificationProfile",
       "nameForReverseLink": null,
+      "namePlural": "modificationProfiles",
       "type": "array",
       "uniqueItems": true
     },
@@ -81,9 +85,11 @@
         "https://openminds.om-i.org/types/UsageAgreement"
       ],
       "label": "Source",
+      "labelPlural": "Sources",
       "minItems": 1,
       "name": "source",
       "nameForReverseLink": null,
+      "namePlural": "sources",
       "type": "array",
       "uniqueItems": true
     },

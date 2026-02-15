@@ -39,9 +39,11 @@
         "https://openminds.om-i.org/types/PaymentModelType"
       ],
       "label": "Payment model",
+      "labelPlural": "Payment models",
       "minItems": 1,
       "name": "paymentModel",
       "nameForReverseLink": null,
+      "namePlural": "paymentModels",
       "type": "array",
       "uniqueItems": true
     },
