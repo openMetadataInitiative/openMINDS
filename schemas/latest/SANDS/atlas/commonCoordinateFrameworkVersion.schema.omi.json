@@ -222,7 +222,7 @@
     "https://openminds.om-i.org/props/isVersionOf": {
       "_instruction": "Add the version-independent information about this common coordinate framework.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/CommonCoordinateSpace"
+        "https://openminds.om-i.org/types/CommonCoordinateFramework"
       ],
       "label": "Is version of",
       "name": "isVersionOf",
