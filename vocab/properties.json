@@ -1910,9 +1910,9 @@
       }
     ],
     "label": "Authoring party",
-    "labelPlural": null,
+    "labelPlural": "Authoring parties",
     "name": "authoringParty",
-    "namePlural": null,
+    "namePlural": "authoringParties",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/UsageAgreement"
@@ -14097,9 +14097,9 @@
       }
     ],
     "label": "Modification profile",
-    "labelPlural": null,
+    "labelPlural": "Modification profiles",
     "name": "modificationProfile",
-    "namePlural": null,
+    "namePlural": "modificationProfiles",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/UsageAgreement"
@@ -16097,9 +16097,9 @@
       }
     ],
     "label": "Payment model",
-    "labelPlural": null,
+    "labelPlural": "Payment models",
     "name": "paymentModel",
-    "namePlural": null,
+    "namePlural": "paymentModels",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Accessibility"
@@ -20084,9 +20084,9 @@
       }
     ],
     "label": "Source",
-    "labelPlural": null,
+    "labelPlural": "Sources",
     "name": "source",
-    "namePlural": null,
+    "namePlural": "sources",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/UsageAgreement"
@@ -23020,9 +23020,9 @@
       }
     ],
     "label": "Usage condition",
-    "labelPlural": null,
+    "labelPlural": "Usage conditions",
     "name": "usageCondition",
-    "namePlural": null,
+    "namePlural": "usageConditions",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
