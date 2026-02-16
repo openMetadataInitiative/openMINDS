@@ -194,6 +194,9 @@
       "controlledTerms:ModificationForm",
       "controlledTerms:ModificationScope"
     ],
+    "personIdentifier": [
+      "core:ORCID"
+    ],
     "publicationReference": [
       "core:DOI",
       "core:HANDLE",
