@@ -89,13 +89,34 @@ Changes in computation/workflowRecipeVersion.schema.omi.json:
   - Field 'properties.props:keyword._linkedTypes' modified.
   - Field 'required' modified (value(s) added).
 
+Changes in controlledTerms/analysisTechnique.schema.omi.json:
+  - Field '_categories' modified (value(s) added).
+
 Changes in controlledTerms/biologicalOrder.schema.omi.json:
+  - Field '_categories' modified (value(s) added).
+
+Changes in controlledTerms/dataType.schema.omi.json:
+  - Field '_categories' modified (value(s) added).
+
+Changes in controlledTerms/experimentalApproach.schema.omi.json:
   - Field '_categories' modified (value(s) added).
 
 Changes in controlledTerms/molecularEntity.schema.omi.json:
   - Field '_categories' modified (value(s) added).
 
+Changes in controlledTerms/softwareApplicationCategory.schema.omi.json:
+  - Field '_categories' modified (value(s) added).
+
+Changes in controlledTerms/softwareFeature.schema.omi.json:
+  - Field '_categories' modified (value(s) added).
+
 Changes in controlledTerms/species.schema.omi.json:
+  - Field '_categories' modified (value(s) added).
+
+Changes in controlledTerms/technique.schema.omi.json:
+  - Field '_categories' modified (value(s) added).
+
+Changes in controlledTerms/termSuggestion.schema.omi.json:
   - Field '_categories' modified (value(s) added).
 
 Changes in core/data/copyright.schema.omi.json:

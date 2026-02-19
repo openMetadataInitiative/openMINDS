@@ -288,7 +288,14 @@
       "controlledTerms:Technique"
     ],
     "toolScope": [
-      "controlledTerms:OperationalApproach"
+      "controlledTerms:AnalysisTechnique",
+      "controlledTerms:DataType",
+      "controlledTerms:ExperimentalApproach",
+      "controlledTerms:OperationalApproach",
+      "controlledTerms:SoftwareApplicationCategory",
+      "controlledTerms:SoftwareFeature",
+      "controlledTerms:Technique",
+      "controlledTerms:TermSuggestion"
     ]
   },
   "v1.0": {
