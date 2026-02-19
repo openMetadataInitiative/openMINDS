@@ -1,0 +1,36 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/Dependency",
+  "label": "Dependency",
+  "name": "Dependency",
+  "properties": {
+    "https://openminds.om-i.org/props/failureImpact": {
+      "_instruction": "Add the impacts that failure of this dependency would have.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/DependencyImpact"
+      ],
+      "label": "Failure impact",
+      "minItems": 1,
+      "name": "failureImpact",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/fulfilledBy": {
+      "_instruction": "Enter the resource that fulfils this dependency.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Configuration",
+        "https://openminds.om-i.org/types/File",
+        "https://openminds.om-i.org/types/InterfaceVersion",
+        "https://openminds.om-i.org/types/SoftwareVersion",
+        "https://openminds.om-i.org/types/WebResource"
+      ],
+      "label": "Fulfilled by",
+      "name": "fulfilledBy",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/fulfilledBy"
+  ]
+}

@@ -28,8 +28,12 @@
     "controlledTerms/supranationalBody.schema.omi.json",
     "core/data/usageAgreement.schema.omi.json",
     "core/miscellaneous/accessibility.schema.omi.json",
+    "core/miscellaneous/dependency.schema.omi.json",
     "core/miscellaneous/geoCoordinates.schema.omi.json",
     "core/miscellaneous/location.schema.omi.json",
+    "core/products/interface.schema.omi.json",
+    "core/products/interfaceVersion.schema.omi.json",
+    "core/products/service.schema.omi.json",
     "SANDS/atlas/anatomicalAtlas.schema.omi.json",
     "SANDS/atlas/anatomicalAtlasVersion.schema.omi.json",
     "SANDS/atlas/commonCoordinateFramework.schema.omi.json",
@@ -38,6 +42,8 @@
   ],
   "removedFiles": [
     "controlledTerms/ethicsAssessment.schema.omi.json",
+    "core/products/webService.schema.omi.json",
+    "core/products/webServiceVersion.schema.omi.json",
     "SANDS/atlas/brainAtlas.schema.omi.json",
     "SANDS/atlas/brainAtlasVersion.schema.omi.json",
     "SANDS/atlas/commonCoordinateSpace.schema.omi.json",
@@ -463,23 +469,30 @@
     {
       "file": "core/products/softwareVersion.schema.omi.json",
       "addedAttributes": [
+        "properties.props:dependency",
+        "properties.props:implements",
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
         "properties.props:isVersionOf",
+        "properties.props:operatingDevice",
         "properties.props:publicationStatus",
+        "properties.props:scope",
         "properties.props:usageCondition"
       ],
       "removedAttributes": [
+        "properties.props:applicationCategory",
+        "properties.props:developer",
+        "properties.props:device",
+        "properties.props:feature",
+        "properties.props:hasPart",
         "properties.props:isAlternativeVersionOf",
         "properties.props:isNewVersionOf",
-        "properties.props:license"
+        "properties.props:license",
+        "properties.props:requirement"
       ],
       "modifiedAttributes": [
         {
           "property": "properties.props:accessibility._linkedTypes"
-        },
-        {
-          "property": "properties.props:hasPart._linkedTypes"
         },
         {
           "property": "properties.props:keyword._linkedTypes"
@@ -489,46 +502,6 @@
         }
       ],
       "schemaType": "SoftwareVersion"
-    },
-    {
-      "file": "core/products/webService.schema.omi.json",
-      "removedAttributes": [
-        "properties.props:hasVersion"
-      ],
-      "modifiedAttributes": [
-        {
-          "property": "required",
-          "modification": "value(s) removed"
-        }
-      ],
-      "schemaType": "WebService"
-    },
-    {
-      "file": "core/products/webServiceVersion.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:isPrecededBy",
-        "properties.props:isVariantOf",
-        "properties.props:isVersionOf",
-        "properties.props:publicationStatus",
-        "properties.props:usageCondition"
-      ],
-      "removedAttributes": [
-        "properties.props:isAlternativeVersionOf",
-        "properties.props:isNewVersionOf"
-      ],
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:accessibility._linkedTypes"
-        },
-        {
-          "property": "properties.props:keyword._linkedTypes"
-        },
-        {
-          "property": "required",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "WebServiceVersion"
     },
     {
       "file": "core/research/customPropertySet.schema.omi.json",
