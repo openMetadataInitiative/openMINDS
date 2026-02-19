@@ -166,6 +166,16 @@
       "schemaType": "WorkflowRecipeVersion"
     },
     {
+      "file": "controlledTerms/analysisTechnique.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "AnalysisTechnique"
+    },
+    {
       "file": "controlledTerms/biologicalOrder.schema.omi.json",
       "modifiedAttributes": [
         {
@@ -174,6 +184,26 @@
         }
       ],
       "schemaType": "BiologicalOrder"
+    },
+    {
+      "file": "controlledTerms/dataType.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "DataType"
+    },
+    {
+      "file": "controlledTerms/experimentalApproach.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "ExperimentalApproach"
     },
     {
       "file": "controlledTerms/molecularEntity.schema.omi.json",
@@ -186,6 +216,26 @@
       "schemaType": "MolecularEntity"
     },
     {
+      "file": "controlledTerms/softwareApplicationCategory.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "SoftwareApplicationCategory"
+    },
+    {
+      "file": "controlledTerms/softwareFeature.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "SoftwareFeature"
+    },
+    {
       "file": "controlledTerms/species.schema.omi.json",
       "modifiedAttributes": [
         {
@@ -194,6 +244,26 @@
         }
       ],
       "schemaType": "Species"
+    },
+    {
+      "file": "controlledTerms/technique.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "Technique"
+    },
+    {
+      "file": "controlledTerms/termSuggestion.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "TermSuggestion"
     },
     {
       "file": "core/data/copyright.schema.omi.json",
