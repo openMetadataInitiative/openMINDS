@@ -8763,6 +8763,31 @@
     "label": "Project",
     "name": "Project"
   },
+  "ProjectType": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Project type",
+    "name": "ProjectType"
+  },
   "PropertyValueList": {
     "backwardsCompatibility": {
       "latest": [
