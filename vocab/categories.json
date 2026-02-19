@@ -141,6 +141,7 @@
       "controlledTerms:OlfactoryStimulusType",
       "controlledTerms:OperatingDevice",
       "controlledTerms:OperatingSystem",
+      "controlledTerms:OperationalApproach",
       "controlledTerms:OpticalStimulusType",
       "controlledTerms:Organ",
       "controlledTerms:OrganismSubstance",
@@ -285,6 +286,9 @@
       "controlledTerms:StimulationApproach",
       "controlledTerms:StimulationTechnique",
       "controlledTerms:Technique"
+    ],
+    "toolScope": [
+      "controlledTerms:OperationalApproach"
     ]
   },
   "v1.0": {
