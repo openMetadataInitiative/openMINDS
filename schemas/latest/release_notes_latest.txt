@@ -28,8 +28,12 @@ Added files:
   - controlledTerms/supranationalBody.schema.omi.json
   - core/data/usageAgreement.schema.omi.json
   - core/miscellaneous/accessibility.schema.omi.json
+  - core/miscellaneous/dependency.schema.omi.json
   - core/miscellaneous/geoCoordinates.schema.omi.json
   - core/miscellaneous/location.schema.omi.json
+  - core/products/interface.schema.omi.json
+  - core/products/interfaceVersion.schema.omi.json
+  - core/products/service.schema.omi.json
   - neuroimaging/activity/functionalMRIAcquisition.schema.omi.json
   - neuroimaging/activity/structuralMRIAcquisition.schema.omi.json
   - neuroimaging/device/MRICoil.schema.omi.json
@@ -53,6 +57,8 @@ Removed files:
   - core/data/rasterImageStack.schema.omi.json
   - core/data/rasterVolume.schema.omi.json
   - core/data/rasterVolumeSequence.schema.omi.json
+  - core/products/webService.schema.omi.json
+  - core/products/webServiceVersion.schema.omi.json
   - SANDS/atlas/brainAtlas.schema.omi.json
   - SANDS/atlas/brainAtlasVersion.schema.omi.json
   - SANDS/atlas/commonCoordinateSpace.schema.omi.json
@@ -212,34 +218,27 @@ Changes in core/products/software.schema.omi.json:
   - Field 'required' modified (value(s) removed).
 
 Changes in core/products/softwareVersion.schema.omi.json:
+  - Field 'properties.props:applicationCategory' removed.
+  - Field 'properties.props:developer' removed.
+  - Field 'properties.props:device' removed.
+  - Field 'properties.props:feature' removed.
+  - Field 'properties.props:hasPart' removed.
   - Field 'properties.props:isAlternativeVersionOf' removed.
   - Field 'properties.props:isNewVersionOf' removed.
   - Field 'properties.props:license' removed.
+  - Field 'properties.props:requirement' removed.
+  - Field 'properties.props:dependency' added.
+  - Field 'properties.props:implements' added.
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:operatingDevice' added.
   - Field 'properties.props:publicationStatus' added.
+  - Field 'properties.props:scope' added.
   - Field 'properties.props:usageCondition' added.
   - Field 'properties.props:accessibility._linkedTypes' modified.
-  - Field 'properties.props:hasPart._linkedTypes' modified.
   - Field 'properties.props:keyword._linkedTypes' modified.
   - Field 'required' modified.
-
-Changes in core/products/webService.schema.omi.json:
-  - Field 'properties.props:hasVersion' removed.
-  - Field 'required' modified (value(s) removed).
-
-Changes in core/products/webServiceVersion.schema.omi.json:
-  - Field 'properties.props:isAlternativeVersionOf' removed.
-  - Field 'properties.props:isNewVersionOf' removed.
-  - Field 'properties.props:isPrecededBy' added.
-  - Field 'properties.props:isVariantOf' added.
-  - Field 'properties.props:isVersionOf' added.
-  - Field 'properties.props:publicationStatus' added.
-  - Field 'properties.props:usageCondition' added.
-  - Field 'properties.props:accessibility._linkedTypes' modified.
-  - Field 'properties.props:keyword._linkedTypes' modified.
-  - Field 'required' modified (value(s) added).
 
 Changes in core/research/customPropertySet.schema.omi.json:
   - Field 'properties.props:relevantFor._linkedTypes' modified (value(s) added).

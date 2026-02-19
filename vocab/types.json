@@ -3480,6 +3480,31 @@
     "label": "Dataset version",
     "name": "DatasetVersion"
   },
+  "Dependency": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Dependency",
+    "name": "Dependency"
+  },
   "DependencyImpact": {
     "backwardsCompatibility": {
       "latest": []
@@ -5675,6 +5700,56 @@
     ],
     "label": "Image stack",
     "name": "ImageStack"
+  },
+  "Interface": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Interface",
+    "name": "Interface"
+  },
+  "InterfaceVersion": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Interface version",
+    "name": "InterfaceVersion"
   },
   "Language": {
     "backwardsCompatibility": {
@@ -12612,9 +12687,6 @@
   },
   "WebService": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
       "v3.0": [],
       "v4.0": []
     },
@@ -12641,13 +12713,9 @@
       ],
       [
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
       "v3.0",
       "v4.0"
     ],
@@ -12656,7 +12724,6 @@
   },
   "WebServiceVersion": {
     "backwardsCompatibility": {
-      "latest": [],
       "v3.0": [],
       "v4.0": []
     },
@@ -12683,13 +12750,9 @@
       ],
       [
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
       "v3.0",
       "v4.0"
     ],

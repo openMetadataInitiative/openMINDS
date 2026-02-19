@@ -21,21 +21,6 @@
       "nameForReverseLink": null,
       "namePlural": "accessibilities"
     },
-    "https://openminds.om-i.org/props/applicationCategory": {
-      "_instruction": "Add all categories to which this software version belongs.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/SoftwareApplicationCategory"
-      ],
-      "description": "Distinct class that groups software programs which perform a similar task or set of tasks.",
-      "label": "Application category",
-      "labelPlural": "Application categories",
-      "minItems": 1,
-      "name": "applicationCategory",
-      "nameForReverseLink": null,
-      "namePlural": "applicationCategories",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.om-i.org/props/copyright": {
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/Copyright"
@@ -68,6 +53,18 @@
       "type": "array",
       "uniqueItems": true
     },
+    "https://openminds.om-i.org/props/dependency": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Dependency"
+      ],
+      "_instruction": "Add all dependencies of this software version.",
+      "label": "Dependency",
+      "minItems": 1,
+      "name": "dependency",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
     "https://openminds.om-i.org/props/description": {
       "_instruction": "Enter a description (or abstract) of this research product version. Note that this version specific description will overwrite the description for the overarching dataset.",
       "description": "Longer statement or account giving the characteristics of someone or something.",
@@ -78,41 +75,6 @@
       "name": "description",
       "namePlural": "descriptions",
       "type": "string"
-    },
-    "https://openminds.om-i.org/props/developer": {
-      "_belongsToCategory": [
-        "legalPerson"
-      ],
-      "_instruction": "Add all parties that developed this software version. Note that these developers will overwrite the developer list provided for the overarching software.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/Consortium",
-        "https://openminds.om-i.org/types/Organization",
-        "https://openminds.om-i.org/types/Person"
-      ],
-      "description": "Legal person that creates or improves products or services (e.g., software, applications, etc.).",
-      "label": "Developer",
-      "labelPlural": "Developers",
-      "minItems": 1,
-      "name": "developer",
-      "nameForReverseLink": null,
-      "namePlural": "developers",
-      "type": "array",
-      "uniqueItems": true
-    },
-    "https://openminds.om-i.org/props/device": {
-      "_instruction": "Add all operating devices compatible with this software version.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/OperatingDevice"
-      ],
-      "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
-      "label": "Device",
-      "labelPlural": "Devices",
-      "minItems": 1,
-      "name": "device",
-      "nameForReverseLink": null,
-      "namePlural": "devices",
-      "type": "array",
-      "uniqueItems": true
     },
     "https://openminds.om-i.org/props/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
@@ -127,21 +89,6 @@
       "name": "digitalIdentifier",
       "nameForReverseLink": null,
       "namePlural": "digitalIdentifiers"
-    },
-    "https://openminds.om-i.org/props/feature": {
-      "_instruction": "Add all distinguishing characteristics of this software version (e.g., performance, portability or functionality).",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/SoftwareFeature"
-      ],
-      "description": "Structure, form, or appearance that characterizes something or someone.",
-      "label": "Feature",
-      "labelPlural": "Features",
-      "minItems": 1,
-      "name": "feature",
-      "nameForReverseLink": null,
-      "namePlural": "features",
-      "type": "array",
-      "uniqueItems": true
     },
     "https://openminds.om-i.org/props/fullDocumentation": {
       "_instruction": "Add the publication or file that acts as the full documentation of this research product version.",
@@ -184,23 +131,6 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.om-i.org/props/hasPart": {
-      "_instruction": "Add all software versions that supplement this software version.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/ModelVersion",
-        "https://openminds.om-i.org/types/SoftwareVersion",
-        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion"
-      ],
-      "label": "Has part",
-      "labelPlural": "Has parts",
-      "minItems": 1,
-      "name": "hasPart",
-      "nameForReverseLink": null,
-      "namePlural": "hasParts",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.om-i.org/props/homepage": {
       "_formats": [
         "iri"
@@ -225,6 +155,18 @@
       "name": "howToCite",
       "namePlural": "howToCite",
       "type": "string"
+    },
+    "https://openminds.om-i.org/props/implements": {
+      "_instruction": "Add all interface versions that are implemented by this software version.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/InterfaceVersion"
+      ],
+      "label": "Implements",
+      "minItems": 1,
+      "name": "implements",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
     },
     "https://openminds.om-i.org/props/inputFormat": {
       "_instruction": "Add all content types that can be used as input by this software version.",
@@ -409,6 +351,18 @@
       "type": "array",
       "uniqueItems": true
     },
+    "https://openminds.om-i.org/props/operatingDevice": {
+      "_instruction": "Add all operating devices compatible with this software version.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/OperatingDevice"
+      ],
+      "label": "Operating device",
+      "minItems": 1,
+      "name": "operatingDevice",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
     "https://openminds.om-i.org/props/operatingSystem": {
       "_instruction": "Add all operating systems supported by this software version.",
       "_linkedTypes": [
@@ -528,19 +482,28 @@
       "nameForReverseLink": null,
       "namePlural": "repositories"
     },
-    "https://openminds.om-i.org/props/requirement": {
-      "_instruction": "Enter all requirements of this software version.",
-      "description": "Something essential to the existence, occurrence or function of something else.",
-      "formatting": "text/plain",
-      "items": {
-        "type": "string"
-      },
-      "label": "Requirement",
-      "labelPlural": "Requirements",
+    "https://openminds.om-i.org/props/scope": {
+      "_belongsToCategory": [
+        "toolScope"
+      ],
+      "_instruction": "Add terms that describe what this software version does.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnalysisTechnique",
+        "https://openminds.om-i.org/types/DataType",
+        "https://openminds.om-i.org/types/ExperimentalApproach",
+        "https://openminds.om-i.org/types/OperationalApproach",
+        "https://openminds.om-i.org/types/SoftwareApplicationCategory",
+        "https://openminds.om-i.org/types/SoftwareFeature",
+        "https://openminds.om-i.org/types/Technique",
+        "https://openminds.om-i.org/types/TermSuggestion"
+      ],
+      "description": "Extent of something.",
+      "label": "Scope",
+      "labelPlural": "Scopes",
       "minItems": 1,
-      "multiline": false,
-      "name": "requirement",
-      "namePlural": "requirements",
+      "name": "scope",
+      "nameForReverseLink": null,
+      "namePlural": "scopes",
       "type": "array",
       "uniqueItems": true
     },
@@ -613,15 +576,10 @@
   },
   "required": [
     "https://openminds.om-i.org/props/accessibility",
-    "https://openminds.om-i.org/props/applicationCategory",
-    "https://openminds.om-i.org/props/device",
-    "https://openminds.om-i.org/props/feature",
     "https://openminds.om-i.org/props/fullDocumentation",
     "https://openminds.om-i.org/props/isVersionOf",
-    "https://openminds.om-i.org/props/language",
-    "https://openminds.om-i.org/props/operatingSystem",
-    "https://openminds.om-i.org/props/programmingLanguage",
     "https://openminds.om-i.org/props/releaseDate",
+    "https://openminds.om-i.org/props/scope",
     "https://openminds.om-i.org/props/shortName",
     "https://openminds.om-i.org/props/versionIdentifier",
     "https://openminds.om-i.org/props/versionInnovation"

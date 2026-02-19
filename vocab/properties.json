@@ -227,6 +227,8 @@
           "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
           "https://openminds.om-i.org/types/Dataset",
           "https://openminds.om-i.org/types/DatasetVersion",
+          "https://openminds.om-i.org/types/Interface",
+          "https://openminds.om-i.org/types/InterfaceVersion",
           "https://openminds.om-i.org/types/LivePaper",
           "https://openminds.om-i.org/types/LivePaperVersion",
           "https://openminds.om-i.org/types/MetaDataModel",
@@ -237,8 +239,6 @@
           "https://openminds.om-i.org/types/SoftwareVersion",
           "https://openminds.om-i.org/types/ValidationTest",
           "https://openminds.om-i.org/types/ValidationTestVersion",
-          "https://openminds.om-i.org/types/WebService",
-          "https://openminds.om-i.org/types/WebServiceVersion",
           "https://openminds.om-i.org/types/WorkflowRecipe",
           "https://openminds.om-i.org/types/WorkflowRecipeVersion"
         ],
@@ -487,12 +487,12 @@
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
@@ -1713,9 +1713,6 @@
   "applicationCategory": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/SoftwareApplicationCategory"
-        ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory"
         ],
@@ -1754,9 +1751,6 @@
     "name": "applicationCategory",
     "namePlural": "applicationCategories",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/SoftwareVersion"
-      ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
       ],
@@ -3058,6 +3052,34 @@
       ]
     }
   },
+  "communicationProtocol": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/CommunicationProtocol"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Communication protocol",
+    "labelPlural": null,
+    "name": "communicationProtocol",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Interface"
+      ]
+    }
+  },
   "compensationCurrent": {
     "asEdge": {
       "canPointTo": {
@@ -3739,6 +3761,34 @@
       ]
     }
   },
+  "contribution": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/Contribution"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Contribution",
+    "labelPlural": null,
+    "name": "contribution",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Service"
+      ]
+    }
+  },
   "contributionType": {
     "asEdge": {
       "canPointTo": {
@@ -4224,6 +4274,7 @@
         "https://openminds.om-i.org/types/Chapter",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
@@ -4231,7 +4282,6 @@
         "https://openminds.om-i.org/types/ScholarlyArticle",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
@@ -4746,6 +4796,8 @@
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/Dataset",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/Interface",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/LivePaper",
         "https://openminds.om-i.org/types/LivePaperVersion",
@@ -4758,8 +4810,6 @@
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTest",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebService",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipe",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
@@ -5811,6 +5861,34 @@
       ]
     }
   },
+  "dependency": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/Dependency"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Dependency",
+    "labelPlural": null,
+    "name": "dependency",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/SoftwareVersion"
+      ]
+    }
+  },
   "descendedFrom": {
     "asEdge": {
       "canPointTo": {
@@ -6073,6 +6151,8 @@
         "https://openminds.om-i.org/types/GustatoryStimulusType",
         "https://openminds.om-i.org/types/Handedness",
         "https://openminds.om-i.org/types/HardwareSystem",
+        "https://openminds.om-i.org/types/Interface",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/Language",
         "https://openminds.om-i.org/types/Laterality",
         "https://openminds.om-i.org/types/LaunchConfiguration",
@@ -6128,6 +6208,7 @@
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/SemanticDataType",
         "https://openminds.om-i.org/types/Service",
+        "https://openminds.om-i.org/types/Service",
         "https://openminds.om-i.org/types/Setup",
         "https://openminds.om-i.org/types/SetupType",
         "https://openminds.om-i.org/types/Simulation",
@@ -6162,8 +6243,6 @@
         "https://openminds.om-i.org/types/ValidationTestVersion",
         "https://openminds.om-i.org/types/VisualStimulusType",
         "https://openminds.om-i.org/types/Visualization",
-        "https://openminds.om-i.org/types/WebService",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipe",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
@@ -6683,11 +6762,8 @@
         "https://openminds.om-i.org/types/Model",
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/Software",
-        "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTest",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebService",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipe",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
@@ -6749,7 +6825,6 @@
           "https://openminds.om-i.org/types/MRICoilUsage",
           "https://openminds.om-i.org/types/MRIScanner",
           "https://openminds.om-i.org/types/MRIScannerUsage",
-          "https://openminds.om-i.org/types/OperatingDevice",
           "https://openminds.om-i.org/types/Pipette",
           "https://openminds.om-i.org/types/PipetteUsage",
           "https://openminds.om-i.org/types/SlicingDevice",
@@ -6820,7 +6895,6 @@
         "https://openminds.om-i.org/types/PipetteUsage",
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/SlicingDeviceUsage",
-        "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueSampleSlicing"
       ],
@@ -8412,6 +8486,34 @@
       ]
     }
   },
+  "failureImpact": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/DependencyImpact"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Failure impact",
+    "labelPlural": null,
+    "name": "failureImpact",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Dependency"
+      ]
+    }
+  },
   "familyName": {
     "asString": {
       "formatting": "text/plain",
@@ -8467,9 +8569,6 @@
   "feature": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/SoftwareFeature"
-        ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
         ],
@@ -8508,9 +8607,6 @@
     "name": "feature",
     "namePlural": "features",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/SoftwareVersion"
-      ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
       ],
@@ -8897,6 +8993,38 @@
       ]
     }
   },
+  "fulfilledBy": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/Configuration",
+          "https://openminds.om-i.org/types/File",
+          "https://openminds.om-i.org/types/InterfaceVersion",
+          "https://openminds.om-i.org/types/SoftwareVersion",
+          "https://openminds.om-i.org/types/WebResource"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Fulfilled by",
+    "labelPlural": null,
+    "name": "fulfilledBy",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Dependency"
+      ]
+    }
+  },
   "fullDocumentation": {
     "asEdge": {
       "canPointTo": {
@@ -8958,12 +9086,13 @@
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/Service",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
@@ -9047,6 +9176,8 @@
         "https://openminds.om-i.org/types/Consortium",
         "https://openminds.om-i.org/types/Dataset",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/Interface",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/License",
         "https://openminds.om-i.org/types/LivePaper",
         "https://openminds.om-i.org/types/LivePaperVersion",
@@ -9056,13 +9187,12 @@
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/Organization",
         "https://openminds.om-i.org/types/Project",
+        "https://openminds.om-i.org/types/Service",
         "https://openminds.om-i.org/types/Software",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/UsageAgreement",
         "https://openminds.om-i.org/types/ValidationTest",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebService",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipe",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
@@ -9275,6 +9405,7 @@
         "https://openminds.om-i.org/types/Chapter",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
@@ -9282,7 +9413,6 @@
         "https://openminds.om-i.org/types/ScholarlyArticle",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
@@ -10140,6 +10270,8 @@
           "https://openminds.om-i.org/types/ElectrodeArray",
           "https://openminds.om-i.org/types/File",
           "https://openminds.om-i.org/types/FileBundle",
+          "https://openminds.om-i.org/types/Interface",
+          "https://openminds.om-i.org/types/InterfaceVersion",
           "https://openminds.om-i.org/types/LivePaper",
           "https://openminds.om-i.org/types/LivePaperVersion",
           "https://openminds.om-i.org/types/MRICoil",
@@ -10155,8 +10287,6 @@
           "https://openminds.om-i.org/types/SoftwareVersion",
           "https://openminds.om-i.org/types/ValidationTest",
           "https://openminds.om-i.org/types/ValidationTestVersion",
-          "https://openminds.om-i.org/types/WebService",
-          "https://openminds.om-i.org/types/WebServiceVersion",
           "https://openminds.om-i.org/types/WorkflowRecipe",
           "https://openminds.om-i.org/types/WorkflowRecipeVersion"
         ],
@@ -10249,8 +10379,6 @@
         "https://openminds.om-i.org/types/Project",
         "https://openminds.om-i.org/types/ResearchProductGroup",
         "https://openminds.om-i.org/types/Setup",
-        "https://openminds.om-i.org/types/SoftwareVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v3.0": [
@@ -10736,6 +10864,8 @@
         "https://openminds.om-i.org/types/Consortium",
         "https://openminds.om-i.org/types/Dataset",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/Interface",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LivePaper",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModel",
@@ -10748,8 +10878,6 @@
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTest",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebService",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipe",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
@@ -10945,18 +11073,19 @@
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/Dataset",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/Interface",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LivePaper",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModel",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/Model",
         "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/Service",
         "https://openminds.om-i.org/types/Software",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTest",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebService",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipe",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
@@ -11124,6 +11253,34 @@
         "https://openminds.om-i.org/types/RRID",
         "https://openminds.om-i.org/types/SWHID",
         "https://openminds.om-i.org/types/StockNumber"
+      ]
+    }
+  },
+  "implements": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/InterfaceVersion"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Implements",
+    "labelPlural": null,
+    "name": "implements",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/SoftwareVersion"
       ]
     }
   },
@@ -11485,8 +11642,7 @@
     "namePlural": "inputFormats",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/SoftwareVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion"
+        "https://openminds.om-i.org/types/SoftwareVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
@@ -11698,6 +11854,34 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
+      ]
+    }
+  },
+  "interfaceType": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/CommunicationInterfaceType"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Interface type",
+    "labelPlural": null,
+    "name": "interfaceType",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Interface"
       ]
     }
   },
@@ -12805,12 +12989,12 @@
           "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
           "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
           "https://openminds.om-i.org/types/DatasetVersion",
+          "https://openminds.om-i.org/types/InterfaceVersion",
           "https://openminds.om-i.org/types/LivePaperVersion",
           "https://openminds.om-i.org/types/MetaDataModelVersion",
           "https://openminds.om-i.org/types/ModelVersion",
           "https://openminds.om-i.org/types/SoftwareVersion",
           "https://openminds.om-i.org/types/ValidationTestVersion",
-          "https://openminds.om-i.org/types/WebServiceVersion",
           "https://openminds.om-i.org/types/WorkflowRecipeVersion"
         ]
       },
@@ -12834,12 +13018,12 @@
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ]
     }
@@ -12851,12 +13035,12 @@
           "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
           "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
           "https://openminds.om-i.org/types/DatasetVersion",
+          "https://openminds.om-i.org/types/InterfaceVersion",
           "https://openminds.om-i.org/types/LivePaperVersion",
           "https://openminds.om-i.org/types/MetaDataModelVersion",
           "https://openminds.om-i.org/types/ModelVersion",
           "https://openminds.om-i.org/types/SoftwareVersion",
           "https://openminds.om-i.org/types/ValidationTestVersion",
-          "https://openminds.om-i.org/types/WebServiceVersion",
           "https://openminds.om-i.org/types/WorkflowRecipeVersion"
         ]
       },
@@ -12880,12 +13064,12 @@
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ]
     }
@@ -12897,13 +13081,13 @@
           "https://openminds.om-i.org/types/AnatomicalAtlas",
           "https://openminds.om-i.org/types/CommonCoordinateFramework",
           "https://openminds.om-i.org/types/Dataset",
+          "https://openminds.om-i.org/types/Interface",
           "https://openminds.om-i.org/types/LivePaper",
           "https://openminds.om-i.org/types/MetaDataModel",
           "https://openminds.om-i.org/types/Model",
           "https://openminds.om-i.org/types/ParcellationEntity",
           "https://openminds.om-i.org/types/Software",
           "https://openminds.om-i.org/types/ValidationTest",
-          "https://openminds.om-i.org/types/WebService",
           "https://openminds.om-i.org/types/WorkflowRecipe"
         ]
       },
@@ -12927,13 +13111,13 @@
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/ParcellationEntityVersion",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ]
     }
@@ -13322,14 +13506,15 @@
         "https://openminds.om-i.org/types/Chapter",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/ScholarlyArticle",
+        "https://openminds.om-i.org/types/Service",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
@@ -16600,6 +16785,34 @@
       ]
     }
   },
+  "operatingDevice": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/OperatingDevice"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Operating device",
+    "labelPlural": null,
+    "name": "operatingDevice",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/SoftwareVersion"
+      ]
+    }
+  },
   "operatingSystem": {
     "asEdge": {
       "canPointTo": {
@@ -16929,12 +17142,12 @@
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
@@ -17233,8 +17446,7 @@
     "namePlural": "outputFormats",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/SoftwareVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion"
+        "https://openminds.om-i.org/types/SoftwareVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
@@ -19280,12 +19492,12 @@
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ]
     }
@@ -20195,12 +20407,13 @@
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/Service",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
@@ -20535,12 +20748,12 @@
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
@@ -20742,12 +20955,12 @@
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
@@ -20877,7 +21090,6 @@
     "asString": {
       "formatting": "text/plain",
       "inVersions": [
-        "latest",
         "v1.0",
         "v2.0",
         "v3.0",
@@ -20908,9 +21120,6 @@
     "name": "requirement",
     "namePlural": "requirements",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/SoftwareVersion"
-      ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
       ],
@@ -21072,7 +21281,15 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/ModelScope"
+          "https://openminds.om-i.org/types/AnalysisTechnique",
+          "https://openminds.om-i.org/types/DataType",
+          "https://openminds.om-i.org/types/ExperimentalApproach",
+          "https://openminds.om-i.org/types/ModelScope",
+          "https://openminds.om-i.org/types/OperationalApproach",
+          "https://openminds.om-i.org/types/SoftwareApplicationCategory",
+          "https://openminds.om-i.org/types/SoftwareFeature",
+          "https://openminds.om-i.org/types/Technique",
+          "https://openminds.om-i.org/types/TermSuggestion"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/ModelScope"
@@ -21114,6 +21331,8 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Model",
+        "https://openminds.om-i.org/types/Service",
+        "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTest"
       ],
       "v1.0": [
@@ -21671,6 +21890,8 @@
         "https://openminds.om-i.org/types/Consortium",
         "https://openminds.om-i.org/types/Dataset",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/Interface",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/License",
         "https://openminds.om-i.org/types/LivePaper",
         "https://openminds.om-i.org/types/LivePaperVersion",
@@ -21680,13 +21901,12 @@
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/Organization",
         "https://openminds.om-i.org/types/Project",
+        "https://openminds.om-i.org/types/Service",
         "https://openminds.om-i.org/types/Software",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/UsageAgreement",
         "https://openminds.om-i.org/types/ValidationTest",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebService",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipe",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
@@ -22410,7 +22630,8 @@
           "https://openminds.om-i.org/types/Configuration",
           "https://openminds.om-i.org/types/File",
           "https://openminds.om-i.org/types/FileBundle",
-          "https://openminds.om-i.org/types/PropertyValueList"
+          "https://openminds.om-i.org/types/PropertyValueList",
+          "https://openminds.om-i.org/types/WebResource"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/Configuration",
@@ -22465,7 +22686,8 @@
         "https://openminds.om-i.org/types/AtlasAnnotation",
         "https://openminds.om-i.org/types/ContentType",
         "https://openminds.om-i.org/types/CustomAnnotation",
-        "https://openminds.om-i.org/types/EphysStimulus"
+        "https://openminds.om-i.org/types/EphysStimulus",
+        "https://openminds.om-i.org/types/InterfaceVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/ContentType"
@@ -24023,13 +24245,14 @@
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/Service",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/UsageAgreement",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
@@ -25493,12 +25716,12 @@
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ]
     }
@@ -26030,6 +26253,7 @@
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/HardwareSystem",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
@@ -26038,7 +26262,6 @@
         "https://openminds.om-i.org/types/ScholarlyArticle",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
@@ -26137,13 +26360,13 @@
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/ParcellationEntityVersion",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
