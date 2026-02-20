@@ -29,7 +29,7 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Iri",
+    "label": "IRI",
     "labelPlural": "IRIs",
     "name": "IRI",
     "namePlural": "IRIs",
@@ -96,7 +96,7 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Url",
+    "label": "URL",
     "labelPlural": "URLs",
     "name": "URL",
     "namePlural": "URLs",
@@ -135,7 +135,7 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Abbreviation",
+    "label": "abbreviation",
     "labelPlural": "Abbreviations",
     "name": "abbreviation",
     "namePlural": "abbreviations",
@@ -239,7 +239,7 @@
           "https://openminds.om-i.org/types/WorkflowRecipeVersion"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "subjectOf"
     },
     "description": null,
     "hasNamespace": [
@@ -257,8 +257,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "About",
-    "labelPlural": "About",
+    "label": "about",
+    "labelPlural": "about",
     "name": "about",
     "namePlural": "about",
     "usedIn": {
@@ -305,8 +305,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Abstract",
-    "labelPlural": "Abstracts",
+    "label": "abstract",
+    "labelPlural": "abstracts",
     "name": "abstract",
     "namePlural": "abstracts",
     "usedIn": {
@@ -349,7 +349,7 @@
           "https://openminds.om-i.org/types/ModelAbstractionLevel"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isAbstractionLevelOf"
     },
     "description": "Extent of simplification of physical, spatial, or temporal details or attributes in the study of objects or systems.",
     "hasNamespace": [
@@ -369,8 +369,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Abstraction level",
-    "labelPlural": "Abstraction levels",
+    "label": "abstraction level",
+    "labelPlural": "abstraction levels",
     "name": "abstractionLevel",
     "namePlural": "abstractionLevels",
     "usedIn": {
@@ -410,7 +410,7 @@
           "https://openminds.om-i.org/types/ProductAccessibility"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isAccessibilityOf"
     },
     "description": "Level to which something is accessible to someone or something.",
     "hasNamespace": [
@@ -430,8 +430,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Accessibility",
-    "labelPlural": "Accessibilities",
+    "label": "accessibility",
+    "labelPlural": "accessibilities",
     "name": "accessibility",
     "namePlural": "accessibilities",
     "usedIn": {
@@ -515,8 +515,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Acknowledgement",
-    "labelPlural": "Acknowledgements",
+    "label": "acknowledgement",
+    "labelPlural": "acknowledgements",
     "name": "acknowledgement",
     "namePlural": "acknowledgements",
     "usedIn": {
@@ -553,7 +553,7 @@
           "https://openminds.om-i.org/types/Terminology"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "hasTermSuggestion"
     },
     "description": "Reference to an existing terminology (distinct class to group related terms).",
     "hasNamespace": [
@@ -572,8 +572,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Add existing terminology",
-    "labelPlural": "Add existing terminologies",
+    "label": "add existing terminology",
+    "labelPlural": "add existing terminologies",
     "name": "addExistingTerminology",
     "namePlural": "addExistingTerminologies",
     "usedIn": {
@@ -621,8 +621,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Additional remarks",
-    "labelPlural": "Additional remarks",
+    "label": "additional remarks",
+    "labelPlural": "additional remarks",
     "name": "additionalRemarks",
     "namePlural": "additionalRemarks",
     "usedIn": {
@@ -697,7 +697,7 @@
       ],
       "multiline": false
     },
-    "description": null,
+    "description": "A description of a location, typically including a street name, house number, city, and postal code, used to identify a specific place for navigation or mail delivery.",
     "hasNamespace": [
       {
         "inVersions": [
@@ -706,10 +706,10 @@
         "namespace": "https://openminds.om-i.org/props/"
       }
     ],
-    "label": "Address",
-    "labelPlural": null,
+    "label": "address",
+    "labelPlural": "addresses",
     "name": "address",
-    "namePlural": null,
+    "namePlural": "addresses",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Location"
@@ -735,7 +735,7 @@
           "https://openminds.om-i.org/types/Affiliation"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isAffiliationOf"
     },
     "description": "Declaration of a person being closely associated to an organization.",
     "hasNamespace": [
@@ -755,8 +755,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Affiliation",
-    "labelPlural": "Affiliations",
+    "label": "affiliation",
+    "labelPlural": "affiliations",
     "name": "affiliation",
     "namePlural": "affiliations",
     "usedIn": {
@@ -804,7 +804,7 @@
           "https://openminds.om-i.org/types/QuantitativeValueRange"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isAgeOf"
     },
     "description": "Time of life or existence at which some particular qualification, capacity or event arises.",
     "hasNamespace": [
@@ -824,8 +824,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Age",
-    "labelPlural": "Ages",
+    "label": "age",
+    "labelPlural": "ages",
     "name": "age",
     "namePlural": "ages",
     "usedIn": {
@@ -880,7 +880,7 @@
           "https://openminds.om-i.org/types/AgeCategory"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isAgeCategoryOf"
     },
     "description": "Distinct life cycle class that is defined by a similar age or age range (developmental stage) within a group of individual beings.",
     "hasNamespace": [
@@ -900,8 +900,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Age category",
-    "labelPlural": "Age categories",
+    "label": "age category",
+    "labelPlural": "age categories",
     "name": "ageCategory",
     "namePlural": "ageCategories",
     "usedIn": {
@@ -957,8 +957,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Algorithm",
-    "labelPlural": "Algorithms",
+    "label": "algorithm",
+    "labelPlural": "algorithms",
     "name": "algorithm",
     "namePlural": "algorithms",
     "usedIn": {
@@ -989,7 +989,7 @@
       ],
       "multiline": false
     },
-    "description": null,
+    "description": "An additional identifier for a resource or user that is not the primary one.",
     "hasNamespace": [
       {
         "inVersions": [
@@ -1005,8 +1005,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Alternate identifier",
-    "labelPlural": "Alternate identifiers",
+    "label": "alternate identifier",
+    "labelPlural": "alternate identifiers",
     "name": "alternateIdentifier",
     "namePlural": "alternateIdentifiers",
     "usedIn": {
@@ -1031,7 +1031,7 @@
       ],
       "multiline": false
     },
-    "description": null,
+    "description": "A secondary name used to identify a person or entity in place of their primary or official name.",
     "hasNamespace": [
       {
         "inVersions": [
@@ -1047,8 +1047,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Alternate name",
-    "labelPlural": "Alternate names",
+    "label": "alternate name",
+    "labelPlural": "alternate names",
     "name": "alternateName",
     "namePlural": "alternateNames",
     "usedIn": {
@@ -1082,9 +1082,9 @@
           "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isAmountOf"
     },
-    "description": null,
+    "description": "The total extent, quantity, or value of something, particularly for things that are not individually counted, like mass or time.",
     "hasNamespace": [
       {
         "inVersions": [
@@ -1100,8 +1100,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Amount",
-    "labelPlural": "Amounts",
+    "label": "amount",
+    "labelPlural": "amounts",
     "name": "amount",
     "namePlural": "amounts",
     "usedIn": {
@@ -1135,7 +1135,7 @@
           "https://openminds.om-i.org/types/AnatomicalAxesOrientation"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isAnatomicalAxesOrientationFor"
     },
     "description": "Relation between reference planes used in anatomy and mathematics.",
     "hasNamespace": [
@@ -1155,8 +1155,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Anatomical axes orientation",
-    "labelPlural": "Anatomical axes orientations",
+    "label": "anatomical axes orientation",
+    "labelPlural": "anatomical axes orientations",
     "name": "anatomicalAxesOrientation",
     "namePlural": "anatomicalAxesOrientations",
     "usedIn": {
@@ -1188,7 +1188,7 @@
           "https://openminds.ebrains.eu/sands/AnatomicalEntity"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isAnatomicalEntityOf"
     },
     "description": "Physical component of a body, organ, or tissue.",
     "hasNamespace": [
@@ -1199,8 +1199,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Anatomical entity",
-    "labelPlural": "Anatomical entities",
+    "label": "anatomical entity",
+    "labelPlural": "anatomical entities",
     "name": "anatomicalEntity",
     "namePlural": "anatomicalEntities",
     "usedIn": {
@@ -1249,7 +1249,7 @@
           "https://openminds.om-i.org/types/UBERONParcellation"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isAnatomicalLocationFor"
     },
     "description": null,
     "hasNamespace": [
@@ -1268,8 +1268,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Anatomical location",
-    "labelPlural": "Anatomical locations",
+    "label": "anatomical location",
+    "labelPlural": "anatomical locations",
     "name": "anatomicalLocation",
     "namePlural": "anatomicalLocations",
     "usedIn": {
@@ -1331,7 +1331,7 @@
           "https://openminds.om-i.org/types/UBERONParcellation"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "arrayAtAnatomicalLocation"
     },
     "description": null,
     "hasNamespace": [
@@ -1349,8 +1349,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Anatomical location of array",
-    "labelPlural": "Anatomical locations of arrays",
+    "label": "anatomical location of array",
+    "labelPlural": "anatomical locations of arrays",
     "name": "anatomicalLocationOfArray",
     "namePlural": "anatomicalLocationsOfArrays",
     "usedIn": {
@@ -1400,7 +1400,7 @@
           "https://openminds.om-i.org/types/UBERONParcellation"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "electrodesAtAnatomicalLocation"
     },
     "description": null,
     "hasNamespace": [
@@ -1418,8 +1418,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Anatomical location of electrodes",
-    "labelPlural": "Anatomical locations of electrodes",
+    "label": "anatomical location of electrodes",
+    "labelPlural": "anatomical locations of electrodes",
     "name": "anatomicalLocationOfElectrodes",
     "namePlural": "anatomicalLocationsOfElectrodes",
     "usedIn": {
@@ -1469,7 +1469,7 @@
           "https://openminds.om-i.org/types/UBERONParcellation"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isAnatomicalTargetOf"
     },
     "description": null,
     "hasNamespace": [
@@ -1487,8 +1487,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Anatomical target",
-    "labelPlural": "Anatomical targets",
+    "label": "anatomical target",
+    "labelPlural": "anatomical targets",
     "name": "anatomicalTarget",
     "namePlural": "anatomicalTargets",
     "usedIn": {
@@ -1516,7 +1516,7 @@
           "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isAnchorPointOf"
     },
     "description": null,
     "hasNamespace": [
@@ -1534,8 +1534,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Anchor point",
-    "labelPlural": "Anchor points",
+    "label": "anchor point",
+    "labelPlural": "anchor points",
     "name": "anchorPoint",
     "namePlural": "anchorPoints",
     "usedIn": {
@@ -1563,7 +1563,7 @@
           "https://openminds.ebrains.eu/sands/Annotation"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isAnnotationSetOf"
     },
     "description": "Collection of notes or markings, each added by way of comment or explanation.",
     "hasNamespace": [
@@ -1574,8 +1574,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Annotation set",
-    "labelPlural": "Annotation sets",
+    "label": "annotation set",
+    "labelPlural": "annotation sets",
     "name": "annotationSet",
     "namePlural": "annotationSets",
     "usedIn": {
@@ -1600,7 +1600,7 @@
           "https://openminds.om-i.org/types/SoftwareApplicationCategory"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isApplicationCategoryOf"
     },
     "description": "Distinct class that groups software programs which perform a similar task or set of tasks.",
     "hasNamespace": [
@@ -1620,8 +1620,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Application category",
-    "labelPlural": "Application categories",
+    "label": "application category",
+    "labelPlural": "application categories",
     "name": "applicationCategory",
     "namePlural": "applicationCategories",
     "usedIn": {
@@ -1665,8 +1665,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Argument",
-    "labelPlural": "Arguments",
+    "label": "argument",
+    "labelPlural": "arguments",
     "name": "argument",
     "namePlural": "arguments",
     "usedIn": {
@@ -1694,7 +1694,7 @@
           "https://openminds.om-i.org/types/AccountInformation"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isAccountOf"
     },
     "description": null,
     "hasNamespace": [
@@ -1712,8 +1712,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Associated account",
-    "labelPlural": "Associated accounts",
+    "label": "associated account",
+    "labelPlural": "associated accounts",
     "name": "associatedAccount",
     "namePlural": "associatedAccounts",
     "usedIn": {
@@ -1744,7 +1744,7 @@
           "https://openminds.om-i.org/types/TissueSampleAttribute"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isAttributeOf"
     },
     "description": null,
     "hasNamespace": [
@@ -1762,8 +1762,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Attribute",
-    "labelPlural": "Attributes",
+    "label": "attribute",
+    "labelPlural": "attributes",
     "name": "attribute",
     "namePlural": "attributes",
     "usedIn": {
@@ -1814,7 +1814,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isAuthorOf"
     },
     "description": "Creator of a literary or creative work, as well as a dataset publication.",
     "hasNamespace": [
@@ -1834,8 +1834,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Author",
-    "labelPlural": "Authors",
+    "label": "author",
+    "labelPlural": "authors",
     "name": "author",
     "namePlural": "authors",
     "usedIn": {
@@ -1947,8 +1947,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Award number",
-    "labelPlural": "Award numbers",
+    "label": "award number",
+    "labelPlural": "award numbers",
     "name": "awardNumber",
     "namePlural": "awardNumbers",
     "usedIn": {
@@ -1999,8 +1999,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Award title",
-    "labelPlural": "Award titles",
+    "label": "award title",
+    "labelPlural": "award titles",
     "name": "awardTitle",
     "namePlural": "awardTitles",
     "usedIn": {
@@ -2040,7 +2040,7 @@
           "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isAxisOriginFor"
     },
     "description": "Special point in a coordinate system used as a fixed point of reference for the geometry of the surrounding space.",
     "hasNamespace": [
@@ -2060,8 +2060,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Axes origin",
-    "labelPlural": "Axes origins",
+    "label": "axes origin",
+    "labelPlural": "axes origins",
     "name": "axesOrigin",
     "namePlural": "axesOrigins",
     "usedIn": {
@@ -2099,7 +2099,7 @@
           "https://openminds.om-i.org/types/Strain"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isBackgroundStrainOf"
     },
     "description": null,
     "hasNamespace": [
@@ -2117,8 +2117,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Background strain",
-    "labelPlural": "Background strains",
+    "label": "background strain",
+    "labelPlural": "background strains",
     "name": "backgroundStrain",
     "namePlural": "backgroundStrains",
     "usedIn": {
@@ -2149,7 +2149,7 @@
           "https://openminds.om-i.org/types/QuantitativeValueRange"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isBathTemperatureOf"
     },
     "description": null,
     "hasNamespace": [
@@ -2167,8 +2167,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Bath temperature",
-    "labelPlural": "Bath temperatures",
+    "label": "bath temperature",
+    "labelPlural": "bath temperatures",
     "name": "bathTemperature",
     "namePlural": "bathTemperatures",
     "usedIn": {
@@ -2196,7 +2196,7 @@
           "https://openminds.om-i.org/types/BehavioralProtocol"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "usedIn"
     },
     "description": null,
     "hasNamespace": [
@@ -2214,8 +2214,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Behavioral protocol",
-    "labelPlural": "Behavioral protocols",
+    "label": "behavioral protocol",
+    "labelPlural": "behavioral protocols",
     "name": "behavioralProtocol",
     "namePlural": "behavioralProtocols",
     "usedIn": {
@@ -2243,7 +2243,7 @@
           "https://openminds.ebrains.eu/controlledTerms/BehavioralTask"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "usedIn"
     },
     "description": "Specific set of defined activities (or their absence) that should be performed (or avoided) by a subject.",
     "hasNamespace": [
@@ -2255,8 +2255,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Behavioral task",
-    "labelPlural": "Behavioral tasks",
+    "label": "behavioral task",
+    "labelPlural": "behavioral tasks",
     "name": "behavioralTask",
     "namePlural": "behavioralTasks",
     "usedIn": {
@@ -2279,7 +2279,7 @@
           "https://openminds.ebrains.eu/sands/CoordinatePoint"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isBestViewPointOf"
     },
     "description": "Coordinate point from which you get the best view of something.",
     "hasNamespace": [
@@ -2291,8 +2291,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Best view point",
-    "labelPlural": "Best viewpoints",
+    "label": "best view point",
+    "labelPlural": "best view points",
     "name": "bestViewPoint",
     "namePlural": "bestViewPoints",
     "usedIn": {
@@ -2324,7 +2324,7 @@
           "https://openminds.om-i.org/types/BiologicalSex"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isBiologicalSexOf"
     },
     "description": "Differentiation of individuals of most species (animals and plants) based on the type of gametes they produce.",
     "hasNamespace": [
@@ -2344,8 +2344,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Biological sex",
-    "labelPlural": "Biological sexes",
+    "label": "biological sex",
+    "labelPlural": "biological sexes",
     "name": "biologicalSex",
     "namePlural": "biologicalSexes",
     "usedIn": {
@@ -2394,7 +2394,7 @@
           "https://openminds.om-i.org/types/BreedingType"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isBreedingTypeOf"
     },
     "description": null,
     "hasNamespace": [
@@ -2412,8 +2412,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Breeding type",
-    "labelPlural": "Breeding types",
+    "label": "breeding type",
+    "labelPlural": "breeding types",
     "name": "breedingType",
     "namePlural": "breedingTypes",
     "usedIn": {
@@ -2441,7 +2441,7 @@
           "https://openminds.om-i.org/types/CoordinatePoint"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isCameraPositionFor"
     },
     "description": null,
     "hasNamespace": [
@@ -2459,8 +2459,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Camera position",
-    "labelPlural": "Camera positions",
+    "label": "camera position",
+    "labelPlural": "camera positions",
     "name": "cameraPosition",
     "namePlural": "cameraPositions",
     "usedIn": {
@@ -2489,7 +2489,7 @@
           "https://openminds.om-i.org/types/Channel"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isChannelOf"
     },
     "description": null,
     "hasNamespace": [
@@ -2507,8 +2507,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Channel",
-    "labelPlural": "Channels",
+    "label": "channel",
+    "labelPlural": "channels",
     "name": "channel",
     "namePlural": "channels",
     "usedIn": {
@@ -2543,7 +2543,7 @@
           "https://openminds.om-i.org/types/MolecularEntity"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isChemicalProductOf"
     },
     "description": null,
     "hasNamespace": [
@@ -2561,8 +2561,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Chemical product",
-    "labelPlural": "Chemical products",
+    "label": "chemical product",
+    "labelPlural": "chemical products",
     "name": "chemicalProduct",
     "namePlural": "chemicalProducts",
     "usedIn": {
@@ -2590,7 +2590,7 @@
           "https://openminds.om-i.org/types/Measurement"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isChlorideReversalPotentialOf"
     },
     "description": null,
     "hasNamespace": [
@@ -2608,8 +2608,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Chloride reversal potential",
-    "labelPlural": "Chloride reversal potentials",
+    "label": "chloride reversal potential",
+    "labelPlural": "chloride reversal potentials",
     "name": "chlorideReversalPotential",
     "namePlural": "chlorideReversalPotentials",
     "usedIn": {
@@ -2640,7 +2640,7 @@
           "https://openminds.om-i.org/types/ISBN"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "citedIn"
     },
     "description": null,
     "hasNamespace": [
@@ -2658,8 +2658,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Cited publication",
-    "labelPlural": "Cited publications",
+    "label": "cited publication",
+    "labelPlural": "cited publications",
     "name": "citedPublication",
     "namePlural": "citedPublications",
     "usedIn": {
@@ -2709,8 +2709,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Comment",
-    "labelPlural": "Comments",
+    "label": "comment",
+    "labelPlural": "comments",
     "name": "comment",
     "namePlural": "comments",
     "usedIn": {
@@ -2738,7 +2738,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "comment"
     },
     "description": null,
     "hasNamespace": [
@@ -2756,8 +2756,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Commenter",
-    "labelPlural": "Commenters",
+    "label": "commenter",
+    "labelPlural": "commenters",
     "name": "commenter",
     "namePlural": "commenters",
     "usedIn": {
@@ -2813,7 +2813,7 @@
           "https://openminds.om-i.org/types/Measurement"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isCompensationCurrentOf"
     },
     "description": null,
     "hasNamespace": [
@@ -2831,8 +2831,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Compensation current",
-    "labelPlural": "Compensation currents",
+    "label": "compensation current",
+    "labelPlural": "compensation currents",
     "name": "compensationCurrent",
     "namePlural": "compensationCurrents",
     "usedIn": {
@@ -2866,7 +2866,7 @@
           "https://openminds.om-i.org/types/MolecularEntity"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isConductorMaterialOf"
     },
     "description": null,
     "hasNamespace": [
@@ -2884,8 +2884,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Conductor material",
-    "labelPlural": "Conductor materials",
+    "label": "conductor material",
+    "labelPlural": "conductor materials",
     "name": "conductorMaterial",
     "namePlural": "conductorMaterials",
     "usedIn": {
@@ -2925,7 +2925,7 @@
           "https://openminds.om-i.org/types/WebResource"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isConfigurationOf"
     },
     "asString": {
       "formatting": "text/plain",
@@ -2952,8 +2952,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Configuration",
-    "labelPlural": "Configurations",
+    "label": "configuration",
+    "labelPlural": "configurations",
     "name": "configuration",
     "namePlural": "configurations",
     "usedIn": {
@@ -2991,7 +2991,7 @@
           "https://openminds.om-i.org/types/CranialWindowConstructionType"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isConstructionTypeOf"
     },
     "description": null,
     "hasNamespace": [
@@ -3009,8 +3009,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Construction type",
-    "labelPlural": "Construction types",
+    "label": "construction type",
+    "labelPlural": "construction types",
     "name": "constructionType",
     "namePlural": "constructionTypes",
     "usedIn": {
@@ -3044,7 +3044,7 @@
           "https://openminds.om-i.org/types/ContactInformation"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isContactInformationOf"
     },
     "description": "Any available way used to contact a person or business (e.g., address, phone number, email address, etc.).",
     "hasNamespace": [
@@ -3064,8 +3064,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Contact information",
-    "labelPlural": "Contact information",
+    "label": "contact information",
+    "labelPlural": "contact information",
     "name": "contactInformation",
     "namePlural": "contactInformation",
     "usedIn": {
@@ -3105,7 +3105,7 @@
           "https://openminds.om-i.org/types/QuantitativeValueRange"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isContactResistanceOf"
     },
     "description": null,
     "hasNamespace": [
@@ -3123,8 +3123,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Contact resistance",
-    "labelPlural": "Contact resistances",
+    "label": "contact resistance",
+    "labelPlural": "contact resistances",
     "name": "contactResistance",
     "namePlural": "contactResistances",
     "usedIn": {
@@ -3155,7 +3155,7 @@
           "https://openminds.om-i.org/types/QuantitativeValueRange"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isContactResistancesOf"
     },
     "description": null,
     "hasNamespace": [
@@ -3173,8 +3173,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Contact resistances",
-    "labelPlural": "Contact resistances",
+    "label": "contact resistances",
+    "labelPlural": "contact resistances",
     "name": "contactResistances",
     "namePlural": "contactResistances",
     "usedIn": {
@@ -3208,8 +3208,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Content",
-    "labelPlural": "Content",
+    "label": "content",
+    "labelPlural": "content",
     "name": "content",
     "namePlural": "content",
     "usedIn": {
@@ -3248,8 +3248,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Content description",
-    "labelPlural": "Content descriptions",
+    "label": "content description",
+    "labelPlural": "content descriptions",
     "name": "contentDescription",
     "namePlural": "contentDescriptions",
     "usedIn": {
@@ -3289,7 +3289,7 @@
           "https://openminds.om-i.org/types/ContentType"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isContentTypeOf"
     },
     "description": null,
     "hasNamespace": [
@@ -3308,8 +3308,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Content type",
-    "labelPlural": "Content types",
+    "label": "content type",
+    "labelPlural": "content types",
     "name": "contentType",
     "namePlural": "contentTypes",
     "usedIn": {
@@ -3343,7 +3343,7 @@
           "https://openminds.om-i.org/types/ContentTypePattern"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isContentTypePatternOf"
     },
     "description": null,
     "hasNamespace": [
@@ -3362,8 +3362,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Content type pattern",
-    "labelPlural": "Content type patterns",
+    "label": "content type pattern",
+    "labelPlural": "content type patterns",
     "name": "contentTypePattern",
     "namePlural": "contentTypePatterns",
     "usedIn": {
@@ -3411,8 +3411,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Context",
-    "labelPlural": "Contexts",
+    "label": "context",
+    "labelPlural": "contexts",
     "name": "context",
     "namePlural": "contexts",
     "usedIn": {
@@ -3474,7 +3474,7 @@
           "https://openminds.ebrains.eu/controlledTerms/ContributionType"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isContributionTypeOf"
     },
     "description": "Distinct class of what was given or supplied as a part or share.",
     "hasNamespace": [
@@ -3486,8 +3486,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Contribution type",
-    "labelPlural": "Contribution types",
+    "label": "contribution type",
+    "labelPlural": "contribution types",
     "name": "contributionType",
     "namePlural": "contributionTypes",
     "usedIn": {
@@ -3526,7 +3526,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "contributedTo"
     },
     "description": "Legal person that gave or supplied something as a part or share.",
     "hasNamespace": [
@@ -3546,8 +3546,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Contributor",
-    "labelPlural": "Contributors",
+    "label": "contributor",
+    "labelPlural": "contributors",
     "name": "contributor",
     "namePlural": "contributors",
     "usedIn": {
@@ -3609,7 +3609,7 @@
           "https://openminds.ebrains.eu/sands/CoordinatePoint"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isCoordinatePointOf"
     },
     "description": "Pair or triplet of numbers defining the position in a particular two- or three dimensional plane or space.",
     "hasNamespace": [
@@ -3621,8 +3621,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Coordinate point",
-    "labelPlural": "Coordinate points",
+    "label": "coordinate point",
+    "labelPlural": "coordinate points",
     "name": "coordinatePoint",
     "namePlural": "coordinatePoints",
     "usedIn": {
@@ -3653,7 +3653,7 @@
           "https://openminds.om-i.org/types/CustomCoordinateSpace"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isCoordinateSpaceOf"
     },
     "description": "Two or three dimensional geometric setting.",
     "hasNamespace": [
@@ -3673,8 +3673,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Coordinate space",
-    "labelPlural": "Coordinate spaces",
+    "label": "coordinate space",
+    "labelPlural": "coordinate spaces",
     "name": "coordinateSpace",
     "namePlural": "coordinateSpaces",
     "usedIn": {
@@ -3719,7 +3719,7 @@
           "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "areCoordinatesOf"
     },
     "description": "Pair or triplet of numbers defining a location in a given coordinate space.",
     "hasNamespace": [
@@ -3739,8 +3739,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Coordinates",
-    "labelPlural": "Coordinates",
+    "label": "coordinates",
+    "labelPlural": "coordinates",
     "name": "coordinates",
     "namePlural": "coordinates",
     "usedIn": {
@@ -3788,7 +3788,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "coordinated"
     },
     "description": "Legal person who organizes the collaborative work of people or groups.",
     "hasNamespace": [
@@ -3808,8 +3808,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Coordinator",
-    "labelPlural": "Coordinators",
+    "label": "coordinator",
+    "labelPlural": "coordinators",
     "name": "coordinator",
     "namePlural": "coordinators",
     "usedIn": {
@@ -3843,7 +3843,7 @@
           "https://openminds.om-i.org/types/File"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "hasCopy"
     },
     "description": null,
     "hasNamespace": [
@@ -3861,8 +3861,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Copy of",
-    "labelPlural": "Copy of",
+    "label": "copy of",
+    "labelPlural": "copy of",
     "name": "copyOf",
     "namePlural": "copyOf",
     "usedIn": {
@@ -3896,7 +3896,7 @@
           "https://openminds.om-i.org/types/Copyright"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isCopyrightOf"
     },
     "description": "Exclusive and assignable legal right of an originator to reproduce, publish, sell, or distribute the matter and form of a creative work for a defined time period.",
     "hasNamespace": [
@@ -3916,8 +3916,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Copyright",
-    "labelPlural": "Copyrights",
+    "label": "copyright",
+    "labelPlural": "copyrights",
     "name": "copyright",
     "namePlural": "copyrights",
     "usedIn": {
@@ -4009,8 +4009,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Corrected name",
-    "labelPlural": "Corrected names",
+    "label": "corrected name",
+    "labelPlural": "corrected names",
     "name": "correctedName",
     "namePlural": "correctedNames",
     "usedIn": {
@@ -4032,7 +4032,7 @@
           "https://openminds.om-i.org/types/SovereignState"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isCountryOf"
     },
     "description": null,
     "hasNamespace": [
@@ -4043,10 +4043,10 @@
         "namespace": "https://openminds.om-i.org/props/"
       }
     ],
-    "label": "Country",
-    "labelPlural": null,
+    "label": "country",
+    "labelPlural": "countries",
     "name": "country",
-    "namePlural": null,
+    "namePlural": "countries",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Location"
@@ -4079,8 +4079,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Creation date",
-    "labelPlural": "Creation dates",
+    "label": "creation date",
+    "labelPlural": "creation dates",
     "name": "creationDate",
     "namePlural": "creationDates",
     "usedIn": {
@@ -4123,7 +4123,7 @@
           "https://openminds.om-i.org/types/ProtocolExecution"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isCriteriaOf"
     },
     "description": "Aspects or standards on which a judgement or decision is based.",
     "hasNamespace": [
@@ -4143,8 +4143,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Criteria",
-    "labelPlural": "Criteria",
+    "label": "criteria",
+    "labelPlural": "criteria",
     "name": "criteria",
     "namePlural": "criteria",
     "usedIn": {
@@ -4197,7 +4197,7 @@
           "https://openminds.om-i.org/types/CriteriaQualityType"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isCriteriaQualityTypeOf"
     },
     "description": "Distinct class that defines how the judgement or decision was made for a particular criteria.",
     "hasNamespace": [
@@ -4217,8 +4217,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Criteria quality type",
-    "labelPlural": "Criteria quality types",
+    "label": "criteria quality type",
+    "labelPlural": "criteria quality types",
     "name": "criteriaQualityType",
     "namePlural": "criteriaQualityTypes",
     "usedIn": {
@@ -4257,7 +4257,7 @@
           "https://openminds.om-i.org/types/AnnotationCriteriaType"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isCriteriaTypeOf"
     },
     "description": null,
     "hasNamespace": [
@@ -4275,8 +4275,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Criteria type",
-    "labelPlural": "Criteria types",
+    "label": "criteria type",
+    "labelPlural": "criteria types",
     "name": "criteriaType",
     "namePlural": "criteriaTypes",
     "usedIn": {
@@ -4307,7 +4307,7 @@
           "https://openminds.om-i.org/types/ChemicalMixture"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isCultureMediumOf"
     },
     "description": null,
     "hasNamespace": [
@@ -4325,8 +4325,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Culture medium",
-    "labelPlural": "Culture media",
+    "label": "culture medium",
+    "labelPlural": "culture media",
     "name": "cultureMedium",
     "namePlural": "cultureMedia",
     "usedIn": {
@@ -4354,7 +4354,7 @@
           "https://openminds.om-i.org/types/CellCultureType"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isCultureTypeOf"
     },
     "description": null,
     "hasNamespace": [
@@ -4372,8 +4372,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Culture type",
-    "labelPlural": "Culture types",
+    "label": "culture type",
+    "labelPlural": "culture types",
     "name": "cultureType",
     "namePlural": "cultureTypes",
     "usedIn": {
@@ -4415,7 +4415,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isCustodianOf"
     },
     "description": "The 'custodian' is a legal person who is responsible for the content and quality of the data, metadata, and/or code of a research product.",
     "hasNamespace": [
@@ -4435,8 +4435,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Custodian",
-    "labelPlural": "Custodians",
+    "label": "custodian",
+    "labelPlural": "custodians",
     "name": "custodian",
     "namePlural": "custodians",
     "usedIn": {
@@ -4553,7 +4553,7 @@
           "https://openminds.om-i.org/types/CustomPropertySet"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isSpecifiedFor"
     },
     "description": null,
     "hasNamespace": [
@@ -4571,8 +4571,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Custom property set",
-    "labelPlural": "Custom property sets",
+    "label": "custom property set",
+    "labelPlural": "custom property sets",
     "name": "customPropertySet",
     "namePlural": "customPropertySets",
     "usedIn": {
@@ -4693,7 +4693,7 @@
           "https://openminds.om-i.org/types/PropertyValueList"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isDataLocationOf"
     },
     "description": null,
     "hasNamespace": [
@@ -4712,8 +4712,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Data location",
-    "labelPlural": "Data locations",
+    "label": "data location",
+    "labelPlural": "data locations",
     "name": "dataLocation",
     "namePlural": "dataLocations",
     "usedIn": {
@@ -4759,7 +4759,7 @@
           "https://openminds.om-i.org/types/SemanticDataType"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isDataTypeOf"
     },
     "description": null,
     "hasNamespace": [
@@ -4777,8 +4777,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Data type",
-    "labelPlural": "Data types",
+    "label": "data type",
+    "labelPlural": "data types",
     "name": "dataType",
     "namePlural": "dataTypes",
     "usedIn": {
@@ -4821,7 +4821,7 @@
           "https://openminds.om-i.org/types/File"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isDefaultImageOf"
     },
     "description": "Two or three dimensional image that particluarly represents a specific coordinate space.",
     "hasNamespace": [
@@ -4841,8 +4841,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Default image",
-    "labelPlural": "Default images",
+    "label": "default image",
+    "labelPlural": "default images",
     "name": "defaultImage",
     "namePlural": "defaultImages",
     "usedIn": {
@@ -4877,7 +4877,7 @@
           "https://openminds.ebrains.eu/core/File"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "defines"
     },
     "description": "Reference to a file instance in which something is stored.",
     "hasNamespace": [
@@ -4889,8 +4889,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Defined in",
-    "labelPlural": "Defined in",
+    "label": "defined in",
+    "labelPlural": "defined in",
     "name": "definedIn",
     "namePlural": "definedIn",
     "usedIn": {
@@ -4935,8 +4935,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Definition",
-    "labelPlural": "Definitions",
+    "label": "definition",
+    "labelPlural": "definitions",
     "name": "definition",
     "namePlural": "definitions",
     "usedIn": {
@@ -5319,7 +5319,7 @@
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "delivers"
     },
     "description": null,
     "hasNamespace": [
@@ -5337,8 +5337,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Delivered by",
-    "labelPlural": "Delivered by",
+    "label": "delivered by",
+    "labelPlural": "delivered by",
     "name": "deliveredBy",
     "namePlural": "deliveredBy",
     "usedIn": {
@@ -5412,7 +5412,7 @@
           "https://openminds.om-i.org/types/TissueSampleState"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "hasDescendant"
     },
     "description": null,
     "hasNamespace": [
@@ -5431,8 +5431,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Descended from",
-    "labelPlural": "Descended from",
+    "label": "descended from",
+    "labelPlural": "descended from",
     "name": "descendedFrom",
     "namePlural": "descendedFrom",
     "usedIn": {
@@ -5479,7 +5479,7 @@
           "https://openminds.om-i.org/types/WebResource"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "describes"
     },
     "description": null,
     "hasNamespace": [
@@ -5497,8 +5497,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Described in",
-    "labelPlural": "Described in",
+    "label": "described in",
+    "labelPlural": "described in",
     "name": "describedIn",
     "namePlural": "describedIn",
     "usedIn": {
@@ -5546,8 +5546,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Description",
-    "labelPlural": "Descriptions",
+    "label": "description",
+    "labelPlural": "descriptions",
     "name": "description",
     "namePlural": "descriptions",
     "usedIn": {
@@ -6108,7 +6108,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isDeveloperOf"
     },
     "description": "Legal person that creates or improves products or services (e.g., software, applications, etc.).",
     "hasNamespace": [
@@ -6128,8 +6128,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Developer",
-    "labelPlural": "Developers",
+    "label": "developer",
+    "labelPlural": "developers",
     "name": "developer",
     "namePlural": "developers",
     "usedIn": {
@@ -6232,7 +6232,7 @@
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isDeviceOf"
     },
     "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
     "hasNamespace": [
@@ -6252,8 +6252,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Device",
-    "labelPlural": "Devices",
+    "label": "device",
+    "labelPlural": "devices",
     "name": "device",
     "namePlural": "devices",
     "usedIn": {
@@ -6310,7 +6310,7 @@
           "https://openminds.om-i.org/types/DeviceType"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isDeviceTypeOf"
     },
     "description": null,
     "hasNamespace": [
@@ -6328,8 +6328,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Device type",
-    "labelPlural": "Device types",
+    "label": "device type",
+    "labelPlural": "device types",
     "name": "deviceType",
     "namePlural": "deviceTypes",
     "usedIn": {
@@ -6383,8 +6383,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Digest",
-    "labelPlural": "Digests",
+    "label": "digest",
+    "labelPlural": "digests",
     "name": "digest",
     "namePlural": "digests",
     "usedIn": {
@@ -6457,7 +6457,7 @@
           "https://openminds.om-i.org/types/SWHID"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isDigitalIdentifierOf"
     },
     "description": "Digital handle to identify objects or legal persons.",
     "hasNamespace": [
@@ -6477,8 +6477,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Digital identifier",
-    "labelPlural": "Digital identifiers",
+    "label": "digital identifier",
+    "labelPlural": "digital identifiers",
     "name": "digitalIdentifier",
     "namePlural": "digitalIdentifiers",
     "usedIn": {
@@ -6633,7 +6633,7 @@
           "https://openminds.om-i.org/types/Rectangle"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isDimensionOf"
     },
     "description": null,
     "hasNamespace": [
@@ -6651,8 +6651,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Dimension",
-    "labelPlural": "Dimensions",
+    "label": "dimension",
+    "labelPlural": "dimensions",
     "name": "dimension",
     "namePlural": "dimensions",
     "usedIn": {
@@ -6683,7 +6683,7 @@
           "https://openminds.om-i.org/types/DiseaseModel"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isDiseaseModelOf"
     },
     "description": null,
     "hasNamespace": [
@@ -6701,8 +6701,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Disease model",
-    "labelPlural": "Disease models",
+    "label": "disease model",
+    "labelPlural": "disease models",
     "name": "diseaseModel",
     "namePlural": "diseaseModels",
     "usedIn": {
@@ -6735,8 +6735,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Display color",
-    "labelPlural": "Display colors",
+    "label": "display color",
+    "labelPlural": "display colors",
     "name": "displayColor",
     "namePlural": "displayColors",
     "usedIn": {
@@ -6775,8 +6775,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Display label",
-    "labelPlural": "Display labels",
+    "label": "display label",
+    "labelPlural": "display labels",
     "name": "displayLabel",
     "namePlural": "displayLabels",
     "usedIn": {
@@ -6807,7 +6807,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isEditorOf"
     },
     "description": null,
     "hasNamespace": [
@@ -6825,8 +6825,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Editor",
-    "labelPlural": "Editors",
+    "label": "editor",
+    "labelPlural": "editors",
     "name": "editor",
     "namePlural": "editors",
     "usedIn": {
@@ -6863,7 +6863,7 @@
           "https://openminds.om-i.org/types/EducationalLevel"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isEducationalLevelOf"
     },
     "description": null,
     "hasNamespace": [
@@ -6881,8 +6881,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Educational level",
-    "labelPlural": "Educational levels",
+    "label": "educational level",
+    "labelPlural": "educational levels",
     "name": "educationalLevel",
     "namePlural": "educationalLevels",
     "usedIn": {
@@ -6907,7 +6907,7 @@
           "https://openminds.ebrains.eu/sands/ElectrodeContact"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isElectrodeContactOf"
     },
     "description": "Not shielded part of a conductor that is used to establish electrical contact with a nonmetallic part of a circuit.",
     "hasNamespace": [
@@ -6919,8 +6919,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Electrode contact",
-    "labelPlural": "Electrode contacts",
+    "label": "electrode contact",
+    "labelPlural": "electrode contacts",
     "name": "electrodeContact",
     "namePlural": "electrodeContacts",
     "usedIn": {
@@ -6958,8 +6958,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Electrode identifier",
-    "labelPlural": "Electrode identifiers",
+    "label": "electrode identifier",
+    "labelPlural": "electrode identifiers",
     "name": "electrodeIdentifier",
     "namePlural": "electrodeIdentifiers",
     "usedIn": {
@@ -6984,7 +6984,7 @@
           "https://openminds.ebrains.eu/sands/Electrode"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isElectrodeOf"
     },
     "description": "Elements in a semiconductor device that emits or collects electrons or holes or controls their movements.",
     "hasNamespace": [
@@ -6996,8 +6996,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Electrodes",
-    "labelPlural": "Electrodes",
+    "label": "electrodes",
+    "labelPlural": "electrodes",
     "name": "electrodes",
     "namePlural": "electrodes",
     "usedIn": {
@@ -7019,10 +7019,10 @@
         "namespace": "https://openminds.om-i.org/props/"
       }
     ],
-    "label": "Elevation",
-    "labelPlural": null,
+    "label": "elevation",
+    "labelPlural": "elevations",
     "name": "elevation",
-    "namePlural": null,
+    "namePlural": "elevations",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/GeoCoordinates"
@@ -7087,8 +7087,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Email",
-    "labelPlural": "Emails",
+    "label": "email",
+    "labelPlural": "emails",
     "name": "email",
     "namePlural": "emails",
     "usedIn": {
@@ -7139,8 +7139,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "End date",
-    "labelPlural": "End dates",
+    "label": "end date",
+    "labelPlural": "end dates",
     "name": "endDate",
     "namePlural": "endDates",
     "usedIn": {
@@ -7174,7 +7174,7 @@
           "https://openminds.om-i.org/types/Measurement"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isEndMembranePotentialOf"
     },
     "description": null,
     "hasNamespace": [
@@ -7192,8 +7192,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "End membrane potential",
-    "labelPlural": "End membrane potentials",
+    "label": "end membrane potential",
+    "labelPlural": "end membrane potentials",
     "name": "endMembranePotential",
     "namePlural": "endMembranePotentials",
     "usedIn": {
@@ -7234,8 +7234,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "End time",
-    "labelPlural": "End times",
+    "label": "end time",
+    "labelPlural": "end times",
     "name": "endTime",
     "namePlural": "endTimes",
     "usedIn": {
@@ -7307,10 +7307,10 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Ended at time",
-    "labelPlural": null,
+    "label": "ended at time",
+    "labelPlural": "ended at times",
     "name": "endedAtTime",
-    "namePlural": null,
+    "namePlural": "endedAtTimes",
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/ProtocolExecution"
@@ -7343,8 +7343,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Entry point",
-    "labelPlural": "Entry points",
+    "label": "entry point",
+    "labelPlural": "entry points",
     "name": "entryPoint",
     "namePlural": "entryPoints",
     "usedIn": {
@@ -7376,7 +7376,7 @@
           "https://openminds.om-i.org/types/WebServiceVersion"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isEnvironmentOf"
     },
     "description": null,
     "hasNamespace": [
@@ -7394,8 +7394,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Environment",
-    "labelPlural": "Environments",
+    "label": "environment",
+    "labelPlural": "environments",
     "name": "environment",
     "namePlural": "environments",
     "usedIn": {
@@ -7444,7 +7444,7 @@
           "https://openminds.om-i.org/types/PropertyValueList"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isVariableOf"
     },
     "description": null,
     "hasNamespace": [
@@ -7462,8 +7462,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Environment variable",
-    "labelPlural": "Environment variables",
+    "label": "environment variable",
+    "labelPlural": "environment variables",
     "name": "environmentVariable",
     "namePlural": "environmentVariables",
     "usedIn": {
@@ -7491,7 +7491,7 @@
           "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isValueOf"
     },
     "description": null,
     "hasNamespace": [
@@ -7509,10 +7509,10 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Epoch",
-    "labelPlural": null,
+    "label": "epoch",
+    "labelPlural": "epochs",
     "name": "epoch",
-    "namePlural": null,
+    "namePlural": "epochs",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/EphysStimulus"
@@ -7541,7 +7541,7 @@
           "https://openminds.om-i.org/types/EthicsAssessment"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isEthicsAssessmentOf"
     },
     "description": "Judgment about the applied principles of conduct governing an individual or a group.",
     "hasNamespace": [
@@ -7561,8 +7561,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Ethics assessment",
-    "labelPlural": "Ethics assessments",
+    "label": "ethics assessment",
+    "labelPlural": "ethics assessments",
     "name": "ethicsAssessment",
     "namePlural": "ethicsAssessments",
     "usedIn": {
@@ -7635,8 +7635,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Executable",
-    "labelPlural": "Executables",
+    "label": "executable",
+    "labelPlural": "executables",
     "name": "executable",
     "namePlural": "executables",
     "usedIn": {
@@ -7670,7 +7670,7 @@
           "https://openminds.om-i.org/types/ExperimentalApproach"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isExperimentalApproachOf"
     },
     "description": null,
     "hasNamespace": [
@@ -7690,8 +7690,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Experimental approach",
-    "labelPlural": "Experimental approaches",
+    "label": "experimental approach",
+    "labelPlural": "experimental approaches",
     "name": "experimentalApproach",
     "namePlural": "experimentalApproaches",
     "usedIn": {
@@ -7725,7 +7725,7 @@
           "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isExternalDiameterOf"
     },
     "description": null,
     "hasNamespace": [
@@ -7743,8 +7743,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "External diameter",
-    "labelPlural": "External diameters",
+    "label": "external diameter",
+    "labelPlural": "external diameters",
     "name": "externalDiameter",
     "namePlural": "externalDiameters",
     "usedIn": {
@@ -7817,8 +7817,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Family name",
-    "labelPlural": "Family names",
+    "label": "family name",
+    "labelPlural": "family names",
     "name": "familyName",
     "namePlural": "familyNames",
     "usedIn": {
@@ -7855,7 +7855,7 @@
           "https://openminds.om-i.org/types/SoftwareFeature"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isFeatureOf"
     },
     "description": "Structure, form, or appearance that characterizes something or someone.",
     "hasNamespace": [
@@ -7875,8 +7875,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Feature",
-    "labelPlural": "Features",
+    "label": "feature",
+    "labelPlural": "features",
     "name": "feature",
     "namePlural": "features",
     "usedIn": {
@@ -7924,8 +7924,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "File extension",
-    "labelPlural": "File extensions",
+    "label": "file extension",
+    "labelPlural": "file extensions",
     "name": "fileExtension",
     "namePlural": "fileExtensions",
     "usedIn": {
@@ -7962,7 +7962,7 @@
           "https://openminds.om-i.org/types/FilePathPattern"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isFilePathPatternOf"
     },
     "description": null,
     "hasNamespace": [
@@ -7981,8 +7981,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "File path pattern",
-    "labelPlural": "File path patterns",
+    "label": "file path pattern",
+    "labelPlural": "file path patterns",
     "name": "filePathPattern",
     "namePlural": "filePathPatterns",
     "usedIn": {
@@ -8019,7 +8019,7 @@
           "https://openminds.om-i.org/types/FileRepository"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isFileRepositoryOf"
     },
     "description": null,
     "hasNamespace": [
@@ -8039,8 +8039,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "File repository",
-    "labelPlural": "File repositories",
+    "label": "file repository",
+    "labelPlural": "file repositories",
     "name": "fileRepository",
     "namePlural": "fileRepositories",
     "usedIn": {
@@ -8108,7 +8108,7 @@
           "https://openminds.om-i.org/types/ContentType"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isFormatOf"
     },
     "description": "Method of digitally organizing and structuring data or information.",
     "hasNamespace": [
@@ -8128,8 +8128,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Format",
-    "labelPlural": "Formats",
+    "label": "format",
+    "labelPlural": "formats",
     "name": "format",
     "namePlural": "formats",
     "usedIn": {
@@ -8247,7 +8247,7 @@
           "https://openminds.om-i.org/types/WebResource"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isFullDocumentationOf"
     },
     "description": "Non-abridged instructions, comments, and information for using a particular product.",
     "hasNamespace": [
@@ -8267,8 +8267,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Full documentation",
-    "labelPlural": "Full documentations",
+    "label": "full documentation",
+    "labelPlural": "full documentations",
     "name": "fullDocumentation",
     "namePlural": "fullDocumentations",
     "usedIn": {
@@ -8353,8 +8353,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Full name",
-    "labelPlural": "Full names",
+    "label": "full name",
+    "labelPlural": "full names",
     "name": "fullName",
     "namePlural": "fullNames",
     "usedIn": {
@@ -8502,7 +8502,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isFunderOf"
     },
     "description": "Legal person that provides money for a particular purpose.",
     "hasNamespace": [
@@ -8522,8 +8522,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Funder",
-    "labelPlural": "Funders",
+    "label": "funder",
+    "labelPlural": "funders",
     "name": "funder",
     "namePlural": "funders",
     "usedIn": {
@@ -8563,7 +8563,7 @@
           "https://openminds.om-i.org/types/Funding"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isFundingOf"
     },
     "description": "Money provided by a legal person for a particular purpose.",
     "hasNamespace": [
@@ -8583,8 +8583,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Funding",
-    "labelPlural": "Funding",
+    "label": "funding",
+    "labelPlural": "funding",
     "name": "funding",
     "namePlural": "funding",
     "usedIn": {
@@ -8672,7 +8672,7 @@
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "generated"
     },
     "description": null,
     "hasNamespace": [
@@ -8690,8 +8690,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Generated by",
-    "labelPlural": "Generated by",
+    "label": "generated by",
+    "labelPlural": "generated by",
     "name": "generatedBy",
     "namePlural": "generatedBy",
     "usedIn": {
@@ -8719,7 +8719,7 @@
           "https://openminds.om-i.org/types/GeneticStrainType"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isGeneticStrainTypeOf"
     },
     "description": null,
     "hasNamespace": [
@@ -8737,8 +8737,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Genetic strain type",
-    "labelPlural": "Genetic strain types",
+    "label": "genetic strain type",
+    "labelPlural": "genetic strain types",
     "name": "geneticStrainType",
     "namePlural": "geneticStrainTypes",
     "usedIn": {
@@ -8760,7 +8760,7 @@
           "https://openminds.om-i.org/types/GeoCoordinates"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "areGeoCoordinatesOf"
     },
     "description": null,
     "hasNamespace": [
@@ -8771,10 +8771,10 @@
         "namespace": "https://openminds.om-i.org/props/"
       }
     ],
-    "label": "Geo coordinates",
-    "labelPlural": null,
+    "label": "geo coordinates",
+    "labelPlural": "geo coordinates",
     "name": "geoCoordinates",
-    "namePlural": null,
+    "namePlural": "geoCoordinates",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Location"
@@ -8811,8 +8811,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Given name",
-    "labelPlural": "Given names",
+    "label": "given name",
+    "labelPlural": "given names",
     "name": "givenName",
     "namePlural": "givenNames",
     "usedIn": {
@@ -8994,7 +8994,7 @@
           "https://openminds.om-i.org/types/VisualStimulusType"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "groups"
     },
     "description": "Reference to the aspect used to group something.",
     "hasNamespace": [
@@ -9014,8 +9014,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Grouped by",
-    "labelPlural": "Grouped by",
+    "label": "grouped by",
+    "labelPlural": "grouped by",
     "name": "groupedBy",
     "namePlural": "groupedBy",
     "usedIn": {
@@ -9052,7 +9052,7 @@
           "https://openminds.om-i.org/types/FileBundleGrouping"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isGroupingTypeOf"
     },
     "description": null,
     "hasNamespace": [
@@ -9071,8 +9071,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Grouping type",
-    "labelPlural": "Grouping types",
+    "label": "grouping type",
+    "labelPlural": "grouping types",
     "name": "groupingType",
     "namePlural": "groupingTypes",
     "usedIn": {
@@ -9112,7 +9112,7 @@
           "https://openminds.om-i.org/types/Handedness"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isHandednessOf"
     },
     "description": "Degree to which an organism prefers one hand or foot over the other hand or foot during the performance of a task.",
     "hasNamespace": [
@@ -9132,8 +9132,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Handedness",
-    "labelPlural": "Handedness",
+    "label": "handedness",
+    "labelPlural": "handedness",
     "name": "handedness",
     "namePlural": "handedness",
     "usedIn": {
@@ -9172,7 +9172,7 @@
           "https://openminds.om-i.org/types/HardwareSystem"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isHardwareOf"
     },
     "description": null,
     "hasNamespace": [
@@ -9190,8 +9190,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Hardware",
-    "labelPlural": "Hardware",
+    "label": "hardware",
+    "labelPlural": "hardware",
     "name": "hardware",
     "namePlural": "hardware",
     "usedIn": {
@@ -9213,7 +9213,7 @@
           "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "hasAlternativeVersion"
     },
     "description": null,
     "hasNamespace": [
@@ -9224,8 +9224,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Has alternative version",
-    "labelPlural": "Has alternative versions",
+    "label": "has alternative version",
+    "labelPlural": "has alternative versions",
     "name": "hasAlternativeVersion",
     "namePlural": "hasAlternativeVersions",
     "usedIn": {
@@ -9254,7 +9254,7 @@
           "https://openminds.om-i.org/types/CustomAnnotation"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isAnnotationOf"
     },
     "description": null,
     "hasNamespace": [
@@ -9273,8 +9273,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Has annotation",
-    "labelPlural": "Has annotations",
+    "label": "has annotation",
+    "labelPlural": "has annotations",
     "name": "hasAnnotation",
     "namePlural": "hasAnnotations",
     "usedIn": {
@@ -9306,7 +9306,7 @@
           "https://openminds.ebrains.eu/core/SoftwareVersion"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isComponentOf"
     },
     "description": "Reference to an element of a collection.",
     "hasNamespace": [
@@ -9318,8 +9318,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Has component",
-    "labelPlural": "Has components",
+    "label": "has component",
+    "labelPlural": "has components",
     "name": "hasComponent",
     "namePlural": "hasComponents",
     "usedIn": {
@@ -9347,7 +9347,7 @@
           "https://openminds.om-i.org/types/ParcellationEntityVersion"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isEntityOf"
     },
     "description": null,
     "hasNamespace": [
@@ -9365,8 +9365,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Has entity",
-    "labelPlural": "Has entities",
+    "label": "has entity",
+    "labelPlural": "has entities",
     "name": "hasEntity",
     "namePlural": "hasEntities",
     "usedIn": {
@@ -9411,7 +9411,7 @@
           "https://openminds.om-i.org/types/ParcellationEntityVersion"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isParentOf"
     },
     "description": "Reference to a parent object or legal person.",
     "hasNamespace": [
@@ -9431,8 +9431,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Has parent",
-    "labelPlural": "Has parents",
+    "label": "has parent",
+    "labelPlural": "has parents",
     "name": "hasParent",
     "namePlural": "hasParents",
     "usedIn": {
@@ -9555,7 +9555,7 @@
           "https://openminds.om-i.org/types/WorkflowRecipeVersion"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isPartOf"
     },
     "description": null,
     "hasNamespace": [
@@ -9573,8 +9573,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Has part",
-    "labelPlural": "Has parts",
+    "label": "has part",
+    "labelPlural": "has parts",
     "name": "hasPart",
     "namePlural": "hasParts",
     "usedIn": {
@@ -9629,7 +9629,7 @@
           "https://openminds.ebrains.eu/core/SoftwareVersion"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isResearchProductOf"
     },
     "description": "Reference to subsidiary research products.",
     "hasNamespace": [
@@ -9641,8 +9641,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Has research products",
-    "labelPlural": "Has research products",
+    "label": "has research products",
+    "labelPlural": "has research products",
     "name": "hasResearchProducts",
     "namePlural": "hasResearchProducts",
     "usedIn": {
@@ -9673,7 +9673,7 @@
           "https://openminds.om-i.org/types/ParcellationTerminologyVersion"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isTerminologyOf"
     },
     "description": null,
     "hasNamespace": [
@@ -9692,8 +9692,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Has terminology",
-    "labelPlural": "Has terminologies",
+    "label": "has terminology",
+    "labelPlural": "has terminologies",
     "name": "hasTerminology",
     "namePlural": "hasTerminologies",
     "usedIn": {
@@ -9758,7 +9758,7 @@
           "https://openminds.om-i.org/types/WorkflowRecipeVersion"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isVersionOf"
     },
     "description": "Reference to variants of an original.",
     "hasNamespace": [
@@ -9778,8 +9778,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Has version",
-    "labelPlural": "Has versions",
+    "label": "has version",
+    "labelPlural": "has versions",
     "name": "hasVersion",
     "namePlural": "hasVersions",
     "usedIn": {
@@ -9844,7 +9844,7 @@
           "https://openminds.om-i.org/types/Hash"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isHashOf"
     },
     "description": "Term used for the process of converting any data into a single value. Often also directly refers to the resulting single value.",
     "hasNamespace": [
@@ -9864,8 +9864,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Hash",
-    "labelPlural": "Hashes",
+    "label": "hash",
+    "labelPlural": "hashes",
     "name": "hash",
     "namePlural": "hashes",
     "usedIn": {
@@ -9926,7 +9926,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isHolderOf"
     },
     "description": "Legal person in possession of something.",
     "hasNamespace": [
@@ -9946,8 +9946,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Holder",
-    "labelPlural": "Holders",
+    "label": "holder",
+    "labelPlural": "holders",
     "name": "holder",
     "namePlural": "holders",
     "usedIn": {
@@ -9981,7 +9981,7 @@
           "https://openminds.om-i.org/types/Measurement"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isHoldingPotentialOf"
     },
     "description": null,
     "hasNamespace": [
@@ -9999,8 +9999,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Holding potential",
-    "labelPlural": "Holding potentials",
+    "label": "holding potential",
+    "labelPlural": "holding potentials",
     "name": "holdingPotential",
     "namePlural": "holdingPotentials",
     "usedIn": {
@@ -10025,7 +10025,7 @@
           "https://openminds.ebrains.eu/core/URL"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isHomepageOf"
     },
     "asString": {
       "formatting": "text/plain",
@@ -10055,8 +10055,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Homepage",
-    "labelPlural": "Homepages",
+    "label": "homepage",
+    "labelPlural": "homepages",
     "name": "homepage",
     "namePlural": "homepages",
     "usedIn": {
@@ -10188,7 +10188,7 @@
           "https://openminds.om-i.org/types/Organization"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isHostOf"
     },
     "description": "Reference to an organization that provides facilities and services for something.",
     "hasNamespace": [
@@ -10208,8 +10208,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Hosted by",
-    "labelPlural": "Hosted by",
+    "label": "hosted by",
+    "labelPlural": "hosted by",
     "name": "hostedBy",
     "namePlural": "hostedBy",
     "usedIn": {
@@ -10263,8 +10263,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "How to cite",
-    "labelPlural": "How to cite",
+    "label": "how to cite",
+    "labelPlural": "how to cite",
     "name": "howToCite",
     "namePlural": "howToCite",
     "usedIn": {
@@ -10390,8 +10390,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Identifier",
-    "labelPlural": "Identifiers",
+    "label": "identifier",
+    "labelPlural": "identifiers",
     "name": "identifier",
     "namePlural": "identifiers",
     "usedIn": {
@@ -10509,7 +10509,7 @@
           "https://openminds.om-i.org/types/ParcellationEntityVersion"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "inRelationTo"
     },
     "description": "Reference to a related element.",
     "hasNamespace": [
@@ -10529,8 +10529,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "In relation to",
-    "labelPlural": "In relation to",
+    "label": "in relation to",
+    "labelPlural": "in relation to",
     "name": "inRelationTo",
     "namePlural": "inRelationTo",
     "usedIn": {
@@ -10620,7 +10620,7 @@
           "https://openminds.om-i.org/types/ValidationTestVersion"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isInputOf"
     },
     "description": "Something or someone that is put into or participates in a process or machine.",
     "hasNamespace": [
@@ -10640,8 +10640,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Input",
-    "labelPlural": "Inputs",
+    "label": "input",
+    "labelPlural": "inputs",
     "name": "input",
     "namePlural": "inputs",
     "usedIn": {
@@ -10748,7 +10748,7 @@
           "https://openminds.om-i.org/types/WebResource"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isInputDataOf"
     },
     "description": "Data that is put into a process or machine.",
     "hasNamespace": [
@@ -10768,8 +10768,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Input data",
-    "labelPlural": "Input data",
+    "label": "input data",
+    "labelPlural": "input data",
     "name": "inputData",
     "namePlural": "inputData",
     "usedIn": {
@@ -10814,7 +10814,7 @@
           "https://openminds.om-i.org/types/ContentType"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isInputFormatOf"
     },
     "description": "Format of data that is put into a process or machine.",
     "hasNamespace": [
@@ -10834,8 +10834,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Input format",
-    "labelPlural": "Input formats",
+    "label": "input format",
+    "labelPlural": "input formats",
     "name": "inputFormat",
     "namePlural": "inputFormats",
     "usedIn": {
@@ -10871,7 +10871,7 @@
           "https://openminds.om-i.org/types/Measurement"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isInputResistanceOf"
     },
     "description": null,
     "hasNamespace": [
@@ -10889,8 +10889,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Input resistance",
-    "labelPlural": "Input resistances",
+    "label": "input resistance",
+    "labelPlural": "input resistances",
     "name": "inputResistance",
     "namePlural": "inputResistances",
     "usedIn": {
@@ -10924,7 +10924,7 @@
           "https://openminds.om-i.org/types/File"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "inspired"
     },
     "description": "Reference to an inspiring element.",
     "hasNamespace": [
@@ -10944,8 +10944,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Inspired by",
-    "labelPlural": "Inspired by",
+    "label": "inspired by",
+    "labelPlural": "inspired by",
     "name": "inspiredBy",
     "namePlural": "inspiredBy",
     "usedIn": {
@@ -10989,7 +10989,7 @@
           "https://openminds.om-i.org/types/MolecularEntity"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isInsulatorMaterialOf"
     },
     "description": null,
     "hasNamespace": [
@@ -11007,8 +11007,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Insulator material",
-    "labelPlural": "Insulator materials",
+    "label": "insulator material",
+    "labelPlural": "insulator materials",
     "name": "insulatorMaterial",
     "namePlural": "insulatorMaterials",
     "usedIn": {
@@ -11080,8 +11080,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Interlex identifier",
-    "labelPlural": "Interlex identifiers",
+    "label": "interlex identifier",
+    "labelPlural": "interlex identifiers",
     "name": "interlexIdentifier",
     "namePlural": "interlexIdentifiers",
     "usedIn": {
@@ -11370,7 +11370,7 @@
           "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isValueOf"
     },
     "description": null,
     "hasNamespace": [
@@ -11388,8 +11388,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Internal diameter",
-    "labelPlural": "Internal diameters",
+    "label": "internal diameter",
+    "labelPlural": "internal diameters",
     "name": "internalDiameter",
     "namePlural": "internalDiameters",
     "usedIn": {
@@ -11434,8 +11434,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Internal identifier",
-    "labelPlural": "Internal identifiers",
+    "label": "internal identifier",
+    "labelPlural": "internal identifiers",
     "name": "internalIdentifier",
     "namePlural": "internalIdentifiers",
     "usedIn": {
@@ -11538,7 +11538,7 @@
           "https://openminds.om-i.org/types/QuantitativeValueRange"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isValueOf"
     },
     "description": null,
     "hasNamespace": [
@@ -11556,8 +11556,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Intrinsic resistance",
-    "labelPlural": "Intrinsic resistances",
+    "label": "intrinsic resistance",
+    "labelPlural": "intrinsic resistances",
     "name": "intrinsicResistance",
     "namePlural": "intrinsicResistances",
     "usedIn": {
@@ -11616,7 +11616,7 @@
           "https://openminds.om-i.org/types/WorkflowRecipeVersion"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isAlternativeVersionOf"
     },
     "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
     "hasNamespace": [
@@ -11636,8 +11636,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Is alternative version of",
-    "labelPlural": "Is alternative version of",
+    "label": "is alternative version of",
+    "labelPlural": "is alternative version of",
     "name": "isAlternativeVersionOf",
     "namePlural": "isAlternativeVersionOf",
     "usedIn": {
@@ -11723,7 +11723,7 @@
           "https://openminds.om-i.org/types/WorkflowRecipeVersion"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isOldVersionOf"
     },
     "description": "Reference to a previous (potentially outdated) particular form of something.",
     "hasNamespace": [
@@ -11743,8 +11743,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Is new version of",
-    "labelPlural": "Is new version of",
+    "label": "is new version of",
+    "labelPlural": "is new version of",
     "name": "isNewVersionOf",
     "namePlural": "isNewVersionOf",
     "usedIn": {
@@ -11846,7 +11846,7 @@
           "https://openminds.om-i.org/types/TissueSampleCollection"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "hasPart"
     },
     "description": "Reference to the ensemble of multiple things or beings.",
     "hasNamespace": [
@@ -11866,8 +11866,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Is part of",
-    "labelPlural": "Is part of",
+    "label": "is part of",
+    "labelPlural": "is part of",
     "name": "isPartOf",
     "namePlural": "isPartOf",
     "usedIn": {
@@ -11961,7 +11961,7 @@
           "https://openminds.om-i.org/types/WorkflowRecipeVersion"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isFollowedBy"
     },
     "description": null,
     "hasNamespace": [
@@ -11972,10 +11972,10 @@
         "namespace": "https://openminds.om-i.org/props/"
       }
     ],
-    "label": "Is preceded by",
-    "labelPlural": null,
+    "label": "is preceded by",
+    "labelPlural": "is preceded by",
     "name": "isPrecededBy",
-    "namePlural": null,
+    "namePlural": "isPrecededBy",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
@@ -12007,7 +12007,7 @@
           "https://openminds.om-i.org/types/WorkflowRecipeVersion"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isVariantOf"
     },
     "description": null,
     "hasNamespace": [
@@ -12018,8 +12018,8 @@
         "namespace": "https://openminds.om-i.org/props/"
       }
     ],
-    "label": "Is variant of",
-    "labelPlural": "Is variant of",
+    "label": "is variant of",
+    "labelPlural": "is variant of",
     "name": "isVariantOf",
     "namePlural": "isVariantOf",
     "usedIn": {
@@ -12054,7 +12054,7 @@
           "https://openminds.om-i.org/types/WorkflowRecipe"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "hasVersion"
     },
     "description": null,
     "hasNamespace": [
@@ -12065,10 +12065,10 @@
         "namespace": "https://openminds.om-i.org/props/"
       }
     ],
-    "label": "Is version of",
-    "labelPlural": null,
+    "label": "is version of",
+    "labelPlural": "is version of",
     "name": "isVersionOf",
-    "namePlural": null,
+    "namePlural": "isVersionOf",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
@@ -12111,8 +12111,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Issue number",
-    "labelPlural": "Issue numbers",
+    "label": "issue number",
+    "labelPlural": "issue numbers",
     "name": "issueNumber",
     "namePlural": "issueNumbers",
     "usedIn": {
@@ -12430,7 +12430,7 @@
           "https://openminds.om-i.org/types/VisualStimulusType"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isKeywordOf"
     },
     "asString": {
       "formatting": "text/plain",
@@ -12458,8 +12458,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Keyword",
-    "labelPlural": "Keywords",
+    "label": "keyword",
+    "labelPlural": "keywords",
     "name": "keyword",
     "namePlural": "keywords",
     "usedIn": {
@@ -12552,8 +12552,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Knowledge space link",
-    "labelPlural": "Knowledge space links",
+    "label": "knowledge space link",
+    "labelPlural": "knowledge space links",
     "name": "knowledgeSpaceLink",
     "namePlural": "knowledgeSpaceLinks",
     "usedIn": {
@@ -12848,7 +12848,7 @@
           "https://openminds.om-i.org/types/MolecularEntity"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isLabelingCompoundOf"
     },
     "description": null,
     "hasNamespace": [
@@ -12866,8 +12866,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Labeling compound",
-    "labelPlural": "Labeling compounds",
+    "label": "labeling compound",
+    "labelPlural": "labeling compounds",
     "name": "labelingCompound",
     "namePlural": "labelingCompounds",
     "usedIn": {
@@ -12908,8 +12908,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Laboratory code",
-    "labelPlural": "Laboratory codes",
+    "label": "laboratory code",
+    "labelPlural": "laboratory codes",
     "name": "laboratoryCode",
     "namePlural": "laboratoryCodes",
     "usedIn": {
@@ -12943,7 +12943,7 @@
           "https://openminds.om-i.org/types/Language"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isLanguageOf"
     },
     "description": "System of communication (words, their pronunciation, and the methods of combining them) used and understood by a particular community.",
     "hasNamespace": [
@@ -12963,8 +12963,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Language",
-    "labelPlural": "Languages",
+    "label": "language",
+    "labelPlural": "languages",
     "name": "language",
     "namePlural": "languages",
     "usedIn": {
@@ -13004,7 +13004,7 @@
           "https://openminds.om-i.org/types/Laterality"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isLateralityOf"
     },
     "description": "Differentiation between a pair of lateral homologous parts of the body.",
     "hasNamespace": [
@@ -13024,8 +13024,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Laterality",
-    "labelPlural": "Lateralities",
+    "label": "laterality",
+    "labelPlural": "lateralities",
     "name": "laterality",
     "namePlural": "lateralities",
     "usedIn": {
@@ -13070,10 +13070,10 @@
         "namespace": "https://openminds.om-i.org/props/"
       }
     ],
-    "label": "Latitude",
-    "labelPlural": null,
+    "label": "latitude",
+    "labelPlural": "latitudes",
     "name": "latitude",
-    "namePlural": null,
+    "namePlural": "latitudes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/GeoCoordinates"
@@ -13093,7 +13093,7 @@
           "https://openminds.om-i.org/types/LaunchConfiguration"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isLaunchConfigurationOf"
     },
     "description": null,
     "hasNamespace": [
@@ -13111,8 +13111,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Launch configuration",
-    "labelPlural": "Launch configurations",
+    "label": "launch configuration",
+    "labelPlural": "launch configurations",
     "name": "launchConfiguration",
     "namePlural": "launchConfigurations",
     "usedIn": {
@@ -13171,8 +13171,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Learning outcome",
-    "labelPlural": "Learning outcomes",
+    "label": "learning outcome",
+    "labelPlural": "learning outcomes",
     "name": "learningOutcome",
     "namePlural": "learningOutcomes",
     "usedIn": {
@@ -13217,8 +13217,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Legal code",
-    "labelPlural": "Legal codes",
+    "label": "legal code",
+    "labelPlural": "legal codes",
     "name": "legalCode",
     "namePlural": "legalCodes",
     "usedIn": {
@@ -13252,7 +13252,7 @@
           "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isValueOf"
     },
     "description": null,
     "hasNamespace": [
@@ -13270,8 +13270,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Length",
-    "labelPlural": "Lengths",
+    "label": "length",
+    "labelPlural": "lengths",
     "name": "length",
     "namePlural": "lengths",
     "usedIn": {
@@ -13307,7 +13307,7 @@
           "https://openminds.om-i.org/types/WebResource"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isLicenseOf"
     },
     "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
     "hasNamespace": [
@@ -13327,8 +13327,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "License",
-    "labelPlural": "Licenses",
+    "label": "license",
+    "labelPlural": "licenses",
     "name": "license",
     "namePlural": "licenses",
     "usedIn": {
@@ -13398,7 +13398,7 @@
           "https://openminds.om-i.org/types/Measurement"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isLiquidJunctionPotentialOf"
     },
     "description": null,
     "hasNamespace": [
@@ -13416,8 +13416,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Liquid junction potential",
-    "labelPlural": "Liquid junction potentials",
+    "label": "liquid junction potential",
+    "labelPlural": "liquid junction potentials",
     "name": "liquidJunctionPotential",
     "namePlural": "liquidJunctionPotentials",
     "usedIn": {
@@ -13458,8 +13458,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Location",
-    "labelPlural": "Locations",
+    "label": "location",
+    "labelPlural": "locations",
     "name": "location",
     "namePlural": "locations",
     "usedIn": {
@@ -13484,10 +13484,10 @@
         "namespace": "https://openminds.om-i.org/props/"
       }
     ],
-    "label": "Longitude",
-    "labelPlural": null,
+    "label": "longitude",
+    "labelPlural": "longitudes",
     "name": "longitude",
-    "namePlural": null,
+    "namePlural": "longitudes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/GeoCoordinates"
@@ -13524,8 +13524,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Lookup label",
-    "labelPlural": "Lookup labels",
+    "label": "lookup label",
+    "labelPlural": "lookup labels",
     "name": "lookupLabel",
     "namePlural": "lookupLabels",
     "usedIn": {
@@ -13707,8 +13707,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Major version identifier",
-    "labelPlural": "Major version identifiers",
+    "label": "major version identifier",
+    "labelPlural": "major version identifiers",
     "name": "majorVersionIdentifier",
     "namePlural": "majorVersionIdentifiers",
     "usedIn": {
@@ -13742,7 +13742,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isManufacturerOf"
     },
     "description": null,
     "hasNamespace": [
@@ -13760,8 +13760,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Manufacturer",
-    "labelPlural": "Manufacturers",
+    "label": "manufacturer",
+    "labelPlural": "manufacturers",
     "name": "manufacturer",
     "namePlural": "manufacturers",
     "usedIn": {
@@ -13807,7 +13807,7 @@
           "https://openminds.om-i.org/types/MolecularEntity"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isMaterialOf"
     },
     "description": null,
     "hasNamespace": [
@@ -13825,8 +13825,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Material",
-    "labelPlural": "Materials",
+    "label": "material",
+    "labelPlural": "materials",
     "name": "material",
     "namePlural": "materials",
     "usedIn": {
@@ -13860,8 +13860,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Max value",
-    "labelPlural": "Max values",
+    "label": "max value",
+    "labelPlural": "max values",
     "name": "maxValue",
     "namePlural": "maxValues",
     "usedIn": {
@@ -13895,7 +13895,7 @@
           "https://openminds.om-i.org/types/UnitOfMeasurement"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isUnitOf"
     },
     "description": null,
     "hasNamespace": [
@@ -13913,8 +13913,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Max value unit",
-    "labelPlural": "Max value units",
+    "label": "max value unit",
+    "labelPlural": "max value units",
     "name": "maxValueUnit",
     "namePlural": "maxValueUnits",
     "usedIn": {
@@ -13942,7 +13942,7 @@
           "https://openminds.om-i.org/types/MeasuredQuantity"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isQuantityOf"
     },
     "description": null,
     "hasNamespace": [
@@ -13960,8 +13960,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Measured quantity",
-    "labelPlural": "Measured quantities",
+    "label": "measured quantity",
+    "labelPlural": "measured quantities",
     "name": "measuredQuantity",
     "namePlural": "measuredQuantities",
     "usedIn": {
@@ -13998,7 +13998,7 @@
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "measures"
     },
     "description": null,
     "hasNamespace": [
@@ -14016,8 +14016,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Measured with",
-    "labelPlural": "Measured with",
+    "label": "measured with",
+    "labelPlural": "measured with",
     "name": "measuredWith",
     "namePlural": "measuredWith",
     "usedIn": {
@@ -14048,7 +14048,7 @@
           "https://openminds.om-i.org/types/Organization"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "hasMember"
     },
     "description": null,
     "hasNamespace": [
@@ -14066,8 +14066,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Member of",
-    "labelPlural": "Member of",
+    "label": "member of",
+    "labelPlural": "member of",
     "name": "memberOf",
     "namePlural": "memberOf",
     "usedIn": {
@@ -14098,7 +14098,7 @@
           "https://openminds.om-i.org/types/FileBundle"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isUsedIn"
     },
     "description": null,
     "hasNamespace": [
@@ -14116,8 +14116,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Metadata location",
-    "labelPlural": "Metadata locations",
+    "label": "metadata location",
+    "labelPlural": "metadata locations",
     "name": "metadataLocation",
     "namePlural": "metadataLocations",
     "usedIn": {
@@ -14160,8 +14160,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Min value",
-    "labelPlural": "Min values",
+    "label": "min value",
+    "labelPlural": "min values",
     "name": "minValue",
     "namePlural": "minValues",
     "usedIn": {
@@ -14195,7 +14195,7 @@
           "https://openminds.om-i.org/types/UnitOfMeasurement"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isUnitOf"
     },
     "description": null,
     "hasNamespace": [
@@ -14213,8 +14213,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Min value unit",
-    "labelPlural": "Min value units",
+    "label": "min value unit",
+    "labelPlural": "min value units",
     "name": "minValueUnit",
     "namePlural": "minValueUnits",
     "usedIn": {
@@ -14255,8 +14255,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Modification date",
-    "labelPlural": "Modification dates",
+    "label": "modification date",
+    "labelPlural": "modification dates",
     "name": "modificationDate",
     "namePlural": "modificationDates",
     "usedIn": {
@@ -14327,7 +14327,7 @@
           "https://openminds.om-i.org/types/MolecularEntity"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isEntityOf"
     },
     "description": null,
     "hasNamespace": [
@@ -14345,8 +14345,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Molecular entity",
-    "labelPlural": "Molecular entities",
+    "label": "molecular entity",
+    "labelPlural": "molecular entities",
     "name": "molecularEntity",
     "namePlural": "molecularEntities",
     "usedIn": {
@@ -14391,8 +14391,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Name",
-    "labelPlural": "Names",
+    "label": "name",
+    "labelPlural": "names",
     "name": "name",
     "namePlural": "names",
     "usedIn": {
@@ -14874,7 +14874,7 @@
           "https://openminds.ebrains.eu/sands/AnatomicalEntity"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "names"
     },
     "description": "Word or expression that has a precise meaning within a science, art, profession, or subject.",
     "hasNamespace": [
@@ -14885,8 +14885,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Naming term",
-    "labelPlural": "Naming terms",
+    "label": "naming term",
+    "labelPlural": "naming terms",
     "name": "namingTerm",
     "namePlural": "namingTerms",
     "usedIn": {
@@ -14914,7 +14914,7 @@
           "https://openminds.om-i.org/types/UnitOfMeasurement"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isUnitOf"
     },
     "description": "Determinate quantity used in the original measurement.",
     "hasNamespace": [
@@ -14934,8 +14934,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Native unit",
-    "labelPlural": "Native units",
+    "label": "native unit",
+    "labelPlural": "native units",
     "name": "nativeUnit",
     "namePlural": "nativeUnits",
     "usedIn": {
@@ -14977,8 +14977,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Negative uncertainties",
-    "labelPlural": "Negative uncertainties",
+    "label": "negative uncertainties",
+    "labelPlural": "negative uncertainties",
     "name": "negativeUncertainties",
     "namePlural": "negativeUncertainties",
     "usedIn": {
@@ -15010,8 +15010,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Number of electrodes",
-    "labelPlural": "Number of electrodes",
+    "label": "number of electrodes",
+    "labelPlural": "number of electrodes",
     "name": "numberOfElectrodes",
     "namePlural": "numberOfElectrodes",
     "usedIn": {
@@ -15043,8 +15043,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Number of subjects",
-    "labelPlural": "Number of subjects",
+    "label": "number of subjects",
+    "labelPlural": "number of subjects",
     "name": "numberOfSubjects",
     "namePlural": "numberOfSubjects",
     "usedIn": {
@@ -15076,8 +15076,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Number of tissue samples",
-    "labelPlural": "Numbers of tissue samples",
+    "label": "number of tissue samples",
+    "labelPlural": "numbers of tissue samples",
     "name": "numberOfTissueSamples",
     "namePlural": "numbersOfTissueSamples",
     "usedIn": {
@@ -15122,8 +15122,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Ontology identifier",
-    "labelPlural": "Ontology identifiers",
+    "label": "ontology identifier",
+    "labelPlural": "ontology identifiers",
     "name": "ontologyIdentifier",
     "namePlural": "ontologyIdentifiers",
     "usedIn": {
@@ -15259,7 +15259,7 @@
           "https://openminds.ebrains.eu/core/URL"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isURLOf"
     },
     "asString": {
       "formatting": "text/plain",
@@ -15287,8 +15287,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Open data in",
-    "labelPlural": "Open data in",
+    "label": "open data in",
+    "labelPlural": "open data in",
     "name": "openDataIn",
     "namePlural": "openDataIn",
     "usedIn": {
@@ -15353,7 +15353,7 @@
           "https://openminds.om-i.org/types/OperatingSystem"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isOperatingSystemOf"
     },
     "description": "Software that controls the operation of a computer and directs the processing of programs.",
     "hasNamespace": [
@@ -15373,8 +15373,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Operating system",
-    "labelPlural": "Operating systems",
+    "label": "operating system",
+    "labelPlural": "operating systems",
     "name": "operatingSystem",
     "namePlural": "operatingSystems",
     "usedIn": {
@@ -15412,8 +15412,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Order",
-    "labelPlural": "Orders",
+    "label": "order",
+    "labelPlural": "orders",
     "name": "order",
     "namePlural": "orders",
     "usedIn": {
@@ -15441,7 +15441,7 @@
           "https://openminds.ebrains.eu/core/Organization"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isOrganizationOf"
     },
     "description": "Legally accountable, administrative and functional structure.",
     "hasNamespace": [
@@ -15453,8 +15453,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Organization",
-    "labelPlural": "Organizations",
+    "label": "organization",
+    "labelPlural": "organizations",
     "name": "organization",
     "namePlural": "organizations",
     "usedIn": {
@@ -15493,7 +15493,7 @@
           "https://openminds.om-i.org/types/OrganismSubstance"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isOriginOf"
     },
     "description": "Source at which something begins or rises, or from which something derives.",
     "hasNamespace": [
@@ -15513,8 +15513,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Origin",
-    "labelPlural": "Origins",
+    "label": "origin",
+    "labelPlural": "origins",
     "name": "origin",
     "namePlural": "origins",
     "usedIn": {
@@ -15553,7 +15553,7 @@
           "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isOscillationAmplitudeOf"
     },
     "description": null,
     "hasNamespace": [
@@ -15571,8 +15571,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Oscillation amplitude",
-    "labelPlural": "Oscillation amplitudes",
+    "label": "oscillation amplitude",
+    "labelPlural": "oscillation amplitudes",
     "name": "oscillationAmplitude",
     "namePlural": "oscillationAmplitudes",
     "usedIn": {
@@ -15594,7 +15594,7 @@
           "https://openminds.ebrains.eu/sands/AnatomicalEntityRelation"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isAnatomicalRelationOf"
     },
     "description": "Reference to a related anatomical structure.",
     "hasNamespace": [
@@ -15605,8 +15605,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Other anatomical relation",
-    "labelPlural": "Other anatomical relations",
+    "label": "other anatomical relation",
+    "labelPlural": "other anatomical relations",
     "name": "otherAnatomicalRelation",
     "namePlural": "otherAnatomicalRelations",
     "usedIn": {
@@ -15634,7 +15634,7 @@
           "https://openminds.om-i.org/types/Contribution"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isContributionOf"
     },
     "description": "Giving or supplying of something (such as money or time) as a part or share other than what is covered elsewhere.",
     "hasNamespace": [
@@ -15654,8 +15654,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Other contribution",
-    "labelPlural": "Other contributions",
+    "label": "other contribution",
+    "labelPlural": "other contributions",
     "name": "otherContribution",
     "namePlural": "otherContributions",
     "usedIn": {
@@ -15762,7 +15762,7 @@
           "https://openminds.om-i.org/types/TissueSampleState"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isOutputOf"
     },
     "description": "Something or someone that comes out of, is delivered or produced by a process or machine.",
     "hasNamespace": [
@@ -15782,8 +15782,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Output",
-    "labelPlural": "Outputs",
+    "label": "output",
+    "labelPlural": "outputs",
     "name": "output",
     "namePlural": "outputs",
     "usedIn": {
@@ -15878,7 +15878,7 @@
           "https://openminds.om-i.org/types/WebResource"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isOutputDataOf"
     },
     "description": "Data that comes out of, is delivered or produced by a process or machine.",
     "hasNamespace": [
@@ -15898,8 +15898,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Output data",
-    "labelPlural": "Output data",
+    "label": "output data",
+    "labelPlural": "output data",
     "name": "outputData",
     "namePlural": "outputData",
     "usedIn": {
@@ -15939,7 +15939,7 @@
           "https://openminds.om-i.org/types/ContentType"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isOutputFormatOf"
     },
     "description": "Format of data that comes out of, is delivered or produced by a process or machine.",
     "hasNamespace": [
@@ -15959,8 +15959,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Output format",
-    "labelPlural": "Output formats",
+    "label": "output format",
+    "labelPlural": "output formats",
     "name": "outputFormat",
     "namePlural": "outputFormats",
     "usedIn": {
@@ -16020,8 +16020,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Owner",
-    "labelPlural": "Owners",
+    "label": "owner",
+    "labelPlural": "owners",
     "name": "owner",
     "namePlural": "owners",
     "usedIn": {
@@ -16071,8 +16071,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Pagination",
-    "labelPlural": "Paginations",
+    "label": "pagination",
+    "labelPlural": "paginations",
     "name": "pagination",
     "namePlural": "paginations",
     "usedIn": {
@@ -16114,8 +16114,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Parameter",
-    "labelPlural": "Parameters",
+    "label": "parameter",
+    "labelPlural": "parameters",
     "name": "parameter",
     "namePlural": "parameters",
     "usedIn": {
@@ -16149,8 +16149,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Parameter set",
-    "labelPlural": "Parameter sets",
+    "label": "parameter set",
+    "labelPlural": "parameter sets",
     "name": "parameterSet",
     "namePlural": "parameterSets",
     "usedIn": {
@@ -16188,8 +16188,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Path",
-    "labelPlural": "Paths",
+    "label": "path",
+    "labelPlural": "paths",
     "name": "path",
     "namePlural": "paths",
     "usedIn": {
@@ -16248,8 +16248,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Pathology",
-    "labelPlural": "Pathologies",
+    "label": "pathology",
+    "labelPlural": "pathologies",
     "name": "pathology",
     "namePlural": "pathologies",
     "usedIn": {
@@ -16304,8 +16304,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Pattern of filenames",
-    "labelPlural": "Patterns of filenames",
+    "label": "pattern of filenames",
+    "labelPlural": "patterns of filenames",
     "name": "patternOfFilenames",
     "namePlural": "patternsOfFilenames",
     "usedIn": {
@@ -16379,8 +16379,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Performed by",
-    "labelPlural": "Performed by",
+    "label": "performed by",
+    "labelPlural": "performed by",
     "name": "performedBy",
     "namePlural": "performedBy",
     "usedIn": {
@@ -16474,8 +16474,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Phenotype",
-    "labelPlural": "Phenotypes",
+    "label": "phenotype",
+    "labelPlural": "phenotypes",
     "name": "phenotype",
     "namePlural": "phenotypes",
     "usedIn": {
@@ -16536,8 +16536,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Pipette resistance",
-    "labelPlural": "Pipette resistances",
+    "label": "pipette resistance",
+    "labelPlural": "pipette resistances",
     "name": "pipetteResistance",
     "namePlural": "pipetteResistances",
     "usedIn": {
@@ -16583,8 +16583,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Pipette solution",
-    "labelPlural": "Pipette solutions",
+    "label": "pipette solution",
+    "labelPlural": "pipette solutions",
     "name": "pipetteSolution",
     "namePlural": "pipetteSolutions",
     "usedIn": {
@@ -16616,8 +16616,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Positive uncertainties",
-    "labelPlural": "Positive uncertainties",
+    "label": "positive uncertainties",
+    "labelPlural": "positive uncertainties",
     "name": "positiveUncertainties",
     "namePlural": "positiveUncertainties",
     "usedIn": {
@@ -16666,8 +16666,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Preferred display color",
-    "labelPlural": "Preferred display colors",
+    "label": "preferred display color",
+    "labelPlural": "preferred display colors",
     "name": "preferredDisplayColor",
     "namePlural": "preferredDisplayColors",
     "usedIn": {
@@ -16708,8 +16708,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Preferred ontology identifier",
-    "labelPlural": "Preferred ontology identifiers",
+    "label": "preferred ontology identifier",
+    "labelPlural": "preferred ontology identifiers",
     "name": "preferredOntologyIdentifier",
     "namePlural": "preferredOntologyIdentifiers",
     "usedIn": {
@@ -17016,8 +17016,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Preferred visualization",
-    "labelPlural": "Preferred visualizations",
+    "label": "preferred visualization",
+    "labelPlural": "preferred visualizations",
     "name": "preferredVisualization",
     "namePlural": "preferredVisualizations",
     "usedIn": {
@@ -17066,8 +17066,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Preparation design",
-    "labelPlural": "Preparation designs",
+    "label": "preparation design",
+    "labelPlural": "preparation designs",
     "name": "preparationDesign",
     "namePlural": "preparationDesigns",
     "usedIn": {
@@ -17126,8 +17126,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Preparation type",
-    "labelPlural": "Preparation types",
+    "label": "preparation type",
+    "labelPlural": "preparation types",
     "name": "preparationType",
     "namePlural": "preparationTypes",
     "usedIn": {
@@ -17165,8 +17165,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Prerequisite",
-    "labelPlural": "Prerequisites",
+    "label": "prerequisite",
+    "labelPlural": "prerequisites",
     "name": "prerequisite",
     "namePlural": "prerequisites",
     "usedIn": {
@@ -17212,8 +17212,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Preview image",
-    "labelPlural": "Preview images",
+    "label": "preview image",
+    "labelPlural": "preview images",
     "name": "previewImage",
     "namePlural": "previewImages",
     "usedIn": {
@@ -17259,8 +17259,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Previous recording",
-    "labelPlural": "Previous recordings",
+    "label": "previous recording",
+    "labelPlural": "previous recordings",
     "name": "previousRecording",
     "namePlural": "previousRecordings",
     "usedIn": {
@@ -17329,8 +17329,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Product name",
-    "labelPlural": "Product names",
+    "label": "product name",
+    "labelPlural": "product names",
     "name": "productName",
     "namePlural": "productNames",
     "usedIn": {
@@ -17376,8 +17376,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Product source",
-    "labelPlural": "Product sources",
+    "label": "product source",
+    "labelPlural": "product sources",
     "name": "productSource",
     "namePlural": "productSources",
     "usedIn": {
@@ -17434,8 +17434,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Programming language",
-    "labelPlural": "Programming languages",
+    "label": "programming language",
+    "labelPlural": "programming languages",
     "name": "programmingLanguage",
     "namePlural": "programmingLanguages",
     "usedIn": {
@@ -17490,8 +17490,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Property value pair",
-    "labelPlural": "Property value pairs",
+    "label": "property value pair",
+    "labelPlural": "property value pairs",
     "name": "propertyValuePair",
     "namePlural": "propertyValuePairs",
     "usedIn": {
@@ -17545,8 +17545,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Protocol",
-    "labelPlural": "Protocols",
+    "label": "protocol",
+    "labelPlural": "protocols",
     "name": "protocol",
     "namePlural": "protocols",
     "usedIn": {
@@ -17627,8 +17627,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Provider",
-    "labelPlural": "Providers",
+    "label": "provider",
+    "labelPlural": "providers",
     "name": "provider",
     "namePlural": "providers",
     "usedIn": {
@@ -17669,8 +17669,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Publication date",
-    "labelPlural": "Publication dates",
+    "label": "publication date",
+    "labelPlural": "publication dates",
     "name": "publicationDate",
     "namePlural": "publicationDates",
     "usedIn": {
@@ -17768,8 +17768,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Publisher",
-    "labelPlural": "Publishers",
+    "label": "publisher",
+    "labelPlural": "publishers",
     "name": "publisher",
     "namePlural": "publishers",
     "usedIn": {
@@ -17827,8 +17827,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Purity",
-    "labelPlural": "Purities",
+    "label": "purity",
+    "labelPlural": "purities",
     "name": "purity",
     "namePlural": "purities",
     "usedIn": {
@@ -17885,8 +17885,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Qualitative overlap",
-    "labelPlural": "Qualitative overlaps",
+    "label": "qualitative overlap",
+    "labelPlural": "qualitative overlaps",
     "name": "qualitativeOverlap",
     "namePlural": "qualitativeOverlaps",
     "usedIn": {
@@ -17951,8 +17951,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Quantitative overlap",
-    "labelPlural": "Quantitative overlaps",
+    "label": "quantitative overlap",
+    "labelPlural": "quantitative overlaps",
     "name": "quantitativeOverlap",
     "namePlural": "quantitativeOverlaps",
     "usedIn": {
@@ -17984,8 +17984,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Quantity",
-    "labelPlural": "Quantities",
+    "label": "quantity",
+    "labelPlural": "quantities",
     "name": "quantity",
     "namePlural": "quantities",
     "usedIn": {
@@ -18030,8 +18030,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Radius",
-    "labelPlural": "Radii",
+    "label": "radius",
+    "labelPlural": "radii",
     "name": "radius",
     "namePlural": "radii",
     "usedIn": {
@@ -18077,8 +18077,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Recipe",
-    "labelPlural": "Recipes",
+    "label": "recipe",
+    "labelPlural": "recipes",
     "name": "recipe",
     "namePlural": "recipes",
     "usedIn": {
@@ -18154,8 +18154,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Recorded with",
-    "labelPlural": "Recorded with",
+    "label": "recorded with",
+    "labelPlural": "recorded with",
     "name": "recordedWith",
     "namePlural": "recordedWith",
     "usedIn": {
@@ -18210,8 +18210,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Reference data",
-    "labelPlural": "Reference data",
+    "label": "reference data",
+    "labelPlural": "reference data",
     "name": "referenceData",
     "namePlural": "referenceData",
     "usedIn": {
@@ -18257,8 +18257,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Reference data acquisition",
-    "labelPlural": "Reference data acquisitions",
+    "label": "reference data acquisition",
+    "labelPlural": "reference data acquisitions",
     "name": "referenceDataAcquisition",
     "namePlural": "referenceDataAcquisitions",
     "usedIn": {
@@ -18301,8 +18301,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Regex",
-    "labelPlural": "Regexes",
+    "label": "regex",
+    "labelPlural": "regexes",
     "name": "regex",
     "namePlural": "regexes",
     "usedIn": {
@@ -18355,8 +18355,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Reinforcement type",
-    "labelPlural": "Reinforcement types",
+    "label": "reinforcement type",
+    "labelPlural": "reinforcement types",
     "name": "reinforcementType",
     "namePlural": "reinforcementTypes",
     "usedIn": {
@@ -18389,8 +18389,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Related atlas term",
-    "labelPlural": "Related atlas terms",
+    "label": "related atlas term",
+    "labelPlural": "related atlas terms",
     "name": "relatedAtlasTerm",
     "namePlural": "relatedAtlasTerms",
     "usedIn": {
@@ -18429,8 +18429,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Related media type",
-    "labelPlural": "Related media types",
+    "label": "related media type",
+    "labelPlural": "related media types",
     "name": "relatedMediaType",
     "namePlural": "relatedMediaTypes",
     "usedIn": {
@@ -18510,8 +18510,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Related publication",
-    "labelPlural": "Related publications",
+    "label": "related publication",
+    "labelPlural": "related publications",
     "name": "relatedPublication",
     "namePlural": "relatedPublications",
     "usedIn": {
@@ -18589,8 +18589,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Related recording",
-    "labelPlural": "Related recordings",
+    "label": "related recording",
+    "labelPlural": "related recordings",
     "name": "relatedRecording",
     "namePlural": "relatedRecordings",
     "usedIn": {
@@ -18625,8 +18625,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Related stimulation",
-    "labelPlural": "Related stimulations",
+    "label": "related stimulation",
+    "labelPlural": "related stimulations",
     "name": "relatedStimulation",
     "namePlural": "relatedStimulations",
     "usedIn": {
@@ -18676,8 +18676,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Related uberonterm",
-    "labelPlural": "Related UBERON terms",
+    "label": "related uberonterm",
+    "labelPlural": "related UBERON terms",
     "name": "relatedUBERONTerm",
     "namePlural": "relatedUBERONTerms",
     "usedIn": {
@@ -18737,8 +18737,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Relation assessment",
-    "labelPlural": "Relation assessments",
+    "label": "relation assessment",
+    "labelPlural": "relation assessments",
     "name": "relationAssessment",
     "namePlural": "relationAssessments",
     "usedIn": {
@@ -18794,8 +18794,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Relative time indication",
-    "labelPlural": "Relative time indications",
+    "label": "relative time indication",
+    "labelPlural": "relative time indications",
     "name": "relativeTimeIndication",
     "namePlural": "relativeTimeIndications",
     "usedIn": {
@@ -18849,8 +18849,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Release date",
-    "labelPlural": "Release dates",
+    "label": "release date",
+    "labelPlural": "release dates",
     "name": "releaseDate",
     "namePlural": "releaseDates",
     "usedIn": {
@@ -18966,8 +18966,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Relevant for",
-    "labelPlural": "Relevant for",
+    "label": "relevant for",
+    "labelPlural": "relevant for",
     "name": "relevantFor",
     "namePlural": "relevantFor",
     "usedIn": {
@@ -19027,8 +19027,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Repository",
-    "labelPlural": "Repositories",
+    "label": "repository",
+    "labelPlural": "repositories",
     "name": "repository",
     "namePlural": "repositories",
     "usedIn": {
@@ -19104,8 +19104,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Repository type",
-    "labelPlural": "Repository types",
+    "label": "repository type",
+    "labelPlural": "repository types",
     "name": "repositoryType",
     "namePlural": "repositoryTypes",
     "usedIn": {
@@ -19151,8 +19151,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Required time",
-    "labelPlural": "Required times",
+    "label": "required time",
+    "labelPlural": "required times",
     "name": "requiredTime",
     "namePlural": "requiredTimes",
     "usedIn": {
@@ -19196,8 +19196,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Requirement",
-    "labelPlural": "Requirements",
+    "label": "requirement",
+    "labelPlural": "requirements",
     "name": "requirement",
     "namePlural": "requirements",
     "usedIn": {
@@ -19249,8 +19249,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Resource usage",
-    "labelPlural": "Resource usages",
+    "label": "resource usage",
+    "labelPlural": "resource usages",
     "name": "resourceUsage",
     "namePlural": "resourceUsages",
     "usedIn": {
@@ -19314,8 +19314,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Sampling frequency",
-    "labelPlural": "Sampling frequencies",
+    "label": "sampling frequency",
+    "labelPlural": "sampling frequencies",
     "name": "samplingFrequency",
     "namePlural": "samplingFrequencies",
     "usedIn": {
@@ -19377,8 +19377,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Scope",
-    "labelPlural": "Scopes",
+    "label": "scope",
+    "labelPlural": "scopes",
     "name": "scope",
     "namePlural": "scopes",
     "usedIn": {
@@ -19421,8 +19421,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Score",
-    "labelPlural": "Scores",
+    "label": "score",
+    "labelPlural": "scores",
     "name": "score",
     "namePlural": "scores",
     "usedIn": {
@@ -19468,8 +19468,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Score type",
-    "labelPlural": "Score types",
+    "label": "score type",
+    "labelPlural": "score types",
     "name": "scoreType",
     "namePlural": "scoreTypes",
     "usedIn": {
@@ -19515,8 +19515,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Seal resistance",
-    "labelPlural": "Seal resistances",
+    "label": "seal resistance",
+    "labelPlural": "seal resistances",
     "name": "sealResistance",
     "namePlural": "sealResistances",
     "usedIn": {
@@ -19550,8 +19550,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Semantically anchored to",
-    "labelPlural": "Semantically anchored to",
+    "label": "semantically anchored to",
+    "labelPlural": "semantically anchored to",
     "name": "semanticallyAnchoredTo",
     "namePlural": "semanticallyAnchoredTo",
     "usedIn": {
@@ -19591,8 +19591,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Semi major axis",
-    "labelPlural": "Semi major axes",
+    "label": "semi major axis",
+    "labelPlural": "semi major axes",
     "name": "semiMajorAxis",
     "namePlural": "semiMajorAxes",
     "usedIn": {
@@ -19638,8 +19638,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Semi minor axis",
-    "labelPlural": "Semi minor axes",
+    "label": "semi minor axis",
+    "labelPlural": "semi minor axes",
     "name": "semiMinorAxis",
     "namePlural": "semiMinorAxes",
     "usedIn": {
@@ -19680,8 +19680,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Serial number",
-    "labelPlural": "Serial numbers",
+    "label": "serial number",
+    "labelPlural": "serial numbers",
     "name": "serialNumber",
     "namePlural": "serialNumbers",
     "usedIn": {
@@ -19744,8 +19744,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Serialization format",
-    "labelPlural": "Serialization formats",
+    "label": "serialization format",
+    "labelPlural": "serialization formats",
     "name": "serializationFormat",
     "namePlural": "serializationFormats",
     "usedIn": {
@@ -19797,8 +19797,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Series resistance",
-    "labelPlural": "Series resistances",
+    "label": "series resistance",
+    "labelPlural": "series resistances",
     "name": "seriesResistance",
     "namePlural": "seriesResistances",
     "usedIn": {
@@ -19851,8 +19851,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Service",
-    "labelPlural": "Services",
+    "label": "service",
+    "labelPlural": "services",
     "name": "service",
     "namePlural": "services",
     "usedIn": {
@@ -19904,8 +19904,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Setup",
-    "labelPlural": "Setups",
+    "label": "setup",
+    "labelPlural": "setups",
     "name": "setup",
     "namePlural": "setups",
     "usedIn": {
@@ -19950,8 +19950,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Short name",
-    "labelPlural": "Short names",
+    "label": "short name",
+    "labelPlural": "short names",
     "name": "shortName",
     "namePlural": "shortNames",
     "usedIn": {
@@ -20106,8 +20106,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Slice thickness",
-    "labelPlural": "Slice thicknesses",
+    "label": "slice thickness",
+    "labelPlural": "slice thicknesses",
     "name": "sliceThickness",
     "namePlural": "sliceThicknesses",
     "usedIn": {
@@ -20156,8 +20156,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Slicing angle",
-    "labelPlural": "Slicing angles",
+    "label": "slicing angle",
+    "labelPlural": "slicing angles",
     "name": "slicingAngle",
     "namePlural": "slicingAngles",
     "usedIn": {
@@ -20203,8 +20203,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Slicing plane",
-    "labelPlural": "Slicing planes",
+    "label": "slicing plane",
+    "labelPlural": "slicing planes",
     "name": "slicingPlane",
     "namePlural": "slicingPlanes",
     "usedIn": {
@@ -20250,8 +20250,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Slicing speed",
-    "labelPlural": "Slicing speeds",
+    "label": "slicing speed",
+    "labelPlural": "slicing speeds",
     "name": "slicingSpeed",
     "namePlural": "slicingSpeeds",
     "usedIn": {
@@ -20297,8 +20297,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Software",
-    "labelPlural": "Software",
+    "label": "software",
+    "labelPlural": "software",
     "name": "software",
     "namePlural": "software",
     "usedIn": {
@@ -20376,8 +20376,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Source data",
-    "labelPlural": "Source data",
+    "label": "source data",
+    "labelPlural": "source data",
     "name": "sourceData",
     "namePlural": "sourceData",
     "usedIn": {
@@ -20423,8 +20423,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Spatial location",
-    "labelPlural": "Spatial locations",
+    "label": "spatial location",
+    "labelPlural": "spatial locations",
     "name": "spatialLocation",
     "namePlural": "spatialLocations",
     "usedIn": {
@@ -20476,8 +20476,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Spatial location of electrodes",
-    "labelPlural": "Spatial locations of electrodes",
+    "label": "spatial location of electrodes",
+    "labelPlural": "spatial locations of electrodes",
     "name": "spatialLocationOfElectrodes",
     "namePlural": "spatialLocationsOfElectrodes",
     "usedIn": {
@@ -20531,8 +20531,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Special usage role",
-    "labelPlural": "Special usage roles",
+    "label": "special usage role",
+    "labelPlural": "special usage roles",
     "name": "specialUsageRole",
     "namePlural": "specialUsageRoles",
     "usedIn": {
@@ -20598,8 +20598,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Species",
-    "labelPlural": "Species",
+    "label": "species",
+    "labelPlural": "species",
     "name": "species",
     "namePlural": "species",
     "usedIn": {
@@ -20692,8 +20692,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Specification",
-    "labelPlural": "Specifications",
+    "label": "specification",
+    "labelPlural": "specifications",
     "name": "specification",
     "namePlural": "specifications",
     "usedIn": {
@@ -20763,8 +20763,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Specification format",
-    "labelPlural": "Specification formats",
+    "label": "specification format",
+    "labelPlural": "specification formats",
     "name": "specificationFormat",
     "namePlural": "specificationFormats",
     "usedIn": {
@@ -20834,8 +20834,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Stage",
-    "labelPlural": "Stages",
+    "label": "stage",
+    "labelPlural": "stages",
     "name": "stage",
     "namePlural": "stages",
     "usedIn": {
@@ -20880,8 +20880,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Start date",
-    "labelPlural": "Start dates",
+    "label": "start date",
+    "labelPlural": "start dates",
     "name": "startDate",
     "namePlural": "startDates",
     "usedIn": {
@@ -20933,8 +20933,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Start membrane potential",
-    "labelPlural": "Start membrane potentials",
+    "label": "start membrane potential",
+    "labelPlural": "start membrane potentials",
     "name": "startMembranePotential",
     "namePlural": "startMembranePotentials",
     "usedIn": {
@@ -20975,8 +20975,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Start time",
-    "labelPlural": "Start times",
+    "label": "start time",
+    "labelPlural": "start times",
     "name": "startTime",
     "namePlural": "startTimes",
     "usedIn": {
@@ -21048,10 +21048,10 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Started at time",
-    "labelPlural": null,
+    "label": "started at time",
+    "labelPlural": "started at times",
     "name": "startedAtTime",
-    "namePlural": null,
+    "namePlural": "startedAtTimes",
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/ProtocolExecution"
@@ -21092,8 +21092,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Started by",
-    "labelPlural": "Started by",
+    "label": "started by",
+    "labelPlural": "started by",
     "name": "startedBy",
     "namePlural": "startedBy",
     "usedIn": {
@@ -21160,8 +21160,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Status",
-    "labelPlural": "Statuses",
+    "label": "status",
+    "labelPlural": "statuses",
     "name": "status",
     "namePlural": "statuses",
     "usedIn": {
@@ -21228,8 +21228,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Stimulation",
-    "labelPlural": "Stimulations",
+    "label": "stimulation",
+    "labelPlural": "stimulations",
     "name": "stimulation",
     "namePlural": "stimulations",
     "usedIn": {
@@ -21275,8 +21275,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Stimulus",
-    "labelPlural": "Stimuli",
+    "label": "stimulus",
+    "labelPlural": "stimuli",
     "name": "stimulus",
     "namePlural": "stimuli",
     "usedIn": {
@@ -21340,8 +21340,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Stimulus type",
-    "labelPlural": "Stimulus types",
+    "label": "stimulus type",
+    "labelPlural": "stimulus types",
     "name": "stimulusType",
     "namePlural": "stimulusTypes",
     "usedIn": {
@@ -21390,8 +21390,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Stock number",
-    "labelPlural": "Stock numbers",
+    "label": "stock number",
+    "labelPlural": "stock numbers",
     "name": "stockNumber",
     "namePlural": "stockNumbers",
     "usedIn": {
@@ -21445,8 +21445,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Storage size",
-    "labelPlural": "Storage sizes",
+    "label": "storage size",
+    "labelPlural": "storage sizes",
     "name": "storageSize",
     "namePlural": "storageSizes",
     "usedIn": {
@@ -21502,8 +21502,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Strain",
-    "labelPlural": "Strains",
+    "label": "strain",
+    "labelPlural": "strains",
     "name": "strain",
     "namePlural": "strains",
     "usedIn": {
@@ -21556,8 +21556,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Structure pattern",
-    "labelPlural": "Structure patterns",
+    "label": "structure pattern",
+    "labelPlural": "structure patterns",
     "name": "structurePattern",
     "namePlural": "structurePatterns",
     "usedIn": {
@@ -21629,8 +21629,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Studied specimen",
-    "labelPlural": "Studied specimens",
+    "label": "studied specimen",
+    "labelPlural": "studied specimens",
     "name": "studiedSpecimen",
     "namePlural": "studiedSpecimens",
     "usedIn": {
@@ -21705,8 +21705,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Studied state",
-    "labelPlural": "Studied states",
+    "label": "studied state",
+    "labelPlural": "studied states",
     "name": "studiedState",
     "namePlural": "studiedStates",
     "usedIn": {
@@ -21772,8 +21772,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Study option",
-    "labelPlural": "Study options",
+    "label": "study option",
+    "labelPlural": "study options",
     "name": "studyOption",
     "namePlural": "studyOptions",
     "usedIn": {
@@ -21913,8 +21913,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Study target",
-    "labelPlural": "Study targets",
+    "label": "study target",
+    "labelPlural": "study targets",
     "name": "studyTarget",
     "namePlural": "studyTargets",
     "usedIn": {
@@ -22014,8 +22014,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Suggest new terminology",
-    "labelPlural": "Suggest new terminologies",
+    "label": "suggest new terminology",
+    "labelPlural": "suggest new terminologies",
     "name": "suggestNewTerminology",
     "namePlural": "suggestNewTerminologies",
     "usedIn": {
@@ -22063,8 +22063,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Support channel",
-    "labelPlural": "Support channels",
+    "label": "support channel",
+    "labelPlural": "support channels",
     "name": "supportChannel",
     "namePlural": "supportChannels",
     "usedIn": {
@@ -22150,8 +22150,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Synonym",
-    "labelPlural": "Synonyms",
+    "label": "synonym",
+    "labelPlural": "synonyms",
     "name": "synonym",
     "namePlural": "synonyms",
     "usedIn": {
@@ -22465,8 +22465,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Tag",
-    "labelPlural": "Tags",
+    "label": "tag",
+    "labelPlural": "tags",
     "name": "tag",
     "namePlural": "tags",
     "usedIn": {
@@ -22530,8 +22530,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Target identification type",
-    "labelPlural": "Target identification types",
+    "label": "target identification type",
+    "labelPlural": "target identification types",
     "name": "targetIdentificationType",
     "namePlural": "targetIdentificationTypes",
     "usedIn": {
@@ -22577,8 +22577,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Target position",
-    "labelPlural": "Target positions",
+    "label": "target position",
+    "labelPlural": "target positions",
     "name": "targetPosition",
     "namePlural": "targetPositions",
     "usedIn": {
@@ -22652,8 +22652,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Technique",
-    "labelPlural": "Techniques",
+    "label": "technique",
+    "labelPlural": "techniques",
     "name": "technique",
     "namePlural": "techniques",
     "usedIn": {
@@ -22733,8 +22733,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Temperature",
-    "labelPlural": "Temperatures",
+    "label": "temperature",
+    "labelPlural": "temperatures",
     "name": "temperature",
     "namePlural": "temperatures",
     "usedIn": {
@@ -22796,8 +22796,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Terminology",
-    "labelPlural": "Terminologies",
+    "label": "terminology",
+    "labelPlural": "terminologies",
     "name": "terminology",
     "namePlural": "terminologies",
     "usedIn": {
@@ -22833,8 +22833,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Timestamp",
-    "labelPlural": "Timestamps",
+    "label": "timestamp",
+    "labelPlural": "timestamps",
     "name": "timestamp",
     "namePlural": "timestamps",
     "usedIn": {
@@ -22883,8 +22883,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Tissue bath solution",
-    "labelPlural": "Tissue bath solutions",
+    "label": "tissue bath solution",
+    "labelPlural": "tissue bath solutions",
     "name": "tissueBathSolution",
     "namePlural": "tissueBathSolutions",
     "usedIn": {
@@ -22928,8 +22928,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Topic",
-    "labelPlural": "Topics",
+    "label": "topic",
+    "labelPlural": "topics",
     "name": "topic",
     "namePlural": "topics",
     "usedIn": {
@@ -23023,8 +23023,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Type",
-    "labelPlural": "Types",
+    "label": "type",
+    "labelPlural": "types",
     "name": "type",
     "namePlural": "types",
     "usedIn": {
@@ -23126,8 +23126,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Type of uncertainty",
-    "labelPlural": "Types of uncertainty",
+    "label": "type of uncertainty",
+    "labelPlural": "types of uncertainty",
     "name": "typeOfUncertainty",
     "namePlural": "typesOfUncertainty",
     "usedIn": {
@@ -23170,8 +23170,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Uncertainty",
-    "labelPlural": "Uncertainties",
+    "label": "uncertainty",
+    "labelPlural": "uncertainties",
     "name": "uncertainty",
     "namePlural": "uncertainties",
     "usedIn": {
@@ -23231,8 +23231,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Unit",
-    "labelPlural": "Units",
+    "label": "unit",
+    "labelPlural": "units",
     "name": "unit",
     "namePlural": "units",
     "usedIn": {
@@ -23325,8 +23325,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Used electrode",
-    "labelPlural": "Used electrodes",
+    "label": "used electrode",
+    "labelPlural": "used electrodes",
     "name": "usedElectrode",
     "namePlural": "usedElectrodes",
     "usedIn": {
@@ -23369,8 +23369,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Used species",
-    "labelPlural": "Used species",
+    "label": "used species",
+    "labelPlural": "used species",
     "name": "usedSpecies",
     "namePlural": "usedSpecies",
     "usedIn": {
@@ -23430,8 +23430,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Used specimen",
-    "labelPlural": "Used specimens",
+    "label": "used specimen",
+    "labelPlural": "used specimens",
     "name": "usedSpecimen",
     "namePlural": "usedSpecimens",
     "usedIn": {
@@ -23517,8 +23517,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "User name",
-    "labelPlural": "User names",
+    "label": "user name",
+    "labelPlural": "user names",
     "name": "userName",
     "namePlural": "userNames",
     "usedIn": {
@@ -23588,8 +23588,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Value",
-    "labelPlural": "Values",
+    "label": "value",
+    "labelPlural": "values",
     "name": "value",
     "namePlural": "values",
     "usedIn": {
@@ -23643,8 +23643,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Values",
-    "labelPlural": "Values",
+    "label": "values",
+    "labelPlural": "values",
     "name": "values",
     "namePlural": "values",
     "usedIn": {
@@ -23690,8 +23690,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Variation",
-    "labelPlural": "Variations",
+    "label": "variation",
+    "labelPlural": "variations",
     "name": "variation",
     "namePlural": "variations",
     "usedIn": {
@@ -23737,8 +23737,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Vendor",
-    "labelPlural": "Vendors",
+    "label": "vendor",
+    "labelPlural": "vendors",
     "name": "vendor",
     "namePlural": "vendors",
     "usedIn": {
@@ -23783,8 +23783,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Version identifier",
-    "labelPlural": "Version identifiers",
+    "label": "version identifier",
+    "labelPlural": "version identifiers",
     "name": "versionIdentifier",
     "namePlural": "versionIdentifiers",
     "usedIn": {
@@ -23893,8 +23893,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Version innovation",
-    "labelPlural": "Version innovations",
+    "label": "version innovation",
+    "labelPlural": "version innovations",
     "name": "versionInnovation",
     "namePlural": "versionInnovations",
     "usedIn": {
@@ -23987,8 +23987,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Vibration frequency",
-    "labelPlural": "Vibration frequencies",
+    "label": "vibration frequency",
+    "labelPlural": "vibration frequencies",
     "name": "vibrationFrequency",
     "namePlural": "vibrationFrequencies",
     "usedIn": {
@@ -24013,7 +24013,7 @@
           "https://openminds.ebrains.eu/core/File"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "visualizes"
     },
     "description": "Reference to an image in which something is visible.",
     "hasNamespace": [
@@ -24025,8 +24025,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Visualized in",
-    "labelPlural": "Visualized in",
+    "label": "visualized in",
+    "labelPlural": "visualized in",
     "name": "visualizedIn",
     "namePlural": "visualizedIn",
     "usedIn": {
@@ -24067,8 +24067,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Volume number",
-    "labelPlural": "Volume numbers",
+    "label": "volume number",
+    "labelPlural": "volume numbers",
     "name": "volumeNumber",
     "namePlural": "volumeNumbers",
     "usedIn": {
@@ -24090,7 +24090,7 @@
           "https://openminds.ebrains.eu/core/QuantitativeValue"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isValueOf"
     },
     "description": "Extent of the discrete elements comprising a three-dimensional entity.",
     "hasNamespace": [
@@ -24101,8 +24101,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Voxel size",
-    "labelPlural": "Voxel sizes",
+    "label": "voxel size",
+    "labelPlural": "voxel sizes",
     "name": "voxelSize",
     "namePlural": "voxelSizes",
     "usedIn": {
@@ -24142,7 +24142,7 @@
           "https://openminds.om-i.org/types/Visualization"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "informed"
     },
     "description": null,
     "hasNamespace": [
@@ -24160,8 +24160,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Was informed by",
-    "labelPlural": "Was informed by",
+    "label": "was informed by",
+    "labelPlural": "was informed by",
     "name": "wasInformedBy",
     "namePlural": "wasInformedBy",
     "usedIn": {
@@ -24224,8 +24224,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Webpage",
-    "labelPlural": "Webpages",
+    "label": "webpage",
+    "labelPlural": "webpages",
     "name": "webpage",
     "namePlural": "webpages",
     "usedIn": {
@@ -24270,7 +24270,7 @@
           "https://openminds.om-i.org/types/QuantitativeValueRange"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isValueOf"
     },
     "description": "Amount that a thing or being weighs.",
     "hasNamespace": [
@@ -24290,8 +24290,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Weight",
-    "labelPlural": "Weights",
+    "label": "weight",
+    "labelPlural": "weights",
     "name": "weight",
     "namePlural": "weights",
     "usedIn": {
@@ -24340,7 +24340,7 @@
           "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
-      "nameForReverseLink": null
+      "nameForReverseLink": "isValueOf"
     },
     "description": null,
     "hasNamespace": [
@@ -24358,8 +24358,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Width",
-    "labelPlural": "Widths",
+    "label": "width",
+    "labelPlural": "widths",
     "name": "width",
     "namePlural": "widths",
     "usedIn": {
@@ -24404,8 +24404,8 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Year",
-    "labelPlural": "Years",
+    "label": "year",
+    "labelPlural": "years",
     "name": "year",
     "namePlural": "years",
     "usedIn": {
