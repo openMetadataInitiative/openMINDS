@@ -666,14 +666,12 @@
     }
   },
   "activeElement": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/GenericIdentifier",
-          "https://openminds.om-i.org/types/string"
-        ]
-      },
-      "nameForReverseLink": null
+    "asString": {
+      "formatting": "text/plain",
+      "inVersions": [
+        "latest"
+      ],
+      "multiline": false
     },
     "description": null,
     "hasNamespace": [
@@ -11906,6 +11904,34 @@
       ]
     }
   },
+  "intendedMountingLocation": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/ExternalBodyRegion"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Intended mounting location",
+    "labelPlural": null,
+    "name": "intendedMountingLocation",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRICoil"
+      ]
+    }
+  },
   "interSliceGap": {
     "description": null,
     "hasNamespace": [
@@ -15705,7 +15731,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/AnatomicalRegion"
+          "https://openminds.om-i.org/types/ExternalBodyRegion"
         ]
       },
       "nameForReverseLink": null
@@ -19921,14 +19947,6 @@
     "usedIn": {}
   },
   "radiofrequencyCoilRole": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/MRIradioFrequencyCoilRole"
-        ]
-      },
-      "nameForReverseLink": null
-    },
     "description": null,
     "hasNamespace": [
       {
@@ -19942,11 +19960,7 @@
     "labelPlural": null,
     "name": "radiofrequencyCoilRole",
     "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRICoilUsage"
-      ]
-    }
+    "usedIn": {}
   },
   "radiofrequencyCoilType": {
     "description": null,
@@ -22132,6 +22146,34 @@
         "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipe",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
+      ]
+    }
+  },
+  "signalDirectionality": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/SignalDirectionality"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Signal directionality",
+    "labelPlural": null,
+    "name": "signalDirectionality",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRICoilUsage"
       ]
     }
   },

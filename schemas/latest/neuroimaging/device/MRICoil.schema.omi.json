@@ -49,6 +49,15 @@
       "name": "elementCount",
       "type": "integer"
     },
+    "https://openminds.om-i.org/props/intendedMountingLocation": {
+      "_instruction": "Add the mounting location intended by the manufacturer (e.g., head, neck, knee).",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ExternalBodyRegion"
+      ],
+      "label": "Intended mounting location",
+      "name": "intendedMountingLocation",
+      "nameForReverseLink": null
+    },
     "https://openminds.om-i.org/props/lookupLabel": {
       "_instruction": "Enter a lookup label for this device that may help you to find this instance more easily.",
       "formatting": "text/plain",

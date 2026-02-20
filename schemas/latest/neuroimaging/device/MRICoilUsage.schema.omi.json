@@ -8,15 +8,15 @@
   "name": "MRICoilUsage",
   "properties": {
     "https://openminds.om-i.org/props/activeElement": {
-      "_instruction": "If applicable, list the identifiers of the active coil elements or channels.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/GenericIdentifier",
-        "https://openminds.om-i.org/types/string"
-      ],
+      "_instruction": "Only applicable to radiofrequency (RF) coils! Enter the active coil element identifier(s) corresponding to the transmitting and/or receiving elements that were electrically active during this acquisition; the number of identifiers typically matches the number of physical elements in the selected RF coil and may be fewer if some elements were disabled.",
+      "formatting": "text/plain",
+      "items": {
+        "type": "string"
+      },
       "label": "Active element",
       "minItems": 1,
+      "multiline": false,
       "name": "activeElement",
-      "nameForReverseLink": null,
       "type": "array",
       "uniqueItems": true
     },
@@ -58,21 +58,21 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/mountingLocation": {
-      "_instruction": "Describe how the coil is mounted or positioned relative to the subject (e.g., head, knee, body).",
+      "_instruction": "Add the anatomical mounting location of the coil, indicating where the coil was positioned on or around the subject (for example, head, neck, knee, or torso). This information is typically applicable to radiofrequency (RF) coils and may be omitted for gradient or shim systems.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/AnatomicalRegion"
+        "https://openminds.om-i.org/types/ExternalBodyRegion"
       ],
       "label": "Mounting location",
       "name": "mountingLocation",
       "nameForReverseLink": null
     },
-    "https://openminds.om-i.org/props/radiofrequencyCoilRole": {
-      "_instruction": "Add the functional role of the RF coil (e.g., transmit, receive, transmit/receive).",
+    "https://openminds.om-i.org/props/signalDirectionality": {
+      "_instruction": "Add the signal directionality of the coil, indicating whether it was used for signal transmission, reception, or both. This information is typically defined in the system configuration and can be retrieved from the DICOM header or scanner hardware metadata.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/MRIradioFrequencyCoilRole"
+        "https://openminds.om-i.org/types/SignalDirectionality"
       ],
-      "label": "Radiofrequency coil role",
-      "name": "radiofrequencyCoilRole",
+      "label": "Signal directionality",
+      "name": "signalDirectionality",
       "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/usedSpecimen": {
@@ -90,6 +90,6 @@
   },
   "required": [
     "https://openminds.om-i.org/props/device",
-    "https://openminds.om-i.org/props/radioFrequencyCoilRole"
+    "https://openminds.om-i.org/props/signalDirectionality"
   ]
 }
