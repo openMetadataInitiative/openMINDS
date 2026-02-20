@@ -630,6 +630,10 @@
         "https://openminds.om-i.org/types/AnatomicalTargetPosition",
         "https://openminds.om-i.org/types/ChemicalMixture",
         "https://openminds.om-i.org/types/ChemicalSubstance",
+        "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageStack",
+        "https://openminds.om-i.org/types/GridVolume",
+        "https://openminds.om-i.org/types/GridVolumeSequence",
         "https://openminds.om-i.org/types/Measurement",
         "https://openminds.om-i.org/types/ParcellationEntityVersion",
         "https://openminds.om-i.org/types/Recording",
@@ -2475,6 +2479,40 @@
       ]
     }
   },
+  "capturedWith": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/ElectrodeArrayUsage",
+          "https://openminds.om-i.org/types/ElectrodeUsage",
+          "https://openminds.om-i.org/types/PipetteUsage",
+          "https://openminds.om-i.org/types/SlicingDeviceUsage"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Captured with",
+    "labelPlural": null,
+    "name": "capturedWith",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageStack",
+        "https://openminds.om-i.org/types/GridVolume",
+        "https://openminds.om-i.org/types/GridVolumeSequence"
+      ]
+    }
+  },
   "channel": {
     "asEdge": {
       "canPointTo": {
@@ -3595,7 +3633,11 @@
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/CoordinatePoint",
-        "https://openminds.om-i.org/types/CustomAnnotation"
+        "https://openminds.om-i.org/types/CustomAnnotation",
+        "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageStack",
+        "https://openminds.om-i.org/types/GridVolume",
+        "https://openminds.om-i.org/types/GridVolumeSequence"
       ]
     }
   },
@@ -4719,6 +4761,10 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CustomPropertySet",
+        "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageStack",
+        "https://openminds.om-i.org/types/GridVolume",
+        "https://openminds.om-i.org/types/GridVolumeSequence",
         "https://openminds.om-i.org/types/ParcellationTerminology",
         "https://openminds.om-i.org/types/ParcellationTerminologyVersion",
         "https://openminds.om-i.org/types/Recording",
@@ -6657,7 +6703,11 @@
     "namePlural": "dimensions",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/CranialWindowPreparation"
+        "https://openminds.om-i.org/types/CranialWindowPreparation",
+        "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageStack",
+        "https://openminds.om-i.org/types/GridVolume",
+        "https://openminds.om-i.org/types/GridVolumeSequence"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation"
@@ -10708,8 +10758,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/AnatomicalAtlas",
-          "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+          "https://openminds.om-i.org/types/BrainAtlas",
+          "https://openminds.om-i.org/types/BrainAtlasVersion",
           "https://openminds.om-i.org/types/CommonCoordinateFramework",
           "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
           "https://openminds.om-i.org/types/DOI",
@@ -14454,6 +14504,10 @@
         "https://openminds.om-i.org/types/FileRepositoryType",
         "https://openminds.om-i.org/types/FileUsageRole",
         "https://openminds.om-i.org/types/GeneticStrainType",
+        "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageStack",
+        "https://openminds.om-i.org/types/GridVolume",
+        "https://openminds.om-i.org/types/GridVolumeSequence",
         "https://openminds.om-i.org/types/GustatoryStimulusType",
         "https://openminds.om-i.org/types/Handedness",
         "https://openminds.om-i.org/types/HardwareSystem",
@@ -15026,6 +15080,47 @@
       ]
     }
   },
+  "numberOfImages": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Number of images",
+    "labelPlural": null,
+    "name": "numberOfImages",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/GridImageStack"
+      ]
+    }
+  },
+  "numberOfPlanes": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Number of planes",
+    "labelPlural": null,
+    "name": "numberOfPlanes",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/GridVolume",
+        "https://openminds.om-i.org/types/GridVolumeSequence"
+      ]
+    }
+  },
   "numberOfSubjects": {
     "description": null,
     "hasNamespace": [
@@ -15089,6 +15184,26 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/TissueSampleCollection"
+      ]
+    }
+  },
+  "numberOfVolumes": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Number of volumes",
+    "labelPlural": null,
+    "name": "numberOfVolumes",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/GridVolumeSequence"
       ]
     }
   },
@@ -16596,6 +16711,35 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/PipetteUsage"
+      ]
+    }
+  },
+  "pixelSize": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Pixel size",
+    "labelPlural": null,
+    "name": "pixelSize",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageStack"
       ]
     }
   },
@@ -22777,6 +22921,34 @@
       ]
     }
   },
+  "temporalSamplingFrequency": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Temporal sampling frequency",
+    "labelPlural": null,
+    "name": "temporalSamplingFrequency",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/GridVolumeSequence"
+      ]
+    }
+  },
   "terminology": {
     "asEdge": {
       "canPointTo": {
@@ -24086,6 +24258,9 @@
   "voxelSize": {
     "asEdge": {
       "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue"
         ]
@@ -24094,6 +24269,12 @@
     },
     "description": "Extent of the discrete elements comprising a three-dimensional entity.",
     "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      },
       {
         "inVersions": [
           "v1.0"
@@ -24106,6 +24287,10 @@
     "name": "voxelSize",
     "namePlural": "voxelSizes",
     "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/GridVolume",
+        "https://openminds.om-i.org/types/GridVolumeSequence"
+      ],
       "v1.0": [
         "https://openminds.ebrains.eu/sands/Image"
       ]
@@ -24423,6 +24608,34 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/Copyright"
+      ]
+    }
+  },
+  "z-stepSize": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Z-step size",
+    "labelPlural": null,
+    "name": "z-stepSize",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/GridImageStack"
       ]
     }
   }

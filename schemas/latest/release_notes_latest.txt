@@ -28,6 +28,10 @@ Added files:
   - controlledTerms/sovereignState.schema.omi.json
   - controlledTerms/spatialEncoding.schema.omi.json
   - controlledTerms/supranationalBody.schema.omi.json
+  - core/data/gridImage.schema.omi.json
+  - core/data/gridImageStack.schema.omi.json
+  - core/data/gridVolume.schema.omi.json
+  - core/data/gridVolumeSequence.schema.omi.json
   - core/data/usageAgreement.schema.omi.json
   - core/miscellaneous/accessibility.schema.omi.json
   - core/miscellaneous/dependency.schema.omi.json
