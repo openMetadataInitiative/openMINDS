@@ -1,8 +1,8 @@
 {
   "_module": "neuroimaging",
-  "_type": "https://openminds.om-i.org/types/StructuralMRIAcquisition",
-  "label": "Structural mriacquisition",
-  "name": "StructuralMRIAcquisition",
+  "_type": "https://openminds.om-i.org/types/StaticMRIAcquisition",
+  "label": "Static mriacquisition",
+  "name": "StaticMRIAcquisition",
   "properties": {
     "https://openminds.om-i.org/props/contrastAgent": {
       "_instruction": "Add the contrast agent used for this scan.",

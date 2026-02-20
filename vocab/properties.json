@@ -3771,7 +3771,7 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition"
+        "https://openminds.om-i.org/types/StaticMRIAcquisition"
       ]
     }
   },
@@ -4943,8 +4943,8 @@
         "https://openminds.om-i.org/types/ProtocolExecution",
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
+        "https://openminds.om-i.org/types/StaticMRIAcquisition",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
@@ -6230,11 +6230,11 @@
         "https://openminds.om-i.org/types/SovereignState",
         "https://openminds.om-i.org/types/SpatialEncoding",
         "https://openminds.om-i.org/types/Species",
+        "https://openminds.om-i.org/types/StaticMRIAcquisition",
         "https://openminds.om-i.org/types/StimulationActivity",
         "https://openminds.om-i.org/types/StimulationApproach",
         "https://openminds.om-i.org/types/StimulationTechnique",
         "https://openminds.om-i.org/types/Strain",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/SubcellularEntity",
         "https://openminds.om-i.org/types/SubjectAttribute",
         "https://openminds.om-i.org/types/SupranationalBody",
@@ -6903,7 +6903,7 @@
         "https://openminds.om-i.org/types/PipetteUsage",
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/SlicingDeviceUsage",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
+        "https://openminds.om-i.org/types/StaticMRIAcquisition",
         "https://openminds.om-i.org/types/TissueSampleSlicing"
       ],
       "v1.0": [
@@ -8004,8 +8004,8 @@
         "https://openminds.om-i.org/types/ProtocolExecution",
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
+        "https://openminds.om-i.org/types/StaticMRIAcquisition",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
@@ -11534,8 +11534,8 @@
         "https://openminds.om-i.org/types/ProtocolExecution",
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
+        "https://openminds.om-i.org/types/StaticMRIAcquisition",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
@@ -13011,8 +13011,8 @@
         "https://openminds.om-i.org/types/PublicationVolume",
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/ScholarlyArticle",
+        "https://openminds.om-i.org/types/StaticMRIAcquisition",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/Subject",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSample",
@@ -14864,8 +14864,8 @@
         "https://openminds.om-i.org/types/Simulation",
         "https://openminds.om-i.org/types/SlicingDevice",
         "https://openminds.om-i.org/types/SlicingDeviceUsage",
+        "https://openminds.om-i.org/types/StaticMRIAcquisition",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/Subject",
         "https://openminds.om-i.org/types/SubjectGroup",
         "https://openminds.om-i.org/types/SubjectGroupState",
@@ -17432,8 +17432,8 @@
         "https://openminds.om-i.org/types/ProtocolExecution",
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
+        "https://openminds.om-i.org/types/StaticMRIAcquisition",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
@@ -18074,8 +18074,8 @@
         "https://openminds.om-i.org/types/ProtocolExecution",
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
+        "https://openminds.om-i.org/types/StaticMRIAcquisition",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
@@ -18987,8 +18987,8 @@
         "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/ProtocolExecution",
         "https://openminds.om-i.org/types/RecordingActivity",
+        "https://openminds.om-i.org/types/StaticMRIAcquisition",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing"
       ],
@@ -19470,8 +19470,8 @@
         "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/ProtocolExecution",
         "https://openminds.om-i.org/types/RecordingActivity",
+        "https://openminds.om-i.org/types/StaticMRIAcquisition",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing"
       ],
@@ -23065,7 +23065,7 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition"
+        "https://openminds.om-i.org/types/StaticMRIAcquisition"
       ]
     }
   },
@@ -23321,8 +23321,8 @@
         "https://openminds.om-i.org/types/ProtocolExecution",
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
+        "https://openminds.om-i.org/types/StaticMRIAcquisition",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/Visualization"
@@ -24392,8 +24392,8 @@
         "https://openminds.om-i.org/types/ProtocolExecution",
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Simulation",
+        "https://openminds.om-i.org/types/StaticMRIAcquisition",
         "https://openminds.om-i.org/types/StimulationActivity",
-        "https://openminds.om-i.org/types/StructuralMRIAcquisition",
         "https://openminds.om-i.org/types/TissueCulturePreparation",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/ValidationTest",
