@@ -71,6 +71,7 @@
       "_instruction": "Add all techniques (including stimulation approaches and/or techniques) that were used in this protocol.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/AnalysisTechnique",
+        "https://openminds.om-i.org/types/MRIFatSuppressionTechnique",
         "https://openminds.om-i.org/types/MRIParallelAcquisitionTechnique",
         "https://openminds.om-i.org/types/MRIPulseSequence",
         "https://openminds.om-i.org/types/MRISpoilingTechnique",

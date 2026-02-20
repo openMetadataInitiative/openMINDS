@@ -1,11 +1,12 @@
 {
   "_categories": [
-    "keyword"
+    "keyword",
+    "technique"
   ],
   "_module": "controlledTerms",
-  "_type": "https://openminds.om-i.org/types/MRICoilRole",
-  "label": "Mricoil role",
-  "name": "MRICoilRole",
+  "_type": "https://openminds.om-i.org/types/MRIFatSuppressionTechnique",
+  "label": "Mrifat suppression technique",
+  "name": "MRIFatSuppressionTechnique",
   "properties": {
     "https://openminds.om-i.org/props/definition": {
       "_instruction": "Enter one sentence for defining this term.",
