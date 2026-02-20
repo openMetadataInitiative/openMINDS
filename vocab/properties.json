@@ -794,9 +794,6 @@
         "https://openminds.om-i.org/types/AnatomicalTargetPosition",
         "https://openminds.om-i.org/types/ChemicalMixture",
         "https://openminds.om-i.org/types/ChemicalSubstance",
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack",
         "https://openminds.om-i.org/types/Measurement",
         "https://openminds.om-i.org/types/ParcellationEntityVersion",
         "https://openminds.om-i.org/types/Recording",
@@ -806,9 +803,7 @@
         "https://openminds.om-i.org/types/TissueSampleCollection",
         "https://openminds.om-i.org/types/TissueSampleCollectionState",
         "https://openminds.om-i.org/types/TissueSampleState",
-        "https://openminds.om-i.org/types/ViewerSpecification",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
+        "https://openminds.om-i.org/types/ViewerSpecification"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/SubjectGroup",
@@ -2690,14 +2685,6 @@
   "capturedWith": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/ElectrodeArrayUsage",
-          "https://openminds.om-i.org/types/ElectrodeUsage",
-          "https://openminds.om-i.org/types/MRICoilUsage",
-          "https://openminds.om-i.org/types/MRIScannerUsage",
-          "https://openminds.om-i.org/types/PipetteUsage",
-          "https://openminds.om-i.org/types/SlicingDeviceUsage"
-        ],
         "v4.0": [
           "https://openminds.om-i.org/types/ElectrodeArrayUsage",
           "https://openminds.om-i.org/types/ElectrodeUsage",
@@ -2722,13 +2709,6 @@
     "name": "capturedWith",
     "namePlural": null,
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
-      ],
       "v4.0": [
         "https://openminds.om-i.org/types/RasterImage",
         "https://openminds.om-i.org/types/RasterImageStack",
@@ -2962,14 +2942,6 @@
     "usedIn": {}
   },
   "colorDepth": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ]
-      },
-      "nameForReverseLink": null
-    },
     "description": null,
     "hasNamespace": [
       {
@@ -2983,13 +2955,7 @@
     "labelPlural": null,
     "name": "colorDepth",
     "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack"
-      ]
-    }
+    "usedIn": {}
   },
   "comment": {
     "asString": {
@@ -4001,10 +3967,6 @@
   "coordinateSpace": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/CommonCoordinateSpaceVersion",
-          "https://openminds.om-i.org/types/CustomCoordinateSpace"
-        ],
         "v1.0": [
           "https://openminds.ebrains.eu/sands/CoordinateSpace"
         ],
@@ -4046,13 +4008,6 @@
     "name": "coordinateSpace",
     "namePlural": "coordinateSpaces",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
-      ],
       "v1.0": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
         "https://openminds.ebrains.eu/sands/CoordinatePoint",
@@ -5103,15 +5058,10 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CustomPropertySet",
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack",
         "https://openminds.om-i.org/types/ParcellationTerminology",
         "https://openminds.om-i.org/types/ParcellationTerminologyVersion",
         "https://openminds.om-i.org/types/Recording",
-        "https://openminds.om-i.org/types/ServiceLink",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
+        "https://openminds.om-i.org/types/ServiceLink"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/ServiceLink"
@@ -7342,12 +7292,7 @@
     "namePlural": "dimensions",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/CranialWindowPreparation",
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
+        "https://openminds.om-i.org/types/CranialWindowPreparation"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation"
@@ -14860,9 +14805,7 @@
         "https://openminds.om-i.org/types/TissueSampleCollectionState",
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/TissueSampleState",
-        "https://openminds.om-i.org/types/Visualization",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
+        "https://openminds.om-i.org/types/Visualization"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/ContentTypePattern",
@@ -15864,9 +15807,6 @@
         "https://openminds.om-i.org/types/GustatoryStimulusType",
         "https://openminds.om-i.org/types/Handedness",
         "https://openminds.om-i.org/types/HardwareSystem",
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack",
         "https://openminds.om-i.org/types/Language",
         "https://openminds.om-i.org/types/Laterality",
         "https://openminds.om-i.org/types/LaunchConfiguration",
@@ -16598,10 +16538,6 @@
     "name": "numberOfImages",
     "namePlural": null,
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack"
-      ],
       "v4.0": [
         "https://openminds.om-i.org/types/RasterImageStack"
       ]
@@ -16644,9 +16580,7 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
+        "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
   },
@@ -16732,9 +16666,6 @@
     "name": "numberOfVolumes",
     "namePlural": null,
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/VolumeSequence"
-      ],
       "v4.0": [
         "https://openminds.om-i.org/types/RasterVolumeSequence"
       ]
@@ -18284,9 +18215,6 @@
   "pixelSize": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
         "v4.0": [
           "https://openminds.om-i.org/types/QuantitativeValue"
         ]
@@ -18308,11 +18236,6 @@
     "name": "pixelSize",
     "namePlural": null,
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Image",
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/ImageStack"
-      ],
       "v4.0": [
         "https://openminds.om-i.org/types/RasterImage",
         "https://openminds.om-i.org/types/RasterImageStack"
@@ -22273,7 +22196,6 @@
     "namePlural": "sliceThicknesses",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/ImageStack",
         "https://openminds.om-i.org/types/MRIScannerUsage",
         "https://openminds.om-i.org/types/SlicingDeviceUsage"
       ],
@@ -25387,14 +25309,6 @@
     }
   },
   "temporalResolution": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ]
-      },
-      "nameForReverseLink": null
-    },
     "description": null,
     "hasNamespace": [
       {
@@ -25408,12 +25322,7 @@
     "labelPlural": null,
     "name": "temporalResolution",
     "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/ImageSequence",
-        "https://openminds.om-i.org/types/VolumeSequence"
-      ]
-    }
+    "usedIn": {}
   },
   "temporalSamplingFrequency": {
     "asEdge": {
@@ -26887,7 +26796,6 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue",
           "https://openminds.om-i.org/types/QuantitativeValueArray"
         ],
         "v1.0": [
@@ -26921,9 +26829,7 @@
     "namePlural": "voxelSizes",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage",
-        "https://openminds.om-i.org/types/Volume",
-        "https://openminds.om-i.org/types/VolumeSequence"
+        "https://openminds.om-i.org/types/MRIScannerUsage"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/sands/Image"

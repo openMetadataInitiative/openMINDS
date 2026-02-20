@@ -5617,9 +5617,6 @@
   },
   "Image": {
     "backwardsCompatibility": {
-      "latest": [
-        "v1.0"
-      ],
       "v1.0": []
     },
     "color": null,
@@ -5640,21 +5637,16 @@
     ],
     "identical": [
       [
-        "latest",
         "v1.0"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
       "v1.0"
     ],
     "label": "Image",
     "name": "Image"
   },
   "ImageSequence": {
-    "backwardsCompatibility": {
-      "latest": []
-    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -5665,21 +5657,12 @@
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
-    "identical": [
-      [
-        "latest"
-      ]
-    ],
-    "isPartOfVersion": [
-      "latest"
-    ],
+    "identical": [],
+    "isPartOfVersion": [],
     "label": "Image sequence",
     "name": "ImageSequence"
   },
   "ImageStack": {
-    "backwardsCompatibility": {
-      "latest": []
-    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -5690,14 +5673,8 @@
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
-    "identical": [
-      [
-        "latest"
-      ]
-    ],
-    "isPartOfVersion": [
-      "latest"
-    ],
+    "identical": [],
+    "isPartOfVersion": [],
     "label": "Image stack",
     "name": "ImageStack"
   },
@@ -12594,9 +12571,6 @@
     "name": "Visualization"
   },
   "Volume": {
-    "backwardsCompatibility": {
-      "latest": []
-    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -12607,21 +12581,12 @@
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
-    "identical": [
-      [
-        "latest"
-      ]
-    ],
-    "isPartOfVersion": [
-      "latest"
-    ],
+    "identical": [],
+    "isPartOfVersion": [],
     "label": "Volume",
     "name": "Volume"
   },
   "VolumeSequence": {
-    "backwardsCompatibility": {
-      "latest": []
-    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -12632,14 +12597,8 @@
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
-    "identical": [
-      [
-        "latest"
-      ]
-    ],
-    "isPartOfVersion": [
-      "latest"
-    ],
+    "identical": [],
+    "isPartOfVersion": [],
     "label": "Volume sequence",
     "name": "VolumeSequence"
   },
