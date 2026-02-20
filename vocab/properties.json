@@ -77,11 +77,11 @@
       ]
     }
   },
-  "MRSpatialEncoding": {
+  "MRIWeighting": {
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/MRSpatialEncoding"
+          "https://openminds.om-i.org/types/MRIWeighting"
         ]
       },
       "nameForReverseLink": null
@@ -95,9 +95,45 @@
         "namespace": "https://openminds.om-i.org/props/"
       }
     ],
+    "label": "Mriweighting",
+    "labelPlural": null,
+    "name": "MRIWeighting",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
+      ]
+    }
+  },
+  "MRSpatialEncoding": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
     "label": "Mrspatial encoding",
     "labelPlural": null,
     "name": "MRSpatialEncoding",
+    "namePlural": null,
+    "usedIn": {}
+  },
+  "MTPulseShape": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Mtpulse shape",
+    "labelPlural": null,
+    "name": "MTPulseShape",
     "namePlural": null,
     "usedIn": {
       "latest": [
@@ -119,11 +155,7 @@
     "labelPlural": null,
     "name": "MTState",
     "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
+    "usedIn": {}
   },
   "URL": {
     "asString": {
@@ -436,6 +468,26 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/Model"
+      ]
+    }
+  },
+  "accelerationFactor": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Acceleration factor",
+    "labelPlural": null,
+    "name": "accelerationFactor",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
   },
@@ -2213,14 +2265,6 @@
     }
   },
   "bValues": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/File"
-        ]
-      },
-      "nameForReverseLink": null
-    },
     "description": null,
     "hasNamespace": [
       {
@@ -2234,21 +2278,9 @@
     "labelPlural": null,
     "name": "bValues",
     "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
+    "usedIn": {}
   },
   "bVectors": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/File"
-        ]
-      },
-      "nameForReverseLink": null
-    },
     "description": null,
     "hasNamespace": [
       {
@@ -2262,11 +2294,7 @@
     "labelPlural": null,
     "name": "bVectors",
     "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
+    "usedIn": {}
   },
   "backgroundStrain": {
     "asEdge": {
@@ -6823,7 +6851,6 @@
           "https://openminds.om-i.org/types/ElectrodeUsage",
           "https://openminds.om-i.org/types/MRICoil",
           "https://openminds.om-i.org/types/MRICoilUsage",
-          "https://openminds.om-i.org/types/MRIScanner",
           "https://openminds.om-i.org/types/MRIScannerUsage",
           "https://openminds.om-i.org/types/Pipette",
           "https://openminds.om-i.org/types/PipetteUsage",
@@ -6891,7 +6918,6 @@
         "https://openminds.om-i.org/types/ElectrodeUsage",
         "https://openminds.om-i.org/types/FunctionalMRIAcquisition",
         "https://openminds.om-i.org/types/MRICoilUsage",
-        "https://openminds.om-i.org/types/MRIScannerUsage",
         "https://openminds.om-i.org/types/PipetteUsage",
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/SlicingDeviceUsage",
@@ -6983,6 +7009,34 @@
         "https://openminds.om-i.org/types/ElectrodeArray",
         "https://openminds.om-i.org/types/Pipette",
         "https://openminds.om-i.org/types/SlicingDevice"
+      ]
+    }
+  },
+  "diffusionEncodingParameters": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/File"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Diffusion encoding parameters",
+    "labelPlural": null,
+    "name": "diffusionEncodingParameters",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
   },
@@ -8566,6 +8620,26 @@
       ]
     }
   },
+  "fatSuppressionTechnique": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Fat suppression technique",
+    "labelPlural": null,
+    "name": "fatSuppressionTechnique",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
+      ]
+    }
+  },
   "feature": {
     "asEdge": {
       "canPointTo": {
@@ -9643,6 +9717,26 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/Person"
+      ]
+    }
+  },
+  "gradientCorrection": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Gradient correction",
+    "labelPlural": null,
+    "name": "gradientCorrection",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
   },
@@ -11829,15 +11923,6 @@
     }
   },
   "interSliceGap": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue",
-          "https://openminds.om-i.org/types/QuantitativeValueRange"
-        ]
-      },
-      "nameForReverseLink": null
-    },
     "description": null,
     "hasNamespace": [
       {
@@ -11851,11 +11936,7 @@
     "labelPlural": null,
     "name": "interSliceGap",
     "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
+    "usedIn": {}
   },
   "interfaceType": {
     "asEdge": {
@@ -15088,6 +15169,26 @@
       ]
     }
   },
+  "matrixSize": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Matrix size",
+    "labelPlural": null,
+    "name": "matrixSize",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
+      ]
+    }
+  },
   "maxValue": {
     "description": "Greatest quantity attained or allowed.",
     "hasNamespace": [
@@ -16406,6 +16507,22 @@
     "labelPlural": null,
     "name": "nonlinearGradientCorrection",
     "namePlural": null,
+    "usedIn": {}
+  },
+  "numberOfDiscardedVolumes": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Number of discarded volumes",
+    "labelPlural": null,
+    "name": "numberOfDiscardedVolumes",
+    "namePlural": null,
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -16442,6 +16559,26 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/ElectrodeArray"
+      ]
+    }
+  },
+  "numberOfExcitations": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Number of excitations",
+    "labelPlural": null,
+    "name": "numberOfExcitations",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
   },
@@ -16507,6 +16644,7 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/MRIScannerUsage",
         "https://openminds.om-i.org/types/Volume",
         "https://openminds.om-i.org/types/VolumeSequence"
       ]
@@ -16616,11 +16754,7 @@
     "labelPlural": null,
     "name": "numberOfVolumesDiscardedByScanner",
     "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
+    "usedIn": {}
   },
   "numberOfVolumesDiscardedByUser": {
     "description": null,
@@ -17576,9 +17710,7 @@
   "parallelAcquisitionTechnique": {
     "asString": {
       "formatting": "text/plain",
-      "inVersions": [
-        "latest"
-      ],
+      "inVersions": [],
       "multiline": false
     },
     "description": null,
@@ -17966,14 +18098,6 @@
     }
   },
   "phaseEncodingDirection": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValueArray"
-        ]
-      },
-      "nameForReverseLink": null
-    },
     "description": null,
     "hasNamespace": [
       {
@@ -19565,14 +19689,6 @@
     }
   },
   "pulseSequenceType": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/MRIPulseSequence"
-        ]
-      },
-      "nameForReverseLink": null
-    },
     "description": null,
     "hasNamespace": [
       {
@@ -19586,11 +19702,7 @@
     "labelPlural": null,
     "name": "pulseSequenceType",
     "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/MRIScannerUsage"
-      ]
-    }
+    "usedIn": {}
   },
   "purity": {
     "asEdge": {
@@ -19925,6 +20037,34 @@
     "name": "receiveCoilName",
     "namePlural": null,
     "usedIn": {}
+  },
+  "receiverBandwidth": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Receiver bandwidth",
+    "labelPlural": null,
+    "name": "receiverBandwidth",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
+      ]
+    }
   },
   "recipe": {
     "asEdge": {
@@ -22000,11 +22140,32 @@
       ]
     }
   },
-  "sliceOrder": {
+  "sliceAngulation": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Slice angulation",
+    "labelPlural": null,
+    "name": "sliceAngulation",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
+      ]
+    }
+  },
+  "sliceGap": {
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValueArray"
+          "https://openminds.om-i.org/types/QuantitativeValue",
+          "https://openminds.om-i.org/types/QuantitativeValueRange"
         ]
       },
       "nameForReverseLink": null
@@ -22018,9 +22179,53 @@
         "namespace": "https://openminds.om-i.org/props/"
       }
     ],
+    "label": "Slice gap",
+    "labelPlural": null,
+    "name": "sliceGap",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
+      ]
+    }
+  },
+  "sliceOrder": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
     "label": "Slice order",
     "labelPlural": null,
     "name": "sliceOrder",
+    "namePlural": null,
+    "usedIn": {}
+  },
+  "sliceOrientation": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/AnatomicalPlane"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Slice orientation",
+    "labelPlural": null,
+    "name": "sliceOrientation",
     "namePlural": null,
     "usedIn": {
       "latest": [
@@ -22069,6 +22274,7 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ImageStack",
+        "https://openminds.om-i.org/types/MRIScannerUsage",
         "https://openminds.om-i.org/types/SlicingDeviceUsage"
       ],
       "v3.0": [
@@ -22374,6 +22580,34 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/FileArchive"
+      ]
+    }
+  },
+  "spatialEncoding": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/SpatialEncoding"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Spatial encoding",
+    "labelPlural": null,
+    "name": "spatialEncoding",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
   },
@@ -22812,6 +23046,30 @@
     "label": "Spoiling state",
     "labelPlural": null,
     "name": "spoilingState",
+    "namePlural": null,
+    "usedIn": {}
+  },
+  "spoilingType": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/MRISpoilingType"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Spoiling type",
+    "labelPlural": null,
+    "name": "spoilingType",
     "namePlural": null,
     "usedIn": {
       "latest": [
@@ -25350,6 +25608,34 @@
       ]
     }
   },
+  "totalReadOutTime": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Total read out time",
+    "labelPlural": null,
+    "name": "totalReadOutTime",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
+      ]
+    }
+  },
   "transmitCoilName": {
     "asString": {
       "formatting": "text/plain",
@@ -25370,6 +25656,34 @@
     "name": "transmitCoilName",
     "namePlural": null,
     "usedIn": {}
+  },
+  "transmitterBandwidth": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Transmitter bandwidth",
+    "labelPlural": null,
+    "name": "transmitterBandwidth",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
+      ]
+    }
   },
   "type": {
     "asEdge": {

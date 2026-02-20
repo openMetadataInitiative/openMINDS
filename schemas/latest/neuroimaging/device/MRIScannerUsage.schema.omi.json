@@ -7,56 +7,45 @@
   "label": "Mriscanner usage",
   "name": "MRIScannerUsage",
   "properties": {
-    "https://openminds.om-i.org/props/MRSpatialEncoding": {
-      "_instruction": "Add how spatial information was encoded. Examples include 'frequencyPhaseEncoding' (2D) and 'frequencyPhasePhaseEncoding' (3D).",
+    "https://openminds.om-i.org/props/MRIWeighting": {
+      "_instruction": "Enter the magnetic resonance imaging weighting type describing the dominant source of image contrast. This designation reflects the contrast determined by repetition time, echo time, and inversion time and can be identified from the sequence protocol.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/MRSpatialEncoding"
+        "https://openminds.om-i.org/types/MRIWeighting"
       ],
-      "label": "Mrspatial encoding",
-      "name": "MRSpatialEncoding",
+      "label": "Mriweighting",
+      "name": "MRIWeighting",
       "nameForReverseLink": null
     },
-    "https://openminds.om-i.org/props/MTState": {
-      "_instruction": "Boolean stating whether the magnetization transfer pulse is applied.",
-      "label": "Mtstate",
-      "name": "MTState",
-      "type": "boolean"
+    "https://openminds.om-i.org/props/MTPulseShape": {
+      "_instruction": "Enter the shape of the magnetization transfer (MT) radiofrequency (RF) pulse waveform used in this acquisition. This information is specified in the sequence protocol and can be retrieved from the DICOM header.",
+      "label": "Mtpulse shape",
+      "name": "MTPulseShape",
+      "type": "controlledTerms:PulseShape"
     },
-    "https://openminds.om-i.org/props/bValues": {
-      "_instruction": "Add the b values coresponding to this acquisition.",
+    "https://openminds.om-i.org/props/accelerationFactor": {
+      "_instruction": "Enter the acceleration factor (R), defined as the ratio of fully sampled to reduced k-space acquisition, with R \u2265 1 and R = 1 indicating no acceleration. This value is specified in the sequence protocol and can be retrieved from the DICOM header.",
+      "label": "Acceleration factor",
+      "minimum": 1,
+      "name": "accelerationFactor",
+      "type": "integer"
+    },
+    "https://openminds.om-i.org/props/diffusionEncodingParameters": {
+      "_instruction": "Add two diffusion encoding files: a b-value file specifying the diffusion weighting for each acquired volume and a b-vector file specifying the corresponding three-dimensional diffusion gradient directions. Ensure that both files are correctly ordered, that b-vectors are normalized, and that they are aligned with the image volumes.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/File"
       ],
-      "label": "B values",
-      "name": "bValues",
-      "nameForReverseLink": null
-    },
-    "https://openminds.om-i.org/props/bVectors": {
-      "_instruction": "Add the b vectors coresponding to this acquisition.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/File"
-      ],
-      "label": "B vectors",
-      "name": "bVectors",
-      "nameForReverseLink": null
-    },
-    "https://openminds.om-i.org/props/device": {
-      "_instruction": "Add the MRI Scanner used.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/MRIScanner"
-      ],
-      "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
-      "label": "Device",
-      "labelPlural": "Devices",
-      "name": "device",
+      "label": "Diffusion encoding parameters",
+      "maxItems": 2,
+      "minItems": 2,
+      "name": "diffusionEncodingParameters",
       "nameForReverseLink": null,
-      "namePlural": "devices"
+      "type": "array"
     },
     "https://openminds.om-i.org/props/dwellTime": {
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValue"
       ],
-      "_instruction": "Enter the dwell time of this aquistion.",
+      "_instruction": "Enter the dwell time, defined as the time interval between successive data samples during signal readout, which determines the receiver bandwidth and frequency resolution. This value is typically set automatically by the sequence and can be retrieved from the sequence protocol or DICOM header.",
       "label": "Dwell time",
       "name": "dwellTime",
       "nameForReverseLink": null
@@ -65,13 +54,22 @@
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValue"
       ],
-      "_instruction": "Enter the echo times of this acquisition (TE).",
+      "_instruction": "Enter the echo time (TE), defined as the interval between the center of the excitation pulse and the center of the measured echo, expressed in milliseconds. This value is specified in the sequence protocol and can be retrieved from the DICOM header.",
       "label": "Echo time",
       "minItems": 1,
       "name": "echoTime",
       "nameForReverseLink": null,
       "type": "array",
       "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/fatSuppressionTechnique": {
+      "_belongsToCategory": [
+        "controlledTerms:MRIFatSuppressionTechnique"
+      ],
+      "_instruction": "Add the fat suppression technique used for this acquisition (for example, fat saturation, SPAIR, STIR, or Dixon); if no fat suppression was applied, leave this field null. This information is typically specified in the sequence protocol and can be retrieved from the DICOM header.",
+      "_linkedTypes": [],
+      "label": "Fat suppression technique",
+      "name": "fatSuppressionTechnique"
     },
     "https://openminds.om-i.org/props/fieldOfView": {
       "_belongsToCategory": [
@@ -86,26 +84,22 @@
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValue"
       ],
-      "_instruction": "Enter the flip angle of this scan (preferred units: degrees).",
+      "_instruction": "Enter the flip angle, defined as the angle by which the net magnetization is rotated by the radiofrequency excitation pulse, expressed in degrees. This value is specified in the sequence protocol and can be retrieved from the DICOM header.",
       "label": "Flip angle",
       "name": "flipAngle",
       "nameForReverseLink": null
     },
-    "https://openminds.om-i.org/props/interSliceGap": {
-      "_embeddedTypes": [
-        "https://openminds.om-i.org/types/QuantitativeValue",
-        "https://openminds.om-i.org/types/QuantitativeValueRange"
-      ],
-      "_instruction": "Enter the inter slice distance of this scan.",
-      "label": "Inter slice gap",
-      "name": "interSliceGap",
-      "nameForReverseLink": null
+    "https://openminds.om-i.org/props/gradientCorrection": {
+      "_instruction": "Add the gradient correction method applied during image reconstruction. This information is typically defined by the scanner system and can be retrieved from the reconstruction settings or DICOM header.",
+      "label": "Gradient correction",
+      "name": "gradientCorrection",
+      "type": "controlledTerms:AnalysisTechnique"
     },
     "https://openminds.om-i.org/props/inversionTime": {
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValue"
       ],
-      "_instruction": "Enter the inversion time of this aquistion.",
+      "_instruction": "Enter the inversion time (TI), defined as the interval between the inversion pulse and the excitation pulse, expressed in milliseconds. This value is specified in the sequence protocol and can be retrieved from the DICOM header.",
       "label": "Inversion time",
       "name": "inversionTime",
       "nameForReverseLink": null
@@ -119,6 +113,17 @@
       "name": "lookupLabel",
       "namePlural": "lookupLabels",
       "type": "string"
+    },
+    "https://openminds.om-i.org/props/matrixSize": {
+      "_instruction": "Enter the matrix size as the number of samples in the frequency and phase encoding directions for two-dimensional acquisitions (frequency \u00d7 phase), or in the frequency, phase, and partition encoding directions for three-dimensional acquisitions (frequency \u00d7 phase \u00d7 partitions). This information is defined by the acquisition protocol and can be retrieved from the DICOM header.",
+      "items": {
+        "type": "integer"
+      },
+      "label": "Matrix size",
+      "maxItems": 3,
+      "minItems": 2,
+      "name": "matrixSize",
+      "type": "array"
     },
     "https://openminds.om-i.org/props/metadataLocation": {
       "_instruction": "Add all files or file bundles containing additional information about the usage of this device.",
@@ -135,64 +140,103 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.om-i.org/props/nonlinearGradientCorrection": {
-      "_instruction": "Has this scan, been corrected for gradient nonlinearities by the scanner sequence?",
-      "label": "Nonlinear gradient correction",
-      "name": "nonlinearGradientCorrection",
-      "type": "boolean"
+    "https://openminds.om-i.org/props/numberOfDiscardedVolumes": {
+      "_instruction": "Enter the number of initial volumes automatically discarded by the scanner before saving data, typically to allow signal stabilization at the beginning of the acquisition. This value is defined by the acquisition protocol and can be retrieved from the DICOM header.",
+      "label": "Number of discarded volumes",
+      "name": "numberOfDiscardedVolumes",
+      "type": "integer"
     },
-    "https://openminds.om-i.org/props/numberOfVolumesDiscardedByScanner": {
-      "_instruction": "Enter number of volumes discarded by scanner before the first volume.",
-      "label": "Number of volumes discarded by scanner",
-      "name": "numberOfVolumesDiscardedByScanner",
-      "type": "number"
+    "https://openminds.om-i.org/props/numberOfExcitations": {
+      "_instruction": "Enter the number of excitations (NEX), defined as the number of times each k-space line is acquired and averaged to improve signal-to-noise ratio; if no averaging was performed, set this value to 1. This value is specified in the acquisition protocol and can be retrieved from the DICOM header.",
+      "label": "Number of excitations",
+      "name": "numberOfExcitations",
+      "type": "integer"
+    },
+    "https://openminds.om-i.org/props/numberOfSlices": {
+      "_instruction": "Enter the number of slices corresponding to the total number of two-dimensional image slices acquired in this scan. This value is defined by the acquisition protocol and can be retrieved from the DICOM header.",
+      "label": "Number of slices",
+      "name": "numberOfSlices",
+      "type": "integer"
     },
     "https://openminds.om-i.org/props/parallelAcquisitionTechnique": {
-      "_ instruction": "Enter the parallel acquisition technique sequence name for this scan. 'GRAPPA' for most Siemens machines and 'SENSE' for most Philips machines.",
-      "formatting": "text/plain",
+      "_ instruction": "Add the parallel acquisition technique used for this scan (for example, SENSE or GRAPPA). This information is specified in the sequence protocol and can be retrieved from the DICOM header.",
       "label": "Parallel acquisition technique",
-      "multiline": false,
       "name": "parallelAcquisitionTechnique",
-      "type": "string"
+      "type": "controlledTerms:MRIparallelAcquisitionTechnique"
     },
     "https://openminds.om-i.org/props/phaseEncodingDirection": {
-      "_embeddedTypes": [
-        "https://openminds.om-i.org/types/QuantitativeValueArray"
-      ],
-      "_instruction": "Enter the direction vector along which phase encoding is applied. This vector indicates the axis of potential distortions in image space (e.g., [1,0,0] for i, [0,1,0] for j, [0,0,1] for k). A negative value indicates reversed polarity.",
+      "_instruction": "Enter the phase encoding direction as a signed unit vector in the scanner or image coordinate system (for example, [\u00b11, 0, 0], [0, \u00b11, 0], or [0, 0, \u00b11]), where the nonzero component indicates the encoding axis and the sign specifies the polarity of k-space traversal.",
+      "items": {
+        "type": "integer"
+      },
       "label": "Phase encoding direction",
+      "maxItems": 3,
+      "minItems": 3,
       "name": "phaseEncodingDirection",
-      "nameForReverseLink": null
+      "type": "array"
     },
-    "https://openminds.om-i.org/props/pulseSequenceType": {
-      "_instruction": "Add the type pulse sequence used for this scan.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/MRIPulseSequence"
+    "https://openminds.om-i.org/props/receiverBandwidth": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
       ],
-      "label": "Pulse sequence type",
-      "name": "pulseSequenceType",
+      "_instruction": "Enter the receiver bandwidth, defined as the range of frequencies sampled per pixel during signal acquisition, expressed in hertz per pixel. This value is specified in the sequence protocol and can be retrieved from the DICOM header.",
+      "label": "Receiver bandwidth",
+      "name": "receiverBandwidth",
       "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/repetitionTime": {
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValue"
       ],
-      "_instruction": "Enter the echo time of this acquisition (TR).",
+      "_instruction": "Enter the repetition time (TR), defined as the interval between successive excitation pulses, expressed in milliseconds. This value is specified in the sequence protocol and can be retrieved from the DICOM header.",
       "label": "Repetition time",
       "name": "repetitionTime",
       "nameForReverseLink": null
     },
-    "https://openminds.om-i.org/props/sliceOrder": {
-      "_instruction": "Enter the time in which each slice have been acquired within each volume.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/QuantitativeValueArray"
+    "https://openminds.om-i.org/props/sliceAngulation": {
+      "_instruction": "Enter the slice plane orientation as a three-element unit normal vector [nx, ny, nz] in scanner coordinates, where each component is a dimensionless floating-point value between -1 and +1 and the vector has unit length (nx\u00b2 + ny\u00b2 + nz\u00b2 = 1). For non-oblique acquisitions, the vector aligns with a principal axis (for example, [0, 0, 1]), and for oblique acquisitions, the components are fractional.",
+      "items": {
+        "type": "number"
+      },
+      "label": "Slice angulation",
+      "maxItems": 3,
+      "minItems": 3,
+      "name": "sliceAngulation",
+      "type": "array"
+    },
+    "https://openminds.om-i.org/props/sliceGap": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue",
+        "https://openminds.om-i.org/types/QuantitativeValueRange"
       ],
-      "label": "Slice order",
-      "name": "sliceOrder",
+      "_instruction": "Enter the slice gap, defined as the distance between adjacent slices, expressed in millimeters and excluding the slice thickness; if slice spacing is uniform, provide a single value, and if it varies across the volume, provide the corresponding range. This information is specified in the acquisition protocol and can be retrieved from the DICOM header.",
+      "label": "Slice gap",
+      "name": "sliceGap",
       "nameForReverseLink": null
     },
+    "https://openminds.om-i.org/props/sliceOrientation": {
+      "_instruction": "Add the primary slice plane, defined relative to the scanner coordinate system, where axial corresponds to planes perpendicular to the scanner z-axis, sagittal to planes perpendicular to the x-axis, and coronal to planes perpendicular to the y-axis. This classification is independent of subject orientation and may therefore differ from anatomical planes when the subject is positioned non-standardly in the scanner.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnatomicalPlane"
+      ],
+      "label": "Slice orientation",
+      "name": "sliceOrientation",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/sliceThickness": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue",
+        "https://openminds.om-i.org/types/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the slice thickness, defined as the physical thickness of each acquired slice, expressed in millimeters; if uniform, provide a single value, and if variable, provide the corresponding range. This value is specified in the acquisition protocol and can be retrieved from the DICOM header.",
+      "label": "Slice thickness",
+      "labelPlural": "Slice thicknesses",
+      "name": "sliceThickness",
+      "nameForReverseLink": null,
+      "namePlural": "sliceThicknesses"
+    },
     "https://openminds.om-i.org/props/sliceTiming": {
-      "_instruction": "Enter the time in which each slice have been acquired within each volume.",
+      "_instruction": "Enter the slice timing, defined as the acquisition time of each slice within a volume relative to the start of the volume acquisition. This information is determined by the sequence timing and can be retrieved from the DICOM header.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValueArray"
       ],
@@ -200,21 +244,53 @@
       "name": "sliceTiming",
       "nameForReverseLink": null
     },
-    "https://openminds.om-i.org/props/spoilingState": {
-      "_instruction": "Boolean stating whether the pulse sequence uses any type of spoiling strategy to suppress residual transverse magnetization.",
-      "label": "Spoiling state",
-      "name": "spoilingState",
-      "type": "boolean"
+    "https://openminds.om-i.org/props/spatialEncoding": {
+      "_instruction": "Add the spatial encoding scheme used to acquire the data, specifying how frequency, phase, and partition encoding were applied (for example, frequency\u2013phase encoding for two-dimensional acquisitions or frequency\u2013phase\u2013phase encoding for three-dimensional acquisitions). This information is defined in the sequence protocol and can be retrieved from the DICOM header.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SpatialEncoding"
+      ],
+      "label": "Spatial encoding",
+      "name": "spatialEncoding",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/spoilingType": {
+      "_instruction": "Add the spoiling type used in this acquisition, specifying the method applied to eliminate residual transverse magnetization (for example, radiofrequency spoiling or gradient spoiling). This information is defined in the sequence protocol and can be retrieved from the DICOM header.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/MRISpoilingType"
+      ],
+      "label": "Spoiling type",
+      "name": "spoilingType",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/totalReadOutTime": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the total readout time (TRT), defined as the time interval between acquisition of the first and last k-space lines in the phase-encoding direction during a single readout, expressed in milliseconds. This value is typically computed automatically and can be retrieved from the DICOM header.",
+      "label": "Total read out time",
+      "name": "totalReadOutTime",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/transmitterBandwidth": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the transmitter bandwidth, defined as the frequency range excited by the radiofrequency pulse per pixel, expressed in hertz per pixel. This value is specified in the sequence protocol and can be retrieved from the DICOM header.",
+      "label": "Transmitter bandwidth",
+      "name": "transmitterBandwidth",
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/usedCoils": {
-      "_instruction": "Add the radiofrequency coils used for this experiment. Corresponds to DICOM tags (0018,9042) [MR Receive Coil Sequence Attribute] and (0018,9049) [MR Transmit Coil Sequence Attribute]. Preferably, create an object describing the coil (e.g., an instance of neuroimaging:MRIRadiofrequencyCoil); if less information is available, provide at least the device type.",
+      "_instruction": "Add all coils used for this acquisition, including built-in and external transmit, receive, and gradient-related coils, corresponding to the relevant DICOM coil attributes. Preferably provide structured coil descriptions; if unavailable, specify at least the device type.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/DeviceType",
         "https://openminds.om-i.org/types/MRICoilUsage"
       ],
       "label": "Used coils",
+      "minItems": 2,
       "name": "usedCoils",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "type": "array"
     },
     "https://openminds.om-i.org/props/usedSpecimen": {
       "_instruction": "Add the state of the tissue sample or subject that this device was used on.",
@@ -232,7 +308,7 @@
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValueArray"
       ],
-      "_instruction": "Enter voxel size this image: in this order x,y,z.",
+      "_instruction": "Enter the voxel size as the physical dimensions of a single image voxel in the x, y, and z directions, expressed in millimeters. This value is typically derived from the field of view, matrix size, and slice thickness and can be retrieved from the DICOM header.",
       "description": "Extent of the discrete elements comprising a three-dimensional entity.",
       "label": "Voxel size",
       "labelPlural": "Voxel sizes",
@@ -242,6 +318,9 @@
     }
   },
   "required": [
-    "https://openminds.om-i.org/props/device"
+    "https://openminds.om-i.org/props/device",
+    "https://openminds.om-i.org/props/echoTime",
+    "https://openminds.om-i.org/props/repetitionTime",
+    "https://openminds.om-i.org/props/sliceTiming"
   ]
 }
