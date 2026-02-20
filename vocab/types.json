@@ -3812,6 +3812,31 @@
     "label": "Disease model",
     "name": "DiseaseModel"
   },
+  "DynamicMRIAcquisition": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Dynamic mriacquisition",
+    "name": "DynamicMRIAcquisition"
+  },
   "EducationalLevel": {
     "backwardsCompatibility": {
       "latest": [
@@ -4988,9 +5013,6 @@
     "name": "FileUsageRole"
   },
   "FunctionalMRIAcquisition": {
-    "backwardsCompatibility": {
-      "latest": []
-    },
     "color": null,
     "description": null,
     "hasNamespace": [
@@ -5001,14 +5023,8 @@
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
-    "identical": [
-      [
-        "latest"
-      ]
-    ],
-    "isPartOfVersion": [
-      "latest"
-    ],
+    "identical": [],
+    "isPartOfVersion": [],
     "label": "Functional mriacquisition",
     "name": "FunctionalMRIAcquisition"
   },
