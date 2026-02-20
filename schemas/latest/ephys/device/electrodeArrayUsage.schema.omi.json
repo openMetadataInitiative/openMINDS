@@ -15,6 +15,7 @@
       "_instruction": "Add all anatomical entities that semantically best describe the overall anatomical location of the electrode array.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/CellType",
+        "https://openminds.om-i.org/types/ExternalBodyRegion",
         "https://openminds.om-i.org/types/Organ",
         "https://openminds.om-i.org/types/OrganismSubstance",
         "https://openminds.om-i.org/types/SubcellularEntity",
@@ -39,6 +40,7 @@
       "_instruction": "Add all anatomical entities that semantically best describe the anatomical location of each electrode contact of this array during its use, in the same order that the electrode identifiers for this electrode array have been specified.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/CellType",
+        "https://openminds.om-i.org/types/ExternalBodyRegion",
         "https://openminds.om-i.org/types/Organ",
         "https://openminds.om-i.org/types/OrganismSubstance",
         "https://openminds.om-i.org/types/SubcellularEntity",

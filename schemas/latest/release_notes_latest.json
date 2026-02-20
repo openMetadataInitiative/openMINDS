@@ -10,11 +10,12 @@
     "controlledTerms/dependencyImpact.schema.omi.json",
     "controlledTerms/deploymentEnvironmentType.schema.omi.json",
     "controlledTerms/deviceMountingType.schema.omi.json",
+    "controlledTerms/externalBodyRegion.schema.omi.json",
     "controlledTerms/modificationConsentRequirement.schema.omi.json",
     "controlledTerms/modificationConstraint.schema.omi.json",
     "controlledTerms/modificationForm.schema.omi.json",
     "controlledTerms/modificationScope.schema.omi.json",
-    "controlledTerms/MRICoilRole.schema.omi.json",
+    "controlledTerms/MRIFatSuppressionTechnique.schema.omi.json",
     "controlledTerms/MRIParallelAcquisitionTechnique.schema.omi.json",
     "controlledTerms/MRISpoilingTechnique.schema.omi.json",
     "controlledTerms/operationalApproach.schema.omi.json",
@@ -23,6 +24,7 @@
     "controlledTerms/projectType.schema.omi.json",
     "controlledTerms/publicationStatus.schema.omi.json",
     "controlledTerms/pulseShape.schema.omi.json",
+    "controlledTerms/signalDirectionality.schema.omi.json",
     "controlledTerms/sovereignState.schema.omi.json",
     "controlledTerms/spatialEncoding.schema.omi.json",
     "controlledTerms/supranationalBody.schema.omi.json",
@@ -83,9 +85,63 @@
       "modifiedAttributes": [
         {
           "property": "properties.props:input._linkedTypes"
+        },
+        {
+          "property": "properties.props:studyTarget._linkedTypes",
+          "modification": "value(s) added"
         }
       ],
       "schemaType": "DataAnalysis"
+    },
+    {
+      "file": "computation/dataCopy.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:studyTarget._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "DataCopy"
+    },
+    {
+      "file": "computation/genericComputation.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:studyTarget._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "GenericComputation"
+    },
+    {
+      "file": "computation/modelValidation.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:studyTarget._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "ModelValidation"
+    },
+    {
+      "file": "computation/optimization.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:studyTarget._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "Optimization"
+    },
+    {
+      "file": "computation/simulation.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:studyTarget._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "Simulation"
     },
     {
       "file": "computation/validationTest.schema.omi.json",
@@ -93,6 +149,10 @@
         "properties.props:hasVersion"
       ],
       "modifiedAttributes": [
+        {
+          "property": "properties.props:studyTarget._linkedTypes",
+          "modification": "value(s) added"
+        },
         {
           "property": "required",
           "modification": "value(s) removed"
@@ -126,6 +186,16 @@
         }
       ],
       "schemaType": "ValidationTestVersion"
+    },
+    {
+      "file": "computation/visualization.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:studyTarget._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "Visualization"
     },
     {
       "file": "computation/workflowRecipe.schema.omi.json",
@@ -359,6 +429,10 @@
           "property": "properties.props:keyword._linkedTypes"
         },
         {
+          "property": "properties.props:studyTarget._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
           "property": "properties.props:technique._linkedTypes",
           "modification": "value(s) added"
         },
@@ -414,6 +488,10 @@
         "properties.props:hasVersion"
       ],
       "modifiedAttributes": [
+        {
+          "property": "properties.props:studyTarget._linkedTypes",
+          "modification": "value(s) added"
+        },
         {
           "property": "required",
           "modification": "value(s) removed"
@@ -542,15 +620,43 @@
       "modifiedAttributes": [
         {
           "property": "properties.props:input._linkedTypes"
+        },
+        {
+          "property": "properties.props:studyTarget._linkedTypes",
+          "modification": "value(s) added"
         }
       ],
       "schemaType": "ProtocolExecution"
+    },
+    {
+      "file": "core/research/tissueSample.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:anatomicalLocation._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "TissueSample"
+    },
+    {
+      "file": "core/research/tissueSampleCollection.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:anatomicalLocation._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "TissueSampleCollection"
     },
     {
       "file": "ephys/activity/cellPatching.schema.omi.json",
       "modifiedAttributes": [
         {
           "property": "properties.props:device._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:studyTarget._linkedTypes",
           "modification": "value(s) added"
         }
       ],
@@ -562,9 +668,57 @@
         {
           "property": "properties.props:device._linkedTypes",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:studyTarget._linkedTypes",
+          "modification": "value(s) added"
         }
       ],
       "schemaType": "ElectrodePlacement"
+    },
+    {
+      "file": "ephys/activity/recordingActivity.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:studyTarget._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "RecordingActivity"
+    },
+    {
+      "file": "ephys/device/electrodeArrayUsage.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:anatomicalLocationOfArray._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:anatomicalLocationOfElectrodes._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "ElectrodeArrayUsage"
+    },
+    {
+      "file": "ephys/device/electrodeUsage.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:anatomicalLocation._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "ElectrodeUsage"
+    },
+    {
+      "file": "ephys/device/pipetteUsage.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:anatomicalLocation._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "PipetteUsage"
     },
     {
       "file": "ephys/entity/recording.schema.omi.json",
@@ -712,6 +866,16 @@
       "schemaType": "ParcellationTerminologyVersion"
     },
     {
+      "file": "SANDS/miscellaneous/anatomicalTargetPosition.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:anatomicalTarget._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "AnatomicalTargetPosition"
+    },
+    {
       "file": "SANDS/miscellaneous/coordinatePoint.schema.omi.json",
       "addedAttributes": [
         "properties.props:coordinateFramework"
@@ -750,9 +914,43 @@
         {
           "property": "properties.props:dimension._embeddedTypes",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:studyTarget._linkedTypes",
+          "modification": "value(s) added"
         }
       ],
       "schemaType": "CranialWindowPreparation"
+    },
+    {
+      "file": "specimenPrep/activity/tissueCulturePreparation.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:studyTarget._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "TissueCulturePreparation"
+    },
+    {
+      "file": "specimenPrep/activity/tissueSampleSlicing.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:studyTarget._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "TissueSampleSlicing"
+    },
+    {
+      "file": "stimulation/activity/stimulationActivity.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:studyTarget._linkedTypes",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "StimulationActivity"
     },
     {
       "file": "stimulation/stimulus/ephysStimulus.schema.omi.json",
