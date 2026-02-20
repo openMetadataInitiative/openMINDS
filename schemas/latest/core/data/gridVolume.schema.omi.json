@@ -1,0 +1,109 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/GridVolume",
+  "label": "Grid volume",
+  "name": "GridVolume",
+  "properties": {
+    "https://openminds.om-i.org/props/additionalRemarks": {
+      "_instruction": "Enter any additional remarks concerning this grid volume.",
+      "description": "Mention of what deserves additional attention or notice.",
+      "formatting": "text/markdown",
+      "label": "Additional remarks",
+      "labelPlural": "Additional remarks",
+      "multiline": true,
+      "name": "additionalRemarks",
+      "namePlural": "additionalRemarks",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/capturedWith": {
+      "_belongsToCategory": [
+        "deviceUsage"
+      ],
+      "_instruction": "Add the device used to capture this grid volume.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ElectrodeArrayUsage",
+        "https://openminds.om-i.org/types/ElectrodeUsage",
+        "https://openminds.om-i.org/types/PipetteUsage",
+        "https://openminds.om-i.org/types/MRICoilUsage",
+        "https://openminds.om-i.org/types/MRIScannerUsage",
+        "https://openminds.om-i.org/types/SlicingDeviceUsage"
+      ],
+      "label": "Captured with",
+      "name": "capturedWith",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/coordinateFramework": {
+      "_instruction": "Add the coordinate space in which this grid volume exists.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+        "https://openminds.om-i.org/types/CustomCoordinateFramework"
+      ],
+      "label": "Coordinate framework",
+      "name": "coordinateFramework",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/dataLocation": {
+      "_instruction": "Add a reference to the file to which this grid volume information applies. If the information applies uniformly to a grid volume file series, a reference to the corresponding file bundle may be provided instead.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File",
+        "https://openminds.om-i.org/types/FileBundle"
+      ],
+      "label": "Data location",
+      "labelPlural": "Data locations",
+      "name": "dataLocation",
+      "nameForReverseLink": null,
+      "namePlural": "dataLocations"
+    },
+    "https://openminds.om-i.org/props/dimension": {
+      "_instruction": "Enter the dimension of this grid volume.",
+      "items": {
+        "type": "integer"
+      },
+      "label": "Dimension",
+      "labelPlural": "Dimensions",
+      "maxItems": 3,
+      "minItems": 3,
+      "name": "dimension",
+      "namePlural": "dimensions",
+      "type": "array"
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter a descriptive name of this grid volume preferably matching the filename.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/numberOfPlanes": {
+      "_instruction": "Enter number of planes in this grid volume.",
+      "label": "Number of planes",
+      "name": "numberOfPlanes",
+      "type": "integer"
+    },
+    "https://openminds.om-i.org/props/voxelSize": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the physical voxel size for this grid volume (in x,y,z order).",
+      "description": "Extent of the discrete elements comprising a three-dimensional entity.",
+      "label": "Voxel size",
+      "labelPlural": "Voxel sizes",
+      "maxItems": 3,
+      "minItems": 3,
+      "name": "voxelSize",
+      "nameForReverseLink": null,
+      "namePlural": "voxelSizes",
+      "type": "array"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/coordinateFramework",
+    "https://openminds.om-i.org/props/dataLocation",
+    "https://openminds.om-i.org/props/dimension",
+    "https://openminds.om-i.org/props/voxelSize"
+  ]
+}

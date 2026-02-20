@@ -794,6 +794,10 @@
         "https://openminds.om-i.org/types/AnatomicalTargetPosition",
         "https://openminds.om-i.org/types/ChemicalMixture",
         "https://openminds.om-i.org/types/ChemicalSubstance",
+        "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageStack",
+        "https://openminds.om-i.org/types/GridVolume",
+        "https://openminds.om-i.org/types/GridVolumeSequence",
         "https://openminds.om-i.org/types/Measurement",
         "https://openminds.om-i.org/types/ParcellationEntityVersion",
         "https://openminds.om-i.org/types/Recording",
@@ -2689,6 +2693,14 @@
   "capturedWith": {
     "asEdge": {
       "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/ElectrodeArrayUsage",
+          "https://openminds.om-i.org/types/ElectrodeUsage",
+          "https://openminds.om-i.org/types/MRICoilUsage",
+          "https://openminds.om-i.org/types/MRIScannerUsage",
+          "https://openminds.om-i.org/types/PipetteUsage",
+          "https://openminds.om-i.org/types/SlicingDeviceUsage"
+        ],
         "v4.0": [
           "https://openminds.om-i.org/types/ElectrodeArrayUsage",
           "https://openminds.om-i.org/types/ElectrodeUsage",
@@ -2713,6 +2725,12 @@
     "name": "capturedWith",
     "namePlural": null,
     "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageStack",
+        "https://openminds.om-i.org/types/GridVolume",
+        "https://openminds.om-i.org/types/GridVolumeSequence"
+      ],
       "v4.0": [
         "https://openminds.om-i.org/types/RasterImage",
         "https://openminds.om-i.org/types/RasterImageStack",
@@ -3923,7 +3941,11 @@
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/CoordinatePoint",
-        "https://openminds.om-i.org/types/CustomAnnotation"
+        "https://openminds.om-i.org/types/CustomAnnotation",
+        "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageStack",
+        "https://openminds.om-i.org/types/GridVolume",
+        "https://openminds.om-i.org/types/GridVolumeSequence"
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/RasterImage",
@@ -5062,6 +5084,10 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CustomPropertySet",
+        "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageStack",
+        "https://openminds.om-i.org/types/GridVolume",
+        "https://openminds.om-i.org/types/GridVolumeSequence",
         "https://openminds.om-i.org/types/ParcellationTerminology",
         "https://openminds.om-i.org/types/ParcellationTerminologyVersion",
         "https://openminds.om-i.org/types/Recording",
@@ -7300,7 +7326,11 @@
     "namePlural": "dimensions",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/CranialWindowPreparation"
+        "https://openminds.om-i.org/types/CranialWindowPreparation",
+        "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageStack",
+        "https://openminds.om-i.org/types/GridVolume",
+        "https://openminds.om-i.org/types/GridVolumeSequence"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation"
@@ -11558,8 +11588,8 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/AnatomicalAtlas",
-          "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+          "https://openminds.om-i.org/types/BrainAtlas",
+          "https://openminds.om-i.org/types/BrainAtlasVersion",
           "https://openminds.om-i.org/types/CommonCoordinateFramework",
           "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
           "https://openminds.om-i.org/types/DOI",
@@ -15820,6 +15850,10 @@
         "https://openminds.om-i.org/types/FileRepositoryType",
         "https://openminds.om-i.org/types/FileUsageRole",
         "https://openminds.om-i.org/types/GeneticStrainType",
+        "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageStack",
+        "https://openminds.om-i.org/types/GridVolume",
+        "https://openminds.om-i.org/types/GridVolumeSequence",
         "https://openminds.om-i.org/types/GustatoryStimulusType",
         "https://openminds.om-i.org/types/Handedness",
         "https://openminds.om-i.org/types/HardwareSystem",
@@ -16555,6 +16589,9 @@
     "name": "numberOfImages",
     "namePlural": null,
     "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/GridImageStack"
+      ],
       "v4.0": [
         "https://openminds.om-i.org/types/RasterImageStack"
       ]
@@ -16565,7 +16602,8 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v4.0"
+          "v4.0",
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -16575,6 +16613,10 @@
     "name": "numberOfPlanes",
     "namePlural": null,
     "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/GridVolume",
+        "https://openminds.om-i.org/types/GridVolumeSequence"
+      ],
       "v4.0": [
         "https://openminds.om-i.org/types/RasterVolume",
         "https://openminds.om-i.org/types/RasterVolumeSequence"
@@ -16683,6 +16725,9 @@
     "name": "numberOfVolumes",
     "namePlural": null,
     "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/GridVolumeSequence"
+      ],
       "v4.0": [
         "https://openminds.om-i.org/types/RasterVolumeSequence"
       ]
@@ -18232,6 +18277,9 @@
   "pixelSize": {
     "asEdge": {
       "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ],
         "v4.0": [
           "https://openminds.om-i.org/types/QuantitativeValue"
         ]
@@ -18253,6 +18301,10 @@
     "name": "pixelSize",
     "namePlural": null,
     "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageStack"
+      ],
       "v4.0": [
         "https://openminds.om-i.org/types/RasterImage",
         "https://openminds.om-i.org/types/RasterImageStack"
@@ -25351,6 +25403,9 @@
   "temporalSamplingFrequency": {
     "asEdge": {
       "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ],
         "v4.0": [
           "https://openminds.om-i.org/types/QuantitativeValue"
         ]
@@ -25361,7 +25416,8 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v4.0"
+          "v4.0",
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -25371,6 +25427,9 @@
     "name": "temporalSamplingFrequency",
     "namePlural": null,
     "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/GridVolumeSequence"
+      ],
       "v4.0": [
         "https://openminds.om-i.org/types/RasterVolumeSequence"
       ]
@@ -26820,6 +26879,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue",
           "https://openminds.om-i.org/types/QuantitativeValueArray"
         ],
         "v1.0": [
@@ -26853,6 +26913,8 @@
     "namePlural": "voxelSizes",
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/GridVolume",
+        "https://openminds.om-i.org/types/GridVolumeSequence",
         "https://openminds.om-i.org/types/MRIScannerUsage"
       ],
       "v1.0": [
@@ -27182,6 +27244,9 @@
   "z-stepSize": {
     "asEdge": {
       "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ],
         "v4.0": [
           "https://openminds.om-i.org/types/QuantitativeValue"
         ]
@@ -27192,7 +27257,8 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "v4.0"
+          "v4.0",
+          "latest"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -27202,6 +27268,9 @@
     "name": "z-stepSize",
     "namePlural": null,
     "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/GridImageStack"
+      ],
       "v4.0": [
         "https://openminds.om-i.org/types/RasterImageStack"
       ]
