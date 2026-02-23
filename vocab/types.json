@@ -3332,6 +3332,31 @@
     "label": "Dependency impact",
     "name": "DependencyImpact"
   },
+  "DeployedInterface": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Deployed interface",
+    "name": "DeployedInterface"
+  },
   "DeploymentEnvironmentType": {
     "backwardsCompatibility": {
       "latest": []
@@ -9471,6 +9496,31 @@
     ],
     "label": "Service",
     "name": "Service"
+  },
+  "ServiceDeployment": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Service deployment",
+    "name": "ServiceDeployment"
   },
   "ServiceLink": {
     "backwardsCompatibility": {
