@@ -1,6 +1,8 @@
 {
   "title": "Release Notes latest",
   "addedFiles": [
+    "computation/deployedInterface.schema.omi.json",
+    "computation/serviceDeployment.schema.omi.json",
     "controlledTerms/accessChannel.schema.omi.json",
     "controlledTerms/accessEligibilityType.schema.omi.json",
     "controlledTerms/accessForm.schema.omi.json",

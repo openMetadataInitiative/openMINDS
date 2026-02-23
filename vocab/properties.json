@@ -539,6 +539,7 @@
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/DeployedInterface",
         "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
@@ -5873,6 +5874,68 @@
       ]
     }
   },
+  "dependsOn": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+          "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+          "https://openminds.om-i.org/types/DatasetVersion",
+          "https://openminds.om-i.org/types/MetaDataModelVersion",
+          "https://openminds.om-i.org/types/ModelVersion",
+          "https://openminds.om-i.org/types/SoftwareVersion",
+          "https://openminds.om-i.org/types/WorkflowRecipeVersion"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Depends on",
+    "labelPlural": null,
+    "name": "dependsOn",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/ServiceDeployment"
+      ]
+    }
+  },
+  "deploymentType": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/DeploymentEnvironmentType"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Deployment type",
+    "labelPlural": null,
+    "name": "deploymentType",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/ServiceDeployment"
+      ]
+    }
+  },
   "descendedFrom": {
     "asEdge": {
       "canPointTo": {
@@ -8008,6 +8071,7 @@
         "https://openminds.om-i.org/types/Optimization",
         "https://openminds.om-i.org/types/ProtocolExecution",
         "https://openminds.om-i.org/types/RecordingActivity",
+        "https://openminds.om-i.org/types/ServiceDeployment",
         "https://openminds.om-i.org/types/Simulation",
         "https://openminds.om-i.org/types/StaticMRIAcquisition",
         "https://openminds.om-i.org/types/StimulationActivity",
@@ -11941,6 +12005,34 @@
     "namePlural": null,
     "usedIn": {}
   },
+  "interface": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/InterfaceVersion"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Interface",
+    "labelPlural": null,
+    "name": "interface",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/DeployedInterface"
+      ]
+    }
+  },
   "interfaceType": {
     "asEdge": {
       "canPointTo": {
@@ -14728,6 +14820,15 @@
     }
   },
   "location": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/Location",
+          "https://openminds.om-i.org/types/WebResource"
+        ]
+      },
+      "nameForReverseLink": null
+    },
     "asString": {
       "formatting": "text/plain",
       "inVersions": [
@@ -14759,6 +14860,7 @@
     "namePlural": "locations",
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/DeployedInterface",
         "https://openminds.om-i.org/types/Setup"
       ],
       "v3.0": [
@@ -15958,6 +16060,7 @@
         "https://openminds.om-i.org/types/ScholarlyArticle",
         "https://openminds.om-i.org/types/SemanticDataType",
         "https://openminds.om-i.org/types/Service",
+        "https://openminds.om-i.org/types/ServiceDeployment",
         "https://openminds.om-i.org/types/Setup",
         "https://openminds.om-i.org/types/SetupType",
         "https://openminds.om-i.org/types/SignalDirectionality",
@@ -19577,6 +19680,34 @@
       ]
     }
   },
+  "provides": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/DeployedInterface"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Provides",
+    "labelPlural": null,
+    "name": "provides",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/ServiceDeployment"
+      ]
+    }
+  },
   "publicationDate": {
     "asString": {
       "formatting": "text/plain",
@@ -21967,6 +22098,7 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AccountInformation",
+        "https://openminds.om-i.org/types/ServiceDeployment",
         "https://openminds.om-i.org/types/ServiceLink"
       ],
       "v1.0": [
@@ -23356,6 +23488,7 @@
         "https://openminds.om-i.org/types/Optimization",
         "https://openminds.om-i.org/types/ProtocolExecution",
         "https://openminds.om-i.org/types/RecordingActivity",
+        "https://openminds.om-i.org/types/ServiceDeployment",
         "https://openminds.om-i.org/types/Simulation",
         "https://openminds.om-i.org/types/StaticMRIAcquisition",
         "https://openminds.om-i.org/types/StimulationActivity",
@@ -26397,6 +26530,40 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/AccountInformation"
+      ]
+    }
+  },
+  "uses": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+          "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+          "https://openminds.om-i.org/types/DatasetVersion",
+          "https://openminds.om-i.org/types/DeployedInterface",
+          "https://openminds.om-i.org/types/MetaDataModelVersion",
+          "https://openminds.om-i.org/types/ModelVersion",
+          "https://openminds.om-i.org/types/WorkflowRecipeVersion"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Uses",
+    "labelPlural": null,
+    "name": "uses",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/ServiceDeployment"
       ]
     }
   },

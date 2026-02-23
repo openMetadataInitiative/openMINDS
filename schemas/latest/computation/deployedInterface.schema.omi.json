@@ -1,0 +1,46 @@
+{
+  "_module": "computation",
+  "_type": "https://openminds.om-i.org/types/DeployedInterface",
+  "label": "Deployed interface",
+  "name": "DeployedInterface",
+  "properties": {
+    "https://openminds.om-i.org/props/accessibility": {
+      "_instruction": "Add the accessibility of this deployed interface.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Accessibility"
+      ],
+      "description": "Level to which something is accessible to someone or something.",
+      "label": "Accessibility",
+      "labelPlural": "Accessibilities",
+      "name": "accessibility",
+      "nameForReverseLink": null,
+      "namePlural": "accessibilities"
+    },
+    "https://openminds.om-i.org/props/interface": {
+      "_instruction": "Enter the interface version that is deployed.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/InterfaceVersion"
+      ],
+      "label": "Interface",
+      "name": "interface",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/location": {
+      "_instruction": "Add the location (for physical services) or URL (for digital services) where this deployed interface may be accessed.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Location",
+        "https://openminds.om-i.org/types/WebResource"
+      ],
+      "label": "Location",
+      "labelPlural": "Locations",
+      "name": "location",
+      "nameForReverseLink": null,
+      "namePlural": "locations"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/accessibility",
+    "https://openminds.om-i.org/props/interface",
+    "https://openminds.om-i.org/props/location"
+  ]
+}
