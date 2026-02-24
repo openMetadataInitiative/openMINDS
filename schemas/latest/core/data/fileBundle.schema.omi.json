@@ -39,7 +39,6 @@
       ],
       "_instruction": "Add all entities that defined which files were grouped into this file bundle. Note that the schema types of the instances stated here, need to match the ones stated under 'groupingType'.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/LocalFile",
         "https://openminds.om-i.org/types/AnalysisTechnique",
         "https://openminds.om-i.org/types/AuditoryStimulusType",
         "https://openminds.om-i.org/types/BiologicalOrder",
@@ -75,6 +74,7 @@
         "https://openminds.om-i.org/types/BehavioralProtocol",
         "https://openminds.om-i.org/types/File",
         "https://openminds.om-i.org/types/FileBundle",
+        "https://openminds.om-i.org/types/LocalFile",
         "https://openminds.om-i.org/types/Subject",
         "https://openminds.om-i.org/types/SubjectGroup",
         "https://openminds.om-i.org/types/SubjectGroupState",

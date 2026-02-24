@@ -51,7 +51,6 @@
       "specimenPrep:SlicingDeviceUsage"
     ],
     "fileOrigin": [
-      "computation:LocalFile",
       "controlledTerms:AnalysisTechnique",
       "controlledTerms:MRIPulseSequence",
       "controlledTerms:MRIWeighting",
@@ -61,6 +60,7 @@
       "core:BehavioralProtocol",
       "core:File",
       "core:FileBundle",
+      "core:LocalFile",
       "core:Subject",
       "core:SubjectGroup",
       "core:SubjectGroupState",
