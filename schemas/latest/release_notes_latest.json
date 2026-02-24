@@ -60,6 +60,11 @@
   ],
   "movedFiles": [
     {
+      "file": "localFile.schema.omi.json",
+      "source": "computation/localFile.schema.omi.json",
+      "destination": "core/data/localFile.schema.omi.json"
+    },
+    {
       "file": "circle.schema.omi.json",
       "source": "SANDS/mathematicalShapes/circle.schema.omi.json",
       "destination": "SANDS/mathematicalShape/circle.schema.omi.json"

@@ -59,6 +59,7 @@ Removed files:
   - SANDS/non-atlas/customCoordinateSpace.schema.omi.json
 
 Moved files:
+  - computation/localFile.schema.omi.json moved to core/data/localFile.schema.omi.json
   - SANDS/mathematicalShapes/circle.schema.omi.json moved to SANDS/mathematicalShape/circle.schema.omi.json
   - SANDS/mathematicalShapes/ellipse.schema.omi.json moved to SANDS/mathematicalShape/ellipse.schema.omi.json
   - SANDS/mathematicalShapes/rectangle.schema.omi.json moved to SANDS/mathematicalShape/rectangle.schema.omi.json
