@@ -42,6 +42,7 @@ Added files:
   - core/miscellaneous/dependency.schema.omi.json
   - core/miscellaneous/geoCoordinates.schema.omi.json
   - core/miscellaneous/location.schema.omi.json
+  - core/miscellaneous/membership.schema.omi.json
   - core/products/interface.schema.omi.json
   - core/products/interfaceVersion.schema.omi.json
   - core/products/service.schema.omi.json
@@ -243,6 +244,8 @@ Changes in core/actors/affiliation.schema.omi.json:
 
 Changes in core/actors/consortium.schema.omi.json:
   - Field '_categories' modified.
+  - Field 'properties.props:memberships' added.
+  - Field 'required' modified (value(s) added).
 
 Changes in core/actors/contactInformation.schema.omi.json:
   - Field 'properties.props:email._formats' removed.
@@ -273,6 +276,7 @@ Changes in core/actors/organization.schema.omi.json:
   - Field 'properties.props:countryOfFormation' added.
   - Field 'properties.props:jurisdiction' added.
   - Field 'properties.props:location' added.
+  - Field 'properties.props:memberships' added.
   - Field 'properties.props:name' added.
   - Field 'properties.props:type' added.
   - Field 'properties.props:digitalIdentifier._belongsToCategory' added.
