@@ -7,25 +7,6 @@
   "label": "Live paper",
   "name": "LivePaper",
   "properties": {
-    "https://openminds.om-i.org/props/author": {
-      "_belongsToCategory": [
-        "legalPerson"
-      ],
-      "_instruction": "Add all parties that contributed to this live paper as authors.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/Organization",
-        "https://openminds.om-i.org/types/Person"
-      ],
-      "description": "Creator of a literary or creative work, as well as a dataset publication.",
-      "label": "Author",
-      "labelPlural": "Authors",
-      "minItems": 1,
-      "name": "author",
-      "nameForReverseLink": null,
-      "namePlural": "authors",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.om-i.org/props/contribution": {
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/Contribution"
@@ -305,7 +286,6 @@
     }
   },
   "required": [
-    "https://openminds.om-i.org/props/author",
     "https://openminds.om-i.org/props/contribution",
     "https://openminds.om-i.org/props/description",
     "https://openminds.om-i.org/props/fullName",

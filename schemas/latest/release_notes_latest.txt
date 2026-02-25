@@ -612,26 +612,43 @@ Changes in ephys/device/pipetteUsage.schema.omi.json:
   - Field 'properties.props:anatomicalLocation._linkedTypes' modified (value(s) added).
 
 Changes in publications/book.schema.omi.json:
-  - Field 'properties.props:author._linkedTypes' modified (value(s) removed).
-  - Field 'properties.props:custodian._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:author' removed.
+  - Field 'properties.props:custodian' removed.
+  - Field 'properties.props:editor' removed.
+  - Field 'properties.props:license' removed.
+  - Field 'properties.props:publisher' removed.
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:contributorAffiliation' added.
+  - Field 'properties.props:usageCondition' added.
   - Field 'properties.props:keyword._linkedTypes' modified.
-  - Field 'properties.props:publisher._linkedTypes' modified (value(s) removed).
 
 Changes in publications/chapter.schema.omi.json:
-  - Field 'properties.props:author._linkedTypes' modified (value(s) removed).
-  - Field 'properties.props:custodian._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:author' removed.
+  - Field 'properties.props:custodian' removed.
+  - Field 'properties.props:editor' removed.
+  - Field 'properties.props:license' removed.
+  - Field 'properties.props:publisher' removed.
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:contributorAffiliation' added.
+  - Field 'properties.props:usageCondition' added.
   - Field 'properties.props:keyword._linkedTypes' modified.
   - Field 'properties.props:pagination._instruction' modified.
-  - Field 'properties.props:publisher._linkedTypes' modified (value(s) removed).
+  - Field 'required' modified.
 
 Changes in publications/learningResource.schema.omi.json:
+  - Field 'properties.props:author' removed.
+  - Field 'properties.props:custodian' removed.
+  - Field 'properties.props:editor' removed.
+  - Field 'properties.props:license' removed.
+  - Field 'properties.props:publisher' removed.
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:contributorAffiliation' added.
+  - Field 'properties.props:usageCondition' added.
   - Field 'properties.props:about._linkedTypes' modified.
-  - Field 'properties.props:author._linkedTypes' modified (value(s) removed).
-  - Field 'properties.props:custodian._linkedTypes' modified (value(s) removed).
   - Field 'properties.props:keyword._linkedTypes' modified.
-  - Field 'properties.props:publisher._linkedTypes' modified (value(s) removed).
 
 Changes in publications/livePaper.schema.omi.json:
+  - Field 'properties.props:author' removed.
   - Field 'properties.props:custodian' removed.
   - Field 'properties.props:hasVersion' removed.
   - Field 'properties.props:contribution' added.
@@ -640,7 +657,6 @@ Changes in publications/livePaper.schema.omi.json:
   - Field 'properties.props:keyword' added.
   - Field 'properties.props:relatedPublication' added.
   - Field 'properties.props:supportChannel' added.
-  - Field 'properties.props:author._linkedTypes' modified (value(s) removed).
   - Field 'properties.props:description._instruction' modified.
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:homepage._instruction' modified.
@@ -652,10 +668,12 @@ Changes in publications/livePaperResourceItem.schema.omi.json:
   - Field 'properties.props:hostedBy._linkedTypes' modified (value(s) added).
 
 Changes in publications/livePaperVersion.schema.omi.json:
+  - Field 'properties.props:author' removed.
   - Field 'properties.props:custodian' removed.
   - Field 'properties.props:fullDocumentation' removed.
   - Field 'properties.props:isAlternativeVersionOf' removed.
   - Field 'properties.props:isNewVersionOf' removed.
+  - Field 'properties.props:license' removed.
   - Field 'properties.props:otherContribution' removed.
   - Field 'properties.props:versionInnovation' removed.
   - Field 'properties.props:contribution' added.
@@ -668,7 +686,6 @@ Changes in publications/livePaperVersion.schema.omi.json:
   - Field 'properties.props:usageCondition' added.
   - Field 'properties.props:versionSpecification' added.
   - Field 'properties.props:accessibility._linkedTypes' modified.
-  - Field 'properties.props:author._linkedTypes' modified (value(s) removed).
   - Field 'properties.props:description._instruction' modified.
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:homepage._instruction' modified.
@@ -681,11 +698,17 @@ Changes in publications/livePaperVersion.schema.omi.json:
   - Field 'required' modified.
 
 Changes in publications/scholarlyArticle.schema.omi.json:
-  - Field 'properties.props:author._linkedTypes' modified (value(s) removed).
-  - Field 'properties.props:custodian._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:author' removed.
+  - Field 'properties.props:custodian' removed.
+  - Field 'properties.props:editor' removed.
+  - Field 'properties.props:license' removed.
+  - Field 'properties.props:publisher' removed.
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:contributorAffiliation' added.
+  - Field 'properties.props:usageCondition' added.
   - Field 'properties.props:keyword._linkedTypes' modified.
   - Field 'properties.props:pagination._instruction' modified.
-  - Field 'properties.props:publisher._linkedTypes' modified (value(s) removed).
+  - Field 'required' modified.
 
 Changes in SANDS/atlas/parcellationEntity.schema.omi.json:
   - Field 'properties.props:hasVersion' removed.

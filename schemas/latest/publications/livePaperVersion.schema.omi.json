@@ -35,25 +35,6 @@
       "nameForReverseLink": null,
       "namePlural": "accessibilities"
     },
-    "https://openminds.om-i.org/props/author": {
-      "_belongsToCategory": [
-        "legalPerson"
-      ],
-      "_instruction": "Add all parties that contributed to this live paper version as authors. Note that these authors will overwrite the author list provided for the overarching live paper.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/Organization",
-        "https://openminds.om-i.org/types/Person"
-      ],
-      "description": "Creator of a literary or creative work, as well as a dataset publication.",
-      "label": "Author",
-      "labelPlural": "Authors",
-      "minItems": 1,
-      "name": "author",
-      "nameForReverseLink": null,
-      "namePlural": "authors",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.om-i.org/props/contribution": {
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/Contribution"
@@ -334,18 +315,6 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.om-i.org/props/license": {
-      "_instruction": "Add the license of this live paper version.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/License"
-      ],
-      "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
-      "label": "License",
-      "labelPlural": "Licenses",
-      "name": "license",
-      "nameForReverseLink": null,
-      "namePlural": "licenses"
-    },
     "https://openminds.om-i.org/props/modificationDate": {
       "_formats": [
         "date-time"
@@ -493,9 +462,9 @@
     "https://openminds.om-i.org/props/documentation",
     "https://openminds.om-i.org/props/fullName",
     "https://openminds.om-i.org/props/isVersionOf",
-    "https://openminds.om-i.org/props/license",
     "https://openminds.om-i.org/props/releaseDate",
     "https://openminds.om-i.org/props/shortName",
+    "https://openminds.om-i.org/props/usageCondition",
     "https://openminds.om-i.org/props/versionIdentifier",
     "https://openminds.om-i.org/props/versionSpecification"
   ]

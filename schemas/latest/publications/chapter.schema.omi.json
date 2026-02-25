@@ -31,25 +31,6 @@
       "namePlural": "abstracts",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/author": {
-      "_belongsToCategory": [
-        "legalPerson"
-      ],
-      "_instruction": "Add all parties that contributed to this creative work as authors.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/Organization",
-        "https://openminds.om-i.org/types/Person"
-      ],
-      "description": "Creator of a literary or creative work, as well as a dataset publication.",
-      "label": "Author",
-      "labelPlural": "Authors",
-      "minItems": 1,
-      "name": "author",
-      "nameForReverseLink": null,
-      "namePlural": "authors",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.om-i.org/props/citedPublication": {
       "_instruction": "Add all references this creative work cites.",
       "_linkedTypes": [
@@ -62,6 +43,30 @@
       "name": "citedPublication",
       "nameForReverseLink": null,
       "namePlural": "citedPublications",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/contribution": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Contribution"
+      ],
+      "_instruction": "Add all individual, organisational, or consortial contributions to this creative work.",
+      "label": "Contribution",
+      "minItems": 1,
+      "name": "contribution",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/contributorAffiliation": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Affiliation"
+      ],
+      "_instruction": "Add all affiliations for the individual contributors to this research product version.",
+      "label": "Contributor affiliation",
+      "minItems": 1,
+      "name": "contributorAffiliation",
+      "nameForReverseLink": null,
       "type": "array",
       "uniqueItems": true
     },
@@ -90,25 +95,6 @@
       "namePlural": "creationDates",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/custodian": {
-      "_belongsToCategory": [
-        "legalPerson"
-      ],
-      "_instruction": "Add all parties that fulfill the role of a custodian for this creative work (e.g., a corresponding author). Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the creative work.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/Organization",
-        "https://openminds.om-i.org/types/Person"
-      ],
-      "description": "The 'custodian' is a legal person who is responsible for the content and quality of the data, metadata, and/or code of a research product.",
-      "label": "Custodian",
-      "labelPlural": "Custodians",
-      "minItems": 1,
-      "name": "custodian",
-      "nameForReverseLink": null,
-      "namePlural": "custodians",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.om-i.org/props/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this creative work.",
       "_linkedTypes": [
@@ -120,20 +106,6 @@
       "name": "digitalIdentifier",
       "nameForReverseLink": null,
       "namePlural": "digitalIdentifiers"
-    },
-    "https://openminds.om-i.org/props/editor": {
-      "_instruction": "Add all persons that edited this creative work.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/Person"
-      ],
-      "label": "Editor",
-      "labelPlural": "Editors",
-      "minItems": 1,
-      "name": "editor",
-      "nameForReverseLink": null,
-      "namePlural": "editors",
-      "type": "array",
-      "uniqueItems": true
     },
     "https://openminds.om-i.org/props/funding": {
       "_instruction": "Add all funding information of this creative work.",
@@ -285,18 +257,6 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.om-i.org/props/license": {
-      "_instruction": "Add the license of this creative work.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/License"
-      ],
-      "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
-      "label": "License",
-      "labelPlural": "Licenses",
-      "name": "license",
-      "nameForReverseLink": null,
-      "namePlural": "licenses"
-    },
     "https://openminds.om-i.org/props/modificationDate": {
       "_formats": [
         "date"
@@ -344,20 +304,20 @@
       "namePlural": "publicationDates",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/publisher": {
-      "_belongsToCategory": [
-        "legalPerson"
-      ],
-      "_instruction": "Add the party (private or commercial) that published this creative work.",
+    "https://openminds.om-i.org/props/usageCondition": {
+      "_instruction": "Add all licenses and available data usage agreements applicable to this creative work.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/Organization",
-        "https://openminds.om-i.org/types/Person"
+        "https://openminds.om-i.org/types/License",
+        "https://openminds.om-i.org/types/UsageAgreement"
       ],
-      "label": "Publisher",
-      "labelPlural": "Publishers",
-      "name": "publisher",
+      "label": "Usage condition",
+      "labelPlural": "Usage conditions",
+      "minItems": 1,
+      "name": "usageCondition",
       "nameForReverseLink": null,
-      "namePlural": "publishers"
+      "namePlural": "usageConditions",
+      "type": "array",
+      "uniqueItems": true
     },
     "https://openminds.om-i.org/props/versionIdentifier": {
       "_instruction": "Enter the version identifier of this creative work.",
@@ -372,7 +332,7 @@
     }
   },
   "required": [
-    "https://openminds.om-i.org/props/author",
+    "https://openminds.om-i.org/props/contribution",
     "https://openminds.om-i.org/props/isPartOf",
     "https://openminds.om-i.org/props/name",
     "https://openminds.om-i.org/props/publicationDate"

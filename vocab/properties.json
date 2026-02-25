@@ -1816,10 +1816,6 @@
   "author": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/Organization",
-          "https://openminds.om-i.org/types/Person"
-        ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Organization",
           "https://openminds.ebrains.eu/core/Person"
@@ -1864,14 +1860,6 @@
     "name": "author",
     "namePlural": "authors",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Book",
-        "https://openminds.om-i.org/types/Chapter",
-        "https://openminds.om-i.org/types/LearningResource",
-        "https://openminds.om-i.org/types/LivePaper",
-        "https://openminds.om-i.org/types/LivePaperVersion",
-        "https://openminds.om-i.org/types/ScholarlyArticle"
-      ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Dataset",
         "https://openminds.ebrains.eu/core/DatasetVersion"
@@ -3517,12 +3505,15 @@
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlas",
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/Book",
+        "https://openminds.om-i.org/types/Chapter",
         "https://openminds.om-i.org/types/CommonCoordinateFramework",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/Dataset",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/Interface",
         "https://openminds.om-i.org/types/InterfaceVersion",
+        "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/LivePaper",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModel",
@@ -3530,6 +3521,7 @@
         "https://openminds.om-i.org/types/Model",
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/Project",
+        "https://openminds.om-i.org/types/ScholarlyArticle",
         "https://openminds.om-i.org/types/Service",
         "https://openminds.om-i.org/types/Software",
         "https://openminds.om-i.org/types/SoftwareVersion",
@@ -3670,18 +3662,22 @@
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlas",
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/Book",
+        "https://openminds.om-i.org/types/Chapter",
         "https://openminds.om-i.org/types/CommonCoordinateFramework",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/Dataset",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/Interface",
         "https://openminds.om-i.org/types/InterfaceVersion",
+        "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/LivePaper",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModel",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/Model",
         "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/ScholarlyArticle",
         "https://openminds.om-i.org/types/Software",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTest",
@@ -4538,10 +4534,6 @@
   "custodian": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/Organization",
-          "https://openminds.om-i.org/types/Person"
-        ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Organization",
           "https://openminds.ebrains.eu/core/Person"
@@ -4586,12 +4578,6 @@
     "name": "custodian",
     "namePlural": "custodians",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Book",
-        "https://openminds.om-i.org/types/Chapter",
-        "https://openminds.om-i.org/types/LearningResource",
-        "https://openminds.om-i.org/types/ScholarlyArticle"
-      ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Dataset",
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -7026,9 +7012,6 @@
   "editor": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/Person"
-        ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/Person"
         ],
@@ -7059,12 +7042,6 @@
     "name": "editor",
     "namePlural": "editors",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Book",
-        "https://openminds.om-i.org/types/Chapter",
-        "https://openminds.om-i.org/types/LearningResource",
-        "https://openminds.om-i.org/types/ScholarlyArticle"
-      ],
       "v3.0": [
         "https://openminds.ebrains.eu/publications/Book",
         "https://openminds.ebrains.eu/publications/Chapter",
@@ -10404,8 +10381,7 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/Organization",
-          "https://openminds.om-i.org/types/Service",
-          "https://openminds.om-i.org/types/WebService"
+          "https://openminds.om-i.org/types/Service"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Organization"
@@ -13562,9 +13538,6 @@
   "license": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/License"
-        ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/License"
         ],
@@ -13605,13 +13578,6 @@
     "name": "license",
     "namePlural": "licenses",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Book",
-        "https://openminds.om-i.org/types/Chapter",
-        "https://openminds.om-i.org/types/LearningResource",
-        "https://openminds.om-i.org/types/LivePaperVersion",
-        "https://openminds.om-i.org/types/ScholarlyArticle"
-      ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
@@ -18194,10 +18160,6 @@
   "publisher": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/Organization",
-          "https://openminds.om-i.org/types/Person"
-        ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/Consortium",
           "https://openminds.ebrains.eu/core/Organization",
@@ -18232,12 +18194,6 @@
     "name": "publisher",
     "namePlural": "publishers",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Book",
-        "https://openminds.om-i.org/types/Chapter",
-        "https://openminds.om-i.org/types/LearningResource",
-        "https://openminds.om-i.org/types/ScholarlyArticle"
-      ],
       "v3.0": [
         "https://openminds.ebrains.eu/publications/Book",
         "https://openminds.ebrains.eu/publications/Chapter",
@@ -23801,12 +23757,16 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/Book",
+        "https://openminds.om-i.org/types/Chapter",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
         "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/InterfaceVersion",
+        "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/ScholarlyArticle",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
