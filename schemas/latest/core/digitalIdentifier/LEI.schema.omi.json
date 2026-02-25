@@ -1,0 +1,26 @@
+{
+  "_category": [
+    "organizationIdentifier"
+  ],
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/LEI",
+  "label": "Lei",
+  "name": "LEI",
+  "properties": {
+    "https://openminds.om-i.org/props/identifier": {
+      "_instruction": "Enter the identifier for legal entities provided by a local operating unit delegated by the Global Legal Entity Identifier Foundation ('Legal Entity Identifier'; LEI) as an internationalized resource identifier (IRI) following the defined pattern (i.e., 'https://lei.global/LEI/' + LEI).",
+      "description": "Term or code used to identify something or someone.",
+      "formatting": "text/plain",
+      "label": "Identifier",
+      "labelPlural": "Identifiers",
+      "multiline": false,
+      "name": "identifier",
+      "namePlural": "identifiers",
+      "pattern": "^https://lei.global/LEI/[A-Z0-9]{18}\\d{2}$",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/identifier"
+  ]
+}

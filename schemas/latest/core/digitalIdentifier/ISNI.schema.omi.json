@@ -1,0 +1,26 @@
+{
+  "_category": [
+    "organizationIdentifier"
+  ],
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/ISNI",
+  "label": "Isni",
+  "name": "ISNI",
+  "properties": {
+    "https://openminds.om-i.org/props/identifier": {
+      "_instruction": "Enter the identifier for legal entities provided by the International Standard Name Identifier Assignment Agency ('International Standard Name Identifier'; ISNI) as an internationalized resource identifier (IRI) following the defined pattern (i.e., 'https://isni.org/' + ISNI).",
+      "description": "Term or code used to identify something or someone.",
+      "formatting": "text/plain",
+      "label": "Identifier",
+      "labelPlural": "Identifiers",
+      "multiline": false,
+      "name": "identifier",
+      "namePlural": "identifiers",
+      "pattern": "^https?://(www.)?isni.org/(isni/)?\\d{15}[\\dX]$)",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/identifier"
+  ]
+}

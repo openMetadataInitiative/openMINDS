@@ -6,48 +6,33 @@
   "label": "Affiliation",
   "name": "Affiliation",
   "properties": {
-    "https://openminds.om-i.org/props/endDate": {
-      "_formats": [
-        "date"
-      ],
-      "_instruction": "Enter the end date of this affiliation, formatted as 'YYYY-MM-DD'. Leave blank if this affiliation is still current.",
-      "description": "Date in the Gregorian calendar at which something terminates in time.",
-      "formatting": "text/plain",
-      "label": "End date",
-      "labelPlural": "End dates",
-      "multiline": false,
-      "name": "endDate",
-      "namePlural": "endDates",
-      "type": "string"
-    },
-    "https://openminds.om-i.org/props/memberOf": {
-      "_instruction": "Add the organization or consortium another party was or still is a member of.",
+    "https://openminds.om-i.org/props/organization": {
+      "_instruction": "Add all organizations (in display order) with which the specified individual is affiliated.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/Consortium",
         "https://openminds.om-i.org/types/Organization"
       ],
-      "label": "Member of",
-      "labelPlural": "Member of",
-      "name": "memberOf",
+      "description": "Legally accountable, administrative and functional structure.",
+      "label": "Organization",
+      "labelPlural": "Organizations",
+      "minItems": 1,
+      "name": "organization",
       "nameForReverseLink": null,
-      "namePlural": "memberOf"
+      "namePlural": "organizations",
+      "type": "array",
+      "uniqueItems": true
     },
-    "https://openminds.om-i.org/props/startDate": {
-      "_formats": [
-        "date"
+    "https://openminds.om-i.org/props/person": {
+      "_instruction": "Add the individual to whom this affiliation belongs.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Person"
       ],
-      "_instruction": "Enter the start date of this affiliation, formatted as 'YYYY-MM-DD'.",
-      "description": "Date in the Gregorian calendar at which something begins in time",
-      "formatting": "text/plain",
-      "label": "Start date",
-      "labelPlural": "Start dates",
-      "multiline": false,
-      "name": "startDate",
-      "namePlural": "startDates",
-      "type": "string"
+      "label": "Person",
+      "name": "person",
+      "nameForReverseLink": null
     }
   },
   "required": [
-    "https://openminds.om-i.org/props/memberOf"
+    "https://openminds.om-i.org/props/organization",
+    "https://openminds.om-i.org/props/person"
   ]
 }

@@ -37,7 +37,6 @@
       ],
       "_instruction": "Add all parties that contributed to this creative work as authors.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/Consortium",
         "https://openminds.om-i.org/types/Organization",
         "https://openminds.om-i.org/types/Person"
       ],
@@ -97,7 +96,6 @@
       ],
       "_instruction": "Add all parties that fulfill the role of a custodian for this creative work (e.g., a corresponding author). Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the creative work.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/Consortium",
         "https://openminds.om-i.org/types/Organization",
         "https://openminds.om-i.org/types/Person"
       ],
@@ -353,7 +351,6 @@
       ],
       "_instruction": "Add the party (private or commercial) that published this creative work.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/Consortium",
         "https://openminds.om-i.org/types/Organization",
         "https://openminds.om-i.org/types/Person"
       ],

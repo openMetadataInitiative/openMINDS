@@ -1,0 +1,50 @@
+{
+  "_categories": [
+    "datasetIdentifier",
+    "personIdentifier",
+    "publicationReference",
+    "organizationIdentifier",
+    "toolIdentifier"
+  ],
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/GenericIdentifier",
+  "label": "Generic identifier",
+  "name": "GenericIdentifier",
+  "properties": {
+    "https://openminds.om-i.org/props/emitter": {
+      "_instruction": "Add the organization that governs and/or emits the identifier.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Organization"
+      ],
+      "label": "Emitter",
+      "name": "emitter",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/identifier": {
+      "_instruction": "Enter a persistent, unique identifier emitted by an organization.",
+      "description": "Term or code used to identify something or someone.",
+      "formatting": "text/plain",
+      "label": "Identifier",
+      "labelPlural": "Identifiers",
+      "multiline": false,
+      "name": "identifier",
+      "namePlural": "identifiers",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/type": {
+      "_instruction": "Enter the type of identifier, e.g. 'PubMed ID'.",
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "formatting": "text/plain",
+      "label": "Type",
+      "labelPlural": "Types",
+      "multiline": false,
+      "name": "type",
+      "namePlural": "types",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/emitter",
+    "https://openminds.om-i.org/props/identifier"
+  ]
+}

@@ -7,18 +7,23 @@
   "name": "ContactInformation",
   "properties": {
     "https://openminds.om-i.org/props/email": {
-      "_formats": [
-        "email"
-      ],
-      "_instruction": "Enter the email address of the party (e.g., of the person).",
+      "_instruction": "Enter all relevant contact email addresses.",
       "description": "Address to which or from which an electronic mail can be sent.",
       "formatting": "text/plain",
+      "items": {
+        "_formats": [
+          "email"
+        ],
+        "type": "string"
+      },
       "label": "Email",
       "labelPlural": "Emails",
+      "minItems": 1,
       "multiline": false,
       "name": "email",
       "namePlural": "emails",
-      "type": "string"
+      "type": "array",
+      "uniqueItems": true
     }
   },
   "required": [
