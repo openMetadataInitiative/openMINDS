@@ -6839,10 +6839,6 @@
   "developer": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/Organization",
-          "https://openminds.om-i.org/types/Person"
-        ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Organization",
           "https://openminds.ebrains.eu/core/Person"
@@ -6887,12 +6883,6 @@
     "name": "developer",
     "namePlural": "developers",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/ValidationTest",
-        "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WorkflowRecipe",
-        "https://openminds.om-i.org/types/WorkflowRecipeVersion"
-      ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/MetaDataModel",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
@@ -8346,7 +8336,7 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/Environment",
-          "https://openminds.om-i.org/types/WebServiceVersion"
+          "https://openminds.om-i.org/types/Service"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/computation/Environment",
@@ -14865,9 +14855,7 @@
         "https://openminds.om-i.org/types/Chapter",
         "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/LivePaperVersion",
-        "https://openminds.om-i.org/types/ScholarlyArticle",
-        "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WorkflowRecipeVersion"
+        "https://openminds.om-i.org/types/ScholarlyArticle"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",

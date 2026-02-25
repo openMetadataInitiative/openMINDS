@@ -109,6 +109,9 @@
       "file": "computation/dataAnalysis.schema.omi.json",
       "modifiedAttributes": [
         {
+          "property": "properties.props:environment._linkedTypes"
+        },
+        {
           "property": "properties.props:input._linkedTypes"
         },
         {
@@ -122,6 +125,9 @@
       "file": "computation/dataCopy.schema.omi.json",
       "modifiedAttributes": [
         {
+          "property": "properties.props:environment._linkedTypes"
+        },
+        {
           "property": "properties.props:studyTarget._linkedTypes",
           "modification": "value(s) added"
         }
@@ -131,6 +137,9 @@
     {
       "file": "computation/genericComputation.schema.omi.json",
       "modifiedAttributes": [
+        {
+          "property": "properties.props:environment._linkedTypes"
+        },
         {
           "property": "properties.props:studyTarget._linkedTypes",
           "modification": "value(s) added"
@@ -142,6 +151,9 @@
       "file": "computation/modelValidation.schema.omi.json",
       "modifiedAttributes": [
         {
+          "property": "properties.props:environment._linkedTypes"
+        },
+        {
           "property": "properties.props:studyTarget._linkedTypes",
           "modification": "value(s) added"
         }
@@ -152,6 +164,9 @@
       "file": "computation/optimization.schema.omi.json",
       "modifiedAttributes": [
         {
+          "property": "properties.props:environment._linkedTypes"
+        },
+        {
           "property": "properties.props:studyTarget._linkedTypes",
           "modification": "value(s) added"
         }
@@ -161,6 +176,9 @@
     {
       "file": "computation/simulation.schema.omi.json",
       "modifiedAttributes": [
+        {
+          "property": "properties.props:environment._linkedTypes"
+        },
         {
           "property": "properties.props:studyTarget._linkedTypes",
           "modification": "value(s) added"
@@ -180,15 +198,12 @@
       ],
       "removedAttributes": [
         "properties.props:custodian",
+        "properties.props:developer",
         "properties.props:hasVersion"
       ],
       "modifiedAttributes": [
         {
           "property": "properties.props:description._instruction"
-        },
-        {
-          "property": "properties.props:developer._linkedTypes",
-          "modification": "value(s) removed"
         },
         {
           "property": "properties.props:fullName._instruction"
@@ -224,9 +239,11 @@
       ],
       "removedAttributes": [
         "properties.props:custodian",
+        "properties.props:developer",
         "properties.props:fullDocumentation",
         "properties.props:isAlternativeVersionOf",
         "properties.props:isNewVersionOf",
+        "properties.props:license",
         "properties.props:otherContribution",
         "properties.props:versionInnovation"
       ],
@@ -236,10 +253,6 @@
         },
         {
           "property": "properties.props:description._instruction"
-        },
-        {
-          "property": "properties.props:developer._linkedTypes",
-          "modification": "value(s) removed"
         },
         {
           "property": "properties.props:fullName._instruction"
@@ -276,6 +289,9 @@
       "file": "computation/visualization.schema.omi.json",
       "modifiedAttributes": [
         {
+          "property": "properties.props:environment._linkedTypes"
+        },
+        {
           "property": "properties.props:studyTarget._linkedTypes",
           "modification": "value(s) added"
         }
@@ -294,15 +310,12 @@
       ],
       "removedAttributes": [
         "properties.props:custodian",
+        "properties.props:developer",
         "properties.props:hasVersion"
       ],
       "modifiedAttributes": [
         {
           "property": "properties.props:description._instruction"
-        },
-        {
-          "property": "properties.props:developer._linkedTypes",
-          "modification": "value(s) removed"
         },
         {
           "property": "properties.props:fullName._instruction"
@@ -334,9 +347,11 @@
       ],
       "removedAttributes": [
         "properties.props:custodian",
+        "properties.props:developer",
         "properties.props:fullDocumentation",
         "properties.props:isAlternativeVersionOf",
         "properties.props:isNewVersionOf",
+        "properties.props:license",
         "properties.props:otherContribution",
         "properties.props:versionInnovation"
       ],
@@ -346,10 +361,6 @@
         },
         {
           "property": "properties.props:description._instruction"
-        },
-        {
-          "property": "properties.props:developer._linkedTypes",
-          "modification": "value(s) removed"
         },
         {
           "property": "properties.props:fullName._instruction"

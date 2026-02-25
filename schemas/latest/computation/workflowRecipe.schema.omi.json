@@ -44,25 +44,6 @@
       "namePlural": "descriptions",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/developer": {
-      "_belongsToCategory": [
-        "legalPerson"
-      ],
-      "_instruction": "Add all parties that developed this workflow recipe.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/Organization",
-        "https://openminds.om-i.org/types/Person"
-      ],
-      "description": "Legal person that creates or improves products or services (e.g., software, applications, etc.).",
-      "label": "Developer",
-      "labelPlural": "Developers",
-      "minItems": 1,
-      "name": "developer",
-      "nameForReverseLink": null,
-      "namePlural": "developers",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.om-i.org/props/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
       "_linkedTypes": [
@@ -309,7 +290,6 @@
   "required": [
     "https://openminds.om-i.org/props/contribution",
     "https://openminds.om-i.org/props/description",
-    "https://openminds.om-i.org/props/developer",
     "https://openminds.om-i.org/props/fullName",
     "https://openminds.om-i.org/props/shortName"
   ]

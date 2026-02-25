@@ -52,7 +52,7 @@
       "_instruction": "Add the computational environment in which this computation was executed.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/Environment",
-        "https://openminds.om-i.org/types/WebServiceVersion"
+        "https://openminds.om-i.org/types/Service"
       ],
       "label": "Environment",
       "labelPlural": "Environments",
