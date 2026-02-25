@@ -68,25 +68,6 @@
       "namePlural": "descriptions",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/developer": {
-      "_belongsToCategory": [
-        "legalPerson"
-      ],
-      "_instruction": "Add all parties that developed this workflow recipe version. Note that these developers will overwrite the developer list provided for the overarching workflow recipe.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/Organization",
-        "https://openminds.om-i.org/types/Person"
-      ],
-      "description": "Legal person that creates or improves products or services (e.g., software, applications, etc.).",
-      "label": "Developer",
-      "labelPlural": "Developers",
-      "minItems": 1,
-      "name": "developer",
-      "nameForReverseLink": null,
-      "namePlural": "developers",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.om-i.org/props/digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
       "_linkedTypes": [
@@ -346,21 +327,6 @@
       "name": "keyword",
       "nameForReverseLink": null,
       "namePlural": "keywords",
-      "type": "array",
-      "uniqueItems": true
-    },
-    "https://openminds.om-i.org/props/license": {
-      "_instruction": "Add all licenses of this workflow recipe version.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/License"
-      ],
-      "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
-      "label": "License",
-      "labelPlural": "Licenses",
-      "minItems": 1,
-      "name": "license",
-      "nameForReverseLink": null,
-      "namePlural": "licenses",
       "type": "array",
       "uniqueItems": true
     },

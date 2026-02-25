@@ -78,26 +78,33 @@ Changes in chemicals/productSource.schema.omi.json:
   - Field 'properties.props:provider._linkedTypes' modified (value(s) removed).
 
 Changes in computation/dataAnalysis.schema.omi.json:
+  - Field 'properties.props:environment._linkedTypes' modified.
   - Field 'properties.props:input._linkedTypes' modified.
   - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
 
 Changes in computation/dataCopy.schema.omi.json:
+  - Field 'properties.props:environment._linkedTypes' modified.
   - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
 
 Changes in computation/genericComputation.schema.omi.json:
+  - Field 'properties.props:environment._linkedTypes' modified.
   - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
 
 Changes in computation/modelValidation.schema.omi.json:
+  - Field 'properties.props:environment._linkedTypes' modified.
   - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
 
 Changes in computation/optimization.schema.omi.json:
+  - Field 'properties.props:environment._linkedTypes' modified.
   - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
 
 Changes in computation/simulation.schema.omi.json:
+  - Field 'properties.props:environment._linkedTypes' modified.
   - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
 
 Changes in computation/validationTest.schema.omi.json:
   - Field 'properties.props:custodian' removed.
+  - Field 'properties.props:developer' removed.
   - Field 'properties.props:hasVersion' removed.
   - Field 'properties.props:contribution' added.
   - Field 'properties.props:contributorAffiliation' added.
@@ -106,7 +113,6 @@ Changes in computation/validationTest.schema.omi.json:
   - Field 'properties.props:relatedPublication' added.
   - Field 'properties.props:supportChannel' added.
   - Field 'properties.props:description._instruction' modified.
-  - Field 'properties.props:developer._linkedTypes' modified (value(s) removed).
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:homepage._instruction' modified.
   - Field 'properties.props:shortName._instruction' modified.
@@ -115,9 +121,11 @@ Changes in computation/validationTest.schema.omi.json:
 
 Changes in computation/validationTestVersion.schema.omi.json:
   - Field 'properties.props:custodian' removed.
+  - Field 'properties.props:developer' removed.
   - Field 'properties.props:fullDocumentation' removed.
   - Field 'properties.props:isAlternativeVersionOf' removed.
   - Field 'properties.props:isNewVersionOf' removed.
+  - Field 'properties.props:license' removed.
   - Field 'properties.props:otherContribution' removed.
   - Field 'properties.props:versionInnovation' removed.
   - Field 'properties.props:contribution' added.
@@ -131,7 +139,6 @@ Changes in computation/validationTestVersion.schema.omi.json:
   - Field 'properties.props:versionSpecification' added.
   - Field 'properties.props:accessibility._linkedTypes' modified.
   - Field 'properties.props:description._instruction' modified.
-  - Field 'properties.props:developer._linkedTypes' modified (value(s) removed).
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:homepage._instruction' modified.
   - Field 'properties.props:keyword._instruction' modified.
@@ -143,10 +150,12 @@ Changes in computation/validationTestVersion.schema.omi.json:
   - Field 'required' modified.
 
 Changes in computation/visualization.schema.omi.json:
+  - Field 'properties.props:environment._linkedTypes' modified.
   - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
 
 Changes in computation/workflowRecipe.schema.omi.json:
   - Field 'properties.props:custodian' removed.
+  - Field 'properties.props:developer' removed.
   - Field 'properties.props:hasVersion' removed.
   - Field 'properties.props:contribution' added.
   - Field 'properties.props:contributorAffiliation' added.
@@ -155,7 +164,6 @@ Changes in computation/workflowRecipe.schema.omi.json:
   - Field 'properties.props:relatedPublication' added.
   - Field 'properties.props:supportChannel' added.
   - Field 'properties.props:description._instruction' modified.
-  - Field 'properties.props:developer._linkedTypes' modified (value(s) removed).
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:homepage._instruction' modified.
   - Field 'properties.props:shortName._instruction' modified.
@@ -163,9 +171,11 @@ Changes in computation/workflowRecipe.schema.omi.json:
 
 Changes in computation/workflowRecipeVersion.schema.omi.json:
   - Field 'properties.props:custodian' removed.
+  - Field 'properties.props:developer' removed.
   - Field 'properties.props:fullDocumentation' removed.
   - Field 'properties.props:isAlternativeVersionOf' removed.
   - Field 'properties.props:isNewVersionOf' removed.
+  - Field 'properties.props:license' removed.
   - Field 'properties.props:otherContribution' removed.
   - Field 'properties.props:versionInnovation' removed.
   - Field 'properties.props:contribution' added.
@@ -179,7 +189,6 @@ Changes in computation/workflowRecipeVersion.schema.omi.json:
   - Field 'properties.props:versionSpecification' added.
   - Field 'properties.props:accessibility._linkedTypes' modified.
   - Field 'properties.props:description._instruction' modified.
-  - Field 'properties.props:developer._linkedTypes' modified (value(s) removed).
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:homepage._instruction' modified.
   - Field 'properties.props:keyword._instruction' modified.
