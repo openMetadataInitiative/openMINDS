@@ -22,7 +22,7 @@
       "_instruction": "Add the web service or organization that hosts this live paper resource item.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/Organization",
-        "https://openminds.om-i.org/types/WebService",
+        "https://openminds.om-i.org/types/Service",
         "https://openminds.om-i.org/types/Service"
       ],
       "description": "Reference to an organization that provides facilities and services for something.",

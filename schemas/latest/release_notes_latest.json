@@ -1434,66 +1434,69 @@
     },
     {
       "file": "publications/book.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:contributorAffiliation",
+        "properties.props:usageCondition"
+      ],
+      "removedAttributes": [
+        "properties.props:author",
+        "properties.props:custodian",
+        "properties.props:editor",
+        "properties.props:license",
+        "properties.props:publisher"
+      ],
       "modifiedAttributes": [
         {
-          "property": "properties.props:author._linkedTypes",
-          "modification": "value(s) removed"
-        },
-        {
-          "property": "properties.props:custodian._linkedTypes",
-          "modification": "value(s) removed"
-        },
-        {
           "property": "properties.props:keyword._linkedTypes"
-        },
-        {
-          "property": "properties.props:publisher._linkedTypes",
-          "modification": "value(s) removed"
         }
       ],
       "schemaType": "Book"
     },
     {
       "file": "publications/chapter.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:contributorAffiliation",
+        "properties.props:usageCondition"
+      ],
+      "removedAttributes": [
+        "properties.props:author",
+        "properties.props:custodian",
+        "properties.props:editor",
+        "properties.props:license",
+        "properties.props:publisher"
+      ],
       "modifiedAttributes": [
-        {
-          "property": "properties.props:author._linkedTypes",
-          "modification": "value(s) removed"
-        },
-        {
-          "property": "properties.props:custodian._linkedTypes",
-          "modification": "value(s) removed"
-        },
         {
           "property": "properties.props:keyword._linkedTypes"
         },
         {
-          "property": "properties.props:publisher._linkedTypes",
-          "modification": "value(s) removed"
+          "property": "required"
         }
       ],
       "schemaType": "Chapter"
     },
     {
       "file": "publications/learningResource.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:contributorAffiliation",
+        "properties.props:usageCondition"
+      ],
+      "removedAttributes": [
+        "properties.props:author",
+        "properties.props:custodian",
+        "properties.props:editor",
+        "properties.props:license",
+        "properties.props:publisher"
+      ],
       "modifiedAttributes": [
         {
           "property": "properties.props:about._linkedTypes"
         },
         {
-          "property": "properties.props:author._linkedTypes",
-          "modification": "value(s) removed"
-        },
-        {
-          "property": "properties.props:custodian._linkedTypes",
-          "modification": "value(s) removed"
-        },
-        {
           "property": "properties.props:keyword._linkedTypes"
-        },
-        {
-          "property": "properties.props:publisher._linkedTypes",
-          "modification": "value(s) removed"
         }
       ],
       "schemaType": "LearningResource"
@@ -1509,14 +1512,11 @@
         "properties.props:supportChannel"
       ],
       "removedAttributes": [
+        "properties.props:author",
         "properties.props:custodian",
         "properties.props:hasVersion"
       ],
       "modifiedAttributes": [
-        {
-          "property": "properties.props:author._linkedTypes",
-          "modification": "value(s) removed"
-        },
         {
           "property": "properties.props:description._instruction"
         },
@@ -1536,6 +1536,15 @@
       "schemaType": "LivePaper"
     },
     {
+      "file": "publications/livePaperResourceItem.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:hostedBy._linkedTypes"
+        }
+      ],
+      "schemaType": "LivePaperResourceItem"
+    },
+    {
       "file": "publications/livePaperVersion.schema.omi.json",
       "addedAttributes": [
         "properties.props:contribution",
@@ -1549,20 +1558,18 @@
         "properties.props:versionSpecification"
       ],
       "removedAttributes": [
+        "properties.props:author",
         "properties.props:custodian",
         "properties.props:fullDocumentation",
         "properties.props:isAlternativeVersionOf",
         "properties.props:isNewVersionOf",
+        "properties.props:license",
         "properties.props:otherContribution",
         "properties.props:versionInnovation"
       ],
       "modifiedAttributes": [
         {
           "property": "properties.props:accessibility._linkedTypes"
-        },
-        {
-          "property": "properties.props:author._linkedTypes",
-          "modification": "value(s) removed"
         },
         {
           "property": "properties.props:description._instruction"
@@ -1600,21 +1607,24 @@
     },
     {
       "file": "publications/scholarlyArticle.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:contributorAffiliation",
+        "properties.props:usageCondition"
+      ],
+      "removedAttributes": [
+        "properties.props:author",
+        "properties.props:custodian",
+        "properties.props:editor",
+        "properties.props:license",
+        "properties.props:publisher"
+      ],
       "modifiedAttributes": [
-        {
-          "property": "properties.props:author._linkedTypes",
-          "modification": "value(s) removed"
-        },
-        {
-          "property": "properties.props:custodian._linkedTypes",
-          "modification": "value(s) removed"
-        },
         {
           "property": "properties.props:keyword._linkedTypes"
         },
         {
-          "property": "properties.props:publisher._linkedTypes",
-          "modification": "value(s) removed"
+          "property": "required"
         }
       ],
       "schemaType": "ScholarlyArticle"
