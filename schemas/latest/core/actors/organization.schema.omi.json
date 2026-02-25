@@ -113,6 +113,18 @@
       "nameForReverseLink": null,
       "namePlural": "locations"
     },
+    "https://openminds.om-i.org/props/memberships": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Membership"
+      ],
+      "_instruction": "Add all membership records (one per member) for this organization. Who is considered a qualified member is typically defined in the organization\u2019s membership agreements.",
+      "label": "Memberships",
+      "minItems": 1,
+      "name": "memberships",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
     "https://openminds.om-i.org/props/name": {
       "_instruction": "Enter the organization\u2019s preferred name for use in international contexts.",
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",

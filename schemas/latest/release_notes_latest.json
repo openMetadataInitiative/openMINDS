@@ -42,6 +42,7 @@
     "core/miscellaneous/dependency.schema.omi.json",
     "core/miscellaneous/geoCoordinates.schema.omi.json",
     "core/miscellaneous/location.schema.omi.json",
+    "core/miscellaneous/membership.schema.omi.json",
     "core/products/interface.schema.omi.json",
     "core/products/interfaceVersion.schema.omi.json",
     "core/products/service.schema.omi.json",
@@ -517,9 +518,16 @@
     },
     {
       "file": "core/actors/consortium.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:memberships"
+      ],
       "modifiedAttributes": [
         {
           "property": "_categories"
+        },
+        {
+          "property": "required",
+          "modification": "value(s) added"
         }
       ],
       "schemaType": "Consortium"
@@ -577,6 +585,7 @@
         "properties.props:countryOfFormation",
         "properties.props:jurisdiction",
         "properties.props:location",
+        "properties.props:memberships",
         "properties.props:name",
         "properties.props:type",
         "properties.props:digitalIdentifier._belongsToCategory"

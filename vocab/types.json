@@ -2087,9 +2087,7 @@
   },
   "Consortium": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
+      "latest": [],
       "v3.0": [],
       "v4.0": []
     },
@@ -6437,6 +6435,31 @@
     ],
     "label": "Measurement",
     "name": "Measurement"
+  },
+  "Membership": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Membership",
+    "name": "Membership"
   },
   "MetaDataModel": {
     "backwardsCompatibility": {

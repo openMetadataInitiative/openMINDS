@@ -46,6 +46,18 @@
       "namePlural": "homepages",
       "type": "string"
     },
+    "https://openminds.om-i.org/props/memberships": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Membership"
+      ],
+      "_instruction": "Add all membership records (one per member) for this consortium.",
+      "label": "Memberships",
+      "minItems": 2,
+      "name": "memberships",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
     "https://openminds.om-i.org/props/shortName": {
       "_instruction": "Enter a short name (or alias) for this consortium that could be used as a shortened display title (e.g., for web services with too little space to display the full name).",
       "description": "Shortened or fully abbreviated name of something or somebody.",
@@ -59,6 +71,7 @@
     }
   },
   "required": [
-    "https://openminds.om-i.org/props/fullName"
+    "https://openminds.om-i.org/props/fullName",
+    "https://openminds.om-i.org/props/memberships"
   ]
 }
