@@ -35,6 +35,9 @@
     "core/data/gridVolume.schema.omi.json",
     "core/data/gridVolumeSequence.schema.omi.json",
     "core/data/usageAgreement.schema.omi.json",
+    "core/digitalIdentifier/genericIdentifier.schema.omi.json",
+    "core/digitalIdentifier/ISNI.schema.omi.json",
+    "core/digitalIdentifier/LEI.schema.omi.json",
     "core/miscellaneous/accessibility.schema.omi.json",
     "core/miscellaneous/dependency.schema.omi.json",
     "core/miscellaneous/geoCoordinates.schema.omi.json",
@@ -60,6 +63,7 @@
     "core/data/rasterImageStack.schema.omi.json",
     "core/data/rasterVolume.schema.omi.json",
     "core/data/rasterVolumeSequence.schema.omi.json",
+    "core/digitalIdentifier/GRIDID.schema.omi.json",
     "core/products/webService.schema.omi.json",
     "core/products/webServiceVersion.schema.omi.json",
     "SANDS/atlas/brainAtlas.schema.omi.json",
@@ -91,6 +95,16 @@
     }
   ],
   "changes": [
+    {
+      "file": "chemicals/productSource.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:provider._linkedTypes",
+          "modification": "value(s) removed"
+        }
+      ],
+      "schemaType": "ProductSource"
+    },
     {
       "file": "computation/dataAnalysis.schema.omi.json",
       "modifiedAttributes": [
@@ -156,17 +170,41 @@
     },
     {
       "file": "computation/validationTest.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:contributorAffiliation",
+        "properties.props:documentation",
+        "properties.props:keyword",
+        "properties.props:relatedPublication",
+        "properties.props:supportChannel"
+      ],
       "removedAttributes": [
+        "properties.props:custodian",
         "properties.props:hasVersion"
       ],
       "modifiedAttributes": [
+        {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:developer._linkedTypes",
+          "modification": "value(s) removed"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
         {
           "property": "properties.props:studyTarget._linkedTypes",
           "modification": "value(s) added"
         },
         {
-          "property": "required",
-          "modification": "value(s) removed"
+          "property": "required"
         }
       ],
       "schemaType": "ValidationTest"
@@ -174,26 +212,62 @@
     {
       "file": "computation/validationTestVersion.schema.omi.json",
       "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:contributorAffiliation",
+        "properties.props:documentation",
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
         "properties.props:isVersionOf",
         "properties.props:publicationStatus",
-        "properties.props:usageCondition"
+        "properties.props:usageCondition",
+        "properties.props:versionSpecification"
       ],
       "removedAttributes": [
+        "properties.props:custodian",
+        "properties.props:fullDocumentation",
         "properties.props:isAlternativeVersionOf",
-        "properties.props:isNewVersionOf"
+        "properties.props:isNewVersionOf",
+        "properties.props:otherContribution",
+        "properties.props:versionInnovation"
       ],
       "modifiedAttributes": [
         {
           "property": "properties.props:accessibility._linkedTypes"
         },
         {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:developer._linkedTypes",
+          "modification": "value(s) removed"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:keyword._instruction"
+        },
+        {
           "property": "properties.props:keyword._linkedTypes"
         },
         {
-          "property": "required",
+          "property": "properties.props:relatedPublication._instruction"
+        },
+        {
+          "property": "properties.props:relatedPublication._linkedTypes",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "properties.props:supportChannel._instruction"
+        },
+        {
+          "property": "required"
         }
       ],
       "schemaType": "ValidationTestVersion"
@@ -210,13 +284,37 @@
     },
     {
       "file": "computation/workflowRecipe.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:contributorAffiliation",
+        "properties.props:documentation",
+        "properties.props:keyword",
+        "properties.props:relatedPublication",
+        "properties.props:supportChannel"
+      ],
       "removedAttributes": [
+        "properties.props:custodian",
         "properties.props:hasVersion"
       ],
       "modifiedAttributes": [
         {
-          "property": "required",
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:developer._linkedTypes",
           "modification": "value(s) removed"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "required"
         }
       ],
       "schemaType": "WorkflowRecipe"
@@ -224,26 +322,62 @@
     {
       "file": "computation/workflowRecipeVersion.schema.omi.json",
       "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:contributorAffiliation",
+        "properties.props:documentation",
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
         "properties.props:isVersionOf",
         "properties.props:publicationStatus",
-        "properties.props:usageCondition"
+        "properties.props:usageCondition",
+        "properties.props:versionSpecification"
       ],
       "removedAttributes": [
+        "properties.props:custodian",
+        "properties.props:fullDocumentation",
         "properties.props:isAlternativeVersionOf",
-        "properties.props:isNewVersionOf"
+        "properties.props:isNewVersionOf",
+        "properties.props:otherContribution",
+        "properties.props:versionInnovation"
       ],
       "modifiedAttributes": [
         {
           "property": "properties.props:accessibility._linkedTypes"
         },
         {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:developer._linkedTypes",
+          "modification": "value(s) removed"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:keyword._instruction"
+        },
+        {
           "property": "properties.props:keyword._linkedTypes"
         },
         {
-          "property": "required",
+          "property": "properties.props:relatedPublication._instruction"
+        },
+        {
+          "property": "properties.props:relatedPublication._linkedTypes",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "properties.props:supportChannel._instruction"
+        },
+        {
+          "property": "required"
         }
       ],
       "schemaType": "WorkflowRecipeVersion"
@@ -349,16 +483,163 @@
       "schemaType": "TermSuggestion"
     },
     {
+      "file": "core/actors/affiliation.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:organization",
+        "properties.props:person"
+      ],
+      "removedAttributes": [
+        "properties.props:endDate",
+        "properties.props:memberOf",
+        "properties.props:startDate"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "required"
+        }
+      ],
+      "schemaType": "Affiliation"
+    },
+    {
+      "file": "core/actors/consortium.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "_categories"
+        }
+      ],
+      "schemaType": "Consortium"
+    },
+    {
+      "file": "core/actors/contactInformation.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:email.items",
+        "properties.props:email.minItems",
+        "properties.props:email.uniqueItems"
+      ],
+      "removedAttributes": [
+        "properties.props:email._formats"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:email._instruction"
+        },
+        {
+          "property": "properties.props:email.type"
+        }
+      ],
+      "schemaType": "ContactInformation"
+    },
+    {
+      "file": "core/actors/contribution.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:contributor.minItems",
+        "properties.props:contributor.type",
+        "properties.props:contributor.uniqueItems"
+      ],
+      "removedAttributes": [
+        "properties.props:type.minItems",
+        "properties.props:type.type",
+        "properties.props:type.uniqueItems"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:contributor._belongsToCategory"
+        },
+        {
+          "property": "properties.props:contributor._instruction"
+        },
+        {
+          "property": "properties.props:type._instruction"
+        }
+      ],
+      "schemaType": "Contribution"
+    },
+    {
+      "file": "core/actors/organization.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:acronym",
+        "properties.props:alternateName",
+        "properties.props:countryOfFormation",
+        "properties.props:jurisdiction",
+        "properties.props:location",
+        "properties.props:name",
+        "properties.props:type",
+        "properties.props:digitalIdentifier._belongsToCategory"
+      ],
+      "removedAttributes": [
+        "properties.props:affiliation",
+        "properties.props:fullName",
+        "properties.props:shortName"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes"
+        },
+        {
+          "property": "required"
+        }
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "file": "core/actors/person.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:preferredName",
+        "properties.props:digitalIdentifier._belongsToCategory"
+      ],
+      "removedAttributes": [
+        "properties.props:affiliation"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:familyName._instruction"
+        },
+        {
+          "property": "properties.props:givenName._instruction"
+        },
+        {
+          "property": "required"
+        }
+      ],
+      "schemaType": "Person"
+    },
+    {
       "file": "core/data/copyright.schema.omi.json",
       "addedAttributes": [
         "properties.props:customUsageClause"
       ],
       "modifiedAttributes": [
         {
+          "property": "properties.props:holder._linkedTypes",
+          "modification": "value(s) removed"
+        },
+        {
           "property": "properties.props:year._instruction"
         }
       ],
       "schemaType": "Copyright"
+    },
+    {
+      "file": "core/data/file.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "File"
     },
     {
       "file": "core/data/fileBundle.schema.omi.json",
@@ -383,6 +664,61 @@
       "schemaType": "Measurement"
     },
     {
+      "file": "core/digitalIdentifier/DOI.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "DOI"
+    },
+    {
+      "file": "core/digitalIdentifier/IdentifiersDotOrgID.schema.omi.json",
+      "addedAttributes": [
+        "_categories"
+      ],
+      "schemaType": "IdentifiersDotOrgID"
+    },
+    {
+      "file": "core/digitalIdentifier/ISBN.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "ISBN"
+    },
+    {
+      "file": "core/digitalIdentifier/ORCID.schema.omi.json",
+      "addedAttributes": [
+        "_categories"
+      ],
+      "schemaType": "ORCID"
+    },
+    {
+      "file": "core/digitalIdentifier/RORID.schema.omi.json",
+      "addedAttributes": [
+        "_category"
+      ],
+      "schemaType": "RORID"
+    },
+    {
+      "file": "core/digitalIdentifier/RRID.schema.omi.json",
+      "addedAttributes": [
+        "_category"
+      ],
+      "schemaType": "RRID"
+    },
+    {
+      "file": "core/digitalIdentifier/SWHID.schema.omi.json",
+      "addedAttributes": [
+        "_category"
+      ],
+      "schemaType": "SWHID"
+    },
+    {
       "file": "core/miscellaneous/comment.schema.omi.json",
       "modifiedAttributes": [
         {
@@ -390,6 +726,16 @@
         }
       ],
       "schemaType": "Comment"
+    },
+    {
+      "file": "core/miscellaneous/funding.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:funder._linkedTypes",
+          "modification": "value(s) removed"
+        }
+      ],
+      "schemaType": "Funding"
     },
     {
       "file": "core/miscellaneous/researchProductGroup.schema.omi.json",
@@ -401,14 +747,47 @@
       "schemaType": "ResearchProductGroup"
     },
     {
+      "file": "core/miscellaneous/webResource.schema.omi.json",
+      "addedAttributes": [
+        "_categories"
+      ],
+      "schemaType": "WebResource"
+    },
+    {
       "file": "core/products/dataset.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:contributorAffiliation",
+        "properties.props:documentation",
+        "properties.props:keyword",
+        "properties.props:relatedPublication",
+        "properties.props:supportChannel",
+        "properties.props:digitalIdentifier._belongsToCategory"
+      ],
       "removedAttributes": [
+        "properties.props:author",
+        "properties.props:custodian",
         "properties.props:hasVersion"
       ],
       "modifiedAttributes": [
         {
-          "property": "required",
-          "modification": "value(s) removed"
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "required"
         }
       ],
       "schemaType": "Dataset"
@@ -416,32 +795,88 @@
     {
       "file": "core/products/datasetVersion.schema.omi.json",
       "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:contributorAffiliation",
+        "properties.props:documentation",
         "properties.props:ethicsJurisdiction",
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
         "properties.props:isVersionOf",
+        "properties.props:preparationType",
         "properties.props:publicationStatus",
-        "properties.props:usageCondition"
+        "properties.props:usageCondition",
+        "properties.props:versionSpecification",
+        "properties.props:digitalIdentifier._belongsToCategory"
       ],
       "removedAttributes": [
+        "properties.props:author",
+        "properties.props:behavioralProtocol",
+        "properties.props:custodian",
         "properties.props:ethicsAssessment",
+        "properties.props:fullDocumentation",
         "properties.props:isAlternativeVersionOf",
         "properties.props:isNewVersionOf",
-        "properties.props:license"
+        "properties.props:license",
+        "properties.props:otherContribution",
+        "properties.props:preparationDesign",
+        "properties.props:versionInnovation"
       ],
       "modifiedAttributes": [
         {
           "property": "properties.props:accessibility._linkedTypes"
         },
         {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
           "property": "properties.props:inputData._linkedTypes"
+        },
+        {
+          "property": "properties.props:keyword._instruction"
         },
         {
           "property": "properties.props:keyword._linkedTypes"
         },
         {
+          "property": "properties.props:protocol._instruction"
+        },
+        {
+          "property": "properties.props:protocol._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:relatedPublication._instruction"
+        },
+        {
+          "property": "properties.props:relatedPublication._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "properties.props:studiedSpecimen._instruction"
+        },
+        {
+          "property": "properties.props:studiedSpecimen._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
           "property": "properties.props:studyTarget._linkedTypes",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:supportChannel._instruction"
         },
         {
           "property": "properties.props:technique._linkedTypes",
@@ -455,13 +890,38 @@
     },
     {
       "file": "core/products/metaDataModel.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:contributorAffiliation",
+        "properties.props:documentation",
+        "properties.props:keyword",
+        "properties.props:relatedPublication",
+        "properties.props:supportChannel",
+        "properties.props:digitalIdentifier._belongsToCategory"
+      ],
       "removedAttributes": [
+        "properties.props:custodian",
+        "properties.props:developer",
         "properties.props:hasVersion"
       ],
       "modifiedAttributes": [
         {
-          "property": "required",
-          "modification": "value(s) removed"
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "required"
         }
       ],
       "schemaType": "MetaDataModel"
@@ -469,23 +929,61 @@
     {
       "file": "core/products/metaDataModelVersion.schema.omi.json",
       "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:contributorAffiliation",
+        "properties.props:documentation",
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
         "properties.props:isVersionOf",
         "properties.props:publicationStatus",
-        "properties.props:usageCondition"
+        "properties.props:usageCondition",
+        "properties.props:versionSpecification",
+        "properties.props:digitalIdentifier._belongsToCategory"
       ],
       "removedAttributes": [
+        "properties.props:custodian",
+        "properties.props:developer",
+        "properties.props:fullDocumentation",
         "properties.props:isAlternativeVersionOf",
         "properties.props:isNewVersionOf",
-        "properties.props:license"
+        "properties.props:license",
+        "properties.props:otherContribution",
+        "properties.props:versionInnovation"
       ],
       "modifiedAttributes": [
         {
           "property": "properties.props:accessibility._linkedTypes"
         },
         {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:keyword._instruction"
+        },
+        {
           "property": "properties.props:keyword._linkedTypes"
+        },
+        {
+          "property": "properties.props:relatedPublication._instruction"
+        },
+        {
+          "property": "properties.props:relatedPublication._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "properties.props:supportChannel._instruction"
         },
         {
           "property": "required"
@@ -495,17 +993,42 @@
     },
     {
       "file": "core/products/model.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:contributorAffiliation",
+        "properties.props:documentation",
+        "properties.props:keyword",
+        "properties.props:relatedPublication",
+        "properties.props:supportChannel",
+        "properties.props:digitalIdentifier._belongsToCategory"
+      ],
       "removedAttributes": [
+        "properties.props:custodian",
+        "properties.props:developer",
         "properties.props:hasVersion"
       ],
       "modifiedAttributes": [
+        {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
         {
           "property": "properties.props:studyTarget._linkedTypes",
           "modification": "value(s) added"
         },
         {
-          "property": "required",
-          "modification": "value(s) removed"
+          "property": "required"
         }
       ],
       "schemaType": "Model"
@@ -513,23 +1036,61 @@
     {
       "file": "core/products/modelVersion.schema.omi.json",
       "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:contributorAffiliation",
+        "properties.props:documentation",
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
         "properties.props:isVersionOf",
         "properties.props:publicationStatus",
-        "properties.props:usageCondition"
+        "properties.props:usageCondition",
+        "properties.props:versionSpecification",
+        "properties.props:digitalIdentifier._belongsToCategory"
       ],
       "removedAttributes": [
+        "properties.props:custodian",
+        "properties.props:developer",
+        "properties.props:fullDocumentation",
         "properties.props:isAlternativeVersionOf",
         "properties.props:isNewVersionOf",
-        "properties.props:license"
+        "properties.props:license",
+        "properties.props:otherContribution",
+        "properties.props:versionInnovation"
       ],
       "modifiedAttributes": [
         {
           "property": "properties.props:accessibility._linkedTypes"
         },
         {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:keyword._instruction"
+        },
+        {
           "property": "properties.props:keyword._linkedTypes"
+        },
+        {
+          "property": "properties.props:relatedPublication._instruction"
+        },
+        {
+          "property": "properties.props:relatedPublication._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "properties.props:supportChannel._instruction"
         },
         {
           "property": "required"
@@ -539,9 +1100,20 @@
     },
     {
       "file": "core/products/project.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:type"
+      ],
+      "removedAttributes": [
+        "properties.props:coordinator"
+      ],
       "modifiedAttributes": [
         {
           "property": "properties.props:hasPart._linkedTypes"
+        },
+        {
+          "property": "required",
+          "modification": "value(s) added"
         }
       ],
       "schemaType": "Project"
@@ -552,19 +1124,48 @@
         {
           "property": "properties.props:hasPart._linkedTypes",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:manufacturer._linkedTypes",
+          "modification": "value(s) removed"
         }
       ],
       "schemaType": "Setup"
     },
     {
       "file": "core/products/software.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:contributorAffiliation",
+        "properties.props:documentation",
+        "properties.props:keyword",
+        "properties.props:relatedPublication",
+        "properties.props:supportChannel",
+        "properties.props:digitalIdentifier._belongsToCategory"
+      ],
       "removedAttributes": [
+        "properties.props:custodian",
+        "properties.props:developer",
         "properties.props:hasVersion"
       ],
       "modifiedAttributes": [
         {
-          "property": "required",
-          "modification": "value(s) removed"
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "required"
         }
       ],
       "schemaType": "Software"
@@ -572,7 +1173,10 @@
     {
       "file": "core/products/softwareVersion.schema.omi.json",
       "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:contributorAffiliation",
         "properties.props:dependency",
+        "properties.props:documentation",
         "properties.props:implements",
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
@@ -580,25 +1184,59 @@
         "properties.props:operatingDevice",
         "properties.props:publicationStatus",
         "properties.props:scope",
-        "properties.props:usageCondition"
+        "properties.props:usageCondition",
+        "properties.props:versionSpecification",
+        "properties.props:digitalIdentifier._belongsToCategory"
       ],
       "removedAttributes": [
         "properties.props:applicationCategory",
+        "properties.props:custodian",
         "properties.props:developer",
         "properties.props:device",
         "properties.props:feature",
+        "properties.props:fullDocumentation",
         "properties.props:hasPart",
         "properties.props:isAlternativeVersionOf",
         "properties.props:isNewVersionOf",
         "properties.props:license",
-        "properties.props:requirement"
+        "properties.props:otherContribution",
+        "properties.props:requirement",
+        "properties.props:versionInnovation"
       ],
       "modifiedAttributes": [
         {
           "property": "properties.props:accessibility._linkedTypes"
         },
         {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:digitalIdentifier._linkedTypes"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:keyword._instruction"
+        },
+        {
           "property": "properties.props:keyword._linkedTypes"
+        },
+        {
+          "property": "properties.props:relatedPublication._instruction"
+        },
+        {
+          "property": "properties.props:relatedPublication._linkedTypes",
+          "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "properties.props:supportChannel._instruction"
         },
         {
           "property": "required"
@@ -698,6 +1336,34 @@
       "schemaType": "RecordingActivity"
     },
     {
+      "file": "ephys/device/electrode.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:manufacturer._linkedTypes",
+          "modification": "value(s) removed"
+        },
+        {
+          "property": "properties.props:owner._linkedTypes",
+          "modification": "value(s) removed"
+        }
+      ],
+      "schemaType": "Electrode"
+    },
+    {
+      "file": "ephys/device/electrodeArray.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:manufacturer._linkedTypes",
+          "modification": "value(s) removed"
+        },
+        {
+          "property": "properties.props:owner._linkedTypes",
+          "modification": "value(s) removed"
+        }
+      ],
+      "schemaType": "ElectrodeArray"
+    },
+    {
       "file": "ephys/device/electrodeArrayUsage.schema.omi.json",
       "modifiedAttributes": [
         {
@@ -720,6 +1386,20 @@
         }
       ],
       "schemaType": "ElectrodeUsage"
+    },
+    {
+      "file": "ephys/device/pipette.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:manufacturer._linkedTypes",
+          "modification": "value(s) removed"
+        },
+        {
+          "property": "properties.props:owner._linkedTypes",
+          "modification": "value(s) removed"
+        }
+      ],
+      "schemaType": "Pipette"
     },
     {
       "file": "ephys/device/pipetteUsage.schema.omi.json",
@@ -745,7 +1425,19 @@
       "file": "publications/book.schema.omi.json",
       "modifiedAttributes": [
         {
+          "property": "properties.props:author._linkedTypes",
+          "modification": "value(s) removed"
+        },
+        {
+          "property": "properties.props:custodian._linkedTypes",
+          "modification": "value(s) removed"
+        },
+        {
           "property": "properties.props:keyword._linkedTypes"
+        },
+        {
+          "property": "properties.props:publisher._linkedTypes",
+          "modification": "value(s) removed"
         }
       ],
       "schemaType": "Book"
@@ -754,7 +1446,19 @@
       "file": "publications/chapter.schema.omi.json",
       "modifiedAttributes": [
         {
+          "property": "properties.props:author._linkedTypes",
+          "modification": "value(s) removed"
+        },
+        {
+          "property": "properties.props:custodian._linkedTypes",
+          "modification": "value(s) removed"
+        },
+        {
           "property": "properties.props:keyword._linkedTypes"
+        },
+        {
+          "property": "properties.props:publisher._linkedTypes",
+          "modification": "value(s) removed"
         }
       ],
       "schemaType": "Chapter"
@@ -766,20 +1470,56 @@
           "property": "properties.props:about._linkedTypes"
         },
         {
+          "property": "properties.props:author._linkedTypes",
+          "modification": "value(s) removed"
+        },
+        {
+          "property": "properties.props:custodian._linkedTypes",
+          "modification": "value(s) removed"
+        },
+        {
           "property": "properties.props:keyword._linkedTypes"
+        },
+        {
+          "property": "properties.props:publisher._linkedTypes",
+          "modification": "value(s) removed"
         }
       ],
       "schemaType": "LearningResource"
     },
     {
       "file": "publications/livePaper.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:contributorAffiliation",
+        "properties.props:documentation",
+        "properties.props:keyword",
+        "properties.props:relatedPublication",
+        "properties.props:supportChannel"
+      ],
       "removedAttributes": [
+        "properties.props:custodian",
         "properties.props:hasVersion"
       ],
       "modifiedAttributes": [
         {
-          "property": "required",
+          "property": "properties.props:author._linkedTypes",
           "modification": "value(s) removed"
+        },
+        {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "required"
         }
       ],
       "schemaType": "LivePaper"
@@ -787,26 +1527,62 @@
     {
       "file": "publications/livePaperVersion.schema.omi.json",
       "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:contributorAffiliation",
+        "properties.props:documentation",
         "properties.props:isPrecededBy",
         "properties.props:isVariantOf",
         "properties.props:isVersionOf",
         "properties.props:publicationStatus",
-        "properties.props:usageCondition"
+        "properties.props:usageCondition",
+        "properties.props:versionSpecification"
       ],
       "removedAttributes": [
+        "properties.props:custodian",
+        "properties.props:fullDocumentation",
         "properties.props:isAlternativeVersionOf",
-        "properties.props:isNewVersionOf"
+        "properties.props:isNewVersionOf",
+        "properties.props:otherContribution",
+        "properties.props:versionInnovation"
       ],
       "modifiedAttributes": [
         {
           "property": "properties.props:accessibility._linkedTypes"
         },
         {
+          "property": "properties.props:author._linkedTypes",
+          "modification": "value(s) removed"
+        },
+        {
+          "property": "properties.props:description._instruction"
+        },
+        {
+          "property": "properties.props:fullName._instruction"
+        },
+        {
+          "property": "properties.props:homepage._instruction"
+        },
+        {
+          "property": "properties.props:keyword._instruction"
+        },
+        {
           "property": "properties.props:keyword._linkedTypes"
         },
         {
-          "property": "required",
+          "property": "properties.props:relatedPublication._instruction"
+        },
+        {
+          "property": "properties.props:relatedPublication._linkedTypes",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:shortName._instruction"
+        },
+        {
+          "property": "properties.props:supportChannel._instruction"
+        },
+        {
+          "property": "required"
         }
       ],
       "schemaType": "LivePaperVersion"
@@ -815,7 +1591,19 @@
       "file": "publications/scholarlyArticle.schema.omi.json",
       "modifiedAttributes": [
         {
+          "property": "properties.props:author._linkedTypes",
+          "modification": "value(s) removed"
+        },
+        {
+          "property": "properties.props:custodian._linkedTypes",
+          "modification": "value(s) removed"
+        },
+        {
           "property": "properties.props:keyword._linkedTypes"
+        },
+        {
+          "property": "properties.props:publisher._linkedTypes",
+          "modification": "value(s) removed"
         }
       ],
       "schemaType": "ScholarlyArticle"
@@ -952,6 +1740,20 @@
         }
       ],
       "schemaType": "TissueSampleSlicing"
+    },
+    {
+      "file": "specimenPrep/device/slicingDevice.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:manufacturer._linkedTypes",
+          "modification": "value(s) removed"
+        },
+        {
+          "property": "properties.props:owner._linkedTypes",
+          "modification": "value(s) removed"
+        }
+      ],
+      "schemaType": "SlicingDevice"
     },
     {
       "file": "stimulation/activity/stimulationActivity.schema.omi.json",

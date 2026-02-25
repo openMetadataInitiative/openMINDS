@@ -35,6 +35,30 @@
       "nameForReverseLink": null,
       "namePlural": "configurations"
     },
+    "https://openminds.om-i.org/props/contribution": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Contribution"
+      ],
+      "_instruction": "Add all individual, organisational, or consortial contributions to this research product version. These values override the inherited values from the version-independent product.",
+      "label": "Contribution",
+      "minItems": 1,
+      "name": "contribution",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/contributorAffiliation": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Affiliation"
+      ],
+      "_instruction": "Add all affiliations for the individual contributors to this research product version.",
+      "label": "Contributor affiliation",
+      "minItems": 1,
+      "name": "contributorAffiliation",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
     "https://openminds.om-i.org/props/copyright": {
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/Copyright"
@@ -47,28 +71,8 @@
       "nameForReverseLink": null,
       "namePlural": "copyrights"
     },
-    "https://openminds.om-i.org/props/custodian": {
-      "_belongsToCategory": [
-        "legalPerson"
-      ],
-      "_instruction": "Add all parties that fulfill the role of a custodian for the research product version (e.g., a research group leader or principle investigator). Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the data, metadata, and/or code of the research product version.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/Consortium",
-        "https://openminds.om-i.org/types/Organization",
-        "https://openminds.om-i.org/types/Person"
-      ],
-      "description": "The 'custodian' is a legal person who is responsible for the content and quality of the data, metadata, and/or code of a research product.",
-      "label": "Custodian",
-      "labelPlural": "Custodians",
-      "minItems": 1,
-      "name": "custodian",
-      "nameForReverseLink": null,
-      "namePlural": "custodians",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.om-i.org/props/description": {
-      "_instruction": "Enter a description (or abstract) of this research product version. Note that this version specific description will overwrite the description for the overarching dataset.",
+      "_instruction": "Enter a description (or abstract) of this research product version. This value overrides the inherited value from the version-independent product.",
       "description": "Longer statement or account giving the characteristics of someone or something.",
       "formatting": "text/markdown",
       "label": "Description",
@@ -78,31 +82,14 @@
       "namePlural": "descriptions",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/developer": {
-      "_belongsToCategory": [
-        "legalPerson"
-      ],
-      "_instruction": "Add all parties that developed this computational model version. Note that these developers will overwrite the developer list provided for the overarching computational model.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/Consortium",
-        "https://openminds.om-i.org/types/Organization",
-        "https://openminds.om-i.org/types/Person"
-      ],
-      "description": "Legal person that creates or improves products or services (e.g., software, applications, etc.).",
-      "label": "Developer",
-      "labelPlural": "Developers",
-      "minItems": 1,
-      "name": "developer",
-      "nameForReverseLink": null,
-      "namePlural": "developers",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.om-i.org/props/digitalIdentifier": {
+      "_belongsToCategory": [
+        "toolIdentifier"
+      ],
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/DOI",
-        "https://openminds.om-i.org/types/SWHID"
+        "https://openminds.om-i.org/types/GenericIdentifier"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
@@ -110,6 +97,21 @@
       "name": "digitalIdentifier",
       "nameForReverseLink": null,
       "namePlural": "digitalIdentifiers"
+    },
+    "https://openminds.om-i.org/props/documentation": {
+      "_belongsToCategory": [
+        "documentationResource"
+      ],
+      "_instruction": "Add the publication or file that acts as the documentation of this research product version. This value overrides the inherited value from the version-independent product.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/DOI",
+        "https://openminds.om-i.org/types/File",
+        "https://openminds.om-i.org/types/ISBN",
+        "https://openminds.om-i.org/types/WebResource"
+      ],
+      "label": "Documentation",
+      "name": "documentation",
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/entryPoint": {
       "_instruction": "Add the entry point for this model version (for example, the path of the main script file within the repository).",
@@ -136,23 +138,8 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.om-i.org/props/fullDocumentation": {
-      "_instruction": "Add the publication or file that acts as the full documentation of this research product version.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/DOI",
-        "https://openminds.om-i.org/types/File",
-        "https://openminds.om-i.org/types/ISBN",
-        "https://openminds.om-i.org/types/WebResource"
-      ],
-      "description": "Non-abridged instructions, comments, and information for using a particular product.",
-      "label": "Full documentation",
-      "labelPlural": "Full documentations",
-      "name": "fullDocumentation",
-      "nameForReverseLink": null,
-      "namePlural": "fullDocumentations"
-    },
     "https://openminds.om-i.org/props/fullName": {
-      "_instruction": "Enter a descriptive full name (or title) for this research product version. Note that this version specific full name will overwrite the full name for the overarching dataset.",
+      "_instruction": "Enter a descriptive full name (or title) for this research product version. This value overrides the inherited value from the version-independent product.",
       "description": "Whole, non-abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Full name",
@@ -181,7 +168,7 @@
       "_formats": [
         "iri"
       ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product version.",
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product version. This value overrides the inherited value from the version-independent product.",
       "description": "Main website of something or someone.",
       "formatting": "text/plain",
       "label": "Homepage",
@@ -256,7 +243,7 @@
       "_belongsToCategory": [
         "keyword"
       ],
-      "_instruction": "Add all relevant keywords to this research product version either by adding controlled terms or by suggesting new terms.",
+      "_instruction": "Add all relevant keywords to this research product version either by adding controlled terms or by suggesting new terms. This value overrides the inherited value from the version-independent product.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/AccessChannel",
         "https://openminds.om-i.org/types/AccessEligibilityType",
@@ -375,21 +362,6 @@
       "type": "array",
       "uniqueItems": true
     },
-    "https://openminds.om-i.org/props/otherContribution": {
-      "_embeddedTypes": [
-        "https://openminds.om-i.org/types/Contribution"
-      ],
-      "_instruction": "Add any other contributions to this research product version that are not covered under 'author'/'developer' or 'custodian'.",
-      "description": "Giving or supplying of something (such as money or time) as a part or share other than what is covered elsewhere.",
-      "label": "Other contribution",
-      "labelPlural": "Other contributions",
-      "minItems": 1,
-      "name": "otherContribution",
-      "nameForReverseLink": null,
-      "namePlural": "otherContributions",
-      "type": "array",
-      "uniqueItems": true
-    },
     "https://openminds.om-i.org/props/outputData": {
       "_instruction": "Add the data that was generated as output by this computational model version.",
       "_linkedTypes": [
@@ -421,9 +393,10 @@
       "_belongsToCategory": [
         "publicationReference"
       ],
-      "_instruction": "Add all further publications besides the full documentation that provide the original context for the production of this research product version (e.g., an original research article that used or produced the data of this research product version).",
+      "_instruction": "Add all further publications besides the documentation that provide the original context for the production of this research product version (e.g., an original research article that used or produced the data of this research product version). This value overrides the inherited value from the version-independent product.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/DOI",
+        "https://openminds.om-i.org/types/GenericIdentifier",
         "https://openminds.om-i.org/types/HANDLE",
         "https://openminds.om-i.org/types/ISBN",
         "https://openminds.om-i.org/types/ISSN",
@@ -468,7 +441,7 @@
       "namePlural": "repositories"
     },
     "https://openminds.om-i.org/props/shortName": {
-      "_instruction": "Enter a short name (or alias) for this research product version that could be used as a shortened display title (e.g., for web services with too little space to display the full name).",
+      "_instruction": "Enter a short name (or alias) for this research product version that could be used as a shortened display title (e.g., for web services with too little space to display the full name). This value overrides the inherited value from the version-independent product.",
       "description": "Shortened or fully abbreviated name of something or somebody.",
       "formatting": "text/plain",
       "label": "Short name",
@@ -479,7 +452,7 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/supportChannel": {
-      "_instruction": "Enter all channels through which a user can receive support for handling this research product version.",
+      "_instruction": "Enter all channels through which a user can receive support for handling this research product version. This value overrides the inherited value from the version-independent product.",
       "description": "Way of communication used to interact with users or customers.",
       "formatting": "text/plain",
       "items": {
@@ -499,7 +472,7 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/usageCondition": {
-      "_instruction": "Add all licenses and available data usage agreements applicable to this product version. Inherited by all product versions unless overridden at the version level.",
+      "_instruction": "Add all licenses and available data usage agreements applicable to this product version.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/License",
         "https://openminds.om-i.org/types/UsageAgreement"
@@ -522,26 +495,26 @@
       "namePlural": "versionIdentifiers",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/versionInnovation": {
+    "https://openminds.om-i.org/props/versionSpecification": {
       "_instruction": "Enter a short description (or summary) of the novelties/peculiarities of this research product version in comparison to its preceding versions. If this research product version is the first version, you can enter the following disclaimer 'This is the first version of this research product'.",
-      "description": "Documentation on what changed in comparison to a previously published form of something.",
-      "formatting": "text/markdown",
-      "label": "Version innovation",
-      "labelPlural": "Version innovations",
-      "multiline": true,
-      "name": "versionInnovation",
-      "namePlural": "versionInnovations",
+      "formatting": "text/plain",
+      "label": "Version specification",
+      "multiline": false,
+      "name": "versionSpecification",
       "type": "string"
     }
   },
   "required": [
     "https://openminds.om-i.org/props/accessibility",
+    "https://openminds.om-i.org/props/contribution",
+    "https://openminds.om-i.org/props/description",
+    "https://openminds.om-i.org/props/documentation",
     "https://openminds.om-i.org/props/format",
-    "https://openminds.om-i.org/props/fullDocumentation",
+    "https://openminds.om-i.org/props/fullName",
     "https://openminds.om-i.org/props/isVersionOf",
     "https://openminds.om-i.org/props/releaseDate",
     "https://openminds.om-i.org/props/shortName",
     "https://openminds.om-i.org/props/versionIdentifier",
-    "https://openminds.om-i.org/props/versionInnovation"
+    "https://openminds.om-i.org/props/versionSpecification"
   ]
 }

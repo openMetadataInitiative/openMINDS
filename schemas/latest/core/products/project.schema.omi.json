@@ -6,23 +6,15 @@
   "label": "Project",
   "name": "Project",
   "properties": {
-    "https://openminds.om-i.org/props/coordinator": {
-      "_belongsToCategory": [
-        "legalPerson"
+    "https://openminds.om-i.org/props/contribution": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Contribution"
       ],
-      "_instruction": "Add all parties that coordinate this project.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/Consortium",
-        "https://openminds.om-i.org/types/Organization",
-        "https://openminds.om-i.org/types/Person"
-      ],
-      "description": "Legal person who organizes the collaborative work of people or groups.",
-      "label": "Coordinator",
-      "labelPlural": "Coordinators",
+      "_instruction": "Add all individual, organisational, or consortial contributions to this project.",
+      "label": "Contribution",
       "minItems": 1,
-      "name": "coordinator",
+      "name": "contribution",
       "nameForReverseLink": null,
-      "namePlural": "coordinators",
       "type": "array",
       "uniqueItems": true
     },
@@ -108,12 +100,25 @@
       "name": "shortName",
       "namePlural": "shortNames",
       "type": "string"
+    },
+    "https://openminds.om-i.org/props/type": {
+      "_instruction": "Add the type of this project (e.g., research project, grant project).",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ProjectType"
+      ],
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "label": "Type",
+      "labelPlural": "Types",
+      "name": "type",
+      "nameForReverseLink": null,
+      "namePlural": "types"
     }
   },
   "required": [
     "https://openminds.om-i.org/props/description",
     "https://openminds.om-i.org/props/fullName",
     "https://openminds.om-i.org/props/hasPart",
-    "https://openminds.om-i.org/props/shortName"
+    "https://openminds.om-i.org/props/shortName",
+    "https://openminds.om-i.org/props/type"
   ]
 }

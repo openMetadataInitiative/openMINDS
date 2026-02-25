@@ -35,6 +35,9 @@ Added files:
   - core/data/gridVolume.schema.omi.json
   - core/data/gridVolumeSequence.schema.omi.json
   - core/data/usageAgreement.schema.omi.json
+  - core/digitalIdentifier/genericIdentifier.schema.omi.json
+  - core/digitalIdentifier/ISNI.schema.omi.json
+  - core/digitalIdentifier/LEI.schema.omi.json
   - core/miscellaneous/accessibility.schema.omi.json
   - core/miscellaneous/dependency.schema.omi.json
   - core/miscellaneous/geoCoordinates.schema.omi.json
@@ -60,6 +63,7 @@ Removed files:
   - core/data/rasterImageStack.schema.omi.json
   - core/data/rasterVolume.schema.omi.json
   - core/data/rasterVolumeSequence.schema.omi.json
+  - core/digitalIdentifier/GRIDID.schema.omi.json
   - core/products/webService.schema.omi.json
   - core/products/webServiceVersion.schema.omi.json
   - SANDS/atlas/brainAtlas.schema.omi.json
@@ -73,6 +77,9 @@ Moved files:
   - SANDS/mathematicalShapes/circle.schema.omi.json moved to SANDS/mathematicalShape/circle.schema.omi.json
   - SANDS/mathematicalShapes/ellipse.schema.omi.json moved to SANDS/mathematicalShape/ellipse.schema.omi.json
   - SANDS/mathematicalShapes/rectangle.schema.omi.json moved to SANDS/mathematicalShape/rectangle.schema.omi.json
+
+Changes in chemicals/productSource.schema.omi.json:
+  - Field 'properties.props:provider._linkedTypes' modified (value(s) removed).
 
 Changes in computation/dataAnalysis.schema.omi.json:
   - Field 'properties.props:input._linkedTypes' modified.
@@ -94,40 +101,98 @@ Changes in computation/simulation.schema.omi.json:
   - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
 
 Changes in computation/validationTest.schema.omi.json:
+  - Field 'properties.props:custodian' removed.
   - Field 'properties.props:hasVersion' removed.
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:contributorAffiliation' added.
+  - Field 'properties.props:documentation' added.
+  - Field 'properties.props:keyword' added.
+  - Field 'properties.props:relatedPublication' added.
+  - Field 'properties.props:supportChannel' added.
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:developer._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:fullName._instruction' modified.
+  - Field 'properties.props:homepage._instruction' modified.
+  - Field 'properties.props:shortName._instruction' modified.
   - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
-  - Field 'required' modified (value(s) removed).
+  - Field 'required' modified.
 
 Changes in computation/validationTestVersion.schema.omi.json:
+  - Field 'properties.props:custodian' removed.
+  - Field 'properties.props:fullDocumentation' removed.
   - Field 'properties.props:isAlternativeVersionOf' removed.
   - Field 'properties.props:isNewVersionOf' removed.
+  - Field 'properties.props:otherContribution' removed.
+  - Field 'properties.props:versionInnovation' removed.
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:contributorAffiliation' added.
+  - Field 'properties.props:documentation' added.
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
   - Field 'properties.props:publicationStatus' added.
   - Field 'properties.props:usageCondition' added.
+  - Field 'properties.props:versionSpecification' added.
   - Field 'properties.props:accessibility._linkedTypes' modified.
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:developer._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:fullName._instruction' modified.
+  - Field 'properties.props:homepage._instruction' modified.
+  - Field 'properties.props:keyword._instruction' modified.
   - Field 'properties.props:keyword._linkedTypes' modified.
-  - Field 'required' modified (value(s) added).
+  - Field 'properties.props:relatedPublication._instruction' modified.
+  - Field 'properties.props:relatedPublication._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:shortName._instruction' modified.
+  - Field 'properties.props:supportChannel._instruction' modified.
+  - Field 'required' modified.
 
 Changes in computation/visualization.schema.omi.json:
   - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
 
 Changes in computation/workflowRecipe.schema.omi.json:
+  - Field 'properties.props:custodian' removed.
   - Field 'properties.props:hasVersion' removed.
-  - Field 'required' modified (value(s) removed).
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:contributorAffiliation' added.
+  - Field 'properties.props:documentation' added.
+  - Field 'properties.props:keyword' added.
+  - Field 'properties.props:relatedPublication' added.
+  - Field 'properties.props:supportChannel' added.
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:developer._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:fullName._instruction' modified.
+  - Field 'properties.props:homepage._instruction' modified.
+  - Field 'properties.props:shortName._instruction' modified.
+  - Field 'required' modified.
 
 Changes in computation/workflowRecipeVersion.schema.omi.json:
+  - Field 'properties.props:custodian' removed.
+  - Field 'properties.props:fullDocumentation' removed.
   - Field 'properties.props:isAlternativeVersionOf' removed.
   - Field 'properties.props:isNewVersionOf' removed.
+  - Field 'properties.props:otherContribution' removed.
+  - Field 'properties.props:versionInnovation' removed.
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:contributorAffiliation' added.
+  - Field 'properties.props:documentation' added.
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
   - Field 'properties.props:publicationStatus' added.
   - Field 'properties.props:usageCondition' added.
+  - Field 'properties.props:versionSpecification' added.
   - Field 'properties.props:accessibility._linkedTypes' modified.
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:developer._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:fullName._instruction' modified.
+  - Field 'properties.props:homepage._instruction' modified.
+  - Field 'properties.props:keyword._instruction' modified.
   - Field 'properties.props:keyword._linkedTypes' modified.
-  - Field 'required' modified (value(s) added).
+  - Field 'properties.props:relatedPublication._instruction' modified.
+  - Field 'properties.props:relatedPublication._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:shortName._instruction' modified.
+  - Field 'properties.props:supportChannel._instruction' modified.
+  - Field 'required' modified.
 
 Changes in controlledTerms/analysisTechnique.schema.omi.json:
   - Field '_categories' modified (value(s) added).
@@ -159,9 +224,69 @@ Changes in controlledTerms/technique.schema.omi.json:
 Changes in controlledTerms/termSuggestion.schema.omi.json:
   - Field '_categories' modified (value(s) added).
 
+Changes in core/actors/affiliation.schema.omi.json:
+  - Field 'properties.props:endDate' removed.
+  - Field 'properties.props:memberOf' removed.
+  - Field 'properties.props:startDate' removed.
+  - Field 'properties.props:organization' added.
+  - Field 'properties.props:person' added.
+  - Field 'required' modified.
+
+Changes in core/actors/consortium.schema.omi.json:
+  - Field '_categories' modified.
+
+Changes in core/actors/contactInformation.schema.omi.json:
+  - Field 'properties.props:email._formats' removed.
+  - Field 'properties.props:email.items' added.
+  - Field 'properties.props:email.minItems' added.
+  - Field 'properties.props:email.uniqueItems' added.
+  - Field 'properties.props:email._instruction' modified.
+  - Field 'properties.props:email.type' modified.
+
+Changes in core/actors/contribution.schema.omi.json:
+  - Field 'properties.props:contributor.minItems' added.
+  - Field 'properties.props:contributor.type' added.
+  - Field 'properties.props:contributor.uniqueItems' added.
+  - Field 'properties.props:contributor._belongsToCategory' modified.
+  - Field 'properties.props:contributor._instruction' modified.
+  - Field 'properties.props:type.minItems' removed.
+  - Field 'properties.props:type.type' removed.
+  - Field 'properties.props:type.uniqueItems' removed.
+  - Field 'properties.props:type._instruction' modified.
+
+Changes in core/actors/organization.schema.omi.json:
+  - Field '_categories' modified (value(s) added).
+  - Field 'properties.props:affiliation' removed.
+  - Field 'properties.props:fullName' removed.
+  - Field 'properties.props:shortName' removed.
+  - Field 'properties.props:acronym' added.
+  - Field 'properties.props:alternateName' added.
+  - Field 'properties.props:countryOfFormation' added.
+  - Field 'properties.props:jurisdiction' added.
+  - Field 'properties.props:location' added.
+  - Field 'properties.props:name' added.
+  - Field 'properties.props:type' added.
+  - Field 'properties.props:digitalIdentifier._belongsToCategory' added.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'required' modified.
+
+Changes in core/actors/person.schema.omi.json:
+  - Field '_categories' modified (value(s) added).
+  - Field 'properties.props:affiliation' removed.
+  - Field 'properties.props:preferredName' added.
+  - Field 'properties.props:digitalIdentifier._belongsToCategory' added.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:familyName._instruction' modified.
+  - Field 'properties.props:givenName._instruction' modified.
+  - Field 'required' modified.
+
 Changes in core/data/copyright.schema.omi.json:
   - Field 'properties.props:customUsageClause' added.
+  - Field 'properties.props:holder._linkedTypes' modified (value(s) removed).
   - Field 'properties.props:year._instruction' modified.
+
+Changes in core/data/file.schema.omi.json:
+  - Field '_categories' modified (value(s) added).
 
 Changes in core/data/fileBundle.schema.omi.json:
   - Field 'properties.props:groupedBy._belongsToCategory' modified.
@@ -170,90 +295,249 @@ Changes in core/data/fileBundle.schema.omi.json:
 Changes in core/data/measurement.schema.omi.json:
   - Field 'properties.props:measuredWith._linkedTypes' modified (value(s) added).
 
+Changes in core/digitalIdentifier/DOI.schema.omi.json:
+  - Field '_categories' modified (value(s) added).
+
+Changes in core/digitalIdentifier/IdentifiersDotOrgID.schema.omi.json:
+  - Field '_categories' added.
+
+Changes in core/digitalIdentifier/ISBN.schema.omi.json:
+  - Field '_categories' modified (value(s) added).
+
+Changes in core/digitalIdentifier/ORCID.schema.omi.json:
+  - Field '_categories' added.
+
+Changes in core/digitalIdentifier/RORID.schema.omi.json:
+  - Field '_category' added.
+
+Changes in core/digitalIdentifier/RRID.schema.omi.json:
+  - Field '_category' added.
+
+Changes in core/digitalIdentifier/SWHID.schema.omi.json:
+  - Field '_category' added.
+
 Changes in core/miscellaneous/comment.schema.omi.json:
   - Field 'properties.props:about._linkedTypes' modified.
+
+Changes in core/miscellaneous/funding.schema.omi.json:
+  - Field 'properties.props:funder._linkedTypes' modified (value(s) removed).
 
 Changes in core/miscellaneous/researchProductGroup.schema.omi.json:
   - Field 'properties.props:hasPart._linkedTypes' modified.
 
+Changes in core/miscellaneous/webResource.schema.omi.json:
+  - Field '_categories' added.
+
 Changes in core/products/dataset.schema.omi.json:
+  - Field 'properties.props:author' removed.
+  - Field 'properties.props:custodian' removed.
   - Field 'properties.props:hasVersion' removed.
-  - Field 'required' modified (value(s) removed).
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:contributorAffiliation' added.
+  - Field 'properties.props:documentation' added.
+  - Field 'properties.props:keyword' added.
+  - Field 'properties.props:relatedPublication' added.
+  - Field 'properties.props:supportChannel' added.
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:digitalIdentifier._belongsToCategory' added.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:fullName._instruction' modified.
+  - Field 'properties.props:homepage._instruction' modified.
+  - Field 'properties.props:shortName._instruction' modified.
+  - Field 'required' modified.
 
 Changes in core/products/datasetVersion.schema.omi.json:
+  - Field 'properties.props:author' removed.
+  - Field 'properties.props:behavioralProtocol' removed.
+  - Field 'properties.props:custodian' removed.
   - Field 'properties.props:ethicsAssessment' removed.
+  - Field 'properties.props:fullDocumentation' removed.
   - Field 'properties.props:isAlternativeVersionOf' removed.
   - Field 'properties.props:isNewVersionOf' removed.
   - Field 'properties.props:license' removed.
+  - Field 'properties.props:otherContribution' removed.
+  - Field 'properties.props:preparationDesign' removed.
+  - Field 'properties.props:versionInnovation' removed.
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:contributorAffiliation' added.
+  - Field 'properties.props:documentation' added.
   - Field 'properties.props:ethicsJurisdiction' added.
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
+  - Field 'properties.props:preparationType' added.
   - Field 'properties.props:publicationStatus' added.
   - Field 'properties.props:usageCondition' added.
+  - Field 'properties.props:versionSpecification' added.
   - Field 'properties.props:accessibility._linkedTypes' modified.
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:digitalIdentifier._belongsToCategory' added.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:fullName._instruction' modified.
+  - Field 'properties.props:homepage._instruction' modified.
   - Field 'properties.props:inputData._linkedTypes' modified.
+  - Field 'properties.props:keyword._instruction' modified.
   - Field 'properties.props:keyword._linkedTypes' modified.
+  - Field 'properties.props:protocol._instruction' modified.
+  - Field 'properties.props:protocol._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:relatedPublication._instruction' modified.
+  - Field 'properties.props:relatedPublication._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:shortName._instruction' modified.
+  - Field 'properties.props:studiedSpecimen._instruction' modified.
+  - Field 'properties.props:studiedSpecimen._linkedTypes' modified (value(s) added).
   - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:supportChannel._instruction' modified.
   - Field 'properties.props:technique._linkedTypes' modified (value(s) added).
   - Field 'required' modified.
 
 Changes in core/products/metaDataModel.schema.omi.json:
+  - Field 'properties.props:custodian' removed.
+  - Field 'properties.props:developer' removed.
   - Field 'properties.props:hasVersion' removed.
-  - Field 'required' modified (value(s) removed).
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:contributorAffiliation' added.
+  - Field 'properties.props:documentation' added.
+  - Field 'properties.props:keyword' added.
+  - Field 'properties.props:relatedPublication' added.
+  - Field 'properties.props:supportChannel' added.
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:digitalIdentifier._belongsToCategory' added.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:fullName._instruction' modified.
+  - Field 'properties.props:homepage._instruction' modified.
+  - Field 'properties.props:shortName._instruction' modified.
+  - Field 'required' modified.
 
 Changes in core/products/metaDataModelVersion.schema.omi.json:
+  - Field 'properties.props:custodian' removed.
+  - Field 'properties.props:developer' removed.
+  - Field 'properties.props:fullDocumentation' removed.
   - Field 'properties.props:isAlternativeVersionOf' removed.
   - Field 'properties.props:isNewVersionOf' removed.
   - Field 'properties.props:license' removed.
+  - Field 'properties.props:otherContribution' removed.
+  - Field 'properties.props:versionInnovation' removed.
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:contributorAffiliation' added.
+  - Field 'properties.props:documentation' added.
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
   - Field 'properties.props:publicationStatus' added.
   - Field 'properties.props:usageCondition' added.
+  - Field 'properties.props:versionSpecification' added.
   - Field 'properties.props:accessibility._linkedTypes' modified.
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:digitalIdentifier._belongsToCategory' added.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:fullName._instruction' modified.
+  - Field 'properties.props:homepage._instruction' modified.
+  - Field 'properties.props:keyword._instruction' modified.
   - Field 'properties.props:keyword._linkedTypes' modified.
+  - Field 'properties.props:relatedPublication._instruction' modified.
+  - Field 'properties.props:relatedPublication._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:shortName._instruction' modified.
+  - Field 'properties.props:supportChannel._instruction' modified.
   - Field 'required' modified.
 
 Changes in core/products/model.schema.omi.json:
+  - Field 'properties.props:custodian' removed.
+  - Field 'properties.props:developer' removed.
   - Field 'properties.props:hasVersion' removed.
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:contributorAffiliation' added.
+  - Field 'properties.props:documentation' added.
+  - Field 'properties.props:keyword' added.
+  - Field 'properties.props:relatedPublication' added.
+  - Field 'properties.props:supportChannel' added.
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:digitalIdentifier._belongsToCategory' added.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:fullName._instruction' modified.
+  - Field 'properties.props:homepage._instruction' modified.
+  - Field 'properties.props:shortName._instruction' modified.
   - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
-  - Field 'required' modified (value(s) removed).
+  - Field 'required' modified.
 
 Changes in core/products/modelVersion.schema.omi.json:
+  - Field 'properties.props:custodian' removed.
+  - Field 'properties.props:developer' removed.
+  - Field 'properties.props:fullDocumentation' removed.
   - Field 'properties.props:isAlternativeVersionOf' removed.
   - Field 'properties.props:isNewVersionOf' removed.
   - Field 'properties.props:license' removed.
+  - Field 'properties.props:otherContribution' removed.
+  - Field 'properties.props:versionInnovation' removed.
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:contributorAffiliation' added.
+  - Field 'properties.props:documentation' added.
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
   - Field 'properties.props:publicationStatus' added.
   - Field 'properties.props:usageCondition' added.
+  - Field 'properties.props:versionSpecification' added.
   - Field 'properties.props:accessibility._linkedTypes' modified.
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:digitalIdentifier._belongsToCategory' added.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:fullName._instruction' modified.
+  - Field 'properties.props:homepage._instruction' modified.
+  - Field 'properties.props:keyword._instruction' modified.
   - Field 'properties.props:keyword._linkedTypes' modified.
+  - Field 'properties.props:relatedPublication._instruction' modified.
+  - Field 'properties.props:relatedPublication._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:shortName._instruction' modified.
+  - Field 'properties.props:supportChannel._instruction' modified.
   - Field 'required' modified.
 
 Changes in core/products/project.schema.omi.json:
+  - Field 'properties.props:coordinator' removed.
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:type' added.
   - Field 'properties.props:hasPart._linkedTypes' modified.
+  - Field 'required' modified (value(s) added).
 
 Changes in core/products/setup.schema.omi.json:
   - Field 'properties.props:hasPart._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:manufacturer._linkedTypes' modified (value(s) removed).
 
 Changes in core/products/software.schema.omi.json:
+  - Field 'properties.props:custodian' removed.
+  - Field 'properties.props:developer' removed.
   - Field 'properties.props:hasVersion' removed.
-  - Field 'required' modified (value(s) removed).
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:contributorAffiliation' added.
+  - Field 'properties.props:documentation' added.
+  - Field 'properties.props:keyword' added.
+  - Field 'properties.props:relatedPublication' added.
+  - Field 'properties.props:supportChannel' added.
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:digitalIdentifier._belongsToCategory' added.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:fullName._instruction' modified.
+  - Field 'properties.props:homepage._instruction' modified.
+  - Field 'properties.props:shortName._instruction' modified.
+  - Field 'required' modified.
 
 Changes in core/products/softwareVersion.schema.omi.json:
   - Field 'properties.props:applicationCategory' removed.
+  - Field 'properties.props:custodian' removed.
   - Field 'properties.props:developer' removed.
   - Field 'properties.props:device' removed.
   - Field 'properties.props:feature' removed.
+  - Field 'properties.props:fullDocumentation' removed.
   - Field 'properties.props:hasPart' removed.
   - Field 'properties.props:isAlternativeVersionOf' removed.
   - Field 'properties.props:isNewVersionOf' removed.
   - Field 'properties.props:license' removed.
+  - Field 'properties.props:otherContribution' removed.
   - Field 'properties.props:requirement' removed.
+  - Field 'properties.props:versionInnovation' removed.
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:contributorAffiliation' added.
   - Field 'properties.props:dependency' added.
+  - Field 'properties.props:documentation' added.
   - Field 'properties.props:implements' added.
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
@@ -262,8 +546,19 @@ Changes in core/products/softwareVersion.schema.omi.json:
   - Field 'properties.props:publicationStatus' added.
   - Field 'properties.props:scope' added.
   - Field 'properties.props:usageCondition' added.
+  - Field 'properties.props:versionSpecification' added.
   - Field 'properties.props:accessibility._linkedTypes' modified.
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:digitalIdentifier._belongsToCategory' added.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:fullName._instruction' modified.
+  - Field 'properties.props:homepage._instruction' modified.
+  - Field 'properties.props:keyword._instruction' modified.
   - Field 'properties.props:keyword._linkedTypes' modified.
+  - Field 'properties.props:relatedPublication._instruction' modified.
+  - Field 'properties.props:relatedPublication._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:shortName._instruction' modified.
+  - Field 'properties.props:supportChannel._instruction' modified.
   - Field 'required' modified.
 
 Changes in core/research/customPropertySet.schema.omi.json:
@@ -293,12 +588,24 @@ Changes in ephys/activity/electrodePlacement.schema.omi.json:
 Changes in ephys/activity/recordingActivity.schema.omi.json:
   - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
 
+Changes in ephys/device/electrode.schema.omi.json:
+  - Field 'properties.props:manufacturer._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:owner._linkedTypes' modified (value(s) removed).
+
+Changes in ephys/device/electrodeArray.schema.omi.json:
+  - Field 'properties.props:manufacturer._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:owner._linkedTypes' modified (value(s) removed).
+
 Changes in ephys/device/electrodeArrayUsage.schema.omi.json:
   - Field 'properties.props:anatomicalLocationOfArray._linkedTypes' modified (value(s) added).
   - Field 'properties.props:anatomicalLocationOfElectrodes._linkedTypes' modified (value(s) added).
 
 Changes in ephys/device/electrodeUsage.schema.omi.json:
   - Field 'properties.props:anatomicalLocation._linkedTypes' modified (value(s) added).
+
+Changes in ephys/device/pipette.schema.omi.json:
+  - Field 'properties.props:manufacturer._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:owner._linkedTypes' modified (value(s) removed).
 
 Changes in ephys/device/pipetteUsage.schema.omi.json:
   - Field 'properties.props:anatomicalLocation._linkedTypes' modified (value(s) added).
@@ -307,33 +614,74 @@ Changes in ephys/entity/recording.schema.omi.json:
   - Field 'properties.props:recordedWith._linkedTypes' modified (value(s) added).
 
 Changes in publications/book.schema.omi.json:
+  - Field 'properties.props:author._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:custodian._linkedTypes' modified (value(s) removed).
   - Field 'properties.props:keyword._linkedTypes' modified.
+  - Field 'properties.props:publisher._linkedTypes' modified (value(s) removed).
 
 Changes in publications/chapter.schema.omi.json:
+  - Field 'properties.props:author._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:custodian._linkedTypes' modified (value(s) removed).
   - Field 'properties.props:keyword._linkedTypes' modified.
+  - Field 'properties.props:publisher._linkedTypes' modified (value(s) removed).
 
 Changes in publications/learningResource.schema.omi.json:
   - Field 'properties.props:about._linkedTypes' modified.
+  - Field 'properties.props:author._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:custodian._linkedTypes' modified (value(s) removed).
   - Field 'properties.props:keyword._linkedTypes' modified.
+  - Field 'properties.props:publisher._linkedTypes' modified (value(s) removed).
 
 Changes in publications/livePaper.schema.omi.json:
+  - Field 'properties.props:custodian' removed.
   - Field 'properties.props:hasVersion' removed.
-  - Field 'required' modified (value(s) removed).
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:contributorAffiliation' added.
+  - Field 'properties.props:documentation' added.
+  - Field 'properties.props:keyword' added.
+  - Field 'properties.props:relatedPublication' added.
+  - Field 'properties.props:supportChannel' added.
+  - Field 'properties.props:author._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:fullName._instruction' modified.
+  - Field 'properties.props:homepage._instruction' modified.
+  - Field 'properties.props:shortName._instruction' modified.
+  - Field 'required' modified.
 
 Changes in publications/livePaperVersion.schema.omi.json:
+  - Field 'properties.props:custodian' removed.
+  - Field 'properties.props:fullDocumentation' removed.
   - Field 'properties.props:isAlternativeVersionOf' removed.
   - Field 'properties.props:isNewVersionOf' removed.
+  - Field 'properties.props:otherContribution' removed.
+  - Field 'properties.props:versionInnovation' removed.
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:contributorAffiliation' added.
+  - Field 'properties.props:documentation' added.
   - Field 'properties.props:isPrecededBy' added.
   - Field 'properties.props:isVariantOf' added.
   - Field 'properties.props:isVersionOf' added.
   - Field 'properties.props:publicationStatus' added.
   - Field 'properties.props:usageCondition' added.
+  - Field 'properties.props:versionSpecification' added.
   - Field 'properties.props:accessibility._linkedTypes' modified.
+  - Field 'properties.props:author._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:fullName._instruction' modified.
+  - Field 'properties.props:homepage._instruction' modified.
+  - Field 'properties.props:keyword._instruction' modified.
   - Field 'properties.props:keyword._linkedTypes' modified.
-  - Field 'required' modified (value(s) added).
+  - Field 'properties.props:relatedPublication._instruction' modified.
+  - Field 'properties.props:relatedPublication._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:shortName._instruction' modified.
+  - Field 'properties.props:supportChannel._instruction' modified.
+  - Field 'required' modified.
 
 Changes in publications/scholarlyArticle.schema.omi.json:
+  - Field 'properties.props:author._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:custodian._linkedTypes' modified (value(s) removed).
   - Field 'properties.props:keyword._linkedTypes' modified.
+  - Field 'properties.props:publisher._linkedTypes' modified (value(s) removed).
 
 Changes in SANDS/atlas/parcellationEntity.schema.omi.json:
   - Field 'properties.props:hasVersion' removed.
@@ -375,6 +723,10 @@ Changes in specimenPrep/activity/tissueCulturePreparation.schema.omi.json:
 
 Changes in specimenPrep/activity/tissueSampleSlicing.schema.omi.json:
   - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+
+Changes in specimenPrep/device/slicingDevice.schema.omi.json:
+  - Field 'properties.props:manufacturer._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:owner._linkedTypes' modified (value(s) removed).
 
 Changes in stimulation/activity/stimulationActivity.schema.omi.json:
   - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).

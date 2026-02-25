@@ -28,20 +28,20 @@
       "namePlural": "descriptions",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/fullDocumentation": {
-      "_instruction": "Add the publication or file that acts as the full documentation of this service.",
+    "https://openminds.om-i.org/props/documentation": {
+      "_belongsToCategory": [
+        "documentationResource"
+      ],
+      "_instruction": "Add the publication or file that acts as the documentation of this service.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/DOI",
         "https://openminds.om-i.org/types/File",
         "https://openminds.om-i.org/types/ISBN",
         "https://openminds.om-i.org/types/WebResource"
       ],
-      "description": "Non-abridged instructions, comments, and information for using a particular product.",
-      "label": "Full documentation",
-      "labelPlural": "Full documentations",
-      "name": "fullDocumentation",
-      "nameForReverseLink": null,
-      "namePlural": "fullDocumentations"
+      "label": "Documentation",
+      "name": "documentation",
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/fullName": {
       "_instruction": "Enter a descriptive full name (or title) for this service.",
@@ -195,6 +195,7 @@
       "_instruction": "Add all further publications besides the full documentation that provide the original context for the production of this service (e.g., an original research article describing the service).",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/DOI",
+        "https://openminds.om-i.org/types/GenericIdentifier",
         "https://openminds.om-i.org/types/HANDLE",
         "https://openminds.om-i.org/types/ISBN",
         "https://openminds.om-i.org/types/ISSN",
@@ -270,7 +271,8 @@
     }
   },
   "required": [
-    "https://openminds.om-i.org/props/fullDocumentation",
+    "https://openminds.om-i.org/props/contribution",
+    "https://openminds.om-i.org/props/description",
     "https://openminds.om-i.org/props/fullName",
     "https://openminds.om-i.org/props/scope",
     "https://openminds.om-i.org/props/shortName"

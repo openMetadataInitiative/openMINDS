@@ -654,6 +654,33 @@
     "namePlural": null,
     "usedIn": {}
   },
+  "acronym": {
+    "asString": {
+      "formatting": "text/plain",
+      "inVersions": [
+        "latest"
+      ],
+      "multiline": false
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Acronym",
+    "labelPlural": null,
+    "name": "acronym",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Organization"
+      ]
+    }
+  },
   "activeElement": {
     "asString": {
       "formatting": "text/plain",
@@ -878,9 +905,6 @@
   "affiliation": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/Affiliation"
-        ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Affiliation"
         ],
@@ -919,10 +943,6 @@
     "name": "affiliation",
     "namePlural": "affiliations",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Organization",
-        "https://openminds.om-i.org/types/Person"
-      ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Person"
       ],
@@ -1212,6 +1232,7 @@
     "namePlural": "alternateNames",
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/Organization",
         "https://openminds.om-i.org/types/ParcellationEntity",
         "https://openminds.om-i.org/types/ParcellationEntityVersion",
         "https://openminds.om-i.org/types/Person"
@@ -1959,7 +1980,6 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/Consortium",
           "https://openminds.om-i.org/types/Organization",
           "https://openminds.om-i.org/types/Person"
         ],
@@ -2010,8 +2030,6 @@
       "latest": [
         "https://openminds.om-i.org/types/Book",
         "https://openminds.om-i.org/types/Chapter",
-        "https://openminds.om-i.org/types/Dataset",
-        "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/LivePaper",
         "https://openminds.om-i.org/types/LivePaperVersion",
@@ -2059,7 +2077,6 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/Consortium",
           "https://openminds.om-i.org/types/Organization",
           "https://openminds.om-i.org/types/Person"
         ]
@@ -2420,7 +2437,6 @@
     "namePlural": "behavioralProtocols",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/DynamicMRIAcquisition",
         "https://openminds.om-i.org/types/ProtocolExecution"
       ],
@@ -3788,7 +3804,28 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/Service"
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+        "https://openminds.om-i.org/types/Dataset",
+        "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/Interface",
+        "https://openminds.om-i.org/types/InterfaceVersion",
+        "https://openminds.om-i.org/types/LivePaper",
+        "https://openminds.om-i.org/types/LivePaperVersion",
+        "https://openminds.om-i.org/types/MetaDataModel",
+        "https://openminds.om-i.org/types/MetaDataModelVersion",
+        "https://openminds.om-i.org/types/Model",
+        "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/Project",
+        "https://openminds.om-i.org/types/Service",
+        "https://openminds.om-i.org/types/Software",
+        "https://openminds.om-i.org/types/SoftwareVersion",
+        "https://openminds.om-i.org/types/ValidationTest",
+        "https://openminds.om-i.org/types/ValidationTestVersion",
+        "https://openminds.om-i.org/types/WorkflowRecipe",
+        "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ]
     }
   },
@@ -3893,6 +3930,53 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/Contribution"
+      ]
+    }
+  },
+  "contributorAffiliation": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/Affiliation"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Contributor affiliation",
+    "labelPlural": null,
+    "name": "contributorAffiliation",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+        "https://openminds.om-i.org/types/Dataset",
+        "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/Interface",
+        "https://openminds.om-i.org/types/InterfaceVersion",
+        "https://openminds.om-i.org/types/LivePaper",
+        "https://openminds.om-i.org/types/LivePaperVersion",
+        "https://openminds.om-i.org/types/MetaDataModel",
+        "https://openminds.om-i.org/types/MetaDataModelVersion",
+        "https://openminds.om-i.org/types/Model",
+        "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/Software",
+        "https://openminds.om-i.org/types/SoftwareVersion",
+        "https://openminds.om-i.org/types/ValidationTest",
+        "https://openminds.om-i.org/types/ValidationTestVersion",
+        "https://openminds.om-i.org/types/WorkflowRecipe",
+        "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ]
     }
   },
@@ -4107,11 +4191,6 @@
   "coordinator": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/Consortium",
-          "https://openminds.om-i.org/types/Organization",
-          "https://openminds.om-i.org/types/Person"
-        ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Organization",
           "https://openminds.ebrains.eu/core/Person"
@@ -4156,9 +4235,6 @@
     "name": "coordinator",
     "namePlural": "coordinators",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Project"
-      ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Project"
       ],
@@ -4393,6 +4469,34 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Location"
+      ]
+    }
+  },
+  "countryOfFormation": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/SovereignState"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Country of formation",
+    "labelPlural": null,
+    "name": "countryOfFormation",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Organization"
       ]
     }
   },
@@ -4735,7 +4839,6 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/Consortium",
           "https://openminds.om-i.org/types/Organization",
           "https://openminds.om-i.org/types/Person"
         ],
@@ -4784,30 +4887,10 @@
     "namePlural": "custodians",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/AnatomicalAtlas",
-        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/Book",
         "https://openminds.om-i.org/types/Chapter",
-        "https://openminds.om-i.org/types/CommonCoordinateFramework",
-        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
-        "https://openminds.om-i.org/types/Dataset",
-        "https://openminds.om-i.org/types/DatasetVersion",
-        "https://openminds.om-i.org/types/Interface",
-        "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LearningResource",
-        "https://openminds.om-i.org/types/LivePaper",
-        "https://openminds.om-i.org/types/LivePaperVersion",
-        "https://openminds.om-i.org/types/MetaDataModel",
-        "https://openminds.om-i.org/types/MetaDataModelVersion",
-        "https://openminds.om-i.org/types/Model",
-        "https://openminds.om-i.org/types/ModelVersion",
-        "https://openminds.om-i.org/types/ScholarlyArticle",
-        "https://openminds.om-i.org/types/Software",
-        "https://openminds.om-i.org/types/SoftwareVersion",
-        "https://openminds.om-i.org/types/ValidationTest",
-        "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WorkflowRecipe",
-        "https://openminds.om-i.org/types/WorkflowRecipeVersion"
+        "https://openminds.om-i.org/types/ScholarlyArticle"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Dataset",
@@ -6757,7 +6840,6 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/Consortium",
           "https://openminds.om-i.org/types/Organization",
           "https://openminds.om-i.org/types/Person"
         ],
@@ -6806,11 +6888,6 @@
     "namePlural": "developers",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/MetaDataModel",
-        "https://openminds.om-i.org/types/MetaDataModelVersion",
-        "https://openminds.om-i.org/types/Model",
-        "https://openminds.om-i.org/types/ModelVersion",
-        "https://openminds.om-i.org/types/Software",
         "https://openminds.om-i.org/types/ValidationTest",
         "https://openminds.om-i.org/types/ValidationTestVersion",
         "https://openminds.om-i.org/types/WorkflowRecipe",
@@ -7118,14 +7195,12 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/DOI",
-          "https://openminds.om-i.org/types/GRIDID",
+          "https://openminds.om-i.org/types/GenericIdentifier",
           "https://openminds.om-i.org/types/ISBN",
           "https://openminds.om-i.org/types/ISSN",
           "https://openminds.om-i.org/types/IdentifiersDotOrgID",
           "https://openminds.om-i.org/types/ORCID",
-          "https://openminds.om-i.org/types/RORID",
-          "https://openminds.om-i.org/types/RRID",
-          "https://openminds.om-i.org/types/SWHID"
+          "https://openminds.om-i.org/types/RRID"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/DOI",
@@ -7538,6 +7613,57 @@
       ]
     }
   },
+  "documentation": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/DOI",
+          "https://openminds.om-i.org/types/File",
+          "https://openminds.om-i.org/types/ISBN",
+          "https://openminds.om-i.org/types/WebResource"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Documentation",
+    "labelPlural": null,
+    "name": "documentation",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+        "https://openminds.om-i.org/types/Dataset",
+        "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/Interface",
+        "https://openminds.om-i.org/types/InterfaceVersion",
+        "https://openminds.om-i.org/types/LivePaper",
+        "https://openminds.om-i.org/types/LivePaperVersion",
+        "https://openminds.om-i.org/types/MetaDataModel",
+        "https://openminds.om-i.org/types/MetaDataModelVersion",
+        "https://openminds.om-i.org/types/Model",
+        "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/Service",
+        "https://openminds.om-i.org/types/Software",
+        "https://openminds.om-i.org/types/SoftwareVersion",
+        "https://openminds.om-i.org/types/ValidationTest",
+        "https://openminds.om-i.org/types/ValidationTestVersion",
+        "https://openminds.om-i.org/types/WorkflowRecipe",
+        "https://openminds.om-i.org/types/WorkflowRecipeVersion"
+      ]
+    }
+  },
   "dwellTime": {
     "asEdge": {
       "canPointTo": {
@@ -7929,11 +8055,38 @@
       ]
     }
   },
+  "emitter": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/Organization"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Emitter",
+    "labelPlural": null,
+    "name": "emitter",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/GenericIdentifier"
+      ]
+    }
+  },
   "endDate": {
     "asString": {
       "formatting": "text/plain",
       "inVersions": [
-        "latest",
         "v1.0",
         "v2.0",
         "v3.0",
@@ -7964,9 +8117,6 @@
     "name": "endDate",
     "namePlural": "endDates",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Affiliation"
-      ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Affiliation"
       ],
@@ -9140,12 +9290,6 @@
   "fullDocumentation": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/DOI",
-          "https://openminds.om-i.org/types/File",
-          "https://openminds.om-i.org/types/ISBN",
-          "https://openminds.om-i.org/types/WebResource"
-        ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/DOI",
           "https://openminds.ebrains.eu/core/File",
@@ -9194,19 +9338,6 @@
     "name": "fullDocumentation",
     "namePlural": "fullDocumentations",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
-        "https://openminds.om-i.org/types/DatasetVersion",
-        "https://openminds.om-i.org/types/InterfaceVersion",
-        "https://openminds.om-i.org/types/LivePaperVersion",
-        "https://openminds.om-i.org/types/MetaDataModelVersion",
-        "https://openminds.om-i.org/types/ModelVersion",
-        "https://openminds.om-i.org/types/Service",
-        "https://openminds.om-i.org/types/SoftwareVersion",
-        "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WorkflowRecipeVersion"
-      ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
@@ -9297,7 +9428,6 @@
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/Model",
         "https://openminds.om-i.org/types/ModelVersion",
-        "https://openminds.om-i.org/types/Organization",
         "https://openminds.om-i.org/types/Project",
         "https://openminds.om-i.org/types/Service",
         "https://openminds.om-i.org/types/Software",
@@ -9402,7 +9532,6 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/Consortium",
           "https://openminds.om-i.org/types/Organization",
           "https://openminds.om-i.org/types/Person"
         ],
@@ -10832,7 +10961,6 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/Consortium",
           "https://openminds.om-i.org/types/Organization",
           "https://openminds.om-i.org/types/Person"
         ],
@@ -11331,11 +11459,13 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DOI",
-        "https://openminds.om-i.org/types/GRIDID",
+        "https://openminds.om-i.org/types/GenericIdentifier",
         "https://openminds.om-i.org/types/HANDLE",
         "https://openminds.om-i.org/types/ISBN",
+        "https://openminds.om-i.org/types/ISNI",
         "https://openminds.om-i.org/types/ISSN",
         "https://openminds.om-i.org/types/IdentifiersDotOrgID",
+        "https://openminds.om-i.org/types/LEI",
         "https://openminds.om-i.org/types/ORCID",
         "https://openminds.om-i.org/types/ProductSource",
         "https://openminds.om-i.org/types/RORID",
@@ -13367,6 +13497,7 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/Organization",
         "https://openminds.om-i.org/types/UsageAgreement"
       ]
     }
@@ -13681,20 +13812,30 @@
     "namePlural": "keywords",
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
         "https://openminds.om-i.org/types/Book",
         "https://openminds.om-i.org/types/Chapter",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+        "https://openminds.om-i.org/types/Dataset",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/Interface",
         "https://openminds.om-i.org/types/InterfaceVersion",
         "https://openminds.om-i.org/types/LearningResource",
+        "https://openminds.om-i.org/types/LivePaper",
         "https://openminds.om-i.org/types/LivePaperVersion",
+        "https://openminds.om-i.org/types/MetaDataModel",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
+        "https://openminds.om-i.org/types/Model",
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/ScholarlyArticle",
         "https://openminds.om-i.org/types/Service",
+        "https://openminds.om-i.org/types/Software",
         "https://openminds.om-i.org/types/SoftwareVersion",
+        "https://openminds.om-i.org/types/ValidationTest",
         "https://openminds.om-i.org/types/ValidationTestVersion",
+        "https://openminds.om-i.org/types/WorkflowRecipe",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
@@ -14861,6 +15002,7 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DeployedInterface",
+        "https://openminds.om-i.org/types/Organization",
         "https://openminds.om-i.org/types/Setup"
       ],
       "v3.0": [
@@ -15162,7 +15304,6 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/Consortium",
           "https://openminds.om-i.org/types/Organization",
           "https://openminds.om-i.org/types/Person"
         ],
@@ -15494,10 +15635,6 @@
   "memberOf": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/Consortium",
-          "https://openminds.om-i.org/types/Organization"
-        ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/Consortium",
           "https://openminds.ebrains.eu/core/Organization"
@@ -15530,9 +15667,6 @@
     "name": "memberOf",
     "namePlural": "memberOf",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Affiliation"
-      ],
       "v3.0": [
         "https://openminds.ebrains.eu/core/Affiliation"
       ],
@@ -16041,6 +16175,7 @@
         "https://openminds.om-i.org/types/Organ",
         "https://openminds.om-i.org/types/OrganismSubstance",
         "https://openminds.om-i.org/types/OrganismSystem",
+        "https://openminds.om-i.org/types/Organization",
         "https://openminds.om-i.org/types/OrganizationType",
         "https://openminds.om-i.org/types/ParcellationEntity",
         "https://openminds.om-i.org/types/ParcellationEntityVersion",
@@ -17188,6 +17323,9 @@
   "organization": {
     "asEdge": {
       "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/Organization"
+        ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Organization"
         ],
@@ -17201,6 +17339,12 @@
     "hasNamespace": [
       {
         "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      },
+      {
+        "inVersions": [
           "v2.0",
           "v1.0"
         ],
@@ -17212,6 +17356,9 @@
     "name": "organization",
     "namePlural": "organizations",
     "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Affiliation"
+      ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Affiliation"
       ],
@@ -17372,9 +17519,6 @@
   "otherContribution": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/Contribution"
-        ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Contribution"
         ],
@@ -17413,18 +17557,6 @@
     "name": "otherContribution",
     "namePlural": "otherContributions",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
-        "https://openminds.om-i.org/types/DatasetVersion",
-        "https://openminds.om-i.org/types/InterfaceVersion",
-        "https://openminds.om-i.org/types/LivePaperVersion",
-        "https://openminds.om-i.org/types/MetaDataModelVersion",
-        "https://openminds.om-i.org/types/ModelVersion",
-        "https://openminds.om-i.org/types/SoftwareVersion",
-        "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WorkflowRecipeVersion"
-      ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
@@ -17743,7 +17875,6 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/Consortium",
           "https://openminds.om-i.org/types/Organization",
           "https://openminds.om-i.org/types/Person"
         ],
@@ -18238,6 +18369,34 @@
       ]
     }
   },
+  "person": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/Person"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Person",
+    "labelPlural": null,
+    "name": "person",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Affiliation"
+      ]
+    }
+  },
   "phaseEncodingDirection": {
     "description": null,
     "hasNamespace": [
@@ -18539,6 +18698,33 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/ViewerSpecification"
+      ]
+    }
+  },
+  "preferredName": {
+    "asString": {
+      "formatting": "text/plain",
+      "inVersions": [
+        "latest"
+      ],
+      "multiline": false
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Preferred name",
+    "labelPlural": null,
+    "name": "preferredName",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Person"
       ]
     }
   },
@@ -19104,7 +19290,6 @@
       "latest": [
         "https://openminds.om-i.org/types/CellPatching",
         "https://openminds.om-i.org/types/CranialWindowPreparation",
-        "https://openminds.om-i.org/types/DatasetVersion",
         "https://openminds.om-i.org/types/DynamicMRIAcquisition",
         "https://openminds.om-i.org/types/ElectrodePlacement",
         "https://openminds.om-i.org/types/ProtocolExecution",
@@ -19141,6 +19326,9 @@
   "preparationType": {
     "asEdge": {
       "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/PreparationType"
+        ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/PreparationType"
         ],
@@ -19154,6 +19342,12 @@
     "hasNamespace": [
       {
         "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      },
+      {
+        "inVersions": [
           "v1.0",
           "v2.0"
         ],
@@ -19165,6 +19359,9 @@
     "name": "preparationType",
     "namePlural": "preparationTypes",
     "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/DatasetVersion"
+      ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/ProtocolExecution"
       ],
@@ -19544,6 +19741,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "https://openminds.om-i.org/types/BehavioralProtocol",
           "https://openminds.om-i.org/types/Protocol"
         ],
         "v1.0": [
@@ -19631,7 +19829,6 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/Consortium",
           "https://openminds.om-i.org/types/Organization",
           "https://openminds.om-i.org/types/Person"
         ],
@@ -19800,7 +19997,6 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/Consortium",
           "https://openminds.om-i.org/types/Organization",
           "https://openminds.om-i.org/types/Person"
         ],
@@ -20673,6 +20869,7 @@
           "https://openminds.om-i.org/types/Book",
           "https://openminds.om-i.org/types/Chapter",
           "https://openminds.om-i.org/types/DOI",
+          "https://openminds.om-i.org/types/GenericIdentifier",
           "https://openminds.om-i.org/types/HANDLE",
           "https://openminds.om-i.org/types/ISBN",
           "https://openminds.om-i.org/types/ISSN",
@@ -20731,16 +20928,26 @@
     "namePlural": "relatedPublications",
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+        "https://openminds.om-i.org/types/Dataset",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/Interface",
         "https://openminds.om-i.org/types/InterfaceVersion",
+        "https://openminds.om-i.org/types/LivePaper",
         "https://openminds.om-i.org/types/LivePaperVersion",
+        "https://openminds.om-i.org/types/MetaDataModel",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
+        "https://openminds.om-i.org/types/Model",
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/Service",
+        "https://openminds.om-i.org/types/Software",
         "https://openminds.om-i.org/types/SoftwareVersion",
+        "https://openminds.om-i.org/types/ValidationTest",
         "https://openminds.om-i.org/types/ValidationTestVersion",
+        "https://openminds.om-i.org/types/WorkflowRecipe",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
@@ -22216,7 +22423,6 @@
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/Model",
         "https://openminds.om-i.org/types/ModelVersion",
-        "https://openminds.om-i.org/types/Organization",
         "https://openminds.om-i.org/types/Project",
         "https://openminds.om-i.org/types/Service",
         "https://openminds.om-i.org/types/Software",
@@ -23350,7 +23556,6 @@
     "asString": {
       "formatting": "text/plain",
       "inVersions": [
-        "latest",
         "v1.0",
         "v2.0",
         "v3.0",
@@ -23381,9 +23586,6 @@
     "name": "startDate",
     "namePlural": "startDates",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Affiliation"
-      ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/Affiliation"
       ],
@@ -24110,8 +24312,12 @@
         "latest": [
           "https://openminds.om-i.org/types/Subject",
           "https://openminds.om-i.org/types/SubjectGroup",
+          "https://openminds.om-i.org/types/SubjectGroupState",
+          "https://openminds.om-i.org/types/SubjectState",
           "https://openminds.om-i.org/types/TissueSample",
-          "https://openminds.om-i.org/types/TissueSampleCollection"
+          "https://openminds.om-i.org/types/TissueSampleCollection",
+          "https://openminds.om-i.org/types/TissueSampleCollectionState",
+          "https://openminds.om-i.org/types/TissueSampleState"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/Subject",
@@ -24694,17 +24900,27 @@
     "namePlural": "supportChannels",
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+        "https://openminds.om-i.org/types/Dataset",
         "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/Interface",
         "https://openminds.om-i.org/types/InterfaceVersion",
+        "https://openminds.om-i.org/types/LivePaper",
         "https://openminds.om-i.org/types/LivePaperVersion",
+        "https://openminds.om-i.org/types/MetaDataModel",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
+        "https://openminds.om-i.org/types/Model",
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/Service",
+        "https://openminds.om-i.org/types/Software",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/UsageAgreement",
+        "https://openminds.om-i.org/types/ValidationTest",
         "https://openminds.om-i.org/types/ValidationTestVersion",
+        "https://openminds.om-i.org/types/WorkflowRecipe",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ],
       "v1.0": [
@@ -25925,6 +26141,8 @@
           "https://openminds.om-i.org/types/FileRepositoryType",
           "https://openminds.om-i.org/types/LearningResourceType",
           "https://openminds.om-i.org/types/MetaDataModelType",
+          "https://openminds.om-i.org/types/OrganizationType",
+          "https://openminds.om-i.org/types/ProjectType",
           "https://openminds.om-i.org/types/SetupType",
           "https://openminds.om-i.org/types/TissueSampleType"
         ],
@@ -26005,9 +26223,12 @@
         "https://openminds.om-i.org/types/CustomAnnotation",
         "https://openminds.om-i.org/types/EphysStimulus",
         "https://openminds.om-i.org/types/FileRepository",
+        "https://openminds.om-i.org/types/GenericIdentifier",
         "https://openminds.om-i.org/types/LearningResource",
         "https://openminds.om-i.org/types/LivePaperSection",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
+        "https://openminds.om-i.org/types/Organization",
+        "https://openminds.om-i.org/types/Project",
         "https://openminds.om-i.org/types/Setup",
         "https://openminds.om-i.org/types/TissueSample",
         "https://openminds.om-i.org/types/TissueSampleCollection"
@@ -26933,17 +27154,7 @@
     "namePlural": "versionInnovations",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
-        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
-        "https://openminds.om-i.org/types/DatasetVersion",
-        "https://openminds.om-i.org/types/InterfaceVersion",
-        "https://openminds.om-i.org/types/LivePaperVersion",
-        "https://openminds.om-i.org/types/MetaDataModelVersion",
-        "https://openminds.om-i.org/types/ModelVersion",
-        "https://openminds.om-i.org/types/ParcellationEntityVersion",
-        "https://openminds.om-i.org/types/SoftwareVersion",
-        "https://openminds.om-i.org/types/ValidationTestVersion",
-        "https://openminds.om-i.org/types/WorkflowRecipeVersion"
+        "https://openminds.om-i.org/types/ParcellationEntityVersion"
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -26986,6 +27197,42 @@
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
         "https://openminds.om-i.org/types/WebServiceVersion",
+        "https://openminds.om-i.org/types/WorkflowRecipeVersion"
+      ]
+    }
+  },
+  "versionSpecification": {
+    "asString": {
+      "formatting": "text/plain",
+      "inVersions": [
+        "latest"
+      ],
+      "multiline": false
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Version specification",
+    "labelPlural": null,
+    "name": "versionSpecification",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+        "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/InterfaceVersion",
+        "https://openminds.om-i.org/types/LivePaperVersion",
+        "https://openminds.om-i.org/types/MetaDataModelVersion",
+        "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/SoftwareVersion",
+        "https://openminds.om-i.org/types/ValidationTestVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
       ]
     }

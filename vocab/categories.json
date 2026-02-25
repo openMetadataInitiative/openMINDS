@@ -1,5 +1,10 @@
 {
   "latest": {
+    "actor": [
+      "core:Consortium",
+      "core:Organization",
+      "core:Person"
+    ],
     "agent": [
       "computation:SoftwareAgent",
       "core:Person"
@@ -42,6 +47,11 @@
       "sands:CommonCoordinateFrameworkVersion",
       "sands:CustomCoordinateFramework"
     ],
+    "datasetIdentifier": [
+      "core:DOI",
+      "core:GenericIdentifier",
+      "core:IdentifiersDotOrgID"
+    ],
     "deviceUsage": [
       "ephys:ElectrodeArrayUsage",
       "ephys:ElectrodeUsage",
@@ -49,6 +59,12 @@
       "neuroimaging:MRICoilUsage",
       "neuroimaging:MRIScannerUsage",
       "specimenPrep:SlicingDeviceUsage"
+    ],
+    "documentationResource": [
+      "core:DOI",
+      "core:File",
+      "core:ISBN",
+      "core:WebResource"
     ],
     "fileOrigin": [
       "controlledTerms:AnalysisTechnique",
@@ -186,7 +202,6 @@
       "controlledTerms:VisualStimulusType"
     ],
     "legalPerson": [
-      "core:Consortium",
       "core:Organization",
       "core:Person"
     ],
@@ -201,8 +216,16 @@
       "controlledTerms:ModificationForm",
       "controlledTerms:ModificationScope"
     ],
+    "organizationIdentifier": [
+      "core:GenericIdentifier"
+    ],
+    "personIdentifier": [
+      "core:GenericIdentifier",
+      "core:ORCID"
+    ],
     "publicationReference": [
       "core:DOI",
+      "core:GenericIdentifier",
       "core:HANDLE",
       "core:ISBN",
       "core:ISSN",
@@ -296,6 +319,10 @@
       "controlledTerms:StimulationApproach",
       "controlledTerms:StimulationTechnique",
       "controlledTerms:Technique"
+    ],
+    "toolIdentifier": [
+      "core:DOI",
+      "core:GenericIdentifier"
     ],
     "toolScope": [
       "controlledTerms:AnalysisTechnique",
