@@ -712,6 +712,9 @@
         {
           "property": "_categories",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:identifier.pattern"
         }
       ],
       "schemaType": "ISBN"
