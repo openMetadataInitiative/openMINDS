@@ -7,9 +7,9 @@
   "name": "AccountInformation",
   "properties": {
     "https://openminds.om-i.org/props/service": {
-      "_instruction": "Add the web service of this account.",
+      "_instruction": "Add the service associated with this account.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/WebService"
+        "https://openminds.om-i.org/types/Service"
       ],
       "label": "Service",
       "labelPlural": "Services",

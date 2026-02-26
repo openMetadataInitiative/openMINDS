@@ -499,6 +499,18 @@
       "schemaType": "TermSuggestion"
     },
     {
+      "file": "core/actors/accountInformation.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:service._instruction"
+        },
+        {
+          "property": "properties.props:service._linkedTypes"
+        }
+      ],
+      "schemaType": "AccountInformation"
+    },
+    {
       "file": "core/actors/affiliation.schema.omi.json",
       "addedAttributes": [
         "properties.props:organization",
