@@ -33,7 +33,7 @@
     },
     "https://openminds.om-i.org/props/endTime": {
       "_formats": [
-        "datetime"
+        "date-time"
       ],
       "_instruction": "Enter the date and time at which this deployment ended, formatted acoording to ISO-8601.",
       "formatting": "text/plain",
@@ -80,7 +80,7 @@
     },
     "https://openminds.om-i.org/props/startTime": {
       "_formats": [
-        "datetime"
+        "date-time"
       ],
       "_instruction": "Enter the date and time at which this deployment was started, formatted acoording to ISO-8601.",
       "formatting": "text/plain",
