@@ -323,6 +323,7 @@ Changes in core/digitalIdentifier/IdentifiersDotOrgID.schema.omi.json:
 
 Changes in core/digitalIdentifier/ISBN.schema.omi.json:
   - Field '_categories' modified (value(s) added).
+  - Field 'properties.props:identifier._instruction' modified.
   - Field 'properties.props:identifier.pattern' modified.
 
 Changes in core/digitalIdentifier/ORCID.schema.omi.json:
