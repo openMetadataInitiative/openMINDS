@@ -220,6 +220,7 @@
       "_instruction": "Add the scope of this service, i.e., what analysis methods does it perform, what kinds of experimental data is it intended for.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/AnalysisTechnique",
+        "https://openminds.om-i.org/types/ContributionType",
         "https://openminds.om-i.org/types/DataType",
         "https://openminds.om-i.org/types/ExperimentalApproach",
         "https://openminds.om-i.org/types/OperationalApproach",

@@ -419,6 +419,16 @@
       "schemaType": "BiologicalOrder"
     },
     {
+      "file": "controlledTerms/contributionType.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "ContributionType"
+    },
+    {
       "file": "controlledTerms/dataType.schema.omi.json",
       "modifiedAttributes": [
         {
