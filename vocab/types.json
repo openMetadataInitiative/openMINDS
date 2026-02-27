@@ -338,6 +338,31 @@
     "label": "Age category",
     "name": "AgeCategory"
   },
+  "AgeReference": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Age reference",
+    "name": "AgeReference"
+  },
   "AmountOfChemical": {
     "backwardsCompatibility": {
       "latest": [
