@@ -1,0 +1,34 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/SpecimenAge",
+  "label": "Specimen age",
+  "name": "SpecimenAge",
+  "properties": {
+    "https://openminds.om-i.org/props/age": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue",
+        "https://openminds.om-i.org/types/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the age value.",
+      "description": "Time of life or existence at which some particular qualification, capacity or event arises.",
+      "label": "Age",
+      "labelPlural": "Ages",
+      "name": "age",
+      "nameForReverseLink": null,
+      "namePlural": "ages"
+    },
+    "https://openminds.om-i.org/props/reference": {
+      "_instruction": "Enter the age reference for the specified age value.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AgeReference"
+      ],
+      "label": "Reference",
+      "name": "reference",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/age",
+    "https://openminds.om-i.org/props/reference"
+  ]
+}

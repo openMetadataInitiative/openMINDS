@@ -45,6 +45,21 @@
       "namePlural": "internalIdentifiers",
       "type": "string"
     },
+    "https://openminds.om-i.org/props/isPartOf": {
+      "_instruction": "Add all subject groups of which this subject group is a subgroup.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SubjectGroup"
+      ],
+      "description": "Reference to the ensemble of multiple things or beings.",
+      "label": "Is part of",
+      "labelPlural": "Is part of",
+      "minItems": 1,
+      "name": "isPartOf",
+      "nameForReverseLink": null,
+      "namePlural": "isPartOf",
+      "type": "array",
+      "uniqueItems": true
+    },
     "https://openminds.om-i.org/props/lookupLabel": {
       "_instruction": "Enter a lookup label for this specimen set that may help you to find this instance more easily.",
       "formatting": "text/plain",
@@ -97,6 +112,7 @@
     }
   },
   "required": [
+    "https://openminds.om-i.org/props/numberOfSubjects",
     "https://openminds.om-i.org/props/species",
     "https://openminds.om-i.org/props/studiedState"
   ]
