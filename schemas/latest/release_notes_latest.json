@@ -48,6 +48,8 @@
     "core/products/interface.schema.omi.json",
     "core/products/interfaceVersion.schema.omi.json",
     "core/products/service.schema.omi.json",
+    "core/research/specimenAge.schema.omi.json",
+    "core/research/specimenWeight.schema.omi.json",
     "neuroimaging/activity/dynamicMRIAcquisition.schema.omi.json",
     "neuroimaging/activity/staticMRIAcquisition.schema.omi.json",
     "neuroimaging/device/MRICoil.schema.omi.json",
@@ -1328,6 +1330,61 @@
       "schemaType": "ProtocolExecution"
     },
     {
+      "file": "core/research/subjectGroup.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:isPartOf"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "required",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "SubjectGroup"
+    },
+    {
+      "file": "core/research/subjectGroupState.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:associatedProtocol"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:age._embeddedTypes"
+        },
+        {
+          "property": "properties.props:age._instruction"
+        },
+        {
+          "property": "properties.props:weight._embeddedTypes"
+        },
+        {
+          "property": "properties.props:weight._instruction"
+        }
+      ],
+      "schemaType": "SubjectGroupState"
+    },
+    {
+      "file": "core/research/subjectState.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:associatedProtocol"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:age._embeddedTypes"
+        },
+        {
+          "property": "properties.props:age._instruction"
+        },
+        {
+          "property": "properties.props:weight._embeddedTypes"
+        },
+        {
+          "property": "properties.props:weight._instruction"
+        }
+      ],
+      "schemaType": "SubjectState"
+    },
+    {
       "file": "core/research/tissueSample.schema.omi.json",
       "modifiedAttributes": [
         {
@@ -1339,6 +1396,9 @@
     },
     {
       "file": "core/research/tissueSampleCollection.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:isPartOf"
+      ],
       "modifiedAttributes": [
         {
           "property": "properties.props:anatomicalLocation._linkedTypes",
@@ -1346,6 +1406,48 @@
         }
       ],
       "schemaType": "TissueSampleCollection"
+    },
+    {
+      "file": "core/research/tissueSampleCollectionState.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:associatedProtocol"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:age._embeddedTypes"
+        },
+        {
+          "property": "properties.props:age._instruction"
+        },
+        {
+          "property": "properties.props:weight._embeddedTypes"
+        },
+        {
+          "property": "properties.props:weight._instruction"
+        }
+      ],
+      "schemaType": "TissueSampleCollectionState"
+    },
+    {
+      "file": "core/research/tissueSampleState.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:associatedProtocol"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:age._embeddedTypes"
+        },
+        {
+          "property": "properties.props:age._instruction"
+        },
+        {
+          "property": "properties.props:weight._embeddedTypes"
+        },
+        {
+          "property": "properties.props:weight._instruction"
+        }
+      ],
+      "schemaType": "TissueSampleState"
     },
     {
       "file": "ephys/activity/cellPatching.schema.omi.json",

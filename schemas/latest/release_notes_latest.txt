@@ -48,6 +48,8 @@ Added files:
   - core/products/interface.schema.omi.json
   - core/products/interfaceVersion.schema.omi.json
   - core/products/service.schema.omi.json
+  - core/research/specimenAge.schema.omi.json
+  - core/research/specimenWeight.schema.omi.json
   - neuroimaging/activity/dynamicMRIAcquisition.schema.omi.json
   - neuroimaging/activity/staticMRIAcquisition.schema.omi.json
   - neuroimaging/device/MRICoil.schema.omi.json
@@ -595,11 +597,44 @@ Changes in core/research/protocolExecution.schema.omi.json:
   - Field 'properties.props:input._linkedTypes' modified.
   - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
 
+Changes in core/research/subjectGroup.schema.omi.json:
+  - Field 'properties.props:isPartOf' added.
+  - Field 'required' modified (value(s) added).
+
+Changes in core/research/subjectGroupState.schema.omi.json:
+  - Field 'properties.props:associatedProtocol' added.
+  - Field 'properties.props:age._embeddedTypes' modified.
+  - Field 'properties.props:age._instruction' modified.
+  - Field 'properties.props:weight._embeddedTypes' modified.
+  - Field 'properties.props:weight._instruction' modified.
+
+Changes in core/research/subjectState.schema.omi.json:
+  - Field 'properties.props:associatedProtocol' added.
+  - Field 'properties.props:age._embeddedTypes' modified.
+  - Field 'properties.props:age._instruction' modified.
+  - Field 'properties.props:weight._embeddedTypes' modified.
+  - Field 'properties.props:weight._instruction' modified.
+
 Changes in core/research/tissueSample.schema.omi.json:
   - Field 'properties.props:anatomicalLocation._linkedTypes' modified (value(s) added).
 
 Changes in core/research/tissueSampleCollection.schema.omi.json:
+  - Field 'properties.props:isPartOf' added.
   - Field 'properties.props:anatomicalLocation._linkedTypes' modified (value(s) added).
+
+Changes in core/research/tissueSampleCollectionState.schema.omi.json:
+  - Field 'properties.props:associatedProtocol' added.
+  - Field 'properties.props:age._embeddedTypes' modified.
+  - Field 'properties.props:age._instruction' modified.
+  - Field 'properties.props:weight._embeddedTypes' modified.
+  - Field 'properties.props:weight._instruction' modified.
+
+Changes in core/research/tissueSampleState.schema.omi.json:
+  - Field 'properties.props:associatedProtocol' added.
+  - Field 'properties.props:age._embeddedTypes' modified.
+  - Field 'properties.props:age._instruction' modified.
+  - Field 'properties.props:weight._embeddedTypes' modified.
+  - Field 'properties.props:weight._instruction' modified.
 
 Changes in ephys/activity/cellPatching.schema.omi.json:
   - Field 'properties.props:device._linkedTypes' modified (value(s) added).
