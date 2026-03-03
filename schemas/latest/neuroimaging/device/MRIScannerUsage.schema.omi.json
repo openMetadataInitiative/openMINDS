@@ -8,7 +8,7 @@
   "name": "MRIScannerUsage",
   "properties": {
     "https://openminds.om-i.org/props/MRIWeighting": {
-      "_instruction": "Enter the magnetic resonance imaging weighting type describing the dominant source of image contrast. This designation reflects the contrast determined by repetition time, echo time, and inversion time and can be identified from the sequence protocol.",
+      "_instruction": "Add the magnetic resonance imaging weighting type describing the dominant source of image contrast. This designation reflects the contrast determined by repetition time, echo time, and inversion time and can be identified from the sequence protocol.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/MRIWeighting"
       ],
@@ -17,10 +17,13 @@
       "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/MTPulseShape": {
-      "_instruction": "Enter the shape of the magnetization transfer (MT) radiofrequency (RF) pulse waveform used in this acquisition. This information is specified in the sequence protocol and can be retrieved from the DICOM header.",
+      "_instruction": "Add the shape of the magnetization transfer (MT) radiofrequency (RF) pulse waveform used in this acquisition. This information is specified in the sequence protocol and can be retrieved from the DICOM header.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/PulseShape"
+      ],
       "label": "Mtpulse shape",
       "name": "MTPulseShape",
-      "type": "controlledTerms:PulseShape"
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/accelerationFactor": {
       "_instruction": "Enter the acceleration factor (R), defined as the ratio of fully sampled to reduced k-space acquisition, with R \u2265 1 and R = 1 indicating no acceleration. This value is specified in the sequence protocol and can be retrieved from the DICOM header.",
@@ -63,13 +66,13 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/fatSuppressionTechnique": {
-      "_belongsToCategory": [
-        "controlledTerms:MRIFatSuppressionTechnique"
-      ],
       "_instruction": "Add the fat suppression technique used for this acquisition (for example, fat saturation, SPAIR, STIR, or Dixon); if no fat suppression was applied, leave this field null. This information is typically specified in the sequence protocol and can be retrieved from the DICOM header.",
-      "_linkedTypes": [],
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/MRIFatSuppressionTechnique"
+      ],
       "label": "Fat suppression technique",
-      "name": "fatSuppressionTechnique"
+      "name": "fatSuppressionTechnique",
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/fieldOfView": {
       "_belongsToCategory": [
@@ -91,9 +94,12 @@
     },
     "https://openminds.om-i.org/props/gradientCorrection": {
       "_instruction": "Add the gradient correction method applied during image reconstruction. This information is typically defined by the scanner system and can be retrieved from the reconstruction settings or DICOM header.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnalysisTechnique"
+      ],
       "label": "Gradient correction",
       "name": "gradientCorrection",
-      "type": "controlledTerms:AnalysisTechnique"
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/inversionTime": {
       "_embeddedTypes": [
@@ -160,9 +166,12 @@
     },
     "https://openminds.om-i.org/props/parallelAcquisitionTechnique": {
       "_ instruction": "Add the parallel acquisition technique used for this scan (for example, SENSE or GRAPPA). This information is specified in the sequence protocol and can be retrieved from the DICOM header.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/MRIParallelAcquisitionTechnique"
+      ],
       "label": "Parallel acquisition technique",
       "name": "parallelAcquisitionTechnique",
-      "type": "controlledTerms:MRIparallelAcquisitionTechnique"
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/phaseEncodingDirection": {
       "_instruction": "Enter the phase encoding direction as a signed unit vector in the scanner or image coordinate system (for example, [\u00b11, 0, 0], [0, \u00b11, 0], or [0, 0, \u00b11]), where the nonzero component indicates the encoding axis and the sign specifies the polarity of k-space traversal.",

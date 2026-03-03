@@ -122,6 +122,14 @@
     "usedIn": {}
   },
   "MTPulseShape": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/PulseShape"
+        ]
+      },
+      "nameForReverseLink": null
+    },
     "description": null,
     "hasNamespace": [
       {
@@ -8816,6 +8824,14 @@
     }
   },
   "fatSuppressionTechnique": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/MRIFatSuppressionTechnique"
+        ]
+      },
+      "nameForReverseLink": null
+    },
     "description": null,
     "hasNamespace": [
       {
@@ -9883,6 +9899,14 @@
     }
   },
   "gradientCorrection": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/AnalysisTechnique"
+        ]
+      },
+      "nameForReverseLink": null
+    },
     "description": null,
     "hasNamespace": [
       {
@@ -18031,6 +18055,14 @@
     }
   },
   "parallelAcquisitionTechnique": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/MRIParallelAcquisitionTechnique"
+        ]
+      },
+      "nameForReverseLink": null
+    },
     "asString": {
       "formatting": "text/plain",
       "inVersions": [],
