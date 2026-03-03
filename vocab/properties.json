@@ -1612,6 +1612,64 @@
       ]
     }
   },
+  "apexAngle": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Apex angle",
+    "labelPlural": null,
+    "name": "apexAngle",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/IsoscelesTriangle",
+        "https://openminds.om-i.org/types/Triangle"
+      ]
+    }
+  },
+  "apexBaseDistance": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Apex base distance",
+    "labelPlural": null,
+    "name": "apexBaseDistance",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/CentroidalPyramid",
+        "https://openminds.om-i.org/types/RightCone"
+      ]
+    }
+  },
   "applicationCategory": {
     "asEdge": {
       "canPointTo": {
@@ -2177,6 +2235,137 @@
       ]
     }
   },
+  "baseDistance": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Base distance",
+    "labelPlural": null,
+    "name": "baseDistance",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Frustum",
+        "https://openminds.om-i.org/types/Parallelogram",
+        "https://openminds.om-i.org/types/RightCylinder",
+        "https://openminds.om-i.org/types/RightPrism",
+        "https://openminds.om-i.org/types/Trapezoid"
+      ]
+    }
+  },
+  "baseLength": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Base length",
+    "labelPlural": null,
+    "name": "baseLength",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Parallelogram"
+      ]
+    }
+  },
+  "baseLengths": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Base lengths",
+    "labelPlural": null,
+    "name": "baseLengths",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Trapezoid"
+      ]
+    }
+  },
+  "baseShape": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/Circle",
+          "https://openminds.om-i.org/types/Ellipse",
+          "https://openminds.om-i.org/types/EquilateralTriangle",
+          "https://openminds.om-i.org/types/IsoscelesTriangle",
+          "https://openminds.om-i.org/types/Kite",
+          "https://openminds.om-i.org/types/Parallelogram",
+          "https://openminds.om-i.org/types/Rectangle",
+          "https://openminds.om-i.org/types/RegularPolygon",
+          "https://openminds.om-i.org/types/Rhombus",
+          "https://openminds.om-i.org/types/RightTriangle",
+          "https://openminds.om-i.org/types/Square",
+          "https://openminds.om-i.org/types/Trapezoid",
+          "https://openminds.om-i.org/types/Triangle"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Base shape",
+    "labelPlural": null,
+    "name": "baseShape",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/CentroidalPyramid",
+        "https://openminds.om-i.org/types/RightCone",
+        "https://openminds.om-i.org/types/RightCylinder",
+        "https://openminds.om-i.org/types/RightPrism"
+      ]
+    }
+  },
   "bathTemperature": {
     "asEdge": {
       "canPointTo": {
@@ -2534,6 +2723,34 @@
     "namePlural": null,
     "usedIn": {}
   },
+  "centralAngle": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Central angle",
+    "labelPlural": null,
+    "name": "centralAngle",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/CircularSector"
+      ]
+    }
+  },
   "channel": {
     "asEdge": {
       "canPointTo": {
@@ -2680,6 +2897,34 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/PipetteUsage"
+      ]
+    }
+  },
+  "circumradius": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Circumradius",
+    "labelPlural": null,
+    "name": "circumradius",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/RegularPolygon"
       ]
     }
   },
@@ -6535,6 +6780,62 @@
       ]
     }
   },
+  "diagonalLengths": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Diagonal lengths",
+    "labelPlural": null,
+    "name": "diagonalLengths",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Rhombus"
+      ]
+    }
+  },
+  "diameters": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Diameters",
+    "labelPlural": null,
+    "name": "diameters",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Ellipse"
+      ]
+    }
+  },
   "digest": {
     "asString": {
       "formatting": "text/plain",
@@ -6798,9 +7099,29 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
+          "https://openminds.om-i.org/types/CentroidalPyramid",
           "https://openminds.om-i.org/types/Circle",
+          "https://openminds.om-i.org/types/CircularSector",
+          "https://openminds.om-i.org/types/Cube",
           "https://openminds.om-i.org/types/Ellipse",
-          "https://openminds.om-i.org/types/Rectangle"
+          "https://openminds.om-i.org/types/Ellipsoid",
+          "https://openminds.om-i.org/types/EquilateralTriangle",
+          "https://openminds.om-i.org/types/Frustum",
+          "https://openminds.om-i.org/types/IsoscelesTriangle",
+          "https://openminds.om-i.org/types/Kite",
+          "https://openminds.om-i.org/types/Parallelogram",
+          "https://openminds.om-i.org/types/Rectangle",
+          "https://openminds.om-i.org/types/RegularPolygon",
+          "https://openminds.om-i.org/types/Rhombus",
+          "https://openminds.om-i.org/types/RightCone",
+          "https://openminds.om-i.org/types/RightCylinder",
+          "https://openminds.om-i.org/types/RightPrism",
+          "https://openminds.om-i.org/types/RightTriangle",
+          "https://openminds.om-i.org/types/Sphere",
+          "https://openminds.om-i.org/types/Spheroid",
+          "https://openminds.om-i.org/types/Square",
+          "https://openminds.om-i.org/types/Trapezoid",
+          "https://openminds.om-i.org/types/Triangle"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/sands/Circle",
@@ -7777,6 +8098,34 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/EphysStimulus"
+      ]
+    }
+  },
+  "equatorialDiameter": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Equatorial diameter",
+    "labelPlural": null,
+    "name": "equatorialDiameter",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Spheroid"
       ]
     }
   },
@@ -11316,6 +11665,34 @@
       ]
     }
   },
+  "interiorAngle": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Interior angle",
+    "labelPlural": null,
+    "name": "interiorAngle",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Parallelogram"
+      ]
+    }
+  },
   "interlexIdentifier": {
     "asString": {
       "formatting": "text/plain",
@@ -11618,6 +11995,34 @@
         "https://openminds.om-i.org/types/UBERONParcellation",
         "https://openminds.om-i.org/types/UnitOfMeasurement",
         "https://openminds.om-i.org/types/VisualStimulusType"
+      ]
+    }
+  },
+  "intermediateDiameter": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Intermediate diameter",
+    "labelPlural": null,
+    "name": "intermediateDiameter",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Ellipsoid"
       ]
     }
   },
@@ -13468,6 +13873,63 @@
       ]
     }
   },
+  "legLength": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Leg length",
+    "labelPlural": null,
+    "name": "legLength",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/IsoscelesTriangle"
+      ]
+    }
+  },
+  "legLengths": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Leg lengths",
+    "labelPlural": null,
+    "name": "legLengths",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Kite",
+        "https://openminds.om-i.org/types/Triangle"
+      ]
+    }
+  },
   "legalCode": {
     "asString": {
       "formatting": "text/plain",
@@ -13523,9 +13985,6 @@
   "length": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue"
         ],
@@ -13556,9 +14015,6 @@
     "name": "length",
     "namePlural": "lengths",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Rectangle"
-      ],
       "v3.0": [
         "https://openminds.ebrains.eu/sands/Rectangle"
       ],
@@ -13958,6 +14414,103 @@
         "https://openminds.om-i.org/types/TissueSampleSlicing",
         "https://openminds.om-i.org/types/TissueSampleState",
         "https://openminds.om-i.org/types/Visualization"
+      ]
+    }
+  },
+  "majorBaseShape": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/Circle",
+          "https://openminds.om-i.org/types/CircularSector",
+          "https://openminds.om-i.org/types/Ellipse",
+          "https://openminds.om-i.org/types/EquilateralTriangle",
+          "https://openminds.om-i.org/types/IsoscelesTriangle",
+          "https://openminds.om-i.org/types/Kite",
+          "https://openminds.om-i.org/types/Parallelogram",
+          "https://openminds.om-i.org/types/Rectangle",
+          "https://openminds.om-i.org/types/RegularPolygon",
+          "https://openminds.om-i.org/types/Rhombus",
+          "https://openminds.om-i.org/types/RightTriangle",
+          "https://openminds.om-i.org/types/Square",
+          "https://openminds.om-i.org/types/Trapezoid",
+          "https://openminds.om-i.org/types/Triangle"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Major base shape",
+    "labelPlural": null,
+    "name": "majorBaseShape",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Frustum"
+      ]
+    }
+  },
+  "majorDiameter": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Major diameter",
+    "labelPlural": null,
+    "name": "majorDiameter",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Ellipsoid"
+      ]
+    }
+  },
+  "majorSideLength": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Major side length",
+    "labelPlural": null,
+    "name": "majorSideLength",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Rectangle"
       ]
     }
   },
@@ -14557,6 +15110,82 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/QuantitativeValueRange"
+      ]
+    }
+  },
+  "minorBaseScale": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Minor base scale",
+    "labelPlural": null,
+    "name": "minorBaseScale",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Frustum"
+      ]
+    }
+  },
+  "minorDiameter": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Minor diameter",
+    "labelPlural": null,
+    "name": "minorDiameter",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Ellipsoid"
+      ]
+    }
+  },
+  "minorSideLength": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Minor side length",
+    "labelPlural": null,
+    "name": "minorSideLength",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Rectangle"
       ]
     }
   },
@@ -15403,6 +16032,26 @@
       "latest": [
         "https://openminds.om-i.org/types/GridVolume",
         "https://openminds.om-i.org/types/GridVolumeSequence"
+      ]
+    }
+  },
+  "numberOfSides": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Number of sides",
+    "labelPlural": null,
+    "name": "numberOfSides",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/RegularPolygon"
       ]
     }
   },
@@ -16831,6 +17480,34 @@
       ]
     }
   },
+  "perpendicularLegLengths": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Perpendicular leg lengths",
+    "labelPlural": null,
+    "name": "perpendicularLegLengths",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/RightTriangle"
+      ]
+    }
+  },
   "person": {
     "asEdge": {
       "canPointTo": {
@@ -17049,6 +17726,34 @@
       "latest": [
         "https://openminds.om-i.org/types/GridImage",
         "https://openminds.om-i.org/types/GridImageStack"
+      ]
+    }
+  },
+  "polarDiameter": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Polar diameter",
+    "labelPlural": null,
+    "name": "polarDiameter",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Spheroid"
       ]
     }
   },
@@ -18546,7 +19251,9 @@
     "namePlural": "radii",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/Circle"
+        "https://openminds.om-i.org/types/Circle",
+        "https://openminds.om-i.org/types/CircularSector",
+        "https://openminds.om-i.org/types/Sphere"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/sands/Circle"
@@ -20113,9 +20820,6 @@
   "semiMajorAxis": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue"
         ],
@@ -20146,9 +20850,6 @@
     "name": "semiMajorAxis",
     "namePlural": "semiMajorAxes",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Ellipse"
-      ],
       "v3.0": [
         "https://openminds.ebrains.eu/sands/Ellipse"
       ],
@@ -20160,9 +20861,6 @@
   "semiMinorAxis": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue"
         ],
@@ -20193,9 +20891,6 @@
     "name": "semiMinorAxis",
     "namePlural": "semiMinorAxes",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Ellipse"
-      ],
       "v3.0": [
         "https://openminds.ebrains.eu/sands/Ellipse"
       ],
@@ -20618,6 +21313,36 @@
         "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipe",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
+      ]
+    }
+  },
+  "sideLength": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Side length",
+    "labelPlural": null,
+    "name": "sideLength",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Cube",
+        "https://openminds.om-i.org/types/EquilateralTriangle",
+        "https://openminds.om-i.org/types/Square"
       ]
     }
   },
@@ -22681,6 +23406,34 @@
         "https://openminds.om-i.org/types/ValidationTestVersion",
         "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
+      ]
+    }
+  },
+  "symmetryDiagonalLength": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Symmetry diagonal length",
+    "labelPlural": null,
+    "name": "symmetryDiagonalLength",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Kite"
       ]
     }
   },
@@ -25010,9 +25763,6 @@
   "width": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue"
         ],
@@ -25043,9 +25793,6 @@
     "name": "width",
     "namePlural": "widths",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Rectangle"
-      ],
       "v3.0": [
         "https://openminds.ebrains.eu/sands/Rectangle"
       ],

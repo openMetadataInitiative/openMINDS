@@ -54,6 +54,26 @@
     "SANDS/atlas/anatomicalAtlasVersion.schema.omi.json",
     "SANDS/atlas/commonCoordinateFramework.schema.omi.json",
     "SANDS/atlas/commonCoordinateFrameworkVersion.schema.omi.json",
+    "SANDS/mathematicalShape/centroidalPyramid.schema.omi.json",
+    "SANDS/mathematicalShape/circularSector.schema.omi.json",
+    "SANDS/mathematicalShape/cube.schema.omi.json",
+    "SANDS/mathematicalShape/ellipsoid.schema.omi.json",
+    "SANDS/mathematicalShape/equilateralTriangle.schema.omi.json",
+    "SANDS/mathematicalShape/frustum.schema.omi.json",
+    "SANDS/mathematicalShape/isoscelesTriangle.schema.omi.json",
+    "SANDS/mathematicalShape/kite.schema.omi.json",
+    "SANDS/mathematicalShape/parallelogram.schema.omi.json",
+    "SANDS/mathematicalShape/regularPolygon.schema.omi.json",
+    "SANDS/mathematicalShape/rhombus.schema.omi.json",
+    "SANDS/mathematicalShape/rightCone.schema.omi.json",
+    "SANDS/mathematicalShape/rightCylinder.schema.omi.json",
+    "SANDS/mathematicalShape/rightPrism.schema.omi.json",
+    "SANDS/mathematicalShape/rightTriangle.schema.omi.json",
+    "SANDS/mathematicalShape/sphere.schema.omi.json",
+    "SANDS/mathematicalShape/spheroid.schema.omi.json",
+    "SANDS/mathematicalShape/square.schema.omi.json",
+    "SANDS/mathematicalShape/trapezoid.schema.omi.json",
+    "SANDS/mathematicalShape/triangle.schema.omi.json",
     "SANDS/non-atlas/customCoordinateFramework.schema.omi.json"
   ],
   "removedFiles": [
@@ -1855,6 +1875,10 @@
       "modifiedAttributes": [
         {
           "property": "properties.props:dimension._belongsToCategory"
+        },
+        {
+          "property": "properties.props:dimension._embeddedTypes",
+          "modification": "value(s) added"
         },
         {
           "property": "properties.props:studyTarget._linkedTypes",

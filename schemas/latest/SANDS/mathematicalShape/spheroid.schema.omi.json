@@ -1,0 +1,34 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/Spheroid",
+  "label": "Spheroid",
+  "name": "Spheroid",
+  "properties": {
+    "https://openminds.om-i.org/props/equatorialDiameter": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the equatorial diameters of this spheroid.",
+      "label": "Equatorial diameter",
+      "name": "equatorialDiameter",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/polarDiameter": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the polar diameter of this spheroid.",
+      "label": "Polar diameter",
+      "name": "polarDiameter",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/equatorialDiameter",
+    "https://openminds.om-i.org/props/polarDiameter"
+  ]
+}

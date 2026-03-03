@@ -1548,6 +1548,31 @@
     "label": "Cell type",
     "name": "CellType"
   },
+  "CentroidalPyramid": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Centroidal pyramid",
+    "name": "CentroidalPyramid"
+  },
   "Channel": {
     "backwardsCompatibility": {
       "latest": [
@@ -1803,6 +1828,31 @@
     ],
     "label": "Circle",
     "name": "Circle"
+  },
+  "CircularSector": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Circular sector",
+    "name": "CircularSector"
   },
   "Colormap": {
     "backwardsCompatibility": {
@@ -2774,6 +2824,31 @@
     ],
     "label": "Criteria quality type",
     "name": "CriteriaQualityType"
+  },
+  "Cube": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Cube",
+    "name": "Cube"
   },
   "CustomAnatomicalEntity": {
     "backwardsCompatibility": {
@@ -4057,6 +4132,31 @@
     "label": "Ellipse",
     "name": "Ellipse"
   },
+  "Ellipsoid": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Ellipsoid",
+    "name": "Ellipsoid"
+  },
   "Environment": {
     "backwardsCompatibility": {
       "latest": [
@@ -4140,6 +4240,31 @@
     ],
     "label": "Ephys stimulus",
     "name": "EphysStimulus"
+  },
+  "EquilateralTriangle": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Equilateral triangle",
+    "name": "EquilateralTriangle"
   },
   "EthicsAssessment": {
     "backwardsCompatibility": {
@@ -4756,6 +4881,31 @@
     ],
     "label": "File usage role",
     "name": "FileUsageRole"
+  },
+  "Frustum": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Frustum",
+    "name": "Frustum"
   },
   "Funding": {
     "backwardsCompatibility": {
@@ -5602,6 +5752,56 @@
     ],
     "label": "Interface version",
     "name": "InterfaceVersion"
+  },
+  "IsoscelesTriangle": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Isosceles triangle",
+    "name": "IsoscelesTriangle"
+  },
+  "Kite": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Kite",
+    "name": "Kite"
   },
   "LEI": {
     "backwardsCompatibility": {
@@ -7753,6 +7953,31 @@
     "label": "Organization type",
     "name": "OrganizationType"
   },
+  "Parallelogram": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Parallelogram",
+    "name": "Parallelogram"
+  },
   "ParameterSet": {
     "backwardsCompatibility": {
       "v1.0": [],
@@ -9403,6 +9628,31 @@
     "label": "Rectangle",
     "name": "Rectangle"
   },
+  "RegularPolygon": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Regular polygon",
+    "name": "RegularPolygon"
+  },
   "ResearchProductGroup": {
     "backwardsCompatibility": {
       "latest": [
@@ -9446,6 +9696,131 @@
     ],
     "label": "Research product group",
     "name": "ResearchProductGroup"
+  },
+  "Rhombus": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Rhombus",
+    "name": "Rhombus"
+  },
+  "RightCone": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Right cone",
+    "name": "RightCone"
+  },
+  "RightCylinder": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Right cylinder",
+    "name": "RightCylinder"
+  },
+  "RightPrism": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Right prism",
+    "name": "RightPrism"
+  },
+  "RightTriangle": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Right triangle",
+    "name": "RightTriangle"
   },
   "SWHID": {
     "backwardsCompatibility": {
@@ -10459,6 +10834,81 @@
     ],
     "label": "Specimen weight",
     "name": "SpecimenWeight"
+  },
+  "Sphere": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Sphere",
+    "name": "Sphere"
+  },
+  "Spheroid": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Spheroid",
+    "name": "Spheroid"
+  },
+  "Square": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Square",
+    "name": "Square"
   },
   "StimulationActivity": {
     "backwardsCompatibility": {
@@ -11757,6 +12207,56 @@
     ],
     "label": "Tissue sample type",
     "name": "TissueSampleType"
+  },
+  "Trapezoid": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Trapezoid",
+    "name": "Trapezoid"
+  },
+  "Triangle": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Triangle",
+    "name": "Triangle"
   },
   "TypeOfUncertainty": {
     "backwardsCompatibility": {

@@ -1,0 +1,33 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape",
+    "simplePolygon"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/RegularPolygon",
+  "label": "Regular polygon",
+  "name": "RegularPolygon",
+  "properties": {
+    "https://openminds.om-i.org/props/circumradius": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the common distance from the center to a vertex of this regular polygon.",
+      "label": "Circumradius",
+      "name": "circumradius",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/numberOfSides": {
+      "_instruction": "Enter the number of sides of this regular polygon.",
+      "label": "Number of sides",
+      "minimum": 3,
+      "name": "numberOfSides",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/circumradius",
+    "https://openminds.om-i.org/props/numberOfSides"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape",
+    "simplePolygon"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/Kite",
+  "label": "Kite",
+  "name": "Kite",
+  "properties": {
+    "https://openminds.om-i.org/props/legLengths": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the two common leg lengths (for the shorter and longer leg pairs) of this kite.",
+      "label": "Leg lengths",
+      "maxItems": 2,
+      "minItems": 2,
+      "name": "legLengths",
+      "nameForReverseLink": null,
+      "type": "array"
+    },
+    "https://openminds.om-i.org/props/symmetryDiagonalLength": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the length of the symmetry diagonal of this kite.",
+      "label": "Symmetry diagonal length",
+      "name": "symmetryDiagonalLength",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/legLengths",
+    "https://openminds.om-i.org/props/symmetryDiagonalLength"
+  ]
+}

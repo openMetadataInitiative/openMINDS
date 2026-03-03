@@ -1,0 +1,47 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/CentroidalPyramid",
+  "label": "Centroidal pyramid",
+  "name": "CentroidalPyramid",
+  "properties": {
+    "https://openminds.om-i.org/props/apexBaseDistance": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the perpendicular distance from the centroid of the base plane to the apex of this centroidal pyramid.",
+      "label": "Apex base distance",
+      "name": "apexBaseDistance",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/baseShape": {
+      "_belongsToCategory": [
+        "simplePolygon"
+      ],
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/EquilateralTriangle",
+        "https://openminds.om-i.org/types/IsoscelesTriangle",
+        "https://openminds.om-i.org/types/Kite",
+        "https://openminds.om-i.org/types/Parallelogram",
+        "https://openminds.om-i.org/types/Rectangle",
+        "https://openminds.om-i.org/types/RegularPolygon",
+        "https://openminds.om-i.org/types/Rhombus",
+        "https://openminds.om-i.org/types/RightTriangle",
+        "https://openminds.om-i.org/types/Square",
+        "https://openminds.om-i.org/types/Trapezoid",
+        "https://openminds.om-i.org/types/Triangle"
+      ],
+      "_instruction": "Enter the two-dimensional base shape of this centroidal pyramid.",
+      "label": "Base shape",
+      "name": "baseShape",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/apexBaseDistance",
+    "https://openminds.om-i.org/props/baseShape"
+  ]
+}
