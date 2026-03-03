@@ -13140,6 +13140,31 @@
     "label": "Web service version",
     "name": "WebServiceVersion"
   },
+  "WeightType": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Weight type",
+    "name": "WeightType"
+  },
   "WorkflowExecution": {
     "backwardsCompatibility": {
       "latest": [
