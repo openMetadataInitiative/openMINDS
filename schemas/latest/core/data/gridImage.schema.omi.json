@@ -15,21 +15,6 @@
       "namePlural": "additionalRemarks",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/capturedWith": {
-      "_belongsToCategory": [
-        "deviceUsage"
-      ],
-      "_instruction": "Add the device used to capture this grid image.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/ElectrodeArrayUsage",
-        "https://openminds.om-i.org/types/ElectrodeUsage",
-        "https://openminds.om-i.org/types/PipetteUsage",
-        "https://openminds.om-i.org/types/SlicingDeviceUsage"
-      ],
-      "label": "Captured with",
-      "name": "capturedWith",
-      "nameForReverseLink": null
-    },
     "https://openminds.om-i.org/props/coordinateFramework": {
       "_instruction": "Add the coordinate space in which this grid image exists.",
       "_linkedTypes": [

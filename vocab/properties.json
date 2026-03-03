@@ -2519,17 +2519,6 @@
     }
   },
   "capturedWith": {
-    "asEdge": {
-      "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/ElectrodeArrayUsage",
-          "https://openminds.om-i.org/types/ElectrodeUsage",
-          "https://openminds.om-i.org/types/PipetteUsage",
-          "https://openminds.om-i.org/types/SlicingDeviceUsage"
-        ]
-      },
-      "nameForReverseLink": null
-    },
     "description": null,
     "hasNamespace": [
       {
@@ -2543,14 +2532,7 @@
     "labelPlural": null,
     "name": "capturedWith",
     "namePlural": null,
-    "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/GridImage",
-        "https://openminds.om-i.org/types/GridImageStack",
-        "https://openminds.om-i.org/types/GridVolume",
-        "https://openminds.om-i.org/types/GridVolumeSequence"
-      ]
-    }
+    "usedIn": {}
   },
   "channel": {
     "asEdge": {
