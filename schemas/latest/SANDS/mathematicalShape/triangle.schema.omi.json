@@ -1,0 +1,38 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape",
+    "simplePolygon"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/Triangle",
+  "label": "Triangle",
+  "name": "Triangle",
+  "properties": {
+    "https://openminds.om-i.org/props/apexAngle": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the angle at the apex of this triangle.",
+      "label": "Apex angle",
+      "name": "apexAngle",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/legLengths": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the lengths of the two sides meeting at the apex of this triangle.",
+      "label": "Leg lengths",
+      "maxItems": 2,
+      "minItems": 2,
+      "name": "legLengths",
+      "nameForReverseLink": null,
+      "type": "array"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/apexAngle",
+    "https://openminds.om-i.org/props/legLengths"
+  ]
+}

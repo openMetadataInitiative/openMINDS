@@ -207,10 +207,57 @@
       "core:Organization",
       "core:Person"
     ],
-    "mathematicalShape": [
+    "mathematical2DShape": [
       "sands:Circle",
+      "sands:CircularSector",
       "sands:Ellipse",
-      "sands:Rectangle"
+      "sands:EquilateralTriangle",
+      "sands:IsoscelesTriangle",
+      "sands:Kite",
+      "sands:Parallelogram",
+      "sands:Rectangle",
+      "sands:RegularPolygon",
+      "sands:Rhombus",
+      "sands:RightTriangle",
+      "sands:Square",
+      "sands:Trapezoid",
+      "sands:Triangle"
+    ],
+    "mathematical3DShape": [
+      "sands:CentroidalPyramid",
+      "sands:Cube",
+      "sands:Ellipsoid",
+      "sands:Frustum",
+      "sands:RightCone",
+      "sands:RightCylinder",
+      "sands:RightPrism",
+      "sands:Sphere",
+      "sands:Spheroid"
+    ],
+    "mathematicalShape": [
+      "sands:CentroidalPyramid",
+      "sands:Circle",
+      "sands:CircularSector",
+      "sands:Cube",
+      "sands:Ellipse",
+      "sands:Ellipsoid",
+      "sands:EquilateralTriangle",
+      "sands:Frustum",
+      "sands:IsoscelesTriangle",
+      "sands:Kite",
+      "sands:Parallelogram",
+      "sands:Rectangle",
+      "sands:RegularPolygon",
+      "sands:Rhombus",
+      "sands:RightCone",
+      "sands:RightCylinder",
+      "sands:RightPrism",
+      "sands:RightTriangle",
+      "sands:Sphere",
+      "sands:Spheroid",
+      "sands:Square",
+      "sands:Trapezoid",
+      "sands:Triangle"
     ],
     "modificationProfileAspect": [
       "controlledTerms:ModificationConsentRequirement",
@@ -266,6 +313,19 @@
       "neuroimaging:MRICoil",
       "neuroimaging:MRIScanner",
       "specimenPrep:SlicingDevice"
+    ],
+    "simplePolygon": [
+      "sands:EquilateralTriangle",
+      "sands:IsoscelesTriangle",
+      "sands:Kite",
+      "sands:Parallelogram",
+      "sands:Rectangle",
+      "sands:RegularPolygon",
+      "sands:Rhombus",
+      "sands:RightTriangle",
+      "sands:Square",
+      "sands:Trapezoid",
+      "sands:Triangle"
     ],
     "stimulus": [
       "stimulation:EphysStimulus"

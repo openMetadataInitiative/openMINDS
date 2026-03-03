@@ -1,0 +1,47 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/RightPrism",
+  "label": "Right prism",
+  "name": "RightPrism",
+  "properties": {
+    "https://openminds.om-i.org/props/baseDistance": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the perpendicular distance between the two base planes of this right prism.",
+      "label": "Base distance",
+      "name": "baseDistance",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/baseShape": {
+      "_belongsToCategory": [
+        "simplePolygon"
+      ],
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/EquilateralTriangle",
+        "https://openminds.om-i.org/types/IsoscelesTriangle",
+        "https://openminds.om-i.org/types/Kite",
+        "https://openminds.om-i.org/types/Parallelogram",
+        "https://openminds.om-i.org/types/Rectangle",
+        "https://openminds.om-i.org/types/RegularPolygon",
+        "https://openminds.om-i.org/types/Rhombus",
+        "https://openminds.om-i.org/types/RightTriangle",
+        "https://openminds.om-i.org/types/Square",
+        "https://openminds.om-i.org/types/Trapezoid",
+        "https://openminds.om-i.org/types/Triangle"
+      ],
+      "_instruction": "Enter the two-dimensional base shape of the two planes of this right prism.",
+      "label": "Base shape",
+      "name": "baseShape",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/baseDistance",
+    "https://openminds.om-i.org/props/baseShape"
+  ]
+}

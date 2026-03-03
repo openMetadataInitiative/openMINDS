@@ -1,0 +1,28 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape",
+    "simplePolygon"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/Rhombus",
+  "label": "Rhombus",
+  "name": "Rhombus",
+  "properties": {
+    "https://openminds.om-i.org/props/diagonalLengths": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the lengths of the two perpendicular diagonals of this rhombus.",
+      "label": "Diagonal lengths",
+      "maxItems": 2,
+      "minItems": 2,
+      "name": "diagonalLengths",
+      "nameForReverseLink": null,
+      "type": "array"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/diagonalLengths"
+  ]
+}

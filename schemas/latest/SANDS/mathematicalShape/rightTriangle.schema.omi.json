@@ -1,0 +1,28 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape",
+    "simplePolygon"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/RightTriangle",
+  "label": "Right triangle",
+  "name": "RightTriangle",
+  "properties": {
+    "https://openminds.om-i.org/props/perpendicularLegLengths": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the lengths of the two perpendicular legs of this right triangle.",
+      "label": "Perpendicular leg lengths",
+      "maxItems": 2,
+      "minItems": 2,
+      "name": "perpendicularLegLengths",
+      "nameForReverseLink": null,
+      "type": "array"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/perpendicularLegLengths"
+  ]
+}

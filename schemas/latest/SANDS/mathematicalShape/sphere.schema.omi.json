@@ -1,18 +1,18 @@
 {
   "_categories": [
     "mathematicalShape",
-    "mathematical2DShape"
+    "mathematical3DShape"
   ],
   "_module": "SANDS",
-  "_type": "https://openminds.om-i.org/types/Circle",
-  "label": "Circle",
-  "name": "Circle",
+  "_type": "https://openminds.om-i.org/types/Sphere",
+  "label": "Sphere",
+  "name": "Sphere",
   "properties": {
     "https://openminds.om-i.org/props/radius": {
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValue"
       ],
-      "_instruction": "Enter the radius of this circle.",
+      "_instruction": "Enter the radius of this sphere.",
       "label": "Radius",
       "labelPlural": "Radii",
       "name": "radius",

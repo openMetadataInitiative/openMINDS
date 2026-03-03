@@ -1,0 +1,36 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/CircularSector",
+  "label": "Circular sector",
+  "name": "CircularSector",
+  "properties": {
+    "https://openminds.om-i.org/props/centralAngle": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the central angle of this circular sector.",
+      "label": "Central angle",
+      "name": "centralAngle",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/radius": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the radius of this circular sector.",
+      "label": "Radius",
+      "labelPlural": "Radii",
+      "name": "radius",
+      "nameForReverseLink": null,
+      "namePlural": "radii"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/centralAngle",
+    "https://openminds.om-i.org/props/radius"
+  ]
+}
