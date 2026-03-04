@@ -328,10 +328,10 @@
       "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/volumeTiming": {
-      "_instruction": "Add the volume timing as an array specifying the acquisition time of each volume relative to the start of the dynamic scan, expressed in seconds, with one entry per acquired volume. These values may be derived from the repetition time or extracted from the acquisition metadata.",
-      "_linkedTypes": [
+      "_embeddedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValueArray"
       ],
+      "_instruction": "Enter the volume timing as an array specifying the acquisition time of each volume relative to the start of the dynamic scan, expressed in seconds, with one entry per acquired volume. These values may be derived from the repetition time or extracted from the acquisition metadata.",
       "label": "Volume timing",
       "name": "volumeTiming",
       "nameForReverseLink": null
