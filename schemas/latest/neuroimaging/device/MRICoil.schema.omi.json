@@ -137,6 +137,8 @@
   },
   "required": [
     "https://openminds.om-i.org/props/deviceType",
+    "https://openminds.om-i.org/props/elementCount",
+    "https://openminds.om-i.org/props/mountingType",
     "https://openminds.om-i.org/props/name"
   ]
 }
