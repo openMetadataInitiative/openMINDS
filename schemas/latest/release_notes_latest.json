@@ -457,6 +457,16 @@
       "schemaType": "DataType"
     },
     {
+      "file": "controlledTerms/deviceType.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "_categories",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "DeviceType"
+    },
+    {
       "file": "controlledTerms/experimentalApproach.schema.omi.json",
       "modifiedAttributes": [
         {
