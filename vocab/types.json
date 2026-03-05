@@ -545,6 +545,31 @@
     "label": "Anatomical axes orientation",
     "name": "AnatomicalAxesOrientation"
   },
+  "AnatomicalCavity": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Anatomical cavity",
+    "name": "AnatomicalCavity"
+  },
   "AnatomicalEntity": {
     "backwardsCompatibility": {
       "v1.0": []
@@ -7325,6 +7350,56 @@
     "label": "Molecular entity",
     "name": "MolecularEntity"
   },
+  "MuscularStructure": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Muscular structure",
+    "name": "MuscularStructure"
+  },
+  "NervousSystemStructure": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Nervous system structure",
+    "name": "NervousSystemStructure"
+  },
   "NumericalParameter": {
     "backwardsCompatibility": {
       "v1.0": [],
@@ -7783,6 +7858,31 @@
     ],
     "label": "Organ",
     "name": "Organ"
+  },
+  "OrganSystemStructure": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Organ system structure",
+    "name": "OrganSystemStructure"
   },
   "OrganismSubstance": {
     "backwardsCompatibility": {
@@ -10278,6 +10378,31 @@
     "label": "Single color",
     "name": "SingleColor"
   },
+  "SkeletalStructure": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Skeletal structure",
+    "name": "SkeletalStructure"
+  },
   "SlicingDevice": {
     "backwardsCompatibility": {
       "latest": [
@@ -12202,6 +12327,31 @@
     "label": "Tissue sample type",
     "name": "TissueSampleType"
   },
+  "TissueStructure": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Tissue structure",
+    "name": "TissueStructure"
+  },
   "Trapezoid": {
     "backwardsCompatibility": {
       "latest": []
@@ -12304,9 +12454,6 @@
   },
   "UBERONParcellation": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
       "v2.0": [],
       "v3.0": [
         "v2.0"
@@ -12339,12 +12486,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
       "v2.0",
       "v3.0",
       "v4.0"
@@ -12550,6 +12695,31 @@
     ],
     "label": "Validation test version",
     "name": "ValidationTestVersion"
+  },
+  "VascularStructure": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Vascular structure",
+    "name": "VascularStructure"
   },
   "ViewerSpecification": {
     "backwardsCompatibility": {

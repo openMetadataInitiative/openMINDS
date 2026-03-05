@@ -8,6 +8,7 @@ Added files:
   - controlledTerms/accessForm.schema.omi.json
   - controlledTerms/accessProcessType.schema.omi.json
   - controlledTerms/ageReference.schema.omi.json
+  - controlledTerms/anatomicalCavity.schema.omi.json
   - controlledTerms/communicationInterfaceType.schema.omi.json
   - controlledTerms/communicationProtocol.schema.omi.json
   - controlledTerms/dependencyImpact.schema.omi.json
@@ -21,16 +22,22 @@ Added files:
   - controlledTerms/MRIFatSuppressionTechnique.schema.omi.json
   - controlledTerms/MRIParallelAcquisitionTechnique.schema.omi.json
   - controlledTerms/MRISpoilingTechnique.schema.omi.json
+  - controlledTerms/muscularStructure.schema.omi.json
+  - controlledTerms/nervousSystemStructure.schema.omi.json
   - controlledTerms/operationalApproach.schema.omi.json
   - controlledTerms/organizationType.schema.omi.json
+  - controlledTerms/organSystemStructure.schema.omi.json
   - controlledTerms/paymentModelType.schema.omi.json
   - controlledTerms/projectType.schema.omi.json
   - controlledTerms/publicationStatus.schema.omi.json
   - controlledTerms/pulseShape.schema.omi.json
   - controlledTerms/signalDirectionality.schema.omi.json
+  - controlledTerms/skeletalStructure.schema.omi.json
   - controlledTerms/sovereignState.schema.omi.json
   - controlledTerms/spatialEncoding.schema.omi.json
   - controlledTerms/supranationalBody.schema.omi.json
+  - controlledTerms/tissueStructure.schema.omi.json
+  - controlledTerms/vascularStructure.schema.omi.json
   - controlledTerms/weightType.schema.omi.json
   - core/data/gridImage.schema.omi.json
   - core/data/gridImageStack.schema.omi.json
@@ -78,6 +85,7 @@ Added files:
 
 Removed files:
   - controlledTerms/ethicsAssessment.schema.omi.json
+  - controlledTerms/UBERONParcellation.schema.omi.json
   - core/digitalIdentifier/GRIDID.schema.omi.json
   - core/products/webService.schema.omi.json
   - core/products/webServiceVersion.schema.omi.json
@@ -107,27 +115,27 @@ Changes in chemicals/productSource.schema.omi.json:
 Changes in computation/dataAnalysis.schema.omi.json:
   - Field 'properties.props:environment._linkedTypes' modified.
   - Field 'properties.props:input._linkedTypes' modified.
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
 
 Changes in computation/dataCopy.schema.omi.json:
   - Field 'properties.props:environment._linkedTypes' modified.
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
 
 Changes in computation/genericComputation.schema.omi.json:
   - Field 'properties.props:environment._linkedTypes' modified.
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
 
 Changes in computation/modelValidation.schema.omi.json:
   - Field 'properties.props:environment._linkedTypes' modified.
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
 
 Changes in computation/optimization.schema.omi.json:
   - Field 'properties.props:environment._linkedTypes' modified.
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
 
 Changes in computation/simulation.schema.omi.json:
   - Field 'properties.props:environment._linkedTypes' modified.
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
 
 Changes in computation/validationTest.schema.omi.json:
   - Field 'properties.props:custodian' removed.
@@ -143,7 +151,7 @@ Changes in computation/validationTest.schema.omi.json:
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:homepage._instruction' modified.
   - Field 'properties.props:shortName._instruction' modified.
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
   - Field 'required' modified.
 
 Changes in computation/validationTestVersion.schema.omi.json:
@@ -178,7 +186,7 @@ Changes in computation/validationTestVersion.schema.omi.json:
 
 Changes in computation/visualization.schema.omi.json:
   - Field 'properties.props:environment._linkedTypes' modified.
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
 
 Changes in computation/workflowRecipe.schema.omi.json:
   - Field 'properties.props:custodian' removed.
@@ -432,7 +440,7 @@ Changes in core/products/datasetVersion.schema.omi.json:
   - Field 'properties.props:shortName._instruction' modified.
   - Field 'properties.props:studiedSpecimen._instruction' modified.
   - Field 'properties.props:studiedSpecimen._linkedTypes' modified (value(s) added).
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
   - Field 'properties.props:supportChannel._instruction' modified.
   - Field 'properties.props:technique._linkedTypes' modified (value(s) added).
   - Field 'required' modified.
@@ -503,7 +511,7 @@ Changes in core/products/model.schema.omi.json:
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:homepage._instruction' modified.
   - Field 'properties.props:shortName._instruction' modified.
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
   - Field 'required' modified.
 
 Changes in core/products/modelVersion.schema.omi.json:
@@ -617,7 +625,7 @@ Changes in core/research/protocol.schema.omi.json:
 
 Changes in core/research/protocolExecution.schema.omi.json:
   - Field 'properties.props:input._linkedTypes' modified.
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
 
 Changes in core/research/subjectGroup.schema.omi.json:
   - Field 'properties.props:isPartOf' added.
@@ -638,11 +646,11 @@ Changes in core/research/subjectState.schema.omi.json:
   - Field 'properties.props:weight._instruction' modified.
 
 Changes in core/research/tissueSample.schema.omi.json:
-  - Field 'properties.props:anatomicalLocation._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:anatomicalLocation._linkedTypes' modified.
 
 Changes in core/research/tissueSampleCollection.schema.omi.json:
   - Field 'properties.props:isPartOf' added.
-  - Field 'properties.props:anatomicalLocation._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:anatomicalLocation._linkedTypes' modified.
 
 Changes in core/research/tissueSampleCollectionState.schema.omi.json:
   - Field 'properties.props:associatedProtocol' added.
@@ -659,13 +667,13 @@ Changes in core/research/tissueSampleState.schema.omi.json:
   - Field 'properties.props:weight._instruction' modified.
 
 Changes in ephys/activity/cellPatching.schema.omi.json:
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
 
 Changes in ephys/activity/electrodePlacement.schema.omi.json:
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
 
 Changes in ephys/activity/recordingActivity.schema.omi.json:
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
 
 Changes in ephys/device/electrode.schema.omi.json:
   - Field 'properties.props:manufacturer._linkedTypes' modified (value(s) removed).
@@ -676,18 +684,18 @@ Changes in ephys/device/electrodeArray.schema.omi.json:
   - Field 'properties.props:owner._linkedTypes' modified (value(s) removed).
 
 Changes in ephys/device/electrodeArrayUsage.schema.omi.json:
-  - Field 'properties.props:anatomicalLocationOfArray._linkedTypes' modified (value(s) added).
-  - Field 'properties.props:anatomicalLocationOfElectrodes._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:anatomicalLocationOfArray._linkedTypes' modified.
+  - Field 'properties.props:anatomicalLocationOfElectrodes._linkedTypes' modified.
 
 Changes in ephys/device/electrodeUsage.schema.omi.json:
-  - Field 'properties.props:anatomicalLocation._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:anatomicalLocation._linkedTypes' modified.
 
 Changes in ephys/device/pipette.schema.omi.json:
   - Field 'properties.props:manufacturer._linkedTypes' modified (value(s) removed).
   - Field 'properties.props:owner._linkedTypes' modified (value(s) removed).
 
 Changes in ephys/device/pipetteUsage.schema.omi.json:
-  - Field 'properties.props:anatomicalLocation._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:anatomicalLocation._linkedTypes' modified.
 
 Changes in publications/book.schema.omi.json:
   - Field 'properties.props:author' removed.
@@ -806,7 +814,7 @@ Changes in SANDS/atlas/parcellationTerminologyVersion.schema.omi.json:
   - Field 'properties.props:dataLocation._linkedTypes' modified (value(s) added).
 
 Changes in SANDS/miscellaneous/anatomicalTargetPosition.schema.omi.json:
-  - Field 'properties.props:anatomicalTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:anatomicalTarget._linkedTypes' modified.
 
 Changes in SANDS/miscellaneous/coordinatePoint.schema.omi.json:
   - Field 'properties.props:coordinateSpace' removed.
@@ -821,17 +829,17 @@ Changes in SANDS/non-atlas/customAnnotation.schema.omi.json:
 Changes in specimenPrep/activity/cranialWindowPreparation.schema.omi.json:
   - Field 'properties.props:dimension._belongsToCategory' modified.
   - Field 'properties.props:dimension._embeddedTypes' modified (value(s) added).
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
 
 Changes in specimenPrep/activity/tissueCulturePreparation.schema.omi.json:
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
 
 Changes in specimenPrep/activity/tissueSampleSlicing.schema.omi.json:
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.
 
 Changes in specimenPrep/device/slicingDevice.schema.omi.json:
   - Field 'properties.props:manufacturer._linkedTypes' modified (value(s) removed).
   - Field 'properties.props:owner._linkedTypes' modified (value(s) removed).
 
 Changes in stimulation/activity/stimulationActivity.schema.omi.json:
-  - Field 'properties.props:studyTarget._linkedTypes' modified (value(s) added).
+  - Field 'properties.props:studyTarget._linkedTypes' modified.

@@ -5,10 +5,9 @@
     "studyTarget"
   ],
   "_module": "controlledTerms",
-  "_type": "https://openminds.om-i.org/types/UBERONParcellation",
-  "color": "#DA8386",
-  "label": "Uberonparcellation",
-  "name": "UBERONParcellation",
+  "_type": "https://openminds.om-i.org/types/SkeletalStructure",
+  "label": "Skeletal structure",
+  "name": "SkeletalStructure",
   "properties": {
     "https://openminds.om-i.org/props/definition": {
       "_instruction": "Enter one sentence for defining this term.",
