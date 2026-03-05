@@ -24226,11 +24226,11 @@
     "namePlural": null,
     "usedIn": {}
   },
-  "spoilingType": {
+  "spoilingTechnique": {
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/MRISpoilingType"
+          "https://openminds.om-i.org/types/MRISpoilingTechnique"
         ]
       },
       "nameForReverseLink": null
@@ -24244,15 +24244,31 @@
         "namespace": "https://openminds.om-i.org/props/"
       }
     ],
-    "label": "Spoiling type",
+    "label": "Spoiling technique",
     "labelPlural": null,
-    "name": "spoilingType",
+    "name": "spoilingTechnique",
     "namePlural": null,
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
       ]
     }
+  },
+  "spoilingType": {
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Spoiling type",
+    "labelPlural": null,
+    "name": "spoilingType",
+    "namePlural": null,
+    "usedIn": {}
   },
   "stage": {
     "asEdge": {

@@ -262,13 +262,13 @@
       "name": "spatialEncoding",
       "nameForReverseLink": null
     },
-    "https://openminds.om-i.org/props/spoilingType": {
-      "_instruction": "Add the spoiling type used in this acquisition, specifying the method applied to eliminate residual transverse magnetization (for example, radiofrequency spoiling or gradient spoiling). This information is defined in the sequence protocol and can be retrieved from the DICOM header.",
+    "https://openminds.om-i.org/props/spoilingTechnique": {
+      "_instruction": "Add the spoiling technique used in this acquisition, specifying the method applied to eliminate residual transverse magnetization (for example, radiofrequency spoiling or gradient spoiling). This information is defined in the sequence protocol and can be retrieved from the DICOM header.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/MRISpoilingType"
+        "https://openminds.om-i.org/types/MRISpoilingTechnique"
       ],
-      "label": "Spoiling type",
-      "name": "spoilingType",
+      "label": "Spoiling technique",
+      "name": "spoilingTechnique",
       "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/totalReadOutTime": {
