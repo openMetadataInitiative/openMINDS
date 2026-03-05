@@ -10130,9 +10130,7 @@
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
-    "isPartOfVersion": [
-      "v4.0"
-    ],
+    "isPartOfVersion": [],
     "label": "Raster image",
     "name": "RasterImage"
   },
@@ -10147,9 +10145,7 @@
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
-    "isPartOfVersion": [
-      "v4.0"
-    ],
+    "isPartOfVersion": [],
     "label": "Raster image stack",
     "name": "RasterImageStack"
   },
@@ -10164,9 +10160,7 @@
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
-    "isPartOfVersion": [
-      "v4.0"
-    ],
+    "isPartOfVersion": [],
     "label": "Raster volume",
     "name": "RasterVolume"
   },
@@ -10181,9 +10175,7 @@
         "namespace": "https://openminds.om-i.org/types/"
       }
     ],
-    "isPartOfVersion": [
-      "v4.0"
-    ],
+    "isPartOfVersion": [],
     "label": "Raster volume sequence",
     "name": "RasterVolumeSequence"
   },

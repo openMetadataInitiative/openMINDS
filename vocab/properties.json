@@ -868,10 +868,6 @@
         "https://openminds.om-i.org/types/ChemicalSubstance",
         "https://openminds.om-i.org/types/Measurement",
         "https://openminds.om-i.org/types/ParcellationEntityVersion",
-        "https://openminds.om-i.org/types/RasterImage",
-        "https://openminds.om-i.org/types/RasterImageStack",
-        "https://openminds.om-i.org/types/RasterVolume",
-        "https://openminds.om-i.org/types/RasterVolumeSequence",
         "https://openminds.om-i.org/types/Recording",
         "https://openminds.om-i.org/types/SubjectGroup",
         "https://openminds.om-i.org/types/SubjectGroupState",
@@ -2913,17 +2909,6 @@
     }
   },
   "capturedWith": {
-    "asEdge": {
-      "canPointTo": {
-        "v4.0": [
-          "https://openminds.om-i.org/types/ElectrodeArrayUsage",
-          "https://openminds.om-i.org/types/ElectrodeUsage",
-          "https://openminds.om-i.org/types/PipetteUsage",
-          "https://openminds.om-i.org/types/SlicingDeviceUsage"
-        ]
-      },
-      "nameForReverseLink": null
-    },
     "description": null,
     "hasNamespace": [
       {
@@ -2938,14 +2923,7 @@
     "labelPlural": null,
     "name": "capturedWith",
     "namePlural": null,
-    "usedIn": {
-      "v4.0": [
-        "https://openminds.om-i.org/types/RasterImage",
-        "https://openminds.om-i.org/types/RasterImageStack",
-        "https://openminds.om-i.org/types/RasterVolume",
-        "https://openminds.om-i.org/types/RasterVolumeSequence"
-      ]
-    }
+    "usedIn": {}
   },
   "centralAngle": {
     "asEdge": {
@@ -4255,10 +4233,6 @@
         "latest": [
           "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
           "https://openminds.om-i.org/types/CustomCoordinateFramework"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
-          "https://openminds.om-i.org/types/CustomCoordinateFramework"
         ]
       },
       "nameForReverseLink": null
@@ -4286,12 +4260,6 @@
         "https://openminds.om-i.org/types/GridImageStack",
         "https://openminds.om-i.org/types/GridVolume",
         "https://openminds.om-i.org/types/GridVolumeSequence"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/RasterImage",
-        "https://openminds.om-i.org/types/RasterImageStack",
-        "https://openminds.om-i.org/types/RasterVolume",
-        "https://openminds.om-i.org/types/RasterVolumeSequence"
       ]
     }
   },
@@ -5439,10 +5407,6 @@
         "https://openminds.om-i.org/types/CustomPropertySet",
         "https://openminds.om-i.org/types/ParcellationTerminology",
         "https://openminds.om-i.org/types/ParcellationTerminologyVersion",
-        "https://openminds.om-i.org/types/RasterImage",
-        "https://openminds.om-i.org/types/RasterImageStack",
-        "https://openminds.om-i.org/types/RasterVolume",
-        "https://openminds.om-i.org/types/RasterVolumeSequence",
         "https://openminds.om-i.org/types/Recording",
         "https://openminds.om-i.org/types/ServiceLink"
       ]
@@ -7777,11 +7741,7 @@
         "https://openminds.ebrains.eu/specimenPrep/CranialWindowPreparation"
       ],
       "v4.0": [
-        "https://openminds.om-i.org/types/CranialWindowPreparation",
-        "https://openminds.om-i.org/types/RasterImage",
-        "https://openminds.om-i.org/types/RasterImageStack",
-        "https://openminds.om-i.org/types/RasterVolume",
-        "https://openminds.om-i.org/types/RasterVolumeSequence"
+        "https://openminds.om-i.org/types/CranialWindowPreparation"
       ]
     }
   },
@@ -17314,10 +17274,6 @@
         "https://openminds.om-i.org/types/ProgrammingLanguage",
         "https://openminds.om-i.org/types/Protocol",
         "https://openminds.om-i.org/types/QualitativeOverlap",
-        "https://openminds.om-i.org/types/RasterImage",
-        "https://openminds.om-i.org/types/RasterImageStack",
-        "https://openminds.om-i.org/types/RasterVolume",
-        "https://openminds.om-i.org/types/RasterVolumeSequence",
         "https://openminds.om-i.org/types/Recording",
         "https://openminds.om-i.org/types/ScholarlyArticle",
         "https://openminds.om-i.org/types/SemanticDataType",
@@ -17582,9 +17538,6 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/GridImageStack"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/RasterImageStack"
       ]
     }
   },
@@ -17607,10 +17560,6 @@
       "latest": [
         "https://openminds.om-i.org/types/GridVolume",
         "https://openminds.om-i.org/types/GridVolumeSequence"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/RasterVolume",
-        "https://openminds.om-i.org/types/RasterVolumeSequence"
       ]
     }
   },
@@ -17738,9 +17687,6 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/GridVolumeSequence"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/RasterVolumeSequence"
       ]
     }
   },
@@ -19346,9 +19292,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -19371,10 +19314,6 @@
       "latest": [
         "https://openminds.om-i.org/types/GridImage",
         "https://openminds.om-i.org/types/GridImageStack"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/RasterImage",
-        "https://openminds.om-i.org/types/RasterImageStack"
       ]
     }
   },
@@ -26719,9 +26658,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -26743,9 +26679,6 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/GridVolumeSequence"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/RasterVolumeSequence"
       ]
     }
   },
@@ -28297,9 +28230,6 @@
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -28332,10 +28262,6 @@
       ],
       "v1.0": [
         "https://openminds.ebrains.eu/sands/Image"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/RasterVolume",
-        "https://openminds.om-i.org/types/RasterVolumeSequence"
       ]
     }
   },
@@ -28655,9 +28581,6 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
-        "v4.0": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -28679,9 +28602,6 @@
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/GridImageStack"
-      ],
-      "v4.0": [
-        "https://openminds.om-i.org/types/RasterImageStack"
       ]
     }
   }
