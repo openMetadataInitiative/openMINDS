@@ -87,6 +87,8 @@ Removed files:
   - core/digitalIdentifier/GRIDID.schema.omi.json
   - core/products/webService.schema.omi.json
   - core/products/webServiceVersion.schema.omi.json
+  - ephys/entity/channel.schema.omi.json
+  - ephys/entity/recording.schema.omi.json
   - SANDS/atlas/brainAtlas.schema.omi.json
   - SANDS/atlas/brainAtlasVersion.schema.omi.json
   - SANDS/atlas/commonCoordinateSpace.schema.omi.json
@@ -684,9 +686,6 @@ Changes in ephys/device/pipette.schema.omi.json:
 
 Changes in ephys/device/pipetteUsage.schema.omi.json:
   - Field 'properties.props:anatomicalLocation._linkedTypes' modified (value(s) added).
-
-Changes in ephys/entity/recording.schema.omi.json:
-  - Field 'properties.props:recordedWith._linkedTypes' modified (value(s) added).
 
 Changes in publications/book.schema.omi.json:
   - Field 'properties.props:author' removed.
