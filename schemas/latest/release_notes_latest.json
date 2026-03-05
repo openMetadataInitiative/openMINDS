@@ -774,14 +774,14 @@
     {
       "file": "core/digitalIdentifier/RRID.schema.omi.json",
       "addedAttributes": [
-        "_category"
+        "_categories"
       ],
       "schemaType": "RRID"
     },
     {
       "file": "core/digitalIdentifier/SWHID.schema.omi.json",
       "addedAttributes": [
-        "_category"
+        "_categories"
       ],
       "schemaType": "SWHID"
     },
@@ -976,7 +976,8 @@
           "property": "properties.props:description._instruction"
         },
         {
-          "property": "properties.props:digitalIdentifier._linkedTypes"
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
         },
         {
           "property": "properties.props:fullName._instruction"
@@ -1025,7 +1026,8 @@
           "property": "properties.props:description._instruction"
         },
         {
-          "property": "properties.props:digitalIdentifier._linkedTypes"
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
         },
         {
           "property": "properties.props:fullName._instruction"
@@ -1079,7 +1081,8 @@
           "property": "properties.props:description._instruction"
         },
         {
-          "property": "properties.props:digitalIdentifier._linkedTypes"
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
         },
         {
           "property": "properties.props:fullName._instruction"
@@ -1132,7 +1135,8 @@
           "property": "properties.props:description._instruction"
         },
         {
-          "property": "properties.props:digitalIdentifier._linkedTypes"
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
         },
         {
           "property": "properties.props:fullName._instruction"
@@ -1220,7 +1224,8 @@
           "property": "properties.props:description._instruction"
         },
         {
-          "property": "properties.props:digitalIdentifier._linkedTypes"
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
         },
         {
           "property": "properties.props:fullName._instruction"
@@ -1278,7 +1283,8 @@
           "property": "properties.props:description._instruction"
         },
         {
-          "property": "properties.props:digitalIdentifier._linkedTypes"
+          "property": "properties.props:digitalIdentifier._linkedTypes",
+          "modification": "value(s) added"
         },
         {
           "property": "properties.props:fullName._instruction"

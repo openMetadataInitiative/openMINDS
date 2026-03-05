@@ -355,10 +355,10 @@ Changes in core/digitalIdentifier/RORID.schema.omi.json:
   - Field '_category' added.
 
 Changes in core/digitalIdentifier/RRID.schema.omi.json:
-  - Field '_category' added.
+  - Field '_categories' added.
 
 Changes in core/digitalIdentifier/SWHID.schema.omi.json:
-  - Field '_category' added.
+  - Field '_categories' added.
 
 Changes in core/miscellaneous/comment.schema.omi.json:
   - Field 'properties.props:about._linkedTypes' modified.
@@ -446,7 +446,7 @@ Changes in core/products/metaDataModel.schema.omi.json:
   - Field 'properties.props:supportChannel' added.
   - Field 'properties.props:description._instruction' modified.
   - Field 'properties.props:digitalIdentifier._belongsToCategory' added.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:homepage._instruction' modified.
   - Field 'properties.props:shortName._instruction' modified.
@@ -473,7 +473,7 @@ Changes in core/products/metaDataModelVersion.schema.omi.json:
   - Field 'properties.props:accessibility._linkedTypes' modified.
   - Field 'properties.props:description._instruction' modified.
   - Field 'properties.props:digitalIdentifier._belongsToCategory' added.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:homepage._instruction' modified.
   - Field 'properties.props:keyword._instruction' modified.
@@ -496,7 +496,7 @@ Changes in core/products/model.schema.omi.json:
   - Field 'properties.props:supportChannel' added.
   - Field 'properties.props:description._instruction' modified.
   - Field 'properties.props:digitalIdentifier._belongsToCategory' added.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:homepage._instruction' modified.
   - Field 'properties.props:shortName._instruction' modified.
@@ -524,7 +524,7 @@ Changes in core/products/modelVersion.schema.omi.json:
   - Field 'properties.props:accessibility._linkedTypes' modified.
   - Field 'properties.props:description._instruction' modified.
   - Field 'properties.props:digitalIdentifier._belongsToCategory' added.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:homepage._instruction' modified.
   - Field 'properties.props:keyword._instruction' modified.
@@ -558,7 +558,7 @@ Changes in core/products/software.schema.omi.json:
   - Field 'properties.props:supportChannel' added.
   - Field 'properties.props:description._instruction' modified.
   - Field 'properties.props:digitalIdentifier._belongsToCategory' added.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:homepage._instruction' modified.
   - Field 'properties.props:shortName._instruction' modified.
@@ -594,7 +594,7 @@ Changes in core/products/softwareVersion.schema.omi.json:
   - Field 'properties.props:accessibility._linkedTypes' modified.
   - Field 'properties.props:description._instruction' modified.
   - Field 'properties.props:digitalIdentifier._belongsToCategory' added.
-  - Field 'properties.props:digitalIdentifier._linkedTypes' modified.
+  - Field 'properties.props:digitalIdentifier._linkedTypes' modified (value(s) added).
   - Field 'properties.props:fullName._instruction' modified.
   - Field 'properties.props:homepage._instruction' modified.
   - Field 'properties.props:keyword._instruction' modified.

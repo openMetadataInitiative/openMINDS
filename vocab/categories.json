@@ -50,7 +50,8 @@
     "datasetIdentifier": [
       "core:DOI",
       "core:GenericIdentifier",
-      "core:IdentifiersDotOrgID"
+      "core:IdentifiersDotOrgID",
+      "core:RRID"
     ],
     "deviceUsage": [
       "ephys:ElectrodeArrayUsage",
@@ -266,7 +267,8 @@
       "controlledTerms:ModificationScope"
     ],
     "organizationIdentifier": [
-      "core:GenericIdentifier"
+      "core:GenericIdentifier",
+      "core:RRID"
     ],
     "personIdentifier": [
       "core:GenericIdentifier",
@@ -384,7 +386,9 @@
     ],
     "toolIdentifier": [
       "core:DOI",
-      "core:GenericIdentifier"
+      "core:GenericIdentifier",
+      "core:RRID",
+      "core:SWHID"
     ],
     "toolScope": [
       "controlledTerms:AnalysisTechnique",
