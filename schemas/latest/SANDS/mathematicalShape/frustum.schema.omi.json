@@ -48,7 +48,7 @@
       "exclusiveMinimum": 0,
       "label": "Minor base scale",
       "name": "minorBaseScale",
-      "type": "float"
+      "type": "number"
     }
   },
   "required": [
