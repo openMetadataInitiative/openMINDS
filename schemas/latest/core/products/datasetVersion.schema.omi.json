@@ -90,7 +90,8 @@
       "_linkedTypes": [
         "https://openminds.om-i.org/types/DOI",
         "https://openminds.om-i.org/types/GenericIdentifier",
-        "https://openminds.om-i.org/types/IdentifiersDotOrgID"
+        "https://openminds.om-i.org/types/IdentifiersDotOrgID",
+        "https://openminds.om-i.org/types/RRID"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",

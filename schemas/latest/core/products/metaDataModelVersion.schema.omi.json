@@ -74,7 +74,9 @@
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/DOI",
-        "https://openminds.om-i.org/types/GenericIdentifier"
+        "https://openminds.om-i.org/types/GenericIdentifier",
+        "https://openminds.om-i.org/types/RRID",
+        "https://openminds.om-i.org/types/SWHID"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",

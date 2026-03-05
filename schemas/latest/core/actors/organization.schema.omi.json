@@ -48,7 +48,8 @@
       ],
       "_instruction": "Add all globally unique and persistent digital identifier of this organization.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/GenericIdentifier"
+        "https://openminds.om-i.org/types/GenericIdentifier",
+        "https://openminds.om-i.org/types/RRID"
       ],
       "description": "Digital handle to identify objects or legal persons.",
       "label": "Digital identifier",
