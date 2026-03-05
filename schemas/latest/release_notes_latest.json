@@ -726,6 +726,13 @@
       "schemaType": "FileBundle"
     },
     {
+      "file": "core/data/measurement.schema.omi.json",
+      "removedAttributes": [
+        "properties.props:measuredWith"
+      ],
+      "schemaType": "Measurement"
+    },
+    {
       "file": "core/digitalIdentifier/DOI.schema.omi.json",
       "modifiedAttributes": [
         {
