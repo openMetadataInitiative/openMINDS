@@ -719,11 +719,8 @@
     },
     {
       "file": "core/data/measurement.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:measuredWith._linkedTypes",
-          "modification": "value(s) added"
-        }
+      "removedAttributes": [
+        "properties.props:measuredWith"
       ],
       "schemaType": "Measurement"
     },
