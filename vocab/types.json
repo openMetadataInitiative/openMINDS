@@ -1575,9 +1575,6 @@
   },
   "Channel": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
       "v3.0": [],
       "v4.0": []
     },
@@ -1603,12 +1600,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
       "v3.0",
       "v4.0"
     ],
@@ -9502,9 +9497,6 @@
   },
   "Recording": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
       "v3.0": [],
       "v4.0": []
     },
@@ -9530,12 +9522,10 @@
         "v3.0"
       ],
       [
-        "latest",
         "v4.0"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
       "v3.0",
       "v4.0"
     ],

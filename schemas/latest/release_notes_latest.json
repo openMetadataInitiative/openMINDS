@@ -81,6 +81,8 @@
     "core/digitalIdentifier/GRIDID.schema.omi.json",
     "core/products/webService.schema.omi.json",
     "core/products/webServiceVersion.schema.omi.json",
+    "ephys/entity/channel.schema.omi.json",
+    "ephys/entity/recording.schema.omi.json",
     "SANDS/atlas/brainAtlas.schema.omi.json",
     "SANDS/atlas/brainAtlasVersion.schema.omi.json",
     "SANDS/atlas/commonCoordinateSpace.schema.omi.json",

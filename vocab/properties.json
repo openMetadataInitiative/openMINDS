@@ -664,7 +664,6 @@
         "https://openminds.om-i.org/types/GridVolumeSequence",
         "https://openminds.om-i.org/types/Measurement",
         "https://openminds.om-i.org/types/ParcellationEntityVersion",
-        "https://openminds.om-i.org/types/Recording",
         "https://openminds.om-i.org/types/SubjectGroup",
         "https://openminds.om-i.org/types/SubjectGroupState",
         "https://openminds.om-i.org/types/SubjectState",
@@ -2755,8 +2754,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/AccessChannel",
-          "https://openminds.om-i.org/types/Channel"
+          "https://openminds.om-i.org/types/AccessChannel"
         ],
         "v3.0": [
           "https://openminds.ebrains.eu/ephys/Channel"
@@ -2789,8 +2787,7 @@
     "namePlural": "channels",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/Accessibility",
-        "https://openminds.om-i.org/types/Recording"
+        "https://openminds.om-i.org/types/Accessibility"
       ],
       "v3.0": [
         "https://openminds.ebrains.eu/ephys/Recording"
@@ -5098,7 +5095,6 @@
         "https://openminds.om-i.org/types/GridVolumeSequence",
         "https://openminds.om-i.org/types/ParcellationTerminology",
         "https://openminds.om-i.org/types/ParcellationTerminologyVersion",
-        "https://openminds.om-i.org/types/Recording",
         "https://openminds.om-i.org/types/ServiceLink"
       ],
       "v1.0": [
@@ -12111,13 +12107,11 @@
       "latest": [
         "https://openminds.om-i.org/types/AtlasAnnotation",
         "https://openminds.om-i.org/types/BehavioralProtocol",
-        "https://openminds.om-i.org/types/Channel",
         "https://openminds.om-i.org/types/CustomAnnotation",
         "https://openminds.om-i.org/types/Electrode",
         "https://openminds.om-i.org/types/ElectrodeArray",
         "https://openminds.om-i.org/types/EphysStimulus",
         "https://openminds.om-i.org/types/Pipette",
-        "https://openminds.om-i.org/types/Recording",
         "https://openminds.om-i.org/types/RecordingActivity",
         "https://openminds.om-i.org/types/Subject",
         "https://openminds.om-i.org/types/SubjectGroup",
@@ -15470,7 +15464,6 @@
         "https://openminds.om-i.org/types/PublicationStatus",
         "https://openminds.om-i.org/types/PulseShape",
         "https://openminds.om-i.org/types/QualitativeOverlap",
-        "https://openminds.om-i.org/types/Recording",
         "https://openminds.om-i.org/types/ScholarlyArticle",
         "https://openminds.om-i.org/types/SemanticDataType",
         "https://openminds.om-i.org/types/Service",
@@ -18429,9 +18422,6 @@
   "previousRecording": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/Recording"
-        ],
         "v3.0": [
           "https://openminds.ebrains.eu/ephys/Recording"
         ],
@@ -18462,9 +18452,6 @@
     "name": "previousRecording",
     "namePlural": "previousRecordings",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Recording"
-      ],
       "v3.0": [
         "https://openminds.ebrains.eu/ephys/Recording"
       ],
@@ -19334,12 +19321,6 @@
   "recordedWith": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/ElectrodeArrayUsage",
-          "https://openminds.om-i.org/types/ElectrodeUsage",
-          "https://openminds.om-i.org/types/PipetteUsage",
-          "https://openminds.om-i.org/types/SlicingDeviceUsage"
-        ],
         "v3.0": [
           "https://openminds.ebrains.eu/ephys/ElectrodeArrayUsage",
           "https://openminds.ebrains.eu/ephys/ElectrodeUsage",
@@ -19376,9 +19357,6 @@
     "name": "recordedWith",
     "namePlural": "recordedWith",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Recording"
-      ],
       "v3.0": [
         "https://openminds.ebrains.eu/ephys/Recording"
       ],
@@ -20542,9 +20520,6 @@
   "samplingFrequency": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/QuantitativeValue"
-        ],
         "v3.0": [
           "https://openminds.ebrains.eu/core/QuantitativeValue"
         ],
@@ -20575,9 +20550,6 @@
     "name": "samplingFrequency",
     "namePlural": "samplingFrequencies",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/Recording"
-      ],
       "v3.0": [
         "https://openminds.ebrains.eu/ephys/Recording"
       ],
@@ -24591,7 +24563,6 @@
     "namePlural": "units",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/Channel",
         "https://openminds.om-i.org/types/QuantitativeValue",
         "https://openminds.om-i.org/types/QuantitativeValueArray"
       ],
