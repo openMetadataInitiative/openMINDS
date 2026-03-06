@@ -1,5 +1,18 @@
 {
   "latest": {
+    "UBERONAnatomicalEntity": [
+      "controlledTerms:AnatomicalCavity",
+      "controlledTerms:ExternalBodyRegion",
+      "controlledTerms:MuscularStructure",
+      "controlledTerms:NervousSystemStructure",
+      "controlledTerms:Organ",
+      "controlledTerms:OrganSystemStructure",
+      "controlledTerms:OrganismSubstance",
+      "controlledTerms:OrganismSystem",
+      "controlledTerms:SkeletalStructure",
+      "controlledTerms:TissueStructure",
+      "controlledTerms:VascularStructure"
+    ],
     "actor": [
       "core:Consortium",
       "core:Organization",
@@ -18,6 +31,7 @@
       "controlledTerms:Organ",
       "controlledTerms:OrganSystemStructure",
       "controlledTerms:OrganismSubstance",
+      "controlledTerms:OrganismSystem",
       "controlledTerms:SkeletalStructure",
       "controlledTerms:SubcellularEntity",
       "controlledTerms:TissueStructure",
