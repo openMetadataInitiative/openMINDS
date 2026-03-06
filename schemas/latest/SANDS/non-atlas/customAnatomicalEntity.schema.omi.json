@@ -33,17 +33,27 @@
       "namePlural": "names",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/relatedUBERONTerm": {
-      "_instruction": "Add the related anatomical entity as defined by the UBERON ontology.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/Organ",
-        "https://openminds.om-i.org/types/UBERONParcellation"
+    "https://openminds.om-i.org/props/relatedInterspeciesAnatomy": {
+      "_belongsToCategory": [
+        "UBERONAnatomicalEntity"
       ],
-      "label": "Related uberonterm",
-      "labelPlural": "Related UBERON terms",
-      "name": "relatedUBERONTerm",
-      "nameForReverseLink": null,
-      "namePlural": "relatedUBERONTerms"
+      "_instruction": "Add the corresponding cross-species anatomical entity from the UBERON-derived terminologies that represents the generic anatomical concept underlying the custom anatomical entity.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnatomicalCavity",
+        "https://openminds.om-i.org/types/ExternalBodyRegion",
+        "https://openminds.om-i.org/types/MuscularStructure",
+        "https://openminds.om-i.org/types/NervousSystemStructure",
+        "https://openminds.om-i.org/types/Organ",
+        "https://openminds.om-i.org/types/OrganSystemStructure",
+        "https://openminds.om-i.org/types/OrganismSubstance",
+        "https://openminds.om-i.org/types/OrganismSystem",
+        "https://openminds.om-i.org/types/SkeletalStructure",
+        "https://openminds.om-i.org/types/TissueStructure",
+        "https://openminds.om-i.org/types/VascularStructure"
+      ],
+      "label": "Related interspecies anatomy",
+      "name": "relatedInterspeciesAnatomy",
+      "nameForReverseLink": null
     },
     "https://openminds.om-i.org/props/relationAssessment": {
       "_embeddedTypes": [

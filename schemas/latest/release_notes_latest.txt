@@ -805,6 +805,8 @@ Changes in publications/scholarlyArticle.schema.omi.json:
 
 Changes in SANDS/atlas/parcellationEntity.schema.omi.json:
   - Field 'properties.props:hasVersion' removed.
+  - Field 'properties.props:relatedUBERONTerm' removed.
+  - Field 'properties.props:relatedInterspeciesAnatomy' added.
   - Field 'required' modified (value(s) added).
 
 Changes in SANDS/atlas/parcellationEntityVersion.schema.omi.json:
@@ -827,6 +829,10 @@ Changes in SANDS/miscellaneous/coordinatePoint.schema.omi.json:
   - Field 'properties.props:coordinateSpace' removed.
   - Field 'properties.props:coordinateFramework' added.
   - Field 'required' modified.
+
+Changes in SANDS/non-atlas/customAnatomicalEntity.schema.omi.json:
+  - Field 'properties.props:relatedUBERONTerm' removed.
+  - Field 'properties.props:relatedInterspeciesAnatomy' added.
 
 Changes in SANDS/non-atlas/customAnnotation.schema.omi.json:
   - Field 'properties.props:coordinateSpace' removed.

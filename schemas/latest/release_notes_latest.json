@@ -1811,8 +1811,12 @@
     },
     {
       "file": "SANDS/atlas/parcellationEntity.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:relatedInterspeciesAnatomy"
+      ],
       "removedAttributes": [
-        "properties.props:hasVersion"
+        "properties.props:hasVersion",
+        "properties.props:relatedUBERONTerm"
       ],
       "modifiedAttributes": [
         {
@@ -1888,6 +1892,16 @@
         }
       ],
       "schemaType": "CoordinatePoint"
+    },
+    {
+      "file": "SANDS/non-atlas/customAnatomicalEntity.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:relatedInterspeciesAnatomy"
+      ],
+      "removedAttributes": [
+        "properties.props:relatedUBERONTerm"
+      ],
+      "schemaType": "CustomAnatomicalEntity"
     },
     {
       "file": "SANDS/non-atlas/customAnnotation.schema.omi.json",
