@@ -52,6 +52,7 @@
     "core/miscellaneous/geoCoordinates.schema.omi.json",
     "core/miscellaneous/location.schema.omi.json",
     "core/miscellaneous/membership.schema.omi.json",
+    "core/products/hardwareProduct.schema.omi.json",
     "core/products/interface.schema.omi.json",
     "core/products/interfaceVersion.schema.omi.json",
     "core/products/service.schema.omi.json",
@@ -1540,28 +1541,52 @@
     },
     {
       "file": "ephys/device/electrode.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:type"
+      ],
+      "removedAttributes": [
+        "properties.props:deviceType",
+        "properties.props:digitalIdentifier",
+        "properties.props:lookupLabel",
+        "properties.props:manufacturer",
+        "properties.props:owner"
+      ],
       "modifiedAttributes": [
         {
-          "property": "properties.props:manufacturer._linkedTypes",
-          "modification": "value(s) removed"
+          "property": "properties.props:description._instruction"
         },
         {
-          "property": "properties.props:owner._linkedTypes",
-          "modification": "value(s) removed"
+          "property": "properties.props:name._instruction"
+        },
+        {
+          "property": "required"
         }
       ],
       "schemaType": "Electrode"
     },
     {
       "file": "ephys/device/electrodeArray.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:type"
+      ],
+      "removedAttributes": [
+        "properties.props:deviceType",
+        "properties.props:digitalIdentifier",
+        "properties.props:lookupLabel",
+        "properties.props:manufacturer",
+        "properties.props:owner"
+      ],
       "modifiedAttributes": [
         {
-          "property": "properties.props:manufacturer._linkedTypes",
-          "modification": "value(s) removed"
+          "property": "properties.props:description._instruction"
         },
         {
-          "property": "properties.props:owner._linkedTypes",
-          "modification": "value(s) removed"
+          "property": "properties.props:name._instruction"
+        },
+        {
+          "property": "required"
         }
       ],
       "schemaType": "ElectrodeArray"
@@ -1589,14 +1614,26 @@
     },
     {
       "file": "ephys/device/pipette.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:type"
+      ],
+      "removedAttributes": [
+        "properties.props:deviceType",
+        "properties.props:digitalIdentifier",
+        "properties.props:lookupLabel",
+        "properties.props:manufacturer",
+        "properties.props:owner"
+      ],
       "modifiedAttributes": [
         {
-          "property": "properties.props:manufacturer._linkedTypes",
-          "modification": "value(s) removed"
+          "property": "properties.props:description._instruction"
         },
         {
-          "property": "properties.props:owner._linkedTypes",
-          "modification": "value(s) removed"
+          "property": "properties.props:name._instruction"
+        },
+        {
+          "property": "required"
         }
       ],
       "schemaType": "Pipette"
@@ -1962,14 +1999,27 @@
     },
     {
       "file": "specimenPrep/device/slicingDevice.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:contribution",
+        "properties.props:internalIdentifier",
+        "properties.props:type"
+      ],
+      "removedAttributes": [
+        "properties.props:deviceType",
+        "properties.props:digitalIdentifier",
+        "properties.props:lookupLabel",
+        "properties.props:manufacturer",
+        "properties.props:owner"
+      ],
       "modifiedAttributes": [
         {
-          "property": "properties.props:manufacturer._linkedTypes",
-          "modification": "value(s) removed"
+          "property": "properties.props:description._instruction"
         },
         {
-          "property": "properties.props:owner._linkedTypes",
-          "modification": "value(s) removed"
+          "property": "properties.props:name._instruction"
+        },
+        {
+          "property": "required"
         }
       ],
       "schemaType": "SlicingDevice"

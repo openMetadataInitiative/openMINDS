@@ -52,6 +52,7 @@ Added files:
   - core/miscellaneous/geoCoordinates.schema.omi.json
   - core/miscellaneous/location.schema.omi.json
   - core/miscellaneous/membership.schema.omi.json
+  - core/products/hardwareProduct.schema.omi.json
   - core/products/interface.schema.omi.json
   - core/products/interfaceVersion.schema.omi.json
   - core/products/service.schema.omi.json
@@ -685,12 +686,28 @@ Changes in ephys/activity/recordingActivity.schema.omi.json:
   - Field 'properties.props:studyTarget._linkedTypes' modified.
 
 Changes in ephys/device/electrode.schema.omi.json:
-  - Field 'properties.props:manufacturer._linkedTypes' modified (value(s) removed).
-  - Field 'properties.props:owner._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:deviceType' removed.
+  - Field 'properties.props:digitalIdentifier' removed.
+  - Field 'properties.props:lookupLabel' removed.
+  - Field 'properties.props:manufacturer' removed.
+  - Field 'properties.props:owner' removed.
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:type' added.
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:name._instruction' modified.
+  - Field 'required' modified.
 
 Changes in ephys/device/electrodeArray.schema.omi.json:
-  - Field 'properties.props:manufacturer._linkedTypes' modified (value(s) removed).
-  - Field 'properties.props:owner._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:deviceType' removed.
+  - Field 'properties.props:digitalIdentifier' removed.
+  - Field 'properties.props:lookupLabel' removed.
+  - Field 'properties.props:manufacturer' removed.
+  - Field 'properties.props:owner' removed.
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:type' added.
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:name._instruction' modified.
+  - Field 'required' modified.
 
 Changes in ephys/device/electrodeArrayUsage.schema.omi.json:
   - Field 'properties.props:anatomicalLocationOfArray._linkedTypes' modified.
@@ -700,8 +717,16 @@ Changes in ephys/device/electrodeUsage.schema.omi.json:
   - Field 'properties.props:anatomicalLocation._linkedTypes' modified.
 
 Changes in ephys/device/pipette.schema.omi.json:
-  - Field 'properties.props:manufacturer._linkedTypes' modified (value(s) removed).
-  - Field 'properties.props:owner._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:deviceType' removed.
+  - Field 'properties.props:digitalIdentifier' removed.
+  - Field 'properties.props:lookupLabel' removed.
+  - Field 'properties.props:manufacturer' removed.
+  - Field 'properties.props:owner' removed.
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:type' added.
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:name._instruction' modified.
+  - Field 'required' modified.
 
 Changes in ephys/device/pipetteUsage.schema.omi.json:
   - Field 'properties.props:anatomicalLocation._linkedTypes' modified.
@@ -853,8 +878,17 @@ Changes in specimenPrep/activity/tissueSampleSlicing.schema.omi.json:
   - Field 'properties.props:studyTarget._linkedTypes' modified.
 
 Changes in specimenPrep/device/slicingDevice.schema.omi.json:
-  - Field 'properties.props:manufacturer._linkedTypes' modified (value(s) removed).
-  - Field 'properties.props:owner._linkedTypes' modified (value(s) removed).
+  - Field 'properties.props:deviceType' removed.
+  - Field 'properties.props:digitalIdentifier' removed.
+  - Field 'properties.props:lookupLabel' removed.
+  - Field 'properties.props:manufacturer' removed.
+  - Field 'properties.props:owner' removed.
+  - Field 'properties.props:contribution' added.
+  - Field 'properties.props:internalIdentifier' added.
+  - Field 'properties.props:type' added.
+  - Field 'properties.props:description._instruction' modified.
+  - Field 'properties.props:name._instruction' modified.
+  - Field 'required' modified.
 
 Changes in stimulation/activity/stimulationActivity.schema.omi.json:
   - Field 'properties.props:studyTarget._linkedTypes' modified.
