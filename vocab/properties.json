@@ -19694,6 +19694,45 @@
       ]
     }
   },
+  "relatedInterspeciesAnatomy": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/AnatomicalCavity",
+          "https://openminds.om-i.org/types/ExternalBodyRegion",
+          "https://openminds.om-i.org/types/MuscularStructure",
+          "https://openminds.om-i.org/types/NervousSystemStructure",
+          "https://openminds.om-i.org/types/Organ",
+          "https://openminds.om-i.org/types/OrganSystemStructure",
+          "https://openminds.om-i.org/types/OrganismSubstance",
+          "https://openminds.om-i.org/types/OrganismSystem",
+          "https://openminds.om-i.org/types/SkeletalStructure",
+          "https://openminds.om-i.org/types/TissueStructure",
+          "https://openminds.om-i.org/types/VascularStructure"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Related interspecies anatomy",
+    "labelPlural": null,
+    "name": "relatedInterspeciesAnatomy",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/CustomAnatomicalEntity",
+        "https://openminds.om-i.org/types/ParcellationEntity"
+      ]
+    }
+  },
   "relatedMediaType": {
     "asString": {
       "formatting": "text/plain",
@@ -19947,10 +19986,6 @@
   "relatedUBERONTerm": {
     "asEdge": {
       "canPointTo": {
-        "latest": [
-          "https://openminds.om-i.org/types/Organ",
-          "https://openminds.om-i.org/types/UBERONParcellation"
-        ],
         "v2.0": [
           "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation"
         ],
@@ -19987,10 +20022,6 @@
     "name": "relatedUBERONTerm",
     "namePlural": "relatedUBERONTerms",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/CustomAnatomicalEntity",
-        "https://openminds.om-i.org/types/ParcellationEntity"
-      ],
       "v2.0": [
         "https://openminds.ebrains.eu/sands/ParcellationEntity"
       ],
