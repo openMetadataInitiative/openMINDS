@@ -20,6 +20,22 @@
       "type": "array",
       "uniqueItems": true
     },
+    "https://openminds.om-i.org/props/definingSource": {
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) of sources that define or document this content type, preferably authoritative registries (e.g., IANA), or reference documentation (e.g., mimetype.io) if no registry entry exists.",
+      "formatting": "text/plain",
+      "items": {
+        "_formats": [
+          "iri"
+        ],
+        "type": "string"
+      },
+      "label": "Defining source",
+      "minItems": 1,
+      "multiline": false,
+      "name": "definingSource",
+      "type": "array",
+      "uniqueItems": true
+    },
     "https://openminds.om-i.org/props/description": {
       "_instruction": "Enter a description of the content type specification. Leave blank if an official and public specification is linked under 'specification' for this content type.",
       "description": "Longer statement or account giving the characteristics of someone or something.",
@@ -57,6 +73,18 @@
       "type": "array",
       "uniqueItems": true
     },
+    "https://openminds.om-i.org/props/isBasedOn": {
+      "_instruction": "Add all content types this content type is based on.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ContentType"
+      ],
+      "label": "Is based on",
+      "minItems": 1,
+      "name": "isBasedOn",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
     "https://openminds.om-i.org/props/name": {
       "_instruction": "Enter the name of this content type following a IANA.org inspired convention.",
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
@@ -66,20 +94,6 @@
       "multiline": false,
       "name": "name",
       "namePlural": "names",
-      "type": "string"
-    },
-    "https://openminds.om-i.org/props/relatedMediaType": {
-      "_formats": [
-        "iri"
-      ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) to the official registered media type (e.g., provided on IANA.org) matching this content type.",
-      "description": "Reference to an official two-part identifier for file formats and format contents.",
-      "formatting": "text/plain",
-      "label": "Related media type",
-      "labelPlural": "Related media types",
-      "multiline": false,
-      "name": "relatedMediaType",
-      "namePlural": "relatedMediaTypes",
       "type": "string"
     },
     "https://openminds.om-i.org/props/specification": {

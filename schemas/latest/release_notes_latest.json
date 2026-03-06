@@ -729,6 +729,17 @@
       "schemaType": "Person"
     },
     {
+      "file": "core/data/contentType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:definingSource",
+        "properties.props:isBasedOn"
+      ],
+      "removedAttributes": [
+        "properties.props:relatedMediaType"
+      ],
+      "schemaType": "ContentType"
+    },
+    {
       "file": "core/data/copyright.schema.omi.json",
       "addedAttributes": [
         "properties.props:customUsageClause"

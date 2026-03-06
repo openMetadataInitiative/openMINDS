@@ -5314,6 +5314,33 @@
       ]
     }
   },
+  "definingSource": {
+    "asString": {
+      "formatting": "text/plain",
+      "inVersions": [
+        "latest"
+      ],
+      "multiline": false
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Defining source",
+    "labelPlural": null,
+    "name": "definingSource",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/ContentType"
+      ]
+    }
+  },
   "definition": {
     "asString": {
       "formatting": "text/markdown",
@@ -12403,6 +12430,34 @@
         "https://openminds.om-i.org/types/ValidationTestVersion",
         "https://openminds.om-i.org/types/WebServiceVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"
+      ]
+    }
+  },
+  "isBasedOn": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/ContentType"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Is based on",
+    "labelPlural": null,
+    "name": "isBasedOn",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/ContentType"
       ]
     }
   },
@@ -19726,7 +19781,6 @@
     "asString": {
       "formatting": "text/plain",
       "inVersions": [
-        "latest",
         "v1.0",
         "v2.0",
         "v3.0",
@@ -19757,9 +19811,6 @@
     "name": "relatedMediaType",
     "namePlural": "relatedMediaTypes",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/ContentType"
-      ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/ContentType"
       ],
