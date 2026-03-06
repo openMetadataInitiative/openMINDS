@@ -343,6 +343,11 @@ Changes in core/actors/person.schema.omi.json:
   - Field 'properties.props:givenName._instruction' modified.
   - Field 'required' modified.
 
+Changes in core/data/contentType.schema.omi.json:
+  - Field 'properties.props:relatedMediaType' removed.
+  - Field 'properties.props:definingSource' added.
+  - Field 'properties.props:isBasedOn' added.
+
 Changes in core/data/copyright.schema.omi.json:
   - Field 'properties.props:customUsageClause' added.
   - Field 'properties.props:holder._linkedTypes' modified (value(s) removed).
