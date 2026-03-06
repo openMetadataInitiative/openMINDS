@@ -235,50 +235,644 @@ Changes in computation/workflowRecipeVersion.schema.omi.json:
   - Field 'properties.props:supportChannel._instruction' modified.
   - Field 'required' modified.
 
+Changes in controlledTerms/actionStatusType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/ageCategory.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
 Changes in controlledTerms/analysisTechnique.schema.omi.json:
   - Field '_categories' modified (value(s) added).
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/anatomicalAxesOrientation.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/anatomicalIdentificationType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/anatomicalPlane.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/annotationCriteriaType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/annotationType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/atlasType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/auditoryStimulusType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
 
 Changes in controlledTerms/biologicalOrder.schema.omi.json:
   - Field '_categories' modified (value(s) added).
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/biologicalProcess.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/biologicalSex.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/breedingType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/cellCultureType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/cellType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/chemicalMixtureType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/colormap.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
 
 Changes in controlledTerms/contributionType.schema.omi.json:
   - Field '_categories' modified (value(s) added).
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/cranialWindowConstructionType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/cranialWindowReinforcementType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/criteriaQualityType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
 
 Changes in controlledTerms/dataType.schema.omi.json:
   - Field '_categories' modified (value(s) added).
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
 
 Changes in controlledTerms/deviceType.schema.omi.json:
   - Field '_categories' modified (value(s) added).
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/differenceMeasure.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/disease.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/diseaseModel.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/educationalLevel.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/electricalStimulusType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
 
 Changes in controlledTerms/experimentalApproach.schema.omi.json:
   - Field '_categories' modified (value(s) added).
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/fileBundleGrouping.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/fileRepositoryType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/fileUsageRole.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/geneticStrainType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/gustatoryStimulusType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/handedness.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/language.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/laterality.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/learningResourceType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/measuredQuantity.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/measuredSignalType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/metaDataModelType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/modelAbstractionLevel.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/modelScope.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
 
 Changes in controlledTerms/molecularEntity.schema.omi.json:
   - Field '_categories' modified (value(s) added).
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/MRIPulseSequence.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/MRIWeighting.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/olfactoryStimulusType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/operatingDevice.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/operatingSystem.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/opticalStimulusType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
 
 Changes in controlledTerms/organ.schema.omi.json:
   - Field '_categories' modified (value(s) added).
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
 
 Changes in controlledTerms/organismSubstance.schema.omi.json:
   - Field '_categories' modified (value(s) added).
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
 
 Changes in controlledTerms/organismSystem.schema.omi.json:
   - Field '_categories' modified (value(s) added).
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/patchClampVariation.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/preparationType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/productAccessibility.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/programmingLanguage.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/qualitativeOverlap.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/semanticDataType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/service.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/setupType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
 
 Changes in controlledTerms/softwareApplicationCategory.schema.omi.json:
   - Field '_categories' modified (value(s) added).
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
 
 Changes in controlledTerms/softwareFeature.schema.omi.json:
   - Field '_categories' modified (value(s) added).
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
 
 Changes in controlledTerms/species.schema.omi.json:
   - Field '_categories' modified (value(s) added).
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/stimulationApproach.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/stimulationTechnique.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/subcellularEntity.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/subjectAttribute.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/tactileStimulusType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
 
 Changes in controlledTerms/technique.schema.omi.json:
   - Field '_categories' modified (value(s) added).
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/terminology.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
 
 Changes in controlledTerms/termSuggestion.schema.omi.json:
   - Field '_categories' modified (value(s) added).
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/tissueSampleAttribute.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/tissueSampleType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/typeOfUncertainty.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/unitOfMeasurement.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
+
+Changes in controlledTerms/visualStimulusType.schema.omi.json:
+  - Field 'properties.props:interlexIdentifier' removed.
+  - Field 'properties.props:knowledgeSpaceLink' removed.
+  - Field 'properties.props:otherCrossReference' added.
+  - Field 'properties.props:otherOntologyIdentifier' added.
+  - Field 'properties.props:preferredCrossReference' added.
+  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
 
 Changes in core/actors/accountInformation.schema.omi.json:
   - Field 'properties.props:service._instruction' modified.
