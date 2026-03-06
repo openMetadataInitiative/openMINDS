@@ -4108,9 +4108,7 @@
   },
   "Electrode": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
+      "latest": [],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -4172,9 +4170,7 @@
   },
   "ElectrodeArray": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
+      "latest": [],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -5783,6 +5779,31 @@
     ],
     "label": "Handedness",
     "name": "Handedness"
+  },
+  "HardwareProduct": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Hardware product",
+    "name": "HardwareProduct"
   },
   "HardwareSystem": {
     "backwardsCompatibility": {
@@ -9124,9 +9145,7 @@
   },
   "Pipette": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
+      "latest": [],
       "v3.0": [],
       "v4.0": []
     },
@@ -11139,9 +11158,7 @@
   },
   "SlicingDevice": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
+      "latest": [],
       "v3.0": [],
       "v4.0": []
     },
