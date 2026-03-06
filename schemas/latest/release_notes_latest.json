@@ -426,154 +426,1468 @@
       "schemaType": "WorkflowRecipeVersion"
     },
     {
+      "file": "controlledTerms/actionStatusType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "ActionStatusType"
+    },
+    {
+      "file": "controlledTerms/ageCategory.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "AgeCategory"
+    },
+    {
       "file": "controlledTerms/analysisTechnique.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
       "modifiedAttributes": [
         {
           "property": "_categories",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
         }
       ],
       "schemaType": "AnalysisTechnique"
     },
     {
+      "file": "controlledTerms/anatomicalAxesOrientation.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "AnatomicalAxesOrientation"
+    },
+    {
+      "file": "controlledTerms/anatomicalIdentificationType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "AnatomicalIdentificationType"
+    },
+    {
+      "file": "controlledTerms/anatomicalPlane.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "AnatomicalPlane"
+    },
+    {
+      "file": "controlledTerms/annotationCriteriaType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "AnnotationCriteriaType"
+    },
+    {
+      "file": "controlledTerms/annotationType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "AnnotationType"
+    },
+    {
+      "file": "controlledTerms/atlasType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "AtlasType"
+    },
+    {
+      "file": "controlledTerms/auditoryStimulusType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "AuditoryStimulusType"
+    },
+    {
       "file": "controlledTerms/biologicalOrder.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
       "modifiedAttributes": [
         {
           "property": "_categories",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
         }
       ],
       "schemaType": "BiologicalOrder"
     },
     {
+      "file": "controlledTerms/biologicalProcess.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "BiologicalProcess"
+    },
+    {
+      "file": "controlledTerms/biologicalSex.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "BiologicalSex"
+    },
+    {
+      "file": "controlledTerms/breedingType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "BreedingType"
+    },
+    {
+      "file": "controlledTerms/cellCultureType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "CellCultureType"
+    },
+    {
+      "file": "controlledTerms/cellType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "CellType"
+    },
+    {
+      "file": "controlledTerms/chemicalMixtureType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "ChemicalMixtureType"
+    },
+    {
+      "file": "controlledTerms/colormap.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "Colormap"
+    },
+    {
       "file": "controlledTerms/contributionType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
       "modifiedAttributes": [
         {
           "property": "_categories",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
         }
       ],
       "schemaType": "ContributionType"
     },
     {
+      "file": "controlledTerms/cranialWindowConstructionType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "CranialWindowConstructionType"
+    },
+    {
+      "file": "controlledTerms/cranialWindowReinforcementType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "CranialWindowReinforcementType"
+    },
+    {
+      "file": "controlledTerms/criteriaQualityType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "CriteriaQualityType"
+    },
+    {
       "file": "controlledTerms/dataType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
       "modifiedAttributes": [
         {
           "property": "_categories",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
         }
       ],
       "schemaType": "DataType"
     },
     {
       "file": "controlledTerms/deviceType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
       "modifiedAttributes": [
         {
           "property": "_categories",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
         }
       ],
       "schemaType": "DeviceType"
     },
     {
+      "file": "controlledTerms/differenceMeasure.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "DifferenceMeasure"
+    },
+    {
+      "file": "controlledTerms/disease.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "Disease"
+    },
+    {
+      "file": "controlledTerms/diseaseModel.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "DiseaseModel"
+    },
+    {
+      "file": "controlledTerms/educationalLevel.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "EducationalLevel"
+    },
+    {
+      "file": "controlledTerms/electricalStimulusType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "ElectricalStimulusType"
+    },
+    {
       "file": "controlledTerms/experimentalApproach.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
       "modifiedAttributes": [
         {
           "property": "_categories",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
         }
       ],
       "schemaType": "ExperimentalApproach"
     },
     {
+      "file": "controlledTerms/fileBundleGrouping.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "FileBundleGrouping"
+    },
+    {
+      "file": "controlledTerms/fileRepositoryType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "FileRepositoryType"
+    },
+    {
+      "file": "controlledTerms/fileUsageRole.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "FileUsageRole"
+    },
+    {
+      "file": "controlledTerms/geneticStrainType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "GeneticStrainType"
+    },
+    {
+      "file": "controlledTerms/gustatoryStimulusType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "GustatoryStimulusType"
+    },
+    {
+      "file": "controlledTerms/handedness.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "Handedness"
+    },
+    {
+      "file": "controlledTerms/language.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "Language"
+    },
+    {
+      "file": "controlledTerms/laterality.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "Laterality"
+    },
+    {
+      "file": "controlledTerms/learningResourceType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "LearningResourceType"
+    },
+    {
+      "file": "controlledTerms/measuredQuantity.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "MeasuredQuantity"
+    },
+    {
+      "file": "controlledTerms/measuredSignalType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "MeasuredSignalType"
+    },
+    {
+      "file": "controlledTerms/metaDataModelType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "MetaDataModelType"
+    },
+    {
+      "file": "controlledTerms/modelAbstractionLevel.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "ModelAbstractionLevel"
+    },
+    {
+      "file": "controlledTerms/modelScope.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "ModelScope"
+    },
+    {
       "file": "controlledTerms/molecularEntity.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
       "modifiedAttributes": [
         {
           "property": "_categories",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
         }
       ],
       "schemaType": "MolecularEntity"
     },
     {
+      "file": "controlledTerms/MRIPulseSequence.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "MRIPulseSequence"
+    },
+    {
+      "file": "controlledTerms/MRIWeighting.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "MRIWeighting"
+    },
+    {
+      "file": "controlledTerms/olfactoryStimulusType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "OlfactoryStimulusType"
+    },
+    {
+      "file": "controlledTerms/operatingDevice.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "OperatingDevice"
+    },
+    {
+      "file": "controlledTerms/operatingSystem.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "OperatingSystem"
+    },
+    {
+      "file": "controlledTerms/opticalStimulusType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "OpticalStimulusType"
+    },
+    {
       "file": "controlledTerms/organ.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
       "modifiedAttributes": [
         {
           "property": "_categories",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
         }
       ],
       "schemaType": "Organ"
     },
     {
       "file": "controlledTerms/organismSubstance.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
       "modifiedAttributes": [
         {
           "property": "_categories",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
         }
       ],
       "schemaType": "OrganismSubstance"
     },
     {
       "file": "controlledTerms/organismSystem.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
       "modifiedAttributes": [
         {
           "property": "_categories",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
         }
       ],
       "schemaType": "OrganismSystem"
     },
     {
+      "file": "controlledTerms/patchClampVariation.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "PatchClampVariation"
+    },
+    {
+      "file": "controlledTerms/preparationType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "PreparationType"
+    },
+    {
+      "file": "controlledTerms/productAccessibility.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "ProductAccessibility"
+    },
+    {
+      "file": "controlledTerms/programmingLanguage.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "ProgrammingLanguage"
+    },
+    {
+      "file": "controlledTerms/qualitativeOverlap.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "QualitativeOverlap"
+    },
+    {
+      "file": "controlledTerms/semanticDataType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "SemanticDataType"
+    },
+    {
+      "file": "controlledTerms/service.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "Service"
+    },
+    {
+      "file": "controlledTerms/setupType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "SetupType"
+    },
+    {
       "file": "controlledTerms/softwareApplicationCategory.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
       "modifiedAttributes": [
         {
           "property": "_categories",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
         }
       ],
       "schemaType": "SoftwareApplicationCategory"
     },
     {
       "file": "controlledTerms/softwareFeature.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
       "modifiedAttributes": [
         {
           "property": "_categories",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
         }
       ],
       "schemaType": "SoftwareFeature"
     },
     {
       "file": "controlledTerms/species.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
       "modifiedAttributes": [
         {
           "property": "_categories",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
         }
       ],
       "schemaType": "Species"
     },
     {
+      "file": "controlledTerms/stimulationApproach.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "StimulationApproach"
+    },
+    {
+      "file": "controlledTerms/stimulationTechnique.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "StimulationTechnique"
+    },
+    {
+      "file": "controlledTerms/subcellularEntity.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "SubcellularEntity"
+    },
+    {
+      "file": "controlledTerms/subjectAttribute.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "SubjectAttribute"
+    },
+    {
+      "file": "controlledTerms/tactileStimulusType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "TactileStimulusType"
+    },
+    {
       "file": "controlledTerms/technique.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
       "modifiedAttributes": [
         {
           "property": "_categories",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
         }
       ],
       "schemaType": "Technique"
     },
     {
+      "file": "controlledTerms/terminology.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "Terminology"
+    },
+    {
       "file": "controlledTerms/termSuggestion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
       "modifiedAttributes": [
         {
           "property": "_categories",
           "modification": "value(s) added"
+        },
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
         }
       ],
       "schemaType": "TermSuggestion"
+    },
+    {
+      "file": "controlledTerms/tissueSampleAttribute.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "TissueSampleAttribute"
+    },
+    {
+      "file": "controlledTerms/tissueSampleType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "TissueSampleType"
+    },
+    {
+      "file": "controlledTerms/typeOfUncertainty.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "TypeOfUncertainty"
+    },
+    {
+      "file": "controlledTerms/unitOfMeasurement.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "UnitOfMeasurement"
+    },
+    {
+      "file": "controlledTerms/visualStimulusType.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:otherCrossReference",
+        "properties.props:otherOntologyIdentifier",
+        "properties.props:preferredCrossReference"
+      ],
+      "removedAttributes": [
+        "properties.props:interlexIdentifier",
+        "properties.props:knowledgeSpaceLink"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:preferredOntologyIdentifier._instruction"
+        }
+      ],
+      "schemaType": "VisualStimulusType"
     },
     {
       "file": "core/actors/accountInformation.schema.omi.json",

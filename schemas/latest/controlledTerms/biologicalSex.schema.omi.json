@@ -32,34 +32,6 @@
       "namePlural": "descriptions",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/interlexIdentifier": {
-      "_formats": [
-        "iri"
-      ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the integrated ontology entry in the InterLex project.",
-      "description": "Persistent identifier for a term registered in the InterLex project.",
-      "formatting": "text/plain",
-      "label": "Interlex identifier",
-      "labelPlural": "Interlex identifiers",
-      "multiline": false,
-      "name": "interlexIdentifier",
-      "namePlural": "interlexIdentifiers",
-      "type": "string"
-    },
-    "https://openminds.om-i.org/props/knowledgeSpaceLink": {
-      "_formats": [
-        "iri"
-      ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the wiki page of the corresponding term in the KnowledgeSpace.",
-      "description": "Persistent link to an encyclopedia entry in the Knowledge Space project.",
-      "formatting": "text/plain",
-      "label": "Knowledge space link",
-      "labelPlural": "Knowledge space links",
-      "multiline": false,
-      "name": "knowledgeSpaceLink",
-      "namePlural": "knowledgeSpaceLinks",
-      "type": "string"
-    },
     "https://openminds.om-i.org/props/name": {
       "_instruction": "Controlled term originating from a defined terminology.",
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
@@ -71,11 +43,54 @@
       "namePlural": "names",
       "type": "string"
     },
+    "https://openminds.om-i.org/props/otherCrossReference": {
+      "_instruction": "Enter all internationalized resource identifiers (IRIs) pointing to cross-references to external databases or registries that are equivalent to this term (e.g., Wikidata). Do not repeat the preferred cross-reference.",
+      "formatting": "text/plain",
+      "items": {
+        "_formats": [
+          "iri"
+        ],
+        "type": "string"
+      },
+      "label": "Other cross reference",
+      "minItems": 1,
+      "multiline": false,
+      "name": "otherCrossReference",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/otherOntologyIdentifier": {
+      "_instruction": "Enter all internationalized resource identifiers (IRIs) pointing to ontology entries that are equivalent to this term (e.g., UBERON). Do not repeat the preferred ontology identifier.",
+      "formatting": "text/plain",
+      "items": {
+        "_formats": [
+          "iri"
+        ],
+        "type": "string"
+      },
+      "label": "Other ontology identifier",
+      "minItems": 1,
+      "multiline": false,
+      "name": "otherOntologyIdentifier",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/preferredCrossReference": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the preferred cross-reference to an external database or registry (e.g., KnowledgeSpace).",
+      "formatting": "text/plain",
+      "label": "Preferred cross reference",
+      "multiline": false,
+      "name": "preferredCrossReference",
+      "type": "string"
+    },
     "https://openminds.om-i.org/props/preferredOntologyIdentifier": {
       "_formats": [
         "iri"
       ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the preferred ontological term.",
+      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the preferred ontological term (e.g., InterLex).",
       "description": "Persistent identifier of a preferred ontological term.",
       "formatting": "text/plain",
       "label": "Preferred ontology identifier",
