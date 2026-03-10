@@ -55,7 +55,6 @@
     "core/products/hardwareProduct.schema.omi.json",
     "core/products/interface.schema.omi.json",
     "core/products/interfaceVersion.schema.omi.json",
-    "core/products/service.schema.omi.json",
     "core/research/specimenAge.schema.omi.json",
     "core/research/specimenWeight.schema.omi.json",
     "neuroimaging/activity/dynamicMRIAcquisition.schema.omi.json",
@@ -109,6 +108,11 @@
       "file": "localFile.schema.omi.json",
       "source": "computation/localFile.schema.omi.json",
       "destination": "core/data/localFile.schema.omi.json"
+    },
+    {
+      "file": "service.schema.omi.json",
+      "source": "controlledTerms/service.schema.omi.json",
+      "destination": "core/products/service.schema.omi.json"
     },
     {
       "file": "circle.schema.omi.json",
@@ -1536,24 +1540,6 @@
         }
       ],
       "schemaType": "SemanticDataType"
-    },
-    {
-      "file": "controlledTerms/service.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:otherCrossReference",
-        "properties.props:otherOntologyIdentifier",
-        "properties.props:preferredCrossReference"
-      ],
-      "removedAttributes": [
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink"
-      ],
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:preferredOntologyIdentifier._instruction"
-        }
-      ],
-      "schemaType": "Service"
     },
     {
       "file": "controlledTerms/setupType.schema.omi.json",
