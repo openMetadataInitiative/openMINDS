@@ -56,15 +56,20 @@
       "namePlural": "previewImages"
     },
     "https://openminds.om-i.org/props/service": {
-      "_instruction": "Add the service in which the specified data can be opened.",
+      "_instruction": "Add all services in which the specified data can be opened by linking to each service\u2019s interface (group of versions), specific interface version, or web resource.",
       "_linkedTypes": [
-        "https://openminds.om-i.org/types/Service"
+        "https://openminds.om-i.org/types/Interface",
+        "https://openminds.om-i.org/types/InterfaceVersion",
+        "https://openminds.om-i.org/types/WebResource"
       ],
       "label": "Service",
       "labelPlural": "Services",
+      "minItems": 1,
       "name": "service",
       "nameForReverseLink": null,
-      "namePlural": "services"
+      "namePlural": "services",
+      "type": "array",
+      "uniqueItems": true
     }
   },
   "required": [
