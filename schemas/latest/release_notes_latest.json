@@ -2695,6 +2695,13 @@
       "schemaType": "CustomPropertySet"
     },
     {
+      "file": "core/research/numericalProperty.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:externalDefinitionOfName"
+      ],
+      "schemaType": "NumericalProperty"
+    },
+    {
       "file": "core/research/protocol.schema.omi.json",
       "modifiedAttributes": [
         {
@@ -2715,6 +2722,13 @@
         }
       ],
       "schemaType": "ProtocolExecution"
+    },
+    {
+      "file": "core/research/stringProperty.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:externalDefinitionOfName"
+      ],
+      "schemaType": "StringProperty"
     },
     {
       "file": "core/research/subjectGroup.schema.omi.json",

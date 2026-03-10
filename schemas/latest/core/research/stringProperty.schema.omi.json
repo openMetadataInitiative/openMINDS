@@ -5,6 +5,17 @@
   "label": "String property",
   "name": "StringProperty",
   "properties": {
+    "https://openminds.om-i.org/props/externalDefinitionOfName": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to an external definition of the property name.",
+      "formatting": "text/plain",
+      "label": "External definition of name",
+      "multiline": false,
+      "name": "externalDefinitionOfName",
+      "type": "string"
+    },
     "https://openminds.om-i.org/props/name": {
       "_instruction": "Enter a descriptive name for this property.",
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
