@@ -357,6 +357,10 @@
       "sands:Trapezoid",
       "sands:Triangle"
     ],
+    "specificCoordinateFramework": [
+      "sands:CommonCoordinateFrameworkVersion",
+      "sands:CustomCoordinateFramework"
+    ],
     "stimulus": [
       "stimulation:EphysStimulus"
     ],
