@@ -2079,6 +2079,9 @@
     },
     {
       "file": "core/data/measurement.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:obtainedWith"
+      ],
       "removedAttributes": [
         "properties.props:measuredWith"
       ],

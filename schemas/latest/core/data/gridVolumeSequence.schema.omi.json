@@ -16,6 +16,9 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/coordinateFramework": {
+      "_belongsToCategory": [
+        "specificCoordinateFramework"
+      ],
       "_instruction": "Add the coordinate space in which this grid volume sequence exists.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
@@ -74,6 +77,21 @@
       "name": "numberOfVolumes",
       "type": "integer"
     },
+    "https://openminds.om-i.org/props/obtainedWith": {
+      "_belongsToCategory": [
+        "deviceUsage"
+      ],
+      "_instruction": "Add the used device for obtaining this grid volume sequence.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ElectrodeArrayUsage",
+        "https://openminds.om-i.org/types/ElectrodeUsage",
+        "https://openminds.om-i.org/types/PipetteUsage",
+        "https://openminds.om-i.org/types/SlicingDeviceUsage"
+      ],
+      "label": "Obtained with",
+      "name": "obtainedWith",
+      "nameForReverseLink": null
+    },
     "https://openminds.om-i.org/props/temporalSamplingFrequency": {
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/QuantitativeValue"
@@ -100,7 +118,6 @@
     }
   },
   "required": [
-    "https://openminds.om-i.org/props/coordinateFramework",
     "https://openminds.om-i.org/props/dataLocation",
     "https://openminds.om-i.org/props/dimension",
     "https://openminds.om-i.org/props/temporalSamplingFrequency",

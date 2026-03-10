@@ -28,6 +28,21 @@
       "nameForReverseLink": null,
       "namePlural": "measuredQuantities"
     },
+    "https://openminds.om-i.org/props/obtainedWith": {
+      "_belongsToCategory": [
+        "deviceUsage"
+      ],
+      "_instruction": "Add the used device for obtaining this measurement.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ElectrodeArrayUsage",
+        "https://openminds.om-i.org/types/ElectrodeUsage",
+        "https://openminds.om-i.org/types/PipetteUsage",
+        "https://openminds.om-i.org/types/SlicingDeviceUsage"
+      ],
+      "label": "Obtained with",
+      "name": "obtainedWith",
+      "nameForReverseLink": null
+    },
     "https://openminds.om-i.org/props/timestamp": {
       "_formats": [
         "date-time"
