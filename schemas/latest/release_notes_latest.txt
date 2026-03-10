@@ -55,7 +55,6 @@ Added files:
   - core/products/hardwareProduct.schema.omi.json
   - core/products/interface.schema.omi.json
   - core/products/interfaceVersion.schema.omi.json
-  - core/products/service.schema.omi.json
   - core/research/specimenAge.schema.omi.json
   - core/research/specimenWeight.schema.omi.json
   - SANDS/atlas/anatomicalAtlas.schema.omi.json
@@ -100,6 +99,7 @@ Removed files:
 
 Moved files:
   - computation/localFile.schema.omi.json moved to core/data/localFile.schema.omi.json
+  - controlledTerms/service.schema.omi.json moved to core/products/service.schema.omi.json
   - SANDS/mathematicalShapes/circle.schema.omi.json moved to SANDS/mathematicalShape/circle.schema.omi.json
   - SANDS/mathematicalShapes/ellipse.schema.omi.json moved to SANDS/mathematicalShape/ellipse.schema.omi.json
   - SANDS/mathematicalShapes/rectangle.schema.omi.json moved to SANDS/mathematicalShape/rectangle.schema.omi.json
@@ -718,14 +718,6 @@ Changes in controlledTerms/qualitativeOverlap.schema.omi.json:
   - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
 
 Changes in controlledTerms/semanticDataType.schema.omi.json:
-  - Field 'properties.props:interlexIdentifier' removed.
-  - Field 'properties.props:knowledgeSpaceLink' removed.
-  - Field 'properties.props:otherCrossReference' added.
-  - Field 'properties.props:otherOntologyIdentifier' added.
-  - Field 'properties.props:preferredCrossReference' added.
-  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
-
-Changes in controlledTerms/service.schema.omi.json:
   - Field 'properties.props:interlexIdentifier' removed.
   - Field 'properties.props:knowledgeSpaceLink' removed.
   - Field 'properties.props:otherCrossReference' added.
