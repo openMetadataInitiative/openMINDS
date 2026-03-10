@@ -141,10 +141,10 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/type": {
-      "_embeddedTypes": [
+      "_instruction": "Add the type of this organization (legal entity or organizational unit).",
+      "_linkedTypes": [
         "https://openminds.om-i.org/types/OrganizationType"
       ],
-      "_instruction": "Add the type of this organization (legal entity or organizational unit).",
       "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
       "label": "Type",
       "labelPlural": "Types",
