@@ -949,6 +949,13 @@ Changes in core/data/fileBundle.schema.omi.json:
 Changes in core/data/measurement.schema.omi.json:
   - Field 'properties.props:measuredWith' removed.
 
+Changes in core/data/serviceLink.schema.omi.json:
+  - Field 'properties.props:service.minItems' added.
+  - Field 'properties.props:service.type' added.
+  - Field 'properties.props:service.uniqueItems' added.
+  - Field 'properties.props:service._instruction' modified.
+  - Field 'properties.props:service._linkedTypes' modified.
+
 Changes in core/digitalIdentifier/DOI.schema.omi.json:
   - Field '_categories' modified (value(s) added).
 

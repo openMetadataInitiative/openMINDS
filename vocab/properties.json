@@ -23282,7 +23282,10 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/Service"
+          "https://openminds.om-i.org/types/Interface",
+          "https://openminds.om-i.org/types/InterfaceVersion",
+          "https://openminds.om-i.org/types/Service",
+          "https://openminds.om-i.org/types/WebResource"
         ],
         "v1.0": [
           "https://openminds.ebrains.eu/controlledTerms/Service"

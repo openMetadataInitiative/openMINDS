@@ -2077,6 +2077,23 @@
       "schemaType": "Measurement"
     },
     {
+      "file": "core/data/serviceLink.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:service.minItems",
+        "properties.props:service.type",
+        "properties.props:service.uniqueItems"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:service._instruction"
+        },
+        {
+          "property": "properties.props:service._linkedTypes"
+        }
+      ],
+      "schemaType": "ServiceLink"
+    },
+    {
       "file": "core/digitalIdentifier/DOI.schema.omi.json",
       "modifiedAttributes": [
         {
