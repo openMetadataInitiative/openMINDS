@@ -1228,12 +1228,18 @@ Changes in core/products/softwareVersion.schema.omi.json:
 Changes in core/research/customPropertySet.schema.omi.json:
   - Field 'properties.props:relevantFor._linkedTypes' modified (value(s) added).
 
+Changes in core/research/numericalProperty.schema.omi.json:
+  - Field 'properties.props:externalDefinitionOfName' added.
+
 Changes in core/research/protocol.schema.omi.json:
   - Field 'properties.props:technique._linkedTypes' modified (value(s) added).
 
 Changes in core/research/protocolExecution.schema.omi.json:
   - Field 'properties.props:input._linkedTypes' modified.
   - Field 'properties.props:studyTarget._linkedTypes' modified.
+
+Changes in core/research/stringProperty.schema.omi.json:
+  - Field 'properties.props:externalDefinitionOfName' added.
 
 Changes in core/research/subjectGroup.schema.omi.json:
   - Field 'properties.props:isPartOf' added.
