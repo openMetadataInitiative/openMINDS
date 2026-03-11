@@ -4,20 +4,6 @@
   "label": "Atlas annotation",
   "name": "AtlasAnnotation",
   "properties": {
-    "https://openminds.om-i.org/props/anchorPoint": {
-      "_embeddedTypes": [
-        "https://openminds.om-i.org/types/QuantitativeValue"
-      ],
-      "_instruction": "Enter the coordinates of the anchor point for this annotation (e.g., its centroid in two dimensional space as [x, y] or in three dimensional space as [x, y, z]).",
-      "label": "Anchor point",
-      "labelPlural": "Anchor points",
-      "maxItems": 3,
-      "minItems": 2,
-      "name": "anchorPoint",
-      "nameForReverseLink": null,
-      "namePlural": "anchorPoints",
-      "type": "array"
-    },
     "https://openminds.om-i.org/props/criteria": {
       "_instruction": "Add the protocol execution defining the criteria that were applied to produce this annotation.",
       "_linkedTypes": [

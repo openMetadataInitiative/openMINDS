@@ -1428,6 +1428,9 @@ Changes in publications/scholarlyArticle.schema.omi.json:
   - Field 'properties.props:pagination._instruction' modified.
   - Field 'required' modified.
 
+Changes in SANDS/atlas/atlasAnnotation.schema.omi.json:
+  - Field 'properties.props:anchorPoint' removed.
+
 Changes in SANDS/atlas/parcellationEntity.schema.omi.json:
   - Field 'properties.props:hasVersion' removed.
   - Field 'properties.props:relatedUBERONTerm' removed.
@@ -1460,6 +1463,7 @@ Changes in SANDS/non-atlas/customAnatomicalEntity.schema.omi.json:
   - Field 'properties.props:relatedInterspeciesAnatomy' added.
 
 Changes in SANDS/non-atlas/customAnnotation.schema.omi.json:
+  - Field 'properties.props:anchorPoint' removed.
   - Field 'properties.props:coordinateSpace' removed.
   - Field 'properties.props:coordinateFramework' added.
   - Field 'required' modified.

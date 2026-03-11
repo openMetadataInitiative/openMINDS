@@ -3183,6 +3183,13 @@
       "schemaType": "ScholarlyArticle"
     },
     {
+      "file": "SANDS/atlas/atlasAnnotation.schema.omi.json",
+      "removedAttributes": [
+        "properties.props:anchorPoint"
+      ],
+      "schemaType": "AtlasAnnotation"
+    },
+    {
       "file": "SANDS/atlas/parcellationEntity.schema.omi.json",
       "addedAttributes": [
         "properties.props:relatedInterspeciesAnatomy"
@@ -3282,6 +3289,7 @@
         "properties.props:coordinateFramework"
       ],
       "removedAttributes": [
+        "properties.props:anchorPoint",
         "properties.props:coordinateSpace"
       ],
       "modifiedAttributes": [
