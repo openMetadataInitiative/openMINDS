@@ -556,9 +556,9 @@
       }
     ],
     "label": "Acronym",
-    "labelPlural": null,
+    "labelPlural": "Acronyms",
     "name": "acronym",
-    "namePlural": null,
+    "namePlural": "acronyms",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Organization"
@@ -738,9 +738,9 @@
       }
     ],
     "label": "Address",
-    "labelPlural": null,
+    "labelPlural": "Addresses",
     "name": "address",
-    "namePlural": null,
+    "namePlural": "addresses",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Location"
@@ -1656,9 +1656,9 @@
       }
     ],
     "label": "Apex angle",
-    "labelPlural": null,
+    "labelPlural": "Apex angles",
     "name": "apexAngle",
-    "namePlural": null,
+    "namePlural": "apexAngles",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/IsoscelesTriangle",
@@ -1685,9 +1685,9 @@
       }
     ],
     "label": "Apex base distance",
-    "labelPlural": null,
+    "labelPlural": "Apex base distances",
     "name": "apexBaseDistance",
-    "namePlural": null,
+    "namePlural": "apexBaseDistances",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CentroidalPyramid",
@@ -1859,9 +1859,9 @@
       }
     ],
     "label": "Associated protocol",
-    "labelPlural": null,
+    "labelPlural": "Associated protocols",
     "name": "associatedProtocol",
-    "namePlural": null,
+    "namePlural": "associatedProtocols",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SubjectGroupState",
@@ -2279,9 +2279,9 @@
       }
     ],
     "label": "Base distance",
-    "labelPlural": null,
+    "labelPlural": "Base distances",
     "name": "baseDistance",
-    "namePlural": null,
+    "namePlural": "baseDistances",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Frustum",
@@ -2311,9 +2311,9 @@
       }
     ],
     "label": "Base length",
-    "labelPlural": null,
+    "labelPlural": "Base lengths",
     "name": "baseLength",
-    "namePlural": null,
+    "namePlural": "baseLengths",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Parallelogram"
@@ -2339,9 +2339,9 @@
       }
     ],
     "label": "Base lengths",
-    "labelPlural": null,
+    "labelPlural": "Base lengths",
     "name": "baseLengths",
-    "namePlural": null,
+    "namePlural": "baseLengths",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Trapezoid"
@@ -2379,9 +2379,9 @@
       }
     ],
     "label": "Base shape",
-    "labelPlural": null,
+    "labelPlural": "Base shapes",
     "name": "baseShape",
-    "namePlural": null,
+    "namePlural": "baseShapes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CentroidalPyramid",
@@ -2743,9 +2743,9 @@
       }
     ],
     "label": "Captured with",
-    "labelPlural": null,
+    "labelPlural": "Captured with",
     "name": "capturedWith",
-    "namePlural": null,
+    "namePlural": "capturedWith",
     "usedIn": {}
   },
   "centralAngle": {
@@ -2767,9 +2767,9 @@
       }
     ],
     "label": "Central angle",
-    "labelPlural": null,
+    "labelPlural": "Central angles",
     "name": "centralAngle",
-    "namePlural": null,
+    "namePlural": "centralAngles",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CircularSector"
@@ -2942,9 +2942,9 @@
       }
     ],
     "label": "Circumradius",
-    "labelPlural": null,
+    "labelPlural": "Circumradii",
     "name": "circumradius",
-    "namePlural": null,
+    "namePlural": "circumradii",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/RegularPolygon"
@@ -3118,9 +3118,9 @@
       }
     ],
     "label": "Communication protocol",
-    "labelPlural": null,
+    "labelPlural": "Communication protocols",
     "name": "communicationProtocol",
-    "namePlural": null,
+    "namePlural": "communicationProtocols",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Interface"
@@ -3784,9 +3784,9 @@
       }
     ],
     "label": "Contribution",
-    "labelPlural": null,
+    "labelPlural": "Contributions",
     "name": "contribution",
-    "namePlural": null,
+    "namePlural": "contributions",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlas",
@@ -3946,9 +3946,9 @@
       }
     ],
     "label": "Contributor affiliation",
-    "labelPlural": null,
+    "labelPlural": "Contributor affiliations",
     "name": "contributorAffiliation",
-    "namePlural": null,
+    "namePlural": "contributorAffiliations",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlas",
@@ -3998,9 +3998,9 @@
       }
     ],
     "label": "Coordinate framework",
-    "labelPlural": null,
+    "labelPlural": "Coordinate frameworks",
     "name": "coordinateFramework",
-    "namePlural": null,
+    "namePlural": "coordinateFrameworks",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
@@ -4451,9 +4451,9 @@
       }
     ],
     "label": "Country",
-    "labelPlural": null,
+    "labelPlural": "Countries",
     "name": "country",
-    "namePlural": null,
+    "namePlural": "countries",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Location"
@@ -4479,9 +4479,9 @@
       }
     ],
     "label": "Country of formation",
-    "labelPlural": null,
+    "labelPlural": "Countries of formation",
     "name": "countryOfFormation",
-    "namePlural": null,
+    "namePlural": "countriesOfFormation",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Organization"
@@ -5049,9 +5049,9 @@
       }
     ],
     "label": "Custom usage clause",
-    "labelPlural": null,
+    "labelPlural": "Custom usage clauses",
     "name": "customUsageClause",
-    "namePlural": null,
+    "namePlural": "customUsageClauses",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Copyright"
@@ -5330,9 +5330,9 @@
       }
     ],
     "label": "Defining source",
-    "labelPlural": null,
+    "labelPlural": "Defining sources",
     "name": "definingSource",
-    "namePlural": null,
+    "namePlural": "definingSources",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ContentType"
@@ -5812,9 +5812,9 @@
       }
     ],
     "label": "Dependency",
-    "labelPlural": null,
+    "labelPlural": "Dependencies",
     "name": "dependency",
-    "namePlural": null,
+    "namePlural": "dependencies",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SoftwareVersion"
@@ -5846,9 +5846,9 @@
       }
     ],
     "label": "Depends on",
-    "labelPlural": null,
+    "labelPlural": "Depend on",
     "name": "dependsOn",
-    "namePlural": null,
+    "namePlural": "dependOn",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ServiceDeployment"
@@ -5874,9 +5874,9 @@
       }
     ],
     "label": "Deployment type",
-    "labelPlural": null,
+    "labelPlural": "Deployment types",
     "name": "deploymentType",
-    "namePlural": null,
+    "namePlural": "deploymentTypes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ServiceDeployment"
@@ -6856,9 +6856,9 @@
       }
     ],
     "label": "Diagonal lengths",
-    "labelPlural": null,
+    "labelPlural": "Diagonal lengths",
     "name": "diagonalLengths",
-    "namePlural": null,
+    "namePlural": "diagonalLengths",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Rhombus"
@@ -6884,9 +6884,9 @@
       }
     ],
     "label": "Diameters",
-    "labelPlural": null,
+    "labelPlural": "Diameters",
     "name": "diameters",
-    "namePlural": null,
+    "namePlural": "diameters",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Ellipse"
@@ -7386,9 +7386,9 @@
       }
     ],
     "label": "Documentation",
-    "labelPlural": null,
+    "labelPlural": "Documentations",
     "name": "documentation",
-    "namePlural": null,
+    "namePlural": "documentations",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlas",
@@ -7632,9 +7632,9 @@
       }
     ],
     "label": "Elevation",
-    "labelPlural": null,
+    "labelPlural": "Elevations",
     "name": "elevation",
-    "namePlural": null,
+    "namePlural": "elevations",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/GeoCoordinates"
@@ -7660,9 +7660,9 @@
       }
     ],
     "label": "Eligibility",
-    "labelPlural": null,
+    "labelPlural": "Eligibilities",
     "name": "eligibility",
-    "namePlural": null,
+    "namePlural": "eligibilities",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Accessibility"
@@ -7740,9 +7740,9 @@
       }
     ],
     "label": "Emitter",
-    "labelPlural": null,
+    "labelPlural": "Emitters",
     "name": "emitter",
-    "namePlural": null,
+    "namePlural": "emitters",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/GenericIdentifier"
@@ -7949,9 +7949,9 @@
       }
     ],
     "label": "Ended at time",
-    "labelPlural": null,
+    "labelPlural": "Ended at times",
     "name": "endedAtTime",
-    "namePlural": null,
+    "namePlural": "endedAtTimes",
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/ProtocolExecution"
@@ -8160,9 +8160,9 @@
       }
     ],
     "label": "Epoch",
-    "labelPlural": null,
+    "labelPlural": "Epochs",
     "name": "epoch",
-    "namePlural": null,
+    "namePlural": "epochs",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/EphysStimulus"
@@ -8194,9 +8194,9 @@
       }
     ],
     "label": "Equatorial diameter",
-    "labelPlural": null,
+    "labelPlural": "Equatorial diameters",
     "name": "equatorialDiameter",
-    "namePlural": null,
+    "namePlural": "equatorialDiameters",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Spheroid"
@@ -8278,9 +8278,9 @@
       }
     ],
     "label": "Ethics jurisdiction",
-    "labelPlural": null,
+    "labelPlural": "Ethics jurisdictions",
     "name": "ethicsJurisdiction",
-    "namePlural": null,
+    "namePlural": "ethicsJurisdictions",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DatasetVersion"
@@ -8408,9 +8408,9 @@
       }
     ],
     "label": "External definition of name",
-    "labelPlural": null,
+    "labelPlural": "External definitions of name",
     "name": "externalDefinitionOfName",
-    "namePlural": null,
+    "namePlural": "externalDefinitionsOfName",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/NumericalProperty",
@@ -8484,9 +8484,9 @@
       }
     ],
     "label": "Failure impact",
-    "labelPlural": null,
+    "labelPlural": "Failure impacts",
     "name": "failureImpact",
-    "namePlural": null,
+    "namePlural": "failureImpacts",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Dependency"
@@ -8786,9 +8786,9 @@
       }
     ],
     "label": "Form",
-    "labelPlural": null,
+    "labelPlural": "Forms",
     "name": "form",
-    "namePlural": null,
+    "namePlural": "forms",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Accessibility"
@@ -8912,9 +8912,9 @@
       }
     ],
     "label": "Fulfilled by",
-    "labelPlural": null,
+    "labelPlural": "Fulfilled by",
     "name": "fulfilledBy",
-    "namePlural": null,
+    "namePlural": "fulfilledBy",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Dependency"
@@ -9457,9 +9457,9 @@
       }
     ],
     "label": "Geo coordinates",
-    "labelPlural": null,
+    "labelPlural": "Geo coordinates",
     "name": "geoCoordinates",
-    "namePlural": null,
+    "namePlural": "geoCoordinates",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Location"
@@ -11167,9 +11167,9 @@
       }
     ],
     "label": "Implements",
-    "labelPlural": null,
+    "labelPlural": "Implement",
     "name": "implements",
-    "namePlural": null,
+    "namePlural": "implement",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SoftwareVersion"
@@ -11737,9 +11737,9 @@
       }
     ],
     "label": "Interface",
-    "labelPlural": null,
+    "labelPlural": "Interfaces",
     "name": "interface",
-    "namePlural": null,
+    "namePlural": "interfaces",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DeployedInterface"
@@ -11765,9 +11765,9 @@
       }
     ],
     "label": "Interface type",
-    "labelPlural": null,
+    "labelPlural": "Interface types",
     "name": "interfaceType",
-    "namePlural": null,
+    "namePlural": "interfaceTypes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Interface"
@@ -11793,9 +11793,9 @@
       }
     ],
     "label": "Interior angle",
-    "labelPlural": null,
+    "labelPlural": "Interior angles",
     "name": "interiorAngle",
-    "namePlural": null,
+    "namePlural": "interiorAngles",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Parallelogram"
@@ -12015,9 +12015,9 @@
       }
     ],
     "label": "Intermediate diameter",
-    "labelPlural": null,
+    "labelPlural": "Intermediate diameters",
     "name": "intermediateDiameter",
-    "namePlural": null,
+    "namePlural": "intermediateDiameters",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Ellipsoid"
@@ -12303,9 +12303,9 @@
       }
     ],
     "label": "Is alternative version of",
-    "labelPlural": "Is alternative version of",
+    "labelPlural": "Are alternative versions of",
     "name": "isAlternativeVersionOf",
-    "namePlural": "isAlternativeVersionOf",
+    "namePlural": "areAlternativeVersionsOf",
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -12366,9 +12366,9 @@
       }
     ],
     "label": "Is based on",
-    "labelPlural": null,
+    "labelPlural": "Are based on",
     "name": "isBasedOn",
-    "namePlural": null,
+    "namePlural": "areBasedOn",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ContentType"
@@ -12438,9 +12438,9 @@
       }
     ],
     "label": "Is new version of",
-    "labelPlural": "Is new version of",
+    "labelPlural": "Are new versions of",
     "name": "isNewVersionOf",
-    "namePlural": "isNewVersionOf",
+    "namePlural": "areNewVersionsOf",
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -12561,9 +12561,9 @@
       }
     ],
     "label": "Is part of",
-    "labelPlural": "Is part of",
+    "labelPlural": "Are parts of",
     "name": "isPartOf",
-    "namePlural": "isPartOf",
+    "namePlural": "arePartsOf",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CellPatching",
@@ -12669,9 +12669,9 @@
       }
     ],
     "label": "Is preceded by",
-    "labelPlural": null,
+    "labelPlural": "Are preceded by",
     "name": "isPrecededBy",
-    "namePlural": null,
+    "namePlural": "arePrecededBy",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
@@ -12715,9 +12715,9 @@
       }
     ],
     "label": "Is variant of",
-    "labelPlural": "Is variant of",
+    "labelPlural": "Are variants of",
     "name": "isVariantOf",
-    "namePlural": "isVariantOf",
+    "namePlural": "areVariantsOf",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
@@ -12762,9 +12762,9 @@
       }
     ],
     "label": "Is version of",
-    "labelPlural": null,
+    "labelPlural": "Are versions of",
     "name": "isVersionOf",
-    "namePlural": null,
+    "namePlural": "areVersionsOf",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
@@ -12843,9 +12843,9 @@
       }
     ],
     "label": "Jurisdiction",
-    "labelPlural": null,
+    "labelPlural": "Jurisdictions",
     "name": "jurisdiction",
-    "namePlural": null,
+    "namePlural": "jurisdictions",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Organization",
@@ -13676,9 +13676,9 @@
       }
     ],
     "label": "Latitude",
-    "labelPlural": null,
+    "labelPlural": "Latitudes",
     "name": "latitude",
-    "namePlural": null,
+    "namePlural": "latitudes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/GeoCoordinates"
@@ -13811,9 +13811,9 @@
       }
     ],
     "label": "Leg length",
-    "labelPlural": null,
+    "labelPlural": "Leg lengths",
     "name": "legLength",
-    "namePlural": null,
+    "namePlural": "legLengths",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/IsoscelesTriangle"
@@ -13839,9 +13839,9 @@
       }
     ],
     "label": "Leg lengths",
-    "labelPlural": null,
+    "labelPlural": "Leg lengths",
     "name": "legLengths",
-    "namePlural": null,
+    "namePlural": "legLengths",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Kite",
@@ -14138,9 +14138,9 @@
       }
     ],
     "label": "Longitude",
-    "labelPlural": null,
+    "labelPlural": "Longitudes",
     "name": "longitude",
-    "namePlural": null,
+    "namePlural": "longitudes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/GeoCoordinates"
@@ -14362,9 +14362,9 @@
       }
     ],
     "label": "Major base shape",
-    "labelPlural": null,
+    "labelPlural": "Major base shapes",
     "name": "majorBaseShape",
-    "namePlural": null,
+    "namePlural": "majorBaseShapes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Frustum"
@@ -14390,9 +14390,9 @@
       }
     ],
     "label": "Major diameter",
-    "labelPlural": null,
+    "labelPlural": "Major diameters",
     "name": "majorDiameter",
-    "namePlural": null,
+    "namePlural": "majorDiameters",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Ellipsoid"
@@ -14418,9 +14418,9 @@
       }
     ],
     "label": "Major side length",
-    "labelPlural": null,
+    "labelPlural": "Major side lengths",
     "name": "majorSideLength",
-    "namePlural": null,
+    "namePlural": "majorSideLengths",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Rectangle"
@@ -14785,9 +14785,9 @@
       }
     ],
     "label": "Member",
-    "labelPlural": null,
+    "labelPlural": "Members",
     "name": "member",
-    "namePlural": null,
+    "namePlural": "members",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Membership"
@@ -14884,9 +14884,9 @@
       }
     ],
     "label": "Memberships",
-    "labelPlural": null,
+    "labelPlural": "Memberships",
     "name": "memberships",
-    "namePlural": null,
+    "namePlural": "memberships",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Consortium"
@@ -15051,9 +15051,9 @@
       }
     ],
     "label": "Minor base scale",
-    "labelPlural": null,
+    "labelPlural": "Minor base scales",
     "name": "minorBaseScale",
-    "namePlural": null,
+    "namePlural": "minorBaseScales",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Frustum"
@@ -15079,9 +15079,9 @@
       }
     ],
     "label": "Minor diameter",
-    "labelPlural": null,
+    "labelPlural": "Minor diameters",
     "name": "minorDiameter",
-    "namePlural": null,
+    "namePlural": "minorDiameters",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Ellipsoid"
@@ -15107,9 +15107,9 @@
       }
     ],
     "label": "Minor side length",
-    "labelPlural": null,
+    "labelPlural": "Minor side lengths",
     "name": "minorSideLength",
-    "namePlural": null,
+    "namePlural": "minorSideLengths",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Rectangle"
@@ -15936,9 +15936,9 @@
       }
     ],
     "label": "Number of images",
-    "labelPlural": null,
+    "labelPlural": "Numbers of images",
     "name": "numberOfImages",
-    "namePlural": null,
+    "namePlural": "numbersOfImages",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/GridImageStack"
@@ -15956,9 +15956,9 @@
       }
     ],
     "label": "Number of planes",
-    "labelPlural": null,
+    "labelPlural": "Numbers of planes",
     "name": "numberOfPlanes",
-    "namePlural": null,
+    "namePlural": "numbersOfPlanes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/GridVolume",
@@ -15977,9 +15977,9 @@
       }
     ],
     "label": "Number of sides",
-    "labelPlural": null,
+    "labelPlural": "Numbers of sides",
     "name": "numberOfSides",
-    "namePlural": null,
+    "namePlural": "numbersOfSides",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/RegularPolygon"
@@ -16063,9 +16063,9 @@
       }
     ],
     "label": "Number of volumes",
-    "labelPlural": null,
+    "labelPlural": "Numbers of volumes",
     "name": "numberOfVolumes",
-    "namePlural": null,
+    "namePlural": "numbersOfVolumes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/GridVolumeSequence"
@@ -16094,9 +16094,9 @@
       }
     ],
     "label": "Obtained with",
-    "labelPlural": null,
+    "labelPlural": "Obtained with",
     "name": "obtainedWith",
-    "namePlural": null,
+    "namePlural": "obtainedWith",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/GridImage",
@@ -16340,9 +16340,9 @@
       }
     ],
     "label": "Operating device",
-    "labelPlural": null,
+    "labelPlural": "Operating devices",
     "name": "operatingDevice",
-    "namePlural": null,
+    "namePlural": "operatingDevices",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SoftwareVersion"
@@ -16739,9 +16739,9 @@
       }
     ],
     "label": "Other cross reference",
-    "labelPlural": null,
+    "labelPlural": "Other cross references",
     "name": "otherCrossReference",
-    "namePlural": null,
+    "namePlural": "otherCrossReferences",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AccessChannel",
@@ -16877,9 +16877,9 @@
       }
     ],
     "label": "Other ontology identifier",
-    "labelPlural": null,
+    "labelPlural": "Other ontology identifiers",
     "name": "otherOntologyIdentifier",
-    "namePlural": null,
+    "namePlural": "otherOntologyIdentifiers",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AccessChannel",
@@ -17731,9 +17731,9 @@
       }
     ],
     "label": "Perpendicular leg lengths",
-    "labelPlural": null,
+    "labelPlural": "Perpendicular leg lengths",
     "name": "perpendicularLegLengths",
-    "namePlural": null,
+    "namePlural": "perpendicularLegLengths",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/RightTriangle"
@@ -17759,9 +17759,9 @@
       }
     ],
     "label": "Person",
-    "labelPlural": null,
+    "labelPlural": "Persons",
     "name": "person",
-    "namePlural": null,
+    "namePlural": "persons",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Affiliation"
@@ -17951,9 +17951,9 @@
       }
     ],
     "label": "Pixel size",
-    "labelPlural": null,
+    "labelPlural": "Pixel sizes",
     "name": "pixelSize",
-    "namePlural": null,
+    "namePlural": "pixelSizes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/GridImage",
@@ -17980,9 +17980,9 @@
       }
     ],
     "label": "Polar diameter",
-    "labelPlural": null,
+    "labelPlural": "Polar diameters",
     "name": "polarDiameter",
-    "namePlural": null,
+    "namePlural": "polarDiameters",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Spheroid"
@@ -18040,9 +18040,9 @@
       }
     ],
     "label": "Preferred cross reference",
-    "labelPlural": null,
+    "labelPlural": "Preferred cross references",
     "name": "preferredCrossReference",
-    "namePlural": null,
+    "namePlural": "preferredCrossReferences",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AccessChannel",
@@ -18228,9 +18228,9 @@
       }
     ],
     "label": "Preferred name",
-    "labelPlural": null,
+    "labelPlural": "Preferred names",
     "name": "preferredName",
-    "namePlural": null,
+    "namePlural": "preferredNames",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Person"
@@ -18860,9 +18860,9 @@
       }
     ],
     "label": "Process",
-    "labelPlural": null,
+    "labelPlural": "Processes",
     "name": "process",
-    "namePlural": null,
+    "namePlural": "processes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Accessibility"
@@ -19228,9 +19228,9 @@
       }
     ],
     "label": "Provides",
-    "labelPlural": null,
+    "labelPlural": "Provide",
     "name": "provides",
-    "namePlural": null,
+    "namePlural": "provide",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ServiceDeployment"
@@ -19307,9 +19307,9 @@
       }
     ],
     "label": "Publication status",
-    "labelPlural": null,
+    "labelPlural": "Publication statuses",
     "name": "publicationStatus",
-    "namePlural": null,
+    "namePlural": "publicationStatuses",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
@@ -19765,9 +19765,9 @@
       }
     ],
     "label": "Reference",
-    "labelPlural": null,
+    "labelPlural": "References",
     "name": "reference",
-    "namePlural": null,
+    "namePlural": "references",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SpecimenAge"
@@ -20032,9 +20032,9 @@
       }
     ],
     "label": "Related interspecies anatomy",
-    "labelPlural": null,
+    "labelPlural": "Related interspecies anatomies",
     "name": "relatedInterspeciesAnatomy",
-    "namePlural": null,
+    "namePlural": "relatedInterspeciesAnatomies",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CustomAnatomicalEntity",
@@ -21719,9 +21719,9 @@
       }
     ],
     "label": "Side length",
-    "labelPlural": null,
+    "labelPlural": "Side lengths",
     "name": "sideLength",
-    "namePlural": null,
+    "namePlural": "sideLengths",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Cube",
@@ -22709,9 +22709,9 @@
       }
     ],
     "label": "Started at time",
-    "labelPlural": null,
+    "labelPlural": "Started at times",
     "name": "startedAtTime",
-    "namePlural": null,
+    "namePlural": "startedAtTimes",
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/ProtocolExecution"
@@ -23820,9 +23820,9 @@
       }
     ],
     "label": "Symmetry diagonal length",
-    "labelPlural": null,
+    "labelPlural": "Symmetry diagonal lengths",
     "name": "symmetryDiagonalLength",
-    "namePlural": null,
+    "namePlural": "symmetryDiagonalLengths",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Kite"
@@ -24483,9 +24483,9 @@
       }
     ],
     "label": "Template",
-    "labelPlural": null,
+    "labelPlural": "Templates",
     "name": "template",
-    "namePlural": null,
+    "namePlural": "templates",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/UsageAgreement"
@@ -24511,9 +24511,9 @@
       }
     ],
     "label": "Temporal sampling frequency",
-    "labelPlural": null,
+    "labelPlural": "Temporal sampling frequencies",
     "name": "temporalSamplingFrequency",
-    "namePlural": null,
+    "namePlural": "temporalSamplingFrequencies",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/GridVolumeSequence"
@@ -25242,9 +25242,9 @@
       }
     ],
     "label": "Used taxon",
-    "labelPlural": null,
+    "labelPlural": "Used taxa",
     "name": "usedTaxon",
-    "namePlural": null,
+    "namePlural": "usedTaxa",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlas",
@@ -25319,9 +25319,9 @@
       }
     ],
     "label": "Uses",
-    "labelPlural": null,
+    "labelPlural": "Use",
     "name": "uses",
-    "namePlural": null,
+    "namePlural": "use",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ServiceDeployment"
@@ -25759,9 +25759,9 @@
       }
     ],
     "label": "Version specification",
-    "labelPlural": null,
+    "labelPlural": "Version specifications",
     "name": "versionSpecification",
-    "namePlural": null,
+    "namePlural": "versionSpecifications",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
@@ -26275,9 +26275,9 @@
       }
     ],
     "label": "Z-step size",
-    "labelPlural": null,
+    "labelPlural": "Z-step sizes",
     "name": "z-stepSize",
-    "namePlural": null,
+    "namePlural": "z-stepSizes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/GridImageStack"
