@@ -9384,9 +9384,6 @@
   },
   "ProductAccessibility": {
     "backwardsCompatibility": {
-      "latest": [
-        "v4.0"
-      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -9426,13 +9423,9 @@
       ],
       [
         "v4.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
-      "latest",
       "v1.0",
       "v2.0",
       "v3.0",
