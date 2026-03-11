@@ -85,6 +85,7 @@ Added files:
 
 Removed files:
   - controlledTerms/ethicsAssessment.schema.omi.json
+  - controlledTerms/productAccessibility.schema.omi.json
   - controlledTerms/UBERONParcellation.schema.omi.json
   - core/digitalIdentifier/GRIDID.schema.omi.json
   - core/products/webService.schema.omi.json
@@ -686,14 +687,6 @@ Changes in controlledTerms/patchClampVariation.schema.omi.json:
   - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
 
 Changes in controlledTerms/preparationType.schema.omi.json:
-  - Field 'properties.props:interlexIdentifier' removed.
-  - Field 'properties.props:knowledgeSpaceLink' removed.
-  - Field 'properties.props:otherCrossReference' added.
-  - Field 'properties.props:otherOntologyIdentifier' added.
-  - Field 'properties.props:preferredCrossReference' added.
-  - Field 'properties.props:preferredOntologyIdentifier._instruction' modified.
-
-Changes in controlledTerms/productAccessibility.schema.omi.json:
   - Field 'properties.props:interlexIdentifier' removed.
   - Field 'properties.props:knowledgeSpaceLink' removed.
   - Field 'properties.props:otherCrossReference' added.

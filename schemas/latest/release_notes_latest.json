@@ -85,6 +85,7 @@
   ],
   "removedFiles": [
     "controlledTerms/ethicsAssessment.schema.omi.json",
+    "controlledTerms/productAccessibility.schema.omi.json",
     "controlledTerms/UBERONParcellation.schema.omi.json",
     "core/digitalIdentifier/GRIDID.schema.omi.json",
     "core/products/webService.schema.omi.json",
@@ -1476,24 +1477,6 @@
         }
       ],
       "schemaType": "PreparationType"
-    },
-    {
-      "file": "controlledTerms/productAccessibility.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:otherCrossReference",
-        "properties.props:otherOntologyIdentifier",
-        "properties.props:preferredCrossReference"
-      ],
-      "removedAttributes": [
-        "properties.props:interlexIdentifier",
-        "properties.props:knowledgeSpaceLink"
-      ],
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:preferredOntologyIdentifier._instruction"
-        }
-      ],
-      "schemaType": "ProductAccessibility"
     },
     {
       "file": "controlledTerms/programmingLanguage.schema.omi.json",
