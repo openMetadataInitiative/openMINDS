@@ -5849,9 +5849,9 @@
       }
     ],
     "label": "Depends on",
-    "labelPlural": "Depends on",
+    "labelPlural": "Depend on",
     "name": "dependsOn",
-    "namePlural": "dependsOn",
+    "namePlural": "dependOn",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ServiceDeployment"
@@ -11162,9 +11162,9 @@
       }
     ],
     "label": "Implements",
-    "labelPlural": "Implements",
+    "labelPlural": "Implement",
     "name": "implements",
-    "namePlural": "implements",
+    "namePlural": "implement",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SoftwareVersion"
