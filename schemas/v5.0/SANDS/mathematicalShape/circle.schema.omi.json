@@ -1,0 +1,26 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/Circle",
+  "label": "Circle",
+  "name": "Circle",
+  "properties": {
+    "https://openminds.om-i.org/props/radius": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the radius of this circle.",
+      "label": "Radius",
+      "labelPlural": "Radii",
+      "name": "radius",
+      "nameForReverseLink": null,
+      "namePlural": "radii"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/radius"
+  ]
+}

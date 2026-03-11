@@ -1,0 +1,62 @@
+{
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/ViewerSpecification",
+  "label": "Viewer specification",
+  "name": "ViewerSpecification",
+  "properties": {
+    "https://openminds.om-i.org/props/additionalRemarks": {
+      "_instruction": "Enter any additional remarks concerning this viewer specification.",
+      "description": "Mention of what deserves additional attention or notice.",
+      "formatting": "text/markdown",
+      "label": "Additional remarks",
+      "labelPlural": "Additional remarks",
+      "multiline": true,
+      "name": "additionalRemarks",
+      "namePlural": "additionalRemarks",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/anchorPoint": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the coordinates of the anchor point that a viewer should use. Either state the anchor point of the annotation again or state another coordinate point.",
+      "label": "Anchor point",
+      "labelPlural": "Anchor points",
+      "maxItems": 3,
+      "minItems": 2,
+      "name": "anchorPoint",
+      "nameForReverseLink": null,
+      "namePlural": "anchorPoints",
+      "type": "array"
+    },
+    "https://openminds.om-i.org/props/cameraPosition": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/CoordinatePoint"
+      ],
+      "_instruction": "Enter the camera position that a viewer should use.",
+      "label": "Camera position",
+      "labelPlural": "Camera positions",
+      "name": "cameraPosition",
+      "nameForReverseLink": null,
+      "namePlural": "cameraPositions"
+    },
+    "https://openminds.om-i.org/props/preferredDisplayColor": {
+      "_belongsToCategory": [
+        "color"
+      ],
+      "_instruction": "Add the preferred color that a viewer should display.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Colormap",
+        "https://openminds.om-i.org/types/SingleColor"
+      ],
+      "label": "Preferred display color",
+      "labelPlural": "Preferred display colors",
+      "name": "preferredDisplayColor",
+      "nameForReverseLink": null,
+      "namePlural": "preferredDisplayColors"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/anchorPoint"
+  ]
+}

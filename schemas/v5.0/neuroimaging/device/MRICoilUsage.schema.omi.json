@@ -1,0 +1,95 @@
+{
+  "_categories": [
+    "deviceUsage"
+  ],
+  "_module": "neuroimaging",
+  "_type": "https://openminds.om-i.org/types/MRICoilUsage",
+  "label": "Mricoil usage",
+  "name": "MRICoilUsage",
+  "properties": {
+    "https://openminds.om-i.org/props/activeElement": {
+      "_instruction": "Only applicable to radiofrequency (RF) coils! Enter the active coil element identifier(s) corresponding to the transmitting and/or receiving elements that were electrically active during this acquisition; the number of identifiers typically matches the number of physical elements in the selected RF coil and may be fewer if some elements were disabled.",
+      "formatting": "text/plain",
+      "items": {
+        "type": "string"
+      },
+      "label": "Active element",
+      "minItems": 1,
+      "multiline": false,
+      "name": "activeElement",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/device": {
+      "_instruction": "Add the MRI Coil used.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/MRICoil"
+      ],
+      "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
+      "label": "Device",
+      "labelPlural": "Devices",
+      "name": "device",
+      "nameForReverseLink": null,
+      "namePlural": "devices"
+    },
+    "https://openminds.om-i.org/props/lookupLabel": {
+      "_instruction": "Enter a lookup label for this device usage that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "labelPlural": "Lookup labels",
+      "multiline": false,
+      "name": "lookupLabel",
+      "namePlural": "lookupLabels",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/metadataLocation": {
+      "_instruction": "Add all files or file bundles containing additional information about the usage of this device.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File",
+        "https://openminds.om-i.org/types/FileBundle"
+      ],
+      "label": "Metadata location",
+      "labelPlural": "Metadata locations",
+      "minItems": 1,
+      "name": "metadataLocation",
+      "nameForReverseLink": null,
+      "namePlural": "metadataLocations",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/mountingLocation": {
+      "_instruction": "Add the anatomical mounting location of the coil, indicating where the coil was positioned on or around the subject (for example, head, neck, knee, or torso). This information is typically applicable to radiofrequency (RF) coils and may be omitted for gradient or shim systems.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ExternalBodyRegion"
+      ],
+      "label": "Mounting location",
+      "name": "mountingLocation",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/signalDirectionality": {
+      "_instruction": "Add the signal directionality of the coil, indicating whether it was used for signal transmission, reception, or both. This information is typically defined in the system configuration and can be retrieved from the DICOM header or scanner hardware metadata.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SignalDirectionality"
+      ],
+      "label": "Signal directionality",
+      "name": "signalDirectionality",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/usedSpecimen": {
+      "_instruction": "Add the state of the tissue sample or subject that this device was used on.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SubjectState",
+        "https://openminds.om-i.org/types/TissueSampleState"
+      ],
+      "label": "Used specimen",
+      "labelPlural": "Used specimens",
+      "name": "usedSpecimen",
+      "nameForReverseLink": null,
+      "namePlural": "usedSpecimens"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/device",
+    "https://openminds.om-i.org/props/signalDirectionality"
+  ]
+}

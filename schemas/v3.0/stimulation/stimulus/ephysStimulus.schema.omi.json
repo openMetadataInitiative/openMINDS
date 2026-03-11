@@ -41,8 +41,10 @@
       ],
       "_instruction": "Enter the total epoch length of this stimulus.",
       "label": "Epoch",
+      "labelPlural": "Epochs",
       "name": "epoch",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "epochs"
     },
     "https://openminds.ebrains.eu/vocab/generatedBy": {
       "_belongsToCategory": [

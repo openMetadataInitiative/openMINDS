@@ -1,0 +1,37 @@
+{
+  "_module": "chemicals",
+  "_type": "https://openminds.om-i.org/types/AmountOfChemical",
+  "color": "#561A02",
+  "description": "Structured information about the amount of a given chemical that was used.",
+  "label": "Amount of chemical",
+  "name": "AmountOfChemical",
+  "properties": {
+    "https://openminds.om-i.org/props/amount": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "When used in a mixture, enter the amount of the substance within the mixture (e.g., as concentration or as ratio). When used in its pure state, enter the used amount of the substance.",
+      "label": "Amount",
+      "labelPlural": "Amounts",
+      "name": "amount",
+      "nameForReverseLink": null,
+      "namePlural": "amounts"
+    },
+    "https://openminds.om-i.org/props/chemicalProduct": {
+      "_instruction": "Add the chemical product that was used.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ChemicalMixture",
+        "https://openminds.om-i.org/types/ChemicalSubstance",
+        "https://openminds.om-i.org/types/MolecularEntity"
+      ],
+      "label": "Chemical product",
+      "labelPlural": "Chemical products",
+      "name": "chemicalProduct",
+      "nameForReverseLink": null,
+      "namePlural": "chemicalProducts"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/chemicalProduct"
+  ]
+}

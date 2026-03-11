@@ -1,0 +1,26 @@
+{
+  "_categories": [
+    "color"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/SingleColor",
+  "label": "Single color",
+  "name": "SingleColor",
+  "properties": {
+    "https://openminds.om-i.org/props/value": {
+      "_instruction": "Enter the Hex color code following the define pattern (e.g., #000000 or #C0C0C0).",
+      "description": "Entry for a property.",
+      "formatting": "text/plain",
+      "label": "Value",
+      "labelPlural": "Values",
+      "multiline": false,
+      "name": "value",
+      "namePlural": "values",
+      "pattern": "^#[0-9A-Fa-f]{6}$",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/value"
+  ]
+}

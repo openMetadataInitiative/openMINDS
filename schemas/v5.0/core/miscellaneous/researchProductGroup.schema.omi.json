@@ -1,0 +1,59 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/ResearchProductGroup",
+  "color": "#920003",
+  "label": "Research product group",
+  "name": "ResearchProductGroup",
+  "properties": {
+    "https://openminds.om-i.org/props/context": {
+      "_instruction": "Enter the common context for this research product group.",
+      "formatting": "text/plain",
+      "label": "Context",
+      "labelPlural": "Contexts",
+      "multiline": false,
+      "name": "context",
+      "namePlural": "contexts",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/hasPart": {
+      "_belongsToCategory": [
+        "researchProduct"
+      ],
+      "_instruction": "Add all research products (research product versions) that should be grouped under the given 'context'.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ValidationTest",
+        "https://openminds.om-i.org/types/ValidationTestVersion",
+        "https://openminds.om-i.org/types/WorkflowRecipe",
+        "https://openminds.om-i.org/types/WorkflowRecipeVersion",
+        "https://openminds.om-i.org/types/Dataset",
+        "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/Interface",
+        "https://openminds.om-i.org/types/InterfaceVersion",
+        "https://openminds.om-i.org/types/MetaDataModel",
+        "https://openminds.om-i.org/types/MetaDataModelVersion",
+        "https://openminds.om-i.org/types/Model",
+        "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/Software",
+        "https://openminds.om-i.org/types/SoftwareVersion",
+        "https://openminds.om-i.org/types/LivePaper",
+        "https://openminds.om-i.org/types/LivePaperVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion"
+      ],
+      "label": "Has part",
+      "labelPlural": "Has parts",
+      "minItems": 1,
+      "name": "hasPart",
+      "nameForReverseLink": null,
+      "namePlural": "hasParts",
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/context",
+    "https://openminds.om-i.org/props/hasPart"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/FileRepository",
+  "color": "#682021",
+  "description": "Structured information on a file repository.",
+  "label": "File repository",
+  "name": "FileRepository",
+  "properties": {
+    "https://openminds.om-i.org/props/IRI": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to this file repository.",
+      "description": "Stands for Internationalized Resource Identifier which is an internet protocol standard that builds on the URI protocol, extending the set of permitted characters to include Unicode/ISO 10646.",
+      "formatting": "text/plain",
+      "label": "Iri",
+      "labelPlural": "IRIs",
+      "multiline": false,
+      "name": "IRI",
+      "namePlural": "IRIs",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/contentTypePattern": {
+      "_instruction": "Add all content type patterns that identify matching content types for files within this file repository.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ContentTypePattern"
+      ],
+      "label": "Content type pattern",
+      "labelPlural": "Content type patterns",
+      "minItems": 1,
+      "name": "contentTypePattern",
+      "nameForReverseLink": null,
+      "namePlural": "contentTypePatterns",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/format": {
+      "_instruction": "If the files and file bundles within this repository are organised and formatted according to a formal data structure, add the content type of this formal data structure. Leave blank if no formal data structure has been applied.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ContentType"
+      ],
+      "description": "Method of digitally organizing and structuring data or information.",
+      "label": "Format",
+      "labelPlural": "Formats",
+      "name": "format",
+      "nameForReverseLink": null,
+      "namePlural": "formats"
+    },
+    "https://openminds.om-i.org/props/hash": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Hash"
+      ],
+      "_instruction": "Add the hash that was generated for this file repository.",
+      "description": "Term used for the process of converting any data into a single value. Often also directly refers to the resulting single value.",
+      "label": "Hash",
+      "labelPlural": "Hashes",
+      "name": "hash",
+      "nameForReverseLink": null,
+      "namePlural": "hashes"
+    },
+    "https://openminds.om-i.org/props/hostedBy": {
+      "_instruction": "Add the host organization of this file repository.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Organization"
+      ],
+      "description": "Reference to an organization that provides facilities and services for something.",
+      "label": "Hosted by",
+      "labelPlural": "Hosted by",
+      "name": "hostedBy",
+      "nameForReverseLink": null,
+      "namePlural": "hostedBy"
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter the name of this file repository.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/storageSize": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the storage size of this file repository.",
+      "description": "Quantitative value defining how much disk space is used by an object on a computer system.",
+      "label": "Storage size",
+      "labelPlural": "Storage sizes",
+      "name": "storageSize",
+      "nameForReverseLink": null,
+      "namePlural": "storageSizes"
+    },
+    "https://openminds.om-i.org/props/structurePattern": {
+      "_instruction": "Add the file repository structure that identifies the file path patterns used in this file repository.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/FileRepositoryStructure"
+      ],
+      "label": "Structure pattern",
+      "labelPlural": "Structure patterns",
+      "name": "structurePattern",
+      "nameForReverseLink": null,
+      "namePlural": "structurePatterns"
+    },
+    "https://openminds.om-i.org/props/type": {
+      "_instruction": "Add the type of this file repository.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/FileRepositoryType"
+      ],
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "label": "Type",
+      "labelPlural": "Types",
+      "name": "type",
+      "nameForReverseLink": null,
+      "namePlural": "types"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/IRI",
+    "https://openminds.om-i.org/props/hostedBy",
+    "https://openminds.om-i.org/props/name"
+  ]
+}

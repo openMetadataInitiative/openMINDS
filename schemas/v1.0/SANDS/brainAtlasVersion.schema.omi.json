@@ -87,10 +87,10 @@
       ],
       "description": "Reference to a previous (potentially outdated) particular form of something.",
       "label": "Is new version of",
-      "labelPlural": "Is new version of",
+      "labelPlural": "Are new versions of",
       "name": "isNewVersionOf",
       "nameForReverseLink": null,
-      "namePlural": "isNewVersionOf"
+      "namePlural": "areNewVersionsOf"
     },
     "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
       "_instruction": "Enter the identifier (IRI) of the related ontological term matching this brain atlas version.",

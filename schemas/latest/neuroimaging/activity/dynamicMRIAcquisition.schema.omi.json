@@ -1,0 +1,364 @@
+{
+  "_module": "neuroimaging",
+  "_type": "https://openminds.om-i.org/types/DynamicMRIAcquisition",
+  "label": "Dynamic mriacquisition",
+  "name": "DynamicMRIAcquisition",
+  "properties": {
+    "https://openminds.om-i.org/props/behavioralProtocol": {
+      "_instruction": "Add the behavioral protocol or protocols applied during this acquisition, including all tasks or observed behavioral conditions (for example, resting state).",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/BehavioralProtocol"
+      ],
+      "label": "Behavioral protocol",
+      "labelPlural": "Behavioral protocols",
+      "minItems": 1,
+      "name": "behavioralProtocol",
+      "nameForReverseLink": null,
+      "namePlural": "behavioralProtocols",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/contrastAgent": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/AmountOfChemical"
+      ],
+      "_instruction": "Add the contrast agent(s) administered for this acquisition, including for each the agent identity and administered amount; if no contrast agent was used, leave this field null. Include all agents given prior to or during the scan.",
+      "label": "Contrast agent",
+      "minItems": 1,
+      "name": "contrastAgent",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/customPropertySet": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/CustomPropertySet"
+      ],
+      "_instruction": "Add any user-defined parameters grouped in context-specific sets that are not covered in the standardized properties of this activity.",
+      "label": "Custom property set",
+      "labelPlural": "Custom property sets",
+      "minItems": 1,
+      "name": "customPropertySet",
+      "nameForReverseLink": null,
+      "namePlural": "customPropertySets",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/delayTime": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the delay time, defined as the time interval between a protocol-defined reference event (for example, stimulus onset, contrast administration, or physiological trigger) and the start of dynamic image acquisition, expressed in seconds. This value should reflect the actual timing applied during the scan.",
+      "label": "Delay time",
+      "name": "delayTime",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/description": {
+      "_instruction": "Enter a description of this activity.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/markdown",
+      "label": "Description",
+      "labelPlural": "Descriptions",
+      "multiline": true,
+      "name": "description",
+      "namePlural": "descriptions",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/device": {
+      "_instruction": "Add the magnetic resonance imaging (MRI) scanner used for this acquisition. This reference should identify the specific device configuration under which the scan was performed.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/MRIScannerUsage"
+      ],
+      "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
+      "label": "Device",
+      "labelPlural": "Devices",
+      "name": "device",
+      "nameForReverseLink": null,
+      "namePlural": "devices"
+    },
+    "https://openminds.om-i.org/props/distortionCorrection": {
+      "_instruction": "Add the distortion correction data used for this acquisition, linking to the calibration files applied during image reconstruction or post-processing. If no distortion correction was performed, leave this field null.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File"
+      ],
+      "label": "Distortion correction",
+      "minItems": 1,
+      "name": "distortionCorrection",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/endTime": {
+      "_formats": [
+        "date-time",
+        "time"
+      ],
+      "_instruction": "Enter the date and/or time on when this activity ended, formatted as either '2023-02-07T16:00:00+00:00' (date-time) or '16:00:00+00:00' (time).",
+      "formatting": "text/plain",
+      "label": "End time",
+      "labelPlural": "End times",
+      "multiline": false,
+      "name": "endTime",
+      "namePlural": "endTimes",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/input": {
+      "_instruction": "Add the specimen (subject or tissue sample) in the physical and biological state in which it was scanned, referencing the corresponding specimen record at the time of imaging.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SubjectState",
+        "https://openminds.om-i.org/types/TissueSampleState"
+      ],
+      "description": "Something or someone that is put into or participates in a process or machine.",
+      "label": "Input",
+      "labelPlural": "Inputs",
+      "minItems": 1,
+      "name": "input",
+      "nameForReverseLink": null,
+      "namePlural": "inputs",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/isPartOf": {
+      "_instruction": "Add the dataset version in which this activity was conducted.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/DatasetVersion"
+      ],
+      "description": "Reference to the ensemble of multiple things or beings.",
+      "label": "Is part of",
+      "labelPlural": "Are parts of",
+      "name": "isPartOf",
+      "nameForReverseLink": null,
+      "namePlural": "arePartsOf"
+    },
+    "https://openminds.om-i.org/props/lookupLabel": {
+      "_instruction": "Enter a lookup label for this activity that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "labelPlural": "Lookup labels",
+      "multiline": false,
+      "name": "lookupLabel",
+      "namePlural": "lookupLabels",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/motionCorrection": {
+      "_instruction": "Add the motion correction data used for this acquisition, linking to the calibration files or reference images applied during image reconstruction or post-processing. If no motion correction was performed, leave this field null.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File"
+      ],
+      "label": "Motion correction",
+      "minItems": 1,
+      "name": "motionCorrection",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/numberOfDiscardedVolumes": {
+      "_instruction": "Enter the number of image volumes discarded by the operator or analyst prior to post-processing, including initial equilibration volumes and any later volumes removed due to artifacts or instability. This value should reflect the total user-defined exclusion applied after acquisition.",
+      "label": "Number of discarded volumes",
+      "name": "numberOfDiscardedVolumes",
+      "type": "integer"
+    },
+    "https://openminds.om-i.org/props/output": {
+      "_instruction": "Add the output data generated by this acquisition by linking to one or more files containing the primary imaging outputs and/or, if applicable, any secondary reconstructed or corrected outputs produced during post-processing.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File"
+      ],
+      "description": "Something or someone that comes out of, is delivered or produced by a process or machine.",
+      "label": "Output",
+      "labelPlural": "Outputs",
+      "minItems": 1,
+      "name": "output",
+      "nameForReverseLink": null,
+      "namePlural": "outputs",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/performedBy": {
+      "_belongsToCategory": [
+        "agent"
+      ],
+      "_instruction": "Add all agents that performed this activity.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SoftwareAgent",
+        "https://openminds.om-i.org/types/Person"
+      ],
+      "label": "Performed by",
+      "labelPlural": "Performed by",
+      "minItems": 1,
+      "name": "performedBy",
+      "nameForReverseLink": null,
+      "namePlural": "performedBy",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/preparationDesign": {
+      "_instruction": "Add the initial preparation type for this activity.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/PreparationType"
+      ],
+      "label": "Preparation design",
+      "labelPlural": "Preparation designs",
+      "name": "preparationDesign",
+      "nameForReverseLink": null,
+      "namePlural": "preparationDesigns"
+    },
+    "https://openminds.om-i.org/props/protocol": {
+      "_instruction": "Add all protocols used during this activity.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Protocol"
+      ],
+      "description": "Plan that describes the process of a scientific or medical experiment, treatment, or procedure.",
+      "label": "Protocol",
+      "labelPlural": "Protocols",
+      "minItems": 1,
+      "name": "protocol",
+      "nameForReverseLink": null,
+      "namePlural": "protocols",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/registrationData": {
+      "_instruction": "Add the registration data used for this acquisition, linking to the transformation and/or reference files applied during image alignment in post-processing. If no registration was performed, leave this field null.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File"
+      ],
+      "label": "Registration data",
+      "minItems": 1,
+      "name": "registrationData",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/specimenOrientation": {
+      "_instruction": "Add the specimen orientation as the anatomical directions corresponding to the scanner X, Y, and Z axes, describing the alignment of the specimen's anatomy with the scanner coordinate system. Note that this orientation may differ from the prescribed slice orientation, especially in nonstandard specimen positioning.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnatomicalAxesOrientation"
+      ],
+      "label": "Specimen orientation",
+      "name": "specimenOrientation",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/startTime": {
+      "_formats": [
+        "date-time",
+        "time"
+      ],
+      "_instruction": "Enter the date and/or time on when this activity started, formatted as either '2023-02-07T16:00:00+00:00' (date-time) or '16:00:00+00:00' (time).",
+      "formatting": "text/plain",
+      "label": "Start time",
+      "labelPlural": "Start times",
+      "multiline": false,
+      "name": "startTime",
+      "namePlural": "startTimes",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/studyTarget": {
+      "_belongsToCategory": [
+        "studyTarget"
+      ],
+      "_instruction": "Add all study targets of this activity.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnatomicalCavity",
+        "https://openminds.om-i.org/types/AuditoryStimulusType",
+        "https://openminds.om-i.org/types/BiologicalOrder",
+        "https://openminds.om-i.org/types/BiologicalSex",
+        "https://openminds.om-i.org/types/BreedingType",
+        "https://openminds.om-i.org/types/CellCultureType",
+        "https://openminds.om-i.org/types/CellType",
+        "https://openminds.om-i.org/types/DeviceType",
+        "https://openminds.om-i.org/types/Disease",
+        "https://openminds.om-i.org/types/DiseaseModel",
+        "https://openminds.om-i.org/types/ElectricalStimulusType",
+        "https://openminds.om-i.org/types/ExternalBodyRegion",
+        "https://openminds.om-i.org/types/GeneticStrainType",
+        "https://openminds.om-i.org/types/GustatoryStimulusType",
+        "https://openminds.om-i.org/types/Handedness",
+        "https://openminds.om-i.org/types/MolecularEntity",
+        "https://openminds.om-i.org/types/MuscularStructure",
+        "https://openminds.om-i.org/types/NervousSystemStructure",
+        "https://openminds.om-i.org/types/OlfactoryStimulusType",
+        "https://openminds.om-i.org/types/OpticalStimulusType",
+        "https://openminds.om-i.org/types/Organ",
+        "https://openminds.om-i.org/types/OrganSystemStructure",
+        "https://openminds.om-i.org/types/OrganismSubstance",
+        "https://openminds.om-i.org/types/OrganismSystem",
+        "https://openminds.om-i.org/types/SkeletalStructure",
+        "https://openminds.om-i.org/types/Species",
+        "https://openminds.om-i.org/types/SubcellularEntity",
+        "https://openminds.om-i.org/types/TactileStimulusType",
+        "https://openminds.om-i.org/types/TermSuggestion",
+        "https://openminds.om-i.org/types/TissueSampleType",
+        "https://openminds.om-i.org/types/TissueStructure",
+        "https://openminds.om-i.org/types/VascularStructure",
+        "https://openminds.om-i.org/types/VisualStimulusType",
+        "https://openminds.om-i.org/types/CustomAnatomicalEntity",
+        "https://openminds.om-i.org/types/ParcellationEntity",
+        "https://openminds.om-i.org/types/ParcellationEntityVersion"
+      ],
+      "description": "Structure or function that was targeted within a study.",
+      "label": "Study target",
+      "labelPlural": "Study targets",
+      "minItems": 1,
+      "name": "studyTarget",
+      "nameForReverseLink": null,
+      "namePlural": "studyTargets",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/targetAnatomy": {
+      "_belongsToCategory": [
+        "anatomicalLocation"
+      ],
+      "_instruction": "Add the target anatomy, indicating the primary anatomical structure or region intended to be imaged in this acquisition. This field describes the imaging objective (for example, organ, tissue, or structure) and may be derived from the acquisition protocol description.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnatomicalCavity",
+        "https://openminds.om-i.org/types/CellType",
+        "https://openminds.om-i.org/types/ExternalBodyRegion",
+        "https://openminds.om-i.org/types/MuscularStructure",
+        "https://openminds.om-i.org/types/NervousSystemStructure",
+        "https://openminds.om-i.org/types/Organ",
+        "https://openminds.om-i.org/types/OrganSystemStructure",
+        "https://openminds.om-i.org/types/OrganismSubstance",
+        "https://openminds.om-i.org/types/OrganismSystem",
+        "https://openminds.om-i.org/types/SkeletalStructure",
+        "https://openminds.om-i.org/types/SubcellularEntity",
+        "https://openminds.om-i.org/types/TissueStructure",
+        "https://openminds.om-i.org/types/VascularStructure",
+        "https://openminds.om-i.org/types/CustomAnatomicalEntity",
+        "https://openminds.om-i.org/types/ParcellationEntity",
+        "https://openminds.om-i.org/types/ParcellationEntityVersion"
+      ],
+      "label": "Target anatomy",
+      "name": "targetAnatomy",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/volumeAcquisitionTime": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the volume acquisition time, defined as the time required to acquire a single image volume, expressed in seconds. This value is typically equivalent to the repetition time for volume-based acquisitions and can be retrieved from the sequence timing information in the DICOM header.",
+      "label": "Volume acquisition time",
+      "name": "volumeAcquisitionTime",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/volumeTiming": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValueArray"
+      ],
+      "_instruction": "Enter the volume timing as an array specifying the acquisition time of each volume relative to the start of the dynamic scan, expressed in seconds, with one entry per acquired volume. These values may be derived from the repetition time or extracted from the acquisition metadata.",
+      "label": "Volume timing",
+      "name": "volumeTiming",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/behavioralProtocol",
+    "https://openminds.om-i.org/props/device",
+    "https://openminds.om-i.org/props/input",
+    "https://openminds.om-i.org/props/isPartOf",
+    "https://openminds.om-i.org/props/output",
+    "https://openminds.om-i.org/props/protocol",
+    "https://openminds.om-i.org/props/specimenOrientation",
+    "https://openminds.om-i.org/props/volumeAcquisitionTime"
+  ]
+}

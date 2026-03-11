@@ -1,0 +1,83 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/Comment",
+  "color": "#6EFF92",
+  "description": "Structured information about a short text expressing an opinion on, or giving information about some entity.",
+  "label": "Comment",
+  "name": "Comment",
+  "properties": {
+    "https://openminds.om-i.org/props/about": {
+      "_belongsToCategory": [
+        "researchProduct"
+      ],
+      "_instruction": "Add the research product (version) that this comment is about.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ValidationTest",
+        "https://openminds.om-i.org/types/ValidationTestVersion",
+        "https://openminds.om-i.org/types/WorkflowRecipe",
+        "https://openminds.om-i.org/types/WorkflowRecipeVersion",
+        "https://openminds.om-i.org/types/Dataset",
+        "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/Interface",
+        "https://openminds.om-i.org/types/InterfaceVersion",
+        "https://openminds.om-i.org/types/MetaDataModel",
+        "https://openminds.om-i.org/types/MetaDataModelVersion",
+        "https://openminds.om-i.org/types/Model",
+        "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/Software",
+        "https://openminds.om-i.org/types/SoftwareVersion",
+        "https://openminds.om-i.org/types/LivePaper",
+        "https://openminds.om-i.org/types/LivePaperVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion"
+      ],
+      "label": "About",
+      "labelPlural": "About",
+      "name": "about",
+      "nameForReverseLink": null,
+      "namePlural": "about"
+    },
+    "https://openminds.om-i.org/props/comment": {
+      "_instruction": "Enter the comment about the research product (version) stated under 'about'.",
+      "formatting": "text/plain",
+      "label": "Comment",
+      "labelPlural": "Comments",
+      "multiline": true,
+      "name": "comment",
+      "namePlural": "comments",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/commenter": {
+      "_instruction": "Add the person that created this comment.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Person"
+      ],
+      "label": "Commenter",
+      "labelPlural": "Commenters",
+      "name": "commenter",
+      "nameForReverseLink": null,
+      "namePlural": "commenters"
+    },
+    "https://openminds.om-i.org/props/timestamp": {
+      "_formats": [
+        "date-time"
+      ],
+      "_instruction": "Enter the date and time on which this comment was made, formatted as '2023-02-07T16:00:00+00:00'.",
+      "formatting": "text/plain",
+      "label": "Timestamp",
+      "labelPlural": "Timestamps",
+      "multiline": false,
+      "name": "timestamp",
+      "namePlural": "timestamps",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/about",
+    "https://openminds.om-i.org/props/comment",
+    "https://openminds.om-i.org/props/commenter",
+    "https://openminds.om-i.org/props/timestamp"
+  ]
+}

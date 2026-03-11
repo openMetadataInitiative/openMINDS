@@ -1,0 +1,74 @@
+{
+  "_module": "chemicals",
+  "_type": "https://openminds.om-i.org/types/ProductSource",
+  "color": "#EB9A8B",
+  "description": "Structured information about the source of a chemical substance or mixture.",
+  "label": "Product source",
+  "name": "ProductSource",
+  "properties": {
+    "https://openminds.om-i.org/props/digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this product.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/RRID"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers"
+    },
+    "https://openminds.om-i.org/props/identifier": {
+      "_instruction": "Enter the identifier for this product, excluding its RRID (e.g., a catalog number).",
+      "description": "Term or code used to identify something or someone.",
+      "formatting": "text/plain",
+      "label": "Identifier",
+      "labelPlural": "Identifiers",
+      "multiline": false,
+      "name": "identifier",
+      "namePlural": "identifiers",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/productName": {
+      "_instruction": "Enter the name of this product as stated by the 'provider'.",
+      "formatting": "text/plain",
+      "label": "Product name",
+      "labelPlural": "Product names",
+      "multiline": false,
+      "name": "productName",
+      "namePlural": "productNames",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/provider": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
+      "_instruction": "Add the party (private, commercial or industrial) that provided this product.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Organization",
+        "https://openminds.om-i.org/types/Person"
+      ],
+      "label": "Provider",
+      "labelPlural": "Providers",
+      "name": "provider",
+      "nameForReverseLink": null,
+      "namePlural": "providers"
+    },
+    "https://openminds.om-i.org/props/purity": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue",
+        "https://openminds.om-i.org/types/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the purity of the product as stated by the 'provider'.",
+      "label": "Purity",
+      "labelPlural": "Purities",
+      "name": "purity",
+      "nameForReverseLink": null,
+      "namePlural": "purities"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/productName",
+    "https://openminds.om-i.org/props/provider"
+  ]
+}

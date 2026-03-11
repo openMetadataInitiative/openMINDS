@@ -37,11 +37,11 @@
       ],
       "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
       "label": "Is alternative version of",
-      "labelPlural": "Is alternative version of",
+      "labelPlural": "Are alternative versions of",
       "minItems": 1,
       "name": "isAlternativeVersionOf",
       "nameForReverseLink": null,
-      "namePlural": "isAlternativeVersionOf",
+      "namePlural": "areAlternativeVersionsOf",
       "type": "array",
       "uniqueItems": true
     },
@@ -52,10 +52,10 @@
       ],
       "description": "Reference to a previous (potentially outdated) particular form of something.",
       "label": "Is new version of",
-      "labelPlural": "Is new version of",
+      "labelPlural": "Are new versions of",
       "name": "isNewVersionOf",
       "nameForReverseLink": null,
-      "namePlural": "isNewVersionOf"
+      "namePlural": "areNewVersionsOf"
     },
     "https://openminds.ebrains.eu/vocab/ontologyIdentifier": {
       "_formats": [

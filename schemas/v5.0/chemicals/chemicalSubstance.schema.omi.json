@@ -1,0 +1,71 @@
+{
+  "_categories": [
+    "chemicalProduct"
+  ],
+  "_module": "chemicals",
+  "_type": "https://openminds.om-i.org/types/ChemicalSubstance",
+  "color": "#685D75",
+  "description": "Structured information about a chemical substance.",
+  "label": "Chemical substance",
+  "name": "ChemicalSubstance",
+  "properties": {
+    "https://openminds.om-i.org/props/additionalRemarks": {
+      "_instruction": "Enter any additional remarks concerning this chemical substance.",
+      "description": "Mention of what deserves additional attention or notice.",
+      "formatting": "text/markdown",
+      "label": "Additional remarks",
+      "labelPlural": "Additional remarks",
+      "multiline": true,
+      "name": "additionalRemarks",
+      "namePlural": "additionalRemarks",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/lookupLabel": {
+      "_instruction": "Enter a lookup label for this chemical substance that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "labelPlural": "Lookup labels",
+      "multiline": false,
+      "name": "lookupLabel",
+      "namePlural": "lookupLabels",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/molecularEntity": {
+      "_instruction": "Add the molecular entity that makes up this chemical substance.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/MolecularEntity"
+      ],
+      "label": "Molecular entity",
+      "labelPlural": "Molecular entities",
+      "name": "molecularEntity",
+      "nameForReverseLink": null,
+      "namePlural": "molecularEntities"
+    },
+    "https://openminds.om-i.org/props/productSource": {
+      "_instruction": "Add the source of this chemical substance.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ProductSource"
+      ],
+      "label": "Product source",
+      "labelPlural": "Product sources",
+      "name": "productSource",
+      "nameForReverseLink": null,
+      "namePlural": "productSources"
+    },
+    "https://openminds.om-i.org/props/purity": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue",
+        "https://openminds.om-i.org/types/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the purity of this chemical substance.",
+      "label": "Purity",
+      "labelPlural": "Purities",
+      "name": "purity",
+      "nameForReverseLink": null,
+      "namePlural": "purities"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/molecularEntity"
+  ]
+}

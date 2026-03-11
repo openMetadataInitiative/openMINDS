@@ -40,8 +40,10 @@
       "_instruction": "Enter the time (e.g., '20:20:39+00:00') or datetime (e.g., '2018-11-13T20:20:39+00:00') of when the activity ended.",
       "formatting": "text/plain",
       "label": "Ended at time",
+      "labelPlural": "Ended at times",
       "multiline": false,
       "name": "endedAtTime",
+      "namePlural": "endedAtTimes",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/input": {
@@ -71,10 +73,10 @@
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
-      "labelPlural": "Is part of",
+      "labelPlural": "Are parts of",
       "name": "isPartOf",
       "nameForReverseLink": null,
-      "namePlural": "isPartOf"
+      "namePlural": "arePartsOf"
     },
     "https://openminds.ebrains.eu/vocab/lookupLabel": {
       "_instruction": "Enter a lookup label for this activity that may help you to more easily find it again.",
@@ -156,8 +158,10 @@
       "_instruction": "Enter the time (e.g., '20:20:39+00:00') or datetime (e.g., '2018-11-13T20:20:39+00:00') of when the activity started.",
       "formatting": "text/plain",
       "label": "Started at time",
+      "labelPlural": "Started at times",
       "multiline": false,
       "name": "startedAtTime",
+      "namePlural": "startedAtTimes",
       "type": "string"
     },
     "https://openminds.ebrains.eu/vocab/studyTarget": {

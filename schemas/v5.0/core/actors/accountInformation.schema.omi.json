@@ -1,0 +1,35 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/AccountInformation",
+  "color": "#B5D6C3",
+  "description": "Structured information about a user account for a web service.",
+  "label": "Account information",
+  "name": "AccountInformation",
+  "properties": {
+    "https://openminds.om-i.org/props/service": {
+      "_instruction": "Add the service associated with this account.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Service"
+      ],
+      "label": "Service",
+      "labelPlural": "Services",
+      "name": "service",
+      "nameForReverseLink": null,
+      "namePlural": "services"
+    },
+    "https://openminds.om-i.org/props/userName": {
+      "_instruction": "Enter the user name for this account.",
+      "formatting": "text/plain",
+      "label": "User name",
+      "labelPlural": "User names",
+      "multiline": false,
+      "name": "userName",
+      "namePlural": "userNames",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/service",
+    "https://openminds.om-i.org/props/userName"
+  ]
+}
