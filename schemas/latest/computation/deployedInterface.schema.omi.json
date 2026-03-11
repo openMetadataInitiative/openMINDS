@@ -16,6 +16,17 @@
       "nameForReverseLink": null,
       "namePlural": "accessibilities"
     },
+    "https://openminds.om-i.org/props/entryPoint": {
+      "_instruction": "Add the URL that serves as the entry point to this deployed interface.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/WebResource"
+      ],
+      "label": "Entry point",
+      "labelPlural": "Entry points",
+      "name": "entryPoint",
+      "nameForReverseLink": null,
+      "namePlural": "entryPoints"
+    },
     "https://openminds.om-i.org/props/interface": {
       "_instruction": "Enter the interface version that is deployed.",
       "_linkedTypes": [
@@ -24,23 +35,11 @@
       "label": "Interface",
       "name": "interface",
       "nameForReverseLink": null
-    },
-    "https://openminds.om-i.org/props/location": {
-      "_instruction": "Add the location (for physical services) or URL (for digital services) where this deployed interface may be accessed.",
-      "_linkedTypes": [
-        "https://openminds.om-i.org/types/Location",
-        "https://openminds.om-i.org/types/WebResource"
-      ],
-      "label": "Location",
-      "labelPlural": "Locations",
-      "name": "location",
-      "nameForReverseLink": null,
-      "namePlural": "locations"
     }
   },
   "required": [
     "https://openminds.om-i.org/props/accessibility",
-    "https://openminds.om-i.org/props/interface",
-    "https://openminds.om-i.org/props/location"
+    "https://openminds.om-i.org/props/entryPoint",
+    "https://openminds.om-i.org/props/interface"
   ]
 }

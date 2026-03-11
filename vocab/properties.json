@@ -7961,6 +7961,14 @@
     }
   },
   "entryPoint": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/WebResource"
+        ]
+      },
+      "nameForReverseLink": null
+    },
     "asString": {
       "formatting": "text/plain",
       "inVersions": [
@@ -7992,6 +8000,7 @@
     "namePlural": "entryPoints",
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/DeployedInterface",
         "https://openminds.om-i.org/types/ModelVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion"
       ],
@@ -14073,8 +14082,7 @@
     "asEdge": {
       "canPointTo": {
         "latest": [
-          "https://openminds.om-i.org/types/Location",
-          "https://openminds.om-i.org/types/WebResource"
+          "https://openminds.om-i.org/types/Location"
         ]
       },
       "nameForReverseLink": null
@@ -14110,7 +14118,6 @@
     "namePlural": "locations",
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/DeployedInterface",
         "https://openminds.om-i.org/types/Organization",
         "https://openminds.om-i.org/types/Setup"
       ],
@@ -25269,9 +25276,9 @@
           "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
           "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
           "https://openminds.om-i.org/types/DatasetVersion",
-          "https://openminds.om-i.org/types/DeployedInterface",
           "https://openminds.om-i.org/types/MetaDataModelVersion",
           "https://openminds.om-i.org/types/ModelVersion",
+          "https://openminds.om-i.org/types/WebResource",
           "https://openminds.om-i.org/types/WorkflowRecipeVersion"
         ]
       },
