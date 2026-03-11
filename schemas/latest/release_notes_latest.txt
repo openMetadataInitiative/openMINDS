@@ -905,7 +905,7 @@ Changes in core/actors/organization.schema.omi.json:
   - Field 'properties.props:countryOfFormation' added.
   - Field 'properties.props:jurisdiction' added.
   - Field 'properties.props:location' added.
-  - Field 'properties.props:memberships' added.
+  - Field 'properties.props:membership' added.
   - Field 'properties.props:name' added.
   - Field 'properties.props:type' added.
   - Field 'properties.props:digitalIdentifier._belongsToCategory' added.

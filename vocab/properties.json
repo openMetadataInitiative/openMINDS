@@ -14839,6 +14839,34 @@
       ]
     }
   },
+  "membership": {
+    "asEdge": {
+      "canPointTo": {
+        "latest": [
+          "https://openminds.om-i.org/types/Membership"
+        ]
+      },
+      "nameForReverseLink": null
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Membership",
+    "labelPlural": null,
+    "name": "membership",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Organization"
+      ]
+    }
+  },
   "memberships": {
     "asEdge": {
       "canPointTo": {
@@ -14863,8 +14891,7 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
-        "https://openminds.om-i.org/types/Consortium",
-        "https://openminds.om-i.org/types/Organization"
+        "https://openminds.om-i.org/types/Consortium"
       ]
     }
   },
