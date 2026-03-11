@@ -1,10 +1,5 @@
 {
   "latest": {
-    "namespaces": {
-      "instances": "https://openminds.om-i.org/instances/",
-      "props": "https://openminds.om-i.org/props/",
-      "types": "https://openminds.om-i.org/types/"
-    },
     "modules": {
       "SANDS": {
         "repository": "https://github.com/openMetadataInitiative/openMINDS_SANDS.git"
@@ -24,6 +19,9 @@
       "ephys": {
         "repository": "https://github.com/openMetadataInitiative/openMINDS_ephys.git"
       },
+      "neuroimaging": {
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_neuroimaging.git"
+      },
       "publications": {
         "repository": "https://github.com/openMetadataInitiative/openMINDS_publications.git"
       },
@@ -33,14 +31,14 @@
       "stimulation": {
         "repository": "https://github.com/openMetadataInitiative/openMINDS_stimulation.git"
       }
+    },
+    "namespaces": {
+      "instances": "https://openminds.om-i.org/instances/",
+      "props": "https://openminds.om-i.org/props/",
+      "types": "https://openminds.om-i.org/types/"
     }
   },
   "v1.0": {
-    "namespaces": {
-      "instances": "https://openminds.ebrains.eu/instances/",
-      "props": "https://openminds.ebrains.eu/vocab/",
-      "types": "https://openminds.ebrains.eu/{MODULE}/"
-    },
     "modules": {
       "SANDS": {
         "branch": "v1",
@@ -57,14 +55,14 @@
         "commit": "b3b6381d57b705b545166935cc129fcf06df87a4",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_core.git"
       }
-    }
-  },
-  "v2.0": {
+    },
     "namespaces": {
       "instances": "https://openminds.ebrains.eu/instances/",
       "props": "https://openminds.ebrains.eu/vocab/",
       "types": "https://openminds.ebrains.eu/{MODULE}/"
-    },
+    }
+  },
+  "v2.0": {
     "modules": {
       "SANDS": {
         "branch": "v2",
@@ -81,14 +79,14 @@
         "commit": "8c61d390419d35ff53ef85a13a8c4a9587af682f",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_core.git"
       }
-    }
-  },
-  "v3.0": {
+    },
     "namespaces": {
       "instances": "https://openminds.ebrains.eu/instances/",
       "props": "https://openminds.ebrains.eu/vocab/",
       "types": "https://openminds.ebrains.eu/{MODULE}/"
-    },
+    }
+  },
+  "v3.0": {
     "modules": {
       "SANDS": {
         "branch": "v3",
@@ -135,14 +133,14 @@
         "commit": "8c879e954377c875a39cff30b1bfd7d165e85d1f",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_stimulation.git"
       }
+    },
+    "namespaces": {
+      "instances": "https://openminds.ebrains.eu/instances/",
+      "props": "https://openminds.ebrains.eu/vocab/",
+      "types": "https://openminds.ebrains.eu/{MODULE}/"
     }
   },
   "v4.0": {
-    "namespaces": {
-      "instances": "https://openminds.om-i.org/instances/",
-      "props": "https://openminds.om-i.org/props/",
-      "types": "https://openminds.om-i.org/types/"
-    },
     "modules": {
       "SANDS": {
         "branch": "v4",
@@ -189,6 +187,70 @@
         "commit": "da22d249e824dc02c1ad0e358f82430a2afa2a87",
         "repository": "https://github.com/openMetadataInitiative/openMINDS_stimulation.git"
       }
+    },
+    "namespaces": {
+      "instances": "https://openminds.om-i.org/instances/",
+      "props": "https://openminds.om-i.org/props/",
+      "types": "https://openminds.om-i.org/types/"
+    }
+  },
+  "v5.0": {
+    "modules": {
+      "SANDS": {
+        "branch": "v5",
+        "commit": "0f0fc3fa1fb8b38e34826c142aa46fd8fb280c23",
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_SANDS.git"
+      },
+      "chemicals": {
+        "branch": "v2",
+        "commit": "c8ee7082154b1add0494d41f1c1efe1114fb87a5",
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_chemicals.git"
+      },
+      "computation": {
+        "branch": "v3",
+        "commit": "5e09c716012f281a1618b31e94dfe2581dcf962f",
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_computation.git"
+      },
+      "controlledTerms": {
+        "branch": "v3",
+        "commit": "7df57da29a1920a995578f834387c483a762a240",
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_controlledTerms.git"
+      },
+      "core": {
+        "branch": "v6",
+        "commit": "d62e0920fcafadac46c9609ac964e1e2dea33d49",
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_core.git"
+      },
+      "ephys": {
+        "branch": "v3",
+        "commit": "31dfc999a3dd555f945fa4e88722a8bac4f1e869",
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_ephys.git"
+      },
+      "neuroimaging": {
+        "branch": "v1",
+        "commit": "ae1ffbe6c176a8cb5569354c0b3ae1a081732f8e",
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_neuroimaging.git"
+      },
+      "publications": {
+        "branch": "v3",
+        "commit": "72e1c354af44fe98f239329246e4ffaf0d929f7a",
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_publications.git"
+      },
+      "specimenPrep": {
+        "branch": "v2",
+        "commit": "2544cc2dafd53ef1d4beccefea269667057e0313",
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_specimenPrep.git"
+      },
+      "stimulation": {
+        "branch": "v3",
+        "commit": "a39ec0f819081d9907c9b83bcba076ac78b22781",
+        "repository": "https://github.com/openMetadataInitiative/openMINDS_stimulation.git"
+      }
+    },
+    "namespaces": {
+      "instances": "https://openminds.om-i.org/instances/",
+      "props": "https://openminds.om-i.org/props/",
+      "types": "https://openminds.om-i.org/types/"
     }
   }
 }
