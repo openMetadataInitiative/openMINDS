@@ -1494,3 +1494,6 @@ Changes in specimenPrep/device/slicingDevice.schema.omi.json:
 
 Changes in stimulation/activity/stimulationActivity.schema.omi.json:
   - Field 'properties.props:studyTarget._linkedTypes' modified.
+
+Changes in stimulation/stimulus/ephysStimulus.schema.omi.json:
+  - Field 'required' modified (value(s) added).

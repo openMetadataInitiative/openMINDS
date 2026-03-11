@@ -3368,6 +3368,16 @@
         }
       ],
       "schemaType": "StimulationActivity"
+    },
+    {
+      "file": "stimulation/stimulus/ephysStimulus.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "required",
+          "modification": "value(s) added"
+        }
+      ],
+      "schemaType": "EphysStimulus"
     }
   ]
 }
