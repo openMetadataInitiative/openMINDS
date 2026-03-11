@@ -1,0 +1,106 @@
+{
+  "_categories": [
+    "setupComponent"
+  ],
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/Setup",
+  "color": "#9B585E",
+  "label": "Setup",
+  "name": "Setup",
+  "properties": {
+    "https://openminds.om-i.org/props/description": {
+      "_instruction": "Enter a short text describing this setup.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/markdown",
+      "label": "Description",
+      "labelPlural": "Descriptions",
+      "multiline": true,
+      "name": "description",
+      "namePlural": "descriptions",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/hasPart": {
+      "_belongsToCategory": [
+        "setupComponent"
+      ],
+      "_instruction": "Add all components, including other setups, that are part of this setup. Note that a setup should not be only composed of software.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Setup",
+        "https://openminds.om-i.org/types/SoftwareVersion",
+        "https://openminds.om-i.org/types/Electrode",
+        "https://openminds.om-i.org/types/ElectrodeArray",
+        "https://openminds.om-i.org/types/Pipette",
+        "https://openminds.om-i.org/types/MRICoil",
+        "https://openminds.om-i.org/types/MRIScanner",
+        "https://openminds.om-i.org/types/SlicingDevice"
+      ],
+      "label": "Has part",
+      "labelPlural": "Has parts",
+      "minItems": 2,
+      "name": "hasPart",
+      "nameForReverseLink": null,
+      "namePlural": "hasParts",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/location": {
+      "_instruction": "Enter the geographic location of this setup. This may include room number, building, institution and/or city.",
+      "formatting": "text/plain",
+      "label": "Location",
+      "labelPlural": "Locations",
+      "multiline": false,
+      "name": "location",
+      "namePlural": "locations",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/manufacturer": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
+      "_instruction": "Add the manufacturer (private or industrial) that constructed this setup.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Organization",
+        "https://openminds.om-i.org/types/Person"
+      ],
+      "label": "Manufacturer",
+      "labelPlural": "Manufacturers",
+      "minItems": 1,
+      "name": "manufacturer",
+      "nameForReverseLink": null,
+      "namePlural": "manufacturers",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter a descriptive name for this setup.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/type": {
+      "_instruction": "Add all types that describe this setup.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SetupType"
+      ],
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "label": "Type",
+      "labelPlural": "Types",
+      "minItems": 1,
+      "name": "type",
+      "nameForReverseLink": null,
+      "namePlural": "types",
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/description",
+    "https://openminds.om-i.org/props/hasPart",
+    "https://openminds.om-i.org/props/name"
+  ]
+}

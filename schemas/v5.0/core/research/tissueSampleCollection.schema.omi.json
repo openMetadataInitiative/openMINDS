@@ -1,0 +1,200 @@
+{
+  "_categories": [
+    "fileOrigin"
+  ],
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/TissueSampleCollection",
+  "color": "#00905E",
+  "label": "Tissue sample collection",
+  "name": "TissueSampleCollection",
+  "properties": {
+    "https://openminds.om-i.org/props/additionalRemarks": {
+      "_instruction": "Enter any additional remarks concerning this specimen set.",
+      "description": "Mention of what deserves additional attention or notice.",
+      "formatting": "text/markdown",
+      "label": "Additional remarks",
+      "labelPlural": "Additional remarks",
+      "multiline": true,
+      "name": "additionalRemarks",
+      "namePlural": "additionalRemarks",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/anatomicalLocation": {
+      "_belongsToCategory": [
+        "anatomicalLocation"
+      ],
+      "_instruction": "Add all anatomical entities that describe the anatomical location of this tissue sample collection.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnatomicalCavity",
+        "https://openminds.om-i.org/types/CellType",
+        "https://openminds.om-i.org/types/ExternalBodyRegion",
+        "https://openminds.om-i.org/types/MuscularStructure",
+        "https://openminds.om-i.org/types/NervousSystemStructure",
+        "https://openminds.om-i.org/types/Organ",
+        "https://openminds.om-i.org/types/OrganSystemStructure",
+        "https://openminds.om-i.org/types/OrganismSubstance",
+        "https://openminds.om-i.org/types/OrganismSystem",
+        "https://openminds.om-i.org/types/SkeletalStructure",
+        "https://openminds.om-i.org/types/SubcellularEntity",
+        "https://openminds.om-i.org/types/TissueStructure",
+        "https://openminds.om-i.org/types/VascularStructure",
+        "https://openminds.om-i.org/types/CustomAnatomicalEntity",
+        "https://openminds.om-i.org/types/ParcellationEntity",
+        "https://openminds.om-i.org/types/ParcellationEntityVersion"
+      ],
+      "label": "Anatomical location",
+      "labelPlural": "Anatomical locations",
+      "minItems": 1,
+      "name": "anatomicalLocation",
+      "nameForReverseLink": null,
+      "namePlural": "anatomicalLocations",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/biologicalSex": {
+      "_instruction": "Add the biological sex of all specimen in this set.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/BiologicalSex"
+      ],
+      "description": "Differentiation of individuals of most species (animals and plants) based on the type of gametes they produce.",
+      "label": "Biological sex",
+      "labelPlural": "Biological sexes",
+      "minItems": 1,
+      "name": "biologicalSex",
+      "nameForReverseLink": null,
+      "namePlural": "biologicalSexes",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/internalIdentifier": {
+      "_instruction": "Enter the identifier (or label) of this specimen set that is used within the corresponding data files to identify this specimen set.",
+      "description": "Term or code that identifies someone or something within a particular product.",
+      "formatting": "text/plain",
+      "label": "Internal identifier",
+      "labelPlural": "Internal identifiers",
+      "multiline": false,
+      "name": "internalIdentifier",
+      "namePlural": "internalIdentifiers",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/isPartOf": {
+      "_instruction": "Add all tissue sample collections of which this tissue sample collection is a subcollection.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/TissueSampleCollection"
+      ],
+      "description": "Reference to the ensemble of multiple things or beings.",
+      "label": "Is part of",
+      "labelPlural": "Is part of",
+      "minItems": 1,
+      "name": "isPartOf",
+      "nameForReverseLink": null,
+      "namePlural": "isPartOf",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/laterality": {
+      "_instruction": "Add one or both sides of the body, bilateral organ or bilateral organ part that this tissue sample collection originates from.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Laterality"
+      ],
+      "description": "Differentiation between a pair of lateral homologous parts of the body.",
+      "label": "Laterality",
+      "labelPlural": "Lateralities",
+      "maxItems": 2,
+      "minItems": 1,
+      "name": "laterality",
+      "nameForReverseLink": null,
+      "namePlural": "lateralities",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/lookupLabel": {
+      "_instruction": "Enter a lookup label for this specimen set that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "labelPlural": "Lookup labels",
+      "multiline": false,
+      "name": "lookupLabel",
+      "namePlural": "lookupLabels",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/numberOfTissueSamples": {
+      "_instruction": "Enter the number of tissue samples that belong to this tissue sample collection.",
+      "label": "Number of tissue samples",
+      "labelPlural": "Numbers of tissue samples",
+      "minimum": 2,
+      "name": "numberOfTissueSamples",
+      "namePlural": "numbersOfTissueSamples",
+      "type": "integer"
+    },
+    "https://openminds.om-i.org/props/origin": {
+      "_instruction": "Add the biogical origin of all tissue samples in this collection.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/CellType",
+        "https://openminds.om-i.org/types/Organ",
+        "https://openminds.om-i.org/types/OrganismSubstance"
+      ],
+      "description": "Source at which something begins or rises, or from which something derives.",
+      "label": "Origin",
+      "labelPlural": "Origins",
+      "minItems": 1,
+      "name": "origin",
+      "nameForReverseLink": null,
+      "namePlural": "origins",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/species": {
+      "_instruction": "Add the species and/or strain (a sub-type of a genetic variant of species) of all specimen in this set.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Species",
+        "https://openminds.om-i.org/types/Strain"
+      ],
+      "description": "Category of biological classification comprising related organisms or populations potentially capable of interbreeding, and being designated by a binomial that consists of the name of a genus followed by a Latin or latinized uncapitalized noun or adjective.",
+      "label": "Species",
+      "labelPlural": "Species",
+      "minItems": 1,
+      "name": "species",
+      "nameForReverseLink": null,
+      "namePlural": "species",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/studiedState": {
+      "_instruction": "Add all states in which this tissue sample collection was studied.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/TissueSampleCollectionState"
+      ],
+      "description": "Reference to a point in time at which something or someone was studied in a particular mode or condition.",
+      "label": "Studied state",
+      "labelPlural": "Studied states",
+      "minItems": 1,
+      "name": "studiedState",
+      "nameForReverseLink": null,
+      "namePlural": "studiedStates",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/type": {
+      "_instruction": "Add the type of all tissue samples in this collection.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/TissueSampleType"
+      ],
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "label": "Type",
+      "labelPlural": "Types",
+      "minItems": 1,
+      "name": "type",
+      "nameForReverseLink": null,
+      "namePlural": "types",
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/origin",
+    "https://openminds.om-i.org/props/species",
+    "https://openminds.om-i.org/props/studiedState",
+    "https://openminds.om-i.org/props/type"
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "_categories": [
+    "deviceUsage"
+  ],
+  "_module": "ephys",
+  "_type": "https://openminds.om-i.org/types/PipetteUsage",
+  "color": "#E20027",
+  "label": "Pipette usage",
+  "name": "PipetteUsage",
+  "properties": {
+    "https://openminds.om-i.org/props/anatomicalLocation": {
+      "_belongsToCategory": [
+        "anatomicalLocation"
+      ],
+      "_instruction": "Add the anatomical entity that semantically best describes the anatomical location of the pipette tip.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnatomicalCavity",
+        "https://openminds.om-i.org/types/CellType",
+        "https://openminds.om-i.org/types/ExternalBodyRegion",
+        "https://openminds.om-i.org/types/MuscularStructure",
+        "https://openminds.om-i.org/types/NervousSystemStructure",
+        "https://openminds.om-i.org/types/Organ",
+        "https://openminds.om-i.org/types/OrganSystemStructure",
+        "https://openminds.om-i.org/types/OrganismSubstance",
+        "https://openminds.om-i.org/types/OrganismSystem",
+        "https://openminds.om-i.org/types/SkeletalStructure",
+        "https://openminds.om-i.org/types/SubcellularEntity",
+        "https://openminds.om-i.org/types/TissueStructure",
+        "https://openminds.om-i.org/types/VascularStructure",
+        "https://openminds.om-i.org/types/CustomAnatomicalEntity",
+        "https://openminds.om-i.org/types/ParcellationEntity",
+        "https://openminds.om-i.org/types/ParcellationEntityVersion"
+      ],
+      "label": "Anatomical location",
+      "labelPlural": "Anatomical locations",
+      "name": "anatomicalLocation",
+      "nameForReverseLink": null,
+      "namePlural": "anatomicalLocations"
+    },
+    "https://openminds.om-i.org/props/chlorideReversalPotential": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Measurement"
+      ],
+      "_instruction": "Enter all chloride reversal potentials for the intracellular solution(s) of the pipette measured during its use.",
+      "label": "Chloride reversal potential",
+      "labelPlural": "Chloride reversal potentials",
+      "minItems": 1,
+      "name": "chlorideReversalPotential",
+      "nameForReverseLink": null,
+      "namePlural": "chlorideReversalPotentials",
+      "type": "array"
+    },
+    "https://openminds.om-i.org/props/compensationCurrent": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Measurement"
+      ],
+      "_instruction": "Enter the compensation current for the series resistance of the pipette measured during its use.",
+      "label": "Compensation current",
+      "labelPlural": "Compensation currents",
+      "name": "compensationCurrent",
+      "nameForReverseLink": null,
+      "namePlural": "compensationCurrents"
+    },
+    "https://openminds.om-i.org/props/device": {
+      "_instruction": "Add the pipette used.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Pipette"
+      ],
+      "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
+      "label": "Device",
+      "labelPlural": "Devices",
+      "name": "device",
+      "nameForReverseLink": null,
+      "namePlural": "devices"
+    },
+    "https://openminds.om-i.org/props/endMembranePotential": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Measurement"
+      ],
+      "_instruction": "Enter the membrane potential of e.g., a patched cell at the end of a recording measured during the use of this pipette.",
+      "label": "End membrane potential",
+      "labelPlural": "End membrane potentials",
+      "name": "endMembranePotential",
+      "nameForReverseLink": null,
+      "namePlural": "endMembranePotentials"
+    },
+    "https://openminds.om-i.org/props/holdingPotential": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Measurement"
+      ],
+      "_instruction": "Enter the holding membrane potential of e.g., a patched cell measured during the use of this pipette.",
+      "label": "Holding potential",
+      "labelPlural": "Holding potentials",
+      "name": "holdingPotential",
+      "nameForReverseLink": null,
+      "namePlural": "holdingPotentials"
+    },
+    "https://openminds.om-i.org/props/inputResistance": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Measurement"
+      ],
+      "_instruction": "Enter the input resistance of e.g., a patched cell measured during the use of this pipette.",
+      "label": "Input resistance",
+      "labelPlural": "Input resistances",
+      "name": "inputResistance",
+      "nameForReverseLink": null,
+      "namePlural": "inputResistances"
+    },
+    "https://openminds.om-i.org/props/labelingCompound": {
+      "_instruction": "Add the used compound for labelling e.g., a patched cell during the use of this pipette. ",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ChemicalMixture",
+        "https://openminds.om-i.org/types/ChemicalSubstance",
+        "https://openminds.om-i.org/types/MolecularEntity"
+      ],
+      "label": "Labeling compound",
+      "labelPlural": "Labeling compounds",
+      "name": "labelingCompound",
+      "nameForReverseLink": null,
+      "namePlural": "labelingCompounds"
+    },
+    "https://openminds.om-i.org/props/liquidJunctionPotential": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Measurement"
+      ],
+      "_instruction": "Enter the liquid junction potential of e.g., a patched cell measured during the use of this pipette.",
+      "label": "Liquid junction potential",
+      "labelPlural": "Liquid junction potentials",
+      "name": "liquidJunctionPotential",
+      "nameForReverseLink": null,
+      "namePlural": "liquidJunctionPotentials"
+    },
+    "https://openminds.om-i.org/props/lookupLabel": {
+      "_instruction": "Enter a lookup label for this device usage that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "labelPlural": "Lookup labels",
+      "multiline": false,
+      "name": "lookupLabel",
+      "namePlural": "lookupLabels",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/metadataLocation": {
+      "_instruction": "Add all files or file bundles containing additional information about the usage of this device.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File",
+        "https://openminds.om-i.org/types/FileBundle"
+      ],
+      "label": "Metadata location",
+      "labelPlural": "Metadata locations",
+      "minItems": 1,
+      "name": "metadataLocation",
+      "nameForReverseLink": null,
+      "namePlural": "metadataLocations",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/pipetteResistance": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue",
+        "https://openminds.om-i.org/types/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the resistance of the pipette during its use.",
+      "label": "Pipette resistance",
+      "labelPlural": "Pipette resistances",
+      "name": "pipetteResistance",
+      "nameForReverseLink": null,
+      "namePlural": "pipetteResistances"
+    },
+    "https://openminds.om-i.org/props/pipetteSolution": {
+      "_instruction": "Enter the solution with which the pipette was filled during its use.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ChemicalMixture"
+      ],
+      "label": "Pipette solution",
+      "labelPlural": "Pipette solutions",
+      "name": "pipetteSolution",
+      "nameForReverseLink": null,
+      "namePlural": "pipetteSolutions"
+    },
+    "https://openminds.om-i.org/props/sealResistance": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Measurement"
+      ],
+      "_instruction": "Enter the seal resistance of e.g., a patched cell measured during the use of this pipette.",
+      "label": "Seal resistance",
+      "labelPlural": "Seal resistances",
+      "name": "sealResistance",
+      "nameForReverseLink": null,
+      "namePlural": "sealResistances"
+    },
+    "https://openminds.om-i.org/props/seriesResistance": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Measurement"
+      ],
+      "_instruction": "Enter the series resistance of the pipette measured during its use.",
+      "label": "Series resistance",
+      "labelPlural": "Series resistances",
+      "name": "seriesResistance",
+      "nameForReverseLink": null,
+      "namePlural": "seriesResistances"
+    },
+    "https://openminds.om-i.org/props/spatialLocation": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/CoordinatePoint"
+      ],
+      "_instruction": "Add the coordinate point that best describes the spatial location of the pipette tip during its use.",
+      "label": "Spatial location",
+      "labelPlural": "Spatial locations",
+      "name": "spatialLocation",
+      "nameForReverseLink": null,
+      "namePlural": "spatialLocations"
+    },
+    "https://openminds.om-i.org/props/startMembranePotential": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Measurement"
+      ],
+      "_instruction": "Enter the membrane potential of e.g., a patched cell at the beginning of a recording measured during the use of this pipette.",
+      "label": "Start membrane potential",
+      "labelPlural": "Start membrane potentials",
+      "name": "startMembranePotential",
+      "nameForReverseLink": null,
+      "namePlural": "startMembranePotentials"
+    },
+    "https://openminds.om-i.org/props/usedSpecimen": {
+      "_instruction": "Add the state of the tissue sample or subject that this device was used on.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SubjectState",
+        "https://openminds.om-i.org/types/TissueSampleState"
+      ],
+      "label": "Used specimen",
+      "labelPlural": "Used specimens",
+      "name": "usedSpecimen",
+      "nameForReverseLink": null,
+      "namePlural": "usedSpecimens"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/device",
+    "https://openminds.om-i.org/props/pipetteSolution"
+  ]
+}

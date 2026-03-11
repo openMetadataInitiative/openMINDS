@@ -1,0 +1,116 @@
+{
+  "_categories": [
+    "deviceUsage"
+  ],
+  "_module": "ephys",
+  "_type": "https://openminds.om-i.org/types/ElectrodeUsage",
+  "color": "#DD587B",
+  "label": "Electrode usage",
+  "name": "ElectrodeUsage",
+  "properties": {
+    "https://openminds.om-i.org/props/anatomicalLocation": {
+      "_belongsToCategory": [
+        "anatomicalLocation"
+      ],
+      "_instruction": "Add the anatomical entity that semantically best describes the anatomical location of the electrode contact.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnatomicalCavity",
+        "https://openminds.om-i.org/types/CellType",
+        "https://openminds.om-i.org/types/ExternalBodyRegion",
+        "https://openminds.om-i.org/types/MuscularStructure",
+        "https://openminds.om-i.org/types/NervousSystemStructure",
+        "https://openminds.om-i.org/types/Organ",
+        "https://openminds.om-i.org/types/OrganSystemStructure",
+        "https://openminds.om-i.org/types/OrganismSubstance",
+        "https://openminds.om-i.org/types/OrganismSystem",
+        "https://openminds.om-i.org/types/SkeletalStructure",
+        "https://openminds.om-i.org/types/SubcellularEntity",
+        "https://openminds.om-i.org/types/TissueStructure",
+        "https://openminds.om-i.org/types/VascularStructure",
+        "https://openminds.om-i.org/types/CustomAnatomicalEntity",
+        "https://openminds.om-i.org/types/ParcellationEntity",
+        "https://openminds.om-i.org/types/ParcellationEntityVersion"
+      ],
+      "label": "Anatomical location",
+      "labelPlural": "Anatomical locations",
+      "name": "anatomicalLocation",
+      "nameForReverseLink": null,
+      "namePlural": "anatomicalLocations"
+    },
+    "https://openminds.om-i.org/props/contactResistance": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue",
+        "https://openminds.om-i.org/types/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the contact resistance of this electrode during its use.",
+      "label": "Contact resistance",
+      "labelPlural": "Contact resistances",
+      "name": "contactResistance",
+      "nameForReverseLink": null,
+      "namePlural": "contactResistances"
+    },
+    "https://openminds.om-i.org/props/device": {
+      "_instruction": "Add the electrode used.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Electrode"
+      ],
+      "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
+      "label": "Device",
+      "labelPlural": "Devices",
+      "name": "device",
+      "nameForReverseLink": null,
+      "namePlural": "devices"
+    },
+    "https://openminds.om-i.org/props/lookupLabel": {
+      "_instruction": "Enter a lookup label for this device usage that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "labelPlural": "Lookup labels",
+      "multiline": false,
+      "name": "lookupLabel",
+      "namePlural": "lookupLabels",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/metadataLocation": {
+      "_instruction": "Add all files or file bundles containing additional information about the usage of this device.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File",
+        "https://openminds.om-i.org/types/FileBundle"
+      ],
+      "label": "Metadata location",
+      "labelPlural": "Metadata locations",
+      "minItems": 1,
+      "name": "metadataLocation",
+      "nameForReverseLink": null,
+      "namePlural": "metadataLocations",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/spatialLocation": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/CoordinatePoint"
+      ],
+      "_instruction": "Add the coordinate point that best describes the spatial location of the electrode contact during its use.",
+      "label": "Spatial location",
+      "labelPlural": "Spatial locations",
+      "name": "spatialLocation",
+      "nameForReverseLink": null,
+      "namePlural": "spatialLocations"
+    },
+    "https://openminds.om-i.org/props/usedSpecimen": {
+      "_instruction": "Add the state of the tissue sample or subject that this device was used on.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SubjectState",
+        "https://openminds.om-i.org/types/TissueSampleState"
+      ],
+      "label": "Used specimen",
+      "labelPlural": "Used specimens",
+      "name": "usedSpecimen",
+      "nameForReverseLink": null,
+      "namePlural": "usedSpecimens"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/device"
+  ]
+}

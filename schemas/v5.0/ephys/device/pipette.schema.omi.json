@@ -1,0 +1,124 @@
+{
+  "_categories": [
+    "setupComponent"
+  ],
+  "_module": "ephys",
+  "_type": "https://openminds.om-i.org/types/Pipette",
+  "color": "#2A7FFF",
+  "label": "Pipette",
+  "name": "Pipette",
+  "properties": {
+    "https://openminds.om-i.org/props/contribution": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
+      "_instruction": "Add all relevant contributions (e.g., ownership, maintenance) for this device.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Organization",
+        "https://openminds.om-i.org/types/Person"
+      ],
+      "label": "Contribution",
+      "minItems": 1,
+      "name": "contribution",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/description": {
+      "_instruction": "Enter a short description of the device. Describe the device itself for a custom-built device or note device-specific peculiarities or deviations from the standard product for a manufacturer-defined device.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/markdown",
+      "label": "Description",
+      "labelPlural": "Descriptions",
+      "multiline": true,
+      "name": "description",
+      "namePlural": "descriptions",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/externalDiameter": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the external diameter of the pipette.",
+      "label": "External diameter",
+      "labelPlural": "External diameters",
+      "name": "externalDiameter",
+      "nameForReverseLink": null,
+      "namePlural": "externalDiameters"
+    },
+    "https://openminds.om-i.org/props/internalDiameter": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the internal diameter of the pipette.",
+      "label": "Internal diameter",
+      "labelPlural": "Internal diameters",
+      "name": "internalDiameter",
+      "nameForReverseLink": null,
+      "namePlural": "internalDiameters"
+    },
+    "https://openminds.om-i.org/props/internalIdentifier": {
+      "_instruction": "Enter the identifier (or label) of this pipette that is used within the corresponding data files to identify this pipette.",
+      "description": "Term or code that identifies someone or something within a particular product.",
+      "formatting": "text/plain",
+      "label": "Internal identifier",
+      "labelPlural": "Internal identifiers",
+      "multiline": false,
+      "name": "internalIdentifier",
+      "namePlural": "internalIdentifiers",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/material": {
+      "_instruction": "Add the material that the pipette is made of.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ChemicalMixture",
+        "https://openminds.om-i.org/types/ChemicalSubstance",
+        "https://openminds.om-i.org/types/MolecularEntity"
+      ],
+      "label": "Material",
+      "labelPlural": "Materials",
+      "name": "material",
+      "nameForReverseLink": null,
+      "namePlural": "materials"
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter a descriptive name for this device, preferably defined by the owner.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/serialNumber": {
+      "_instruction": "Enter the serial number of this device.",
+      "formatting": "text/plain",
+      "label": "Serial number",
+      "labelPlural": "Serial numbers",
+      "multiline": false,
+      "name": "serialNumber",
+      "namePlural": "serialNumbers",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/type": {
+      "_instruction": "Add the device classification reference. Identify a device type for a custom-built device, or a hardware product for a device corresponding to a manufacturer-defined product model.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/DeviceType",
+        "https://openminds.om-i.org/types/HardwareProduct"
+      ],
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "label": "Type",
+      "labelPlural": "Types",
+      "name": "type",
+      "nameForReverseLink": null,
+      "namePlural": "types"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/contribution",
+    "https://openminds.om-i.org/props/name",
+    "https://openminds.om-i.org/props/type"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "_categories": [
+    "actor",
+    "agent",
+    "legalPerson"
+  ],
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/Person",
+  "color": "#E5FDA4",
+  "description": "Structured information on a person.",
+  "label": "Person",
+  "name": "Person",
+  "properties": {
+    "https://openminds.om-i.org/props/alternateName": {
+      "_instruction": "Enter any other known full name of this person.",
+      "formatting": "text/plain",
+      "items": {
+        "type": "string"
+      },
+      "label": "Alternate name",
+      "labelPlural": "Alternate names",
+      "minItems": 1,
+      "multiline": false,
+      "name": "alternateName",
+      "namePlural": "alternateNames",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/associatedAccount": {
+      "_instruction": "Add the information about web service accounts held by this person.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AccountInformation"
+      ],
+      "label": "Associated account",
+      "labelPlural": "Associated accounts",
+      "minItems": 1,
+      "name": "associatedAccount",
+      "nameForReverseLink": null,
+      "namePlural": "associatedAccounts",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/contactInformation": {
+      "_instruction": "Add the contact information of this person.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ContactInformation"
+      ],
+      "description": "Any available way used to contact a person or business (e.g., address, phone number, email address, etc.).",
+      "label": "Contact information",
+      "labelPlural": "Contact information",
+      "name": "contactInformation",
+      "nameForReverseLink": null,
+      "namePlural": "contactInformation"
+    },
+    "https://openminds.om-i.org/props/digitalIdentifier": {
+      "_belongsToCategory": [
+        "personIdentifier"
+      ],
+      "_instruction": "Add all globally unique and persistent digital identifier of this person.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/GenericIdentifier",
+        "https://openminds.om-i.org/types/ORCID"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
+      "minItems": 1,
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/familyName": {
+      "_instruction": "Enter the family name, surname, or equivalent of this person.",
+      "description": "Name borne in common by members of a family.",
+      "formatting": "text/plain",
+      "label": "Family name",
+      "labelPlural": "Family names",
+      "multiline": false,
+      "name": "familyName",
+      "namePlural": "familyNames",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/givenName": {
+      "_instruction": "Enter the given name(s) of this person, or a name chosen in place of the given name. At least one of the names should be spelled out in full; initials may be used for the others.",
+      "description": "Name given to a person, including all potential middle names, but excluding the family name.",
+      "formatting": "text/plain",
+      "label": "Given name",
+      "labelPlural": "Given names",
+      "multiline": false,
+      "name": "givenName",
+      "namePlural": "givenNames",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/preferredName": {
+      "_instruction": "Enter the person\u2019s preferred way to write their name in a professional context. It is recommended to place given before family name separated by space.",
+      "formatting": "text/plain",
+      "label": "Preferred name",
+      "multiline": false,
+      "name": "preferredName",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/preferredName"
+  ]
+}

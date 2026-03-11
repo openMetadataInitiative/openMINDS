@@ -1,0 +1,27 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/Ellipse",
+  "label": "Ellipse",
+  "name": "Ellipse",
+  "properties": {
+    "https://openminds.om-i.org/props/diameters": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the lengths of the major and minor diameters of this ellipse.",
+      "label": "Diameters",
+      "maxItems": 2,
+      "minItems": 2,
+      "name": "diameters",
+      "nameForReverseLink": null,
+      "type": "array"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/diameters"
+  ]
+}

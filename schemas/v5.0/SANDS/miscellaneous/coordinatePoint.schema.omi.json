@@ -1,0 +1,37 @@
+{
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/CoordinatePoint",
+  "label": "Coordinate point",
+  "name": "CoordinatePoint",
+  "properties": {
+    "https://openminds.om-i.org/props/coordinateFramework": {
+      "_instruction": "Add the coordinate framework in which this coordinate point exists in.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+        "https://openminds.om-i.org/types/CustomCoordinateFramework"
+      ],
+      "label": "Coordinate framework",
+      "name": "coordinateFramework",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/coordinates": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the coordinates of this point within the stated coordinate space for two-dimensonal spaces as [x, y] or for three-dimensional space as [x, y, z].",
+      "description": "Pair or triplet of numbers defining a location in a given coordinate space.",
+      "label": "Coordinates",
+      "labelPlural": "Coordinates",
+      "maxItems": 3,
+      "minItems": 2,
+      "name": "coordinates",
+      "nameForReverseLink": null,
+      "namePlural": "coordinates",
+      "type": "array"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/coordinateFramework",
+    "https://openminds.om-i.org/props/coordinates"
+  ]
+}

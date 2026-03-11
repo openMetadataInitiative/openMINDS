@@ -1,0 +1,153 @@
+{
+  "_categories": [
+    "setupComponent"
+  ],
+  "_module": "ephys",
+  "_type": "https://openminds.om-i.org/types/ElectrodeArray",
+  "description": "Structured information on an electrode array.",
+  "label": "Electrode array",
+  "name": "ElectrodeArray",
+  "properties": {
+    "https://openminds.om-i.org/props/conductorMaterial": {
+      "_instruction": "Add the conductor material of this electrode array.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ChemicalMixture",
+        "https://openminds.om-i.org/types/ChemicalSubstance",
+        "https://openminds.om-i.org/types/MolecularEntity"
+      ],
+      "label": "Conductor material",
+      "labelPlural": "Conductor materials",
+      "name": "conductorMaterial",
+      "nameForReverseLink": null,
+      "namePlural": "conductorMaterials"
+    },
+    "https://openminds.om-i.org/props/contribution": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
+      "_instruction": "Add all relevant contributions (e.g., ownership, maintenance) for this device.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Organization",
+        "https://openminds.om-i.org/types/Person"
+      ],
+      "label": "Contribution",
+      "minItems": 1,
+      "name": "contribution",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/description": {
+      "_instruction": "Enter a short description of the device. Describe the device itself for a custom-built device or note device-specific peculiarities or deviations from the standard product for a manufacturer-defined device.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/markdown",
+      "label": "Description",
+      "labelPlural": "Descriptions",
+      "multiline": true,
+      "name": "description",
+      "namePlural": "descriptions",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/electrodeIdentifier": {
+      "_instruction": "Enter the identifiers for each electrode of this electrode array. Note that the number of identifiers should match the number of electrodes of the array as stated under 'numberOfElectrodes'.",
+      "formatting": "text/plain",
+      "items": {
+        "type": "string"
+      },
+      "label": "Electrode identifier",
+      "labelPlural": "Electrode identifiers",
+      "minItems": 2,
+      "multiline": false,
+      "name": "electrodeIdentifier",
+      "namePlural": "electrodeIdentifiers",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/insulatorMaterial": {
+      "_instruction": "Add the insulator material of this electrode array.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ChemicalMixture",
+        "https://openminds.om-i.org/types/ChemicalSubstance",
+        "https://openminds.om-i.org/types/MolecularEntity"
+      ],
+      "label": "Insulator material",
+      "labelPlural": "Insulator materials",
+      "name": "insulatorMaterial",
+      "nameForReverseLink": null,
+      "namePlural": "insulatorMaterials"
+    },
+    "https://openminds.om-i.org/props/internalIdentifier": {
+      "_instruction": "Enter the identifier (or label) of this electrode array that is used within the corresponding data files to identify this electrode array.",
+      "description": "Term or code that identifies someone or something within a particular product.",
+      "formatting": "text/plain",
+      "label": "Internal identifier",
+      "labelPlural": "Internal identifiers",
+      "multiline": false,
+      "name": "internalIdentifier",
+      "namePlural": "internalIdentifiers",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/intrinsicResistance": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue",
+        "https://openminds.om-i.org/types/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the intrinsic resistance of this electrode array.",
+      "label": "Intrinsic resistance",
+      "labelPlural": "Intrinsic resistances",
+      "name": "intrinsicResistance",
+      "nameForReverseLink": null,
+      "namePlural": "intrinsicResistances"
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter a descriptive name for this device, preferably defined by the owner.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/numberOfElectrodes": {
+      "_instruction": "Enter the number of electrodes that belong to this electrode array.",
+      "label": "Number of electrodes",
+      "labelPlural": "Number of electrodes",
+      "minimum": 2,
+      "name": "numberOfElectrodes",
+      "namePlural": "numberOfElectrodes",
+      "type": "integer"
+    },
+    "https://openminds.om-i.org/props/serialNumber": {
+      "_instruction": "Enter the serial number of this device.",
+      "formatting": "text/plain",
+      "label": "Serial number",
+      "labelPlural": "Serial numbers",
+      "multiline": false,
+      "name": "serialNumber",
+      "namePlural": "serialNumbers",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/type": {
+      "_instruction": "Add the device classification reference. Identify a device type for a custom-built device, or a hardware product for a device corresponding to a manufacturer-defined product model.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/DeviceType",
+        "https://openminds.om-i.org/types/HardwareProduct"
+      ],
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "label": "Type",
+      "labelPlural": "Types",
+      "name": "type",
+      "nameForReverseLink": null,
+      "namePlural": "types"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/contribution",
+    "https://openminds.om-i.org/props/electrodeIdentifier",
+    "https://openminds.om-i.org/props/name",
+    "https://openminds.om-i.org/props/numberOfElectrodes",
+    "https://openminds.om-i.org/props/type"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/Copyright",
+  "color": "#8CD0FF",
+  "description": "Structured information on the copyright.",
+  "label": "Copyright",
+  "name": "Copyright",
+  "properties": {
+    "https://openminds.om-i.org/props/customUsageClause": {
+      "_instruction": "Enter a statement describing the usage rights, such as 'All rights reserved.'.",
+      "formatting": "text/plain",
+      "label": "Custom usage clause",
+      "multiline": false,
+      "name": "customUsageClause",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/holder": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
+      "_instruction": "Add all parties that hold this copyright.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Organization",
+        "https://openminds.om-i.org/types/Person"
+      ],
+      "description": "Legal person in possession of something.",
+      "label": "Holder",
+      "labelPlural": "Holders",
+      "minItems": 1,
+      "name": "holder",
+      "nameForReverseLink": null,
+      "namePlural": "holders",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/year": {
+      "_instruction": "Enter the year when the copyright was first asserted, and optionally any subsequent years when the copyright holder and/or the rights-reservation clause was updated.",
+      "description": "Cycle in the Gregorian calendar specified by a number and comprised of 365 or 366 days divided into 12 months beginning with January and ending with December.",
+      "formatting": "text/plain",
+      "items": {
+        "pattern": "([0-9]{4})",
+        "type": "string"
+      },
+      "label": "Year",
+      "labelPlural": "Years",
+      "minItems": 1,
+      "multiline": false,
+      "name": "year",
+      "namePlural": "years",
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/holder",
+    "https://openminds.om-i.org/props/year"
+  ]
+}

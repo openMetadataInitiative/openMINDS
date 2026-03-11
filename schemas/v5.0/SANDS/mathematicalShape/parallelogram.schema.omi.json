@@ -1,0 +1,45 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape",
+    "simplePolygon"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/Parallelogram",
+  "label": "Parallelogram",
+  "name": "Parallelogram",
+  "properties": {
+    "https://openminds.om-i.org/props/baseDistance": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the perpendicular distance between the parallel lines of the base of this parallelogram.",
+      "label": "Base distance",
+      "name": "baseDistance",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/baseLength": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the uniform length of the bottom and top sides (the base) of this parallelogram.",
+      "label": "Base length",
+      "name": "baseLength",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/interiorAngle": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter an interior angle between the base and an adjacent side of this parallelogram.",
+      "label": "Interior angle",
+      "name": "interiorAngle",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/baseDistance",
+    "https://openminds.om-i.org/props/baseLength",
+    "https://openminds.om-i.org/props/interiorAngle"
+  ]
+}

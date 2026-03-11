@@ -1,0 +1,35 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/RightCone",
+  "label": "Right cone",
+  "name": "RightCone",
+  "properties": {
+    "https://openminds.om-i.org/props/apexBaseDistance": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the perpendicular distance from the center of the base plane to the apex of this right cone.",
+      "label": "Apex base distance",
+      "name": "apexBaseDistance",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/baseShape": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Circle",
+        "https://openminds.om-i.org/types/Ellipse"
+      ],
+      "_instruction": "Enter the two-dimensional elliptic base shape of this right cone.",
+      "label": "Base shape",
+      "name": "baseShape",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/apexBaseDistance",
+    "https://openminds.om-i.org/props/baseShape"
+  ]
+}

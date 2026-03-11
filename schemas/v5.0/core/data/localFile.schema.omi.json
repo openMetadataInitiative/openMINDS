@@ -1,0 +1,121 @@
+{
+  "_categories": [
+    "fileOrigin"
+  ],
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/LocalFile",
+  "color": "#B787A8",
+  "description": "Structured information about a file that is not accessible via a URL.",
+  "label": "Local file",
+  "name": "LocalFile",
+  "properties": {
+    "https://openminds.om-i.org/props/contentDescription": {
+      "_instruction": "Enter a short content description for this local file instance.",
+      "formatting": "text/plain",
+      "label": "Content description",
+      "labelPlural": "Content descriptions",
+      "multiline": true,
+      "name": "contentDescription",
+      "namePlural": "contentDescriptions",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/copyOf": {
+      "_instruction": "Add the file of which this is a copy.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File"
+      ],
+      "label": "Copy of",
+      "labelPlural": "Copy of",
+      "name": "copyOf",
+      "nameForReverseLink": null,
+      "namePlural": "copyOf"
+    },
+    "https://openminds.om-i.org/props/dataType": {
+      "_instruction": "Add all data types that are specifically represented in this local file instance.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/DataType"
+      ],
+      "label": "Data type",
+      "labelPlural": "Data types",
+      "minItems": 1,
+      "name": "dataType",
+      "nameForReverseLink": null,
+      "namePlural": "dataTypes",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/format": {
+      "_instruction": "Add the content type of this local file instance.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ContentType"
+      ],
+      "description": "Method of digitally organizing and structuring data or information.",
+      "label": "Format",
+      "labelPlural": "Formats",
+      "name": "format",
+      "nameForReverseLink": null,
+      "namePlural": "formats"
+    },
+    "https://openminds.om-i.org/props/hash": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Hash"
+      ],
+      "_instruction": "Add the hash that was generated for this local file instance.",
+      "description": "Term used for the process of converting any data into a single value. Often also directly refers to the resulting single value.",
+      "label": "Hash",
+      "labelPlural": "Hashes",
+      "name": "hash",
+      "nameForReverseLink": null,
+      "namePlural": "hashes"
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter the name of this local file instance.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/path": {
+      "_instruction": "Enter the file system path (absolute path or relative to the working directory) to this local file instance.",
+      "formatting": "text/plain",
+      "label": "Path",
+      "labelPlural": "Paths",
+      "multiline": false,
+      "name": "path",
+      "namePlural": "paths",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/specialUsageRole": {
+      "_instruction": "Add the special usage role of this local file instance.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/FileUsageRole"
+      ],
+      "description": "Particular function of something when it is used.",
+      "label": "Special usage role",
+      "labelPlural": "Special usage roles",
+      "name": "specialUsageRole",
+      "nameForReverseLink": null,
+      "namePlural": "specialUsageRoles"
+    },
+    "https://openminds.om-i.org/props/storageSize": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the storage size of this local file instance.",
+      "description": "Quantitative value defining how much disk space is used by an object on a computer system.",
+      "label": "Storage size",
+      "labelPlural": "Storage sizes",
+      "name": "storageSize",
+      "nameForReverseLink": null,
+      "namePlural": "storageSizes"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/name",
+    "https://openminds.om-i.org/props/path"
+  ]
+}

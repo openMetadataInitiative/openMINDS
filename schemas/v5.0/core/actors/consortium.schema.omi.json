@@ -1,0 +1,77 @@
+{
+  "_categories": [
+    "actor"
+  ],
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/Consortium",
+  "color": "#C36D96",
+  "description": "Structured information about an association of two or more persons or organizations, with the objective of participating in a common activity.",
+  "label": "Consortium",
+  "name": "Consortium",
+  "properties": {
+    "https://openminds.om-i.org/props/contactInformation": {
+      "_instruction": "Add the contact information of this consortium.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ContactInformation"
+      ],
+      "description": "Any available way used to contact a person or business (e.g., address, phone number, email address, etc.).",
+      "label": "Contact information",
+      "labelPlural": "Contact information",
+      "name": "contactInformation",
+      "nameForReverseLink": null,
+      "namePlural": "contactInformation"
+    },
+    "https://openminds.om-i.org/props/fullName": {
+      "_instruction": "Enter the full name of this consortium.",
+      "description": "Whole, non-abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Full name",
+      "labelPlural": "Full names",
+      "multiline": false,
+      "name": "fullName",
+      "namePlural": "fullNames",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/homepage": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this consortium.",
+      "description": "Main website of something or someone.",
+      "formatting": "text/plain",
+      "label": "Homepage",
+      "labelPlural": "Homepages",
+      "multiline": false,
+      "name": "homepage",
+      "namePlural": "homepages",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/memberships": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Membership"
+      ],
+      "_instruction": "Add all membership records (one per member) for this consortium.",
+      "label": "Memberships",
+      "minItems": 2,
+      "name": "memberships",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/shortName": {
+      "_instruction": "Enter a short name (or alias) for this consortium that could be used as a shortened display title (e.g., for web services with too little space to display the full name).",
+      "description": "Shortened or fully abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Short name",
+      "labelPlural": "Short names",
+      "multiline": false,
+      "name": "shortName",
+      "namePlural": "shortNames",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/fullName",
+    "https://openminds.om-i.org/props/memberships"
+  ]
+}

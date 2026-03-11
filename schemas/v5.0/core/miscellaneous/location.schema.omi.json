@@ -1,0 +1,37 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/Location",
+  "label": "Location",
+  "name": "Location",
+  "properties": {
+    "https://openminds.om-i.org/props/address": {
+      "_instruction": "Enter the address of the location, in the format [Street address], City, [Region/State], [Postal code]. The minimum requested information is City.",
+      "formatting": "text/plain",
+      "label": "Address",
+      "multiline": false,
+      "name": "address",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/country": {
+      "_instruction": "Enter the country in which the location is found.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SovereignState"
+      ],
+      "label": "Country",
+      "name": "country",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/geoCoordinates": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/GeoCoordinates"
+      ],
+      "_instruction": "Enter the geographic coordinates of the location.",
+      "label": "Geo coordinates",
+      "name": "geoCoordinates",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/country"
+  ]
+}

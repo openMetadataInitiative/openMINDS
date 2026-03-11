@@ -1,0 +1,35 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/RightCylinder",
+  "label": "Right cylinder",
+  "name": "RightCylinder",
+  "properties": {
+    "https://openminds.om-i.org/props/baseDistance": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the perpendicular distance between the two base planes of this right cylinder.",
+      "label": "Base distance",
+      "name": "baseDistance",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/baseShape": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Circle",
+        "https://openminds.om-i.org/types/Ellipse"
+      ],
+      "_instruction": "Enter the two-dimensional elliptic base shape of the two planes of this right cylinder.",
+      "label": "Base shape",
+      "name": "baseShape",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/baseDistance",
+    "https://openminds.om-i.org/props/baseShape"
+  ]
+}

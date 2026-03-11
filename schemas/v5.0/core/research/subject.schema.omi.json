@@ -1,0 +1,93 @@
+{
+  "_categories": [
+    "fileOrigin"
+  ],
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/Subject",
+  "color": "#C86240",
+  "description": "Structured information on a subject.",
+  "label": "Subject",
+  "name": "Subject",
+  "properties": {
+    "https://openminds.om-i.org/props/biologicalSex": {
+      "_instruction": "Add the biological sex of this specimen.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/BiologicalSex"
+      ],
+      "description": "Differentiation of individuals of most species (animals and plants) based on the type of gametes they produce.",
+      "label": "Biological sex",
+      "labelPlural": "Biological sexes",
+      "name": "biologicalSex",
+      "nameForReverseLink": null,
+      "namePlural": "biologicalSexes"
+    },
+    "https://openminds.om-i.org/props/internalIdentifier": {
+      "_instruction": "Enter the identifier (or label) of this specimen that is used within the corresponding data files to identify this specimen.",
+      "description": "Term or code that identifies someone or something within a particular product.",
+      "formatting": "text/plain",
+      "label": "Internal identifier",
+      "labelPlural": "Internal identifiers",
+      "multiline": false,
+      "name": "internalIdentifier",
+      "namePlural": "internalIdentifiers",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/isPartOf": {
+      "_instruction": "Add all subject groups of which this subject is a member.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SubjectGroup"
+      ],
+      "description": "Reference to the ensemble of multiple things or beings.",
+      "label": "Is part of",
+      "labelPlural": "Is part of",
+      "minItems": 1,
+      "name": "isPartOf",
+      "nameForReverseLink": null,
+      "namePlural": "isPartOf",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/lookupLabel": {
+      "_instruction": "Enter a lookup label for this specimen that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "labelPlural": "Lookup labels",
+      "multiline": false,
+      "name": "lookupLabel",
+      "namePlural": "lookupLabels",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/species": {
+      "_instruction": "Add the species or strain (a sub-type of a genetic variant of species) of this specimen.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Species",
+        "https://openminds.om-i.org/types/Strain"
+      ],
+      "description": "Category of biological classification comprising related organisms or populations potentially capable of interbreeding, and being designated by a binomial that consists of the name of a genus followed by a Latin or latinized uncapitalized noun or adjective.",
+      "label": "Species",
+      "labelPlural": "Species",
+      "name": "species",
+      "nameForReverseLink": null,
+      "namePlural": "species"
+    },
+    "https://openminds.om-i.org/props/studiedState": {
+      "_instruction": "Add all states in which this subject was studied.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SubjectState"
+      ],
+      "description": "Reference to a point in time at which something or someone was studied in a particular mode or condition.",
+      "label": "Studied state",
+      "labelPlural": "Studied states",
+      "minItems": 1,
+      "name": "studiedState",
+      "nameForReverseLink": null,
+      "namePlural": "studiedStates",
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/species",
+    "https://openminds.om-i.org/props/studiedState"
+  ]
+}

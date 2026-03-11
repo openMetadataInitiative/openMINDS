@@ -1,0 +1,51 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/NumericalProperty",
+  "color": "#B94C59",
+  "description": "Structured information about a property of some entity or process whose value is a number.",
+  "label": "Numerical property",
+  "name": "NumericalProperty",
+  "properties": {
+    "https://openminds.om-i.org/props/externalDefinitionOfName": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to an external definition of the property name.",
+      "formatting": "text/plain",
+      "label": "External definition of name",
+      "multiline": false,
+      "name": "externalDefinitionOfName",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter a descriptive name for this numerical property.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/value": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue",
+        "https://openminds.om-i.org/types/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter all quantitative values that are described by this numerical property.",
+      "description": "Entry for a property.",
+      "label": "Value",
+      "labelPlural": "Values",
+      "minItems": 1,
+      "name": "value",
+      "nameForReverseLink": null,
+      "namePlural": "values",
+      "type": "array"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/name",
+    "https://openminds.om-i.org/props/value"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/AnatomicalTargetPosition",
+  "label": "Anatomical target position",
+  "name": "AnatomicalTargetPosition",
+  "properties": {
+    "https://openminds.om-i.org/props/additionalRemarks": {
+      "_instruction": "Enter any additional remarks concerning this anatomical target position.",
+      "description": "Mention of what deserves additional attention or notice.",
+      "formatting": "text/markdown",
+      "label": "Additional remarks",
+      "labelPlural": "Additional remarks",
+      "multiline": true,
+      "name": "additionalRemarks",
+      "namePlural": "additionalRemarks",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/anatomicalTarget": {
+      "_belongsToCategory": [
+        "anatomicalLocation"
+      ],
+      "_instruction": "Add all anatomical entities that describe the target position(s).",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnatomicalCavity",
+        "https://openminds.om-i.org/types/CellType",
+        "https://openminds.om-i.org/types/ExternalBodyRegion",
+        "https://openminds.om-i.org/types/MuscularStructure",
+        "https://openminds.om-i.org/types/NervousSystemStructure",
+        "https://openminds.om-i.org/types/Organ",
+        "https://openminds.om-i.org/types/OrganSystemStructure",
+        "https://openminds.om-i.org/types/OrganismSubstance",
+        "https://openminds.om-i.org/types/OrganismSystem",
+        "https://openminds.om-i.org/types/SkeletalStructure",
+        "https://openminds.om-i.org/types/SubcellularEntity",
+        "https://openminds.om-i.org/types/TissueStructure",
+        "https://openminds.om-i.org/types/VascularStructure",
+        "https://openminds.om-i.org/types/CustomAnatomicalEntity",
+        "https://openminds.om-i.org/types/ParcellationEntity",
+        "https://openminds.om-i.org/types/ParcellationEntityVersion"
+      ],
+      "label": "Anatomical target",
+      "labelPlural": "Anatomical targets",
+      "minItems": 1,
+      "name": "anatomicalTarget",
+      "nameForReverseLink": null,
+      "namePlural": "anatomicalTargets",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/spatialLocation": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/CoordinatePoint"
+      ],
+      "_instruction": "Add all coordinate points that describe the spatial location of the anatomical target structure(s).",
+      "label": "Spatial location",
+      "labelPlural": "Spatial locations",
+      "minItems": 1,
+      "name": "spatialLocation",
+      "nameForReverseLink": null,
+      "namePlural": "spatialLocations",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/targetIdentificationType": {
+      "_instruction": "Add the target identification type that best describes how the this anatomical target position was identified.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnatomicalIdentificationType"
+      ],
+      "label": "Target identification type",
+      "labelPlural": "Target identification types",
+      "name": "targetIdentificationType",
+      "nameForReverseLink": null,
+      "namePlural": "targetIdentificationTypes"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/anatomicalTarget",
+    "https://openminds.om-i.org/props/targetIdentificationType"
+  ]
+}

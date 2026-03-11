@@ -1,0 +1,24 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/Cube",
+  "label": "Cube",
+  "name": "Cube",
+  "properties": {
+    "https://openminds.om-i.org/props/sideLength": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the common length of the sides of this cube.",
+      "label": "Side length",
+      "name": "sideLength",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/sideLength"
+  ]
+}

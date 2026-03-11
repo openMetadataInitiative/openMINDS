@@ -1,0 +1,119 @@
+{
+  "_module": "computation",
+  "_type": "https://openminds.om-i.org/types/ServiceDeployment",
+  "label": "Service deployment",
+  "name": "ServiceDeployment",
+  "properties": {
+    "https://openminds.om-i.org/props/dependsOn": {
+      "_instruction": "Add the software version and any other relevant research product version that was deployed.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/WorkflowRecipeVersion",
+        "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/MetaDataModelVersion",
+        "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/SoftwareVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion"
+      ],
+      "label": "Depends on",
+      "minItems": 1,
+      "name": "dependsOn",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/deploymentType": {
+      "_instruction": "Enter the type of deployment environment, for example, 'production' or 'integration'.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/DeploymentEnvironmentType"
+      ],
+      "label": "Deployment type",
+      "name": "deploymentType",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/endTime": {
+      "_formats": [
+        "date-time"
+      ],
+      "_instruction": "Enter the date and time at which this deployment ended, formatted according to ISO-8601.",
+      "formatting": "text/plain",
+      "label": "End time",
+      "labelPlural": "End times",
+      "multiline": false,
+      "name": "endTime",
+      "namePlural": "endTimes",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter a label for this service deployment.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/provides": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/DeployedInterface"
+      ],
+      "_instruction": "Add the interfaces that have been deployed.",
+      "label": "Provides",
+      "minItems": 1,
+      "name": "provides",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/service": {
+      "_instruction": "Add the service that has been deployed.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Service"
+      ],
+      "label": "Service",
+      "labelPlural": "Services",
+      "name": "service",
+      "nameForReverseLink": null,
+      "namePlural": "services"
+    },
+    "https://openminds.om-i.org/props/startTime": {
+      "_formats": [
+        "date-time"
+      ],
+      "_instruction": "Enter the date and time at which this deployment was started, formatted according to ISO-8601.",
+      "formatting": "text/plain",
+      "label": "Start time",
+      "labelPlural": "Start times",
+      "multiline": false,
+      "name": "startTime",
+      "namePlural": "startTimes",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/uses": {
+      "_instruction": "Add the deployed interfaces and any other relevant research product versions that are used by this deployment.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/WorkflowRecipeVersion",
+        "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/MetaDataModelVersion",
+        "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/WebResource",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion"
+      ],
+      "label": "Uses",
+      "minItems": 1,
+      "name": "uses",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/name",
+    "https://openminds.om-i.org/props/provides",
+    "https://openminds.om-i.org/props/service",
+    "https://openminds.om-i.org/props/startTime"
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "_categories": [
+    "fileOrigin"
+  ],
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/SubjectGroupState",
+  "color": "#5EA7FF",
+  "label": "Subject group state",
+  "name": "SubjectGroupState",
+  "properties": {
+    "https://openminds.om-i.org/props/additionalRemarks": {
+      "_instruction": "Enter any additional remarks concerning the specimen (set) in this state.",
+      "description": "Mention of what deserves additional attention or notice.",
+      "formatting": "text/markdown",
+      "label": "Additional remarks",
+      "labelPlural": "Additional remarks",
+      "multiline": true,
+      "name": "additionalRemarks",
+      "namePlural": "additionalRemarks",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/age": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/SpecimenAge"
+      ],
+      "_instruction": "Enter the age and age reference of the specimen (set) in this state.",
+      "description": "Time of life or existence at which some particular qualification, capacity or event arises.",
+      "label": "Age",
+      "labelPlural": "Ages",
+      "name": "age",
+      "nameForReverseLink": null,
+      "namePlural": "ages"
+    },
+    "https://openminds.om-i.org/props/ageCategory": {
+      "_instruction": "Add the age category of the subject in this state.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AgeCategory"
+      ],
+      "description": "Distinct life cycle class that is defined by a similar age or age range (developmental stage) within a group of individual beings.",
+      "label": "Age category",
+      "labelPlural": "Age categories",
+      "minItems": 1,
+      "name": "ageCategory",
+      "nameForReverseLink": null,
+      "namePlural": "ageCategories",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/associatedProtocol": {
+      "_instruction": "Add all technical and/or behavioral protocols associated with this specimen state.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Protocol",
+        "https://openminds.om-i.org/types/BehavioralProtocol"
+      ],
+      "label": "Associated protocol",
+      "minItems": 1,
+      "name": "associatedProtocol",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/attribute": {
+      "_instruction": "Add all attributes that can be ascribed to this subject group state.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SubjectAttribute"
+      ],
+      "label": "Attribute",
+      "labelPlural": "Attributes",
+      "minItems": 1,
+      "name": "attribute",
+      "nameForReverseLink": null,
+      "namePlural": "attributes",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/descendedFrom": {
+      "_instruction": "Add the previous subject group state.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SubjectGroupState"
+      ],
+      "label": "Descended from",
+      "labelPlural": "Descended from",
+      "name": "descendedFrom",
+      "nameForReverseLink": null,
+      "namePlural": "descendedFrom"
+    },
+    "https://openminds.om-i.org/props/handedness": {
+      "_instruction": "Add all preferred types of handedness of the subject group in this state.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Handedness"
+      ],
+      "description": "Degree to which an organism prefers one hand or foot over the other hand or foot during the performance of a task.",
+      "label": "Handedness",
+      "labelPlural": "Handedness",
+      "minItems": 1,
+      "name": "handedness",
+      "nameForReverseLink": null,
+      "namePlural": "handedness",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/internalIdentifier": {
+      "_instruction": "Enter the identifier (or label) of this specimen (set) state that is used within the corresponding data files to identify this specimen (set) state.",
+      "description": "Term or code that identifies someone or something within a particular product.",
+      "formatting": "text/plain",
+      "label": "Internal identifier",
+      "labelPlural": "Internal identifiers",
+      "multiline": false,
+      "name": "internalIdentifier",
+      "namePlural": "internalIdentifiers",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/lookupLabel": {
+      "_instruction": "Enter a lookup label for this specimen (set) state that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "labelPlural": "Lookup labels",
+      "multiline": false,
+      "name": "lookupLabel",
+      "namePlural": "lookupLabels",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/pathology": {
+      "_instruction": "Add all (human) diseases and/or conditions that the specimen (set) in this state has and/or is a model for.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Disease",
+        "https://openminds.om-i.org/types/DiseaseModel"
+      ],
+      "description": "Structural and functional deviation from the normal that constitutes a disease or characterizes a particular disease.",
+      "label": "Pathology",
+      "labelPlural": "Pathologies",
+      "minItems": 1,
+      "name": "pathology",
+      "nameForReverseLink": null,
+      "namePlural": "pathologies",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/relativeTimeIndication": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue",
+        "https://openminds.om-i.org/types/QuantitativeValueRange"
+      ],
+      "_instruction": "If there is a temporal relation between the states of a specimen (set), enter the relative time that has passed between this and the preceding specimen (set) state referenced under 'descendedFrom'.",
+      "label": "Relative time indication",
+      "labelPlural": "Relative time indications",
+      "name": "relativeTimeIndication",
+      "nameForReverseLink": null,
+      "namePlural": "relativeTimeIndications"
+    },
+    "https://openminds.om-i.org/props/weight": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/SpecimenWeight"
+      ],
+      "_instruction": "Enter the weight and weight type of the specimen (set) in this state.",
+      "description": "Amount that a thing or being weighs.",
+      "label": "Weight",
+      "labelPlural": "Weights",
+      "name": "weight",
+      "nameForReverseLink": null,
+      "namePlural": "weights"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/ageCategory"
+  ]
+}

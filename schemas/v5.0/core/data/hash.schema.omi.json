@@ -1,0 +1,36 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/Hash",
+  "color": "#378FDB",
+  "description": "Structured information on a hash.",
+  "label": "Hash",
+  "name": "Hash",
+  "properties": {
+    "https://openminds.om-i.org/props/algorithm": {
+      "_instruction": "Enter the algorithm used to generate this hash.",
+      "description": "Procedure for solving a mathematical problem in a finite number of steps. Can involve repetition of an operation.",
+      "formatting": "text/plain",
+      "label": "Algorithm",
+      "labelPlural": "Algorithms",
+      "multiline": false,
+      "name": "algorithm",
+      "namePlural": "algorithms",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/digest": {
+      "_instruction": "Enter the digest of this hash.",
+      "description": "Summation or condensation of a body of information.",
+      "formatting": "text/plain",
+      "label": "Digest",
+      "labelPlural": "Digests",
+      "multiline": false,
+      "name": "digest",
+      "namePlural": "digests",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/algorithm",
+    "https://openminds.om-i.org/props/digest"
+  ]
+}

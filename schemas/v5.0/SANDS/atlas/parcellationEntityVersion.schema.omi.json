@@ -1,0 +1,180 @@
+{
+  "_categories": [
+    "anatomicalLocation",
+    "isVersionOf",
+    "studyTarget"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/ParcellationEntityVersion",
+  "label": "Parcellation entity version",
+  "name": "ParcellationEntityVersion",
+  "properties": {
+    "https://openminds.om-i.org/props/abbreviation": {
+      "_instruction": "Enter the official abbreviation of this parcellation entity version.",
+      "formatting": "text/plain",
+      "label": "Abbreviation",
+      "labelPlural": "Abbreviations",
+      "multiline": false,
+      "name": "abbreviation",
+      "namePlural": "abbreviations",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/additionalRemarks": {
+      "_instruction": "Enter any additional remarks concerning this parcellation entity version.",
+      "description": "Mention of what deserves additional attention or notice.",
+      "formatting": "text/markdown",
+      "label": "Additional remarks",
+      "labelPlural": "Additional remarks",
+      "multiline": true,
+      "name": "additionalRemarks",
+      "namePlural": "additionalRemarks",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/alternateName": {
+      "_instruction": "Enter any alternate names, including any alternative abbreviations, for this parcellation entity version.",
+      "formatting": "text/plain",
+      "items": {
+        "type": "string"
+      },
+      "label": "Alternate name",
+      "labelPlural": "Alternate names",
+      "minItems": 1,
+      "multiline": false,
+      "name": "alternateName",
+      "namePlural": "alternateNames",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/correctedName": {
+      "_instruction": "Enter the refined or corrected name of this parcellation entity version.",
+      "formatting": "text/plain",
+      "label": "Corrected name",
+      "labelPlural": "Corrected names",
+      "multiline": false,
+      "name": "correctedName",
+      "namePlural": "correctedNames",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/hasAnnotation": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/AtlasAnnotation"
+      ],
+      "_instruction": "Add all atlas annotations which define this parcellation entity version.",
+      "label": "Has annotation",
+      "labelPlural": "Has annotations",
+      "minItems": 1,
+      "name": "hasAnnotation",
+      "nameForReverseLink": null,
+      "namePlural": "hasAnnotations",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/hasParent": {
+      "_instruction": "Add all anatomical parent structures (or version of the structures) for this parcellation entity as defined within corresponding brain atlas version.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ParcellationEntity",
+        "https://openminds.om-i.org/types/ParcellationEntityVersion"
+      ],
+      "description": "Reference to a parent object or legal person.",
+      "label": "Has parent",
+      "labelPlural": "Has parents",
+      "minItems": 1,
+      "name": "hasParent",
+      "nameForReverseLink": null,
+      "namePlural": "hasParents",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/isVersionOf": {
+      "_instruction": "Add the version-independent information about this parcellation entity.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ParcellationEntity"
+      ],
+      "label": "Is version of",
+      "name": "isVersionOf",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/lookupLabel": {
+      "_instruction": "Enter a lookup label for this parcellation entity version that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "labelPlural": "Lookup labels",
+      "multiline": false,
+      "name": "lookupLabel",
+      "namePlural": "lookupLabels",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter the name of this parcellation entity version.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/ontologyIdentifier": {
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the related ontological terms matching this parcellation entity version.",
+      "description": "Term or code used to identify something or someone registered within a particular ontology.",
+      "formatting": "text/plain",
+      "items": {
+        "_formats": [
+          "iri"
+        ],
+        "type": "string"
+      },
+      "label": "Ontology identifier",
+      "labelPlural": "Ontology identifiers",
+      "minItems": 1,
+      "multiline": false,
+      "name": "ontologyIdentifier",
+      "namePlural": "ontologyIdentifiers",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/relationAssessment": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QualitativeRelationAssessment",
+        "https://openminds.om-i.org/types/QuantitativeRelationAssessment"
+      ],
+      "_instruction": "Add all relations (qualitative or quantitative) of this parcellation entity version to other anatomical entities.",
+      "label": "Relation assessment",
+      "labelPlural": "Relation assessments",
+      "minItems": 1,
+      "name": "relationAssessment",
+      "nameForReverseLink": null,
+      "namePlural": "relationAssessments",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/versionIdentifier": {
+      "_instruction": "Enter the version identifier of this parcellation entity version.",
+      "description": "Term or code used to identify the version of something.",
+      "formatting": "text/plain",
+      "label": "Version identifier",
+      "labelPlural": "Version identifiers",
+      "multiline": false,
+      "name": "versionIdentifier",
+      "namePlural": "versionIdentifiers",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/versionInnovation": {
+      "_instruction": "Enter a short description (or summary) of the novelties/peculiarities of this parcellation entity version in comparison to its preceding versions. If this parcellation entity version is the first version, leave blank.",
+      "description": "Documentation on what changed in comparison to a previously published form of something.",
+      "formatting": "text/markdown",
+      "label": "Version innovation",
+      "labelPlural": "Version innovations",
+      "multiline": true,
+      "name": "versionInnovation",
+      "namePlural": "versionInnovations",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/lookupLabel",
+    "https://openminds.om-i.org/props/name",
+    "https://openminds.om-i.org/props/versionIdentifier"
+  ]
+}

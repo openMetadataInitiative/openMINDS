@@ -1,0 +1,35 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape",
+    "simplePolygon"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/Rectangle",
+  "label": "Rectangle",
+  "name": "Rectangle",
+  "properties": {
+    "https://openminds.om-i.org/props/majorSideLength": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the common length of the major sides of this rectangle.",
+      "label": "Major side length",
+      "name": "majorSideLength",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/minorSideLength": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the common length of the minor sides of this rectangle.",
+      "label": "Minor side length",
+      "name": "minorSideLength",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/majorSideLength",
+    "https://openminds.om-i.org/props/minorSideLength"
+  ]
+}

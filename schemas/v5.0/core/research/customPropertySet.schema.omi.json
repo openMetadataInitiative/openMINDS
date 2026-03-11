@@ -1,0 +1,62 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/CustomPropertySet",
+  "color": "#009B75",
+  "description": "Structured information about properties of an entity that are not represented in an openMINDS schema.",
+  "label": "Custom property set",
+  "name": "CustomPropertySet",
+  "properties": {
+    "https://openminds.om-i.org/props/context": {
+      "_instruction": "Enter the common context for this custom property set.",
+      "formatting": "text/plain",
+      "label": "Context",
+      "labelPlural": "Contexts",
+      "multiline": false,
+      "name": "context",
+      "namePlural": "contexts",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/dataLocation": {
+      "_instruction": "Add the location of the data that define the custom property set for the given context (e.g., stored as file or other entities such as property-value lists).",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Configuration",
+        "https://openminds.om-i.org/types/File",
+        "https://openminds.om-i.org/types/PropertyValueList"
+      ],
+      "label": "Data location",
+      "labelPlural": "Data locations",
+      "name": "dataLocation",
+      "nameForReverseLink": null,
+      "namePlural": "dataLocations"
+    },
+    "https://openminds.om-i.org/props/relevantFor": {
+      "_belongsToCategory": [
+        "technique"
+      ],
+      "_instruction": "Add the technique for which this custom property set is relevant.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnalysisTechnique",
+        "https://openminds.om-i.org/types/MRIFatSuppressionTechnique",
+        "https://openminds.om-i.org/types/MRIParallelAcquisitionTechnique",
+        "https://openminds.om-i.org/types/MRIPulseSequence",
+        "https://openminds.om-i.org/types/MRISpoilingTechnique",
+        "https://openminds.om-i.org/types/MRIWeighting",
+        "https://openminds.om-i.org/types/SpatialEncoding",
+        "https://openminds.om-i.org/types/StimulationApproach",
+        "https://openminds.om-i.org/types/StimulationTechnique",
+        "https://openminds.om-i.org/types/Technique"
+      ],
+      "description": "Reference to what or whom something or someone bears significance.",
+      "label": "Relevant for",
+      "labelPlural": "Relevant for",
+      "name": "relevantFor",
+      "nameForReverseLink": null,
+      "namePlural": "relevantFor"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/context",
+    "https://openminds.om-i.org/props/dataLocation",
+    "https://openminds.om-i.org/props/relevantFor"
+  ]
+}

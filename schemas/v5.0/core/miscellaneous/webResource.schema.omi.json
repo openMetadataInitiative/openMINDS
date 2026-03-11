@@ -1,0 +1,51 @@
+{
+  "_categories": [
+    "documentationResource"
+  ],
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/WebResource",
+  "color": "#DAA9B5",
+  "label": "Web resource",
+  "name": "WebResource",
+  "properties": {
+    "https://openminds.om-i.org/props/IRI": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to this web resource.",
+      "description": "Stands for Internationalized Resource Identifier which is an internet protocol standard that builds on the URI protocol, extending the set of permitted characters to include Unicode/ISO 10646.",
+      "formatting": "text/plain",
+      "label": "Iri",
+      "labelPlural": "IRIs",
+      "multiline": false,
+      "name": "IRI",
+      "namePlural": "IRIs",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/contentDescription": {
+      "_instruction": "Enter a short content description for this web resource.",
+      "formatting": "text/plain",
+      "label": "Content description",
+      "labelPlural": "Content descriptions",
+      "multiline": true,
+      "name": "contentDescription",
+      "namePlural": "contentDescriptions",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/format": {
+      "_instruction": "Add the expected content type of the document at this web resource.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ContentType"
+      ],
+      "description": "Method of digitally organizing and structuring data or information.",
+      "label": "Format",
+      "labelPlural": "Formats",
+      "name": "format",
+      "nameForReverseLink": null,
+      "namePlural": "formats"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/IRI"
+  ]
+}

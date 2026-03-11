@@ -1,0 +1,53 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/FileArchive",
+  "color": "#83AB58",
+  "label": "File archive",
+  "name": "FileArchive",
+  "properties": {
+    "https://openminds.om-i.org/props/IRI": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to this file archive.",
+      "description": "Stands for Internationalized Resource Identifier which is an internet protocol standard that builds on the URI protocol, extending the set of permitted characters to include Unicode/ISO 10646.",
+      "formatting": "text/plain",
+      "label": "Iri",
+      "labelPlural": "IRIs",
+      "multiline": false,
+      "name": "IRI",
+      "namePlural": "IRIs",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/format": {
+      "_instruction": "Add the content type of this file archive.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ContentType"
+      ],
+      "description": "Method of digitally organizing and structuring data or information.",
+      "label": "Format",
+      "labelPlural": "Formats",
+      "name": "format",
+      "nameForReverseLink": null,
+      "namePlural": "formats"
+    },
+    "https://openminds.om-i.org/props/sourceData": {
+      "_instruction": "Add the data that were ingested and modified to create this file archive.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File"
+      ],
+      "label": "Source data",
+      "labelPlural": "Source data",
+      "minItems": 1,
+      "name": "sourceData",
+      "nameForReverseLink": null,
+      "namePlural": "sourceData",
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/IRI",
+    "https://openminds.om-i.org/props/format"
+  ]
+}

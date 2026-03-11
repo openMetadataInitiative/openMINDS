@@ -1,0 +1,38 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/Affiliation",
+  "color": "#A74571",
+  "description": "Structured information about a relationship between two entities, such as a person and their employer.",
+  "label": "Affiliation",
+  "name": "Affiliation",
+  "properties": {
+    "https://openminds.om-i.org/props/organization": {
+      "_instruction": "Add all organizations (in display order) with which the specified individual is affiliated.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Organization"
+      ],
+      "description": "Legally accountable, administrative and functional structure.",
+      "label": "Organization",
+      "labelPlural": "Organizations",
+      "minItems": 1,
+      "name": "organization",
+      "nameForReverseLink": null,
+      "namePlural": "organizations",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/person": {
+      "_instruction": "Add the individual to whom this affiliation belongs.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Person"
+      ],
+      "label": "Person",
+      "name": "person",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/organization",
+    "https://openminds.om-i.org/props/person"
+  ]
+}

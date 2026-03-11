@@ -1,0 +1,137 @@
+{
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/CustomAnnotation",
+  "label": "Custom annotation",
+  "name": "CustomAnnotation",
+  "properties": {
+    "https://openminds.om-i.org/props/coordinateFramework": {
+      "_instruction": "Add the coordinate framework for this custom annotation.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+        "https://openminds.om-i.org/types/CustomCoordinateFramework"
+      ],
+      "label": "Coordinate framework",
+      "name": "coordinateFramework",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/criteria": {
+      "_instruction": "Add the protocol execution defining the criteria that were applied to produce this annotation.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ProtocolExecution"
+      ],
+      "description": "Aspects or standards on which a judgement or decision is based.",
+      "label": "Criteria",
+      "labelPlural": "Criteria",
+      "name": "criteria",
+      "nameForReverseLink": null,
+      "namePlural": "criteria"
+    },
+    "https://openminds.om-i.org/props/criteriaQualityType": {
+      "_instruction": "Add the quality type of the stated criteria used to define this annotation.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/CriteriaQualityType"
+      ],
+      "description": "Distinct class that defines how the judgement or decision was made for a particular criteria.",
+      "label": "Criteria quality type",
+      "labelPlural": "Criteria quality types",
+      "name": "criteriaQualityType",
+      "nameForReverseLink": null,
+      "namePlural": "criteriaQualityTypes"
+    },
+    "https://openminds.om-i.org/props/criteriaType": {
+      "_instruction": "Add the criteria type for this annotation.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnnotationCriteriaType"
+      ],
+      "label": "Criteria type",
+      "labelPlural": "Criteria types",
+      "name": "criteriaType",
+      "nameForReverseLink": null,
+      "namePlural": "criteriaTypes"
+    },
+    "https://openminds.om-i.org/props/inspiredBy": {
+      "_instruction": "Add all (source) files that inspired the definition of this annotation.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File"
+      ],
+      "description": "Reference to an inspiring element.",
+      "label": "Inspired by",
+      "labelPlural": "Inspired by",
+      "minItems": 1,
+      "name": "inspiredBy",
+      "nameForReverseLink": null,
+      "namePlural": "inspiredBy",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/internalIdentifier": {
+      "_instruction": "Enter the identifier (or label) of this annotation that is used within the corresponding data files to identify this annotation.",
+      "description": "Term or code that identifies someone or something within a particular product.",
+      "formatting": "text/plain",
+      "label": "Internal identifier",
+      "labelPlural": "Internal identifiers",
+      "multiline": false,
+      "name": "internalIdentifier",
+      "namePlural": "internalIdentifiers",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/laterality": {
+      "_instruction": "Add one or both sides of the body, bilateral organ or bilateral organ part that this annotation is defined in.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Laterality"
+      ],
+      "description": "Differentiation between a pair of lateral homologous parts of the body.",
+      "label": "Laterality",
+      "labelPlural": "Lateralities",
+      "maxItems": 2,
+      "minItems": 1,
+      "name": "laterality",
+      "nameForReverseLink": null,
+      "namePlural": "lateralities",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/preferredVisualization": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/ViewerSpecification"
+      ],
+      "_instruction": "Add the preferred viewer specification to visualize this annotation.",
+      "label": "Preferred visualization",
+      "labelPlural": "Preferred visualizations",
+      "name": "preferredVisualization",
+      "nameForReverseLink": null,
+      "namePlural": "preferredVisualizations"
+    },
+    "https://openminds.om-i.org/props/specification": {
+      "_instruction": "Add the non-parametric or parametric specification of this annotation.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File",
+        "https://openminds.om-i.org/types/PropertyValueList"
+      ],
+      "description": "Detailed and precise presentation of, or proposal for something.",
+      "label": "Specification",
+      "labelPlural": "Specifications",
+      "name": "specification",
+      "nameForReverseLink": null,
+      "namePlural": "specifications"
+    },
+    "https://openminds.om-i.org/props/type": {
+      "_instruction": "Add the geometry type of this annotation.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnnotationType"
+      ],
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "label": "Type",
+      "labelPlural": "Types",
+      "name": "type",
+      "nameForReverseLink": null,
+      "namePlural": "types"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/coordinateFramework",
+    "https://openminds.om-i.org/props/criteriaQualityType",
+    "https://openminds.om-i.org/props/criteriaType",
+    "https://openminds.om-i.org/props/type"
+  ]
+}

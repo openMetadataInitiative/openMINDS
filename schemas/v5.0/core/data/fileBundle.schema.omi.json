@@ -1,0 +1,177 @@
+{
+  "_categories": [
+    "fileOrigin"
+  ],
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/FileBundle",
+  "color": "#91028C",
+  "description": "Structured information on a bundle of file instances.",
+  "label": "File bundle",
+  "name": "FileBundle",
+  "properties": {
+    "https://openminds.om-i.org/props/contentDescription": {
+      "_instruction": "Enter a short content description for this file bundle.",
+      "formatting": "text/plain",
+      "label": "Content description",
+      "labelPlural": "Content descriptions",
+      "multiline": true,
+      "name": "contentDescription",
+      "namePlural": "contentDescriptions",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/format": {
+      "_instruction": "If the files within this bundle are organised and formatted according to a formal data structure, add the content type of this file bundle. Leave blank if no formal data structure has been applied to the files within this bundle.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ContentType"
+      ],
+      "description": "Method of digitally organizing and structuring data or information.",
+      "label": "Format",
+      "labelPlural": "Formats",
+      "name": "format",
+      "nameForReverseLink": null,
+      "namePlural": "formats"
+    },
+    "https://openminds.om-i.org/props/groupedBy": {
+      "_belongsToCategory": [
+        "coordinateFramework",
+        "fileOrigin",
+        "studyTarget"
+      ],
+      "_instruction": "Add all entities that defined which files were grouped into this file bundle. Note that the schema types of the instances stated here, need to match the ones stated under 'groupingType'.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnalysisTechnique",
+        "https://openminds.om-i.org/types/AnatomicalCavity",
+        "https://openminds.om-i.org/types/AuditoryStimulusType",
+        "https://openminds.om-i.org/types/BiologicalOrder",
+        "https://openminds.om-i.org/types/BiologicalSex",
+        "https://openminds.om-i.org/types/BreedingType",
+        "https://openminds.om-i.org/types/CellCultureType",
+        "https://openminds.om-i.org/types/CellType",
+        "https://openminds.om-i.org/types/DeviceType",
+        "https://openminds.om-i.org/types/Disease",
+        "https://openminds.om-i.org/types/DiseaseModel",
+        "https://openminds.om-i.org/types/ElectricalStimulusType",
+        "https://openminds.om-i.org/types/ExternalBodyRegion",
+        "https://openminds.om-i.org/types/GeneticStrainType",
+        "https://openminds.om-i.org/types/GustatoryStimulusType",
+        "https://openminds.om-i.org/types/Handedness",
+        "https://openminds.om-i.org/types/MRIPulseSequence",
+        "https://openminds.om-i.org/types/MRIWeighting",
+        "https://openminds.om-i.org/types/MolecularEntity",
+        "https://openminds.om-i.org/types/MuscularStructure",
+        "https://openminds.om-i.org/types/NervousSystemStructure",
+        "https://openminds.om-i.org/types/OlfactoryStimulusType",
+        "https://openminds.om-i.org/types/OpticalStimulusType",
+        "https://openminds.om-i.org/types/Organ",
+        "https://openminds.om-i.org/types/OrganSystemStructure",
+        "https://openminds.om-i.org/types/OrganismSubstance",
+        "https://openminds.om-i.org/types/OrganismSystem",
+        "https://openminds.om-i.org/types/SkeletalStructure",
+        "https://openminds.om-i.org/types/Species",
+        "https://openminds.om-i.org/types/StimulationApproach",
+        "https://openminds.om-i.org/types/StimulationTechnique",
+        "https://openminds.om-i.org/types/SubcellularEntity",
+        "https://openminds.om-i.org/types/TactileStimulusType",
+        "https://openminds.om-i.org/types/Technique",
+        "https://openminds.om-i.org/types/TermSuggestion",
+        "https://openminds.om-i.org/types/TissueSampleType",
+        "https://openminds.om-i.org/types/TissueStructure",
+        "https://openminds.om-i.org/types/VascularStructure",
+        "https://openminds.om-i.org/types/VisualStimulusType",
+        "https://openminds.om-i.org/types/BehavioralProtocol",
+        "https://openminds.om-i.org/types/File",
+        "https://openminds.om-i.org/types/FileBundle",
+        "https://openminds.om-i.org/types/LocalFile",
+        "https://openminds.om-i.org/types/Subject",
+        "https://openminds.om-i.org/types/SubjectGroup",
+        "https://openminds.om-i.org/types/SubjectGroupState",
+        "https://openminds.om-i.org/types/SubjectState",
+        "https://openminds.om-i.org/types/TissueSample",
+        "https://openminds.om-i.org/types/TissueSampleCollection",
+        "https://openminds.om-i.org/types/TissueSampleCollectionState",
+        "https://openminds.om-i.org/types/TissueSampleState",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion",
+        "https://openminds.om-i.org/types/CustomAnatomicalEntity",
+        "https://openminds.om-i.org/types/CustomCoordinateFramework",
+        "https://openminds.om-i.org/types/ParcellationEntity",
+        "https://openminds.om-i.org/types/ParcellationEntityVersion"
+      ],
+      "description": "Reference to the aspect used to group something.",
+      "label": "Grouped by",
+      "labelPlural": "Grouped by",
+      "minItems": 1,
+      "name": "groupedBy",
+      "nameForReverseLink": null,
+      "namePlural": "groupedBy",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/groupingType": {
+      "_instruction": "Add all grouping types that were used to define this file bundle. Note that the grouping types define the possible schema type of the instances stated under 'groupedBy'.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/FileBundleGrouping"
+      ],
+      "label": "Grouping type",
+      "labelPlural": "Grouping types",
+      "minItems": 1,
+      "name": "groupingType",
+      "nameForReverseLink": null,
+      "namePlural": "groupingTypes",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/hash": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Hash"
+      ],
+      "_instruction": "Add the hash that was generated for this file bundle.",
+      "description": "Term used for the process of converting any data into a single value. Often also directly refers to the resulting single value.",
+      "label": "Hash",
+      "labelPlural": "Hashes",
+      "name": "hash",
+      "nameForReverseLink": null,
+      "namePlural": "hashes"
+    },
+    "https://openminds.om-i.org/props/isPartOf": {
+      "_instruction": "Add the file bundle or file repository this file bundle is part of.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/FileBundle",
+        "https://openminds.om-i.org/types/FileRepository"
+      ],
+      "description": "Reference to the ensemble of multiple things or beings.",
+      "label": "Is part of",
+      "labelPlural": "Is part of",
+      "name": "isPartOf",
+      "nameForReverseLink": null,
+      "namePlural": "isPartOf"
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter the name of this file bundle.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/storageSize": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the storage size of this file bundle.",
+      "description": "Quantitative value defining how much disk space is used by an object on a computer system.",
+      "label": "Storage size",
+      "labelPlural": "Storage sizes",
+      "name": "storageSize",
+      "nameForReverseLink": null,
+      "namePlural": "storageSizes"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/isPartOf",
+    "https://openminds.om-i.org/props/name"
+  ]
+}

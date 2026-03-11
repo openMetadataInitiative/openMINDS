@@ -1,0 +1,62 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/Funding",
+  "color": "#73013E",
+  "description": "Structured information on used funding.",
+  "label": "Funding",
+  "name": "Funding",
+  "properties": {
+    "https://openminds.om-i.org/props/acknowledgement": {
+      "_instruction": "Enter the acknowledgement that should be used with this funding.",
+      "description": "Official declaration or avowal of appreciation of an act or achievement.",
+      "formatting": "text/plain",
+      "label": "Acknowledgement",
+      "labelPlural": "Acknowledgements",
+      "multiline": false,
+      "name": "acknowledgement",
+      "namePlural": "acknowledgements",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/awardNumber": {
+      "_instruction": "Enter the associated award number of this funding.",
+      "description": "Machine-readable identifier for a benefit that is conferred or bestowed on the basis of merit or need.",
+      "formatting": "text/plain",
+      "label": "Award number",
+      "labelPlural": "Award numbers",
+      "multiline": false,
+      "name": "awardNumber",
+      "namePlural": "awardNumbers",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/awardTitle": {
+      "_instruction": "Enter the award title of this funding.",
+      "description": "Human-readable identifier for a benefit that is conferred or bestowed on the basis of merit or need.",
+      "formatting": "text/plain",
+      "label": "Award title",
+      "labelPlural": "Award titles",
+      "multiline": false,
+      "name": "awardTitle",
+      "namePlural": "awardTitles",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/funder": {
+      "_belongsToCategory": [
+        "legalPerson"
+      ],
+      "_instruction": "Add the party that provided this funding.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Organization",
+        "https://openminds.om-i.org/types/Person"
+      ],
+      "description": "Legal person that provides money for a particular purpose.",
+      "label": "Funder",
+      "labelPlural": "Funders",
+      "name": "funder",
+      "nameForReverseLink": null,
+      "namePlural": "funders"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/funder"
+  ]
+}

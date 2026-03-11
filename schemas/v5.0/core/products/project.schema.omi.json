@@ -1,0 +1,124 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/Project",
+  "color": "#8683A9",
+  "description": "Structured information on a research project.",
+  "label": "Project",
+  "name": "Project",
+  "properties": {
+    "https://openminds.om-i.org/props/contribution": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Contribution"
+      ],
+      "_instruction": "Add all individual, organisational, or consortial contributions to this project.",
+      "label": "Contribution",
+      "minItems": 1,
+      "name": "contribution",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/description": {
+      "_instruction": "Enter a description of this project.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/markdown",
+      "label": "Description",
+      "labelPlural": "Descriptions",
+      "multiline": true,
+      "name": "description",
+      "namePlural": "descriptions",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/fullName": {
+      "_instruction": "Enter a descriptive full name (or title) for this project.",
+      "description": "Whole, non-abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Full name",
+      "labelPlural": "Full names",
+      "multiline": false,
+      "name": "fullName",
+      "namePlural": "fullNames",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/hasPart": {
+      "_belongsToCategory": [
+        "researchProduct"
+      ],
+      "_instruction": "Add all research product (versions) that are part of this project.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ValidationTest",
+        "https://openminds.om-i.org/types/ValidationTestVersion",
+        "https://openminds.om-i.org/types/WorkflowRecipe",
+        "https://openminds.om-i.org/types/WorkflowRecipeVersion",
+        "https://openminds.om-i.org/types/Dataset",
+        "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/Interface",
+        "https://openminds.om-i.org/types/InterfaceVersion",
+        "https://openminds.om-i.org/types/MetaDataModel",
+        "https://openminds.om-i.org/types/MetaDataModelVersion",
+        "https://openminds.om-i.org/types/Model",
+        "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/Software",
+        "https://openminds.om-i.org/types/SoftwareVersion",
+        "https://openminds.om-i.org/types/LivePaper",
+        "https://openminds.om-i.org/types/LivePaperVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion"
+      ],
+      "label": "Has part",
+      "labelPlural": "Has parts",
+      "minItems": 2,
+      "name": "hasPart",
+      "nameForReverseLink": null,
+      "namePlural": "hasParts",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/homepage": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this project.",
+      "description": "Main website of something or someone.",
+      "formatting": "text/plain",
+      "label": "Homepage",
+      "labelPlural": "Homepages",
+      "multiline": false,
+      "name": "homepage",
+      "namePlural": "homepages",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/shortName": {
+      "_instruction": "Enter a short name (or alias) for this project that could be used as a shortened display title (e.g., for web services with too little space to display the full name).",
+      "description": "Shortened or fully abbreviated name of something or somebody.",
+      "formatting": "text/plain",
+      "label": "Short name",
+      "labelPlural": "Short names",
+      "multiline": false,
+      "name": "shortName",
+      "namePlural": "shortNames",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/type": {
+      "_instruction": "Add the type of this project (e.g., research project, grant project).",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ProjectType"
+      ],
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "label": "Type",
+      "labelPlural": "Types",
+      "name": "type",
+      "nameForReverseLink": null,
+      "namePlural": "types"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/description",
+    "https://openminds.om-i.org/props/fullName",
+    "https://openminds.om-i.org/props/hasPart",
+    "https://openminds.om-i.org/props/shortName",
+    "https://openminds.om-i.org/props/type"
+  ]
+}

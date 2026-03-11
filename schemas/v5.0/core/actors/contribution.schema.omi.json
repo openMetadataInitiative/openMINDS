@@ -1,0 +1,46 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/Contribution",
+  "color": "#790229",
+  "description": "Structured information on the contribution made to a research product.",
+  "label": "Contribution",
+  "name": "Contribution",
+  "properties": {
+    "https://openminds.om-i.org/props/contributor": {
+      "_belongsToCategory": [
+        "actor"
+      ],
+      "_instruction": "Add all contributors who made this contribution, in the desired display order.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Consortium",
+        "https://openminds.om-i.org/types/Organization",
+        "https://openminds.om-i.org/types/Person"
+      ],
+      "description": "Legal person that gave or supplied something as a part or share.",
+      "label": "Contributor",
+      "labelPlural": "Contributors",
+      "minItems": 1,
+      "name": "contributor",
+      "nameForReverseLink": null,
+      "namePlural": "contributors",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/type": {
+      "_instruction": "Add the type of contribution.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ContributionType"
+      ],
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "label": "Type",
+      "labelPlural": "Types",
+      "name": "type",
+      "nameForReverseLink": null,
+      "namePlural": "types"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/contributor",
+    "https://openminds.om-i.org/props/type"
+  ]
+}

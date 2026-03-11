@@ -1,0 +1,80 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/ServiceLink",
+  "color": "#C4DF72",
+  "label": "Service link",
+  "name": "ServiceLink",
+  "properties": {
+    "https://openminds.om-i.org/props/dataLocation": {
+      "_instruction": "Add the location of the data that are linked to this specific service (e.g., stored as file (bundles) or registered as other entities such as atlas annotations).",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File",
+        "https://openminds.om-i.org/types/FileArchive",
+        "https://openminds.om-i.org/types/FileBundle",
+        "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/LivePaperResourceItem",
+        "https://openminds.om-i.org/types/ParcellationEntityVersion"
+      ],
+      "label": "Data location",
+      "labelPlural": "Data locations",
+      "name": "dataLocation",
+      "nameForReverseLink": null,
+      "namePlural": "dataLocations"
+    },
+    "https://openminds.om-i.org/props/displayLabel": {
+      "_instruction": "Enter a display label for this service link.",
+      "formatting": "text/plain",
+      "label": "Display label",
+      "labelPlural": "Display labels",
+      "multiline": false,
+      "name": "displayLabel",
+      "namePlural": "displayLabels",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/openDataIn": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the linked data in the specified service.",
+      "formatting": "text/plain",
+      "label": "Open data in",
+      "labelPlural": "Open data in",
+      "multiline": false,
+      "name": "openDataIn",
+      "namePlural": "openDataIn",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/previewImage": {
+      "_instruction": "Add an image file to this service link that acts as a preview of its content or could function as an icon.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File"
+      ],
+      "label": "Preview image",
+      "labelPlural": "Preview images",
+      "name": "previewImage",
+      "nameForReverseLink": null,
+      "namePlural": "previewImages"
+    },
+    "https://openminds.om-i.org/props/service": {
+      "_instruction": "Add all services in which the specified data can be opened by linking to each service\u2019s interface (group of versions), specific interface version, or web resource.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Interface",
+        "https://openminds.om-i.org/types/InterfaceVersion",
+        "https://openminds.om-i.org/types/WebResource"
+      ],
+      "label": "Service",
+      "labelPlural": "Services",
+      "minItems": 1,
+      "name": "service",
+      "nameForReverseLink": null,
+      "namePlural": "services",
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/dataLocation",
+    "https://openminds.om-i.org/props/openDataIn",
+    "https://openminds.om-i.org/props/service"
+  ]
+}

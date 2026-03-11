@@ -1,0 +1,76 @@
+{
+  "_categories": [
+    "chemicalProduct"
+  ],
+  "_module": "chemicals",
+  "_type": "https://openminds.om-i.org/types/ChemicalMixture",
+  "color": "#887868",
+  "description": "Structured information about a mixture of chemical substances.",
+  "label": "Chemical mixture",
+  "name": "ChemicalMixture",
+  "properties": {
+    "https://openminds.om-i.org/props/additionalRemarks": {
+      "_instruction": "Enter any additional remarks concerning this chemical mixture.",
+      "description": "Mention of what deserves additional attention or notice.",
+      "formatting": "text/markdown",
+      "label": "Additional remarks",
+      "labelPlural": "Additional remarks",
+      "multiline": true,
+      "name": "additionalRemarks",
+      "namePlural": "additionalRemarks",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/hasPart": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/AmountOfChemical"
+      ],
+      "_instruction": "Enter all components, including other mixtures, that are part of this chemical mixture.",
+      "label": "Has part",
+      "labelPlural": "Has parts",
+      "minItems": 2,
+      "name": "hasPart",
+      "nameForReverseLink": null,
+      "namePlural": "hasParts",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter the name of this chemical mixture.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/productSource": {
+      "_instruction": "Add the source of this chemical mixture.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ProductSource"
+      ],
+      "label": "Product source",
+      "labelPlural": "Product sources",
+      "name": "productSource",
+      "nameForReverseLink": null,
+      "namePlural": "productSources"
+    },
+    "https://openminds.om-i.org/props/type": {
+      "_instruction": "Add the type of this mixture.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ChemicalMixtureType"
+      ],
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "label": "Type",
+      "labelPlural": "Types",
+      "name": "type",
+      "nameForReverseLink": null,
+      "namePlural": "types"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/hasPart",
+    "https://openminds.om-i.org/props/type"
+  ]
+}

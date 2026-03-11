@@ -1,0 +1,161 @@
+{
+  "_categories": [
+    "actor",
+    "legalPerson"
+  ],
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/Organization",
+  "color": "#ADAAA9",
+  "description": "An entity comprised of one or more natural persons with a particular purpose. [adapted from Wikipedia](https://en.wikipedia.org/wiki/Organization)",
+  "label": "Organization",
+  "name": "Organization",
+  "properties": {
+    "https://openminds.om-i.org/props/acronym": {
+      "_instruction": "Enter the acronym of this organization.",
+      "formatting": "text/plain",
+      "label": "Acronym",
+      "multiline": false,
+      "name": "acronym",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/alternateName": {
+      "_instruction": "Enter any other known name or acronym of this organization.",
+      "formatting": "text/plain",
+      "items": {
+        "type": "string"
+      },
+      "label": "Alternate name",
+      "labelPlural": "Alternate names",
+      "minItems": 1,
+      "multiline": false,
+      "name": "alternateName",
+      "namePlural": "alternateNames",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/countryOfFormation": {
+      "_instruction": "Add the country where the organization was formed.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SovereignState"
+      ],
+      "label": "Country of formation",
+      "name": "countryOfFormation",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/digitalIdentifier": {
+      "_belongsToCategory": [
+        "organizationIdentifier"
+      ],
+      "_instruction": "Add all globally unique and persistent digital identifier of this organization.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/GenericIdentifier",
+        "https://openminds.om-i.org/types/ISNI",
+        "https://openminds.om-i.org/types/LEI",
+        "https://openminds.om-i.org/types/RORID",
+        "https://openminds.om-i.org/types/RRID"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
+      "minItems": 1,
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/hasParent": {
+      "_instruction": "Add all parent organizations of this organization.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Organization"
+      ],
+      "description": "Reference to a parent object or legal person.",
+      "label": "Has parent",
+      "labelPlural": "Has parents",
+      "minItems": 1,
+      "name": "hasParent",
+      "nameForReverseLink": null,
+      "namePlural": "hasParents",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/homepage": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this organization.",
+      "description": "Main website of something or someone.",
+      "formatting": "text/plain",
+      "label": "Homepage",
+      "labelPlural": "Homepages",
+      "multiline": false,
+      "name": "homepage",
+      "namePlural": "homepages",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/jurisdiction": {
+      "_belongsToCategory": [
+        "jurisdiction"
+      ],
+      "_instruction": "Add the jurisdiction under which the organization operates.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SovereignState",
+        "https://openminds.om-i.org/types/SupranationalBody"
+      ],
+      "label": "Jurisdiction",
+      "name": "jurisdiction",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/location": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Location"
+      ],
+      "_instruction": "Add the headquarters location of this organization.",
+      "label": "Location",
+      "labelPlural": "Locations",
+      "name": "location",
+      "nameForReverseLink": null,
+      "namePlural": "locations"
+    },
+    "https://openminds.om-i.org/props/membership": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Membership"
+      ],
+      "_instruction": "Add all membership records (one per member) for this organization. Who is considered a qualified member is typically defined in the organization\u2019s membership agreements.",
+      "label": "Membership",
+      "minItems": 1,
+      "name": "membership",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter the organization\u2019s preferred name for use in international contexts.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/type": {
+      "_instruction": "Add the type of this organization (legal entity or organizational unit).",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/OrganizationType"
+      ],
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "label": "Type",
+      "labelPlural": "Types",
+      "name": "type",
+      "nameForReverseLink": null,
+      "namePlural": "types"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/countryOfFormation",
+    "https://openminds.om-i.org/props/name",
+    "https://openminds.om-i.org/props/type"
+  ]
+}

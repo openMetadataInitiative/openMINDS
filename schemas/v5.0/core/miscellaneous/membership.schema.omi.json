@@ -1,0 +1,53 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/Membership",
+  "label": "Membership",
+  "name": "Membership",
+  "properties": {
+    "https://openminds.om-i.org/props/endDate": {
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the end date of this membership, formatted as 'YYYY-MM-DD'.",
+      "description": "Date in the Gregorian calendar at which something terminates in time.",
+      "formatting": "text/plain",
+      "label": "End date",
+      "labelPlural": "End dates",
+      "multiline": false,
+      "name": "endDate",
+      "namePlural": "endDates",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/member": {
+      "_belongsToCategory": [
+        "actor"
+      ],
+      "_instruction": "Add the actor associated with this membership.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Consortium",
+        "https://openminds.om-i.org/types/Organization",
+        "https://openminds.om-i.org/types/Person"
+      ],
+      "label": "Member",
+      "name": "member",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/startDate": {
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the start date of this membership, formatted as 'YYYY-MM-DD'.",
+      "description": "Date in the Gregorian calendar at which something begins in time",
+      "formatting": "text/plain",
+      "label": "Start date",
+      "labelPlural": "Start dates",
+      "multiline": false,
+      "name": "startDate",
+      "namePlural": "startDates",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/member"
+  ]
+}

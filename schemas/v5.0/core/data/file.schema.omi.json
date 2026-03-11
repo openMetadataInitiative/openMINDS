@@ -1,0 +1,144 @@
+{
+  "_categories": [
+    "documentationResource",
+    "fileOrigin"
+  ],
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/File",
+  "color": "#AA9297",
+  "description": "Structured information on a file instance that is accessible via a URL.",
+  "label": "File",
+  "name": "File",
+  "properties": {
+    "https://openminds.om-i.org/props/IRI": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to this file instance.",
+      "description": "Stands for Internationalized Resource Identifier which is an internet protocol standard that builds on the URI protocol, extending the set of permitted characters to include Unicode/ISO 10646.",
+      "formatting": "text/plain",
+      "label": "Iri",
+      "labelPlural": "IRIs",
+      "multiline": false,
+      "name": "IRI",
+      "namePlural": "IRIs",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/contentDescription": {
+      "_instruction": "Enter a short content description for this file instance.",
+      "formatting": "text/plain",
+      "label": "Content description",
+      "labelPlural": "Content descriptions",
+      "multiline": true,
+      "name": "contentDescription",
+      "namePlural": "contentDescriptions",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/dataType": {
+      "_instruction": "Add all data types that are specifically represented in this file instance.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/DataType"
+      ],
+      "label": "Data type",
+      "labelPlural": "Data types",
+      "minItems": 1,
+      "name": "dataType",
+      "nameForReverseLink": null,
+      "namePlural": "dataTypes",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/fileRepository": {
+      "_instruction": "Add the overarching repository to which this file instance belongs.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/FileRepository"
+      ],
+      "label": "File repository",
+      "labelPlural": "File repositories",
+      "name": "fileRepository",
+      "nameForReverseLink": null,
+      "namePlural": "fileRepositories"
+    },
+    "https://openminds.om-i.org/props/format": {
+      "_instruction": "Add the content type of this file instance.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ContentType"
+      ],
+      "description": "Method of digitally organizing and structuring data or information.",
+      "label": "Format",
+      "labelPlural": "Formats",
+      "name": "format",
+      "nameForReverseLink": null,
+      "namePlural": "formats"
+    },
+    "https://openminds.om-i.org/props/hash": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Hash"
+      ],
+      "_instruction": "Add all hashes that were generated for this file instance.",
+      "description": "Term used for the process of converting any data into a single value. Often also directly refers to the resulting single value.",
+      "label": "Hash",
+      "labelPlural": "Hashes",
+      "minItems": 1,
+      "name": "hash",
+      "nameForReverseLink": null,
+      "namePlural": "hashes",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/isPartOf": {
+      "_instruction": "Add all file bundles in which this file instance is grouped into.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/FileBundle"
+      ],
+      "description": "Reference to the ensemble of multiple things or beings.",
+      "label": "Is part of",
+      "labelPlural": "Is part of",
+      "minItems": 1,
+      "name": "isPartOf",
+      "nameForReverseLink": null,
+      "namePlural": "isPartOf",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter the name of this file instance.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/specialUsageRole": {
+      "_instruction": "Add the special usage role of this file instance.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/FileUsageRole"
+      ],
+      "description": "Particular function of something when it is used.",
+      "label": "Special usage role",
+      "labelPlural": "Special usage roles",
+      "name": "specialUsageRole",
+      "nameForReverseLink": null,
+      "namePlural": "specialUsageRoles"
+    },
+    "https://openminds.om-i.org/props/storageSize": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the storage size of this file instance.",
+      "description": "Quantitative value defining how much disk space is used by an object on a computer system.",
+      "label": "Storage size",
+      "labelPlural": "Storage sizes",
+      "name": "storageSize",
+      "nameForReverseLink": null,
+      "namePlural": "storageSizes"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/IRI",
+    "https://openminds.om-i.org/props/name"
+  ]
+}

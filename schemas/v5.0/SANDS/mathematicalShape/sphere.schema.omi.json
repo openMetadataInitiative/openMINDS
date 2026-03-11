@@ -1,0 +1,26 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/Sphere",
+  "label": "Sphere",
+  "name": "Sphere",
+  "properties": {
+    "https://openminds.om-i.org/props/radius": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the radius of this sphere.",
+      "label": "Radius",
+      "labelPlural": "Radii",
+      "name": "radius",
+      "nameForReverseLink": null,
+      "namePlural": "radii"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/radius"
+  ]
+}

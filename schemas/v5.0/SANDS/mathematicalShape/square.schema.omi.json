@@ -1,0 +1,25 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape",
+    "simplePolygon"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/Square",
+  "label": "Square",
+  "name": "Square",
+  "properties": {
+    "https://openminds.om-i.org/props/sideLength": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the common length of the sides of this square.",
+      "label": "Side length",
+      "name": "sideLength",
+      "nameForReverseLink": null
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/sideLength"
+  ]
+}

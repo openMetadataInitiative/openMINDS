@@ -1,0 +1,427 @@
+{
+  "_module": "publications",
+  "_type": "https://openminds.om-i.org/types/LearningResource",
+  "label": "Learning resource",
+  "name": "LearningResource",
+  "properties": {
+    "https://openminds.om-i.org/props/IRI": {
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to this creative work.",
+      "description": "Stands for Internationalized Resource Identifier which is an internet protocol standard that builds on the URI protocol, extending the set of permitted characters to include Unicode/ISO 10646.",
+      "formatting": "text/plain",
+      "label": "Iri",
+      "labelPlural": "IRIs",
+      "multiline": false,
+      "name": "IRI",
+      "namePlural": "IRIs",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/about": {
+      "_belongsToCategory": [
+        "researchProduct"
+      ],
+      "_instruction": "Add all research product (versions) this learning resource are about. Note that the learning resource should supplement the usage of the research product (versions) with e.g., instructions on their usage or additional information.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ValidationTest",
+        "https://openminds.om-i.org/types/ValidationTestVersion",
+        "https://openminds.om-i.org/types/WorkflowRecipe",
+        "https://openminds.om-i.org/types/WorkflowRecipeVersion",
+        "https://openminds.om-i.org/types/Dataset",
+        "https://openminds.om-i.org/types/DatasetVersion",
+        "https://openminds.om-i.org/types/Interface",
+        "https://openminds.om-i.org/types/InterfaceVersion",
+        "https://openminds.om-i.org/types/MetaDataModel",
+        "https://openminds.om-i.org/types/MetaDataModelVersion",
+        "https://openminds.om-i.org/types/Model",
+        "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/Software",
+        "https://openminds.om-i.org/types/SoftwareVersion",
+        "https://openminds.om-i.org/types/LivePaper",
+        "https://openminds.om-i.org/types/LivePaperVersion",
+        "https://openminds.om-i.org/types/AnatomicalAtlas",
+        "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
+        "https://openminds.om-i.org/types/CommonCoordinateFramework",
+        "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion"
+      ],
+      "label": "About",
+      "labelPlural": "About",
+      "minItems": 1,
+      "name": "about",
+      "nameForReverseLink": null,
+      "namePlural": "about",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/abstract": {
+      "_instruction": "Enter the abstract or a short description of the creative work.",
+      "formatting": "text/plain",
+      "label": "Abstract",
+      "labelPlural": "Abstracts",
+      "multiline": true,
+      "name": "abstract",
+      "namePlural": "abstracts",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/citedPublication": {
+      "_instruction": "Add all references this creative work cites.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/DOI",
+        "https://openminds.om-i.org/types/ISBN"
+      ],
+      "label": "Cited publication",
+      "labelPlural": "Cited publications",
+      "minItems": 1,
+      "name": "citedPublication",
+      "nameForReverseLink": null,
+      "namePlural": "citedPublications",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/contribution": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Contribution"
+      ],
+      "_instruction": "Add all individual, organisational, or consortial contributions to this creative work.",
+      "label": "Contribution",
+      "minItems": 1,
+      "name": "contribution",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/contributorAffiliation": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Affiliation"
+      ],
+      "_instruction": "Add all affiliations for the individual contributors to this research product version.",
+      "label": "Contributor affiliation",
+      "minItems": 1,
+      "name": "contributorAffiliation",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/copyright": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Copyright"
+      ],
+      "_instruction": "Enter the copyright information of this creative work.",
+      "description": "Exclusive and assignable legal right of an originator to reproduce, publish, sell, or distribute the matter and form of a creative work for a defined time period.",
+      "label": "Copyright",
+      "labelPlural": "Copyrights",
+      "name": "copyright",
+      "nameForReverseLink": null,
+      "namePlural": "copyrights"
+    },
+    "https://openminds.om-i.org/props/creationDate": {
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the date on which this creative work was created, formatted as '2023-02-07'.",
+      "formatting": "text/plain",
+      "label": "Creation date",
+      "labelPlural": "Creation dates",
+      "multiline": false,
+      "name": "creationDate",
+      "namePlural": "creationDates",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this creative work.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/DOI"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers"
+    },
+    "https://openminds.om-i.org/props/educationalLevel": {
+      "_instruction": "Add the educational level that best summarizes the prerequisite of this learning resource.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/EducationalLevel"
+      ],
+      "label": "Educational level",
+      "labelPlural": "Educational levels",
+      "name": "educationalLevel",
+      "nameForReverseLink": null,
+      "namePlural": "educationalLevels"
+    },
+    "https://openminds.om-i.org/props/funding": {
+      "_instruction": "Add all funding information of this creative work.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Funding"
+      ],
+      "description": "Money provided by a legal person for a particular purpose.",
+      "label": "Funding",
+      "labelPlural": "Funding",
+      "minItems": 1,
+      "name": "funding",
+      "nameForReverseLink": null,
+      "namePlural": "funding",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/keyword": {
+      "_belongsToCategory": [
+        "keyword"
+      ],
+      "_instruction": "Add all relevant keywords to this creative work either by adding controlled terms or by suggesting new terms.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AccessChannel",
+        "https://openminds.om-i.org/types/AccessEligibilityType",
+        "https://openminds.om-i.org/types/AccessForm",
+        "https://openminds.om-i.org/types/AccessProcessType",
+        "https://openminds.om-i.org/types/ActionStatusType",
+        "https://openminds.om-i.org/types/AgeCategory",
+        "https://openminds.om-i.org/types/AgeReference",
+        "https://openminds.om-i.org/types/AnalysisTechnique",
+        "https://openminds.om-i.org/types/AnatomicalAxesOrientation",
+        "https://openminds.om-i.org/types/AnatomicalCavity",
+        "https://openminds.om-i.org/types/AnatomicalIdentificationType",
+        "https://openminds.om-i.org/types/AnatomicalPlane",
+        "https://openminds.om-i.org/types/AnnotationCriteriaType",
+        "https://openminds.om-i.org/types/AnnotationType",
+        "https://openminds.om-i.org/types/AtlasType",
+        "https://openminds.om-i.org/types/AuditoryStimulusType",
+        "https://openminds.om-i.org/types/BiologicalOrder",
+        "https://openminds.om-i.org/types/BiologicalProcess",
+        "https://openminds.om-i.org/types/BiologicalSex",
+        "https://openminds.om-i.org/types/BreedingType",
+        "https://openminds.om-i.org/types/CellCultureType",
+        "https://openminds.om-i.org/types/CellType",
+        "https://openminds.om-i.org/types/ChemicalMixtureType",
+        "https://openminds.om-i.org/types/Colormap",
+        "https://openminds.om-i.org/types/CommunicationInterfaceType",
+        "https://openminds.om-i.org/types/CommunicationProtocol",
+        "https://openminds.om-i.org/types/ContributionType",
+        "https://openminds.om-i.org/types/CranialWindowConstructionType",
+        "https://openminds.om-i.org/types/CranialWindowReinforcementType",
+        "https://openminds.om-i.org/types/CriteriaQualityType",
+        "https://openminds.om-i.org/types/DataType",
+        "https://openminds.om-i.org/types/DependencyImpact",
+        "https://openminds.om-i.org/types/DeploymentEnvironmentType",
+        "https://openminds.om-i.org/types/DeviceMountingType",
+        "https://openminds.om-i.org/types/DeviceType",
+        "https://openminds.om-i.org/types/DifferenceMeasure",
+        "https://openminds.om-i.org/types/Disease",
+        "https://openminds.om-i.org/types/DiseaseModel",
+        "https://openminds.om-i.org/types/EducationalLevel",
+        "https://openminds.om-i.org/types/ElectricalStimulusType",
+        "https://openminds.om-i.org/types/ExperimentalApproach",
+        "https://openminds.om-i.org/types/ExternalBodyRegion",
+        "https://openminds.om-i.org/types/FileBundleGrouping",
+        "https://openminds.om-i.org/types/FileRepositoryType",
+        "https://openminds.om-i.org/types/FileUsageRole",
+        "https://openminds.om-i.org/types/GeneticStrainType",
+        "https://openminds.om-i.org/types/GustatoryStimulusType",
+        "https://openminds.om-i.org/types/Handedness",
+        "https://openminds.om-i.org/types/Language",
+        "https://openminds.om-i.org/types/Laterality",
+        "https://openminds.om-i.org/types/LearningResourceType",
+        "https://openminds.om-i.org/types/MRIFatSuppressionTechnique",
+        "https://openminds.om-i.org/types/MRIParallelAcquisitionTechnique",
+        "https://openminds.om-i.org/types/MRIPulseSequence",
+        "https://openminds.om-i.org/types/MRISpoilingTechnique",
+        "https://openminds.om-i.org/types/MRIWeighting",
+        "https://openminds.om-i.org/types/MeasuredQuantity",
+        "https://openminds.om-i.org/types/MeasuredSignalType",
+        "https://openminds.om-i.org/types/MetaDataModelType",
+        "https://openminds.om-i.org/types/ModelAbstractionLevel",
+        "https://openminds.om-i.org/types/ModelScope",
+        "https://openminds.om-i.org/types/ModificationConsentRequirement",
+        "https://openminds.om-i.org/types/ModificationConstraint",
+        "https://openminds.om-i.org/types/ModificationForm",
+        "https://openminds.om-i.org/types/ModificationScope",
+        "https://openminds.om-i.org/types/MolecularEntity",
+        "https://openminds.om-i.org/types/MuscularStructure",
+        "https://openminds.om-i.org/types/NervousSystemStructure",
+        "https://openminds.om-i.org/types/OlfactoryStimulusType",
+        "https://openminds.om-i.org/types/OperatingDevice",
+        "https://openminds.om-i.org/types/OperatingSystem",
+        "https://openminds.om-i.org/types/OperationalApproach",
+        "https://openminds.om-i.org/types/OpticalStimulusType",
+        "https://openminds.om-i.org/types/Organ",
+        "https://openminds.om-i.org/types/OrganSystemStructure",
+        "https://openminds.om-i.org/types/OrganismSubstance",
+        "https://openminds.om-i.org/types/OrganismSystem",
+        "https://openminds.om-i.org/types/OrganizationType",
+        "https://openminds.om-i.org/types/PatchClampVariation",
+        "https://openminds.om-i.org/types/PaymentModelType",
+        "https://openminds.om-i.org/types/PreparationType",
+        "https://openminds.om-i.org/types/ProgrammingLanguage",
+        "https://openminds.om-i.org/types/ProjectType",
+        "https://openminds.om-i.org/types/PublicationStatus",
+        "https://openminds.om-i.org/types/PulseShape",
+        "https://openminds.om-i.org/types/QualitativeOverlap",
+        "https://openminds.om-i.org/types/SemanticDataType",
+        "https://openminds.om-i.org/types/SetupType",
+        "https://openminds.om-i.org/types/SignalDirectionality",
+        "https://openminds.om-i.org/types/SkeletalStructure",
+        "https://openminds.om-i.org/types/SoftwareApplicationCategory",
+        "https://openminds.om-i.org/types/SoftwareFeature",
+        "https://openminds.om-i.org/types/SovereignState",
+        "https://openminds.om-i.org/types/SpatialEncoding",
+        "https://openminds.om-i.org/types/Species",
+        "https://openminds.om-i.org/types/StimulationApproach",
+        "https://openminds.om-i.org/types/StimulationTechnique",
+        "https://openminds.om-i.org/types/SubcellularEntity",
+        "https://openminds.om-i.org/types/SubjectAttribute",
+        "https://openminds.om-i.org/types/SupranationalBody",
+        "https://openminds.om-i.org/types/TactileStimulusType",
+        "https://openminds.om-i.org/types/Technique",
+        "https://openminds.om-i.org/types/TermSuggestion",
+        "https://openminds.om-i.org/types/Terminology",
+        "https://openminds.om-i.org/types/TissueSampleAttribute",
+        "https://openminds.om-i.org/types/TissueSampleType",
+        "https://openminds.om-i.org/types/TissueStructure",
+        "https://openminds.om-i.org/types/TypeOfUncertainty",
+        "https://openminds.om-i.org/types/UnitOfMeasurement",
+        "https://openminds.om-i.org/types/VascularStructure",
+        "https://openminds.om-i.org/types/VisualStimulusType",
+        "https://openminds.om-i.org/types/WeightType"
+      ],
+      "description": "Significant word or concept that are representative of something or someone.",
+      "label": "Keyword",
+      "labelPlural": "Keywords",
+      "minItems": 1,
+      "name": "keyword",
+      "nameForReverseLink": null,
+      "namePlural": "keywords",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/learningOutcome": {
+      "_instruction": "Enter a description for the expected learning outcomes of this learning resource.",
+      "formatting": "text/markdown",
+      "label": "Learning outcome",
+      "labelPlural": "Learning outcomes",
+      "multiline": true,
+      "name": "learningOutcome",
+      "namePlural": "learningOutcomes",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/modificationDate": {
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the date on which this creative work was last modified, formatted as '2023-02-07'.",
+      "formatting": "text/plain",
+      "label": "Modification date",
+      "labelPlural": "Modification dates",
+      "multiline": false,
+      "name": "modificationDate",
+      "namePlural": "modificationDates",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter the name (or title) of this creative work.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/order": {
+      "_instruction": "Enter the order in which this resource should appear, relative to other resources with the same topic.",
+      "label": "Order",
+      "labelPlural": "Orders",
+      "name": "order",
+      "namePlural": "orders",
+      "type": "integer"
+    },
+    "https://openminds.om-i.org/props/prerequisite": {
+      "_instruction": "Enter any knowledge, skills, or abilities that are required to be able to use this learning resource.",
+      "formatting": "text/markdown",
+      "label": "Prerequisite",
+      "labelPlural": "Prerequisites",
+      "multiline": true,
+      "name": "prerequisite",
+      "namePlural": "prerequisites",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/publicationDate": {
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the date on which this creative work was published, formatted as '2023-02-07'.",
+      "formatting": "text/plain",
+      "label": "Publication date",
+      "labelPlural": "Publication dates",
+      "multiline": false,
+      "name": "publicationDate",
+      "namePlural": "publicationDates",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/requiredTime": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue",
+        "https://openminds.om-i.org/types/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the time that is required to complete this learning resource.",
+      "label": "Required time",
+      "labelPlural": "Required times",
+      "name": "requiredTime",
+      "nameForReverseLink": null,
+      "namePlural": "requiredTimes"
+    },
+    "https://openminds.om-i.org/props/topic": {
+      "_instruction": "Enter the name or a short description of the aspect of the research product that is covered by this tutorial",
+      "formatting": "text/plain",
+      "label": "Topic",
+      "labelPlural": "Topics",
+      "multiline": false,
+      "name": "topic",
+      "namePlural": "topics",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/type": {
+      "_instruction": "Add the type of this learning resource.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/LearningResourceType"
+      ],
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "label": "Type",
+      "labelPlural": "Types",
+      "name": "type",
+      "nameForReverseLink": null,
+      "namePlural": "types"
+    },
+    "https://openminds.om-i.org/props/usageCondition": {
+      "_instruction": "Add all licenses and available data usage agreements applicable to this creative work.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/License",
+        "https://openminds.om-i.org/types/UsageAgreement"
+      ],
+      "label": "Usage condition",
+      "minItems": 1,
+      "name": "usageCondition",
+      "nameForReverseLink": null,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/versionIdentifier": {
+      "_instruction": "Enter the version identifier of this creative work.",
+      "description": "Term or code used to identify the version of something.",
+      "formatting": "text/plain",
+      "label": "Version identifier",
+      "labelPlural": "Version identifiers",
+      "multiline": false,
+      "name": "versionIdentifier",
+      "namePlural": "versionIdentifiers",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/about",
+    "https://openminds.om-i.org/props/name",
+    "https://openminds.om-i.org/props/publicationDate"
+  ]
+}

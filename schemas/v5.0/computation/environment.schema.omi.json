@@ -1,0 +1,72 @@
+{
+  "_module": "computation",
+  "_type": "https://openminds.om-i.org/types/Environment",
+  "color": "#1B782A",
+  "description": "Structured information on the computer system or set of systems in which a computation is deployed and executed.",
+  "label": "Environment",
+  "name": "Environment",
+  "properties": {
+    "https://openminds.om-i.org/props/configuration": {
+      "_instruction": "Add the configuration of this computational environment.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Configuration"
+      ],
+      "label": "Configuration",
+      "labelPlural": "Configurations",
+      "name": "configuration",
+      "nameForReverseLink": null,
+      "namePlural": "configurations"
+    },
+    "https://openminds.om-i.org/props/description": {
+      "_instruction": "Enter a short text describing this computational environment.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/markdown",
+      "label": "Description",
+      "labelPlural": "Descriptions",
+      "multiline": true,
+      "name": "description",
+      "namePlural": "descriptions",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/hardware": {
+      "_instruction": "Add the hardware system on which this computational environment runs.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/HardwareSystem"
+      ],
+      "label": "Hardware",
+      "labelPlural": "Hardware",
+      "name": "hardware",
+      "nameForReverseLink": null,
+      "namePlural": "hardware"
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter a descriptive name for this computational environment.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/software": {
+      "_instruction": "Add all software versions available in this computational environment.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SoftwareVersion"
+      ],
+      "label": "Software",
+      "labelPlural": "Software",
+      "minItems": 1,
+      "name": "software",
+      "nameForReverseLink": null,
+      "namePlural": "software",
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/hardware",
+    "https://openminds.om-i.org/props/name"
+  ]
+}
