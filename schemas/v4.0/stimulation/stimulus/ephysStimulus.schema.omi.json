@@ -114,7 +114,6 @@
     }
   },
   "required": [
-    "https://openminds.om-i.org/props/internalIdentifier",
-    "https://openminds.om-i.org/props/type"
+    "https://openminds.om-i.org/props/internalIdentifier"
   ]
 }

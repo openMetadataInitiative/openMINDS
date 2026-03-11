@@ -3371,6 +3371,10 @@
         {
           "property": "properties.props:generatedBy._linkedTypes",
           "modification": "value(s) added"
+        },
+        {
+          "property": "required",
+          "modification": "value(s) added"
         }
       ],
       "schemaType": "EphysStimulus"

@@ -1496,3 +1496,4 @@ Changes in stimulation/activity/stimulationActivity.schema.omi.json:
 Changes in stimulation/stimulus/ephysStimulus.schema.omi.json:
   - Field 'properties.props:deliveredBy._linkedTypes' modified (value(s) added).
   - Field 'properties.props:generatedBy._linkedTypes' modified (value(s) added).
+  - Field 'required' modified (value(s) added).
