@@ -112,10 +112,10 @@
         "namespace": "https://openminds.om-i.org/props/"
       }
     ],
-    "label": "Mriweighting",
-    "labelPlural": null,
+    "label": "MRI weighting",
+    "labelPlural": "MRI weightings",
     "name": "MRIWeighting",
-    "namePlural": null,
+    "namePlural": "MRIWeightings",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -147,10 +147,10 @@
         "namespace": "https://openminds.om-i.org/props/"
       }
     ],
-    "label": "Mtpulse shape",
-    "labelPlural": null,
+    "label": "MT pulse shape",
+    "labelPlural": "MT pulse shape",
     "name": "MTPulseShape",
-    "namePlural": null,
+    "namePlural": "MTPulseShapes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -179,7 +179,7 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Url",
+    "label": "URL",
     "labelPlural": "URLs",
     "name": "URL",
     "namePlural": "URLs",
@@ -540,9 +540,9 @@
       }
     ],
     "label": "Acceleration factor",
-    "labelPlural": null,
+    "labelPlural": "Acceleration factors",
     "name": "accelerationFactor",
-    "namePlural": null,
+    "namePlural": "accelerationFactors",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -773,9 +773,9 @@
       }
     ],
     "label": "Active element",
-    "labelPlural": null,
+    "labelPlural": "Active elements",
     "name": "activeElement",
-    "namePlural": null,
+    "namePlural": "activeElements",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRICoilUsage"
@@ -3100,7 +3100,7 @@
       }
     ],
     "label": "Best view point",
-    "labelPlural": "Best viewpoints",
+    "labelPlural": "Best view points",
     "name": "bestViewPoint",
     "namePlural": "bestViewPoints",
     "usedIn": {
@@ -4503,9 +4503,9 @@
       }
     ],
     "label": "Contrast agent",
-    "labelPlural": null,
+    "labelPlural": "Contrast agents",
     "name": "contrastAgent",
-    "namePlural": null,
+    "namePlural": "contrastAgents",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DynamicMRIAcquisition",
@@ -6905,9 +6905,9 @@
       }
     ],
     "label": "Delay time",
-    "labelPlural": null,
+    "labelPlural": "Delay times",
     "name": "delayTime",
-    "namePlural": null,
+    "namePlural": "delayTimes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DynamicMRIAcquisition"
@@ -7057,9 +7057,9 @@
       }
     ],
     "label": "Depends on",
-    "labelPlural": "Depend on",
+    "labelPlural": "Depends on",
     "name": "dependsOn",
-    "namePlural": "dependOn",
+    "namePlural": "dependsOn",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ServiceDeployment"
@@ -8383,9 +8383,9 @@
       }
     ],
     "label": "Diffusion encoding parameters",
-    "labelPlural": null,
+    "labelPlural": "Diffusion encoding parameters",
     "name": "diffusionEncodingParameters",
-    "namePlural": null,
+    "namePlural": "diffusionEncodingParameters",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -8988,9 +8988,9 @@
       }
     ],
     "label": "Distortion correction",
-    "labelPlural": null,
+    "labelPlural": "Distortion corrections",
     "name": "distortionCorrection",
-    "namePlural": null,
+    "namePlural": "distortionCorrections",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DynamicMRIAcquisition",
@@ -9106,9 +9106,9 @@
       }
     ],
     "label": "Dwell time",
-    "labelPlural": null,
+    "labelPlural": "Dwell times",
     "name": "dwellTime",
-    "namePlural": null,
+    "namePlural": "dwellTimes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -9141,9 +9141,9 @@
       }
     ],
     "label": "Echo time",
-    "labelPlural": null,
+    "labelPlural": "Echo times",
     "name": "echoTime",
-    "namePlural": null,
+    "namePlural": "echoTimes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -9383,9 +9383,9 @@
       }
     ],
     "label": "Element count",
-    "labelPlural": null,
+    "labelPlural": "Element counts",
     "name": "elementCount",
-    "namePlural": null,
+    "namePlural": "elementCounts",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRICoil"
@@ -10492,9 +10492,9 @@
       }
     ],
     "label": "Fat suppression technique",
-    "labelPlural": null,
+    "labelPlural": "Fat suppression techniques",
     "name": "fatSuppressionTechnique",
-    "namePlural": null,
+    "namePlural": "fatSuppressionTechnique",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -10571,9 +10571,9 @@
       }
     ],
     "label": "Field of view",
-    "labelPlural": null,
+    "labelPlural": "Fields of view",
     "name": "fieldOfView",
-    "namePlural": null,
+    "namePlural": "fieldsOfView",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -10792,9 +10792,9 @@
       }
     ],
     "label": "Flip angle",
-    "labelPlural": null,
+    "labelPlural": "Flip angles",
     "name": "flipAngle",
-    "namePlural": null,
+    "namePlural": "flipAngles",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -11702,9 +11702,9 @@
       }
     ],
     "label": "Gradient correction",
-    "labelPlural": null,
+    "labelPlural": "Gradient corrections",
     "name": "gradientCorrection",
-    "namePlural": null,
+    "namePlural": "gradientCorrections",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -13637,9 +13637,9 @@
       }
     ],
     "label": "Implements",
-    "labelPlural": "Implement",
+    "labelPlural": "Implements",
     "name": "implements",
-    "namePlural": "implement",
+    "namePlural": "implements",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SoftwareVersion"
@@ -14308,9 +14308,9 @@
       }
     ],
     "label": "Intended mounting location",
-    "labelPlural": null,
+    "labelPlural": "Intended mounting locations",
     "name": "intendedMountingLocation",
-    "namePlural": null,
+    "namePlural": "intendedMountingLocations",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRICoil"
@@ -14935,9 +14935,9 @@
       }
     ],
     "label": "Inversion time",
-    "labelPlural": null,
+    "labelPlural": "Inversion times",
     "name": "inversionTime",
-    "namePlural": null,
+    "namePlural": "inversionTimes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -15009,9 +15009,9 @@
       }
     ],
     "label": "Is alternative version of",
-    "labelPlural": "Are alternative versions of",
+    "labelPlural": "Is alternative version of",
     "name": "isAlternativeVersionOf",
-    "namePlural": "areAlternativeVersionsOf",
+    "namePlural": "isAlternativeVersionOf",
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -15076,9 +15076,9 @@
       }
     ],
     "label": "Is based on",
-    "labelPlural": "Are based on",
+    "labelPlural": "Is based on",
     "name": "isBasedOn",
-    "namePlural": "areBasedOn",
+    "namePlural": "isBasedOn",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ContentType"
@@ -15151,9 +15151,9 @@
       }
     ],
     "label": "Is new version of",
-    "labelPlural": "Are new versions of",
+    "labelPlural": "Is new version of",
     "name": "isNewVersionOf",
-    "namePlural": "areNewVersionsOf",
+    "namePlural": "isNewVersionOf",
     "usedIn": {
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
@@ -15288,9 +15288,9 @@
       }
     ],
     "label": "Is part of",
-    "labelPlural": "Are parts of",
+    "labelPlural": "Is part of",
     "name": "isPartOf",
-    "namePlural": "arePartsOf",
+    "namePlural": "isPartOf",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/CellPatching",
@@ -15435,9 +15435,9 @@
       }
     ],
     "label": "Is preceded by",
-    "labelPlural": "Are preceded by",
+    "labelPlural": "Is preceded by",
     "name": "isPrecededBy",
-    "namePlural": "arePrecededBy",
+    "namePlural": "isPrecededBy",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
@@ -15506,9 +15506,9 @@
       }
     ],
     "label": "Is variant of",
-    "labelPlural": "Are variants of",
+    "labelPlural": "Is variant of",
     "name": "isVariantOf",
-    "namePlural": "areVariantsOf",
+    "namePlural": "isVariantOf",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
@@ -15579,9 +15579,9 @@
       }
     ],
     "label": "Is version of",
-    "labelPlural": "Are versions of",
+    "labelPlural": "Is version of",
     "name": "isVersionOf",
-    "namePlural": "areVersionsOf",
+    "namePlural": "isVersionOf",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion",
@@ -17480,9 +17480,9 @@
       }
     ],
     "label": "Magnetic field strength",
-    "labelPlural": null,
+    "labelPlural": "Magnetic field strengths",
     "name": "magneticFieldStrength",
-    "namePlural": null,
+    "namePlural": "magneticFieldStrengths",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScanner"
@@ -17812,9 +17812,9 @@
       }
     ],
     "label": "Matrix size",
-    "labelPlural": null,
+    "labelPlural": "Matrix sizes",
     "name": "matrixSize",
-    "namePlural": null,
+    "namePlural": "matrixSizes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -18129,9 +18129,9 @@
       }
     ],
     "label": "Membership",
-    "labelPlural": null,
+    "labelPlural": "Memberships",
     "name": "membership",
-    "namePlural": null,
+    "namePlural": "memberships",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/Organization"
@@ -18624,9 +18624,9 @@
       }
     ],
     "label": "Motion correction",
-    "labelPlural": null,
+    "labelPlural": "Motion corrections",
     "name": "motionCorrection",
-    "namePlural": null,
+    "namePlural": "motionCorrections",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DynamicMRIAcquisition",
@@ -18661,9 +18661,9 @@
       }
     ],
     "label": "Mounting location",
-    "labelPlural": null,
+    "labelPlural": "Mounting locations",
     "name": "mountingLocation",
-    "namePlural": null,
+    "namePlural": "mountingLocations",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRICoilUsage"
@@ -18696,9 +18696,9 @@
       }
     ],
     "label": "Mounting type",
-    "labelPlural": null,
+    "labelPlural": "Mounting types",
     "name": "mountingType",
-    "namePlural": null,
+    "namePlural": "mountingTypes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRICoil"
@@ -19534,9 +19534,9 @@
       }
     ],
     "label": "Number of discarded volumes",
-    "labelPlural": null,
+    "labelPlural": "Numbers of discarded volumes",
     "name": "numberOfDiscardedVolumes",
-    "namePlural": null,
+    "namePlural": "numbersOfDiscardedVolumes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DynamicMRIAcquisition",
@@ -19567,9 +19567,9 @@
       }
     ],
     "label": "Number of electrodes",
-    "labelPlural": "Number of electrodes",
+    "labelPlural": "Numbers of electrodes",
     "name": "numberOfElectrodes",
-    "namePlural": "numberOfElectrodes",
+    "namePlural": "numbersOfElectrodes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ElectrodeArray"
@@ -19597,9 +19597,9 @@
       }
     ],
     "label": "Number of excitations",
-    "labelPlural": null,
+    "labelPlural": "Numbers of excitations",
     "name": "numberOfExcitations",
-    "namePlural": null,
+    "namePlural": "numbersOfExcitations",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -19695,9 +19695,9 @@
       }
     ],
     "label": "Number of slices",
-    "labelPlural": null,
+    "labelPlural": "Numbers of slices",
     "name": "numberOfSlices",
-    "namePlural": null,
+    "namePlural": "numbersOfSlices",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -19726,9 +19726,9 @@
       }
     ],
     "label": "Number of subjects",
-    "labelPlural": "Number of subjects",
+    "labelPlural": "Numbers of subjects",
     "name": "numberOfSubjects",
-    "namePlural": "numberOfSubjects",
+    "namePlural": "numbersOfSubjects",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/SubjectGroup"
@@ -21490,9 +21490,9 @@
       }
     ],
     "label": "Parallel acquisition technique",
-    "labelPlural": null,
+    "labelPlural": "Parallel acquisition techniques",
     "name": "parallelAcquisitionTechnique",
-    "namePlural": null,
+    "namePlural": "parallelAcquisitionTechniques",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -21978,9 +21978,9 @@
       }
     ],
     "label": "Phase encoding direction",
-    "labelPlural": null,
+    "labelPlural": "Phase encoding directions",
     "name": "phaseEncodingDirection",
-    "namePlural": null,
+    "namePlural": "phaseEncodingDirections",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -23846,9 +23846,9 @@
       }
     ],
     "label": "Provides",
-    "labelPlural": "Provide",
+    "labelPlural": "Provides",
     "name": "provides",
-    "namePlural": "provide",
+    "namePlural": "provides",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ServiceDeployment"
@@ -24332,9 +24332,9 @@
       }
     ],
     "label": "Receiver bandwidth",
-    "labelPlural": null,
+    "labelPlural": "Receiver bandwidths",
     "name": "receiverBandwidth",
-    "namePlural": null,
+    "namePlural": "receiverBandwidths",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -24708,9 +24708,9 @@
       }
     ],
     "label": "Registration data",
-    "labelPlural": null,
+    "labelPlural": "Registration data",
     "name": "registrationData",
-    "namePlural": null,
+    "namePlural": "registrationData",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DynamicMRIAcquisition",
@@ -25175,7 +25175,7 @@
         "namespace": "https://openminds.ebrains.eu/vocab/"
       }
     ],
-    "label": "Related uberonterm",
+    "label": "Related UBERON term",
     "labelPlural": "Related UBERON terms",
     "name": "relatedUBERONTerm",
     "namePlural": "relatedUBERONTerms",
@@ -25556,9 +25556,9 @@
       }
     ],
     "label": "Repetition time",
-    "labelPlural": null,
+    "labelPlural": "Repetition times",
     "name": "repetitionTime",
-    "namePlural": null,
+    "namePlural": "repetitionTimes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -26850,9 +26850,9 @@
       }
     ],
     "label": "Signal directionality",
-    "labelPlural": null,
+    "labelPlural": "Signal directionalities",
     "name": "signalDirectionality",
-    "namePlural": null,
+    "namePlural": "signalDirectionalities",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRICoilUsage"
@@ -26874,9 +26874,9 @@
       }
     ],
     "label": "Slice angulation",
-    "labelPlural": null,
+    "labelPlural": "Slice angulations",
     "name": "sliceAngulation",
-    "namePlural": null,
+    "namePlural": "sliceAngulations",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -26911,9 +26911,9 @@
       }
     ],
     "label": "Slice gap",
-    "labelPlural": null,
+    "labelPlural": "Slice gaps",
     "name": "sliceGap",
-    "namePlural": null,
+    "namePlural": "sliceGaps",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -26946,9 +26946,9 @@
       }
     ],
     "label": "Slice orientation",
-    "labelPlural": null,
+    "labelPlural": "Slice orientations",
     "name": "sliceOrientation",
-    "namePlural": null,
+    "namePlural": "sliceOrientations",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -27041,9 +27041,9 @@
       }
     ],
     "label": "Slice timing",
-    "labelPlural": null,
+    "labelPlural": "Slice timings",
     "name": "sliceTiming",
-    "namePlural": null,
+    "namePlural": "sliceTimings",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -27391,9 +27391,9 @@
       }
     ],
     "label": "Spatial encoding",
-    "labelPlural": null,
+    "labelPlural": "Spatial encodings",
     "name": "spatialEncoding",
-    "namePlural": null,
+    "namePlural": "spatialEncodings",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -27880,9 +27880,9 @@
       }
     ],
     "label": "Specimen orientation",
-    "labelPlural": null,
+    "labelPlural": "Specimen orientations",
     "name": "specimenOrientation",
-    "namePlural": null,
+    "namePlural": "specimenOrientations",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DynamicMRIAcquisition",
@@ -27917,9 +27917,9 @@
       }
     ],
     "label": "Spoiling technique",
-    "labelPlural": null,
+    "labelPlural": "Spoiling techniques",
     "name": "spoilingTechnique",
-    "namePlural": null,
+    "namePlural": "spoilingTechniques",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -30139,9 +30139,9 @@
       }
     ],
     "label": "Target anatomy",
-    "labelPlural": null,
+    "labelPlural": "Target anatomies",
     "name": "targetAnatomy",
-    "namePlural": null,
+    "namePlural": "targetAnatomies",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DynamicMRIAcquisition",
@@ -30729,9 +30729,9 @@
       }
     ],
     "label": "Total read out time",
-    "labelPlural": null,
+    "labelPlural": "Total read out times",
     "name": "totalReadOutTime",
-    "namePlural": null,
+    "namePlural": "totalReadOutTimes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -30764,9 +30764,9 @@
       }
     ],
     "label": "Transmitter bandwidth",
-    "labelPlural": null,
+    "labelPlural": "Transmitter bandwidths",
     "name": "transmitterBandwidth",
-    "namePlural": null,
+    "namePlural": "transmitterBandwidths",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -31263,9 +31263,9 @@
       }
     ],
     "label": "Used coils",
-    "labelPlural": null,
+    "labelPlural": "Used coils",
     "name": "usedCoils",
-    "namePlural": null,
+    "namePlural": "usedCoils",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/MRIScannerUsage"
@@ -31584,9 +31584,9 @@
       }
     ],
     "label": "Uses",
-    "labelPlural": "Use",
+    "labelPlural": "Uses",
     "name": "uses",
-    "namePlural": "use",
+    "namePlural": "uses",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/ServiceDeployment"
@@ -32230,9 +32230,9 @@
       }
     ],
     "label": "Volume acquisition time",
-    "labelPlural": null,
+    "labelPlural": "Volume acquisition times",
     "name": "volumeAcquisitionTime",
-    "namePlural": null,
+    "namePlural": "volumeAcquisitionTimes",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DynamicMRIAcquisition"
@@ -32312,9 +32312,9 @@
       }
     ],
     "label": "Volume timing",
-    "labelPlural": null,
+    "labelPlural": "Volume timings",
     "name": "volumeTiming",
-    "namePlural": null,
+    "namePlural": "volumeTimings",
     "usedIn": {
       "latest": [
         "https://openminds.om-i.org/types/DynamicMRIAcquisition"
