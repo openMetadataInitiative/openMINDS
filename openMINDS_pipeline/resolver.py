@@ -60,6 +60,7 @@ def _save_categories(directory_structure, categories):
     categories_file = os.path.join(directory_structure.target_directory, "vocab", "categories.json")
     with open(categories_file, "w+") as categories_f:
         categories_f.write(json.dumps(categories, sort_keys=True, indent=2))
+        categories_f.write("\n")
 
 
 def _schemas_by_category(schemas: List[SchemaStructure]) -> Dict[str, List[str]]:

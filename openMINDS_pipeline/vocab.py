@@ -291,6 +291,7 @@ class Property(object):
     def _save_properties(self):
         with open(self._properties_file, "w+") as properties_file:
             properties_file.write(json.dumps(self._properties, sort_keys=True, indent=2))
+            properties_file.write("\n")
 
     def clean_properties(self):
         to_be_removed = []
