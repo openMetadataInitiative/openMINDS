@@ -91,10 +91,10 @@
         "https://openminds.om-i.org/types/ParcellationEntity"
       ],
       "label": "Is version of",
-      "labelPlural": "Are versions of",
+      "labelPlural": "Is version of",
       "name": "isVersionOf",
       "nameForReverseLink": null,
-      "namePlural": "areVersionsOf"
+      "namePlural": "isVersionOf"
     },
     "https://openminds.om-i.org/props/lookupLabel": {
       "_instruction": "Enter a lookup label for this parcellation entity version that may help you to find this instance more easily.",

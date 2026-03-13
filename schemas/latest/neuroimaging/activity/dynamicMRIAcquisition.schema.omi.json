@@ -24,9 +24,11 @@
       ],
       "_instruction": "Add the contrast agent(s) administered for this acquisition, including for each the agent identity and administered amount; if no contrast agent was used, leave this field null. Include all agents given prior to or during the scan.",
       "label": "Contrast agent",
+      "labelPlural": "Contrast agents",
       "minItems": 1,
       "name": "contrastAgent",
       "nameForReverseLink": null,
+      "namePlural": "contrastAgents",
       "type": "array",
       "uniqueItems": true
     },
@@ -50,8 +52,10 @@
       ],
       "_instruction": "Enter the delay time, defined as the time interval between a protocol-defined reference event (for example, stimulus onset, contrast administration, or physiological trigger) and the start of dynamic image acquisition, expressed in seconds. This value should reflect the actual timing applied during the scan.",
       "label": "Delay time",
+      "labelPlural": "Delay times",
       "name": "delayTime",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "delayTimes"
     },
     "https://openminds.om-i.org/props/description": {
       "_instruction": "Enter a description of this activity.",
@@ -82,9 +86,11 @@
         "https://openminds.om-i.org/types/File"
       ],
       "label": "Distortion correction",
+      "labelPlural": "Distortion corrections",
       "minItems": 1,
       "name": "distortionCorrection",
       "nameForReverseLink": null,
+      "namePlural": "distortionCorrections",
       "type": "array",
       "uniqueItems": true
     },
@@ -125,10 +131,10 @@
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
-      "labelPlural": "Are parts of",
+      "labelPlural": "Is part of",
       "name": "isPartOf",
       "nameForReverseLink": null,
-      "namePlural": "arePartsOf"
+      "namePlural": "isPartOf"
     },
     "https://openminds.om-i.org/props/lookupLabel": {
       "_instruction": "Enter a lookup label for this activity that may help you to find this instance more easily.",
@@ -146,16 +152,20 @@
         "https://openminds.om-i.org/types/File"
       ],
       "label": "Motion correction",
+      "labelPlural": "Motion corrections",
       "minItems": 1,
       "name": "motionCorrection",
       "nameForReverseLink": null,
+      "namePlural": "motionCorrections",
       "type": "array",
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/numberOfDiscardedVolumes": {
       "_instruction": "Enter the number of image volumes discarded by the operator or analyst prior to post-processing, including initial equilibration volumes and any later volumes removed due to artifacts or instability. This value should reflect the total user-defined exclusion applied after acquisition.",
       "label": "Number of discarded volumes",
+      "labelPlural": "Numbers of discarded volumes",
       "name": "numberOfDiscardedVolumes",
+      "namePlural": "numbersOfDiscardedVolumes",
       "type": "integer"
     },
     "https://openminds.om-i.org/props/output": {
@@ -223,9 +233,11 @@
         "https://openminds.om-i.org/types/File"
       ],
       "label": "Registration data",
+      "labelPlural": "Registration data",
       "minItems": 1,
       "name": "registrationData",
       "nameForReverseLink": null,
+      "namePlural": "registrationData",
       "type": "array",
       "uniqueItems": true
     },
@@ -235,8 +247,10 @@
         "https://openminds.om-i.org/types/AnatomicalAxesOrientation"
       ],
       "label": "Specimen orientation",
+      "labelPlural": "Specimen orientations",
       "name": "specimenOrientation",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "specimenOrientations"
     },
     "https://openminds.om-i.org/props/startTime": {
       "_formats": [
@@ -329,8 +343,10 @@
         "https://openminds.om-i.org/types/ParcellationEntityVersion"
       ],
       "label": "Target anatomy",
+      "labelPlural": "Target anatomies",
       "name": "targetAnatomy",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "targetAnatomies"
     },
     "https://openminds.om-i.org/props/volumeAcquisitionTime": {
       "_embeddedTypes": [
@@ -338,8 +354,10 @@
       ],
       "_instruction": "Enter the volume acquisition time, defined as the time required to acquire a single image volume, expressed in seconds. This value is typically equivalent to the repetition time for volume-based acquisitions and can be retrieved from the sequence timing information in the DICOM header.",
       "label": "Volume acquisition time",
+      "labelPlural": "Volume acquisition times",
       "name": "volumeAcquisitionTime",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "volumeAcquisitionTimes"
     },
     "https://openminds.om-i.org/props/volumeTiming": {
       "_embeddedTypes": [
@@ -347,8 +365,10 @@
       ],
       "_instruction": "Enter the volume timing as an array specifying the acquisition time of each volume relative to the start of the dynamic scan, expressed in seconds, with one entry per acquired volume. These values may be derived from the repetition time or extracted from the acquisition metadata.",
       "label": "Volume timing",
+      "labelPlural": "Volume timings",
       "name": "volumeTiming",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "volumeTimings"
     }
   },
   "required": [

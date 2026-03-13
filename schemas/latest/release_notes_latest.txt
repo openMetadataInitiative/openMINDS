@@ -1,1 +1,307 @@
 Release Notes latest:
+
+Changes in computation/serviceDeployment.schema.omi.json:
+  - Field 'properties.props:dependsOn.labelPlural' modified.
+  - Field 'properties.props:dependsOn.namePlural' modified.
+  - Field 'properties.props:provides.labelPlural' modified.
+  - Field 'properties.props:provides.namePlural' modified.
+  - Field 'properties.props:uses.labelPlural' modified.
+  - Field 'properties.props:uses.namePlural' modified.
+
+Changes in computation/validationTestVersion.schema.omi.json:
+  - Field 'properties.props:isPrecededBy.labelPlural' modified.
+  - Field 'properties.props:isPrecededBy.namePlural' modified.
+  - Field 'properties.props:isVariantOf.labelPlural' modified.
+  - Field 'properties.props:isVariantOf.namePlural' modified.
+  - Field 'properties.props:isVersionOf.labelPlural' modified.
+  - Field 'properties.props:isVersionOf.namePlural' modified.
+
+Changes in computation/workflowRecipeVersion.schema.omi.json:
+  - Field 'properties.props:isPrecededBy.labelPlural' modified.
+  - Field 'properties.props:isPrecededBy.namePlural' modified.
+  - Field 'properties.props:isVariantOf.labelPlural' modified.
+  - Field 'properties.props:isVariantOf.namePlural' modified.
+  - Field 'properties.props:isVersionOf.labelPlural' modified.
+  - Field 'properties.props:isVersionOf.namePlural' modified.
+
+Changes in core/actors/organization.schema.omi.json:
+  - Field 'properties.props:membership.labelPlural' added.
+  - Field 'properties.props:membership.namePlural' added.
+
+Changes in core/data/contentType.schema.omi.json:
+  - Field 'properties.props:isBasedOn.labelPlural' modified.
+  - Field 'properties.props:isBasedOn.namePlural' modified.
+
+Changes in core/data/file.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+
+Changes in core/data/fileBundle.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+
+Changes in core/products/datasetVersion.schema.omi.json:
+  - Field 'properties.props:isPrecededBy.labelPlural' modified.
+  - Field 'properties.props:isPrecededBy.namePlural' modified.
+  - Field 'properties.props:isVariantOf.labelPlural' modified.
+  - Field 'properties.props:isVariantOf.namePlural' modified.
+  - Field 'properties.props:isVersionOf.labelPlural' modified.
+  - Field 'properties.props:isVersionOf.namePlural' modified.
+
+Changes in core/products/interfaceVersion.schema.omi.json:
+  - Field 'properties.props:isPrecededBy.labelPlural' modified.
+  - Field 'properties.props:isPrecededBy.namePlural' modified.
+  - Field 'properties.props:isVariantOf.labelPlural' modified.
+  - Field 'properties.props:isVariantOf.namePlural' modified.
+  - Field 'properties.props:isVersionOf.labelPlural' modified.
+  - Field 'properties.props:isVersionOf.namePlural' modified.
+
+Changes in core/products/metaDataModelVersion.schema.omi.json:
+  - Field 'properties.props:isPrecededBy.labelPlural' modified.
+  - Field 'properties.props:isPrecededBy.namePlural' modified.
+  - Field 'properties.props:isVariantOf.labelPlural' modified.
+  - Field 'properties.props:isVariantOf.namePlural' modified.
+  - Field 'properties.props:isVersionOf.labelPlural' modified.
+  - Field 'properties.props:isVersionOf.namePlural' modified.
+
+Changes in core/products/modelVersion.schema.omi.json:
+  - Field 'properties.props:isPrecededBy.labelPlural' modified.
+  - Field 'properties.props:isPrecededBy.namePlural' modified.
+  - Field 'properties.props:isVariantOf.labelPlural' modified.
+  - Field 'properties.props:isVariantOf.namePlural' modified.
+  - Field 'properties.props:isVersionOf.labelPlural' modified.
+  - Field 'properties.props:isVersionOf.namePlural' modified.
+
+Changes in core/products/softwareVersion.schema.omi.json:
+  - Field 'properties.props:implements.labelPlural' modified.
+  - Field 'properties.props:implements.namePlural' modified.
+  - Field 'properties.props:isPrecededBy.labelPlural' modified.
+  - Field 'properties.props:isPrecededBy.namePlural' modified.
+  - Field 'properties.props:isVariantOf.labelPlural' modified.
+  - Field 'properties.props:isVariantOf.namePlural' modified.
+  - Field 'properties.props:isVersionOf.labelPlural' modified.
+  - Field 'properties.props:isVersionOf.namePlural' modified.
+
+Changes in core/research/protocolExecution.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+
+Changes in core/research/subject.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+
+Changes in core/research/subjectGroup.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+  - Field 'properties.props:numberOfSubjects.labelPlural' modified.
+  - Field 'properties.props:numberOfSubjects.namePlural' modified.
+
+Changes in core/research/tissueSample.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+
+Changes in core/research/tissueSampleCollection.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+
+Changes in ephys/activity/cellPatching.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+
+Changes in ephys/activity/electrodePlacement.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+
+Changes in ephys/activity/recordingActivity.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+
+Changes in ephys/device/electrodeArray.schema.omi.json:
+  - Field 'properties.props:numberOfElectrodes.labelPlural' modified.
+  - Field 'properties.props:numberOfElectrodes.namePlural' modified.
+
+Changes in neuroimaging/activity/dynamicMRIAcquisition.schema.omi.json:
+  - Field 'properties.props:contrastAgent.labelPlural' added.
+  - Field 'properties.props:contrastAgent.namePlural' added.
+  - Field 'properties.props:delayTime.labelPlural' added.
+  - Field 'properties.props:delayTime.namePlural' added.
+  - Field 'properties.props:distortionCorrection.labelPlural' added.
+  - Field 'properties.props:distortionCorrection.namePlural' added.
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+  - Field 'properties.props:motionCorrection.labelPlural' added.
+  - Field 'properties.props:motionCorrection.namePlural' added.
+  - Field 'properties.props:numberOfDiscardedVolumes.labelPlural' added.
+  - Field 'properties.props:numberOfDiscardedVolumes.namePlural' added.
+  - Field 'properties.props:registrationData.labelPlural' added.
+  - Field 'properties.props:registrationData.namePlural' added.
+  - Field 'properties.props:specimenOrientation.labelPlural' added.
+  - Field 'properties.props:specimenOrientation.namePlural' added.
+  - Field 'properties.props:targetAnatomy.labelPlural' added.
+  - Field 'properties.props:targetAnatomy.namePlural' added.
+  - Field 'properties.props:volumeAcquisitionTime.labelPlural' added.
+  - Field 'properties.props:volumeAcquisitionTime.namePlural' added.
+  - Field 'properties.props:volumeTiming.labelPlural' added.
+  - Field 'properties.props:volumeTiming.namePlural' added.
+
+Changes in neuroimaging/activity/staticMRIAcquisition.schema.omi.json:
+  - Field 'properties.props:contrastAgent.labelPlural' added.
+  - Field 'properties.props:contrastAgent.namePlural' added.
+  - Field 'properties.props:distortionCorrection.labelPlural' added.
+  - Field 'properties.props:distortionCorrection.namePlural' added.
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+  - Field 'properties.props:motionCorrection.labelPlural' added.
+  - Field 'properties.props:motionCorrection.namePlural' added.
+  - Field 'properties.props:registrationData.labelPlural' added.
+  - Field 'properties.props:registrationData.namePlural' added.
+  - Field 'properties.props:specimenOrientation.labelPlural' added.
+  - Field 'properties.props:specimenOrientation.namePlural' added.
+  - Field 'properties.props:targetAnatomy.labelPlural' added.
+  - Field 'properties.props:targetAnatomy.namePlural' added.
+
+Changes in neuroimaging/device/MRICoil.schema.omi.json:
+  - Field 'properties.props:elementCount.labelPlural' added.
+  - Field 'properties.props:elementCount.namePlural' added.
+  - Field 'properties.props:intendedMountingLocation.labelPlural' added.
+  - Field 'properties.props:intendedMountingLocation.namePlural' added.
+  - Field 'properties.props:mountingType.labelPlural' added.
+  - Field 'properties.props:mountingType.namePlural' added.
+
+Changes in neuroimaging/device/MRICoilUsage.schema.omi.json:
+  - Field 'properties.props:activeElement.labelPlural' added.
+  - Field 'properties.props:activeElement.namePlural' added.
+  - Field 'properties.props:mountingLocation.labelPlural' added.
+  - Field 'properties.props:mountingLocation.namePlural' added.
+  - Field 'properties.props:signalDirectionality.labelPlural' added.
+  - Field 'properties.props:signalDirectionality.namePlural' added.
+
+Changes in neuroimaging/device/MRIScanner.schema.omi.json:
+  - Field 'properties.props:magneticFieldStrength.labelPlural' added.
+  - Field 'properties.props:magneticFieldStrength.namePlural' added.
+
+Changes in neuroimaging/device/MRIScannerUsage.schema.omi.json:
+  - Field 'properties.props:accelerationFactor.labelPlural' added.
+  - Field 'properties.props:accelerationFactor.namePlural' added.
+  - Field 'properties.props:diffusionEncodingParameters.labelPlural' added.
+  - Field 'properties.props:diffusionEncodingParameters.namePlural' added.
+  - Field 'properties.props:dwellTime.labelPlural' added.
+  - Field 'properties.props:dwellTime.namePlural' added.
+  - Field 'properties.props:echoTime.labelPlural' added.
+  - Field 'properties.props:echoTime.namePlural' added.
+  - Field 'properties.props:fatSuppressionTechnique.labelPlural' added.
+  - Field 'properties.props:fatSuppressionTechnique.namePlural' added.
+  - Field 'properties.props:fieldOfView.labelPlural' added.
+  - Field 'properties.props:fieldOfView.namePlural' added.
+  - Field 'properties.props:flipAngle.labelPlural' added.
+  - Field 'properties.props:flipAngle.namePlural' added.
+  - Field 'properties.props:gradientCorrection.labelPlural' added.
+  - Field 'properties.props:gradientCorrection.namePlural' added.
+  - Field 'properties.props:inversionTime.labelPlural' added.
+  - Field 'properties.props:inversionTime.namePlural' added.
+  - Field 'properties.props:matrixSize.labelPlural' added.
+  - Field 'properties.props:matrixSize.namePlural' added.
+  - Field 'properties.props:MRIWeighting.labelPlural' added.
+  - Field 'properties.props:MRIWeighting.namePlural' added.
+  - Field 'properties.props:MTPulseShape.labelPlural' added.
+  - Field 'properties.props:MTPulseShape.namePlural' added.
+  - Field 'properties.props:numberOfDiscardedVolumes.labelPlural' added.
+  - Field 'properties.props:numberOfDiscardedVolumes.namePlural' added.
+  - Field 'properties.props:numberOfExcitations.labelPlural' added.
+  - Field 'properties.props:numberOfExcitations.namePlural' added.
+  - Field 'properties.props:numberOfSlices.labelPlural' added.
+  - Field 'properties.props:numberOfSlices.namePlural' added.
+  - Field 'properties.props:parallelAcquisitionTechnique.labelPlural' added.
+  - Field 'properties.props:parallelAcquisitionTechnique.namePlural' added.
+  - Field 'properties.props:phaseEncodingDirection.labelPlural' added.
+  - Field 'properties.props:phaseEncodingDirection.namePlural' added.
+  - Field 'properties.props:receiverBandwidth.labelPlural' added.
+  - Field 'properties.props:receiverBandwidth.namePlural' added.
+  - Field 'properties.props:repetitionTime.labelPlural' added.
+  - Field 'properties.props:repetitionTime.namePlural' added.
+  - Field 'properties.props:sliceAngulation.labelPlural' added.
+  - Field 'properties.props:sliceAngulation.namePlural' added.
+  - Field 'properties.props:sliceGap.labelPlural' added.
+  - Field 'properties.props:sliceGap.namePlural' added.
+  - Field 'properties.props:sliceOrientation.labelPlural' added.
+  - Field 'properties.props:sliceOrientation.namePlural' added.
+  - Field 'properties.props:sliceTiming.labelPlural' added.
+  - Field 'properties.props:sliceTiming.namePlural' added.
+  - Field 'properties.props:spatialEncoding.labelPlural' added.
+  - Field 'properties.props:spatialEncoding.namePlural' added.
+  - Field 'properties.props:spoilingTechnique.labelPlural' added.
+  - Field 'properties.props:spoilingTechnique.namePlural' added.
+  - Field 'properties.props:totalReadOutTime.labelPlural' added.
+  - Field 'properties.props:totalReadOutTime.namePlural' added.
+  - Field 'properties.props:transmitterBandwidth.labelPlural' added.
+  - Field 'properties.props:transmitterBandwidth.namePlural' added.
+  - Field 'properties.props:usedCoils.labelPlural' added.
+  - Field 'properties.props:usedCoils.namePlural' added.
+
+Changes in publications/chapter.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+
+Changes in publications/livePaperResourceItem.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+
+Changes in publications/livePaperSection.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+
+Changes in publications/livePaperVersion.schema.omi.json:
+  - Field 'properties.props:isPrecededBy.labelPlural' modified.
+  - Field 'properties.props:isPrecededBy.namePlural' modified.
+  - Field 'properties.props:isVariantOf.labelPlural' modified.
+  - Field 'properties.props:isVariantOf.namePlural' modified.
+  - Field 'properties.props:isVersionOf.labelPlural' modified.
+  - Field 'properties.props:isVersionOf.namePlural' modified.
+
+Changes in publications/publicationIssue.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+
+Changes in publications/publicationVolume.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+
+Changes in publications/scholarlyArticle.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+
+Changes in SANDS/atlas/anatomicalAtlasVersion.schema.omi.json:
+  - Field 'properties.props:isPrecededBy.labelPlural' modified.
+  - Field 'properties.props:isPrecededBy.namePlural' modified.
+  - Field 'properties.props:isVariantOf.labelPlural' modified.
+  - Field 'properties.props:isVariantOf.namePlural' modified.
+  - Field 'properties.props:isVersionOf.labelPlural' modified.
+  - Field 'properties.props:isVersionOf.namePlural' modified.
+
+Changes in SANDS/atlas/commonCoordinateFrameworkVersion.schema.omi.json:
+  - Field 'properties.props:isPrecededBy.labelPlural' modified.
+  - Field 'properties.props:isPrecededBy.namePlural' modified.
+  - Field 'properties.props:isVariantOf.labelPlural' modified.
+  - Field 'properties.props:isVariantOf.namePlural' modified.
+  - Field 'properties.props:isVersionOf.labelPlural' modified.
+  - Field 'properties.props:isVersionOf.namePlural' modified.
+
+Changes in SANDS/atlas/parcellationEntityVersion.schema.omi.json:
+  - Field 'properties.props:isVersionOf.labelPlural' modified.
+  - Field 'properties.props:isVersionOf.namePlural' modified.
+
+Changes in specimenPrep/activity/cranialWindowPreparation.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+
+Changes in specimenPrep/activity/tissueCulturePreparation.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+
+Changes in specimenPrep/activity/tissueSampleSlicing.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.
+
+Changes in stimulation/activity/stimulationActivity.schema.omi.json:
+  - Field 'properties.props:isPartOf.labelPlural' modified.
+  - Field 'properties.props:isPartOf.namePlural' modified.

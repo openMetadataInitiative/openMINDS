@@ -81,11 +81,11 @@
         "https://openminds.om-i.org/types/ContentType"
       ],
       "label": "Is based on",
-      "labelPlural": "Are based on",
+      "labelPlural": "Is based on",
       "minItems": 1,
       "name": "isBasedOn",
       "nameForReverseLink": null,
-      "namePlural": "areBasedOn",
+      "namePlural": "isBasedOn",
       "type": "array",
       "uniqueItems": true
     },

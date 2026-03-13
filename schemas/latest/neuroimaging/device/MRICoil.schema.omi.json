@@ -39,8 +39,10 @@
     "https://openminds.om-i.org/props/elementCount": {
       "_instruction": "Enter the total number of coil elements.",
       "label": "Element count",
+      "labelPlural": "Element counts",
       "minimum": 1,
       "name": "elementCount",
+      "namePlural": "elementCounts",
       "type": "integer"
     },
     "https://openminds.om-i.org/props/intendedMountingLocation": {
@@ -49,8 +51,10 @@
         "https://openminds.om-i.org/types/ExternalBodyRegion"
       ],
       "label": "Intended mounting location",
+      "labelPlural": "Intended mounting locations",
       "name": "intendedMountingLocation",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "intendedMountingLocations"
     },
     "https://openminds.om-i.org/props/internalIdentifier": {
       "_instruction": "Enter the identifier (or label) of this device that is used by the owner to identify or reference this device.",
@@ -69,8 +73,10 @@
         "https://openminds.om-i.org/types/DeviceMountingType"
       ],
       "label": "Mounting type",
+      "labelPlural": "Mounting types",
       "name": "mountingType",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "mountingTypes"
     },
     "https://openminds.om-i.org/props/name": {
       "_instruction": "Enter a descriptive name for this device, preferably defined by the owner.",

@@ -129,9 +129,11 @@
       ],
       "_instruction": "Add all membership records (one per member) for this organization. Who is considered a qualified member is typically defined in the organization\u2019s membership agreements.",
       "label": "Membership",
+      "labelPlural": "Memberships",
       "minItems": 1,
       "name": "membership",
       "nameForReverseLink": null,
+      "namePlural": "memberships",
       "type": "array",
       "uniqueItems": true
     },

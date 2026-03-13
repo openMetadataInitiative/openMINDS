@@ -190,10 +190,10 @@
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion"
       ],
       "label": "Is preceded by",
-      "labelPlural": "Are preceded by",
+      "labelPlural": "Is preceded by",
       "name": "isPrecededBy",
       "nameForReverseLink": null,
-      "namePlural": "arePrecededBy"
+      "namePlural": "isPrecededBy"
     },
     "https://openminds.om-i.org/props/isVariantOf": {
       "_instruction": "Add all brain atlas versions that can be used alternatively to this anatomical atlas version.",
@@ -201,11 +201,11 @@
         "https://openminds.om-i.org/types/AnatomicalAtlasVersion"
       ],
       "label": "Is variant of",
-      "labelPlural": "Are variants of",
+      "labelPlural": "Is variant of",
       "minItems": 1,
       "name": "isVariantOf",
       "nameForReverseLink": null,
-      "namePlural": "areVariantsOf",
+      "namePlural": "isVariantOf",
       "type": "array",
       "uniqueItems": true
     },
@@ -215,10 +215,10 @@
         "https://openminds.om-i.org/types/AnatomicalAtlas"
       ],
       "label": "Is version of",
-      "labelPlural": "Are versions of",
+      "labelPlural": "Is version of",
       "name": "isVersionOf",
       "nameForReverseLink": null,
-      "namePlural": "areVersionsOf"
+      "namePlural": "isVersionOf"
     },
     "https://openminds.om-i.org/props/keyword": {
       "_belongsToCategory": [

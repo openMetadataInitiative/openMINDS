@@ -53,8 +53,10 @@
       ],
       "_instruction": "Enter the nominal field strength of MR magnet in Tesla.",
       "label": "Magnetic field strength",
+      "labelPlural": "Magnetic field strengths",
       "name": "magneticFieldStrength",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "magneticFieldStrengths"
     },
     "https://openminds.om-i.org/props/name": {
       "_instruction": "Enter a descriptive name for this device, preferably defined by the owner.",

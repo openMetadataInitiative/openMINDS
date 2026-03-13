@@ -112,10 +112,10 @@
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
-      "labelPlural": "Are parts of",
+      "labelPlural": "Is part of",
       "name": "isPartOf",
       "nameForReverseLink": null,
-      "namePlural": "arePartsOf"
+      "namePlural": "isPartOf"
     },
     "https://openminds.om-i.org/props/lookupLabel": {
       "_instruction": "Enter a lookup label for this activity that may help you to find this instance more easily.",

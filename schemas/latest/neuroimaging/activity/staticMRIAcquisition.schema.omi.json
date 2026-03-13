@@ -10,9 +10,11 @@
       ],
       "_instruction": "Add the contrast agent(s) administered for this acquisition, including for each the agent identity and administered amount; if no contrast agent was used, leave this field null. Include all agents given prior to or during the scan.",
       "label": "Contrast agent",
+      "labelPlural": "Contrast agents",
       "minItems": 1,
       "name": "contrastAgent",
       "nameForReverseLink": null,
+      "namePlural": "contrastAgents",
       "type": "array",
       "uniqueItems": true
     },
@@ -59,9 +61,11 @@
         "https://openminds.om-i.org/types/File"
       ],
       "label": "Distortion correction",
+      "labelPlural": "Distortion corrections",
       "minItems": 1,
       "name": "distortionCorrection",
       "nameForReverseLink": null,
+      "namePlural": "distortionCorrections",
       "type": "array",
       "uniqueItems": true
     },
@@ -102,10 +106,10 @@
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
-      "labelPlural": "Are parts of",
+      "labelPlural": "Is part of",
       "name": "isPartOf",
       "nameForReverseLink": null,
-      "namePlural": "arePartsOf"
+      "namePlural": "isPartOf"
     },
     "https://openminds.om-i.org/props/lookupLabel": {
       "_instruction": "Enter a lookup label for this activity that may help you to find this instance more easily.",
@@ -123,9 +127,11 @@
         "https://openminds.om-i.org/types/File"
       ],
       "label": "Motion correction",
+      "labelPlural": "Motion corrections",
       "minItems": 1,
       "name": "motionCorrection",
       "nameForReverseLink": null,
+      "namePlural": "motionCorrections",
       "type": "array",
       "uniqueItems": true
     },
@@ -194,9 +200,11 @@
         "https://openminds.om-i.org/types/File"
       ],
       "label": "Registration data",
+      "labelPlural": "Registration data",
       "minItems": 1,
       "name": "registrationData",
       "nameForReverseLink": null,
+      "namePlural": "registrationData",
       "type": "array",
       "uniqueItems": true
     },
@@ -206,8 +214,10 @@
         "https://openminds.om-i.org/types/AnatomicalAxesOrientation"
       ],
       "label": "Specimen orientation",
+      "labelPlural": "Specimen orientations",
       "name": "specimenOrientation",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "specimenOrientations"
     },
     "https://openminds.om-i.org/props/startTime": {
       "_formats": [
@@ -300,8 +310,10 @@
         "https://openminds.om-i.org/types/ParcellationEntityVersion"
       ],
       "label": "Target anatomy",
+      "labelPlural": "Target anatomies",
       "name": "targetAnatomy",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "targetAnatomies"
     }
   },
   "required": [
