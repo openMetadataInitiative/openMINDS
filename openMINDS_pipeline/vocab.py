@@ -341,8 +341,10 @@ class PropertyExtractor(Property):
 
         # Automatically calculated values
         unqualified_property = os.path.basename(property)
-        prop["label"] = _camel_case_to_human_readable(unqualified_property)
-        prop["name"] = unqualified_property
+        if "label" not in prop:
+            prop["label"] = _camel_case_to_human_readable(unqualified_property)
+        if "name" not in prop:
+            prop["name"] = unqualified_property
 
         if "usedIn" not in prop:
             prop["usedIn"] = {}
