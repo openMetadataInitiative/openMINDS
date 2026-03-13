@@ -4,6 +4,7 @@ name: openMINDS_dev_build_pipeline
 on:
   push:
       branches:
+        - main
         - pipeline
   workflow_dispatch: # This triggers the workflow when a webhook is received
       inputs:
