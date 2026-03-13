@@ -156,7 +156,10 @@
   },
   "AccountInformation": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -189,10 +192,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -206,7 +207,10 @@
   },
   "ActionStatusType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -249,12 +253,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -271,7 +273,9 @@
   },
   "Affiliation": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -311,12 +315,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -333,7 +335,10 @@
   },
   "AgeCategory": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -376,12 +381,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -429,7 +432,10 @@
   },
   "AmountOfChemical": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -459,11 +465,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -477,7 +481,10 @@
   },
   "AnalysisTechnique": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -520,12 +527,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -604,7 +609,10 @@
   },
   "AnatomicalAxesOrientation": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -647,12 +655,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -750,7 +756,10 @@
   },
   "AnatomicalIdentificationType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -793,12 +802,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -815,7 +822,10 @@
   },
   "AnatomicalPlane": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -858,12 +868,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -880,7 +888,10 @@
   },
   "AnatomicalTargetPosition": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -913,10 +924,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -955,7 +964,10 @@
   },
   "AnnotationCriteriaType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -998,12 +1010,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -1020,7 +1030,10 @@
   },
   "AnnotationType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -1063,12 +1076,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -1085,7 +1096,10 @@
   },
   "AtlasAnnotation": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v2.0": [],
       "v3.0": [],
       "v4.0": [],
@@ -1120,12 +1134,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -1141,7 +1153,10 @@
   },
   "AtlasType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -1184,12 +1199,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -1206,7 +1219,10 @@
   },
   "AuditoryStimulusType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -1249,12 +1265,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -1271,7 +1285,10 @@
   },
   "BehavioralProtocol": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -1301,11 +1318,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -1357,7 +1372,10 @@
   },
   "BiologicalOrder": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -1400,12 +1418,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -1422,7 +1438,10 @@
   },
   "BiologicalProcess": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -1465,12 +1484,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -1487,7 +1504,10 @@
   },
   "BiologicalSex": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -1530,12 +1550,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -1552,7 +1570,10 @@
   },
   "Book": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -1585,10 +1606,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -1704,7 +1723,10 @@
   },
   "BreedingType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -1747,12 +1769,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -1769,7 +1789,10 @@
   },
   "CellCultureType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -1812,12 +1835,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -1834,7 +1855,10 @@
   },
   "CellPatching": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -1867,10 +1891,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -1884,7 +1906,10 @@
   },
   "CellType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -1927,12 +1952,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -2017,7 +2040,9 @@
   },
   "Chapter": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": []
@@ -2048,10 +2073,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -2065,7 +2088,10 @@
   },
   "ChemicalMixture": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -2095,11 +2121,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -2113,7 +2137,10 @@
   },
   "ChemicalMixtureType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -2156,12 +2183,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -2178,7 +2203,10 @@
   },
   "ChemicalSubstance": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -2208,11 +2236,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -2306,7 +2332,10 @@
   },
   "Colormap": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -2349,12 +2378,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -2371,7 +2398,10 @@
   },
   "Comment": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -2404,10 +2434,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -2625,7 +2653,10 @@
   },
   "Configuration": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -2655,11 +2686,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -2673,7 +2702,9 @@
   },
   "Consortium": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": []
@@ -2704,10 +2735,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -2721,7 +2750,10 @@
   },
   "ContactInformation": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -2766,12 +2798,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -2788,7 +2818,10 @@
   },
   "ContentType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -2833,12 +2866,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -2855,7 +2886,10 @@
   },
   "ContentTypePattern": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -2900,9 +2934,7 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v4.0",
         "v5.0"
       ]
@@ -2920,7 +2952,10 @@
   },
   "Contribution": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -2962,12 +2997,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -2984,7 +3017,10 @@
   },
   "ContributionType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -3027,12 +3063,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -3049,7 +3083,9 @@
   },
   "CoordinatePoint": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -3092,12 +3128,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -3139,7 +3173,10 @@
   },
   "Copyright": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -3184,12 +3221,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -3206,7 +3241,10 @@
   },
   "CranialWindowConstructionType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -3249,12 +3287,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -3271,7 +3307,10 @@
   },
   "CranialWindowPreparation": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -3304,10 +3343,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -3321,7 +3358,10 @@
   },
   "CranialWindowReinforcementType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -3364,12 +3404,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -3386,7 +3424,10 @@
   },
   "CriteriaQualityType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -3429,12 +3470,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -3482,7 +3521,10 @@
   },
   "CustomAnatomicalEntity": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v2.0": [],
       "v3.0": [
         "v2.0"
@@ -3519,12 +3561,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -3540,7 +3580,9 @@
   },
   "CustomAnnotation": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v2.0": [],
       "v3.0": [],
       "v4.0": [],
@@ -3573,12 +3615,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -3670,7 +3710,10 @@
   },
   "CustomPropertySet": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -3703,10 +3746,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -3720,7 +3761,10 @@
   },
   "DOI": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -3763,12 +3807,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -3785,7 +3827,10 @@
   },
   "DataAnalysis": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -3818,10 +3863,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -3835,7 +3878,10 @@
   },
   "DataCopy": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -3868,10 +3914,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -3885,7 +3929,10 @@
   },
   "DataType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -3928,12 +3975,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -3950,7 +3995,9 @@
   },
   "Dataset": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -3993,12 +4040,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -4015,7 +4060,9 @@
   },
   "DatasetVersion": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -4055,12 +4102,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -4232,7 +4277,10 @@
   },
   "DeviceType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -4275,12 +4323,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -4297,7 +4343,10 @@
   },
   "DifferenceMeasure": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -4340,12 +4389,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -4362,7 +4409,10 @@
   },
   "Disease": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -4405,12 +4455,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -4427,7 +4475,10 @@
   },
   "DiseaseModel": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -4470,12 +4521,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -4523,7 +4572,10 @@
   },
   "EducationalLevel": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -4566,12 +4618,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -4588,7 +4638,10 @@
   },
   "ElectricalStimulusType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -4631,12 +4684,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -4653,7 +4704,9 @@
   },
   "Electrode": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -4699,12 +4752,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -4721,7 +4772,9 @@
   },
   "ElectrodeArray": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -4767,12 +4820,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -4789,7 +4840,10 @@
   },
   "ElectrodeArrayUsage": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -4822,10 +4876,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -4870,7 +4922,10 @@
   },
   "ElectrodePlacement": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -4903,10 +4958,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -4920,7 +4973,10 @@
   },
   "ElectrodeUsage": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -4953,10 +5009,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -5050,7 +5104,10 @@
   },
   "Environment": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -5080,11 +5137,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -5098,7 +5153,9 @@
   },
   "EphysStimulus": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": []
@@ -5129,10 +5186,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -5229,7 +5284,10 @@
   },
   "ExperimentalApproach": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -5272,12 +5330,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -5325,7 +5381,10 @@
   },
   "File": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -5370,12 +5429,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -5392,7 +5449,10 @@
   },
   "FileArchive": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -5422,11 +5482,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -5440,7 +5498,10 @@
   },
   "FileBundle": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -5485,12 +5546,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -5507,7 +5566,10 @@
   },
   "FileBundleGrouping": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -5550,12 +5612,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -5572,7 +5632,10 @@
   },
   "FilePathPattern": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -5617,9 +5680,7 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v4.0",
         "v5.0"
       ]
@@ -5637,7 +5698,10 @@
   },
   "FileRepository": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -5682,9 +5746,7 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v4.0",
         "v5.0"
       ]
@@ -5702,7 +5764,10 @@
   },
   "FileRepositoryStructure": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -5747,9 +5812,7 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v4.0",
         "v5.0"
       ]
@@ -5767,7 +5830,10 @@
   },
   "FileRepositoryType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -5810,12 +5876,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -5832,7 +5896,10 @@
   },
   "FileUsageRole": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -5875,12 +5942,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -5928,7 +5993,10 @@
   },
   "Funding": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -5973,12 +6041,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -6047,7 +6113,10 @@
   },
   "GenericComputation": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -6080,10 +6149,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -6128,7 +6195,10 @@
   },
   "GeneticStrainType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -6171,12 +6241,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -6348,7 +6416,10 @@
   },
   "GustatoryStimulusType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -6391,12 +6462,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -6413,7 +6482,10 @@
   },
   "HANDLE": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -6443,11 +6515,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -6461,7 +6531,10 @@
   },
   "Handedness": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -6504,12 +6577,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -6557,7 +6628,10 @@
   },
   "HardwareSystem": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -6587,11 +6661,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -6605,7 +6677,10 @@
   },
   "Hash": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -6648,9 +6723,7 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v4.0",
         "v5.0"
       ]
@@ -6668,7 +6741,10 @@
   },
   "ISBN": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -6711,12 +6787,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -6764,7 +6838,10 @@
   },
   "ISSN": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -6794,11 +6871,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -6812,7 +6887,10 @@
   },
   "IdentifiersDotOrgID": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -6845,10 +6923,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -7048,7 +7124,10 @@
   },
   "Language": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -7091,12 +7170,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -7113,7 +7190,10 @@
   },
   "Laterality": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -7156,12 +7236,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -7178,7 +7256,10 @@
   },
   "LaunchConfiguration": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -7208,11 +7289,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -7226,7 +7305,10 @@
   },
   "LearningResource": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -7259,10 +7341,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -7276,7 +7356,10 @@
   },
   "LearningResourceType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -7319,12 +7402,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -7341,7 +7422,10 @@
   },
   "License": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -7386,9 +7470,7 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v4.0",
         "v5.0"
       ]
@@ -7406,7 +7488,9 @@
   },
   "LivePaper": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": []
@@ -7437,10 +7521,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -7454,7 +7536,10 @@
   },
   "LivePaperResourceItem": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -7487,10 +7572,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -7504,7 +7587,10 @@
   },
   "LivePaperSection": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -7534,11 +7620,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -7552,7 +7636,9 @@
   },
   "LivePaperVersion": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": []
@@ -7583,10 +7669,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -7804,7 +7888,10 @@
   },
   "MRIPulseSequence": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -7847,12 +7934,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -7962,7 +8047,10 @@
   },
   "MRIWeighting": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -8005,12 +8093,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -8027,7 +8113,10 @@
   },
   "MeasuredQuantity": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -8070,12 +8159,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -8092,7 +8179,10 @@
   },
   "MeasuredSignalType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -8135,12 +8225,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -8157,7 +8245,10 @@
   },
   "Measurement": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -8190,10 +8281,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -8238,7 +8327,9 @@
   },
   "MetaDataModel": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -8281,12 +8372,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -8303,7 +8392,10 @@
   },
   "MetaDataModelType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -8346,12 +8438,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -8368,7 +8458,9 @@
   },
   "MetaDataModelVersion": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -8411,12 +8503,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -8433,7 +8523,9 @@
   },
   "Model": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -8476,12 +8568,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -8498,7 +8588,10 @@
   },
   "ModelAbstractionLevel": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -8541,12 +8634,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -8563,7 +8654,10 @@
   },
   "ModelScope": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -8606,12 +8700,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -8628,7 +8720,10 @@
   },
   "ModelValidation": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -8661,10 +8756,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -8678,7 +8771,9 @@
   },
   "ModelVersion": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -8721,12 +8816,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -8867,7 +8960,10 @@
   },
   "MolecularEntity": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -8910,12 +9006,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -9025,7 +9119,10 @@
   },
   "NumericalProperty": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -9058,10 +9155,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -9075,7 +9170,10 @@
   },
   "ORCID": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -9118,12 +9216,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -9140,7 +9236,10 @@
   },
   "OlfactoryStimulusType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -9183,12 +9282,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -9205,7 +9302,10 @@
   },
   "OperatingDevice": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -9248,12 +9348,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -9270,7 +9368,10 @@
   },
   "OperatingSystem": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -9313,12 +9414,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -9366,7 +9465,10 @@
   },
   "OpticalStimulusType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -9409,12 +9511,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -9431,7 +9531,10 @@
   },
   "Optimization": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -9464,10 +9567,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -9481,7 +9582,10 @@
   },
   "Organ": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -9524,12 +9628,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -9577,7 +9679,10 @@
   },
   "OrganismSubstance": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -9620,12 +9725,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -9642,7 +9745,10 @@
   },
   "OrganismSystem": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -9685,12 +9791,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -9707,7 +9811,9 @@
   },
   "Organization": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -9750,12 +9856,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -9865,7 +9969,9 @@
   },
   "ParcellationEntity": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v2.0": [],
       "v3.0": [
         "v2.0"
@@ -9900,12 +10006,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -9921,7 +10025,9 @@
   },
   "ParcellationEntityVersion": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": []
@@ -9952,10 +10058,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -9969,7 +10073,10 @@
   },
   "ParcellationTerminology": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -10011,12 +10118,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -10033,7 +10138,10 @@
   },
   "ParcellationTerminologyVersion": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -10066,10 +10174,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -10083,7 +10189,10 @@
   },
   "PatchClampVariation": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -10126,12 +10235,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -10179,7 +10286,10 @@
   },
   "Periodical": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -10209,11 +10319,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -10227,7 +10335,9 @@
   },
   "Person": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -10270,12 +10380,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -10292,7 +10400,9 @@
   },
   "Pipette": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": []
@@ -10323,10 +10433,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -10340,7 +10448,10 @@
   },
   "PipetteUsage": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -10373,10 +10484,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -10390,7 +10499,10 @@
   },
   "PreparationType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -10433,12 +10545,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -10507,7 +10617,10 @@
   },
   "ProductSource": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -10540,10 +10653,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -10557,7 +10668,10 @@
   },
   "ProgrammingLanguage": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -10600,12 +10714,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -10622,7 +10734,9 @@
   },
   "Project": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -10662,12 +10776,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -10715,7 +10827,10 @@
   },
   "PropertyValueList": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -10745,11 +10860,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -10763,7 +10876,10 @@
   },
   "Protocol": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -10808,12 +10924,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -10830,7 +10944,10 @@
   },
   "ProtocolExecution": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -10875,12 +10992,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -10897,7 +11012,10 @@
   },
   "PublicationIssue": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -10927,11 +11045,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -10976,7 +11092,10 @@
   },
   "PublicationVolume": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -11006,11 +11125,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -11055,7 +11172,10 @@
   },
   "QualitativeOverlap": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -11098,12 +11218,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -11120,7 +11238,10 @@
   },
   "QualitativeRelationAssessment": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v2.0": [],
       "v3.0": [
         "v2.0"
@@ -11157,9 +11278,7 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v4.0",
         "v5.0"
       ]
@@ -11176,7 +11295,10 @@
   },
   "QuantitativeRelationAssessment": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v2.0": [],
       "v3.0": [
         "v2.0"
@@ -11213,9 +11335,7 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v4.0",
         "v5.0"
       ]
@@ -11232,7 +11352,10 @@
   },
   "QuantitativeValue": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -11277,9 +11400,7 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v4.0",
         "v5.0"
       ]
@@ -11297,7 +11418,10 @@
   },
   "QuantitativeValueArray": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -11327,11 +11451,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -11345,7 +11467,10 @@
   },
   "QuantitativeValueRange": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -11390,9 +11515,7 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v4.0",
         "v5.0"
       ]
@@ -11410,7 +11533,10 @@
   },
   "RORID": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -11453,12 +11579,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -11475,7 +11599,10 @@
   },
   "RRID": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -11508,10 +11635,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -11562,7 +11687,10 @@
   },
   "RecordingActivity": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -11595,10 +11723,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -11692,7 +11818,10 @@
   },
   "ResearchProductGroup": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -11725,10 +11854,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -11897,7 +12024,10 @@
   },
   "SWHID": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -11940,12 +12070,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -11962,7 +12090,9 @@
   },
   "ScholarlyArticle": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": []
@@ -11993,10 +12123,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -12010,7 +12138,10 @@
   },
   "SemanticDataType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -12053,12 +12184,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -12117,11 +12246,11 @@
         "v1.0"
       ],
       [
-        "latest",
         "v2.0",
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
       ]
@@ -12170,7 +12299,10 @@
   },
   "ServiceLink": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -12215,12 +12347,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -12237,7 +12367,10 @@
   },
   "Setup": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -12270,10 +12403,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -12287,7 +12418,10 @@
   },
   "SetupType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -12330,12 +12464,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -12383,7 +12515,10 @@
   },
   "Simulation": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -12416,10 +12551,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -12433,7 +12566,10 @@
   },
   "SingleColor": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -12463,11 +12599,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -12512,7 +12646,9 @@
   },
   "SlicingDevice": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": []
@@ -12543,10 +12679,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -12560,7 +12694,10 @@
   },
   "SlicingDeviceUsage": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -12590,11 +12727,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -12608,7 +12743,9 @@
   },
   "Software": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -12651,12 +12788,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -12673,7 +12808,10 @@
   },
   "SoftwareAgent": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -12703,11 +12841,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -12721,7 +12857,10 @@
   },
   "SoftwareApplicationCategory": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -12764,12 +12903,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -12786,7 +12923,10 @@
   },
   "SoftwareFeature": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -12829,12 +12969,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -12851,7 +12989,9 @@
   },
   "SoftwareVersion": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -12894,12 +13034,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -12978,7 +13116,10 @@
   },
   "Species": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -13021,12 +13162,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -13229,7 +13368,10 @@
   },
   "StimulationActivity": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -13262,10 +13404,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -13279,7 +13419,10 @@
   },
   "StimulationApproach": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -13322,12 +13465,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -13344,7 +13485,10 @@
   },
   "StimulationTechnique": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -13387,12 +13531,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -13409,7 +13551,10 @@
   },
   "StockNumber": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -13439,11 +13584,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -13457,7 +13600,10 @@
   },
   "Strain": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v3.0": [],
       "v4.0": [],
@@ -13498,9 +13644,7 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v4.0",
         "v5.0"
       ]
@@ -13547,7 +13691,10 @@
   },
   "StringProperty": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -13580,10 +13727,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -13597,7 +13742,10 @@
   },
   "SubcellularEntity": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -13640,12 +13788,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -13662,7 +13808,10 @@
   },
   "Subject": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -13707,9 +13856,7 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
+        "latest",
         "v4.0",
         "v5.0"
       ]
@@ -13727,7 +13874,10 @@
   },
   "SubjectAttribute": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -13770,12 +13920,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -13792,7 +13940,9 @@
   },
   "SubjectGroup": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -13835,12 +13985,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -13857,7 +14005,10 @@
   },
   "SubjectGroupState": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -13902,12 +14053,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -13924,7 +14073,10 @@
   },
   "SubjectState": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -13969,12 +14121,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -14022,7 +14172,10 @@
   },
   "TactileStimulusType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -14065,12 +14218,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -14087,7 +14238,10 @@
   },
   "Technique": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -14130,12 +14284,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -14152,7 +14304,10 @@
   },
   "TermSuggestion": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -14195,12 +14350,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -14217,7 +14370,10 @@
   },
   "Terminology": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -14260,12 +14416,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -14282,7 +14436,10 @@
   },
   "TissueCulturePreparation": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -14315,10 +14472,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -14332,7 +14487,10 @@
   },
   "TissueSample": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -14377,12 +14535,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -14399,7 +14555,10 @@
   },
   "TissueSampleAttribute": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -14442,12 +14601,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -14464,7 +14621,10 @@
   },
   "TissueSampleCollection": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -14509,12 +14669,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -14531,7 +14689,10 @@
   },
   "TissueSampleCollectionState": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -14576,12 +14737,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -14598,7 +14757,10 @@
   },
   "TissueSampleSlicing": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -14631,10 +14793,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -14648,7 +14808,10 @@
   },
   "TissueSampleState": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -14693,12 +14856,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -14715,7 +14876,10 @@
   },
   "TissueSampleType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -14758,12 +14922,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -14873,7 +15035,10 @@
   },
   "TypeOfUncertainty": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -14916,12 +15081,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -15021,7 +15184,10 @@
   },
   "UnitOfMeasurement": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -15064,12 +15230,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -15117,7 +15281,9 @@
   },
   "ValidationTest": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": []
@@ -15148,10 +15314,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -15165,7 +15329,9 @@
   },
   "ValidationTestVersion": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": []
@@ -15196,10 +15362,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -15244,7 +15408,10 @@
   },
   "ViewerSpecification": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -15274,11 +15441,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -15292,7 +15457,10 @@
   },
   "VisualStimulusType": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v1.0": [],
       "v2.0": [
         "v1.0"
@@ -15335,12 +15503,10 @@
         "v3.0"
       ],
       [
-        "latest"
-      ],
-      [
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
       ]
     ],
@@ -15357,7 +15523,10 @@
   },
   "Visualization": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -15390,10 +15559,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -15407,7 +15574,10 @@
   },
   "WebResource": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -15440,10 +15610,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -15562,7 +15730,10 @@
   },
   "WorkflowExecution": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": [
@@ -15592,11 +15763,9 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -15610,7 +15779,9 @@
   },
   "WorkflowRecipe": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": []
@@ -15641,10 +15812,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
@@ -15658,7 +15827,9 @@
   },
   "WorkflowRecipeVersion": {
     "backwardsCompatibility": {
-      "latest": [],
+      "latest": [
+        "v5.0"
+      ],
       "v3.0": [],
       "v4.0": [],
       "v5.0": []
@@ -15689,10 +15860,8 @@
         "v4.0"
       ],
       [
+        "latest",
         "v5.0"
-      ],
-      [
-        "latest"
       ]
     ],
     "isPartOfVersion": [
