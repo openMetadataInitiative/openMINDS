@@ -4,6 +4,7 @@ name: openMINDS_dev_build_pipeline
 on:
   push:
       branches:
+        - development
         - pipeline
   workflow_dispatch: # This triggers the workflow when a webhook is received
       inputs:
@@ -18,7 +19,26 @@ on:
 
 
 jobs:
+  check_vocab:
+    runs-on: ubuntu-latest
+    outputs:
+      vocab_changed: ${{ steps.filter.outputs.vocab }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dorny/paths-filter@v3
+        id: filter
+        if: github.ref == 'refs/heads/development'
+        with:
+          filters: |
+            vocab:
+              - 'vocab/**'
+
   build:
+    needs: check_vocab
+    if: |
+      github.ref == 'refs/heads/pipeline' ||
+      github.event_name == 'workflow_dispatch' ||
+      (github.ref == 'refs/heads/development' && needs.check_vocab.outputs.vocab_changed == 'true' && github.actor != 'github-actions[bot]')
     runs-on: ubuntu-latest
     steps:
 
