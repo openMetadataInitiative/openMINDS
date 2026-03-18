@@ -16,11 +16,11 @@
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion"
       ],
       "label": "Depends on",
-      "labelPlural": "Depend on",
+      "labelPlural": "Depends on",
       "minItems": 1,
       "name": "dependsOn",
       "nameForReverseLink": null,
-      "namePlural": "dependOn",
+      "namePlural": "dependsOn",
       "type": "array",
       "uniqueItems": true
     },
@@ -65,11 +65,11 @@
       ],
       "_instruction": "Add the interfaces that have been deployed.",
       "label": "Provides",
-      "labelPlural": "Provide",
+      "labelPlural": "Provides",
       "minItems": 1,
       "name": "provides",
       "nameForReverseLink": null,
-      "namePlural": "provide",
+      "namePlural": "provides",
       "type": "array",
       "uniqueItems": true
     },
@@ -109,11 +109,11 @@
         "https://openminds.om-i.org/types/CommonCoordinateFrameworkVersion"
       ],
       "label": "Uses",
-      "labelPlural": "Use",
+      "labelPlural": "Uses",
       "minItems": 1,
       "name": "uses",
       "nameForReverseLink": null,
-      "namePlural": "use",
+      "namePlural": "uses",
       "type": "array",
       "uniqueItems": true
     }

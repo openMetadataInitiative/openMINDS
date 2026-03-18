@@ -178,11 +178,11 @@
         "https://openminds.om-i.org/types/InterfaceVersion"
       ],
       "label": "Implements",
-      "labelPlural": "Implement",
+      "labelPlural": "Implements",
       "minItems": 1,
       "name": "implements",
       "nameForReverseLink": null,
-      "namePlural": "implement",
+      "namePlural": "implements",
       "type": "array",
       "uniqueItems": true
     },
@@ -207,10 +207,10 @@
         "https://openminds.om-i.org/types/SoftwareVersion"
       ],
       "label": "Is preceded by",
-      "labelPlural": "Are preceded by",
+      "labelPlural": "Is preceded by",
       "name": "isPrecededBy",
       "nameForReverseLink": null,
-      "namePlural": "arePrecededBy"
+      "namePlural": "isPrecededBy"
     },
     "https://openminds.om-i.org/props/isVariantOf": {
       "_instruction": "Add all software versions that can be used alternatively to this software version.",
@@ -218,11 +218,11 @@
         "https://openminds.om-i.org/types/SoftwareVersion"
       ],
       "label": "Is variant of",
-      "labelPlural": "Are variants of",
+      "labelPlural": "Is variant of",
       "minItems": 1,
       "name": "isVariantOf",
       "nameForReverseLink": null,
-      "namePlural": "areVariantsOf",
+      "namePlural": "isVariantOf",
       "type": "array",
       "uniqueItems": true
     },
@@ -232,10 +232,10 @@
         "https://openminds.om-i.org/types/Software"
       ],
       "label": "Is version of",
-      "labelPlural": "Are versions of",
+      "labelPlural": "Is version of",
       "name": "isVersionOf",
       "nameForReverseLink": null,
-      "namePlural": "areVersionsOf"
+      "namePlural": "isVersionOf"
     },
     "https://openminds.om-i.org/props/keyword": {
       "_belongsToCategory": [

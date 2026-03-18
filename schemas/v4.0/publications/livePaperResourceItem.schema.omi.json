@@ -37,10 +37,10 @@
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
-      "labelPlural": "Are parts of",
+      "labelPlural": "Is part of",
       "name": "isPartOf",
       "nameForReverseLink": null,
-      "namePlural": "arePartsOf"
+      "namePlural": "isPartOf"
     },
     "https://openminds.om-i.org/props/name": {
       "_instruction": "Enter a descriptive name for this live paper resource item.",

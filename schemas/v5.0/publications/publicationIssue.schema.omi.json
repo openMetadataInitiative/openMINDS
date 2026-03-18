@@ -11,10 +11,10 @@
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
-      "labelPlural": "Are parts of",
+      "labelPlural": "Is part of",
       "name": "isPartOf",
       "nameForReverseLink": null,
-      "namePlural": "arePartsOf"
+      "namePlural": "isPartOf"
     },
     "https://openminds.om-i.org/props/issueNumber": {
       "_instruction": "Enter the issue number of this publication issue.",

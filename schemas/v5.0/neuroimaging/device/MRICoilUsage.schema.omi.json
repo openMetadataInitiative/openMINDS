@@ -14,9 +14,11 @@
         "type": "string"
       },
       "label": "Active element",
+      "labelPlural": "Active elements",
       "minItems": 1,
       "multiline": false,
       "name": "activeElement",
+      "namePlural": "activeElements",
       "type": "array",
       "uniqueItems": true
     },
@@ -63,8 +65,10 @@
         "https://openminds.om-i.org/types/ExternalBodyRegion"
       ],
       "label": "Mounting location",
+      "labelPlural": "Mounting locations",
       "name": "mountingLocation",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "mountingLocations"
     },
     "https://openminds.om-i.org/props/signalDirectionality": {
       "_instruction": "Add the signal directionality of the coil, indicating whether it was used for signal transmission, reception, or both. This information is typically defined in the system configuration and can be retrieved from the DICOM header or scanner hardware metadata.",
@@ -72,8 +76,10 @@
         "https://openminds.om-i.org/types/SignalDirectionality"
       ],
       "label": "Signal directionality",
+      "labelPlural": "Signal directionalities",
       "name": "signalDirectionality",
-      "nameForReverseLink": null
+      "nameForReverseLink": null,
+      "namePlural": "signalDirectionalities"
     },
     "https://openminds.om-i.org/props/usedSpecimen": {
       "_instruction": "Add the state of the tissue sample or subject that this device was used on.",

@@ -71,11 +71,11 @@
       ],
       "description": "Reference to the ensemble of multiple things or beings.",
       "label": "Is part of",
-      "labelPlural": "Are parts of",
+      "labelPlural": "Is part of",
       "minItems": 1,
       "name": "isPartOf",
       "nameForReverseLink": null,
-      "namePlural": "arePartsOf",
+      "namePlural": "isPartOf",
       "type": "array",
       "uniqueItems": true
     },

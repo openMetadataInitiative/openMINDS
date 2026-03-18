@@ -115,10 +115,10 @@
     "https://openminds.om-i.org/props/numberOfElectrodes": {
       "_instruction": "Enter the number of electrodes that belong to this electrode array.",
       "label": "Number of electrodes",
-      "labelPlural": "Number of electrodes",
+      "labelPlural": "Numbers of electrodes",
       "minimum": 2,
       "name": "numberOfElectrodes",
-      "namePlural": "numberOfElectrodes",
+      "namePlural": "numbersOfElectrodes",
       "type": "integer"
     },
     "https://openminds.om-i.org/props/serialNumber": {

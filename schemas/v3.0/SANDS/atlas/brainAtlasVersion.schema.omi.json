@@ -202,11 +202,11 @@
       ],
       "description": "Reference to an original form where the essence was preserved, but presented in an alternative form.",
       "label": "Is alternative version of",
-      "labelPlural": "Are alternative versions of",
+      "labelPlural": "Is alternative version of",
       "minItems": 1,
       "name": "isAlternativeVersionOf",
       "nameForReverseLink": null,
-      "namePlural": "areAlternativeVersionsOf",
+      "namePlural": "isAlternativeVersionOf",
       "type": "array",
       "uniqueItems": true
     },
@@ -217,10 +217,10 @@
       ],
       "description": "Reference to a previous (potentially outdated) particular form of something.",
       "label": "Is new version of",
-      "labelPlural": "Are new versions of",
+      "labelPlural": "Is new version of",
       "name": "isNewVersionOf",
       "nameForReverseLink": null,
-      "namePlural": "areNewVersionsOf"
+      "namePlural": "isNewVersionOf"
     },
     "https://openminds.ebrains.eu/vocab/keyword": {
       "_belongsToCategory": [
