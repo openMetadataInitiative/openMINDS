@@ -291,6 +291,7 @@ class Property(object):
     def _save_properties(self):
         with open(self._properties_file, "w+") as properties_file:
             properties_file.write(json.dumps(self._properties, sort_keys=True, indent=2))
+            properties_file.write("\n")
 
     def clean_properties(self):
         to_be_removed = []
@@ -340,9 +341,11 @@ class PropertyExtractor(Property):
             prop["namePlural"] = None
 
         # Automatically calculated values
-        unqualified_property = os.path.basename(property)
-        prop["label"] = _camel_case_to_human_readable(unqualified_property)
-        prop["name"] = unqualified_property
+        property_basename = os.path.basename(property)
+        if "label" not in prop:
+            prop["label"] = _camel_case_to_human_readable(property_basename)
+        if "name" not in prop:
+            prop["name"] = property_basename
 
         if "usedIn" not in prop:
             prop["usedIn"] = {}
