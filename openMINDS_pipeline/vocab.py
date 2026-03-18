@@ -341,7 +341,7 @@ class PropertyExtractor(Property):
             prop["namePlural"] = None
 
         # Automatically calculated values
-        unqualified_property = os.path.basename(property)
+        property_basename = os.path.basename(property)
         if "label" not in prop:
             prop["label"] = _camel_case_to_human_readable(unqualified_property)
         if "name" not in prop:
