@@ -1,4 +1,5 @@
 name: openMINDS_upstream
+
 on: 
   - push
   - workflow_dispatch
@@ -9,11 +10,11 @@ jobs:
     steps:
     - name: Trigger target repositories
       run: |
-        curl -s -w "\njson-schema: %{http_code}\n" -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_json-schema/actions/workflows/build.yml/dispatches --data '{"ref": "pipeline"}'
+        curl -s -w "\nJSON-Schema: %{http_code}\n" -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_json-schema/actions/workflows/build.yml/dispatches --data '{"ref": "pipeline"}'
         curl -s -w "\nMATLAB: %{http_code}\n" -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_MATLAB/actions/workflows/build.yml/dispatches --data '{"ref": "pipeline"}'
         curl -s -w "\nPython: %{http_code}\n" -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_Python/actions/workflows/build.yml/dispatches --data '{"ref": "pipeline"}'
         curl -s -w "\nJava: %{http_code}\n" -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_Java/actions/workflows/build.yml/dispatches --data '{"ref": "pipeline"}'
         curl -s -w "\nLinkML: %{http_code}\n" -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_LinkML/actions/workflows/build.yml/dispatches --data '{"ref": "pipeline"}'
-        curl -s -w "\ndocs build: %{http_code}\n" -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_documentation/actions/workflows/build.yml/dispatches --data '{"ref": "pipeline"}'
-        curl -s -w "\ndocs htaccess: %{http_code}\n" -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_documentation/actions/workflows/htaccess-deploy.yml/dispatches --data '{"ref": "pipeline"}'
+        curl -s -w "\nDocs build: %{http_code}\n" -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_documentation/actions/workflows/build.yml/dispatches --data '{"ref": "pipeline"}'
+        curl -s -w "\nDocs htaccess: %{http_code}\n" -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_documentation/actions/workflows/htaccess-deploy.yml/dispatches --data '{"ref": "pipeline"}'
         
