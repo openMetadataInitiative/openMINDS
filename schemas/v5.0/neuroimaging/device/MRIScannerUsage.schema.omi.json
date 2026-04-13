@@ -32,6 +32,18 @@
       "name": "accelerationFactor",
       "type": "integer"
     },
+    "https://openminds.om-i.org/props/device": {
+      "_instruction": "Add the MRI Scanner used.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/MRIScanner"
+      ],
+      "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
+      "label": "Device",
+      "labelPlural": "Devices",
+      "name": "device",
+      "nameForReverseLink": null,
+      "namePlural": "devices"
+    },
     "https://openminds.om-i.org/props/diffusionEncodingParameters": {
       "_instruction": "Add two diffusion encoding files: a b-value file specifying the diffusion weighting for each acquired volume and a b-vector file specifying the corresponding three-dimensional diffusion gradient directions. Ensure that both files are correctly ordered, that b-vectors are normalized, and that they are aligned with the image volumes.",
       "_linkedTypes": [
