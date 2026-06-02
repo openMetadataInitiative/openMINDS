@@ -1,12 +1,3 @@
 {
-  "title": "Release Notes latest",
-  "changes": [
-    {
-      "file": "neuroimaging/device/MRIScannerUsage.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:device"
-      ],
-      "schemaType": "MRIScannerUsage"
-    }
-  ]
+  "title": "Release Notes latest"
 }
