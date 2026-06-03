@@ -1,8 +1,1 @@
 Release Notes latest:
-
-Changes in SANDS/atlas/anatomicalAtlasVersion.schema.omi.json:
-  - Field 'properties.props:isPrecededBy._instruction' modified.
-  - Field 'properties.props:isVariantOf._instruction' modified.
-
-Changes in SANDS/atlas/parcellationEntityVersion.schema.omi.json:
-  - Field 'properties.props:hasParent._instruction' modified.
