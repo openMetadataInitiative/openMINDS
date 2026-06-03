@@ -1,1 +1,5 @@
 Release Notes latest:
+
+Changes in SANDS/atlas/parcellationEntityVersion.schema.omi.json:
+  - Field 'properties.props:versionInnovation' removed.
+  - Field 'properties.props:versionSpecification' added.
