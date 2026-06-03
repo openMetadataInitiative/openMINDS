@@ -70,7 +70,7 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/hasParent": {
-      "_instruction": "Add all anatomical parent structures (or version of the structures) for this parcellation entity as defined within corresponding brain atlas version.",
+      "_instruction": "Add all anatomical parent structures (or version of the structures) for this parcellation entity as defined within corresponding anatomical atlas version.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/ParcellationEntity",
         "https://openminds.om-i.org/types/ParcellationEntityVersion"
