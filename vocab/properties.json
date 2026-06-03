@@ -31985,7 +31985,6 @@
     "asString": {
       "formatting": "text/markdown",
       "inVersions": [
-        "latest",
         "v1.0",
         "v2.0",
         "v3.0",
@@ -32018,9 +32017,6 @@
     "name": "versionInnovation",
     "namePlural": "versionInnovations",
     "usedIn": {
-      "latest": [
-        "https://openminds.om-i.org/types/ParcellationEntityVersion"
-      ],
       "v1.0": [
         "https://openminds.ebrains.eu/core/DatasetVersion",
         "https://openminds.ebrains.eu/core/MetaDataModelVersion",
@@ -32101,6 +32097,7 @@
         "https://openminds.om-i.org/types/LivePaperVersion",
         "https://openminds.om-i.org/types/MetaDataModelVersion",
         "https://openminds.om-i.org/types/ModelVersion",
+        "https://openminds.om-i.org/types/ParcellationEntityVersion",
         "https://openminds.om-i.org/types/SoftwareVersion",
         "https://openminds.om-i.org/types/ValidationTestVersion",
         "https://openminds.om-i.org/types/WorkflowRecipeVersion"

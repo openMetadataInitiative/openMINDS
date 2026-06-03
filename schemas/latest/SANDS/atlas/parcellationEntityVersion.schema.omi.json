@@ -162,15 +162,14 @@
       "namePlural": "versionIdentifiers",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/versionInnovation": {
+    "https://openminds.om-i.org/props/versionSpecification": {
       "_instruction": "Enter a short description (or summary) of the novelties/peculiarities of this parcellation entity version in comparison to its preceding versions. If this parcellation entity version is the first version, leave blank.",
-      "description": "Documentation on what changed in comparison to a previously published form of something.",
-      "formatting": "text/markdown",
-      "label": "Version innovation",
-      "labelPlural": "Version innovations",
-      "multiline": true,
-      "name": "versionInnovation",
-      "namePlural": "versionInnovations",
+      "formatting": "text/plain",
+      "label": "Version specification",
+      "labelPlural": "Version specifications",
+      "multiline": false,
+      "name": "versionSpecification",
+      "namePlural": "versionSpecifications",
       "type": "string"
     }
   },

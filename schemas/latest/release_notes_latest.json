@@ -15,6 +15,12 @@
     },
     {
       "file": "SANDS/atlas/parcellationEntityVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:versionSpecification"
+      ],
+      "removedAttributes": [
+        "properties.props:versionInnovation"
+      ],
       "modifiedAttributes": [
         {
           "property": "properties.props:hasParent._instruction"
