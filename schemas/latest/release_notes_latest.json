@@ -2,29 +2,12 @@
   "title": "Release Notes latest",
   "changes": [
     {
-      "file": "SANDS/atlas/anatomicalAtlasVersion.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:isPrecededBy._instruction"
-        },
-        {
-          "property": "properties.props:isVariantOf._instruction"
-        }
-      ],
-      "schemaType": "AnatomicalAtlasVersion"
-    },
-    {
       "file": "SANDS/atlas/parcellationEntityVersion.schema.omi.json",
       "addedAttributes": [
         "properties.props:versionSpecification"
       ],
       "removedAttributes": [
         "properties.props:versionInnovation"
-      ],
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:hasParent._instruction"
-        }
       ],
       "schemaType": "ParcellationEntityVersion"
     }
