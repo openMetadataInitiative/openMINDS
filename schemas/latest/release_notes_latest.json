@@ -2,6 +2,18 @@
   "title": "Release Notes latest",
   "changes": [
     {
+      "file": "core/miscellaneous/accessibility.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:application"
+      ],
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:paymentModel._instruction"
+        }
+      ],
+      "schemaType": "Accessibility"
+    },
+    {
       "file": "SANDS/atlas/parcellationEntityVersion.schema.omi.json",
       "addedAttributes": [
         "properties.props:versionSpecification"

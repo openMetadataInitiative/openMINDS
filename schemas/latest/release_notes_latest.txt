@@ -1,5 +1,9 @@
 Release Notes latest:
 
+Changes in core/miscellaneous/accessibility.schema.omi.json:
+  - Field 'properties.props:application' added.
+  - Field 'properties.props:paymentModel._instruction' modified.
+
 Changes in SANDS/atlas/parcellationEntityVersion.schema.omi.json:
   - Field 'properties.props:versionInnovation' removed.
   - Field 'properties.props:versionSpecification' added.
