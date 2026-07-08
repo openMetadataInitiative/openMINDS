@@ -45,7 +45,7 @@ jobs:
     - name: Trigger target repositories
       run: |
         if [ -n "${{ matrix.inputs }}" ]; then
-          DATA='{"ref":"pipeline","inputs":'${{ matrix.inputs }}'}'
+          DATA='{"ref":"pipeline","inputs":${{ matrix.inputs }}}'
         else
           DATA='{"ref":"pipeline"}'
         fi
