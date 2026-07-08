@@ -2131,6 +2131,38 @@
       ]
     }
   },
+  "application": {
+    "asString": {
+      "formatting": "text/plain",
+      "inVersions": [
+        "latest",
+        "v5.0"
+      ],
+      "multiline": false
+    },
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v5.0"
+        ],
+        "namespace": "https://openminds.om-i.org/props/"
+      }
+    ],
+    "label": "Application",
+    "labelPlural": null,
+    "name": "application",
+    "namePlural": null,
+    "usedIn": {
+      "latest": [
+        "https://openminds.om-i.org/types/Accessibility"
+      ],
+      "v5.0": [
+        "https://openminds.om-i.org/types/Accessibility"
+      ]
+    }
+  },
   "applicationCategory": {
     "asEdge": {
       "canPointTo": {
