@@ -1,0 +1,39 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape",
+    "simplePolygon"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/IsoscelesTriangle",
+  "label": "Isosceles triangle",
+  "name": "IsoscelesTriangle",
+  "properties": {
+    "https://openminds.om-i.org/props/apexAngle": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the angle at the apex between the two equal sides of this isosceles triangle.",
+      "label": "Apex angle",
+      "labelPlural": "Apex angles",
+      "name": "apexAngle",
+      "nameForReverseLink": null,
+      "namePlural": "apexAngles"
+    },
+    "https://openminds.om-i.org/props/legLength": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the common length of the two equal sides meeting at the apex of this isosceles triangle.",
+      "label": "Leg length",
+      "labelPlural": "Leg lengths",
+      "name": "legLength",
+      "nameForReverseLink": null,
+      "namePlural": "legLengths"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/apexAngle",
+    "https://openminds.om-i.org/props/legLength"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/Ellipsoid",
+  "label": "Ellipsoid",
+  "name": "Ellipsoid",
+  "properties": {
+    "https://openminds.om-i.org/props/intermediateDiameter": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the intermediate diameter of this ellipsoid.",
+      "label": "Intermediate diameter",
+      "labelPlural": "Intermediate diameters",
+      "name": "intermediateDiameter",
+      "nameForReverseLink": null,
+      "namePlural": "intermediateDiameters"
+    },
+    "https://openminds.om-i.org/props/majorDiameter": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the major diameter of this ellipsoid.",
+      "label": "Major diameter",
+      "labelPlural": "Major diameters",
+      "name": "majorDiameter",
+      "nameForReverseLink": null,
+      "namePlural": "majorDiameters"
+    },
+    "https://openminds.om-i.org/props/minorDiameter": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the minor diameter of this ellipsoid.",
+      "label": "Minor diameter",
+      "labelPlural": "Minor diameters",
+      "name": "minorDiameter",
+      "nameForReverseLink": null,
+      "namePlural": "minorDiameters"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/intermediateDiameter",
+    "https://openminds.om-i.org/props/majorDiameter",
+    "https://openminds.om-i.org/props/minorDiameter"
+  ]
+}

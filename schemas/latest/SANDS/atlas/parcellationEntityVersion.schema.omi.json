@@ -1,6 +1,7 @@
 {
   "_categories": [
     "anatomicalLocation",
+    "isVersionOf",
     "studyTarget"
   ],
   "_module": "SANDS",
@@ -69,7 +70,7 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/hasParent": {
-      "_instruction": "Add all anatomical parent structures (or version of the structures) for this parcellation entity as defined within corresponding brain atlas version.",
+      "_instruction": "Add all anatomical parent structures (or version of the structures) for this parcellation entity as defined within corresponding anatomical atlas version.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/ParcellationEntity",
         "https://openminds.om-i.org/types/ParcellationEntityVersion"
@@ -83,6 +84,17 @@
       "namePlural": "hasParents",
       "type": "array",
       "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/isVersionOf": {
+      "_instruction": "Add the version-independent information about this parcellation entity.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ParcellationEntity"
+      ],
+      "label": "Is version of",
+      "labelPlural": "Is version of",
+      "name": "isVersionOf",
+      "nameForReverseLink": null,
+      "namePlural": "isVersionOf"
     },
     "https://openminds.om-i.org/props/lookupLabel": {
       "_instruction": "Enter a lookup label for this parcellation entity version that may help you to find this instance more easily.",
@@ -150,19 +162,19 @@
       "namePlural": "versionIdentifiers",
       "type": "string"
     },
-    "https://openminds.om-i.org/props/versionInnovation": {
+    "https://openminds.om-i.org/props/versionSpecification": {
       "_instruction": "Enter a short description (or summary) of the novelties/peculiarities of this parcellation entity version in comparison to its preceding versions. If this parcellation entity version is the first version, leave blank.",
-      "description": "Documentation on what changed in comparison to a previously published form of something.",
-      "formatting": "text/markdown",
-      "label": "Version innovation",
-      "labelPlural": "Version innovations",
-      "multiline": true,
-      "name": "versionInnovation",
-      "namePlural": "versionInnovations",
+      "formatting": "text/plain",
+      "label": "Version specification",
+      "labelPlural": "Version specifications",
+      "multiline": false,
+      "name": "versionSpecification",
+      "namePlural": "versionSpecifications",
       "type": "string"
     }
   },
   "required": [
+    "https://openminds.om-i.org/props/lookupLabel",
     "https://openminds.om-i.org/props/name",
     "https://openminds.om-i.org/props/versionIdentifier"
   ]

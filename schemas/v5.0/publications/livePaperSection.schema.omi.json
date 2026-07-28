@@ -1,0 +1,67 @@
+{
+  "_module": "publications",
+  "_type": "https://openminds.om-i.org/types/LivePaperSection",
+  "label": "Live paper section",
+  "name": "LivePaperSection",
+  "properties": {
+    "https://openminds.om-i.org/props/description": {
+      "_instruction": "Enter a description of this live paper section.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/markdown",
+      "label": "Description",
+      "labelPlural": "Descriptions",
+      "multiline": true,
+      "name": "description",
+      "namePlural": "descriptions",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/isPartOf": {
+      "_instruction": "Add the live paper version this live paper section is part of.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/LivePaperVersion"
+      ],
+      "description": "Reference to the ensemble of multiple things or beings.",
+      "label": "Is part of",
+      "labelPlural": "Is part of",
+      "name": "isPartOf",
+      "nameForReverseLink": null,
+      "namePlural": "isPartOf"
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter the name (or title) of this live paper section.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/order": {
+      "_instruction": "Enter an integer that is used to sort this live paper section in ascending order with other live paper sections of the overarching live paper version.",
+      "label": "Order",
+      "labelPlural": "Orders",
+      "name": "order",
+      "namePlural": "orders",
+      "type": "integer"
+    },
+    "https://openminds.om-i.org/props/type": {
+      "_instruction": "Add the type of this live paper section (e.g., 'custom', 'generic', 'models', 'morphology', or 'traces').",
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "formatting": "text/plain",
+      "label": "Type",
+      "labelPlural": "Types",
+      "multiline": false,
+      "name": "type",
+      "namePlural": "types",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/isPartOf",
+    "https://openminds.om-i.org/props/name",
+    "https://openminds.om-i.org/props/order",
+    "https://openminds.om-i.org/props/type"
+  ]
+}

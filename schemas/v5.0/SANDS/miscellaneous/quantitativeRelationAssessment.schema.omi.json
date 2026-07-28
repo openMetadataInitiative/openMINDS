@@ -1,0 +1,49 @@
+{
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/QuantitativeRelationAssessment",
+  "label": "Quantitative relation assessment",
+  "name": "QuantitativeRelationAssessment",
+  "properties": {
+    "https://openminds.om-i.org/props/criteria": {
+      "_instruction": "Add the protocol execution defining the criteria that were applied to determine this relation.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ProtocolExecution"
+      ],
+      "description": "Aspects or standards on which a judgement or decision is based.",
+      "label": "Criteria",
+      "labelPlural": "Criteria",
+      "name": "criteria",
+      "nameForReverseLink": null,
+      "namePlural": "criteria"
+    },
+    "https://openminds.om-i.org/props/inRelationTo": {
+      "_instruction": "Add the parcellation entity version to which the relation is described.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ParcellationEntityVersion"
+      ],
+      "description": "Reference to a related element.",
+      "label": "In relation to",
+      "labelPlural": "In relation to",
+      "name": "inRelationTo",
+      "nameForReverseLink": null,
+      "namePlural": "inRelationTo"
+    },
+    "https://openminds.om-i.org/props/quantitativeOverlap": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue",
+        "https://openminds.om-i.org/types/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the quantitative overlap between the two anatomical entities, preferably expressed in percentage.",
+      "description": "Numerical characterization of how much two things occupy the same space.",
+      "label": "Quantitative overlap",
+      "labelPlural": "Quantitative overlaps",
+      "name": "quantitativeOverlap",
+      "nameForReverseLink": null,
+      "namePlural": "quantitativeOverlaps"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/inRelationTo",
+    "https://openminds.om-i.org/props/quantitativeOverlap"
+  ]
+}

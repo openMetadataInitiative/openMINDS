@@ -1,0 +1,34 @@
+{
+  "_module": "publications",
+  "_type": "https://openminds.om-i.org/types/PublicationVolume",
+  "label": "Publication volume",
+  "name": "PublicationVolume",
+  "properties": {
+    "https://openminds.om-i.org/props/isPartOf": {
+      "_instruction": "Add the periodical this publication volume is part of.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Periodical"
+      ],
+      "description": "Reference to the ensemble of multiple things or beings.",
+      "label": "Is part of",
+      "labelPlural": "Is part of",
+      "name": "isPartOf",
+      "nameForReverseLink": null,
+      "namePlural": "isPartOf"
+    },
+    "https://openminds.om-i.org/props/volumeNumber": {
+      "_instruction": "Enter the volume number of this publication volume.",
+      "formatting": "text/plain",
+      "label": "Volume number",
+      "labelPlural": "Volume numbers",
+      "multiline": false,
+      "name": "volumeNumber",
+      "namePlural": "volumeNumbers",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/isPartOf",
+    "https://openminds.om-i.org/props/volumeNumber"
+  ]
+}

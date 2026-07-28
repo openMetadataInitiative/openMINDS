@@ -1,0 +1,44 @@
+{
+  "_module": "publications",
+  "_type": "https://openminds.om-i.org/types/Periodical",
+  "label": "Periodical",
+  "name": "Periodical",
+  "properties": {
+    "https://openminds.om-i.org/props/abbreviation": {
+      "_instruction": "Enter the official (or most commonly used) abbreviation of the periodical (e.g., J. Physiol).",
+      "formatting": "text/plain",
+      "label": "Abbreviation",
+      "labelPlural": "Abbreviations",
+      "multiline": false,
+      "name": "abbreviation",
+      "namePlural": "abbreviations",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this periodical.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ISSN"
+      ],
+      "description": "Digital handle to identify objects or legal persons.",
+      "label": "Digital identifier",
+      "labelPlural": "Digital identifiers",
+      "name": "digitalIdentifier",
+      "nameForReverseLink": null,
+      "namePlural": "digitalIdentifiers"
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter the name (or title) of this periodical (e.g., Journal of Physiology).",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/name"
+  ]
+}

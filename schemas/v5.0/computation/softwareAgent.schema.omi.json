@@ -1,0 +1,50 @@
+{
+  "_categories": [
+    "agent"
+  ],
+  "_module": "computation",
+  "_type": "https://openminds.om-i.org/types/SoftwareAgent",
+  "color": "#8D6F81",
+  "description": "Structured information about a piece of software or web service that can perform a task autonomously.",
+  "label": "Software agent",
+  "name": "SoftwareAgent",
+  "properties": {
+    "https://openminds.om-i.org/props/environment": {
+      "_instruction": "Add the computational environment in which this software agent was running.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Environment"
+      ],
+      "label": "Environment",
+      "labelPlural": "Environments",
+      "name": "environment",
+      "nameForReverseLink": null,
+      "namePlural": "environments"
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter a descriptive name for this software agent.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/software": {
+      "_instruction": "Add the software version that is being run as this software agent.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SoftwareVersion"
+      ],
+      "label": "Software",
+      "labelPlural": "Software",
+      "name": "software",
+      "nameForReverseLink": null,
+      "namePlural": "software"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/name",
+    "https://openminds.om-i.org/props/software"
+  ]
+}

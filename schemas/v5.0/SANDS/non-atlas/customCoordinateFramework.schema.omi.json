@@ -1,0 +1,84 @@
+{
+  "_categories": [
+    "coordinateFramework",
+    "specificCoordinateFramework"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/CustomCoordinateFramework",
+  "label": "Custom coordinate framework",
+  "name": "CustomCoordinateFramework",
+  "properties": {
+    "https://openminds.om-i.org/props/anatomicalAxesOrientation": {
+      "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (stated as XYZ) for the anatomical space of this custom coordinate framework.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnatomicalAxesOrientation"
+      ],
+      "description": "Relation between reference planes used in anatomy and mathematics.",
+      "label": "Anatomical axes orientation",
+      "labelPlural": "Anatomical axes orientations",
+      "name": "anatomicalAxesOrientation",
+      "nameForReverseLink": null,
+      "namePlural": "anatomicalAxesOrientations"
+    },
+    "https://openminds.om-i.org/props/axesOrigin": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the coordinate point in the native anatomical space of the template as [x, y] or [x, y, z] for two- or three-dimensional spaces, respectively, that has been defined as the origin of the anatomical space of this custom coordinate framework (i.e., as the central point where all axes intersect).",
+      "description": "Special point in a coordinate system used as a fixed point of reference for the geometry of the surrounding space.",
+      "label": "Axes origin",
+      "labelPlural": "Axes origins",
+      "maxItems": 3,
+      "minItems": 2,
+      "name": "axesOrigin",
+      "nameForReverseLink": null,
+      "namePlural": "axesOrigins",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/defaultImage": {
+      "_instruction": "Add all image files used as visual representation of this custom coordinate framework.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File"
+      ],
+      "description": "Two or three dimensional image that particluarly represents a specific coordinate space.",
+      "label": "Default image",
+      "labelPlural": "Default images",
+      "minItems": 1,
+      "name": "defaultImage",
+      "nameForReverseLink": null,
+      "namePlural": "defaultImages",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter a descriptive name for this custom coordinate framework.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/nativeUnit": {
+      "_instruction": "Add the native unit that is used for this custom coordinate framework.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/UnitOfMeasurement"
+      ],
+      "description": "Determinate quantity used in the original measurement.",
+      "label": "Native unit",
+      "labelPlural": "Native units",
+      "name": "nativeUnit",
+      "nameForReverseLink": null,
+      "namePlural": "nativeUnits"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/anatomicalAxesOrientation",
+    "https://openminds.om-i.org/props/axesOrigin",
+    "https://openminds.om-i.org/props/name",
+    "https://openminds.om-i.org/props/nativeUnit"
+  ]
+}

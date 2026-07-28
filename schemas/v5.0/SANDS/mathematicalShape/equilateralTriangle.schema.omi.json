@@ -1,0 +1,27 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape",
+    "simplePolygon"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/EquilateralTriangle",
+  "label": "Equilateral triangle",
+  "name": "EquilateralTriangle",
+  "properties": {
+    "https://openminds.om-i.org/props/sideLength": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the common length of the sides of this equilateral triangle.",
+      "label": "Side length",
+      "labelPlural": "Side lengths",
+      "name": "sideLength",
+      "nameForReverseLink": null,
+      "namePlural": "sideLengths"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/sideLength"
+  ]
+}

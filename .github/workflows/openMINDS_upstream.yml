@@ -1,19 +1,63 @@
 name: openMINDS_upstream
 
-on: 
-  - push
-  - workflow_dispatch
+on:
+  push:
+    branches:
+      - main
+  workflow_run:
+    workflows: ["openMINDS_build_pipeline"]
+    types:
+      - completed
+  workflow_dispatch:
   
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        include:
+          - repo: openMetadataInitiative/openMINDS_json-schema
+            workflow: build.yml
+            inputs: '{"branch":"${{ github.ref_name }}","repository":"${{ github.repository }}"}'
+
+          - repo: openMetadataInitiative/openMINDS_MATLAB
+            workflow: build.yml
+
+          - repo: openMetadataInitiative/openMINDS_Python
+            workflow: build.yml
+
+          - repo: openMetadataInitiative/openMINDS_Java
+            workflow: build.yml
+            inputs: '{"branch":"${{ github.ref_name }}","repository":"${{ github.repository }}"}'
+
+          - repo: openMetadataInitiative/openMINDS_LinkML
+            workflow: build.yml
+            inputs: '{"branch":"${{ github.ref_name }}","repository":"${{ github.repository }}"}'
+
+          - repo: openMetadataInitiative/openMINDS_OWL
+            workflow: build.yml
+            inputs: '{"branch":"${{ github.ref_name }}","repository":"${{ github.repository }}"}'
+
+          - repo: openMetadataInitiative/openMINDS_documentation
+            workflow: build.yml
+
+          - repo: openMetadataInitiative/openMINDS_documentation
+            workflow: htaccess-deploy.yml
+
     steps:
     - name: Trigger target repositories
       run: |
-        curl -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_json-schema/actions/workflows/build.yml/dispatches --data '{"ref": "pipeline"}'
-        curl -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_MATLAB/actions/workflows/build.yml/dispatches --data '{"ref": "pipeline"}'
-        curl -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_Python/actions/workflows/build.yml/dispatches --data '{"ref": "pipeline"}'
-        curl -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_Java/actions/workflows/build.yml/dispatches --data '{"ref": "pipeline"}'
-        curl -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_LinkML/actions/workflows/build.yml/dispatches --data '{"ref": "pipeline"}'
-        curl -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_OWL/actions/workflows/build.yml/dispatches --data '{"ref": "pipeline"}'
-        curl -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_documentation/actions/workflows/build.yml/dispatches --data '{"ref": "pipeline"}'
+        if [ -n "${{ matrix.inputs }}" ]; then
+          DATA='{"ref":"pipeline","inputs":${{ matrix.inputs }}}'
+        else
+          DATA='{"ref":"pipeline"}'
+        fi
+        
+        curl -s -w "\n${{ matrix.repo }}: %{http_code}\n" \
+          -X POST \
+          -u "${{ secrets.PAT_USERNAME }}:${{ secrets.PAT_TOKEN }}" \
+          -H "Accept: application/vnd.github+json" \
+          -H "Content-Type: application/json" \
+          https://api.github.com/repos/${{ matrix.repo }}/actions/workflows/${{ matrix.workflow }}/dispatches \
+          --data "$DATA"

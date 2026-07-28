@@ -1,0 +1,74 @@
+{
+  "_module": "computation",
+  "_type": "https://openminds.om-i.org/types/WorkflowExecution",
+  "color": "#F4ABAA",
+  "description": "Structured information about an execution of a computational workflow.",
+  "label": "Workflow execution",
+  "name": "WorkflowExecution",
+  "properties": {
+    "https://openminds.om-i.org/props/configuration": {
+      "_instruction": "Add the configuration information for this workflow execution.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/Configuration",
+        "https://openminds.om-i.org/types/File"
+      ],
+      "label": "Configuration",
+      "labelPlural": "Configurations",
+      "name": "configuration",
+      "nameForReverseLink": null,
+      "namePlural": "configurations"
+    },
+    "https://openminds.om-i.org/props/recipe": {
+      "_instruction": "Add the workflow recipe version used for this workflow execution.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/WorkflowRecipeVersion"
+      ],
+      "label": "Recipe",
+      "labelPlural": "Recipes",
+      "name": "recipe",
+      "nameForReverseLink": null,
+      "namePlural": "recipes"
+    },
+    "https://openminds.om-i.org/props/stage": {
+      "_belongsToCategory": [
+        "computationalActivity"
+      ],
+      "_instruction": "Add all stages that were performed in this workflow execution.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/DataAnalysis",
+        "https://openminds.om-i.org/types/DataCopy",
+        "https://openminds.om-i.org/types/GenericComputation",
+        "https://openminds.om-i.org/types/ModelValidation",
+        "https://openminds.om-i.org/types/Optimization",
+        "https://openminds.om-i.org/types/Simulation",
+        "https://openminds.om-i.org/types/Visualization"
+      ],
+      "label": "Stage",
+      "labelPlural": "Stages",
+      "minItems": 1,
+      "name": "stage",
+      "nameForReverseLink": null,
+      "namePlural": "stages",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/startedBy": {
+      "_belongsToCategory": [
+        "agent"
+      ],
+      "_instruction": "Add the agent that started this workflow execution.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SoftwareAgent",
+        "https://openminds.om-i.org/types/Person"
+      ],
+      "label": "Started by",
+      "labelPlural": "Started by",
+      "name": "startedBy",
+      "nameForReverseLink": null,
+      "namePlural": "startedBy"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/stage"
+  ]
+}

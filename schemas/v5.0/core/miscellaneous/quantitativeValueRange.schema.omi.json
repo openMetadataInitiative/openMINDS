@@ -1,0 +1,54 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/QuantitativeValueRange",
+  "color": "#A4E804",
+  "description": "A representation of a range of quantitative values.",
+  "label": "Quantitative value range",
+  "name": "QuantitativeValueRange",
+  "properties": {
+    "https://openminds.om-i.org/props/maxValue": {
+      "_instruction": "Enter the maximum value.",
+      "description": "Greatest quantity attained or allowed.",
+      "label": "Max value",
+      "labelPlural": "Max values",
+      "name": "maxValue",
+      "namePlural": "maxValues",
+      "type": "number"
+    },
+    "https://openminds.om-i.org/props/maxValueUnit": {
+      "_instruction": "Add the unit of measurement for the maximum value.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/UnitOfMeasurement"
+      ],
+      "label": "Max value unit",
+      "labelPlural": "Max value units",
+      "name": "maxValueUnit",
+      "nameForReverseLink": null,
+      "namePlural": "maxValueUnits"
+    },
+    "https://openminds.om-i.org/props/minValue": {
+      "_instruction": "Enter the minimum value.",
+      "description": "Smallest quantity attained or allowed.",
+      "label": "Min value",
+      "labelPlural": "Min values",
+      "name": "minValue",
+      "namePlural": "minValues",
+      "type": "number"
+    },
+    "https://openminds.om-i.org/props/minValueUnit": {
+      "_instruction": "Add the unit of measurement for the minimum value.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/UnitOfMeasurement"
+      ],
+      "label": "Min value unit",
+      "labelPlural": "Min value units",
+      "name": "minValueUnit",
+      "nameForReverseLink": null,
+      "namePlural": "minValueUnits"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/maxValue",
+    "https://openminds.om-i.org/props/minValue"
+  ]
+}

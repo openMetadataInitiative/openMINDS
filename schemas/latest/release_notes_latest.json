@@ -1,165 +1,27 @@
 {
   "title": "Release Notes latest",
-  "addedFiles": [
-    "controlledTerms/MRAcquisitionType.schema.omi.json"
-  ],
   "changes": [
     {
-      "file": "computation/validationTestVersion.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "ValidationTestVersion"
-    },
-    {
-      "file": "computation/workflowRecipeVersion.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "WorkflowRecipeVersion"
-    },
-    {
-      "file": "core/products/datasetVersion.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "DatasetVersion"
-    },
-    {
-      "file": "core/products/metaDataModelVersion.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "MetaDataModelVersion"
-    },
-    {
-      "file": "core/products/modelVersion.schema.omi.json",
+      "file": "core/miscellaneous/accessibility.schema.omi.json",
       "addedAttributes": [
-        "properties.props:configuration",
-        "properties.props:entryPoint"
+        "properties.props:application"
       ],
       "modifiedAttributes": [
         {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
+          "property": "properties.props:paymentModel._instruction"
         }
       ],
-      "schemaType": "ModelVersion"
+      "schemaType": "Accessibility"
     },
     {
-      "file": "core/products/softwareVersion.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
+      "file": "SANDS/atlas/parcellationEntityVersion.schema.omi.json",
+      "addedAttributes": [
+        "properties.props:versionSpecification"
       ],
-      "schemaType": "SoftwareVersion"
-    },
-    {
-      "file": "core/products/webServiceVersion.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
+      "removedAttributes": [
+        "properties.props:versionInnovation"
       ],
-      "schemaType": "WebServiceVersion"
-    },
-    {
-      "file": "publications/book.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "Book"
-    },
-    {
-      "file": "publications/chapter.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "Chapter"
-    },
-    {
-      "file": "publications/learningResource.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "LearningResource"
-    },
-    {
-      "file": "publications/livePaperResourceItem.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:hostedBy._instruction"
-        },
-        {
-          "property": "properties.props:hostedBy._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "LivePaperResourceItem"
-    },
-    {
-      "file": "publications/livePaperVersion.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "LivePaperVersion"
-    },
-    {
-      "file": "publications/scholarlyArticle.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "ScholarlyArticle"
-    },
-    {
-      "file": "SANDS/atlas/brainAtlasVersion.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "BrainAtlasVersion"
-    },
-    {
-      "file": "SANDS/atlas/commonCoordinateSpaceVersion.schema.omi.json",
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:keyword._linkedTypes",
-          "modification": "value(s) added"
-        }
-      ],
-      "schemaType": "CommonCoordinateSpaceVersion"
+      "schemaType": "ParcellationEntityVersion"
     }
   ]
 }

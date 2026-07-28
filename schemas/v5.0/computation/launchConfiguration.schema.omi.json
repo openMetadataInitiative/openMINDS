@@ -1,0 +1,70 @@
+{
+  "_module": "computation",
+  "_type": "https://openminds.om-i.org/types/LaunchConfiguration",
+  "color": "#E69034",
+  "description": "Structured information about the launch of a computational process.",
+  "label": "Launch configuration",
+  "name": "LaunchConfiguration",
+  "properties": {
+    "https://openminds.om-i.org/props/argument": {
+      "_instruction": "Enter all command line arguments for this launch configuration.",
+      "formatting": "text/plain",
+      "items": {
+        "type": "string"
+      },
+      "label": "Argument",
+      "labelPlural": "Arguments",
+      "minItems": 1,
+      "multiline": false,
+      "name": "argument",
+      "namePlural": "arguments",
+      "type": "array"
+    },
+    "https://openminds.om-i.org/props/description": {
+      "_instruction": "Enter a short text describing this launch configuration.",
+      "description": "Longer statement or account giving the characteristics of someone or something.",
+      "formatting": "text/markdown",
+      "label": "Description",
+      "labelPlural": "Descriptions",
+      "multiline": true,
+      "name": "description",
+      "namePlural": "descriptions",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/environmentVariable": {
+      "_instruction": "Add any environment variables defined by this launch configuration.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/PropertyValueList"
+      ],
+      "label": "Environment variable",
+      "labelPlural": "Environment variables",
+      "name": "environmentVariable",
+      "nameForReverseLink": null,
+      "namePlural": "environmentVariables"
+    },
+    "https://openminds.om-i.org/props/executable": {
+      "_instruction": "Enter the path to the command-line executable.",
+      "formatting": "text/plain",
+      "label": "Executable",
+      "labelPlural": "Executables",
+      "multiline": false,
+      "name": "executable",
+      "namePlural": "executables",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter a descriptive name for this launch configuration.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/executable"
+  ]
+}

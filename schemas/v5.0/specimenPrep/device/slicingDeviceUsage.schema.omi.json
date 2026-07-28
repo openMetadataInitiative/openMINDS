@@ -1,0 +1,136 @@
+{
+  "_categories": [
+    "deviceUsage"
+  ],
+  "_module": "specimenPrep",
+  "_type": "https://openminds.om-i.org/types/SlicingDeviceUsage",
+  "label": "Slicing device usage",
+  "name": "SlicingDeviceUsage",
+  "properties": {
+    "https://openminds.om-i.org/props/device": {
+      "_instruction": "Add the slicing device used.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SlicingDevice"
+      ],
+      "description": "Piece of equipment or mechanism (hardware) designed to serve a special purpose or perform a special function.",
+      "label": "Device",
+      "labelPlural": "Devices",
+      "name": "device",
+      "nameForReverseLink": null,
+      "namePlural": "devices"
+    },
+    "https://openminds.om-i.org/props/lookupLabel": {
+      "_instruction": "Enter a lookup label for this device usage that may help you to find this instance more easily.",
+      "formatting": "text/plain",
+      "label": "Lookup label",
+      "labelPlural": "Lookup labels",
+      "multiline": false,
+      "name": "lookupLabel",
+      "namePlural": "lookupLabels",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/metadataLocation": {
+      "_instruction": "Add all files or file bundles containing additional information about the usage of this device.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File",
+        "https://openminds.om-i.org/types/FileBundle"
+      ],
+      "label": "Metadata location",
+      "labelPlural": "Metadata locations",
+      "minItems": 1,
+      "name": "metadataLocation",
+      "nameForReverseLink": null,
+      "namePlural": "metadataLocations",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/oscillationAmplitude": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the oscillation amplitude of the blade from the slicing device during its use.",
+      "label": "Oscillation amplitude",
+      "labelPlural": "Oscillation amplitudes",
+      "name": "oscillationAmplitude",
+      "nameForReverseLink": null,
+      "namePlural": "oscillationAmplitudes"
+    },
+    "https://openminds.om-i.org/props/sliceThickness": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue",
+        "https://openminds.om-i.org/types/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the defined slice thickness during the use of this slicing device.",
+      "label": "Slice thickness",
+      "labelPlural": "Slice thicknesses",
+      "name": "sliceThickness",
+      "nameForReverseLink": null,
+      "namePlural": "sliceThicknesses"
+    },
+    "https://openminds.om-i.org/props/slicingAngle": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue",
+        "https://openminds.om-i.org/types/NumericalProperty"
+      ],
+      "_instruction": "Enter all slicing angles (intentional or unintentional) in relation to the slicing plane used during this activity.",
+      "label": "Slicing angle",
+      "labelPlural": "Slicing angles",
+      "maxItems": 2,
+      "minItems": 1,
+      "name": "slicingAngle",
+      "nameForReverseLink": null,
+      "namePlural": "slicingAngles",
+      "type": "array"
+    },
+    "https://openminds.om-i.org/props/slicingPlane": {
+      "_instruction": "Add the anatomical plane that best describes the slicing direction of the tissue sample(s) during the use of this slicing device.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/AnatomicalPlane"
+      ],
+      "label": "Slicing plane",
+      "labelPlural": "Slicing planes",
+      "name": "slicingPlane",
+      "nameForReverseLink": null,
+      "namePlural": "slicingPlanes"
+    },
+    "https://openminds.om-i.org/props/slicingSpeed": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the defined slicing speed during the use of this slicing device.",
+      "label": "Slicing speed",
+      "labelPlural": "Slicing speeds",
+      "name": "slicingSpeed",
+      "nameForReverseLink": null,
+      "namePlural": "slicingSpeeds"
+    },
+    "https://openminds.om-i.org/props/usedSpecimen": {
+      "_instruction": "Add the state of the tissue sample or subject that this device was used on.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/SubjectState",
+        "https://openminds.om-i.org/types/TissueSampleState"
+      ],
+      "label": "Used specimen",
+      "labelPlural": "Used specimens",
+      "name": "usedSpecimen",
+      "nameForReverseLink": null,
+      "namePlural": "usedSpecimens"
+    },
+    "https://openminds.om-i.org/props/vibrationFrequency": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the defined vibration frequency during the use of this slicing device.",
+      "label": "Vibration frequency",
+      "labelPlural": "Vibration frequencies",
+      "name": "vibrationFrequency",
+      "nameForReverseLink": null,
+      "namePlural": "vibrationFrequencies"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/device",
+    "https://openminds.om-i.org/props/sliceThickness",
+    "https://openminds.om-i.org/props/slicingPlane"
+  ]
+}

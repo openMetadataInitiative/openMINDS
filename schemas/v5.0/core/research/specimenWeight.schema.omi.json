@@ -1,0 +1,37 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/SpecimenWeight",
+  "label": "Specimen weight",
+  "name": "SpecimenWeight",
+  "properties": {
+    "https://openminds.om-i.org/props/type": {
+      "_instruction": "Enter the weight type for the specified weight value.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/WeightType"
+      ],
+      "description": "Distinct class to which a group of entities or concepts with similar characteristics or attributes belong to.",
+      "label": "Type",
+      "labelPlural": "Types",
+      "name": "type",
+      "nameForReverseLink": null,
+      "namePlural": "types"
+    },
+    "https://openminds.om-i.org/props/weight": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue",
+        "https://openminds.om-i.org/types/QuantitativeValueRange"
+      ],
+      "_instruction": "Enter the weight value.",
+      "description": "Amount that a thing or being weighs.",
+      "label": "Weight",
+      "labelPlural": "Weights",
+      "name": "weight",
+      "nameForReverseLink": null,
+      "namePlural": "weights"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/type",
+    "https://openminds.om-i.org/props/weight"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape",
+    "simplePolygon"
+  ],
+  "_module": "SANDS",
+  "_type": "https://openminds.om-i.org/types/Trapezoid",
+  "label": "Trapezoid",
+  "name": "Trapezoid",
+  "properties": {
+    "https://openminds.om-i.org/props/baseDistance": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the perpendicular distance between the parallel lines of the major and minor bases of this trapezoid.",
+      "label": "Base distance",
+      "labelPlural": "Base distances",
+      "name": "baseDistance",
+      "nameForReverseLink": null,
+      "namePlural": "baseDistances"
+    },
+    "https://openminds.om-i.org/props/baseLengths": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the lengths of the major and minor bases of this trapezoid.",
+      "label": "Base lengths",
+      "labelPlural": "Base lengths",
+      "maxItems": 2,
+      "minItems": 2,
+      "name": "baseLengths",
+      "nameForReverseLink": null,
+      "namePlural": "baseLengths",
+      "type": "array"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/baseDistance",
+    "https://openminds.om-i.org/props/baseLengths"
+  ]
+}
