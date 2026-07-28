@@ -35,6 +35,10 @@ jobs:
             workflow: build.yml
             inputs: '{"branch":"${{ github.ref_name }}","repository":"${{ github.repository }}"}'
 
+          - repo: openMetadataInitiative/openMINDS_OWL
+            workflow: build.yml
+            inputs: '{"branch":"${{ github.ref_name }}","repository":"${{ github.repository }}"}'
+
           - repo: openMetadataInitiative/openMINDS_documentation
             workflow: build.yml
 
