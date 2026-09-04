@@ -1859,6 +1859,9 @@
   },
   "Channel": {
     "backwardsCompatibility": {
+      "latest": [
+        "v4.0"
+      ],
       "v3.0": [],
       "v4.0": []
     },
@@ -1884,10 +1887,12 @@
         "v3.0"
       ],
       [
+        "latest",
         "v4.0"
       ]
     ],
     "isPartOfVersion": [
+      "latest",
       "v3.0",
       "v4.0"
     ],
@@ -6039,6 +6044,31 @@
     ],
     "label": "Grid image",
     "name": "GridImage"
+  },
+  "GridImageSequence": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Grid image sequence",
+    "name": "GridImageSequence"
   },
   "GridImageStack": {
     "backwardsCompatibility": {
@@ -11377,6 +11407,31 @@
     ],
     "label": "Regular polygon",
     "name": "RegularPolygon"
+  },
+  "RegularTimeSeries": {
+    "backwardsCompatibility": {
+      "latest": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest"
+    ],
+    "label": "Regular time series",
+    "name": "RegularTimeSeries"
   },
   "ResearchProductGroup": {
     "backwardsCompatibility": {

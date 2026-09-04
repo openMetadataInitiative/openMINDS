@@ -1,5 +1,10 @@
 Release Notes latest:
 
+Added files:
+  - core/data/channel.schema.omi.json
+  - core/data/gridImageSequence.schema.omi.json
+  - core/data/regularTimeSeries.schema.omi.json
+
 Changes in core/miscellaneous/accessibility.schema.omi.json:
   - Field 'properties.props:application' added.
   - Field 'properties.props:paymentModel._instruction' modified.
