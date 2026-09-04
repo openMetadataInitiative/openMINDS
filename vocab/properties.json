@@ -954,11 +954,13 @@
         "https://openminds.om-i.org/types/ChemicalMixture",
         "https://openminds.om-i.org/types/ChemicalSubstance",
         "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageSequence",
         "https://openminds.om-i.org/types/GridImageStack",
         "https://openminds.om-i.org/types/GridVolume",
         "https://openminds.om-i.org/types/GridVolumeSequence",
         "https://openminds.om-i.org/types/Measurement",
         "https://openminds.om-i.org/types/ParcellationEntityVersion",
+        "https://openminds.om-i.org/types/RegularTimeSeries",
         "https://openminds.om-i.org/types/SubjectGroup",
         "https://openminds.om-i.org/types/SubjectGroupState",
         "https://openminds.om-i.org/types/SubjectState",
@@ -2121,7 +2123,8 @@
     "asString": {
       "formatting": "text/plain",
       "inVersions": [
-        "latest"
+        "latest",
+        "v5.0"
       ],
       "multiline": false
     },
@@ -2129,7 +2132,8 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest"
+          "latest",
+          "v5.0"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -2140,6 +2144,9 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/Accessibility"
+      ],
+      "v5.0": [
         "https://openminds.om-i.org/types/Accessibility"
       ]
     }
@@ -3385,7 +3392,8 @@
           "https://openminds.om-i.org/types/Channel"
         ],
         "v5.0": [
-          "https://openminds.om-i.org/types/AccessChannel"
+          "https://openminds.om-i.org/types/AccessChannel",
+          "https://openminds.om-i.org/types/Channel"
         ]
       },
       "nameForReverseLink": null
@@ -3423,7 +3431,8 @@
         "https://openminds.om-i.org/types/Recording"
       ],
       "v5.0": [
-        "https://openminds.om-i.org/types/Accessibility"
+        "https://openminds.om-i.org/types/Accessibility",
+        "https://openminds.om-i.org/types/RegularTimeSeries"
       ]
     }
   },
@@ -4889,6 +4898,7 @@
         "https://openminds.om-i.org/types/CoordinatePoint",
         "https://openminds.om-i.org/types/CustomAnnotation",
         "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageSequence",
         "https://openminds.om-i.org/types/GridImageStack",
         "https://openminds.om-i.org/types/GridVolume",
         "https://openminds.om-i.org/types/GridVolumeSequence"
@@ -6179,11 +6189,13 @@
       "v5.0": [
         "https://openminds.om-i.org/types/CustomPropertySet",
         "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageSequence",
         "https://openminds.om-i.org/types/GridImageStack",
         "https://openminds.om-i.org/types/GridVolume",
         "https://openminds.om-i.org/types/GridVolumeSequence",
         "https://openminds.om-i.org/types/ParcellationTerminology",
         "https://openminds.om-i.org/types/ParcellationTerminologyVersion",
+        "https://openminds.om-i.org/types/RegularTimeSeries",
         "https://openminds.om-i.org/types/ServiceLink"
       ]
     }
@@ -8857,6 +8869,7 @@
       "v5.0": [
         "https://openminds.om-i.org/types/CranialWindowPreparation",
         "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageSequence",
         "https://openminds.om-i.org/types/GridImageStack",
         "https://openminds.om-i.org/types/GridVolume",
         "https://openminds.om-i.org/types/GridVolumeSequence"
@@ -14871,6 +14884,7 @@
       "v5.0": [
         "https://openminds.om-i.org/types/AtlasAnnotation",
         "https://openminds.om-i.org/types/BehavioralProtocol",
+        "https://openminds.om-i.org/types/Channel",
         "https://openminds.om-i.org/types/CustomAnnotation",
         "https://openminds.om-i.org/types/Electrode",
         "https://openminds.om-i.org/types/ElectrodeArray",
@@ -14879,6 +14893,7 @@
         "https://openminds.om-i.org/types/MRIScanner",
         "https://openminds.om-i.org/types/Pipette",
         "https://openminds.om-i.org/types/RecordingActivity",
+        "https://openminds.om-i.org/types/RegularTimeSeries",
         "https://openminds.om-i.org/types/SlicingDevice",
         "https://openminds.om-i.org/types/Subject",
         "https://openminds.om-i.org/types/SubjectGroup",
@@ -19332,6 +19347,7 @@
         "https://openminds.om-i.org/types/FileUsageRole",
         "https://openminds.om-i.org/types/GeneticStrainType",
         "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageSequence",
         "https://openminds.om-i.org/types/GridImageStack",
         "https://openminds.om-i.org/types/GridVolume",
         "https://openminds.om-i.org/types/GridVolumeSequence",
@@ -19391,6 +19407,7 @@
         "https://openminds.om-i.org/types/PublicationStatus",
         "https://openminds.om-i.org/types/PulseShape",
         "https://openminds.om-i.org/types/QualitativeOverlap",
+        "https://openminds.om-i.org/types/RegularTimeSeries",
         "https://openminds.om-i.org/types/ScholarlyArticle",
         "https://openminds.om-i.org/types/SemanticDataType",
         "https://openminds.om-i.org/types/ServiceDeployment",
@@ -19673,6 +19690,7 @@
         "https://openminds.om-i.org/types/GridImageStack"
       ],
       "v5.0": [
+        "https://openminds.om-i.org/types/GridImageSequence",
         "https://openminds.om-i.org/types/GridImageStack"
       ]
     }
@@ -19897,10 +19915,12 @@
       ],
       "v5.0": [
         "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageSequence",
         "https://openminds.om-i.org/types/GridImageStack",
         "https://openminds.om-i.org/types/GridVolume",
         "https://openminds.om-i.org/types/GridVolumeSequence",
-        "https://openminds.om-i.org/types/Measurement"
+        "https://openminds.om-i.org/types/Measurement",
+        "https://openminds.om-i.org/types/RegularTimeSeries"
       ]
     }
   },
@@ -22254,6 +22274,7 @@
       ],
       "v5.0": [
         "https://openminds.om-i.org/types/GridImage",
+        "https://openminds.om-i.org/types/GridImageSequence",
         "https://openminds.om-i.org/types/GridImageStack"
       ]
     }
@@ -23444,6 +23465,9 @@
       "canPointTo": {
         "latest": [
           "https://openminds.om-i.org/types/RegularTimeSeries"
+        ],
+        "v5.0": [
+          "https://openminds.om-i.org/types/RegularTimeSeries"
         ]
       },
       "nameForReverseLink": null
@@ -23452,7 +23476,8 @@
     "hasNamespace": [
       {
         "inVersions": [
-          "latest"
+          "latest",
+          "v5.0"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       }
@@ -23463,6 +23488,9 @@
     "namePlural": null,
     "usedIn": {
       "latest": [
+        "https://openminds.om-i.org/types/RegularTimeSeries"
+      ],
+      "v5.0": [
         "https://openminds.om-i.org/types/RegularTimeSeries"
       ]
     }
@@ -25987,6 +26015,9 @@
         ],
         "v4.0": [
           "https://openminds.om-i.org/types/QuantitativeValue"
+        ],
+        "v5.0": [
+          "https://openminds.om-i.org/types/QuantitativeValue"
         ]
       },
       "nameForReverseLink": null
@@ -25996,7 +26027,8 @@
       {
         "inVersions": [
           "latest",
-          "v4.0"
+          "v4.0",
+          "v5.0"
         ],
         "namespace": "https://openminds.om-i.org/props/"
       },
@@ -26020,6 +26052,9 @@
       ],
       "v4.0": [
         "https://openminds.om-i.org/types/Recording"
+      ],
+      "v5.0": [
+        "https://openminds.om-i.org/types/RegularTimeSeries"
       ]
     }
   },
@@ -30598,6 +30633,7 @@
         "https://openminds.om-i.org/types/GridVolumeSequence"
       ],
       "v5.0": [
+        "https://openminds.om-i.org/types/GridImageSequence",
         "https://openminds.om-i.org/types/GridVolumeSequence"
       ]
     }
@@ -31251,6 +31287,7 @@
         "https://openminds.om-i.org/types/QuantitativeValueArray"
       ],
       "v5.0": [
+        "https://openminds.om-i.org/types/Channel",
         "https://openminds.om-i.org/types/QuantitativeValue",
         "https://openminds.om-i.org/types/QuantitativeValueArray"
       ]

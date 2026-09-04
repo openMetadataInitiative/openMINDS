@@ -1,23 +1,6 @@
 {
   "title": "Release Notes latest",
-  "addedFiles": [
-    "core/data/channel.schema.omi.json",
-    "core/data/gridImageSequence.schema.omi.json",
-    "core/data/regularTimeSeries.schema.omi.json"
-  ],
   "changes": [
-    {
-      "file": "core/miscellaneous/accessibility.schema.omi.json",
-      "addedAttributes": [
-        "properties.props:application"
-      ],
-      "modifiedAttributes": [
-        {
-          "property": "properties.props:paymentModel._instruction"
-        }
-      ],
-      "schemaType": "Accessibility"
-    },
     {
       "file": "SANDS/atlas/parcellationEntityVersion.schema.omi.json",
       "addedAttributes": [

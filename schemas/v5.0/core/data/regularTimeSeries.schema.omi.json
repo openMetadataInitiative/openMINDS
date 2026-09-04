@@ -1,0 +1,111 @@
+{
+  "_module": "core",
+  "_type": "https://openminds.om-i.org/types/RegularTimeSeries",
+  "label": "Regular time series",
+  "name": "RegularTimeSeries",
+  "properties": {
+    "https://openminds.om-i.org/props/additionalRemarks": {
+      "_instruction": "Enter any additional remarks concerning this regular time series.",
+      "description": "Mention of what deserves additional attention or notice.",
+      "formatting": "text/markdown",
+      "label": "Additional remarks",
+      "labelPlural": "Additional remarks",
+      "multiline": true,
+      "name": "additionalRemarks",
+      "namePlural": "additionalRemarks",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/channel": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/Channel"
+      ],
+      "_instruction": "Enter all channels used for this regular time series.",
+      "label": "Channel",
+      "labelPlural": "Channels",
+      "minItems": 1,
+      "name": "channel",
+      "nameForReverseLink": null,
+      "namePlural": "channels",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "https://openminds.om-i.org/props/dataLocation": {
+      "_instruction": "Add the location of the file or file bundle in which the recorded data is stored.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/File",
+        "https://openminds.om-i.org/types/FileBundle"
+      ],
+      "label": "Data location",
+      "labelPlural": "Data locations",
+      "name": "dataLocation",
+      "nameForReverseLink": null,
+      "namePlural": "dataLocations"
+    },
+    "https://openminds.om-i.org/props/internalIdentifier": {
+      "_instruction": "Enter the identifier (or label) of this regular time series that is used within the corresponding data files to identify this regular time series.",
+      "description": "Term or code that identifies someone or something within a particular product.",
+      "formatting": "text/plain",
+      "label": "Internal identifier",
+      "labelPlural": "Internal identifiers",
+      "multiline": false,
+      "name": "internalIdentifier",
+      "namePlural": "internalIdentifiers",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/name": {
+      "_instruction": "Enter a descriptive name for this regular time series.",
+      "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
+      "formatting": "text/plain",
+      "label": "Name",
+      "labelPlural": "Names",
+      "multiline": false,
+      "name": "name",
+      "namePlural": "names",
+      "type": "string"
+    },
+    "https://openminds.om-i.org/props/obtainedWith": {
+      "_belongsToCategory": [
+        "deviceUsage"
+      ],
+      "_instruction": "Add the used device for obtaining this regular time series.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/ElectrodeArrayUsage",
+        "https://openminds.om-i.org/types/ElectrodeUsage",
+        "https://openminds.om-i.org/types/PipetteUsage",
+        "https://openminds.om-i.org/types/MRICoilUsage",
+        "https://openminds.om-i.org/types/MRIScannerUsage",
+        "https://openminds.om-i.org/types/SlicingDeviceUsage"
+      ],
+      "label": "Obtained with",
+      "labelPlural": "Obtained with",
+      "name": "obtainedWith",
+      "nameForReverseLink": null,
+      "namePlural": "obtainedWith"
+    },
+    "https://openminds.om-i.org/props/previousRegularTimeSeries": {
+      "_instruction": "If this regular time series is part of a sequence of regular time seriess (e.g., multiple repetitions or sweeps), add the regular time series preceding this regular time series.",
+      "_linkedTypes": [
+        "https://openminds.om-i.org/types/RegularTimeSeries"
+      ],
+      "label": "Previous regular time series",
+      "name": "previousRegularTimeSeries",
+      "nameForReverseLink": null
+    },
+    "https://openminds.om-i.org/props/samplingFrequency": {
+      "_embeddedTypes": [
+        "https://openminds.om-i.org/types/QuantitativeValue"
+      ],
+      "_instruction": "Enter the sampling frequency of this regular time series.",
+      "label": "Sampling frequency",
+      "labelPlural": "Sampling frequencies",
+      "name": "samplingFrequency",
+      "nameForReverseLink": null,
+      "namePlural": "samplingFrequencies"
+    }
+  },
+  "required": [
+    "https://openminds.om-i.org/props/channel",
+    "https://openminds.om-i.org/props/dataLocation",
+    "https://openminds.om-i.org/props/samplingFrequency"
+  ]
+}

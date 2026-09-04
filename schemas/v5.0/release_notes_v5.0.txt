@@ -40,9 +40,11 @@ Added files:
   - controlledTerms/vascularStructure.schema.omi.json
   - controlledTerms/weightType.schema.omi.json
   - core/data/gridImage.schema.omi.json
+  - core/data/gridImageSequence.schema.omi.json
   - core/data/gridImageStack.schema.omi.json
   - core/data/gridVolume.schema.omi.json
   - core/data/gridVolumeSequence.schema.omi.json
+  - core/data/regularTimeSeries.schema.omi.json
   - core/data/usageAgreement.schema.omi.json
   - core/digitalIdentifier/genericIdentifier.schema.omi.json
   - core/digitalIdentifier/ISNI.schema.omi.json
@@ -96,7 +98,6 @@ Removed files:
   - core/digitalIdentifier/GRIDID.schema.omi.json
   - core/products/webService.schema.omi.json
   - core/products/webServiceVersion.schema.omi.json
-  - ephys/entity/channel.schema.omi.json
   - ephys/entity/recording.schema.omi.json
   - SANDS/atlas/brainAtlas.schema.omi.json
   - SANDS/atlas/brainAtlasVersion.schema.omi.json
@@ -105,6 +106,7 @@ Removed files:
   - SANDS/non-atlas/customCoordinateSpace.schema.omi.json
 
 Moved files:
+  - ephys/entity/channel.schema.omi.json moved to core/data/channel.schema.omi.json
   - computation/localFile.schema.omi.json moved to core/data/localFile.schema.omi.json
   - controlledTerms/service.schema.omi.json moved to core/products/service.schema.omi.json
   - SANDS/mathematicalShapes/circle.schema.omi.json moved to SANDS/mathematicalShape/circle.schema.omi.json
