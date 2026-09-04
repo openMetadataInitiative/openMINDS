@@ -4,7 +4,7 @@ import sys
 from openMINDS_pipeline.models import DirectoryStructure, Trigger
 from openMINDS_pipeline.resolver import resolve_extends, resolve_categories
 from openMINDS_pipeline.utils import clone_sources, find_schemas, evaluate_versions_to_be_built, clone_central, \
-    qualify_property_names, copy_to_target_directory, update_relevant_versions_from_repo
+    qualify_property_names, copy_to_target_directory, update_relevant_versions_from_repo, check_schema_file_names
 from openMINDS_pipeline.vocab import TypeExtractor, Types, PropertyExtractor, Property, enrich_with_types_and_properties
 from openMINDS_pipeline.schema_comparator import generate_changelogs_and_compatibility_resolution
 
@@ -37,6 +37,8 @@ for version, modules in relevant_versions.items():
     clone_sources(modules, version)
 
     # Step 3 - Find all involved schemas
+    # (Fail early if a module carries schema files the build would otherwise ignore silently)
+    check_schema_file_names(directory_structure, modules, version)
     all_schemas = find_schemas(directory_structure, modules, namespaces[version])
 
     # Step 4 - Resolve all "_extends" directives and save to target directory
@@ -51,7 +53,7 @@ for version, modules in relevant_versions.items():
     # Step 7 - Extract types from sources and update types.json
     extracted_types = TypeExtractor(directory_structure, version).extract_types(all_schemas)
 
-    # Step 8- Extract properties from source and update properties.json
+    # Step 8 - Extract properties from source and update properties.json
     extracted_properties = PropertyExtractor(directory_structure, version).extract_properties(all_schemas)
 
     # Step 9 - Enrich the schemas with central types and properties information
