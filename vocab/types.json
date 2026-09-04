@@ -2003,8 +2003,15 @@
   },
   "Channel": {
     "backwardsCompatibility": {
+      "latest": [
+        "v5.0",
+        "v4.0"
+      ],
       "v3.0": [],
-      "v4.0": []
+      "v4.0": [],
+      "v5.0": [
+        "v4.0"
+      ]
     },
     "color": "#5D3033",
     "description": null,
@@ -2012,7 +2019,8 @@
       {
         "inVersions": [
           "latest",
-          "v4.0"
+          "v4.0",
+          "v5.0"
         ],
         "namespace": "https://openminds.om-i.org/types/"
       },
@@ -2028,12 +2036,16 @@
         "v3.0"
       ],
       [
-        "v4.0"
+        "latest",
+        "v4.0",
+        "v5.0"
       ]
     ],
     "isPartOfVersion": [
+      "latest",
       "v3.0",
-      "v4.0"
+      "v4.0",
+      "v5.0"
     ],
     "label": "Channel",
     "name": "Channel"
@@ -6320,6 +6332,37 @@
     ],
     "label": "Grid image",
     "name": "GridImage"
+  },
+  "GridImageSequence": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v5.0"
+      ],
+      "v5.0": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v5.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest",
+        "v5.0"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest",
+      "v5.0"
+    ],
+    "label": "Grid image sequence",
+    "name": "GridImageSequence"
   },
   "GridImageStack": {
     "backwardsCompatibility": {
@@ -11817,6 +11860,37 @@
     ],
     "label": "Regular polygon",
     "name": "RegularPolygon"
+  },
+  "RegularTimeSeries": {
+    "backwardsCompatibility": {
+      "latest": [
+        "v5.0"
+      ],
+      "v5.0": []
+    },
+    "color": null,
+    "description": null,
+    "hasNamespace": [
+      {
+        "inVersions": [
+          "latest",
+          "v5.0"
+        ],
+        "namespace": "https://openminds.om-i.org/types/"
+      }
+    ],
+    "identical": [
+      [
+        "latest",
+        "v5.0"
+      ]
+    ],
+    "isPartOfVersion": [
+      "latest",
+      "v5.0"
+    ],
+    "label": "Regular time series",
+    "name": "RegularTimeSeries"
   },
   "ResearchProductGroup": {
     "backwardsCompatibility": {
