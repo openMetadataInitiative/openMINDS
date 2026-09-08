@@ -100,7 +100,7 @@
           "https://openminds.om-i.org/types/MRIWeighting"
         ]
       },
-      "nameForReverseLink": "isMRIWeightingOf"
+      "nameForReverseLink": "appliesToMRIScannerUsage"
     },
     "description": null,
     "hasNamespace": [
@@ -135,7 +135,7 @@
           "https://openminds.om-i.org/types/PulseShape"
         ]
       },
-      "nameForReverseLink": "isPulseShapeOf"
+      "nameForReverseLink": "appliesToMRIScannerUsage"
     },
     "description": null,
     "hasNamespace": [
@@ -482,7 +482,7 @@
           "https://openminds.om-i.org/types/ModelAbstractionLevel"
         ]
       },
-      "nameForReverseLink": "isAbstractionLevelOf"
+      "nameForReverseLink": "appliesToModel"
     },
     "description": "Extent of simplification of physical, spatial, or temporal details or attributes in the study of objects or systems.",
     "hasNamespace": [
@@ -574,7 +574,7 @@
           "https://openminds.om-i.org/types/Accessibility"
         ]
       },
-      "nameForReverseLink": "isAccessibilityOf"
+      "nameForReverseLink": "appliesToResearchProductVersion"
     },
     "description": "Level to which something is accessible to someone or something.",
     "hasNamespace": [
@@ -1174,7 +1174,7 @@
           "https://openminds.om-i.org/types/AgeCategory"
         ]
       },
-      "nameForReverseLink": "isAgeCategoryOf"
+      "nameForReverseLink": "appliesToSubjectState"
     },
     "description": "Distinct life cycle class that is defined by a similar age or age range (developmental stage) within a group of individual beings.",
     "hasNamespace": [
@@ -1463,7 +1463,7 @@
           "https://openminds.om-i.org/types/AnatomicalAxesOrientation"
         ]
       },
-      "nameForReverseLink": "isAnatomicalAxesOrientationOf"
+      "nameForReverseLink": "isOrientationOf"
     },
     "description": "Relation between reference planes used in anatomy and mathematics.",
     "hasNamespace": [
@@ -2131,7 +2131,7 @@
           "https://openminds.om-i.org/types/SoftwareApplicationCategory"
         ]
       },
-      "nameForReverseLink": "isApplicationCategoryOf"
+      "nameForReverseLink": "appliesToSoftwareVersion"
     },
     "description": "Distinct class that groups software programs which perform a similar task or set of tasks.",
     "hasNamespace": [
@@ -2334,7 +2334,7 @@
           "https://openminds.om-i.org/types/TissueSampleAttribute"
         ]
       },
-      "nameForReverseLink": "isAttributeOf"
+      "nameForReverseLink": "appliesToSpecimenState"
     },
     "description": null,
     "hasNamespace": [
@@ -2406,7 +2406,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": "isAuthorOf"
+      "nameForReverseLink": "authored"
     },
     "description": "Creator of a literary or creative work, as well as a dataset publication.",
     "hasNamespace": [
@@ -3215,7 +3215,7 @@
           "https://openminds.om-i.org/types/BreedingType"
         ]
       },
-      "nameForReverseLink": "isBreedingTypeOf"
+      "nameForReverseLink": "appliesToStrain"
     },
     "description": null,
     "hasNamespace": [
@@ -3358,7 +3358,7 @@
           "https://openminds.om-i.org/types/AccessChannel"
         ]
       },
-      "nameForReverseLink": "isChannelOf"
+      "nameForReverseLink": "appliesToAccessibility"
     },
     "description": null,
     "hasNamespace": [
@@ -3420,7 +3420,7 @@
           "https://openminds.om-i.org/types/MolecularEntity"
         ]
       },
-      "nameForReverseLink": "isChemicalProductOf"
+      "nameForReverseLink": "usedInAmount"
     },
     "description": null,
     "hasNamespace": [
@@ -3680,7 +3680,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": "isCommenterOf"
+      "nameForReverseLink": "commented"
     },
     "description": null,
     "hasNamespace": [
@@ -3728,7 +3728,7 @@
           "https://openminds.om-i.org/types/CommunicationProtocol"
         ]
       },
-      "nameForReverseLink": "isCommunicationProtocolOf"
+      "nameForReverseLink": "usedByInterface"
     },
     "description": null,
     "hasNamespace": [
@@ -3831,7 +3831,7 @@
           "https://openminds.om-i.org/types/MolecularEntity"
         ]
       },
-      "nameForReverseLink": "isConductorMaterialOf"
+      "nameForReverseLink": "isConductorOf"
     },
     "description": null,
     "hasNamespace": [
@@ -3901,7 +3901,7 @@
           "https://openminds.om-i.org/types/WebResource"
         ]
       },
-      "nameForReverseLink": "isConfigurationOf"
+      "nameForReverseLink": "configures"
     },
     "asString": {
       "formatting": "text/plain",
@@ -3979,7 +3979,7 @@
           "https://openminds.om-i.org/types/CranialWindowConstructionType"
         ]
       },
-      "nameForReverseLink": "isConstructionTypeOf"
+      "nameForReverseLink": "appliesToCranialWindowPreparation"
     },
     "description": null,
     "hasNamespace": [
@@ -4039,7 +4039,7 @@
           "https://openminds.om-i.org/types/ContactInformation"
         ]
       },
-      "nameForReverseLink": "isContactInformationOf"
+      "nameForReverseLink": "appliesToLegalPerson"
     },
     "description": "Any available way used to contact a person or business (e.g., address, phone number, email address, etc.).",
     "hasNamespace": [
@@ -4316,7 +4316,7 @@
           "https://openminds.om-i.org/types/ContentType"
         ]
       },
-      "nameForReverseLink": "isContentTypeOf"
+      "nameForReverseLink": "contentTypePattern"
     },
     "description": null,
     "hasNamespace": [
@@ -4377,7 +4377,7 @@
           "https://openminds.om-i.org/types/ContentTypePattern"
         ]
       },
-      "nameForReverseLink": "isContentTypePatternOf"
+      "nameForReverseLink": "definesContentTypeFor"
     },
     "description": null,
     "hasNamespace": [
@@ -4531,7 +4531,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": "isContributionOf"
+      "nameForReverseLink": "contributedTo"
     },
     "description": null,
     "hasNamespace": [
@@ -4687,7 +4687,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": "isContributorOf"
+      "nameForReverseLink": "contribution"
     },
     "description": "Legal person that gave or supplied something as a part or share.",
     "hasNamespace": [
@@ -5054,7 +5054,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": "isCoordinatorOf"
+      "nameForReverseLink": "coordinatedProject"
     },
     "description": "Legal person who organizes the collaborative work of people or groups.",
     "hasNamespace": [
@@ -5332,7 +5332,7 @@
           "https://openminds.om-i.org/types/SovereignState"
         ]
       },
-      "nameForReverseLink": "isCountryOf"
+      "nameForReverseLink": "containsLocation"
     },
     "description": null,
     "hasNamespace": [
@@ -5683,7 +5683,7 @@
           "https://openminds.om-i.org/types/ChemicalMixture"
         ]
       },
-      "nameForReverseLink": "isCultureMediumOf"
+      "nameForReverseLink": "usedForTissueCulture"
     },
     "description": null,
     "hasNamespace": [
@@ -5737,7 +5737,7 @@
           "https://openminds.om-i.org/types/CellCultureType"
         ]
       },
-      "nameForReverseLink": "isCultureTypeOf"
+      "nameForReverseLink": "appliesToTissueCulturePreparation"
     },
     "description": null,
     "hasNamespace": [
@@ -6246,7 +6246,7 @@
           "https://openminds.om-i.org/types/File"
         ]
       },
-      "nameForReverseLink": "isDefaultImageOf"
+      "nameForReverseLink": "isDefaultImageFor"
     },
     "description": "Two or three dimensional image that particluarly represents a specific coordinate space.",
     "hasNamespace": [
@@ -6949,7 +6949,7 @@
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
         ]
       },
-      "nameForReverseLink": "hasDelivered"
+      "nameForReverseLink": "deliveredStimulus"
     },
     "description": null,
     "hasNamespace": [
@@ -7044,7 +7044,7 @@
           "https://openminds.om-i.org/types/WorkflowRecipeVersion"
         ]
       },
-      "nameForReverseLink": "hasDependent"
+      "nameForReverseLink": "isDependencyOf"
     },
     "description": null,
     "hasNamespace": [
@@ -8032,7 +8032,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": "isDeveloperOf"
+      "nameForReverseLink": "developed"
     },
     "description": "Legal person that creates or improves products or services (e.g., software, applications, etc.).",
     "hasNamespace": [
@@ -8253,7 +8253,7 @@
           "https://openminds.om-i.org/types/DeviceType"
         ]
       },
-      "nameForReverseLink": "isDeviceTypeOf"
+      "nameForReverseLink": "appliesToDevice"
     },
     "description": null,
     "hasNamespace": [
@@ -8519,7 +8519,7 @@
           "https://openminds.om-i.org/types/SWHID"
         ]
       },
-      "nameForReverseLink": "isDigitalIdentifierOf"
+      "nameForReverseLink": "identifies"
     },
     "asString": {
       "formatting": "text/plain",
@@ -8844,7 +8844,7 @@
           "https://openminds.om-i.org/types/DiseaseModel"
         ]
       },
-      "nameForReverseLink": "isDiseaseModelOf"
+      "nameForReverseLink": "isModeledBy"
     },
     "description": null,
     "hasNamespace": [
@@ -9163,7 +9163,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": "isEditorOf"
+      "nameForReverseLink": "edited"
     },
     "description": null,
     "hasNamespace": [
@@ -9216,7 +9216,7 @@
           "https://openminds.om-i.org/types/EducationalLevel"
         ]
       },
-      "nameForReverseLink": "isEducationalLevelOf"
+      "nameForReverseLink": "appliesToLearningResource"
     },
     "description": null,
     "hasNamespace": [
@@ -9429,7 +9429,7 @@
           "https://openminds.om-i.org/types/AccessEligibilityType"
         ]
       },
-      "nameForReverseLink": "isEligibilityOf"
+      "nameForReverseLink": "appliesToAccessibility"
     },
     "description": null,
     "hasNamespace": [
@@ -9521,7 +9521,7 @@
           "https://openminds.om-i.org/types/Organization"
         ]
       },
-      "nameForReverseLink": "isEmitterOf"
+      "nameForReverseLink": "emitted"
     },
     "description": null,
     "hasNamespace": [
@@ -9873,7 +9873,7 @@
           "https://openminds.om-i.org/types/Service"
         ]
       },
-      "nameForReverseLink": "isEnvironmentOf"
+      "nameForReverseLink": "usedForComputation"
     },
     "description": null,
     "hasNamespace": [
@@ -9955,7 +9955,7 @@
           "https://openminds.om-i.org/types/PropertyValueList"
         ]
       },
-      "nameForReverseLink": "isEnvironmentVariableOf"
+      "nameForReverseLink": "definesEnvironmentOf"
     },
     "description": null,
     "hasNamespace": [
@@ -10098,7 +10098,7 @@
           "https://openminds.om-i.org/types/EthicsAssessment"
         ]
       },
-      "nameForReverseLink": "isEthicsAssessmentOf"
+      "nameForReverseLink": "appliesToResearchProductVersion"
     },
     "description": "Judgment about the applied principles of conduct governing an individual or a group.",
     "hasNamespace": [
@@ -10243,7 +10243,7 @@
           "https://openminds.om-i.org/types/ExperimentalApproach"
         ]
       },
-      "nameForReverseLink": "isExperimentalApproachOf"
+      "nameForReverseLink": "appliesToDatasetVersion"
     },
     "description": null,
     "hasNamespace": [
@@ -10387,7 +10387,7 @@
           "https://openminds.om-i.org/types/DependencyImpact"
         ]
       },
-      "nameForReverseLink": "isFailureImpactOf"
+      "nameForReverseLink": "isImpactOf"
     },
     "description": null,
     "hasNamespace": [
@@ -10479,7 +10479,7 @@
           "https://openminds.om-i.org/types/MRIFatSuppressionTechnique"
         ]
       },
-      "nameForReverseLink": "isFatSuppressionTechniqueOf"
+      "nameForReverseLink": "appliesToMRIScannerUsage"
     },
     "description": null,
     "hasNamespace": [
@@ -10520,7 +10520,7 @@
           "https://openminds.om-i.org/types/SoftwareFeature"
         ]
       },
-      "nameForReverseLink": "isFeatureOf"
+      "nameForReverseLink": "appliesToSoftwareVersion"
     },
     "description": "Structure, form, or appearance that characterizes something or someone.",
     "hasNamespace": [
@@ -10723,7 +10723,7 @@
           "https://openminds.om-i.org/types/FileRepository"
         ]
       },
-      "nameForReverseLink": "isFileRepositoryOf"
+      "nameForReverseLink": "file"
     },
     "description": null,
     "hasNamespace": [
@@ -10814,7 +10814,7 @@
           "https://openminds.om-i.org/types/AccessForm"
         ]
       },
-      "nameForReverseLink": "isFormOf"
+      "nameForReverseLink": "appliesToAccessibility"
     },
     "description": null,
     "hasNamespace": [
@@ -10967,7 +10967,7 @@
           "https://openminds.om-i.org/types/WebResource"
         ]
       },
-      "nameForReverseLink": "hasFulfilled"
+      "nameForReverseLink": "fulfils"
     },
     "description": null,
     "hasNamespace": [
@@ -11018,7 +11018,7 @@
           "https://openminds.om-i.org/types/WebResource"
         ]
       },
-      "nameForReverseLink": "isFullDocumentationOf"
+      "nameForReverseLink": "fullyDocuments"
     },
     "description": "Non-abridged instructions, comments, and information for using a particular product.",
     "hasNamespace": [
@@ -11359,7 +11359,7 @@
           "https://openminds.om-i.org/types/Funding"
         ]
       },
-      "nameForReverseLink": "isFundingOf"
+      "nameForReverseLink": "funded"
     },
     "description": "Money provided by a legal person for a particular purpose.",
     "hasNamespace": [
@@ -11495,7 +11495,7 @@
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
         ]
       },
-      "nameForReverseLink": "hasGenerated"
+      "nameForReverseLink": "generated"
     },
     "description": null,
     "hasNamespace": [
@@ -11549,7 +11549,7 @@
           "https://openminds.om-i.org/types/GeneticStrainType"
         ]
       },
-      "nameForReverseLink": "isGeneticStrainTypeOf"
+      "nameForReverseLink": "appliesToStrain"
     },
     "description": null,
     "hasNamespace": [
@@ -12074,7 +12074,7 @@
           "https://openminds.om-i.org/types/Handedness"
         ]
       },
-      "nameForReverseLink": "isHandednessOf"
+      "nameForReverseLink": "appliesToSubjectState"
     },
     "description": "Degree to which an organism prefers one hand or foot over the other hand or foot during the performance of a task.",
     "hasNamespace": [
@@ -12334,7 +12334,7 @@
           "https://openminds.om-i.org/types/ParcellationEntityVersion"
         ]
       },
-      "nameForReverseLink": "isEntityOf"
+      "nameForReverseLink": "appliesToParcellationTerminology"
     },
     "description": null,
     "hasNamespace": [
@@ -12993,7 +12993,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": "isHolderOf"
+      "nameForReverseLink": "holdsCopyright"
     },
     "description": "Legal person in possession of something.",
     "hasNamespace": [
@@ -13624,7 +13624,7 @@
           "https://openminds.om-i.org/types/InterfaceVersion"
         ]
       },
-      "nameForReverseLink": "hasImplementation"
+      "nameForReverseLink": "isImplementedBy"
     },
     "description": null,
     "hasNamespace": [
@@ -14168,7 +14168,7 @@
           "https://openminds.om-i.org/types/File"
         ]
       },
-      "nameForReverseLink": "hasInspired"
+      "nameForReverseLink": "inspired"
     },
     "description": "Reference to an inspiring element.",
     "hasNamespace": [
@@ -14243,7 +14243,7 @@
           "https://openminds.om-i.org/types/MolecularEntity"
         ]
       },
-      "nameForReverseLink": "isInsulatorMaterialOf"
+      "nameForReverseLink": "insulates"
     },
     "description": null,
     "hasNamespace": [
@@ -14365,7 +14365,7 @@
           "https://openminds.om-i.org/types/CommunicationInterfaceType"
         ]
       },
-      "nameForReverseLink": "isInterfaceTypeOf"
+      "nameForReverseLink": "appliesToInterface"
     },
     "description": null,
     "hasNamespace": [
@@ -16445,7 +16445,7 @@
           "https://openminds.om-i.org/types/MolecularEntity"
         ]
       },
-      "nameForReverseLink": "isLabelingCompoundOf"
+      "nameForReverseLink": "usedToLabel"
     },
     "description": null,
     "hasNamespace": [
@@ -16552,7 +16552,7 @@
           "https://openminds.om-i.org/types/Language"
         ]
       },
-      "nameForReverseLink": "isLanguageOf"
+      "nameForReverseLink": "appliesToResearchProductVersion"
     },
     "description": "System of communication (words, their pronunciation, and the methods of combining them) used and understood by a particular community.",
     "hasNamespace": [
@@ -16723,7 +16723,7 @@
           "https://openminds.om-i.org/types/LaunchConfiguration"
         ]
       },
-      "nameForReverseLink": "isConfiguredBy"
+      "nameForReverseLink": "configures"
     },
     "description": null,
     "hasNamespace": [
@@ -17020,7 +17020,7 @@
           "https://openminds.om-i.org/types/WebResource"
         ]
       },
-      "nameForReverseLink": "isLicenseOf"
+      "nameForReverseLink": "isAppliedTo"
     },
     "description": "Grant by a party to another party as an element of an agreement between those parties that permits to do, use, or own something.",
     "hasNamespace": [
@@ -17692,7 +17692,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": "isManufacturerOf"
+      "nameForReverseLink": "manufactured"
     },
     "description": null,
     "hasNamespace": [
@@ -17939,7 +17939,7 @@
           "https://openminds.om-i.org/types/MeasuredQuantity"
         ]
       },
-      "nameForReverseLink": "isMeasuredQuantityOf"
+      "nameForReverseLink": "appliesToMeasurement"
     },
     "description": null,
     "hasNamespace": [
@@ -17993,7 +17993,7 @@
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
         ]
       },
-      "nameForReverseLink": "hasMeasurement"
+      "nameForReverseLink": "usedToMeasure"
     },
     "description": null,
     "hasNamespace": [
@@ -18038,7 +18038,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": "isMemberOf"
+      "nameForReverseLink": "hasMembership"
     },
     "description": null,
     "hasNamespace": [
@@ -18563,7 +18563,7 @@
           "https://openminds.om-i.org/types/MolecularEntity"
         ]
       },
-      "nameForReverseLink": "isMolecularEntityOf"
+      "nameForReverseLink": "composes"
     },
     "description": null,
     "hasNamespace": [
@@ -18683,7 +18683,7 @@
           "https://openminds.om-i.org/types/DeviceMountingType"
         ]
       },
-      "nameForReverseLink": "isMountingTypeOf"
+      "nameForReverseLink": "appliesToDevice"
     },
     "description": null,
     "hasNamespace": [
@@ -19825,7 +19825,7 @@
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
         ]
       },
-      "nameForReverseLink": "hasObtained"
+      "nameForReverseLink": "usedToObtain"
     },
     "description": null,
     "hasNamespace": [
@@ -20100,7 +20100,7 @@
           "https://openminds.om-i.org/types/OperatingDevice"
         ]
       },
-      "nameForReverseLink": "isOperatingDeviceOf"
+      "nameForReverseLink": "runs"
     },
     "description": null,
     "hasNamespace": [
@@ -20147,7 +20147,7 @@
           "https://openminds.om-i.org/types/OperatingSystem"
         ]
       },
-      "nameForReverseLink": "isOperatingSystemOf"
+      "nameForReverseLink": "runs"
     },
     "description": "Software that controls the operation of a computer and directs the processing of programs.",
     "hasNamespace": [
@@ -20250,7 +20250,7 @@
           "https://openminds.om-i.org/types/Organization"
         ]
       },
-      "nameForReverseLink": "isOrganizationOf"
+      "nameForReverseLink": "hasAffiliation"
     },
     "description": "Legally accountable, administrative and functional structure.",
     "hasNamespace": [
@@ -21477,7 +21477,7 @@
           "https://openminds.om-i.org/types/MRIParallelAcquisitionTechnique"
         ]
       },
-      "nameForReverseLink": "isParallelAcquisitionTechniqueOf"
+      "nameForReverseLink": "appliesToMRIScannerUsage"
     },
     "description": null,
     "hasNamespace": [
@@ -21755,7 +21755,7 @@
           "https://openminds.om-i.org/types/PaymentModelType"
         ]
       },
-      "nameForReverseLink": "isPaymentModelOf"
+      "nameForReverseLink": "appliesToAccessibility"
     },
     "description": null,
     "hasNamespace": [
@@ -21800,7 +21800,7 @@
           "https://openminds.om-i.org/types/SoftwareAgent"
         ]
       },
-      "nameForReverseLink": "hasPerformed"
+      "nameForReverseLink": "performed"
     },
     "description": null,
     "hasNamespace": [
@@ -21941,7 +21941,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": "isPersonOf"
+      "nameForReverseLink": "hasAffiliation"
     },
     "description": null,
     "hasNamespace": [
@@ -22557,7 +22557,7 @@
           "https://openminds.om-i.org/types/SingleColor"
         ]
       },
-      "nameForReverseLink": "isPreferredDisplayColorOf"
+      "nameForReverseLink": "preferredBy"
     },
     "description": null,
     "hasNamespace": [
@@ -23212,7 +23212,7 @@
           "https://openminds.om-i.org/types/PreparationType"
         ]
       },
-      "nameForReverseLink": "isPreparationTypeOf"
+      "nameForReverseLink": "appliesToDatasetVersion"
     },
     "description": "Distinct class of actions or processes that make something ready for use or service.",
     "hasNamespace": [
@@ -23313,7 +23313,7 @@
           "https://openminds.om-i.org/types/File"
         ]
       },
-      "nameForReverseLink": "isPreviewImageOf"
+      "nameForReverseLink": "isPreviewOf"
     },
     "description": null,
     "hasNamespace": [
@@ -23361,7 +23361,7 @@
           "https://openminds.om-i.org/types/Recording"
         ]
       },
-      "nameForReverseLink": "hasSubsequentRecording"
+      "nameForReverseLink": "nextRecording"
     },
     "description": null,
     "hasNamespace": [
@@ -23402,7 +23402,7 @@
           "https://openminds.om-i.org/types/AccessProcessType"
         ]
       },
-      "nameForReverseLink": "isProcessOf"
+      "nameForReverseLink": "appliesToAccessibility"
     },
     "description": null,
     "hasNamespace": [
@@ -23490,7 +23490,7 @@
           "https://openminds.om-i.org/types/ProductSource"
         ]
       },
-      "nameForReverseLink": "isProductSourceOf"
+      "nameForReverseLink": "appliesToChemicalProduct"
     },
     "description": null,
     "hasNamespace": [
@@ -23554,7 +23554,7 @@
           "https://openminds.om-i.org/types/ProgrammingLanguage"
         ]
       },
-      "nameForReverseLink": "isProgrammingLanguageOf"
+      "nameForReverseLink": "usedInSoftwareVersion"
     },
     "description": "Distinct set of instructions for computer programs in order to produce various kinds of output.",
     "hasNamespace": [
@@ -23927,7 +23927,7 @@
           "https://openminds.om-i.org/types/PublicationStatus"
         ]
       },
-      "nameForReverseLink": "isPublicationStatusOf"
+      "nameForReverseLink": "appliesToResearchProductVersion"
     },
     "description": null,
     "hasNamespace": [
@@ -23984,7 +23984,7 @@
           "https://openminds.om-i.org/types/Person"
         ]
       },
-      "nameForReverseLink": "isPublisherOf"
+      "nameForReverseLink": "published"
     },
     "description": null,
     "hasNamespace": [
@@ -24105,7 +24105,7 @@
           "https://openminds.om-i.org/types/QualitativeOverlap"
         ]
       },
-      "nameForReverseLink": "isQualitativeOverlapOf"
+      "nameForReverseLink": "appliesToAssessment"
     },
     "description": "Semantic characterization of how much two things occupy the same space.",
     "hasNamespace": [
@@ -24442,7 +24442,7 @@
           "https://openminds.om-i.org/types/SlicingDeviceUsage"
         ]
       },
-      "nameForReverseLink": "hasRecord"
+      "nameForReverseLink": "usedToRecord"
     },
     "description": null,
     "hasNamespace": [
@@ -24483,7 +24483,7 @@
           "https://openminds.om-i.org/types/AgeReference"
         ]
       },
-      "nameForReverseLink": "isReferenceOf"
+      "nameForReverseLink": "appliesToSpecimenAge"
     },
     "description": null,
     "hasNamespace": [
@@ -24738,7 +24738,7 @@
           "https://openminds.om-i.org/types/CranialWindowReinforcementType"
         ]
       },
-      "nameForReverseLink": "isReinforcementTypeOf"
+      "nameForReverseLink": "appliesToCranialWindowPreparation"
     },
     "description": null,
     "hasNamespace": [
@@ -26837,7 +26837,7 @@
           "https://openminds.om-i.org/types/SignalDirectionality"
         ]
       },
-      "nameForReverseLink": "isSignalDirectionalityOf"
+      "nameForReverseLink": "appliesToMRICoilUsage"
     },
     "description": null,
     "hasNamespace": [
@@ -27378,7 +27378,7 @@
           "https://openminds.om-i.org/types/SpatialEncoding"
         ]
       },
-      "nameForReverseLink": "isSpatialEncodingOf"
+      "nameForReverseLink": "appliesToMRIScannerUsage"
     },
     "description": null,
     "hasNamespace": [
@@ -27541,7 +27541,7 @@
           "https://openminds.om-i.org/types/FileUsageRole"
         ]
       },
-      "nameForReverseLink": "isSpecialUsageRoleOf"
+      "nameForReverseLink": "appliesToFile"
     },
     "description": "Particular function of something when it is used.",
     "hasNamespace": [
@@ -27715,7 +27715,7 @@
           "https://openminds.om-i.org/types/WebResource"
         ]
       },
-      "nameForReverseLink": "isSpecificationOf"
+      "nameForReverseLink": "specifies"
     },
     "asString": {
       "formatting": "text/plain",
@@ -27904,7 +27904,7 @@
           "https://openminds.om-i.org/types/MRISpoilingTechnique"
         ]
       },
-      "nameForReverseLink": "isSpoilingTechniqueOf"
+      "nameForReverseLink": "appliesToMRIScannerUsage"
     },
     "description": null,
     "hasNamespace": [
@@ -28272,7 +28272,7 @@
           "https://openminds.om-i.org/types/SoftwareAgent"
         ]
       },
-      "nameForReverseLink": "hasStarted"
+      "nameForReverseLink": "started"
     },
     "description": null,
     "hasNamespace": [
@@ -28354,7 +28354,7 @@
           "https://openminds.om-i.org/types/ActionStatusType"
         ]
       },
-      "nameForReverseLink": "isStatusOf"
+      "nameForReverseLink": "appliesToComputation"
     },
     "description": null,
     "hasNamespace": [
@@ -28436,7 +28436,7 @@
           "https://openminds.om-i.org/types/StimulationTechnique"
         ]
       },
-      "nameForReverseLink": "isStimulationOf"
+      "nameForReverseLink": "appliesToProtocol"
     },
     "description": null,
     "hasNamespace": [
@@ -28490,7 +28490,7 @@
           "https://openminds.om-i.org/types/EphysStimulus"
         ]
       },
-      "nameForReverseLink": "isStimulusOf"
+      "nameForReverseLink": "isStimulusFor"
     },
     "description": null,
     "hasNamespace": [
@@ -28568,7 +28568,7 @@
           "https://openminds.om-i.org/types/VisualStimulusType"
         ]
       },
-      "nameForReverseLink": "isStimulusTypeOf"
+      "nameForReverseLink": "appliesToProtocol"
     },
     "description": null,
     "hasNamespace": [
@@ -28808,7 +28808,7 @@
           "https://openminds.om-i.org/types/FileRepositoryStructure"
         ]
       },
-      "nameForReverseLink": "isStructurePatternOf"
+      "nameForReverseLink": "repository"
     },
     "description": null,
     "hasNamespace": [
@@ -28898,7 +28898,7 @@
           "https://openminds.om-i.org/types/TissueSampleState"
         ]
       },
-      "nameForReverseLink": "isStudiedSpecimenOf"
+      "nameForReverseLink": "hasStudyResultsIn"
     },
     "description": null,
     "hasNamespace": [
@@ -28984,7 +28984,7 @@
           "https://openminds.om-i.org/types/TissueSampleState"
         ]
       },
-      "nameForReverseLink": "isStudiedStateOf"
+      "nameForReverseLink": "isStateOf"
     },
     "description": "Reference to a point in time at which something or someone was studied in a particular mode or condition.",
     "hasNamespace": [
@@ -29244,7 +29244,7 @@
           "https://openminds.om-i.org/types/VisualStimulusType"
         ]
       },
-      "nameForReverseLink": "isStudyTargetOf"
+      "nameForReverseLink": "studiedIn"
     },
     "description": "Structure or function that was targeted within a study.",
     "hasNamespace": [
@@ -31002,7 +31002,7 @@
           "https://openminds.om-i.org/types/TypeOfUncertainty"
         ]
       },
-      "nameForReverseLink": "isTypeOfUncertaintyOf"
+      "nameForReverseLink": "appliesToValue"
     },
     "description": "Distinct technique used to quantify the uncertainty of a measurement.",
     "hasNamespace": [
@@ -31755,7 +31755,7 @@
           "https://openminds.om-i.org/types/PatchClampVariation"
         ]
       },
-      "nameForReverseLink": "isVariationOf"
+      "nameForReverseLink": "appliesToCellPatching"
     },
     "description": null,
     "hasNamespace": [
@@ -32417,7 +32417,7 @@
           "https://openminds.om-i.org/types/Visualization"
         ]
       },
-      "nameForReverseLink": "hasInformed"
+      "nameForReverseLink": "informed"
     },
     "description": null,
     "hasNamespace": [
