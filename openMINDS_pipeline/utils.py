@@ -10,7 +10,7 @@ from git import Repo, Git
 from packaging.utils import canonicalize_version
 from packaging.version import Version
 
-from openMINDS_pipeline.constants import SCHEMA_FILE_ENDING
+from openMINDS_pipeline.constants import SCHEMA_FILE_ENDING, KNOWN_UNMATCHED_SCHEMA_FILES
 from openMINDS_pipeline.models import Trigger, OpenMINDSModule, DirectoryStructure, SchemaStructure
 from openMINDS_pipeline.resolver import TEMPLATE_PROPERTY_TYPE
 
@@ -140,6 +140,37 @@ def _evaluate_branch_and_commit_for_dynamic_instances(module_spec:OpenMINDSModul
         latest_branch_name = semantic_to_branchname[version_numbers[0]]
         module_spec.branch = latest_branch_name
     module_spec.commit = branch_to_commit[module_spec.branch]
+
+
+def check_schema_file_names(directory_structure: DirectoryStructure, modules: Dict[str, OpenMINDSModule], version: str) -> None:
+    """
+    Check that every file in the "schemas" directory of a module can actually be found by find_schemas.
+
+    find_schemas globs for SCHEMA_FILE_ENDING, so a file which does not end in it is never processed 
+    and the type will be silently missing from the built output.
+
+    Raises a ValueError if any such misnamed files are found, unless there is a specific exception in KNOWN_UNMATCHED_SCHEMA_FILES
+    """
+    unmatched = []
+    for module in sorted(modules):
+        absolute_schema_group_src_dir = directory_structure.source_schema_directory(module)
+        if not os.path.isdir(absolute_schema_group_src_dir):
+            # A module which does not define any schemas at all, e.g. because it is not released yet
+            continue
+        module_directory = os.path.join(directory_structure.source_directory, module)
+        for root, _, file_names in os.walk(absolute_schema_group_src_dir):
+            for file_name in sorted(file_names):
+                if file_name.endswith(SCHEMA_FILE_ENDING):
+                    continue
+                relative_path = os.path.relpath(os.path.join(root, file_name), module_directory)
+                if (version, module, relative_path) in KNOWN_UNMATCHED_SCHEMA_FILES:
+                    print(f"Tolerating the known unmatched file {module}/{relative_path} of {version}")
+                else:
+                    unmatched.append(f"{module}/{relative_path}")
+    if unmatched:
+        raise ValueError(f"The following {len(unmatched)} file(s) of {version} are in a 'schemas' directory but do not "
+                         f"end in '{SCHEMA_FILE_ENDING}', which means they would be excluded from the build without "
+                         f"any warning:\n  " + "\n  ".join(sorted(unmatched)))
 
 
 def find_schemas(directory_structure: DirectoryStructure, modules: Dict[str, OpenMINDSModule], namespaces: Dict[str, str]) -> List[SchemaStructure]:
