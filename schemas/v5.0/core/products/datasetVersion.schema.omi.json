@@ -445,7 +445,7 @@
       "_formats": [
         "date"
       ],
-      "_instruction": "Enter the date (actual or intended) on which this research product version was first release, formatted as 'YYYY-MM-DD'.",
+      "_instruction": "Enter the date (actual or intended) on which this research product version was first released, formatted as 'YYYY-MM-DD'.",
       "description": "Fixed date on which a product is due to become or was made available for the general public to see or buy",
       "formatting": "text/plain",
       "label": "Release date",
@@ -479,7 +479,7 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/studiedSpecimen": {
-      "_instruction": "Add all specimens, sets of specimen or states that were studied in this dataset.",
+      "_instruction": "Add all specimens, sets of specimens or states that were studied in this dataset.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/Subject",
         "https://openminds.om-i.org/types/SubjectState",

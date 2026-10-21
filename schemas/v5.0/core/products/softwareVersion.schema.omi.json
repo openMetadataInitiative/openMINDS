@@ -61,7 +61,7 @@
       "_embeddedTypes": [
         "https://openminds.om-i.org/types/Dependency"
       ],
-      "_instruction": "Add all operating devices compatible with this software version.",
+      "_instruction": "Add all dependencies of this software version.",
       "label": "Dependency",
       "minItems": 1,
       "name": "dependency",
@@ -462,7 +462,7 @@
       "_formats": [
         "date"
       ],
-      "_instruction": "Enter the date (actual or intended) on which this research product version was first release, formatted as 'YYYY-MM-DD'.",
+      "_instruction": "Enter the date (actual or intended) on which this research product version was first released, formatted as 'YYYY-MM-DD'.",
       "description": "Fixed date on which a product is due to become or was made available for the general public to see or buy",
       "formatting": "text/plain",
       "label": "Release date",

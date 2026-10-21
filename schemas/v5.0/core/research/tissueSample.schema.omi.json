@@ -106,7 +106,7 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/origin": {
-      "_instruction": "Add the biogical origin of this tissue sample.",
+      "_instruction": "Add the biological origin of this tissue sample.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/CellType",
         "https://openminds.om-i.org/types/Organ",

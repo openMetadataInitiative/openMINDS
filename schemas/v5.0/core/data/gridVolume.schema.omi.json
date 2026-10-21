@@ -65,7 +65,7 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/numberOfPlanes": {
-      "_instruction": "Enter number of planes in this grid volume.",
+      "_instruction": "Enter the number of planes in this grid volume.",
       "label": "Number of planes",
       "name": "numberOfPlanes",
       "type": "integer"

@@ -2,6 +2,417 @@
   "title": "Release Notes latest",
   "changes": [
     {
+      "file": "computation/dataAnalysis.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:endTime._instruction"
+        },
+        {
+          "property": "properties.props:startTime._instruction"
+        }
+      ],
+      "schemaType": "DataAnalysis"
+    },
+    {
+      "file": "computation/dataCopy.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:endTime._instruction"
+        },
+        {
+          "property": "properties.props:startTime._instruction"
+        }
+      ],
+      "schemaType": "DataCopy"
+    },
+    {
+      "file": "computation/genericComputation.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:endTime._instruction"
+        },
+        {
+          "property": "properties.props:startTime._instruction"
+        }
+      ],
+      "schemaType": "GenericComputation"
+    },
+    {
+      "file": "computation/modelValidation.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:endTime._instruction"
+        },
+        {
+          "property": "properties.props:startTime._instruction"
+        }
+      ],
+      "schemaType": "ModelValidation"
+    },
+    {
+      "file": "computation/optimization.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:endTime._instruction"
+        },
+        {
+          "property": "properties.props:startTime._instruction"
+        }
+      ],
+      "schemaType": "Optimization"
+    },
+    {
+      "file": "computation/simulation.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:endTime._instruction"
+        },
+        {
+          "property": "properties.props:startTime._instruction"
+        }
+      ],
+      "schemaType": "Simulation"
+    },
+    {
+      "file": "computation/validationTestVersion.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:releaseDate._instruction"
+        }
+      ],
+      "schemaType": "ValidationTestVersion"
+    },
+    {
+      "file": "computation/visualization.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:endTime._instruction"
+        },
+        {
+          "property": "properties.props:startTime._instruction"
+        }
+      ],
+      "schemaType": "Visualization"
+    },
+    {
+      "file": "computation/workflowRecipeVersion.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:releaseDate._instruction"
+        }
+      ],
+      "schemaType": "WorkflowRecipeVersion"
+    },
+    {
+      "file": "core/actors/organization.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:digitalIdentifier._instruction"
+        }
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "file": "core/actors/person.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:digitalIdentifier._instruction"
+        },
+        {
+          "property": "properties.props:preferredName._instruction"
+        }
+      ],
+      "schemaType": "Person"
+    },
+    {
+      "file": "core/data/contentType.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:name._instruction"
+        }
+      ],
+      "schemaType": "ContentType"
+    },
+    {
+      "file": "core/data/file.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:isPartOf._instruction"
+        }
+      ],
+      "schemaType": "File"
+    },
+    {
+      "file": "core/data/fileBundle.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:groupedBy._instruction"
+        }
+      ],
+      "schemaType": "FileBundle"
+    },
+    {
+      "file": "core/data/gridVolume.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:numberOfPlanes._instruction"
+        }
+      ],
+      "schemaType": "GridVolume"
+    },
+    {
+      "file": "core/data/gridVolumeSequence.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:dimension._instruction"
+        },
+        {
+          "property": "properties.props:temporalSamplingFrequency._instruction"
+        }
+      ],
+      "schemaType": "GridVolumeSequence"
+    },
+    {
+      "file": "core/data/regularTimeSeries.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:previousRegularTimeSeries._instruction"
+        }
+      ],
+      "schemaType": "RegularTimeSeries"
+    },
+    {
+      "file": "core/miscellaneous/quantitativeValueArray.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:negativeUncertainties._instruction"
+        },
+        {
+          "property": "properties.props:positiveUncertainties._instruction"
+        }
+      ],
+      "schemaType": "QuantitativeValueArray"
+    },
+    {
+      "file": "core/products/datasetVersion.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:releaseDate._instruction"
+        },
+        {
+          "property": "properties.props:studiedSpecimen._instruction"
+        }
+      ],
+      "schemaType": "DatasetVersion"
+    },
+    {
+      "file": "core/products/hardwareProduct.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:specification._instruction"
+        }
+      ],
+      "schemaType": "HardwareProduct"
+    },
+    {
+      "file": "core/products/interfaceVersion.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:releaseDate._instruction"
+        }
+      ],
+      "schemaType": "InterfaceVersion"
+    },
+    {
+      "file": "core/products/metaDataModelVersion.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:releaseDate._instruction"
+        },
+        {
+          "property": "properties.props:serializationFormat._instruction"
+        },
+        {
+          "property": "properties.props:specificationFormat._instruction"
+        }
+      ],
+      "schemaType": "MetaDataModelVersion"
+    },
+    {
+      "file": "core/products/modelVersion.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:releaseDate._instruction"
+        }
+      ],
+      "schemaType": "ModelVersion"
+    },
+    {
+      "file": "core/products/service.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:scope._instruction"
+        }
+      ],
+      "schemaType": "Service"
+    },
+    {
+      "file": "core/products/softwareVersion.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:dependency._instruction"
+        },
+        {
+          "property": "properties.props:releaseDate._instruction"
+        }
+      ],
+      "schemaType": "SoftwareVersion"
+    },
+    {
+      "file": "core/research/protocolExecution.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:endTime._instruction"
+        },
+        {
+          "property": "properties.props:startTime._instruction"
+        }
+      ],
+      "schemaType": "ProtocolExecution"
+    },
+    {
+      "file": "core/research/subjectGroup.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:biologicalSex._instruction"
+        },
+        {
+          "property": "properties.props:species._instruction"
+        }
+      ],
+      "schemaType": "SubjectGroup"
+    },
+    {
+      "file": "core/research/subjectGroupState.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:ageCategory._instruction"
+        }
+      ],
+      "schemaType": "SubjectGroupState"
+    },
+    {
+      "file": "core/research/tissueSample.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:origin._instruction"
+        }
+      ],
+      "schemaType": "TissueSample"
+    },
+    {
+      "file": "core/research/tissueSampleCollection.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:biologicalSex._instruction"
+        },
+        {
+          "property": "properties.props:origin._instruction"
+        },
+        {
+          "property": "properties.props:species._instruction"
+        }
+      ],
+      "schemaType": "TissueSampleCollection"
+    },
+    {
+      "file": "ephys/activity/cellPatching.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:endTime._instruction"
+        },
+        {
+          "property": "properties.props:startTime._instruction"
+        }
+      ],
+      "schemaType": "CellPatching"
+    },
+    {
+      "file": "ephys/activity/electrodePlacement.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:endTime._instruction"
+        },
+        {
+          "property": "properties.props:startTime._instruction"
+        }
+      ],
+      "schemaType": "ElectrodePlacement"
+    },
+    {
+      "file": "ephys/activity/recordingActivity.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:endTime._instruction"
+        },
+        {
+          "property": "properties.props:startTime._instruction"
+        }
+      ],
+      "schemaType": "RecordingActivity"
+    },
+    {
+      "file": "neuroimaging/activity/dynamicMRIAcquisition.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:endTime._instruction"
+        },
+        {
+          "property": "properties.props:startTime._instruction"
+        }
+      ],
+      "schemaType": "DynamicMRIAcquisition"
+    },
+    {
+      "file": "neuroimaging/activity/staticMRIAcquisition.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:endTime._instruction"
+        },
+        {
+          "property": "properties.props:startTime._instruction"
+        }
+      ],
+      "schemaType": "StaticMRIAcquisition"
+    },
+    {
+      "file": "publications/livePaperVersion.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:releaseDate._instruction"
+        }
+      ],
+      "schemaType": "LivePaperVersion"
+    },
+    {
+      "file": "SANDS/atlas/anatomicalAtlasVersion.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:releaseDate._instruction"
+        }
+      ],
+      "schemaType": "AnatomicalAtlasVersion"
+    },
+    {
+      "file": "SANDS/atlas/commonCoordinateFrameworkVersion.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:releaseDate._instruction"
+        }
+      ],
+      "schemaType": "CommonCoordinateFrameworkVersion"
+    },
+    {
       "file": "SANDS/atlas/parcellationEntityVersion.schema.omi.json",
       "addedAttributes": [
         "properties.props:versionSpecification"
@@ -10,6 +421,54 @@
         "properties.props:versionInnovation"
       ],
       "schemaType": "ParcellationEntityVersion"
+    },
+    {
+      "file": "specimenPrep/activity/cranialWindowPreparation.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:endTime._instruction"
+        },
+        {
+          "property": "properties.props:startTime._instruction"
+        }
+      ],
+      "schemaType": "CranialWindowPreparation"
+    },
+    {
+      "file": "specimenPrep/activity/tissueCulturePreparation.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:endTime._instruction"
+        },
+        {
+          "property": "properties.props:startTime._instruction"
+        }
+      ],
+      "schemaType": "TissueCulturePreparation"
+    },
+    {
+      "file": "specimenPrep/activity/tissueSampleSlicing.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:endTime._instruction"
+        },
+        {
+          "property": "properties.props:startTime._instruction"
+        }
+      ],
+      "schemaType": "TissueSampleSlicing"
+    },
+    {
+      "file": "stimulation/activity/stimulationActivity.schema.omi.json",
+      "modifiedAttributes": [
+        {
+          "property": "properties.props:endTime._instruction"
+        },
+        {
+          "property": "properties.props:startTime._instruction"
+        }
+      ],
+      "schemaType": "StimulationActivity"
     }
   ]
 }

@@ -52,7 +52,7 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/biologicalSex": {
-      "_instruction": "Add the biological sex of all specimen in this set.",
+      "_instruction": "Add the biological sex of all specimens in this set.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/BiologicalSex"
       ],
@@ -128,7 +128,7 @@
       "type": "integer"
     },
     "https://openminds.om-i.org/props/origin": {
-      "_instruction": "Add the biogical origin of all tissue samples in this collection.",
+      "_instruction": "Add the biological origin of all tissue samples in this collection.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/CellType",
         "https://openminds.om-i.org/types/Organ",
@@ -145,7 +145,7 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/species": {
-      "_instruction": "Add the species and/or strain (a sub-type of a genetic variant of species) of all specimen in this set.",
+      "_instruction": "Add the species and/or strain (a sub-type of a genetic variant of species) of all specimens in this set.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/Species",
         "https://openminds.om-i.org/types/Strain"

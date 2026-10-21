@@ -1,5 +1,158 @@
 Release Notes latest:
 
+Changes in computation/dataAnalysis.schema.omi.json:
+  - Field 'properties.props:endTime._instruction' modified.
+  - Field 'properties.props:startTime._instruction' modified.
+
+Changes in computation/dataCopy.schema.omi.json:
+  - Field 'properties.props:endTime._instruction' modified.
+  - Field 'properties.props:startTime._instruction' modified.
+
+Changes in computation/genericComputation.schema.omi.json:
+  - Field 'properties.props:endTime._instruction' modified.
+  - Field 'properties.props:startTime._instruction' modified.
+
+Changes in computation/modelValidation.schema.omi.json:
+  - Field 'properties.props:endTime._instruction' modified.
+  - Field 'properties.props:startTime._instruction' modified.
+
+Changes in computation/optimization.schema.omi.json:
+  - Field 'properties.props:endTime._instruction' modified.
+  - Field 'properties.props:startTime._instruction' modified.
+
+Changes in computation/simulation.schema.omi.json:
+  - Field 'properties.props:endTime._instruction' modified.
+  - Field 'properties.props:startTime._instruction' modified.
+
+Changes in computation/validationTestVersion.schema.omi.json:
+  - Field 'properties.props:releaseDate._instruction' modified.
+
+Changes in computation/visualization.schema.omi.json:
+  - Field 'properties.props:endTime._instruction' modified.
+  - Field 'properties.props:startTime._instruction' modified.
+
+Changes in computation/workflowRecipeVersion.schema.omi.json:
+  - Field 'properties.props:releaseDate._instruction' modified.
+
+Changes in core/actors/organization.schema.omi.json:
+  - Field 'properties.props:digitalIdentifier._instruction' modified.
+
+Changes in core/actors/person.schema.omi.json:
+  - Field 'properties.props:digitalIdentifier._instruction' modified.
+  - Field 'properties.props:preferredName._instruction' modified.
+
+Changes in core/data/contentType.schema.omi.json:
+  - Field 'properties.props:name._instruction' modified.
+
+Changes in core/data/file.schema.omi.json:
+  - Field 'properties.props:isPartOf._instruction' modified.
+
+Changes in core/data/fileBundle.schema.omi.json:
+  - Field 'properties.props:groupedBy._instruction' modified.
+
+Changes in core/data/gridVolume.schema.omi.json:
+  - Field 'properties.props:numberOfPlanes._instruction' modified.
+
+Changes in core/data/gridVolumeSequence.schema.omi.json:
+  - Field 'properties.props:dimension._instruction' modified.
+  - Field 'properties.props:temporalSamplingFrequency._instruction' modified.
+
+Changes in core/data/regularTimeSeries.schema.omi.json:
+  - Field 'properties.props:previousRegularTimeSeries._instruction' modified.
+
+Changes in core/miscellaneous/quantitativeValueArray.schema.omi.json:
+  - Field 'properties.props:negativeUncertainties._instruction' modified.
+  - Field 'properties.props:positiveUncertainties._instruction' modified.
+
+Changes in core/products/datasetVersion.schema.omi.json:
+  - Field 'properties.props:releaseDate._instruction' modified.
+  - Field 'properties.props:studiedSpecimen._instruction' modified.
+
+Changes in core/products/hardwareProduct.schema.omi.json:
+  - Field 'properties.props:specification._instruction' modified.
+
+Changes in core/products/interfaceVersion.schema.omi.json:
+  - Field 'properties.props:releaseDate._instruction' modified.
+
+Changes in core/products/metaDataModelVersion.schema.omi.json:
+  - Field 'properties.props:releaseDate._instruction' modified.
+  - Field 'properties.props:serializationFormat._instruction' modified.
+  - Field 'properties.props:specificationFormat._instruction' modified.
+
+Changes in core/products/modelVersion.schema.omi.json:
+  - Field 'properties.props:releaseDate._instruction' modified.
+
+Changes in core/products/service.schema.omi.json:
+  - Field 'properties.props:scope._instruction' modified.
+
+Changes in core/products/softwareVersion.schema.omi.json:
+  - Field 'properties.props:dependency._instruction' modified.
+  - Field 'properties.props:releaseDate._instruction' modified.
+
+Changes in core/research/protocolExecution.schema.omi.json:
+  - Field 'properties.props:endTime._instruction' modified.
+  - Field 'properties.props:startTime._instruction' modified.
+
+Changes in core/research/subjectGroup.schema.omi.json:
+  - Field 'properties.props:biologicalSex._instruction' modified.
+  - Field 'properties.props:species._instruction' modified.
+
+Changes in core/research/subjectGroupState.schema.omi.json:
+  - Field 'properties.props:ageCategory._instruction' modified.
+
+Changes in core/research/tissueSample.schema.omi.json:
+  - Field 'properties.props:origin._instruction' modified.
+
+Changes in core/research/tissueSampleCollection.schema.omi.json:
+  - Field 'properties.props:biologicalSex._instruction' modified.
+  - Field 'properties.props:origin._instruction' modified.
+  - Field 'properties.props:species._instruction' modified.
+
+Changes in ephys/activity/cellPatching.schema.omi.json:
+  - Field 'properties.props:endTime._instruction' modified.
+  - Field 'properties.props:startTime._instruction' modified.
+
+Changes in ephys/activity/electrodePlacement.schema.omi.json:
+  - Field 'properties.props:endTime._instruction' modified.
+  - Field 'properties.props:startTime._instruction' modified.
+
+Changes in ephys/activity/recordingActivity.schema.omi.json:
+  - Field 'properties.props:endTime._instruction' modified.
+  - Field 'properties.props:startTime._instruction' modified.
+
+Changes in neuroimaging/activity/dynamicMRIAcquisition.schema.omi.json:
+  - Field 'properties.props:endTime._instruction' modified.
+  - Field 'properties.props:startTime._instruction' modified.
+
+Changes in neuroimaging/activity/staticMRIAcquisition.schema.omi.json:
+  - Field 'properties.props:endTime._instruction' modified.
+  - Field 'properties.props:startTime._instruction' modified.
+
+Changes in publications/livePaperVersion.schema.omi.json:
+  - Field 'properties.props:releaseDate._instruction' modified.
+
+Changes in SANDS/atlas/anatomicalAtlasVersion.schema.omi.json:
+  - Field 'properties.props:releaseDate._instruction' modified.
+
+Changes in SANDS/atlas/commonCoordinateFrameworkVersion.schema.omi.json:
+  - Field 'properties.props:releaseDate._instruction' modified.
+
 Changes in SANDS/atlas/parcellationEntityVersion.schema.omi.json:
   - Field 'properties.props:versionInnovation' removed.
   - Field 'properties.props:versionSpecification' added.
+
+Changes in specimenPrep/activity/cranialWindowPreparation.schema.omi.json:
+  - Field 'properties.props:endTime._instruction' modified.
+  - Field 'properties.props:startTime._instruction' modified.
+
+Changes in specimenPrep/activity/tissueCulturePreparation.schema.omi.json:
+  - Field 'properties.props:endTime._instruction' modified.
+  - Field 'properties.props:startTime._instruction' modified.
+
+Changes in specimenPrep/activity/tissueSampleSlicing.schema.omi.json:
+  - Field 'properties.props:endTime._instruction' modified.
+  - Field 'properties.props:startTime._instruction' modified.
+
+Changes in stimulation/activity/stimulationActivity.schema.omi.json:
+  - Field 'properties.props:endTime._instruction' modified.
+  - Field 'properties.props:startTime._instruction' modified.

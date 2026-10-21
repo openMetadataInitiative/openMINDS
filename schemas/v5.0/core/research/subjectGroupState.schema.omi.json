@@ -32,7 +32,7 @@
       "namePlural": "ages"
     },
     "https://openminds.om-i.org/props/ageCategory": {
-      "_instruction": "Add the age category of the subject in this state.",
+      "_instruction": "Add the age category of the subject group in this state.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/AgeCategory"
       ],

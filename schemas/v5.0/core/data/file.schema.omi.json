@@ -87,7 +87,7 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/isPartOf": {
-      "_instruction": "Add all file bundles in which this file instance is grouped into.",
+      "_instruction": "Add all file bundles in which this file instance is grouped.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/FileBundle"
       ],

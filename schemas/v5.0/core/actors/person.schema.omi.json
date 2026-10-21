@@ -56,7 +56,7 @@
       "_belongsToCategory": [
         "personIdentifier"
       ],
-      "_instruction": "Add all globally unique and persistent digital identifier of this person.",
+      "_instruction": "Add all globally unique and persistent digital identifiers of this person.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/GenericIdentifier",
         "https://openminds.om-i.org/types/ORCID"
@@ -94,7 +94,7 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/preferredName": {
-      "_instruction": "Enter the person\u2019s preferred way to write their name in a professional context. It is recommended to place given before family name separated by space.",
+      "_instruction": "Enter the person\u2019s preferred way to write their name in a professional context. It is recommended to place the given name before the family name, separated by a space.",
       "formatting": "text/plain",
       "label": "Preferred name",
       "multiline": false,

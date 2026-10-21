@@ -46,7 +46,7 @@
       "_belongsToCategory": [
         "organizationIdentifier"
       ],
-      "_instruction": "Add all globally unique and persistent digital identifier of this organization.",
+      "_instruction": "Add all globally unique and persistent digital identifiers of this organization.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/GenericIdentifier",
         "https://openminds.om-i.org/types/ISNI",

@@ -86,7 +86,7 @@
       "uniqueItems": true
     },
     "https://openminds.om-i.org/props/name": {
-      "_instruction": "Enter the name of this content type following a IANA.org inspired convention.",
+      "_instruction": "Enter the name of this content type following an IANA.org-inspired convention.",
       "description": "Word or phrase that constitutes the distinctive designation of a being or thing.",
       "formatting": "text/plain",
       "label": "Name",

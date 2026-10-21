@@ -350,7 +350,7 @@
       "_formats": [
         "date"
       ],
-      "_instruction": "Enter the date (actual or intended) on which this research product version was first release, formatted as 'YYYY-MM-DD'.",
+      "_instruction": "Enter the date (actual or intended) on which this research product version was first released, formatted as 'YYYY-MM-DD'.",
       "description": "Fixed date on which a product is due to become or was made available for the general public to see or buy",
       "formatting": "text/plain",
       "label": "Release date",
@@ -373,7 +373,7 @@
       "namePlural": "repositories"
     },
     "https://openminds.om-i.org/props/serializationFormat": {
-      "_instruction": "Add all content types in which (meta)data compliant with this (meta)data model version can be stored in.",
+      "_instruction": "Add all content types in which (meta)data compliant with this (meta)data model version can be stored.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/ContentType"
       ],
@@ -399,7 +399,7 @@
       "type": "string"
     },
     "https://openminds.om-i.org/props/specificationFormat": {
-      "_instruction": "Add all content types in which the schemas of this (meta)data model version are stored in.",
+      "_instruction": "Add all content types in which the schemas of this (meta)data model version are stored.",
       "_linkedTypes": [
         "https://openminds.om-i.org/types/ContentType"
       ],
